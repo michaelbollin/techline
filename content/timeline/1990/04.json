@@ -5,13 +5,13 @@
       "slug": "haskell-1-0-report",
       "date": "1990-04-01",
       "datePrecision": "day",
-      "title": "Haskell 1.0 Report published",
-      "summary": "The Haskell Committee published Version 1.0 of the Haskell Report on April 1, 1990 — a standard lazy functional language.",
-      "about": "Haskell is a purely functional language — no mutable variables by default, lazy evaluation, and strong static types. Used in academia, fintech (standardized derivatives pricing), and as the inspiration for features in Rust, Scala, and Swift. GHC (Glasgow Haskell Compiler) became the reference implementation for research and production.",
+      "title": "Haskell language published",
+      "summary": "On April 1, 1990, the Haskell Committee published version 1.0 — a standard functional language built around mathematical-style programming.",
+      "about": "Haskell treats programs as expressions rather than step-by-step mutations — popular in academia, quantitative finance, and as a testbed for language ideas that later appeared in Rust, Scala, and Swift. Its main compiler, GHC, became the reference for research and production Haskell.",
       "narrative": {
-        "whyChosen": "Haskell unified a fragmented lazy-FP landscape into one teachable, research-friendly language.",
-        "whyImportant": "It popularized type classes, monads, and lazy evaluation — ideas that spread into mainstream languages.",
-        "problemSolved": "Dozens of incompatible lazy functional languages existed; the community needed one common design."
+        "whyChosen": "Haskell unified many competing research languages into one teachable, widely studied design.",
+        "whyImportant": "It popularized powerful type and abstraction ideas that later spread into mainstream languages.",
+        "problemSolved": "Dozens of incompatible functional research languages existed; the community needed one common design to build tools and textbooks around."
       },
       "category": "software",
       "tags": ["haskell", "functional-programming", "lazy-evaluation", "programming-language"],

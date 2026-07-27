@@ -5,13 +5,13 @@
       "slug": "cpp11-standard",
       "date": "2011-09-01",
       "datePrecision": "day",
-      "title": "C++11 standard published (ISO/IEC 14882:2011)",
+      "title": "C++11 standardized",
       "summary": "ISO/IEC 14882:2011 was published on September 1, 2011 — the C++11 standard with auto, lambdas, move semantics, and smart pointers.",
-      "about": "C++11 modernized the language after a 13-year gap: `auto`, range-for, `std::thread`, `unique_ptr`/`shared_ptr`, lambdas, and rvalue references. Code that once needed Boost can now use the standard library. Most new C++ today is written in C++11 dialect or later.",
+      "about": "C++11 was the first major C++ update in 13 years. It added `auto`, range-for loops, lambdas, threads, and smart pointers (`unique_ptr`, `shared_ptr`) — so everyday code needed less boilerplate and fewer manual `delete` calls. Most C++ written today uses C++11 or later.",
       "narrative": {
-        "whyChosen": "C++11 is the biggest leap in C++ since templates — it changed how everyday C++ is written.",
-        "whyImportant": "Move semantics and smart pointers fixed memory-management patterns; lambdas and auto reduced boilerplate across the ecosystem.",
-        "problemSolved": "C++98/03 felt dated next to Java and C#; developers needed modern abstractions without giving up performance."
+        "whyChosen": "C++ had barely changed since 1998 while Java and C# kept adding modern features. C++11 was the catch-up release that made the language feel current again.",
+        "whyImportant": "Developers spent less time fighting the language: `auto` removed repetitive type names, lambdas made callbacks readable, and smart pointers caught memory bugs at compile time instead of in production crashes.",
+        "problemSolved": "C++98 code felt verbose and error-prone next to newer languages — especially around memory management and threading. Teams wanted modern conveniences without giving up C++'s speed."
       },
       "category": "software",
       "tags": ["cpp", "iso", "standard", "modern-cpp", "programming-language"],

@@ -5,7 +5,7 @@
       "slug": "laravel-symfony-http-foundation",
       "date": "2012-05-22",
       "datePrecision": "day",
-      "title": "Laravel 3.2 adopts Symfony HttpFoundation",
+      "title": "Laravel 3.2 released",
       "summary": "Laravel migrated core request/response handling to Symfony's HttpFoundation component.",
       "about": "Instead of maintaining its own HTTP layer, Laravel adopted Symfony's battle-tested request/response objects. For developers: handling cookies, headers, and responses works the same way across Symfony, Laravel, and other PHP tools — less duplicated code in the PHP ecosystem.",
       "narrative": {

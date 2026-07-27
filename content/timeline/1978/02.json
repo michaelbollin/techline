@@ -5,7 +5,7 @@
       "slug": "c-k-and-r-published",
       "date": "1978-02-22",
       "datePrecision": "day",
-      "title": "The C Programming Language (K&R) published",
+      "title": "The C Programming Language book published",
       "summary": "Kernighan and Ritchie's book became the de facto C language definition for over a decade.",
       "about": "The book taught C as the language of Unix systems programming — writing shells, utilities, drivers, and portable tools. Sample programs in the book (hello world, parsers, small utilities) became how a generation learned to code close to the metal.",
       "narrative": {

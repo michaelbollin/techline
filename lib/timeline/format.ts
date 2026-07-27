@@ -35,8 +35,15 @@ export function formatBucketLabel(year: number, month: number | null): string {
   });
 }
 
-export function eventPath(slug: string): string {
-  return `/timeline/${slug}`;
+export function eventPath(slug: string, options?: { filterPathKey?: string }): string {
+  const base = `/timeline/${slug}`;
+  const filterPathKey = options?.filterPathKey?.trim();
+
+  if (!filterPathKey) {
+    return base;
+  }
+
+  return `${base}?from=${encodeURIComponent(filterPathKey)}`;
 }
 
 export function categoryLabel(category: TimelineEvent["category"]): string {

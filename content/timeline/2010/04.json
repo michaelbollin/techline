@@ -37,12 +37,12 @@
       "date": "2010-04-12",
       "datePrecision": "day",
       "title": "F# 2.0 shipped with Visual Studio 2010",
-      "summary": "Microsoft shipped F# 2.0 on April 12, 2010 — a functional-first language for .NET, productized after years at Microsoft Research.",
-      "about": "F# combines ML-style functional programming with .NET interop — pattern matching, immutable data, async workflows, and units of measure. Used in quantitative finance, data science, and Azure services. Don Syme's design influenced C# features like LINQ and async/await.",
+      "summary": "On April 12, 2010, Microsoft shipped F# 2.0 with Visual Studio 2010 — a functional-first language for .NET, ready for production teams.",
+      "about": "F# combines functional programming (immutable data, pattern matching) with full access to .NET libraries. Used in quantitative finance, data science, and Azure services. Several features Don Syme pioneered in F# later appeared in C#, including LINQ-style data queries and async/await.",
       "narrative": {
-        "whyChosen": "F# brought industrial-strength functional programming to the .NET mainstream.",
-        "whyImportant": "It proved FP could ship in Visual Studio alongside C# and VB for production teams.",
-        "problemSolved": "ML-family languages lacked .NET libraries and enterprise tooling; researchers needed a pragmatic FP on the CLR."
+        "whyChosen": "F# brought industrial-strength functional programming into Visual Studio alongside C# and VB.",
+        "whyImportant": "It proved functional programming could ship in enterprise tooling, not just research prototypes.",
+        "problemSolved": "Functional languages lacked .NET libraries and enterprise IDE support; researchers needed a practical FP on Microsoft's platform."
       },
       "category": "software",
       "tags": ["fsharp", "dotnet", "microsoft", "functional-programming", "programming-language"],

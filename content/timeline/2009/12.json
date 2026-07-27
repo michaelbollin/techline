@@ -5,13 +5,13 @@
       "slug": "ecmascript-5-adopted",
       "date": "2009-12-03",
       "datePrecision": "day",
-      "title": "ECMAScript 5 standard adopted (ECMA-262 5th edition)",
-      "summary": "Ecma approved ECMA-262 5th edition on December 3, 2009 — adding strict mode, JSON, and getters/setters to JavaScript.",
-      "about": "ES5 bridged the long gap between ES3 and ES2015. Strict mode (`\"use strict\"`) caught common bugs; native `JSON.parse`/`stringify` replaced libraries; getters and setters enabled cleaner object APIs. It was the foundation jQuery-era code built on before transpilers made ES6 mainstream.",
+      "title": "JavaScript ES5 standardized",
+      "summary": "On December 3, 2009, the ES5 standard was adopted — adding strict mode, built-in JSON support, and safer object handling to JavaScript.",
+      "about": "ES5 was the first major JavaScript update in ten years. Strict mode (`\"use strict\"`) caught common bugs; built-in `JSON.parse` and `JSON.stringify` replaced third-party libraries; getters and setters enabled cleaner APIs. It was what jQuery-era websites ran on before modern JavaScript (ES6) became mainstream.",
       "narrative": {
-        "whyChosen": "ES5 was the first major JavaScript update in ten years and fixed real-world browser inconsistencies.",
-        "whyImportant": "Strict mode and JSON support made large client-side codebases safer without waiting for ES2015.",
-        "problemSolved": "The abandoned ES4 effort left the language frozen; ES5 delivered practical improvements browsers could ship quickly."
+        "whyChosen": "ES5 was the first meaningful JavaScript update in a decade and fixed real inconsistencies between browsers.",
+        "whyImportant": "Developers could parse JSON natively and write stricter, less buggy code — without waiting years for the bigger ES6 overhaul.",
+        "problemSolved": "A failed ES4 rewrite had frozen the language; browsers and developers needed practical improvements they could ship now."
       },
       "category": "software",
       "tags": ["javascript", "ecmascript", "es5", "standard"],

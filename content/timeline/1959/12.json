@@ -5,13 +5,13 @@
       "slug": "cobol-specifications-submitted",
       "date": "1959-12-17",
       "datePrecision": "day",
-      "title": "COBOL specifications submitted",
-      "summary": "The CODASYL short-range committee submitted the first COBOL language specifications for business data processing.",
+      "title": "COBOL language finalized",
+      "summary": "In December 1959, a committee of government and industry experts finalized COBOL — a business programming language meant to work on any mainframe.",
       "about": "COBOL was for business records on mainframes — readable English-like syntax for payroll, banking, insurance, and government systems. Example jobs: processing millions of transactions, printing statements, and batch reporting. A large share of global financial back-office code still runs on COBOL.",
       "narrative": {
-        "whyChosen": "COBOL standardized how industries described business logic in portable, readable programs.",
-        "whyImportant": "DoD pressure made COBOL available across vendors, proving cross-machine business languages could work.",
-        "problemSolved": "Every manufacturer had incompatible data-processing languages; COBOL aimed for one common business language."
+        "whyChosen": "COBOL gave banks, insurers, and government agencies one readable language for payroll, billing, and record-keeping — instead of a different dialect on every computer.",
+        "whyImportant": "U.S. defense procurement pushed vendors to support it, proving a shared business language could run across competing hardware.",
+        "problemSolved": "Every computer maker had its own data-processing language; businesses couldn't move software between machines."
       },
       "category": "software",
       "tags": [

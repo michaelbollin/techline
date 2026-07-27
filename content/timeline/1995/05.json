@@ -5,7 +5,7 @@
       "slug": "javascript-mocha-prototype",
       "date": "1995-05",
       "datePrecision": "month",
-      "title": "JavaScript (Mocha) prototyped at Netscape",
+      "title": "JavaScript prototyped at Netscape",
       "summary": "Brendan Eich built the first Mocha prototype in ten days in May 1995 for scriptable web pages in Netscape Navigator.",
       "about": "JavaScript runs inside the web browser to make pages interactive — validate a form before submit, swap menu tabs, fetch data without reloading. Today it also powers servers (Node.js), mobile apps (React Native), and most front-end frameworks. In 1995 it was mainly: buttons, alerts, and simple page behavior.",
       "narrative": {

@@ -5,13 +5,13 @@
       "slug": "fortran-77-standard",
       "date": "1978-04-03",
       "datePrecision": "day",
-      "title": "FORTRAN 77 standard approved (ANSI X3.9-1978)",
-      "summary": "ANSI approved the FORTRAN 77 standard on April 3, 1978 — the revision that introduced structured control flow to scientific computing.",
-      "about": "FORTRAN 77 added `IF`/`ELSE`, `DO` loops with `END DO`, and character strings — making large scientific codebases maintainable. It became the baseline for decades of HPC, weather models, and engineering simulation. Many legacy `.f77` files still run in production clusters.",
+      "title": "FORTRAN 77 standardized",
+      "summary": "On April 3, 1978, ANSI approved FORTRAN 77 — a standard version that added modern control flow to the dominant scientific language.",
+      "about": "FORTRAN 77 added if/else branches, clearer loops, and text handling — making large scientific programs easier to read and maintain. It became the baseline for weather models, engineering simulation, and supercomputing for decades. Much legacy scientific code still targets this version.",
       "narrative": {
-        "whyChosen": "FORTRAN 77 is the standard most programmers mean when they say 'classic Fortran' before the 90 rewrite.",
-        "whyImportant": "It brought structured programming to the dominant scientific language without breaking the formula-centric style researchers relied on.",
-        "problemSolved": "FORTRAN 66 lacked modern control structures; portable scientific code needed a stable, vendor-neutral revision."
+        "whyChosen": "FORTRAN 77 is what most people mean by 'classic Fortran' — the version that ran on supercomputers for a generation.",
+        "whyImportant": "It brought readable program structure to scientific computing without breaking the formula-first style researchers already relied on.",
+        "problemSolved": "Older Fortran lacked modern control structures, and teams needed one stable definition that worked the same on every vendor's compiler."
       },
       "category": "software",
       "tags": ["fortran", "ansi", "standard", "scientific-computing"],

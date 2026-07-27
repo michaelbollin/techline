@@ -4,11 +4,13 @@ import { notFound } from "next/navigation";
 
 import { EventDetail } from "@/components/timeline/event-detail";
 import { formatEventDate } from "@/lib/timeline/format";
+import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import { getTimeline } from "@/lib/timeline/get-timeline";
 import { getEventById } from "@/lib/timeline/load";
 
 type EventPageProps = {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ from?: string }>;
 };
 
 export async function generateStaticParams() {
@@ -36,8 +38,10 @@ export async function generateMetadata({ params }: EventPageProps): Promise<Meta
   };
 }
 
-export default async function EventPage({ params }: EventPageProps) {
+export default async function EventPage({ params, searchParams }: EventPageProps) {
   const { slug } = await params;
+  const { from } = await searchParams;
+  const timelineHref = timelinePathFromFilterSegment(from);
   const { events } = await getTimeline();
   const event = events.find((item) => item.slug === slug);
 
@@ -52,7 +56,7 @@ export default async function EventPage({ params }: EventPageProps) {
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
       <Link
-        href="/"
+        href={timelineHref}
         className="mb-8 inline-flex items-center gap-2 text-sm text-muted hover:text-foreground"
       >
         ← Back to timeline

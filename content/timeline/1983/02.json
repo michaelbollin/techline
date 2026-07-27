@@ -5,13 +5,13 @@
       "slug": "ada-83-standard",
       "date": "1983-02-17",
       "datePrecision": "day",
-      "title": "Ada 83 standard approved (ANSI/MIL-STD-1815A)",
-      "summary": "ANSI approved the Ada 83 reference manual on February 17, 1983 — the DoD-mandated language for safety-critical systems.",
-      "about": "Ada was designed for avionics, defense, and embedded systems — strong typing, tasks (concurrency), exceptions, and packages for large-team engineering. Boeing, Airbus, and military contractors still maintain millions of lines of Ada. Spark Ada adds formal verification for code that must not fail.",
+      "title": "Ada language standardized",
+      "summary": "On February 17, 1983, ANSI approved Ada — a language the U.S. Defense Department required for safety-critical software like aircraft and weapons systems.",
+      "about": "Ada was built for large, high-reliability projects — avionics, defense, and embedded control. It enforced strict typing, organized code into modules, and supported running multiple tasks safely in parallel. Boeing, Airbus, and military contractors still maintain millions of lines of Ada where failure is not an option.",
       "narrative": {
-        "whyChosen": "Ada 83 was the first language standardized under a rigorous DoD procurement mandate.",
-        "whyImportant": "It proved a language could be engineered for reliability and maintainability at government scale.",
-        "problemSolved": "DoD projects used hundreds of incompatible languages; the Steelman requirements demanded one portable, verifiable standard."
+        "whyChosen": "Ada was the first programming language standardized under a strict government procurement mandate — reliability was the goal, not speed of hacking.",
+        "whyImportant": "It proved that a language could be designed upfront for safety and long-term maintenance on huge government-scale projects.",
+        "problemSolved": "Defense projects used hundreds of incompatible languages and tools; the Pentagon wanted one portable standard every contractor could be required to use."
       },
       "category": "software",
       "tags": ["ada", "ansi", "dod", "safety-critical", "programming-language"],

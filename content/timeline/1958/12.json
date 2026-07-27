@@ -5,13 +5,13 @@
       "slug": "algol-58-published",
       "date": "1958-12-01",
       "datePrecision": "day",
-      "title": "ALGOL 58 preliminary report published",
-      "summary": "Perlis and Samelson published the International Algebraic Language report in Communications of the ACM — later known as ALGOL 58.",
-      "about": "ALGOL was designed as a portable algorithm notation for publishing and sharing programs across different computers. It influenced Pascal, C, and virtually every block-structured language that followed. Researchers used it to describe algorithms in journals without tying them to one machine's assembly code.",
+      "title": "ALGOL 58 language defined",
+      "summary": "Researchers published ALGOL 58 in December 1958 — the first widely shared way to write algorithms so they could be read and reused on different computers.",
+      "about": "Before ALGOL, every computer had its own notation. ALGOL gave scientists and textbook authors one common style for describing programs — the ancestor of how we still write pseudocode and structured code in Pascal, C, and many modern languages.",
       "narrative": {
-        "whyChosen": "ALGOL 58 was the first major international effort to standardize how algorithms were written in print and code.",
-        "whyImportant": "It established block structure, BNF-style rigor, and machine-independent thinking that shaped language design for decades.",
-        "problemSolved": "Every computer had its own notation; scientists needed a common language to publish and compare algorithms."
+        "whyChosen": "Scientists were publishing algorithms in incompatible notations — you couldn't easily compare or reuse work across labs and countries.",
+        "whyImportant": "It showed that programming ideas could be written in a standard, readable form instead of being tied to one machine's assembly code.",
+        "problemSolved": "There was no shared language for describing algorithms in journals and textbooks; every computer vendor used its own syntax."
       },
       "category": "software",
       "tags": ["algol", "programming-language", "acm", "international-standard"],

@@ -5,13 +5,13 @@
       "slug": "b-language-created",
       "date": "1969",
       "datePrecision": "year",
-      "title": "B programming language created at Bell Labs",
-      "summary": "Ken Thompson developed B circa 1969 as a typeless systems language derived from BCPL for early Unix on the PDP-7.",
-      "about": "B was the stepping stone between BCPL and C — word-oriented, minimal, meant for Unix kernel and tool development on memory-constrained PDP machines. Thompson wrote the first B compiler after Fortran proved too heavy for the PDP-7. Dennis Ritchie then evolved B into C by adding types.",
+      "title": "Unix language before C created",
+      "summary": "Around 1969, Ken Thompson created the B language at Bell Labs — a minimal stepping stone between BCPL and C for early Unix development.",
+      "about": "B was a small language for writing Unix kernel code and utilities on memory-limited minicomputers. Thompson built its compiler after finding FORTRAN too bulky for the hardware. Dennis Ritchie then added data types and turned B into C — the language that still underpins operating systems worldwide.",
       "narrative": {
-        "whyChosen": "Unix needed a systems language lighter than Fortran; B was the experiment that proved the approach before C added types.",
-        "whyImportant": "B established the BCPL→B→C lineage that defines systems programming to this day.",
-        "problemSolved": "PDP-7 had tiny memory; Multics-era languages were too large to compile or run on the new Unix hardware."
+        "whyChosen": "Unix needed a lightweight language for systems work; B was the experiment that proved the approach before C added proper types.",
+        "whyImportant": "B established the BCPL → B → C lineage that defines how operating systems and device drivers are still written.",
+        "problemSolved": "The PDP-7 had very little memory, and existing languages were too large to compile or run on the new Unix hardware."
       },
       "category": "software",
       "tags": ["b-language", "unix", "bell-labs", "thompson", "programming-language"],

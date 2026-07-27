@@ -5,13 +5,13 @@
       "slug": "cpp-templates-cfront-3",
       "date": "1991-10",
       "datePrecision": "month",
-      "title": "Cfront 3.0 adds templates to C++",
+      "title": "C++ gains templates",
       "summary": "AT&T's Cfront 3.0 release was the first C++ compiler to support templates, enabling generic programming in production code.",
-      "about": "Templates let one C++ function or class work with many types — e.g. a generic `vector<int>` or `vector<string>` without copy-pasting code. This became the basis for the STL and modern C++ library design (sort, map, smart pointers).",
+      "about": "Templates let you write one piece of code that works with many types — a single `sort()` for integers and strings, or one `vector` class instead of separate `IntVector` and `StringVector` copies. This idea became the foundation for C++'s standard library (`vector`, `map`, `sort`).",
       "narrative": {
-        "whyChosen": "Templates unlocked the STL era and changed how C++ libraries were designed.",
-        "whyImportant": "Generic containers and algorithms became possible without sacrificing performance.",
-        "problemSolved": "Developers duplicated type-specific code or used void pointers; templates provided compile-time polymorphism."
+        "whyChosen": "Before templates, C++ libraries were either copy-pasted for every data type or written with unsafe void pointers. Templates made reusable, type-safe libraries practical.",
+        "whyImportant": "Developers could ship one generic container or algorithm and reuse it across their whole codebase — with no runtime performance penalty.",
+        "problemSolved": "Every time you needed a list of a new type, you rewrote the same linked-list or sort logic from scratch. Templates let you write it once and instantiate it for any type."
       },
       "category": "software",
       "tags": [

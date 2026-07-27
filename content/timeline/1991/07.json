@@ -5,13 +5,13 @@
       "slug": "fortran-90-standard",
       "date": "1991-07-01",
       "datePrecision": "day",
-      "title": "Fortran 90 standard published (ISO/IEC 1539:1991)",
-      "summary": "ISO/IEC 1539:1991 was published on July 1, 1991 — the Fortran 90 standard with modules, array syntax, and dynamic memory.",
-      "about": "Fortran 90 added modules, array operations, `ALLOCATABLE`, and free-form source — a major modernization for numerical computing. Scientists could write `A = B + C` on whole arrays instead of nested loops. Modern Fortran (2003, 2008, 2018) builds on this foundation.",
+      "title": "Fortran 90 standardized",
+      "summary": "In July 1991, the Fortran 90 standard was published — the first major modernization of Fortran since 1977, with reusable code modules and whole-array math.",
+      "about": "Fortran 90 let scientists write `A = B + C` on entire arrays instead of hand-written loops, and organize code into reusable modules. It kept Fortran dominant on supercomputers while borrowing ideas from newer languages. Modern Fortran (2003, 2008, 2018) builds on this foundation.",
       "narrative": {
-        "whyChosen": "Fortran 90 was the first major rewrite since 1977 — array syntax and modules changed how HPC code was structured.",
-        "whyImportant": "It kept Fortran dominant in supercomputing while absorbing ideas from other languages (modules, recursion, interfaces).",
-        "problemSolved": "FORTRAN 77 could not express modern numerical algorithms cleanly; researchers needed array-level operations and reusable modules."
+        "whyChosen": "Fortran 90 was the first big rewrite in fourteen years — array-style math and modules changed how large scientific programs were organized.",
+        "whyImportant": "It kept Fortran the default on supercomputers while making code shorter and easier to share across research teams.",
+        "problemSolved": "FORTRAN 77 couldn't express modern numerical algorithms cleanly; researchers needed array-level operations and reusable libraries."
       },
       "category": "software",
       "tags": ["fortran", "iso", "standard", "scientific-computing"],

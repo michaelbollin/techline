@@ -5,13 +5,13 @@
       "slug": "cpp98-standard",
       "date": "1998-09-01",
       "datePrecision": "day",
-      "title": "C++98 standard published (ISO/IEC 14882:1998)",
+      "title": "C++98 standardized",
       "summary": "ISO/IEC 14882:1998 was published on September 1, 1998 — the first international standard for C++.",
-      "about": "C++98 codified the language Stroustrup built — classes, templates, exceptions, the STL (`vector`, `string`, `map`), and RAII. It is the baseline every C++ compiler still supports. Game engines, browsers, databases, and trading systems run on C++98-and-later semantics.",
+      "about": "C++98 was the first official rulebook for C++. It gave every developer the same built-in toolbox — `vector` for lists, `string` for text, `map` for lookups — and guaranteed they behave the same whether you compile on Windows, Mac, or Linux. Game engines, browsers, databases, and trading floors all rely on this baseline today.",
       "narrative": {
-        "whyChosen": "C++98 turned a decade of vendor dialects into one normative language with a standard library.",
-        "whyImportant": "The STL and standard semantics made C++ a portable systems language with a rich generic library.",
-        "problemSolved": "Pre-standard C++ varied between compilers; large projects needed a single definition and a common library."
+        "whyChosen": "Before 1998, each compiler vendor (Microsoft, Borland, GNU) had its own twist on C++. This was the moment everyone agreed on one official version — with a shared standard library bundled in.",
+        "whyImportant": "Developers could share libraries and tutorials without guessing which compiler their audience used. Instead of every team reinventing linked lists and hash tables, everyone got the same ready-made containers in `#include <vector>` and `#include <map>`.",
+        "problemSolved": "Your C++ code might compile perfectly in Visual Studio and fail in GCC — or vice versa — because the language wasn't fixed. Big projects (games, banks, browsers) needed one definition they could trust across machines and vendors."
       },
       "category": "software",
       "tags": ["cpp", "iso", "standard", "stl", "programming-language"],

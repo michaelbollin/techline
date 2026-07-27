@@ -37,12 +37,12 @@
       "date": "2016-02-08",
       "datePrecision": "day",
       "title": "Zig programming language announced",
-      "summary": "Andrew Kelley introduced Zig on February 8, 2016 — a systems language aiming to be a pragmatic, safer alternative to C with full C ABI compatibility.",
-      "about": "Zig targets bare-metal, games, and compilers — manual memory, comptime execution, and no hidden control flow. It ships with a build system and cross-compilation toolchain. Developers reach for it when C's footguns and C++ complexity are too costly but Rust's borrow checker is too strict.",
+      "summary": "On February 8, 2016, Andrew Kelley introduced Zig — a systems language aiming to be a simpler, safer alternative to C.",
+      "about": "Zig targets low-level work — games, operating systems, compilers — with explicit memory control, compile-time code execution, and no hidden runtime surprises. It ships with a built-in build system and cross-compilation. Developers reach for it when C's bugs and C++'s complexity are too costly, but Rust's strict rules feel too restrictive.",
       "narrative": {
-        "whyChosen": "Zig reframed systems programming around explicit allocators, comptime, and C interop without a runtime.",
-        "whyImportant": "It renewed interest in simple systems languages and influenced how newer toolchains think about builds and cross-compilation.",
-        "problemSolved": "Kelley hit friction integrating C libraries in Go, memory bugs in C++, and Rust's learning curve while building a DAW."
+        "whyChosen": "Zig reframed systems programming around explicit memory, simple builds, and easy C library integration.",
+        "whyImportant": "It renewed interest in small systems languages and influenced how newer toolchains handle builds and cross-compilation.",
+        "problemSolved": "Kelley hit friction integrating C libraries in Go, memory bugs in C++, and Rust's learning curve while building audio software."
       },
       "category": "software",
       "tags": ["zig", "systems", "c", "programming-language"],

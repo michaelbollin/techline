@@ -5,13 +5,13 @@
       "slug": "simula-67-presented",
       "date": "1967-05",
       "datePrecision": "month",
-      "title": "Simula 67 classes presented at IFIP",
-      "summary": "Dahl and Nygaard presented class and subclass declarations at the IFIP Working Conference on Simulation Languages in Oslo.",
-      "about": "Simula 67 introduced objects, classes, inheritance, and late binding — the concepts behind object-oriented programming. Originally built for discrete-event simulation (queues, factories, traffic), it became the direct ancestor of C++, Smalltalk, Java, and Python's class model.",
+      "title": "Object-oriented programming invented",
+      "summary": "In May 1967, Ole-Johan Dahl and Kristen Nygaard presented classes and inheritance at a simulation conference in Oslo — the birth of object-oriented programming.",
+      "about": "Simula 67 bundled data and behavior into reusable 'objects' that could inherit from each other — the ideas behind C++, Java, Python classes, and most modern app design. It was built to model real-world systems like factory queues and traffic, but the object model outlived simulation.",
       "narrative": {
-        "whyChosen": "This is the birth moment of object-oriented programming as a language feature, not just a design pattern.",
-        "whyImportant": "Classes unified data and behavior; inheritance let models share structure — ideas every modern language copied.",
-        "problemSolved": "Simulation programs needed reusable, composable models of real-world entities without duplicating code for each scenario."
+        "whyChosen": "This is the moment object-oriented programming became a language feature — not just a design pattern in someone's head.",
+        "whyImportant": "Classes let developers model real things (accounts, vehicles, users) once and reuse that structure everywhere — every major language copied this.",
+        "problemSolved": "Simulation software needed reusable models of entities (customers, machines, vehicles) without rewriting the same logic for every project."
       },
       "category": "software",
       "tags": ["simula", "oop", "simulation", "programming-language"],

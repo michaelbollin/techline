@@ -52,13 +52,13 @@
       "slug": "prolog-first-implementation",
       "date": "1972",
       "datePrecision": "year",
-      "title": "First Prolog interpreter at University of Marseille",
-      "summary": "Alain Colmerauer and Philippe Roussel implemented the first Prolog in fall 1972 — logic programming as Horn-clause theorem proving with backtracking.",
-      "about": "Prolog programs are facts and rules; the engine searches for proofs by unification and backtracking. Used in expert systems, natural-language tools, and symbolic AI. SWI-Prolog, GNU Prolog, and Warren's WAM influenced compiler design far beyond logic programming.",
+      "title": "Prolog language created",
+      "summary": "In fall 1972, Alain Colmerauer and Philippe Roussel built the first Prolog — a language where you state facts and rules, and the computer searches for answers.",
+      "about": "In Prolog you write what is true ('Bob is a parent of Ann') and what rules follow ('a grandparent is a parent of a parent'), then ask questions ('Who are Ann's grandparents?'). The engine finds answers by searching possibilities. It powered expert systems, language tools, and AI research, and influenced how later languages handle automated reasoning.",
       "narrative": {
-        "whyChosen": "Prolog was the first widely used logic programming language and parent of most modern Prolog systems.",
-        "whyImportant": "It showed declarative rules could drive real applications — from machine translation research to industrial expert systems.",
-        "problemSolved": "Colmerauer's team needed one engine for both natural-language parsing and automated reasoning without separate theorem provers."
+        "whyChosen": "Prolog was the first widely used language where you describe problems as logic instead of step-by-step instructions.",
+        "whyImportant": "It showed that rule-based, declarative programs could run real applications — from language research to industrial expert systems.",
+        "problemSolved": "Colmerauer's team needed one tool for both parsing human language and automated reasoning, without building separate custom engines for each."
       },
       "category": "software",
       "tags": ["prolog", "logic-programming", "ai", "marseille", "programming-language"],

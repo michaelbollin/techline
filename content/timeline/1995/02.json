@@ -6,12 +6,12 @@
       "date": "1995-02-14",
       "datePrecision": "day",
       "title": "Borland Delphi 1.0 launched",
-      "summary": "Borland launched Delphi 1.0 on February 14, 1995 at Software Development West — a visual Pascal IDE with native Windows GUI compilation.",
-      "about": "Delphi combined Object Pascal with a drag-and-drop form designer and fast native x86 code — the go-to tool for Windows desktop apps in the 1990s. Database grids, reporting tools, and line-of-business software shipped by the thousands. Anders Hejlsberg's team later moved to Microsoft and shaped C#.",
+      "summary": "On February 14, 1995, Borland launched Delphi 1.0 — a drag-and-drop Windows app builder that compiled to fast native programs.",
+      "about": "Delphi combined Pascal with a visual form designer: drag buttons and grids onto a window, double-click to write code, compile to a fast Windows .exe. Thousands of business apps — database screens, reporting tools, inventory systems — were built with it in the 1990s. Anders Hejlsberg's team later moved to Microsoft and shaped C#.",
       "narrative": {
-        "whyChosen": "Delphi proved rapid application development could compile to fast native Windows binaries, not just interpreted BASIC.",
-        "whyImportant": "It kept Pascal relevant for a decade of GUI development and influenced later RAD tools and C#.",
-        "problemSolved": "Windows developers wanted Visual Basic ease with C++-class performance and a real component model."
+        "whyChosen": "Delphi proved you could build Windows apps as quickly as Visual Basic but get C++-class speed in the finished program.",
+        "whyImportant": "It kept Pascal alive for a decade of GUI development and influenced later rapid-development tools and C#.",
+        "problemSolved": "Windows developers wanted Visual Basic's ease of building screens, but needed faster runtimes and reusable UI components for serious business software."
       },
       "category": "software",
       "tags": ["delphi", "borland", "pascal", "windows", "ide", "programming-language"],

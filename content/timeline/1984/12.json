@@ -5,8 +5,8 @@
       "slug": "matlab-1-0-debut",
       "date": "1984-12",
       "datePrecision": "month",
-      "title": "PC-MATLAB 1.0 debuts at IEEE CDC",
-      "summary": "MathWorks introduced PC-MATLAB in December 1984 at the IEEE Conference on Decision and Control in Las Vegas — the first commercial MATLAB product.",
+      "title": "MATLAB debuts",
+      "summary": "MathWorks launched the first commercial MATLAB in December 1984 — an interactive tool for engineers to crunch matrices and plot results on a PC.",
       "about": "MATLAB is built around matrices and vectors — engineers run simulations, plot data, and prototype control systems without writing low-level loops. Used in aerospace, automotive, finance, and academia. Simulink extends it for model-based design.",
       "narrative": {
         "whyChosen": "PC-MATLAB turned Cleve Moler's matrix hobby into the dominant numerical computing environment for engineers.",

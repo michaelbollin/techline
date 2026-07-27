@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Erlang/OTP released as open source",
       "summary": "Ericsson released Erlang/OTP as open source on December 8, 1998 — a language built for fault-tolerant telecom switches.",
-      "about": "Erlang uses lightweight processes, message passing, and \"let it crash\" supervision trees — designed for 99.999% uptime on phone switches. WhatsApp, RabbitMQ, and CouchDB used Erlang for massive concurrency. Elixir runs on the same BEAM VM with a friendlier syntax.",
+      "about": "Erlang runs many lightweight processes that talk by passing messages, and restarts failed parts automatically instead of crashing the whole system — designed for 99.999% uptime on telecom equipment. WhatsApp, RabbitMQ, and CouchDB used Erlang for massive concurrency. Elixir runs on the same runtime with a friendlier syntax.",
       "narrative": {
-        "whyChosen": "Erlang pioneered actor-model concurrency and fault tolerance decades before microservices.",
-        "whyImportant": "Open-sourcing spread OTP beyond Ericsson and enabled the BEAM ecosystem (Elixir, Gleam).",
-        "problemSolved": "Telecom switches needed soft real-time reliability; shared-memory threads and locks could not meet uptime requirements."
+        "whyChosen": "Erlang pioneered fault-tolerant, message-passing concurrency decades before microservices became fashionable.",
+        "whyImportant": "Open-sourcing spread Erlang and its runtime beyond Ericsson and enabled the Elixir ecosystem.",
+        "problemSolved": "Phone switches needed near-perfect reliability; traditional shared-memory threading and locks could not meet uptime requirements."
       },
       "category": "software",
       "tags": ["erlang", "ericsson", "otp", "concurrency", "programming-language"],

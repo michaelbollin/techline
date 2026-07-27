@@ -5,13 +5,13 @@
       "slug": "bcpl-manual-published",
       "date": "1967-07-21",
       "datePrecision": "day",
-      "title": "BCPL reference manual published",
-      "summary": "Martin Richards published the BCPL reference manual as MIT Project MAC Memorandum M-352.",
-      "about": "BCPL (Basic Combined Programming Language) was a simple systems language for writing compilers and OS code — stripped-down CPL without heavy type rules. Ken Thompson read this manual at Bell Labs and used BCPL's ideas to build B, then C. BCPL's `$` operator survives today as C's indirection syntax lineage.",
+      "title": "Early language that led to C documented",
+      "summary": "Martin Richards published the BCPL language manual in July 1967 — a simple systems language that directly inspired C.",
+      "about": "BCPL was a stripped-down language for writing compilers and operating system tools — small enough to run on limited hardware. Ken Thompson at Bell Labs studied this manual and used its ideas to build B, then Dennis Ritchie evolved B into C. Most of today's software still traces back through this chain.",
       "narrative": {
-        "whyChosen": "BCPL is the direct ancestor of B and therefore C — the missing link between ALGOL and Unix systems programming.",
-        "whyImportant": "Richards showed a small, compile-friendly language could target many machines — a template Thompson and Ritchie followed.",
-        "problemSolved": "Full CPL was too complex to compile efficiently; systems programmers needed a lean language for tools and compilers."
+        "whyChosen": "BCPL is the missing link between academic ALGOL-style languages and the C that powers Unix, Linux, and most systems software.",
+        "whyImportant": "Richards showed that a tiny language could be ported to many machines — the approach Thompson and Ritchie followed when building Unix tools.",
+        "problemSolved": "Earlier language designs were too heavy to compile on small computers; systems programmers needed something lean for building tools and compilers."
       },
       "category": "software",
       "tags": ["bcpl", "systems-programming", "compiler", "programming-language"],

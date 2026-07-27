@@ -5,13 +5,13 @@
       "slug": "fortran-95-standard",
       "date": "1997-12-04",
       "datePrecision": "day",
-      "title": "Fortran 95 standard published (ISO/IEC 1539-1:1997)",
-      "summary": "ISO/IEC 1539-1:1997 was published in December 1997 — the Fortran 95 standard with pure functions and elemental operations.",
-      "about": "Fortran 95 refined Fortran 90 with `PURE`/`ELEMENTAL` procedures, better array features, and the `FORALL` construct. It is the dialect many legacy HPC codes target. High-performance libraries (BLAS, LAPACK interfaces) commonly assume F95 semantics.",
+      "title": "Fortran 95 standardized",
+      "summary": "In December 1997, the Fortran 95 standard was published — a refinement of Fortran 90 that made scientific code easier for compilers to optimize.",
+      "about": "Fortran 95 tightened array features and added rules for functions with no side effects — helping compilers run scientific loops faster on supercomputers. Many legacy high-performance codes still target this dialect. Core numerical libraries assume Fortran 95 semantics.",
       "narrative": {
-        "whyChosen": "Fortran 95 is the stable baseline many compilers and numerical libraries standardized on before Fortran 2003.",
-        "whyImportant": "Pure and elemental procedures made parallel and optimizing compilers more effective on scientific loops.",
-        "problemSolved": "Fortran 90 left gaps for side-effect-free functions and whole-array intrinsics that optimizing compilers needed."
+        "whyChosen": "Fortran 95 is the stable baseline many compilers and numerical libraries standardized on before later Fortran revisions.",
+        "whyImportant": "Side-effect-free functions and improved array rules let supercomputer compilers squeeze more speed from weather, physics, and engineering simulations.",
+        "problemSolved": "Fortran 90 left gaps that made it hard for compilers to safely optimize large numerical loops."
       },
       "category": "software",
       "tags": ["fortran", "iso", "standard", "scientific-computing"],

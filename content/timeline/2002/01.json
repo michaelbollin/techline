@@ -5,13 +5,13 @@
       "slug": "dotnet-framework-1-0-rtm",
       "date": "2002-01-15",
       "datePrecision": "day",
-      "title": ".NET Framework 1.0 released to manufacturing",
-      "summary": "Microsoft shipped .NET Framework 1.0 RTM on January 15, 2002 — the CLR, class libraries, and managed runtime for Windows.",
-      "about": ".NET Framework is Microsoft's managed platform — garbage-collected CLR, BCL class libraries, ASP.NET web stack, and ADO.NET data access. It powered enterprise Windows apps, Web Forms sites, WCF services, and later WPF desktops until .NET Core/.NET 5+ replaced it for cross-platform work.",
+      "title": ".NET Framework 1.0 released",
+      "summary": "On January 15, 2002, Microsoft shipped .NET Framework 1.0 — a unified platform for building Windows desktop and web apps with automatic memory management.",
+      "about": ".NET Framework is Microsoft's managed runtime: write in C# or VB.NET, get garbage collection, shared libraries, web tools (ASP.NET), and database access in one stack. It powered enterprise Windows apps, internal portals, and desktop software for two decades until cross-platform .NET replaced it for new projects.",
       "narrative": {
-        "whyChosen": ".NET Framework defined Microsoft's post-COM development stack for two decades.",
-        "whyImportant": "It unified C#, VB.NET, and other languages on one runtime with a shared library ecosystem.",
-        "problemSolved": "Windows developers juggled COM, MFC, and ASP classic; .NET offered one managed platform for desktop and web."
+        "whyChosen": ".NET Framework defined Microsoft's development stack for Windows desktop and web for twenty years.",
+        "whyImportant": "It let C#, VB.NET, and other languages share one runtime and library ecosystem instead of fragmented Windows APIs.",
+        "problemSolved": "Windows developers juggled incompatible APIs for desktop (COM/MFC) and web (classic ASP); .NET offered one managed platform for both."
       },
       "category": "software",
       "tags": ["dotnet", "microsoft", "clr", "framework"],

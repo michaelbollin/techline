@@ -5,13 +5,13 @@
       "slug": "ecmascript-2015-adopted",
       "date": "2015-06-17",
       "datePrecision": "day",
-      "title": "ECMAScript 2015 (ES6) adopted",
-      "summary": "Ecma approved ECMA-262 6th edition — classes, modules, arrow functions, promises, and let/const.",
-      "about": "ES2015 modernized JavaScript for large apps — `import`/`export` modules, `class`, `async`/`await` foundations via promises, arrow functions, and block-scoped `let`/`const`. Enabled React/Vue-scale frontends and cleaner Node.js services without transpiler hacks for every feature.",
+      "title": "JavaScript ES6 standardized",
+      "summary": "On June 17, 2015, the ES6 standard was adopted — adding classes, modules, arrow functions, promises, and block-scoped variables to JavaScript.",
+      "about": "ES6 (also called ES2015) modernized JavaScript for large apps: `import`/`export` for splitting code into files, `class` syntax, arrow functions, promises for async work, and `let`/`const` instead of leaky `var`. It made building React-scale frontends and Node.js services feel like a modern language instead of a hack.",
       "narrative": {
-        "whyChosen": "ES2015 was the biggest JavaScript language update since 1999 and enabled modern frontend tooling.",
-        "whyImportant": "It started TC39's annual release cadence and made JavaScript viable for large application codebases.",
-        "problemSolved": "JavaScript lacked modules, lexical scoping, and class syntax that developers expected from other languages."
+        "whyChosen": "ES6 was the biggest JavaScript update since 1999 — the release that made modern frontend frameworks possible.",
+        "whyImportant": "Developers finally got modules, classes, and proper scoping that other languages had had for years — without giving up JavaScript's ubiquity in the browser.",
+        "problemSolved": "JavaScript felt stuck in the 1990s for large codebases; teams were bolting on workarounds until the language itself caught up."
       },
       "category": "software",
       "tags": [

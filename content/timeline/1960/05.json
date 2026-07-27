@@ -5,13 +5,13 @@
       "slug": "algol-60-published",
       "date": "1960-05-01",
       "datePrecision": "day",
-      "title": "ALGOL 60 report published",
-      "summary": "The ALGOL 60 report appeared in Communications of the ACM — the revised international algorithmic language used across Europe and academia.",
-      "about": "ALGOL 60 added recursive procedures, call-by-name, and a precise formal definition — the model for how programming languages should be specified. It directly influenced Simula, Pascal, and C syntax (blocks, `begin`/`end`, compound statements). Most CS textbooks through the 1980s taught ALGOL-style pseudocode.",
+      "title": "ALGOL 60 language defined",
+      "summary": "The ALGOL 60 report appeared in May 1960 — a refined international language that became the template for how programming languages are taught and specified.",
+      "about": "ALGOL 60 added nested blocks, clearer structure, and a precise written definition of the language. It shaped Simula, Pascal, and C, and for decades most computer science textbooks taught algorithm design using ALGOL-style pseudocode.",
       "narrative": {
-        "whyChosen": "ALGOL 60 is the reference point for block-structured, formally defined programming languages.",
-        "whyImportant": "Backus-Naur Form and the ALGOL 60 report set the standard for language specifications and compiler courses worldwide.",
-        "problemSolved": "ALGOL 58 was a compromise draft; ALGOL 60 refined the design into a language compilers could implement consistently."
+        "whyChosen": "ALGOL 60 became the reference design for structured programming — the blueprint later languages copied.",
+        "whyImportant": "It established a rigorous way to define a language on paper so different teams could build compatible versions, and it influenced how programming is taught worldwide.",
+        "problemSolved": "ALGOL 58 was still a rough draft; implementers needed a clearer, more consistent design they could actually build and trust."
       },
       "category": "software",
       "tags": ["algol", "programming-language", "acm", "formal-specification"],

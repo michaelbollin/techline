@@ -5,13 +5,13 @@
       "slug": "sequel-paper-published",
       "date": "1974-05-01",
       "datePrecision": "day",
-      "title": "SEQUEL paper published — birth of SQL",
-      "summary": "Chamberlin and Boyce presented SEQUEL at the 1974 ACM SIGFIDET workshop — the structured query language for IBM System R.",
-      "about": "SQL (originally SEQUEL) is the language for reading and writing relational databases — `SELECT`, `INSERT`, `JOIN`, `GROUP BY`. Every web app, bank ledger, and analytics pipeline ultimately talks SQL or a dialect of it (PostgreSQL, MySQL, SQLite, SQL Server).",
+      "title": "SQL database language invented",
+      "summary": "In May 1974, Donald Chamberlin and Raymond Boyce published SEQUEL — the query language that became SQL for asking questions of relational databases.",
+      "about": "SQL (originally spelled SEQUEL) is how apps read and update structured data — `SELECT`, `INSERT`, `JOIN`, and `GROUP BY`. Every web app, bank, and analytics pipeline ultimately talks SQL or a close variant (PostgreSQL, MySQL, SQLite, SQL Server).",
       "narrative": {
-        "whyChosen": "This paper defined the declarative query language that made Codd's relational model practical on real systems.",
-        "whyImportant": "SQL became the universal data-access layer — still the dominant interface to structured data fifty years later.",
-        "problemSolved": "Navigational database APIs forced programmers to describe how to fetch data; SEQUEL let them describe what they wanted."
+        "whyChosen": "This paper turned the relational database idea into a practical language anyone could learn to fetch and combine data.",
+        "whyImportant": "SQL became the universal way to talk to databases — still the dominant interface to structured data fifty years later.",
+        "problemSolved": "Old database APIs forced programmers to describe step-by-step paths through records; SEQUEL let them simply say what data they wanted."
       },
       "category": "software",
       "tags": ["sql", "sequel", "ibm", "system-r", "database"],

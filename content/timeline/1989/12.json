@@ -5,13 +5,13 @@
       "slug": "ansi-c-standard",
       "date": "1989-12-14",
       "datePrecision": "day",
-      "title": "ANSI C standard ratified (X3.159-1989)",
+      "title": "C language standardized",
       "summary": "ANSI ratified X3.159-1989 on December 14, 1989 — the first official standard for the C programming language.",
-      "about": "ANSI C (C89/C90) added function prototypes, `const`, and a standard library — so C code could compile the same way on Unix, Windows, and embedded targets. Every modern C compiler still targets this baseline plus later revisions (C99, C11, C17).",
+      "about": "ANSI C (C89/C90) was the first official contract for the C language — function prototypes, `const`, and a standard library (`stdio.h`, `stdlib.h`, etc.) that works the same on Unix, Windows, and embedded chips. Every modern C compiler still builds on this baseline.",
       "narrative": {
-        "whyChosen": "K&R C was informal; ANSI C gave the industry a contract for portable systems code.",
-        "whyImportant": "It locked in prototypes and library semantics that made C the lingua franca of OS kernels, drivers, and runtimes.",
-        "problemSolved": "Vendors extended K&R C differently; teams needed one normative definition to write code that moved between platforms."
+        "whyChosen": "C had been defined by a book (K&R), not a formal agreement. ANSI C was the first time compiler vendors signed off on one shared definition of the language.",
+        "whyImportant": "A developer could write code on a Sun workstation, ship it to a PC, or flash it onto a microcontroller — and expect `printf`, `malloc`, and function calls to work the same way. That reliability is why C became the default for operating systems and device drivers.",
+        "problemSolved": "Each vendor had extended C in incompatible ways. Code that compiled on one machine could fail on another, and there was no authority to settle what 'correct C' even meant."
       },
       "category": "software",
       "tags": ["c", "ansi", "iso", "standard", "programming-language"],
