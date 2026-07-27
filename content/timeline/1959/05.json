@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "lisp-first-interpreter",
+      "slug": "lisp-first-interpreter",
+      "date": "1959-05",
+      "datePrecision": "month",
+      "title": "First working Lisp interpreter",
+      "summary": "By May 1959, McCarthy's Lisp implementation at MIT had become a serious, usable interpreter on the IBM 704.",
+      "about": "Lisp was built for AI and symbolic computing — programs as nested lists, recursion, and eval. Early uses: theorem proving, language experiments, and research tools. Later it influenced Emacs, CAD systems, and languages from Python to Clojure.",
+      "narrative": {
+        "whyChosen": "Lisp introduced symbolic expression programming and ideas that later shaped AI, Emacs, and functional languages.",
+        "whyImportant": "It established list processing, recursion, and eval-based semantics as a practical computing model.",
+        "problemSolved": "Researchers needed a language for symbolic reasoning and AI experiments beyond numeric FORTRAN-style code."
+      },
+      "category": "software",
+      "tags": [
+        "lisp",
+        "mit",
+        "ai",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www-formal.stanford.edu/jmc/history/lisp/node3.html",
+          "title": "McCarthy — The implementation of LISP"
+        }
+      ],
+      "sources": [
+        {
+          "title": "McCarthy — History of LISP (HOPL, ACM)",
+          "url": "https://dl.acm.org/doi/10.1145/960118.808387",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lisp (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

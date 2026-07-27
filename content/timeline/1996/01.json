@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "id": "java-1-0-shipped",
+      "slug": "java-1-0-shipped",
+      "date": "1996-01-23",
+      "datePrecision": "day",
+      "title": "Java 1.0 shipped",
+      "summary": "JavaSoft made JDK 1.0 available for download — the first production Java development kit.",
+      "about": "JDK 1.0 shipped the compiler, JVM, and libraries developers needed to build and run Java programs — applets in browsers, standalone tools, and early server apps. You wrote `.java` files, compiled to bytecode, and ran them anywhere with a Java runtime installed.",
+      "narrative": {
+        "whyChosen": "The May 1995 announcement created hype; JDK 1.0 was when developers could actually build with Java.",
+        "whyImportant": "It shipped the compiler, JVM, applet viewer, and class libraries as a cohesive platform.",
+        "problemSolved": "Early adopters needed stable tooling beyond alpha builds to write deployable applets and applications."
+      },
+      "category": "software",
+      "tags": [
+        "java",
+        "jdk",
+        "jvm"
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Sun press release — JavaSoft ships Java 1.0 (Jan 23, 1996)",
+          "url": "https://web.archive.org/web/20080205101616/www.sun.com/smi/Press/sunflash/1996-01/sunflash.960123.10561.xml",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "java-announced"
+      ]
+    }
+  ]
+}

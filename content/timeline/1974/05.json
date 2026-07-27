@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "sequel-paper-published",
+      "slug": "sequel-paper-published",
+      "date": "1974-05-01",
+      "datePrecision": "day",
+      "title": "SEQUEL paper published — birth of SQL",
+      "summary": "Chamberlin and Boyce presented SEQUEL at the 1974 ACM SIGFIDET workshop — the structured query language for IBM System R.",
+      "about": "SQL (originally SEQUEL) is the language for reading and writing relational databases — `SELECT`, `INSERT`, `JOIN`, `GROUP BY`. Every web app, bank ledger, and analytics pipeline ultimately talks SQL or a dialect of it (PostgreSQL, MySQL, SQLite, SQL Server).",
+      "narrative": {
+        "whyChosen": "This paper defined the declarative query language that made Codd's relational model practical on real systems.",
+        "whyImportant": "SQL became the universal data-access layer — still the dominant interface to structured data fifty years later.",
+        "problemSolved": "Navigational database APIs forced programmers to describe how to fetch data; SEQUEL let them describe what they wanted."
+      },
+      "category": "software",
+      "tags": ["sql", "sequel", "ibm", "system-r", "database"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "ACM — SEQUEL: A Structured English Query Language (May 1, 1974)",
+          "url": "https://doi.org/10.1145/800296.811515",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — SQL (overview)",
+          "url": "https://en.wikipedia.org/wiki/SQL",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

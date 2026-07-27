@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "pascal-report-published",
+      "slug": "pascal-report-published",
+      "date": "1970-11-01",
+      "datePrecision": "day",
+      "title": "Pascal language report published",
+      "summary": "Niklaus Wirth published The Programming Language Pascal at ETH Zurich — a structured teaching language built on ALGOL 60.",
+      "about": "Pascal was designed for teaching programming and writing clear, structured code on small machines. It introduced records, sets, and strong typing in a compact language. Turbo Pascal on the IBM PC, UCSD Pascal on Apple II, and decades of CS101 courses made it the default intro language before Java and Python.",
+      "narrative": {
+        "whyChosen": "Wirth wanted a small, learnable language that still scaled to real programs — fewer concepts than PL/I, more structure than BASIC.",
+        "whyImportant": "Pascal popularized structured programming (no goto), influenced Modula-2 and Ada, and trained a generation of programmers.",
+        "problemSolved": "ALGOL 60 was elegant but hard to implement; PL/I was huge. Pascal hit a sweet spot for education and efficient one-pass compilation."
+      },
+      "category": "software",
+      "tags": ["pascal", "wirth", "eth", "structured-programming", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wirth — The Programming Language Pascal (ETH report, November 1970)",
+          "url": "https://doi.org/10.3929/ethz-a-004150844",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Pascal (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["algol-60-published"]
+    }
+  ]
+}

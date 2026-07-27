@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "rust-1-0-released",
+      "slug": "rust-1-0-released",
+      "date": "2015-05-15",
+      "datePrecision": "day",
+      "title": "Rust 1.0 released",
+      "summary": "The Rust core team shipped Rust 1.0 on May 15, 2015 — a systems language with ownership-based memory safety.",
+      "about": "Rust gives C/C++ performance without garbage collection — the borrow checker prevents use-after-free and data races at compile time. Used in Firefox's Servo engine, Linux kernel modules, Cloudflare, Discord, and WASM runtimes. Teams pick Rust when safety and speed both matter and GC is unacceptable.",
+      "narrative": {
+        "whyChosen": "Rust 1.0 promised stability after years of public iteration — a new option for memory-safe systems code.",
+        "whyImportant": "Ownership and borrowing influenced how the industry thinks about safe concurrency without a runtime.",
+        "problemSolved": "Systems programmers faced a false choice between C++ speed with manual memory bugs and GC languages with runtime cost."
+      },
+      "category": "software",
+      "tags": ["rust", "systems-programming", "memory-safety", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Rust Blog — Announcing Rust 1.0 (May 15, 2015)",
+          "url": "https://blog.rust-lang.org/2015/05/15/Rust-1.0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Rust (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Rust_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

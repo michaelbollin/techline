@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "go-open-sourced",
+      "slug": "go-open-sourced",
+      "date": "2009-11-10",
+      "datePrecision": "day",
+      "title": "Go programming language open-sourced",
+      "summary": "Google open-sourced Go on November 10, 2009 — a systems language from Pike, Thompson, and Griesemer with built-in concurrency.",
+      "about": "Go targets cloud infrastructure: Docker, Kubernetes, Terraform, and countless microservices compile to single static binaries with goroutines for concurrency. It trades generics-era complexity (added later in Go 1.18) for fast compiles, a small language spec, and batteries-included networking in the standard library.",
+      "narrative": {
+        "whyChosen": "Go became the default language for cloud-native tooling and replaced C++ in many Google-scale services.",
+        "whyImportant": "Goroutines and channels made concurrent servers approachable; fast builds changed how teams ship backend code.",
+        "problemSolved": "C++ build times and complexity slowed Google infrastructure teams; they needed C-like speed with simpler concurrency."
+      },
+      "category": "software",
+      "tags": ["go", "golang", "google", "concurrency", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Open Source Blog — Hey! Ho! Let's Go! (November 10, 2009)",
+          "url": "https://opensource.googleblog.com/2009/11/hey-ho-lets-go.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Go (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Go_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

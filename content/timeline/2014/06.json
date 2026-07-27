@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "swift-announced",
+      "slug": "swift-announced",
+      "date": "2014-06-02",
+      "datePrecision": "day",
+      "title": "Swift programming language announced at WWDC",
+      "summary": "Apple announced Swift at WWDC on June 2, 2014 — a modern replacement for Objective-C on iOS and macOS.",
+      "about": "Swift is Apple's language for iPhone, iPad, Mac, Apple Watch, and Vision Pro apps — safe optionals, value types, protocols, and async/await. It compiles to native code via LLVM and interoperates with Objective-C and C. Most new App Store apps today are Swift or SwiftUI.",
+      "narrative": {
+        "whyChosen": "Swift replaced Objective-C as the default for Apple platform development within a few years.",
+        "whyImportant": "It brought memory safety and modern syntax to a massive mobile ecosystem without a new runtime.",
+        "problemSolved": "Objective-C's manual retain/release and dated syntax slowed iOS development; Apple needed a safer modern language."
+      },
+      "category": "software",
+      "tags": ["swift", "apple", "ios", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Swift (announced June 2, 2014 at WWDC)",
+          "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+          "role": "date"
+        },
+        {
+          "title": "Apple WWDC 2014 — Swift introduction (overview)",
+          "url": "https://developer.apple.com/videos/play/wwdc2014/408/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["objective-c-created"]
+    },
+    {
+      "id": "crystal-0-1-0-released",
+      "slug": "crystal-0-1-0-released",
+      "date": "2014-06-19",
+      "datePrecision": "day",
+      "title": "Crystal 0.1.0 released",
+      "summary": "Ary Borenszweig and Juan Wajnerman released Crystal 0.1.0 on June 19, 2014 — a compiled language with Ruby-like syntax and static typing.",
+      "about": "Crystal compiles to efficient native code via LLVM while keeping Ruby's readable syntax — macros, blocks, and `puts` feel familiar but types are checked at compile time. Used for web backends (Lucky, Amber) and CLI tools where Ruby's MRI speed is too slow.",
+      "narrative": {
+        "whyChosen": "Crystal 0.1.0 was the first packaged release promising Ruby ergonomics with C-like performance.",
+        "whyImportant": "It showed a gradual path from dynamic Ruby to statically typed native compilation without a new syntax.",
+        "problemSolved": "Ruby developers wanted MRI's productivity with compiled speed and type safety for production services."
+      },
+      "category": "software",
+      "tags": ["crystal", "ruby", "llvm", "programming-language"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Crystal Lang — Crystal 0.1.0 released (June 19, 2014)",
+          "url": "https://crystal-lang.org/2014/06/19/crystal-0.1.0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Crystal (overview)",
+          "url": "https://en.wikipedia.org/wiki/Crystal_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ruby-0-95-released", "swift-announced"]
+    }
+  ]
+}

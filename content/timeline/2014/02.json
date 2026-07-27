@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "vue-js-released",
+      "slug": "vue-js-released",
+      "date": "2014-02",
+      "datePrecision": "month",
+      "title": "Vue.js publicly released",
+      "summary": "Evan You released Vue.js in February 2014 — a progressive framework extracting Angular's data binding without the weight.",
+      "about": "Vue offers reactive data binding, single-file components, and optional routing/state (Vue Router, Pinia) — adopt incrementally on existing pages or build full SPAs. Popular in Laravel stacks, Chinese tech ecosystems, and teams wanting React-like ergonomics with gentler learning curve.",
+      "narrative": {
+        "whyChosen": "Vue became the third pillar of modern frontends alongside React and Angular.",
+        "whyImportant": "It proved a progressive, incrementally adoptable framework could compete with all-in SPA platforms.",
+        "problemSolved": "AngularJS felt heavy for quick prototypes; You wanted reactive templates and components in a small package."
+      },
+      "category": "software",
+      "tags": ["vue", "frontend", "spa", "web-framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Vue.js (first public release February 2014)",
+          "url": "https://en.wikipedia.org/wiki/Vue.js",
+          "role": "date"
+        },
+        {
+          "title": "freeCodeCamp — Interview with Evan You (overview)",
+          "url": "https://www.freecodecamp.org/news/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["angularjs-released"]
+    }
+  ]
+}

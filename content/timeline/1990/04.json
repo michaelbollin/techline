@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "haskell-1-0-report",
+      "slug": "haskell-1-0-report",
+      "date": "1990-04-01",
+      "datePrecision": "day",
+      "title": "Haskell 1.0 Report published",
+      "summary": "The Haskell Committee published Version 1.0 of the Haskell Report on April 1, 1990 — a standard lazy functional language.",
+      "about": "Haskell is a purely functional language — no mutable variables by default, lazy evaluation, and strong static types. Used in academia, fintech (standardized derivatives pricing), and as the inspiration for features in Rust, Scala, and Swift. GHC (Glasgow Haskell Compiler) became the reference implementation for research and production.",
+      "narrative": {
+        "whyChosen": "Haskell unified a fragmented lazy-FP landscape into one teachable, research-friendly language.",
+        "whyImportant": "It popularized type classes, monads, and lazy evaluation — ideas that spread into mainstream languages.",
+        "problemSolved": "Dozens of incompatible lazy functional languages existed; the community needed one common design."
+      },
+      "category": "software",
+      "tags": ["haskell", "functional-programming", "lazy-evaluation", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Haskell mailing list — Haskell Report Version 1.0 (1 April 1990)",
+          "url": "https://mail.haskell.org/pipermail/haskell/2005-November/016904.html",
+          "role": "date"
+        },
+        {
+          "title": "Microsoft Research — A History of Haskell (overview)",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

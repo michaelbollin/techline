@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-1-adopted",
+      "slug": "ecmascript-1-adopted",
+      "date": "1997-06",
+      "datePrecision": "month",
+      "title": "ECMAScript 1 standard adopted (ECMA-262)",
+      "summary": "Ecma adopted ECMA-262 1st edition in June 1997 — the first official standard for JavaScript and JScript.",
+      "about": "ECMAScript is the vendor-neutral name for the language inside every browser. ECMA-262 gave Netscape JavaScript and Microsoft JScript a shared specification so web pages could rely on the same syntax across browsers. Every `document.querySelector`, promise, and module trace back to this standardization effort.",
+      "narrative": {
+        "whyChosen": "Standardization turned a browser arms race into a written contract developers could target.",
+        "whyImportant": "It let JavaScript survive beyond Netscape and become the open web's programming language.",
+        "problemSolved": "Without a standard, each browser vendor could fork the language and break the open web."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "standard", "netscape"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "ECMA-262 1st edition — adopted by Ecma General Assembly June 1997",
+          "url": "https://www.ecma-international.org/wp-content/uploads/ECMA-262_1st_edition_june_1997.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["javascript-name-announced", "ecmascript-3-adopted"]
+    }
+  ]
+}

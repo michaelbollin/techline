@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "bcpl-manual-published",
+      "slug": "bcpl-manual-published",
+      "date": "1967-07-21",
+      "datePrecision": "day",
+      "title": "BCPL reference manual published",
+      "summary": "Martin Richards published the BCPL reference manual as MIT Project MAC Memorandum M-352.",
+      "about": "BCPL (Basic Combined Programming Language) was a simple systems language for writing compilers and OS code — stripped-down CPL without heavy type rules. Ken Thompson read this manual at Bell Labs and used BCPL's ideas to build B, then C. BCPL's `$` operator survives today as C's indirection syntax lineage.",
+      "narrative": {
+        "whyChosen": "BCPL is the direct ancestor of B and therefore C — the missing link between ALGOL and Unix systems programming.",
+        "whyImportant": "Richards showed a small, compile-friendly language could target many machines — a template Thompson and Ritchie followed.",
+        "problemSolved": "Full CPL was too complex to compile efficiently; systems programmers needed a lean language for tools and compilers."
+      },
+      "category": "software",
+      "tags": ["bcpl", "systems-programming", "compiler", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Martin Richards — BCPL Reference Manual M-352 (July 21, 1967)",
+          "url": "https://www.softwarepreservation.org/projects/BCPL/project_mac/Richards-BCPL-ReferenceManual.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Ritchie — BCPL Reference Manual notes at Bell Labs",
+          "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/bcpl.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BCPL (overview)",
+          "url": "https://en.wikipedia.org/wiki/BCPL",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["b-language-created", "c-language-created"]
+    }
+  ]
+}

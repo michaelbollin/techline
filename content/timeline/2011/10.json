@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dart-unveiled",
+      "slug": "dart-unveiled",
+      "date": "2011-10-10",
+      "datePrecision": "day",
+      "title": "Dart language unveiled at GOTO",
+      "summary": "Google unveiled Dart on October 10, 2011 at GOTO Aarhus — a structured web language compiling to JavaScript or a VM.",
+      "about": "Dart targets Flutter mobile/desktop apps, web via dart2js, and server-side tooling. Optional typing, sound null safety (2.0), and async/await made it Google's answer to large-scale client code. Flutter's widget framework made Dart the language behind many cross-platform apps.",
+      "narrative": {
+        "whyChosen": "Dart + Flutter became Google's cross-platform UI stack rivaling React Native.",
+        "whyImportant": "It showed a language could target both JS engines and a native VM for structured large web apps.",
+        "problemSolved": "JavaScript lacked optional types and tooling for million-line web clients; Google wanted a structured alternative."
+      },
+      "category": "software",
+      "tags": ["dart", "google", "flutter", "web", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Developers Blog — Dart preview (October 10, 2011)",
+          "url": "https://developers.googleblog.com/dart-a-language-for-structured-web-programming/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Dart (overview)",
+          "url": "https://en.wikipedia.org/wiki/Dart_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["javascript-name-announced", "typescript-preview-released"]
+    }
+  ]
+}

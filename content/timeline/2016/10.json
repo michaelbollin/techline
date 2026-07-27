@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "nextjs-open-sourced",
+      "slug": "nextjs-open-sourced",
+      "date": "2016-10-25",
+      "datePrecision": "day",
+      "title": "Next.js open sourced",
+      "summary": "Vercel (then ZEIT) released Next.js — a React framework for server-rendered universal JavaScript apps.",
+      "about": "Next.js wraps React with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive UI. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on Vercel. Example: a blog that pre-renders HTML at build time but hydrates React on the client.",
+      "narrative": {
+        "whyChosen": "Next.js became the default way to ship React with SSR, routing, and static generation in one toolchain.",
+        "whyImportant": "It bridged SPA ergonomics with SEO-friendly server rendering before React Server Components.",
+        "problemSolved": "React alone did not solve routing, data loading, or SSR — every team rebuilt the same webpack stack."
+      },
+      "category": "software",
+      "tags": [
+        "nextjs",
+        "react",
+        "ssr",
+        "web-framework"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://vercel.com/blog/next",
+          "title": "Vercel — Next.js announcement"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vercel blog — Next.js (October 25, 2016)",
+          "url": "https://vercel.com/blog/next",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Next.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Next.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["react-open-sourced"]
+    }
+  ]
+}

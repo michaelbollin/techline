@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": "symfony-released",
+      "slug": "symfony-released",
+      "date": "2005-10-22",
+      "datePrecision": "day",
+      "title": "Symfony framework released",
+      "summary": "Fabien Potencier open sourced Symfony — a PHP web framework that later split into reusable components.",
+      "about": "Symfony is a PHP framework for full web applications — routing, forms, security, ORM. Its bigger legacy: standalone components (HTTP, console, DI) reused by Laravel, Drupal 8+, and others. Typical Symfony apps: enterprise portals, APIs, and multi-module business software in PHP.",
+      "narrative": {
+        "whyChosen": "Symfony's component strategy reshaped PHP: frameworks could share HttpFoundation, Console, and DI instead of reinventing them.",
+        "whyImportant": "Laravel, Drupal, and others built on Symfony components, creating a shared PHP infrastructure layer.",
+        "problemSolved": "PHP projects duplicated request handling, routing, and bootstrapping code across every framework."
+      },
+      "category": "software",
+      "tags": [
+        "symfony",
+        "php",
+        "web-framework",
+        "components"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Symfony (initial release Oct 22, 2005)",
+          "url": "https://en.wikipedia.org/wiki/Symfony",
+          "role": "date"
+        },
+        {
+          "title": "symfony.com — What is Symfony?",
+          "url": "https://symfony.com/what-is-symfony",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "laravel-symfony-http-foundation"
+      ]
+    }
+  ]
+}

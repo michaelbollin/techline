@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "basic-first-run",
+      "slug": "basic-first-run",
+      "date": "1964-05-01",
+      "datePrecision": "day",
+      "title": "BASIC runs for the first time at Dartmouth",
+      "summary": "Kemeny and Kurtz ran the first BASIC programs on the Dartmouth Time-Sharing System at 4 a.m. on May 1, 1964.",
+      "about": "BASIC (Beginner's All-Purpose Symbolic Instruction Code) let students and non-specialists write programs with simple English-like commands (`PRINT`, `LET`, `IF`). It spread through the Apple II, Commodore 64, and IBM PC era — millions learned to code in classroom and hobby BASIC before the web existed.",
+      "narrative": {
+        "whyChosen": "BASIC democratized programming the way VB later democratized Windows apps — simple syntax, immediate feedback.",
+        "whyImportant": "Paired with time-sharing, it proved that computing could be interactive and accessible, not just batch jobs for specialists.",
+        "problemSolved": "Students queued for batch runs on mainframes; Dartmouth needed a language anyone could learn in hours on a terminal."
+      },
+      "category": "software",
+      "tags": ["basic", "dartmouth", "timesharing", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Dartmouth — BASIC at 50 (May 1, 1964, 4 a.m.)",
+          "url": "https://www.dartmouth.edu/basicfifty/basic.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Dartmouth BASIC (overview)",
+          "url": "https://en.wikipedia.org/wiki/Dartmouth_BASIC",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["visual-basic-1-0-released"]
+    }
+  ]
+}

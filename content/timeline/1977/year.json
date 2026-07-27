@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "awk-created",
+      "slug": "awk-created",
+      "date": "1977",
+      "datePrecision": "year",
+      "title": "AWK created at Bell Labs",
+      "summary": "Alfred Aho, Peter Weinberger, and Brian Kernighan created AWK in 1977 — a pattern-action language for text processing on Unix.",
+      "about": "AWK scans lines of text, matches patterns, and runs actions — ideal for log analysis, column extraction, and quick reports. `awk '{print $1}' access.log` became a daily sysadmin habit. Perl, Lua, and countless one-liners inherited AWK's field-splitting and regex model.",
+      "narrative": {
+        "whyChosen": "AWK defined the pattern-action paradigm that shaped Unix scripting and influenced Perl.",
+        "whyImportant": "It made structured text processing a first-class programming style on every Unix system.",
+        "problemSolved": "C programs were overkill for simple columnar reports; sed alone could not express arithmetic and structured control flow."
+      },
+      "category": "software",
+      "tags": ["awk", "unix", "bell-labs", "text-processing", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GNU Awk Manual — original awk written in 1977 at Bell Labs",
+          "url": "https://www.gnu.org/software/gawk/manual/html_node/History.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — AWK (overview)",
+          "url": "https://en.wikipedia.org/wiki/AWK",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["perl-1-0-released"]
+    }
+  ]
+}

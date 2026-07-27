@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "fastapi-released",
+      "slug": "fastapi-released",
+      "date": "2018-12-05",
+      "datePrecision": "day",
+      "title": "FastAPI first released",
+      "summary": "Sebastián Ramírez released FastAPI on December 5, 2018 — an async Python API framework with automatic OpenAPI docs.",
+      "about": "FastAPI uses Python type hints and Pydantic for validation, Starlette for async I/O, and auto-generates Swagger UI docs. Used for ML inference APIs, microservices, and high-throughput backends. Example: `async def read_item(item_id: int)` with request/response schemas enforced at runtime and documented for free.",
+      "narrative": {
+        "whyChosen": "FastAPI became the default for new Python APIs when async and OpenAPI docs mattered.",
+        "whyImportant": "It showed type hints could drive validation, serialization, and documentation in one cohesive framework.",
+        "problemSolved": "Flask lacked native async and automatic API schemas; teams bolted on Marshmallow and manual Swagger."
+      },
+      "category": "software",
+      "tags": ["fastapi", "python", "async", "api", "web-framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — FastAPI (released December 5, 2018)",
+          "url": "https://en.wikipedia.org/wiki/FastAPI",
+          "role": "date"
+        },
+        {
+          "title": "FastAPI — official documentation (overview)",
+          "url": "https://fastapi.tiangolo.com/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-0-9-0-released", "flask-released", "django-open-sourced"]
+    }
+  ]
+}

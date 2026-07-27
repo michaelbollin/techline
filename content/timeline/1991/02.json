@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "id": "python-0-9-0-released",
+      "slug": "python-0-9-0-released",
+      "date": "1991-02-20",
+      "datePrecision": "day",
+      "title": "Python 0.9.0 released",
+      "summary": "Guido van Rossum posted Python 0.9.0 to alt.sources — the first public release of the language.",
+      "about": "Python is a general-purpose scripting language — readable, batteries-included. Used for automation scripts, web backends (Django/Flask), data science (pandas, Jupyter), DevOps glue, and teaching. Example tasks: rename 10,000 files, scrape a site, train a model, or run an API.",
+      "narrative": {
+        "whyChosen": "Python became one of the most widely taught and used general-purpose languages.",
+        "whyImportant": "It shipped classes, exceptions, and core datatypes early, setting the tone for readable, batteries-included design.",
+        "problemSolved": "ABC-inspired simplicity was needed for a scripting language that could glue systems and teach programming."
+      },
+      "category": "software",
+      "tags": [
+        "python",
+        "guido",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://gvanrossum.github.io/python-history/a-brief-timeline-of-python.html",
+          "title": "Guido — A Brief Timeline of Python"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Python.org — History (0.9.0 on Feb 20, 1991)",
+          "url": "https://gvanrossum.github.io/python-history/a-brief-timeline-of-python.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "python-3-0-released",
+        "django-open-sourced"
+      ]
+    }
+  ]
+}

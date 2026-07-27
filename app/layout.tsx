@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-
-import { SiteHeader } from "@/components/layout/site-header";
+import { Geist, Geist_Mono, Roboto_Condensed } from "next/font/google";
 
 import "./globals.css";
 
@@ -13,6 +11,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-geist-mono",
+});
+
+const robotoCondensed = Roboto_Condensed({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-timeline-label",
 });
 
 export const metadata: Metadata = {
@@ -30,9 +34,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen`}>
-        <SiteHeader />
-        <main>{children}</main>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${robotoCondensed.variable} min-h-screen bg-white text-black`}
+      >
+        {children}
       </body>
     </html>
   );

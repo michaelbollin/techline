@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "edsac-initial-orders",
+      "slug": "edsac-initial-orders",
+      "date": "1949-05-06",
+      "datePrecision": "day",
+      "title": "EDSAC Initial Orders — first working assembler",
+      "summary": "David Wheeler's Initial Orders on EDSAC translated symbolic mnemonics into machine code — the first assembler program.",
+      "about": "Assembly language sits one step above raw machine code: you write short mnemonics like `A 80` instead of 17-bit binary patterns. Wheeler's program ran at Cambridge on EDSAC and read symbolic instructions from paper tape. Every compiler, OS, and device driver chain since then starts from this idea.",
+      "narrative": {
+        "whyChosen": "Before assemblers, programmers punched binary instruction words by hand — one wrong bit broke the whole run.",
+        "whyImportant": "Automating mnemonic-to-machine-code translation made programming repeatable and launched the software industry.",
+        "problemSolved": "Human transcription of machine instructions was slow, error-prone, and did not scale as computers grew more capable."
+      },
+      "category": "software",
+      "tags": ["assembly", "edsac", "cambridge", "wheeler"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — EDSAC (first programs May 6, 1949; Initial Orders)",
+          "url": "https://en.wikipedia.org/wiki/Electronic_Delay_Storage_Automatic_Calculator",
+          "role": "date"
+        },
+        {
+          "title": "IEEE Milestone — EDSAC and the birth of assembly (overview)",
+          "url": "https://ethw.org/Milestones:EDSAC_Computer,_1949",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

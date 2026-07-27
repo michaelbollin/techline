@@ -1,0 +1,43 @@
+{
+  "events": [
+    {
+      "id": "cpp-templates-cfront-3",
+      "slug": "cpp-templates-cfront-3",
+      "date": "1991-10",
+      "datePrecision": "month",
+      "title": "Cfront 3.0 adds templates to C++",
+      "summary": "AT&T's Cfront 3.0 release was the first C++ compiler to support templates, enabling generic programming in production code.",
+      "about": "Templates let one C++ function or class work with many types — e.g. a generic `vector<int>` or `vector<string>` without copy-pasting code. This became the basis for the STL and modern C++ library design (sort, map, smart pointers).",
+      "narrative": {
+        "whyChosen": "Templates unlocked the STL era and changed how C++ libraries were designed.",
+        "whyImportant": "Generic containers and algorithms became possible without sacrificing performance.",
+        "problemSolved": "Developers duplicated type-specific code or used void pointers; templates provided compile-time polymorphism."
+      },
+      "category": "software",
+      "tags": [
+        "cpp",
+        "templates",
+        "generics",
+        "programming-language"
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Stroustrup — Evolving C++ 1991–2006 (Cfront 3.0 templates, Oct 1991)",
+          "url": "https://www.stroustrup.com/hopl-almost-final.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C++ (overview)",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cpp-cfront-1-0",
+        "cpp98-standard"
+      ]
+    }
+  ]
+}

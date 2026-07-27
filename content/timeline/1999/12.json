@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-3-adopted",
+      "slug": "ecmascript-3-adopted",
+      "date": "1999-12",
+      "datePrecision": "month",
+      "title": "ECMAScript 3 standard adopted (ECMA-262 3rd edition)",
+      "summary": "Ecma adopted ECMA-262 3rd edition in December 1999 — adding regex, try/catch, and better string handling to JavaScript.",
+      "about": "ES3 is the JavaScript dialect the web ran on for a decade — the baseline every browser implemented before ES5 and ES2015. It added regular expressions, exceptions, and tighter error rules that made complex client-side code possible. Most pre-2015 tutorials and libraries assumed ES3 semantics.",
+      "narrative": {
+        "whyChosen": "ES3 was the stable JavaScript most of the web learned and deployed for ten years.",
+        "whyImportant": "It added the error-handling and regex features dynamic web apps needed without breaking existing pages.",
+        "problemSolved": "Early JavaScript lacked robust string matching and exception handling for growing client-side complexity."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "es3", "standard"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ECMA-262 3rd edition — adopted December 1999",
+          "url": "https://www.ecma-international.org/wp-content/uploads/ECMA-262_3rd_edition_december_1999.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-1-adopted", "ecmascript-5-adopted"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "algol-60-published",
+      "slug": "algol-60-published",
+      "date": "1960-05-01",
+      "datePrecision": "day",
+      "title": "ALGOL 60 report published",
+      "summary": "The ALGOL 60 report appeared in Communications of the ACM — the revised international algorithmic language used across Europe and academia.",
+      "about": "ALGOL 60 added recursive procedures, call-by-name, and a precise formal definition — the model for how programming languages should be specified. It directly influenced Simula, Pascal, and C syntax (blocks, `begin`/`end`, compound statements). Most CS textbooks through the 1980s taught ALGOL-style pseudocode.",
+      "narrative": {
+        "whyChosen": "ALGOL 60 is the reference point for block-structured, formally defined programming languages.",
+        "whyImportant": "Backus-Naur Form and the ALGOL 60 report set the standard for language specifications and compiler courses worldwide.",
+        "problemSolved": "ALGOL 58 was a compromise draft; ALGOL 60 refined the design into a language compilers could implement consistently."
+      },
+      "category": "software",
+      "tags": ["algol", "programming-language", "acm", "formal-specification"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Communications of the ACM — ALGOL 60 report (May 1, 1960)",
+          "url": "https://cacm.acm.org/research/report-on-the-algorithmic-language-algol-60/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ALGOL 60 (overview)",
+          "url": "https://en.wikipedia.org/wiki/ALGOL_60",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["algol-58-published", "simula-67-presented"]
+    }
+  ]
+}

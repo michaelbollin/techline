@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "react-open-sourced",
+      "slug": "react-open-sourced",
+      "date": "2013-05-29",
+      "datePrecision": "day",
+      "title": "React open-sourced at JSConf US",
+      "summary": "Facebook open-sourced React at JSConf US on May 29, 2013 — a declarative UI library with a virtual DOM.",
+      "about": "React models UI as a function of state — components re-render when data changes, React diffs a virtual DOM and updates the real one efficiently. Powers Facebook, Instagram, Netflix frontends, Next.js, React Native mobile apps, and most modern SPAs. JSX mixes markup with JavaScript (controversial at launch, standard now).",
+      "narrative": {
+        "whyChosen": "React became the dominant frontend library and shifted the industry to component-based declarative UI.",
+        "whyImportant": "The virtual DOM and one-way data flow influenced Vue, Svelte, and every major UI toolkit that followed.",
+        "problemSolved": "Large Facebook UIs were hard to keep consistent; manual DOM sync did not scale with growing feature sets."
+      },
+      "category": "software",
+      "tags": ["react", "facebook", "virtual-dom", "frontend"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Meta Engineering — React launched at JSConf (May 2013)",
+          "url": "https://engineering.fb.com/2013/12/20/web/2013-a-year-of-open-source-at-facebook/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — React (overview)",
+          "url": "https://en.wikipedia.org/wiki/React_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["javascript-name-announced", "nextjs-open-sourced"]
+    }
+  ]
+}

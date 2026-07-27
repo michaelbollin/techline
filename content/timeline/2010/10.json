@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "angularjs-released",
+      "slug": "angularjs-released",
+      "date": "2010-10-20",
+      "datePrecision": "day",
+      "title": "AngularJS released",
+      "summary": "Miško Hevery released AngularJS on October 20, 2010 — two-way data binding and MVC for single-page web apps.",
+      "about": "AngularJS let HTML drive the UI with directives and `ng-model` two-way binding — no manual DOM updates for forms and lists. It powered early Google products and enterprise SPAs before React and Vue. Developers learned `$scope`, dependency injection, and the digest cycle on countless internal dashboards.",
+      "narrative": {
+        "whyChosen": "AngularJS popularized declarative SPAs and two-way binding in mainstream web development.",
+        "whyImportant": "It influenced every later frontend framework's component and data-binding models.",
+        "problemSolved": "jQuery spaghetti could not scale; teams needed structure for complex client-side applications."
+      },
+      "category": "software",
+      "tags": ["angularjs", "google", "spa", "web-framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — AngularJS (released October 20, 2010)",
+          "url": "https://en.wikipedia.org/wiki/AngularJS",
+          "role": "date"
+        },
+        {
+          "title": "AngularJS.org — documentation (overview)",
+          "url": "https://docs.angularjs.org/guide/introduction",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["angular-2-released", "vue-js-released"]
+    }
+  ]
+}

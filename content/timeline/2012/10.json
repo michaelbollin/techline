@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "typescript-preview-released",
+      "slug": "typescript-preview-released",
+      "date": "2012-10-01",
+      "datePrecision": "day",
+      "title": "TypeScript preview released",
+      "summary": "Microsoft released the TypeScript preview on October 1, 2012 — a typed superset of JavaScript by Anders Hejlsberg.",
+      "about": "TypeScript adds optional static types, interfaces, and generics to JavaScript, then compiles to plain JS. It powers large frontends (Angular, VS Code itself) and Node backends where teams want compile-time checks without leaving the JS ecosystem. `.ts` files catch typos before runtime and enable IDE autocomplete at scale.",
+      "narrative": {
+        "whyChosen": "TypeScript became the default for large-scale JavaScript applications and framework tooling.",
+        "whyImportant": "It bridged JavaScript's flexibility with IDE support and refactoring safety enterprise teams expected.",
+        "problemSolved": "Plain JavaScript lacked types for million-line codebases; teams needed safety without abandoning the web platform."
+      },
+      "category": "software",
+      "tags": ["typescript", "microsoft", "javascript", "types", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — TypeScript preview release (October 1, 2012)",
+          "url": "https://devblogs.microsoft.com/typescript/ten-years-of-typescript/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TypeScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/TypeScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-2015-adopted", "javascript-name-announced"]
+    }
+  ]
+}

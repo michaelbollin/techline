@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "id": "cobol-first-program-run",
+      "slug": "cobol-first-program-run",
+      "date": "1960-08-17",
+      "datePrecision": "day",
+      "title": "First COBOL program executed",
+      "summary": "The first COBOL program ran on an RCA 501, proving the new business language could compile and execute.",
+      "about": "This proved COBOL could replace custom assembly for business apps. The same program later ran on another vendor's hardware — the whole point was one language for invoices, accounts, and reports across different computer brands.",
+      "narrative": {
+        "whyChosen": "Specifications matter; a running program proved COBOL was more than a committee document.",
+        "whyImportant": "By December 1960 the same program ran on multiple vendors' machines, demonstrating portability.",
+        "problemSolved": "Skeptics doubted a common business language could be implemented by competing hardware makers."
+      },
+      "category": "software",
+      "tags": [
+        "cobol",
+        "compiler",
+        "portability"
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — CODASYL (first COBOL run, Aug 17 1960)",
+          "url": "https://en.wikipedia.org/wiki/CODASYL",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — COBOL (overview)",
+          "url": "https://en.wikipedia.org/wiki/COBOL",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cobol-specifications-submitted"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "fortran-77-standard",
+      "slug": "fortran-77-standard",
+      "date": "1978-04-03",
+      "datePrecision": "day",
+      "title": "FORTRAN 77 standard approved (ANSI X3.9-1978)",
+      "summary": "ANSI approved the FORTRAN 77 standard on April 3, 1978 — the revision that introduced structured control flow to scientific computing.",
+      "about": "FORTRAN 77 added `IF`/`ELSE`, `DO` loops with `END DO`, and character strings — making large scientific codebases maintainable. It became the baseline for decades of HPC, weather models, and engineering simulation. Many legacy `.f77` files still run in production clusters.",
+      "narrative": {
+        "whyChosen": "FORTRAN 77 is the standard most programmers mean when they say 'classic Fortran' before the 90 rewrite.",
+        "whyImportant": "It brought structured programming to the dominant scientific language without breaking the formula-centric style researchers relied on.",
+        "problemSolved": "FORTRAN 66 lacked modern control structures; portable scientific code needed a stable, vendor-neutral revision."
+      },
+      "category": "software",
+      "tags": ["fortran", "ansi", "standard", "scientific-computing"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ANSI X3.9-1978 — Programming Language FORTRAN (approved April 3, 1978)",
+          "url": "https://mirrors.meulie.net/bitsavers.org/pdf/ansi/X3/X3.009-1978_Programming_Language_-_FORTRAN.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Fortran (overview)",
+          "url": "https://en.wikipedia.org/wiki/Fortran",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["fortran-formally-published", "fortran-first-delivery", "fortran-90-standard"]
+    }
+  ]
+}

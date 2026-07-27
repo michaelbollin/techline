@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "fortran-formally-published",
+      "slug": "fortran-formally-published",
+      "date": "1957-02-26",
+      "datePrecision": "day",
+      "title": "FORTRAN formally published",
+      "summary": "IBM and John Backus presented the first widely used high-level programming language at the Western Joint Computer Conference.",
+      "about": "FORTRAN was for scientific and engineering work on mainframes — writing formulas that a compiler turned into fast machine code. Typical uses: nuclear reactor simulation, weather models, structural analysis, and physics research. Much legacy HPC code is still FORTRAN today.",
+      "narrative": {
+        "whyChosen": "FORTRAN is the starting point for compiler-based scientific and business computing at scale.",
+        "whyImportant": "It proved programmers could write in formulas and statements instead of machine code, and it stayed in production for decades.",
+        "problemSolved": "Programming the IBM 704 and similar machines required tedious low-level coding; FORTRAN automated translation to efficient machine programs."
+      },
+      "category": "software",
+      "tags": [
+        "fortran",
+        "compiler",
+        "ibm",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www.computinghistory.org.uk/det/5492/FORTRAN-1-is-formally-published/",
+          "title": "Computing History Museum — FORTRAN-1 published"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Backus et al. — The FORTRAN Automatic Coding System (Feb 1957)",
+          "url": "https://fortran.bcs.org/2007/jubilee/originsoffortran.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Fortran (overview)",
+          "url": "https://en.wikipedia.org/wiki/Fortran",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "fortran-first-delivery",
+        "fortran-77-standard"
+      ]
+    }
+  ]
+}

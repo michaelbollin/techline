@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ansi-c-standard",
+      "slug": "ansi-c-standard",
+      "date": "1989-12-14",
+      "datePrecision": "day",
+      "title": "ANSI C standard ratified (X3.159-1989)",
+      "summary": "ANSI ratified X3.159-1989 on December 14, 1989 — the first official standard for the C programming language.",
+      "about": "ANSI C (C89/C90) added function prototypes, `const`, and a standard library — so C code could compile the same way on Unix, Windows, and embedded targets. Every modern C compiler still targets this baseline plus later revisions (C99, C11, C17).",
+      "narrative": {
+        "whyChosen": "K&R C was informal; ANSI C gave the industry a contract for portable systems code.",
+        "whyImportant": "It locked in prototypes and library semantics that made C the lingua franca of OS kernels, drivers, and runtimes.",
+        "problemSolved": "Vendors extended K&R C differently; teams needed one normative definition to write code that moved between platforms."
+      },
+      "category": "software",
+      "tags": ["c", "ansi", "iso", "standard", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "ANSI Blog — ANSI X3.159-1989 ratified December 14, 1989",
+          "url": "https://blog.ansi.org/ansi/origin-ansi-c-iso-c/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ANSI C (overview)",
+          "url": "https://en.wikipedia.org/wiki/ANSI_C",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["c-language-created", "c-k-and-r-published"]
+    }
+  ]
+}

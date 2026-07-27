@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "flask-released",
+      "slug": "flask-released",
+      "date": "2010-04-01",
+      "datePrecision": "day",
+      "title": "Flask web framework released",
+      "summary": "Armin Ronacher released Flask on April 1, 2010 — a microframework for Python web apps built on Werkzeug and Jinja2.",
+      "about": "Flask gives you routing, templates, and sessions without Django's batteries — you pick your own ORM and auth. Used for microservices, internal tools, ML model APIs, and prototypes. Example: a 50-line app that serves JSON from a SQLite DB and renders HTML with Jinja templates.",
+      "narrative": {
+        "whyChosen": "Flask became Python's lightweight alternative to Django for APIs and small services.",
+        "whyImportant": "It proved a microframework could stay minimal while powering serious production apps via extensions.",
+        "problemSolved": "Django was heavy for tiny APIs; developers wanted WSGI routing and templates without full MVC ceremony."
+      },
+      "category": "software",
+      "tags": ["flask", "python", "web-framework", "microframework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ronacher — April 1st Post Mortem (Flask release, April 1, 2010)",
+          "url": "https://lucumr.pocoo.org/2010/4/3/postmortem/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Flask (overview)",
+          "url": "https://en.wikipedia.org/wiki/Flask_(web_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-0-9-0-released", "django-open-sourced", "fastapi-released"]
+    },
+    {
+      "id": "fsharp-2-released",
+      "slug": "fsharp-2-released",
+      "date": "2010-04-12",
+      "datePrecision": "day",
+      "title": "F# 2.0 shipped with Visual Studio 2010",
+      "summary": "Microsoft shipped F# 2.0 on April 12, 2010 — a functional-first language for .NET, productized after years at Microsoft Research.",
+      "about": "F# combines ML-style functional programming with .NET interop — pattern matching, immutable data, async workflows, and units of measure. Used in quantitative finance, data science, and Azure services. Don Syme's design influenced C# features like LINQ and async/await.",
+      "narrative": {
+        "whyChosen": "F# brought industrial-strength functional programming to the .NET mainstream.",
+        "whyImportant": "It proved FP could ship in Visual Studio alongside C# and VB for production teams.",
+        "problemSolved": "ML-family languages lacked .NET libraries and enterprise tooling; researchers needed a pragmatic FP on the CLR."
+      },
+      "category": "software",
+      "tags": ["fsharp", "dotnet", "microsoft", "functional-programming", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft Research — The early history of F# (productization 2007–10, F# 2.0)",
+          "url": "https://www.microsoft.com/en-us/research/publication/the-early-history-of-f/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — F# (overview)",
+          "url": "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["csharp-announced", "dotnet-framework-1-0-rtm"]
+    }
+  ]
+}

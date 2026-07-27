@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "algol-58-published",
+      "slug": "algol-58-published",
+      "date": "1958-12-01",
+      "datePrecision": "day",
+      "title": "ALGOL 58 preliminary report published",
+      "summary": "Perlis and Samelson published the International Algebraic Language report in Communications of the ACM — later known as ALGOL 58.",
+      "about": "ALGOL was designed as a portable algorithm notation for publishing and sharing programs across different computers. It influenced Pascal, C, and virtually every block-structured language that followed. Researchers used it to describe algorithms in journals without tying them to one machine's assembly code.",
+      "narrative": {
+        "whyChosen": "ALGOL 58 was the first major international effort to standardize how algorithms were written in print and code.",
+        "whyImportant": "It established block structure, BNF-style rigor, and machine-independent thinking that shaped language design for decades.",
+        "problemSolved": "Every computer had its own notation; scientists needed a common language to publish and compare algorithms."
+      },
+      "category": "software",
+      "tags": ["algol", "programming-language", "acm", "international-standard"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "ACM Digital Library — Preliminary report (Dec 1, 1958)",
+          "url": "https://doi.org/10.1145/377924.594925",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — ALGOL 58 preliminary report (PDF)",
+          "url": "https://softwarepreservation.computerhistory.org/ALGOL/report/Algol58_preliminary_report_CACM.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ALGOL 58 (overview)",
+          "url": "https://en.wikipedia.org/wiki/ALGOL_58",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["algol-60-published"]
+    }
+  ]
+}

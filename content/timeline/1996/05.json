@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ocaml-1-00-released",
+      "slug": "ocaml-1-00-released",
+      "date": "1996-05-09",
+      "datePrecision": "day",
+      "title": "Objective Caml 1.00 released",
+      "summary": "Xavier Leroy announced Objective Caml 1.00 on May 9, 1996 — an object-oriented ML with type reconstruction and native-code compilation.",
+      "about": "OCaml merges functional programming with objects and modules — used at Jane Street for trading systems, in the Coq proof assistant ecosystem, and in MirageOS unikernels. Its type inference and pattern matching catch bugs at compile time while staying pragmatic for systems work.",
+      "narrative": {
+        "whyChosen": "OCaml 1.00 was the first public OO language with ML-style type reconstruction and a production native compiler.",
+        "whyImportant": "It became the reference implementation for industrial ML — influencing F#, Rust's ownership ideas, and verified software.",
+        "problemSolved": "Caml Special Light needed objects without sacrificing static safety or the module system researchers relied on."
+      },
+      "category": "software",
+      "tags": ["ocaml", "ml", "caml", "functional", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Xavier Leroy — Objective Caml 1.00 announcement (May 9, 1996)",
+          "url": "https://inbox.ci.dev/caml-list/199605091427.QAA28631@pauillac.inria.fr/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OCaml (overview)",
+          "url": "https://en.wikipedia.org/wiki/OCaml",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["haskell-1-0-report", "fsharp-2-released", "pascal-report-published"]
+    }
+  ]
+}

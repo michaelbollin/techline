@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": "cobol-specifications-submitted",
+      "slug": "cobol-specifications-submitted",
+      "date": "1959-12-17",
+      "datePrecision": "day",
+      "title": "COBOL specifications submitted",
+      "summary": "The CODASYL short-range committee submitted the first COBOL language specifications for business data processing.",
+      "about": "COBOL was for business records on mainframes — readable English-like syntax for payroll, banking, insurance, and government systems. Example jobs: processing millions of transactions, printing statements, and batch reporting. A large share of global financial back-office code still runs on COBOL.",
+      "narrative": {
+        "whyChosen": "COBOL standardized how industries described business logic in portable, readable programs.",
+        "whyImportant": "DoD pressure made COBOL available across vendors, proving cross-machine business languages could work.",
+        "problemSolved": "Every manufacturer had incompatible data-processing languages; COBOL aimed for one common business language."
+      },
+      "category": "software",
+      "tags": [
+        "cobol",
+        "codasyl",
+        "business",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CODASYL — COBOL Report (April 1960, specs dated Dec 1959)",
+          "url": "https://bitsavers.org/pdf/codasyl/COBOL_Report_Apr60.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — COBOL (overview)",
+          "url": "https://en.wikipedia.org/wiki/COBOL",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cobol-first-program-run"
+      ]
+    }
+  ]
+}

@@ -1,34 +1,35 @@
 {
   "events": [
     {
-      "id": "unix-created",
-      "slug": "unix-created",
+      "id": "b-language-created",
+      "slug": "b-language-created",
       "date": "1969",
       "datePrecision": "year",
-      "title": "Unix created at Bell Labs",
-      "summary": "A small, portable operating system whose ideas still shape Linux, macOS, and the cloud.",
+      "title": "B programming language created at Bell Labs",
+      "summary": "Ken Thompson developed B circa 1969 as a typeless systems language derived from BCPL for early Unix on the PDP-7.",
+      "about": "B was the stepping stone between BCPL and C — word-oriented, minimal, meant for Unix kernel and tool development on memory-constrained PDP machines. Thompson wrote the first B compiler after Fortran proved too heavy for the PDP-7. Dennis Ritchie then evolved B into C by adding types.",
       "narrative": {
-        "whyChosen": "Unix is one of the few 1960s systems whose design vocabulary is still in daily use.",
-        "whyImportant": "Files, pipes, processes, and a composable tool philosophy became the default way to build software systems.",
-        "problemSolved": "Early OS work was tied to specific hardware. Teams needed a simpler, portable system for real programming work."
+        "whyChosen": "Unix needed a systems language lighter than Fortran; B was the experiment that proved the approach before C added types.",
+        "whyImportant": "B established the BCPL→B→C lineage that defines systems programming to this day.",
+        "problemSolved": "PDP-7 had tiny memory; Multics-era languages were too large to compile or run on the new Unix hardware."
       },
       "category": "software",
-      "tags": ["operating-systems", "bell-labs", "open-standards"],
-      "importance": 1,
-      "media": [
-        {
-          "type": "link",
-          "url": "https://www.levenez.com/unix/",
-          "title": "Unix timeline poster"
-        }
-      ],
+      "tags": ["b-language", "unix", "bell-labs", "thompson", "programming-language"],
+      "importance": 2,
+      "media": [],
       "sources": [
         {
-          "title": "Bell Labs — The Creation of the UNIX Operating System",
-          "url": "https://www.bell-labs.com/usr/dmr/www/hist.html"
+          "title": "Ritchie — The Development of the C Language (B created 1969–70)",
+          "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — B (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/B_(programming_language)",
+          "role": "overview"
         }
       ],
-      "relatedIds": ["transistor-invented", "arpanet-first-message"]
+      "relatedIds": ["bcpl-manual-published", "c-language-created"]
     }
   ]
 }

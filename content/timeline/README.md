@@ -64,13 +64,14 @@ bucketPathForEvent({ date: "2022-11-30", datePrecision: "day" });
 | `date` | yes | Must match the bucket file (see below) |
 | `datePrecision` | yes | Must match the bucket file type |
 | `title` | yes | Display headline |
-| `summary` | yes | One sentence for collapsed view |
-| `narrative` | yes | Expanded copy |
+| `summary` | yes | One sentence for collapsed timeline row |
+| `about` | yes | Plain-language: what this was used for, typical apps/examples (for readers who never used it) |
+| `narrative` | yes | Expanded copy — why it matters historically |
 | `category` | yes | See categories below |
 | `tags` | no | Filters, e.g. `llm`, `internet` |
 | `importance` | yes | `1` landmark, `2` standard, `3` dense |
 | `media` | no | YouTube, links, memes, images |
-| `sources` | no | Citations |
+| `sources` | no | Citations — prefer two links: `role: "date"` confirms when, `role: "overview"` confirms what it was for (Wikipedia, official docs) |
 | `relatedIds` | no | Other event ids |
 
 ### Date formats by precision
@@ -84,12 +85,42 @@ bucketPathForEvent({ date: "2022-11-30", datePrecision: "day" });
 
 ### Narrative block
 
+Keep `summary` short for the timeline list. Use `about` for accessible context — who used it, what they built, 1–2 concrete examples:
+
 ```json
+"summary": "Microsoft launched Visual Basic at Comdex…",
+"about": "Visual Basic let non-specialists build Windows desktop apps: drag buttons onto a form, double-click to write event code. Typical apps: inventory tools, accounting front-ends, and in-house CRUD screens.",
 "narrative": {
   "whyChosen": "Why this event is in the timeline.",
   "whyImportant": "Why it mattered.",
   "problemSolved": "What problem or constraint it addressed."
 }
+```
+
+### Sources
+
+Every event should cite **two kinds** of trusted link:
+
+| `role` | Confirms | Examples |
+|--------|----------|----------|
+| `"date"` | When it happened | Press release, author chronology, official release page, archive.org announcement |
+| `"overview"` | What it was for | Wikipedia language page, official docs, vendor “what is” page |
+
+The `about` field is editorial text for readability — it should match the overview source, not add unsourced claims.
+
+```json
+"sources": [
+  {
+    "title": "Microsoft — Introduces C# (June 26, 2000)",
+    "url": "https://news.microsoft.com/source/2000/06/26/...",
+    "role": "date"
+  },
+  {
+    "title": "Wikipedia — C# (overview)",
+    "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+    "role": "overview"
+  }
+]
 ```
 
 ### Media
@@ -143,4 +174,4 @@ const { events, buckets } = await loadTimeline();
 - Put many events in the same `YYYY/MM.json` when they share a month.
 - Use `importance: 3` to keep busy months manageable in the UI later.
 - Keep `id` stable once published.
-- Prefer primary sources in `sources`; use `media` for videos, memes, and extras.
+- Prefer primary sources for dates; Wikipedia or official docs for overview/purpose.

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "cpp98-standard",
+      "slug": "cpp98-standard",
+      "date": "1998-09-01",
+      "datePrecision": "day",
+      "title": "C++98 standard published (ISO/IEC 14882:1998)",
+      "summary": "ISO/IEC 14882:1998 was published on September 1, 1998 — the first international standard for C++.",
+      "about": "C++98 codified the language Stroustrup built — classes, templates, exceptions, the STL (`vector`, `string`, `map`), and RAII. It is the baseline every C++ compiler still supports. Game engines, browsers, databases, and trading systems run on C++98-and-later semantics.",
+      "narrative": {
+        "whyChosen": "C++98 turned a decade of vendor dialects into one normative language with a standard library.",
+        "whyImportant": "The STL and standard semantics made C++ a portable systems language with a rich generic library.",
+        "problemSolved": "Pre-standard C++ varied between compilers; large projects needed a single definition and a common library."
+      },
+      "category": "software",
+      "tags": ["cpp", "iso", "standard", "stl", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Stroustrup — ISO C++ standard press release (published September 1, 1998)",
+          "url": "https://www.stroustrup.com/iso_pressrelease2.html",
+          "role": "date"
+        },
+        {
+          "title": "ISO/IEC 14882:1998 (overview)",
+          "url": "https://www.iso.org/standard/25845.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cpp-cfront-1-0", "cpp-templates-cfront-3", "cpp11-standard"]
+    }
+  ]
+}

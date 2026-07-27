@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "matlab-1-0-debut",
+      "slug": "matlab-1-0-debut",
+      "date": "1984-12",
+      "datePrecision": "month",
+      "title": "PC-MATLAB 1.0 debuts at IEEE CDC",
+      "summary": "MathWorks introduced PC-MATLAB in December 1984 at the IEEE Conference on Decision and Control in Las Vegas — the first commercial MATLAB product.",
+      "about": "MATLAB is built around matrices and vectors — engineers run simulations, plot data, and prototype control systems without writing low-level loops. Used in aerospace, automotive, finance, and academia. Simulink extends it for model-based design.",
+      "narrative": {
+        "whyChosen": "PC-MATLAB turned Cleve Moler's matrix hobby into the dominant numerical computing environment for engineers.",
+        "whyImportant": "It proved interactive matrix math could ship on personal computers and sustain a commercial tools company.",
+        "problemSolved": "Fortran-era engineers needed fast matrix operations and plotting without recompiling for every experiment."
+      },
+      "category": "software",
+      "tags": ["matlab", "mathworks", "numerical-computing", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Cleve Moler — MATLAB History, PC-MATLAB Version 1.0 (December 1984)",
+          "url": "https://blogs.mathworks.com/cleve/2018/03/09/matlab-history-pc-matlab-version-1-0/",
+          "role": "date"
+        },
+        {
+          "title": "MathWorks — A Brief History of MATLAB (overview)",
+          "url": "https://www.mathworks.com/company/technical-articles/a-brief-history-of-matlab.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["fortran-first-delivery", "objective-c-created"]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "visual-basic-net-released",
+      "slug": "visual-basic-net-released",
+      "date": "2002-02-13",
+      "datePrecision": "day",
+      "title": "Visual Basic .NET released with .NET Framework",
+      "summary": "Microsoft launched Visual Basic .NET and the .NET Framework at VSLive! on February 13, 2002 — a full OOP rewrite for the CLR.",
+      "about": "VB.NET kept Basic's readable syntax but compiled to the same Common Language Runtime as C# — garbage collection, generics (later), and full .NET libraries. Enterprise teams migrated millions of VB6 desktop apps to managed Windows and ASP.NET web services. Unity and Xamarin later shared the same CLR ecosystem.",
+      "narrative": {
+        "whyChosen": "VB.NET carried the world's largest RAD developer base into the managed .NET era.",
+        "whyImportant": "It proved Microsoft could modernize a beloved language without abandoning its audience — even through a painful VB6 migration.",
+        "problemSolved": "Classic VB could not target web services or safe managed memory; .NET needed a familiar language beside C#."
+      },
+      "category": "software",
+      "tags": ["visual-basic", "dotnet", "microsoft", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Visual Studio .NET and .NET Framework launch (Feb 13, 2002)",
+          "url": "https://news.microsoft.com/source/2002/02/13/microsoft-launches-xml-web-services-revolution-with-visual-studio-net-and-net-framework/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Visual Basic (.NET) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Visual_Basic_(.NET)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["visual-basic-1-0-released", "csharp-announced", "dotnet-framework-1-0-rtm", "aspnet-1-0-released"]
+    },
+    {
+      "id": "aspnet-1-0-released",
+      "slug": "aspnet-1-0-released",
+      "date": "2002-02-13",
+      "datePrecision": "day",
+      "title": "ASP.NET 1.0 launched with Visual Studio .NET",
+      "summary": "Microsoft launched ASP.NET 1.0 on February 13, 2002 — managed web pages on the .NET Framework, replacing classic ASP.",
+      "about": "ASP.NET brought Web Forms, code-behind, and server controls to Microsoft web development — drag-and-drop UI like VB, compiled C# or VB.NET instead of VBScript. It powered enterprise intranets, line-of-business portals, and early SaaS on Windows Server before MVC and Core reshaped the stack.",
+      "narrative": {
+        "whyChosen": "ASP.NET was Microsoft's answer to Java servlets/JSP and became the default stack for Windows-hosted web apps.",
+        "whyImportant": "It proved managed code could replace COM-based ASP for high-traffic business websites.",
+        "problemSolved": "Classic ASP was interpreted VBScript/JScript with limited structure; teams needed compiled, component-based web development."
+      },
+      "category": "software",
+      "tags": ["aspnet", "dotnet", "microsoft", "web-framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Visual Studio .NET launch includes ASP.NET (Feb 13, 2002)",
+          "url": "https://news.microsoft.com/source/2002/02/13/microsoft-launches-xml-web-services-revolution-with-visual-studio-net-and-net-framework/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ASP.NET (overview)",
+          "url": "https://en.wikipedia.org/wiki/ASP.NET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-framework-1-0-rtm", "csharp-announced", "visual-basic-net-released"]
+    }
+  ]
+}

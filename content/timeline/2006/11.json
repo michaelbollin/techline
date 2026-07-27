@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "powershell-1-0-released",
+      "slug": "powershell-1-0-released",
+      "date": "2006-11-14",
+      "datePrecision": "day",
+      "title": "Windows PowerShell 1.0 released",
+      "summary": "Microsoft released Windows PowerShell 1.0 on November 14, 2006 at ITForum — a .NET-based shell and scripting language for Windows administration.",
+      "about": "PowerShell pipes objects, not just text — `Get-Process`, `Where-Object`, and modules automate Active Directory, Azure, and Exchange at scale. Admins and DevOps teams script deployments, audit configs, and manage cloud resources. It later became cross-platform as PowerShell Core.",
+      "narrative": {
+        "whyChosen": "PowerShell replaced fragile CMD/batch scripting with a consistent object pipeline on Windows.",
+        "whyImportant": "It made .NET APIs directly scriptable and became the backbone of Microsoft server automation.",
+        "problemSolved": "Windows lacked a modern composable shell; admins glued together VBScript, WMI, and one-off binaries."
+      },
+      "category": "software",
+      "tags": ["powershell", "microsoft", "windows", "shell", "scripting", "dotnet"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "PowerShell Team — Windows PowerShell 1.0 Released (November 14, 2006)",
+          "url": "https://devblogs.microsoft.com/powershell/its-a-wrap-windows-powershell-1-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PowerShell (overview)",
+          "url": "https://en.wikipedia.org/wiki/PowerShell",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-framework-1-0-rtm", "bash-1-0-released"]
+    }
+  ]
+}

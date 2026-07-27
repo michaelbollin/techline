@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "dotnet-framework-1-0-rtm",
+      "slug": "dotnet-framework-1-0-rtm",
+      "date": "2002-01-15",
+      "datePrecision": "day",
+      "title": ".NET Framework 1.0 released to manufacturing",
+      "summary": "Microsoft shipped .NET Framework 1.0 RTM on January 15, 2002 — the CLR, class libraries, and managed runtime for Windows.",
+      "about": ".NET Framework is Microsoft's managed platform — garbage-collected CLR, BCL class libraries, ASP.NET web stack, and ADO.NET data access. It powered enterprise Windows apps, Web Forms sites, WCF services, and later WPF desktops until .NET Core/.NET 5+ replaced it for cross-platform work.",
+      "narrative": {
+        "whyChosen": ".NET Framework defined Microsoft's post-COM development stack for two decades.",
+        "whyImportant": "It unified C#, VB.NET, and other languages on one runtime with a shared library ecosystem.",
+        "problemSolved": "Windows developers juggled COM, MFC, and ASP classic; .NET offered one managed platform for desktop and web."
+      },
+      "category": "software",
+      "tags": ["dotnet", "microsoft", "clr", "framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — .NET Framework 1.0 RTM (January 15, 2002)",
+          "url": "https://en.wikipedia.org/wiki/.NET_Framework_version_history",
+          "role": "date"
+        },
+        {
+          "title": "Microsoft — .NET Framework released to MSDN (January 2002)",
+          "url": "https://rcpmag.com/articles/2002/01/16/microsoft-releases-net-framework-visual-studio-net.aspx",
+          "role": "date"
+        },
+        {
+          "title": "Microsoft Learn — .NET Framework overview",
+          "url": "https://learn.microsoft.com/en-us/dotnet/framework/get-started/overview",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["csharp-announced", "visual-basic-net-released", "aspnet-1-0-released"]
+    }
+  ]
+}

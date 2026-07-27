@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "cpp-cfront-1-0",
+      "slug": "cpp-cfront-1-0",
+      "date": "1985-10",
+      "datePrecision": "month",
+      "title": "Cfront 1.0 — first commercial C++ release",
+      "summary": "Bjarne Stroustrup shipped Cfront 1.0, the first commercial C++ compiler translating C++ to C.",
+      "about": "C++ adds classes and abstraction on top of C while keeping performance. Used for browsers (Chrome), game engines (Unreal), databases, trading systems, and large desktop apps. If you need C speed with OOP, teams still reach for C++.",
+      "narrative": {
+        "whyChosen": "C++ brought object-oriented and systems abstractions to the C ecosystem without breaking its performance model.",
+        "whyImportant": "Commercial availability turned 'C with Classes' into a language teams could adopt on real projects.",
+        "problemSolved": "Simula-style OOP existed, but systems programmers needed OOP that compiled down to efficient C."
+      },
+      "category": "software",
+      "tags": [
+        "cpp",
+        "cfront",
+        "stroustrup",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://softwarepreservation.computerhistory.org/c_plus_plus/",
+          "title": "Computer History Museum — C++ archive"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stroustrup — C++ chronology (Cfront 1.0, Oct 1985)",
+          "url": "https://stroustrup.com/dne_notes.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C++ (overview)",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cpp-templates-cfront-3",
+        "cpp98-standard"
+      ]
+    }
+  ]
+}

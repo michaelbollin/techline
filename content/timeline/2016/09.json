@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "angular-2-released",
+      "slug": "angular-2-released",
+      "date": "2016-09-14",
+      "datePrecision": "day",
+      "title": "Angular 2.0 final released",
+      "summary": "Google shipped Angular 2.0 on September 14, 2016 — a TypeScript rewrite with components, ahead-of-time compilation, and mobile support.",
+      "about": "Angular (2+) replaced AngularJS with TypeScript, RxJS, and a CLI for enterprise SPAs. Used for large banking portals, admin dashboards, and Ionic mobile apps. Breaking from 1.x was painful, but AOT compilation, lazy loading, and structured modules suited big teams.",
+      "narrative": {
+        "whyChosen": "Angular 2 reset the framework for TypeScript, performance, and long-term enterprise maintenance.",
+        "whyImportant": "It kept Google in the enterprise SPA race alongside React and showed when a full rewrite can be justified.",
+        "problemSolved": "AngularJS could not meet mobile performance and tooling needs; the digest cycle and JS-only codebase hit limits."
+      },
+      "category": "software",
+      "tags": ["angular", "google", "typescript", "spa", "web-framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Open Source Blog — Angular 2 final release (September 14, 2016)",
+          "url": "https://opensource.googleblog.com/2016/09/angular-version-2-proprioception.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Angular (web framework) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Angular_(web_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["angularjs-released", "typescript-preview-released"]
+    }
+  ]
+}

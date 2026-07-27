@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "fortran-2003-standard",
+      "slug": "fortran-2003-standard",
+      "date": "2004-11-18",
+      "datePrecision": "day",
+      "title": "Fortran 2003 standard published (ISO/IEC 1539-1:2004)",
+      "summary": "ISO/IEC 1539-1:2004 was published on November 18, 2004 — the Fortran 2003 standard with object-oriented features.",
+      "about": "Fortran 2003 added derived-type OOP, allocatable arrays with full semantics, C interoperability (`ISO_C_BINDING`), and stream I/O. It let Fortran call C libraries directly — critical for linking with modern numerical and GPU stacks without wrapper layers.",
+      "narrative": {
+        "whyChosen": "Fortran 2003 brought OOP and C interop — the features HPC codes needed to integrate with the rest of the software stack.",
+        "whyImportant": "C binding and improved allocatables made Fortran viable alongside C/C++ in mixed-language supercomputing projects.",
+        "problemSolved": "Fortran 95 could not cleanly interoperate with C libraries or express object-oriented models researchers expected."
+      },
+      "category": "software",
+      "tags": ["fortran", "iso", "standard", "scientific-computing"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO/IEC 1539-1:2004 — published November 18, 2004",
+          "url": "https://www.iso.org/standard/39691.html",
+          "role": "date"
+        },
+        {
+          "title": "Fortran BCS — Fortran 2003 factsheet (overview)",
+          "url": "https://fortran.bcs.org/2005/factsheet.htm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["fortran-95-standard"]
+    }
+  ]
+}

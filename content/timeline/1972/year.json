@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "id": "c-language-created",
+      "slug": "c-language-created",
+      "date": "1972",
+      "datePrecision": "year",
+      "title": "C programming language takes shape at Bell Labs",
+      "summary": "Dennis Ritchie evolved C from B during 1971–73; 1972 was the most creative period for the language and first compiler.",
+      "about": "C is a systems language — close to the machine, but portable. Used to write operating systems (Unix/Linux kernels), databases, embedded firmware, game engines, and anything that needs speed and direct memory control. C still underpins most OS and runtime code today.",
+      "narrative": {
+        "whyChosen": "C became the systems language of Unix and later the foundation for C++, Objective-C, Go, and much of modern infrastructure.",
+        "whyImportant": "It added a practical type system to B and enabled rewriting Unix in a portable high-level language.",
+        "problemSolved": "B was too limited for the PDP-11 byte architecture and growing Unix kernel needs."
+      },
+      "category": "software",
+      "tags": [
+        "c",
+        "bell-labs",
+        "unix",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
+          "title": "Ritchie — The Development of the C Language"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ritchie — The Development of the C Language",
+          "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "c-k-and-r-published",
+        "b-language-created",
+        "ansi-c-standard",
+        "prolog-first-implementation"
+      ]
+    },
+    {
+      "id": "prolog-first-implementation",
+      "slug": "prolog-first-implementation",
+      "date": "1972",
+      "datePrecision": "year",
+      "title": "First Prolog interpreter at University of Marseille",
+      "summary": "Alain Colmerauer and Philippe Roussel implemented the first Prolog in fall 1972 — logic programming as Horn-clause theorem proving with backtracking.",
+      "about": "Prolog programs are facts and rules; the engine searches for proofs by unification and backtracking. Used in expert systems, natural-language tools, and symbolic AI. SWI-Prolog, GNU Prolog, and Warren's WAM influenced compiler design far beyond logic programming.",
+      "narrative": {
+        "whyChosen": "Prolog was the first widely used logic programming language and parent of most modern Prolog systems.",
+        "whyImportant": "It showed declarative rules could drive real applications — from machine translation research to industrial expert systems.",
+        "problemSolved": "Colmerauer's team needed one engine for both natural-language parsing and automated reasoning without separate theorem provers."
+      },
+      "category": "software",
+      "tags": ["prolog", "logic-programming", "ai", "marseille", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Computer History Museum — Preliminary Prolog, fall 1972",
+          "url": "https://softwarepreservation.computerhistory.org/prolog/",
+          "role": "date"
+        },
+        {
+          "title": "Colmerauer & Roussel — The birth of Prolog (overview)",
+          "url": "http://alain.colmerauer.free.fr/alcol/ArchivesPublications/PrologHistory/19november92.pdf",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["lisp-first-interpreter", "c-language-created"]
+    }
+  ]
+}

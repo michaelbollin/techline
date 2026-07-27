@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": "laravel-first-beta",
+      "slug": "laravel-first-beta",
+      "date": "2011-06-09",
+      "datePrecision": "day",
+      "title": "Laravel first public beta",
+      "summary": "Taylor Otwell released Laravel's first beta as a more expressive PHP alternative to CodeIgniter.",
+      "about": "Laravel is a PHP framework for modern web apps — routing, Eloquent ORM, Blade templates, auth scaffolding. Used for SaaS dashboards, e-commerce, REST APIs, and agency client sites. Example stack: Laravel + MySQL + Vue/React front-end, deployed on Forge or similar.",
+      "narrative": {
+        "whyChosen": "Laravel became the default mental model for modern PHP web development.",
+        "whyImportant": "It brought elegant routing, Eloquent ORM, and Blade templating to mainstream PHP teams.",
+        "problemSolved": "PHP frameworks of the era lacked built-in auth, migrations, and developer ergonomics Otwell wanted."
+      },
+      "category": "software",
+      "tags": [
+        "laravel",
+        "php",
+        "web-framework"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Laravel News — first beta June 9, 2011",
+          "url": "https://laravel-news.com/laravel-is-10-years-old",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Laravel (first beta June 9, 2011)",
+          "url": "https://en.wikipedia.org/wiki/Laravel",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "laravel-symfony-http-foundation",
+        "symfony-released"
+      ]
+    }
+  ]
+}

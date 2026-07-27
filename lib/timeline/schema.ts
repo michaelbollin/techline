@@ -22,9 +22,13 @@ export const mediaItemSchema = z.object({
   caption: z.string().min(1).optional(),
 });
 
+export const sourceRoleSchema = z.enum(["date", "overview"]);
+
 export const sourceSchema = z.object({
   title: z.string().min(1),
   url: z.string().url(),
+  /** `date` = confirms when; `overview` = confirms what it was for / general reference */
+  role: sourceRoleSchema.optional(),
 });
 
 export const narrativeSchema = z.object({
@@ -46,6 +50,8 @@ export const timelineEventSchema = z.object({
   datePrecision: datePrecisionSchema,
   title: z.string().min(1),
   summary: z.string().min(1),
+  /** Plain-language note on what this was used for — helpful for readers unfamiliar with the tech. */
+  about: z.string().min(1),
   narrative: narrativeSchema,
   category: timelineCategorySchema,
   tags: z.array(z.string().min(1)).default([]),
@@ -65,6 +71,7 @@ export type TimelineCategory = z.infer<typeof timelineCategorySchema>;
 export type MediaType = z.infer<typeof mediaTypeSchema>;
 export type MediaItem = z.infer<typeof mediaItemSchema>;
 export type Source = z.infer<typeof sourceSchema>;
+export type SourceRole = z.infer<typeof sourceRoleSchema>;
 export type Narrative = z.infer<typeof narrativeSchema>;
 export type TimelineEvent = z.infer<typeof timelineEventSchema>;
 export type TimelineBucketFile = z.infer<typeof timelineBucketFileSchema>;

@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "id": "python-3-0-released",
+      "slug": "python-3-0-released",
+      "date": "2008-12-03",
+      "datePrecision": "day",
+      "title": "Python 3.0 released",
+      "summary": "Python 3.0 shipped as an intentionally backward-incompatible cleanup of the language and standard library.",
+      "about": "Same roles as Python 2 — scripting, web, data, automation — but with breaking fixes: proper Unicode strings, cleaner syntax (`print()` as function), and removed old APIs. Migration took years; today Python 3 is the only supported line for new work.",
+      "narrative": {
+        "whyChosen": "The Python 2→3 transition was one of the biggest ecosystem migrations in open-source history.",
+        "whyImportant": "It fixed long-standing design warts (unicode strings, print as function, removed old APIs) at the cost of breakage.",
+        "problemSolved": "Python 2 accumulated deprecated patterns that could not be fixed without breaking existing code."
+      },
+      "category": "software",
+      "tags": [
+        "python",
+        "python3",
+        "breaking-change",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www.python.org/download/releases/3.0/",
+          "title": "Python.org — 3.0 release notes"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Python.org — Python 3.0 final (December 3, 2008)",
+          "url": "https://www.python.org/downloads/release/python-300/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "python-0-9-0-released"
+      ]
+    }
+  ]
+}

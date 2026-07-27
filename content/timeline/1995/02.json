@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "delphi-1-0-launched",
+      "slug": "delphi-1-0-launched",
+      "date": "1995-02-14",
+      "datePrecision": "day",
+      "title": "Borland Delphi 1.0 launched",
+      "summary": "Borland launched Delphi 1.0 on February 14, 1995 at Software Development West — a visual Pascal IDE with native Windows GUI compilation.",
+      "about": "Delphi combined Object Pascal with a drag-and-drop form designer and fast native x86 code — the go-to tool for Windows desktop apps in the 1990s. Database grids, reporting tools, and line-of-business software shipped by the thousands. Anders Hejlsberg's team later moved to Microsoft and shaped C#.",
+      "narrative": {
+        "whyChosen": "Delphi proved rapid application development could compile to fast native Windows binaries, not just interpreted BASIC.",
+        "whyImportant": "It kept Pascal relevant for a decade of GUI development and influenced later RAD tools and C#.",
+        "problemSolved": "Windows developers wanted Visual Basic ease with C++-class performance and a real component model."
+      },
+      "category": "software",
+      "tags": ["delphi", "borland", "pascal", "windows", "ide", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Embarcadero — Celebrating Delphi 1.0 launch (February 14, 1995)",
+          "url": "https://blogs.embarcadero.com/celebrating-the-30th-anniversary-of-delphi-version-1-0s-launch/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Delphi (overview)",
+          "url": "https://en.wikipedia.org/wiki/Delphi_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["pascal-report-published", "csharp-announced"]
+    }
+  ]
+}

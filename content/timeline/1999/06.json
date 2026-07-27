@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": "flash-4-scripting",
+      "slug": "flash-4-scripting",
+      "date": "1999-06-15",
+      "datePrecision": "day",
+      "title": "Flash 4 ships with a real scripting language",
+      "summary": "Macromedia Flash 4 added variables, loops, and conditions — the precursor to ActionScript.",
+      "about": "Flash filled browsers with animated, interactive content before HTML5 — cartoon intros, simple games, product demos, and clickable banners. Flash 4 added real scripting (if/else, variables) so designers could build menus and quizzes, not just timeline animations.",
+      "narrative": {
+        "whyChosen": "Flash turned the web from static pages into animated, interactive experiences before HTML5.",
+        "whyImportant": "Developers could build games and apps in the browser without a full plugin stack beyond Flash.",
+        "problemSolved": "Earlier Flash versions only supported simple timeline actions, not real programmatic control."
+      },
+      "category": "software",
+      "tags": [
+        "actionscript",
+        "flash",
+        "macromedia",
+        "web"
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "MacTech — Macromedia Ships Flash 4 (June 15, 1999)",
+          "url": "https://www.mactech.com/1999/06/15/npl-macromedia-ships-flash-4/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Adobe Flash (overview)",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Flash",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "actionscript-1-0-flash-5"
+      ]
+    }
+  ]
+}

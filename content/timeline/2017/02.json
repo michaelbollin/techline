@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": "nestjs-announced",
+      "slug": "nestjs-announced",
+      "date": "2017-02-26",
+      "datePrecision": "day",
+      "title": "NestJS introduced",
+      "summary": "Kamil Myśliwiec started NestJS — a TypeScript-first Node.js framework inspired by Angular's module/DI architecture.",
+      "about": "NestJS structures Node.js backends like Spring or Angular — modules, controllers, dependency injection, decorators. Used for REST and GraphQL APIs, microservices, and enterprise TypeScript servers. Example: a typed API with auth guards, Swagger docs, and PostgreSQL via TypeORM — without Express spaghetti.",
+      "narrative": {
+        "whyChosen": "NestJS brought structure to Node backends when Express-only codebases became hard to maintain at scale.",
+        "whyImportant": "Decorators, dependency injection, and modules made enterprise patterns normal in TypeScript APIs.",
+        "problemSolved": "Node.js lacked a batteries-included, opinionated framework comparable to Spring or Angular."
+      },
+      "category": "software",
+      "tags": [
+        "nestjs",
+        "nodejs",
+        "typescript",
+        "web-framework"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — NestJS (initial release Feb 26, 2017)",
+          "url": "https://en.wikipedia.org/wiki/NestJS",
+          "role": "date"
+        },
+        {
+          "title": "nestjs.com — Documentation",
+          "url": "https://docs.nestjs.com/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nextjs-open-sourced",
+        "nodejs-first-released",
+        "express-released"
+      ]
+    }
+  ]
+}

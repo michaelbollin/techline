@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "groovy-1-0-released",
+      "slug": "groovy-1-0-released",
+      "date": "2007-01-05",
+      "datePrecision": "day",
+      "title": "Groovy 1.0 released",
+      "summary": "The Groovy team shipped Groovy 1.0 on January 5, 2007 — a dynamic JVM language with Ruby/Python-style syntax and Java interoperability.",
+      "about": "Groovy scripts Gradle build files, Jenkins pipelines, and Grails web apps — you call Java libraries directly while writing less boilerplate. Closures, builders, and optional typing made it popular for testing (Spock) and DSLs before Kotlin rose on Android.",
+      "narrative": {
+        "whyChosen": "Groovy 1.0 was the first stable dynamic language designed to run on the JVM beside Java.",
+        "whyImportant": "It proved JVM bytecode could host scripting languages and later powered Gradle, the default Android/Java build tool.",
+        "problemSolved": "Java was verbose for scripting and DSLs; developers wanted Ruby-like ergonomics without leaving the Java ecosystem."
+      },
+      "category": "software",
+      "tags": ["groovy", "jvm", "java", "gradle", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Groovy project — Groovy 1.0 is there (January 5, 2007)",
+          "url": "https://web.archive.org/web/20070816093259/docs.codehaus.org/display/GROOVY/2007/01/02/Groovy+1.0+is+there",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Groovy (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Groovy",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-1-0-shipped", "kotlin-1-0-released"]
+    }
+  ]
+}

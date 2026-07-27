@@ -1,0 +1,43 @@
+{
+  "events": [
+    {
+      "id": "c-k-and-r-published",
+      "slug": "c-k-and-r-published",
+      "date": "1978-02-22",
+      "datePrecision": "day",
+      "title": "The C Programming Language (K&R) published",
+      "summary": "Kernighan and Ritchie's book became the de facto C language definition for over a decade.",
+      "about": "The book taught C as the language of Unix systems programming — writing shells, utilities, drivers, and portable tools. Sample programs in the book (hello world, parsers, small utilities) became how a generation learned to code close to the metal.",
+      "narrative": {
+        "whyChosen": "Before ANSI C, this book was the specification developers actually used worldwide.",
+        "whyImportant": "It codified K&R C and spread Unix systems programming practices beyond Bell Labs.",
+        "problemSolved": "C lacked a formal standard; teams needed a stable, readable reference to write portable code."
+      },
+      "category": "software",
+      "tags": [
+        "c",
+        "k-and-r",
+        "book",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — The C Programming Language (1st ed. Feb 22, 1978)",
+          "url": "https://en.wikipedia.org/wiki/The_C_Programming_Language",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "c-language-created",
+        "ansi-c-standard"
+      ]
+    }
+  ]
+}

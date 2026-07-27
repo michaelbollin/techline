@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "id": "javascript-mocha-prototype",
+      "slug": "javascript-mocha-prototype",
+      "date": "1995-05",
+      "datePrecision": "month",
+      "title": "JavaScript (Mocha) prototyped at Netscape",
+      "summary": "Brendan Eich built the first Mocha prototype in ten days in May 1995 for scriptable web pages in Netscape Navigator.",
+      "about": "JavaScript runs inside the web browser to make pages interactive — validate a form before submit, swap menu tabs, fetch data without reloading. Today it also powers servers (Node.js), mobile apps (React Native), and most front-end frameworks. In 1995 it was mainly: buttons, alerts, and simple page behavior.",
+      "narrative": {
+        "whyChosen": "This hack became the language of the browser and eventually one of the most used languages on Earth.",
+        "whyImportant": "It made web pages reactive without Java applets or server round-trips for every interaction.",
+        "problemSolved": "HTML alone could not respond to users; Netscape needed an embeddable scripting language fast."
+      },
+      "category": "software",
+      "tags": [
+        "javascript",
+        "netscape",
+        "browser",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Eich & Wirfs-Brock — JavaScript (HOPL III)",
+          "url": "https://www.cs.tufts.edu/comp/150FP/archive/brendan-eich/js-hopl.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — JavaScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/JavaScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "javascript-name-announced",
+        "java-announced"
+      ]
+    },
+    {
+      "id": "java-announced",
+      "slug": "java-announced",
+      "date": "1995-05-23",
+      "datePrecision": "day",
+      "title": "Java announced at SunWorld",
+      "summary": "Sun Microsystems and Netscape announced Java as a portable language for the web, paired with Navigator integration.",
+      "about": "Java promised \"write once, run anywhere\" via the JVM — same bytecode on Windows, Mac, or Unix. In the 1990s it was famous for browser applets (animations, calculators in web pages) and quickly became the default for enterprise backends, Android apps, and large server systems.",
+      "narrative": {
+        "whyChosen": "Java's 'write once, run anywhere' promise reshaped enterprise software and mobile (via Android later).",
+        "whyImportant": "It made the JVM model mainstream and pushed garbage-collected OOP into mainstream industry use.",
+        "problemSolved": "Developers faced fragmented native platforms; Java targeted bytecode portability and sandboxed applets."
+      },
+      "category": "software",
+      "tags": [
+        "java",
+        "sun",
+        "jvm",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Sun — Java Technology: The Early Years (May 23, 1995)",
+          "url": "https://web.archive.org/web/20100105045840/http:/java.sun.com/features/1998/05/birthday.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "java-1-0-shipped",
+        "javascript-mocha-prototype"
+      ]
+    }
+  ]
+}

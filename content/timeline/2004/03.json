@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "spring-framework-1-0-released",
+      "slug": "spring-framework-1-0-released",
+      "date": "2004-03-24",
+      "datePrecision": "day",
+      "title": "Spring Framework 1.0 released",
+      "summary": "Rod Johnson's team shipped Spring Framework 1.0 final on March 24, 2004 — lightweight Java with dependency injection.",
+      "about": "Spring replaced heavy EJB containers with POJOs, dependency injection, and AOP for Java enterprise apps. Used for REST APIs, microservices (Spring Boot), batch jobs, and banking backends. Spring Boot later made \"just run the JAR\" as easy as Rails made Ruby web apps.",
+      "narrative": {
+        "whyChosen": "Spring became the default Java enterprise stack and influenced DI patterns across the industry.",
+        "whyImportant": "It proved Java apps could be modular and testable without full J2EE application servers.",
+        "problemSolved": "J2EE/EJB development was verbose and container-heavy; teams needed a lighter inversion-of-control model."
+      },
+      "category": "software",
+      "tags": ["spring", "java", "dependency-injection", "framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Spring Blog — Spring Framework 1.0 Final Released (March 24, 2004)",
+          "url": "https://spring.io/blog/2004/03/24/spring-framework-1-0-final-released",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Spring Framework (overview)",
+          "url": "https://en.wikipedia.org/wiki/Spring_Framework",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-1-0-shipped"]
+    }
+  ]
+}

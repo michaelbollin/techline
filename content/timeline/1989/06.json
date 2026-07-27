@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "bash-1-0-released",
+      "slug": "bash-1-0-released",
+      "date": "1989-06-08",
+      "datePrecision": "day",
+      "title": "Bash 1.0 released for the GNU Project",
+      "summary": "Brian Fox released Bash 1.0 on June 8, 1989 — a free replacement for the Bourne shell with job control, history, and GNU licensing.",
+      "about": "Bash is the default shell on most Linux distros and macOS terminals — you type commands, pipe output, run scripts, and automate servers. It extended Bourne shell syntax with readline editing, arrays, and brace expansion. DevOps scripts, CI pipelines, and local tooling still depend on it daily.",
+      "narrative": {
+        "whyChosen": "Bash became the de facto interactive shell for GNU/Linux and much of Unix administration.",
+        "whyImportant": "It gave the free software stack a Bourne-compatible shell with richer scripting before Linux itself took off.",
+        "problemSolved": "GNU needed a liberally licensed shell to complete a usable Unix-like userland without proprietary `sh`."
+      },
+      "category": "software",
+      "tags": ["bash", "gnu", "shell", "unix", "scripting"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GNU Bash manual — original release June 8, 1989",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Bash-Features.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bash (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bash_(Unix_shell)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["powershell-1-0-released"]
+    }
+  ]
+}

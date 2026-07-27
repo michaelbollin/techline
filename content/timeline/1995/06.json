@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "php-tools-1-0-released",
+      "slug": "php-tools-1-0-released",
+      "date": "1995-06-08",
+      "datePrecision": "day",
+      "title": "PHP Tools 1.0 announced",
+      "summary": "Rasmus Lerdorf announced Personal Home Page Tools (PHP Tools) 1.0 on Usenet — the first release bearing the name PHP.",
+      "about": "PHP started as C CGI binaries for dynamic personal home pages — guestbooks, hit counters, and form handling before databases were standard on the web. It grew into the server-side language behind WordPress, Wikipedia (MediaWiki), Facebook's early stack, and millions of `.php` sites. Today it still powers a large share of the web via Laravel, Symfony, and WordPress.",
+      "narrative": {
+        "whyChosen": "PHP made server-side web programming accessible on cheap shared hosting — upload a file, it runs.",
+        "whyImportant": "It democratized dynamic websites the way JavaScript later democratized front-end interactivity.",
+        "problemSolved": "Static HTML could not handle forms, logs, or counters; Lerdorf needed simple CGI tools without Perl or Tcl on his host."
+      },
+      "category": "software",
+      "tags": ["php", "lerdorf", "web", "cgi", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Lerdorf — Announce: Personal Home Page Tools (PHP Tools) v1.0 (Jun 8, 1995)",
+          "url": "https://groups.google.com/g/comp.infosystems.www.authoring.cgi/c/PyJ25gZ6z7A",
+          "role": "date"
+        },
+        {
+          "title": "PHP.net — 25 Years of PHP (announcement transcript)",
+          "url": "https://talks.php.net/hhs",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PHP (overview)",
+          "url": "https://en.wikipedia.org/wiki/PHP",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["perl-1-0-released", "symfony-released", "laravel-first-beta"]
+    }
+  ]
+}

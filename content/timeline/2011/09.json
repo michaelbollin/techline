@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "cpp11-standard",
+      "slug": "cpp11-standard",
+      "date": "2011-09-01",
+      "datePrecision": "day",
+      "title": "C++11 standard published (ISO/IEC 14882:2011)",
+      "summary": "ISO/IEC 14882:2011 was published on September 1, 2011 — the C++11 standard with auto, lambdas, move semantics, and smart pointers.",
+      "about": "C++11 modernized the language after a 13-year gap: `auto`, range-for, `std::thread`, `unique_ptr`/`shared_ptr`, lambdas, and rvalue references. Code that once needed Boost can now use the standard library. Most new C++ today is written in C++11 dialect or later.",
+      "narrative": {
+        "whyChosen": "C++11 is the biggest leap in C++ since templates — it changed how everyday C++ is written.",
+        "whyImportant": "Move semantics and smart pointers fixed memory-management patterns; lambdas and auto reduced boilerplate across the ecosystem.",
+        "problemSolved": "C++98/03 felt dated next to Java and C#; developers needed modern abstractions without giving up performance."
+      },
+      "category": "software",
+      "tags": ["cpp", "iso", "standard", "modern-cpp", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO/IEC 14882:2011 — published September 1, 2011",
+          "url": "https://www.iso.org/standard/50372.html",
+          "role": "date"
+        },
+        {
+          "title": "WG21 — C++ standards chronology (overview)",
+          "url": "https://www.open-std.org/jtc1/sc22/wg21/docs/standards",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cpp98-standard"]
+    }
+  ]
+}

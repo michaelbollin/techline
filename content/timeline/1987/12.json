@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "perl-1-0-released",
+      "slug": "perl-1-0-released",
+      "date": "1987-12-18",
+      "datePrecision": "day",
+      "title": "Perl 1.0 released",
+      "summary": "Larry Wall posted Perl 1.0 to comp.sources.misc on December 18, 1987 — a language for text processing and systems glue.",
+      "about": "Perl excels at chewing through text: log files, CSV exports, HTML scraping, and one-off sysadmin scripts. Its regex syntax and `$_` default variable became legendary. Before Python dominated DevOps, Perl powered early web (CGI), bioinformatics pipelines, and Unix automation — many `awk`/`sed` one-liners grew into full Perl programs.",
+      "narrative": {
+        "whyChosen": "Perl was the duct tape of the early web and Unix era — practical text manipulation with C-like power.",
+        "whyImportant": "It influenced PHP, Ruby, and JavaScript regex culture; CPAN showed how a language could ship a massive reusable library ecosystem.",
+        "problemSolved": "Wall needed something better than shell, awk, and sed for report generation at Unisys — one language for parsing, printing, and gluing Unix tools."
+      },
+      "category": "software",
+      "tags": ["perl", "wall", "text-processing", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "perlhist — Perl 1.000 released 1987-Dec-18",
+          "url": "https://perldoc.perl.org/perlhist",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Perl (overview)",
+          "url": "https://en.wikipedia.org/wiki/Perl",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released"]
+    }
+  ]
+}

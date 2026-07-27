@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-5-adopted",
+      "slug": "ecmascript-5-adopted",
+      "date": "2009-12-03",
+      "datePrecision": "day",
+      "title": "ECMAScript 5 standard adopted (ECMA-262 5th edition)",
+      "summary": "Ecma approved ECMA-262 5th edition on December 3, 2009 — adding strict mode, JSON, and getters/setters to JavaScript.",
+      "about": "ES5 bridged the long gap between ES3 and ES2015. Strict mode (`\"use strict\"`) caught common bugs; native `JSON.parse`/`stringify` replaced libraries; getters and setters enabled cleaner object APIs. It was the foundation jQuery-era code built on before transpilers made ES6 mainstream.",
+      "narrative": {
+        "whyChosen": "ES5 was the first major JavaScript update in ten years and fixed real-world browser inconsistencies.",
+        "whyImportant": "Strict mode and JSON support made large client-side codebases safer without waiting for ES2015.",
+        "problemSolved": "The abandoned ES4 effort left the language frozen; ES5 delivered practical improvements browsers could ship quickly."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "es5", "standard"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 5 approved December 3, 2009",
+          "url": "https://ecma-international.org/news/ecma-international-approves-major-revision-of-ecmascript/",
+          "role": "date"
+        },
+        {
+          "title": "ECMA-262 5th edition (December 2009)",
+          "url": "https://www.ecma-international.org/wp-content/uploads/ECMA-262_5th_edition_december_2009.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-3-adopted", "ecmascript-2015-adopted"]
+    }
+  ]
+}

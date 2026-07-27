@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ada-83-standard",
+      "slug": "ada-83-standard",
+      "date": "1983-02-17",
+      "datePrecision": "day",
+      "title": "Ada 83 standard approved (ANSI/MIL-STD-1815A)",
+      "summary": "ANSI approved the Ada 83 reference manual on February 17, 1983 — the DoD-mandated language for safety-critical systems.",
+      "about": "Ada was designed for avionics, defense, and embedded systems — strong typing, tasks (concurrency), exceptions, and packages for large-team engineering. Boeing, Airbus, and military contractors still maintain millions of lines of Ada. Spark Ada adds formal verification for code that must not fail.",
+      "narrative": {
+        "whyChosen": "Ada 83 was the first language standardized under a rigorous DoD procurement mandate.",
+        "whyImportant": "It proved a language could be engineered for reliability and maintainability at government scale.",
+        "problemSolved": "DoD projects used hundreds of incompatible languages; the Steelman requirements demanded one portable, verifiable standard."
+      },
+      "category": "software",
+      "tags": ["ada", "ansi", "dod", "safety-critical", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "FIPS PUB 119 — ANSI/MIL-STD-1815A approved February 17, 1983",
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub119.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ada (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ada_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["pascal-report-published"]
+    }
+  ]
+}

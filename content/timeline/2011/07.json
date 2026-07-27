@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "kotlin-unveiled",
+      "slug": "kotlin-unveiled",
+      "date": "2011-07-19",
+      "datePrecision": "day",
+      "title": "Kotlin unveiled at JVM Language Summit",
+      "summary": "JetBrains announced Project Kotlin on July 19, 2011 — a pragmatic JVM language designed to interoperate with Java.",
+      "about": "Kotlin is JetBrains' modern JVM language — null safety, data classes, coroutines, and 100% Java interop. Google made it the preferred Android language in 2017; it also compiles to JavaScript and native via Kotlin Multiplatform. Teams adopt it to write safer Android and backend code without leaving the Java ecosystem.",
+      "narrative": {
+        "whyChosen": "Kotlin became Android's recommended language and a mainstream Java alternative on the JVM.",
+        "whyImportant": "It showed a language could be more concise and null-safe than Java while calling existing Java libraries unchanged.",
+        "problemSolved": "JetBrains needed a JVM language that compiled as fast as Java and fixed pain points Scala's complexity introduced."
+      },
+      "category": "software",
+      "tags": ["kotlin", "jetbrains", "jvm", "android", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "JetBrains — Hello World: Kotlin unveiled (July 19, 2011)",
+          "url": "https://blog.jetbrains.com/kotlin/2011/07/hello-world-2/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Kotlin (overview)",
+          "url": "https://en.wikipedia.org/wiki/Kotlin",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-1-0-shipped", "scala-first-release", "kotlin-1-0-released"]
+    }
+  ]
+}

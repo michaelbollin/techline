@@ -1,0 +1,43 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-2015-adopted",
+      "slug": "ecmascript-2015-adopted",
+      "date": "2015-06-17",
+      "datePrecision": "day",
+      "title": "ECMAScript 2015 (ES6) adopted",
+      "summary": "Ecma approved ECMA-262 6th edition — classes, modules, arrow functions, promises, and let/const.",
+      "about": "ES2015 modernized JavaScript for large apps — `import`/`export` modules, `class`, `async`/`await` foundations via promises, arrow functions, and block-scoped `let`/`const`. Enabled React/Vue-scale frontends and cleaner Node.js services without transpiler hacks for every feature.",
+      "narrative": {
+        "whyChosen": "ES2015 was the biggest JavaScript language update since 1999 and enabled modern frontend tooling.",
+        "whyImportant": "It started TC39's annual release cadence and made JavaScript viable for large application codebases.",
+        "problemSolved": "JavaScript lacked modules, lexical scoping, and class syntax that developers expected from other languages."
+      },
+      "category": "software",
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "es6",
+        "standard"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 2015 adopted (June 17, 2015)",
+          "url": "https://ecma-international.org/news/at-the-june-17-2015-ecma-general-assembly-in-montreux-ecma-262-6th-edition-ecmascript-2015-language-specification-and-ecma-402-2nd-edition-ecmascript-2015-internationalization-api-ha/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "javascript-name-announced",
+        "ecmascript-5-adopted"
+      ]
+    }
+  ]
+}

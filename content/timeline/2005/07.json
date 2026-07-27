@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "django-open-sourced",
+      "slug": "django-open-sourced",
+      "date": "2005-07-13",
+      "datePrecision": "day",
+      "title": "Django open-sourced",
+      "summary": "Jacob Kaplan-Moss made the first public commit to the Django repository on July 13, 2005 — open-sourcing the Lawrence Journal-World web framework.",
+      "about": "Django is Python's batteries-included web framework — ORM, admin panel, URL routing, templates, and auth out of the box. Powers Instagram's early stack, Pinterest, Mozilla sites, and countless startups. The admin interface alone let internal tools ship in hours instead of weeks.",
+      "narrative": {
+        "whyChosen": "Django became the reference Python web framework and proved \"framework included\" could match Rails for productivity.",
+        "whyImportant": "It spread MTV architecture, reusable apps, and DRY principles across the Python ecosystem.",
+        "problemSolved": "Newsroom developers rebuilt the same CMS patterns for every site; they needed one framework to extract from Lawrence.com."
+      },
+      "category": "software",
+      "tags": ["django", "python", "web-framework", "orm"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Django Project — Happy 10th Birthday Django (first public commit July 13, 2005)",
+          "url": "https://www.djangoproject.com/weblog/2015/jul/13/happy-10th-birthday-django/",
+          "role": "date"
+        },
+        {
+          "title": "Holovaty.com — casually open-sourced July 2005 (overview)",
+          "url": "https://www.holovaty.com/writing/django-1.0/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-0-9-0-released", "flask-released", "fastapi-released"]
+    }
+  ]
+}

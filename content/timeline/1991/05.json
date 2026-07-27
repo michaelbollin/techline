@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "visual-basic-1-0-released",
+      "slug": "visual-basic-1-0-released",
+      "date": "1991-05",
+      "datePrecision": "month",
+      "title": "Visual Basic 1.0 released",
+      "summary": "Microsoft launched Visual Basic at Comdex, bringing drag-and-drop GUI development to Windows with a Basic dialect.",
+      "about": "Visual Basic let non-specialists build Windows desktop apps: drag buttons and text boxes onto a form, double-click to write event code. Typical apps: in-house inventory tools, small-business accounting front-ends, data-entry screens, and line-of-business CRUD programs — without learning Win32 C API.",
+      "narrative": {
+        "whyChosen": "VB democratized Windows app development for a generation of business programmers.",
+        "whyImportant": "It paired a visual form designer with event-driven code — a model later copied across industry tools.",
+        "problemSolved": "Building Windows UIs in C or raw API calls was slow; VB made GUI apps accessible to non-specialists."
+      },
+      "category": "software",
+      "tags": [
+        "visual-basic",
+        "microsoft",
+        "gui",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Visual Basic (classic), first appeared May 1991",
+          "url": "https://en.wikipedia.org/wiki/Visual_Basic_(classic)",
+          "role": "date"
+        },
+        {
+          "title": "Microsoft Learn — Visual Basic 6.0 documentation",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-basic-6/visual-basic-6.0-documentation",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["basic-first-run", "visual-basic-net-released"]
+    }
+  ]
+}

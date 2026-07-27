@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "id": "actionscript-1-0-flash-5",
+      "slug": "actionscript-1-0-flash-5",
+      "date": "2000-08-24",
+      "datePrecision": "day",
+      "title": "ActionScript 1.0 debuts with Flash 5",
+      "summary": "Macromedia Flash 5 launched with ActionScript 1.0 — a JavaScript-like ECMAScript-based language for rich web media.",
+      "about": "ActionScript was the programming language inside Flash — build browser games, video players, interactive ads, and animated sites. Famous era: Newgrounds flash games, early YouTube-era players, and corporate sites with splash intros. Syntax resembled JavaScript; code lived inside `.fla` authoring files.",
+      "narrative": {
+        "whyChosen": "ActionScript powered a decade of browser games, video players, and interactive sites before HTML5.",
+        "whyImportant": "It was the first fully implemented, ECMAScript-based scripting layer in a mass-market authoring tool.",
+        "problemSolved": "Flash 4 scripting was limited; Flash 5 needed a real language for complex client-side logic."
+      },
+      "category": "software",
+      "tags": [
+        "actionscript",
+        "flash",
+        "ecmascript",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "MacTech — Macromedia Flash 5 (August 24, 2000)",
+          "url": "https://www.mactech.com/2000/08/24/macromedia-flash-5/amp/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ActionScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ActionScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "flash-4-scripting"
+      ]
+    }
+  ]
+}

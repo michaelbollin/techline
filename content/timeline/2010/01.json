@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "express-released",
+      "slug": "express-released",
+      "date": "2010-01-03",
+      "datePrecision": "day",
+      "title": "Express.js initial release",
+      "summary": "TJ Holowaychuk shipped Express 0.0.1 on January 3, 2010 — a minimal Sinatra-style web framework for Node.js.",
+      "about": "Express is the default HTTP layer for Node APIs — routing, middleware, and request/response helpers in a few lines. It sits under NestJS, early Meteor, and countless REST services. Typical use: `app.get('/users', ...)` with JSON middleware, session cookies, and static file serving.",
+      "narrative": {
+        "whyChosen": "Express became the de facto Node web framework and defined the middleware pattern for JS servers.",
+        "whyImportant": "It made Node practical for HTTP APIs when the runtime was still new and unproven for production.",
+        "problemSolved": "Raw Node HTTP required boilerplate for every route; teams needed a thin, composable router on top."
+      },
+      "category": "software",
+      "tags": ["express", "nodejs", "web-framework", "middleware"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "expressjs/express — History.md 0.0.1 (2010-01-03)",
+          "url": "https://github.com/expressjs/express/blob/master/History.md",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Express.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Express.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-first-released", "nestjs-announced"]
+    }
+  ]
+}

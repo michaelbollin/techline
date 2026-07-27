@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "graphql-open-sourced",
+      "slug": "graphql-open-sourced",
+      "date": "2015-07-01",
+      "datePrecision": "day",
+      "title": "GraphQL technical preview open-sourced",
+      "summary": "Facebook open-sourced GraphQL on July 1, 2015 — a query language for APIs with a draft spec and GraphQL.js reference implementation.",
+      "about": "GraphQL lets clients request exactly the fields they need in one round trip — no over-fetching from REST endpoints. Used with React (Relay, Apollo), mobile apps, and microservice gateways. Example: fetch a user's name and last three posts in one typed query instead of chaining REST calls.",
+      "narrative": {
+        "whyChosen": "GraphQL changed how frontends fetch data and influenced API design across the industry.",
+        "whyImportant": "It decoupled client data needs from fixed REST resource shapes — critical for mobile and varied clients.",
+        "problemSolved": "Facebook's mobile apps needed flexible, efficient data loading; rigid REST endpoints caused over-fetching and version churn."
+      },
+      "category": "software",
+      "tags": ["graphql", "facebook", "api", "query-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "graphql/graphql-js — first public commit (July 1, 2015)",
+          "url": "https://github.com/graphql/graphql-js/commit/b5ed31e6e3136accba13c3a4a5b7f61c36d7dcb4",
+          "role": "date"
+        },
+        {
+          "title": "Meta Engineering — GraphQL: A data query language (overview)",
+          "url": "https://engineering.fb.com/2015/09/14/core-infra/graphql-a-data-query-language/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["react-open-sourced"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "fortran-95-standard",
+      "slug": "fortran-95-standard",
+      "date": "1997-12-04",
+      "datePrecision": "day",
+      "title": "Fortran 95 standard published (ISO/IEC 1539-1:1997)",
+      "summary": "ISO/IEC 1539-1:1997 was published in December 1997 — the Fortran 95 standard with pure functions and elemental operations.",
+      "about": "Fortran 95 refined Fortran 90 with `PURE`/`ELEMENTAL` procedures, better array features, and the `FORALL` construct. It is the dialect many legacy HPC codes target. High-performance libraries (BLAS, LAPACK interfaces) commonly assume F95 semantics.",
+      "narrative": {
+        "whyChosen": "Fortran 95 is the stable baseline many compilers and numerical libraries standardized on before Fortran 2003.",
+        "whyImportant": "Pure and elemental procedures made parallel and optimizing compilers more effective on scientific loops.",
+        "problemSolved": "Fortran 90 left gaps for side-effect-free functions and whole-array intrinsics that optimizing compilers needed."
+      },
+      "category": "software",
+      "tags": ["fortran", "iso", "standard", "scientific-computing"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO/IEC 1539-1:1997 — Fortran Part 1 (published December 1997)",
+          "url": "https://www.iso.org/standard/26933.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Fortran (overview)",
+          "url": "https://en.wikipedia.org/wiki/Fortran",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["fortran-90-standard", "fortran-2003-standard"]
+    }
+  ]
+}

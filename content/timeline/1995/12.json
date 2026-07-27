@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "id": "javascript-name-announced",
+      "slug": "javascript-name-announced",
+      "date": "1995-12-04",
+      "datePrecision": "day",
+      "title": "JavaScript name announced by Netscape and Sun",
+      "summary": "Netscape and Sun issued a joint press release naming LiveScript as JavaScript and positioning it beside Java.",
+      "about": "This was the public naming of the browser scripting language — not Java itself. JavaScript stayed on the page for UI logic; Java applets handled heavier embedded apps. The name caused decades of confusion, but the split stuck: JS for the web document, Java for compiled JVM programs.",
+      "narrative": {
+        "whyChosen": "The naming and marketing moment locked JavaScript into the open web platform story.",
+        "whyImportant": "28 vendors endorsed it as an open scripting standard path toward ECMAScript.",
+        "problemSolved": "The web needed a standard, embeddable scripting layer that page authors could use without compiling."
+      },
+      "category": "software",
+      "tags": [
+        "javascript",
+        "netscape",
+        "sun",
+        "ecmascript"
+      ],
+      "importance": 2,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://web.archive.org/web/20070916144913/http:/wp.netscape.com/newsref/pr/newsrelease67.html",
+          "title": "Netscape press release — JavaScript (Dec 4, 1995)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Netscape — JavaScript press release (December 4, 1995)",
+          "url": "https://web.archive.org/web/20070916144913/http:/wp.netscape.com/newsref/pr/newsrelease67.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — JavaScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/JavaScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "javascript-mocha-prototype",
+        "ecmascript-1-adopted",
+        "ecmascript-2015-adopted"
+      ]
+    },
+    {
+      "id": "ruby-0-95-released",
+      "slug": "ruby-0-95-released",
+      "date": "1995-12-21",
+      "datePrecision": "day",
+      "title": "Ruby 0.95 publicly released",
+      "summary": "Yukihiro Matsumoto published Ruby 0.95 to Japanese newsgroups — the first public release of the language.",
+      "about": "Ruby is an expressive object-oriented scripting language — everything is an object, blocks are first-class. Used for web apps (especially via Rails), DevOps tools (Chef, Vagrant), and quick scripts. Matz optimized for developer happiness over raw performance.",
+      "narrative": {
+        "whyChosen": "Ruby prioritized developer happiness and later became the host language for Rails.",
+        "whyImportant": "Everything-is-an-object and blocks influenced later languages like Swift and Elixir.",
+        "problemSolved": "Matz wanted a true OO scripting language more elegant than Perl and more practical than Python for his taste."
+      },
+      "category": "software",
+      "tags": [
+        "ruby",
+        "matz",
+        "programming-language"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Ruby (first public release Dec 21, 1995)",
+          "url": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+          "role": "date"
+        },
+        {
+          "title": "ruby-lang.org — About Ruby",
+          "url": "https://www.ruby-lang.org/en/about/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rails-open-sourced",
+        "rails-1-0-released"
+      ]
+    }
+  ]
+}

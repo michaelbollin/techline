@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "rails-open-sourced",
+      "slug": "rails-open-sourced",
+      "date": "2004-07-24",
+      "datePrecision": "day",
+      "title": "Ruby on Rails open sourced",
+      "summary": "David Heinemeier Hansson released Rails 0.5.0 — MVC infrastructure extracted from Basecamp.",
+      "about": "Ruby on Rails is a web framework for database-backed sites — models, views, controllers out of the box. Used to ship CRUD apps fast: project tools (Basecamp), early Twitter/GitHub/Shopify, and countless startup MVPs. Convention over configuration means less boilerplate than hand-rolled PHP or Java servlets.",
+      "narrative": {
+        "whyChosen": "Rails popularized convention-over-configuration and made Ruby a global language for web startups.",
+        "whyImportant": "Active Record and Action Pack became the template for modern full-stack web frameworks.",
+        "problemSolved": "Building database-backed web apps required repetitive wiring; Rails packaged opinionated defaults."
+      },
+      "category": "software",
+      "tags": [
+        "rails",
+        "ruby",
+        "web-framework",
+        "mvc"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://signalvnoise.com/archives/000766",
+          "title": "DHH — Rails: the infrastructure behind Basecamp"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Signal v. Noise — Rails release (July 24, 2004)",
+          "url": "https://signalvnoise.com/archives/000766",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ruby on Rails (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ruby_on_Rails",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ruby-0-95-released",
+        "rails-1-0-released"
+      ]
+    }
+  ]
+}

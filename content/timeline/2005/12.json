@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "rails-1-0-released",
+      "slug": "rails-1-0-released",
+      "date": "2005-12-13",
+      "datePrecision": "day",
+      "title": "Ruby on Rails 1.0 released",
+      "summary": "After 15 months of public development, Rails reached 1.0 — the milestone that cemented its startup-era dominance.",
+      "about": "Rails 1.0 told the industry the framework was production-ready — not a demo. Teams used it for the same jobs as earlier Rails releases (SaaS, social apps, admin panels) but with confidence to bet companies on it. It kicked off the \"startup in 10 weeks\" Ruby era.",
+      "narrative": {
+        "whyChosen": "Rails 1.0 was the moment Ruby left niche status and became a mainstream web stack choice.",
+        "whyImportant": "It proved opinionated frameworks could ship faster than hand-rolled Java or PHP architectures.",
+        "problemSolved": "Teams needed confidence that Rails was stable enough for production, not just demos."
+      },
+      "category": "software",
+      "tags": [
+        "rails",
+        "ruby",
+        "web-framework"
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://rubyonrails.org/2005/12/13/rails-1-0-party-like-its-one-oh-oh",
+          "title": "Rails 1.0 announcement"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ruby on Rails — Rails 1.0 (December 13, 2005)",
+          "url": "https://rubyonrails.org/2005/12/13/rails-1-0-party-like-its-one-oh-oh",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ruby on Rails (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ruby_on_Rails",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rails-open-sourced"
+      ]
+    }
+  ]
+}
