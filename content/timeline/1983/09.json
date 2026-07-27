@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "gnu-project-announced",
+      "slug": "gnu-project-announced",
+      "date": "1983-09-27",
+      "datePrecision": "day",
+      "title": "GNU Project announced",
+      "summary": "Richard Stallman launched a free-software movement that changed how code is shared and licensed.",
+      "narrative": {
+        "whyChosen": "It framed software freedom as a social issue, not just a technical preference.",
+        "whyImportant": "GNU, copyleft, and free-software ethics directly influenced Linux, open source, and modern dev culture.",
+        "problemSolved": "Proprietary UNIX-like systems were expensive and restrictive. Developers needed reusable, inspectable, shareable tools."
+      },
+      "category": "culture",
+      "tags": ["open-source", "free-software", "licensing"],
+      "importance": 2,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www.gnu.org/gnu/initial-announcement.html",
+          "title": "Initial GNU announcement"
+        },
+        {
+          "type": "meme",
+          "url": "https://knowyourmeme.com/memes/i-use-arch-btw",
+          "title": "Linux distro culture meme",
+          "caption": "Decades later, OS identity jokes are still part of hacker culture."
+        }
+      ],
+      "sources": [
+        {
+          "title": "GNU — Initial announcement",
+          "url": "https://www.gnu.org/gnu/initial-announcement.html"
+        }
+      ],
+      "relatedIds": ["world-wide-web-public"]
+    }
+  ]
+}

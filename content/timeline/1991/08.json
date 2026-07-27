@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "id": "world-wide-web-public",
+      "slug": "world-wide-web-public",
+      "date": "1991-08-06",
+      "datePrecision": "day",
+      "title": "World Wide Web announced publicly",
+      "summary": "Tim Berners-Lee published the web as an open system for linked documents.",
+      "narrative": {
+        "whyChosen": "The web turned the internet from a specialist tool into the default public information layer.",
+        "whyImportant": "URLs, HTTP, and HTML created a universal publishing model that reshaped commerce, media, and software delivery.",
+        "problemSolved": "CERN researchers needed a simple way to share and link documents across different computers and networks."
+      },
+      "category": "protocol",
+      "tags": ["internet", "web", "open-standards"],
+      "importance": 1,
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=LoiZ6DatnLI",
+          "title": "Tim Berners-Lee on the web"
+        },
+        {
+          "type": "link",
+          "url": "https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html",
+          "title": "Original WWW project page"
+        }
+      ],
+      "sources": [
+        {
+          "title": "W3C — A short history of the Web",
+          "url": "https://www.w3.org/History.html"
+        }
+      ],
+      "relatedIds": ["arpanet-first-message", "gnu-project-announced"]
+    }
+  ]
+}

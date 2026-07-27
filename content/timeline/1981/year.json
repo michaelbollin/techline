@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": "quote-gates-640k",
+      "slug": "quote-gates-640k",
+      "date": "1981",
+      "datePrecision": "year",
+      "title": "“640K ought to be enough for anybody”",
+      "summary": "One of computing’s most repeated quotes — and one of its most disputed attributions.",
+      "narrative": {
+        "whyChosen": "It captures how every generation underestimates the next wave of resource demand.",
+        "whyImportant": "The quote became shorthand for bad forecasting in tech, even though its authorship is questionable.",
+        "problemSolved": "It did not solve a problem — it documents a recurring industry blind spot about growth."
+      },
+      "category": "quote",
+      "tags": ["pc-era", "misattributed", "memory"],
+      "importance": 2,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www.snopes.com/fact-check/gates-640k/",
+          "title": "Snopes on the 640K quote"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Snopes — Did Bill Gates say 640K is enough?",
+          "url": "https://www.snopes.com/fact-check/gates-640k/"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

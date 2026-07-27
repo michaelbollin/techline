@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "arpanet-first-message",
+      "slug": "arpanet-first-message",
+      "date": "1969-10-29",
+      "datePrecision": "day",
+      "title": "First ARPANET message sent",
+      "summary": "A UCLA-to-Stanford login attempt failed after two letters — and the internet era began.",
+      "narrative": {
+        "whyChosen": "This is the symbolic birth moment of packet-switched networking.",
+        "whyImportant": "It proved computers could share resources across distance, which became the internet.",
+        "problemSolved": "Expensive mainframes were isolated. Researchers needed a way to share computing power and data remotely."
+      },
+      "category": "protocol",
+      "tags": ["internet", "networking", "arpanet"],
+      "importance": 1,
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=21eFwbb48sE",
+          "title": "History of the internet"
+        },
+        {
+          "type": "meme",
+          "url": "https://knowyourmeme.com/memes/series-of-tubes",
+          "title": "Series of tubes",
+          "caption": "Later internet culture often reduced networking to jokes — but the underlying idea started here."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Internet Society — Brief History of the Internet",
+          "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
+        }
+      ],
+      "relatedIds": ["unix-created"]
+    }
+  ]
+}

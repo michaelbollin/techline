@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": "unix-created",
+      "slug": "unix-created",
+      "date": "1969",
+      "datePrecision": "year",
+      "title": "Unix created at Bell Labs",
+      "summary": "A small, portable operating system whose ideas still shape Linux, macOS, and the cloud.",
+      "narrative": {
+        "whyChosen": "Unix is one of the few 1960s systems whose design vocabulary is still in daily use.",
+        "whyImportant": "Files, pipes, processes, and a composable tool philosophy became the default way to build software systems.",
+        "problemSolved": "Early OS work was tied to specific hardware. Teams needed a simpler, portable system for real programming work."
+      },
+      "category": "software",
+      "tags": ["operating-systems", "bell-labs", "open-standards"],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://www.levenez.com/unix/",
+          "title": "Unix timeline poster"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bell Labs — The Creation of the UNIX Operating System",
+          "url": "https://www.bell-labs.com/usr/dmr/www/hist.html"
+        }
+      ],
+      "relatedIds": ["transistor-invented", "arpanet-first-message"]
+    }
+  ]
+}
