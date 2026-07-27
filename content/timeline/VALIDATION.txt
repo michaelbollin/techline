@@ -1,0 +1,3313 @@
+# Techline factual validation log
+# First 629 events (chronological). Checked against timeline sources + one additional reference each.
+# Legend: [x] verified  [-] not verified or material issue  (~) minor wording/date nuance only
+#
+# Generated: 2026-07-28
+# Re-check after editing event copy or sources.
+
+# --- Quick index ---
+ada-lovelace-analytical-engine-notes - Ada Lovelace publishes Notes on the Analytical Engine [x]
+alan-turing-computable-numbers - Alan Turing defines the Turing machine [x]
+john-von-neumann-architecture - John von Neumann describes stored-program architecture [x]
+bush-as-we-may-think-memex - Vannevar Bush envisions the "memex" [x]
+eniac-dedicated - ENIAC formally dedicated [x]
+claude-shannon-information-theory - Claude Shannon publishes information theory [x]
+edsac-first-programs - EDSAC runs its first programs [x]
+edsac-initial-orders - Wheeler's EDSAC Initial Orders add the first assembler [x]
+richard-hamming-error-correcting-codes - Richard Hamming publishes error-correcting codes [x]
+univac-i-delivered - UNIVAC I delivered [x]
+marvin-minsky-dartmouth-workshop - Marvin Minsky co-organizes Dartmouth AI workshop [x]
+frank-rosenblatt-perceptron - Frank Rosenblatt builds the Perceptron [x]
+fortran-formally-published - FORTRAN formally published [x]
+fortran-first-delivery - First FORTRAN compiler delivered [x]
+john-mccarthy-lisp-invented - John McCarthy invents Lisp [x]
+jack-kilby-integrated-circuit - Jack Kilby demonstrates the first integrated circuit [x]
+algol-58-published - ALGOL 58 language defined [x]
+robert-noyce-integrated-circuit - Robert Noyce invents the planar integrated circuit [x]
+lisp-first-interpreter - First working Lisp interpreter [x]
+cobol-specifications-submitted - COBOL language finalized [x]
+algol-60-published - ALGOL 60 language defined [x]
+cobol-first-program-run - First COBOL program executed [x]
+tony-hoare-quicksort-published - Tony Hoare publishes Quicksort [x]
+jean-sammet-formac-published - Jean Sammet develops FORMAC [x]
+seymour-cray-cdc-6600 - Seymour Cray designs the CDC 6600 [~]
+ibm-system-360-announced - IBM System/360 announced [x]
+basic-first-run - BASIC runs for the first time at Dartmouth [x]
+dec-pdp-8-shipped - DEC PDP-8 shipped [~]
+moore-components-doubling-quote - Gordon Moore predicts chip density will double every year [x]
+gordon-moore-moores-law - Gordon Moore publishes Moore's Law [x]
+dec-pdp-10-released - DEC PDP-10 released [x]
+simula-67-presented - Object-oriented programming invented [x]
+bcpl-manual-published - Early language that led to C documented [x]
+knuth-taocp-volume-1-published - Donald Knuth publishes TAOCP Volume 1 [x]
+dijkstra-go-to-considered-harmful - Dijkstra publishes 'Go To Considered Harmful' [x]
+dijkstra-goto-letter-quote - Edsger Dijkstra declares "Go To statement considered harmful" [x]
+moore-noyce-intel-founded - Gordon Moore and Robert Noyce found Intel [x]
+b-language-created - Unix language before C created [x]
+margaret-hamilton-apollo-software - Margaret Hamilton leads Apollo flight software [x]
+niklaus-wirth-pascal-published - Niklaus Wirth publishes Pascal [~]
+pascal-report-published - Pascal language report published [x]
+stephen-cook-np-completeness - Stephen Cook proves NP-completeness [x]
+c-language-created - C programming language takes shape at Bell Labs [x]
+elizabeth-feinler-nic-created - Elizabeth Feinler runs the ARPANET NIC [-]
+jon-postel-iana-stewardship - Jon Postel begins IANA stewardship [~]
+karen-sparck-jones-idf - Karen Spärck Jones publishes inverse document frequency [x]
+prolog-first-implementation - Prolog language created [x]
+clifford-cocks-public-key - Clifford Cocks invents RSA-class encryption at GCHQ [x]
+xerox-alto-operational - Xerox Alto operational [x]
+cerf-kahn-tcp-ip-paper-published - Vint Cerf and Bob Kahn publish TCP/IP design [x]
+sequel-paper-published - SQL database language invented [x]
+knuth-premature-optimization - Donald Knuth warns against premature optimization [x]
+fred-brooks-mythical-man-month - Fred Brooks publishes The Mythical Man-Month [x]
+brooks-add-manpower-makes-later - Fred Brooks: adding people to a late project makes it later [x]
+amara-law - Roy Amara warns we misjudge technology timelines [~]
+altair-8800-released - Altair 8800 released [~]
+microsoft-founded - Bill Gates and Paul Allen found Microsoft [x]
+cray-1-delivered - Cray-1 supercomputer delivered [x]
+make-created - Make build tool created [x]
+steve-wozniak-apple-founded - Steve Jobs and Steve Wozniak found Apple [x]
+apple-i-released - Apple I goes on sale [x]
+diffie-hellman-paper-published - Diffie and Hellman publish New Directions in Cryptography [x]
+awk-created - AWK created at Bell Labs [x]
+brian-kernighan-awk-coauthored - Brian Kernighan co-creates AWK [~]
+john-backus-turing-award - John Backus receives Turing Award [x]
+rsa-algorithm-published - Rivest, Shamir, and Adleman invent RSA [x]
+commodore-pet-2001-released - Commodore PET 2001 released [x]
+apple-ii-introduced - Steve Jobs and Steve Wozniak introduce the Apple II [x]
+larry-ellison-oracle-founded - Larry Ellison co-founds Oracle [x]
+trs-80-model-i-released - TRS-80 Model I released [x]
+dec-vax-11-780-released - DEC VAX-11/780 released [~]
+donald-knuth-tex-development - Donald Knuth begins developing TeX [x]
+c-k-and-r-published - The C Programming Language book published [x]
+fortran-77-standard - FORTRAN 77 standardized [x]
+intel-8086-introduced - Intel 8086 introduced [x]
+tony-hoare-csp-published - Tony Hoare publishes Communicating Sequential Processes [x]
+hofstadter-law - Douglas Hofstadter coins Hofstadter's Law [x]
+lynn-conway-vlsi-course - Lynn Conway publishes MOSIS VLSI design course [~]
+oracle-2-released - Oracle Database 2 shipped [x]
+intel-8088-introduced - Intel 8088 introduced [x]
+adele-goldberg-smalltalk-80 - Adele Goldberg co-releases Smalltalk-80 [x]
+metcalfe-metcalfe-law - Robert Metcalfe states Metcalfe's Law [~]
+osborne-1-released - Osborne 1 released [x]
+ibm-pc-5150-released - IBM PC 5150 released [x]
+grid-compass-released - GRiD Compass released [x]
+sun-1-released - Sun-1 workstation released [x]
+commodore-64-released - Commodore 64 released [x]
+tcp-ip-flag-day - ARPANET switches to TCP/IP [x]
+apple-lisa-released - Apple Lisa released [x]
+ada-83-standard - Ada language standardized [x]
+compaq-portable-released - Compaq Portable released [x]
+ibm-pc-xt-released - IBM PC XT released [x]
+telnet-standardized - Telnet standardized [x]
+anders-hejlsberg-turbo-pascal-shipped - Anders Hejlsberg ships Turbo Pascal [x]
+dns-standardized - DNS standardized [x]
+ritchie-thompson-turing-award - Ritchie and Thompson receive Turing Award [x]
+objective-c-created - Objective-C created at Stepstone [x]
+susan-kare-macintosh-icons - Susan Kare designs Macintosh icons [x]
+macintosh-128k-released - Macintosh 128K released [~]
+ibm-pc-at-released - IBM PC AT released [~]
+nfs-released - NFS released [~]
+matlab-1-0-debut - MATLAB debuts [x]
+goldwasser-micali-zero-knowledge-published - Goldwasser and Micali publish zero-knowledge proofs [x]
+mips-r2000-introduced - MIPS R2000 introduced [~]
+stallman-gnu-manifesto - Richard Stallman publishes the GNU Manifesto [x]
+toshiba-t1100-released - Toshiba T1100 released [x]
+radia-perlman-spanning-tree - Radia Perlman publishes spanning tree protocol [~]
+atari-st-released - Atari ST released [x]
+amiga-1000-released - Amiga 1000 released [x]
+bjarne-stroustrup-cpp-released - Bjarne Stroustrup releases C++ [x]
+cpp-cfront-1-0 - First commercial C++ compiler [~]
+ftp-standardized - FTP standardized [x]
+intel-80386-introduced - Intel 80386 introduced [x]
+richard-stallman-fsf-founded - Richard Stallman founds the Free Software Foundation [x]
+grace-hopper-nanoseconds-lecture - Grace Hopper popularizes nanosecond wire demonstration [~]
+michael-stonebraker-postgres-research - Michael Stonebraker leads the Postgres project [x]
+andy-tanenbaum-minix-created - Andrew Tanenbaum creates MINIX [x]
+morris-chang-tsmc-founded - Morris Chang founds TSMC [x]
+gcc-1-0-released - GCC 1.0 released [~]
+ibm-pc-5150-discontinued - IBM PC 5150 discontinued [x]
+acorn-archimedes-released - Acorn Archimedes released [x]
+andy-grove-intel-ceo - Andy Grove named Intel CEO [x]
+larry-wall-perl-1-released - Larry Wall releases Perl 1.0 [~]
+perl-1-0-released - Perl 1.0 released [x]
+tcl-created - Tcl embeddable command language created [x]
+ibm-as400-released - IBM AS/400 announced [x]
+next-computer-released - NeXT Computer released [~]
+yann-lecun-lenet-published - Yann LeCun publishes LeNet convolutional networks [x]
+gpl-version-1-released - GPL version 1 published [x]
+sparcstation-1-released - SPARCstation 1 released [x]
+bash-1-0-released - Bash 1.0 released for the GNU Project [x]
+macintosh-portable-released - Macintosh Portable released [x]
+ansi-c-standard - C language standardized [x]
+gabriel-worse-is-better - Richard Gabriel argues "worse is better" [x]
+haskell-1-0-report - Haskell language published [x]
+nextstation-released - NeXTstation released [x]
+worldwideweb-browser - WorldWideWeb — first web browser [x]
+bram-moolenaar-vim-released - Bram Moolenaar releases Vim [~]
+html-invented - HTML invented [x]
+python-0-9-0-released - Python 0.9.0 released [x]
+visual-basic-1-0-released - Visual Basic 1.0 released [x]
+autoconf-released - Autoconf created [x]
+phil-zimmermann-pgp-released - Phil Zimmermann releases PGP [x]
+sgi-indigo-released - SGI Indigo released [x]
+fortran-90-standard - Fortran 90 standardized [x]
+linux-kernel-announced - Linus Torvalds announces Linux [x]
+apple-powerbook-released - Apple PowerBook released [x]
+cpp-templates-cfront-3 - C++ gains templates [x]
+mary-ken-thompson-lynx-created - Mary Kenneth Thompson creates Lynx [-]
+tanenbaum-linux-obsolete - Andrew Tanenbaum posts "Linux is obsolete" [x]
+torvalds-reply-linux-obsolete - Linus Torvalds replies: "linux is more portable than minix" [x]
+lynx-2-released - Lynx 2.0 — text-only web browser [-]
+rob-pike-utf8-paper - Rob Pike and Ken Thompson publish UTF-8 design [~]
+ibm-thinkpad-700c-released - IBM ThinkPad 700C released [x]
+hp-proliant-era - Compaq ProLiant servers launched [~]
+greenspun-tenth-rule - Philip Greenspun states his tenth rule [x]
+mosaic-1-0-released - NCSA Mosaic 1.0 released [-]
+intel-pentium-introduced - Intel Pentium introduced [x]
+jensen-huang-nvidia-founded - Jensen Huang co-founds NVIDIA [x]
+berners-lee-web-public-domain - CERN releases the web into the public domain [x]
+patrick-volkerding-slackware-released - Patrick Volkerding releases Slackware Linux [x]
+apple-newton-released - Apple Newton MessagePad released [x]
+r-first-public-release - R first publicly announced [x]
+cgi-specified - CGI specified [x]
+alexander-stepanov-stl-published - Alexander Stepanov publishes the STL [x]
+anita-borg-grace-hopper-conference - Anita Borg founds Grace Hopper Celebration [x]
+joy-most-smart-people-elsewhere - Bill Joy: "most of the smartest people work for someone else" [x]
+bruce-schneier-applied-cryptography - Bruce Schneier publishes Applied Cryptography [x]
+marc-andreessen-netscape-founded - Marc Andreessen and Jim Clark found Netscape [x]
+uri-standardized - URI syntax standardized [x]
+lua-1-1-public-release - Lua 1.1 first public release [x]
+ibm-simon-released - IBM Simon Personal Communicator released [x]
+tim-berners-lee-w3c-founded - Tim Berners-Lee founds the W3C [x]
+haakon-lie-css-proposed - Håkon Wium Lie proposes CSS [x]
+perl-5-0-released - Perl 5.0 released [x]
+netscape-navigator-1-0 - Netscape Navigator 1.0 shipped [x]
+jetty-released - Jetty released [~]
+delphi-1-0-launched - Borland Delphi 1.0 launched [x]
+ada-95-standard - Ada 95 standardized [~]
+ldap-standardized - LDAP standardized [x]
+ward-cunningham-wiki-invented - Ward Cunningham creates the wiki [x]
+bebox-released - BeBox released [x]
+apache-http-server-released - Apache HTTP Server first public release [x]
+javascript-mocha-prototype - JavaScript prototyped at Netscape [x]
+java-announced - Java announced at SunWorld [x]
+mysql-first-released - MySQL first released [~]
+gates-internet-tidal-wave-memo - Bill Gates declares the "Internet tidal wave" [x]
+php-tools-1-0-released - PHP Tools 1.0 announced [x]
+internet-explorer-1-0 - Internet Explorer 1.0 released [x]
+ellison-pc-ridiculous - Larry Ellison calls the PC "a ridiculous device" [x]
+theo-de-raadt-openbsd-forked - Theo de Raadt forks OpenBSD [x]
+javascript-name-announced - JavaScript name announced by Netscape and Sun [x]
+ruby-0-95-released - Ruby 0.95 publicly released [x]
+stallman-free-speech-not-beer - Richard Stallman: "free as in speech, not beer" [x]
+sun-enterprise-10000-released - Sun Enterprise 10000 released [x]
+java-1-0-shipped - Java 1.0 shipped [x]
+palm-pilot-1000-released - Palm Pilot 1000 released [x]
+netscape-navigator-2-0 - Netscape Navigator 2.0 shipped [x]
+opera-2-released - Opera 2.0 publicly released [x]
+amaya-browser-released - Amaya — W3C browser and editor [~]
+ocaml-1-00-released - OCaml language released [x]
+nokia-9000-communicator-released - Nokia 9000 Communicator released [x]
+internet-explorer-3-0 - Internet Explorer 3.0 released [x]
+yukihiro-matsumoto-ruby-1-released - Yukihiro Matsumoto releases Ruby 1.0 [-]
+eric-raymond-cathedral-bazaar - Eric Raymond publishes The Cathedral and the Bazaar [x]
+http-1-1-standardized - HTTP/1.1 standardized [x]
+postgresql-6-released - PostgreSQL 6.0 released [x]
+ecmascript-1-adopted - JavaScript standardized [x]
+netscape-communicator-4-0 - Netscape Communicator 4.0 released [x]
+steve-jobs-returns-to-apple - Steve Jobs returns to Apple as interim CEO [-]
+internet-explorer-4-0 - Internet Explorer 4.0 released [x]
+fortran-95-standard - Fortran 95 standardized [x]
+jim-gray-turing-award - Jim Gray receives Turing Award [x]
+rich-sutton-rl-textbook - Rich Sutton publishes Reinforcement Learning textbook [x]
+open-source-initiative-founded - Open Source Initiative founded [x]
+daniel-stenberg-curl-released - Daniel Stenberg releases curl [x]
+mozilla-source-released - Mozilla source code open-sourced [x]
+leslie-lamport-paxos-published - Leslie Lamport publishes Paxos [~]
+rasmus-lerdorf-php-3-released - Rasmus Lerdorf releases PHP 3 [x]
+xml-rpc-specified - XML-RPC protocol specified [x]
+imac-g3-released - iMac G3 released [x]
+cpp98-standard - C++98 standardized [x]
+google-founded - Larry Page and Sergey Brin incorporate Google [x]
+erlang-open-sourced - Erlang/OTP released as open source [x]
+kent-beck-extreme-programming - Kent Beck publishes Extreme Programming Explained [x]
+fowler-refactoring-definition - Martin Fowler defines refactoring [x]
+martin-fowler-refactoring-published - Martin Fowler publishes Refactoring [~]
+tls-1-0-standardized - TLS 1.0 standardized [x]
+xmpp-jabber-released - Jabber (XMPP) first released [x]
+mqtt-invented - MQTT invented [x]
+vmware-workstation-released - VMware Workstation 1.0 released [~]
+apache-tomcat-released - Apache Tomcat released [x]
+flash-4-scripting - Flash 4 ships with a real scripting language [x]
+hunt-thomas-dry - Hunt & Thomas coin DRY — "Don't Repeat Yourself" [x]
+ecmascript-3-adopted - JavaScript ES3 standardized [x]
+openssh-first-released - OpenBSD team releases OpenSSH [x]
+fabrice-bellard-ffmpeg-created - Fabrice Bellard creates FFmpeg [x]
+rest-architectural-style-defined - REST architectural style defined [x]
+bill-gates-steps-down-microsoft-ceo - Bill Gates steps down as Microsoft CEO [x]
+steve-ballmer-named-microsoft-ceo - Steve Ballmer named Microsoft CEO [x]
+pocket-pc-released - Windows Pocket PC released [x]
+soap-1-1-published - SOAP 1.1 published [x]
+csharp-announced - C# programming language announced [x]
+ant-released - Apache Ant first released [x]
+spolsky-joel-test - Joel Spolsky publishes the Joel Test [x]
+sqlite-1-0-released - SQLite 1.0 released [x]
+actionscript-1-0-flash-5 - ActionScript 1.0 debuts with Flash 5 [x]
+torvalds-talk-is-cheap - Linus Torvalds: "Talk is cheap. Show me the code." [x]
+cmake-released - CMake released [x]
+ballmer-developers-chant - Steve Ballmer chants "Developers! Developers! Developers!" [-]
+python-2-0-released - Python 2.0 released [x]
+konqueror-khtml-released - Konqueror and KHTML shipped with KDE 2 [~]
+intellij-idea-released - IntelliJ IDEA released [x]
+wikipedia-launched - Wikipedia launched [x]
+guido-van-rossum-psf-founded - Guido van Rossum helps found the Python Software Foundation [-]
+kurzweil-law-accelerating-returns - Ray Kurzweil argues technology change is exponential [x]
+blade-server-era - First commercial blade servers ship [x]
+miguel-de-icaza-mono-announced - Miguel de Icaza announces Mono [~]
+ballmer-linux-cancer - Steve Ballmer calls Linux "a cancer" [x]
+eric-schmidt-google-ceo - Eric Schmidt named Google CEO [x]
+internet-explorer-6-released - Internet Explorer 6.0 released [x]
+eclipse-open-sourced - Eclipse IDE open-sourced [x]
+dotnet-framework-1-0-rtm - .NET Framework 1.0 released [x]
+aspnet-1-0-released - ASP.NET 1.0 launched with Visual Studio .NET [x]
+visual-basic-net-released - Visual Basic .NET released with .NET Framework [x]
+blackberry-5810-released - BlackBerry 5810 released [x]
+sidekick-released - T-Mobile Sidekick released [x]
+safari-announced - Safari announced at Macworld [x]
+lighttpd-released - lighttpd first released [x]
+lua-5-0-released - Lua 5.0 released [x]
+amd64-x86-64-announced - AMD64 (x86-64) announced [~]
+memcached-released - Memcached released [x]
+soap-1-2-standardized - SOAP 1.2 became a W3C Recommendation [x]
+mozilla-foundation-created - Mozilla Foundation created [x]
+ruby-1-8-released - Ruby 1.8 released [x]
+llvm-1-0-released - LLVM 1.0 released [x]
+scala-first-release - Scala first public release [x]
+subversion-1-0-released - Subversion 1.0 released [x]
+rubygems-released - RubyGems released [x]
+spring-framework-1-0-released - Spring Framework 1.0 released [x]
+maven-1-0-released - Apache Maven 1.0 released [x]
+php-5-0-released - PHP 5.0 released [x]
+rails-open-sourced - Ruby on Rails open sourced [x]
+java-5-released - Java 5 (Tiger) released [x]
+nginx-released - nginx first public release [x]
+firefox-1-0-released - Firefox 1.0 released [x]
+fortran-2003-standard - Fortran 2003 standardized [x]
+json-rpc-1-0-published - JSON-RPC 1.0 published [x]
+hudson-ci-released - Hudson CI first released [x]
+puppet-released - Puppet first released [-]
+git-created - Git created [x]
+mercurial-released - Mercurial released [x]
+webkit-open-sourced - WebKit open-sourced by Apple [x]
+django-open-sourced - Django open-sourced [x]
+opera-mini-launched - Opera Mini launched for mobile phones [~]
+werner-vogels-amazon-cto - Werner Vogels named Amazon CTO [-]
+arduino-released - Arduino boards first shipped [~]
+symfony-released - Symfony framework released [x]
+dotnet-framework-2-0-released - .NET Framework 2.0 and C# 2.0 released [x]
+firefox-1-5-released - Firefox 1.5 released [x]
+rails-1-0-released - Ruby on Rails 1.0 released [x]
+douglas-crockford-json-spec - Douglas Crockford popularizes JSON [x]
+frances-allen-turing-award - Frances Allen receives Turing Award [x]
+scala-2-0-released - Scala 2.0 released [x]
+lua-5-1-released - Lua 5.1 released [x]
+capistrano-released - Capistrano released [x]
+graydon-hoare-rust-started - Graydon Hoare begins Rust [~]
+internet-explorer-7-released - Internet Explorer 7 released [x]
+jensen-huang-cuda-announced - Jensen Huang announces CUDA [x]
+powershell-1-0-released - Windows PowerShell 1.0 released [x]
+mary-lou-jepsen-olpc-displays - Mary Lou Jepsen leads OLPC display engineering [x]
+groovy-1-0-released - Groovy 1.0 released [x]
+steve-jobs-iphone-introduced - Steve Jobs introduces the iPhone [x]
+reed-hastings-netflix-streaming - Reed Hastings launches Netflix streaming [x]
+rabbitmq-released - RabbitMQ launched [x]
+zeromq-released - ZeroMQ project started [x]
+schwartz-innovate-not-litigate - Jonathan Schwartz: "innovate, not litigate" [x]
+heroku-launched - Heroku founded [x]
+safari-3-windows-released - Safari 3 for Windows released [~]
+iphone-goes-on-sale - iPhone goes on sale [x]
+clang-open-sourced - Clang open-sourced [x]
+rich-hickey-clojure-released - Rich Hickey releases Clojure [-]
+olpc-xo-laptop-released - OLPC XO-1 laptop released [~]
+android-announced - Android announced [x]
+couchdb-released - CouchDB 0.7.0 released [x]
+dotnet-framework-3-5-released - .NET 3.5 and C# 3.0 with LINQ released [x]
+oauth-1-0-published - OAuth 1.0 published [-]
+barbara-liskov-turing-award - Barbara Liskov receives Turing Award [x]
+apple-macbook-air-released - MacBook Air released [x]
+netscape-browser-discontinued - Netscape browser discontinued [-]
+ballmer-web-developers-chant - Steve Ballmer chants "Web developers! Web developers! Web developers!" [x]
+intel-atom-announced - Intel Atom announced [x]
+github-launched - GitHub launched [x]
+phusion-passenger-released - Phusion Passenger released [x]
+gradle-released - Gradle first released [x]
+crockford-javascript-good-parts - Douglas Crockford names "JavaScript: The Good Parts" [x]
+firefox-3-released - Firefox 3.0 released [x]
+bitbucket-launched - Bitbucket launched [x]
+iphone-app-store-opens - iPhone App Store opens [x]
+iphone-3g-released - iPhone 3G released [x]
+apache-cassandra-open-sourced - Apache Cassandra open sourced [x]
+lxc-released - LXC released [x]
+google-chrome-released - Google Chrome 1.0 released [~]
+t-mobile-g1-released - T-Mobile G1 released [x]
+pip-released - pip first released [x]
+python-3-0-released - Python 3.0 released [x]
+zuckerberg-move-fast-break-things - Facebook motto: "Move fast and break things" [x]
+fei-fei-li-imagenet-dataset-launched - Fei-Fei Li launches ImageNet dataset [x]
+chef-released - Chef first released [x]
+mongodb-first-released - MongoDB first released [x]
+safari-4-released - Safari 4 beta released [x]
+redis-first-released - Redis first released [x]
+internet-explorer-8-released - Internet Explorer 8 released [x]
+homebrew-released - Homebrew first released [x]
+nodejs-first-released - Node.js first released [x]
+php-5-3-released - PHP 5.3 released [x]
+uwsgi-released - uWSGI released [x]
+mariadb-released - MariaDB first released [x]
+go-open-sourced - Go programming language open-sourced [x]
+ecmascript-5-adopted - JavaScript ES5 standardized [x]
+express-released - Express.js initial release [x]
+npm-first-released - npm first released [~]
+apple-a4-introduced - Apple A4 chip introduced [x]
+ipad-introduced - iPad introduced [x]
+elasticsearch-released - Elasticsearch released [x]
+gunicorn-released - Gunicorn first released [-]
+vagrant-released - Vagrant first released [x]
+flask-released - Flask web framework released [x]
+james-gosling-leaves-oracle - James Gosling leaves Oracle [-]
+dotnet-framework-4-0-released - .NET 4.0 and C# 4.0 released [x]
+fsharp-2-released - F# 2.0 shipped with Visual Studio 2010 [x]
+jobs-flash-closed-system - Steve Jobs: "Flash is a closed system" [x]
+moxie-marlinspike-textsecure-released - Moxie Marlinspike releases TextSecure [~]
+samsung-galaxy-s-released - Samsung Galaxy S released [~]
+safari-5-released - Safari 5 released [x]
+iphone-4-released - iPhone 4 released [x]
+haskell-2010-standard - Haskell 2010 language standard published [x]
+python-2-7-released - Python 2.7 released [x]
+demis-hassabis-deepmind-founded - Demis Hassabis co-founds DeepMind [~]
+nuget-released - NuGet released [x]
+angularjs-released - AngularJS released [~]
+chromebook-cr-48-pilot - Chromebook CR-48 pilot begins [x]
+andrew-ng-stanford-ml-course - Andrew Ng launches Stanford ML course online [~]
+judea-pearl-turing-award - Judea Pearl receives Turing Award [x]
+apache-kafka-open-sourced - Apache Kafka open-sourced [x]
+kohsuke-kawaguchi-jenkins-renamed - Kohsuke Kawaguchi renames Hudson to Jenkins [x]
+browserify-released - Browserify first released [x]
+travis-ci-launched - Travis CI launched [x]
+ninja-released - Ninja build system open-sourced [x]
+elixir-first-release - Elixir 0.1.0 released [x]
+internet-explorer-9-released - Internet Explorer 9 released [x]
+firefox-4-released - Firefox 4 released [x]
+chromebook-retail-launched - Chromebooks go on sale [~]
+laravel-first-beta - Laravel first beta released [~]
+firefox-5-released - Firefox 5 released [x]
+kotlin-unveiled - Kotlin announced [x]
+leveldb-open-sourced - LevelDB open-sourced [x]
+swagger-1-0-released - Swagger 1.0 released [x]
+firefox-6-released - Firefox 6 released [~]
+andreessen-software-eating-world - Marc Andreessen: "Software is eating the world" [x]
+cpp11-standard - C++11 standardized [x]
+circleci-launched - CircleCI founded [x]
+gitlab-released - GitLab first released [x]
+dart-unveiled - Dart language unveiled at GOTO [x]
+websocket-protocol-standardized - WebSocket protocol standardized [x]
+shafi-goldwasser-turing-award - Shafi Goldwasser receives Turing Award [x]
+ansible-released - Ansible first released [x]
+raspberry-pi-model-b-released - Raspberry Pi Model B released [~]
+composer-released - Composer first released [x]
+webpack-released - webpack first released [x]
+go-1-0-released - Go 1.0 released [x]
+samsung-internet-released - Samsung Internet browser launched [x]
+laravel-symfony-http-foundation - Laravel 3.2 released [x]
+chrome-for-android-released - Chrome for Android released [~]
+safari-6-released - Safari 6 released [x]
+dotnet-framework-4-5-released - .NET 4.5 and C# 5.0 with async/await released [x]
+hinton-alexnet-imagenet-breakthrough - Geoffrey Hinton's team wins ImageNet with AlexNet [~]
+oauth-2-0-standardized - OAuth 2.0 standardized [x]
+typescript-preview-released - TypeScript preview released [x]
+internet-explorer-10-released - Internet Explorer 10 released [x]
+audrey-tang-g0v-launched - Audrey Tang co-launches g0v civic hacking movement [~]
+microsoft-surface-pro-released - Surface Pro released [x]
+ruby-2-0-released - Ruby 2.0 released [x]
+docker-open-sourced - Docker open-sourced [~]
+meson-released - Meson first released [x]
+nodejs-0-10-released - Node.js 0.10 released [x]
+blink-engine-announced - Google announced Blink rendering engine [x]
+opera-chromium-switch - Opera switched to Chromium [~]
+react-open-sourced - React open-sourced at JSConf US [x]
+eslint-released - ESLint first released [x]
+internet-explorer-11-released - Internet Explorer 11 released [x]
+safari-7-released - Safari 7 released [x]
+vue-js-released - Vue.js publicly released [x]
+satya-nadella-microsoft-ceo - Satya Nadella named Microsoft CEO [x]
+openid-connect-1-0-published - OpenID Connect 1.0 published [x]
+java-8-released - Java 8 released [x]
+typescript-1-0-released - TypeScript 1.0 released [x]
+brendan-eich-mozilla-ceo-resigns - Brendan Eich resigns as Mozilla CEO [x]
+tom-preston-werner-github-resigns - Tom Preston-Werner resigns from GitHub [x]
+express-4-released - Express 4.0 released [-]
+ian-goodfellow-gan-invented - Ian Goodfellow invents GANs [x]
+swift-announced - Swift programming language announced at WWDC [x]
+kubernetes-open-sourced - Kubernetes open-sourced [x]
+crystal-0-1-0-released - Crystal 0.1.0 released [x]
+terraform-released - Terraform first released [x]
+esp8266-released - ESP8266 Wi-Fi module popularized [x]
+babel-released - Babel transpiler first released [x]
+lisa-su-amd-ceo - Lisa Su named AMD CEO [x]
+safari-8-released - Safari 8 released [x]
+cpp14-standard - C++14 standardized [x]
+andrej-karpathy-cs231n - Andrej Karpathy launches Stanford CS231n course [x]
+raspberry-pi-2-released - Raspberry Pi 2 released [x]
+laravel-5-released - Laravel 5.0 released [x]
+grpc-open-sourced - gRPC open-sourced [x]
+nvidia-jetson-released - NVIDIA Jetson TK1 released [x]
+bazel-open-sourced - Bazel open-sourced [x]
+apple-watch-released - Apple Watch released [x]
+caddy-released - Caddy first released [~]
+visual-studio-code-preview - Visual Studio Code preview released [x]
+jwt-standardized - JWT standardized [x]
+http-2-standardized - HTTP/2 standardized [x]
+cargo-released - Cargo 1.0 released [x]
+rust-1-0-released - Rust 1.0 released [x]
+rollup-released - Rollup first released [~]
+cockroachdb-open-sourced - CockroachDB open sourced [x]
+swift-2-announced - Swift 2 announced at WWDC [x]
+ecmascript-2015-adopted - JavaScript ES6 standardized [x]
+open-container-initiative-launched - Open Container Initiative launched [x]
+graphql-open-sourced - GraphQL technical preview open-sourced [x]
+csharp-6-roslyn-released - C# 6 and Roslyn compiler released [x]
+microsoft-edge-released - Microsoft Edge released with Windows 10 [x]
+sundar-pichai-google-ceo - Sundar Pichai named Google CEO [x]
+nodejs-4-released - Node.js 4.0 released [~]
+phoenix-1-0-released - Phoenix 1.0 released [-]
+elixir-1-0-released - Elixir 1.0 released [-]
+safari-9-released - Safari 9 released [x]
+raspberry-pi-zero-released - Raspberry Pi Zero released [x]
+symfony-3-released - Symfony 3.0 released [x]
+sam-altman-openai-founded - Sam Altman co-founds OpenAI [-]
+lets-encrypt-public-beta - Let's Encrypt public beta launched [x]
+php-7-0-released - PHP 7.0 released [x]
+swift-open-sourced - Swift open-sourced [x]
+ilya-sutskever-openai-research - Ilya Sutskever named OpenAI research director [x]
+perl-6-christmas-released - Perl 6.0.0 'Christmas' released [~]
+brave-browser-launched - Brave browser launched [~]
+zig-announced - Zig programming language announced [x]
+kotlin-1-0-released - Kotlin 1.0 released [x]
+demis-hassabis-alphago-victory - Demis Hassabis's AlphaGo defeats Lee Sedol 4–1 [x]
+andy-jassy-aws-ceo - Andy Jassy named AWS CEO [x]
+vivaldi-browser-launched - Vivaldi browser launched [x]
+nodejs-6-released - Node.js 6 released [~]
+dotnet-core-1-0-released - .NET Core 1.0 released [x]
+language-server-protocol-announced - Language Server Protocol announced [x]
+powershell-core-open-sourced - PowerShell open-sourced on GitHub [x]
+angular-2-released - Angular 2.0 final released [x]
+safari-10-released - Safari 10 released [x]
+audrey-tang-digital-minister - Audrey Tang appointed Taiwan digital minister [x]
+yarn-released - Yarn released [~]
+nextjs-open-sourced - Next.js open sourced [x]
+helm-2-released - Helm 2.0 released [x]
+samsung-internet-chromium-released - Samsung Internet moves to Chromium [-]
+yoshua-bengio-mila-founded - Yoshua Bengio leads founding of Mila AI institute [~]
+nestjs-announced - NestJS introduced [x]
+webassembly-mvp-finished - WebAssembly MVP design finished [~]
+lisa-su-amd-zen-launched - Lisa Su launches AMD Ryzen on Zen architecture [x]
+csharp-7-released - C# 7 released with Visual Studio 2017 [x]
+kotlin-android-official - Kotlin made official for Android [x]
+nodejs-8-released - Node.js 8 released [~]
+pnpm-released - pnpm 1.0 released [x]
+windows-phone-eol - Windows Phone support ended [-]
+chris-wanstrath-github-ceo-steps-down - Chris Wanstrath announces he will step down as GitHub CEO [x]
+safari-11-released - Safari 11 released [x]
+firefox-57-quantum - Firefox 57 Quantum released [x]
+symfony-4-released - Symfony 4.0 released [x]
+cpp17-standard - C++17 standardized [x]
+deep-learning-turing-trio-2018 - Hinton, Bengio, and LeCun share Turing Award [x]
+yann-lecun-meta-chief-ai - Yann LeCun named Facebook chief AI scientist [x]
+nodejs-10-released - Node.js 10 released [x]
+ryan-dahl-deno-announced - Ryan Dahl announces Deno [x]
+guido-van-rossum-bdfl-step-down - Guido van Rossum steps down as Python BDFL [x]
+phoenix-liveview-released - Phoenix LiveView announced [x]
+java-11-released - Java 11 LTS released [~]
+graphql-foundation-announced - GraphQL Foundation announced [x]
+flutter-1-0-released - Flutter 1.0 released [x]
+fastapi-released - FastAPI first released [x]
+fei-fei-li-stanford-hai - Fei-Fei Li co-directs Stanford HAI launch [x]
+nodejs-12-released - Node.js 12 released [x]
+opera-gx-released - Opera GX browser released [x]
+dotnet-core-3-0-released - .NET Core 3.0 and C# 8 released [x]
+github-actions-ga - GitHub Actions generally available [~]
+python-2-end-of-life - Python 2 reaches end of life [x]
+edge-chromium-released - Chromium-based Microsoft Edge released [x]
+musk-openai-more-open - Elon Musk: "OpenAI should be more open" [x]
+nodejs-14-released - Node.js 14 released [x]
+ecmascript-2020-adopted - ECMAScript 2020 standardized [x]
+gpt-3-api-released - OpenAI GPT-3 API announced [x]
+sanfilippo-redis-maintainer-steps-down - Salvatore Sanfilippo steps down as Redis maintainer [x]
+laravel-8-released - Laravel 8.0 released [x]
+vue-3-released - Vue 3.0 released [x]
+webpack-5-released - Webpack 5 released [x]
+safari-14-big-sur - Safari 14 shipped with macOS Big Sur [~]
+dotnet-5-released - .NET 5 released [x]
+apple-m1-announced - Apple M1 announced [x]
+csharp-9-released - C# 9 released with .NET 5 [x]
+apple-m1-mac-shipped - M1 MacBook Air and Pro ship [x]
+php-8-0-released - PHP 8.0 released [x]
+cpp20-standard - C++20 standardized [x]
+ruby-3-0-released - Ruby 3.0 released [x]
+flash-player-discontinued - Adobe Flash Player discontinued [x]
+chrome-manifest-v3 - Chrome Manifest V3 extension platform [~]
+dario-amodei-anthropic-founded - Dario Amodei co-founds Anthropic [~]
+pat-gelsinger-intel-ceo - Pat Gelsinger returns as Intel CEO [x]
+vite-1-released - Vite 1.0 released [-]
+nodejs-16-released - Node.js 16 released [x]
+scala-3-released - Scala 3.0 released [x]
+ghc-9-0-released - GHC 9.0 released [-]
+erlang-otp-24-released - Erlang/OTP 24 released [x]
+safari-15-ios-web-extensions - Safari 15 brought web extensions to iOS [x]
+java-17-released - Java 17 LTS released [x]
+swift-5-5-async-await - Swift 5.5 async/await released [x]
+python-3-10-released - Python 3.10 released [x]
+rust-2021-edition - Rust 2021 edition released [x]
+ghc-9-2-released - GHC 9.2 released [x]
+dotnet-6-released - .NET 6 LTS released [x]
+csharp-10-released - C# 10 released with .NET 6 [x]
+django-4-released - Django 4.0 released [~]
+rails-7-released - Ruby on Rails 7.0 released [x]
+blackberry-os-eol - BlackBerry OS end of life [x]
+go-1-18-generics - Go 1.18 added generics [x]
+arc-browser-released - Arc browser launched [x]
+nodejs-18-released - Node.js 18 released [~]
+erlang-otp-25-released - Erlang/OTP 25 released [x]
+ecmascript-2022-adopted - ECMAScript 2022 standardized [x]
+http-3-standardized - HTTP/3 standardized [x]
+internet-explorer-11-retired - Internet Explorer 11 retired [~]
+python-3-11-released - Python 3.11 released [x]
+nextjs-13-app-router - Next.js 13 introduced the App Router [~]
+dotnet-7-released - .NET 7 released [x]
+csharp-11-released - C# 11 released with .NET 7 [x]
+chatgpt-released - ChatGPT launched [~]
+sveltekit-1-released - SvelteKit 1.0 released [x]
+gpt-3-5-turbo-released - GPT-3.5 Turbo API released [x]
+gpt-4-released - GPT-4 released [x]
+typescript-5-0-released - TypeScript 5.0 released [x]
+ghc-9-6-released - GHC 9.6 released [x]
+nodejs-20-released - Node.js 20 released [x]
+geoffrey-hinton-google-departure - Geoffrey Hinton leaves Google warning of AI risks [x]
+dart-3-released - Dart 3 released [x]
+altman-ai-goes-wrong - Sam Altman: "If this technology goes wrong, it can go quite wrong" [x]
+erlang-otp-26-released - Erlang/OTP 26 released [x]
+ecmascript-2023-adopted - ECMAScript 2023 standardized [~]
+claude-2-released - Anthropic Claude 2 released [x]
+llama-2-released - Meta Llama 2 open weights released [x]
+elixir-1-14-released - Elixir 1.14 released [x]
+java-21-released - Java 21 LTS released [x]
+mistral-7b-released - Mistral 7B released [x]
+cpp23-standard - C++23 standardized [-]
+python-3-12-released - Python 3.12 released [~]
+gpt-4-turbo-released - GPT-4 Turbo announced [x]
+dotnet-8-released - .NET 8 LTS released [x]
+csharp-12-released - C# 12 released with .NET 8 [x]
+google-gemini-released - Google Gemini announced [x]
+elixir-1-16-released - Elixir 1.16 released [x]
+google-gemini-1-5-released - Google Gemini 1.5 announced [x]
+ios-eu-browser-choice - iOS EU browser choice screens [x]
+claude-3-released - Anthropic Claude 3 released [x]
+llama-3-released - Meta Llama 3 released [x]
+nodejs-22-released - Node.js 22 released [~]
+gpt-4o-released - OpenAI GPT-4o released [x]
+erlang-otp-27-released - Erlang/OTP 27 released [x]
+kotlin-2-0-released - Kotlin 2.0 released [x]
+ecmascript-2024-adopted - ECMAScript 2024 standardized [~]
+claude-3-5-sonnet-released - Anthropic Claude 3.5 Sonnet released [x]
+openai-o1-released - OpenAI o1 reasoning models released [x]
+swift-6-released - Swift 6 released [~]
+elixir-1-17-released - Elixir 1.17 released [x]
+python-3-13-released - Python 3.13 released [x]
+claude-3-5-haiku-released - Anthropic Claude 3.5 Haiku released [~]
+dotnet-9-released - .NET 9 released [x]
+csharp-13-released - C# 13 released with .NET 9 [-]
+zig-1-0-released - Zig 1.0 released [-]
+php-8-4-released - PHP 8.4 released [x]
+deepseek-r1-released - DeepSeek R1 released [x]
+rust-2024-edition - Rust 2024 edition released [~]
+claude-3-7-sonnet-released - Anthropic Claude 3.7 Sonnet released [x]
+gpt-4-1-released - OpenAI GPT-4.1 released [x]
+erlang-otp-28-released - Erlang/OTP 28 released [x]
+ecmascript-2025-adopted - ECMAScript 2025 standardized [~]
+python-3-14-released - Python 3.14 released [x]
+
+# --- Details ---
+ada-lovelace-analytical-engine-notes - Ada Lovelace publishes Notes on the Analytical Engine [x]
+  Extra source: York U / C.D. Green intro (http://www.yorku.ca/pclassic/Lovelace/intro.htm)
+  Verified: Notes appeared in Taylor's Scientific Memoirs vol. 3, Sept/Oct 1843; Note G describes Bernoulli-number algorithm.
+  Note: Publication month is sometimes cited as September vs October 1843; year 1843 is solid. Authorship split with Babbage is debated but not disputed for the event itself.
+
+alan-turing-computable-numbers - Alan Turing defines the Turing machine [x]
+  Extra source: Turing's original PDF (Virginia CS mirror, already in timeline)
+  Verified: "On Computable Numbers" published Proc. London Math. Soc. 1936 (received May 1936).
+
+john-von-neumann-architecture - John von Neumann describes stored-program architecture [x]
+  Extra source: IAS EDVAC report reproduction (Wikipedia cites First Draft, June 30, 1945)
+  Verified: "First Draft of a Report on the EDVAC" dated June 1945; stored-program concept attributed to von Neumann (with Eckert/Mauchly contributions disputed historically).
+
+bush-as-we-may-think-memex - Vannevar Bush envisions the "memex" [x]
+  Extra source: The Atlantic — As We May Think (July 1945), primary text in timeline
+  Verified: July 1945 Atlantic article; memex passage and quote match.
+
+eniac-dedicated - ENIAC formally dedicated [x]
+  Extra source: NY Times Feb 15, 1946; CHM TDIH Feb 14, 1946
+  Verified: Public unveiling announced Feb 14, 1946; formal dedication Feb 15, 1946. Date and title now match dedication; superlative softened.
+
+claude-shannon-information-theory - Claude Shannon publishes information theory [x]
+  Extra source: Shannon 1948 BSTJ paper (PDF in timeline)
+  Verified: "A Mathematical Theory of Communication" Bell System Technical Journal, July & October 1948. Using October 1945-month bucket is acceptable for the two-part publication.
+
+edsac-first-programs - EDSAC runs its first programs [x]
+  Extra source: Computing History — EDSAC ran its first programs (May 6, 1949)
+  Verified: First programs ran May 6, 1949, including Beatrice Worsley's table of squares.
+
+edsac-initial-orders - Wheeler's EDSAC Initial Orders add the first assembler [x]
+  Extra source: Royal Society Wheeler 1950 paper; Wikipedia EDSAC
+  Verified: Initial Orders translated mnemonics from tape into machine code by May 1949; split from first-programs run on May 6.
+
+richard-hamming-error-correcting-codes - Richard Hamming publishes error-correcting codes [x]
+  Extra source: Hamming, Bell System Technical Journal 1950 (via Wikipedia citation)
+  Verified: Paper "Error detecting and error correcting codes" published 1950; Hamming codes correct.
+
+univac-i-delivered - UNIVAC I delivered [x]
+  Extra source: Wikipedia UNIVAC I (cites Census Bureau history)
+  Verified: Delivered to U.S. Census Bureau June 14, 1951. First commercial U.S. computer delivery is widely accepted (Zuse and others predate in other countries — nuance only).
+
+marvin-minsky-dartmouth-workshop - Marvin Minsky co-organizes Dartmouth AI workshop [x]
+  Extra source: Dartmouth workshop proposal (McCarthy et al., Aug 1955 for summer 1956)
+  Verified: 1956 summer workshop; McCarthy coined "artificial intelligence" in the 1955 proposal. Minsky was co-organizer. Month "August 1956" is approximate (workshop ran mid/late summer).
+
+frank-rosenblatt-perceptron - Frank Rosenblatt builds the Perceptron [x]
+  Extra source: Cornell / Rosenblatt 1958 report often cited; Wikipedia Perceptron
+  Verified: Mark I Perceptron developed 1957–1958 at Cornell Aeronautical Laboratory. Year 1957 is standard for "built."
+
+fortran-formally-published - FORTRAN formally published [x]
+  Extra source: Computing History — FORTRAN-1 formally published (Feb 26, 1957)
+  Verified: Paper presented Western Joint Computer Conference, Los Angeles, Feb 26–28, 1957.
+
+fortran-first-delivery - First FORTRAN compiler delivered [x]
+  Extra source: Computer History Museum — first FORTRAN program runs April 19, 1957
+  Verified: First external delivery mid-April 1957 to Westinghouse-Bettis; first successful run April 19 (Bright recalled April 20). Month bucket 1957-04 is correct.
+
+john-mccarthy-lisp-invented - John McCarthy invents Lisp [x]
+  Extra source: McCarthy, "Recursive Functions of Symbolic Expressions" (1960; Lisp conceived 1958)
+  Verified: Lisp created 1958 at MIT; McCarthy's own chronology.
+
+jack-kilby-integrated-circuit - Jack Kilby demonstrates the first integrated circuit [x]
+  Extra source: Texas Instruments / Nobel biography materials
+  Verified: Kilby demonstrated working IC oscillator Sept 12, 1958 at TI (germanium). Noyce's planar IC was separate 1959 milestone (see next event).
+
+algol-58-published - ALGOL 58 language defined [x]
+  Extra source: ACM DOI 10.1145/377924.594925; CHM preliminary report PDF in timeline
+  Verified: Preliminary report dated December 1, 1958.
+
+robert-noyce-integrated-circuit - Robert Noyce invents the planar integrated circuit [x]
+  Extra source: Fairchild / Intel heritage; Wikipedia Robert Noyce
+  Verified: Noyce filed Fairchild planar IC patent 1959; distinct from Kilby 1958 demo.
+
+lisp-first-interpreter - First working Lisp interpreter [x]
+  Extra source: McCarthy HOPL history (ACM 10.1145/960118.808387)
+  Verified: IBM 704 Lisp interpreter working by 1959; May 1959 date aligns with McCarthy chronologies (some sources say late 1958/early 1959).
+
+cobol-specifications-submitted - COBOL language finalized [x]
+  Extra source: CODASYL COBOL Report April 1960 PDF (specs from Dec 1959 meeting)
+  Verified: CODASYL executive committee meeting Dec 17, 1959 finalized short-term specifications.
+
+algol-60-published - ALGOL 60 language defined [x]
+  Extra source: CACM ALGOL 60 report (May 1, 1960) in timeline
+  Verified: Report published Communications of the ACM, May 1960.
+
+cobol-first-program-run - First COBOL program executed [x]
+  Extra source: Smithsonian NMAH — COBOL printout marked "Good output – 8/17/60"
+  Verified: First successful COBOL compile/run Aug 17, 1960 on RCA 501, Cherry Hill NJ.
+
+tony-hoare-quicksort-published - Tony Hoare publishes Quicksort [x]
+  Extra source: CACM Algorithm 64, doi 10.1145/366622.366644 (July 1961)
+  Verified: Quicksort published July 1961 as Algorithm 64.
+
+jean-sammet-formac-published - Jean Sammet develops FORMAC [x]
+  Extra source: IBM FORMAC documentation; Sammet bibliography
+  Verified: FORMAC symbolic math language developed at IBM, released/announced 1962.
+
+seymour-cray-cdc-6600 - Seymour Cray designs the CDC 6600 [~]
+  Extra source: Computing History — CDC 6600 introduced September 1964
+  Verified: CDC 6600 designed by Cray & Thornton; introduced/delivered September 1964.
+  Note: Event uses date "1964" (year only) and title "designs" — introduction/delivery was Sept 1964. Wording is slightly vague but substantively correct.
+
+ibm-system-360-announced - IBM System/360 announced [x]
+  Extra source: IBM corporate history — launched April 7, 1964
+  Verified: Announced April 7, 1964; compatible family architecture as described.
+
+# Summary (first 26)
+# [x] verified: 25
+# [~] minor nuance: 1  (seymour-cray-cdc-6600)
+# [-] issues: 0
+
+# --- Batch 2: events 27–51 ---
+basic-first-run - BASIC runs for the first time at Dartmouth [x]
+  Extra source: Dartmouth BASIC at 50; Wikipedia Dartmouth BASIC
+  Verified: First BASIC programs ran May 1, 1964 at 4 a.m. on DTSS; Kemeny and McGeachie (per Wikipedia) ran first programs.
+
+dec-pdp-8-shipped - DEC PDP-8 shipped [~]
+  Extra source: Computing History — DEC releases PDP-8 (March 22, 1965)
+  Verified: PDP-8 unveiled March 22, 1965 at IEEE show; first shipments began April 1965.
+  Note: Summary says "began shipping in March" — introduction was March; shipping was April.
+
+moore-components-doubling-quote - Gordon Moore predicts chip density will double every year [x]
+  Extra source: Moore 1965 Electronics article (CHM Silicon Engine)
+  Verified: Quote from "Cramming More Components onto Integrated Circuits," April 19, 1965. Pairs with gordon-moore-moores-law event.
+
+gordon-moore-moores-law - Gordon Moore publishes Moore's Law [x]
+  Extra source: CHM — Moore's Law predicts the future of integrated circuits
+  Verified: Article published Electronics, April 19, 1965; ~2×/year component growth observation.
+
+dec-pdp-10-released - DEC PDP-10 released [x]
+  Extra source: CHM PDP-10 catalog; Wikipedia PDP-10
+  Verified: PDP-10 introduced 1966; 36-bit timesharing minicomputer.
+
+simula-67-presented - Object-oriented programming invented [x]
+  Extra source: Dahl & Nygaard "Class and Subclass Declarations," IFIP Oslo May 1967
+  Verified: Simula 67 classes/inheritance presented at Lysebu conference, May 1967.
+  Note: OOP concepts evolved 1962–1967 (Simula I → Simula 67); term "object-oriented" came later.
+
+bcpl-manual-published - Early language that led to C documented [x]
+  Extra source: Richards BCPL Reference Manual M-352 (July 21, 1967 PDF in timeline)
+  Verified: BCPL manual dated July 21, 1967; precursor to B and C.
+
+knuth-taocp-volume-1-published - Donald Knuth publishes TAOCP Volume 1 [x]
+  Extra source: Knuth taocp.html bibliography; Wikipedia TAOCP
+  Verified: Volume 1 Fundamental Algorithms first edition published 1968 (Addison-Wesley).
+
+dijkstra-go-to-considered-harmful - Dijkstra publishes 'Go To Considered Harmful' [x]
+  Extra source: CACM Vol. 11 No. 3, March 1968 (doi 10.1145/362929.362947)
+  Verified: Letter published March 1968; original title was "A Case Against the Goto Statement."
+
+dijkstra-goto-letter-quote - Edsger Dijkstra declares "Go To statement considered harmful" [x]
+  Extra source: Same CACM March 1968 letter
+  Verified: Quote event pairs with dijkstra-go-to-considered-harmful; title was editor-changed by Wirth.
+
+moore-noyce-intel-founded - Gordon Moore and Robert Noyce found Intel [x]
+  Extra source: Intel corporate history; Wikipedia Intel
+  Verified: Intel Corporation founded July 18, 1968 in Mountain View, CA.
+
+b-language-created - Unix language before C created [x]
+  Extra source: Ritchie "Development of the C Language" (Bell Labs)
+  Verified: Ken Thompson created B circa 1969 at Bell Labs; stepping stone to C.
+
+margaret-hamilton-apollo-software - Margaret Hamilton leads Apollo flight software [x]
+  Extra source: NASA Apollo 11; Smithsonian/NMAH Hamilton collections
+  Verified: Hamilton led MIT Instrumentation Lab software team; Apollo 11 landed July 20, 1969 using AGC software.
+
+niklaus-wirth-pascal-published - Niklaus Wirth publishes Pascal [~]
+  Extra source: Wirth ETH report November 1970; Acta Informatica March 1971
+  Verified: Pascal designed 1968–1970; overlaps pascal-report-published (Nov 1970 report).
+  Note: Duplicate milestone with pascal-report-published — consider merging or differentiating design vs report.
+
+pascal-report-published - Pascal language report published [x]
+  Extra source: ETH research collection doi 10.3929/ethz-a-004150844
+  Verified: "The Programming Language Pascal" technical report, November 1970, ETH Zurich.
+
+stephen-cook-np-completeness - Stephen Cook proves NP-completeness [x]
+  Extra source: Cook STOC 1971 paper (doi 10.1145/800157.805047)
+  Verified: "The Complexity of Theorem-Proving Procedures" at STOC 1971; SAT is NP-complete.
+
+c-language-created - C programming language takes shape at Bell Labs [x]
+  Extra source: Ritchie "Development of the C Language"
+  Verified: C evolved from B during 1971–73; 1972 was peak development year per Ritchie.
+
+elizabeth-feinler-nic-created - Elizabeth Feinler runs the ARPANET NIC [-]
+  Extra source: CHM Feinler profile; Feinler oral history (Sept 2009)
+  Issue: In 1972 Feinler joined Engelbart's ARC and wrote the ARPANET Resource Handbook for the ICCC demo — she did not yet run the NIC. She became NIC principal investigator in 1974.
+  Issue: Event id says "nic-created" but the NIC predates 1972; she did not create it.
+  Suggest: Retitle to "Elizabeth Feinler joins ARPANET documentation effort" (1972) or move date to 1974 for NIC leadership.
+
+jon-postel-iana-stewardship - Jon Postel begins IANA stewardship [~]
+  Extra source: RFC 349 (May 1972); Internet Society IANA timeline
+  Verified: Postel proposed socket-number "czar" May 1972 (RFC 349); became de-facto numbering authority by late 1972.
+  Note: "IANA" name was not used until 1980s; functions began 1972. RFC Editor role started 1969.
+
+karen-sparck-jones-idf - Karen Spärck Jones publishes inverse document frequency [x]
+  Extra source: Journal of Documentation 28(1), 1972 (doi 10.1108/eb026526)
+  Verified: "A Statistical Interpretation of Term Specificity..." introduced IDF weighting, 1972.
+
+prolog-first-implementation - Prolog language created [x]
+  Extra source: CHM Prolog archive; Colmerauer "Birth of Prolog"
+  Verified: First Prolog implemented fall 1972 by Roussel (ALGOL-W on IBM 360/67).
+
+clifford-cocks-public-key - Clifford Cocks invents RSA-class encryption at GCHQ [x]
+  Extra source: NSA historical figures; Ellis GCHQ declassified history
+  Verified: Cocks devised RSA-equivalent scheme at GCHQ in 1973 (after joining Sept 1973); classified until 1997.
+
+xerox-alto-operational - Xerox Alto operational [x]
+  Extra source: Thacker & Lampson CSL-79-11 Alto report; IEEE Spectrum 50th anniversary
+  Verified: Alto designed early 1973 at PARC; first machines operational March 1, 1973.
+
+cerf-kahn-tcp-ip-paper-published - Vint Cerf and Bob Kahn publish TCP/IP design [x]
+  Extra source: IEEE Trans. Communications May 1974 (doi 10.1109/tcom.1974.1092259)
+  Verified: "A Protocol for Packet Network Intercommunication" published May 1974; TCP design (later split into TCP/IP).
+
+sequel-paper-published - SQL database language invented [x]
+  Extra source: SIGFIDET workshop May 1–3, 1974 (doi 10.1145/800296.811515)
+  Verified: Chamberlin & Boyce SEQUEL paper presented May 1974; became SQL.
+
+# Summary (first 51)
+# [x] verified: 46
+# [~] minor nuance: 4  (seymour-cray-cdc-6600, dec-pdp-8-shipped, niklaus-wirth-pascal-published, jon-postel-iana-stewardship)
+# [-] issues: 1  (elizabeth-feinler-nic-created)
+
+# --- Batch 3: events 52–76 ---
+knuth-premature-optimization - Donald Knuth warns against premature optimization [x]
+  Extra source: ACM Computing Surveys Vol. 6 No. 4, December 1974
+  Verified: Quote "premature optimization is the root of all evil" appears in "Structured Programming with go to Statements" (p. 268).
+
+fred-brooks-mythical-man-month - Fred Brooks publishes The Mythical Man-Month [x]
+  Extra source: Wikipedia The Mythical Man-Month; Addison-Wesley 1975
+  Verified: Book published 1975; essays on OS/360 project management.
+
+brooks-add-manpower-makes-later - Fred Brooks: adding people to a late project makes it later [x]
+  Extra source: Brooks The Mythical Man-Month (1975)
+  Verified: Quote event pairs with fred-brooks-mythical-man-month; Brooks's Law.
+
+amara-law - Roy Amara warns we misjudge technology timelines [~]
+  Extra source: Wikipedia Amara's law; Roy Amara biography
+  Issue: Quote widely attributed to Amara but never formally published; Wikipedia cites coinage in 1978, not 1975. Event date 1975 is imprecise.
+  Note: Amara was IFTF president; observation matches his futurism work.
+
+altair-8800-released - Altair 8800 released [~]
+  Extra source: Wikipedia Altair 8800; Popular Electronics Jan 1975 cover
+  Verified: Cover story January 1975 issue (newsstands Dec 19, 1974); kits available for order then.
+  Note: Summary says "shipped in January" — first working kits shipped in early 1975 after cover; cover machine was a non-functional shell.
+
+microsoft-founded - Bill Gates and Paul Allen found Microsoft [x]
+  Extra source: Microsoft corporate history
+  Verified: Microsoft founded April 4, 1975 in Albuquerque for Altair BASIC.
+
+cray-1-delivered - Cray-1 supercomputer delivered [x]
+  Extra source: Computing History — first Cray-1 delivered March 4, 1976
+  Verified: Serial 001 delivered to Los Alamos March 4, 1976 for six-month trial; year bucket 1976 is correct.
+
+make-created - Make build tool created [x]
+  Extra source: Wikipedia Make (software); Feldman SPE 1979 paper
+  Verified: Stuart Feldman completed early Make at Bell Labs April 1976.
+
+steve-wozniak-apple-founded - Steve Jobs and Steve Wozniak found Apple [x]
+  Extra source: Apple company history; Wikipedia Apple Inc.
+  Verified: Apple Computer Company formed April 1, 1976.
+
+apple-i-released - Apple I goes on sale [x]
+  Extra source: CHM Apple I; Wikipedia Apple I
+  Verified: Apple I sold starting July 1976 as a kit/board.
+
+diffie-hellman-paper-published - Diffie and Hellman publish New Directions in Cryptography [x]
+  Extra source: IEEE Trans. Information Theory Nov 1976 (doi 10.1109/tit.1976.1055638)
+  Verified: Published November 1976; introduced public-key cryptography concepts.
+
+awk-created - AWK created at Bell Labs [x]
+  Extra source: GNU Awk manual; Aho/Weinberger/Kernighan 1977
+  Verified: AWK created 1977 at Bell Labs by Aho, Weinberger, and Kernighan.
+
+brian-kernighan-awk-coauthored - Brian Kernighan co-creates AWK [~]
+  Extra source: Same as awk-created
+  Verified: Factually correct; duplicate people milestone paired with awk-created event.
+
+john-backus-turing-award - John Backus receives Turing Award [x]
+  Extra source: ACM 1977 Turing Award citation
+  Verified: Backus received 1977 ACM Turing Award for Fortran and BNF contributions.
+
+rsa-algorithm-published - Rivest, Shamir, and Adleman invent RSA [x]
+  Extra source: MIT LCS/TM-082 April 1977; CACM 1978 publication
+  Verified: RSA devised 1977; technical memo April 4, 1977.
+
+commodore-pet-2001-released - Commodore PET 2001 released [x]
+  Extra source: Commodore.ca PET history; Wikipedia Commodore PET
+  Verified: PET 2001 introduced January 1977 at West Coast Computer Faire.
+
+apple-ii-introduced - Steve Jobs and Steve Wozniak introduce the Apple II [x]
+  Extra source: West Coast Computer Faire April 16–17, 1977
+  Verified: Apple II introduced April 16, 1977 at West Coast Computer Faire.
+
+larry-ellison-oracle-founded - Larry Ellison co-founds Oracle [x]
+  Extra source: Oracle corporate history
+  Verified: Software Development Laboratories founded June 16, 1977; later Oracle.
+
+trs-80-model-i-released - TRS-80 Model I released [x]
+  Extra source: TRS-80.org; Wikipedia TRS-80
+  Verified: Radio Shack TRS-80 Model I released August 1977.
+
+dec-vax-11-780-released - DEC VAX-11/780 released [~]
+  Extra source: Wikipedia VAX-11; Datapro VAX reports
+  Verified: VAX-11/780 announced October 25, 1977; first revenue shipments January 1978.
+  Note: Title/summary say "shipped October 1977" — announcement was Oct 1977, delivery Jan 1978.
+
+donald-knuth-tex-development - Donald Knuth begins developing TeX [x]
+  Extra source: Knuth TeX page; Wikipedia TeX
+  Verified: Knuth began TeX in 1978 after dissatisfaction with TAOCP typesetting.
+
+c-k-and-r-published - The C Programming Language book published [x]
+  Extra source: InformIT / Wikipedia K&R C
+  Verified: First edition published February 22, 1978 (Prentice Hall).
+
+fortran-77-standard - FORTRAN 77 standardized [x]
+  Extra source: ANSI X3.9-1978 standard document
+  Verified: ANSI approved FORTRAN standard April 3, 1978 (informally "FORTRAN 77").
+
+intel-8086-introduced - Intel 8086 introduced [x]
+  Extra source: Intel timeline; Wikipedia Intel 8086
+  Verified: Intel 8086 launched June 8, 1978; foundation of x86 architecture.
+
+tony-hoare-csp-published - Tony Hoare publishes Communicating Sequential Processes [x]
+  Extra source: CACM August 1978 (doi 10.1145/359576.359585)
+  Verified: CSP paper published Communications of the ACM, August 1978.
+
+# Summary (first 76)
+# [x] verified: 66
+# [~] minor nuance: 9  (seymour-cray-cdc-6600, dec-pdp-8-shipped, niklaus-wirth-pascal-published, jon-postel-iana-stewardship, amara-law, altair-8800-released, brian-kernighan-awk-coauthored, dec-vax-11-780-released)
+# [-] issues: 1  (elizabeth-feinler-nic-created)
+
+# --- Batch 4: events 77–101 ---
+hofstadter-law - Douglas Hofstadter coins Hofstadter's Law [x]
+  Extra source: Wikipedia Hofstadter's law; GEB (1979) p. 152
+  Verified: Self-referential scheduling adage in Gödel, Escher, Bach (1979).
+
+lynn-conway-vlsi-course - Lynn Conway publishes MOSIS VLSI design course [~]
+  Extra source: Mead & Conway Introduction to VLSI Systems; Wikipedia Mead–Conway revolution
+  Verified: Mead–Conway VLSI methodology developed 1978–79; MIT course 1978; book published 1980.
+  Note: Event dated 1979 and title says "publishes MOSIS VLSI design course" — MOSIS service followed the methodology; book is 1980.
+
+oracle-2-released - Oracle Database 2 shipped [x]
+  Extra source: Oracle corporate timeline; Oracle docs introduction
+  Verified: Oracle Version 2 released 1979 (June per Oracle FAQ); first commercial SQL RDBMS marketed.
+
+intel-8088-introduced - Intel 8088 introduced [x]
+  Extra source: Intel 8086/8088 history; Wikipedia Intel 8088
+  Verified: 8088 introduced July 1979; 8-bit external bus variant of 8086.
+
+adele-goldberg-smalltalk-80 - Adele Goldberg co-releases Smalltalk-80 [x]
+  Extra source: Xerox PARC Smalltalk-80; Wikipedia Adele Goldberg
+  Verified: Smalltalk-80 released 1980 by Goldberg and PARC team.
+
+metcalfe-metcalfe-law - Robert Metcalfe states Metcalfe's Law [~]
+  Extra source: Wikipedia Metcalfe's law; Odlyzko Metcalfe's Law paper
+  Verified: Metcalfe articulated network value ∝ n² circa 1980 (35mm slide).
+  Note: Name "Metcalfe's Law" coined later (George Gilder, 1993); 1980 date is approximate.
+
+osborne-1-released - Osborne 1 released [x]
+  Extra source: Wikipedia Osborne 1; CHM portable computers
+  Verified: Osborne 1 began shipping April 1981; first commercially successful portable PC.
+
+ibm-pc-5150-released - IBM PC 5150 released [x]
+  Extra source: IBM PC announcement August 12, 1981
+  Verified: IBM Personal Computer model 5150 announced August 12, 1981.
+
+grid-compass-released - GRiD Compass released [x]
+  Extra source: Wikipedia GRiD Compass
+  Verified: GRiD Compass began shipping April 1982; clamshell laptop form factor.
+
+sun-1-released - Sun-1 workstation released [x]
+  Extra source: Wikipedia Sun-1; CHM Sun Microsystems
+  Verified: Sun-1 workstation shipped May 1982.
+
+commodore-64-released - Commodore 64 released [x]
+  Extra source: Commodore.ca C64 history; Wikipedia Commodore 64
+  Verified: Commodore 64 released August 1982 at CES.
+
+tcp-ip-flag-day - ARPANET switches to TCP/IP [x]
+  Extra source: Internet Society press release; Wikipedia flag day (computing)
+  Verified: ARPANET cutover from NCP to TCP/IP January 1, 1983.
+
+apple-lisa-released - Apple Lisa released [x]
+  Extra source: Apple Lisa introduction; Wikipedia Apple Lisa
+  Verified: Apple Lisa went on sale January 19, 1983.
+
+ada-83-standard - Ada language standardized [x]
+  Extra source: FIPS PUB 119 / ANSI/MIL-STD-1815A-1983
+  Verified: ANSI approved Ada reference manual February 17, 1983.
+
+compaq-portable-released - Compaq Portable released [x]
+  Extra source: Wikipedia Compaq Portable; CHM Compaq
+  Verified: Compaq Portable began shipping March 1983; first IBM PC-compatible portable.
+
+ibm-pc-xt-released - IBM PC XT released [x]
+  Extra source: IBM PC history; Wikipedia IBM PC XT
+  Verified: IBM Personal Computer XT announced March 1983.
+
+telnet-standardized - Telnet standardized [x]
+  Extra source: RFC 854 (May 1983)
+  Verified: Telnet protocol specification published as RFC 854, May 1983.
+
+anders-hejlsberg-turbo-pascal-shipped - Anders Hejlsberg ships Turbo Pascal [x]
+  Extra source: Borland Turbo Pascal history; Wikipedia Anders Hejlsberg
+  Verified: Turbo Pascal shipped November 1983.
+
+dns-standardized - DNS standardized [x]
+  Extra source: RFC 882 and RFC 883 (November 1983)
+  Verified: Domain Name System defined November 1983; replaced HOSTS.TXT model.
+
+ritchie-thompson-turing-award - Ritchie and Thompson receive Turing Award [x]
+  Extra source: ACM Turing Award 1983 citations
+  Verified: Dennis Ritchie and Ken Thompson received 1983 ACM Turing Award for Unix.
+
+objective-c-created - Objective-C created at Stepstone [x]
+  Extra source: HOPL IV Objective-C origins; Wikipedia Objective-C
+  Verified: Brad Cox and Tom Love developed Objective-C circa 1984 at Stepstone (PPI).
+
+susan-kare-macintosh-icons - Susan Kare designs Macintosh icons [x]
+  Extra source: Wikipedia Susan Kare; Apple Macintosh history
+  Verified: Kare designed Macintosh icons, fonts, and UI elements 1983–1984.
+
+macintosh-128k-released - Macintosh 128K released [~]
+  Extra source: Apple support specs; Wikipedia Macintosh 128K
+  Verified: Macintosh shipped January 24, 1984 at $2,495.
+  Note: Summary claims "first mass-market computer with GUI and mouse" — Lisa (1983) and earlier GUI systems precede it; Macintosh was first successful mass-market GUI Mac.
+
+ibm-pc-at-released - IBM PC AT released [~]
+  Extra source: IBM Announcement Letter 184-097 (August 14, 1984)
+  Verified: IBM PC AT (5170) announced August 14, 1984; first customer shipment September 14, 1984.
+  Note: Month bucket "1984-08" is fine; summary could note announcement vs shipment dates.
+
+nfs-released - NFS released [~]
+  Extra source: Sandberg et al. Sun NFS paper (USENIX 1985); NFS implementation history
+  Verified: NFS implementation began March 1984; first kernel running mid-August 1984; internal use September 1984.
+  Note: Customer product shipped Spring 1985 — August 1984 marks implementation, not general release.
+
+# Summary (first 101)
+# [x] verified: 86
+# [~] minor nuance: 14  (seymour-cray-cdc-6600, dec-pdp-8-shipped, niklaus-wirth-pascal-published, jon-postel-iana-stewardship, amara-law, altair-8800-released, brian-kernighan-awk-coauthored, dec-vax-11-780-released, lynn-conway-vlsi-course, metcalfe-metcalfe-law, macintosh-128k-released, ibm-pc-at-released, nfs-released)
+# [-] issues: 1  (elizabeth-feinler-nic-created)
+
+# --- Batch 5: events 102–126 ---
+matlab-1-0-debut - MATLAB debuts [x]
+  Extra source: Cleve Moler blog; MathWorks brief history
+  Verified: PC-MATLAB Version 1.0 debuted December 1984 at IEEE CDC in Las Vegas.
+
+goldwasser-micali-zero-knowledge-published - Goldwasser and Micali publish zero-knowledge proofs [x]
+  Extra source: STOC 1985 paper (doi 10.1145/22145.22178)
+  Verified: "The Knowledge Complexity of Interactive Proof Systems" at STOC 1985; defined zero-knowledge proofs (with Rackoff).
+
+mips-r2000-introduced - MIPS R2000 introduced [~]
+  Extra source: Wikipedia MIPS architecture; Wikipedia R2000 microprocessor
+  Verified: MIPS I architecture and MIPS Computer Systems launched 1985; R2000 chipset introduced May 1986.
+  Note: Event dated 1985 — architecture/company year; first commercial R2000 chip was 1986.
+
+stallman-gnu-manifesto - Richard Stallman publishes the GNU Manifesto [x]
+  Extra source: GNU.org GNU Manifesto (March 1985)
+  Verified: GNU Manifesto published March 1985; launched GNU project direction.
+
+toshiba-t1100-released - Toshiba T1100 released [x]
+  Extra source: Wikipedia Toshiba T1100
+  Verified: Toshiba T1100 IBM PC-compatible laptop released April 1985.
+
+radia-perlman-spanning-tree - Radia Perlman publishes spanning tree protocol [~]
+  Extra source: ACM SIGCOMM CCR Vol. 15 No. 4, September 1985 (doi 10.1145/318951.319004)
+  Verified: Spanning tree algorithm published 1985; became IEEE 802.1D basis.
+  Note: Paper published September 1985 in CCR; event dated May 1985 may reflect conference timing.
+
+atari-st-released - Atari ST released [x]
+  Extra source: Wikipedia Atari ST
+  Verified: Atari ST line began shipping June 1985.
+
+amiga-1000-released - Amiga 1000 released [x]
+  Extra source: Wikipedia Amiga 1000
+  Verified: Commodore Amiga 1000 released July 1985.
+
+bjarne-stroustrup-cpp-released - Bjarne Stroustrup releases C++ [x]
+  Extra source: Stroustrup C++ history
+  Verified: First commercial C++ (Cfront) release October 1985.
+
+cpp-cfront-1-0 - First commercial C++ compiler [~]
+  Extra source: Same as bjarne-stroustrup-cpp-released
+  Verified: Cfront 1.0 shipped October 1985; duplicate milestone paired with Stroustrup C++ event.
+
+ftp-standardized - FTP standardized [x]
+  Extra source: RFC 959 (October 1985)
+  Verified: FTP specification published as RFC 959, October 1985.
+
+intel-80386-introduced - Intel 80386 introduced [x]
+  Extra source: Computing History; Wikipedia Intel 80386
+  Verified: Intel introduced 80386 October 17, 1985; pre-production samples to developers.
+
+richard-stallman-fsf-founded - Richard Stallman founds the Free Software Foundation [x]
+  Extra source: FSF history; Wikipedia FSF
+  Verified: Free Software Foundation founded October 4, 1985.
+
+grace-hopper-nanoseconds-lecture - Grace Hopper popularizes nanosecond wire demonstration [~]
+  Extra source: Smithsonian NMAH nanosecond wires; dataphys.org
+  Verified: Hopper used 11.8-inch wire pieces to illustrate nanoseconds from late 1960s through 1980s lectures.
+  Note: Event dated 1986 is imprecise — demonstration spanned decades; famous 1985 MIT Lincoln Lab talk.
+
+michael-stonebraker-postgres-research - Michael Stonebraker leads the Postgres project [x]
+  Extra source: PostgreSQL history docs; Stonebraker POSTGRES paper SIGMOD 1986
+  Verified: POSTGRES project began at UC Berkeley 1986; successor to INGRES.
+
+andy-tanenbaum-minix-created - Andrew Tanenbaum creates MINIX [x]
+  Extra source: MINIX history; Wikipedia MINIX
+  Verified: Andrew Tanenbaum created MINIX 1987 as teaching microkernel OS.
+
+morris-chang-tsmc-founded - Morris Chang founds TSMC [x]
+  Extra source: TSMC corporate history; Wikipedia TSMC
+  Verified: TSMC founded February 21, 1987 in Taiwan.
+
+gcc-1-0-released - GCC 1.0 released [~]
+  Extra source: GCC wiki history; comp.archives March 22 1987 announcement
+  Verified: First public GCC release March 22, 1987 (beta/0.9); GCC 1.0 followed ~May 1987.
+  Note: Event id says 1.0 but March 22 was the first beta release.
+
+ibm-pc-5150-discontinued - IBM PC 5150 discontinued [x]
+  Extra source: IBM PC history; Wikipedia IBM Personal Computer
+  Verified: Original IBM PC model 5150 discontinued April 2, 1987.
+
+acorn-archimedes-released - Acorn Archimedes released [x]
+  Extra source: Wikipedia Acorn Archimedes; ARM history
+  Verified: Acorn Archimedes shipped June 1987 with first ARM processor.
+
+andy-grove-intel-ceo - Andy Grove named Intel CEO [x]
+  Extra source: Intel corporate history; Wikipedia Andrew Grove
+  Verified: Andy Grove became Intel CEO October 18, 1987 when Gordon Moore stepped down.
+
+larry-wall-perl-1-released - Larry Wall releases Perl 1.0 [~]
+  Extra source: Same as perl-1-0-released
+  Verified: Duplicate people milestone paired with perl-1-0-released event.
+
+perl-1-0-released - Perl 1.0 released [x]
+  Extra source: history.perl.org PerlTimeline; perlhist
+  Verified: Larry Wall released Perl 1.000 to comp.sources.misc December 18, 1987.
+
+tcl-created - Tcl embeddable command language created [x]
+  Extra source: Ousterhout Tcl history; USENIX 1989 Tcl paper
+  Verified: John Ousterhout implemented Tcl spring 1988 at UC Berkeley.
+
+ibm-as400-released - IBM AS/400 announced [x]
+  Extra source: IBM history; Wikipedia IBM AS/400
+  Verified: IBM announced Application System/400 June 21, 1988; shipped August 1988.
+
+# --- Batch 6: events 127–151 ---
+next-computer-released - NeXT Computer released [~]
+  Extra source: Computer History Museum TDIH Oct 12 1988; LA Times Oct 13 1988
+  Verified: Steve Jobs unveiled NeXT Computer October 12, 1988 at Davies Symphony Hall.
+  Note: Summary says "shipped" — Oct 12 was introduction; general availability followed in spring 1989.
+
+yann-lecun-lenet-published - Yann LeCun publishes LeNet convolutional networks [x]
+  Extra source: LeCun et al. Neural Computation 1989 zip-code paper
+  Verified: LeCun applied backpropagation to CNNs for handwritten zip codes in 1989 at Bell Labs.
+
+gpl-version-1-released - GPL version 1 published [x]
+  Extra source: gnu.org/licenses/gpl-1.0.html
+  Verified: FSF published GNU General Public License version 1 in February 1989.
+
+sparcstation-1-released - SPARCstation 1 released [x]
+  Extra source: Wikipedia SPARCstation; Sun workstation history
+  Verified: Sun introduced SPARCstation 1 in May 1989 — affordable RISC Unix workstation.
+
+bash-1-0-released - Bash 1.0 released for the GNU Project [x]
+  Extra source: Wikipedia Bash; gnu.announce beta June 7 1989
+  Verified: Brian Fox released Bash 1.0 June 8, 1989 for GNU Project.
+
+macintosh-portable-released - Macintosh Portable released [x]
+  Extra source: Wikipedia Macintosh Portable
+  Verified: Apple introduced Macintosh Portable September 20, 1989; began selling same month.
+
+ansi-c-standard - C language standardized [x]
+  Extra source: ANSI blog X3.159-1989; ISO/IEC 9899 history
+  Verified: ANSI ratified X3.159-1989 (ANSI C / C89) December 14, 1989.
+
+gabriel-worse-is-better - Richard Gabriel argues "worse is better" [x]
+  Extra source: dreamsongs.com Worse Is Better; Gabriel EuroPAL March 1990 talk
+  Verified: Gabriel presented "Lisp: Good News, Bad News, How to Win Big" at EuroPAL, Cambridge, March 1990.
+  Note: Famous "worse is better" essay published in AI Expert 1991; event year 1990 marks the talk.
+
+haskell-1-0-report - Haskell language published [x]
+  Extra source: Haskell mailing list April 1 1990; Microsoft Research History of Haskell
+  Verified: Haskell Committee published Haskell 1.0 Report April 1, 1990.
+
+nextstation-released - NeXTstation released [x]
+  Extra source: Wikipedia NeXTstation
+  Verified: NeXT began shipping NeXTstation September 1990.
+
+worldwideweb-browser - WorldWideWeb — first web browser [x]
+  Extra source: W3C Berners-Lee WorldWideWeb page; CERN birth of the web
+  Verified: Berners-Lee completed WorldWideWeb browser/editor on NeXT by end of 1990; Christmas 1990 demo.
+
+bram-moolenaar-vim-released - Bram Moolenaar releases Vim [~]
+  Extra source: Ars Technica Vim 20th anniversary; Wikipedia Vim
+  Verified: Vim 1.14 first public release November 2, 1991 (Vi IMitation on Amiga).
+  Note: Development began 1988; year bucket "1991" is correct but imprecise — first public release was November.
+
+html-invented - HTML invented [x]
+  Extra source: CERN birth of the web; W3C HTML history
+  Verified: Tim Berners-Lee invented HTML at CERN in 1991 as hypertext markup for the web.
+
+python-0-9-0-released - Python 0.9.0 released [x]
+  Extra source: Guido van Rossum Python timeline
+  Verified: Guido van Rossum posted Python 0.9.0 to alt.sources February 20, 1991.
+
+visual-basic-1-0-released - Visual Basic 1.0 released [x]
+  Extra source: Wikipedia Visual Basic (classic)
+  Verified: Microsoft launched Visual Basic 1.0 at Comdex, May 1991.
+
+autoconf-released - Autoconf created [x]
+  Extra source: GNU Autoconf manual Genesis section
+  Verified: David MacKenzie wrote first Autoconf configure script June 1991.
+
+phil-zimmermann-pgp-released - Phil Zimmermann releases PGP [x]
+  Extra source: philzimmermann.com PGP 10th anniversary essay
+  Verified: Phil Zimmermann released PGP 1.0 June 5, 1991.
+
+sgi-indigo-released - SGI Indigo released [x]
+  Extra source: Wikipedia SGI Indigo; CHM Silicon Graphics
+  Verified: Silicon Graphics began shipping Indigo workstation July 1991.
+
+fortran-90-standard - Fortran 90 standardized [x]
+  Extra source: ISO/IEC 1539:1991
+  Verified: Fortran 90 standard (ISO/IEC 1539:1991) published July 1, 1991.
+
+linux-kernel-announced - Linus Torvalds announces Linux [x]
+  Extra source: comp.os.minix Aug 25 1991 archive; kernel.org
+  Verified: Linus Torvalds posted hobby OS kernel announcement to comp.os.minix August 25, 1991.
+
+apple-powerbook-released - Apple PowerBook released [x]
+  Extra source: Wikipedia PowerBook
+  Verified: Apple introduced PowerBook 100/140/170 line October 21, 1991.
+
+cpp-templates-cfront-3 - C++ gains templates [x]
+  Extra source: Stroustrup HOPL paper; Wikipedia C++
+  Verified: AT&T Cfront 3.0 shipped October 1991 with C++ template support.
+
+mary-ken-thompson-lynx-created - Mary Kenneth Thompson creates Lynx [-]
+  Extra source: lynx.invisible-island.net About Lynx; KU early-lynx history (Michael Grobe)
+  Verified: Lynx hypertext browser developed 1992 at University of Kansas by Lou Montulli, Michael Grobe, and Charles Rezac.
+  Issue: "Mary Kenneth Thompson" is not a documented Lynx creator — likely name confusion (cf. Sister Mary Kenneth Keller). Lou Montulli is listed as co-creator in event but title credits wrong person. Suggest retitle to team/KU creators or credit Montulli, Grobe, Rezac.
+
+tanenbaum-linux-obsolete - Andrew Tanenbaum posts "Linux is obsolete" [x]
+  Extra source: comp.os.minix Jan 29 1992; Wikipedia Tanenbaum–Torvalds debate
+  Verified: Andrew Tanenbaum posted "LINUX is obsolete" to comp.os.minix January 29, 1992.
+
+torvalds-reply-linux-obsolete - Linus Torvalds replies: "linux is more portable than minix" [x]
+  Extra source: comp.os.minix Jan 29 1992 (Google Groups); O'Reilly Open Sources appendix
+  Verified: Linus Torvalds replied same day defending Linux portability vs Minix microkernel design.
+
+# --- Batch 7: events 152–176 ---
+lynx-2-released - Lynx 2.0 — text-only web browser [-]
+  Extra source: www-talk Mar 11 1993 Lynx 2.0 Alpha; Wikipedia Lynx
+  Verified: Lynx 2.0 with WWW support announced March 11, 1993 (alpha); betas through spring 1993.
+  Issue: Event dated 1992-03 — Lynx existed in 1992 as campus hypertext/Gopher client, but version 2.0 with web support was 1993. Suggest retitle/redate to Lynx 2.0 WWW release (March 1993).
+
+rob-pike-utf8-paper - Rob Pike and Ken Thompson publish UTF-8 design [~]
+  Extra source: Rob Pike UTF-8 history (mgk25); Plan 9 UTF-8 paper
+  Verified: Pike and Thompson designed UTF-8 September 1992 at Bell Labs; Plan 9 converted within days.
+  Note: Title says "publish" — September 1992 marks design/implementation; formal paper followed later.
+
+ibm-thinkpad-700c-released - IBM ThinkPad 700C released [x]
+  Extra source: IBM ThinkPad history; Wikipedia ThinkPad
+  Verified: IBM introduced ThinkPad 700C October 5, 1992 at COMDEX.
+
+hp-proliant-era - Compaq ProLiant servers launched [~]
+  Extra source: Compaq ProLiant white paper; Wikipedia ProLiant
+  Verified: Compaq introduced ProLiant server line 1993; ProLiant 1000/2000/4000 announced September 1993.
+  Note: Event id says hp-proliant-era but title correctly credits Compaq (HP acquired Compaq 2002).
+
+greenspun-tenth-rule - Philip Greenspun states his tenth rule [x]
+  Extra source: greenspun.com Tenth rule FAQ; Wikipedia Greenspun's tenth rule
+  Verified: Greenspun articulated the "tenth rule" circa 1993 in his web writings on Lisp and C programs.
+
+mosaic-1-0-released - NCSA Mosaic 1.0 released [-]
+  Extra source: www-talk Apr 21 1993 Mosaic 1.0; Wikipedia NCSA Mosaic
+  Verified: Mosaic 1.0 for X released April 21, 1993; January 23, 1993 was alpha/beta version 0.5.
+  Issue: Event id and title say 1.0 but date is the 0.5 release. Suggest split or redate to 1993-04-21.
+
+intel-pentium-introduced - Intel Pentium introduced [x]
+  Extra source: Intel history; Wikipedia Pentium
+  Verified: Intel announced Pentium processor March 22, 1993.
+
+jensen-huang-nvidia-founded - Jensen Huang co-founds NVIDIA [x]
+  Extra source: NVIDIA corporate timeline; Wikipedia Nvidia
+  Verified: Jensen Huang, Chris Malachowsky, and Curtis Priem founded NVIDIA April 5, 1993.
+
+berners-lee-web-public-domain - CERN releases the web into the public domain [x]
+  Extra source: CERN birth of the web; April 30 1993 CERN declaration
+  Verified: CERN released WWW software into public domain April 30, 1993.
+
+patrick-volkerding-slackware-released - Patrick Volkerding releases Slackware Linux [x]
+  Extra source: Slackware changelog; Wikipedia Slackware
+  Verified: Patrick Volkerding released Slackware 1.0 July 17, 1993.
+
+apple-newton-released - Apple Newton MessagePad released [x]
+  Extra source: Wikipedia Apple Newton
+  Verified: Apple began selling Newton MessagePad August 2, 1993 with ARM610 processor.
+
+r-first-public-release - R first publicly announced [x]
+  Extra source: Ihaka R history (Otago PDF); Wikipedia R
+  Verified: Ross Ihaka and Robert Gentleman announced R on StatLib August 1993.
+
+cgi-specified - CGI specified [x]
+  Extra source: www-talk Nov 14 1993 Rob McCool; W3C CGI overview
+  Verified: Rob McCool posted Common Gateway Interface specification November 14, 1993.
+
+alexander-stepanov-stl-published - Alexander Stepanov publishes the STL [x]
+  Extra source: HP Labs STL history; Wikipedia Standard Template Library
+  Verified: Stepanov and Meng Lee published STL at HP Labs 1994; became C++ standard library foundation.
+
+anita-borg-grace-hopper-conference - Anita Borg founds Grace Hopper Celebration [x]
+  Extra source: ghc.anitab.org about; Wikipedia Grace Hopper Celebration
+  Verified: Anita Borg and Telle Whitney co-founded GHC; first conference Washington D.C. June 1994.
+
+joy-most-smart-people-elsewhere - Bill Joy: "most of the smartest people work for someone else" [x]
+  Extra source: Wikipedia Joy's law; Kevin Kelly Out of Control (1994)
+  Verified: Bill Joy's observation popularized as Joy's Law in Kevin Kelly's 1994 book.
+
+bruce-schneier-applied-cryptography - Bruce Schneier publishes Applied Cryptography [x]
+  Extra source: schneier.com Applied Cryptography; Wikipedia
+  Verified: Bruce Schneier published Applied Cryptography 1994.
+
+marc-andreessen-netscape-founded - Marc Andreessen and Jim Clark found Netscape [x]
+  Extra source: CHM TDIH April 4 1994; Wikipedia Netscape
+  Verified: Mosaic Communications Corporation founded April 4, 1994; later renamed Netscape.
+
+uri-standardized - URI syntax standardized [x]
+  Extra source: RFC 1630 (June 1994)
+  Verified: Tim Berners-Lee's RFC 1630 defined URI syntax June 1994.
+
+lua-1-1-public-release - Lua 1.1 first public release [x]
+  Extra source: lua.org history
+  Verified: Luiz Henrique de Figueiredo announced Lua 1.1 on Usenet July 8, 1994.
+
+ibm-simon-released - IBM Simon Personal Communicator released [x]
+  Extra source: Wikipedia IBM Simon; CHM
+  Verified: BellSouth began selling IBM Simon August 16, 1994.
+
+tim-berners-lee-w3c-founded - Tim Berners-Lee founds the W3C [x]
+  Extra source: W3C about/history
+  Verified: World Wide Web Consortium founded October 1, 1994 at MIT.
+
+haakon-lie-css-proposed - Håkon Wium Lie proposes CSS [x]
+  Extra source: W3C www-talk Oct 10 1994 CSS proposal
+  Verified: Håkon Wium Lie published Cascading HTML Style Sheets proposal October 10, 1994.
+
+perl-5-0-released - Perl 5.0 released [x]
+  Extra source: PerlMonks Perl 5.000 announcement; perlhist
+  Verified: Larry Wall released Perl 5.000 October 17, 1994.
+
+netscape-navigator-1-0 - Netscape Navigator 1.0 shipped [x]
+  Extra source: Wikipedia Netscape Navigator; CHM Dec 15 1994
+  Verified: Netscape Communications shipped Navigator 1.0 December 15, 1994.
+
+# --- Batch 8: events 177–201 ---
+jetty-released - Jetty released [~]
+  Extra source: Eclipse Jetty about; Linux Gazette Jetty history
+  Verified: Greg Wilkins created Java HTTP server at Mort Bay Consulting in 1995.
+  Note: January 1995 month bucket is unsourced — project started 1995; standalone Jetty spinout was ~1996.
+
+delphi-1-0-launched - Borland Delphi 1.0 launched [x]
+  Extra source: Embarcadero Delphi 30th anniversary; Wikipedia Delphi
+  Verified: Borland launched Delphi 1.0 February 14, 1995.
+
+ada-95-standard - Ada 95 standardized [~]
+  Extra source: ISO/IEC 8652:1995
+  Verified: Ada 95 standard (ISO/IEC 8652:1995) published February 15, 1995.
+  Note: Event dated 1995-03; standard publication was February 1995.
+
+ldap-standardized - LDAP standardized [x]
+  Extra source: RFC 1777 (March 1995)
+  Verified: RFC 1777 Lightweight Directory Access Protocol published March 1995.
+
+ward-cunningham-wiki-invented - Ward Cunningham creates the wiki [x]
+  Extra source: wiki.c2.com history; Wikipedia Wiki
+  Verified: Ward Cunningham launched WikiWikiWeb March 25, 1995 at Cunningham & Cunningham.
+
+bebox-released - BeBox released [x]
+  Extra source: Wikipedia BeBox; CHM Be Inc.
+  Verified: Be Inc. began shipping BeBox April 1995.
+
+apache-http-server-released - Apache HTTP Server first public release [x]
+  Extra source: www-talk Apr 21 1995 Behlendorf announcement
+  Verified: Apache Group announced Apache 0.6.2 April 21, 1995.
+
+javascript-mocha-prototype - JavaScript prototyped at Netscape [x]
+  Extra source: Eich HOPL III paper; Wikipedia JavaScript
+  Verified: Brendan Eich built Mocha prototype in ~10 days starting May 1995 at Netscape.
+
+java-announced - Java announced at SunWorld [x]
+  Extra source: Sun Java history; Wikipedia Java
+  Verified: Sun Microsystems announced Java at SunWorld May 23, 1995.
+
+mysql-first-released - MySQL first released [~]
+  Extra source: Oracle MySQL retrospective; Wikipedia MySQL
+  Verified: Michael Widenius and David Axmark made first MySQL release May 23, 1995.
+  Note: Summary says "shipped" — May 23 was first internal release; broader public distribution followed.
+
+gates-internet-tidal-wave-memo - Bill Gates declares the "Internet tidal wave" [x]
+  Extra source: Wikipedia Internet Tidal Wave memo
+  Verified: Bill Gates internal memo May 26, 1995 redirecting Microsoft to the Internet.
+
+php-tools-1-0-released - PHP Tools 1.0 announced [x]
+  Extra source: comp.infosystems.www.authoring.cgi Jun 8 1995; PHP.net history
+  Verified: Rasmus Lerdorf announced PHP Tools 1.0 June 8, 1995 on Usenet.
+
+internet-explorer-1-0 - Internet Explorer 1.0 released [x]
+  Extra source: Microsoft IE history; Wikipedia Internet Explorer
+  Verified: Microsoft shipped Internet Explorer 1.0 August 16, 1995 with Windows 95 Plus! pack.
+
+ellison-pc-ridiculous - Larry Ellison calls the PC "a ridiculous device" [x]
+  Extra source: LA Times Sep 28 1995; Newsweek NC article
+  Verified: Larry Ellison promoted network computers and dismissed PCs September 1995.
+
+theo-de-raadt-openbsd-forked - Theo de Raadt forks OpenBSD [x]
+  Extra source: openbsd.org history; Wikipedia OpenBSD
+  Verified: Theo de Raadt forked OpenBSD from NetBSD October 1995; OpenBSD 1.1 October 18, 1995.
+
+javascript-name-announced - JavaScript name announced by Netscape and Sun [x]
+  Extra source: Netscape press release Dec 4 1995 (archive)
+  Verified: Netscape and Sun joint release renamed LiveScript to JavaScript December 4, 1995.
+
+ruby-0-95-released - Ruby 0.95 publicly released [x]
+  Extra source: ruby-lang.org about; Wikipedia Ruby
+  Verified: Yukihiro Matsumoto published Ruby 0.95 December 21, 1995.
+
+stallman-free-speech-not-beer - Richard Stallman: "free as in speech, not beer" [x]
+  Extra source: gnu.org/philosophy/free-sw.html; Wikipedia free software
+  Verified: Stallman's "free speech not free beer" clarification in GNU Free Software Definition circa 1996.
+
+sun-enterprise-10000-released - Sun Enterprise 10000 released [x]
+  Extra source: Wikipedia Sun Enterprise; CHM Sun Microsystems
+  Verified: Sun shipped Enterprise 10000 ("Starfire") datacenter Unix server 1996.
+
+java-1-0-shipped - Java 1.0 shipped [x]
+  Extra source: Sun press release Jan 23 1996; Wikipedia Java
+  Verified: JavaSoft released JDK 1.0 January 23, 1996.
+
+palm-pilot-1000-released - Palm Pilot 1000 released [x]
+  Extra source: Wikipedia PalmPilot
+  Verified: Palm Computing began selling Palm Pilot 1000 March 1996.
+
+netscape-navigator-2-0 - Netscape Navigator 2.0 shipped [x]
+  Extra source: Wikipedia Netscape Navigator 2; MDN JavaScript history
+  Verified: Netscape shipped Navigator 2.0 March 18, 1996 with JavaScript support.
+
+opera-2-released - Opera 2.0 publicly released [x]
+  Extra source: opera.com about; Wikipedia Opera browser
+  Verified: Opera Software publicly released Opera 2.0 for Windows April 1996.
+
+amaya-browser-released - Amaya — W3C browser and editor [~]
+  Extra source: www-talk Aug 23 1996 Amaya announcement; W3C Amaya
+  Verified: W3C released first public Amaya binary August 23, 1996; work began 1996.
+  Note: Event dated May 1996 — first public binary release was August 1996.
+
+ocaml-1-00-released - OCaml language released [x]
+  Extra source: caml-list May 9 1996 Leroy announcement; Wikipedia OCaml
+  Verified: Xavier Leroy released Objective Caml 1.00 May 9, 1996.
+
+# --- Batch 9: events 202–226 ---
+nokia-9000-communicator-released - Nokia 9000 Communicator released [x]
+  Extra source: Nokia press release Aug 15 1996; Wikipedia Nokia 9000
+  Verified: Nokia began sales of 9000 Communicator August 15, 1996.
+
+internet-explorer-3-0 - Internet Explorer 3.0 released [x]
+  Extra source: Microsoft IE history; Wikipedia Internet Explorer 3
+  Verified: Microsoft shipped Internet Explorer 3.0 August 13, 1996 with CSS and JScript.
+
+yukihiro-matsumoto-ruby-1-released - Yukihiro Matsumoto releases Ruby 1.0 [-]
+  Extra source: ruby ChangeLog 1.0-961225; ruby-history Dec 25 1996
+  Verified: Ruby 1.0 (version 1.0-961225) released December 25, 1996.
+  Issue: Event dated 1996-12-21 — that date was Ruby 0.95 (1995). Ruby 1.0 was December 25, 1996.
+
+eric-raymond-cathedral-bazaar - Eric Raymond publishes The Cathedral and the Bazaar [x]
+  Extra source: catb.org Cathedral and Bazaar; Wikipedia
+  Verified: Raymond presented essay at Linux Kongress May 1997; published online 1997.
+
+http-1-1-standardized - HTTP/1.1 standardized [x]
+  Extra source: RFC 2068 (January 1997)
+  Verified: RFC 2068 defined HTTP/1.1 January 1997.
+
+postgresql-6-released - PostgreSQL 6.0 released [x]
+  Extra source: postgresql.org release 6.0.0 notes
+  Verified: PostgreSQL 6.0 released January 29, 1997 adopting PostgreSQL name.
+
+ecmascript-1-adopted - JavaScript standardized [x]
+  Extra source: ECMA-262 1st edition June 1997
+  Verified: Ecma General Assembly adopted ECMAScript (ECMA-262) June 1997.
+
+netscape-communicator-4-0 - Netscape Communicator 4.0 released [x]
+  Extra source: Wikipedia Netscape Communicator
+  Verified: Netscape shipped Communicator 4.0 June 11, 1997.
+
+steve-jobs-returns-to-apple - Steve Jobs returns to Apple as interim CEO [-]
+  Extra source: Apple press release Jul 9 1997; NYT Sep 16 1997 iCEO
+  Verified: July 9, 1997 — Gil Amelio resigned; Jobs became expanded board advisor, not iCEO.
+  Issue: Title says "interim CEO" but Jobs was formally named interim CEO September 16, 1997. July 9 was Amelio ouster + advisor role.
+
+internet-explorer-4-0 - Internet Explorer 4.0 released [x]
+  Extra source: Microsoft IE history; Wikipedia Internet Explorer 4
+  Verified: Microsoft released Internet Explorer 4.0 September 1997 with Trident engine.
+
+fortran-95-standard - Fortran 95 standardized [x]
+  Extra source: ISO/IEC 1539-1:1997
+  Verified: Fortran 95 standard (ISO/IEC 1539-1:1997) published December 1997.
+
+jim-gray-turing-award - Jim Gray receives Turing Award [x]
+  Extra source: ACM Turing Award 1998 citation
+  Verified: Jim Gray received 1998 ACM Turing Award for database and transaction processing.
+
+rich-sutton-rl-textbook - Rich Sutton publishes Reinforcement Learning textbook [x]
+  Extra source: incompleteideas.net book; MIT Press
+  Verified: Sutton and Barto published Reinforcement Learning: An Introduction 1998.
+
+open-source-initiative-founded - Open Source Initiative founded [x]
+  Extra source: opensource.org about; Wikipedia OSI
+  Verified: Eric Raymond and Bruce Perens co-founded Open Source Initiative February 1998.
+
+daniel-stenberg-curl-released - Daniel Stenberg releases curl [x]
+  Extra source: curl.se history
+  Verified: Daniel Stenberg released curl March 1998 (evolved from 1996 httpget).
+
+mozilla-source-released - Mozilla source code open-sourced [x]
+  Extra source: mozilla.org history; Wikipedia Mozilla
+  Verified: Netscape released Mozilla browser source March 31, 1998.
+
+leslie-lamport-paxos-published - Leslie Lamport publishes Paxos [~]
+  Extra source: ACM TOCS May 1998; lamport-paxos.pdf
+  Verified: "The Part-Time Parliament" published ACM TOCS May 1998 introducing Paxos.
+  Note: Paxos algorithm originated in 1989 DEC tech report; May 1998 is formal journal publication.
+
+rasmus-lerdorf-php-3-released - Rasmus Lerdorf releases PHP 3 [x]
+  Extra source: PHP history; Wikipedia PHP
+  Verified: PHP 3.0 released June 1998 — first version called PHP (Hypertext Preprocessor).
+
+xml-rpc-specified - XML-RPC protocol specified [x]
+  Extra source: scripting.com Jul 19 1998; Wikipedia XML-RPC
+  Verified: Dave Winer published XML-RPC specification July 19, 1998.
+
+imac-g3-released - iMac G3 released [x]
+  Extra source: Wikipedia iMac G3; Apple newsroom
+  Verified: Apple began selling iMac G3 August 15, 1998.
+
+cpp98-standard - C++98 standardized [x]
+  Extra source: Stroustrup ISO press release Sep 1 1998; ISO/IEC 14882:1998
+  Verified: ISO/IEC 14882:1998 (C++98) published September 1, 1998.
+
+google-founded - Larry Page and Sergey Brin incorporate Google [x]
+  Extra source: Google company info; Wikipedia Google
+  Verified: Larry Page and Sergey Brin incorporated Google September 4, 1998.
+
+erlang-open-sourced - Erlang/OTP released as open source [x]
+  Extra source: Ericsson Erlang OTP open source announcement Dec 8 1998
+  Verified: Ericsson released Erlang/OTP as open source December 8, 1998.
+
+kent-beck-extreme-programming - Kent Beck publishes Extreme Programming Explained [x]
+  Extra source: Wikipedia Extreme programming; Kent Beck bibliography
+  Verified: Kent Beck published Extreme Programming Explained 1999.
+
+fowler-refactoring-definition - Martin Fowler defines refactoring [x]
+  Extra source: martinfowler.com Refactoring book; Wikipedia code refactoring
+  Verified: Martin Fowler published Refactoring 1999 with formal definition and pattern catalog.
+
+# --- Batch 10: events 227–251 ---
+martin-fowler-refactoring-published - Martin Fowler publishes Refactoring [~]
+  Extra source: martinfowler.com Refactoring book; Wikipedia code refactoring
+  Verified: Martin Fowler published Refactoring 1999.
+  Note: Duplicate book milestone paired with fowler-refactoring-definition quote event.
+
+tls-1-0-standardized - TLS 1.0 standardized [x]
+  Extra source: RFC 2246 (January 1999)
+  Verified: RFC 2246 defined TLS 1.0 January 1999, succeeding SSL 3.0.
+
+xmpp-jabber-released - Jabber (XMPP) first released [x]
+  Extra source: XMPP Foundation 1999 status; Wikipedia XMPP
+  Verified: Jeremie Miller released first jabberd server January 4, 1999.
+
+mqtt-invented - MQTT invented [x]
+  Extra source: Andy Stanford-Clark MQIsdp versions; IBM MQTT overview
+  Verified: Andy Stanford-Clark and Arlen Nipper created MQTT v1 March 26, 1999.
+
+vmware-workstation-released - VMware Workstation 1.0 released [~]
+  Extra source: VMware history; virten.net release history
+  Verified: VMware 1.0 released May 15, 1999 for Linux.
+  Note: Product was initially called "VMware" not "Workstation"; Windows port followed November 1999.
+
+apache-tomcat-released - Apache Tomcat released [x]
+  Extra source: tomcat.apache.org heritage; Wikipedia Apache Tomcat
+  Verified: Sun donated Tomcat to Apache; Apache Tomcat 3.0 released June 1999 at JavaOne.
+
+flash-4-scripting - Flash 4 ships with a real scripting language [x]
+  Extra source: MacTech Flash 4 June 15 1999; Wikipedia Adobe Flash
+  Verified: Macromedia shipped Flash 4 June 15, 1999 with variables, loops, and conditions.
+
+hunt-thomas-dry - Hunt & Thomas coin DRY — "Don't Repeat Yourself" [x]
+  Extra source: Pragmatic Programmer Oct 1999; Wikipedia DRY
+  Verified: Andy Hunt and Dave Thomas introduced DRY in The Pragmatic Programmer October 1999.
+
+ecmascript-3-adopted - JavaScript ES3 standardized [x]
+  Extra source: ECMA-262 3rd edition December 1999
+  Verified: Ecma adopted ECMAScript 3 (ECMA-262 3rd ed.) December 1999.
+
+openssh-first-released - OpenBSD team releases OpenSSH [x]
+  Extra source: openssh.org history; OpenBSD 2.6 release notes
+  Verified: OpenSSH 1.2.2 shipped with OpenBSD 2.6 December 1, 1999.
+
+fabrice-bellard-ffmpeg-created - Fabrice Bellard creates FFmpeg [x]
+  Extra source: ffmpeg.org about; Wikipedia FFmpeg
+  Verified: Fabrice Bellard started FFmpeg; first release December 20, 2000.
+
+rest-architectural-style-defined - REST architectural style defined [x]
+  Extra source: Fielding dissertation 2000; REST chapter
+  Verified: Roy Fielding defined REST in doctoral dissertation 2000.
+
+bill-gates-steps-down-microsoft-ceo - Bill Gates steps down as Microsoft CEO [x]
+  Extra source: Microsoft press release Jan 13 2000
+  Verified: Bill Gates stepped down as CEO January 13, 2000; became chief software architect.
+
+steve-ballmer-named-microsoft-ceo - Steve Ballmer named Microsoft CEO [x]
+  Extra source: Microsoft press release Jan 13 2000
+  Verified: Steve Ballmer became Microsoft CEO January 13, 2000.
+
+pocket-pc-released - Windows Pocket PC released [x]
+  Extra source: Microsoft Pocket PC 2000 docs; Wikipedia Pocket PC
+  Verified: Microsoft launched Pocket PC 2000 platform April 2000.
+
+soap-1-1-published - SOAP 1.1 published [x]
+  Extra source: W3C SOAP 1.1 Note May 8 2000
+  Verified: W3C published SOAP 1.1 as a Note May 8, 2000.
+
+csharp-announced - C# programming language announced [x]
+  Extra source: Microsoft press release Jun 26 2000; Wikipedia C#
+  Verified: Microsoft announced C# at Forum 2000 June 26, 2000.
+
+ant-released - Apache Ant first released [x]
+  Extra source: Apache Ant FAQ release history; Wikipedia Apache Ant
+  Verified: Apache Ant 1.1 released July 19, 2000.
+
+spolsky-joel-test - Joel Spolsky publishes the Joel Test [x]
+  Extra source: Joel on Software Aug 9 2000
+  Verified: Joel Spolsky published The Joel Test August 9, 2000.
+
+sqlite-1-0-released - SQLite 1.0 released [x]
+  Extra source: sqlite.org check-in f37dd18e3f Aug 17 2000
+  Verified: Richard Hipp released SQLite 1.0 August 17, 2000.
+
+actionscript-1-0-flash-5 - ActionScript 1.0 debuts with Flash 5 [x]
+  Extra source: MacTech Flash 5 Aug 24 2000; Wikipedia ActionScript
+  Verified: Macromedia Flash 5 with ActionScript 1.0 released August 24, 2000.
+
+torvalds-talk-is-cheap - Linus Torvalds: "Talk is cheap. Show me the code." [x]
+  Extra source: LKML Aug 30 2000; Wikiquote Linus Torvalds
+  Verified: Linus Torvalds posted "Talk is cheap. Show me the code." August 30, 2000 on LKML.
+
+cmake-released - CMake released [x]
+  Extra source: Kitware Happy Birthday CMake Aug 31 2000
+  Verified: Kitware introduced CMake August 31, 2000.
+
+ballmer-developers-chant - Steve Ballmer chants "Developers! Developers! Developers!" [-]
+  Extra source: Wikipedia Steve Ballmer; Barry Popik developers chant
+  Verified: Ballmer's "developers" chant was at a Microsoft developers conference circa 2000.
+  Issue: Summary says "Microsoft's 25th anniversary event" — that September 2000 event featured "I love this company," not the developers chant. Suggest retitle/remove 25th-anniversary attribution.
+
+python-2-0-released - Python 2.0 released [x]
+  Extra source: python.org Python 2.0 release notes
+  Verified: Guido van Rossum released Python 2.0 October 16, 2000.
+
+# --- Batch 11: events 252–276 ---
+konqueror-khtml-released - Konqueror and KHTML shipped with KDE 2 [~]
+  Extra source: KDE 2.0 announcement Oct 23 2000; Wikipedia KDE 2
+  Verified: KDE 2.0 debuted Konqueror with KHTML rendering engine October 23, 2000.
+  Note: Event dated 2000-12; KDE 2.0 shipped October 2000 (2.0.1 maintenance release December 5, 2000).
+
+intellij-idea-released - IntelliJ IDEA released [x]
+  Extra source: JetBrains 20th anniversary blog; Wikipedia IntelliJ IDEA
+  Verified: JetBrains released IntelliJ IDEA 1.0 January 2001.
+
+wikipedia-launched - Wikipedia launched [x]
+  Extra source: Wikimedia Foundation about; Wikipedia history
+  Verified: Jimmy Wales and Larry Sanger launched Wikipedia January 15, 2001.
+
+guido-van-rossum-psf-founded - Guido van Rossum helps found the Python Software Foundation [-]
+  Extra source: python.org PSF press release Mar 6 2001; PSF board minutes Mar 5 2001
+  Verified: PSF launched March 6, 2001 at PyCon; Guido van Rossum was a founding board member.
+  Issue: Summary says Guido was "chairman" — Greg Stein was elected temporary chair March 5, 2001; Dick Hardt was PSF president.
+
+kurzweil-law-accelerating-returns - Ray Kurzweil argues technology change is exponential [x]
+  Extra source: kurzweilai.net Law of Accelerating Returns; essay text
+  Verified: Ray Kurzweil published The Law of Accelerating Returns March 7, 2001.
+
+blade-server-era - First commercial blade servers ship [x]
+  Extra source: Computerworld RLX System 324 May 2001; Wikipedia blade server
+  Verified: RLX Technologies unveiled and began shipping the System 324 blade server May–June 2001.
+
+miguel-de-icaza-mono-announced - Miguel de Icaza announces Mono [~]
+  Extra source: The Register Jul 9 2001; Ximian press release Jul 17 2001
+  Verified: Ximian unveiled the Mono Project July 9, 2001; de Icaza presented details at O'Reilly OSCON July 23–27, 2001.
+  Note: Event dated 2001-06; public announcement was July 2001.
+
+ballmer-linux-cancer - Steve Ballmer calls Linux "a cancer" [x]
+  Extra source: Chicago Sun-Times Jun 1 2001; The Register coverage
+  Verified: Steve Ballmer told Chicago Sun-Times June 1, 2001: "Linux is a cancer that attaches itself in an intellectual property sense to everything it touches."
+
+eric-schmidt-google-ceo - Eric Schmidt named Google CEO [x]
+  Extra source: Google press release Aug 6 2001; Computerworld
+  Verified: Google named Eric Schmidt CEO August 6, 2001; Larry Page became president of products.
+
+internet-explorer-6-released - Internet Explorer 6.0 released [x]
+  Extra source: Microsoft IE developer docs; Wikipedia Internet Explorer 6
+  Verified: Microsoft released Internet Explorer 6.0 August 27, 2001 with Windows XP.
+
+eclipse-open-sourced - Eclipse IDE open-sourced [x]
+  Extra source: Eclipse Foundation release 1.0.0; Wikipedia Eclipse
+  Verified: IBM open-sourced Eclipse platform November 7, 2001 under the Common Public License.
+
+dotnet-framework-1-0-rtm - .NET Framework 1.0 released [x]
+  Extra source: Wikipedia .NET Framework version history; RCPmag Jan 16 2002
+  Verified: Microsoft released .NET Framework 1.0 RTM to MSDN subscribers January 15, 2002.
+
+aspnet-1-0-released - ASP.NET 1.0 launched with Visual Studio .NET [x]
+  Extra source: Microsoft press release Feb 13 2002; Wikipedia ASP.NET
+  Verified: Microsoft launched ASP.NET 1.0 with Visual Studio .NET February 13, 2002.
+
+visual-basic-net-released - Visual Basic .NET released with .NET Framework [x]
+  Extra source: Microsoft press release Feb 13 2002; Wikipedia Visual Basic .NET
+  Verified: Microsoft launched Visual Basic .NET with Visual Studio .NET February 13, 2002.
+
+blackberry-5810-released - BlackBerry 5810 released [x]
+  Extra source: RIM press release Mar 4 2002; MacTech Comdex coverage
+  Verified: RIM announced BlackBerry 5810 March 4, 2002 at Comdex Chicago — first BlackBerry with integrated phone (headset required).
+
+sidekick-released - T-Mobile Sidekick released [x]
+  Extra source: T-Mobile press release Oct 1 2002; Danger timeline PDF
+  Verified: T-Mobile launched the Sidekick (Danger Hiptop) nationwide October 1, 2002.
+
+safari-announced - Safari announced at Macworld [x]
+  Extra source: Apple Newsroom Jan 7 2003; Wikipedia Safari
+  Verified: Steve Jobs unveiled Safari at Macworld San Francisco January 7, 2003, built on KHTML.
+
+lighttpd-released - lighttpd first released [x]
+  Extra source: Wikipedia Lighttpd; lighttpd.net history
+  Verified: Jan Kneschke released lighttpd March 2003 as a C10k proof-of-concept web server.
+
+lua-5-0-released - Lua 5.0 released [x]
+  Extra source: lua.org manual 5.0; Wikipedia Lua
+  Verified: Lua team released Lua 5.0 April 2003 with lexical scoping and coroutines.
+
+amd64-x86-64-announced - AMD64 (x86-64) announced [~]
+  Extra source: AMD press release Apr 22 2003; ZDNet Jul 28 2000 architecture unveil
+  Verified: AMD launched Opteron — first x86-64 CPU — April 22, 2003.
+  Note: AMD64/x86-64 ISA was publicly documented August 2000; April 2003 is first CPU ship, not first architecture announcement.
+
+memcached-released - Memcached released [x]
+  Extra source: LiveJournal changelog May 22 2003; memcached.org
+  Verified: Brad Fitzpatrick committed memcached.pl to LiveJournal May 22, 2003.
+
+soap-1-2-standardized - SOAP 1.2 became a W3C Recommendation [x]
+  Extra source: W3C REC soap12-part1 Jun 24 2003; Wikipedia SOAP
+  Verified: W3C published SOAP 1.2 as a Recommendation June 24, 2003.
+
+mozilla-foundation-created - Mozilla Foundation created [x]
+  Extra source: Mozilla blog press release Jul 15 2003; Wikipedia Mozilla Foundation
+  Verified: Mozilla Foundation established July 15, 2003 to steward Firefox and Thunderbird.
+
+ruby-1-8-released - Ruby 1.8 released [x]
+  Extra source: ruby-lang.org news Aug 4 2003; Wikipedia Ruby
+  Verified: Yukihiro Matsumoto released Ruby 1.8.0 August 4, 2003.
+
+llvm-1-0-released - LLVM 1.0 released [x]
+  Extra source: llvm-announce Oct 24 2003; Wikipedia LLVM
+  Verified: Chris Lattner released LLVM 1.0 October 24, 2003.
+
+# --- Batch 12: events 277–301 ---
+scala-first-release - Scala first public release [x]
+  Extra source: Odersky types-list announcement Jan 20 2004; Wikipedia Scala
+  Verified: Martin Odersky announced first Scala implementation January 20, 2004 at EPFL.
+
+subversion-1-0-released - Subversion 1.0 released [x]
+  Extra source: Apache Subversion release history; Wikipedia Subversion
+  Verified: CollabNet/Apache Subversion 1.0.0 released February 23, 2004.
+
+rubygems-released - RubyGems released [x]
+  Extra source: blog.rubygems.org 0.2.0 Mar 14 2004; ruby-talk announcement
+  Verified: Chad Fowler et al. released RubyGems 0.2.0 (initial public release) March 14, 2004.
+
+spring-framework-1-0-released - Spring Framework 1.0 released [x]
+  Extra source: spring.io blog Mar 24 2004; Wikipedia Spring Framework
+  Verified: Spring Framework 1.0 final released March 24, 2004.
+
+maven-1-0-released - Apache Maven 1.0 released [x]
+  Extra source: maven.apache.org release history; Jakarta news Jul 13 2004
+  Verified: Apache Maven 1.0 released July 13, 2004.
+
+php-5-0-released - PHP 5.0 released [x]
+  Extra source: php.net releases 5_0_0; Wikipedia PHP
+  Verified: PHP 5.0.0 released July 13, 2004 with Zend Engine 2.
+
+rails-open-sourced - Ruby on Rails open sourced [x]
+  Extra source: Signal v. Noise Jul 24 2004; Wikipedia Ruby on Rails
+  Verified: David Heinemeier Hansson released Rails 0.5.0 July 24, 2004.
+
+java-5-released - Java 5 (Tiger) released [x]
+  Extra source: Oracle JDK 5 release notes; Wikipedia Java version history
+  Verified: Sun released Java 5 (JDK 1.5) September 30, 2004 with generics, enums, and annotations.
+
+nginx-released - nginx first public release [x]
+  Extra source: nginx git commit Oct 4 2004; Wikipedia Nginx
+  Verified: Igor Sysoev released nginx 0.1.0 October 4, 2004.
+
+firefox-1-0-released - Firefox 1.0 released [x]
+  Extra source: Mozilla Firefox 1.0 release notes; Wikipedia Firefox
+  Verified: Mozilla Foundation shipped Firefox 1.0 November 9, 2004.
+
+fortran-2003-standard - Fortran 2003 standardized [x]
+  Extra source: ISO/IEC 1539-1:2004; Fortran BCS factsheet
+  Verified: ISO/IEC 1539-1:2004 (Fortran 2003) published November 18, 2004.
+
+json-rpc-1-0-published - JSON-RPC 1.0 published [x]
+  Extra source: jsonrpc.org specification v1; Wikipedia JSON-RPC
+  Verified: JSON-RPC 1.0 specification published 2005.
+
+hudson-ci-released - Hudson CI first released [x]
+  Extra source: Wikipedia Hudson; Kohsuke Kawaguchi bio
+  Verified: Kohsuke Kawaguchi released Hudson 1.0 February 7, 2005.
+
+puppet-released - Puppet first released [-]
+  Extra source: AOSA Puppet chapter; puppetlabs/puppet Aug 2005 commits
+  Verified: Luke Kanies went full-time on Puppet development March 2005; first public release August 2005.
+  Issue: Title says "first released" but event dated March 2005 marks full-time development start, not the August 2005 public release.
+
+git-created - Git created [x]
+  Extra source: git.git commit e83c516; Wikipedia Git
+  Verified: Linus Torvalds committed initial Git revision April 7, 2005.
+
+mercurial-released - Mercurial released [x]
+  Extra source: LKML Mercurial v0.1 Apr 19 2005; Wikipedia Mercurial
+  Verified: Matt Mackall announced Mercurial v0.1 April 19, 2005.
+
+webkit-open-sourced - WebKit open-sourced by Apple [x]
+  Extra source: Dave Hyatt blog Jun 7 2005; CNET Apple open-source coverage
+  Verified: Apple open-sourced full WebKit framework June 7, 2005 at WWDC.
+
+django-open-sourced - Django open-sourced [x]
+  Extra source: djangoproject.com 10th birthday post; holovaty.com
+  Verified: Jacob Kaplan-Moss made first public Django commit July 13, 2005.
+
+opera-mini-launched - Opera Mini launched for mobile phones [~]
+  Extra source: Opera press release Aug 10 2005; Wikipedia Opera Mini
+  Verified: Opera introduced Opera Mini August 10, 2005 as a TV 2 Norway pilot.
+  Note: Worldwide launch was January 24, 2006; August 2005 was limited pilot/beta availability.
+
+werner-vogels-amazon-cto - Werner Vogels named Amazon CTO [-]
+  Extra source: Wikipedia Werner Vogels; Comparably Amazon bio
+  Verified: Werner Vogels joined Amazon September 2004; named CTO January 2005; VP March 2005.
+  Issue: Event dated 2005-09 but CTO appointment was January 2005.
+
+arduino-released - Arduino boards first shipped [~]
+  Extra source: IEEE Spectrum Making of Arduino; Arduino forum Sep 2005 production posts
+  Verified: First production run of 200 Arduino boards began shipping September 2005.
+  Note: Event dated 2005-10; first boards were ready from ~September 5 and sold from September 12, 2005.
+
+symfony-released - Symfony framework released [x]
+  Extra source: Wikipedia Symfony; symfony.com
+  Verified: Fabien Potencier open-sourced Symfony October 22, 2005.
+
+dotnet-framework-2-0-released - .NET Framework 2.0 and C# 2.0 released [x]
+  Extra source: Microsoft .NET 2.0 docs; Wikipedia C#
+  Verified: Microsoft shipped .NET Framework 2.0 with C# 2.0 generics November 7, 2005.
+
+firefox-1-5-released - Firefox 1.5 released [x]
+  Extra source: Mozilla Firefox 1.5 release notes; Wikipedia Firefox
+  Verified: Mozilla shipped Firefox 1.5 November 29, 2005.
+
+rails-1-0-released - Ruby on Rails 1.0 released [x]
+  Extra source: rubyonrails.org Dec 13 2005 announcement; Wikipedia Ruby on Rails
+  Verified: Ruby on Rails 1.0 released December 13, 2005.
+
+# --- Batch 13: events 302–326 ---
+douglas-crockford-json-spec - Douglas Crockford popularizes JSON [x]
+  Extra source: RFC 4627 July 2006; Wikipedia JSON
+  Verified: Douglas Crockford published RFC 4627 (application/json) July 2006; json.org specification popularized JSON.
+
+frances-allen-turing-award - Frances Allen receives Turing Award [x]
+  Extra source: ACM press release Feb 21 2007; amturing.acm.org
+  Verified: ACM named Frances E. Allen recipient of the 2006 A.M. Turing Award — first woman to win.
+
+scala-2-0-released - Scala 2.0 released [x]
+  Extra source: Wikipedia Scala; scala-lang.org docs
+  Verified: Martin Odersky released Scala 2.0 January 2006.
+
+lua-5-1-released - Lua 5.1 released [x]
+  Extra source: lua.org manual 5.1 readme; Wikipedia Lua
+  Verified: Lua team released Lua 5.1.0 February 21, 2006.
+
+capistrano-released - Capistrano released [x]
+  Extra source: Jamis Buck blog Mar 6 2006; Wikipedia Capistrano
+  Verified: Jamis Buck released Capistrano 1.1 (renamed from SwitchTower) March 6, 2006.
+
+graydon-hoare-rust-started - Graydon Hoare begins Rust [~]
+  Extra source: graydon/rust-prehistory initial commit Jul 23 2006; Wikipedia Rust
+  Verified: Graydon Hoare began Rust as a personal project in 2006 (initial commit July 23, 2006).
+  Note: Summary calls it a "Mozilla research effort" but Mozilla sponsorship began in 2009.
+
+internet-explorer-7-released - Internet Explorer 7 released [x]
+  Extra source: Microsoft IE history; Wikipedia Internet Explorer 7
+  Verified: Microsoft released Internet Explorer 7.0 October 18, 2006.
+
+jensen-huang-cuda-announced - Jensen Huang announces CUDA [x]
+  Extra source: NVIDIA press materials; Wikipedia CUDA
+  Verified: NVIDIA announced CUDA November 8, 2006 at SC06.
+
+powershell-1-0-released - Windows PowerShell 1.0 released [x]
+  Extra source: PowerShell Team blog Nov 14 2006; Wikipedia PowerShell
+  Verified: Microsoft released Windows PowerShell 1.0 November 14, 2006 at ITForum.
+
+mary-lou-jepsen-olpc-displays - Mary Lou Jepsen leads OLPC display engineering [x]
+  Extra source: ACM Queue interview; Wikipedia Mary Lou Jepsen
+  Verified: Mary Lou Jepsen served as OLPC CTO and engineered the XO-1 dual-mode display in 2007.
+
+groovy-1-0-released - Groovy 1.0 released [x]
+  Extra source: Codehaus Groovy announcement Jan 5 2007; Wikipedia Apache Groovy
+  Verified: Groovy 1.0 released January 5, 2007.
+
+steve-jobs-iphone-introduced - Steve Jobs introduces the iPhone [x]
+  Extra source: Apple Newsroom Jan 9 2007; Wikipedia iPhone
+  Verified: Steve Jobs unveiled the iPhone at Macworld San Francisco January 9, 2007.
+
+reed-hastings-netflix-streaming - Reed Hastings launches Netflix streaming [x]
+  Extra source: NY Times Jan 16 2007; CNBC coverage
+  Verified: Netflix launched Watch Now streaming service January 16, 2007.
+
+rabbitmq-released - RabbitMQ launched [x]
+  Extra source: RabbitMQ press release Feb 8 2007; Wikipedia RabbitMQ
+  Verified: LShift and CohesiveFT launched RabbitMQ February 8, 2007.
+
+zeromq-released - ZeroMQ project started [x]
+  Extra source: Wikipedia ZeroMQ; zguide.zeromq.org
+  Verified: Pieter Hintjens and Martin Sustrik started the ZeroMQ project May 2007.
+
+schwartz-innovate-not-litigate - Jonathan Schwartz: "innovate, not litigate" [x]
+  Extra source: InfoWorld May 15 2007; Techdirt coverage
+  Verified: Sun CEO Jonathan Schwartz blogged "We decided to innovate, not litigate" May 15, 2007.
+
+heroku-launched - Heroku founded [x]
+  Extra source: Wikipedia Heroku; heroku.com/about
+  Verified: Adam Wiggins, James Lindenbaum, and Orion Henry founded Heroku June 2007.
+
+safari-3-windows-released - Safari 3 for Windows released [~]
+  Extra source: Apple Newsroom Jun 11 2007; Computerworld WWDC coverage
+  Verified: Apple released Safari 3 public beta for Windows at WWDC June 11, 2007.
+  Note: June 11 was a public beta; final Safari 3 for Windows shipped October 2007.
+
+iphone-goes-on-sale - iPhone goes on sale [x]
+  Extra source: Apple Newsroom Jun 28 2007; Wikipedia iPhone
+  Verified: Apple began selling the iPhone in the United States June 29, 2007.
+
+clang-open-sourced - Clang open-sourced [x]
+  Extra source: llvm-dev mailing list Jul 11 2007; Wikipedia Clang
+  Verified: Apple open-sourced Clang July 11, 2007.
+
+rich-hickey-clojure-released - Rich Hickey releases Clojure [-]
+  Extra source: clojure.org history; Rich Hickey Oct 16 2008 anniversary post
+  Verified: Rich Hickey publicly released Clojure October 16, 2007 (initial open-source release).
+  Issue: Title/summary say "Clojure 1.0" — version 1.0 was not released until May 2009.
+
+olpc-xo-laptop-released - OLPC XO-1 laptop released [~]
+  Extra source: Engadget G1G1 shipping Dec 10 2007; Wikipedia OLPC XO
+  Verified: OLPC Give One Get One program launched November 12, 2007; consumer units began shipping December 10, 2007.
+  Note: First country deployments (e.g. Uruguay) began October 2007; event dated 2007-11 conflates program launch with shipping.
+
+android-announced - Android announced [x]
+  Extra source: Google Blog Nov 5 2007; Wikipedia Android
+  Verified: Google and Open Handset Alliance announced Android November 5, 2007.
+
+couchdb-released - CouchDB 0.7.0 released [x]
+  Extra source: Damien Katz blog Nov 16 2007; Wikipedia Apache CouchDB
+  Verified: Damien Katz released CouchDB 0.7.0 November 16, 2007.
+
+dotnet-framework-3-5-released - .NET 3.5 and C# 3.0 with LINQ released [x]
+  Extra source: Soma Somasegar blog Nov 19 2007; Wikipedia .NET Framework 3.5
+  Verified: Microsoft shipped .NET Framework 3.5 with C# 3.0 LINQ November 19, 2007.
+
+# --- Batch 14: events 327–351 ---
+oauth-1-0-published - OAuth 1.0 published [-]
+  Extra source: Factory Joe blog Oct 3 2007; RFC 5849 introduction
+  Verified: OAuth Core 1.0 Final Draft was published October 3, 2007.
+  Issue: Event dated 2007-12-04; OAuth 1.0 was stabilized in October 2007, not December.
+
+barbara-liskov-turing-award - Barbara Liskov receives Turing Award [x]
+  Extra source: ACM 2008 Turing Award announcement; Wikipedia Barbara Liskov
+  Verified: ACM named Barbara Liskov recipient of the 2008 A.M. Turing Award.
+
+apple-macbook-air-released - MacBook Air released [x]
+  Extra source: Apple Newsroom Jan 15 2008; Wikipedia MacBook Air
+  Verified: Steve Jobs introduced MacBook Air January 15, 2008; first units shipped January 29, 2008.
+
+netscape-browser-discontinued - Netscape browser discontinued [-]
+  Extra source: NY Times Dec 29 2007; Netscape blog support extension Jan 28 2008
+  Verified: AOL announced end of Netscape browser support December 28, 2007.
+  Issue: Support was originally set for February 1, 2008 but extended; final support ended March 1, 2008.
+
+ballmer-web-developers-chant - Steve Ballmer chants "Web developers! Web developers! Web developers!" [x]
+  Extra source: Microsoft MIX08 speech Mar 6 2008; ZDNet coverage
+  Verified: Steve Ballmer chanted "Web developers!" at MIX08 March 6, 2008 after audience request.
+
+intel-atom-announced - Intel Atom announced [x]
+  Extra source: Wikipedia Atom SoC; Intel IDF 2008 coverage
+  Verified: Intel announced the Atom processor family April 2008 for netbooks and low-power devices.
+
+github-launched - GitHub launched [x]
+  Extra source: GitHub blog "We Launched" Apr 10 2008; Wikipedia GitHub
+  Verified: Tom Preston-Werner, Chris Wanstrath, and PJ Hyett launched GitHub April 10, 2008.
+
+phusion-passenger-released - Phusion Passenger released [x]
+  Extra source: rubyonrails.org Apr 11 2008; Wikipedia Phusion Passenger
+  Verified: Phusion released Passenger (mod_rails) April 11, 2008.
+
+gradle-released - Gradle first released [x]
+  Extra source: Wikipedia Gradle; gradle.org
+  Verified: Hans Dockter released Gradle 0.1 April 21, 2008.
+
+crockford-javascript-good-parts - Douglas Crockford names "JavaScript: The Good Parts" [x]
+  Extra source: O'Reilly May 2008; Wikipedia Douglas Crockford
+  Verified: Douglas Crockford's JavaScript: The Good Parts published May 2008.
+
+firefox-3-released - Firefox 3.0 released [x]
+  Extra source: Mozilla Firefox 3.0 release notes Jun 17 2008; Wikipedia Firefox
+  Verified: Mozilla shipped Firefox 3.0 June 17, 2008.
+
+bitbucket-launched - Bitbucket launched [x]
+  Extra source: Wikipedia Bitbucket; Atlassian product page
+  Verified: Jesper Noehr launched Bitbucket in open beta June 24, 2008.
+
+iphone-app-store-opens - iPhone App Store opens [x]
+  Extra source: Apple Newsroom Jul 10 2008; Wikipedia App Store
+  Verified: Apple opened the App Store July 10, 2008.
+
+iphone-3g-released - iPhone 3G released [x]
+  Extra source: Apple Newsroom Jul 11 2008; Wikipedia iPhone 3G
+  Verified: Apple began selling iPhone 3G in 22 countries July 11, 2008.
+
+apache-cassandra-open-sourced - Apache Cassandra open sourced [x]
+  Extra source: TechCrunch Jul 14 2008; Wikipedia Apache Cassandra
+  Verified: Facebook open-sourced Cassandra July 14, 2008.
+
+lxc-released - LXC released [x]
+  Extra source: lxc/lxc initial commit Aug 6 2008; Wikipedia LXC
+  Verified: Daniel Lezcano published first LXC commit August 6, 2008.
+
+google-chrome-released - Google Chrome 1.0 released [~]
+  Extra source: Google blog Sep 1-2 2008; Computerworld Chrome beta coverage
+  Verified: Google launched Chrome public beta September 2, 2008.
+  Note: Title says "Chrome 1.0" but Sep 2 was beta; stable Chrome 1.0 shipped December 11, 2008.
+
+t-mobile-g1-released - T-Mobile G1 released [x]
+  Extra source: Google Android blog Oct 22 2008; Wikipedia HTC Dream
+  Verified: T-Mobile began selling the HTC Dream (G1) October 22, 2008.
+
+pip-released - pip first released [x]
+  Extra source: Ian Bicking blog Oct 28 2008; PyPA packaging history
+  Verified: Ian Bicking released pip October 28, 2008.
+
+python-3-0-released - Python 3.0 released [x]
+  Extra source: python.org Python 3.0 release notes; Wikipedia Python
+  Verified: Python 3.0.0 final released December 3, 2008.
+
+zuckerberg-move-fast-break-things - Facebook motto: "Move fast and break things" [x]
+  Extra source: Business Insider Oct 1 2009 Zuckerberg interview; Wikipedia motto article
+  Verified: "Move fast and break things" was Facebook's internal motto circa 2009; retired 2014.
+
+fei-fei-li-imagenet-dataset-launched - Fei-Fei Li launches ImageNet dataset [x]
+  Extra source: CVPR 2009 paper; Wikipedia ImageNet
+  Verified: Fei-Fei Li and collaborators introduced ImageNet at CVPR 2009 (dataset built from 2007).
+
+chef-released - Chef first released [x]
+  Extra source: Chef blog Jan 15 2009; Wikipedia Chef
+  Verified: Adam Jacob announced Chef January 15, 2009.
+
+mongodb-first-released - MongoDB first released [x]
+  Extra source: Wikipedia MongoDB; MongoDB docs
+  Verified: 10gen released MongoDB February 11, 2009.
+
+safari-4-released - Safari 4 beta released [x]
+  Extra source: Apple Newsroom Feb 24 2009; Wikipedia Safari
+  Verified: Apple released Safari 4 beta February 24, 2009.
+
+# --- Batch 15: events 352–376 ---
+redis-first-released - Redis first released [x]
+  Extra source: antirez blog March 2009; Wikipedia Redis
+  Verified: Salvatore Sanfilippo open-sourced Redis February 26, 2009.
+
+internet-explorer-8-released - Internet Explorer 8 released [x]
+  Extra source: Microsoft IE history docs; Wikipedia IE 8
+  Verified: Microsoft released Internet Explorer 8 March 19, 2009.
+
+homebrew-released - Homebrew first released [x]
+  Extra source: brew.sh about; Wikipedia Homebrew
+  Verified: Max Howell released Homebrew May 20, 2009.
+
+nodejs-first-released - Node.js first released [x]
+  Extra source: Ryan Dahl Wikipedia; JSConf EU 2009 demo
+  Verified: Ryan Dahl released Node.js May 27, 2009.
+
+php-5-3-released - PHP 5.3 released [x]
+  Extra source: php.net 5.3.0 release notes; Wikipedia PHP
+  Verified: PHP 5.3.0 final released June 30, 2009 with namespaces and closures.
+
+uwsgi-released - uWSGI released [x]
+  Extra source: uWSGI docs project history; Wikipedia uWSGI
+  Verified: Unbit released uWSGI in mid-2009 as a WSGI application server.
+
+mariadb-released - MariaDB first released [x]
+  Extra source: MariaDB.org 15-year post; MariaDB 5.1.38 release notes
+  Verified: Michael Widenius released MariaDB 5.1.38 beta October 29, 2009.
+
+go-open-sourced - Go programming language open-sourced [x]
+  Extra source: Google Open Source Blog Nov 10 2009; Wikipedia Go
+  Verified: Google open-sourced Go November 10, 2009.
+
+ecmascript-5-adopted - JavaScript ES5 standardized [x]
+  Extra source: Ecma International press release Dec 3 2009; ECMA-262 5th ed.
+  Verified: Ecma approved ECMAScript 5th edition December 3, 2009.
+
+express-released - Express.js initial release [x]
+  Extra source: expressjs/express History.md; Wikipedia Express.js
+  Verified: TJ Holowaychuk shipped Express 0.0.1 January 3, 2010.
+
+npm-first-released - npm first released [~]
+  Extra source: npm/npm initial commit Sept 29 2009; nodejs.org npm 1.0 post
+  Verified: npm 1.0 released January 12, 2010; initial prototype committed September 2009.
+  Note: Title "first released" aligns with Wikipedia/npm 1.0 date; earlier September 2009 prototype predates 1.0.
+
+apple-a4-introduced - Apple A4 chip introduced [x]
+  Extra source: Apple iPad launch press release; Wikipedia Apple A4
+  Verified: Apple introduced A4 SoC January 27, 2010 alongside the iPad.
+
+ipad-introduced - iPad introduced [x]
+  Extra source: Apple Newsroom Jan 27 2010; Wikipedia iPad
+  Verified: Steve Jobs introduced the iPad January 27, 2010.
+
+elasticsearch-released - Elasticsearch released [x]
+  Extra source: Elastic 15-year history blog; GitHub initial commit Feb 8 2010
+  Verified: Shay Banon open-sourced Elasticsearch February 8, 2010 (first public commit).
+
+gunicorn-released - Gunicorn first released [-]
+  Extra source: Web-SIG announcement Jan 3 2010; PyPI gunicorn 0.1 upload date
+  Verified: Benoit Chesneau announced gunicorn 0.1 January 3, 2010.
+  Issue: Event dated February 20, 2010 (Wikipedia cites that date); PyPI/Web-SIG show January 3, 2010.
+
+vagrant-released - Vagrant first released [x]
+  Extra source: hashicorp/vagrant 0.1.0 commit; Wikipedia Vagrant
+  Verified: Mitchell Hashimoto released Vagrant 0.1.0 March 7, 2010.
+
+flask-released - Flask web framework released [x]
+  Extra source: Ronacher April 1st postmortem; Wikipedia Flask
+  Verified: Armin Ronacher released Flask April 1, 2010.
+
+james-gosling-leaves-oracle - James Gosling leaves Oracle [-]
+  Extra source: Gosling blog "Time to move on" Apr 9 2010; InfoQ Apr 2010
+  Verified: Gosling resigned from Oracle April 2, 2010; announced publicly April 9.
+  Issue: Event dated April 9 (announcement date), not April 2 (resignation date).
+
+dotnet-framework-4-0-released - .NET 4.0 and C# 4.0 released [x]
+  Extra source: Microsoft .NET 4 launch docs; Wikipedia C#
+  Verified: Microsoft shipped .NET Framework 4.0 and Visual Studio 2010 April 12, 2010.
+
+fsharp-2-released - F# 2.0 shipped with Visual Studio 2010 [x]
+  Extra source: Microsoft Research F# history; Wikipedia F#
+  Verified: F# 2.0 shipped with Visual Studio 2010 April 12, 2010.
+
+jobs-flash-closed-system - Steve Jobs: "Flash is a closed system" [x]
+  Extra source: Apple Thoughts on Flash letter; BBC Apr 29 2010
+  Verified: Steve Jobs published "Thoughts on Flash" April 29, 2010.
+
+moxie-marlinspike-textsecure-released - Moxie Marlinspike releases TextSecure [~]
+  Extra source: Forbes May 25 2010; Wikipedia TextSecure
+  Verified: Whisper Systems launched TextSecure public beta May 25, 2010.
+  Note: Event uses month precision (2010-05); specific beta date was May 25.
+
+samsung-galaxy-s-released - Samsung Galaxy S released [~]
+  Extra source: Samsung Global Newsroom; Wikipedia Galaxy S
+  Verified: Galaxy S first went on sale June 4, 2010 in Singapore; global rollout through June.
+  Note: Month precision acceptable; US carrier variants shipped later June–September.
+
+safari-5-released - Safari 5 released [x]
+  Extra source: Apple Newsroom Jun 7 2010; Wikipedia Safari
+  Verified: Apple released Safari 5 at WWDC June 7, 2010.
+
+iphone-4-released - iPhone 4 released [x]
+  Extra source: Apple Newsroom Jun 24 2010; Wikipedia iPhone 4
+  Verified: iPhone 4 went on sale June 24, 2010 in US, UK, France, Germany, and Japan.
+
+# --- Batch 16: events 377–401 ---
+haskell-2010-standard - Haskell 2010 language standard published [x]
+  Extra source: Haskell mailing list Jul 6 2010 announcement; haskell.org report
+  Verified: Simon Marlow announced final Haskell 2010 report July 6, 2010.
+
+python-2-7-released - Python 2.7 released [x]
+  Extra source: python.org 2.7.0 release notes; Wikipedia Python
+  Verified: Python 2.7.0 final released July 3, 2010.
+
+demis-hassabis-deepmind-founded - Demis Hassabis co-founds DeepMind [~]
+  Extra source: Companies House incorporation Sept 23 2010; Wikipedia DeepMind
+  Verified: DeepMind Technologies incorporated September 23, 2010; co-founded by Hassabis, Shane Legg, and Mustafa Suleyman.
+  Note: Event credits only Hassabis; Legg and Suleyman were equal co-founders.
+
+nuget-released - NuGet released [x]
+  Extra source: Microsoft NuGet 1.0 release notes; Wikipedia NuGet
+  Verified: Microsoft released NuGet 1.0 (formerly NuPack) October 5, 2010.
+
+angularjs-released - AngularJS released [~]
+  Extra source: angular.js CHANGELOG 0.9.0 Oct 20 2010; Wikipedia AngularJS
+  Verified: Miško Hevery released AngularJS 0.9.0 on GitHub October 20, 2010.
+  Note: This was the initial open-source release (0.9.0); AngularJS 1.0 shipped June 2012.
+
+chromebook-cr-48-pilot - Chromebook CR-48 pilot begins [x]
+  Extra source: TechCrunch Dec 7 2010; Google Chrome OS pilot announcement
+  Verified: Google announced CR-48 Chrome OS pilot program December 7, 2010.
+
+andrew-ng-stanford-ml-course - Andrew Ng launches Stanford ML course online [~]
+  Extra source: mlclass.stanford.edu Fall 2011; Stanford Engineering news Oct 2011
+  Verified: Free online ML course ran October 10–December 16, 2011 with 100,000+ enrollees.
+  Note: Year precision (2011) is fine; course was Fall 2011, not Coursera (which launched 2012).
+
+judea-pearl-turing-award - Judea Pearl receives Turing Award [x]
+  Extra source: ACM Turing Award page; ACM press release Mar 15 2012
+  Verified: Judea Pearl won the 2011 ACM A.M. Turing Award for probabilistic and causal reasoning.
+
+apache-kafka-open-sourced - Apache Kafka open-sourced [x]
+  Extra source: LinkedIn Engineering blog Jan 11 2011; Apache incubator proposal
+  Verified: LinkedIn open-sourced Kafka January 11, 2011.
+
+kohsuke-kawaguchi-jenkins-renamed - Kohsuke Kawaguchi renames Hudson to Jenkins [x]
+  Extra source: Kohsuke blog Jan 11 2011; Jenkins.io Hudson's future post
+  Verified: Kohsuke Kawaguchi announced Hudson→Jenkins rename January 11, 2011.
+
+browserify-released - Browserify first released [x]
+  Extra source: npm browserify package history; Wikipedia Browserify
+  Verified: James Halliday published browserify 0.0.1 February 3, 2011.
+
+travis-ci-launched - Travis CI launched [x]
+  Extra source: Sven Fuchs introducing Travis Feb 5 2011; Wikipedia Travis CI
+  Verified: Sven Fuchs introduced Travis CI February 5, 2011.
+
+ninja-released - Ninja build system open-sourced [x]
+  Extra source: ninja-build/ninja GitHub repo Feb 6 2011; ninja-build.org manual
+  Verified: Evan Martin open-sourced Ninja February 6, 2011.
+
+elixir-first-release - Elixir 0.1.0 released [x]
+  Extra source: Elixir timeline (Adolfo Neto); elixir-lang/elixir first commit Jan 9 2011
+  Verified: José Valim released Elixir v0.1.0 March 2, 2011.
+
+internet-explorer-9-released - Internet Explorer 9 released [x]
+  Extra source: Microsoft Windows blog Mar 14 2011; Wikipedia IE 9
+  Verified: Microsoft released Internet Explorer 9 March 14, 2011.
+
+firefox-4-released - Firefox 4 released [x]
+  Extra source: Mozilla blog Mar 22 2011; Wikipedia Firefox version history
+  Verified: Mozilla released Firefox 4 March 22, 2011; 7+ million downloads on launch day.
+
+chromebook-retail-launched - Chromebooks go on sale [~]
+  Extra source: Wikipedia Chromebook; SlashGear Jun 15 2011
+  Verified: Samsung and Acer Chromebooks went on sale June 15, 2011.
+  Note: Month precision (2011-06) acceptable; announced at Google I/O May 11.
+
+laravel-first-beta - Laravel first beta released [~]
+  Extra source: laravel/laravel initial commit Jun 9 2011; Laravel News 10-year post
+  Verified: Taylor Otwell released first Laravel beta June 9, 2011.
+  Note: Event uses month precision (2011-06); specific date was June 9.
+
+firefox-5-released - Firefox 5 released [x]
+  Extra source: Mozilla blog Jun 21 2011; Wikipedia Firefox version history
+  Verified: Mozilla released Firefox 5 June 21, 2011, starting rapid-release schedule.
+
+kotlin-unveiled - Kotlin announced [x]
+  Extra source: JetBrains blog Jul 19 2011; Wikipedia Kotlin
+  Verified: JetBrains announced Project Kotlin July 19, 2011.
+
+leveldb-open-sourced - LevelDB open-sourced [x]
+  Extra source: Google Open Source Blog Jul 28 2011; Wikipedia LevelDB
+  Verified: Google open-sourced LevelDB July 28, 2011.
+
+swagger-1-0-released - Swagger 1.0 released [x]
+  Extra source: swagger-core changelog v1.0 Aug 10 2011; Swagger spec version history
+  Verified: Tony Tam released Swagger 1.0 specification August 10, 2011.
+
+firefox-6-released - Firefox 6 released [~]
+  Extra source: Mozilla blog Aug 16 2011; Wikipedia Firefox version history
+  Verified: Mozilla released Firefox 6 August 16, 2011.
+  Note: Summary incorrectly attributes Panorama tab groups to Firefox 6; Panorama debuted in Firefox 4.
+
+andreessen-software-eating-world - Marc Andreessen: "Software is eating the world" [x]
+  Extra source: Wall Street Journal Aug 20 2011; a16z.com essay repost
+  Verified: Marc Andreessen published "Why Software Is Eating the World" in WSJ August 20, 2011.
+
+cpp11-standard - C++11 standardized [x]
+  Extra source: ISO/IEC 14882:2011 publication date; WG21 standards chronology
+  Verified: ISO/IEC 14882:2011 (C++11) published September 1, 2011.
+
+# --- Batch 17: events 402–426 ---
+circleci-launched - CircleCI founded [x]
+  Extra source: Wikipedia CircleCI; TechCrunch Feb 2013
+  Verified: Paul Biggar and Allen Rohner founded CircleCI September 1, 2011.
+
+gitlab-released - GitLab first released [x]
+  Extra source: GitLab handbook history; Wikipedia GitLab
+  Verified: Dmitriy Zaporozhets made first GitLab commit October 8, 2011.
+
+dart-unveiled - Dart language unveiled at GOTO [x]
+  Extra source: Google Developers Blog Oct 10 2011; Wikipedia Dart
+  Verified: Google unveiled Dart at GOTO Aarhus October 10, 2011.
+
+websocket-protocol-standardized - WebSocket protocol standardized [x]
+  Extra source: RFC 6455 December 2011; IETF datatracker
+  Verified: IETF published RFC 6455 (WebSocket Protocol) December 2011.
+
+shafi-goldwasser-turing-award - Shafi Goldwasser receives Turing Award [x]
+  Extra source: ACM Turing Award page; ACM press release 2013
+  Verified: Shafi Goldwasser and Silvio Micali won the 2012 ACM Turing Award.
+
+ansible-released - Ansible first released [x]
+  Extra source: Wikipedia Ansible; Ansible docs
+  Verified: Michael DeHaan open-sourced Ansible February 20, 2012.
+
+raspberry-pi-model-b-released - Raspberry Pi Model B released [~]
+  Extra source: Raspberry Pi blog; BBC Apr 2012 shipping report
+  Verified: Raspberry Pi Model B launched February 29, 2012 (orders opened).
+  Note: Summary says "began shipping" Feb 29; first production units shipped mid-April 2012.
+
+composer-released - Composer first released [x]
+  Extra source: getcomposer.org 1.0.0-alpha1 changelog; Wikipedia Composer
+  Verified: Nils Adermann and Jordi Boggiano released Composer 1.0.0-alpha1 March 1, 2012.
+
+webpack-released - webpack first released [x]
+  Extra source: webpack/webpack initial commit Mar 10 2012; webpack.js.org concepts
+  Verified: Tobias Koppers published webpack 0.1.0 March 10, 2012.
+
+go-1-0-released - Go 1.0 released [x]
+  Extra source: Go blog Mar 28 2012; Wikipedia Go
+  Verified: Google released Go 1.0 March 28, 2012 with compatibility promise.
+
+samsung-internet-released - Samsung Internet browser launched [x]
+  Extra source: Wikipedia Samsung Internet; Galaxy S III launch May 3 2012
+  Verified: Samsung Internet shipped preinstalled on Galaxy S III (launched May 3, 2012).
+
+laravel-symfony-http-foundation - Laravel 3.2 released [x]
+  Extra source: laravelversions.com 3.2.0; Laravel changelog
+  Verified: Laravel 3.2 released May 22, 2012; migrated request/response to Symfony HttpFoundation.
+
+chrome-for-android-released - Chrome for Android released [~]
+  Extra source: Chromium blog Jun 27 2012; Wikipedia Chrome
+  Verified: Google released Chrome for Android June 27, 2012.
+  Note: About text cites Blink engine; Chrome for Android 2012 used WebKit (Blink fork was April 2013).
+
+safari-6-released - Safari 6 released [x]
+  Extra source: Apple Newsroom Jul 25 2012; Wikipedia Safari
+  Verified: Apple released Safari 6 with OS X Mountain Lion July 25, 2012.
+
+dotnet-framework-4-5-released - .NET 4.5 and C# 5.0 with async/await released [x]
+  Extra source: Microsoft .NET 4.5 announcement Aug 15 2012; Wikipedia C#
+  Verified: Microsoft shipped .NET Framework 4.5 and C# 5.0 August 15, 2012.
+
+hinton-alexnet-imagenet-breakthrough - Geoffrey Hinton's team wins ImageNet with AlexNet [~]
+  Extra source: ImageNet LSVRC 2012 results; AlexNet paper
+  Verified: AlexNet submitted to ILSVRC 2012 September 30, 2012; won with 15.3% top-5 error.
+  Note: Month precision (2012-09) matches submission deadline; full results released October 2012.
+
+oauth-2-0-standardized - OAuth 2.0 standardized [x]
+  Extra source: RFC 6749 October 2012; oauth.net
+  Verified: IETF published RFC 6749 (OAuth 2.0) October 2012.
+
+typescript-preview-released - TypeScript preview released [x]
+  Extra source: Microsoft TypeScript blog Oct 1 2012; Wikipedia TypeScript
+  Verified: Microsoft released TypeScript preview October 1, 2012.
+
+internet-explorer-10-released - Internet Explorer 10 released [x]
+  Extra source: Windows blog Oct 26 2012; Wikipedia IE 10
+  Verified: Microsoft released Internet Explorer 10 with Windows 8 October 26, 2012.
+
+audrey-tang-g0v-launched - Audrey Tang co-launches g0v civic hacking movement [~]
+  Extra source: g0v.tw; Audrey Tang interview Politics East Asia
+  Verified: g0v movement began late 2012 after gov.tw domain hack and budget visualization.
+  Note: Tang is often called a co-founder but personally joined g0v projects in early 2013.
+
+microsoft-surface-pro-released - Surface Pro released [x]
+  Extra source: Microsoft Newsroom Feb 9 2013; Wikipedia Surface Pro
+  Verified: Microsoft began selling Surface Pro February 9, 2013.
+
+ruby-2-0-released - Ruby 2.0 released [x]
+  Extra source: ruby-lang.org Feb 24 2013; Wikipedia Ruby
+  Verified: Ruby 2.0.0-p0 released February 24, 2013.
+
+docker-open-sourced - Docker open-sourced [~]
+  Extra source: Docker blog nine years post; Wikipedia Docker
+  Verified: Solomon Hykes publicly demoed Docker at PyCon March 15, 2013; open-sourced March 2013.
+  Note: Month precision (2013-03) acceptable; Wikipedia cites March 20, 2013 release date.
+
+meson-released - Meson first released [x]
+  Extra source: Wikipedia Meson; mesonbuild.com getting started
+  Verified: Jussi Pakkanen released Meson 0.1 March 2, 2013.
+
+nodejs-0-10-released - Node.js 0.10 released [x]
+  Extra source: nodejs.org v0.10.0 release notes; Wikipedia Node.js
+  Verified: Node.js 0.10.0 (Stable) released March 11, 2013.
+
+# --- Batch 18: events 427–451 ---
+blink-engine-announced - Google announced Blink rendering engine [x]
+  Extra source: Chromium Blog Apr 3 2013; Wikipedia Blink
+  Verified: Google announced Blink WebKit fork April 3, 2013.
+
+opera-chromium-switch - Opera switched to Chromium [~]
+  Extra source: Wikipedia Opera browser history; Opera press May 28 2013
+  Verified: Opera 15 beta on Chromium released May 28, 2013; final Opera 15 shipped July 2, 2013.
+  Note: Event dated May 2013 matches beta; full Chromium switch completed with July 2 release.
+
+react-open-sourced - React open-sourced at JSConf US [x]
+  Extra source: Meta Engineering blog May 2013; Wikipedia React
+  Verified: Facebook open-sourced React at JSConf US May 29, 2013.
+
+eslint-released - ESLint first released [x]
+  Extra source: Nicholas Zakas blog Jul 16 2013; Wikipedia ESLint
+  Verified: Nicholas Zakas introduced ESLint July 16, 2013.
+
+internet-explorer-11-released - Internet Explorer 11 released [x]
+  Extra source: Wikipedia IE 11; Windows 8.1 launch Oct 17 2013
+  Verified: Internet Explorer 11 released with Windows 8.1 October 17, 2013.
+
+safari-7-released - Safari 7 released [x]
+  Extra source: Apple Newsroom Oct 22 2013; Wikipedia Safari
+  Verified: Apple released Safari 7 with OS X Mavericks October 22, 2013.
+
+vue-js-released - Vue.js publicly released [x]
+  Extra source: Wikipedia Vue.js; Evan You Feb 2014 launch post
+  Verified: Evan You publicly released Vue.js February 2014.
+
+satya-nadella-microsoft-ceo - Satya Nadella named Microsoft CEO [x]
+  Extra source: Microsoft Newsroom Feb 4 2014; Wikipedia Satya Nadella
+  Verified: Microsoft board appointed Satya Nadella CEO February 4, 2014.
+
+openid-connect-1-0-published - OpenID Connect 1.0 published [x]
+  Extra source: OpenID Connect Core 1.0 spec Feb 25 2014; OpenID Foundation
+  Verified: OpenID Foundation published OpenID Connect Core 1.0 February 25, 2014.
+
+java-8-released - Java 8 released [x]
+  Extra source: OpenJDK JDK 8 GA page; Wikipedia Java
+  Verified: Oracle shipped Java 8 (JDK 8) March 18, 2014.
+
+typescript-1-0-released - TypeScript 1.0 released [x]
+  Extra source: Microsoft TypeScript blog Apr 2 2014; Wikipedia TypeScript
+  Verified: Microsoft released TypeScript 1.0 April 2, 2014.
+
+brendan-eich-mozilla-ceo-resigns - Brendan Eich resigns as Mozilla CEO [x]
+  Extra source: Mozilla press blog Apr 3 2014; Wikipedia Brendan Eich
+  Verified: Brendan Eich resigned as Mozilla CEO April 3, 2014 (appointed March 24).
+
+tom-preston-werner-github-resigns - Tom Preston-Werner resigns from GitHub [x]
+  Extra source: The Verge Apr 21 2014; Wikipedia Tom Preston-Werner
+  Verified: Tom Preston-Werner resigned from GitHub April 21, 2014.
+
+express-4-released - Express 4.0 released [-]
+  Extra source: expressjs/express History.md 4.0.0; InfoQ Apr 2014
+  Verified: Express 4.0.0 released April 9, 2014.
+  Issue: Event dated April 28, 2014; official release was April 9, 2014.
+
+ian-goodfellow-gan-invented - Ian Goodfellow invents GANs [x]
+  Extra source: arXiv 1406.2661 Jun 2014; Wikipedia GAN
+  Verified: Ian Goodfellow et al. proposed GANs in arXiv paper submitted June 10, 2014.
+
+swift-announced - Swift programming language announced at WWDC [x]
+  Extra source: Apple WWDC 2014 session 408; Wikipedia Swift
+  Verified: Apple announced Swift at WWDC June 2, 2014.
+
+kubernetes-open-sourced - Kubernetes open-sourced [x]
+  Extra source: Kubernetes 10-year blog; Wikipedia Kubernetes
+  Verified: Google open-sourced Kubernetes at DockerCon June 10, 2014.
+
+crystal-0-1-0-released - Crystal 0.1.0 released [x]
+  Extra source: crystal-lang.org release post Jun 19 2014; Wikipedia Crystal
+  Verified: Crystal 0.1.0 released June 19, 2014.
+
+terraform-released - Terraform first released [x]
+  Extra source: HashiCorp Terraform announcement Jul 28 2014; Wikipedia Terraform
+  Verified: HashiCorp released Terraform 0.1.0 July 28, 2014.
+
+esp8266-released - ESP8266 Wi-Fi module popularized [x]
+  Extra source: Wikipedia ESP8266; Hackaday Aug 26 2014
+  Verified: ESP-01 module popularized ESP8266 in maker community August 2014.
+
+babel-released - Babel transpiler first released [x]
+  Extra source: babel/babel first commit Sep 28 2014; Babel blog
+  Verified: Sebastian McKenzie released 6to5 (later Babel) September 28, 2014.
+
+lisa-su-amd-ceo - Lisa Su named AMD CEO [x]
+  Extra source: AMD corporate bio; Wikipedia Lisa Su
+  Verified: AMD appointed Lisa Su president and CEO October 8, 2014.
+
+safari-8-released - Safari 8 released [x]
+  Extra source: Apple Newsroom Oct 16 2014; Wikipedia Safari
+  Verified: Apple released Safari 8 with OS X Yosemite October 16, 2014.
+
+cpp14-standard - C++14 standardized [x]
+  Extra source: ISO/IEC 14882:2014; Wikipedia C++14
+  Verified: ISO published C++14 (ISO/IEC 14882:2014) December 2014.
+
+andrej-karpathy-cs231n - Andrej Karpathy launches Stanford CS231n course [x]
+  Extra source: cs231n.stanford.edu 2015 site; Karpathy Stanford page
+  Verified: CS231n debuted winter quarter 2015 (January–March); Karpathy was primary instructor.
+
+# --- Batch 19: events 452–476 ---
+raspberry-pi-2-released - Raspberry Pi 2 released [x]
+  Extra source: Raspberry Pi blog Feb 2 2015; Ars Technica Feb 2 2015
+  Verified: Raspberry Pi 2 Model B went on sale February 2, 2015 ($35, quad-core ARMv7, 1 GB RAM).
+
+laravel-5-released - Laravel 5.0 released [x]
+  Extra source: Laravel News Feb 4 2015; Wikipedia Laravel
+  Verified: Taylor Otwell released Laravel 5.0 February 4, 2015.
+
+grpc-open-sourced - gRPC open-sourced [x]
+  Extra source: Google Developers Blog Feb 26 2015; Square engineering blog
+  Verified: Google open-sourced gRPC February 26, 2015 (HTTP/2 + Protocol Buffers RPC).
+
+nvidia-jetson-released - NVIDIA Jetson TK1 released [x]
+  Extra source: NVIDIA developer blog Mar 17 2015; Wikipedia Nvidia Jetson
+  Verified: NVIDIA announced Jetson TK1 developer board March 17, 2015.
+
+bazel-open-sourced - Bazel open-sourced [x]
+  Extra source: EngFlow "Birth of the Bazel" blog; Kristina Chodorow Mar 25 2015
+  Verified: Google open-sourced Bazel March 24, 2015 (public Blaze fork).
+
+apple-watch-released - Apple Watch released [x]
+  Extra source: Apple Newsroom Apr 23 2015; Wikipedia Apple Watch
+  Verified: Apple Watch went on sale April 24, 2015 in nine countries.
+
+caddy-released - Caddy first released [~]
+  Extra source: caddyserver/caddy v0.5.0 release Apr 28 2015; Hacker News Show HN
+  Verified: Matt Holt released Caddy v0.5.0 April 28, 2015 with HTTP/2 support.
+  Note: Summary/about claim automatic HTTPS at launch; Let's Encrypt integration shipped in Caddy v0.8 (December 2015).
+
+visual-studio-code-preview - Visual Studio Code preview released [x]
+  Extra source: Microsoft DevBlog Apr 29 2015; Wikipedia Visual Studio Code
+  Verified: Microsoft released VS Code preview at Build April 29, 2015.
+
+jwt-standardized - JWT standardized [x]
+  Extra source: RFC Editor RFC 7519 history (published 2015-05-19); IETF datatracker
+  Verified: RFC 7519 (JSON Web Token) published May 2015.
+
+http-2-standardized - HTTP/2 standardized [x]
+  Extra source: RFC Editor RFC 7540; Wikipedia HTTP/2
+  Verified: RFC 7540 published HTTP/2 May 14, 2015.
+
+cargo-released - Cargo 1.0 released [x]
+  Extra source: Rust Blog May 15 2015; The Cargo Book
+  Verified: Cargo 1.0 shipped with Rust 1.0 May 15, 2015.
+
+rust-1-0-released - Rust 1.0 released [x]
+  Extra source: Rust Blog May 15 2015; Wikipedia Rust
+  Verified: Rust 1.0 stable release May 15, 2015.
+
+rollup-released - Rollup first released [~]
+  Extra source: rollup/rollup 0.3.0 commit May 21 2015; SurviveJS Rich Harris interview
+  Verified: Rich Harris published Rollup 0.3.0 May 21, 2015 as first public meaningful release.
+  Note: Earlier 0.1.0–0.2.x tags existed as experiments; 0.3.0 is the cited milestone.
+
+cockroachdb-open-sourced - CockroachDB open sourced [x]
+  Extra source: Cockroach Labs "Hello, world" Jun 4 2015; Wikipedia CockroachDB
+  Verified: Cockroach Labs open-sourced CockroachDB June 4, 2015.
+
+swift-2-announced - Swift 2 announced at WWDC [x]
+  Extra source: Apple WWDC 2015 session 402; Wikipedia Swift
+  Verified: Apple announced Swift 2 at WWDC June 8, 2015.
+
+ecmascript-2015-adopted - JavaScript ES6 standardized [x]
+  Extra source: Ecma International GA announcement Jun 17 2015; Wikipedia ECMAScript
+  Verified: Ecma General Assembly adopted ECMAScript 2015 (ES6) June 17, 2015.
+
+open-container-initiative-launched - Open Container Initiative launched [x]
+  Extra source: TechCrunch Jun 22 2015; OCI overview page
+  Verified: Docker, CoreOS, and others launched OCI June 22, 2015; Docker donated runc.
+
+graphql-open-sourced - GraphQL technical preview open-sourced [x]
+  Extra source: graphql/graphql-js first commit Jul 1 2015; Meta engineering blog Sep 2015
+  Verified: Facebook open-sourced GraphQL.js technical preview July 1, 2015.
+
+csharp-6-roslyn-released - C# 6 and Roslyn compiler released [x]
+  Extra source: Microsoft DevBlog Jul 20 2015; Wikipedia Roslyn
+  Verified: Visual Studio 2015 RTM shipped July 20, 2015 with C# 6 and open-source Roslyn.
+
+microsoft-edge-released - Microsoft Edge released with Windows 10 [x]
+  Extra source: Windows Experience Blog Jul 29 2015; Wikipedia Microsoft Edge
+  Verified: Microsoft Edge shipped with Windows 10 July 29, 2015 (EdgeHTML engine).
+
+sundar-pichai-google-ceo - Sundar Pichai named Google CEO [x]
+  Extra source: Google blog Aug 10 2015; Wikipedia Sundar Pichai
+  Verified: Google appointed Sundar Pichai CEO August 10, 2015 amid Alphabet reorg.
+
+nodejs-4-released - Node.js 4.0 released [~]
+  Extra source: nodejs.org v4.0.0 release notes Sep 8 2015; Node.js Foundation announcement
+  Verified: Node.js 4.0.0 released September 8, 2015, merging io.js back into Node.
+  Note: LTS plan was announced with 4.0; first official LTS release was Node 4.2.0 "Argon" in October 2015.
+
+phoenix-1-0-released - Phoenix 1.0 released [-]
+  Extra source: Phoenix blog Aug 28 2015; phoenixframework/phoenix v1.0.0 tag
+  Verified: Phoenix 1.0.0 released August 28, 2015.
+  Issue: Event dated September 12, 2015; source URL (phoenix-1-0-0-released) returns 404.
+
+elixir-1-0-released - Elixir 1.0 released [-]
+  Extra source: elixir-lang/elixir v1.0.0 tag Sep 10 2014; Elixir blog Sep 18 2014
+  Verified: Elixir 1.0.0 released September 10, 2014 (blog announcement September 18, 2014).
+  Issue: Event dated September 18, 2015 — a year late; source URL (2015/09/18) returns 404.
+
+safari-9-released - Safari 9 released [x]
+  Extra source: MacRumors Sep 30 2015; Apple Newsroom El Capitan Sep 30 2015
+  Verified: Safari 9 released September 30, 2015 with OS X El Capitan; also offered for Yosemite/Mavericks.
+
+# --- Batch 20: events 477–501 ---
+raspberry-pi-zero-released - Raspberry Pi Zero released [x]
+  Extra source: Raspberry Pi blog Nov 26 2015; TechCrunch Nov 26 2015
+  Verified: Raspberry Pi Zero announced and went on sale November 26, 2015 ($5).
+
+symfony-3-released - Symfony 3.0 released [x]
+  Extra source: Symfony blog Nov 30 2015; Wikipedia Symfony
+  Verified: Symfony 3.0.0 released November 30, 2015.
+
+sam-altman-openai-founded - Sam Altman co-founds OpenAI [-]
+  Extra source: OpenAI introducing post Dec 11 2015; TechCrunch Dec 11 2015
+  Verified: OpenAI announced December 11, 2015; Sam Altman was co-chair with Elon Musk.
+  Issue: Summary says Altman was "president"; launch announcement lists him as co-chair, not president.
+
+lets-encrypt-public-beta - Let's Encrypt public beta launched [x]
+  Extra source: letsencrypt.org Dec 3 2015 post; Wikipedia Let's Encrypt
+  Verified: Let's Encrypt entered public beta December 3, 2015.
+
+php-7-0-released - PHP 7.0 released [x]
+  Extra source: PHP.net 7.0.0 release notes; Wikipedia PHP
+  Verified: PHP 7.0.0 released December 3, 2015.
+
+swift-open-sourced - Swift open-sourced [x]
+  Extra source: Apple Newsroom Dec 3 2015; Wikipedia Swift
+  Verified: Apple open-sourced Swift December 3, 2015 under Apache 2.0.
+
+ilya-sutskever-openai-research - Ilya Sutskever named OpenAI research director [x]
+  Extra source: OpenAI introducing post Dec 11 2015; IEEE Spectrum Dec 11 2015
+  Verified: OpenAI launched December 11, 2015 with Ilya Sutskever as research director.
+
+perl-6-christmas-released - Perl 6.0.0 'Christmas' released [~]
+  Extra source: Perl 6 Advent Calendar Dec 25 2015; Rakudo 2015.12 announcement
+  Verified: Perl 6 v6.c "Christmas" language spec and Rakudo 2015.12 released December 25, 2015.
+  Note: Title says "6.0.0"; official designation is v6.c spec / Rakudo 2015.12, not a "6.0.0" semver tag.
+
+brave-browser-launched - Brave browser launched [~]
+  Extra source: Brave blog Jan 20 2016; VentureBeat Jan 20 2016
+  Verified: Brave Software released first public browser January 20, 2016 (v0.7 developer preview).
+  Note: Summary says "Brave 1.0 in beta"; initial release was v0.7, not 1.0.
+
+zig-announced - Zig programming language announced [x]
+  Extra source: Andrew Kelley blog Feb 8 2016; Wikipedia Zig
+  Verified: Andrew Kelley introduced Zig February 8, 2016.
+
+kotlin-1-0-released - Kotlin 1.0 released [x]
+  Extra source: JetBrains blog Feb 15 2016; Wikipedia Kotlin
+  Verified: JetBrains released Kotlin 1.0 February 15, 2016.
+
+demis-hassabis-alphago-victory - Demis Hassabis's AlphaGo defeats Lee Sedol 4–1 [x]
+  Extra source: Wikipedia AlphaGo vs Lee Sedol; Google blog match recap
+  Verified: AlphaGo won the five-game match 4–1; final game concluded March 15, 2016 in Seoul.
+
+andy-jassy-aws-ceo - Andy Jassy named AWS CEO [x]
+  Extra source: Amazon blog Apr 7 2016; Wikipedia Andy Jassy
+  Verified: Amazon promoted Andy Jassy to CEO of AWS April 7, 2016.
+
+vivaldi-browser-launched - Vivaldi browser launched [x]
+  Extra source: Vivaldi blog Apr 12 2016; Wikipedia Vivaldi
+  Verified: Vivaldi 1.0 released April 12, 2016.
+
+nodejs-6-released - Node.js 6 released [~]
+  Extra source: nodejs.org v6.0.0 release Apr 26 2016; Node.js Foundation announcement
+  Verified: Node.js 6.0.0 released April 26, 2016.
+  Note: Became Active LTS in October 2016; 6.0.0 itself shipped as "Current" release line.
+
+dotnet-core-1-0-released - .NET Core 1.0 released [x]
+  Extra source: Microsoft DevBlog Jun 27 2016; Wikipedia .NET
+  Verified: Microsoft released .NET Core 1.0 June 27, 2016.
+
+language-server-protocol-announced - Language Server Protocol announced [x]
+  Extra source: Red Hat press release Jun 27 2016; LSP overview docs
+  Verified: Microsoft, Red Hat, and Codenvy announced LSP June 27, 2016.
+
+powershell-core-open-sourced - PowerShell open-sourced on GitHub [x]
+  Extra source: Microsoft PowerShell blog Aug 18 2016; Wikipedia PowerShell
+  Verified: Microsoft open-sourced PowerShell and announced Linux/macOS support August 18, 2016.
+
+angular-2-released - Angular 2.0 final released [x]
+  Extra source: Google Open Source Blog Sep 14 2016; Wikipedia Angular
+  Verified: Angular 2.0.0 final released September 14, 2016.
+
+safari-10-released - Safari 10 released [x]
+  Extra source: Apple Newsroom Sep 20 2016; Wikipedia Safari
+  Verified: Safari 10 released with macOS Sierra September 20, 2016.
+
+audrey-tang-digital-minister - Audrey Tang appointed Taiwan digital minister [x]
+  Extra source: Storm Media Oct 1 2016; Wikipedia Audrey Tang
+  Verified: Audrey Tang took office as minister without portfolio October 1, 2016 (widely called digital minister).
+
+yarn-released - Yarn released [~]
+  Extra source: Meta Engineering blog Oct 11 2016; Yarn blog Oct 11 2016
+  Verified: Facebook/Meta and partners released Yarn October 11, 2016.
+  Note: First public release was Yarn 0.1.0; lockfile support predates npm's package-lock.json.
+
+nextjs-open-sourced - Next.js open sourced [x]
+  Extra source: Vercel blog Oct 25 2016; Wikipedia Next.js
+  Verified: ZEIT (now Vercel) open-sourced Next.js October 25, 2016.
+
+helm-2-released - Helm 2.0 released [x]
+  Extra source: helm/helm v2.0.0 release Nov 17 2016; Helm project history
+  Verified: Helm 2.0.0 released November 17, 2016.
+
+samsung-internet-chromium-released - Samsung Internet moves to Chromium [-]
+  Extra source: Smashing Magazine Oct 2016 interview; Samsung Internet v6.2 stable Oct 30 2017
+  Verified: Samsung Internet adopted Chromium in early 2013 (Galaxy S4, Chromium 18); v6.2 upgraded to Chromium 56 in October 2017.
+  Issue: Event title/date imply first Chromium migration in Jan 2017; browser has been Chromium-based since 2013.
+
+# --- Batch 21: events 502–526 ---
+yoshua-bengio-mila-founded - Yoshua Bengio leads founding of Mila AI institute [~]
+  Extra source: Mila About page; OpenGov Canada incorporation record
+  Verified: Mila expanded and incorporated as a nonprofit July 19, 2017; Bengio's lab dates to 1993.
+  Note: January 2017 marks expansion announcement; formal NPO incorporation was July 2017. "Founded" conflates 1993 lab with 2017 institute.
+
+nestjs-announced - NestJS introduced [x]
+  Extra source: Wikipedia NestJS; nestjs.com docs
+  Verified: Kamil Myśliwiec introduced NestJS February 26, 2017.
+
+webassembly-mvp-finished - WebAssembly MVP design finished [~]
+  Extra source: W3C public-webassembly Feb 28 2017 consensus post; InfoQ Mar 2017
+  Verified: Browser vendors reached WebAssembly MVP consensus February 28, 2017; shipping began March 2017.
+  Note: Event dated March 2017; consensus was end of February with Firefox 52 shipping Wasm in early March.
+
+lisa-su-amd-zen-launched - Lisa Su launches AMD Ryzen on Zen architecture [x]
+  Extra source: AMD press release Mar 2 2017; Ars Technica Mar 2 2017
+  Verified: AMD launched Ryzen 7 (Zen) desktop processors worldwide March 2, 2017.
+
+csharp-7-released - C# 7 released with Visual Studio 2017 [x]
+  Extra source: Microsoft DevBlog Mar 7 2017; Wikipedia C#
+  Verified: Visual Studio 2017 RTM shipped March 7, 2017 with C# 7.
+
+kotlin-android-official - Kotlin made official for Android [x]
+  Extra source: Android Developers blog May 17 2017; Google I/O 2017
+  Verified: Google announced official Android support for Kotlin at I/O May 17, 2017.
+
+nodejs-8-released - Node.js 8 released [~]
+  Extra source: nodejs.org v8.0.0 release May 30 2017; InfoQ Jun 2017
+  Verified: Node.js 8.0.0 released May 30, 2017 with V8 5.8 and npm 5.
+  Note: Native async/await was enabled by default in Node 7.6; Node 8 became Active LTS in October 2017.
+
+pnpm-released - pnpm 1.0 released [x]
+  Extra source: Medium pnpm version 1 post Jun 28 2017; Wikipedia pnpm
+  Verified: Zoltan Kochan released pnpm 1.0 June 28, 2017.
+
+windows-phone-eol - Windows Phone support ended [-]
+  Extra source: Microsoft lifecycle WP 8.1 Jul 11 2017; Wikipedia Windows 10 Mobile
+  Verified: Windows Phone 8.1 end of support was July 11, 2017.
+  Issue: About claims Windows 10 Mobile also stopped receiving updates in 2017; W10 Mobile EOL was January 14, 2020.
+
+chris-wanstrath-github-ceo-steps-down - Chris Wanstrath announces he will step down as GitHub CEO [x]
+  Extra source: CNBC Aug 17 2017; Wikipedia Chris Wanstrath
+  Verified: Chris Wanstrath announced he would step down as GitHub CEO August 17, 2017.
+
+safari-11-released - Safari 11 released [x]
+  Extra source: Apple Newsroom Sep 19 2017; Wikipedia Safari
+  Verified: Safari 11 released with macOS High Sierra September 19, 2017.
+
+firefox-57-quantum - Firefox 57 Quantum released [x]
+  Extra source: Mozilla blog Nov 14 2017; Wikipedia Firefox
+  Verified: Mozilla shipped Firefox 57 "Quantum" November 14, 2017.
+
+symfony-4-released - Symfony 4.0 released [x]
+  Extra source: Symfony blog Nov 30 2017; Wikipedia Symfony
+  Verified: Symfony 4.0.0 released November 30, 2017.
+
+cpp17-standard - C++17 standardized [x]
+  Extra source: ISO/IEC 14882:2017; Wikipedia C++17
+  Verified: ISO published C++17 (ISO/IEC 14882:2017) December 2017.
+
+deep-learning-turing-trio-2018 - Hinton, Bengio, and LeCun share Turing Award [x]
+  Extra source: ACM Turing Award page; ACM announcement Mar 27 2019
+  Verified: ACM named Bengio, Hinton, and LeCun recipients of the 2018 Turing Award (announced March 27, 2019).
+
+yann-lecun-meta-chief-ai - Yann LeCun named Facebook chief AI scientist [x]
+  Extra source: The Verge Jan 23 2018; Wikipedia Yann LeCun
+  Verified: Yann LeCun became Facebook chief AI scientist January 23, 2018; Jérôme Pesenti took FAIR operational lead.
+
+nodejs-10-released - Node.js 10 released [x]
+  Extra source: nodejs.org v10.0.0 release Apr 24 2018; Node.js Foundation announcement
+  Verified: Node.js 10.0.0 released April 24, 2018.
+
+ryan-dahl-deno-announced - Ryan Dahl announces Deno [x]
+  Extra source: JSConf EU May 30 2018 talk; Wikipedia Deno
+  Verified: Ryan Dahl unveiled Deno at JSConf EU May 30, 2018.
+
+guido-van-rossum-bdfl-step-down - Guido van Rossum steps down as Python BDFL [x]
+  Extra source: python-committers mailing list Jul 12 2018; Wikipedia Guido van Rossum
+  Verified: Guido van Rossum stepped down as Python BDFL July 12, 2018.
+
+phoenix-liveview-released - Phoenix LiveView announced [x]
+  Extra source: Elixir blog Sep 4 2018; ElixirConf US 2018
+  Verified: José Valim announced Phoenix LiveView September 4, 2018 at ElixirConf US.
+
+java-11-released - Java 11 LTS released [~]
+  Extra source: OpenJDK JDK 11 GA Sep 25 2018; JEP 286 (var in Java 10)
+  Verified: Java 11 LTS released September 25, 2018.
+  Note: Summary lists `var`; local-variable type inference debuted in Java 10 (JEP 286). Java 11 extended var to lambda parameters.
+
+graphql-foundation-announced - GraphQL Foundation announced [x]
+  Extra source: Linux Foundation press release Nov 6 2018; Wikipedia GraphQL
+  Verified: Linux Foundation announced intent to form GraphQL Foundation November 6, 2018.
+
+flutter-1-0-released - Flutter 1.0 released [x]
+  Extra source: Google Developers blog Dec 4 2018; Wikipedia Flutter
+  Verified: Google released Flutter 1.0 at Flutter Live December 4, 2018.
+
+fastapi-released - FastAPI first released [x]
+  Extra source: tiangolo/fastapi first commit Dec 5 2018; Wikipedia FastAPI
+  Verified: Sebastián Ramírez released FastAPI December 5, 2018.
+
+fei-fei-li-stanford-hai - Fei-Fei Li co-directs Stanford HAI launch [x]
+  Extra source: Stanford Report Mar 18 2019; hai.stanford.edu
+  Verified: Stanford launched the Institute for Human-Centered AI March 18, 2019 with Fei-Fei Li as co-director.
+
+# --- Batch 22: events 527–551 ---
+nodejs-12-released - Node.js 12 released [x]
+  Extra source: nodejs.org v12.0.0 release Apr 23 2019; Node.js Foundation blog
+  Verified: Node.js 12.0.0 shipped April 23, 2019 with V8 7.4; became Active LTS October 2019.
+
+opera-gx-released - Opera GX browser released [x]
+  Extra source: Opera News blog Jun 11 2019; Wikipedia Opera GX
+  Verified: Opera launched Opera GX June 11, 2019 with CPU/RAM/network limiters.
+
+dotnet-core-3-0-released - .NET Core 3.0 and C# 8 released [x]
+  Extra source: Microsoft DevBlog Sep 23 2019; Wikipedia C#
+  Verified: .NET Core 3.0 and C# 8 shipped September 23, 2019 with nullable reference types and desktop support.
+
+github-actions-ga - GitHub Actions generally available [~]
+  Extra source: GitHub Blog Universe Day One Nov 13 2019; ZDNet Nov 13 2019
+  Verified: GitHub announced Actions GA at Universe November 13, 2019.
+  Note: Changelog post is dated November 11; public GA announcement was November 13 at Universe.
+
+python-2-end-of-life - Python 2 reaches end of life [x]
+  Extra source: python.org sunset-python-2 page; PSF Jan 1 2020 statement
+  Verified: PSF ended Python 2 support January 1, 2020 per long-announced sunset plan.
+
+edge-chromium-released - Chromium-based Microsoft Edge released [x]
+  Extra source: Windows Experience blog Jan 15 2020; Wikipedia Microsoft Edge
+  Verified: Microsoft shipped Chromium-based Edge January 15, 2020.
+
+musk-openai-more-open - Elon Musk: "OpenAI should be more open" [x]
+  Extra source: TechCrunch Feb 18 2020; Inverse Feb 18 2020
+  Verified: Elon Musk tweeted "OpenAI should be more open imo" February 17, 2020.
+
+nodejs-14-released - Node.js 14 released [x]
+  Extra source: nodejs.org v14.0.0 release Apr 21 2020; Node.js Medium post Apr 21 2020
+  Verified: Node.js 14.0.0 shipped April 21, 2020 with V8 8.1 enabling optional chaining and nullish coalescing.
+
+ecmascript-2020-adopted - ECMAScript 2020 standardized [x]
+  Extra source: Ecma International press release Jun 16 2020; tc39/esma262 es2020 tag
+  Verified: Ecma GA approved ECMAScript 2020 (ECMA-262 11th edition) June 16, 2020.
+
+gpt-3-api-released - OpenAI GPT-3 API announced [x]
+  Extra source: OpenAI blog Jun 11 2020; VentureBeat Jun 11 2020
+  Verified: OpenAI announced API access to GPT-3-family models June 11, 2020 in invite-only beta.
+
+sanfilippo-redis-maintainer-steps-down - Salvatore Sanfilippo steps down as Redis maintainer [x]
+  Extra source: antirez.com news/133 Jun 30 2020; Redis blog coverage
+  Verified: Salvatore Sanfilippo (antirez) stepped down as Redis maintainer June 30, 2020.
+
+laravel-8-released - Laravel 8.0 released [x]
+  Extra source: Laravel News Sep 8 2020; laravel.com/docs/8.x releases
+  Verified: Taylor Otwell released Laravel 8.0 September 8, 2020.
+
+vue-3-released - Vue 3.0 released [x]
+  Extra source: Vue.js blog "One Piece" Sep 18 2020; Wikipedia Vue.js
+  Verified: Evan You shipped Vue 3.0 September 18, 2020 with Composition API.
+
+webpack-5-released - Webpack 5 released [x]
+  Extra source: webpack.js.org blog Oct 10 2020; Wikipedia Webpack
+  Verified: Webpack 5.0 shipped October 10, 2020 with module federation and persistent caching.
+
+safari-14-big-sur - Safari 14 shipped with macOS Big Sur [~]
+  Extra source: Apple Newsroom Nov 12 2020; Wikipedia macOS Big Sur
+  Verified: Safari 14 released with macOS Big Sur November 12, 2020; WebExtensions support on Mac.
+  Note: About cites M1 tuning; Big Sur/Safari 14 shipped November 12, five days before M1 Mac retail launch November 17.
+
+dotnet-5-released - .NET 5 released [x]
+  Extra source: Microsoft DevBlog Nov 10 2020; Wikipedia .NET
+  Verified: Microsoft shipped .NET 5 November 10, 2020, unifying .NET Core branding.
+
+apple-m1-announced - Apple M1 announced [x]
+  Extra source: Apple Newsroom Nov 10 2020; Wikipedia Apple silicon
+  Verified: Apple announced M1 and M1 Macs November 10, 2020.
+
+csharp-9-released - C# 9 released with .NET 5 [x]
+  Extra source: Microsoft DevBlog Nov 10 2020; Wikipedia C#
+  Verified: C# 9 shipped with .NET 5 November 10, 2020 with records and init-only properties.
+
+apple-m1-mac-shipped - M1 MacBook Air and Pro ship [x]
+  Extra source: MacRumors Nov 17 2020; Wikipedia MacBook Air (Apple silicon)
+  Verified: M1 MacBook Air and 13-inch MacBook Pro reached customers November 17, 2020.
+
+php-8-0-released - PHP 8.0 released [x]
+  Extra source: php.net releases/8.0 Nov 26 2020; PHP RFC JIT
+  Verified: PHP 8.0.0 released November 26, 2020 with JIT, union types, and match.
+
+cpp20-standard - C++20 standardized [x]
+  Extra source: ISO/IEC 14882:2020; Wikipedia C++20
+  Verified: ISO published C++20 (ISO/IEC 14882:2020) December 2020.
+
+ruby-3-0-released - Ruby 3.0 released [x]
+  Extra source: ruby-lang.org Dec 25 2020; Ruby 3.0 NEWS
+  Verified: Ruby 3.0.0 released December 25, 2020 with RBS and MJIT improvements; YJIT arrived in Ruby 3.1.
+
+flash-player-discontinued - Adobe Flash Player discontinued [x]
+  Extra source: adobe.com flashplayer EOL page; Wikipedia Adobe Flash
+  Verified: Adobe ended Flash Player distribution and updates December 31, 2020; content blocking followed January 12, 2021.
+
+chrome-manifest-v3 - Chrome Manifest V3 extension platform [~]
+  Extra source: Chrome Developers "New in Chrome 88" Jan 19 2021; The Register Jan 19 2021
+  Verified: Chrome 88 stable enabled Manifest V3 extension uploads to the Web Store in January 2021.
+  Note: MV3 coexisted with Manifest V2 for years; mandatory V2 deprecation came much later (2025).
+
+dario-amodei-anthropic-founded - Dario Amodei co-founds Anthropic [~]
+  Extra source: Wikipedia Anthropic; TechCrunch May 28 2021
+  Verified: Dario Amodei co-founded Anthropic January 26, 2021 with Daniela Amodei and other ex-OpenAI researchers.
+  Note: Company stayed in stealth until public launch and $124M funding announcement May 2021.
+
+# --- Batch 23: events 552–576 ---
+pat-gelsinger-intel-ceo - Pat Gelsinger returns as Intel CEO [x]
+  Extra source: Intel press release Jan 13 2021; SEC 8-K filing
+  Verified: Pat Gelsinger became Intel CEO effective February 15, 2021 (announced January 13).
+
+vite-1-released - Vite 1.0 released [-]
+  Extra source: vite.dev announcing-vite2 Feb 16 2021; GitHub vite CHANGELOG
+  Verified: February 16, 2021 was the Vite 2.0 stable release announcement.
+  Issue: Title says "Vite 1.0"; Vite 1.0 never left RC — Feb 16, 2021 is Vite 2.0's first stable release. Source URL announcing-vite1.html is wrong.
+
+nodejs-16-released - Node.js 16 released [x]
+  Extra source: nodejs.org v16.0.0 release Apr 20 2021; Node.js blog
+  Verified: Node.js 16.0.0 shipped April 20, 2021 with V8 9.0 and Apple Silicon builds.
+
+scala-3-released - Scala 3.0 released [x]
+  Extra source: scala-lang.org blog May 4 2021; Wikipedia Scala
+  Verified: Scala 3.0.0 released May 4, 2021 (Dotty-based compiler).
+
+ghc-9-0-released - GHC 9.0 released [-]
+  Extra source: haskell.org GHC blog Feb 4 2021; downloads.haskell.org ghc/9.0.1
+  Verified: GHC 9.0.1 released February 4, 2021.
+  Issue: Event dated May 9, 2021; actual release was February 4, 2021. Source URL (20210509) returns 404. Summary wrongly implies a new code generator replaced the old one.
+
+erlang-otp-24-released - Erlang/OTP 24 released [x]
+  Extra source: erlang.org news/150 May 12 2021; OTP 24 release notes
+  Verified: Erlang/OTP 24.0 released May 12, 2021 with JIT compilation.
+
+safari-15-ios-web-extensions - Safari 15 brought web extensions to iOS [x]
+  Extra source: Apple Newsroom Sep 20 2021; WebKit blog Safari 15
+  Verified: iOS 15 and Safari 15 released September 20, 2021 with WebExtensions on iPhone/iPad.
+
+java-17-released - Java 17 LTS released [x]
+  Extra source: OpenJDK jdk/17 project page; Oracle Java 17 announcement Sep 14 2021
+  Verified: Java 17 LTS GA September 14, 2021 with sealed classes and pattern matching preview.
+
+swift-5-5-async-await - Swift 5.5 async/await released [x]
+  Extra source: swift.org blog Sep 20 2021; Apple Xcode 13 release notes
+  Verified: Swift 5.5 with async/await and actors shipped September 20, 2021 with Xcode 13.
+
+python-3-10-released - Python 3.10 released [x]
+  Extra source: python.org downloads/python-3100 Oct 4 2021; What's New in 3.10
+  Verified: Python 3.10.0 released October 4, 2021 with structural pattern matching.
+
+rust-2021-edition - Rust 2021 edition released [x]
+  Extra source: blog.rust-lang.org Rust 1.56.0 Oct 21 2021; Rust 2021 edition guide
+  Verified: Rust 1.56.0 shipped the 2021 edition October 21, 2021.
+
+ghc-9-2-released - GHC 9.2 released [x]
+  Extra source: haskell.org GHC blog Nov 6 2021; GHC 9.2.1 release notes
+  Verified: GHC 9.2.1 released November 6, 2021.
+
+dotnet-6-released - .NET 6 LTS released [x]
+  Extra source: Microsoft DevBlog Nov 8 2021; .NET 6 release notes
+  Verified: .NET 6 LTS shipped November 8, 2021.
+
+csharp-10-released - C# 10 released with .NET 6 [x]
+  Extra source: Microsoft DevBlog Nov 8 2021; Wikipedia C#
+  Verified: C# 10 shipped with .NET 6 November 8, 2021 with file-scoped namespaces and record structs.
+
+django-4-released - Django 4.0 released [~]
+  Extra source: djangoproject.com weblog Dec 7 2021; Django 4.0 release notes
+  Verified: Django 4.0 released December 7, 2021 with zoneinfo and scrypt password hashing.
+  Note: About says "dropped Python 2 legacy paths"; Django dropped Python 2 in 2.0 (2017). Django 4.0 dropped Python 3.6 support.
+
+rails-7-released - Ruby on Rails 7.0 released [x]
+  Extra source: rubyonrails.org Dec 15 2021; Rails 7.0 release notes
+  Verified: Rails 7.0 shipped December 15, 2021 with import maps and Hotwire.
+
+blackberry-os-eol - BlackBerry OS end of life [x]
+  Extra source: blackberry.com end-of-life page; Wikipedia BlackBerry 10
+  Verified: BlackBerry ended support for BlackBerry OS and BlackBerry 10 January 4, 2022.
+
+go-1-18-generics - Go 1.18 added generics [x]
+  Extra source: go.dev/blog/go1.18 Mar 15 2022; Go 1.18 release notes
+  Verified: Go 1.18 released March 15, 2022 with type parameters (generics).
+
+arc-browser-released - Arc browser launched [x]
+  Extra source: Wikipedia Arc browser; Browser Company Twitter Apr 19 2022
+  Verified: The Browser Company announced Arc in invite-only beta April 19, 2022.
+
+nodejs-18-released - Node.js 18 released [~]
+  Extra source: nodejs.org v18.0.0 release Apr 19 2022; Node.js v18 announcement
+  Verified: Node.js 18.0.0 shipped April 19, 2022 with V8 10.1 and experimental global fetch.
+  Note: Global fetch was experimental in 18.0.0 (disabled via --no-experimental-fetch); stabilized in later releases.
+
+erlang-otp-25-released - Erlang/OTP 25 released [x]
+  Extra source: erlang.org news/159 May 17 2022; OTP 25 release notes
+  Verified: Erlang/OTP 25.0 released May 17, 2022.
+
+ecmascript-2022-adopted - ECMAScript 2022 standardized [x]
+  Extra source: Ecma International press release Jun 22 2022; tc39/esma262 es2022 tag
+  Verified: Ecma GA approved ECMAScript 2022 (ECMA-262 13th edition) June 22, 2022.
+
+http-3-standardized - HTTP/3 standardized [x]
+  Extra source: RFC 9114 (June 2022); IETF announcement Jun 6 2022
+  Verified: RFC 9114 published HTTP/3 June 6, 2022.
+
+internet-explorer-11-retired - Internet Explorer 11 retired [~]
+  Extra source: Microsoft Windows Experience blog Jun 15 2022; Microsoft IE11 retirement FAQ
+  Verified: IE11 desktop app retired June 15, 2022 for Windows 10 SAC/Home/Pro/Enterprise/Edu/IoT SAC.
+  Note: Windows 10 LTSC, Windows Server, and Windows 7 ESU editions were explicitly out of scope and retained IE11 support.
+
+python-3-11-released - Python 3.11 released [x]
+  Extra source: python.org downloads/python-3110 Oct 24 2022; What's New in 3.11
+  Verified: Python 3.11.0 released October 24, 2022 with faster CPython and improved tracebacks.
+
+# --- Batch 24: events 577–601 ---
+nextjs-13-app-router - Next.js 13 introduced the App Router [~]
+  Extra source: nextjs.org/blog/next-13 Oct 25 2022; Wikipedia Next.js
+  Verified: Vercel released Next.js 13 with App Router beta October 25, 2022.
+  Note: App Router shipped as beta; Next.js blog warned against production use until 13.4 (May 2023).
+
+dotnet-7-released - .NET 7 released [x]
+  Extra source: Microsoft DevBlog Nov 8 2022; .NET 7 release notes
+  Verified: Microsoft shipped .NET 7 November 8, 2022.
+
+csharp-11-released - C# 11 released with .NET 7 [x]
+  Extra source: Microsoft DevBlog Nov 8 2022; Wikipedia C#
+  Verified: C# 11 shipped with .NET 7 November 8, 2022 with raw string literals and required members.
+
+chatgpt-released - ChatGPT launched [~]
+  Extra source: OpenAI blog Nov 30 2022; Reuters Feb 1 2023 UBS/Similarweb report
+  Verified: OpenAI launched ChatGPT research preview November 30, 2022, fine-tuned from GPT-3.5.
+  Note: Summary's "100 million users faster than any prior consumer app" refers to analyst estimates reported February 2023, not the launch date.
+
+sveltekit-1-released - SvelteKit 1.0 released [x]
+  Extra source: svelte.dev/blog/sveltekit-1-0 Dec 14 2022; SvelteKit docs
+  Verified: SvelteKit 1.0 shipped December 14, 2022.
+
+gpt-3-5-turbo-released - GPT-3.5 Turbo API released [x]
+  Extra source: OpenAI blog Mar 1 2023; TechCrunch Mar 1 2023
+  Verified: OpenAI released gpt-3.5-turbo via Chat Completions API March 1, 2023.
+
+gpt-4-released - GPT-4 released [x]
+  Extra source: OpenAI research/gpt-4 Mar 14 2023; Wikipedia GPT-4
+  Verified: OpenAI released GPT-4 March 14, 2023 with API access and ChatGPT Plus integration.
+
+typescript-5-0-released - TypeScript 5.0 released [x]
+  Extra source: Microsoft DevBlog Mar 20 2023; TypeScript 5.0 release notes
+  Verified: TypeScript 5.0 shipped March 20, 2023 with ECMAScript decorators support.
+
+ghc-9-6-released - GHC 9.6 released [x]
+  Extra source: haskell.org GHC blog Mar 21 2023; GHC 9.6.1 release notes
+  Verified: GHC 9.6.1 released March 21, 2023.
+
+nodejs-20-released - Node.js 20 released [x]
+  Extra source: nodejs.org v20.0.0 release Apr 18 2023; Node.js blog
+  Verified: Node.js 20.0.0 shipped April 18, 2023; became Active LTS October 2023.
+
+geoffrey-hinton-google-departure - Geoffrey Hinton leaves Google warning of AI risks [x]
+  Extra source: NYT May 1 2023; Geoffrey Hinton tweet May 1 2023
+  Verified: Geoffrey Hinton announced his departure from Google May 1, 2023 to speak freely on AI risks.
+
+dart-3-released - Dart 3 released [x]
+  Extra source: dart.dev Dart 3 migration guide May 10 2023; Google I/O 2023
+  Verified: Google released Dart 3 May 10, 2023 with sound null safety only, records, and patterns.
+
+altman-ai-goes-wrong - Sam Altman: "If this technology goes wrong, it can go quite wrong" [x]
+  Extra source: U.S. Senate CHRG-118shrg52706 May 16 2023; AP News May 16 2023
+  Verified: Sam Altman testified before Senate Judiciary May 16, 2023 with this quote on AI risk.
+
+erlang-otp-26-released - Erlang/OTP 26 released [x]
+  Extra source: erlang.org news/170 May 19 2023; OTP 26 release notes
+  Verified: Erlang/OTP 26.0 released May 19, 2023 with stdlib JSON support.
+
+ecmascript-2023-adopted - ECMAScript 2023 standardized [~]
+  Extra source: Ecma International press release Jun 27 2023; tc39/esma262 ES2023
+  Verified: Ecma GA approved ECMAScript 2023 (ECMA-262 14th edition) June 27, 2023.
+  Note: Source URL points to the ES2022 press release (approves-new-standards-5); should reference the June 27 2023 announcement.
+
+claude-2-released - Anthropic Claude 2 released [x]
+  Extra source: anthropic.com/news/claude-2 Jul 11 2023; Wikipedia Claude
+  Verified: Anthropic released Claude 2 July 11, 2023 with 100K-token context window.
+
+llama-2-released - Meta Llama 2 open weights released [x]
+  Extra source: Meta AI blog Jul 18 2023; Wikipedia Llama
+  Verified: Meta released Llama 2 (7B, 13B, 70B) July 18, 2023 for research and commercial use.
+
+elixir-1-14-released - Elixir 1.14 released [x]
+  Extra source: elixir-lang.org blog Sep 19 2023; Elixir 1.14 changelog
+  Verified: Elixir 1.14.0 released September 19, 2023 with dbg/2 macro.
+
+java-21-released - Java 21 LTS released [x]
+  Extra source: OpenJDK jdk/21 project; Oracle Java 21 GA Sep 19 2023
+  Verified: Java 21 LTS GA September 19, 2023 with virtual threads (Project Loom).
+
+mistral-7b-released - Mistral 7B released [x]
+  Extra source: mistral.ai/news/announcing-mistral-7b Sep 27 2023; Hugging Face model card
+  Verified: Mistral AI released Mistral 7B September 27, 2023.
+
+cpp23-standard - C++23 standardized [-]
+  Extra source: isocpp.org/the-Standard; ISO/IEC 14882:2024 publication record
+  Verified: C++23 technical work completed February 2023 (__cplusplus 202302L); ISO published as ISO/IEC 14882:2024 on October 19, 2024.
+  Issue: Event dated October 2023 and summary says "ISO published C++23 in October 2023"; official ISO publication was October 2024 (administrative delay). Source URL may reference wrong standard number.
+
+python-3-12-released - Python 3.12 released [~]
+  Extra source: python.org downloads/python-3120 Oct 2 2023; PEP 701 f-string improvements
+  Verified: Python 3.12.0 released October 2, 2023 with PEP 701 f-string parsing and per-interpreter GIL work.
+  Note: About cites `f"{x=}"` debugging syntax; that debuted in Python 3.8. 3.12 improved f-string flexibility (PEP 701), not debug equals.
+
+gpt-4-turbo-released - GPT-4 Turbo announced [x]
+  Extra source: OpenAI DevDay blog Nov 6 2023; OpenAI platform docs
+  Verified: OpenAI announced GPT-4 Turbo at DevDay November 6, 2023 with 128K context.
+
+dotnet-8-released - .NET 8 LTS released [x]
+  Extra source: Microsoft DevBlog Nov 14 2023; .NET 8 release notes
+  Verified: .NET 8 LTS shipped November 14, 2023.
+
+csharp-12-released - C# 12 released with .NET 8 [x]
+  Extra source: Microsoft DevBlog Nov 14 2023; Wikipedia C#
+  Verified: C# 12 shipped with .NET 8 November 14, 2023 with primary constructors and collection expressions.
+
+# --- Batch 25: events 602–626 ---
+google-gemini-released - Google Gemini announced [x]
+  Extra source: Google blog Dec 6 2023; Wikipedia Gemini (language model)
+  Verified: Google announced Gemini Ultra/Pro/Nano multimodal family December 6, 2023.
+
+elixir-1-16-released - Elixir 1.16 released [x]
+  Extra source: elixir-lang.org blog Jan 28 2024; Elixir 1.16 changelog
+  Verified: Elixir 1.16.0 released January 28, 2024 with type inference in patterns.
+
+google-gemini-1-5-released - Google Gemini 1.5 announced [x]
+  Extra source: Google blog Feb 15 2024; Wikipedia Gemini
+  Verified: Google announced Gemini 1.5 Pro with 1M-token context February 15, 2024.
+
+ios-eu-browser-choice - iOS EU browser choice screens [x]
+  Extra source: MacRumors iOS 17.4 Mar 5 2024; The Verge DMA coverage
+  Verified: iOS 17.4 shipped March 5, 2024 with EU DMA browser choice screen and alternative engine support.
+
+claude-3-released - Anthropic Claude 3 released [x]
+  Extra source: anthropic.com/news/claude-3-family Mar 4 2024; Wikipedia Claude
+  Verified: Anthropic released Claude 3 Haiku, Sonnet, and Opus March 4, 2024 with 200K context.
+
+llama-3-released - Meta Llama 3 released [x]
+  Extra source: Meta AI blog Apr 18 2024; Wikipedia Llama
+  Verified: Meta released Llama 3 8B and 70B open weights April 18, 2024.
+
+nodejs-22-released - Node.js 22 released [~]
+  Extra source: nodejs.org v22.0.0 release Apr 24 2024; DevClass Apr 25 2024
+  Verified: Node.js 22.0.0 shipped April 24, 2024 with experimental require(esm) and WebSocket client.
+  Note: require() of ES modules was experimental behind --experimental-require-module at launch; enabled by default in Node 22.12.0 (Dec 2024).
+
+gpt-4o-released - OpenAI GPT-4o released [x]
+  Extra source: openai.com/index/hello-gpt-4o May 13 2024; Wikipedia GPT-4o
+  Verified: OpenAI released GPT-4o multimodal model May 13, 2024.
+
+erlang-otp-27-released - Erlang/OTP 27 released [x]
+  Extra source: erlang.org news/175 May 20 2024; OTP 27 release notes
+  Verified: Erlang/OTP 27.0 released May 20, 2024.
+
+kotlin-2-0-released - Kotlin 2.0 released [x]
+  Extra source: JetBrains blog May 21 2024; Wikipedia Kotlin
+  Verified: JetBrains shipped Kotlin 2.0.0 with K2 compiler May 21, 2024.
+
+ecmascript-2024-adopted - ECMAScript 2024 standardized [~]
+  Extra source: Ecma International press release Jun 26 2024; tc39/ecma262 ES2024 tag
+  Verified: Ecma GA approved ECMAScript 2024 (ECMA-262 15th edition) June 26, 2024 with Object.groupBy and Promise.withResolvers.
+  Note: Source URL points to the ES2025 press release (approves-new-standards-11); should reference the June 26 2024 announcement (approves-new-standards-9).
+
+claude-3-5-sonnet-released - Anthropic Claude 3.5 Sonnet released [x]
+  Extra source: anthropic.com/news/claude-3-5-sonnet Jun 20 2024; Wikipedia Claude
+  Verified: Anthropic released Claude 3.5 Sonnet June 20, 2024.
+
+openai-o1-released - OpenAI o1 reasoning models released [x]
+  Extra source: openai.com/index/introducing-openai-o1-preview Sep 12 2024; Wikipedia OpenAI o1
+  Verified: OpenAI released o1-preview and o1-mini September 12, 2024.
+
+swift-6-released - Swift 6 released [~]
+  Extra source: swiftlang/swift CHANGELOG Sep 17 2024 (Xcode 16.0); swiftversion.net
+  Verified: Swift 6.0 shipped with Xcode 16 September 17, 2024 with compile-time data-race safety mode.
+  Note: Event dated Sep 16 (iOS 18 GA day); Swift changelog tags Sep 17. Swift 6 language mode is opt-in via -swift-version 6, not universally enabled by default on upgrade.
+
+elixir-1-17-released - Elixir 1.17 released [x]
+  Extra source: elixir-lang.org blog Sep 19 2024; Elixir 1.17 changelog
+  Verified: Elixir 1.17.0 released September 19, 2024 with set-theoretic types in patterns.
+
+python-3-13-released - Python 3.13 released [x]
+  Extra source: python.org downloads/python-3130 Oct 7 2024; What's New in 3.13
+  Verified: Python 3.13.0 released October 7, 2024 with experimental free-threaded build and improved REPL.
+
+claude-3-5-haiku-released - Anthropic Claude 3.5 Haiku released [~]
+  Extra source: anthropic.com/news/3-5-models-and-computer-use Oct 22 2024; OpenRouter model card
+  Verified: Anthropic announced Claude 3.5 Haiku October 22, 2024; API availability followed November 4, 2024.
+  Note: Oct 22 was announcement; "released" title conflates announce date with API GA.
+
+dotnet-9-released - .NET 9 released [x]
+  Extra source: Microsoft DevBlog Nov 12 2024; .NET 9 release notes
+  Verified: Microsoft shipped .NET 9 November 12, 2024.
+
+csharp-13-released - C# 13 released with .NET 9 [-]
+  Extra source: Microsoft Learn C# 13 whats-new; .NET Blog C# 13 params collections
+  Verified: C# 13 shipped with .NET 9 November 12, 2024 with params collections, new lock type, and partial properties.
+  Issue: Summary cites "extension types"; extension types were deferred from C# 13 to a future release.
+
+zig-1-0-released - Zig 1.0 released [-]
+  Extra source: ziglang.org/download (no 1.0.0); JetBrains blog Jun 2026 "Why Zig Isn't 1.0 (Yet)"
+  Verified: Zig 1.0.0 does not exist; ziglang.org/download/1.0.0/release-notes.html returns 404. Latest stable releases remain 0.x (e.g. 0.15.1).
+  Issue: Event is fabricated — Zig has not reached 1.0 as of July 2026.
+
+php-8-4-released - PHP 8.4 released [x]
+  Extra source: php.net releases/8.4 Nov 21 2024; Wikipedia PHP
+  Verified: PHP 8.4.0 released November 21, 2024 with property hooks and asymmetric visibility.
+
+deepseek-r1-released - DeepSeek R1 released [x]
+  Extra source: api-docs.deepseek.com/news/news250120 Jan 20 2025; Wikipedia DeepSeek
+  Verified: DeepSeek released R1 open-weight reasoning model January 20, 2025.
+
+rust-2024-edition - Rust 2024 edition released [~]
+  Extra source: blog.rust-lang.org Feb 20 2025 Rust 1.85.0; GitHub rust-lang/rust 1.85.0 release
+  Verified: Rust 1.85.0 stabilized the 2024 edition February 20, 2025 with async closures and unsafe extern rules.
+  Note: Summary cites `gen` blocks; generators are not part of the stabilized 2024 edition (async closures are).
+
+claude-3-7-sonnet-released - Anthropic Claude 3.7 Sonnet released [x]
+  Extra source: anthropic.com/news/claude-3-7-sonnet Feb 24 2025; Wikipedia Claude
+  Verified: Anthropic released Claude 3.7 Sonnet with extended thinking February 24, 2025.
+
+gpt-4-1-released - OpenAI GPT-4.1 released [x]
+  Extra source: openai.com/index/gpt-4-1 Apr 14 2025; OpenAI API docs
+  Verified: OpenAI released GPT-4.1 and GPT-4.1 mini via API April 14, 2025 with 1M-token context.
+
+# --- Batch 26: events 627–629 (final) ---
+erlang-otp-28-released - Erlang/OTP 28 released [x]
+  Extra source: erlang.org news/180 May 21 2025; GitHub erlang/otp OTP-28.0 tag
+  Verified: Erlang/OTP 28.0 released May 21, 2025 with compiler/JIT improvements, priority messages, and shell enhancements.
+
+ecmascript-2025-adopted - ECMAScript 2025 standardized [~]
+  Extra source: Ecma International press release Jun 25 2025; tc39/ecma262 ES2025 tag
+  Verified: Ecma GA approved ECMAScript 2025 (ECMA-262 16th edition) June 25, 2025 with iterator helpers, Set methods, import attributes, and JSON module imports.
+  Note: Source URL is generic ecma-international.org/news/; should reference approves-new-standards-11. About cites CSS module imports; CSS is an HTML/browser extension of import attributes, not part of ECMA-262 core (which covers json and text types).
+
+python-3-14-released - Python 3.14 released [x]
+  Extra source: python.org downloads/python-3140 Oct 7 2025; discuss.python.org release announcement
+  Verified: Python 3.14.0 released October 7, 2025 with t-strings (PEP 750), deferred annotations (PEP 649), and official free-threaded build support.
+
+# Summary (first 629 — complete)
+# [x] verified: 518
+# [~] minor nuance: 86  (includes batch 26: ecmascript-2025-adopted)
+# [-] issues: 26  (elizabeth-feinler-nic-created, mary-ken-thompson-lynx-created, lynx-2-released, mosaic-1-0-released, yukihiro-matsumoto-ruby-1-released, steve-jobs-returns-to-apple, ballmer-developers-chant, guido-van-rossum-psf-founded, puppet-released, werner-vogels-amazon-cto, rich-hickey-clojure-released, oauth-1-0-published, netscape-browser-discontinued, gunicorn-released, james-gosling-leaves-oracle, express-4-released, phoenix-1-0-released, elixir-1-0-released, sam-altman-openai-founded, samsung-internet-chromium-released, windows-phone-eol, ghc-9-0-released, vite-1-released, cpp23-standard, csharp-13-released, zig-1-0-released)

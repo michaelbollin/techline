@@ -11,7 +11,8 @@ type FilteredTimelinePageProps = {
 export async function generateMetadata({ params }: FilteredTimelinePageProps): Promise<Metadata> {
   const { filters } = await params;
   const activeFilterIds = parseFilterSegment(filters);
-  const labels = filterLabels(activeFilterIds);
+  const { events } = await getTimeline();
+  const labels = filterLabels(activeFilterIds, events);
 
   if (labels.length === 0) {
     return { title: "Techline" };

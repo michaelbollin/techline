@@ -16,6 +16,11 @@ export function EventCard({ event }: EventCardProps) {
           {formatEventDate(event.date, event.datePrecision)}
         </time>
         <CategoryBadge category={event.category} />
+        {event.importance === 0 && (
+          <span className="rounded-full border border-black bg-black px-2 py-0.5 text-[10px] font-medium tracking-wide text-white uppercase">
+            Pillar
+          </span>
+        )}
         {event.importance === 1 && (
           <span className="rounded-full bg-accent-muted px-2 py-0.5 text-[10px] font-medium tracking-wide text-accent uppercase">
             Landmark

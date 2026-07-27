@@ -1,170 +1,151 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo } from "react";
 
+import type { FilterUpdater } from "@/hooks/use-timeline-filters";
 import {
   TIMELINE_FILTER_GROUPS,
+  buildFilterRegistry,
   countFilterMatches,
-  type TimelineFilterDef,
-  type TimelineFilterGroup,
 } from "@/lib/timeline/filters";
+import {
+  SEARCH_FILTER_KIND_LABELS,
+  isSearchFilterId,
+  searchFilterKind,
+} from "@/lib/timeline/filter-options";
 import type { TimelineEvent } from "@/lib/timeline/schema";
+
+import { TimelineSearchFilter } from "./timeline-search-filter";
+import { ThemeDropdown } from "./theme-dropdown";
 
 type TimelineFiltersProps = {
   events: TimelineEvent[];
   activeFilterIds: Set<string>;
-  onChange: (next: Set<string>) => void;
+  onChange: (updater: FilterUpdater) => void;
+  onThemeMenuOpenChange?: (open: boolean) => void;
 };
 
-type OpenMenu = "theme" | "languages" | null;
-
-function FilterMenu({
-  group,
-  isOpen,
+export function TimelineFilters({
+  events,
   activeFilterIds,
-  matchCounts,
-  onToggle,
-  onToggleMenu,
-}: {
-  group: TimelineFilterGroup;
-  isOpen: boolean;
-  activeFilterIds: Set<string>;
-  matchCounts: Map<string, number>;
-  onToggle: (id: string) => void;
-  onToggleMenu: () => void;
-}) {
-  const visibleFilters = group.filters.filter((filter) => (matchCounts.get(filter.id) ?? 0) > 0);
-  const activeCount = visibleFilters.filter((filter) => activeFilterIds.has(filter.id)).length;
-  const menuId = `timeline-filter-menu-${group.id}`;
-
-  return (
-    <div className="timeline-filter-menu">
-      <button
-        type="button"
-        className={`timeline-filter-trigger ${isOpen ? "is-open" : ""} ${activeCount > 0 ? "has-selection" : ""}`}
-        aria-expanded={isOpen}
-        aria-controls={menuId}
-        onClick={onToggleMenu}
-      >
-        <span>{group.label}</span>
-        {activeCount > 0 && (
-          <span className="timeline-filter-trigger-badge" aria-label={`${activeCount} selected`}>
-            {activeCount}
-          </span>
-        )}
-        <span className="timeline-filter-trigger-chevron" aria-hidden>
-          ▾
-        </span>
-      </button>
-
-      {isOpen && (
-        <div id={menuId} className="timeline-filter-dropdown" role="dialog" aria-label={`${group.label} filters`}>
-          <ul
-            className={
-              group.id === "languages"
-                ? "timeline-filter-list timeline-filter-list-languages"
-                : "timeline-filter-list"
-            }
-          >
-            {visibleFilters.map((filter) => (
-              <FilterOption
-                key={filter.id}
-                filter={filter}
-                checked={activeFilterIds.has(filter.id)}
-                count={matchCounts.get(filter.id) ?? 0}
-                onToggle={onToggle}
-              />
-            ))}
-          </ul>
-        </div>
-      )}
-    </div>
-  );
-}
-
-function FilterOption({
-  filter,
-  checked,
-  count,
-  onToggle,
-}: {
-  filter: TimelineFilterDef;
-  checked: boolean;
-  count: number;
-  onToggle: (id: string) => void;
-}) {
-  return (
-    <li>
-      <label className="timeline-filter-option">
-        <input
-          type="checkbox"
-          className="timeline-filter-checkbox"
-          checked={checked}
-          onChange={() => onToggle(filter.id)}
-        />
-        <span className="timeline-filter-option-label">{filter.label}</span>
-        <span className="timeline-filter-option-count" aria-hidden>
-          {count}
-        </span>
-      </label>
-    </li>
-  );
-}
-
-export function TimelineFilters({ events, activeFilterIds, onChange }: TimelineFiltersProps) {
-  const [openMenu, setOpenMenu] = useState<OpenMenu>(null);
-  const rootRef = useRef<HTMLDivElement>(null);
-
+  onChange,
+  onThemeMenuOpenChange,
+}: TimelineFiltersProps) {
+  const registry = useMemo(() => buildFilterRegistry(events), [events]);
   const matchCounts = useMemo(() => countFilterMatches(events), [events]);
 
-  useEffect(() => {
-    const handlePointerDown = (event: PointerEvent) => {
-      if (!rootRef.current?.contains(event.target as Node)) {
-        setOpenMenu(null);
-      }
-    };
+  const themeOptions = useMemo(
+    () =>
+      TIMELINE_FILTER_GROUPS.find((group) => group.id === "theme")!.filters
+        .filter((filter) => (matchCounts.get(filter.id) ?? 0) > 0)
+        .map((filter) => ({
+          id: filter.id,
+          label: filter.label,
+          count: matchCounts.get(filter.id),
+        })),
+    [matchCounts],
+  );
 
-    document.addEventListener("pointerdown", handlePointerDown);
-    return () => document.removeEventListener("pointerdown", handlePointerDown);
-  }, []);
+  const searchOptions = useMemo(
+    () =>
+      [...registry.values()]
+        .filter((filter) => isSearchFilterId(filter.id))
+        .filter((filter) => (matchCounts.get(filter.id) ?? 0) > 0)
+        .map((filter) => ({
+          id: filter.id,
+          label: filter.label,
+          kind: searchFilterKind(filter.id)!,
+          count: matchCounts.get(filter.id),
+        }))
+        .sort((a, b) => a.label.localeCompare(b.label)),
+    [matchCounts, registry],
+  );
+
+  const selectedThemeIds = useMemo(
+    () => new Set([...activeFilterIds].filter((id) => themeOptions.some((option) => option.id === id))),
+    [activeFilterIds, themeOptions],
+  );
 
   const toggle = (id: string) => {
-    const next = new Set(activeFilterIds);
-    if (next.has(id)) {
-      next.delete(id);
-    } else {
-      next.add(id);
-    }
-    onChange(next);
+    onChange((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
   };
 
-  const clearAll = () => {
-    onChange(new Set());
-    setOpenMenu(null);
+  const selectedSearchIds = useMemo(
+    () => new Set([...activeFilterIds].filter((id) => isSearchFilterId(id))),
+    [activeFilterIds],
+  );
+
+  const selectedSearchOptions = useMemo(
+    () => searchOptions.filter((option) => selectedSearchIds.has(option.id)),
+    [searchOptions, selectedSearchIds],
+  );
+
+  const clearThemes = () => {
+    onChange((prev) => {
+      const next = new Set(prev);
+      for (const option of themeOptions) {
+        next.delete(option.id);
+      }
+      return next;
+    });
+  };
+
+  const clearSearch = () => {
+    onChange((prev) => {
+      const next = new Set(prev);
+      for (const id of next) {
+        if (isSearchFilterId(id)) {
+          next.delete(id);
+        }
+      }
+      return next;
+    });
   };
 
   return (
-    <nav ref={rootRef} className="timeline-filters" aria-label="Filter timeline events">
-      {TIMELINE_FILTER_GROUPS.map((group) => (
-        <FilterMenu
-          key={group.id}
-          group={group}
-          isOpen={openMenu === group.id}
-          activeFilterIds={activeFilterIds}
-          matchCounts={matchCounts}
+    <nav className="timeline-filters" aria-label="Filter timeline events">
+      <div className="timeline-filters-row">
+        <TimelineSearchFilter
+          options={searchOptions}
+          selectedIds={selectedSearchIds}
           onToggle={toggle}
-          onToggleMenu={() =>
-            setOpenMenu((current) =>
-              current === group.id ? null : (group.id as OpenMenu),
-            )
-          }
+          onClear={clearSearch}
         />
-      ))}
+        <ThemeDropdown
+          options={themeOptions}
+          selectedIds={selectedThemeIds}
+          onToggle={toggle}
+          onClear={clearThemes}
+          onOpenChange={onThemeMenuOpenChange}
+        />
+      </div>
 
-      {activeFilterIds.size > 0 && (
-        <button type="button" className="timeline-filters-clear" onClick={clearAll}>
-          Clear
-        </button>
+      {selectedSearchOptions.length > 0 && (
+        <ul className="timeline-search-filter-chips" aria-label="Active search filters">
+          {selectedSearchOptions.map((option) => (
+            <li key={option.id}>
+              <button
+                type="button"
+                className="timeline-search-filter-chip"
+                onClick={() => toggle(option.id)}
+              >
+                <span className="timeline-search-filter-chip-kind">
+                  {SEARCH_FILTER_KIND_LABELS[option.kind]}
+                </span>
+                <span>{option.label}</span>
+                <span aria-hidden>×</span>
+              </button>
+            </li>
+          ))}
+        </ul>
       )}
     </nav>
   );

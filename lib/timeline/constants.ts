@@ -1,7 +1,7 @@
 /** Horizontal inset so edge labels are not clipped by the viewport. */
 export const TIMELINE_EDGE_MARGIN = 120;
 
-export const TIMELINE_YEAR_MIN = 1940;
+export const TIMELINE_YEAR_MIN = 1936;
 export const TIMELINE_YEAR_MAX = 2040;
 
 const TIMELINE_START = Date.parse(`${TIMELINE_YEAR_MIN}-01-01T00:00:00Z`);

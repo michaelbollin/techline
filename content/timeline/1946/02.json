@@ -3,33 +3,35 @@
     {
       "id": "eniac-dedicated",
       "slug": "eniac-dedicated",
-      "date": "1946-02-14",
+      "date": "1946-02-15",
       "datePrecision": "day",
-      "title": "ENIAC dedicated",
-      "summary": "The U.S. Army dedicated ENIAC at the University of Pennsylvania on February 14, 1946 — the first general-purpose electronic digital computer.",
-      "about": "ENIAC filled a room with 17,000 vacuum tubes and computed artillery trajectories thousands of times faster than human calculators. Programmers rewired panels and set switches to change programs — no stored program yet, but it proved electronic computation at scale was possible. Every server rack today traces lineage to machines like this.",
+      "title": "ENIAC formally dedicated",
+      "summary": "ENIAC was formally dedicated at the University of Pennsylvania on February 15, 1946 — a pioneering large-scale electronic digital computer announced to the public the night before.",
+      "about": "ENIAC filled a room with 17,000 vacuum tubes and computed artillery trajectories thousands of times faster than human calculators. Programmers rewired panels and set switches to change programs — no stored program yet, but it proved electronic computation at scale was possible. The War Department had announced the machine on February 14; the dedication dinner and demonstration followed on February 15.",
       "narrative": {
-        "whyChosen": "ENIAC was the first large-scale electronic computer to operate as a programmable digital machine.",
-        "whyImportant": "It demonstrated that computation could be automated electronically — the foundation of all later computers.",
+        "whyChosen": "ENIAC was among the first large-scale electronic computers to operate as a reprogrammable digital machine.",
+        "whyImportant": "It demonstrated that computation could be automated electronically — a foundation for later stored-program designs.",
         "problemSolved": "World War II ballistics tables took weeks of human calculation; the Army needed faster, repeatable numerical work."
       },
       "category": "invention",
       "tags": ["hardware", "mainframe", "eniac", "computer", "invention"],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "University of Pennsylvania — ENIAC (dedicated February 14, 1946)",
-          "url": "https://www.eniac.upenn.edu/",
+          "title": "Wikipedia — ENIAC (formally dedicated February 15, 1946)",
+          "url": "https://en.wikipedia.org/wiki/ENIAC",
           "role": "date"
         },
         {
-          "title": "Computer History Museum — ENIAC (overview)",
-          "url": "https://www.computerhistory.org/revolution/birth-of-the-computer/4/78",
+          "title": "Computer History Museum — ENIAC unveiled (February 14, 1946)",
+          "url": "https://www.computerhistory.org/tdih/february/14/",
           "role": "overview"
         }
       ],
-      "relatedIds": ["edsac-initial-orders", "univac-i-delivered"]
+      "relatedIds": ["edsac-first-programs", "edsac-initial-orders", "univac-i-delivered"]
     }
   ]
 }

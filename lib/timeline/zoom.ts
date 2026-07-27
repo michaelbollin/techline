@@ -63,6 +63,57 @@ export function visibleInnerTimeRange(
   return [xScale.invert(margin).getTime(), xScale.invert(margin + innerWidth).getTime()];
 }
 
+const PAN_EDGE_EPSILON_RATIO = 0.001;
+const PAN_STEP_FRACTION = 0.8;
+
+function panEdgeEpsilon(extent: [number, number]): number {
+  return (extent[1] - extent[0]) * PAN_EDGE_EPSILON_RATIO;
+}
+
+export function canPanEarlier(
+  transform: d3.ZoomTransform,
+  width: number,
+  extent: [number, number],
+): boolean {
+  if (width <= 0) {
+    return false;
+  }
+
+  const [t0] = visibleInnerTimeRange(transform, width, extent);
+  return t0 > extent[0] + panEdgeEpsilon(extent);
+}
+
+export function canPanLater(
+  transform: d3.ZoomTransform,
+  width: number,
+  extent: [number, number],
+): boolean {
+  if (width <= 0) {
+    return false;
+  }
+
+  const [, t1] = visibleInnerTimeRange(transform, width, extent);
+  return t1 < extent[1] - panEdgeEpsilon(extent);
+}
+
+export function computePanTransform(
+  transform: d3.ZoomTransform,
+  width: number,
+  extent: [number, number],
+  direction: "earlier" | "later",
+  fraction = PAN_STEP_FRACTION,
+): d3.ZoomTransform {
+  const [t0, t1] = visibleInnerTimeRange(transform, width, extent);
+  const span = t1 - t0;
+  const delta = span * fraction * (direction === "later" ? 1 : -1);
+
+  return clampZoomTransform(
+    computeTransformForTimeRange(width, extent, [t0 + delta, t1 + delta]),
+    width,
+    extent,
+  );
+}
+
 export function clampZoomTransform(
   transform: d3.ZoomTransform,
   width: number,
@@ -101,17 +152,27 @@ export function computeZoomToEvents(
   width: number,
   extent: [number, number],
   targets: PlottedEvent[],
+  options?: { tight?: boolean },
 ): d3.ZoomTransform {
+  if (targets.length === 0) {
+    return computeFitTransform(width, extent);
+  }
+
   const edgeMargin = TIMELINE_EDGE_MARGIN;
   const innerWidth = Math.max(width - edgeMargin * 2, 1);
   const base = d3.scaleTime().domain(extent).range([edgeMargin, edgeMargin + innerWidth]);
   const times = targets.map((event) => event.timestamp);
   const t0 = Math.min(...times);
   const t1 = Math.max(...times);
-  const timePad = Math.max((t1 - t0) * 0.2, (extent[1] - extent[0]) * 0.005);
+  const msPerYear = 365.25 * 86_400_000;
+  const span = Math.max(t1 - t0, 1);
+  const timePad = options?.tight
+    ? Math.max(span * 0.12, msPerYear * 2)
+    : Math.max(span * 0.2, (extent[1] - extent[0]) * 0.005);
+  const widthFraction = options?.tight ? 0.85 : 0.9;
   const x0 = base(t0 - timePad);
   const x1 = base(t1 + timePad);
-  const scale = (innerWidth * 0.9) / Math.max(x1 - x0, 1);
+  const scale = (innerWidth * widthFraction) / Math.max(x1 - x0, 1);
   const mid = (x0 + x1) / 2;
   const transform = d3.zoomIdentity
     .translate(edgeMargin + innerWidth / 2 - scale * mid, 0)

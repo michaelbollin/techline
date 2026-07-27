@@ -6,33 +6,44 @@ type TimelineNodeDotProps = {
   xScale: (timestamp: number) => number;
   axisY: number;
   isHovered: boolean;
-  isLandmark: boolean;
   onHover: (event: PlottedEvent | null) => void;
   onClick: () => void;
 };
+
+function dotRadius(importance: PlottedEvent["importance"]): number {
+  if (importance === 0) {
+    return 7.5;
+  }
+
+  if (importance === 1) {
+    return 6;
+  }
+
+  return 4.5;
+}
 
 export function TimelineNodeDot({
   event,
   xScale,
   axisY,
   isHovered,
-  isLandmark,
   onHover,
   onClick,
 }: TimelineNodeDotProps) {
   const x = xScale(event.timestamp);
-  const dotR = isLandmark ? 6 : 4.5;
+  const dotR = dotRadius(event.importance);
+  const filled = isHovered || event.importance <= 1;
 
   return (
     <g transform={`translate(${x}, ${axisY})`}>
       <circle
-        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""}`}
+        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""} ${event.importance === 0 ? "is-pillar" : ""}`}
         cx={0}
         cy={0}
         r={dotR}
-        fill={isHovered || isLandmark ? TIMELINE_INK : TIMELINE_PAPER}
+        fill={filled ? TIMELINE_INK : TIMELINE_PAPER}
         stroke={TIMELINE_INK}
-        strokeWidth={1.5}
+        strokeWidth={event.importance === 0 ? 2 : 1.5}
         onClick={onClick}
         onMouseEnter={() => onHover(event)}
         onMouseLeave={() => onHover(null)}

@@ -31,7 +31,7 @@
         "open-source",
         "operating-system"
       ],
-      "importance": 1,
+      "importance": 0,
       "sources": [
         {
           "title": "LKML archive — Linux 0.01 announcement (August 25, 1991)",

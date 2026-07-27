@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT } from "@/lib/timeline/constants";
 import { filterTimelineEvents } from "@/lib/timeline/filters";
@@ -35,6 +35,26 @@ export function useTimelinePlot({
 
   const plotted = useMemo(() => toPlottedEvents(filteredEvents), [filteredEvents]);
 
+  const [fontEpoch, setFontEpoch] = useState(0);
+
+  useEffect(() => {
+    if (typeof document === "undefined") {
+      return;
+    }
+
+    let cancelled = false;
+
+    void document.fonts.ready.then(() => {
+      if (!cancelled) {
+        setFontEpoch((epoch) => epoch + 1);
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const axisY = height * TIMELINE_AXIS_Y_RATIO;
 
   const baseScale = useMemo(() => {
@@ -52,7 +72,13 @@ export function useTimelinePlot({
 
   const visibleSpanMs = useMemo(() => visibleTimeSpanMs(xScale, width), [width, xScale]);
 
-  const maxImportance = useMemo(() => maxImportanceForZoom(msPerPixel), [msPerPixel]);
+  const maxImportance = useMemo(() => {
+    if (activeFilterIds.size > 0) {
+      return 3;
+    }
+
+    return maxImportanceForZoom(msPerPixel);
+  }, [activeFilterIds.size, msPerPixel]);
   const maxLanes = useMemo(
     () => maxLanesForZoom(msPerPixel, visibleSpanMs),
     [msPerPixel, visibleSpanMs],
@@ -64,7 +90,7 @@ export function useTimelinePlot({
       widths.set(event.id, measureLabelWidth(event.title));
     }
     return widths;
-  }, [plotted]);
+  }, [fontEpoch, plotted]);
 
   const labelLayout = useMemo(
     () =>

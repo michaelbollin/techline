@@ -1,19 +1,34 @@
-import { TIMELINE_FILTER_GROUPS } from "./filters";
+import { TIMELINE_FILTER_GROUPS } from "./filter-definitions";
+import { buildFilterRegistry } from "./filters";
+import { filterIdLabel, isCompanyFilterId, isPersonFilterId } from "./filter-options";
+import type { TimelineEvent } from "./schema";
 
-const FILTER_BY_ID = new Map(
+const STATIC_FILTER_BY_ID = new Map(
   TIMELINE_FILTER_GROUPS.flatMap((group) => group.filters).map((filter) => [filter.id, filter]),
 );
 
-const SLUG_TO_FILTER_ID = new Map<string, string>();
+const STATIC_SLUG_TO_FILTER_ID = new Map<string, string>();
 
-for (const filter of FILTER_BY_ID.values()) {
-  SLUG_TO_FILTER_ID.set(filterIdToSlug(filter.id), filter.id);
+for (const filter of STATIC_FILTER_BY_ID.values()) {
+  STATIC_SLUG_TO_FILTER_ID.set(filterIdToSlug(filter.id), filter.id);
 }
 
-/** URL slug for a filter id, e.g. lang-javascript → javascript, web → web */
+/** URL slug for a filter id, e.g. lang-javascript → javascript, person-linus-torvalds → person-linus-torvalds */
 export function filterIdToSlug(filterId: string): string {
   if (filterId.startsWith("lang-")) {
     return filterId.slice(5);
+  }
+
+  if (filterId.startsWith("tech-")) {
+    return filterId.slice(5);
+  }
+
+  if (filterId.startsWith("company-")) {
+    return filterId;
+  }
+
+  if (filterId.startsWith("person-")) {
+    return filterId;
   }
 
   return filterId;
@@ -25,14 +40,29 @@ export function slugToFilterId(slug: string): string | null {
     return null;
   }
 
-  return SLUG_TO_FILTER_ID.get(normalized) ?? null;
+  if (STATIC_SLUG_TO_FILTER_ID.has(normalized)) {
+    return STATIC_SLUG_TO_FILTER_ID.get(normalized)!;
+  }
+
+  if (isPersonFilterId(normalized) || isCompanyFilterId(normalized)) {
+    return normalized;
+  }
+
+  return null;
 }
 
 /** Parse `/javascript,web` path segment into active filter ids. */
 export function parseFilterSegment(segment: string): Set<string> {
   const ids = new Set<string>();
 
-  for (const part of segment.split(",")) {
+  let decoded = segment;
+  try {
+    decoded = decodeURIComponent(segment);
+  } catch {
+    decoded = segment;
+  }
+
+  for (const part of decoded.split(",")) {
     const id = slugToFilterId(part);
     if (id) {
       ids.add(id);
@@ -63,10 +93,15 @@ export function timelinePathFromFilterSegment(segment: string | undefined): stri
   return filterIdsToPath(parseFilterSegment(segment));
 }
 
-export function filterLabels(activeFilterIds: ReadonlySet<string>): string[] {
+export function filterLabels(
+  activeFilterIds: ReadonlySet<string>,
+  events?: TimelineEvent[],
+): string[] {
+  const registry = events ? buildFilterRegistry(events) : null;
+
   return [...activeFilterIds]
-    .map((id) => FILTER_BY_ID.get(id)?.label)
+    .map((id) => registry?.get(id)?.label ?? STATIC_FILTER_BY_ID.get(id)?.label ?? filterIdLabel(id))
     .filter((label): label is string => Boolean(label));
 }
 
-export const KNOWN_FILTER_SLUGS = [...SLUG_TO_FILTER_ID.keys()].sort();
+export const KNOWN_FILTER_SLUGS = [...STATIC_SLUG_TO_FILTER_ID.keys()].sort();

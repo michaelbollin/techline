@@ -14,7 +14,12 @@
         "problemSolved": "Earlier browsers were niche research tools; the public needed one friendly program that worked across platforms."
       },
       "category": "software",
-      "tags": ["browser", "web", "mosaic", "ncsa"],
+      "tags": [
+        "browser",
+        "web",
+        "mosaic",
+        "ncsa"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["worldwideweb-browser", "netscape-navigator-1-0", "cgi-specified"]
+      "relatedIds": [
+        "worldwideweb-browser",
+        "netscape-navigator-1-0",
+        "cgi-specified"
+      ]
     }
   ]
 }

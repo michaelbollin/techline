@@ -32,13 +32,13 @@ export function TimelineAxisGrid({ xScale, width, axisY, onYearClick }: Timeline
 
   return (
     <g className="timeline-axis-grid">
-      {ticks.map((tick) => {
+      {ticks.map((tick, index) => {
         const x = xScale(tick);
         if (x < 0 || x > width) {
           return null;
         }
 
-        const label = formatAxisTick(tick, interval);
+        const label = formatAxisTick(tick, interval, ticks[index - 1]);
         const year = tick.getUTCFullYear();
         const canZoomYear = isYearZoomTick(tick, interval);
 

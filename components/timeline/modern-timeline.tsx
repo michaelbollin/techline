@@ -16,9 +16,17 @@ import {
 import { eventPath } from "@/lib/timeline/format";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
-import { computeFitTransform, computeZoomToYear } from "@/lib/timeline/zoom";
+import {
+  canPanEarlier,
+  canPanLater,
+  computeFitTransform,
+  computePanTransform,
+  computeZoomToEvents,
+  computeZoomToYear,
+} from "@/lib/timeline/zoom";
 
 import { TimelineControls, zoomInTransform, zoomOutTransform } from "./timeline-controls";
+import { TimelinePanArrows } from "./timeline-pan-arrows";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelineFilters } from "./timeline-filters";
@@ -39,7 +47,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const { width, height } = useContainerSize(containerRef);
   const router = useRouter();
 
-  const { activeFilterIds, updateFilters } = useTimelineFilters(filterPathKey);
+  const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
 
   const { transform, animateTo } = useTimelineZoom({
@@ -66,12 +74,18 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     }
   }, [filteredEvents, hovered]);
 
-  const fitAll = useCallback(() => {
+  const fitView = useCallback(() => {
     if (width <= 0 || plotted.length === 0) {
       return;
     }
+
+    if (activeFilterIds.size > 0) {
+      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
+      return;
+    }
+
     animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [animateTo, plotted.length, width]);
+  }, [activeFilterIds.size, animateTo, plotted, width]);
 
   useEffect(() => {
     if (!hasInitialized.current) {
@@ -85,8 +99,13 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
       return;
     }
 
+    if (activeFilterIds.size > 0) {
+      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
+      return;
+    }
+
     animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [animateTo, filterPathKey, plotted.length, width]);
+  }, [activeFilterIds.size, animateTo, filterPathKey, plotted, width]);
 
   const openEvent = (event: PlottedEvent) => {
     router.push(eventPath(event.slug, { filterPathKey }));
@@ -102,14 +121,31 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     [animateTo, width],
   );
 
+  const panEarlier = useCallback(() => {
+    if (width <= 0) {
+      return;
+    }
+    animateTo(computePanTransform(transform, width, TIMELINE_EXTENT, "earlier"));
+  }, [animateTo, transform, width]);
+
+  const panLater = useCallback(() => {
+    if (width <= 0) {
+      return;
+    }
+    animateTo(computePanTransform(transform, width, TIMELINE_EXTENT, "later"));
+  }, [animateTo, transform, width]);
+
+  const showPanEarlier = width > 0 && plotted.length > 0 && canPanEarlier(transform, width, TIMELINE_EXTENT);
+  const showPanLater = width > 0 && plotted.length > 0 && canPanLater(transform, width, TIMELINE_EXTENT);
+
   return (
     <section aria-label="Interactive timeline" className="modern-timeline relative h-full w-full bg-white">
       <div ref={containerRef} className="relative h-full w-full">
         <div className="pointer-events-none absolute inset-x-0 top-0 z-10 px-6 py-5 sm:px-8">
-          <div className="pointer-events-auto flex flex-wrap items-center gap-x-6 gap-y-3">
+          <div className="pointer-events-auto flex items-start justify-between gap-6">
             <Link
               href="/"
-              className="timeline-brand text-sm tracking-[0.2em] text-black uppercase"
+              className="timeline-brand shrink-0 text-sm tracking-[0.2em] text-black uppercase"
             >
               Techline
             </Link>
@@ -117,6 +153,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               events={events}
               activeFilterIds={activeFilterIds}
               onChange={updateFilters}
+              onThemeMenuOpenChange={setDeferUrlSync}
             />
           </div>
         </div>
@@ -172,7 +209,6 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                     xScale={xScale}
                     axisY={axisY}
                     isHovered={hovered?.id === event.id}
-                    isLandmark={event.importance === 1}
                     onHover={setHovered}
                     onClick={() => openEvent(event)}
                   />
@@ -202,10 +238,17 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
           <TimelineEventDetail event={hovered} top={detailTop} />
         )}
 
+        <TimelinePanArrows
+          canPanEarlier={showPanEarlier}
+          canPanLater={showPanLater}
+          onPanEarlier={panEarlier}
+          onPanLater={panLater}
+        />
+
         <TimelineControls
           onZoomIn={() => animateTo(zoomInTransform(transform))}
           onZoomOut={() => animateTo(zoomOutTransform(transform))}
-          onFit={fitAll}
+          onFit={fitView}
         />
       </div>
     </section>

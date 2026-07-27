@@ -64,20 +64,9 @@ const TOPIC_FILTERS: TimelineFilterDef[] = [
     matches: (event) => hasTag(event, "standard", "ansi", "iso"),
   },
   {
-    id: "people",
-    label: "People",
-    matches: (event) =>
-      hasTag(event, "people") || (event.people !== undefined && event.people.length > 0),
-  },
-  {
     id: "quotes",
     label: "Quotes",
     matches: (event) => event.category === "quote" || hasTag(event, "quote"),
-  },
-  {
-    id: "companies",
-    label: "Companies",
-    matches: (event) => event.companies.length > 0,
   },
 ];
 
@@ -126,7 +115,23 @@ const LANGUAGE_FILTERS: TimelineFilterDef[] = [
   { id: "lang-simula", label: "Simula", matches: (e) => hasTag(e, "simula") },
 ];
 
+const TECHNOLOGY_FILTERS: TimelineFilterDef[] = [
+  { id: "tech-git", label: "Git", matches: (e) => hasTag(e, "git") },
+  { id: "tech-docker", label: "Docker", matches: (e) => hasTag(e, "docker") },
+  { id: "tech-kubernetes", label: "Kubernetes", matches: (e) => hasTag(e, "kubernetes", "k8s") },
+  { id: "tech-linux", label: "Linux", matches: (e) => hasTag(e, "linux") },
+  { id: "tech-nginx", label: "nginx", matches: (e) => hasTag(e, "nginx") },
+  { id: "tech-apache", label: "Apache", matches: (e) => hasTag(e, "apache") },
+  { id: "tech-npm", label: "npm", matches: (e) => hasTag(e, "npm") },
+  { id: "tech-jenkins", label: "Jenkins", matches: (e) => hasTag(e, "jenkins") },
+  { id: "tech-redis", label: "Redis", matches: (e) => hasTag(e, "redis") },
+  { id: "tech-postgres", label: "PostgreSQL", matches: (e) => hasTag(e, "postgres", "postgresql") },
+  { id: "tech-mysql", label: "MySQL", matches: (e) => hasTag(e, "mysql") },
+  { id: "tech-graphql", label: "GraphQL", matches: (e) => hasTag(e, "graphql") },
+];
+
 export const TIMELINE_FILTER_GROUPS: TimelineFilterGroup[] = [
   { id: "theme", label: "Theme", filters: TOPIC_FILTERS },
   { id: "languages", label: "Language", filters: LANGUAGE_FILTERS },
+  { id: "technologies", label: "Technology", filters: TECHNOLOGY_FILTERS },
 ];

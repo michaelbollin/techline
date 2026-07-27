@@ -1,35 +1,70 @@
 {
   "events": [
     {
-      "id": "edsac-initial-orders",
-      "slug": "edsac-initial-orders",
+      "id": "edsac-first-programs",
+      "slug": "edsac-first-programs",
       "date": "1949-05-06",
       "datePrecision": "day",
-      "title": "First assembler program runs",
-      "summary": "On May 6, 1949, David Wheeler's program on the EDSAC computer translated short text labels into machine instructions — the first assembler.",
-      "about": "Before this, programmers had to punch raw binary numbers for every instruction. Wheeler's program let them write short labels like `A 80` instead of 17-bit binary patterns. Every compiler and operating system since then builds on this idea: humans write readable code, a program translates it for the machine.",
+      "title": "EDSAC runs its first programs",
+      "summary": "On May 6, 1949, the EDSAC at Cambridge ran its first programs — including a table of squares written by Beatrice Worsley.",
+      "about": "EDSAC was among the first practical stored-program computers, keeping both instructions and data in memory. That May day proved Maurice Wilkes's design worked end to end. Wheeler's Initial Orders — a built-in program that translated mnemonic instructions from paper tape — were already in place and would soon be recognized as the first assembler.",
       "narrative": {
-        "whyChosen": "Before assemblers, programmers punched binary instruction words by hand — one wrong bit broke the whole run.",
-        "whyImportant": "Automating mnemonic-to-machine-code translation made programming repeatable and launched the software industry.",
-        "problemSolved": "Human transcription of machine instructions was slow, error-prone, and did not scale as computers grew more capable."
+        "whyChosen": "EDSAC's first successful run marked stored-program computing working outside a lab prototype.",
+        "whyImportant": "It showed that programs and data could live in the same memory — the model every modern computer uses.",
+        "problemSolved": "Earlier machines like ENIAC were reprogrammed by rewiring; EDSAC loaded new tasks from tape into memory."
       },
-      "category": "software",
-      "tags": ["assembly", "edsac", "cambridge", "wheeler"],
+      "category": "invention",
+      "tags": ["edsac", "cambridge", "stored-program", "invention"],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Wikipedia — EDSAC (first programs May 6, 1949; Initial Orders)",
-          "url": "https://en.wikipedia.org/wiki/Electronic_Delay_Storage_Automatic_Calculator",
+          "title": "Computing History — EDSAC runs its first program (May 6, 1949)",
+          "url": "https://www.computinghistory.org.uk/det/5925/EDSAC-ran-its-first-programs",
           "role": "date"
         },
         {
-          "title": "IEEE Milestone — EDSAC and the birth of assembly (overview)",
-          "url": "https://ethw.org/Milestones:EDSAC_Computer,_1949",
+          "title": "Wikipedia — EDSAC (overview)",
+          "url": "https://en.wikipedia.org/wiki/Electronic_Delay_Storage_Automatic_Calculator",
           "role": "overview"
         }
       ],
-      "relatedIds": []
+      "relatedIds": ["edsac-initial-orders", "eniac-dedicated"]
+    },
+    {
+      "id": "edsac-initial-orders",
+      "slug": "edsac-initial-orders",
+      "date": "1949-05",
+      "datePrecision": "month",
+      "title": "Wheeler's EDSAC Initial Orders add the first assembler",
+      "summary": "By May 1949, David Wheeler's Initial Orders let EDSAC translate mnemonic instructions from paper tape into machine code — the first assembler.",
+      "about": "Before assemblers, programmers punched raw binary numbers for every instruction. Wheeler's Initial Orders — a small boot program loaded at startup — read labels like `A 80` from tape and wrote the 17-bit words EDSAC executed. The same month EDSAC ran its first user programs, this loader made programming faster and launched the idea behind every compiler since.",
+      "narrative": {
+        "whyChosen": "Initial Orders turned mnemonic programming into machine code automatically — the birth of assembly language.",
+        "whyImportant": "Automating instruction translation made programming repeatable and scalable as computers grew more capable.",
+        "problemSolved": "Human transcription of machine instructions was slow, error-prone, and did not scale."
+      },
+      "category": "software",
+      "tags": ["assembly", "edsac", "cambridge", "wheeler"],
+      "people": [],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Royal Society — Wheeler, Programme organization and initial orders for the EDSAC (1950)",
+          "url": "https://doi.org/10.1098/rspa.1950.0121",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — EDSAC (Initial Orders, May 1949)",
+          "url": "https://en.wikipedia.org/wiki/Electronic_Delay_Storage_Automatic_Calculator",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["edsac-first-programs"]
     }
   ]
 }

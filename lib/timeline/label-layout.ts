@@ -2,7 +2,7 @@ import { TIMELINE_EDGE_MARGIN } from "./constants";
 import type { PlottedEvent } from "./plot-data";
 
 /** Vertical label box height in px. */
-export const LABEL_BOX_HEIGHT = 34;
+export const LABEL_BOX_HEIGHT = 36;
 
 /** Distance from axis to first label row. */
 export const LABEL_OFFSET = 72;
@@ -56,7 +56,7 @@ export type LabelLayout = {
 export function resolveLabelLayout(
   events: PlottedEvent[],
   x: (timestamp: number) => number,
-  maxImportance: 1 | 2 | 3,
+  maxImportance: 0 | 1 | 2 | 3,
   viewportWidth: number,
   maxLanes: number,
   labelWidthFor: (event: PlottedEvent) => number,

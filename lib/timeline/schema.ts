@@ -90,7 +90,7 @@ export const timelineEventSchema = z.object({
   companies: z.array(companyRefSchema).default([]),
   /** Exact wording for `category: "quote"` events — the famous line(s). */
   quoteText: z.string().min(1).optional(),
-  importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),
+  importance: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(3)]),
   media: z.array(mediaItemSchema).default([]),
   sources: z.array(sourceSchema).default([]),
   relatedIds: z.array(z.string().min(1)).default([]),

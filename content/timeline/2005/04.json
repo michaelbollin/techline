@@ -14,8 +14,14 @@
         "problemSolved": "Centralized VCS could not match Linux's scale; Torvalds needed fast distributed merges after BitKeeper's license ended."
       },
       "category": "software",
-      "tags": ["git", "vcs", "open-source", "linux", "torvalds"],
-      "importance": 1,
+      "tags": [
+        "git",
+        "vcs",
+        "open-source",
+        "linux",
+        "torvalds"
+      ],
+      "importance": 0,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["github-launched", "subversion-1-0-released", "mercurial-released", "bitbucket-launched"]
+      "relatedIds": [
+        "github-launched",
+        "subversion-1-0-released",
+        "mercurial-released",
+        "bitbucket-launched"
+      ]
     },
     {
       "id": "mercurial-released",
@@ -45,7 +56,13 @@
         "problemSolved": "Linux kernel developers needed a free distributed SCM when BitKeeper's license was revoked."
       },
       "category": "software",
-      "tags": ["mercurial", "hg", "vcs", "distributed", "open-source"],
+      "tags": [
+        "mercurial",
+        "hg",
+        "vcs",
+        "distributed",
+        "open-source"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +77,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["git-created", "bitbucket-launched"]
+      "relatedIds": [
+        "git-created",
+        "bitbucket-launched"
+      ]
     }
   ]
 }

@@ -1,7 +1,9 @@
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import { filterIdsToPath, parseFilterSegment } from "@/lib/timeline/filter-url";
+
+export type FilterUpdater = Set<string> | ((prev: Set<string>) => Set<string>);
 
 function filterIdsFromPathKey(filterPathKey: string): Set<string> {
   if (!filterPathKey) {
@@ -11,23 +13,69 @@ function filterIdsFromPathKey(filterPathKey: string): Set<string> {
   return parseFilterSegment(filterPathKey);
 }
 
+function setsEqual(a: ReadonlySet<string>, b: ReadonlySet<string>): boolean {
+  if (a.size !== b.size) {
+    return false;
+  }
+
+  for (const id of a) {
+    if (!b.has(id)) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function resolveFilterUpdater(prev: Set<string>, updater: FilterUpdater): Set<string> {
+  return typeof updater === "function" ? updater(prev) : updater;
+}
+
 export function useTimelineFilters(filterPathKey: string) {
   const router = useRouter();
+  const deferUrlSyncRef = useRef(false);
+  const pendingPathRef = useRef<string | null>(null);
   const [activeFilterIds, setActiveFilterIds] = useState<Set<string>>(() =>
     filterIdsFromPathKey(filterPathKey),
   );
 
+  const flushPendingUrl = useCallback(() => {
+    if (pendingPathRef.current !== null) {
+      router.replace(pendingPathRef.current, { scroll: false });
+      pendingPathRef.current = null;
+    }
+  }, [router]);
+
+  const setDeferUrlSync = useCallback(
+    (defer: boolean) => {
+      deferUrlSyncRef.current = defer;
+      if (!defer) {
+        flushPendingUrl();
+      }
+    },
+    [flushPendingUrl],
+  );
+
   useEffect(() => {
-    setActiveFilterIds(filterIdsFromPathKey(filterPathKey));
+    const fromUrl = filterIdsFromPathKey(filterPathKey);
+    setActiveFilterIds((prev) => (setsEqual(prev, fromUrl) ? prev : fromUrl));
   }, [filterPathKey]);
 
   const updateFilters = useCallback(
-    (next: Set<string>) => {
-      setActiveFilterIds(next);
-      router.replace(filterIdsToPath(next), { scroll: false });
+    (updater: FilterUpdater) => {
+      setActiveFilterIds((prev) => {
+        const next = resolveFilterUpdater(prev, updater);
+        const path = filterIdsToPath(next);
+        if (deferUrlSyncRef.current) {
+          pendingPathRef.current = path;
+        } else {
+          router.replace(path, { scroll: false });
+        }
+        return next;
+      });
     },
     [router],
   );
 
-  return { activeFilterIds, updateFilters };
+  return { activeFilterIds, updateFilters, setDeferUrlSync };
 }

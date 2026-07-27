@@ -68,9 +68,23 @@ export function axisTicks(
   );
 }
 
-export function formatAxisTick(date: Date, interval: AxisTickInterval): string {
+export function formatAxisTick(
+  date: Date,
+  interval: AxisTickInterval,
+  previousDate?: Date,
+): string {
   if (interval === "year") {
     return d3.timeFormat("%Y")(date);
+  }
+
+  const year = date.getUTCFullYear();
+  const showYear =
+    previousDate === undefined ||
+    date.getUTCMonth() === 0 ||
+    year !== previousDate.getUTCFullYear();
+
+  if (showYear) {
+    return d3.timeFormat("%b %Y")(date);
   }
 
   return d3.timeFormat("%b")(date);

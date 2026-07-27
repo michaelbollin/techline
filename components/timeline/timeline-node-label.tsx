@@ -59,8 +59,9 @@ export function TimelineNodeLabel({
         />
         <text
           x={labelWidth / 2}
-          y={LABEL_BOX_HEIGHT / 2 + 5}
+          y={LABEL_BOX_HEIGHT / 2}
           textAnchor="middle"
+          dominantBaseline="central"
           className="timeline-node-label-text"
         >
           {event.title}

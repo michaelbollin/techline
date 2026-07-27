@@ -7,7 +7,7 @@ export type PlottedEvent = {
   slug: string;
   title: string;
   summary: string;
-  importance: 1 | 2 | 3;
+  importance: 0 | 1 | 2 | 3;
   timestamp: number;
   dateLabel: string;
 };
