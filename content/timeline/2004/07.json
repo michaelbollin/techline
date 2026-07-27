@@ -42,7 +42,10 @@
       ],
       "relatedIds": [
         "ruby-0-95-released",
-        "rails-1-0-released"
+        "rails-1-0-released",
+        "capistrano-released",
+        "rubygems-released",
+        "phusion-passenger-released"
       ]
     },
     {
@@ -75,6 +78,37 @@
         }
       ],
       "relatedIds": ["php-tools-1-0-released", "php-7-0-released"]
+    },
+    {
+      "id": "maven-1-0-released",
+      "slug": "maven-1-0-released",
+      "date": "2004-07-13",
+      "datePrecision": "day",
+      "title": "Apache Maven 1.0 released",
+      "summary": "The Apache Maven team released Maven 1.0 on July 13, 2004 — a Java build and project comprehension tool centered on the Project Object Model (POM).",
+      "about": "Maven standardizes Java project layout, dependencies, and lifecycle phases (`compile`, `test`, `package`, `install`). `mvn` downloads jars from repositories, runs plugins, and generates sites and reports. It replaced hand-maintained Ant scripts for thousands of libraries and became the backbone of Maven Central.",
+      "narrative": {
+        "whyChosen": "Maven brought conventions and dependency management that Ant lacked.",
+        "whyImportant": "The POM and Central repository model defined how Java shares libraries to this day.",
+        "problemSolved": "Every Java project reinvented directory structure and jar classpath wiring."
+      },
+      "category": "software",
+      "tags": ["maven", "build", "java", "pom", "apache", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apache Maven — Maven 1.0 release (July 13, 2004)",
+          "url": "https://svn-eu.apache.org/repos/asf/maven/website/content/docs/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Maven (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Maven",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ant-released", "gradle-released", "java-1-0-shipped"]
     }
   ]
 }

@@ -1,0 +1,103 @@
+{
+  "events": [
+    {
+      "slug": "berners-lee-web-public-domain",
+      "media": [],
+      "relatedIds": [
+        "worldwideweb-browser"
+      ],
+      "people": [
+        {
+          "id": "tim-berners-lee",
+          "name": "Tim Berners-Lee",
+          "role": "creator"
+        }
+      ],
+      "id": "berners-lee-web-public-domain",
+      "date": "1993-04-30",
+      "datePrecision": "day",
+      "title": "CERN releases the web into the public domain",
+      "summary": "CERN released the World Wide Web technology into the public domain on April 30, 1993 — no royalties, no licensing fees.",
+      "about": "Berners-Lee and CERN's decision let anyone build browsers and servers without permission — enabling Mosaic, Netscape, Apache, and the commercial internet. It is one of the most consequential open releases in computing history.",
+      "narrative": {
+        "whyChosen": "Public-domain release unlocked the web's exponential growth.",
+        "whyImportant": "It prevented proprietary lock-in on hypertext protocols.",
+        "problemSolved": "Companies could have patented or licensed core web technology."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "web",
+        "open-source",
+        "cern"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "CERN — Web release into public domain (April 30, 1993)",
+          "url": "https://home.cern/science/computing/birth-web",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — World Wide Web (overview)",
+          "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "jensen-huang-nvidia-founded",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "jensen-huang",
+          "name": "Jensen Huang",
+          "role": "co-founder"
+        },
+        {
+          "id": "chris-malachowsky",
+          "name": "Chris Malachowsky",
+          "role": "co-founder"
+        },
+        {
+          "id": "curtis-priem",
+          "name": "Curtis Priem",
+          "role": "co-founder"
+        }
+      ],
+      "id": "jensen-huang-nvidia-founded",
+      "date": "1993-04-05",
+      "datePrecision": "day",
+      "title": "Jensen Huang co-founds NVIDIA",
+      "summary": "Jensen Huang, Chris Malachowsky, and Curtis Priem founded NVIDIA on April 5, 1993 — starting as a graphics chip company that later powered AI.",
+      "about": "NVIDIA's GPUs went from PC gaming to CUDA parallel computing to training virtually every large language model. Huang has been CEO since founding — one of the longest and most consequential runs in semiconductor history.",
+      "narrative": {
+        "whyChosen": "NVIDIA became the dominant AI compute platform of the 2020s.",
+        "whyImportant": "GPUs shifted from graphics cards to the engine of deep learning and HPC.",
+        "problemSolved": "3D graphics needed dedicated parallel hardware beyond general-purpose CPUs."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "nvidia",
+        "gpu",
+        "founding",
+        "semiconductor"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "NVIDIA — Company founded (April 5, 1993)",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nvidia (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nvidia",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "imac-g3-released",
+      "slug": "imac-g3-released",
+      "date": "1998-08-15",
+      "datePrecision": "day",
+      "title": "iMac G3 released",
+      "summary": "Apple began selling the iMac G3 on August 15, 1998 — an all-in-one Mac with USB, no floppy drive, and translucent \"Bondi Blue\" design.",
+      "about": "The iMac made USB mainstream and gave web designers and developers a stylish Unix-based desktop with Mac OS 8. It sold millions, reviving Apple before the iPod and iPhone. The all-in-one form factor and emphasis on internet out-of-the-box aligned with the late-1990s web boom.",
+      "narrative": {
+        "whyChosen": "The iMac G3 saved Apple commercially and pushed USB as the standard peripheral connector.",
+        "whyImportant": "It brought millions of new users — and developers — back to the Mac platform.",
+        "problemSolved": "Consumers wanted a simple, internet-ready computer without legacy ports and beige boxes."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "apple", "imac", "usb"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iMac introduced (August 15, 1998)",
+          "url": "https://www.apple.com/newsroom/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iMac G3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IMac_G3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["macintosh-128k-released", "steve-jobs-returns-to-apple", "iphone-goes-on-sale"]
+    }
+  ]
+}

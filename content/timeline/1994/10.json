@@ -14,7 +14,13 @@
         "problemSolved": "Perl 4 could not scale to complex programs; the web needed a richer scripting language with reusable libraries."
       },
       "category": "software",
-      "tags": ["perl", "programming-language", "cpan", "web"],
+      "tags": [
+        "perl",
+        "programming-language",
+        "cpan",
+        "web"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,102 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["perl-1-0-released", "php-tools-1-0-released"]
+      "relatedIds": [
+        "perl-1-0-released",
+        "php-tools-1-0-released"
+      ]
+    },
+    {
+      "slug": "haakon-lie-css-proposed",
+      "media": [],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "html-invented"
+      ],
+      "people": [
+        {
+          "id": "haakon-wium-lie",
+          "name": "Håkon Wium Lie",
+          "role": "author"
+        }
+      ],
+      "id": "haakon-lie-css-proposed",
+      "date": "1994-10-10",
+      "datePrecision": "day",
+      "title": "Håkon Wium Lie proposes CSS",
+      "summary": "Håkon Wium Lie published Cascading HTML Style Sheets — a proposal on October 10, 1994 while at CERN.",
+      "about": "CSS separated presentation from HTML structure — letting authors suggest fonts and layout while users could override styles. Every modern website still depends on the cascading model Lie proposed at CERN.",
+      "narrative": {
+        "whyChosen": "CSS is the presentation layer of the open web.",
+        "whyImportant": "It ended the era of presentational HTML tags and font tags in markup.",
+        "problemSolved": "Authors could not style pages consistently without polluting HTML with layout tags."
+      },
+      "category": "protocol",
+      "tags": [
+        "people",
+        "css",
+        "web",
+        "w3c"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "W3C www-talk — Cascading HTML style sheets proposal (October 10, 1994)",
+          "url": "https://www.w3.org/Style/History/www.eit.com/www.lists/www-talk.1994q4/0153.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Cascading Style Sheets (overview)",
+          "url": "https://en.wikipedia.org/wiki/CSS",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "tim-berners-lee-w3c-founded",
+      "media": [],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "berners-lee-web-public-domain"
+      ],
+      "people": [
+        {
+          "id": "tim-berners-lee",
+          "name": "Tim Berners-Lee",
+          "role": "founder"
+        }
+      ],
+      "id": "tim-berners-lee-w3c-founded",
+      "date": "1994-10-01",
+      "datePrecision": "day",
+      "title": "Tim Berners-Lee founds the W3C",
+      "summary": "Tim Berners-Lee founded the World Wide Web Consortium on October 1, 1994 at MIT — stewarding web standards globally.",
+      "about": "W3C standardized HTML, CSS, HTTP, and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
+      "narrative": {
+        "whyChosen": "W3C became the neutral forum for web standardization.",
+        "whyImportant": "It prevented proprietary fragmentation of the open web.",
+        "problemSolved": "Competing vendors needed a shared process to evolve web technologies."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "web",
+        "w3c",
+        "standards"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "W3C — Consortium founded (October 1, 1994)",
+          "url": "https://www.w3.org/about/history/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — World Wide Web Consortium (overview)",
+          "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

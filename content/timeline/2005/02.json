@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "hudson-ci-released",
+      "slug": "hudson-ci-released",
+      "date": "2005-02-07",
+      "datePrecision": "day",
+      "title": "Hudson CI first released",
+      "summary": "Kohsuke Kawaguchi released Hudson 1.0 on February 7, 2005 — a Java continuous integration server that automated builds on every commit.",
+      "about": "Hudson polled SCM repos, ran Ant/Maven/shell builds, and reported pass/fail — the ancestor of Jenkins. It made 'build on every push' normal for Java teams at Sun and beyond. After a 2011 fork, the community renamed the project Jenkins; Hudson was retired, but the plugin model and pipeline pattern defined modern CI.",
+      "narrative": {
+        "whyChosen": "Hudson was the first widely adopted open-source CI server for everyday development teams.",
+        "whyImportant": "It established automated builds, test gates, and deploy hooks as standard practice before GitHub Actions.",
+        "problemSolved": "Manual integration builds broke constantly; teams needed a always-on server to catch failures immediately."
+      },
+      "category": "software",
+      "tags": ["jenkins", "hudson", "ci", "continuous-integration", "java", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Hudson (software) (initial release February 7, 2005)",
+          "url": "https://en.wikipedia.org/wiki/Hudson_(software)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Jenkins (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Jenkins_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["git-created", "subversion-1-0-released", "github-launched", "travis-ci-launched", "github-actions-ga"]
+    }
+  ]
+}

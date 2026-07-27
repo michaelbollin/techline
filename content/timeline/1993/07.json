@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "patrick-volkerding-slackware-released",
+      "media": [],
+      "relatedIds": [
+        "linux-kernel-announced"
+      ],
+      "people": [
+        {
+          "id": "patrick-volkerding",
+          "name": "Patrick Volkerding",
+          "role": "creator"
+        }
+      ],
+      "id": "patrick-volkerding-slackware-released",
+      "date": "1993-07-17",
+      "datePrecision": "day",
+      "title": "Patrick Volkerding releases Slackware Linux",
+      "summary": "Patrick Volkerding released Slackware 1.0 on July 17, 1993 — one of the earliest maintained Linux distributions.",
+      "about": "Slackware prioritized simplicity and Unix-like purity — influencing how early Linux users installed servers and desktops. Volkerding has maintained it for decades as one of the longest-running distro projects.",
+      "narrative": {
+        "whyChosen": "Slackware is the oldest surviving Linux distribution still maintained by its founder.",
+        "whyImportant": "It helped standardize early Linux packaging and installation practices.",
+        "problemSolved": "Early Linux required manually assembling filesystems from kernel and GNU tools."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "linux",
+        "open-source",
+        "operating-system"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Slackware — Version 1.0 release (July 17, 1993)",
+          "url": "https://en.wikipedia.org/wiki/Slackware",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Slackware (overview)",
+          "url": "https://en.wikipedia.org/wiki/Slackware",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "macintosh-128k-released",
+      "slug": "macintosh-128k-released",
+      "date": "1984-01-24",
+      "datePrecision": "day",
+      "title": "Macintosh 128K released",
+      "summary": "Apple shipped the Macintosh 128K on January 24, 1984 — the first mass-market computer with a graphical user interface and mouse.",
+      "about": "The Mac brought windows, menus, and icons to consumers — HyperCard, MacPaint, and desktop publishing followed. Developers used MPW, Think C, and later CodeWarrior; the GUI forced new interaction models that Windows copied. Susan Kare's icons and the \"1984\" launch defined how non-programmers could use computers.",
+      "narrative": {
+        "whyChosen": "The Macintosh made the GUI a consumer product, not a lab demo.",
+        "whyImportant": "It shifted software design toward visual, direct-manipulation interfaces — still the model for web and mobile UI.",
+        "problemSolved": "Command-line PCs intimidated mainstream users; Apple bet on approachable graphics and a unified design language."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "apple", "macintosh", "gui"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Introduces Macintosh (January 24, 1984)",
+          "url": "https://www.apple.com/newsroom/1984/01/24Apple-Introduces-Macintosh-Advanced-Personal-Computer/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Macintosh 128K (overview)",
+          "url": "https://en.wikipedia.org/wiki/Macintosh_128K",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["susan-kare-macintosh-icons", "steve-wozniak-apple-founded", "apple-ii-introduced", "ibm-pc-5150-released", "next-computer-released", "apple-lisa-released", "apple-powerbook-released", "imac-g3-released", "atari-st-released"]
+    }
+  ]
+}

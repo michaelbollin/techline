@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "rabbitmq-released",
+      "slug": "rabbitmq-released",
+      "date": "2007-02-08",
+      "datePrecision": "day",
+      "title": "RabbitMQ launched",
+      "summary": "LShift and CohesiveFT launched RabbitMQ on February 8, 2007 — an open-source AMQP message broker for reliable enterprise messaging.",
+      "about": "RabbitMQ routes messages between producers and consumers through exchanges and queues — decoupling microservices, job workers, and event pipelines. It implements AMQP with clustering, persistence, and language clients for Java, Python, and Node. Example: a web app publishes `order.created` events; fulfillment and email services consume them asynchronously.",
+      "narrative": {
+        "whyChosen": "RabbitMQ was the first production-grade open-source AMQP broker.",
+        "whyImportant": "It made message queues mainstream before Kafka and cloud pub/sub services.",
+        "problemSolved": "Applications coupled via direct HTTP calls could not absorb traffic spikes or retry failed work reliably."
+      },
+      "category": "software",
+      "tags": ["rabbitmq", "messaging", "amqp", "queue", "microservices", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RabbitMQ — Launch press release (February 8, 2007)",
+          "url": "https://www.rabbitmq.com/resources/RabbitMQ_PressRelease_080207.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — RabbitMQ (overview)",
+          "url": "https://en.wikipedia.org/wiki/RabbitMQ",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["apache-kafka-open-sourced", "memcached-released", "zeromq-released"]
+    }
+  ]
+}

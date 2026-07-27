@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "slug": "jim-gray-turing-award",
+      "media": [],
+      "relatedIds": [
+        "michael-stonebraker-postgres-research"
+      ],
+      "people": [
+        {
+          "id": "jim-gray",
+          "name": "Jim Gray",
+          "role": "researcher"
+        }
+      ],
+      "id": "jim-gray-turing-award",
+      "date": "1998",
+      "datePrecision": "year",
+      "title": "Jim Gray receives Turing Award",
+      "summary": "Jim Gray won the 1998 ACM Turing Award for contributions to database and transaction processing — foundational work on ACID reliability.",
+      "about": "Gray's transaction processing research underpins every bank transfer and e-commerce checkout. He also championed data-intensive science and disappeared at sea in 2007 during a sailing trip.",
+      "narrative": {
+        "whyChosen": "Gray defined how reliable databases handle concurrent transactions.",
+        "whyImportant": "ACID transactions became the guarantee behind financial and enterprise software.",
+        "problemSolved": "Concurrent database access risked inconsistent state without formal transaction models."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "database",
+        "turing-award",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ACM — 1998 Turing Award (Jim Gray)",
+          "url": "https://amturing.acm.org/award_winners/gray_3649294.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Jim Gray (computer scientist) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "rich-sutton-rl-textbook",
+      "media": [],
+      "relatedIds": [
+        "demis-hassabis-alphago-victory"
+      ],
+      "people": [
+        {
+          "id": "rich-sutton",
+          "name": "Rich Sutton",
+          "role": "author"
+        }
+      ],
+      "id": "rich-sutton-rl-textbook",
+      "date": "1998",
+      "datePrecision": "year",
+      "title": "Rich Sutton publishes Reinforcement Learning textbook",
+      "summary": "Richard Sutton and Andrew Barto published Reinforcement Learning: An Introduction in 1998 — the foundational textbook for RL theory and practice.",
+      "about": "Sutton's temporal-difference learning and policy-gradient frameworks became the vocabulary for game-playing agents, robotics, and later DeepMind's AlphaGo. The book's second edition in 2018 updated decades of RL progress.",
+      "narrative": {
+        "whyChosen": "Sutton's textbook codified reinforcement learning as a teachable discipline.",
+        "whyImportant": "It trained researchers who built modern game-playing and robotics AI.",
+        "problemSolved": "RL ideas were scattered across papers without a unified pedagogical framework."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "reinforcement-learning",
+        "textbook",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "MIT Press — Reinforcement Learning: An Introduction (first edition, 1998)",
+          "url": "http://incompleteideas.net/book/the-book.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Richard S. Sutton (overview)",
+          "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

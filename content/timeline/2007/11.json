@@ -30,6 +30,99 @@
         }
       ],
       "relatedIds": ["dotnet-framework-2-0-released", "csharp-announced", "dotnet-5-released"]
+    },
+    {
+      "id": "couchdb-released",
+      "slug": "couchdb-released",
+      "date": "2007-11-16",
+      "datePrecision": "day",
+      "title": "CouchDB 0.7.0 released",
+      "summary": "Damien Katz released CouchDB 0.7.0 on November 16, 2007 — the first version intended for widespread use with a JSON REST API.",
+      "about": "CouchDB stores documents as JSON with MapReduce views and multi-master replication — offline-first mobile sync (via PouchDB) and eventual consistency without a rigid schema. Example: a field worker saves `{_id: 'job-42', status: 'done'}` offline; CouchDB syncs when connectivity returns.",
+      "narrative": {
+        "whyChosen": "CouchDB 0.7.0 stabilized the JSON REST API that defined document-database ergonomics.",
+        "whyImportant": "It proved document stores with HTTP interfaces and replication could work in production.",
+        "problemSolved": "Relational schemas were awkward for evolving JSON documents and offline mobile sync."
+      },
+      "category": "software",
+      "tags": ["couchdb", "database", "nosql", "document-store", "rest", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CouchDB — 0.7.0 release announcement (November 16, 2007)",
+          "url": "https://jan.prima.de/plok/archives/106-Release-CouchDB-0.7.0.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache CouchDB (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_CouchDB",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["mongodb-first-released", "redis-first-released", "rest-architectural-style-defined", "apache-cassandra-open-sourced"]
+    },
+    {
+      "id": "android-announced",
+      "slug": "android-announced",
+      "date": "2007-11-05",
+      "datePrecision": "day",
+      "title": "Android announced",
+      "summary": "Google and the Open Handset Alliance announced Android on November 5, 2007 — an open mobile operating system built on the Linux kernel.",
+      "about": "Android brought Java/Kotlin apps, Google Play distribution, and OEM fragmentation to billions of phones. Developers learned Activities, Gradle builds, and Material Design; mobile web gave way to native Android SDKs alongside iOS. It became the world's dominant smartphone OS within a few years of the first G1.",
+      "narrative": {
+        "whyChosen": "Android's announcement defined the open alternative to Apple's closed iPhone platform.",
+        "whyImportant": "It created the second major mobile app ecosystem and shaped how most of the world accesses the internet.",
+        "problemSolved": "Carriers and handset makers lacked a modern, open smartphone OS to compete with the iPhone."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "android", "google", "smartphone", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Blog — Introducing Android (November 5, 2007)",
+          "url": "https://googleblog.blogspot.com/2007/11/introducing-android.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Android (operating system) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Android_(operating_system)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "t-mobile-g1-released", "kotlin-android-official", "chrome-for-android-released"]
+    },
+    {
+      "id": "olpc-xo-laptop-released",
+      "slug": "olpc-xo-laptop-released",
+      "date": "2007-11",
+      "datePrecision": "month",
+      "title": "OLPC XO-1 laptop released",
+      "summary": "The One Laptop Per Child project began shipping XO-1 laptops in November 2007 — a low-cost, rugged notebook for education in developing countries.",
+      "about": "The XO-1 ran Sugar on Linux with a dual-mode display readable in sunlight — designed for mesh networking and classroom use. Developers contributed to open firmware, Sugar activities, and the Bitfrost security model. Though the million-laptop vision scaled back, OLPC influenced netbooks, ARM education boards, and the Raspberry Pi mission.",
+      "narrative": {
+        "whyChosen": "The XO-1 was the flagship $100-laptop project that pushed low-cost computing for education.",
+        "whyImportant": "It proved rugged, low-power laptops could be designed for mass deployment outside Western markets.",
+        "problemSolved": "Millions of children lacked access to computers for learning programming and digital literacy."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "olpc", "education", "linux", "embedded"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "One Laptop per Child — XO-1 Give One Get One (November 2007)",
+          "url": "https://en.wikipedia.org/wiki/OLPC_XO",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OLPC XO (overview)",
+          "url": "https://en.wikipedia.org/wiki/OLPC_XO",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["mary-lou-jepsen-olpc-displays", "raspberry-pi-model-b-released", "intel-atom-announced"]
     }
   ]
 }

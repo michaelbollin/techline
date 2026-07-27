@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "visual-studio-code-preview",
+      "slug": "visual-studio-code-preview",
+      "date": "2015-04-29",
+      "datePrecision": "day",
+      "title": "Visual Studio Code preview released",
+      "summary": "Microsoft released the Visual Studio Code preview on April 29, 2015 — a free, cross-platform editor with IntelliSense, debugging, and Git integration.",
+      "about": "VS Code is the default editor for millions of developers — TypeScript/JavaScript, Python, Go, Rust, and more via extensions. It is Electron-based but keyboard-centric: multi-cursor editing, integrated terminal, debugger, and Git diff view. It displaced Atom and challenged JetBrains for everyday editing.",
+      "narrative": {
+        "whyChosen": "VS Code proved Microsoft could win developer mindshare with a free, cross-platform editor.",
+        "whyImportant": "It became the hub for LSP-based language support and the most popular dev tool in surveys.",
+        "problemSolved": "Developers on Mac and Linux lacked a lightweight Microsoft-grade editor with solid debugging and Git."
+      },
+      "category": "software",
+      "tags": ["vscode", "ide", "editor", "microsoft", "cross-platform"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing Visual Studio Code Preview (April 29, 2015)",
+          "url": "https://devblogs.microsoft.com/visualstudio/build-2015-news-visual-studio-code-visual-studio-2015-rc-team-foundation-server-2015-rc-visual-studio-2013-update-5/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Visual Studio Code (overview)",
+          "url": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["typescript-preview-released", "github-launched", "intellij-idea-released", "language-server-protocol-announced"]
+    },
+    {
+      "id": "caddy-released",
+      "slug": "caddy-released",
+      "date": "2015-04-28",
+      "datePrecision": "day",
+      "title": "Caddy first released",
+      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a Go web server with automatic HTTPS and HTTP/2 by default.",
+      "about": "Caddy obtains and renews Let's Encrypt certificates automatically — `caddy reverse-proxy` terminates TLS without manual certbot steps. Its Caddyfile config and JSON API made it popular for dev proxies, static sites, and API gateways. Example: point a domain at Caddy; HTTPS works on first request with no extra setup.",
+      "narrative": {
+        "whyChosen": "Caddy made automatic HTTPS a default feature, not an afterthought.",
+        "whyImportant": "It showed a modern web server could be simple, secure, and written in Go.",
+        "problemSolved": "Configuring TLS certificates and HTTP/2 on nginx or Apache remained painful for small teams."
+      },
+      "category": "software",
+      "tags": ["caddy", "web-server", "https", "http2", "go", "reverse-proxy"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "caddyserver/caddy — v0.5.0 first public release (April 28, 2015)",
+          "url": "https://github.com/caddyserver/caddy/releases/tag/v0.5.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Caddy (web server) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Caddy_(web_server)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nginx-released", "lets-encrypt-public-beta", "http-2-standardized"]
+    },
+    {
+      "id": "apple-watch-released",
+      "slug": "apple-watch-released",
+      "date": "2015-04-24",
+      "datePrecision": "day",
+      "title": "Apple Watch released",
+      "summary": "Apple began selling the Apple Watch on April 24, 2015 — a smartwatch running watchOS with a new app SDK and Digital Crown input.",
+      "about": "watchOS brought Swift/UIKit extensions to the wrist — complications, health sensors, and glanceable notifications. Developers built companion apps paired with iPhone backends; Apple later added cellular models and native App Store distribution on-watch. It opened wearable computing as a mainstream platform beyond fitness bands.",
+      "narrative": {
+        "whyChosen": "The Apple Watch launched watchOS as a first-class Apple developer platform.",
+        "whyImportant": "It created a new form factor for companion apps, health APIs, and glanceable UI patterns.",
+        "problemSolved": "Users wanted smartphone notifications and health tracking without pulling a phone from their pocket."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "wearable", "smartwatch", "apple", "watchos", "mobile"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Apple Watch available April 24, 2015",
+          "url": "https://www.apple.com/newsroom/2015/04/23Apple-Watch-Available-in-Nine-Countries-on-April-24/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple Watch (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_Watch",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["iphone-goes-on-sale", "iphone-app-store-opens", "apple-a4-introduced", "apple-m1-announced"]
+    }
+  ]
+}

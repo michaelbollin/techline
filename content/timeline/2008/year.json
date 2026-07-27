@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "barbara-liskov-turing-award",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "barbara-liskov",
+          "name": "Barbara Liskov",
+          "role": "researcher"
+        }
+      ],
+      "id": "barbara-liskov-turing-award",
+      "date": "2008",
+      "datePrecision": "year",
+      "title": "Barbara Liskov receives Turing Award",
+      "summary": "Barbara Liskov won the 2008 ACM Turing Award for contributions to practical and theoretical foundations of programming languages and systems.",
+      "about": "Liskov substitution principle, CLU, and Byzantine fault tolerance shaped OOP theory and distributed databases. She is among the most cited women in core computer science.",
+      "narrative": {
+        "whyChosen": "Liskov defined substitutability — the 'L' in SOLID — and fault-tolerant replication.",
+        "whyImportant": "Her work bridges language design and distributed system reliability.",
+        "problemSolved": "OOP and distributed systems lacked rigorous behavioral contracts."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "computer-science",
+        "award"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ACM — 2008 Turing Award (Barbara Liskov)",
+          "url": "https://amturing.acm.org/award_winners/Liskov_1108679.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Barbara Liskov (overview)",
+          "url": "https://en.wikipedia.org/wiki/Barbara_Liskov",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

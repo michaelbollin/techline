@@ -14,7 +14,14 @@
         "problemSolved": "Java was verbose for scripting and DSLs; developers wanted Ruby-like ergonomics without leaving the Java ecosystem."
       },
       "category": "software",
-      "tags": ["groovy", "jvm", "java", "gradle", "programming-language"],
+      "tags": [
+        "groovy",
+        "jvm",
+        "java",
+        "gradle",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +36,107 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "kotlin-1-0-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "kotlin-1-0-released"
+      ]
+    },
+    {
+      "id": "steve-jobs-iphone-introduced",
+      "slug": "steve-jobs-iphone-introduced",
+      "date": "2007-01-09",
+      "datePrecision": "day",
+      "title": "Steve Jobs introduces the iPhone",
+      "summary": "Steve Jobs unveiled the iPhone at Macworld on January 9, 2007 — combining a phone, iPod, and internet communicator.",
+      "about": "The iPhone shifted mobile computing from feature phones and BlackBerry keyboards to touch-first smartphones — spawning the App Store economy and mobile-first web development.",
+      "narrative": {
+        "whyChosen": "The iPhone redefined personal computing around mobile apps and touch UI.",
+        "whyImportant": "It made mobile web and native apps central to how software is built and consumed.",
+        "problemSolved": "Phones were clumsy for browsing and lacked a unified pocket computer experience."
+      },
+      "category": "hardware",
+      "tags": [
+        "people",
+        "apple",
+        "iphone",
+        "mobile"
+      ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "ceo"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iPhone introduction keynote (January 9, 2007)",
+          "url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "steve-jobs-returns-to-apple",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "iphone-app-store-opens",
+        "ipad-introduced"
+      ]
+    },
+    {
+      "id": "reed-hastings-netflix-streaming",
+      "slug": "reed-hastings-netflix-streaming",
+      "date": "2007-01-16",
+      "datePrecision": "day",
+      "title": "Reed Hastings launches Netflix streaming",
+      "summary": "Netflix launched its Watch Now streaming service on January 16, 2007 — pivoting from DVD-by-mail to internet video.",
+      "about": "Hastings and Marc Randolph built Netflix into the default streaming platform — changing how developers build CDNs, encode video, and serve global audiences. The shift from discs to bytes redefined entertainment technology.",
+      "narrative": {
+        "whyChosen": "Netflix streaming launched the mainstream era of over-the-top video.",
+        "whyImportant": "It proved internet delivery could replace physical media for mass-market entertainment.",
+        "problemSolved": "Consumers waited days for DVDs when broadband could deliver video on demand."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "netflix",
+        "streaming",
+        "video"
+      ],
+      "people": [
+        {
+          "id": "reed-hastings",
+          "name": "Reed Hastings",
+          "role": "co-founder"
+        },
+        {
+          "id": "marc-randolph",
+          "name": "Marc Randolph",
+          "role": "co-founder"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Netflix — Streaming service launched (January 16, 2007)",
+          "url": "https://en.wikipedia.org/wiki/Netflix",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Netflix (overview)",
+          "url": "https://en.wikipedia.org/wiki/Netflix",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
     }
   ]
 }

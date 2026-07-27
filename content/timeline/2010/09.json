@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "slug": "demis-hassabis-deepmind-founded",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "demis-hassabis",
+          "name": "Demis Hassabis",
+          "role": "co-founder"
+        }
+      ],
+      "id": "demis-hassabis-deepmind-founded",
+      "date": "2010-09",
+      "datePrecision": "month",
+      "title": "Demis Hassabis co-founds DeepMind",
+      "summary": "Demis Hassabis co-founded DeepMind in September 2010 — the lab behind AlphaGo, AlphaFold, and large-scale reinforcement learning research.",
+      "about": "DeepMind's AlphaFold transformed protein structure prediction; AlphaGo demonstrated RL beating world champions. Hassabis bridged neuroscience and AI engineering at industrial scale.",
+      "narrative": {
+        "whyChosen": "DeepMind proved AI research labs could solve grand scientific challenges.",
+        "whyImportant": "It set the template for corporate frontier AI research with open publication.",
+        "problemSolved": "Pure research labs lacked compute and engineering to deploy breakthrough models."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "ai",
+        "deep-learning",
+        "deepmind"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "DeepMind — Company founded (September 2010)",
+          "url": "https://deepmind.google/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — DeepMind (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

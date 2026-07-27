@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "slug": "werner-vogels-amazon-cto",
+      "media": [],
+      "relatedIds": [
+        "andy-jassy-aws-ceo"
+      ],
+      "people": [
+        {
+          "id": "werner-vogels",
+          "name": "Werner Vogels",
+          "role": "cto"
+        }
+      ],
+      "id": "werner-vogels-amazon-cto",
+      "date": "2005-09",
+      "datePrecision": "month",
+      "title": "Werner Vogels named Amazon CTO",
+      "summary": "Amazon appointed Werner Vogels chief technology officer in September 2005 — evangelizing the distributed systems behind AWS.",
+      "about": "Vogels coined 'everything fails all the time' and championed eventual consistency, service-oriented architecture, and cloud primitives. His blog and talks shaped how developers design for failure at scale.",
+      "narrative": {
+        "whyChosen": "Vogels became the public technical voice of Amazon's infrastructure revolution.",
+        "whyImportant": "He translated AWS's distributed systems lessons into mainstream engineering practice.",
+        "problemSolved": "Enterprises lacked accessible guidance on building reliable large-scale web services."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "amazon",
+        "aws",
+        "cto",
+        "distributed-systems"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Amazon — Werner Vogels appointed CTO (September 2005)",
+          "url": "https://www.allthingsdistributed.com/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Werner Vogels (overview)",
+          "url": "https://en.wikipedia.org/wiki/Werner_Vogels",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "slug": "john-mccarthy-lisp-invented",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "john-mccarthy",
+          "name": "John McCarthy",
+          "role": "creator"
+        }
+      ],
+      "id": "john-mccarthy-lisp-invented",
+      "date": "1958",
+      "datePrecision": "year",
+      "title": "John McCarthy invents Lisp",
+      "summary": "John McCarthy invented Lisp in 1958 at MIT — the second-oldest high-level programming language still in use.",
+      "about": "Lisp introduced garbage collection, symbolic expressions, and macros — ideas that influenced Python, JavaScript, and Clojure. McCarthy also coined the term 'artificial intelligence' and organized the Dartmouth workshop.",
+      "narrative": {
+        "whyChosen": "Lisp is the ancestor of functional programming and AI research languages.",
+        "whyImportant": "It treated code as data — enabling macros and metaprogramming decades early.",
+        "problemSolved": "Researchers needed a flexible symbolic language for AI experiments on early computers."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "lisp",
+        "ai",
+        "programming-language"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Stanford — McCarthy, Recursive Functions of Symbolic Expressions (1960; Lisp 1958)",
+          "url": "https://www-formal.stanford.edu/jmc/recursive.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lisp (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

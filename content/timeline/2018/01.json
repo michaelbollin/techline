@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "slug": "yann-lecun-meta-chief-ai",
+      "media": [],
+      "relatedIds": [
+        "deep-learning-turing-trio-2018",
+        "yann-lecun-lenet-published"
+      ],
+      "people": [
+        {
+          "id": "yann-lecun",
+          "name": "Yann LeCun",
+          "role": "researcher"
+        }
+      ],
+      "id": "yann-lecun-meta-chief-ai",
+      "date": "2018-01-23",
+      "datePrecision": "day",
+      "title": "Yann LeCun named Facebook chief AI scientist",
+      "summary": "Yann LeCun stepped down as FAIR director on January 23, 2018 to become Facebook's chief AI scientist — focusing on long-range research while Jérôme Pesenti took operational oversight.",
+      "about": "LeCun kept shaping convolutional networks and self-supervised learning at industrial scale. The role let him advocate publicly for open research while Facebook integrated AI across News Feed, moderation, and AR products.",
+      "narrative": {
+        "whyChosen": "LeCun defined how a Turing laureate could steer corporate AI research strategy.",
+        "whyImportant": "It separated FAIR's exploratory research from product-integrated machine learning.",
+        "problemSolved": "Fast-growing social platforms needed both product ML leadership and fundamental research."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "facebook",
+        "meta"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "The Verge — LeCun becomes chief AI scientist (January 23, 2018)",
+          "url": "https://www.theverge.com/2018/1/23/16924460/facebook-ai-chief-yann-lecun-stepping-down-jerome-pesenti",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Yann LeCun (overview)",
+          "url": "https://en.wikipedia.org/wiki/Yann_LeCun",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

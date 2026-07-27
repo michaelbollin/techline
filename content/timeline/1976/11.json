@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "slug": "diffie-hellman-paper-published",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "whitfield-diffie",
+          "name": "Whitfield Diffie",
+          "role": "researcher"
+        },
+        {
+          "id": "martin-hellman",
+          "name": "Martin Hellman",
+          "role": "researcher"
+        }
+      ],
+      "id": "diffie-hellman-paper-published",
+      "date": "1976-11",
+      "datePrecision": "month",
+      "title": "Diffie and Hellman publish New Directions in Cryptography",
+      "summary": "Whitfield Diffie and Martin Hellman published New Directions in Cryptography in November 1976 — introducing public-key exchange and the foundations of modern cryptography.",
+      "about": "The Diffie–Hellman key exchange let two parties agree on a shared secret over an insecure channel — enabling TLS, SSH, and VPN handshakes today. The paper also articulated the vision of public-key cryptography that RSA would fulfill a year later.",
+      "narrative": {
+        "whyChosen": "Diffie–Hellman introduced the public-key paradigm to academic cryptography.",
+        "whyImportant": "Key exchange without pre-shared secrets became the basis of secure internet protocols.",
+        "problemSolved": "Symmetric-only crypto required costly secure channels to distribute keys at scale."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "cryptography",
+        "research",
+        "public-key"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "IEEE — New Directions in Cryptography (November 1976)",
+          "url": "https://en.wikipedia.org/wiki/New_Directions_in_Cryptography",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Diffie–Hellman key exchange (overview)",
+          "url": "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

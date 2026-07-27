@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "eric-raymond-cathedral-bazaar",
+      "media": [],
+      "relatedIds": [
+        "mozilla-source-released",
+        "open-source-initiative-founded"
+      ],
+      "people": [
+        {
+          "id": "eric-raymond",
+          "name": "Eric S. Raymond",
+          "role": "author"
+        }
+      ],
+      "id": "eric-raymond-cathedral-bazaar",
+      "date": "1997",
+      "datePrecision": "year",
+      "title": "Eric Raymond publishes The Cathedral and the Bazaar",
+      "summary": "Eric Raymond's essay The Cathedral and the Bazaar (1997) argued open, distributed development beats closed planning — influencing Netscape's Mozilla release.",
+      "about": "Raymond's 'given enough eyeballs, all bugs are shallow' became open-source folklore. The essay gave executives a narrative for releasing proprietary code — directly preceding the 1998 Mozilla source dump.",
+      "narrative": {
+        "whyChosen": "The essay bridged hacker culture and corporate open-source strategy.",
+        "whyImportant": "It gave language for why Netscape and others should open their codebases.",
+        "problemSolved": "Executives lacked a business case for releasing source code."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "open-source",
+        "essay"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Eric Raymond — The Cathedral and the Bazaar (1997)",
+          "url": "http://www.catb.org/~esr/writings/cathedral-bazaar/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — The Cathedral and the Bazaar (overview)",
+          "url": "https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

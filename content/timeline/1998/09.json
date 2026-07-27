@@ -14,7 +14,14 @@
         "problemSolved": "Your C++ code might compile perfectly in Visual Studio and fail in GCC — or vice versa — because the language wasn't fixed. Big projects (games, banks, browsers) needed one definition they could trust across machines and vendors."
       },
       "category": "software",
-      "tags": ["cpp", "iso", "standard", "stl", "programming-language"],
+      "tags": [
+        "cpp",
+        "iso",
+        "standard",
+        "stl",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,61 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cpp-cfront-1-0", "cpp-templates-cfront-3", "cpp11-standard"]
+      "relatedIds": [
+        "cpp-cfront-1-0",
+        "cpp-templates-cfront-3",
+        "cpp11-standard"
+      ]
+    },
+    {
+      "slug": "google-founded",
+      "media": [],
+      "relatedIds": [
+        "google-gemini-released",
+        "google-chrome-released"
+      ],
+      "people": [
+        {
+          "id": "larry-page",
+          "name": "Larry Page",
+          "role": "co-founder"
+        },
+        {
+          "id": "sergey-brin",
+          "name": "Sergey Brin",
+          "role": "co-founder"
+        }
+      ],
+      "id": "google-founded",
+      "date": "1998-09-04",
+      "datePrecision": "day",
+      "title": "Larry Page and Sergey Brin incorporate Google",
+      "summary": "Larry Page and Sergey Brin incorporated Google on September 4, 1998 — turning their PageRank research into a company.",
+      "about": "Google began as a search engine and became the organizing layer of the web — ads, Gmail, Maps, Android, Chrome, and cloud infrastructure. Page and Brin's focus on ranking and scale influenced how every later internet company thought about data and algorithms.",
+      "narrative": {
+        "whyChosen": "Google defined the search-and-ads economy that funds much of the modern web.",
+        "whyImportant": "PageRank changed information retrieval from directories to algorithmic relevance.",
+        "problemSolved": "Early web directories could not keep pace with exponential page growth."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "google",
+        "founding"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Google — Our story (founded September 1998)",
+          "url": "https://about.google/company-info/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

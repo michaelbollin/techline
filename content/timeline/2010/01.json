@@ -30,6 +30,99 @@
         }
       ],
       "relatedIds": ["nodejs-first-released", "nestjs-announced"]
+    },
+    {
+      "id": "npm-first-released",
+      "slug": "npm-first-released",
+      "date": "2010-01-12",
+      "datePrecision": "day",
+      "title": "npm first released",
+      "summary": "Isaac Schlueter released npm 1.0 on January 12, 2010 — the default package manager for Node.js and the largest software registry on the web.",
+      "about": "npm installs libraries with `npm install express`, publishes packages to the registry, and locks versions in `package-lock.json`. It shaped how JavaScript shares code — from lodash to React to corporate private registries. Every Node project, frontend bundler, and CI install step depends on it.",
+      "narrative": {
+        "whyChosen": "npm turned Node from a runtime into an ecosystem with millions of reusable packages.",
+        "whyImportant": "It established semver, dependency trees, and publish workflows for modern JavaScript development.",
+        "problemSolved": "Node had no standard way to discover, version, and install third-party modules."
+      },
+      "category": "software",
+      "tags": ["npm", "package-manager", "nodejs", "javascript", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — npm (first version January 12, 2010)",
+          "url": "https://en.wikipedia.org/wiki/Npm",
+          "role": "date"
+        },
+        {
+          "title": "npm — About npm (overview)",
+          "url": "https://docs.npmjs.com/about-npm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-first-released", "express-released", "webpack-released", "browserify-released", "eslint-released", "homebrew-released", "cargo-released", "nuget-released", "yarn-released", "pnpm-released"]
+    },
+    {
+      "id": "ipad-introduced",
+      "slug": "ipad-introduced",
+      "date": "2010-01-27",
+      "datePrecision": "day",
+      "title": "iPad introduced",
+      "summary": "Steve Jobs introduced the iPad on January 27, 2010 — a tablet-sized iOS device between smartphone and laptop.",
+      "about": "The iPad brought touch-first apps to a 10-inch screen — magazines, games, point-of-sale, and field tools. Developers adapted responsive layouts and later split-view multitasking; the 'tablet class' of UX influenced Android tablets and hybrid 2-in-1s. It redefined casual computing for millions who never bought a PC.",
+      "narrative": {
+        "whyChosen": "The iPad created the modern tablet category and a new form factor for app developers.",
+        "whyImportant": "It expanded mobile development beyond phones into touch-first tablet experiences.",
+        "problemSolved": "Users wanted internet and media consumption without carrying a laptop or squinting at a phone."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "tablet", "mobile", "apple", "ipad"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iPad introduced (January 27, 2010)",
+          "url": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPad (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPad",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "iphone-app-store-opens", "microsoft-surface-pro-released", "apple-a4-introduced"]
+    },
+    {
+      "id": "apple-a4-introduced",
+      "slug": "apple-a4-introduced",
+      "date": "2010-01-27",
+      "datePrecision": "day",
+      "title": "Apple A4 chip introduced",
+      "summary": "Apple introduced the A4 system-on-chip on January 27, 2010 alongside the iPad — Apple's first in-house-designed mobile processor.",
+      "about": "The A4 combined an ARM Cortex-A8 CPU with PowerVR graphics in a package Apple designed — not just rebranded Samsung silicon. It shipped in the iPad and iPhone 4, starting Apple's vertical integration of mobile chip design. Every A-series and M-series chip since traces to this SoC strategy.",
+      "narrative": {
+        "whyChosen": "The A4 was Apple's first custom SoC — the start of in-house mobile silicon.",
+        "whyImportant": "It let Apple tune CPU, GPU, and power together for iOS devices instead of relying on off-the-shelf chips.",
+        "problemSolved": "Apple needed tighter control over performance and battery life than merchant ARM chips provided."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "cpu", "arm", "apple", "soc", "chip"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iPad introduced with A4 chip (January 27, 2010)",
+          "url": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple A4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_A4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ipad-introduced", "iphone-4-released", "apple-m1-announced", "acorn-archimedes-released"]
     }
   ]
 }

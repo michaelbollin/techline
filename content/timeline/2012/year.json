@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "shafi-goldwasser-turing-award",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "shafi-goldwasser",
+          "name": "Shafi Goldwasser",
+          "role": "researcher"
+        }
+      ],
+      "id": "shafi-goldwasser-turing-award",
+      "date": "2012",
+      "datePrecision": "year",
+      "title": "Shafi Goldwasser receives Turing Award",
+      "summary": "Shafi Goldwasser won the 2012 ACM Turing Award with Silvio Micali for transformative work in cryptography and complexity theory.",
+      "about": "Goldwasser's zero-knowledge proofs and probabilistic encryption underpin blockchain, TLS, and modern security protocols. Her career advanced rigorous foundations for practical cryptography.",
+      "narrative": {
+        "whyChosen": "Goldwasser linked theoretical crypto to protocols developers deploy daily.",
+        "whyImportant": "Zero-knowledge proofs enable privacy-preserving verification.",
+        "problemSolved": "Cryptographic systems needed provable security definitions, not ad hoc designs."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "cryptography",
+        "award"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ACM — 2012 Turing Award (Goldwasser & Micali)",
+          "url": "https://amturing.acm.org/award_winners/goldwasser_8627889.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Shafi Goldwasser (overview)",
+          "url": "https://en.wikipedia.org/wiki/Shafi_Goldwasser",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

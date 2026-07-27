@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "json-rpc-1-0-published",
+      "slug": "json-rpc-1-0-published",
+      "date": "2005",
+      "datePrecision": "year",
+      "title": "JSON-RPC 1.0 published",
+      "summary": "JSON-RPC.org published the JSON-RPC 1.0 specification in 2005 — a lightweight remote procedure call protocol using JSON over HTTP.",
+      "about": "JSON-RPC wraps method calls in JSON objects — `{\"method\":\"subtract\",\"params\":[42,23],\"id\":1}` — and returns structured results or errors. Simpler than SOAP, it powered Bitcoin nodes, Ethereum clients, and countless internal APIs before gRPC and GraphQL. Example: a wallet app calls `getBalance` on a node with one POST and a typed JSON response.",
+      "narrative": {
+        "whyChosen": "JSON-RPC gave web-era developers a minimal RPC format without XML envelopes.",
+        "whyImportant": "It influenced later specs (2.0, JSON-RPC over WebSocket) and blockchain node APIs.",
+        "problemSolved": "XML-RPC and SOAP were heavy; AJAX-era apps needed thin RPC over HTTP with JavaScript-friendly payloads."
+      },
+      "category": "protocol",
+      "tags": ["json-rpc", "rpc", "api", "json", "protocol", "standard"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "JSON-RPC.org — Version 1.0 specification (2005)",
+          "url": "https://www.jsonrpc.org/specification_v1",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — JSON-RPC (overview)",
+          "url": "https://en.wikipedia.org/wiki/JSON-RPC",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["rest-architectural-style-defined", "grpc-open-sourced", "swagger-1-0-released"]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "id": "html-invented",
+      "slug": "html-invented",
+      "date": "1991",
+      "datePrecision": "year",
+      "title": "HTML invented",
+      "summary": "Tim Berners-Lee invented HTML in 1991 at CERN — a markup language of tags for linking documents on the World Wide Web.",
+      "about": "HTML wraps text in elements like `<a href>`, `<p>`, and `<h1>` so browsers know structure and hyperlinks. Berners-Lee paired it with HTTP and URLs; every web page, email template, and SPA still renders HTML (or generates it). Example: `<a href=\"/docs\">Read more</a>` turns text into a clickable navigation link.",
+      "narrative": {
+        "whyChosen": "HTML was the document format that made the web browsable, not just transferable files.",
+        "whyImportant": "It became the universal presentation layer of the internet — later extended by CSS and JavaScript.",
+        "problemSolved": "Scientists at CERN needed a simple way to write and link research documents across machines."
+      },
+      "category": "protocol",
+      "tags": [
+        "html",
+        "web",
+        "markup",
+        "cern",
+        "standard"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CERN — The birth of the web (HTML invented 1991)",
+          "url": "https://home.cern/science/computing/birth-web",
+          "role": "date"
+        },
+        {
+          "title": "W3C History — HyperText Mark-up Language (overview)",
+          "url": "https://www.w3.org/History/19921103-hypertext/hypertext/WWW/MarkUp/MarkUp.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "uri-standardized",
+        "http-1-1-standardized"
+      ]
+    },
+    {
+      "slug": "bram-moolenaar-vim-released",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "bram-moolenaar",
+          "name": "Bram Moolenaar",
+          "role": "creator"
+        }
+      ],
+      "id": "bram-moolenaar-vim-released",
+      "date": "1991",
+      "datePrecision": "year",
+      "title": "Bram Moolenaar releases Vim",
+      "summary": "Bram Moolenaar released Vim in 1991 — the modal editor that became the default for terminal-centric developers.",
+      "about": "Vim's modal editing, macros, and plugin ecosystem shaped how sysadmins and programmers edit remote servers. It remains among the most installed developer tools worldwide.",
+      "narrative": {
+        "whyChosen": "Vim defined modal text editing for a generation of terminal users.",
+        "whyImportant": "It kept powerful keyboard-driven editing viable on constrained systems.",
+        "problemSolved": "vi was inconsistent across Unix variants and lacked extensibility."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "editor",
+        "open-source"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Vim — History (1991)",
+          "url": "https://www.vim.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Vim (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vim_(text_editor)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

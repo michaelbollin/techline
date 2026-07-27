@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["firefox-1-0-released", "firefox-57-quantum", "google-chrome-released"]
+    },
+    {
+      "id": "bitbucket-launched",
+      "slug": "bitbucket-launched",
+      "date": "2008-06-24",
+      "datePrecision": "day",
+      "title": "Bitbucket launched",
+      "summary": "Jesper Noehr launched Bitbucket in open beta on June 24, 2008 — Mercurial hosting with free private repos for small teams.",
+      "about": "Bitbucket competed with GitHub by backing Mercurial first and offering unlimited private repositories when GitHub charged for them. Atlassian acquired it in 2010 and later added Git support. For years it was the default choice for teams that wanted private code hosting without enterprise sales — shaping the hosting market GitHub and GitLab still fight over.",
+      "narrative": {
+        "whyChosen": "Bitbucket made private Mercurial hosting accessible and pressured competitors on pricing.",
+        "whyImportant": "It expanded source-hosting options and accelerated adoption of distributed version control.",
+        "problemSolved": "Teams needed affordable private repos when the dominant host charged per private project."
+      },
+      "category": "software",
+      "tags": ["bitbucket", "git", "mercurial", "hosting", "atlassian", "version-control"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Bitbucket (launched June 24, 2008)",
+          "url": "https://en.wikipedia.org/wiki/Bitbucket",
+          "role": "date"
+        },
+        {
+          "title": "Atlassian — Bitbucket (overview)",
+          "url": "https://bitbucket.org/product",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["github-launched", "gitlab-released", "mercurial-released"]
     }
   ]
 }

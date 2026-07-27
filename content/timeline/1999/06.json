@@ -35,8 +35,40 @@
         }
       ],
       "relatedIds": [
-        "actionscript-1-0-flash-5"
+        "flash-4-scripting",
+        "flash-player-discontinued"
       ]
+    },
+    {
+      "id": "apache-tomcat-released",
+      "slug": "apache-tomcat-released",
+      "date": "1999-06",
+      "datePrecision": "month",
+      "title": "Apache Tomcat released",
+      "summary": "Sun donated Tomcat to the Apache Software Foundation in June 1999 — the first open-source Java servlet container as Apache Tomcat 3.0.",
+      "about": "Tomcat runs Java servlets and JSPs — the reference implementation James Duncan Davidson built at Sun before open-sourcing it at JavaOne. It powered early enterprise Java, JSP websites, and the Jakarta ecosystem. Ant was born as Tomcat's build tool. Example: deploy a `.war` file and Tomcat serves your servlet at `http://localhost:8080/myapp`.",
+      "narrative": {
+        "whyChosen": "Tomcat made Java servlet hosting open source and embeddable outside proprietary app servers.",
+        "whyImportant": "It became the default servlet container and launched the Apache Jakarta/Java open-source wave.",
+        "problemSolved": "Java web developers needed a free, portable runtime for servlets without buying WebLogic or WebSphere."
+      },
+      "category": "software",
+      "tags": ["tomcat", "java", "servlet", "jsp", "apache", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apache Tomcat — Heritage (first Apache release 3.0, 1999)",
+          "url": "https://tomcat.apache.org/heritage.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Tomcat (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Tomcat",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-1-0-shipped", "ant-released", "jetty-released", "apache-http-server-released", "spring-framework-1-0-released"]
     }
   ]
 }

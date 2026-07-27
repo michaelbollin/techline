@@ -1,6 +1,37 @@
 {
   "events": [
     {
+      "id": "meson-released",
+      "slug": "meson-released",
+      "date": "2013-03-02",
+      "datePrecision": "day",
+      "title": "Meson first released",
+      "summary": "Jussi Pakkanen released Meson 0.1 on March 2, 2013 — a fast, readable build system that generates Ninja files.",
+      "about": "Meson uses a Python-like DSL in `meson.build` files — declare executables, libraries, and tests; Meson emits Ninja build files for speed. GTK, systemd, Mesa, and GStreamer adopted it as a modern alternative to Autotools and CMake. Example: `meson setup build && meson compile -C build` configures and compiles a C project cross-platform.",
+      "narrative": {
+        "whyChosen": "Meson offered a simpler, faster alternative to Autotools for large open-source C/C++ projects.",
+        "whyImportant": "It became the build system of choice for GNOME, freedesktop, and major Linux infrastructure.",
+        "problemSolved": "Autotools and CMake configs were verbose, slow to configure, and error-prone for contributors."
+      },
+      "category": "software",
+      "tags": ["meson", "build", "ninja", "c", "cpp", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Meson (initial release March 2, 2013)",
+          "url": "https://en.wikipedia.org/wiki/Meson_(software)",
+          "role": "date"
+        },
+        {
+          "title": "Meson — Getting started (overview)",
+          "url": "https://mesonbuild.com/Getting-started.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ninja-released", "cmake-released", "bazel-open-sourced"]
+    },
+    {
       "id": "nodejs-0-10-released",
       "slug": "nodejs-0-10-released",
       "date": "2013-03-11",
@@ -30,6 +61,37 @@
         }
       ],
       "relatedIds": ["nodejs-first-released"]
+    },
+    {
+      "id": "docker-open-sourced",
+      "slug": "docker-open-sourced",
+      "date": "2013-03",
+      "datePrecision": "month",
+      "title": "Docker open-sourced",
+      "summary": "dotCloud released Docker as open source in March 2013 — packaging apps as portable containers with isolated filesystems and namespaces.",
+      "about": "Docker images bundle an app and its dependencies; `docker run` starts containers identically on laptops, CI, and cloud VMs. It standardized 'build once, run anywhere' for microservices and dev environments. Kubernetes later orchestrated Docker containers at fleet scale.",
+      "narrative": {
+        "whyChosen": "Docker made Linux containers usable for everyday developers, not just kernel experts.",
+        "whyImportant": "It launched the cloud-native era — images, registries, and compose files became universal DevOps vocabulary.",
+        "problemSolved": "Deploying apps meant fragile snowflake servers; teams needed reproducible, isolated runtime environments."
+      },
+      "category": "software",
+      "tags": ["docker", "container", "devops", "open-source", "linux"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Docker — Nine Years Young (open-sourced March 2013)",
+          "url": "https://www.docker.com/blog/docker-nine-years-young/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Docker (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["docker-open-sourced", "kubernetes-open-sourced", "go-1-0-released", "terraform-released", "ansible-released", "vagrant-released", "open-container-initiative-launched", "helm-2-released", "lxc-released", "sun-1-released", "vmware-workstation-released"]
     }
   ]
 }

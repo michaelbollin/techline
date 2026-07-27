@@ -39,12 +39,39 @@ export function EventDetail({ event }: EventDetailProps) {
   return (
     <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px]">
       <div className="space-y-8">
+        {event.quoteText && (
+          <section className="rounded-2xl border border-fuchsia-400/25 bg-fuchsia-400/5 p-6">
+            <h2 className="mb-3 text-sm font-medium tracking-wide text-fuchsia-300 uppercase">
+              Quote
+            </h2>
+            <blockquote className="text-lg leading-relaxed font-medium text-foreground italic">
+              &ldquo;{event.quoteText}&rdquo;
+            </blockquote>
+          </section>
+        )}
+
         <section className="rounded-2xl border border-accent/20 bg-accent-muted/30 p-5">
           <h2 className="mb-2 text-sm font-medium tracking-wide text-accent uppercase">
             What it was for
           </h2>
           <p className="leading-relaxed text-foreground/90">{event.about}</p>
         </section>
+
+        {event.people.length > 0 && (
+          <section>
+            <h2 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">
+              People
+            </h2>
+            <ul className="space-y-2">
+              {event.people.map((person) => (
+                <li key={person.id} className="text-sm text-foreground/90">
+                  <span className="font-medium text-foreground">{person.name}</span>
+                  <span className="text-muted"> — {person.role.replace("-", " ")}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <NarrativeBlock narrative={event.narrative} />
 

@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "guido-van-rossum-bdfl-step-down",
+      "media": [],
+      "relatedIds": [
+        "python-0-9-0-released",
+        "python-3-0-released"
+      ],
+      "people": [
+        {
+          "id": "guido-van-rossum",
+          "name": "Guido van Rossum",
+          "role": "maintainer"
+        }
+      ],
+      "id": "guido-van-rossum-bdfl-step-down",
+      "date": "2018-07-12",
+      "datePrecision": "day",
+      "title": "Guido van Rossum steps down as Python BDFL",
+      "summary": "Guido van Rossum stepped down as Python's Benevolent Dictator For Life on July 12, 2018 — ending his central governance role.",
+      "about": "Van Rossum created Python in 1991 and guided it through 2/3 migration and community growth. His resignation pushed Python toward a formal steering council governance model.",
+      "narrative": {
+        "whyChosen": "The BDFL step-down changed how one of the world's largest languages is governed.",
+        "whyImportant": "It forced Python to institutionalize decision-making beyond a single founder.",
+        "problemSolved": "Burnout and mailing-list conflicts showed BDFL model does not scale forever."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "python",
+        "maintainer"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Python.org — Transfer of power (July 12, 2018)",
+          "url": "https://mail.python.org/pipermail/python-committers/2018-July/005664.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Guido van Rossum (overview)",
+          "url": "https://en.wikipedia.org/wiki/Guido_van_Rossum",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

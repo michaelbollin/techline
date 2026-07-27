@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ibm-system-360-announced",
+      "slug": "ibm-system-360-announced",
+      "date": "1964-04-07",
+      "datePrecision": "day",
+      "title": "IBM System/360 announced",
+      "summary": "IBM announced the System/360 family on April 7, 1964 — a compatible line of mainframes that shared software across models.",
+      "about": "System/360 introduced the idea that one architecture could span small and large machines — programs written for a low-end 360 could run on a big iron box with more I/O. OS/360, COBOL batch jobs, and enterprise data processing all standardized on this family. The `/360` name even inspired later product lines (System/370, z/OS descendants).",
+      "narrative": {
+        "whyChosen": "System/360 defined compatible computer families and dominated business computing for decades.",
+        "whyImportant": "Software compatibility across hardware tiers became an industry expectation — still how cloud instance types work today.",
+        "problemSolved": "Customers faced incompatible machines every upgrade; IBM needed one architecture from lab to datacenter."
+      },
+      "category": "invention",
+      "tags": ["hardware", "mainframe", "ibm", "computer", "invention"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "IBM — System/360 history (announced April 7, 1964)",
+          "url": "https://www.ibm.com/history/system-360",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — IBM System/360 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IBM_System/360",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cobol-specifications-submitted", "eniac-dedicated"]
+    }
+  ]
+}

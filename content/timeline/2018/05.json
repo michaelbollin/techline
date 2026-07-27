@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "ryan-dahl-deno-announced",
+      "media": [],
+      "relatedIds": [
+        "nodejs-first-released"
+      ],
+      "people": [
+        {
+          "id": "ryan-dahl",
+          "name": "Ryan Dahl",
+          "role": "creator"
+        }
+      ],
+      "id": "ryan-dahl-deno-announced",
+      "date": "2018-05-30",
+      "datePrecision": "day",
+      "title": "Ryan Dahl announces Deno",
+      "summary": "Ryan Dahl unveiled Deno on May 30, 2018 — a secure TypeScript/JavaScript runtime addressing Node.js design regrets.",
+      "about": "Dahl's '10 things I regret about Node.js' talk reframed server JS around permissions, native TypeScript, and explicit security. Deno influenced conversations about runtime design even for teams staying on Node.",
+      "narrative": {
+        "whyChosen": "Dahl's Deno talk was a rare public redesign of one's own massively successful project.",
+        "whyImportant": "It pushed secure-by-default and TypeScript-first runtimes into mainstream discussion.",
+        "problemSolved": "Node's module and security model created footguns Dahl wanted to fix from scratch."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "deno",
+        "nodejs",
+        "typescript"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "JSConf EU — Ryan Dahl: Deno (May 30, 2018)",
+          "url": "https://www.youtube.com/watch?v=M3BM9TB-8yA",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Deno (overview)",
+          "url": "https://en.wikipedia.org/wiki/Deno_(software)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

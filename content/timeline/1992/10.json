@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ibm-thinkpad-700c-released",
+      "slug": "ibm-thinkpad-700c-released",
+      "date": "1992-10",
+      "datePrecision": "month",
+      "title": "IBM ThinkPad 700C released",
+      "summary": "IBM launched the ThinkPad 700C in October 1992 — a laptop with a 10.4-inch color display, TrackPoint, and a folding keyboard design.",
+      "about": "The ThinkPad became the default corporate laptop — developers carried them between meetings, VPN'd into Unix servers, and ran early Windows IDEs. The TrackPoint and durable magnesium shell set expectations for business portables. Lenovo later acquired the line, but the 700C defined what a serious laptop looked like.",
+      "narrative": {
+        "whyChosen": "The ThinkPad 700C established the design language and build quality of business laptops.",
+        "whyImportant": "It made portable computing standard for enterprise developers and road warriors.",
+        "problemSolved": "Business travelers needed a rugged, full-featured laptop that could replace a desktop on the road."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "ibm", "thinkpad", "pc"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "IBM — ThinkPad history (700C, October 1992)",
+          "url": "https://www.ibm.com/history/thinkpad",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ThinkPad (overview)",
+          "url": "https://en.wikipedia.org/wiki/ThinkPad",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released", "apple-powerbook-released"]
+    }
+  ]
+}

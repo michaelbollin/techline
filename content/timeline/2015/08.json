@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "sundar-pichai-google-ceo",
+      "media": [],
+      "relatedIds": [
+        "google-founded",
+        "google-gemini-released"
+      ],
+      "people": [
+        {
+          "id": "sundar-pichai",
+          "name": "Sundar Pichai",
+          "role": "ceo"
+        }
+      ],
+      "id": "sundar-pichai-google-ceo",
+      "date": "2015-08-10",
+      "datePrecision": "day",
+      "title": "Sundar Pichai named Google CEO",
+      "summary": "Google appointed Sundar Pichai CEO on August 10, 2015 as Alphabet reorganized — putting him in charge of search, Chrome, and Android.",
+      "about": "Pichai steered Google through the mobile-to-AI transition — scaling Android, Chrome, and later Gemini. He represents the product-engineer path to leading the world's largest internet software stack.",
+      "narrative": {
+        "whyChosen": "Pichai leads the company whose platforms most developers build on or compete with.",
+        "whyImportant": "His tenure spans mobile dominance and the generative AI race.",
+        "problemSolved": "Google needed focused product leadership after the Alphabet split from experimental bets."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "google",
+        "ceo"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Google — Sundar Pichai CEO (August 10, 2015)",
+          "url": "https://blog.google/inside-google/company-announcements/growing-our-company/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sundar Pichai (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sundar_Pichai",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -123,6 +123,68 @@
         }
       ],
       "relatedIds": ["dotnet-5-released", "dotnet-core-3-0-released", "csharp-7-released"]
+    },
+    {
+      "id": "apple-m1-announced",
+      "slug": "apple-m1-announced",
+      "date": "2020-11-10",
+      "datePrecision": "day",
+      "title": "Apple M1 announced",
+      "summary": "Apple announced the M1 chip on November 10, 2020 — the first Apple silicon SoC for Mac, replacing Intel processors.",
+      "about": "The M1 unified CPU, GPU, and Neural Engine on a 5 nm process — MacBooks booted instantly and compiled Xcode projects faster than many Intel laptops while sipping battery. Developers rebuilt apps for arm64 or ran x86 binaries through Rosetta 2. It ended Apple's 15-year Intel partnership and reshaped local dev machine expectations.",
+      "narrative": {
+        "whyChosen": "The M1 was Apple's break from Intel and the start of the Apple silicon Mac era.",
+        "whyImportant": "It forced developers to target arm64 and proved ARM laptops could outperform x86 for daily dev work.",
+        "problemSolved": "Intel Macs lagged on performance-per-watt; Apple needed in-house chips to control its Mac roadmap."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "cpu", "arm", "apple", "apple-silicon", "chip"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — MacBook Air and MacBook Pro with M1 (November 10, 2020)",
+          "url": "https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple silicon (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_silicon",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["apple-m1-mac-shipped", "imac-g3-released", "iphone-4-released", "intel-80386-introduced"]
+    },
+    {
+      "id": "apple-m1-mac-shipped",
+      "slug": "apple-m1-mac-shipped",
+      "date": "2020-11-17",
+      "datePrecision": "day",
+      "title": "M1 MacBook Air and Pro ship",
+      "summary": "Apple began selling M1 MacBook Air and MacBook Pro models on November 17, 2020 — the first Apple silicon Macs available to customers.",
+      "about": "Developers unboxed fanless Airs that outran prior Intel Pros on native builds — Docker, Node, and Xcode teams rushed to test arm64 CI pipelines. Rosetta 2 ran most x86 Mac apps transparently during the transition. The shipping date turned a keynote chip into the default laptop for millions of software engineers.",
+      "narrative": {
+        "whyChosen": "The M1 Mac retail launch made Apple silicon the default dev platform for Mac users overnight.",
+        "whyImportant": "It accelerated arm64 toolchain support across open-source and commercial developer tools.",
+        "problemSolved": "Developers needed real hardware to test arm64 builds before committing to Apple silicon migration."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "apple", "apple-silicon", "arm", "macbook"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — M1 MacBook Air and Pro available (November 17, 2020)",
+          "url": "https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple silicon (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_silicon",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["apple-m1-announced", "imac-g3-released", "ibm-thinkpad-700c-released", "apple-powerbook-released"]
     }
   ]
 }

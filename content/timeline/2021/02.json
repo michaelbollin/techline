@@ -1,0 +1,90 @@
+{
+  "events": [
+    {
+      "id": "vite-1-released",
+      "slug": "vite-1-released",
+      "date": "2021-02-16",
+      "datePrecision": "day",
+      "title": "Vite 1.0 released",
+      "summary": "Evan You released Vite 1.0 on February 16, 2021 — an ESM-native dev server with instant hot reload and Rollup-powered production builds.",
+      "about": "Vite replaced webpack's slow dev startup with native ES modules — `npm run dev` in milliseconds instead of minutes for large Vue and React apps. It became the default for Vue 3, SvelteKit, and many React starters, shifting frontend tooling toward esbuild and native ESM.",
+      "narrative": {
+        "whyChosen": "Vite made dev-server speed a competitive requirement for JS build tools.",
+        "whyImportant": "Native ESM dev mode eliminated bundling during development for most apps.",
+        "problemSolved": "Webpack dev servers were painfully slow on large SPAs, hurting developer productivity."
+      },
+      "category": "software",
+      "tags": [
+        "vite",
+        "javascript",
+        "bundler",
+        "frontend",
+        "build-tool",
+        "vue"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Vite — Vite 1.0 is out (February 16, 2021)",
+          "url": "https://vitejs.dev/blog/announcing-vite1.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Vite (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vite_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "webpack-5-released",
+        "webpack-released",
+        "vue-3-released"
+      ]
+    },
+    {
+      "slug": "pat-gelsinger-intel-ceo",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "pat-gelsinger",
+          "name": "Pat Gelsinger",
+          "role": "ceo"
+        }
+      ],
+      "id": "pat-gelsinger-intel-ceo",
+      "date": "2021-02-15",
+      "datePrecision": "day",
+      "title": "Pat Gelsinger returns as Intel CEO",
+      "summary": "Intel named Pat Gelsinger CEO on February 15, 2021 — bringing back a longtime Intel engineer to lead a manufacturing turnaround.",
+      "about": "Gelsinger pledged to restore Intel's process leadership and expand foundry services — betting the company could compete with TSMC while supplying x86 CPUs to the data center. His tenure marked Intel's most public strategy reset in decades.",
+      "narrative": {
+        "whyChosen": "Gelsinger's return signaled Intel's attempt to recover lost semiconductor manufacturing ground.",
+        "whyImportant": "Intel's fab strategy affects global CPU supply and US chip sovereignty debates.",
+        "problemSolved": "Intel had fallen behind TSMC on leading-edge process nodes."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "intel",
+        "ceo",
+        "semiconductor"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Intel — Pat Gelsinger appointed CEO (February 15, 2021)",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-announces-leadership-transition.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Pat Gelsinger (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pat_Gelsinger",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "events": [
+    {
+      "id": "make-created",
+      "slug": "make-created",
+      "date": "1976-04",
+      "datePrecision": "month",
+      "title": "Make build tool created",
+      "summary": "Stuart Feldman wrote Make at Bell Labs in April 1976 — the first tool to rebuild only what changed by tracking file dependencies.",
+      "about": "Make reads a Makefile listing targets and prerequisites — change one `.c` file and only its dependents recompile. Every C/C++ project, Linux kernel build, and countless CI pipelines still use Make or descendants (CMake, Ninja, Gradle). Example: `make` after editing `main.c` re-links the binary without rebuilding untouched objects.",
+      "narrative": {
+        "whyChosen": "Make invented dependency-driven builds — the pattern behind every modern build system.",
+        "whyImportant": "It stopped developers from shipping stale binaries because someone forgot to recompile.",
+        "problemSolved": "Manual rebuilds were error-prone; teams needed automatic tracking of which objects were out of date."
+      },
+      "category": "software",
+      "tags": [
+        "make",
+        "build",
+        "unix",
+        "bell-labs"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Make (software) (first appeared April 1976)",
+          "url": "https://en.wikipedia.org/wiki/Make_(software)",
+          "role": "date"
+        },
+        {
+          "title": "Bell Labs — Make — A Program for Maintaining Computer Programs (overview)",
+          "url": "https://www.cs.princeton.edu/~bwk/make.ps",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cmake-released",
+        "gradle-released",
+        "ant-released",
+        "bazel-open-sourced",
+        "ninja-released",
+        "autoconf-released"
+      ]
+    },
+    {
+      "slug": "steve-wozniak-apple-founded",
+      "media": [],
+      "relatedIds": [
+        "apple-ii-introduced",
+        "susan-kare-macintosh-icons"
+      ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "co-founder"
+        },
+        {
+          "id": "steve-wozniak",
+          "name": "Steve Wozniak",
+          "role": "co-founder"
+        }
+      ],
+      "id": "steve-wozniak-apple-founded",
+      "date": "1976-04-01",
+      "datePrecision": "day",
+      "title": "Steve Jobs and Steve Wozniak found Apple",
+      "summary": "Steve Jobs and Steve Wozniak formed Apple Computer Company on April 1, 1976 to sell the Apple I kit.",
+      "about": "Apple brought personal computers to consumers with the Apple II and Macintosh — shaping GUI software, developer tools, and the idea that computers belong on every desk.",
+      "narrative": {
+        "whyChosen": "Apple became one of the defining personal computing companies.",
+        "whyImportant": "It proved hobbyist kits could become mass-market consumer products.",
+        "problemSolved": "Early microcomputers were sold as kits without a polished consumer brand."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "apple",
+        "founding",
+        "hardware"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Apple — Company history (founded April 1, 1976)",
+          "url": "https://www.apple.com/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple Inc. (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

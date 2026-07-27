@@ -14,7 +14,15 @@
         "problemSolved": "Windows lacked a modern composable shell; admins glued together VBScript, WMI, and one-off binaries."
       },
       "category": "software",
-      "tags": ["powershell", "microsoft", "windows", "shell", "scripting", "dotnet"],
+      "tags": [
+        "powershell",
+        "microsoft",
+        "windows",
+        "shell",
+        "scripting",
+        "dotnet"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +37,57 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-framework-1-0-rtm", "bash-1-0-released"]
+      "relatedIds": [
+        "dotnet-framework-1-0-rtm",
+        "bash-1-0-released"
+      ]
+    },
+    {
+      "slug": "jensen-huang-cuda-announced",
+      "media": [],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded",
+        "hinton-alexnet-imagenet-breakthrough"
+      ],
+      "people": [
+        {
+          "id": "jensen-huang",
+          "name": "Jensen Huang",
+          "role": "ceo"
+        }
+      ],
+      "id": "jensen-huang-cuda-announced",
+      "date": "2006-11-08",
+      "datePrecision": "day",
+      "title": "Jensen Huang announces CUDA",
+      "summary": "NVIDIA CEO Jensen Huang announced CUDA on November 8, 2006 — opening GPUs to general-purpose parallel computing.",
+      "about": "CUDA let researchers run matrix math on graphics cards — enabling the deep learning boom years before AlexNet. It turned NVIDIA from a gaming GPU vendor into an AI infrastructure company.",
+      "narrative": {
+        "whyChosen": "CUDA unlocked GPU computing for science and machine learning.",
+        "whyImportant": "It made massively parallel hardware accessible through C extensions developers could adopt.",
+        "problemSolved": "GPUs were locked to graphics APIs unsuitable for numerical computing."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "nvidia",
+        "gpu",
+        "cuda",
+        "parallel-computing"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "NVIDIA — CUDA announced (November 8, 2006)",
+          "url": "https://en.wikipedia.org/wiki/CUDA",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — CUDA (overview)",
+          "url": "https://en.wikipedia.org/wiki/CUDA",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

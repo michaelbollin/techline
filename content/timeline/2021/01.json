@@ -14,7 +14,14 @@
         "problemSolved": "Google argued legacy extension APIs were too permissive and hurt battery life and security."
       },
       "category": "software",
-      "tags": ["browser", "web", "google", "chrome", "extensions"],
+      "tags": [
+        "browser",
+        "web",
+        "google",
+        "chrome",
+        "extensions"
+      ],
+      "people": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +36,56 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "brave-browser-launched"]
+      "relatedIds": [
+        "google-chrome-released",
+        "brave-browser-launched"
+      ]
+    },
+    {
+      "slug": "dario-amodei-anthropic-founded",
+      "media": [],
+      "relatedIds": [
+        "claude-3-released",
+        "claude-3-5-sonnet-released"
+      ],
+      "people": [
+        {
+          "id": "dario-amodei",
+          "name": "Dario Amodei",
+          "role": "co-founder"
+        }
+      ],
+      "id": "dario-amodei-anthropic-founded",
+      "date": "2021-01",
+      "datePrecision": "month",
+      "title": "Dario Amodei co-founds Anthropic",
+      "summary": "Dario Amodei co-founded Anthropic in early 2021 after leaving OpenAI — building the Claude model family with a safety focus.",
+      "about": "Anthropic became OpenAI's primary rival in frontier chat and API models — Claude 2, 3, and 3.5. Amodei's team emphasized constitutional AI and long-context products for enterprise developers.",
+      "narrative": {
+        "whyChosen": "Anthropic diversified the frontier LLM market beyond OpenAI.",
+        "whyImportant": "Competition accelerated safety research and developer choice.",
+        "problemSolved": "Enterprises wanted alternative LLM vendors with strong safety positioning."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "anthropic",
+        "ai",
+        "founding"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Anthropic — Company (founded 2021)",
+          "url": "https://www.anthropic.com/company",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Anthropic (overview)",
+          "url": "https://en.wikipedia.org/wiki/Anthropic",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

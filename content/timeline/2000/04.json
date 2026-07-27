@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "pocket-pc-released",
+      "slug": "pocket-pc-released",
+      "date": "2000-04",
+      "datePrecision": "month",
+      "title": "Windows Pocket PC released",
+      "summary": "Microsoft launched Pocket PC 2000 in April 2000 — a Windows CE PDA platform with Pocket Word, Excel, and Internet Explorer.",
+      "about": "Pocket PC devices from HP, Compaq, and Dell targeted mobile professionals with stylus input and ActiveSync desktop pairing. Developers wrote Compact Framework and native C++ apps for enterprise mobile workflows before the iPhone reset expectations. The line evolved into Windows Mobile and eventually Windows Phone.",
+      "narrative": {
+        "whyChosen": "Pocket PC was Microsoft's first cohesive PDA platform for enterprise mobile development.",
+        "whyImportant": "It created a Windows-native mobile app ecosystem for business users in the early 2000s.",
+        "problemSolved": "Mobile workers needed Office-compatible documents and email on pocket devices beyond the Palm Pilot."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "pda", "microsoft", "windows-ce", "pocket-pc"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Pocket PC 2000 launch (April 2000)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa908260(v=msdn.10)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Pocket PC (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pocket_PC",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["palm-pilot-1000-released", "windows-phone-eol", "iphone-goes-on-sale", "blackberry-5810-released"]
+    }
+  ]
+}

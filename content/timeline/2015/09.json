@@ -92,6 +92,37 @@
         }
       ],
       "relatedIds": ["nodejs-0-10-released", "nodejs-first-released"]
+    },
+    {
+      "id": "safari-9-released",
+      "slug": "safari-9-released",
+      "date": "2015-09-30",
+      "datePrecision": "day",
+      "title": "Safari 9 released",
+      "summary": "Apple released Safari 9 on September 30, 2015 with OS X El Capitan — adding pinned tabs, AirPlay support, and improved JavaScript performance.",
+      "about": "Safari 9 refined the El Capitan experience with muteable tabs, content blocking extensions, and CSS scroll snapping. It kept WebKit competitive as mobile browsing overtook desktop for many sites.",
+      "narrative": {
+        "whyChosen": "Safari 9 added content blockers and pinned tabs that shaped desktop browsing habits.",
+        "whyImportant": "Content blocking extensions changed the ad and privacy landscape on Mac.",
+        "problemSolved": "Users wanted Safari-native ad blocking without third-party plugins like Flash."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — OS X El Capitan available today (September 30, 2015)",
+          "url": "https://www.apple.com/newsroom/2015/09/30OS-X-El-Capitan-Available-Today/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-8-released", "safari-10-released", "safari-announced"]
     }
   ]
 }

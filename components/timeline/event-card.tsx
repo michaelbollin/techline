@@ -29,7 +29,9 @@ export function EventCard({ event }: EventCardProps) {
         </Link>
       </h2>
 
-      <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">{event.summary}</p>
+      <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
+        {event.category === "quote" && event.quoteText ? `“${event.quoteText}”` : event.summary}
+      </p>
 
       {event.tags.length > 0 && (
         <ul className="mt-4 flex flex-wrap gap-2">

@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "nfs-released",
+      "slug": "nfs-released",
+      "date": "1984-08",
+      "datePrecision": "month",
+      "title": "NFS released",
+      "summary": "Sun Microsystems shipped the first Network File System in August 1984 — remote file access over TCP/IP that made networked disks look local.",
+      "about": "NFS let workstations mount directories from a server as if they were local drives — bootless Sun workstations, shared home directories, and centralized `/usr` trees. Built on ONC RPC and XDR, it became the default way Unix machines shared files before SMB dominated Windows shops. Every `mount server:/export/home` traces back to Bill Joy's team at Sun.",
+      "narrative": {
+        "whyChosen": "NFS was the first widely deployed network filesystem for Unix workstations.",
+        "whyImportant": "It proved transparent remote file access could work at LAN scale and influenced later distributed storage designs.",
+        "problemSolved": "Diskless workstations and multi-user labs needed shared files without copying data to every machine."
+      },
+      "category": "protocol",
+      "tags": ["nfs", "sun", "filesystem", "rpc", "unix", "networking"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Sandberg et al. — The Sun Network Filesystem (USENIX 1985; implementation began March 1984)",
+          "url": "https://www.usenix.org/legacy/publications/library/proceedings/osu85/full_papers/sandberg.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Network File System (overview)",
+          "url": "https://en.wikipedia.org/wiki/Network_File_System",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["tcp-ip-flag-day", "telnet-standardized", "dns-standardized", "sun-1-released"]
+    },
+    {
+      "id": "ibm-pc-at-released",
+      "slug": "ibm-pc-at-released",
+      "date": "1984-08",
+      "datePrecision": "month",
+      "title": "IBM PC AT released",
+      "summary": "IBM announced the Personal Computer AT in August 1984 — a 6 MHz 80286 machine with 16-bit ISA slots and a 20 MB hard drive.",
+      "about": "The AT introduced the 80286 CPU and 16-bit expansion bus to the IBM PC line — OS/2 and early Windows protected-mode software targeted this hardware. Clone makers shipped AT-compatible machines that extended the PC standard. The model name \"AT\" (Advanced Technology) set expectations for each generation of PC upgrades through the 1990s.",
+      "narrative": {
+        "whyChosen": "The PC AT brought 16-bit computing and the 80286 to the mainstream IBM-compatible market.",
+        "whyImportant": "It extended the open PC architecture that software and hardware vendors built on for decades.",
+        "problemSolved": "The original PC and XT were hitting limits on speed and memory for business applications."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "ibm", "x86", "80286"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "IBM — Personal Computer AT (August 1984)",
+          "url": "https://www.ibm.com/history/personal-computer",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — IBM Personal Computer AT (overview)",
+          "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer_AT",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released", "ibm-pc-5150-discontinued", "intel-80386-introduced"]
+    }
+  ]
+}

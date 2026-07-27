@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "ada-lovelace-analytical-engine-notes",
+      "media": [],
+      "relatedIds": [
+        "ada-95-standard"
+      ],
+      "people": [
+        {
+          "id": "ada-lovelace",
+          "name": "Ada Lovelace",
+          "role": "author"
+        }
+      ],
+      "id": "ada-lovelace-analytical-engine-notes",
+      "date": "1843",
+      "datePrecision": "year",
+      "title": "Ada Lovelace publishes Notes on the Analytical Engine",
+      "summary": "Ada Lovelace's 1843 notes described how Babbage's Analytical Engine could compute Bernoulli numbers — often cited as the first algorithm meant for a machine.",
+      "about": "Lovelace envisioned programs beyond pure calculation — music and symbols — foreshadowing general-purpose computing. Her notes are a cultural milestone for women in computing and the idea of software distinct from hardware.",
+      "narrative": {
+        "whyChosen": "Lovelace articulated the concept of machine programs before computers existed.",
+        "whyImportant": "She separated 'operations' from the engine that executes them — the seed of software.",
+        "problemSolved": "Babbage's designs lacked a clear account of how instructions could drive general computation."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "history",
+        "programming"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Scientific Memoirs — Lovelace's Notes (1843)",
+          "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ada Lovelace (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "puppet-released",
+      "slug": "puppet-released",
+      "date": "2005-03",
+      "datePrecision": "month",
+      "title": "Puppet first released",
+      "summary": "Luke Kanies began full-time work on Puppet in March 2005 — a declarative configuration management tool for automating server state.",
+      "about": "Puppet describes desired system state in a domain-specific language — installed packages, file permissions, running services — and enforces it on agents. Enterprises used it to manage thousands of nodes before Ansible and cloud-native tooling. Example: declare `nginx` installed and a config file templated from a central catalog.",
+      "narrative": {
+        "whyChosen": "Puppet pioneered idempotent, model-driven infrastructure automation for production fleets.",
+        "whyImportant": "It proved declarative config management could scale beyond shell scripts and CFEngine.",
+        "problemSolved": "Sysadmins could not keep hundreds of servers consistent by hand or with ad-hoc scripts."
+      },
+      "category": "software",
+      "tags": ["puppet", "devops", "configuration-management", "ruby", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "AOSA — Puppet: History (March 2005 full-time development)",
+          "url": "https://aosabook.org/en/v2/puppet.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Puppet (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Puppet_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ansible-released", "hudson-ci-released", "terraform-released", "chef-released"]
+    }
+  ]
+}

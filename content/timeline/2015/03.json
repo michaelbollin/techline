@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "bazel-open-sourced",
+      "slug": "bazel-open-sourced",
+      "date": "2015-03-24",
+      "datePrecision": "day",
+      "title": "Bazel open-sourced",
+      "summary": "Google open-sourced Bazel on March 24, 2015 — a fast, hermetic build system derived from Google's internal Blaze tool.",
+      "about": "Bazel builds C++, Java, Go, and more from declarative BUILD files with aggressive caching and reproducibility — one command rebuilds only what changed. Monorepos at Google scale inspired its design; TensorFlow, Angular, and many open-source projects adopted it. Example: `bazel build //myapp:server` produces identical artifacts locally and in CI.",
+      "narrative": {
+        "whyChosen": "Bazel brought Google's monorepo build model to the open-source world.",
+        "whyImportant": "It proved hermetic, cacheable builds could work outside Google's walls for large polyglot codebases.",
+        "problemSolved": "Make, Maven, and Gradle struggled with incremental builds and dependency isolation in huge repos."
+      },
+      "category": "software",
+      "tags": ["bazel", "build", "google", "monorepo", "devops", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Kristina Chodorow — Hello, Bazel (March 25, 2015)",
+          "url": "https://kchodorow.com/2015/03/25/hello-bazel/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bazel (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bazel_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["make-created", "cmake-released", "gradle-released", "maven-1-0-released", "ninja-released"]
+    },
+    {
+      "id": "nvidia-jetson-released",
+      "slug": "nvidia-jetson-released",
+      "date": "2015-03-17",
+      "datePrecision": "day",
+      "title": "NVIDIA Jetson TK1 released",
+      "summary": "NVIDIA announced the Jetson TK1 on March 17, 2015 — a Tegra K1 developer board for CUDA-powered edge AI and computer vision.",
+      "about": "Jetson brought GPU compute to embedded robots, drones, and IoT gateways — developers ran TensorFlow and OpenCV on a $192 board with 192 CUDA cores. Later Jetson Nano, Xavier, and Orin modules powered production edge ML. It paired NVIDIA's CUDA ecosystem with maker-style single-board hardware.",
+      "narrative": {
+        "whyChosen": "Jetson TK1 was NVIDIA's first CUDA-capable embedded developer board.",
+        "whyImportant": "It made GPU-accelerated inference practical on edge devices outside datacenters.",
+        "problemSolved": "Edge projects needed local neural-network inference without cloud latency or a full desktop GPU."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "embedded", "nvidia", "jetson", "ai", "cuda", "iot"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "NVIDIA — Jetson TK1 announced (March 17, 2015)",
+          "url": "https://developer.nvidia.com/blog/jetson-tk1-cuda-enabled-embedded-computer/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nvidia Jetson (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nvidia_Jetson",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["raspberry-pi-model-b-released", "esp8266-released", "arduino-released"]
+    }
+  ]
+}

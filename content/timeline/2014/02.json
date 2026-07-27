@@ -14,7 +14,13 @@
         "problemSolved": "AngularJS felt heavy for quick prototypes; You wanted reactive templates and components in a small package."
       },
       "category": "software",
-      "tags": ["vue", "frontend", "spa", "web-framework"],
+      "tags": [
+        "vue",
+        "frontend",
+        "spa",
+        "web-framework"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,99 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["angularjs-released"]
+      "relatedIds": [
+        "angularjs-released"
+      ]
+    },
+    {
+      "id": "openid-connect-1-0-published",
+      "slug": "openid-connect-1-0-published",
+      "date": "2014-02-25",
+      "datePrecision": "day",
+      "title": "OpenID Connect 1.0 published",
+      "summary": "The OpenID Foundation published OpenID Connect Core 1.0 on February 25, 2014 — an identity layer on top of OAuth 2.0 for login and profile sharing.",
+      "about": "OpenID Connect adds ID tokens (JWTs), a UserInfo endpoint, and standardized scopes to OAuth — `Sign in with Google` flows use it under the hood. Relying parties verify issuer, audience, and signature instead of inventing login protocols. Example: exchange an authorization code for an ID token containing `sub`, `email`, and `name` claims.",
+      "narrative": {
+        "whyChosen": "OpenID Connect standardized federated login on the OAuth 2.0 foundation.",
+        "whyImportant": "It replaced proprietary social-login hacks with interoperable identity tokens across providers.",
+        "problemSolved": "OAuth 2.0 alone did not define how to authenticate users or share profile data securely."
+      },
+      "category": "protocol",
+      "tags": [
+        "openid-connect",
+        "oauth",
+        "authentication",
+        "jwt",
+        "security",
+        "standard"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenID Connect Core 1.0 final specification (February 25, 2014)",
+          "url": "https://openid.net/specs/openid-connect-core-1_0.html",
+          "role": "date"
+        },
+        {
+          "title": "OpenID Foundation — OpenID Connect launch announcement (overview)",
+          "url": "https://openid.net/the-openid-foundation-launches-the-openid-connect-standard/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "oauth-2-0-standardized",
+        "jwt-standardized",
+        "tls-1-0-standardized"
+      ]
+    },
+    {
+      "slug": "satya-nadella-microsoft-ceo",
+      "media": [],
+      "relatedIds": [
+        "dotnet-6-released",
+        "github-launched",
+        "typescript-preview-released"
+      ],
+      "people": [
+        {
+          "id": "satya-nadella",
+          "name": "Satya Nadella",
+          "role": "ceo"
+        }
+      ],
+      "id": "satya-nadella-microsoft-ceo",
+      "date": "2014-02-04",
+      "datePrecision": "day",
+      "title": "Satya Nadella named Microsoft CEO",
+      "summary": "Microsoft's board appointed Satya Nadella CEO on February 4, 2014 — starting the cloud-first, open-source era.",
+      "about": "Nadella accelerated Azure, open-sourced .NET, acquired GitHub, and championed VS Code and TypeScript. For developers, Microsoft transformed from Windows-only vendor to cross-platform tools company.",
+      "narrative": {
+        "whyChosen": "Nadella's appointment reversed Microsoft's developer reputation.",
+        "whyImportant": "It legitimized open source inside the company that once fought Linux.",
+        "problemSolved": "Microsoft was losing cloud and mobile developers to open, cross-platform stacks."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "microsoft",
+        "ceo",
+        "open-source"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Microsoft — Satya Nadella CEO announcement (February 4, 2014)",
+          "url": "https://news.microsoft.com/2014/02/04/satya-nadella-email-to-employees-on-taking-role-as-ceo/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Satya Nadella (overview)",
+          "url": "https://en.wikipedia.org/wiki/Satya_Nadella",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

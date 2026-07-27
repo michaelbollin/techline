@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "gpl-version-1-released",
+      "media": [],
+      "relatedIds": [
+        "stallman-gnu-manifesto"
+      ],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "author"
+        }
+      ],
+      "id": "gpl-version-1-released",
+      "date": "1989-02",
+      "datePrecision": "month",
+      "title": "GPL version 1 published",
+      "summary": "The Free Software Foundation published GPL v1 in February 1989 — the copyleft license behind Linux, GCC, and thousands of projects.",
+      "about": "GPL requires derivatives to stay open — influencing corporate open-source policies and dual-licensing business models. Every developer who ships GPL code inherits Stallman's legal framework.",
+      "narrative": {
+        "whyChosen": "GPL is the legal backbone of the free software ecosystem.",
+        "whyImportant": "Copyleft ensured improvements returned to the community.",
+        "problemSolved": "Permissive licenses let companies take open code proprietary without contributing back."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "open-source",
+        "license",
+        "free-software"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "GNU — GPL version 1 (February 1989)",
+          "url": "https://www.gnu.org/licenses/old-licenses/gpl-1.0.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GNU General Public License (overview)",
+          "url": "https://en.wikipedia.org/wiki/GNU_General_Public_License",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

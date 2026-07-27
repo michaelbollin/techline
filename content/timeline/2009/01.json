@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "chef-released",
+      "slug": "chef-released",
+      "date": "2009-01-15",
+      "datePrecision": "day",
+      "title": "Chef first released",
+      "summary": "Adam Jacob announced Chef on January 15, 2009 — a Ruby-based configuration management tool for converging servers to a desired state.",
+      "about": "Chef describes infrastructure as cookbooks and recipes — install packages, template config files, restart services — with agents pulling from a central server. It competed with Puppet and later Ansible in the DevOps wave. Example: a `webserver` cookbook ensures nginx is installed, `/etc/nginx/nginx.conf` is templated, and the service is running on every app node.",
+      "narrative": {
+        "whyChosen": "Chef brought idempotent, code-driven server configuration to production fleets.",
+        "whyImportant": "It helped define infrastructure-as-code alongside Puppet and paved the way for Ansible and Terraform.",
+        "problemSolved": "Manual server setup did not scale; teams needed repeatable, version-controlled system configuration."
+      },
+      "category": "software",
+      "tags": ["chef", "devops", "configuration-management", "ruby", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Chef Blog — Announcing Chef (January 15, 2009)",
+          "url": "https://www.chef.io/blog/post/announcing-chef",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Chef (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Chef_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["puppet-released", "ansible-released", "terraform-released", "capistrano-released"]
+    }
+  ]
+}

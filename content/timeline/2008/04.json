@@ -1,0 +1,128 @@
+{
+  "events": [
+    {
+      "id": "github-launched",
+      "slug": "github-launched",
+      "date": "2008-04-10",
+      "datePrecision": "day",
+      "title": "GitHub launched",
+      "summary": "Tom Preston-Werner, Chris Wanstrath, and PJ Hyett launched GitHub on April 10, 2008 — hosted Git repositories with a web UI and social coding features.",
+      "about": "GitHub hosts repos, pull requests, issues, and Actions CI — the default home for open source and many companies' private code. Rails, Node, and millions of libraries live there. It turned Git from a command-line tool into a collaboration platform with forks, stars, and code review in the browser.",
+      "narrative": {
+        "whyChosen": "GitHub made Git social and became the center of gravity for open-source development.",
+        "whyImportant": "Pull requests, public profiles, and free public repos accelerated OSS adoption worldwide.",
+        "problemSolved": "Git was powerful locally but lacked a standard place to host, discover, and review shared code."
+      },
+      "category": "software",
+      "tags": ["github", "git", "vcs", "open-source", "forge"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub Blog — We Launched (April 10, 2008)",
+          "url": "https://github.blog/news-insights/we-launched/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GitHub (overview)",
+          "url": "https://en.wikipedia.org/wiki/GitHub",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["git-created", "hudson-ci-released", "travis-ci-launched", "github-actions-ga", "oauth-2-0-standardized", "gitlab-released", "circleci-launched", "bitbucket-launched", "heroku-launched"]
+    },
+    {
+      "id": "gradle-released",
+      "slug": "gradle-released",
+      "date": "2008-04-21",
+      "datePrecision": "day",
+      "title": "Gradle first released",
+      "summary": "Hans Dockter released Gradle 0.1 on April 21, 2008 — a JVM build tool with Groovy DSL scripts and incremental compilation.",
+      "about": "Gradle replaced XML-heavy Ant and Maven configs with readable `build.gradle` files — and became Android's official build system. It supports multi-project builds, dependency caching, and Kotlin DSL. Example: `dependencies { implementation 'com.squareup.okhttp3:okhttp:4.12.0' }` resolves from Maven Central and compiles only what changed.",
+      "narrative": {
+        "whyChosen": "Gradle modernized JVM builds with a programmable DSL when XML configs hit their limits.",
+        "whyImportant": "Android Studio's adoption made Gradle the default build tool for millions of mobile developers.",
+        "problemSolved": "Ant and Maven were rigid; large polyglot projects needed a flexible, incremental build language."
+      },
+      "category": "software",
+      "tags": ["gradle", "build", "java", "groovy", "android", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Gradle (first release April 21, 2008)",
+          "url": "https://en.wikipedia.org/wiki/Gradle",
+          "role": "date"
+        },
+        {
+          "title": "Gradle — About (overview)",
+          "url": "https://gradle.org/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["make-created", "java-1-0-shipped", "maven-1-0-released", "ant-released", "bazel-open-sourced", "ninja-released"]
+    },
+    {
+      "id": "phusion-passenger-released",
+      "slug": "phusion-passenger-released",
+      "date": "2008-04-11",
+      "datePrecision": "day",
+      "title": "Phusion Passenger released",
+      "summary": "Phusion released Passenger (mod_rails) on April 11, 2008 — an Apache module that runs Ruby on Rails apps with PHP-like deployment simplicity.",
+      "about": "Passenger embeds Ruby workers inside Apache or nginx — drop files in a vhost, touch `tmp/restart.txt` to reload. No manual Mongrel clusters or reverse-proxy wiring. DHH called it the preferred Rails deployment story; it later added Rack, Python WSGI, and Node.js. Example: point Apache's `DocumentRoot` at `myapp/public` and Passenger boots Rails automatically.",
+      "narrative": {
+        "whyChosen": "Passenger made Rails deployment as simple as dropping PHP files on a shared host.",
+        "whyImportant": "It lowered the ops bar for Ruby web apps and influenced how PaaS platforms thought about app servers.",
+        "problemSolved": "Rails deploys required juggling multiple Mongrel processes, proxies, and hand-tuned Apache configs."
+      },
+      "category": "software",
+      "tags": ["passenger", "rails", "ruby", "apache", "deployment", "mod-rails"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ruby on Rails — Passenger (mod_rails for Apache) launches (April 11, 2008)",
+          "url": "https://rubyonrails.org/2008/4/11/passenger-mod_rails-for-apache-launches",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Phusion Passenger (overview)",
+          "url": "https://en.wikipedia.org/wiki/Phusion_Passenger",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["rails-open-sourced", "capistrano-released", "rubygems-released", "apache-http-server-released", "heroku-launched"]
+    },
+    {
+      "id": "intel-atom-announced",
+      "slug": "intel-atom-announced",
+      "date": "2008-04",
+      "datePrecision": "month",
+      "title": "Intel Atom announced",
+      "summary": "Intel announced the Atom processor family in April 2008 — low-power x86 chips aimed at netbooks and mobile internet devices.",
+      "about": "Atom powered the netbook boom — cheap laptops that ran Windows or Linux and browsed the web on the go. Developers built lightweight clients and embedded apps on x86 at watt counts previously reserved for ARM. The line later moved into servers (Avoton) and IoT gateways before smartphones shifted the market to ARM SoCs.",
+      "narrative": {
+        "whyChosen": "Atom created the netbook category and brought x86 to ultra-low-power devices.",
+        "whyImportant": "It expanded the addressable market for x86 software into cheap portables and embedded boards.",
+        "problemSolved": "Laptops were too expensive and power-hungry for secondary devices and emerging markets."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "cpu", "intel", "atom", "netbook", "embedded", "x86"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Intel — Atom processor family announced (April 2008)",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/home.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Atom (system on chip) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Atom_(system_on_chip)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["intel-80386-introduced", "amd64-x86-64-announced", "ibm-pc-5150-released"]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "events": [
+    {
+      "id": "oracle-2-released",
+      "slug": "oracle-2-released",
+      "date": "1979",
+      "datePrecision": "year",
+      "title": "Oracle Database 2 shipped",
+      "summary": "Relational Software Inc. released Oracle Version 2 in 1979 — the first commercially available SQL relational database.",
+      "about": "Oracle brought SQL to the commercial market before IBM's DB2 — banks, governments, and enterprises ran it on minicomputers for OLTP and reporting. It grew into the dominant enterprise RDBMS with PL/SQL, RAC clustering, and cloud Autonomous Database. Example: a billing system storing customers, invoices, and payments with ACID transactions and indexed lookups.",
+      "narrative": {
+        "whyChosen": "Oracle 2 proved SQL databases could be sold as products, not just research demos.",
+        "whyImportant": "It launched the commercial relational database industry alongside IBM and later Microsoft SQL Server.",
+        "problemSolved": "Organizations needed a proven SQL engine they could buy, deploy, and bet their business on."
+      },
+      "category": "software",
+      "tags": [
+        "oracle",
+        "database",
+        "sql",
+        "rdbms"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Oracle — Company timeline (Oracle Version 2, 1979)",
+          "url": "https://www.oracle.com/corporate/",
+          "role": "date"
+        },
+        {
+          "title": "Oracle Docs — History of SQL (overview)",
+          "url": "https://docs.oracle.com/en/database/oracle/oracle-database/19/intro001.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sequel-paper-published",
+        "mysql-first-released",
+        "postgresql-6-released"
+      ]
+    },
+    {
+      "id": "lynn-conway-vlsi-course",
+      "slug": "lynn-conway-vlsi-course",
+      "date": "1979",
+      "datePrecision": "year",
+      "title": "Lynn Conway publishes MOSIS VLSI design course",
+      "summary": "Lynn Conway co-authored the 1979 Mead–Conway VLSI course — democratizing chip design with scalable design rules.",
+      "about": "The Mead–Conway revolution let universities fabricate student-designed chips via MOSIS — training a generation of hardware engineers. Conway's advocacy also advanced transgender visibility in tech.",
+      "narrative": {
+        "whyChosen": "Mead–Conway made custom silicon accessible beyond a few chip companies.",
+        "whyImportant": "It accelerated VLSI education and startup semiconductor design.",
+        "problemSolved": "Chip layout knowledge was locked inside proprietary vendor design manuals."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "hardware",
+        "vlsi"
+      ],
+      "people": [
+        {
+          "id": "lynn-conway",
+          "name": "Lynn Conway",
+          "role": "author"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mead & Conway — Introduction to VLSI Systems (1979)",
+          "url": "https://en.wikipedia.org/wiki/Mead%E2%80%93Conway_VLSI_chip_design_revolution",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lynn Conway (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lynn_Conway",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "slug": "hofstadter-law",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "douglas-hofstadter",
+          "name": "Douglas Hofstadter",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "hofstadter-law",
+      "date": "1979",
+      "datePrecision": "year",
+      "title": "Douglas Hofstadter coins Hofstadter's Law",
+      "quoteText": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
+      "summary": "In Gödel, Escher, Bach, Douglas Hofstadter states the recursive scheduling joke that became a staple of software estimation.",
+      "about": "Hofstadter's Law is self-referential on purpose — you pad the schedule, then pad the padding, and still slip. Every sprint retrospective and waterfall postmortem cites it, usually while missing the next deadline.",
+      "narrative": {
+        "whyChosen": "The funniest accurate model of software project timelines.",
+        "whyImportant": "It named the optimism bias that planning tools rarely fix.",
+        "problemSolved": "Teams kept underestimating complex work despite prior experience."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "software-engineering",
+        "management"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Wikipedia — Hofstadter's law (1979, Gödel, Escher, Bach)",
+          "url": "https://en.wikipedia.org/wiki/Hofstadter%27s_law",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Douglas Hofstadter (overview)",
+          "url": "https://en.wikipedia.org/wiki/Douglas_Hofstadter",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -29,7 +29,7 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-2-0-released", "python-3-0-released"]
+      "relatedIds": ["python-2-0-released", "python-3-0-released", "python-2-end-of-life"]
     },
     {
       "id": "haskell-2010-standard",

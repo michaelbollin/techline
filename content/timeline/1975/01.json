@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "altair-8800-released",
+      "slug": "altair-8800-released",
+      "date": "1975-01",
+      "datePrecision": "month",
+      "title": "Altair 8800 released",
+      "summary": "MITS shipped the Altair 8800 kit in January 1975 after its cover story in Popular Electronics — the machine that sparked the personal computer revolution.",
+      "about": "The Altair was a bare-bones Intel 8080 box with switches and blinking lights — no keyboard, no monitor. Hobbyists ordered thousands of kits; Bill Gates and Paul Allen wrote Altair BASIC for it and founded Microsoft. Every garage-startup PC narrative starts here: cheap hardware + software you could sell.",
+      "narrative": {
+        "whyChosen": "The Altair proved a market existed for personal microcomputers beyond mainframes and minis.",
+        "whyImportant": "It launched the hobbyist-to-industry pipeline that produced Apple, Microsoft, and the IBM PC ecosystem.",
+        "problemSolved": "Enthusiasts wanted an affordable computer they could own, extend, and program at home."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "altair", "microcomputer", "mits"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Popular Electronics — Altair 8800 cover (January 1975)",
+          "url": "https://archive.org/details/popularelectronics-1975-01",
+          "role": "date"
+        },
+        {
+          "title": "HNF — The birth of the PC (overview)",
+          "url": "https://www.hnf.de/en/permanent-exhibition/exhibition-areas/computers-for-everyone-1980-to-2000/the-birth-of-the-pc-from-the-garage-to-the-big-wide-world.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["microsoft-founded", "apple-ii-introduced", "ibm-pc-5150-released", "trs-80-model-i-released", "commodore-pet-2001-released"]
+    }
+  ]
+}

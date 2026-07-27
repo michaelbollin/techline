@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dec-vax-11-780-released",
+      "slug": "dec-vax-11-780-released",
+      "date": "1977-10",
+      "datePrecision": "month",
+      "title": "DEC VAX-11/780 released",
+      "summary": "Digital Equipment Corporation shipped the VAX-11/780 in October 1977 — a 32-bit minicomputer that became the benchmark for virtual memory systems.",
+      "about": "VAX machines ran VMS and hosted Unix — universities, labs, and enterprises used them for email, compilers, and time-sharing. The VAX architecture's virtual memory model influenced how operating systems managed address spaces. DEC's install base was where many developers first logged into a multi-user system before PCs and the web.",
+      "narrative": {
+        "whyChosen": "The VAX-11/780 defined the 32-bit minicomputer era and DEC's dominance in technical computing.",
+        "whyImportant": "It brought affordable virtual memory and timesharing to departments that outgrew PDP-11s.",
+        "problemSolved": "Growing software needed larger address spaces and reliable virtual memory beyond 16-bit minis."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "minicomputer", "dec", "vax", "server"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "VAX history — VAX-11/780 (October 1977)",
+          "url": "https://www.vaxdungeon.com/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — VAX (overview)",
+          "url": "https://en.wikipedia.org/wiki/VAX",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dec-pdp-8-shipped", "ibm-system-360-announced", "sun-1-released"]
+    }
+  ]
+}

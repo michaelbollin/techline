@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "slug": "robert-noyce-integrated-circuit",
+      "media": [],
+      "relatedIds": [
+        "jack-kilby-integrated-circuit",
+        "moore-noyce-intel-founded"
+      ],
+      "people": [
+        {
+          "id": "robert-noyce",
+          "name": "Robert Noyce",
+          "role": "researcher"
+        }
+      ],
+      "id": "robert-noyce-integrated-circuit",
+      "date": "1959",
+      "datePrecision": "year",
+      "title": "Robert Noyce invents the planar integrated circuit",
+      "summary": "Robert Noyce developed the planar integrated circuit at Fairchild Semiconductor in 1959 — enabling mass production of monolithic silicon chips.",
+      "about": "Noyce's planar process let manufacturers etch and interconnect transistors on silicon wafers — the approach still used in fabs today. His IC work led directly to co-founding Intel with Gordon Moore.",
+      "narrative": {
+        "whyChosen": "The planar IC made integrated circuits manufacturable at scale.",
+        "whyImportant": "It established silicon monolithic chips as the industry standard.",
+        "problemSolved": "Kilby's hybrid approach was hard to mass-produce compared to planar silicon."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "semiconductor",
+        "integrated-circuit",
+        "hardware"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Fairchild — Planar integrated circuit (1959)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Noyce",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Robert Noyce (overview)",
+          "url": "https://en.wikipedia.org/wiki/Robert_Noyce",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

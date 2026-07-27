@@ -20,6 +20,7 @@
         "stroustrup",
         "programming-language"
       ],
+      "people": [],
       "importance": 1,
       "media": [
         {
@@ -43,6 +44,182 @@
       "relatedIds": [
         "cpp-templates-cfront-3",
         "cpp98-standard"
+      ]
+    },
+    {
+      "id": "ftp-standardized",
+      "slug": "ftp-standardized",
+      "date": "1985-10",
+      "datePrecision": "month",
+      "title": "FTP standardized",
+      "summary": "RFC 959 defined the File Transfer Protocol in October 1985 — the standard for uploading and downloading files over TCP.",
+      "about": "FTP uses separate control and data connections — clients log in, navigate directories with `CWD` and `LIST`, and transfer files with `RETR`/`STOR`. Though largely replaced by HTTPS and SFTP for security, FTP powered early web hosting, software mirrors, and embedded device updates for decades.",
+      "narrative": {
+        "whyChosen": "RFC 959 unified decades of ad-hoc file transfer into one interoperable internet protocol.",
+        "whyImportant": "FTP was how software, patches, and media moved across the early internet before the web dominated.",
+        "problemSolved": "Every host had incompatible file transfer commands; the internet needed a common client-server file protocol."
+      },
+      "category": "protocol",
+      "tags": [
+        "ftp",
+        "protocol",
+        "file-transfer",
+        "standard",
+        "ietf"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RFC 959 — File Transfer Protocol (October 1985)",
+          "url": "https://www.rfc-editor.org/info/rfc959",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — File Transfer Protocol (overview)",
+          "url": "https://en.wikipedia.org/wiki/File_Transfer_Protocol",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "http-1-1-standardized"
+      ]
+    },
+    {
+      "slug": "bjarne-stroustrup-cpp-released",
+      "media": [],
+      "relatedIds": [
+        "cpp11-standard"
+      ],
+      "people": [
+        {
+          "id": "bjarne-stroustrup",
+          "name": "Bjarne Stroustrup",
+          "role": "creator"
+        }
+      ],
+      "id": "bjarne-stroustrup-cpp-released",
+      "date": "1985-10",
+      "datePrecision": "month",
+      "title": "Bjarne Stroustrup releases C++",
+      "summary": "Bjarne Stroustrup released C++ 1.0 in October 1985 — adding object-oriented features to C for systems programming.",
+      "about": "C++ powers game engines, browsers, databases, and embedded systems — the default when C needs abstraction without garbage collection. Stroustrup's 'C with classes' became one of the most influential language designs ever.",
+      "narrative": {
+        "whyChosen": "C++ defined systems programming with OOP for decades before Rust's rise.",
+        "whyImportant": "It showed zero-cost abstractions could compile to efficient machine code.",
+        "problemSolved": "C lacked abstraction mechanisms for large simulation and systems codebases at Bell Labs."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "cpp",
+        "programming-language"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Stroustrup — A History of C++ (first commercial release 1985)",
+          "url": "https://www.stroustrup.com/hopl2.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C++ (overview)",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "richard-stallman-fsf-founded",
+      "media": [],
+      "relatedIds": [
+        "stallman-gnu-manifesto",
+        "gpl-version-1-released"
+      ],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "founder"
+        }
+      ],
+      "id": "richard-stallman-fsf-founded",
+      "date": "1985-10-04",
+      "datePrecision": "day",
+      "title": "Richard Stallman founds the Free Software Foundation",
+      "summary": "Richard Stallman founded the Free Software Foundation on October 4, 1985 — the nonprofit behind GNU and the GPL.",
+      "about": "The FSF funded GNU tool development and defended copyleft licenses — anchoring the free software movement legally and institutionally beyond Stallman's manifesto.",
+      "narrative": {
+        "whyChosen": "The FSF gave the free software movement durable organizational backing.",
+        "whyImportant": "It sustained GNU development and GPL enforcement for decades.",
+        "problemSolved": "Individual activists could not maintain large free software projects alone."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "gnu",
+        "free-software",
+        "fsf"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "FSF — Founded October 4, 1985",
+          "url": "https://en.wikipedia.org/wiki/Free_Software_Foundation",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Free Software Foundation (overview)",
+          "url": "https://en.wikipedia.org/wiki/Free_Software_Foundation",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "id": "intel-80386-introduced",
+      "slug": "intel-80386-introduced",
+      "date": "1985-10",
+      "datePrecision": "month",
+      "title": "Intel 80386 introduced",
+      "summary": "Intel introduced the 80386 microprocessor in October 1985 — the first 32-bit x86 CPU with protected mode and virtual memory.",
+      "about": "The 386 enabled true multitasking on PCs — Linux and Windows NT targeted it; OS/2 and early Windows 3.x exploited protected mode. Software could address 4 GB of RAM and run multiple programs safely. Every modern x86 desktop and server still carries 386-era architectural DNA in compatibility mode.",
+      "narrative": {
+        "whyChosen": "The 80386 was the chip that made 32-bit personal computing and modern OS design practical on x86.",
+        "whyImportant": "It unlocked protected-mode operating systems and set the x86 baseline for decades.",
+        "problemSolved": "16-bit x86 could not efficiently run multitasking OSes with large address spaces."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "cpu",
+        "intel",
+        "x86",
+        "microprocessor"
+      ],
+      "people": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Intel — History of the Intel 386 (October 1985)",
+          "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/intel-386.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Intel 80386 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Intel_80386",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "linux-kernel-announced",
+        "amd64-x86-64-announced",
+        "intel-atom-announced",
+        "vmware-workstation-released",
+        "intel-8086-introduced"
       ]
     }
   ]

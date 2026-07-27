@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["java-1-0-shipped"]
+    },
+    {
+      "id": "rubygems-released",
+      "slug": "rubygems-released",
+      "date": "2004-03-14",
+      "datePrecision": "day",
+      "title": "RubyGems released",
+      "summary": "Chad Fowler, Jim Weirich, and collaborators released RubyGems on March 14, 2004 — a standard package format and `gem` command for Ruby libraries.",
+      "about": "RubyGems packages code as gems with versioned dependencies — `gem install rails` pulls transitive libraries from rubygems.org. It enabled the Rails ecosystem, Capistrano deploys, and thousands of reusable Ruby libraries. Bundler later layered lockfiles on top, but RubyGems remains the foundation every `Gemfile` resolves against.",
+      "narrative": {
+        "whyChosen": "RubyGems gave Ruby a standard package manager years before it shipped with the language.",
+        "whyImportant": "It unlocked reusable library distribution and made Rails' gem-based ecosystem possible.",
+        "problemSolved": "Ruby developers manually vendored libraries with no central registry or dependency resolution."
+      },
+      "category": "software",
+      "tags": ["rubygems", "ruby", "package-manager", "gems", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — RubyGems (released March 14, 2004)",
+          "url": "https://en.wikipedia.org/wiki/RubyGems",
+          "role": "date"
+        },
+        {
+          "title": "RubyGems Guides — What is a gem? (overview)",
+          "url": "https://guides.rubygems.org/what-is-a-gem/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ruby-0-95-released", "rails-open-sourced", "capistrano-released", "npm-first-released"]
     }
   ]
 }

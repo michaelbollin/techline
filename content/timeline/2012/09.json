@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "hinton-alexnet-imagenet-breakthrough",
+      "media": [],
+      "relatedIds": [
+        "fei-fei-li-imagenet-dataset-launched"
+      ],
+      "people": [
+        {
+          "id": "geoffrey-hinton",
+          "name": "Geoffrey Hinton",
+          "role": "researcher"
+        }
+      ],
+      "id": "hinton-alexnet-imagenet-breakthrough",
+      "date": "2012-09",
+      "datePrecision": "month",
+      "title": "Geoffrey Hinton's team wins ImageNet with AlexNet",
+      "summary": "Geoffrey Hinton's students Krizhevsky, Sutskever, and Hinton won ImageNet 2012 with AlexNet — triggering the deep learning revolution.",
+      "about": "AlexNet's GPU-trained convolutional network crushed traditional computer vision pipelines — convincing Google, Facebook, and industry to bet on neural networks. Hinton had pursued backprop for decades before this breakthrough.",
+      "narrative": {
+        "whyChosen": "AlexNet was the inflection point for modern deep learning adoption.",
+        "whyImportant": "It proved neural networks could beat hand-engineered vision features at scale.",
+        "problemSolved": "Computer vision relied on brittle handcrafted features that did not generalize."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "computer-vision",
+        "imagenet"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "ImageNet 2012 — AlexNet results (September 2012)",
+          "url": "https://en.wikipedia.org/wiki/AlexNet",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — AlexNet (overview)",
+          "url": "https://en.wikipedia.org/wiki/AlexNet",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

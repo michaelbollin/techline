@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "id": "dijkstra-go-to-considered-harmful",
+      "slug": "dijkstra-go-to-considered-harmful",
+      "date": "1968-03",
+      "datePrecision": "month",
+      "title": "Dijkstra publishes 'Go To Considered Harmful'",
+      "summary": "Edsger Dijkstra's March 1968 letter argued against unrestricted goto statements — shaping structured programming.",
+      "about": "Dijkstra's note influenced how generations learned control flow with if/while/for instead of spaghetti jumps. He also invented shortest-path algorithms and semaphores fundamental to OS design.",
+      "narrative": {
+        "whyChosen": "The letter is one of the most cited opinion pieces in programming history.",
+        "whyImportant": "It advanced structured programming and readable control flow.",
+        "problemSolved": "Unrestricted goto made large programs impossible to reason about or maintain."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "computer-science",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "edsger-dijkstra",
+          "name": "Edsger Dijkstra",
+          "role": "researcher"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Communications of the ACM — Dijkstra letter (March 1968)",
+          "url": "https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Edsger W. Dijkstra (overview)",
+          "url": "https://en.wikipedia.org/wiki/Edsger_W._Dijkstra",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "slug": "dijkstra-goto-letter-quote",
+      "media": [],
+      "relatedIds": [
+        "dijkstra-go-to-considered-harmful"
+      ],
+      "people": [
+        {
+          "id": "edsger-dijkstra",
+          "name": "Edsger Dijkstra",
+          "role": "researcher"
+        }
+      ],
+      "category": "quote",
+      "id": "dijkstra-goto-letter-quote",
+      "date": "1968-03",
+      "datePrecision": "month",
+      "title": "Edsger Dijkstra declares \"Go To statement considered harmful\"",
+      "quoteText": "For a number of years I have been familiar with the observed development that program code containing go to statements cancels out the advantages of structured programming.",
+      "summary": "Dijkstra's letter to the Communications of the ACM editor — titled \"Go To Statement Considered Harmful\" — attacks unstructured jumps in code.",
+      "about": "The title became a meme decades before Twitter. Fortran and BASIC programmers had lived on GOTO; Dijkstra argued that structured control flow made programs easier to reason about. The debate still echoes whenever someone reaches for a quick escape hatch.",
+      "narrative": {
+        "whyChosen": "One of the earliest flame wars in software engineering, dressed as a one-page letter.",
+        "whyImportant": "It helped mainstream structured programming and later influenced language design.",
+        "problemSolved": "Spaghetti code from arbitrary jumps was hard to verify and maintain."
+      },
+      "tags": [
+        "quote",
+        "critique",
+        "programming-language",
+        "software-engineering"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "CACM — Letter: Go To Statement Considered Harmful (March 1968)",
+          "url": "https://doi.org/10.1145/362945.362947",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Go To statement considered harmful (overview)",
+          "url": "https://en.wikipedia.org/wiki/Go_to_statement_considered_harmful",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

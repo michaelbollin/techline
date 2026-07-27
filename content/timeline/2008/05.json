@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "slug": "crockford-javascript-good-parts",
+      "media": [],
+      "relatedIds": [
+        "douglas-crockford-json-spec",
+        "javascript-name-announced"
+      ],
+      "people": [
+        {
+          "id": "douglas-crockford",
+          "name": "Douglas Crockford",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "crockford-javascript-good-parts",
+      "date": "2008-05",
+      "datePrecision": "month",
+      "title": "Douglas Crockford names \"JavaScript: The Good Parts\"",
+      "quoteText": "JavaScript: The Good Parts.",
+      "summary": "Douglas Crockford's book title became a rallying cry — use the small subset of JavaScript that is reliable and ignore the rest.",
+      "about": "In 2008 many teams treated JS as a toy language. Crockford argued you could write serious software by deliberately avoiding the bad parts — influencing lint rules, style guides, and later TypeScript's stricter subsets.",
+      "narrative": {
+        "whyChosen": "The title that legitimized JavaScript as a professional language.",
+        "whyImportant": "It gave teams permission to subset the language instead of using all of it.",
+        "problemSolved": "Developers lacked a shared guide for which JS features were safe in production."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "javascript",
+        "books"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "O'Reilly — JavaScript: The Good Parts (May 2008)",
+          "url": "https://www.oreilly.com/library/view/javascript-the-good/9780596517748/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Douglas Crockford (overview)",
+          "url": "https://en.wikipedia.org/wiki/Douglas_Crockford",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

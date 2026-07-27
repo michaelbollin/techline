@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "slug": "apple-ii-introduced",
+      "media": [],
+      "relatedIds": [
+        "steve-wozniak-apple-founded"
+      ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "co-founder"
+        },
+        {
+          "id": "steve-wozniak",
+          "name": "Steve Wozniak",
+          "role": "co-founder"
+        }
+      ],
+      "id": "apple-ii-introduced",
+      "date": "1977-04-16",
+      "datePrecision": "day",
+      "title": "Steve Jobs and Steve Wozniak introduce the Apple II",
+      "summary": "Apple introduced the Apple II at the West Coast Computer Faire on April 16, 1977 — one of the first successful mass-market personal computers.",
+      "about": "The Apple II's color graphics, expansion slots, and VisiCalc spreadsheet made PCs useful for businesses and schools — not just hobbyists. It validated the personal computer as a product category.",
+      "narrative": {
+        "whyChosen": "The Apple II was the first blockbuster personal computer.",
+        "whyImportant": "It proved home and small-business users would buy complete computer systems.",
+        "problemSolved": "Early PCs were kits for hobbyists without software ecosystems or polish."
+      },
+      "category": "hardware",
+      "tags": [
+        "people",
+        "apple",
+        "personal-computer",
+        "hardware"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Apple — Apple II introduced (April 16–17, 1977)",
+          "url": "https://en.wikipedia.org/wiki/Apple_II",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple II (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_II",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

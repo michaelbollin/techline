@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "erlang-otp-28-released",
+      "slug": "erlang-otp-28-released",
+      "date": "2025-05-21",
+      "datePrecision": "day",
+      "title": "Erlang/OTP 28 released",
+      "summary": "The Erlang/OTP team released OTP 28 on May 21, 2025 with improved JIT, JSON enhancements, and Erlang shell improvements.",
+      "about": "OTP 28 continued BEAM VM evolution for Elixir and Erlang production systems — faster JIT code paths, stdlib refinements, and better tooling for observability. It supports the growing Elixir adoption in fintech, messaging, and embedded Nerves devices.",
+      "narrative": {
+        "whyChosen": "OTP 28 keeps the BEAM competitive for high-availability distributed systems.",
+        "whyImportant": "Incremental VM gains compound across every Phoenix and RabbitMQ deployment.",
+        "problemSolved": "Long-running BEAM services need regular performance and security updates without breaking changes."
+      },
+      "category": "software",
+      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Erlang.org — OTP 28.0 released (May 21, 2025)",
+          "url": "https://www.erlang.org/news/180",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Erlang (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["erlang-otp-27-released", "erlang-otp-26-released", "elixir-1-17-released"]
+    }
+  ]
+}

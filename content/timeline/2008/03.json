@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "slug": "ballmer-web-developers-chant",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=8pdkEJ0nFBg",
+          "title": "Steve Ballmer — Web developers chant (MIX08)"
+        }
+      ],
+      "relatedIds": [
+        "ballmer-developers-chant",
+        "steve-ballmer-named-microsoft-ceo"
+      ],
+      "people": [
+        {
+          "id": "steve-ballmer",
+          "name": "Steve Ballmer",
+          "role": "ceo"
+        }
+      ],
+      "category": "quote",
+      "id": "ballmer-web-developers-chant",
+      "date": "2008-03-06",
+      "datePrecision": "day",
+      "title": "Steve Ballmer chants \"Web developers! Web developers! Web developers!\"",
+      "quoteText": "Web developers! Web developers! Web developers!",
+      "summary": "At MIX08 in Las Vegas, Ballmer reprised his famous developers chant after an audience member asked for love for the web dev community.",
+      "about": "Ballmer was interviewing with Guy Kawasaki when a developer in the crowd requested the ritual. The moment tied Microsoft's Silverlight and web platform push to the same sweaty enthusiasm as the 2000 original.",
+      "narrative": {
+        "whyChosen": "The sequel meme — developers chant updated for the web era.",
+        "whyImportant": "It signaled Microsoft's courtship of web developers during the Flash/Silverlight wars.",
+        "problemSolved": "MIX needed a viral moment to rally the web community around Microsoft's stack."
+      },
+      "tags": [
+        "quote",
+        "meme",
+        "microsoft",
+        "web",
+        "developers"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Microsoft — Ballmer MIX08 conversation with Guy Kawasaki (March 6, 2008)",
+          "url": "https://news.microsoft.com/speeches/steve-ballmer-mix08-conversation-with-guy-kawasaki/",
+          "role": "date"
+        },
+        {
+          "title": "ZDNet — Ballmer: it's all about web developers (overview)",
+          "url": "https://www.zdnet.com/article/ballmer-its-all-about-web-developers/",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

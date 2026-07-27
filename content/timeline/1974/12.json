@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "slug": "knuth-premature-optimization",
+      "media": [],
+      "relatedIds": [
+        "knuth-taocp-volume-1-published"
+      ],
+      "people": [
+        {
+          "id": "donald-knuth",
+          "name": "Donald Knuth",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "knuth-premature-optimization",
+      "date": "1974-12",
+      "datePrecision": "month",
+      "title": "Donald Knuth warns against premature optimization",
+      "quoteText": "Premature optimization is the root of all evil (or at least most of it) in programming.",
+      "summary": "Donald Knuth's paper Structured Programming with go to Statements coins the line every performance tweaker quotes back at themselves.",
+      "about": "Knuth wasn't against optimization — he argued for profiling first. The quote is misused to dismiss all early performance work, but the original point was about clarity before micro-benchmarks.",
+      "narrative": {
+        "whyChosen": "The most repeated performance advice in software engineering, often without context.",
+        "whyImportant": "It reframed optimization as a measured second step, not a design default.",
+        "problemSolved": "Teams wasted effort tuning code paths before knowing what was slow."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "software-engineering",
+        "algorithms"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Knuth — Structured Programming with go to Statements (December 1974)",
+          "url": "https://doi.org/10.1145/356635.356640",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Donald Knuth (overview)",
+          "url": "https://en.wikipedia.org/wiki/Donald_Knuth",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

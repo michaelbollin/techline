@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "lighttpd-released",
+      "slug": "lighttpd-released",
+      "date": "2003-03",
+      "datePrecision": "month",
+      "title": "lighttpd first released",
+      "summary": "Jan Kneschke released lighttpd in March 2003 — a lightweight, event-driven web server aimed at the C10K concurrency problem.",
+      "about": "lighttpd serves static files and reverse-proxies to FastCGI backends with a tiny memory footprint — popular on embedded devices, CDNs, and high-traffic sites before nginx dominated. YouTube and Wikipedia reportedly used it in early scale-ups. Example: lighttpd on port 80 proxying to PHP-FPM workers for a WordPress cluster.",
+      "narrative": {
+        "whyChosen": "lighttpd proved async web servers could handle thousands of parallel connections on modest hardware.",
+        "whyImportant": "It influenced nginx and the event-driven server designs that replaced Apache prefork at scale.",
+        "problemSolved": "Process-per-connection servers could not sustain tens of thousands of idle keep-alive clients."
+      },
+      "category": "software",
+      "tags": ["lighttpd", "web-server", "http", "reverse-proxy", "web"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Lighttpd (initial release March 2003)",
+          "url": "https://en.wikipedia.org/wiki/Lighttpd",
+          "role": "date"
+        },
+        {
+          "title": "lighttpd — Documentation (overview)",
+          "url": "https://doc.lighttpd.net/lighttpd2/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nginx-released", "apache-http-server-released"]
+    }
+  ]
+}

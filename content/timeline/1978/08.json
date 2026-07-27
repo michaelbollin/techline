@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "tony-hoare-csp-published",
+      "media": [],
+      "relatedIds": [
+        "tony-hoare-quicksort-published"
+      ],
+      "people": [
+        {
+          "id": "tony-hoare",
+          "name": "Tony Hoare",
+          "role": "researcher"
+        }
+      ],
+      "id": "tony-hoare-csp-published",
+      "date": "1978-08",
+      "datePrecision": "month",
+      "title": "Tony Hoare publishes Communicating Sequential Processes",
+      "summary": "Tony Hoare published Communicating Sequential Processes in August 1978 — a model for concurrent programs communicating through channels.",
+      "about": "CSP influenced Go's goroutines, occam, and formal reasoning about concurrency. Hoare's earlier Hoare logic (1969) and CSP together shaped how programmers verify and structure parallel systems.",
+      "narrative": {
+        "whyChosen": "CSP gave a foundational model for message-passing concurrency.",
+        "whyImportant": "It influenced language design and verification for parallel and distributed systems.",
+        "problemSolved": "Shared-memory concurrency was error-prone without structured communication primitives."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "concurrency",
+        "research",
+        "formal-methods"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "CACM — Communicating Sequential Processes (August 1978)",
+          "url": "https://doi.org/10.1145/359576.359585",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Communicating sequential processes (overview)",
+          "url": "https://en.wikipedia.org/wiki/Communicating_sequential_processes",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

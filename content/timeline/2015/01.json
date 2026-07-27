@@ -1,0 +1,50 @@
+{
+  "events": [
+    {
+      "slug": "andrej-karpathy-cs231n",
+      "media": [],
+      "relatedIds": [
+        "fei-fei-li-imagenet-dataset-launched",
+        "hinton-alexnet-imagenet-breakthrough"
+      ],
+      "people": [
+        {
+          "id": "andrej-karpathy",
+          "name": "Andrej Karpathy",
+          "role": "researcher"
+        }
+      ],
+      "id": "andrej-karpathy-cs231n",
+      "date": "2015-01",
+      "datePrecision": "month",
+      "title": "Andrej Karpathy launches Stanford CS231n course",
+      "summary": "Andrej Karpathy co-taught CS231n: Convolutional Neural Networks for Visual Recognition at Stanford in winter 2015 — one of the first university deep-learning courses.",
+      "about": "Karpathy's lectures and assignments became a global on-ramp for computer vision practitioners. Enrollment grew from ~150 to 750 students as deep learning went mainstream — the course notes still anchor self-taught ML education.",
+      "narrative": {
+        "whyChosen": "CS231n democratized deep learning pedagogy beyond research labs.",
+        "whyImportant": "It trained a generation of engineers who built production vision systems.",
+        "problemSolved": "Universities lacked a hands-on curriculum bridging AlexNet-era research and practice."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "education",
+        "computer-vision"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Stanford CS231n — Course history (winter 2015)",
+          "url": "http://cs231n.stanford.edu/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Andrej Karpathy (overview)",
+          "url": "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -61,6 +61,37 @@
         }
       ],
       "relatedIds": ["elixir-1-0-released", "elixir-first-release", "erlang-otp-26-released"]
+    },
+    {
+      "id": "mistral-7b-released",
+      "slug": "mistral-7b-released",
+      "date": "2023-09-27",
+      "datePrecision": "day",
+      "title": "Mistral 7B released",
+      "summary": "Mistral AI released Mistral 7B on September 27, 2023 — a compact open-weight model outperforming larger LLaMA models on benchmarks.",
+      "about": "Mistral 7B proved small, well-trained models could beat bigger ones — fueling edge deployment, local inference, and the European open-weights ecosystem. It established Mistral as a credible alternative to Meta and OpenAI for developers who wanted Apache-licensed weights.",
+      "narrative": {
+        "whyChosen": "Mistral 7B showed efficiency could beat raw parameter count.",
+        "whyImportant": "Compact open models made LLMs runnable on consumer GPUs and laptops.",
+        "problemSolved": "Teams needed capable models that did not require datacenter-scale GPU clusters."
+      },
+      "category": "software",
+      "tags": ["ai", "mistral", "llm", "open-source", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mistral AI — Announcing Mistral 7B (September 27, 2023)",
+          "url": "https://mistral.ai/news/announcing-mistral-7b",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mistral AI (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["llama-2-released", "llama-3-released", "chatgpt-released"]
     }
   ]
 }

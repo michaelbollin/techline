@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "blackberry-5810-released",
+      "slug": "blackberry-5810-released",
+      "date": "2002-03",
+      "datePrecision": "month",
+      "title": "BlackBerry 5810 released",
+      "summary": "Research In Motion began selling the BlackBerry 5810 in March 2002 — the first BlackBerry with integrated phone and always-on email.",
+      "about": "The 5810 paired a thumb keyboard with push email over GPRS — lawyers, bankers, and IT departments standardized on 'CrackBerry' devices. Developers built enterprise mobile apps and BES-connected services before iOS and Android opened consumer app stores. Mobile email addiction started here for many professionals.",
+      "narrative": {
+        "whyChosen": "The 5810 was RIM's first phone-plus-email BlackBerry — the form factor that dominated enterprise mobile.",
+        "whyImportant": "It made push email and mobile messaging mandatory for corporate IT before the iPhone.",
+        "problemSolved": "Professionals needed reliable mobile email without constantly dialing into desktop clients."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "smartphone", "blackberry", "email"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — BlackBerry (5810, March 2002)",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Mobile computing timeline (overview)",
+          "url": "https://www.computerhistory.org/timeline/computers/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["palm-pilot-1000-released", "nokia-9000-communicator-released", "iphone-goes-on-sale", "sidekick-released", "blackberry-os-eol"]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "id": "adele-goldberg-smalltalk-80",
+      "slug": "adele-goldberg-smalltalk-80",
+      "date": "1980",
+      "datePrecision": "year",
+      "title": "Adele Goldberg co-releases Smalltalk-80",
+      "summary": "Adele Goldberg and the Xerox PARC team released Smalltalk-80 in 1980 — pioneering GUIs, OOP, and live programming environments.",
+      "about": "Smalltalk influenced Objective-C, Java, Ruby, and every IDE with a REPL or object browser. Goldberg famously showed Steve Jobs the Xerox GUI concepts that shaped the Macintosh.",
+      "narrative": {
+        "whyChosen": "Smalltalk-80 defined modern OOP and interactive development environments.",
+        "whyImportant": "It proved objects and GUIs belonged together on personal computers.",
+        "problemSolved": "Programming was batch-oriented without visual feedback or object metaphors."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "smalltalk",
+        "oop",
+        "gui"
+      ],
+      "people": [
+        {
+          "id": "adele-goldberg",
+          "name": "Adele Goldberg",
+          "role": "co-creator"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Xerox PARC — Smalltalk-80 (1980)",
+          "url": "https://en.wikipedia.org/wiki/Smalltalk",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Adele Goldberg (overview)",
+          "url": "https://en.wikipedia.org/wiki/Adele_Goldberg_(computer_scientist)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "simula-67-presented"
+      ]
+    },
+    {
+      "slug": "metcalfe-metcalfe-law",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "robert-metcalfe",
+          "name": "Robert Metcalfe",
+          "role": "researcher"
+        }
+      ],
+      "category": "quote",
+      "id": "metcalfe-metcalfe-law",
+      "date": "1980",
+      "datePrecision": "year",
+      "title": "Robert Metcalfe states Metcalfe's Law",
+      "quoteText": "The value of a telecommunications network is proportional to the square of the number of connected users of the system.",
+      "summary": "Ethernet inventor Robert Metcalfe articulates why network effects compound — each new user makes the network more valuable for everyone else.",
+      "about": "Metcalfe's Law became the mental model behind social networks, marketplaces, and platform economics. Critics note n² oversimplifies real networks, but the core insight — connectivity has nonlinear returns — still shapes startup pitch decks.",
+      "narrative": {
+        "whyChosen": "The formula behind 'network effects' before the phrase existed.",
+        "whyImportant": "It explained why winning platforms could pull away from rivals with similar features.",
+        "problemSolved": "Investors and engineers lacked vocabulary for why connected products accelerate in value."
+      },
+      "tags": [
+        "quote",
+        "prediction",
+        "networking",
+        "ethernet"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Wikipedia — Metcalfe's law (1980s formulation)",
+          "url": "https://en.wikipedia.org/wiki/Metcalfe%27s_law",
+          "role": "date"
+        },
+        {
+          "title": "IEEE Spectrum — Metcalfe's Law after 40 years (overview)",
+          "url": "https://spectrum.ieee.org/metcalfe-law",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

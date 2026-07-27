@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "demis-hassabis-alphago-victory",
+      "media": [],
+      "relatedIds": [
+        "demis-hassabis-deepmind-founded"
+      ],
+      "people": [
+        {
+          "id": "demis-hassabis",
+          "name": "Demis Hassabis",
+          "role": "researcher"
+        }
+      ],
+      "id": "demis-hassabis-alphago-victory",
+      "date": "2016-03-15",
+      "datePrecision": "day",
+      "title": "Demis Hassabis's AlphaGo defeats Lee Sedol 4–1",
+      "summary": "DeepMind's AlphaGo beat Go champion Lee Sedol four games to one in Seoul on March 15, 2016 — a watershed moment for reinforcement learning watched by 200 million people.",
+      "about": "Hassabis's team proved neural networks plus Monte Carlo tree search could master a game experts thought was a decade away from machine mastery. The victory reframed AI ambition from chess-scale search to intuition-like pattern recognition.",
+      "narrative": {
+        "whyChosen": "AlphaGo was the first AI victory that shocked both experts and the general public.",
+        "whyImportant": "It proved deep RL could exceed human intuition in complex domains.",
+        "problemSolved": "Go's combinatorial explosion had resisted brute-force and handcrafted AI for decades."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "reinforcement-learning",
+        "deepmind"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Wikipedia — AlphaGo versus Lee Sedol (March 9–15, 2016)",
+          "url": "https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol",
+          "role": "date"
+        },
+        {
+          "title": "DeepMind — AlphaGo (overview)",
+          "url": "https://deepmind.google/research/alphago/",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

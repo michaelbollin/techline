@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["javascript-mocha-prototype", "javascript-name-announced", "internet-explorer-3-0"]
+    },
+    {
+      "id": "palm-pilot-1000-released",
+      "slug": "palm-pilot-1000-released",
+      "date": "1996-03",
+      "datePrecision": "month",
+      "title": "Palm Pilot 1000 released",
+      "summary": "U.S. Robotics' Palm Computing division began selling the Palm Pilot 1000 in March 1996 — a pocket PDA with Graffiti handwriting and HotSync desktop software.",
+      "about": "The Pilot fit in a shirt pocket and synced contacts and calendars to a PC with one button press. Developers wrote Palm OS apps in C; the platform dominated PDAs until smartphones absorbed its use cases. Graffiti input and the app launcher UI influenced early mobile design before touchscreens took over.",
+      "narrative": {
+        "whyChosen": "The Palm Pilot made PDAs mainstream and created a thriving third-party app ecosystem.",
+        "whyImportant": "It proved millions would carry a dedicated pocket computer for personal information management.",
+        "problemSolved": "Paper planners and bulky laptops could not keep mobile professionals organized on the go."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "pda", "palm", "pilot"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — PalmPilot (March 1996 release)",
+          "url": "https://en.wikipedia.org/wiki/PalmPilot",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Personal digital assistants (overview)",
+          "url": "https://www.computerhistory.org/timeline/computers/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-simon-released", "nokia-9000-communicator-released", "blackberry-5810-released", "iphone-goes-on-sale"]
     }
   ]
 }

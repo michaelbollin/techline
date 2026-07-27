@@ -63,6 +63,17 @@ const TOPIC_FILTERS: TimelineFilterDef[] = [
     label: "Standards",
     matches: (event) => hasTag(event, "standard", "ansi", "iso"),
   },
+  {
+    id: "people",
+    label: "People",
+    matches: (event) =>
+      hasTag(event, "people") || (event.people !== undefined && event.people.length > 0),
+  },
+  {
+    id: "quotes",
+    label: "Quotes",
+    matches: (event) => event.category === "quote" || hasTag(event, "quote"),
+  },
 ];
 
 const LANGUAGE_FILTERS: TimelineFilterDef[] = [

@@ -1,35 +1,35 @@
 {
   "events": [
     {
-      "id": "internet-explorer-5-0",
-      "slug": "internet-explorer-5-0",
-      "date": "1999-03-18",
+      "id": "mqtt-invented",
+      "slug": "mqtt-invented",
+      "date": "1999-03-26",
       "datePrecision": "day",
-      "title": "Internet Explorer 5.0 released",
-      "summary": "Microsoft shipped Internet Explorer 5.0 on March 18, 1999 with improved CSS, XML support, and the beginnings of Ajax-style client scripting.",
-      "about": "IE 5 refined the quirks that developers still joke about (`document.all`, `attachEvent`) but also shipped features that powered early web apps: better CSS, XMLHTTP precursors, and tighter integration with Office. For a few years it was the browser the most sites were written for.",
+      "title": "MQTT invented",
+      "summary": "Andy Stanford-Clark and Arlen Nipper created MQTT v1 on March 26, 1999 — a lightweight publish/subscribe protocol for unreliable satellite links.",
+      "about": "MQTT sends small messages between devices with minimal overhead — ideal for IoT sensors, industrial SCADA, and mobile networks. Brokers route topics like `factory/line1/temperature`; clients subscribe and publish with at-most-once or guaranteed delivery. AWS IoT Core, HiveMQ, and millions of embedded devices use it today.",
       "narrative": {
-        "whyChosen": "IE 5 cemented Microsoft's dominance and set the de-facto web API many sites targeted.",
-        "whyImportant": "Its CSS and scripting quirks shaped a generation of defensive front-end code.",
-        "problemSolved": "Enterprises needed a stable, capable browser that matched Windows and Office deployments."
+        "whyChosen": "MQTT solved messaging over expensive, high-latency satellite links for oil-pipeline monitoring.",
+        "whyImportant": "It became the dominant wire protocol for IoT and constrained devices worldwide.",
+        "problemSolved": "Heavy enterprise messaging protocols consumed too much bandwidth and battery for remote sensors."
       },
-      "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
-      "importance": 3,
+      "category": "protocol",
+      "tags": ["mqtt", "iot", "messaging", "protocol", "publish-subscribe"],
+      "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Microsoft — Internet Explorer history (IE 5.0, March 18, 1999)",
-          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/dn742485(v=vs.85)",
+          "title": "MQIsdp versions — MQTT v1 first release (March 26, 1999)",
+          "url": "http://stanford-clark.com/MQIpdp/versions.html",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Internet Explorer 5 (overview)",
-          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_5",
+          "title": "IBM — MQTT overview (overview)",
+          "url": "https://www.ibm.com/topics/mqtt",
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-4-0", "internet-explorer-6-released"]
+      "relatedIds": ["rabbitmq-released", "apache-kafka-open-sourced", "websocket-protocol-standardized"]
     }
   ]
 }

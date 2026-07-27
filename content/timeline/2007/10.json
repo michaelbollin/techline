@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "rich-hickey-clojure-released",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "rich-hickey",
+          "name": "Rich Hickey",
+          "role": "creator"
+        }
+      ],
+      "id": "rich-hickey-clojure-released",
+      "date": "2007-10-16",
+      "datePrecision": "day",
+      "title": "Rich Hickey releases Clojure",
+      "summary": "Rich Hickey released Clojure 1.0 on October 16, 2007 — a Lisp on the JVM with immutable data and software transactional memory.",
+      "about": "Clojure brought functional programming to Java shops without giving up the JVM ecosystem. Hickey's 'Simple Made Easy' talks influenced how developers think about state, complexity, and design.",
+      "narrative": {
+        "whyChosen": "Clojure proved Lisp could thrive on the JVM for production services.",
+        "whyImportant": "Immutable data and STM offered a distinct concurrency model from mainstream OOP.",
+        "problemSolved": "Java developers wanted functional tools without leaving existing libraries and deployment."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "clojure",
+        "lisp",
+        "jvm",
+        "programming-language"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Clojure — Clojure 1.0 release (October 16, 2007)",
+          "url": "https://clojure.org/about/history",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Clojure (overview)",
+          "url": "https://en.wikipedia.org/wiki/Clojure",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

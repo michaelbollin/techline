@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["rust-1-0-released", "rust-2021-edition"]
+    },
+    {
+      "id": "claude-3-7-sonnet-released",
+      "slug": "claude-3-7-sonnet-released",
+      "date": "2025-02-24",
+      "datePrecision": "day",
+      "title": "Anthropic Claude 3.7 Sonnet released",
+      "summary": "Anthropic released Claude 3.7 Sonnet on February 24, 2025 with extended thinking mode and improved coding and agentic capabilities.",
+      "about": "Claude 3.7 Sonnet introduced visible extended thinking — showing reasoning steps before answers — and stronger tool-use for coding agents. It competed with OpenAI o3 and GPT-4.1 for developer copilots and autonomous workflows.",
+      "narrative": {
+        "whyChosen": "Claude 3.7 made extended reasoning a first-class product feature.",
+        "whyImportant": "Visible thinking and tool use advanced agentic coding assistants.",
+        "problemSolved": "Users could not see or trust multi-step reasoning in standard chat models."
+      },
+      "category": "software",
+      "tags": ["ai", "anthropic", "claude", "llm", "reasoning", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Claude 3.7 Sonnet (February 24, 2025)",
+          "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["claude-3-5-sonnet-released", "openai-o1-released", "gpt-4-1-released"]
     }
   ]
 }

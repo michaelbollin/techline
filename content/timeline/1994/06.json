@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "uri-standardized",
+      "slug": "uri-standardized",
+      "date": "1994-06",
+      "datePrecision": "month",
+      "title": "URI syntax standardized",
+      "summary": "RFC 1630 defined Universal Resource Identifier syntax in June 1994 — a unifying scheme for naming and addressing objects on the web.",
+      "about": "URIs label resources with a scheme (`http:`, `ftp:`, `mailto:`) and a path — the foundation of every link, API endpoint, and redirect. URLs and URNs are subsets of URI; browsers resolve `https://example.com/docs` because this document formalized the grammar. REST, OpenAPI, and CDN routing all assume URI-shaped identifiers.",
+      "narrative": {
+        "whyChosen": "RFC 1630 was Tim Berners-Lee's first IETF document unifying how the web names resources.",
+        "whyImportant": "It gave HTTP, HTML, and DNS a shared addressing vocabulary that still underpins the web.",
+        "problemSolved": "Early web software mixed incompatible naming schemes; hyperlinks needed one portable syntax."
+      },
+      "category": "protocol",
+      "tags": ["uri", "url", "protocol", "standard", "web", "ietf"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RFC 1630 — Universal Resource Identifiers in WWW (June 1994)",
+          "url": "https://www.rfc-editor.org/info/rfc1630",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Uniform Resource Identifier (overview)",
+          "url": "https://en.wikipedia.org/wiki/Uniform_Resource_Identifier",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["worldwideweb-browser", "http-1-1-standardized", "dns-standardized", "html-invented"]
+    }
+  ]
+}

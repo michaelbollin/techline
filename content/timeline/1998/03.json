@@ -14,7 +14,14 @@
         "problemSolved": "Netscape needed outside developers to help finish a modern browser rewrite it could not fund alone."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "open-source", "netscape"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "open-source",
+        "netscape"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,53 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["netscape-communicator-4-0", "firefox-1-0-released"]
+      "relatedIds": [
+        "netscape-communicator-4-0",
+        "firefox-1-0-released"
+      ]
+    },
+    {
+      "slug": "daniel-stenberg-curl-released",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "daniel-stenberg",
+          "name": "Daniel Stenberg",
+          "role": "creator"
+        }
+      ],
+      "id": "daniel-stenberg-curl-released",
+      "date": "1998-03",
+      "datePrecision": "month",
+      "title": "Daniel Stenberg releases curl",
+      "summary": "Daniel Stenberg released curl in March 1998 — the command-line HTTP client embedded in phones, cars, and CI pipelines.",
+      "about": "libcurl ships in billions of devices — every API test script and embedded firmware update likely uses it. Stenberg's single-maintainer stewardship model is a case study in critical infrastructure.",
+      "narrative": {
+        "whyChosen": "curl/libcurl became the universal HTTP transfer library.",
+        "whyImportant": "It standardized how programs speak HTTP across platforms.",
+        "problemSolved": "Each platform had incompatible HTTP client APIs."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "http",
+        "open-source",
+        "tooling"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "curl — Project history (March 1998)",
+          "url": "https://curl.se/docs/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — cURL (overview)",
+          "url": "https://en.wikipedia.org/wiki/CURL",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

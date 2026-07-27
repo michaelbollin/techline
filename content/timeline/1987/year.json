@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "andy-tanenbaum-minix-created",
+      "media": [],
+      "relatedIds": [
+        "linux-kernel-announced"
+      ],
+      "people": [
+        {
+          "id": "andrew-tanenbaum",
+          "name": "Andrew Tanenbaum",
+          "role": "creator"
+        }
+      ],
+      "id": "andy-tanenbaum-minix-created",
+      "date": "1987",
+      "datePrecision": "year",
+      "title": "Andrew Tanenbaum creates MINIX",
+      "summary": "Andrew Tanenbaum created MINIX in 1987 — a teaching microkernel OS that inspired Linus Torvalds to build Linux.",
+      "about": "Tanenbaum's textbooks and MINIX shaped OS education worldwide. The famous Tanenbaum–Torvalds microkernel debate defined architectural trade-offs developers still argue about.",
+      "narrative": {
+        "whyChosen": "MINIX was the direct inspiration for Linux's initial design.",
+        "whyImportant": "It made operating system source code accessible to students.",
+        "problemSolved": "Unix source was proprietary and unavailable for classroom study."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "operating-system",
+        "education"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "MINIX — First release (1987)",
+          "url": "https://en.wikipedia.org/wiki/MINIX",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — MINIX (overview)",
+          "url": "https://en.wikipedia.org/wiki/MINIX",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

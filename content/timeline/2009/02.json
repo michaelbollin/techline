@@ -30,6 +30,68 @@
         }
       ],
       "relatedIds": ["safari-announced", "safari-3-windows-released", "webkit-open-sourced"]
+    },
+    {
+      "id": "redis-first-released",
+      "slug": "redis-first-released",
+      "date": "2009-02-26",
+      "datePrecision": "day",
+      "title": "Redis first released",
+      "summary": "Salvatore Sanfilippo open-sourced Redis on February 26, 2009 — an in-memory data structure store used as cache, queue, and lightweight database.",
+      "about": "Redis holds strings, lists, sets, and sorted sets in RAM with optional persistence — `GET`/`SET` for sessions, pub/sub for chat, sorted sets for leaderboards. GitHub, Instagram, and Sidekiq queues ran on it. Typical pattern: Postgres for truth, Redis for hot keys and rate limits.",
+      "narrative": {
+        "whyChosen": "Redis made in-memory data structures a standard layer in web architecture.",
+        "whyImportant": "It proved a single-threaded event loop plus clever structures could scale caching and messaging.",
+        "problemSolved": "Relational databases were too slow for session stores, counters, and real-time feeds at web scale."
+      },
+      "category": "software",
+      "tags": ["redis", "database", "cache", "nosql", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Redis (initial release February 26, 2009)",
+          "url": "https://en.wikipedia.org/wiki/Redis",
+          "role": "date"
+        },
+        {
+          "title": "Redis — Documentation (overview)",
+          "url": "https://redis.io/docs/latest/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["mongodb-first-released", "mysql-first-released", "memcached-released", "leveldb-open-sourced", "apache-cassandra-open-sourced"]
+    },
+    {
+      "id": "mongodb-first-released",
+      "slug": "mongodb-first-released",
+      "date": "2009-02-11",
+      "datePrecision": "day",
+      "title": "MongoDB first released",
+      "summary": "10gen released MongoDB on February 11, 2009 — a document database storing JSON-like BSON with flexible schemas.",
+      "about": "MongoDB stores documents in collections instead of fixed SQL tables — good for evolving product schemas, content catalogs, and mobile sync. Teams use it with Mongoose in Node or the native driver in Python. Example: user profiles with nested addresses without ALTER TABLE migrations.",
+      "narrative": {
+        "whyChosen": "MongoDB led the NoSQL wave for developers who wanted schema flexibility and horizontal scaling.",
+        "whyImportant": "It made document stores mainstream alongside relational SQL for web backends.",
+        "problemSolved": "Rigid SQL schemas and vertical scaling hurt fast-moving product teams building JSON-heavy apps."
+      },
+      "category": "software",
+      "tags": ["mongodb", "database", "nosql", "document-store", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — MongoDB (released February 11, 2009)",
+          "url": "https://en.wikipedia.org/wiki/MongoDB",
+          "role": "date"
+        },
+        {
+          "title": "MongoDB — What is MongoDB? (overview)",
+          "url": "https://www.mongodb.com/docs/manual/core/databases-and-collections/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["redis-first-released", "sequel-paper-published", "elasticsearch-released", "couchdb-released", "apache-cassandra-open-sourced"]
     }
   ]
 }

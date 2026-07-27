@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "sun-1-released",
+      "slug": "sun-1-released",
+      "date": "1982-05",
+      "datePrecision": "month",
+      "title": "Sun-1 workstation released",
+      "summary": "Sun Microsystems shipped the Sun-1 workstation in May 1982 — a Motorola 68000 machine with bitmapped graphics and Unix for technical computing.",
+      "about": "Sun workstations ran BSD Unix on affordable hardware with networking built in — NFS, RPC, and later Java were born in this ecosystem. Developers at startups, universities, and Wall Street traded green-screen terminals for networked bitmap displays. Sun's \"the network is the computer\" slogan described how backend devs actually worked.",
+      "narrative": {
+        "whyChosen": "Sun-1 launched the Unix workstation market that powered the 1980s–90s internet buildout.",
+        "whyImportant": "It paired open Unix with commodity hardware — a model Linux servers later scaled globally.",
+        "problemSolved": "Engineers needed interactive graphics and Unix on a desk without million-dollar minicomputers."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "workstation", "sun", "unix", "networking"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Sun-1 (released May 1982)",
+          "url": "https://en.wikipedia.org/wiki/Sun-1",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Sun Microsystems (overview)",
+          "url": "https://www.computerhistory.org/revolution/networking/11/357",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nfs-released", "java-1-0-shipped", "ibm-pc-5150-released", "sparcstation-1-released", "sun-enterprise-10000-released"]
+    }
+  ]
+}

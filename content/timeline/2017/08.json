@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "chris-wanstrath-github-ceo-steps-down",
+      "media": [],
+      "relatedIds": [
+        "github-launched",
+        "tom-preston-werner-github-resigns"
+      ],
+      "people": [
+        {
+          "id": "chris-wanstrath",
+          "name": "Chris Wanstrath",
+          "role": "ceo"
+        }
+      ],
+      "id": "chris-wanstrath-github-ceo-steps-down",
+      "date": "2017-08-17",
+      "datePrecision": "day",
+      "title": "Chris Wanstrath announces he will step down as GitHub CEO",
+      "summary": "Chris Wanstrath announced on August 17, 2017 that he would step down as GitHub CEO — paving the way for Microsoft's acquisition and Nat Friedman's leadership.",
+      "about": "Wanstrath had returned as CEO after Preston-Werner's 2014 resignation and grew GitHub past 20 million developers. His planned departure preceded Microsoft's $7.5B acquisition and GitHub's next chapter under Microsoft.",
+      "narrative": {
+        "whyChosen": "Wanstrath's succession plan set up GitHub's Microsoft acquisition transition.",
+        "whyImportant": "It marked leadership change at the central hub of open-source collaboration.",
+        "problemSolved": "GitHub needed a succession path as it scaled beyond founder-led management."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "github",
+        "ceo"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "CNBC — Wanstrath stepping down as CEO (August 17, 2017)",
+          "url": "https://www.cnbc.com/2017/08/17/github-ceo-chris-wanstrath-is-stepping-down.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Chris Wanstrath (overview)",
+          "url": "https://en.wikipedia.org/wiki/Chris_Wanstrath",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

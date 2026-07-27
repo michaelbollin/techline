@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "graydon-hoare-rust-started",
+      "media": [],
+      "relatedIds": [
+        "rust-1-0-released"
+      ],
+      "people": [
+        {
+          "id": "graydon-hoare",
+          "name": "Graydon Hoare",
+          "role": "creator"
+        }
+      ],
+      "id": "graydon-hoare-rust-started",
+      "date": "2006-07",
+      "datePrecision": "month",
+      "title": "Graydon Hoare begins Rust",
+      "summary": "Graydon Hoare started the Rust language project in July 2006 as a Mozilla research effort for safe systems programming.",
+      "about": "Hoare designed Rust's ownership model to eliminate memory bugs without garbage collection. Mozilla sponsored Rust until community foundations took over — now used in Linux, browsers, and infrastructure.",
+      "narrative": {
+        "whyChosen": "Rust's ownership model is the most influential memory-safety idea since garbage collection.",
+        "whyImportant": "It offered a third path between manual C and GC languages.",
+        "problemSolved": "Systems programmers needed safety without runtime overhead or GC pauses."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "rust",
+        "programming-language"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Rust — Project history (started 2006)",
+          "url": "https://www.rust-lang.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Rust (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Rust_(programming_language)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

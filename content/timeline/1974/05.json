@@ -14,7 +14,14 @@
         "problemSolved": "Old database APIs forced programmers to describe step-by-step paths through records; SEQUEL let them simply say what data they wanted."
       },
       "category": "software",
-      "tags": ["sql", "sequel", "ibm", "system-r", "database"],
+      "tags": [
+        "sql",
+        "sequel",
+        "ibm",
+        "system-r",
+        "database"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,62 @@
           "role": "overview"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [
+        "oracle-2-released",
+        "mysql-first-released",
+        "postgresql-6-released",
+        "sqlite-1-0-released"
+      ]
+    },
+    {
+      "slug": "cerf-kahn-tcp-ip-paper-published",
+      "media": [],
+      "relatedIds": [
+        "tcp-ip-flag-day"
+      ],
+      "people": [
+        {
+          "id": "vint-cerf",
+          "name": "Vint Cerf",
+          "role": "researcher"
+        },
+        {
+          "id": "bob-kahn",
+          "name": "Bob Kahn",
+          "role": "researcher"
+        }
+      ],
+      "id": "cerf-kahn-tcp-ip-paper-published",
+      "date": "1974-05",
+      "datePrecision": "month",
+      "title": "Vint Cerf and Bob Kahn publish TCP/IP design",
+      "summary": "Vint Cerf and Bob Kahn published A Protocol for Packet Network Intercommunication in May 1974 — defining the TCP design that became the internet's foundation.",
+      "about": "The paper described how heterogeneous packet networks could interconnect with reliable end-to-end communication — later split into TCP and IP. Every HTTP request still rides protocols descended from this work.",
+      "narrative": {
+        "whyChosen": "The Cerf–Kahn paper is the architectural birth certificate of the internet protocol suite.",
+        "whyImportant": "It enabled internetworking beyond any single vendor or network technology.",
+        "problemSolved": "Packet networks could not share resources or route across incompatible systems."
+      },
+      "category": "protocol",
+      "tags": [
+        "people",
+        "tcp-ip",
+        "internet",
+        "research"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "IEEE — A Protocol for Packet Network Intercommunication (May 1974)",
+          "url": "https://doi.org/10.1109/tcom.1974.1092259",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Vint Cerf (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vint_Cerf",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

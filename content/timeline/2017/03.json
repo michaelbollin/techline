@@ -14,7 +14,13 @@
         "problemSolved": "JavaScript could not match native performance for heavy compute; asm.js proved the concept but needed a standard binary format."
       },
       "category": "software",
-      "tags": ["webassembly", "wasm", "browser", "binary-format"],
+      "tags": [
+        "webassembly",
+        "wasm",
+        "browser",
+        "binary-format"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["javascript-name-announced"]
+      "relatedIds": [
+        "javascript-name-announced"
+      ]
     },
     {
       "id": "csharp-7-released",
@@ -45,7 +53,14 @@
         "problemSolved": "C# lacked concise destructuring and type tests for complex data shapes."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "programming-language", "roslyn"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "programming-language",
+        "roslyn"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +75,58 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["csharp-6-roslyn-released", "dotnet-framework-4-5-released", "dotnet-6-released"]
+      "relatedIds": [
+        "csharp-6-roslyn-released",
+        "dotnet-framework-4-5-released",
+        "dotnet-6-released"
+      ]
+    },
+    {
+      "slug": "lisa-su-amd-zen-launched",
+      "media": [],
+      "relatedIds": [
+        "lisa-su-amd-ceo",
+        "jensen-huang-nvidia-founded"
+      ],
+      "people": [
+        {
+          "id": "lisa-su",
+          "name": "Lisa Su",
+          "role": "ceo"
+        }
+      ],
+      "id": "lisa-su-amd-zen-launched",
+      "date": "2017-03-02",
+      "datePrecision": "day",
+      "title": "Lisa Su launches AMD Ryzen on Zen architecture",
+      "summary": "AMD launched Ryzen processors on the Zen architecture on March 2, 2017 — ending years of Intel CPU dominance in desktop performance.",
+      "about": "Under Lisa Su's leadership, Zen delivered competitive IPC and core counts at aggressive prices — reviving AMD in servers with EPYC and in gaming with Ryzen. It reshaped the x86 duopoly.",
+      "narrative": {
+        "whyChosen": "Zen was AMD's comeback architecture after the Bulldozer era.",
+        "whyImportant": "Competitive CPUs lowered cloud and PC costs and accelerated innovation.",
+        "problemSolved": "AMD had fallen behind Intel on performance per watt and market share."
+      },
+      "category": "hardware",
+      "tags": [
+        "people",
+        "amd",
+        "cpu",
+        "zen",
+        "semiconductor"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "AMD — Ryzen launch on Zen (March 2, 2017)",
+          "url": "https://en.wikipedia.org/wiki/Zen_(microarchitecture)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ryzen (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ryzen",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

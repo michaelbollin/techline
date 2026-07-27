@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "fei-fei-li-stanford-hai",
+      "media": [],
+      "relatedIds": [
+        "fei-fei-li-imagenet-dataset-launched"
+      ],
+      "people": [
+        {
+          "id": "fei-fei-li",
+          "name": "Fei-Fei Li",
+          "role": "researcher"
+        }
+      ],
+      "id": "fei-fei-li-stanford-hai",
+      "date": "2019-03-18",
+      "datePrecision": "day",
+      "title": "Fei-Fei Li co-directs Stanford HAI launch",
+      "summary": "Stanford launched the Institute for Human-Centered Artificial Intelligence on March 18, 2019 with Fei-Fei Li as co-director — bridging CS, humanities, and policy.",
+      "about": "HAI united ~200 faculty across disciplines to study AI's societal impact, not just algorithms. Li's leadership positioned human-centered design and ethics alongside technical breakthroughs at a top research university.",
+      "narrative": {
+        "whyChosen": "HAI institutionalized interdisciplinary AI governance at Stanford scale.",
+        "whyImportant": "It modeled how universities could study AI's human impact, not just capabilities.",
+        "problemSolved": "AI research silos lacked forums connecting engineering, ethics, and public policy."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "ai-policy",
+        "education",
+        "stanford"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Stanford Report — HAI launch (March 18, 2019)",
+          "url": "https://news.stanford.edu/stories/2019/03/stanford_university_launches_human-centered_ai",
+          "role": "date"
+        },
+        {
+          "title": "Stanford HAI — About (overview)",
+          "url": "https://hai.stanford.edu/",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

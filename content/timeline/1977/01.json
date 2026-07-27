@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "commodore-pet-2001-released",
+      "slug": "commodore-pet-2001-released",
+      "date": "1977-01",
+      "datePrecision": "month",
+      "title": "Commodore PET 2001 released",
+      "summary": "Commodore introduced the PET 2001 in January 1977 — one of the first complete personal computers with built-in monitor, keyboard, and cassette storage.",
+      "about": "The PET shipped with Microsoft BASIC in ROM and a chiclet keyboard in an all-in-one case — no soldering required. Schools and small businesses used it for accounting and teaching programming before the Apple II and TRS-80 defined the home PC market. Commodore's vertical integration foreshadowed the C64 price wars to come.",
+      "narrative": {
+        "whyChosen": "The PET 2001 was among the first ready-to-use personal computers sold to the public.",
+        "whyImportant": "It proved all-in-one microcomputers could ship with BASIC and reach non-hobbyist buyers.",
+        "problemSolved": "Early microcomputers were kits or bare boards; users needed a complete system out of the box."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "commodore", "8-bit", "microcomputer"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Commodore.ca — PET 2001 museum (January 1977 introduction)",
+          "url": "https://www.commodore.ca/gallery/museum/pet2001.htm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Commodore PET (overview)",
+          "url": "https://en.wikipedia.org/wiki/Commodore_PET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["commodore-64-released", "apple-ii-introduced", "trs-80-model-i-released", "basic-first-run"]
+    }
+  ]
+}

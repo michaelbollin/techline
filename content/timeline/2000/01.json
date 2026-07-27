@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "slug": "bill-gates-steps-down-microsoft-ceo",
+      "media": [],
+      "relatedIds": [
+        "microsoft-founded",
+        "satya-nadella-microsoft-ceo"
+      ],
+      "people": [
+        {
+          "id": "bill-gates",
+          "name": "Bill Gates",
+          "role": "ceo"
+        }
+      ],
+      "id": "bill-gates-steps-down-microsoft-ceo",
+      "date": "2000-01-13",
+      "datePrecision": "day",
+      "title": "Bill Gates steps down as Microsoft CEO",
+      "summary": "Bill Gates handed the Microsoft CEO role to Steve Ballmer on January 13, 2000, remaining chief software architect.",
+      "about": "The transition ended Gates's day-to-day operational control during the dot-com era and Windows XP cycle. It marked Microsoft's shift from founder-led startup culture to enterprise-scale corporation.",
+      "narrative": {
+        "whyChosen": "Gates's CEO exit was a generational handoff at the world's largest software company.",
+        "whyImportant": "It separated founder vision from professional management at scale.",
+        "problemSolved": "Microsoft needed dedicated leadership as antitrust scrutiny and product complexity grew."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "microsoft",
+        "ceo"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Microsoft — Gates steps down as CEO (January 13, 2000)",
+          "url": "https://news.microsoft.com/2000/01/13/bill-gates-promotes-steve-ballmer-to-chief-executive-officer/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bill Gates (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bill_Gates",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "steve-ballmer-named-microsoft-ceo",
+      "media": [],
+      "relatedIds": [
+        "satya-nadella-microsoft-ceo"
+      ],
+      "people": [
+        {
+          "id": "steve-ballmer",
+          "name": "Steve Ballmer",
+          "role": "ceo"
+        }
+      ],
+      "id": "steve-ballmer-named-microsoft-ceo",
+      "date": "2000-01-13",
+      "datePrecision": "day",
+      "title": "Steve Ballmer named Microsoft CEO",
+      "summary": "Steve Ballmer became Microsoft CEO on January 13, 2000, leading the company through the Windows and enterprise server boom.",
+      "about": "Ballmer's tenure emphasized Windows, Office, and datacenter licensing — and famously clashed with open source before Nadella's pivot. Developers remember the 'developers, developers, developers' era and the Longhorn/Vista cycle.",
+      "narrative": {
+        "whyChosen": "Ballmer led Microsoft through its peak PC licensing years and early cloud transition.",
+        "whyImportant": "His era defined Microsoft's enterprise dominance and mobile missteps.",
+        "problemSolved": "Microsoft needed operational leadership as Gates focused on architecture and philanthropy."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "microsoft",
+        "ceo"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Microsoft — Ballmer promoted to CEO (January 13, 2000)",
+          "url": "https://news.microsoft.com/2000/01/13/bill-gates-promotes-steve-ballmer-to-chief-executive-officer/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Steve Ballmer (overview)",
+          "url": "https://en.wikipedia.org/wiki/Steve_Ballmer",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

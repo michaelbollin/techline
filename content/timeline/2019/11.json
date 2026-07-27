@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "github-actions-ga",
+      "slug": "github-actions-ga",
+      "date": "2019-11-13",
+      "datePrecision": "day",
+      "title": "GitHub Actions generally available",
+      "summary": "GitHub made Actions generally available on November 13, 2019 — native CI/CD workflows defined in YAML inside repositories.",
+      "about": "GitHub Actions runs jobs on push, pull request, or schedule — build, test, deploy with marketplace actions for AWS, Docker, and npm. Workflows live in `.github/workflows/` beside the code they test. It displaced Travis CI for many open-source projects and integrated CI into the forge developers already used.",
+      "narrative": {
+        "whyChosen": "GitHub Actions brought CI/CD into the platform that already hosted the code.",
+        "whyImportant": "It made automated testing and deployment the default for GitHub-hosted projects worldwide.",
+        "problemSolved": "Teams juggled separate CI services, webhooks, and permissions outside their git host."
+      },
+      "category": "software",
+      "tags": ["github-actions", "ci", "cd", "github", "devops", "yaml"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub Changelog — Actions generally available (November 13, 2019)",
+          "url": "https://github.blog/changelog/2019-11-11-github-actions-is-generally-available/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub Blog — Universe 2019: Actions out of beta (overview)",
+          "url": "https://github.blog/news-insights/product-news/universe-day-one/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["github-launched", "travis-ci-launched", "hudson-ci-released"]
+    }
+  ]
+}

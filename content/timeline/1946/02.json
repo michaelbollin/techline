@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "eniac-dedicated",
+      "slug": "eniac-dedicated",
+      "date": "1946-02-14",
+      "datePrecision": "day",
+      "title": "ENIAC dedicated",
+      "summary": "The U.S. Army dedicated ENIAC at the University of Pennsylvania on February 14, 1946 — the first general-purpose electronic digital computer.",
+      "about": "ENIAC filled a room with 17,000 vacuum tubes and computed artillery trajectories thousands of times faster than human calculators. Programmers rewired panels and set switches to change programs — no stored program yet, but it proved electronic computation at scale was possible. Every server rack today traces lineage to machines like this.",
+      "narrative": {
+        "whyChosen": "ENIAC was the first large-scale electronic computer to operate as a programmable digital machine.",
+        "whyImportant": "It demonstrated that computation could be automated electronically — the foundation of all later computers.",
+        "problemSolved": "World War II ballistics tables took weeks of human calculation; the Army needed faster, repeatable numerical work."
+      },
+      "category": "invention",
+      "tags": ["hardware", "mainframe", "eniac", "computer", "invention"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "University of Pennsylvania — ENIAC (dedicated February 14, 1946)",
+          "url": "https://www.eniac.upenn.edu/",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — ENIAC (overview)",
+          "url": "https://www.computerhistory.org/revolution/birth-of-the-computer/4/78",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["edsac-initial-orders", "univac-i-delivered"]
+    }
+  ]
+}

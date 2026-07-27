@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "capistrano-released",
+      "slug": "capistrano-released",
+      "date": "2006-03-06",
+      "datePrecision": "day",
+      "title": "Capistrano released",
+      "summary": "Jamis Buck released Capistrano 1.1 on March 6, 2006 — a Ruby DSL for automating multi-server application deploys over SSH.",
+      "about": "Capistrano (renamed from SwitchTower) codified `cap deploy`: git pull, bundle install, migrate database, restart Unicorn — across a fleet of servers with roles and stages. It taught a generation of Rails teams that deployment should be scripted, repeatable, and boring. Chef, Ansible, and later container rollouts extended the same idea at larger scale.",
+      "narrative": {
+        "whyChosen": "Capistrano made scripted multi-server deploys mainstream in the Ruby web ecosystem.",
+        "whyImportant": "It shifted deploys from manual SSH sessions to version-controlled automation recipes.",
+        "problemSolved": "Teams running Rails on several boxes needed consistent, auditable release steps without hand-typing commands on each host."
+      },
+      "category": "software",
+      "tags": ["capistrano", "deployment", "ruby", "devops", "automation", "ssh"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Jamis Buck — Capistrano 1.1 released (March 6, 2006)",
+          "url": "https://weblog.jamisbuck.org/2006/3/6/capistrano-1-1-released",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Capistrano (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Capistrano_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ruby-0-95-released", "rails-open-sourced", "chef-released", "circleci-launched", "rubygems-released", "phusion-passenger-released"]
+    }
+  ]
+}

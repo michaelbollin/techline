@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "slug": "larry-ellison-oracle-founded",
+      "media": [],
+      "relatedIds": [
+        "oracle-2-released"
+      ],
+      "people": [
+        {
+          "id": "larry-ellison",
+          "name": "Larry Ellison",
+          "role": "co-founder"
+        },
+        {
+          "id": "bob-miner",
+          "name": "Bob Miner",
+          "role": "co-founder"
+        },
+        {
+          "id": "ed-oates",
+          "name": "Ed Oates",
+          "role": "co-founder"
+        }
+      ],
+      "id": "larry-ellison-oracle-founded",
+      "date": "1977-06-16",
+      "datePrecision": "day",
+      "title": "Larry Ellison co-founds Oracle",
+      "summary": "Larry Ellison, Bob Miner, and Ed Oates founded Software Development Laboratories on June 16, 1977 — later Oracle Corporation.",
+      "about": "Oracle commercialized SQL relational databases before IBM's DB2 shipped — growing into enterprise software spanning databases, ERP, and cloud. Ellison's decades as CEO made Oracle a fixture of corporate IT stacks.",
+      "narrative": {
+        "whyChosen": "Oracle became the defining enterprise database vendor of the client-server era.",
+        "whyImportant": "It proved relational databases could be sold as commercial products at scale.",
+        "problemSolved": "Organizations needed packaged SQL database software independent of IBM mainframes."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "oracle",
+        "database",
+        "founding"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Oracle — Company founded (June 16, 1977)",
+          "url": "https://www.oracle.com/corporate/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Oracle Corporation (overview)",
+          "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "slug": "knuth-taocp-volume-1-published",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "donald-knuth",
+          "name": "Donald Knuth",
+          "role": "author"
+        }
+      ],
+      "id": "knuth-taocp-volume-1-published",
+      "date": "1968",
+      "datePrecision": "year",
+      "title": "Donald Knuth publishes TAOCP Volume 1",
+      "summary": "Donald Knuth published Volume 1 of The Art of Computer Programming in 1968 — foundational algorithms text still cited today.",
+      "about": "TAOCP systematized algorithm analysis for generations of computer scientists. Knuth also created TeX and literate programming — tools that shaped how papers and books are typeset in CS.",
+      "narrative": {
+        "whyChosen": "TAOCP remains the benchmark reference for algorithms and rigorous CS writing.",
+        "whyImportant": "It established Big-O analysis and structured algorithm exposition as standard practice.",
+        "problemSolved": "Computer science lacked a comprehensive, quality-controlled algorithms canon."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "algorithms",
+        "computer-science",
+        "author"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Stanford — Donald E. Knuth (TAOCP bibliography)",
+          "url": "https://www-cs-faculty.stanford.edu/~knuth/taocp.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — The Art of Computer Programming (overview)",
+          "url": "https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -29,7 +29,131 @@
           "role": "overview"
         }
       ],
-      "relatedIds": []
+      "relatedIds": ["cargo-released"]
+    },
+    {
+      "id": "cargo-released",
+      "slug": "cargo-released",
+      "date": "2015-05-15",
+      "datePrecision": "day",
+      "title": "Cargo 1.0 released",
+      "summary": "Cargo 1.0 shipped with Rust 1.0 on May 15, 2015 — the official package manager and build tool for the Rust ecosystem.",
+      "about": "Cargo builds projects, resolves dependencies from crates.io, and publishes semver-versioned crates — `cargo new`, `cargo build`, `cargo test`, and `cargo publish` are the Rust workflow. Lockfiles ensure reproducible builds. Example: add `serde = \"1.0\"` to `Cargo.toml` and Cargo fetches compatible releases automatically.",
+      "narrative": {
+        "whyChosen": "Stable Cargo arrived with Rust 1.0, making the language production-ready end-to-end.",
+        "whyImportant": "It gave Rust a first-class package ecosystem modeled on npm and Bundler but with stronger build integration.",
+        "problemSolved": "Rust needed a unified tool for dependencies, builds, tests, and publishing — not ad-hoc makefiles."
+      },
+      "category": "software",
+      "tags": ["cargo", "rust", "package-manager", "build", "crates-io"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Rust Blog — Announcing Rust 1.0 (Cargo 1.0, May 15, 2015)",
+          "url": "https://blog.rust-lang.org/2015/05/15/Rust-1.0/",
+          "role": "date"
+        },
+        {
+          "title": "The Cargo Book — Getting started (overview)",
+          "url": "https://doc.rust-lang.org/cargo/getting-started/index.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["rust-1-0-released", "npm-first-released", "pip-released"]
+    },
+    {
+      "id": "http-2-standardized",
+      "slug": "http-2-standardized",
+      "date": "2015-05-14",
+      "datePrecision": "day",
+      "title": "HTTP/2 standardized",
+      "summary": "RFC 7540 published HTTP/2 on May 14, 2015 — multiplexed requests, header compression, and server push over a single TCP connection.",
+      "about": "HTTP/2 evolved from Google's SPDY protocol — browsers and CDNs adopted it to cut page load latency. Multiple requests share one connection without head-of-line blocking at the HTTP layer; HPACK compresses headers. gRPC and many APIs run over HTTP/2 today. Example: a page loading dozens of assets in parallel on one TLS connection to the origin.",
+      "narrative": {
+        "whyChosen": "HTTP/2 was the first major HTTP revision since 1.1 and addressed real-world web performance bottlenecks.",
+        "whyImportant": "It made multiplexing and header compression standard, paving the way for HTTP/3 over QUIC.",
+        "problemSolved": "HTTP/1.1's one-request-per-connection model caused latency and inefficient use of modern networks."
+      },
+      "category": "protocol",
+      "tags": ["http2", "http", "protocol", "standard", "web", "ietf"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RFC 7540 — HTTP/2 (May 14, 2015)",
+          "url": "https://www.rfc-editor.org/info/rfc7540",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — HTTP/2 (overview)",
+          "url": "https://en.wikipedia.org/wiki/HTTP/2",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["http-1-1-standardized", "grpc-open-sourced", "tls-1-0-standardized", "http-3-standardized"]
+    },
+    {
+      "id": "jwt-standardized",
+      "slug": "jwt-standardized",
+      "date": "2015-05",
+      "datePrecision": "month",
+      "title": "JWT standardized",
+      "summary": "RFC 7519 defined JSON Web Tokens in May 2015 — a compact, URL-safe format for signed claims between services.",
+      "about": "JWTs encode JSON claims in a three-part base64 string: header, payload, signature. APIs issue them after login; clients send `Authorization: Bearer <token>` on later requests. Used with OAuth 2.0, OpenID Connect, and microservice auth — though teams must validate signatures, expiry, and audience carefully.",
+      "narrative": {
+        "whyChosen": "JWT became the default wire format for stateless API authentication after OAuth took off.",
+        "whyImportant": "It standardized how services pass identity and permissions without server-side sessions.",
+        "problemSolved": "Every API invented its own opaque token format; clients and gateways needed a portable standard."
+      },
+      "category": "protocol",
+      "tags": ["jwt", "security", "authentication", "api", "standard", "ietf"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RFC 7519 — JSON Web Token (JWT) (May 2015)",
+          "url": "https://www.rfc-editor.org/info/rfc7519",
+          "role": "date"
+        },
+        {
+          "title": "jwt.io — Introduction to JSON Web Tokens (overview)",
+          "url": "https://jwt.io/introduction",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["oauth-2-0-standardized", "tls-1-0-standardized", "rest-architectural-style-defined", "openid-connect-1-0-published"]
+    },
+    {
+      "id": "rollup-released",
+      "slug": "rollup-released",
+      "date": "2015-05-21",
+      "datePrecision": "day",
+      "title": "Rollup first released",
+      "summary": "Rich Harris published Rollup 0.3.0 on May 21, 2015 — an ES module bundler with tree-shaking to drop unused code.",
+      "about": "Rollup analyzes static `import`/`export` graphs and eliminates dead code — producing smaller bundles than Browserify or early webpack for library authors. It powers Vue, React tooling, and many npm packages shipped as ES modules. Example: importing one function from lodash-es ships only that function, not the entire library.",
+      "narrative": {
+        "whyChosen": "Rollup pioneered tree-shaking for ES modules at a time when webpack optimized CommonJS bundles.",
+        "whyImportant": "It influenced webpack 2+ and proved ES module semantics enable smaller production builds.",
+        "problemSolved": "Bundlers shipped entire dependency trees even when apps used a fraction of each library."
+      },
+      "category": "software",
+      "tags": ["rollup", "bundler", "javascript", "es6", "tree-shaking", "open-source"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "rollup/rollup — 0.3.0 release commit (May 21, 2015)",
+          "url": "https://github.com/rollup/rollup/commit/f34a896d95f6486c6fa3b9c5f50c8afaefc68b63",
+          "role": "date"
+        },
+        {
+          "title": "Rollup — Introduction (overview)",
+          "url": "https://rollupjs.org/introduction/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["webpack-released", "browserify-released", "babel-released"]
     }
   ]
 }

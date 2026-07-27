@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["vue-js-released", "typescript-preview-released"]
+    },
+    {
+      "id": "laravel-8-released",
+      "slug": "laravel-8-released",
+      "date": "2020-09-08",
+      "datePrecision": "day",
+      "title": "Laravel 8.0 released",
+      "summary": "Taylor Otwell released Laravel 8.0 on September 8, 2020 with model factories, job batching, and improved routing and maintenance mode.",
+      "about": "Laravel 8 refined the developer experience before Laravel 9's PHP 8 jump: class-based model factories replaced legacy definitions; job batching coordinated queues; Jetstream offered optional auth scaffolding. It remained the default PHP framework for SaaS and agency work through the early 2020s.",
+      "narrative": {
+        "whyChosen": "Laravel 8 polished factories and queues for production PHP teams.",
+        "whyImportant": "Job batching and modern factories reduced boilerplate in data-heavy apps.",
+        "problemSolved": "Legacy factory syntax and ad-hoc queue orchestration slowed Laravel testing and ops."
+      },
+      "category": "software",
+      "tags": ["laravel", "php", "web-framework"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Laravel News — Laravel 8 released (September 8, 2020)",
+          "url": "https://laravel-news.com/laravel-8",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Laravel (overview)",
+          "url": "https://en.wikipedia.org/wiki/Laravel",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["laravel-5-released", "laravel-first-beta", "rails-7-released"]
     }
   ]
 }

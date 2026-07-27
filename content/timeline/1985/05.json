@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "radia-perlman-spanning-tree",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "radia-perlman",
+          "name": "Radia Perlman",
+          "role": "researcher"
+        }
+      ],
+      "id": "radia-perlman-spanning-tree",
+      "date": "1985-05",
+      "datePrecision": "month",
+      "title": "Radia Perlman publishes spanning tree protocol",
+      "summary": "Radia Perlman invented the spanning tree protocol (STP), published in May 1985 — keeping Ethernet networks loop-free.",
+      "about": "STP runs in virtually every enterprise switch and datacenter — invisible infrastructure developers depend on when deploying services. Perlman is often called the 'mother of the internet' for bridging and routing contributions.",
+      "narrative": {
+        "whyChosen": "Spanning tree is foundational networking math behind every LAN.",
+        "whyImportant": "It prevented broadcast storms in redundant Ethernet topologies.",
+        "problemSolved": "Redundant network links caused loops without an automatic disabling algorithm."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "networking",
+        "protocol"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "IEEE — Perlman, An Algorithm for Distributed Computation of a Spanning Tree (1985)",
+          "url": "https://en.wikipedia.org/wiki/Spanning_Tree_Protocol",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Radia Perlman (overview)",
+          "url": "https://en.wikipedia.org/wiki/Radia_Perlman",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

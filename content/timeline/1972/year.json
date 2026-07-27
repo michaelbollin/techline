@@ -20,6 +20,7 @@
         "unix",
         "programming-language"
       ],
+      "people": [],
       "importance": 1,
       "media": [
         {
@@ -61,7 +62,14 @@
         "problemSolved": "Colmerauer's team needed one tool for both parsing human language and automated reasoning, without building separate custom engines for each."
       },
       "category": "software",
-      "tags": ["prolog", "logic-programming", "ai", "marseille", "programming-language"],
+      "tags": [
+        "prolog",
+        "logic-programming",
+        "ai",
+        "marseille",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -76,7 +84,140 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["lisp-first-interpreter", "c-language-created"]
+      "relatedIds": [
+        "lisp-first-interpreter",
+        "c-language-created"
+      ]
+    },
+    {
+      "slug": "karen-sparck-jones-idf",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "karen-sparck-jones",
+          "name": "Karen Spärck Jones",
+          "role": "researcher"
+        }
+      ],
+      "id": "karen-sparck-jones-idf",
+      "date": "1972",
+      "datePrecision": "year",
+      "title": "Karen Spärck Jones publishes inverse document frequency",
+      "summary": "Karen Spärck Jones introduced inverse document frequency (IDF) in 1972 — a cornerstone of search ranking and information retrieval.",
+      "about": "IDF weights rare terms higher in search — the 'idf' in tf-idf used by Elasticsearch, Lucene, and early Google. Her work predates the web but powers every search engine developers integrate with.",
+      "narrative": {
+        "whyChosen": "IDF is foundational math behind modern search ranking.",
+        "whyImportant": "It quantified term importance across document collections.",
+        "problemSolved": "Keyword matching alone ranked common words as important as distinctive ones."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "search",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Journal of Documentation — Spärck Jones, 1972",
+          "url": "https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Karen Spärck Jones (overview)",
+          "url": "https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "elizabeth-feinler-nic-created",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "elizabeth-feinler",
+          "name": "Elizabeth Feinler",
+          "role": "researcher"
+        }
+      ],
+      "id": "elizabeth-feinler-nic-created",
+      "date": "1972",
+      "datePrecision": "year",
+      "title": "Elizabeth Feinler runs the ARPANET NIC",
+      "summary": "Elizabeth Feinler led the ARPANET Network Information Center in the 1970s — maintaining the hosts file that was the web before DNS.",
+      "about": "Feinler's team published the directory of every machine on the early internet — precursor to DNS and WHOIS. Her work made the growing network navigable for researchers and operators.",
+      "narrative": {
+        "whyChosen": "Feinler operated the human-powered 'search engine' of the pre-DNS internet.",
+        "whyImportant": "She scaled directory services as ARPANET grew beyond memorized host lists.",
+        "problemSolved": "There was no automated naming when thousands of hosts joined the network."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "internet",
+        "networking"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "Stanford — Feinler NIC history (1972–1989)",
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elizabeth J. Feinler (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "jon-postel-iana-stewardship",
+      "media": [],
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "dns-standardized"
+      ],
+      "people": [
+        {
+          "id": "jon-postel",
+          "name": "Jon Postel",
+          "role": "maintainer"
+        }
+      ],
+      "id": "jon-postel-iana-stewardship",
+      "date": "1972",
+      "datePrecision": "year",
+      "title": "Jon Postel begins IANA stewardship",
+      "summary": "Jon Postel took on Internet Assigned Numbers Authority (IANA) functions in the early 1970s — editing RFCs and assigning protocol numbers for decades.",
+      "about": "Postel's stewardship kept the internet's naming and numbering coherent as it grew from ARPANET research to a global network. He was the RFC Editor and IANA administrator until his death in 1998.",
+      "narrative": {
+        "whyChosen": "Postel's quiet governance made decentralized internet growth possible.",
+        "whyImportant": "IANA assignments let independent networks interoperate without a central authority.",
+        "problemSolved": "Growing packet networks needed consistent protocol numbers and document editing."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "internet",
+        "iana",
+        "rfc"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ISI/USC — Postel IANA history (1970s)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Postel",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Jon Postel (overview)",
+          "url": "https://en.wikipedia.org/wiki/Jon_Postel",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

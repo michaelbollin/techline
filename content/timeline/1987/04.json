@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ibm-pc-5150-discontinued",
+      "slug": "ibm-pc-5150-discontinued",
+      "date": "1987-04-02",
+      "datePrecision": "day",
+      "title": "IBM PC 5150 discontinued",
+      "summary": "IBM discontinued the original Personal Computer 5150 on April 2, 1987 — ending production of the machine that launched the PC-compatible industry.",
+      "about": "The 5150's open architecture spawned thousands of clone makers and made MS-DOS the default PC OS. Its discontinuation marked the handoff to AT-class machines and PS/2 lines, but the ISA expansion bus and BIOS-compatible design outlived the original model by decades. Every x86 laptop and server still carries DNA from this product's form factor.",
+      "narrative": {
+        "whyChosen": "The 5150's EOL closed the chapter on IBM's first mass-market personal computer.",
+        "whyImportant": "It bookends the platform that defined desktop computing for the next thirty years.",
+        "problemSolved": "IBM replaced the aging 5150 with newer models while clones had already commoditized its design."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "ibm", "x86", "discontinued"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "IBM — Personal Computer history (5150 discontinued April 2, 1987)",
+          "url": "https://www.ibm.com/history/personal-computer",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — IBM Personal Computer (overview)",
+          "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released"]
+    }
+  ]
+}

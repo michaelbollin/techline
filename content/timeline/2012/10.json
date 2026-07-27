@@ -29,7 +29,7 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2015-adopted", "javascript-name-announced"]
+      "relatedIds": ["ecmascript-2015-adopted", "javascript-name-announced", "visual-studio-code-preview", "babel-released", "eslint-released"]
     },
     {
       "id": "internet-explorer-10-released",
@@ -61,6 +61,37 @@
         }
       ],
       "relatedIds": ["internet-explorer-9-released", "internet-explorer-11-released", "microsoft-edge-released"]
+    },
+    {
+      "id": "oauth-2-0-standardized",
+      "slug": "oauth-2-0-standardized",
+      "date": "2012-10",
+      "datePrecision": "month",
+      "title": "OAuth 2.0 standardized",
+      "summary": "RFC 6749 defined the OAuth 2.0 authorization framework in October 2012 — letting apps request limited access to user accounts without sharing passwords.",
+      "about": "OAuth 2.0 is how you 'Sign in with Google/GitHub' and how APIs delegate access with bearer tokens. Authorization servers issue tokens after user consent; resource servers validate them. Every SaaS integration, mobile login, and third-party API permission screen builds on these flows — authorization code, client credentials, and more.",
+      "narrative": {
+        "whyChosen": "OAuth 2.0 replaced ad-hoc API keys and password sharing with a standard consent model.",
+        "whyImportant": "It became the foundation for modern identity federation, API security, and OpenID Connect.",
+        "problemSolved": "Apps needed user data from other services without storing credentials or getting full account access."
+      },
+      "category": "protocol",
+      "tags": ["oauth", "security", "api", "authentication", "standard", "ietf"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RFC 6749 — The OAuth 2.0 Authorization Framework (October 2012)",
+          "url": "https://www.rfc-editor.org/info/rfc6749",
+          "role": "date"
+        },
+        {
+          "title": "oauth.net — OAuth 2.0 (overview)",
+          "url": "https://oauth.net/2/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["tls-1-0-standardized", "github-launched", "rest-architectural-style-defined", "jwt-standardized", "openid-connect-1-0-published", "oauth-1-0-published"]
     }
   ]
 }

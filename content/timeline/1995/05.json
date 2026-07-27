@@ -20,6 +20,7 @@
         "browser",
         "programming-language"
       ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -59,6 +60,7 @@
         "jvm",
         "programming-language"
       ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -76,6 +78,97 @@
       "relatedIds": [
         "java-1-0-shipped",
         "javascript-mocha-prototype"
+      ]
+    },
+    {
+      "id": "mysql-first-released",
+      "slug": "mysql-first-released",
+      "date": "1995-05-23",
+      "datePrecision": "day",
+      "title": "MySQL first released",
+      "summary": "Michael Widenius and MySQL AB shipped the first MySQL release on May 23, 1995 — a fast SQL database with an mSQL-compatible API.",
+      "about": "MySQL powers LAMP stacks, WordPress, early Facebook, and countless web apps needing a simple relational store. Teams run `SELECT`, `JOIN`, and transactions for CRUD APIs and reporting. It became the default cheap SQL option before PostgreSQL's rise and cloud-managed databases.",
+      "narrative": {
+        "whyChosen": "MySQL made SQL databases accessible to every PHP and web hosting provider on the planet.",
+        "whyImportant": "Its speed and simple licensing defined the open-source database market for a decade.",
+        "problemSolved": "mSQL was too slow and closed; developers needed a fast SQL engine with a familiar API."
+      },
+      "category": "software",
+      "tags": [
+        "mysql",
+        "database",
+        "sql",
+        "open-source"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "MySQL — History of MySQL (first version May 23, 1995)",
+          "url": "https://dev.mysql.com/doc/refman/8.0/en/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — MySQL (overview)",
+          "url": "https://en.wikipedia.org/wiki/MySQL",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sequel-paper-published",
+        "oracle-2-released",
+        "postgresql-6-released",
+        "sqlite-1-0-released",
+        "mariadb-released"
+      ]
+    },
+    {
+      "slug": "gates-internet-tidal-wave-memo",
+      "media": [],
+      "relatedIds": [
+        "microsoft-founded",
+        "internet-explorer-1-0"
+      ],
+      "people": [
+        {
+          "id": "bill-gates",
+          "name": "Bill Gates",
+          "role": "ceo"
+        }
+      ],
+      "category": "quote",
+      "id": "gates-internet-tidal-wave-memo",
+      "date": "1995-05-26",
+      "datePrecision": "day",
+      "title": "Bill Gates declares the \"Internet tidal wave\"",
+      "quoteText": "The Internet is a tidal wave. It changes the rules. It is an incredible opportunity as well as an incredible challenge.",
+      "summary": "Bill Gates's internal Microsoft memo redirects the company to make the Internet central to every product.",
+      "about": "Gates had initially dismissed the web; this memo is the pivot. It led to IE bundling, MSN strategy, and the browser wars — and later antitrust scrutiny.",
+      "narrative": {
+        "whyChosen": "The moment Microsoft officially bet the company on the web.",
+        "whyImportant": "It accelerated browser development and reshaped Windows as a networked platform.",
+        "problemSolved": "Microsoft risked missing the Internet after focusing on desktop CD-ROM products."
+      },
+      "tags": [
+        "quote",
+        "prediction",
+        "microsoft",
+        "internet",
+        "web"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Microsoft — Internet Tidal Wave memo (May 26, 1995)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Tidal_Wave",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Tidal Wave (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Tidal_Wave",
+          "role": "overview"
+        }
       ]
     }
   ]

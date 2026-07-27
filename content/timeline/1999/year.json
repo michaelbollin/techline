@@ -1,0 +1,135 @@
+{
+  "events": [
+    {
+      "id": "martin-fowler-refactoring-published",
+      "slug": "martin-fowler-refactoring-published",
+      "date": "1999",
+      "datePrecision": "year",
+      "title": "Martin Fowler publishes Refactoring",
+      "summary": "Martin Fowler published Refactoring in 1999 — cataloging code improvement patterns and popularizing incremental design in OO systems.",
+      "about": "Fowler's catalog gave names to extract-method, move-field, and dozens of safe transformations IDEs now automate. He shaped agile, microservices, and enterprise patterns discourse for Java and beyond.",
+      "narrative": {
+        "whyChosen": "Refactoring vocabulary became standard in IDEs and code review culture.",
+        "whyImportant": "It legitimized changing structure without changing behavior as professional practice.",
+        "problemSolved": "Teams feared improving messy code without a shared pattern language."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "software-engineering",
+        "author"
+      ],
+      "people": [
+        {
+          "id": "martin-fowler",
+          "name": "Martin Fowler",
+          "role": "author"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "martinfowler.com — Refactoring book (1999)",
+          "url": "https://martinfowler.com/books/refactoring.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Refactoring (overview)",
+          "url": "https://en.wikipedia.org/wiki/Code_refactoring",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "kent-beck-extreme-programming",
+      "slug": "kent-beck-extreme-programming",
+      "date": "1999",
+      "datePrecision": "year",
+      "title": "Kent Beck publishes Extreme Programming Explained",
+      "summary": "Kent Beck published Extreme Programming Explained in 1999 — popularizing pair programming, TDD, and iterative delivery.",
+      "about": "XP influenced Agile Manifesto authors and every modern CI/CD pipeline. Beck also created JUnit — the ancestor of xUnit frameworks in every language.",
+      "narrative": {
+        "whyChosen": "Beck connected testing, pairing, and iteration into a named methodology.",
+        "whyImportant": "TDD and continuous integration became industry defaults.",
+        "problemSolved": "Waterfall planning failed for fast-changing software products."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "agile",
+        "testing",
+        "author"
+      ],
+      "people": [
+        {
+          "id": "kent-beck",
+          "name": "Kent Beck",
+          "role": "author"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Kent Beck — Extreme Programming Explained (1999)",
+          "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Extreme programming (overview)",
+          "url": "https://en.wikipedia.org/wiki/Extreme_programming",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "slug": "fowler-refactoring-definition",
+      "media": [],
+      "relatedIds": [
+        "martin-fowler-refactoring-published"
+      ],
+      "people": [
+        {
+          "id": "martin-fowler",
+          "name": "Martin Fowler",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "fowler-refactoring-definition",
+      "date": "1999",
+      "datePrecision": "year",
+      "title": "Martin Fowler defines refactoring",
+      "quoteText": "Refactoring is a controlled technique for incrementally improving the design of an existing code base.",
+      "summary": "Martin Fowler's book Refactoring gives refactoring a precise definition and a catalog of safe code transformations.",
+      "about": "Before Fowler, 'refactoring' was vague cleanup work. His catalog — extract method, move field, rename — became IDE menu items and code review vocabulary. The definition still anchors agile discussions of paying down debt without changing behavior.",
+      "narrative": {
+        "whyChosen": "The sentence that turned refactoring from slang into engineering practice.",
+        "whyImportant": "It legitimized structural code changes as a disciplined, test-backed activity.",
+        "problemSolved": "Teams feared changing working code without a shared pattern language."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "software-engineering",
+        "refactoring"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "martinfowler.com — Refactoring book (1999)",
+          "url": "https://martinfowler.com/books/refactoring.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Code refactoring (overview)",
+          "url": "https://en.wikipedia.org/wiki/Code_refactoring",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -29,7 +29,7 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["worldwideweb-browser", "netscape-navigator-1-0"]
+      "relatedIds": ["worldwideweb-browser", "netscape-navigator-1-0", "cgi-specified"]
     }
   ]
 }

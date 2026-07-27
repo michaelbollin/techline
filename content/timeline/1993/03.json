@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "intel-pentium-introduced",
+      "slug": "intel-pentium-introduced",
+      "date": "1993-03-22",
+      "datePrecision": "day",
+      "title": "Intel Pentium introduced",
+      "summary": "Intel announced the Pentium processor on March 22, 1993 — the first x86 CPU marketed by brand name instead of model number.",
+      "about": "The Pentium doubled performance over 486 chips with superscalar execution — Windows NT, Linux, and early 3D games demanded the extra headroom. The infamous FDIV bug made headlines, but Pentium became synonymous with PC CPUs through the 1990s. Developers optimizing for desktop performance targeted Pentium pipelines for years.",
+      "narrative": {
+        "whyChosen": "Pentium was Intel's defining consumer CPU brand of the 1990s PC boom.",
+        "whyImportant": "It brought superscalar x86 performance to mainstream desktops and workstations.",
+        "problemSolved": "486-class CPUs could not keep pace with multimedia, GUIs, and server workloads of the early 1990s."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "cpu", "intel", "pentium", "x86", "microprocessor"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Intel — Pentium processor announced (March 22, 1993)",
+          "url": "https://www.intel.com/content/www/us/en/history/virtual-vault/articles/pentium-processor.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Pentium (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pentium",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["intel-80386-introduced", "intel-8086-introduced", "amd64-x86-64-announced"]
+    }
+  ]
+}

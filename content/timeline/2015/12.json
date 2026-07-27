@@ -14,7 +14,11 @@
         "problemSolved": "PHP 5.6 was slow and aging; the ecosystem needed a breaking cleanup to modernize internals."
       },
       "category": "software",
-      "tags": ["php", "programming-language"],
+      "tags": [
+        "php",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +33,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released", "php-8-0-released"]
+      "relatedIds": [
+        "php-tools-1-0-released",
+        "php-8-0-released"
+      ]
     },
     {
       "id": "swift-open-sourced",
@@ -45,7 +52,13 @@
         "problemSolved": "Swift was tied to Xcode; server and open-source adopters needed a portable toolchain."
       },
       "category": "software",
-      "tags": ["swift", "apple", "open-source", "programming-language"],
+      "tags": [
+        "swift",
+        "apple",
+        "open-source",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +73,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["swift-announced", "swift-6-released"]
+      "relatedIds": [
+        "swift-announced",
+        "swift-6-released"
+      ]
     },
     {
       "id": "perl-6-christmas-released",
@@ -76,7 +92,12 @@
         "problemSolved": "Perl 5 could not evolve radically without breaking its massive installed base."
       },
       "category": "software",
-      "tags": ["perl", "raku", "programming-language"],
+      "tags": [
+        "perl",
+        "raku",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +112,146 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["perl-5-0-released"]
+      "relatedIds": [
+        "perl-5-0-released"
+      ]
+    },
+    {
+      "id": "lets-encrypt-public-beta",
+      "slug": "lets-encrypt-public-beta",
+      "date": "2015-12-03",
+      "datePrecision": "day",
+      "title": "Let's Encrypt public beta launched",
+      "summary": "Let's Encrypt entered public beta on December 3, 2015 — offering free, automated TLS certificates via the ACME protocol.",
+      "about": "Let's Encrypt's ACME API lets servers prove domain ownership and receive short-lived certificates without manual paperwork or fees. Certbot and other clients renew certs automatically — HTTPS went from a luxury to the default for blogs, APIs, and static sites. Example: `certbot --nginx` obtains and installs a certificate, then cron renews it before expiry.",
+      "narrative": {
+        "whyChosen": "Let's Encrypt removed cost and friction from deploying HTTPS at scale.",
+        "whyImportant": "It drove encrypted-by-default web traffic and standardized automated certificate issuance.",
+        "problemSolved": "TLS certificates were expensive and manual; most small sites stayed on plain HTTP."
+      },
+      "category": "software",
+      "tags": [
+        "lets-encrypt",
+        "tls",
+        "ssl",
+        "security",
+        "https",
+        "certificate",
+        "open-source"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Let's Encrypt — Entering Public Beta (December 3, 2015)",
+          "url": "https://letsencrypt.org/2015/12/03/entering-public-beta.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Let's Encrypt (overview)",
+          "url": "https://en.wikipedia.org/wiki/Let%27s_Encrypt",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "tls-1-0-standardized",
+        "http-1-1-standardized",
+        "nginx-released",
+        "caddy-released"
+      ]
+    },
+    {
+      "slug": "sam-altman-openai-founded",
+      "media": [],
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released"
+      ],
+      "people": [
+        {
+          "id": "sam-altman",
+          "name": "Sam Altman",
+          "role": "co-founder"
+        }
+      ],
+      "id": "sam-altman-openai-founded",
+      "date": "2015-12",
+      "datePrecision": "month",
+      "title": "Sam Altman co-founds OpenAI",
+      "summary": "OpenAI launched in December 2015 with Sam Altman as president — a research lab aimed at safe artificial general intelligence.",
+      "about": "OpenAI pivoted from nonprofit research to the API and ChatGPT products that triggered the generative AI boom. Altman became the public face of frontier model deployment and developer-facing LLM APIs.",
+      "narrative": {
+        "whyChosen": "OpenAI under Altman defined the consumer and API LLM era.",
+        "whyImportant": "It moved frontier models from labs into everyday software products.",
+        "problemSolved": "Powerful AI was locked in research without safe, accessible deployment paths."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "openai",
+        "ai",
+        "founding"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "OpenAI — Introducing OpenAI (December 11, 2015)",
+          "url": "https://openai.com/index/introducing-openai-and-openai/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OpenAI (overview)",
+          "url": "https://en.wikipedia.org/wiki/OpenAI",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "ilya-sutskever-openai-research",
+      "media": [],
+      "relatedIds": [
+        "sam-altman-openai-founded",
+        "hinton-alexnet-imagenet-breakthrough"
+      ],
+      "people": [
+        {
+          "id": "ilya-sutskever",
+          "name": "Ilya Sutskever",
+          "role": "researcher"
+        }
+      ],
+      "id": "ilya-sutskever-openai-research",
+      "date": "2015-12-11",
+      "datePrecision": "day",
+      "title": "Ilya Sutskever named OpenAI research director",
+      "summary": "OpenAI launched on December 11, 2015 with Ilya Sutskever as research director — the AlexNet co-author who would lead GPT and reasoning-model breakthroughs.",
+      "about": "Sutskever left Google Brain to co-found OpenAI's research program. He oversaw the scaling laws work behind GPT-3, ChatGPT, and later o1-style reasoning models before leaving to start Safe Superintelligence.",
+      "narrative": {
+        "whyChosen": "Sutskever defined OpenAI's research direction from inception through the LLM era.",
+        "whyImportant": "His leadership turned transformer scaling into consumer products.",
+        "problemSolved": "Frontier AI needed a research chief who could bridge academic breakthroughs and product deployment."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "openai",
+        "deep-learning",
+        "llm"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "OpenAI — Introducing OpenAI (December 11, 2015)",
+          "url": "https://openai.com/index/introducing-openai/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ilya Sutskever (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ilya_Sutskever",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

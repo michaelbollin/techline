@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "gabriel-worse-is-better",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "richard-gabriel",
+          "name": "Richard Gabriel",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "gabriel-worse-is-better",
+      "date": "1990",
+      "datePrecision": "year",
+      "title": "Richard Gabriel argues \"worse is better\"",
+      "quoteText": "The right thing is frequently a monolithic system design, but the worse-is-better design has better survival characteristics than the right-thing design.",
+      "summary": "Richard Gabriel's Lisp conference talk — later the essay The Rise of Worse Is Better — contrasts elegant designs with messy ones that ship and spread.",
+      "about": "Gabriel was half joking, half serious: Unix and C won by being ugly and portable while Lisp machines aimed for perfection. The phrase explains why good-enough tools beat beautiful ones in the market.",
+      "narrative": {
+        "whyChosen": "Worse is better names a pattern everyone recognizes but rarely admits.",
+        "whyImportant": "It framed why pragmatic ecosystems outcompeted theoretically superior designs.",
+        "problemSolved": "Perfectionist projects kept losing to incrementally good-enough platforms."
+      },
+      "tags": [
+        "quote",
+        "critique",
+        "unix",
+        "lisp",
+        "software-engineering"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Gabriel — The Rise of Worse Is Better (1990 talk / 1991 essay)",
+          "url": "https://www.dreamsongs.com/RiseOfWorseIsBetter.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Worse is better (overview)",
+          "url": "https://en.wikipedia.org/wiki/Worse_is_better",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

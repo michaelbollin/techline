@@ -61,6 +61,37 @@
         }
       ],
       "relatedIds": ["gpt-4-released", "gpt-4o-released", "chatgpt-released"]
+    },
+    {
+      "id": "elixir-1-17-released",
+      "slug": "elixir-1-17-released",
+      "date": "2024-09-19",
+      "datePrecision": "day",
+      "title": "Elixir 1.17 released",
+      "summary": "The Elixir team released Elixir 1.17 on September 19, 2024 with set-theoretic types in patterns, duration literals, and compiler speedups.",
+      "about": "Elixir 1.17 advanced gradual typing with set operations on types in guards and patterns — catching more bugs at compile time. Duration literals (`2h`, `30m`) simplified scheduling code in OTP and Broadway pipelines.",
+      "narrative": {
+        "whyChosen": "Elixir 1.17 pushed type-aware pattern matching toward practical static analysis.",
+        "whyImportant": "Set-theoretic types bridge dynamic Elixir and teams wanting more safety.",
+        "problemSolved": "Complex guard logic was hard to validate without external type tools."
+      },
+      "category": "software",
+      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Elixir Blog — Announcing Elixir v1.17 (September 19, 2024)",
+          "url": "https://elixir-lang.org/blog/2024/09/19/elixir-1-17-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elixir (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["elixir-1-16-released", "elixir-1-14-released", "erlang-otp-28-released"]
     }
   ]
 }

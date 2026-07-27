@@ -37,6 +37,27 @@ export const narrativeSchema = z.object({
   problemSolved: z.string().min(1),
 });
 
+export const personRoleSchema = z.enum([
+  "creator",
+  "co-creator",
+  "founder",
+  "co-founder",
+  "ceo",
+  "cto",
+  "researcher",
+  "author",
+  "maintainer",
+]);
+
+export const personRefSchema = z.object({
+  id: z
+    .string()
+    .min(1)
+    .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "person id must be kebab-case"),
+  name: z.string().min(1),
+  role: personRoleSchema,
+});
+
 export const timelineEventSchema = z.object({
   id: z
     .string()
@@ -55,10 +76,22 @@ export const timelineEventSchema = z.object({
   narrative: narrativeSchema,
   category: timelineCategorySchema,
   tags: z.array(z.string().min(1)).default([]),
+  /** Key figures tied to this milestone — use on tech events instead of duplicating a person event. */
+  people: z.array(personRefSchema).default([]),
+  /** Exact wording for `category: "quote"` events — the famous line(s). */
+  quoteText: z.string().min(1).optional(),
   importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),
   media: z.array(mediaItemSchema).default([]),
   sources: z.array(sourceSchema).default([]),
   relatedIds: z.array(z.string().min(1)).default([]),
+}).superRefine((event, ctx) => {
+  if (event.category === "quote" && !event.quoteText?.trim()) {
+    ctx.addIssue({
+      code: "custom",
+      message: 'category "quote" requires quoteText',
+      path: ["quoteText"],
+    });
+  }
 });
 
 /** Monthly or yearly bucket file — path defines the bucket, not metadata in JSON. */
@@ -73,6 +106,8 @@ export type MediaItem = z.infer<typeof mediaItemSchema>;
 export type Source = z.infer<typeof sourceSchema>;
 export type SourceRole = z.infer<typeof sourceRoleSchema>;
 export type Narrative = z.infer<typeof narrativeSchema>;
+export type PersonRole = z.infer<typeof personRoleSchema>;
+export type PersonRef = z.infer<typeof personRefSchema>;
 export type TimelineEvent = z.infer<typeof timelineEventSchema>;
 export type TimelineBucketFile = z.infer<typeof timelineBucketFileSchema>;
 

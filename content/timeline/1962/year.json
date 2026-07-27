@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "jean-sammet-formac-published",
+      "media": [],
+      "relatedIds": [
+        "fortran-formally-published"
+      ],
+      "people": [
+        {
+          "id": "jean-sammet",
+          "name": "Jean Sammet",
+          "role": "creator"
+        }
+      ],
+      "id": "jean-sammet-formac-published",
+      "date": "1962",
+      "datePrecision": "year",
+      "title": "Jean Sammet develops FORMAC",
+      "summary": "Jean Sammet created FORMAC in 1962 — one of the first languages for symbolic mathematics on computers.",
+      "about": "Sammet also edited Programming Languages: History and Fundamentals — the standard reference for language historians. Her FORMAC work showed computers could manipulate algebra, not just arithmetic.",
+      "narrative": {
+        "whyChosen": "Sammet bridged symbolic math and programming language design.",
+        "whyImportant": "She documented the entire early language landscape for later researchers.",
+        "problemSolved": "Scientists needed automated symbolic manipulation beyond numeric FORTRAN."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "programming-language",
+        "symbolic-computing"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "IBM — FORMAC development (1962)",
+          "url": "https://en.wikipedia.org/wiki/FORMAC",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Jean Sammet (overview)",
+          "url": "https://en.wikipedia.org/wiki/Jean_Sammet",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

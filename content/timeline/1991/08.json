@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "linux-kernel-announced",
+      "media": [],
+      "relatedIds": [
+        "git-created"
+      ],
+      "people": [
+        {
+          "id": "linus-torvalds",
+          "name": "Linus Torvalds",
+          "role": "creator"
+        }
+      ],
+      "id": "linux-kernel-announced",
+      "date": "1991-08-25",
+      "datePrecision": "day",
+      "title": "Linus Torvalds announces Linux",
+      "summary": "Linus Torvalds posted to comp.os.minix on August 25, 1991 announcing a free operating system kernel — the birth of Linux.",
+      "about": "Linux started as a hobby kernel for 386 PCs and grew into the OS behind Android, cloud servers, and supercomputers. Torvalds' open development model on Usenet and later Git became the template for community-driven systems software.",
+      "narrative": {
+        "whyChosen": "Linux is the most widely deployed operating system kernel in history.",
+        "whyImportant": "It proved open-source OS development could outpace proprietary Unix.",
+        "problemSolved": "MINIX and commercial Unix were limited for hackers who wanted a freely modifiable OS."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "linux",
+        "open-source",
+        "operating-system"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "LKML archive — Linux 0.01 announcement (August 25, 1991)",
+          "url": "https://www.kernel.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Linux (overview)",
+          "url": "https://en.wikipedia.org/wiki/Linux",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

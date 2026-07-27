@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["fortran-77-standard", "fortran-95-standard"]
+    },
+    {
+      "id": "sgi-indigo-released",
+      "slug": "sgi-indigo-released",
+      "date": "1991-07",
+      "datePrecision": "month",
+      "title": "SGI Indigo released",
+      "summary": "Silicon Graphics began shipping the Indigo workstation in July 1991 — an entry-level 3D graphics machine for technical and creative professionals.",
+      "about": "The Indigo ran IRIX Unix with OpenGL-accelerated 3D — game studios, film VFX houses, and CAD firms used it for modeling and rendering. OpenGL itself came from SGI's GL. Developers learning real-time 3D graphics in the 1990s often started on Indigo and Indy workstations before consumer GPUs caught up.",
+      "narrative": {
+        "whyChosen": "The Indigo brought SGI's 3D graphics expertise to a wider professional market.",
+        "whyImportant": "It helped establish OpenGL and Unix workstations as the standard for 3D content creation.",
+        "problemSolved": "Creative studios needed affordable 3D acceleration without mainframe-class price tags."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "workstation", "sgi", "opengl", "3d", "unix"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — SGI Indigo (released July 1991)",
+          "url": "https://en.wikipedia.org/wiki/SGI_Indigo",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Silicon Graphics (overview)",
+          "url": "https://www.computerhistory.org/revolution/workstations/11/383",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["sparcstation-1-released", "sun-1-released", "next-computer-released"]
     }
   ]
 }

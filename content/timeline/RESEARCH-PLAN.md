@@ -1,5 +1,13 @@
 # Techline research plan — languages & frameworks
 
+> **Infrastructure, protocols & tooling:** see [RESEARCH-PLAN-INFRA.md](./RESEARCH-PLAN-INFRA.md) (databases, HTTP, web servers, Git, npm, Docker, IDEs, CI, etc.)
+>
+> **Devices & hardware:** see [RESEARCH-PLAN-DEVICES.md](./RESEARCH-PLAN-DEVICES.md) (PCs, servers, smartphones, embedded boards)
+>
+> **People & leadership milestones:** see [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md) (founders, CEOs, researchers, maintainers — not biographies)
+>
+> **Famous quotes:** see [RESEARCH-PLAN-QUOTES.md](./RESEARCH-PLAN-QUOTES.md) (predictions, memes, controversies — not apocrypha)
+
 All dates must be verified from primary or authoritative sources before adding to `content/timeline/`.
 Status: `[ ]` pending · `[~]` in progress · `[x]` verified & added · `[-]` skip (not notable enough)
 

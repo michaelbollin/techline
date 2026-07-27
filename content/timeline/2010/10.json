@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["angular-2-released", "vue-js-released"]
+    },
+    {
+      "id": "nuget-released",
+      "slug": "nuget-released",
+      "date": "2010-10-05",
+      "datePrecision": "day",
+      "title": "NuGet released",
+      "summary": "Microsoft released NuGet 1.0 on October 5, 2010 — a package manager for .NET libraries, originally named NuPack.",
+      "about": "NuGet brought `Install-Package Newtonsoft.Json` to Visual Studio and `dotnet add package` to the CLI — centralizing .NET dependencies the way npm did for Node. The nuget.org gallery hosts millions of packages; SDK-style projects and CI pipelines assume NuGet restore. It completed the .NET ecosystem's shift from copying DLLs into `lib/` folders.",
+      "narrative": {
+        "whyChosen": "NuGet standardized dependency management for the .NET platform.",
+        "whyImportant": "It enabled reusable open-source libraries and reproducible builds across the Microsoft stack.",
+        "problemSolved": ".NET teams manually vendored binaries with no shared registry or version resolution."
+      },
+      "category": "software",
+      "tags": ["nuget", "package-manager", "dotnet", "microsoft", "dependencies"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "NuGet Docs — NuGet 1.0 release (October 5, 2010)",
+          "url": "https://learn.microsoft.com/en-us/nuget/release-notes/nuget-1.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — NuGet (overview)",
+          "url": "https://en.wikipedia.org/wiki/NuGet",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["npm-first-released", "composer-released", "maven-1-0-released", "dotnet-framework-1-0-rtm"]
     }
   ]
 }

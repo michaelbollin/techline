@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "slug": "clifford-cocks-public-key",
+      "media": [],
+      "relatedIds": [
+        "rsa-algorithm-published"
+      ],
+      "people": [
+        {
+          "id": "clifford-cocks",
+          "name": "Clifford Cocks",
+          "role": "researcher"
+        }
+      ],
+      "id": "clifford-cocks-public-key",
+      "date": "1973",
+      "datePrecision": "year",
+      "title": "Clifford Cocks invents RSA-class encryption at GCHQ",
+      "summary": "Clifford Cocks invented a public-key encryption scheme equivalent to RSA at GCHQ in 1973 — years before the public RSA announcement.",
+      "about": "Cocks' classified work remained secret until 1997 — revealing that British intelligence had discovered public-key cryptography independently. His story illustrates how security research often happened in parallel inside government labs.",
+      "narrative": {
+        "whyChosen": "Cocks' work proved public-key encryption was discoverable before the academic breakthrough.",
+        "whyImportant": "It showed the ideas behind RSA were not a single-lab accident but a natural next step.",
+        "problemSolved": "Secure government communications needed key distribution without exposing secrets."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "cryptography",
+        "research",
+        "gchq"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "GCHQ — Public-key cryptography declassified (1973 work)",
+          "url": "https://en.wikipedia.org/wiki/Clifford_Cocks",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Clifford Cocks (overview)",
+          "url": "https://en.wikipedia.org/wiki/Clifford_Cocks",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "id": "xerox-alto-operational",
+      "slug": "xerox-alto-operational",
+      "date": "1973",
+      "datePrecision": "year",
+      "title": "Xerox Alto operational",
+      "summary": "Xerox PARC's Alto workstation became operational in 1973 — the first computer designed around a bitmap GUI, mouse, and Ethernet networking.",
+      "about": "The Alto ran Bravo word processing, email, and Smalltalk — Steve Jobs saw it and pushed the Macintosh toward GUI computing. Ethernet, WYSIWYG editing, and overlapping windows were prototyped here years before they reached consumer PCs. Developers study Alto as the ancestor of every desktop and laptop UI.",
+      "narrative": {
+        "whyChosen": "The Alto was the first personal workstation built for graphical computing from the ground up.",
+        "whyImportant": "It proved GUIs, networking, and laser printing belonged on every desk — not just lab demos.",
+        "problemSolved": "Researchers needed an interactive machine for document preparation and distributed computing, not batch punch cards."
+      },
+      "category": "invention",
+      "tags": [
+        "hardware",
+        "workstation",
+        "xerox",
+        "gui",
+        "ethernet",
+        "invention"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Computer History Museum — Xerox Alto (1973)",
+          "url": "https://www.computerhistory.org/revolution/personal-computers/17/319",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Xerox Alto (overview)",
+          "url": "https://en.wikipedia.org/wiki/Xerox_Alto",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "macintosh-128k-released",
+        "apple-ii-introduced",
+        "adele-goldberg-smalltalk-80"
+      ]
+    }
+  ]
+}

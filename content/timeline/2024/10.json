@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["python-3-12-released", "python-3-14-released"]
+    },
+    {
+      "id": "claude-3-5-haiku-released",
+      "slug": "claude-3-5-haiku-released",
+      "date": "2024-10-22",
+      "datePrecision": "day",
+      "title": "Anthropic Claude 3.5 Haiku released",
+      "summary": "Anthropic released Claude 3.5 Haiku on October 22, 2024 — a fast, low-cost model matching Claude 3 Opus on many coding and chat tasks.",
+      "about": "Claude 3.5 Haiku targeted high-volume workloads: customer support, classification, and sub-second chat. It let teams route simple queries to a cheap model and reserve Sonnet/Opus for hard tasks — a pattern that became standard in LLM routing.",
+      "narrative": {
+        "whyChosen": "Haiku made frontier-quality responses economical at scale.",
+        "whyImportant": "Fast cheap models enabled LLM features in latency-sensitive products.",
+        "problemSolved": "Using flagship models for every request was too slow and expensive for production traffic."
+      },
+      "category": "software",
+      "tags": ["ai", "anthropic", "claude", "llm", "machine-learning"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Claude 3.5 Haiku (October 22, 2024)",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["claude-3-5-sonnet-released", "claude-3-released", "gpt-4o-released"]
     }
   ]
 }

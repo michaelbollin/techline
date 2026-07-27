@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "gpt-4-1-released",
+      "slug": "gpt-4-1-released",
+      "date": "2025-04-14",
+      "datePrecision": "day",
+      "title": "OpenAI GPT-4.1 released",
+      "summary": "OpenAI released GPT-4.1 on April 14, 2025 — improved coding, instruction following, and a 1M-token context window in the API.",
+      "about": "GPT-4.1 and GPT-4.1 mini targeted developers with better long-context coding and lower latency than GPT-4o. The release continued OpenAI's cadence of incremental API models between flagship consumer launches.",
+      "narrative": {
+        "whyChosen": "GPT-4.1 pushed long-context coding further in the developer API tier.",
+        "whyImportant": "Million-token API models reduced chunking for codebase-aware tools.",
+        "problemSolved": "Developers needed stronger coding models with larger context at API scale."
+      },
+      "category": "software",
+      "tags": ["ai", "openai", "gpt", "llm", "api", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-4.1 (April 14, 2025)",
+          "url": "https://openai.com/index/gpt-4-1/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GPT-4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/GPT-4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["gpt-4o-released", "gpt-4-turbo-released", "chatgpt-released"]
+    }
+  ]
+}

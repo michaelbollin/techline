@@ -61,6 +61,37 @@
         }
       ],
       "relatedIds": ["cpp17-standard", "cpp11-standard"]
+    },
+    {
+      "id": "flash-player-discontinued",
+      "slug": "flash-player-discontinued",
+      "date": "2020-12-31",
+      "datePrecision": "day",
+      "title": "Adobe Flash Player discontinued",
+      "summary": "Adobe ended Flash Player distribution and updates on December 31, 2020 — ending ActionScript's run as a browser programming platform.",
+      "about": "Flash Player had powered browser games, video players, and interactive ads for two decades. After this date Adobe stopped security patches and blocked Flash content from running in the plugin (January 12, 2021). Developers who had built on ActionScript migrated to HTML5 canvas, WebGL, and JavaScript — or lost access to legacy `.swf` content entirely.",
+      "narrative": {
+        "whyChosen": "Flash Player's shutdown closed the ActionScript era and marked HTML5's victory for in-browser media.",
+        "whyImportant": "It broke millions of legacy games, training modules, and corporate sites that still depended on the plugin.",
+        "problemSolved": "Flash's security record and plugin model no longer fit a web platform moving to open standards."
+      },
+      "category": "software",
+      "tags": ["actionscript", "flash", "adobe", "web", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Adobe — Flash Player End of Life (December 31, 2020)",
+          "url": "https://www.adobe.com/products/flashplayer/end-of-life.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Adobe Flash (overview)",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Flash",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["actionscript-1-0-flash-5", "flash-4-scripting"]
     }
   ]
 }

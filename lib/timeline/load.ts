@@ -7,6 +7,7 @@ import {
   type TimelineBucket,
   type TimelineEvent,
 } from "./schema";
+import { enrichEventWithPeople } from "./people-attributions";
 
 export const CONTENT_DIR = path.join(process.cwd(), "content/timeline");
 
@@ -232,9 +233,15 @@ export async function loadTimeline(contentDir = CONTENT_DIR): Promise<LoadedTime
 
   assertUniqueIds(events);
 
+  const enrichedEvents = events.map(enrichEventWithPeople);
+  const enrichedBuckets = buckets.map((bucket) => ({
+    ...bucket,
+    events: bucket.events.map(enrichEventWithPeople),
+  }));
+
   return {
-    buckets,
-    events: sortEvents(events),
+    buckets: enrichedBuckets,
+    events: sortEvents(enrichedEvents),
   };
 }
 

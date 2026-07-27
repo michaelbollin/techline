@@ -1,42 +1,66 @@
 {
   "events": [
     {
+      "id": "chromebook-retail-launched",
+      "slug": "chromebook-retail-launched",
+      "date": "2011-06",
+      "datePrecision": "month",
+      "title": "Chromebooks go on sale",
+      "summary": "Samsung and Acer began selling the first retail Chromebooks in June 2011 — consumer laptops running Chrome OS.",
+      "about": "After the CR-48 pilot, retail Chromebooks brought Google's browser-centric OS to schools and budget buyers — automatic updates, Google account sign-in, and web apps only. IT departments adopted them for managed classrooms; developers tested PWAs and Chrome extensions on locked-down hardware. The category grew into a major segment beside Windows and Mac laptops.",
+      "narrative": {
+        "whyChosen": "Retail Chromebooks turned Google's pilot into a shipping product category.",
+        "whyImportant": "They proved cloud-first laptops could sell beyond beta testers and education pilots.",
+        "problemSolved": "Consumers and schools needed affordable laptops with zero-maintenance software updates."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "google", "chromebook", "chrome-os"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Blog — Chromebooks for everyone (June 2011)",
+          "url": "https://blog.google/products/chromebooks/new-chromebooks-for-everyone/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Chromebook (overview)",
+          "url": "https://en.wikipedia.org/wiki/Chromebook",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["chromebook-cr-48-pilot", "google-chrome-released", "intel-atom-announced"]
+    },
+    {
       "id": "laravel-first-beta",
       "slug": "laravel-first-beta",
-      "date": "2011-06-09",
-      "datePrecision": "day",
-      "title": "Laravel first public beta",
-      "summary": "Taylor Otwell released Laravel's first beta as a more expressive PHP alternative to CodeIgniter.",
-      "about": "Laravel is a PHP framework for modern web apps — routing, Eloquent ORM, Blade templates, auth scaffolding. Used for SaaS dashboards, e-commerce, REST APIs, and agency client sites. Example stack: Laravel + MySQL + Vue/React front-end, deployed on Forge or similar.",
+      "date": "2011-06",
+      "datePrecision": "month",
+      "title": "Laravel first beta released",
+      "summary": "Taylor Otwell released the first Laravel beta in June 2011 — a PHP web framework emphasizing elegant syntax and developer ergonomics.",
+      "about": "Laravel brought routing, Eloquent ORM, and Blade templates to PHP with conventions inspired by Ruby on Rails. It grew into the most popular PHP framework for APIs and full-stack apps — artisan CLI, queues, and later Livewire and Forge hosting.",
       "narrative": {
-        "whyChosen": "Laravel became the default mental model for modern PHP web development.",
-        "whyImportant": "It brought elegant routing, Eloquent ORM, and Blade templating to mainstream PHP teams.",
-        "problemSolved": "PHP frameworks of the era lacked built-in auth, migrations, and developer ergonomics Otwell wanted."
+        "whyChosen": "Laravel redefined modern PHP web development with expressive APIs and strong conventions.",
+        "whyImportant": "It made PHP competitive for new web projects when Rails and Django dominated mindshare.",
+        "problemSolved": "PHP frameworks lacked cohesive ergonomics; developers wanted Rails-like productivity on PHP."
       },
       "category": "software",
-      "tags": [
-        "laravel",
-        "php",
-        "web-framework"
-      ],
+      "tags": ["laravel", "php", "web-framework", "taylor-otwell"],
       "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Laravel News — first beta June 9, 2011",
-          "url": "https://laravel-news.com/laravel-is-10-years-old",
+          "title": "Wikipedia — Laravel (initial release June 2011)",
+          "url": "https://en.wikipedia.org/wiki/Laravel",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Laravel (first beta June 9, 2011)",
-          "url": "https://en.wikipedia.org/wiki/Laravel",
+          "title": "Laravel — Documentation (overview)",
+          "url": "https://laravel.com/docs",
           "role": "overview"
         }
       ],
-      "relatedIds": [
-        "laravel-symfony-http-foundation",
-        "symfony-released"
-      ]
+      "relatedIds": ["php-tools-1-0-released", "symfony-released", "laravel-symfony-http-foundation"]
     },
     {
       "id": "firefox-5-released",
@@ -44,12 +68,12 @@
       "date": "2011-06-21",
       "datePrecision": "day",
       "title": "Firefox 5 released",
-      "summary": "Mozilla released Firefox 5 on June 21, 2011 — the first version on a rapid six-week release schedule with CSS animations and improved privacy.",
-      "about": "Firefox 5 kicked off Mozilla's accelerated release cadence to match Chrome's pace. Do-not-track headers, tab animations, and faster JavaScript kept Firefox in the race — though Chrome's growth continued.",
+      "summary": "Mozilla released Firefox 5 on June 21, 2011 — the first version on the rapid release schedule with faster update cadence.",
+      "about": "Firefox 5 shipped Do Not Track headers and CSS animation improvements as Mozilla moved to six-week release cycles like Chrome. Web developers tested against fresher browser versions but faced faster breaking changes in vendor prefixes and APIs.",
       "narrative": {
-        "whyChosen": "Firefox 5 began Mozilla's rapid-release model that defined the browser for years.",
-        "whyImportant": "Six-week cycles brought security fixes and web standards to users faster.",
-        "problemSolved": "Year-long Firefox releases left users waiting for security patches and new APIs."
+        "whyChosen": "Firefox 5 kicked off Mozilla's rapid release model matching Chrome's pace.",
+        "whyImportant": "It accelerated how quickly web platform features reached users — for better and worse.",
+        "problemSolved": "Year-long Firefox releases left users waiting for security fixes and new web APIs."
       },
       "category": "software",
       "tags": ["browser", "web", "mozilla", "firefox"],
@@ -57,8 +81,8 @@
       "media": [],
       "sources": [
         {
-          "title": "Mozilla — Firefox 5 released (June 21, 2011)",
-          "url": "https://blog.mozilla.org/blog/2011/06/21/firefox-5-released/",
+          "title": "Mozilla Blog — Firefox 5 released (June 21, 2011)",
+          "url": "https://blog.mozilla.org/blog/2011/06/21/firefox-5-here/",
           "role": "date"
         },
         {
@@ -67,7 +91,7 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-4-released", "firefox-57-quantum", "google-chrome-released"]
+      "relatedIds": ["firefox-6-released", "google-chrome-released"]
     }
   ]
 }

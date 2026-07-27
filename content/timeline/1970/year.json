@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "niklaus-wirth-pascal-published",
+      "media": [],
+      "relatedIds": [
+        "pascal-report-published"
+      ],
+      "people": [
+        {
+          "id": "niklaus-wirth",
+          "name": "Niklaus Wirth",
+          "role": "creator"
+        }
+      ],
+      "id": "niklaus-wirth-pascal-published",
+      "date": "1970",
+      "datePrecision": "year",
+      "title": "Niklaus Wirth publishes Pascal",
+      "summary": "Niklaus Wirth designed Pascal in 1970 as a teaching language emphasizing structured programming and clarity.",
+      "about": "Pascal trained generations through Turbo Pascal and Delphi before yielding to C++ and Java. Wirth also created Modula-2 and Oberon — advocating simplicity with his quote 'Pascal is my favorite language after Pascal.'",
+      "narrative": {
+        "whyChosen": "Pascal was the default intro language for a decade of CS education.",
+        "whyImportant": "It spread structured programming discipline to millions of students.",
+        "problemSolved": "FORTRAN and BASIC taught bad habits; Wirth wanted a small, clear teaching language."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "pascal",
+        "programming-language"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ETH Zurich — Wirth, The Programming Language Pascal (1970)",
+          "url": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Pascal (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

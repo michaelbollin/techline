@@ -14,7 +14,13 @@
         "problemSolved": "Objective-C's manual retain/release and dated syntax slowed iOS development; Apple needed a safer modern language."
       },
       "category": "software",
-      "tags": ["swift", "apple", "ios", "programming-language"],
+      "tags": [
+        "swift",
+        "apple",
+        "ios",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["objective-c-created"]
+      "relatedIds": [
+        "objective-c-created"
+      ]
     },
     {
       "id": "crystal-0-1-0-released",
@@ -45,7 +53,13 @@
         "problemSolved": "Ruby developers wanted MRI's productivity with compiled speed and type safety for production services."
       },
       "category": "software",
-      "tags": ["crystal", "ruby", "llvm", "programming-language"],
+      "tags": [
+        "crystal",
+        "ruby",
+        "llvm",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -60,7 +74,97 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ruby-0-95-released", "swift-announced"]
+      "relatedIds": [
+        "ruby-0-95-released",
+        "swift-announced"
+      ]
+    },
+    {
+      "id": "kubernetes-open-sourced",
+      "slug": "kubernetes-open-sourced",
+      "date": "2014-06-10",
+      "datePrecision": "day",
+      "title": "Kubernetes open-sourced",
+      "summary": "Google open-sourced Kubernetes on June 10, 2014 at DockerCon — a container orchestrator for deploying and scaling Docker workloads across clusters.",
+      "about": "Kubernetes schedules containers onto nodes, restarts failed pods, rolls out deployments, and exposes services with load balancers. It runs on every major cloud (GKE, EKS, AKS) and on-prem. Example: `kubectl apply -f deployment.yaml` to run three replicas of an API behind an ingress controller.",
+      "narrative": {
+        "whyChosen": "Kubernetes won the container orchestration wars and became the operating system of the cloud.",
+        "whyImportant": "It standardized how teams run microservices at scale after Docker made containers ubiquitous.",
+        "problemSolved": "Running dozens of containers manually on fleets of VMs did not scale; Google open-sourced Borg's lessons for everyone."
+      },
+      "category": "software",
+      "tags": [
+        "kubernetes",
+        "container",
+        "orchestration",
+        "devops",
+        "open-source",
+        "google"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Kubernetes Blog — 10 Years of Kubernetes (announced June 10, 2014)",
+          "url": "https://kubernetes.io/blog/2024/06/06/10-years-of-kubernetes/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Kubernetes (overview)",
+          "url": "https://en.wikipedia.org/wiki/Kubernetes",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "docker-open-sourced",
+        "go-1-0-released",
+        "terraform-released",
+        "helm-2-released",
+        "open-container-initiative-launched"
+      ]
+    },
+    {
+      "slug": "ian-goodfellow-gan-invented",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "ian-goodfellow",
+          "name": "Ian Goodfellow",
+          "role": "researcher"
+        }
+      ],
+      "id": "ian-goodfellow-gan-invented",
+      "date": "2014-06",
+      "datePrecision": "month",
+      "title": "Ian Goodfellow invents GANs",
+      "summary": "Ian Goodfellow proposed Generative Adversarial Networks in June 2014 — two-network training that revolutionized synthetic media.",
+      "about": "GANs enabled photorealistic face generation, style transfer, and data augmentation — spawning StyleGAN, deepfakes discourse, and generative model research that preceded diffusion models.",
+      "narrative": {
+        "whyChosen": "GANs opened practical generative modeling for images and beyond.",
+        "whyImportant": "They introduced adversarial training as a core ML technique.",
+        "problemSolved": "Generative models struggled to produce sharp, realistic high-dimensional outputs."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "generative-ai",
+        "deep-learning"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "arXiv — Generative Adversarial Networks (June 2014)",
+          "url": "https://arxiv.org/abs/1406.2661",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Generative adversarial network (overview)",
+          "url": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "mary-lou-jepsen-olpc-displays",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "mary-lou-jepsen",
+          "name": "Mary Lou Jepsen",
+          "role": "researcher"
+        }
+      ],
+      "id": "mary-lou-jepsen-olpc-displays",
+      "date": "2007",
+      "datePrecision": "year",
+      "title": "Mary Lou Jepsen leads OLPC display engineering",
+      "summary": "Mary Lou Jepsen engineered the low-power display for One Laptop per Child (2007) — cutting cost and power for education laptops.",
+      "about": "OLPC's $100 laptop mission pushed developers to target constrained hardware. Jepsen's display work made sunlight-readable, low-watt screens viable for mass education deployments.",
+      "narrative": {
+        "whyChosen": "OLPC displays proved affordable laptops could reach developing-world classrooms.",
+        "whyImportant": "Hardware cost barriers shape which populations learn to program.",
+        "problemSolved": "Laptop displays consumed too much power and cost for education markets."
+      },
+      "category": "hardware",
+      "tags": [
+        "people",
+        "hardware",
+        "accessibility"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "OLPC — One Laptop per Child project (2007)",
+          "url": "https://en.wikipedia.org/wiki/One_Laptop_per_Child",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mary Lou Jepsen (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mary_Lou_Jepsen",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

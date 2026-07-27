@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "symfony-3-released",
+      "slug": "symfony-3-released",
+      "date": "2015-11-30",
+      "datePrecision": "day",
+      "title": "Symfony 3.0 released",
+      "summary": "Symfony 3.0 shipped on November 30, 2015 — simplifying the framework with fewer core bundles and a cleaner directory structure.",
+      "about": "Symfony 3 trimmed legacy bundles into standalone components and tightened the full-stack framework for PHP 5.5+. It powered Laravel's HttpFoundation, Drupal 8+, and enterprise APIs — setting patterns for dependency injection and HTTP abstractions across PHP.",
+      "narrative": {
+        "whyChosen": "Symfony 3 modernized the framework that shaped PHP's component ecosystem.",
+        "whyImportant": "Standalone components let teams adopt Symfony pieces without the full stack.",
+        "problemSolved": "Symfony 2 carried bundle sprawl and legacy paths that confused new adopters."
+      },
+      "category": "software",
+      "tags": ["symfony", "php", "web-framework"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Symfony Blog — Symfony 3.0.0 released (November 30, 2015)",
+          "url": "https://symfony.com/blog/symfony-3-0-0-released",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Symfony (overview)",
+          "url": "https://en.wikipedia.org/wiki/Symfony",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["symfony-released", "laravel-symfony-http-foundation", "laravel-5-released"]
+    },
+    {
+      "id": "raspberry-pi-zero-released",
+      "slug": "raspberry-pi-zero-released",
+      "date": "2015-11-26",
+      "datePrecision": "day",
+      "title": "Raspberry Pi Zero released",
+      "summary": "The Raspberry Pi Foundation released the Pi Zero on November 26, 2015 — a $5 single-board computer the size of a stick of gum.",
+      "about": "The Zero trimmed GPIO and ports to hit a five-dollar price — makers embedded it in drones, wearables, and IoT prototypes where a full Pi was overkill. It ran the same Linux userspace as the Model B, so Python and GPIO code ported easily. The Zero W later added Wi-Fi for headless projects.",
+      "narrative": {
+        "whyChosen": "The Pi Zero made embedded Linux almost disposable-cheap for hobby and production prototypes.",
+        "whyImportant": "It extended the Raspberry Pi ecosystem into ultra-compact and cost-sensitive projects.",
+        "problemSolved": "Makers needed a full Linux board smaller and cheaper than the $35 Model B for embedded builds."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "embedded", "raspberry-pi", "linux", "single-board-computer", "iot"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Raspberry Pi — Pi Zero launch (November 26, 2015)",
+          "url": "https://www.raspberrypi.com/news/raspberry-pi-zero/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Raspberry Pi (overview)",
+          "url": "https://en.wikipedia.org/wiki/Raspberry_Pi",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["raspberry-pi-model-b-released", "arduino-released", "esp8266-released"]
+    }
+  ]
+}

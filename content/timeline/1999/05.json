@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "vmware-workstation-released",
+      "slug": "vmware-workstation-released",
+      "date": "1999-05-15",
+      "datePrecision": "day",
+      "title": "VMware Workstation 1.0 released",
+      "summary": "VMware shipped Workstation 1.0 on May 15, 1999 — desktop software that ran multiple x86 operating systems in virtual machines.",
+      "about": "VMware let developers test on Linux, Windows, and BSD simultaneously on one PC — no rebooting, no spare hardware. It pioneered x86 binary translation and later hardware-assisted virtualization. DevOps teams later built on the same hypervisor lineage for ESXi and cloud VMs; Docker containers addressed a different layer, but VMware defined how backend devs thought about isolation.",
+      "narrative": {
+        "whyChosen": "VMware Workstation brought practical x86 virtualization to developer desktops.",
+        "whyImportant": "It made cross-platform testing and server simulation routine before cloud VMs were ubiquitous.",
+        "problemSolved": "Developers needed to run multiple OS environments without maintaining separate physical machines."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "virtualization", "vmware", "server", "x86"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "VMware — Company history (Workstation 1.0, May 15, 1999)",
+          "url": "https://www.vmware.com/company/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — VMware (overview)",
+          "url": "https://en.wikipedia.org/wiki/VMware",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["docker-open-sourced", "intel-80386-introduced", "amd64-x86-64-announced"]
+    }
+  ]
+}

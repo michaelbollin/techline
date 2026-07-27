@@ -29,7 +29,38 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["javascript-name-announced", "typescript-preview-released"]
+      "relatedIds": ["dart-unveiled", "javascript-name-announced", "typescript-preview-released"]
+    },
+    {
+      "id": "gitlab-released",
+      "slug": "gitlab-released",
+      "date": "2011-10-08",
+      "datePrecision": "day",
+      "title": "GitLab first released",
+      "summary": "Dmitriy Zaporozhets created GitLab on October 8, 2011 — an open-source Git forge with issues, merge requests, and CI built in.",
+      "about": "GitLab bundles Git hosting, code review, issue tracking, and DevOps pipelines in one Rails application — self-hosted or on GitLab.com. It became the main open-source alternative to GitHub, especially for enterprises wanting on-prem control. Example: push to a protected branch, open a merge request, and run CI jobs before merge.",
+      "narrative": {
+        "whyChosen": "GitLab proved a full DevOps platform could ship as open-source, not just Git hosting.",
+        "whyImportant": "It gave teams a GitHub alternative with built-in CI/CD and self-hosting from day one.",
+        "problemSolved": "Teams wanted Git collaboration without depending on a single proprietary SaaS forge."
+      },
+      "category": "software",
+      "tags": ["gitlab", "git", "vcs", "devops", "ci", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitLab Handbook — Start of GitLab (October 8, 2011 first commit)",
+          "url": "https://handbook.gitlab.com/handbook/company/history/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GitLab (overview)",
+          "url": "https://en.wikipedia.org/wiki/GitLab",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["github-launched", "git-created", "travis-ci-launched", "hudson-ci-released", "bitbucket-launched"]
     }
   ]
 }

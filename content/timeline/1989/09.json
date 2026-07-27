@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "macintosh-portable-released",
+      "slug": "macintosh-portable-released",
+      "date": "1989-09",
+      "datePrecision": "month",
+      "title": "Macintosh Portable released",
+      "summary": "Apple began selling the Macintosh Portable in September 1989 — the company's first battery-powered Macintosh.",
+      "about": "The Portable packed a full Mac OS experience into a 16-pound luggable with an active-matrix LCD — expensive and heavy, but it proved Apple would pursue mobile Macintosh computing. Lessons from its power management and compact layout fed into the PowerBook line two years later. Early mobile developers got a preview of laptop-first workflows.",
+      "narrative": {
+        "whyChosen": "The Macintosh Portable was Apple's first attempt to put the Mac platform on the road.",
+        "whyImportant": "It established design tradeoffs — battery life, weight, screen quality — that PowerBooks would finally solve.",
+        "problemSolved": "Mac users who traveled needed full desktop software without sacrificing the GUI experience."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "apple", "macintosh", "portable"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Macintosh Portable introduction (September 1989)",
+          "url": "https://www.apple.com/newsroom/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Macintosh Portable (overview)",
+          "url": "https://en.wikipedia.org/wiki/Macintosh_Portable",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["macintosh-128k-released", "apple-powerbook-released", "apple-lisa-released"]
+    }
+  ]
+}

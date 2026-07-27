@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["cpp98-standard"]
+    },
+    {
+      "id": "circleci-launched",
+      "slug": "circleci-launched",
+      "date": "2011-09-01",
+      "datePrecision": "day",
+      "title": "CircleCI founded",
+      "summary": "Paul Biggar and Allen Rohner founded CircleCI on September 1, 2011 — a hosted continuous integration platform for fast, parallel test runs.",
+      "about": "CircleCI connects to GitHub repos and runs builds in Docker containers — parallelizing test suites and caching dependencies for speed. It competed with Travis CI and later GitHub Actions for SaaS CI market share. Example: every push to `main` runs lint, unit tests, and deploy previews automatically.",
+      "narrative": {
+        "whyChosen": "CircleCI brought container-based, parallel CI to teams that outgrew single-worker Travis builds.",
+        "whyImportant": "It helped normalize Docker in CI pipelines before Kubernetes took over production.",
+        "problemSolved": "Slow, serial CI blocked developer flow; teams needed faster feedback on every commit."
+      },
+      "category": "software",
+      "tags": ["circleci", "ci", "continuous-integration", "docker", "devops"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — CircleCI (founded September 1, 2011)",
+          "url": "https://en.wikipedia.org/wiki/CircleCI",
+          "role": "date"
+        },
+        {
+          "title": "CircleCI — About (overview)",
+          "url": "https://circleci.com/about/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["travis-ci-launched", "github-launched", "hudson-ci-released", "github-actions-ga", "capistrano-released", "heroku-launched"]
     }
   ]
 }

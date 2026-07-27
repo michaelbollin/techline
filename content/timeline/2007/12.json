@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "id": "oauth-1-0-published",
+      "slug": "oauth-1-0-published",
+      "date": "2007-12-04",
+      "datePrecision": "day",
+      "title": "OAuth 1.0 published",
+      "summary": "The OAuth community released OAuth Core 1.0 as a final draft on December 4, 2007 — a protocol for delegated API access without sharing passwords.",
+      "about": "OAuth 1.0 let users grant third-party apps limited access to services like photos or tweets using signed requests instead of handing over credentials. Twitter, Flickr, and early social APIs adopted it. The three-legged dance (request token, authorize, access token) was clunky but proved delegated authorization could work at web scale — setting the stage for OAuth 2.0 and OpenID Connect.",
+      "narrative": {
+        "whyChosen": "OAuth 1.0 was the first grassroots standard for API delegation across competing web platforms.",
+        "whyImportant": "It established the consent-and-token model that modern identity federation still builds on.",
+        "problemSolved": "Apps needed user data from other services without storing passwords or getting full account control."
+      },
+      "category": "protocol",
+      "tags": [
+        "oauth",
+        "security",
+        "api",
+        "authentication",
+        "authorization",
+        "standard"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OAuth Core 1.0 final draft (December 4, 2007)",
+          "url": "https://oauth.net/core/1.0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OAuth (overview)",
+          "url": "https://en.wikipedia.org/wiki/OAuth",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "oauth-2-0-standardized",
+        "openid-connect-1-0-published",
+        "jwt-standardized",
+        "rest-architectural-style-defined"
+      ]
+    }
+  ]
+}

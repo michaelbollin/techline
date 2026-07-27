@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dec-pdp-10-released",
+      "slug": "dec-pdp-10-released",
+      "date": "1966",
+      "datePrecision": "year",
+      "title": "DEC PDP-10 released",
+      "summary": "Digital Equipment Corporation introduced the PDP-10 in 1966 — a 36-bit timesharing minicomputer that became a hub for early hacker culture.",
+      "about": "The PDP-10 ran TOPS-10 and TOPS-20 — MIT, Stanford, and BBN used it for AI research, email, and the ARPANET. Emacs, Lisp machines, and countless hacker traditions started on PDP-10 systems. Its time-sharing model let dozens of users compile and debug simultaneously — the environment that shaped Unix's design at Bell Labs.",
+      "narrative": {
+        "whyChosen": "The PDP-10 was the dominant timesharing machine of the 1960s–70s research community.",
+        "whyImportant": "It hosted the communities and tools that defined interactive computing and early networking.",
+        "problemSolved": "Research labs needed shared interactive access to a powerful computer, not batch punch-card queues."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "minicomputer", "dec", "pdp-10", "server"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Computer History Museum — PDP-10 (1966)",
+          "url": "https://www.computerhistory.org/collections/catalog/102738577",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PDP-10 (overview)",
+          "url": "https://en.wikipedia.org/wiki/PDP-10",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dec-pdp-8-shipped", "dec-vax-11-780-released", "ibm-system-360-announced"]
+    }
+  ]
+}

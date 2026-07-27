@@ -1,0 +1,89 @@
+{
+  "events": [
+    {
+      "slug": "frances-allen-turing-award",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "frances-allen",
+          "name": "Frances Allen",
+          "role": "researcher"
+        }
+      ],
+      "id": "frances-allen-turing-award",
+      "date": "2006",
+      "datePrecision": "year",
+      "title": "Frances Allen receives Turing Award",
+      "summary": "Frances Allen became the first woman to win the ACM Turing Award in 2006 for pioneering compiler optimization techniques.",
+      "about": "Allen's work at IBM on automatic parallelization and optimization underpins every modern compiler. She proved deep systems research could come from industry labs, not only academia.",
+      "narrative": {
+        "whyChosen": "Allen broke the Turing Award gender barrier for compiler pioneers.",
+        "whyImportant": "Her optimizations made high-level languages practical for performance-critical code.",
+        "problemSolved": "Early compilers generated naive code; optimization required manual assembly expertise."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "compiler",
+        "award"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ACM — 2006 Turing Award (Frances Allen)",
+          "url": "https://amturing.acm.org/award_winners/allen_8024041.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Frances Allen (overview)",
+          "url": "https://en.wikipedia.org/wiki/Frances_E._Allen",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "douglas-crockford-json-spec",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "douglas-crockford",
+          "name": "Douglas Crockford",
+          "role": "author"
+        }
+      ],
+      "id": "douglas-crockford-json-spec",
+      "date": "2006",
+      "datePrecision": "year",
+      "title": "Douglas Crockford popularizes JSON",
+      "summary": "Douglas Crockford specified JSON in 2006 — the data interchange format behind REST APIs and config files.",
+      "about": "JSON replaced XML for most web APIs — simpler for JavaScript clients and human-readable in logs. Crockford's RFC 4627 and json.org made a subset of JavaScript literals the lingua franca of web services.",
+      "narrative": {
+        "whyChosen": "JSON became the default API payload format for web and mobile.",
+        "whyImportant": "It aligned data exchange with JavaScript object literals.",
+        "problemSolved": "XML was verbose and expensive to parse in browsers and mobile clients."
+      },
+      "category": "protocol",
+      "tags": [
+        "people",
+        "json",
+        "web",
+        "api"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "JSON.org — Douglas Crockford specification (2006)",
+          "url": "https://www.json.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — JSON (overview)",
+          "url": "https://en.wikipedia.org/wiki/JSON",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "apple-macbook-air-released",
+      "slug": "apple-macbook-air-released",
+      "date": "2008-01-29",
+      "datePrecision": "day",
+      "title": "MacBook Air released",
+      "summary": "Steve Jobs introduced the MacBook Air on January 29, 2008 — an ultraportable Mac slim enough to fit in a manila envelope.",
+      "about": "The Air traded optical drives and ports for thinness and solid-state storage options — setting the template for ultrabooks developers carry to coffee shops and conferences. It became the default Mac laptop for mobile engineers before the Retina and M-series revisions. PC makers rushed to match its thin wedge profile.",
+      "narrative": {
+        "whyChosen": "The MacBook Air defined the ultraportable laptop category for the late 2000s.",
+        "whyImportant": "It shifted developer expectations toward thin, SSD-based laptops as daily driver machines.",
+        "problemSolved": "Road warriors wanted full macOS in a package lighter than existing PowerBook and ThinkPad models."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "apple", "macbook", "ultraportable"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — MacBook Air introduced (January 29, 2008)",
+          "url": "https://www.apple.com/newsroom/2008/01/15Apple-Unveils-MacBook-Air-The-Worlds-Thinnest-Notebook/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — MacBook Air (overview)",
+          "url": "https://en.wikipedia.org/wiki/MacBook_Air",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["apple-powerbook-released", "macintosh-portable-released", "grid-compass-released", "apple-m1-mac-shipped", "intel-atom-announced"]
+    }
+  ]
+}

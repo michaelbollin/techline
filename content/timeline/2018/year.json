@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "slug": "deep-learning-turing-trio-2018",
+      "media": [],
+      "relatedIds": [
+        "hinton-alexnet-imagenet-breakthrough",
+        "yann-lecun-lenet-published"
+      ],
+      "people": [
+        {
+          "id": "yoshua-bengio",
+          "name": "Yoshua Bengio",
+          "role": "researcher"
+        },
+        {
+          "id": "geoffrey-hinton",
+          "name": "Geoffrey Hinton",
+          "role": "researcher"
+        },
+        {
+          "id": "yann-lecun",
+          "name": "Yann LeCun",
+          "role": "researcher"
+        }
+      ],
+      "id": "deep-learning-turing-trio-2018",
+      "date": "2018",
+      "datePrecision": "year",
+      "title": "Hinton, Bengio, and LeCun share Turing Award",
+      "summary": "Yoshua Bengio, Geoffrey Hinton, and Yann LeCun won the 2018 ACM Turing Award for deep learning breakthroughs.",
+      "about": "The trio spent decades on backpropagation, CNNs, and representation learning before industry adoption. Their award recognized neural networks as foundational computer science, not a abandoned fad.",
+      "narrative": {
+        "whyChosen": "The 2018 Turing Award canonized deep learning's founding researchers.",
+        "whyImportant": "It validated decades of neural network research after multiple AI winters.",
+        "problemSolved": "Neural network research lacked mainstream recognition despite practical success."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "turing-award"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "ACM — 2018 Turing Award (Bengio, Hinton, LeCun)",
+          "url": "https://amturing.acm.org/award_winners/bengio_hinton_lecun_4746316.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Turing Award (overview)",
+          "url": "https://en.wikipedia.org/wiki/Turing_Award",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

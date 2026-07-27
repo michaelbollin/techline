@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "webpack-5-released",
+      "slug": "webpack-5-released",
+      "date": "2020-10-10",
+      "datePrecision": "day",
+      "title": "Webpack 5 released",
+      "summary": "Webpack 5.0 shipped on October 10, 2020 with persistent caching, module federation, and improved tree-shaking.",
+      "about": "Webpack 5's module federation let micro-frontends share dependencies at runtime — a pattern adopted by large enterprises. Persistent caching sped CI builds; better tree-shaking reduced bundle sizes for React and Vue apps still on webpack before Vite's rise.",
+      "narrative": {
+        "whyChosen": "Webpack 5 module federation changed how teams composed large frontends.",
+        "whyImportant": "Runtime sharing of modules enabled independent deployable micro-frontends.",
+        "problemSolved": "Monolithic frontends could not be split into independently deployed apps without duplicate bundles."
+      },
+      "category": "software",
+      "tags": ["webpack", "javascript", "bundler", "frontend", "build-tool"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Webpack — Webpack 5 release (October 10, 2020)",
+          "url": "https://webpack.js.org/blog/2020-10-10-webpack-5-release/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Webpack (overview)",
+          "url": "https://en.wikipedia.org/wiki/Webpack",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["webpack-released", "vite-1-released"]
+    }
+  ]
+}

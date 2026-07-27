@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["ruby-1-8-released", "ruby-3-0-released", "rails-open-sourced"]
+    },
+    {
+      "id": "microsoft-surface-pro-released",
+      "slug": "microsoft-surface-pro-released",
+      "date": "2013-02-09",
+      "datePrecision": "day",
+      "title": "Surface Pro released",
+      "summary": "Microsoft began selling the Surface Pro on February 9, 2013 — a Windows 8 tablet with an Intel CPU and detachable keyboard cover.",
+      "about": "The Surface Pro ran full desktop Windows and Visual Studio — Microsoft's bet that developers wanted tablet portability without an iOS/Android sandbox. Pen input and the Type Cover blurred laptop and tablet categories. It validated 2-in-1 hardware for Windows developers before Apple's iPad Pro added trackpad support.",
+      "narrative": {
+        "whyChosen": "The Surface Pro was Microsoft's flagship Windows tablet for developers and power users.",
+        "whyImportant": "It proved Windows could ship on premium tablet hardware with active pen and keyboard accessories.",
+        "problemSolved": "Developers wanted tablet portability but needed full Win32 and desktop IDEs, not just mobile apps."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "tablet", "laptop", "microsoft", "surface", "windows"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Surface Pro available February 9, 2013",
+          "url": "https://news.microsoft.com/2013/02/09/microsoft-surface-pro-available-on-feb-9/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Surface Pro (overview)",
+          "url": "https://en.wikipedia.org/wiki/Surface_Pro",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ipad-introduced", "ibm-thinkpad-700c-released", "windows-phone-eol", "intel-atom-announced"]
     }
   ]
 }

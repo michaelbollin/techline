@@ -29,7 +29,7 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-10-released", "microsoft-edge-released", "edge-chromium-released"]
+      "relatedIds": ["internet-explorer-10-released", "microsoft-edge-released", "edge-chromium-released", "internet-explorer-11-retired"]
     },
     {
       "id": "safari-7-released",

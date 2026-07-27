@@ -14,7 +14,14 @@
         "problemSolved": "C had no objects; Smalltalk was not portable to Unix/C environments that enterprises already ran."
       },
       "category": "software",
-      "tags": ["objective-c", "c", "smalltalk", "apple", "programming-language"],
+      "tags": [
+        "objective-c",
+        "c",
+        "smalltalk",
+        "apple",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,54 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["simula-67-presented", "swift-announced"]
+      "relatedIds": [
+        "simula-67-presented",
+        "swift-announced",
+        "next-computer-released"
+      ]
+    },
+    {
+      "slug": "susan-kare-macintosh-icons",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "susan-kare",
+          "name": "Susan Kare",
+          "role": "creator"
+        }
+      ],
+      "id": "susan-kare-macintosh-icons",
+      "date": "1984",
+      "datePrecision": "year",
+      "title": "Susan Kare designs Macintosh icons",
+      "summary": "Susan Kare designed the original Macintosh icons, fonts, and UI elements in 1983–1984 — defining visual language for GUI computing.",
+      "about": "Kare's Chicago font, trash can, and happy Mac icon made graphical interfaces legible to non-programmers. Her work influenced every desktop and mobile icon system developers design for today.",
+      "narrative": {
+        "whyChosen": "Kare's icons made GUIs approachable for mainstream users.",
+        "whyImportant": "Visual metaphors became as important as code in human-computer interaction.",
+        "problemSolved": "Early GUIs lacked consistent, memorable iconography."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "design",
+        "gui",
+        "apple"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Apple — Macintosh introduction (1984; Kare iconography 1983–84)",
+          "url": "https://en.wikipedia.org/wiki/Susan_Kare",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Susan Kare (overview)",
+          "url": "https://en.wikipedia.org/wiki/Susan_Kare",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

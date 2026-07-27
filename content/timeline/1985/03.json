@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "slug": "stallman-gnu-manifesto",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "founder"
+        }
+      ],
+      "id": "stallman-gnu-manifesto",
+      "date": "1985-03",
+      "datePrecision": "month",
+      "title": "Richard Stallman publishes the GNU Manifesto",
+      "summary": "Richard Stallman published the GNU Manifesto in March 1985 — launching the free software movement and GNU project.",
+      "about": "Stallman's GNU tools (GCC, Emacs, glibc) and GPL license shaped Linux distributions and open-source legal frameworks. Developers still navigate copyleft because of choices Stallman articulated in the 1980s.",
+      "narrative": {
+        "whyChosen": "The GNU Manifesto defined ideological and legal foundations of free software.",
+        "whyImportant": "It established user freedom as a goal distinct from mere source availability.",
+        "problemSolved": "Proprietary Unix vendors blocked sharing and modifying system software."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "gnu",
+        "open-source",
+        "free-software"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "GNU — The GNU Manifesto (March 1985)",
+          "url": "https://www.gnu.org/gnu/manifesto.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GNU Manifesto (overview)",
+          "url": "https://en.wikipedia.org/wiki/GNU_Manifesto",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

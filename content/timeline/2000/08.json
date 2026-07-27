@@ -20,6 +20,7 @@
         "ecmascript",
         "programming-language"
       ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -35,7 +36,185 @@
         }
       ],
       "relatedIds": [
-        "flash-4-scripting"
+        "flash-4-scripting",
+        "flash-player-discontinued"
+      ]
+    },
+    {
+      "id": "sqlite-1-0-released",
+      "slug": "sqlite-1-0-released",
+      "date": "2000-08-17",
+      "datePrecision": "day",
+      "title": "SQLite 1.0 released",
+      "summary": "Richard Hipp released SQLite 1.0 on August 17, 2000 — a self-contained, serverless SQL database engine in a single C library.",
+      "about": "SQLite embeds in apps, browsers, and phones — no separate server process. iOS, Android, Firefox, and countless desktop apps store data in `.sqlite` files. Teams use it for local caches, mobile offline sync, and tests. Example: a mobile app persisting user settings with `SELECT` and transactions without running Postgres.",
+      "narrative": {
+        "whyChosen": "SQLite made SQL available everywhere a C library could link — not just on database servers.",
+        "whyImportant": "It is likely the most widely deployed database engine on earth, hidden inside applications.",
+        "problemSolved": "Embedded apps needed relational storage without the complexity of client/server database administration."
+      },
+      "category": "software",
+      "tags": [
+        "sqlite",
+        "database",
+        "sql",
+        "embedded",
+        "open-source"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "SQLite — Check-in f37dd18e3f (August 17, 2000)",
+          "url": "https://www.sqlite.org/src/info/f37dd18e3f",
+          "role": "date"
+        },
+        {
+          "title": "SQLite — About (overview)",
+          "url": "https://www.sqlite.org/about.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sequel-paper-published",
+        "mysql-first-released",
+        "postgresql-6-released"
+      ]
+    },
+    {
+      "id": "cmake-released",
+      "slug": "cmake-released",
+      "date": "2000-08-31",
+      "datePrecision": "day",
+      "title": "CMake released",
+      "summary": "Kitware introduced CMake on August 31, 2000 — a cross-platform build system generator for C and C++ projects.",
+      "about": "CMake reads `CMakeLists.txt` files and emits Makefiles, Ninja files, or IDE projects — one build description for Linux, macOS, and Windows. It powers LLVM, KDE, OpenCV, and countless native libraries. Example: `cmake -B build && cmake --build build` configures and compiles without hand-writing platform-specific make rules.",
+      "narrative": {
+        "whyChosen": "CMake solved cross-platform native builds when autotools and Visual Studio projects diverged.",
+        "whyImportant": "It became the de facto build meta-system for open-source C/C++ and influenced Conan and vcpkg workflows.",
+        "problemSolved": "Maintaining separate build files per OS was unmaintainable for large C++ codebases like medical imaging toolkits."
+      },
+      "category": "software",
+      "tags": [
+        "cmake",
+        "build",
+        "c",
+        "cpp",
+        "cross-platform",
+        "open-source"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Kitware — Happy Birthday CMake (August 31, 2000)",
+          "url": "https://www.kitware.com/happy-birthday-cmake/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — CMake (overview)",
+          "url": "https://en.wikipedia.org/wiki/CMake",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "make-created",
+        "bazel-open-sourced",
+        "ninja-released",
+        "autoconf-released"
+      ]
+    },
+    {
+      "slug": "torvalds-talk-is-cheap",
+      "media": [],
+      "relatedIds": [
+        "linux-kernel-announced",
+        "git-created"
+      ],
+      "people": [
+        {
+          "id": "linus-torvalds",
+          "name": "Linus Torvalds",
+          "role": "maintainer"
+        }
+      ],
+      "category": "quote",
+      "id": "torvalds-talk-is-cheap",
+      "date": "2000-08-30",
+      "datePrecision": "day",
+      "title": "Linus Torvalds: \"Talk is cheap. Show me the code.\"",
+      "quoteText": "Talk is cheap. Show me the code.",
+      "summary": "Linus Torvalds dismisses architecture debates on the Linux kernel mailing list — ship patches, not opinions.",
+      "about": "The line became open-source culture in eight words. It appears on stickers, README files, and every thread where design docs pile up without a pull request.",
+      "narrative": {
+        "whyChosen": "The motto of meritocratic open-source contribution.",
+        "whyImportant": "It reinforced Linux's patch-driven governance over specification committees.",
+        "problemSolved": "Mailing-list theory needed a norm that rewarded working implementations."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "open-source",
+        "linux"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "LKML — Re: linux-kernel archive (August 30, 2000)",
+          "url": "https://en.wikiquote.org/wiki/Linus_Torvalds",
+          "role": "date"
+        },
+        {
+          "title": "Wikiquote — Linus Torvalds (overview)",
+          "url": "https://en.wikiquote.org/wiki/Linus_Torvalds",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "spolsky-joel-test",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "joel-spolsky",
+          "name": "Joel Spolsky",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "spolsky-joel-test",
+      "date": "2000-08-09",
+      "datePrecision": "day",
+      "title": "Joel Spolsky publishes the Joel Test",
+      "quoteText": "Do you use source control? Can you make a build in one step? Do you make daily builds? Do you have a bug database?",
+      "summary": "Joel Spolsky's blog post The Joel Test lists twelve yes-or-no questions that separate great software teams from dysfunctional ones.",
+      "about": "The Joel Test was never scientific — Joel admitted as much — but it spread because it was memorable and actionable. Teams still score themselves out of 12 in onboarding docs and engineering blog posts.",
+      "narrative": {
+        "whyChosen": "The most shared team-health checklist of the blog era.",
+        "whyImportant": "It gave non-engineers a simple rubric for software organization quality.",
+        "problemSolved": "Startups had no quick way to audit whether their dev process was broken."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "software-engineering",
+        "management"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Joel on Software — The Joel Test (August 9, 2000)",
+          "url": "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Joel Spolsky (overview)",
+          "url": "https://en.wikipedia.org/wiki/Joel_Spolsky",
+          "role": "overview"
+        }
       ]
     }
   ]

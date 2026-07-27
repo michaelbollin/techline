@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "id": "apache-kafka-open-sourced",
+      "slug": "apache-kafka-open-sourced",
+      "date": "2011-01-11",
+      "datePrecision": "day",
+      "title": "Apache Kafka open-sourced",
+      "summary": "LinkedIn open-sourced Kafka on January 11, 2011 — a distributed, persistent log for high-throughput event streaming.",
+      "about": "Kafka appends events to partitioned topics that many consumers read at their own pace — ideal for activity tracking, log aggregation, and stream processing. It became the backbone of real-time data pipelines at LinkedIn, Uber, and Netflix before managed cloud offerings. Example: clickstream events land in a `pageviews` topic; analytics and recommendation jobs consume them independently.",
+      "narrative": {
+        "whyChosen": "Kafka open-sourced LinkedIn's solution for billions of daily activity events.",
+        "whyImportant": "It defined the modern event-streaming architecture that powers analytics and microservice decoupling.",
+        "problemSolved": "Traditional message queues could not retain and replay massive event histories at log scale."
+      },
+      "category": "software",
+      "tags": [
+        "kafka",
+        "messaging",
+        "streaming",
+        "distributed-systems",
+        "open-source",
+        "linkedin"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "LinkedIn Engineering — Open-sourcing Kafka (January 11, 2011)",
+          "url": "https://www.linkedin.com/blog/engineering/open-source/open-sourcing-kafka-linkedins-distributed-message-queue",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Kafka (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Kafka",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rabbitmq-released",
+        "elasticsearch-released",
+        "memcached-released",
+        "zeromq-released"
+      ]
+    },
+    {
+      "slug": "kohsuke-kawaguchi-jenkins-renamed",
+      "media": [],
+      "relatedIds": [
+        "hudson-ci-released"
+      ],
+      "people": [
+        {
+          "id": "kohsuke-kawaguchi",
+          "name": "Kohsuke Kawaguchi",
+          "role": "maintainer"
+        }
+      ],
+      "id": "kohsuke-kawaguchi-jenkins-renamed",
+      "date": "2011-01-11",
+      "datePrecision": "day",
+      "title": "Kohsuke Kawaguchi renames Hudson to Jenkins",
+      "summary": "Kohsuke Kawaguchi led the Hudson community to rename the project Jenkins on January 11, 2011 — breaking from Oracle's trademark control after the Sun acquisition.",
+      "about": "The Hudson→Jenkins fork preserved the world's most widely used CI server as community-governed software. Jenkins became the default build automation tool in Java shops and later across polyglot pipelines.",
+      "narrative": {
+        "whyChosen": "The Jenkins rename was a landmark open-source governance fight with Oracle.",
+        "whyImportant": "It kept continuous integration tooling under community control when trademark disputes threatened the project.",
+        "problemSolved": "Oracle's Hudson trademark claims put the project's name and infrastructure at corporate risk."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "jenkins",
+        "ci",
+        "open-source",
+        "maintainer"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Kohsuke Kawaguchi — Bye bye Hudson, Hello Jenkins (January 11, 2011)",
+          "url": "https://kohsuke.org/2011/01/11/bye-bye-hudson-hello-jenkins/",
+          "role": "date"
+        },
+        {
+          "title": "Jenkins — Hudson's future (overview)",
+          "url": "https://www.jenkins.io/blog/2011/01/11/hudsons-future/",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

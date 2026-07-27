@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "slug": "morris-chang-tsmc-founded",
+      "media": [],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded",
+        "lisa-su-amd-zen-launched"
+      ],
+      "people": [
+        {
+          "id": "morris-chang",
+          "name": "Morris Chang",
+          "role": "founder"
+        }
+      ],
+      "id": "morris-chang-tsmc-founded",
+      "date": "1987-02-21",
+      "datePrecision": "day",
+      "title": "Morris Chang founds TSMC",
+      "summary": "Morris Chang founded Taiwan Semiconductor Manufacturing Company on February 21, 1987 — pioneering the pure-play foundry model.",
+      "about": "TSMC manufactures chips for Apple, NVIDIA, AMD, and Qualcomm without designing its own products — enabling fabless chip companies worldwide. It became the world's most advanced semiconductor fab operator.",
+      "narrative": {
+        "whyChosen": "TSMC's foundry model reshaped how the entire chip industry is structured.",
+        "whyImportant": "It let startups design chips without building billion-dollar fabs.",
+        "problemSolved": "Integrated device manufacturers hoarded fab capacity and IP."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "tsmc",
+        "semiconductor",
+        "founding",
+        "foundry"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "TSMC — Company founded (February 21, 1987)",
+          "url": "https://en.wikipedia.org/wiki/TSMC",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TSMC (overview)",
+          "url": "https://en.wikipedia.org/wiki/TSMC",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

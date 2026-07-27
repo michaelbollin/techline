@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "id": "sun-enterprise-10000-released",
+      "slug": "sun-enterprise-10000-released",
+      "date": "1996",
+      "datePrecision": "year",
+      "title": "Sun Enterprise 10000 released",
+      "summary": "Sun Microsystems shipped the Enterprise 10000 (\"Starfire\") in 1996 — a massively scalable Unix server for datacenter workloads.",
+      "about": "The E10K packed dozens of UltraSPARC CPUs in a single cabinet — banks, telcos, and dot-coms ran Oracle, SAP, and custom Java services on it. For backend developers, Starfire represented the high end of the Solaris ecosystem before Linux on commodity x86 took over datacenters. Hot-swappable boards and partitioning foreshadowed cloud instance sizing.",
+      "narrative": {
+        "whyChosen": "The Enterprise 10000 was Sun's flagship datacenter Unix server of the dot-com era.",
+        "whyImportant": "It showed how Unix servers scaled vertically before horizontal Linux clusters dominated.",
+        "problemSolved": "Enterprises needed single-system image Unix servers with 64+ processors for massive databases and transaction processing."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "server",
+        "sun",
+        "unix",
+        "sparc",
+        "datacenter"
+      ],
+      "people": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Sun Enterprise (Starfire, 1996)",
+          "url": "https://en.wikipedia.org/wiki/Sun_Enterprise",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Sun Microsystems (overview)",
+          "url": "https://www.computerhistory.org/revolution/networking/11/357",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sparcstation-1-released",
+        "sun-1-released",
+        "java-1-0-shipped"
+      ]
+    },
+    {
+      "slug": "stallman-free-speech-not-beer",
+      "media": [],
+      "relatedIds": [
+        "stallman-gnu-manifesto",
+        "gpl-version-1-released"
+      ],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "founder"
+        }
+      ],
+      "category": "quote",
+      "id": "stallman-free-speech-not-beer",
+      "date": "1996",
+      "datePrecision": "year",
+      "title": "Richard Stallman: \"free as in speech, not beer\"",
+      "quoteText": "Think of 'free' as in 'free speech,' not as in 'free beer.'",
+      "summary": "Richard Stallman clarifies free software as freedom to use and modify code — not zero price.",
+      "about": "The phrase appears in GNU philosophy writing and talks as Stallman fought the confusion between gratis downloads and user freedom. It still surfaces in every LGPL vs MIT license thread.",
+      "narrative": {
+        "whyChosen": "Stallman's most effective one-liner for a politically loaded term.",
+        "whyImportant": "It separated libre from gratis in open-source debates for decades.",
+        "problemSolved": "Businesses and users conflated 'free software' with unpaid products."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "open-source",
+        "free-software"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "GNU — Free Software Definition (1996 era)",
+          "url": "https://www.gnu.org/philosophy/free-sw.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Free software (overview)",
+          "url": "https://en.wikipedia.org/wiki/Free_software",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

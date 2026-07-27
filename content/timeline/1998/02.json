@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "slug": "open-source-initiative-founded",
+      "media": [],
+      "relatedIds": [
+        "mozilla-source-released"
+      ],
+      "people": [
+        {
+          "id": "eric-raymond",
+          "name": "Eric S. Raymond",
+          "role": "co-founder"
+        },
+        {
+          "id": "bruce-perens",
+          "name": "Bruce Perens",
+          "role": "co-founder"
+        }
+      ],
+      "id": "open-source-initiative-founded",
+      "date": "1998-02",
+      "datePrecision": "month",
+      "title": "Open Source Initiative founded",
+      "summary": "Eric Raymond and Bruce Perens co-founded the Open Source Initiative in February 1998 — coining 'open source' as a business-friendly term.",
+      "about": "OSI certified licenses and promoted open source to enterprises skeptical of Stallman's 'free software' framing. The term enabled Netscape's Mozilla release and the dot-com open-source wave.",
+      "narrative": {
+        "whyChosen": "OSI rebranded free software for corporate adoption.",
+        "whyImportant": "It separated pragmatic open collaboration from ideological free software debates.",
+        "problemSolved": "Businesses avoided 'free software' language that sounded anti-commercial."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "open-source"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "OSI — History (founded February 1998)",
+          "url": "https://opensource.org/about",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Open Source Initiative (overview)",
+          "url": "https://en.wikipedia.org/wiki/Open_Source_Initiative",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

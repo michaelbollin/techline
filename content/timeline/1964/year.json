@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "seymour-cray-cdc-6600",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "seymour-cray",
+          "name": "Seymour Cray",
+          "role": "researcher"
+        }
+      ],
+      "id": "seymour-cray-cdc-6600",
+      "date": "1964",
+      "datePrecision": "year",
+      "title": "Seymour Cray designs the CDC 6600",
+      "summary": "Seymour Cray led design of the CDC 6600 in 1964 — the fastest computer of its era and a template for supercomputing.",
+      "about": "The 6600 used parallelism and elegant packaging to outperform IBM mainframes — earning Cray the title 'father of supercomputing.' Cray Research later built machines that defined HPC for decades.",
+      "narrative": {
+        "whyChosen": "The CDC 6600 proved specialized architecture could beat bigger vendors.",
+        "whyImportant": "It established the supercomputer as a distinct engineering discipline.",
+        "problemSolved": "Scientific workloads needed far more performance than general-purpose mainframes delivered."
+      },
+      "category": "hardware",
+      "tags": [
+        "people",
+        "supercomputing",
+        "hardware"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "CDC — 6600 supercomputer (1964)",
+          "url": "https://en.wikipedia.org/wiki/CDC_6600",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Seymour Cray (overview)",
+          "url": "https://en.wikipedia.org/wiki/Seymour_Cray",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "slug": "hunt-thomas-dry",
+      "media": [],
+      "relatedIds": [
+        "kent-beck-extreme-programming"
+      ],
+      "people": [
+        {
+          "id": "andy-hunt",
+          "name": "Andy Hunt",
+          "role": "author"
+        },
+        {
+          "id": "dave-thomas",
+          "name": "Dave Thomas",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "hunt-thomas-dry",
+      "date": "1999-10",
+      "datePrecision": "month",
+      "title": "Hunt & Thomas coin DRY — \"Don't Repeat Yourself\"",
+      "quoteText": "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.",
+      "summary": "Andy Hunt and Dave Thomas introduce the DRY principle in The Pragmatic Programmer — later shortened to 'Don't repeat yourself.'",
+      "about": "DRY became a battle cry against copy-paste code and duplicated business rules. It is often misapplied to any repeated line of code — the authors meant duplicated knowledge, not literal character matching.",
+      "narrative": {
+        "whyChosen": "The principle behind every 'extract shared module' code review comment.",
+        "whyImportant": "It gave teams vocabulary for eliminating dangerous duplication of logic.",
+        "problemSolved": "Copy-pasted code let bugs live in multiple places and drift out of sync."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "software-engineering",
+        "pragmatic-programmer"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "The Pragmatic Programmer — DRY principle (October 1999)",
+          "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Don't repeat yourself (overview)",
+          "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

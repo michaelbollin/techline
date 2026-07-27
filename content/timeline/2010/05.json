@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "moxie-marlinspike-textsecure-released",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "moxie-marlinspike",
+          "name": "Moxie Marlinspike",
+          "role": "creator"
+        }
+      ],
+      "id": "moxie-marlinspike-textsecure-released",
+      "date": "2010-05",
+      "datePrecision": "month",
+      "title": "Moxie Marlinspike releases TextSecure",
+      "summary": "Moxie Marlinspike co-founded Whisper Systems and released TextSecure in May 2010 — bringing end-to-end encrypted SMS to Android.",
+      "about": "TextSecure evolved into the Signal Protocol and Signal messenger — setting the standard for forward secrecy and encrypted messaging that WhatsApp and others later adopted. Marlinspike's open protocols influenced how developers think about E2E chat.",
+      "narrative": {
+        "whyChosen": "TextSecure started the modern era of consumer end-to-end encrypted messaging.",
+        "whyImportant": "It proved usable E2E encryption could ship on mainstream mobile platforms.",
+        "problemSolved": "SMS and early chat apps transmitted messages in plaintext readable by carriers and attackers."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "cryptography",
+        "privacy",
+        "messaging",
+        "signal"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Whisper Systems — TextSecure for Android (May 2010)",
+          "url": "https://en.wikipedia.org/wiki/Signal_(software)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Signal (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Signal_(software)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

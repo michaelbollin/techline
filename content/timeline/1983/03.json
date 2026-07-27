@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "ibm-pc-xt-released",
+      "slug": "ibm-pc-xt-released",
+      "date": "1983-03",
+      "datePrecision": "month",
+      "title": "IBM PC XT released",
+      "summary": "IBM announced the Personal Computer XT in March 1983 — the first IBM PC with a built-in hard disk as standard equipment.",
+      "about": "The XT's 10 MB hard drive and 8088 CPU made floppy-swap hell optional for business software. Clone makers copied its expansion slots and BIOS-compatible design, cementing the PC as the platform for DOS apps, early LANs, and eventually Windows. Internal storage became the default expectation for desktop development machines.",
+      "narrative": {
+        "whyChosen": "The PC XT normalized built-in hard disks on IBM-compatible desktops.",
+        "whyImportant": "It extended the open PC architecture that clone vendors and software houses built on.",
+        "problemSolved": "Floppy-only PCs could not hold large databases, compilers, and multi-file projects comfortably."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "ibm", "x86", "microcomputer"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "IBM — Personal Computer history (PC XT, March 1983)",
+          "url": "https://www.ibm.com/history/personal-computer",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — IBM Personal Computer XT (overview)",
+          "url": "https://en.wikipedia.org/wiki/IBM_Personal_Computer_XT",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-pc-5150-released", "intel-80386-introduced", "microsoft-founded", "compaq-portable-released"]
+    },
+    {
+      "id": "compaq-portable-released",
+      "slug": "compaq-portable-released",
+      "date": "1983-03",
+      "datePrecision": "month",
+      "title": "Compaq Portable released",
+      "summary": "Compaq Computer Corporation began shipping the Compaq Portable in March 1983 — the first IBM PC-compatible portable computer.",
+      "about": "Compaq legally reverse-engineered the IBM PC BIOS and shipped a luggable 8088 machine that ran unmodified DOS software — proving the PC standard could be cloned. The company grew into a server giant (later HP ProLiant). Every PC-compatible portable and white-box desktop traces legitimacy to this product.",
+      "narrative": {
+        "whyChosen": "The Compaq Portable was the first commercially successful IBM PC clone.",
+        "whyImportant": "It established that PC compatibility could be replicated without IBM's permission — opening the clone market.",
+        "problemSolved": "Businesses wanted portable PCs that ran the same software as their IBM desktops."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "portable", "compaq", "pc", "x86"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Compaq Portable (released March 1983)",
+          "url": "https://en.wikipedia.org/wiki/Compaq_Portable",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Compaq (overview)",
+          "url": "https://www.computerhistory.org/revolution/personal-computers/17/300",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released", "osborne-1-released", "hp-proliant-era"]
+    }
+  ]
+}

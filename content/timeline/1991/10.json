@@ -38,6 +38,37 @@
         "cpp-cfront-1-0",
         "cpp98-standard"
       ]
+    },
+    {
+      "id": "apple-powerbook-released",
+      "slug": "apple-powerbook-released",
+      "date": "1991-10",
+      "datePrecision": "month",
+      "title": "Apple PowerBook released",
+      "summary": "Apple introduced the PowerBook line in October 1991 — laptops with the keyboard pushed toward the screen hinge and a built-in trackball.",
+      "about": "The PowerBook 100, 140, and 170 set the template for modern laptop ergonomics — palm rest, centered pointing device, and compact footprint. Mobile developers and writers carried Mac OS on the road; the line stayed Apple's portable platform until the MacBook era. Its industrial design influenced every laptop that followed.",
+      "narrative": {
+        "whyChosen": "The PowerBook defined the modern laptop layout that PC makers copied throughout the 1990s.",
+        "whyImportant": "It made Macintosh development and publishing portable for creative professionals.",
+        "problemSolved": "Early portables placed keyboards awkwardly; users needed a usable pointing device without external mice."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "apple", "powerbook", "macintosh"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — PowerBook introduction (October 1991)",
+          "url": "https://www.apple.com/newsroom/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PowerBook (overview)",
+          "url": "https://en.wikipedia.org/wiki/PowerBook",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["macintosh-portable-released", "macintosh-128k-released", "ibm-thinkpad-700c-released", "imac-g3-released", "apple-macbook-air-released"]
     }
   ]
 }

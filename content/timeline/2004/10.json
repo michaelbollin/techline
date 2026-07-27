@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "nginx-released",
+      "slug": "nginx-released",
+      "date": "2004-10-04",
+      "datePrecision": "day",
+      "title": "nginx first public release",
+      "summary": "Igor Sysoev released nginx 0.1.0 on October 4, 2004 — an event-driven web server built to solve the C10K concurrency problem.",
+      "about": "nginx serves static files, reverse-proxies to app servers (Node, Rails, PHP-FPM), and terminates TLS at scale with low memory per connection. It powers CDNs, API gateways, and Kubernetes ingress controllers. Typical setup: nginx on port 443 → upstream Puma or uvicorn workers handling dynamic requests.",
+      "narrative": {
+        "whyChosen": "nginx challenged Apache's dominance with async I/O and became the default edge server for high-traffic sites.",
+        "whyImportant": "It made reverse-proxying and load balancing routine for every backend team.",
+        "problemSolved": "Process-per-connection Apache models struggled past thousands of concurrent clients."
+      },
+      "category": "software",
+      "tags": ["nginx", "web-server", "http", "reverse-proxy", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "nginx/nginx — nginx-0.1.0-RELEASE import (October 4, 2004)",
+          "url": "https://github.com/nginx/nginx/commit/0e8348c500bac5303a3b7f2ffee4b7ded05558ff",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nginx (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nginx",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["apache-http-server-released", "lighttpd-released", "gunicorn-released", "caddy-released", "uwsgi-released"]
+    }
+  ]
+}

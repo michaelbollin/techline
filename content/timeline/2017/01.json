@@ -14,7 +14,15 @@
         "problemSolved": "WebKit-only Samsung Internet diverged from Chrome behavior developers tested against."
       },
       "category": "software",
-      "tags": ["browser", "web", "samsung", "android", "chromium", "blink"],
+      "tags": [
+        "browser",
+        "web",
+        "samsung",
+        "android",
+        "chromium",
+        "blink"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +37,56 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["samsung-internet-released", "blink-engine-announced", "chrome-for-android-released"]
+      "relatedIds": [
+        "samsung-internet-released",
+        "blink-engine-announced",
+        "chrome-for-android-released"
+      ]
+    },
+    {
+      "slug": "yoshua-bengio-mila-founded",
+      "media": [],
+      "relatedIds": [
+        "deep-learning-turing-trio-2018"
+      ],
+      "people": [
+        {
+          "id": "yoshua-bengio",
+          "name": "Yoshua Bengio",
+          "role": "researcher"
+        }
+      ],
+      "id": "yoshua-bengio-mila-founded",
+      "date": "2017-01",
+      "datePrecision": "month",
+      "title": "Yoshua Bengio leads founding of Mila AI institute",
+      "summary": "Yoshua Bengio helped establish Mila — Quebec's Artificial Intelligence Institute — in January 2017, growing it into the world's largest academic deep-learning research center.",
+      "about": "Mila consolidated Montreal's AI ecosystem under Bengio's scientific direction — attracting Element AI, corporate labs, and hundreds of researchers. It became the institutional anchor behind Bengio's Turing Award recognition.",
+      "narrative": {
+        "whyChosen": "Mila turned Montreal into a global deep-learning hub rivaling Silicon Valley labs.",
+        "whyImportant": "It proved regional AI clusters could scale through nonprofit academic institutes.",
+        "problemSolved": "Scattered university labs lacked shared compute, talent pipelines, and industry partnerships."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "canada",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Mila — About (founded 2017)",
+          "url": "https://mila.quebec/en/about/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mila (Quebec AI institute) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mila_(research_institute)",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

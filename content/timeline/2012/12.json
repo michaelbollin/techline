@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "audrey-tang-g0v-launched",
+      "media": [],
+      "relatedIds": [
+        "audrey-tang-digital-minister"
+      ],
+      "people": [
+        {
+          "id": "audrey-tang",
+          "name": "Audrey Tang",
+          "role": "co-founder"
+        }
+      ],
+      "id": "audrey-tang-g0v-launched",
+      "date": "2012-12",
+      "datePrecision": "month",
+      "title": "Audrey Tang co-launches g0v civic hacking movement",
+      "summary": "Audrey Tang helped launch Taiwan's g0v (gov-zero) civic hacking movement in December 2012 — open-source tools for government transparency.",
+      "about": "g0v produced open data dashboards, petition systems, and disaster-response apps — a model for civic tech worldwide. Tang's work bridged hacker culture and public-sector reform in Taiwan.",
+      "narrative": {
+        "whyChosen": "g0v became one of the most influential civic hacking communities globally.",
+        "whyImportant": "It showed how volunteer developers could improve democratic institutions with open data.",
+        "problemSolved": "Government data and services were opaque and hard for citizens to reuse."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "civic-tech",
+        "open-source",
+        "taiwan"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "g0v — Civic hacking movement launched (December 2012)",
+          "url": "https://en.wikipedia.org/wiki/G0v",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Audrey Tang (overview)",
+          "url": "https://en.wikipedia.org/wiki/Audrey_Tang",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

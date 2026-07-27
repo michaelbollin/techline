@@ -30,6 +30,68 @@
         }
       ],
       "relatedIds": ["ecmascript-2020-adopted", "ecmascript-2024-adopted"]
+    },
+    {
+      "id": "internet-explorer-11-retired",
+      "slug": "internet-explorer-11-retired",
+      "date": "2022-06-15",
+      "datePrecision": "day",
+      "title": "Internet Explorer 11 retired",
+      "summary": "Microsoft retired the Internet Explorer 11 desktop app on June 15, 2022 — ending 27 years of the browser that once held over 90% market share.",
+      "about": "Opening IE on Windows 10 redirected users to Microsoft Edge; IE mode in Edge kept legacy intranet apps running. For developers, it was the final break from ActiveX-only sites, `-ms-` hacks, and the IE6–IE11 compatibility matrix. Enterprises that had delayed migration got a hard push toward modern browsers.",
+      "narrative": {
+        "whyChosen": "IE's retirement closed the longest chapter in browser history and the era of building for one dominant engine.",
+        "whyImportant": "It forced the last holdouts off a browser with no security updates and shrinking web compatibility.",
+        "problemSolved": "Microsoft could not maintain a separate legacy browser alongside Chromium-based Edge indefinitely."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer", "windows"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer 11 has retired (June 15, 2022)",
+          "url": "https://blogs.windows.com/windowsexperience/2022/06/15/internet-explorer-11-has-retired-and-is-officially-out-of-support-what-you-need-to-know/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-11-released", "microsoft-edge-released", "edge-chromium-released"]
+    },
+    {
+      "id": "http-3-standardized",
+      "slug": "http-3-standardized",
+      "date": "2022-06-06",
+      "datePrecision": "day",
+      "title": "HTTP/3 standardized",
+      "summary": "RFC 9114 published HTTP/3 on June 6, 2022 — HTTP semantics mapped onto the QUIC transport protocol over UDP.",
+      "about": "HTTP/3 keeps HTTP methods and status codes but replaces TCP with QUIC — faster handshakes, per-stream flow control, and no TCP head-of-line blocking. QPACK compresses headers like HPACK did for HTTP/2. Major browsers and CDNs enabled HTTP/3 by default for lower latency on lossy networks.",
+      "narrative": {
+        "whyChosen": "HTTP/3 completed the HTTP performance story started by HTTP/2 and Google's QUIC experiments.",
+        "whyImportant": "It is now the preferred transport for many sites, especially on mobile and high-latency links.",
+        "problemSolved": "TCP's head-of-line blocking still hurt HTTP/2 on unreliable networks; QUIC fixes that at the transport layer."
+      },
+      "category": "protocol",
+      "tags": ["http3", "quic", "http", "protocol", "standard", "ietf"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "RFC 9114 — HTTP/3 (June 2022)",
+          "url": "https://www.rfc-editor.org/info/rfc9114",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — HTTP/3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/HTTP/3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["http-2-standardized", "http-1-1-standardized", "tls-1-0-standardized"]
     }
   ]
 }

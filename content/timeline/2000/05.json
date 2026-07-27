@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "soap-1-1-published",
+      "slug": "soap-1-1-published",
+      "date": "2000-05-08",
+      "datePrecision": "day",
+      "title": "SOAP 1.1 published",
+      "summary": "The W3C published SOAP 1.1 as a Note on May 8, 2000 — an XML envelope format for remote procedure calls over HTTP.",
+      "about": "SOAP wrapped method calls in XML envelopes with headers and bodies — the backbone of early .NET ASMX services, Java JAX-WS, and enterprise B2B integrations. WSDL described endpoints; the WS-* stack added security and reliability. Teams used it when schemas, tooling, and corporate standards mattered more than JSON simplicity.",
+      "narrative": {
+        "whyChosen": "SOAP standardized XML web services for a decade of enterprise and government integrations.",
+        "whyImportant": "It let Java and .NET systems interoperate through contract-first WSDL tooling.",
+        "problemSolved": "Ad-hoc XML RPC needed a common envelope, encoding rules, and HTTP binding for multi-vendor systems."
+      },
+      "category": "protocol",
+      "tags": ["soap", "xml", "api", "web-service", "rpc", "standard"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C — Simple Object Access Protocol (SOAP) 1.1 Note (May 8, 2000)",
+          "url": "https://www.w3.org/TR/2000/NOTE-SOAP-20000508/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — SOAP (overview)",
+          "url": "https://en.wikipedia.org/wiki/SOAP",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["xml-rpc-specified", "rest-architectural-style-defined", "soap-1-2-standardized", "dotnet-framework-1-0-rtm"]
+    }
+  ]
+}

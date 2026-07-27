@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["microsoft-edge-released", "google-chrome-released"]
+    },
+    {
+      "id": "python-2-end-of-life",
+      "slug": "python-2-end-of-life",
+      "date": "2020-01-01",
+      "datePrecision": "day",
+      "title": "Python 2 reaches end of life",
+      "summary": "The Python Software Foundation ended support for Python 2 on January 1, 2020 — closing twenty years of the 2.x line and forcing the ecosystem onto Python 3.",
+      "about": "After January 1, 2020, no bug fixes or security patches came from the core team for Python 2 — even for critical vulnerabilities. Enterprises running legacy Django apps, scientific code, and ops scripts had to port, freeze, or pay vendors for extended support. The migration had been announced since 2008 and extended once; this was the hard deadline.",
+      "narrative": {
+        "whyChosen": "Python 2's sunset was one of the largest coordinated language migrations in open-source history.",
+        "whyImportant": "It ended ambiguity about which Python to teach, ship, and depend on — Python 3 became the only supported line.",
+        "problemSolved": "Maintaining two incompatible Python dialects split library authors and slowed language evolution."
+      },
+      "category": "software",
+      "tags": ["python", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Sunsetting Python 2 (January 1, 2020)",
+          "url": "https://www.python.org/doc/sunset-python-2/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-2-7-released", "python-2-0-released", "python-3-0-released"]
     }
   ]
 }

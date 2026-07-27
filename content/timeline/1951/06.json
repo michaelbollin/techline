@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "univac-i-delivered",
+      "slug": "univac-i-delivered",
+      "date": "1951-06-14",
+      "datePrecision": "day",
+      "title": "UNIVAC I delivered",
+      "summary": "Remington Rand delivered the first UNIVAC I to the U.S. Census Bureau on June 14, 1951 — the first commercial computer produced in the United States.",
+      "about": "UNIVAC I used mercury delay-line memory and vacuum tubes to process business and government data — payroll, statistics, and election-night predictions. It proved computers could be sold as products, not one-off lab machines. Mainframe batch processing and COBOL-era enterprise computing trace their commercial roots here.",
+      "narrative": {
+        "whyChosen": "UNIVAC I was the first commercially produced computer in the U.S.",
+        "whyImportant": "It established the computer industry as a business — not just government and university research.",
+        "problemSolved": "Organizations needed reliable electronic data processing beyond hand-tabulated punch cards."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mainframe", "univac", "computer", "commercial"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "U.S. Census Bureau — UNIVAC I (delivered June 14, 1951)",
+          "url": "https://www.census.gov/history/www/innovations/technology/univac_i.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — UNIVAC I (overview)",
+          "url": "https://en.wikipedia.org/wiki/UNIVAC_I",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["eniac-dedicated", "ibm-system-360-announced", "cobol-specifications-submitted"]
+    }
+  ]
+}

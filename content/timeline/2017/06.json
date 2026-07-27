@@ -1,35 +1,35 @@
 {
   "events": [
     {
-      "id": "firefox-54-released",
-      "slug": "firefox-54-released",
-      "date": "2017-06-13",
+      "id": "pnpm-released",
+      "slug": "pnpm-released",
+      "date": "2017-06-28",
       "datePrecision": "day",
-      "title": "Firefox 54 enables multi-process for all",
-      "summary": "Mozilla released Firefox 54 on June 13, 2017 — enabling Electrolysis (e10s) multi-process architecture for all users by default.",
-      "about": "Firefox e10s isolated tabs into separate processes — a tab crash no longer took down the whole browser. Firefox 54 completed the years-long Electrolysis project, closing the stability gap with Chrome before Quantum arrived in version 57.",
+      "title": "pnpm 1.0 released",
+      "summary": "Zoltan Kochan released pnpm 1.0 on June 28, 2017 — an npm-compatible package manager using a content-addressed store and symlinks.",
+      "about": "pnpm installs each package version once on disk and hard-links it into `node_modules` — slashing duplicate copies across projects. Strict dependency resolution catches phantom imports that npm and Yarn allowed. Monorepo workspaces, filtering, and fast CI installs made it the choice for teams hitting `node_modules` bloat after Yarn's lockfile revolution.",
       "narrative": {
-        "whyChosen": "Firefox 54 was the e10s milestone that made Firefox multiprocess like Chrome.",
-        "whyImportant": "Process isolation improved security and stability for hundreds of millions of users.",
-        "problemSolved": "Single-process Firefox meant one heavy page or plugin crash killed every open tab."
+        "whyChosen": "pnpm proved symlinked node_modules could be strict, fast, and compatible with the npm ecosystem.",
+        "whyImportant": "It forced a rethink of disk usage and dependency isolation in JavaScript package management.",
+        "problemSolved": "Duplicate packages across projects wasted disk and hid missing dependency declarations."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox", "electrolysis"],
-      "importance": 2,
+      "tags": ["pnpm", "npm", "package-manager", "javascript", "nodejs", "monorepo"],
+      "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Mozilla — Firefox 54 released (June 13, 2017)",
-          "url": "https://blog.mozilla.org/blog/2017/06/13/firefox-54-released/",
+          "title": "pnpm — pnpm version 1 is out (June 28, 2017)",
+          "url": "https://medium.com/pnpm/pnpm-version-1-is-out-935a07af914",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Firefox version history (overview)",
-          "url": "https://en.wikipedia.org/wiki/Firefox_version_history",
+          "title": "Wikipedia — pnpm (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pnpm",
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-57-quantum", "firefox-6-released", "google-chrome-released"]
+      "relatedIds": ["npm-first-released", "yarn-released", "nodejs-0-10-released"]
     }
   ]
 }

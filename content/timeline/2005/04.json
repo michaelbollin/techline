@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "git-created",
+      "slug": "git-created",
+      "date": "2005-04-07",
+      "datePrecision": "day",
+      "title": "Git created",
+      "summary": "Linus Torvalds committed the first revision of Git on April 7, 2005 — a distributed version control system for the Linux kernel.",
+      "about": "Git stores snapshots and branches locally, merges with three-way diffs, and syncs via push/pull to remotes. Every open-source project, GitHub workflow, and CI pipeline depends on it. Example: feature branch → commit → pull request → merge to main — all Git operations under the hood.",
+      "narrative": {
+        "whyChosen": "Git replaced BitKeeper for kernel development and became the world's default VCS.",
+        "whyImportant": "Distributed history, cheap branching, and SHA-1 object storage changed how teams collaborate on code.",
+        "problemSolved": "Centralized VCS could not match Linux's scale; Torvalds needed fast distributed merges after BitKeeper's license ended."
+      },
+      "category": "software",
+      "tags": ["git", "vcs", "open-source", "linux", "torvalds"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "git.git — Initial revision commit e83c516 (April 7, 2005)",
+          "url": "https://github.com/git/git/commit/e83c5163316f89bfbde7d9ab23ca2e25604af290",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Git (overview)",
+          "url": "https://en.wikipedia.org/wiki/Git",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["github-launched", "subversion-1-0-released", "mercurial-released", "bitbucket-launched"]
+    },
+    {
+      "id": "mercurial-released",
+      "slug": "mercurial-released",
+      "date": "2005-04-19",
+      "datePrecision": "day",
+      "title": "Mercurial released",
+      "summary": "Matt Mackall announced Mercurial v0.1 on April 19, 2005 — a distributed version control system born after BitKeeper's free license ended.",
+      "about": "Mercurial (`hg`) stores changesets with efficient delta compression and supports clone/branch/pull workflows like Git. Mozilla, Facebook, and Python used it before Git dominated. Bitbucket built on Mercurial for years. Example: `hg clone`, edit, `hg commit`, `hg push` to a central or peer repo.",
+      "narrative": {
+        "whyChosen": "Mercurial was Git's main rival in the 2005 distributed VCS race after BitKeeper withdrew.",
+        "whyImportant": "It proved multiple DVCS designs could work at scale and kept competition alive during the Git adoption wave.",
+        "problemSolved": "Linux kernel developers needed a free distributed SCM when BitKeeper's license was revoked."
+      },
+      "category": "software",
+      "tags": ["mercurial", "hg", "vcs", "distributed", "open-source"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Linux Kernel Mailing List — Mercurial v0.1 announced (April 19, 2005)",
+          "url": "https://lkml.indiana.edu/hypermail/linux/kernel/0504.2/0670.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mercurial (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mercurial",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["git-created", "bitbucket-launched"]
+    }
+  ]
+}

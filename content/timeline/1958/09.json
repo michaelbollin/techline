@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "jack-kilby-integrated-circuit",
+      "media": [],
+      "relatedIds": [
+        "robert-noyce-integrated-circuit"
+      ],
+      "people": [
+        {
+          "id": "jack-kilby",
+          "name": "Jack Kilby",
+          "role": "researcher"
+        }
+      ],
+      "id": "jack-kilby-integrated-circuit",
+      "date": "1958-09-12",
+      "datePrecision": "day",
+      "title": "Jack Kilby demonstrates the first integrated circuit",
+      "summary": "Jack Kilby demonstrated the first integrated circuit at Texas Instruments on September 12, 1958 — building an oscillator on a germanium chip.",
+      "about": "Kilby's hybrid IC proved multiple components could share one semiconductor substrate — the foundation of modern microchips. He shared the 2000 Nobel Prize in Physics for the invention.",
+      "narrative": {
+        "whyChosen": "Kilby's demo was the first working integrated circuit.",
+        "whyImportant": "It launched the path from discrete transistors to single-chip systems.",
+        "problemSolved": "Wiring individual components was too large, slow, and unreliable for advanced electronics."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "semiconductor",
+        "integrated-circuit",
+        "hardware"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Texas Instruments — First integrated circuit (September 12, 1958)",
+          "url": "https://en.wikipedia.org/wiki/Jack_Kilby",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Integrated circuit (overview)",
+          "url": "https://en.wikipedia.org/wiki/Integrated_circuit",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

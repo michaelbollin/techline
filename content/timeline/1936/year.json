@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "alan-turing-computable-numbers",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "alan-turing",
+          "name": "Alan Turing",
+          "role": "researcher"
+        }
+      ],
+      "id": "alan-turing-computable-numbers",
+      "date": "1936",
+      "datePrecision": "year",
+      "title": "Alan Turing defines the Turing machine",
+      "summary": "Alan Turing's 1936 paper 'On Computable Numbers' introduced the Turing machine — the theoretical model behind all modern computers.",
+      "about": "Turing formalized what it means to compute, defined decidability limits, and influenced von Neumann architecture. Every programming language and CPU is an approximation of his abstract machine.",
+      "narrative": {
+        "whyChosen": "The Turing machine is the conceptual root of computer science.",
+        "whyImportant": "It linked logic, mathematics, and mechanical computation.",
+        "problemSolved": "Mathematicians needed a precise definition of effective calculability."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "computer-science",
+        "research"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Proceedings of the London Mathematical Society — Turing 1936",
+          "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Turing machine (overview)",
+          "url": "https://en.wikipedia.org/wiki/Turing_machine",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

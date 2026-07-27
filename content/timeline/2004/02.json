@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": "subversion-1-0-released",
+      "slug": "subversion-1-0-released",
+      "date": "2004-02-23",
+      "datePrecision": "day",
+      "title": "Subversion 1.0 released",
+      "summary": "CollabNet shipped Subversion 1.0 on February 23, 2004 — a centralized version control system designed to replace CVS.",
+      "about": "Subversion (SVN) tracks file history with atomic commits, cheap branching, and real directory versioning — fixes CVS lacked. It powered thousands of corporate repos and open-source projects through the 2000s before Git won mindshare. Typical workflow: `svn checkout`, edit, `svn commit` to a central server.",
+      "narrative": {
+        "whyChosen": "SVN was the mainstream upgrade path from CVS for a decade of professional development.",
+        "whyImportant": "It proved centralized VCS could be fixed without going fully distributed like Git.",
+        "problemSolved": "CVS lacked atomic commits and reliable branching; teams needed a drop-in successor."
+      },
+      "category": "software",
+      "tags": [
+        "subversion",
+        "svn",
+        "vcs",
+        "collabnet",
+        "open-source"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apache Subversion — Release 1.0.0 (February 23, 2004)",
+          "url": "https://subversion.apache.org/docs/release-notes/release-history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Subversion (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Subversion",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "git-created"
+      ]
+    }
+  ]
+}

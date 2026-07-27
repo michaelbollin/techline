@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "eslint .",
     "validate": "tsx scripts/validate-timeline.ts",
+    "generate:company-map": "tsx scripts/generate-company-map.ts",
+    "seed:people": "tsx scripts/seed-people-milestones.ts",
+    "seed:quotes": "tsx scripts/seed-quotes.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

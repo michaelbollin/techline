@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "safari-11-released",
+      "slug": "safari-11-released",
+      "date": "2017-09-19",
+      "datePrecision": "day",
+      "title": "Safari 11 released",
+      "summary": "Apple released Safari 11 on September 19, 2017 with macOS High Sierra — adding Intelligent Tracking Prevention, autoplay blocking, and WebRTC improvements.",
+      "about": "Safari 11's Intelligent Tracking Prevention (ITP) limited cross-site cookies — reshaping ad tech and analytics. Autoplay blocking and reader mode refinements kept Safari focused on privacy and battery life as Chrome grew on desktop.",
+      "narrative": {
+        "whyChosen": "Safari 11's ITP was a watershed moment for web privacy and ad tracking.",
+        "whyImportant": "Browser-level tracking prevention forced the ad industry to adapt measurement strategies.",
+        "problemSolved": "Third-party cookies enabled pervasive cross-site tracking without user awareness."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit", "privacy", "macos"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — macOS High Sierra available today (September 19, 2017)",
+          "url": "https://www.apple.com/newsroom/2017/09/macos-high-sierra-now-available/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-10-released", "safari-9-released", "safari-announced"]
+    }
+  ]
+}

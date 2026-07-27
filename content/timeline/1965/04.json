@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "id": "gordon-moore-moores-law",
+      "slug": "gordon-moore-moores-law",
+      "date": "1965-04-19",
+      "datePrecision": "day",
+      "title": "Gordon Moore publishes Moore's Law",
+      "summary": "Gordon Moore published 'Cramming More Components onto Integrated Circuits' on April 19, 1965 — projecting exponential growth in transistor density.",
+      "about": "Moore's observation became the industry's planning roadmap for decades — driving R&D investment in smaller, cheaper chips. It later paired with Dennard scaling to explain why computers kept getting faster and cheaper.",
+      "narrative": {
+        "whyChosen": "Moore's Law named the exponential trend that defined the semiconductor era.",
+        "whyImportant": "It coordinated industry expectations for chip progress across fabs, tools, and design.",
+        "problemSolved": "There was no shared forecast for how fast integrated circuits could improve."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "semiconductor",
+        "moores-law",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "gordon-moore",
+          "name": "Gordon Moore",
+          "role": "researcher"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
+          "url": "https://www.nano.gov/sites/default/files/mooreslaw.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Moore's law (overview)",
+          "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "moore-noyce-intel-founded"
+      ]
+    },
+    {
+      "slug": "moore-components-doubling-quote",
+      "media": [],
+      "relatedIds": [
+        "gordon-moore-moores-law"
+      ],
+      "people": [
+        {
+          "id": "gordon-moore",
+          "name": "Gordon Moore",
+          "role": "researcher"
+        }
+      ],
+      "category": "quote",
+      "id": "moore-components-doubling-quote",
+      "date": "1965-04-19",
+      "datePrecision": "day",
+      "title": "Gordon Moore predicts chip density will double every year",
+      "quoteText": "The complexity for minimum component costs has increased at a rate of roughly a factor of two per year. Certainly over the short term this rate can be expected to continue.",
+      "summary": "In Electronics magazine, Gordon Moore writes that transistor counts on integrated circuits double about every year — the observation later called Moore's Law.",
+      "about": "Moore's four-page article was a business forecast, not a law of physics. It became the industry's planning horizon for fifty years — and the punchline every time a node shrinks or a pundit declares Moore's Law dead.",
+      "narrative": {
+        "whyChosen": "This paragraph is one of the most quoted predictions in computing history.",
+        "whyImportant": "It set expectations for exponential hardware progress that shaped chip R&D and product roadmaps.",
+        "problemSolved": "Semiconductor planners lacked a simple heuristic for how fast silicon could improve."
+      },
+      "tags": [
+        "quote",
+        "prediction",
+        "semiconductor",
+        "moores-law"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
+          "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+          "role": "date"
+        },
+        {
+          "title": "Intel — Moore's Law (overview)",
+          "url": "https://www.intel.com/content/www/us/en/newsroom/resources/moores-law.html",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

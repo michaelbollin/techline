@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "margaret-hamilton-apollo-software",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "margaret-hamilton",
+          "name": "Margaret Hamilton",
+          "role": "researcher"
+        }
+      ],
+      "id": "margaret-hamilton-apollo-software",
+      "date": "1969-07",
+      "datePrecision": "month",
+      "title": "Margaret Hamilton leads Apollo flight software",
+      "summary": "Margaret Hamilton's MIT team shipped the Apollo Guidance Computer software used in the July 1969 Moon landing.",
+      "about": "Hamilton pioneered software engineering as a discipline — priority scheduling, error recovery, and rigorous testing for life-critical code. Her team's work proved large, reliable software could run in embedded real-time systems.",
+      "narrative": {
+        "whyChosen": "Hamilton coined 'software engineering' and led mission-critical code to the Moon.",
+        "whyImportant": "She established practices now standard in aerospace and safety-critical systems.",
+        "problemSolved": "Nobody knew how to build and verify large programs for hardware with tiny memory."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "software-engineering",
+        "aerospace"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "NASA — Apollo 11 mission (July 1969)",
+          "url": "https://www.nasa.gov/mission_pages/apollo/apollo-11.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Margaret Hamilton (overview)",
+          "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "next-computer-released",
+      "slug": "next-computer-released",
+      "date": "1988-10-12",
+      "datePrecision": "day",
+      "title": "NeXT Computer released",
+      "summary": "NeXT shipped its first workstation on October 12, 1988 — a Motorola 68030 Unix box with Objective-C tooling and a magneto-optical drive.",
+      "about": "NeXTSTEP bundled a Unix kernel, Display PostScript graphics, and Interface Builder for GUI apps. Tim Berners-Lee wrote the WorldWideWeb browser on a NeXT at CERN; id Software prototyped on NeXT; Apple acquired the company and its OS became macOS and iOS foundations. For web history, this is the machine the web was born on.",
+      "narrative": {
+        "whyChosen": "NeXT was the hardware platform where the web browser was invented and modern Apple OS lineage began.",
+        "whyImportant": "It proved Unix workstations could ship with world-class developer tools and consumer-grade UI polish.",
+        "problemSolved": "Higher-education and research labs needed powerful Unix machines with integrated object-oriented development environments."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "workstation",
+        "next",
+        "unix",
+        "objective-c"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — NeXT Computer (released October 12, 1988)",
+          "url": "https://en.wikipedia.org/wiki/NeXT_Computer",
+          "role": "date"
+        },
+        {
+          "title": "CERN — The birth of the web (WWW developed on NeXT)",
+          "url": "https://www.w3.org/History/1989/proposal.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "objective-c-created",
+        "macintosh-128k-released",
+        "steve-jobs-returns-to-apple",
+        "nextstation-released"
+      ]
+    }
+  ]
+}

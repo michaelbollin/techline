@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "slug": "rob-pike-utf8-paper",
+      "media": [],
+      "relatedIds": [
+        "go-open-sourced"
+      ],
+      "people": [
+        {
+          "id": "rob-pike",
+          "name": "Rob Pike",
+          "role": "co-creator"
+        },
+        {
+          "id": "ken-thompson",
+          "name": "Ken Thompson",
+          "role": "co-creator"
+        }
+      ],
+      "id": "rob-pike-utf8-paper",
+      "date": "1992-09",
+      "datePrecision": "month",
+      "title": "Rob Pike and Ken Thompson publish UTF-8 design",
+      "summary": "Rob Pike and Ken Thompson published the UTF-8 encoding plan in September 1992 — the text encoding underlying the modern web and JSON.",
+      "about": "UTF-8 let ASCII-compatible systems handle Unicode without breaking existing software. Every API, database, and browser today assumes UTF-8 as the default string encoding.",
+      "narrative": {
+        "whyChosen": "UTF-8 is the universal text encoding of the internet.",
+        "whyImportant": "It enabled global software without abandoning ASCII infrastructure.",
+        "problemSolved": "Fixed-width Unicode encodings wasted space and broke Unix text tools."
+      },
+      "category": "protocol",
+      "tags": [
+        "people",
+        "unicode",
+        "encoding",
+        "text"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Plan 9 — UTF-8 proposal (September 1992)",
+          "url": "https://en.wikipedia.org/wiki/UTF-8",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — UTF-8 (overview)",
+          "url": "https://en.wikipedia.org/wiki/UTF-8",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

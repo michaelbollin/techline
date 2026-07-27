@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "yann-lecun-lenet-published",
+      "media": [],
+      "relatedIds": [
+        "deep-learning-turing-trio-2018"
+      ],
+      "people": [
+        {
+          "id": "yann-lecun",
+          "name": "Yann LeCun",
+          "role": "researcher"
+        }
+      ],
+      "id": "yann-lecun-lenet-published",
+      "date": "1989",
+      "datePrecision": "year",
+      "title": "Yann LeCun publishes LeNet convolutional networks",
+      "summary": "Yann LeCun applied convolutional neural networks to handwritten digit recognition in 1989 — the LeNet architecture that foreshadowed AlexNet.",
+      "about": "LeNet ran on bank check readers for years before GPUs made deep CNNs mainstream. LeCun's work at AT&T Bell Labs proved convnets worked in production — not just theory.",
+      "narrative": {
+        "whyChosen": "LeNet was the first widely deployed convolutional neural network.",
+        "whyImportant": "It established CNNs as the architecture for spatial pattern recognition.",
+        "problemSolved": "Handwritten character recognition needed shift-invariant feature learning."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "computer-vision",
+        "cnn"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "LeCun et al. — Backpropagation Applied to Handwritten Zip Code Recognition (1989)",
+          "url": "https://en.wikipedia.org/wiki/LeNet",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — LeNet (overview)",
+          "url": "https://en.wikipedia.org/wiki/LeNet",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

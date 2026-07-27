@@ -1,0 +1,91 @@
+{
+  "events": [
+    {
+      "id": "rest-architectural-style-defined",
+      "slug": "rest-architectural-style-defined",
+      "date": "2000",
+      "datePrecision": "year",
+      "title": "REST architectural style defined",
+      "summary": "Roy Fielding's 2000 doctoral dissertation defined Representational State Transfer (REST) — an architectural style for scalable network APIs using HTTP resources and hypermedia.",
+      "about": "REST is not a library — it is a design approach: expose resources as URLs, use HTTP verbs (GET, POST, PUT, DELETE), keep servers stateless, and cache responses. Most 'REST APIs' today are HTTP+JSON without hypermedia, but the dissertation still names the constraints teams aim for. Fielding co-authored HTTP/1.1 while writing it.",
+      "narrative": {
+        "whyChosen": "REST gave a vocabulary for why the web's architecture scales — and influenced every public HTTP API since.",
+        "whyImportant": "It separated resource design from RPC-style endpoints and became the default mental model for web services.",
+        "problemSolved": "Ad-hoc HTTP APIs lacked shared constraints; developers needed principles for cacheable, layered, scalable systems."
+      },
+      "category": "protocol",
+      "tags": [
+        "rest",
+        "api",
+        "http",
+        "standard",
+        "architecture"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Fielding — Architectural Styles and the Design of Network-based Software Architectures (2000)",
+          "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm",
+          "role": "date"
+        },
+        {
+          "title": "Fielding — Chapter 5: Representational State Transfer (overview)",
+          "url": "https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "graphql-open-sourced",
+        "grpc-open-sourced",
+        "http-2-standardized",
+        "soap-1-1-published",
+        "swagger-1-0-released",
+        "json-rpc-1-0-published"
+      ]
+    },
+    {
+      "slug": "fabrice-bellard-ffmpeg-created",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "fabrice-bellard",
+          "name": "Fabrice Bellard",
+          "role": "creator"
+        }
+      ],
+      "id": "fabrice-bellard-ffmpeg-created",
+      "date": "2000",
+      "datePrecision": "year",
+      "title": "Fabrice Bellard creates FFmpeg",
+      "summary": "Fabrice Bellard started FFmpeg in 2000 — the multimedia toolkit behind YouTube transcoding, VLC, and countless video pipelines.",
+      "about": "FFmpeg's libavcodec/libavformat power video on the web — every streaming service transcodes with it or derivatives. Bellard also created QEMU and co-authored AV1-related research.",
+      "narrative": {
+        "whyChosen": "FFmpeg is the invisible engine behind web video encoding.",
+        "whyImportant": "It standardized open multimedia processing across platforms.",
+        "problemSolved": "Proprietary codecs and tools made video processing expensive and fragmented."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "multimedia",
+        "open-source"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "FFmpeg — Project history (2000)",
+          "url": "https://ffmpeg.org/about.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — FFmpeg (overview)",
+          "url": "https://en.wikipedia.org/wiki/FFmpeg",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

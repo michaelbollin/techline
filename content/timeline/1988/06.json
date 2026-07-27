@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ibm-as400-released",
+      "slug": "ibm-as400-released",
+      "date": "1988-06",
+      "datePrecision": "month",
+      "title": "IBM AS/400 announced",
+      "summary": "IBM announced the Application System/400 on June 21, 1988 — an integrated business computer with a single-level store and OS/400.",
+      "about": "The AS/400 (later IBM i) ran RPG and COBOL business apps on hardware IBM upgraded for decades without breaking software — a model of backward compatibility enterprise IT valued. Thousands of banks, manufacturers, and retailers still run workloads on its descendants. Backend developers in IBM midrange shops learned RPG, DB2, and green-screen terminals on this platform.",
+      "narrative": {
+        "whyChosen": "The AS/400 was IBM's flagship integrated business system for small and mid-sized enterprises.",
+        "whyImportant": "It demonstrated extreme software compatibility across hardware generations in production datacenters.",
+        "problemSolved": "Mid-market businesses needed reliable, integrated business computing without mainframe complexity."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "server", "ibm", "as400", "mainframe", "business"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "IBM — AS/400 announcement (June 21, 1988)",
+          "url": "https://www.ibm.com/history/as400",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — IBM AS/400 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IBM_AS/400",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-system-360-announced", "ibm-pc-5150-released", "cobol-specifications-submitted"]
+    }
+  ]
+}

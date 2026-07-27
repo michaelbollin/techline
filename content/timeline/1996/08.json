@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["netscape-navigator-2-0", "internet-explorer-4-0", "ecmascript-1-adopted"]
+    },
+    {
+      "id": "nokia-9000-communicator-released",
+      "slug": "nokia-9000-communicator-released",
+      "date": "1996-08",
+      "datePrecision": "month",
+      "title": "Nokia 9000 Communicator released",
+      "summary": "Nokia launched the 9000 Communicator in August 1996 — a clamshell phone that opened to reveal a QWERTY keyboard and full GeOS PDA.",
+      "about": "The Communicator combined GSM voice with fax, email, and web browsing in one device — a blueprint for later smartphones. Executives carried them across Europe before BlackBerry conquered North American enterprise email. Mobile developers built GeOS apps and WAP services for Nokia's high-end line.",
+      "narrative": {
+        "whyChosen": "The 9000 Communicator was the first widely sold smartphone-form-factor device with a full keyboard and PDA software.",
+        "whyImportant": "It established the 'communicator' category that Nokia dominated for a decade.",
+        "problemSolved": "Mobile professionals needed phone, email, and organizer features without carrying two devices."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "smartphone", "nokia", "communicator", "pda"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Nokia 9000 Communicator (August 1996)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_9000",
+          "role": "date"
+        },
+        {
+          "title": "Nokia — Communicator heritage (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_9000",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-simon-released", "palm-pilot-1000-released", "blackberry-5810-released", "iphone-goes-on-sale"]
     }
   ]
 }

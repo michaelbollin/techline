@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "osborne-1-released",
+      "slug": "osborne-1-released",
+      "date": "1981-04",
+      "datePrecision": "month",
+      "title": "Osborne 1 released",
+      "summary": "Osborne Computer Corporation began shipping the Osborne 1 in April 1981 — the first commercially successful portable computer.",
+      "about": "The Osborne 1 weighed 24 pounds with a 5-inch screen and dual floppy drives — users carried a complete CP/M system between home and office. Its bundled software bundle pioneered the \"killer app\" sales model. Though short-lived as a company, Osborne proved demand for luggable computers before the IBM PC dominated portables.",
+      "narrative": {
+        "whyChosen": "The Osborne 1 was the first mass-market portable microcomputer sold to businesses.",
+        "whyImportant": "It established the portable form factor and software-bundle strategy for early PC vendors.",
+        "problemSolved": "Professionals needed to run business software away from the office without access to a desktop machine."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "portable", "osborne", "cp-m"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Osborne 1 (released April 1981)",
+          "url": "https://en.wikipedia.org/wiki/Osborne_1",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Portable computers (overview)",
+          "url": "https://www.computerhistory.org/revolution/personal-computers/17/301",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ibm-pc-5150-released", "compaq-portable-released", "grid-compass-released"]
+    }
+  ]
+}

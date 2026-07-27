@@ -14,7 +14,13 @@
         "problemSolved": "Large JavaScript projects lacked static checking and scalable module structure."
       },
       "category": "software",
-      "tags": ["typescript", "microsoft", "javascript", "programming-language"],
+      "tags": [
+        "typescript",
+        "microsoft",
+        "javascript",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +35,141 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["typescript-preview-released", "typescript-5-0-released", "angular-2-released"]
+      "relatedIds": [
+        "typescript-preview-released",
+        "typescript-5-0-released",
+        "angular-2-released"
+      ]
+    },
+    {
+      "id": "express-4-released",
+      "slug": "express-4-released",
+      "date": "2014-04-28",
+      "datePrecision": "day",
+      "title": "Express 4.0 released",
+      "summary": "Express 4.0 shipped on April 28, 2014 — removing Connect middleware bundling and stabilizing the router for production Node APIs.",
+      "about": "Express 4 split built-in middleware into separate packages and fixed the router — the version that powered the MEAN stack and early REST microservices. Most Node tutorials and boilerplates still trace back to Express 4's API surface.",
+      "narrative": {
+        "whyChosen": "Express 4 was the stable baseline for Node web APIs through the 2010s.",
+        "whyImportant": "A cleaner router and middleware model defined how Node handles HTTP.",
+        "problemSolved": "Express 3 bundled deprecated Connect middleware and had router edge cases in production."
+      },
+      "category": "software",
+      "tags": [
+        "express",
+        "nodejs",
+        "web-framework",
+        "middleware"
+      ],
+      "people": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Express — Migrating to Express 4 (April 28, 2014)",
+          "url": "https://expressjs.com/en/guide/migrating-4.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Express.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Express.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "express-released",
+        "nodejs-first-released",
+        "nestjs-announced"
+      ]
+    },
+    {
+      "slug": "brendan-eich-mozilla-ceo-resigns",
+      "media": [],
+      "relatedIds": [
+        "javascript-name-announced"
+      ],
+      "people": [
+        {
+          "id": "brendan-eich",
+          "name": "Brendan Eich",
+          "role": "ceo"
+        }
+      ],
+      "id": "brendan-eich-mozilla-ceo-resigns",
+      "date": "2014-04-03",
+      "datePrecision": "day",
+      "title": "Brendan Eich resigns as Mozilla CEO",
+      "summary": "Brendan Eich resigned as Mozilla CEO on April 3, 2014 after only days in the role — controversy over a political donation.",
+      "about": "Eich created JavaScript in ten days in 1995 and later co-founded Brave. His brief Mozilla tenure and exit showed how founder-legends intersect with modern corporate governance and community politics.",
+      "narrative": {
+        "whyChosen": "Eich embodies JavaScript's creation and a dramatic open-source leadership moment.",
+        "whyImportant": "It raised questions about separating creators' personal views from their technical legacy.",
+        "problemSolved": "Mozilla faced community trust crisis immediately after appointing a co-founder as CEO."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "mozilla",
+        "javascript",
+        "ceo"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Mozilla — Brendan Eich steps down (April 3, 2014)",
+          "url": "https://blog.mozilla.org/press/2014/04/mozilla-announces-plans-for-new-ceo/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Brendan Eich (overview)",
+          "url": "https://en.wikipedia.org/wiki/Brendan_Eich",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "tom-preston-werner-github-resigns",
+      "media": [],
+      "relatedIds": [
+        "github-launched"
+      ],
+      "people": [
+        {
+          "id": "tom-preston-werner",
+          "name": "Tom Preston-Werner",
+          "role": "co-founder"
+        }
+      ],
+      "id": "tom-preston-werner-github-resigns",
+      "date": "2014-04-21",
+      "datePrecision": "day",
+      "title": "Tom Preston-Werner resigns from GitHub",
+      "summary": "GitHub co-founder Tom Preston-Werner resigned on April 21, 2014 after an internal investigation into workplace conduct.",
+      "about": "Preston-Werner co-created GitHub, Jekyll, and Semantic Versioning — but his departure forced GitHub to add formal management after years of a flat structure. The episode marked a turning point in Silicon Valley workplace culture discourse.",
+      "narrative": {
+        "whyChosen": "Preston-Werner's exit ended GitHub's founder-led flat organization era.",
+        "whyImportant": "It prompted GitHub to institutionalize management and HR processes at scale.",
+        "problemSolved": "A bossless culture lacked accountability mechanisms when internal conflicts escalated."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "github",
+        "founding"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "The Verge — Preston-Werner resigns (April 21, 2014)",
+          "url": "https://www.theverge.com/2014/4/21/5637282/co-founder-is-out-at-github-after-investigation-into-harassment-claims-horvath-tom-preston-warner",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Tom Preston-Werner (overview)",
+          "url": "https://en.wikipedia.org/wiki/Tom_Preston-Werner",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

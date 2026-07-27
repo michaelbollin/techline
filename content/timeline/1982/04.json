@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "grid-compass-released",
+      "slug": "grid-compass-released",
+      "date": "1982-04",
+      "datePrecision": "month",
+      "title": "GRiD Compass released",
+      "summary": "GRiD Systems began shipping the Compass in April 1982 — a clamshell laptop with a folding screen and Intel 8086 processor.",
+      "about": "The Compass pioneered the clamshell laptop design NASA and the U.S. military adopted — magnesium case, plasma display, and 340 KB bubble memory. At $8,000 it targeted executives, not hobbyists, but its form factor influenced every notebook that followed. Mobile computing's physical template started here.",
+      "narrative": {
+        "whyChosen": "The GRiD Compass invented the clamshell laptop form factor used by every notebook since.",
+        "whyImportant": "It proved folding-screen portables could be rugged enough for government and enterprise use.",
+        "problemSolved": "Early portables were heavy luggables; users needed a compact machine that closed like a briefcase."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "portable", "grid", "x86"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — GRiD Compass (released April 1982)",
+          "url": "https://en.wikipedia.org/wiki/GRiD_Compass",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Laptop computers (overview)",
+          "url": "https://www.computerhistory.org/revolution/personal-computers/17/301",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["osborne-1-released", "ibm-thinkpad-700c-released", "apple-powerbook-released", "apple-macbook-air-released"]
+    }
+  ]
+}

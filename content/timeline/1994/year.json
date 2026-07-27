@@ -1,0 +1,178 @@
+{
+  "events": [
+    {
+      "id": "anita-borg-grace-hopper-conference",
+      "slug": "anita-borg-grace-hopper-conference",
+      "date": "1994",
+      "datePrecision": "year",
+      "title": "Anita Borg founds Grace Hopper Celebration",
+      "summary": "Anita Borg co-founded the Grace Hopper Celebration in 1994 — the largest gathering of women technologists.",
+      "about": "GHC became the flagship conference for women in computing — influencing hiring pipelines and community building across industry and academia. Borg also created Systers, an early online forum for women in tech.",
+      "narrative": {
+        "whyChosen": "GHC shaped diversity efforts in software engineering hiring and retention.",
+        "whyImportant": "It created visible community for underrepresented developers at scale.",
+        "problemSolved": "Women in computing lacked institutional networks and conference representation."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "diversity",
+        "community"
+      ],
+      "people": [
+        {
+          "id": "anita-borg",
+          "name": "Anita Borg",
+          "role": "founder"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "AnitaB.org — Grace Hopper Celebration history (1994)",
+          "url": "https://www.anitab.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Anita Borg (overview)",
+          "url": "https://en.wikipedia.org/wiki/Anita_Borg",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "id": "alexander-stepanov-stl-published",
+      "slug": "alexander-stepanov-stl-published",
+      "date": "1994",
+      "datePrecision": "year",
+      "title": "Alexander Stepanov publishes the STL",
+      "summary": "Alexander Stepanov and Meng Lee published the Standard Template Library in 1994 — generic algorithms that became core C++.",
+      "about": "The STL introduced iterators, containers, and algorithms as reusable abstractions — influencing Java collections, C# LINQ, and Rust iterators. Stepanov's generic programming philosophy shaped modern systems languages.",
+      "narrative": {
+        "whyChosen": "The STL defined generic programming for industrial C++.",
+        "whyImportant": "It separated algorithms from data structures via iterators.",
+        "problemSolved": "C++ lacked reusable container and algorithm libraries without copy-paste."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "cpp",
+        "generic-programming",
+        "library"
+      ],
+      "people": [
+        {
+          "id": "alexander-stepanov",
+          "name": "Alexander Stepanov",
+          "role": "creator"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "HP Labs — STL first release (1994)",
+          "url": "https://en.wikipedia.org/wiki/Standard_Template_Library",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Standard Template Library (overview)",
+          "url": "https://en.wikipedia.org/wiki/Standard_Template_Library",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bjarne-stroustrup-cpp-released"
+      ]
+    },
+    {
+      "id": "bruce-schneier-applied-cryptography",
+      "slug": "bruce-schneier-applied-cryptography",
+      "date": "1994",
+      "datePrecision": "year",
+      "title": "Bruce Schneier publishes Applied Cryptography",
+      "summary": "Bruce Schneier published Applied Cryptography in 1994 — the practical handbook that taught a generation of developers how crypto works.",
+      "about": "Schneier's book explained block ciphers, hashes, protocols, and implementation pitfalls in plain language — before crypto was baked into every web framework. It shaped how engineers reason about TLS, passwords, and threat models.",
+      "narrative": {
+        "whyChosen": "Applied Cryptography became the standard developer introduction to real-world crypto.",
+        "whyImportant": "It bridged academic cryptography and software engineering practice.",
+        "problemSolved": "Programmers lacked accessible guidance on using crypto libraries safely."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "cryptography",
+        "author",
+        "security"
+      ],
+      "people": [
+        {
+          "id": "bruce-schneier",
+          "name": "Bruce Schneier",
+          "role": "author"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Schneier on Security — Applied Cryptography (1994)",
+          "url": "https://www.schneier.com/books/applied-cryptography/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Applied Cryptography (overview)",
+          "url": "https://en.wikipedia.org/wiki/Applied_Cryptography",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    },
+    {
+      "slug": "joy-most-smart-people-elsewhere",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "bill-joy",
+          "name": "Bill Joy",
+          "role": "co-founder"
+        }
+      ],
+      "category": "quote",
+      "id": "joy-most-smart-people-elsewhere",
+      "date": "1994",
+      "datePrecision": "year",
+      "title": "Bill Joy: \"most of the smartest people work for someone else\"",
+      "quoteText": "No matter who you are, most of the smartest people work for someone else.",
+      "summary": "Sun co-founder Bill Joy's observation — later called Joy's Law — argues that no company can hire all the talent it needs in-house.",
+      "about": "Joy's line underpins open innovation, APIs, and partner ecosystems: build platforms others extend rather than trying to own every smart person. Kevin Kelly popularized it in Out of Control; it still explains why walled gardens lose to networks.",
+      "narrative": {
+        "whyChosen": "The strategic case for platforms over headcount.",
+        "whyImportant": "It reframed competition from hiring wars to ecosystem design.",
+        "problemSolved": "Tech giants assumed internal R&D could out-invent the rest of the world."
+      },
+      "tags": [
+        "quote",
+        "insight",
+        "open-innovation",
+        "startups"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Kevin Kelly — Out of Control (1994, citing Bill Joy)",
+          "url": "https://en.wikipedia.org/wiki/Joy%27s_law",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Joy's law (overview)",
+          "url": "https://en.wikipedia.org/wiki/Joy%27s_law",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

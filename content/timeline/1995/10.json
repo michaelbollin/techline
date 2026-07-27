@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "slug": "theo-de-raadt-openbsd-forked",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "theo-de-raadt",
+          "name": "Theo de Raadt",
+          "role": "founder"
+        }
+      ],
+      "id": "theo-de-raadt-openbsd-forked",
+      "date": "1995-10",
+      "datePrecision": "month",
+      "title": "Theo de Raadt forks OpenBSD",
+      "summary": "Theo de Raadt forked OpenBSD from NetBSD in October 1995 — pioneering proactive security auditing and code correctness.",
+      "about": "OpenBSD's 'only two remote holes in the default install' slogan and innovations like OpenSSH, LibreSSL, and W^X memory protection influenced secure systems design across the industry.",
+      "narrative": {
+        "whyChosen": "OpenBSD set the standard for security-first Unix development.",
+        "whyImportant": "OpenSSH alone secured remote administration for the entire internet.",
+        "problemSolved": "General-purpose BSDs did not prioritize continuous security review."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "security",
+        "open-source",
+        "operating-system"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "OpenBSD — Project history (October 1995)",
+          "url": "https://www.openbsd.org/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OpenBSD (overview)",
+          "url": "https://en.wikipedia.org/wiki/OpenBSD",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

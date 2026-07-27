@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "id": "intellij-idea-released",
+      "slug": "intellij-idea-released",
+      "date": "2001-01",
+      "datePrecision": "month",
+      "title": "IntelliJ IDEA released",
+      "summary": "JetBrains shipped IntelliJ IDEA in January 2001 — a Java IDE with deep code navigation, refactoring, and static analysis built in.",
+      "about": "IntelliJ IDEA popularized smart autocomplete, safe rename, and extract-method refactors in Java before competitors caught up. It grew into a platform for Kotlin, Android Studio, and plugin ecosystems spanning Python, Go, and Rust. Teams still benchmark other IDEs against its refactoring and find-usages accuracy.",
+      "narrative": {
+        "whyChosen": "IntelliJ IDEA set the bar for IDE intelligence and influenced every major editor since.",
+        "whyImportant": "It proved developers would pay for tooling that understands code structure, not just text.",
+        "problemSolved": "Early Java IDEs were glorified text editors; large codebases needed automated navigation and safe refactors."
+      },
+      "category": "software",
+      "tags": [
+        "intellij",
+        "ide",
+        "jetbrains",
+        "java",
+        "refactoring"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — IntelliJ IDEA (first release January 2001)",
+          "url": "https://en.wikipedia.org/wiki/IntelliJ_IDEA",
+          "role": "date"
+        },
+        {
+          "title": "JetBrains — IntelliJ IDEA (overview)",
+          "url": "https://www.jetbrains.com/idea/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "java-1-0-shipped",
+        "visual-studio-code-preview",
+        "eclipse-open-sourced"
+      ]
+    },
+    {
+      "slug": "wikipedia-launched",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "jimmy-wales",
+          "name": "Jimmy Wales",
+          "role": "co-founder"
+        },
+        {
+          "id": "larry-sanger",
+          "name": "Larry Sanger",
+          "role": "co-founder"
+        }
+      ],
+      "id": "wikipedia-launched",
+      "date": "2001-01-15",
+      "datePrecision": "day",
+      "title": "Wikipedia launched",
+      "summary": "Jimmy Wales and Larry Sanger launched Wikipedia on January 15, 2001 — a collaboratively edited encyclopedia that became developers' default reference.",
+      "about": "Wikipedia is the overview source cited across Techline events — and the daily starting point for programmers researching APIs, history, and standards. Its wiki model influenced internal company wikis and Ward Cunningham's original wiki concept.",
+      "narrative": {
+        "whyChosen": "Wikipedia became the universal free reference for technical and historical facts.",
+        "whyImportant": "It proved large-scale collaborative knowledge curation could work.",
+        "problemSolved": "Authoritative encyclopedias were expensive, slow to update, and incomplete on tech topics."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "wiki",
+        "open-source"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Wikipedia — Wikipedia launched (January 15, 2001)",
+          "url": "https://en.wikipedia.org/wiki/Wikipedia",
+          "role": "date"
+        },
+        {
+          "title": "Wikimedia Foundation — About Wikipedia (overview)",
+          "url": "https://www.wikimedia.org/",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

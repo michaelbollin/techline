@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "trs-80-model-i-released",
+      "slug": "trs-80-model-i-released",
+      "date": "1977-08",
+      "datePrecision": "month",
+      "title": "TRS-80 Model I released",
+      "summary": "Radio Shack began selling the TRS-80 Model I in August 1977 — bringing personal computing to its nationwide retail chain.",
+      "about": "The 'Trash-80' ran Level I BASIC on a Z80 with cassette storage and optional floppy drives. Radio Shack's store footprint put PCs in suburban malls — not just computer fairs. Developers wrote business software, games, and magazine type-in programs; the platform trained hobbyists who later moved to IBM compatibles.",
+      "narrative": {
+        "whyChosen": "The TRS-80 was the first mass-retail personal computer sold through a national electronics chain.",
+        "whyImportant": "It proved consumer electronics stores could move complete computer systems at scale.",
+        "problemSolved": "Personal computers were sold through niche mail-order and hobby shops with little mainstream reach."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "pc", "trs-80", "radio-shack", "8-bit", "microcomputer"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "TRS-80.org — Model I history (August 1977 release)",
+          "url": "https://www.trs-80.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TRS-80 (overview)",
+          "url": "https://en.wikipedia.org/wiki/TRS-80",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["apple-ii-introduced", "commodore-pet-2001-released", "altair-8800-released", "ibm-pc-5150-released"]
+    }
+  ]
+}

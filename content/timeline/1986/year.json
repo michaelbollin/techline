@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "slug": "grace-hopper-nanoseconds-lecture",
+      "media": [],
+      "relatedIds": [
+        "cobol-specifications-submitted"
+      ],
+      "people": [
+        {
+          "id": "grace-hopper",
+          "name": "Grace Hopper",
+          "role": "researcher"
+        }
+      ],
+      "id": "grace-hopper-nanoseconds-lecture",
+      "date": "1986",
+      "datePrecision": "year",
+      "title": "Grace Hopper popularizes nanosecond wire demonstration",
+      "summary": "Rear Admiral Grace Hopper toured the 1980s explaining nanoseconds with physical wire — evangelizing why short programs and fast hardware matter.",
+      "about": "Hopper helped standardize COBOL and pushed high-level languages on the military and industry. Her teaching made latency tangible for generations of managers and programmers beyond the 1959 COBOL specification event.",
+      "narrative": {
+        "whyChosen": "Hopper was the most visible advocate for programmer-friendly languages in industry.",
+        "whyImportant": "She bridged military procurement and commercial software standardization.",
+        "problemSolved": "Hardware buyers underestimated how physical distance limits computer speed."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "cobol",
+        "advocacy"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Yale — Grace Murray Hopper archives",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Grace Hopper (overview)",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "michael-stonebraker-postgres-research",
+      "media": [],
+      "relatedIds": [
+        "postgresql-6-released",
+        "oracle-2-released"
+      ],
+      "people": [
+        {
+          "id": "michael-stonebraker",
+          "name": "Michael Stonebraker",
+          "role": "researcher"
+        }
+      ],
+      "id": "michael-stonebraker-postgres-research",
+      "date": "1986",
+      "datePrecision": "year",
+      "title": "Michael Stonebraker leads the Postgres project",
+      "summary": "Michael Stonebraker led the Postgres database project at UC Berkeley in 1986 — extending Ingres with object-relational ideas that became PostgreSQL.",
+      "about": "Stonebraker's Ingres (1970s) and Postgres pioneered relational databases in academia before commercial Oracle and DB2 dominated. PostgreSQL is now the default open-source RDBMS for startups and enterprises.",
+      "narrative": {
+        "whyChosen": "Stonebraker's Berkeley projects spawned PostgreSQL and modern open-source SQL.",
+        "whyImportant": "Postgres extended relational databases with extensibility and advanced types.",
+        "problemSolved": "Relational systems needed richer data models without abandoning SQL."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "database",
+        "postgres",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "UC Berkeley — Postgres project (1986)",
+          "url": "https://en.wikipedia.org/wiki/PostgreSQL",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Michael Stonebraker (overview)",
+          "url": "https://en.wikipedia.org/wiki/Michael_Stonebraker",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

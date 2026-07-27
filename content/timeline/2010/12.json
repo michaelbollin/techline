@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "chromebook-cr-48-pilot",
+      "slug": "chromebook-cr-48-pilot",
+      "date": "2010-12",
+      "datePrecision": "month",
+      "title": "Chromebook CR-48 pilot begins",
+      "summary": "Google began shipping CR-48 Chromebook prototypes to beta testers in December 2010 — the first Chrome OS laptops.",
+      "about": "The CR-48 had no caps-lock key (replaced with Search), booted to the browser in seconds, and stored everything in the cloud. Developers tested web apps on a laptop that assumed always-on connectivity — foreshadowing Chromebooks in schools and enterprises. Chrome OS later added Android and Linux app support, but the CR-48 proved a browser could be the whole OS.",
+      "narrative": {
+        "whyChosen": "The CR-48 pilot launched the Chromebook category and Chrome OS as a laptop platform.",
+        "whyImportant": "It validated cloud-first computing for mainstream hardware beyond netbooks.",
+        "problemSolved": "Traditional laptops carried slow boot times, heavy local software, and complex IT management."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "laptop", "google", "chromebook", "chrome-os"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Blog — Chrome OS pilot program (December 2010)",
+          "url": "https://blog.google/products/chromebooks/chrome-os-pilot-program/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Chromebook (overview)",
+          "url": "https://en.wikipedia.org/wiki/Chromebook",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-chrome-released", "intel-atom-announced", "ipad-introduced"]
+    }
+  ]
+}

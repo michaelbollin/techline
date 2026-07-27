@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "steve-jobs-returns-to-apple",
+      "slug": "steve-jobs-returns-to-apple",
+      "date": "1997-07-09",
+      "datePrecision": "day",
+      "title": "Steve Jobs returns to Apple as interim CEO",
+      "summary": "Apple's board named Steve Jobs interim CEO on July 9, 1997 after acquiring NeXT — beginning Apple's turnaround.",
+      "about": "Jobs killed failing product lines, introduced the iMac, and steered Apple toward design-led consumer hardware and developer-friendly macOS. The return set up the iPod, iPhone, and App Store ecosystem that reshaped mobile computing.",
+      "narrative": {
+        "whyChosen": "Jobs' return is the pivot point for modern Apple as a platform company.",
+        "whyImportant": "It reunited hardware, software, and design under one product vision.",
+        "problemSolved": "Apple was near bankruptcy with fragmented products and no clear OS strategy."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "apple",
+        "ceo"
+      ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "ceo"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Apple buys NeXT, Jobs returns (December 1997 context; interim CEO July 1997)",
+          "url": "https://www.apple.com/newsroom/1997/12/20Apple-to-Acquire-NeXT-Software-Inc/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Steve Jobs (overview)",
+          "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "safari-announced",
+        "swift-announced"
+      ]
+    }
+  ]
+}

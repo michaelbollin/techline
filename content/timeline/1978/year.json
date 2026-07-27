@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "slug": "donald-knuth-tex-development",
+      "media": [],
+      "relatedIds": [
+        "knuth-taocp-volume-1-published"
+      ],
+      "people": [
+        {
+          "id": "donald-knuth",
+          "name": "Donald Knuth",
+          "role": "creator"
+        }
+      ],
+      "id": "donald-knuth-tex-development",
+      "date": "1978",
+      "datePrecision": "year",
+      "title": "Donald Knuth begins developing TeX",
+      "summary": "Donald Knuth began developing TeX in 1978 after dissatisfaction with typesetting for The Art of Computer Programming.",
+      "about": "TeX and METAFONT became the standard for mathematical and scientific publishing — still used by arXiv, academia, and Knuth's own books. TeX influenced modern typesetting pipelines and the idea of literate programming.",
+      "narrative": {
+        "whyChosen": "TeX is the dominant open typesetting system for technical documents.",
+        "whyImportant": "It proved programmers could build publication-quality typography from scratch.",
+        "problemSolved": "Commercial typesetting could not handle complex mathematics to Knuth's standards."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "typography",
+        "research",
+        "author"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Knuth — TeX development began (1978)",
+          "url": "https://www.ctan.org/pkg/tex",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TeX (overview)",
+          "url": "https://en.wikipedia.org/wiki/TeX",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

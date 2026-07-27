@@ -14,7 +14,13 @@
         "problemSolved": "Flutter shipped with legacy nullable Dart; the ecosystem had to migrate or stall."
       },
       "category": "software",
-      "tags": ["dart", "flutter", "programming-language", "mobile"],
+      "tags": [
+        "dart",
+        "flutter",
+        "programming-language",
+        "mobile"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dart-unveiled"]
+      "relatedIds": [
+        "dart-unveiled"
+      ]
     },
     {
       "id": "erlang-otp-26-released",
@@ -45,7 +53,14 @@
         "problemSolved": "Teams relied on third-party JSON libraries with inconsistent APIs and performance."
       },
       "category": "software",
-      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
+      "tags": [
+        "erlang",
+        "otp",
+        "beam",
+        "programming-language",
+        "elixir"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +75,110 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["erlang-otp-25-released", "erlang-otp-24-released", "elixir-1-14-released"]
+      "relatedIds": [
+        "erlang-otp-25-released",
+        "erlang-otp-24-released",
+        "elixir-1-14-released"
+      ]
+    },
+    {
+      "id": "geoffrey-hinton-google-departure",
+      "slug": "geoffrey-hinton-google-departure",
+      "date": "2023-05-01",
+      "datePrecision": "day",
+      "title": "Geoffrey Hinton leaves Google warning of AI risks",
+      "summary": "Geoffrey Hinton resigned from Google on May 1, 2023 to speak freely about existential risks from rapidly advancing AI — the godfather of deep learning sounding an alarm.",
+      "about": "Hinton had spent a decade at Google after AlexNet, but said he regretted his life's work as models scaled. His departure amplified global debate on AI safety, regulation, and the pace of deployment beyond academic circles.",
+      "narrative": {
+        "whyChosen": "Hinton's exit turned a research pioneer into the public face of AI-risk concern.",
+        "whyImportant": "It lent credibility to safety advocacy from inside the deep learning establishment.",
+        "problemSolved": "Researchers inside Big Tech lacked freedom to warn about harms without leaving."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "ai-safety",
+        "google"
+      ],
+      "people": [
+        {
+          "id": "geoffrey-hinton",
+          "name": "Geoffrey Hinton",
+          "role": "researcher"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "The New York Times — Geoffrey Hinton leaves Google (May 1, 2023)",
+          "url": "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Geoffrey Hinton (overview)",
+          "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "hinton-alexnet-imagenet-breakthrough",
+        "deep-learning-turing-trio-2018"
+      ]
+    },
+    {
+      "slug": "altman-ai-goes-wrong",
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=fP5YdyjTfG0",
+          "title": "Sam Altman Senate testimony on AI oversight (May 16, 2023)"
+        }
+      ],
+      "relatedIds": [
+        "sam-altman-openai-founded"
+      ],
+      "people": [
+        {
+          "id": "sam-altman",
+          "name": "Sam Altman",
+          "role": "ceo"
+        }
+      ],
+      "category": "quote",
+      "id": "altman-ai-goes-wrong",
+      "date": "2023-05-16",
+      "datePrecision": "day",
+      "title": "Sam Altman: \"If this technology goes wrong, it can go quite wrong\"",
+      "quoteText": "If this technology goes wrong, it can go quite wrong, and we want to be vocal about that.",
+      "summary": "OpenAI CEO Sam Altman tells the Senate Judiciary Committee that frontier AI needs government oversight — while arguing for licensing and safety testing.",
+      "about": "Altman walked a tightrope: urging regulation that could entrench incumbents while presenting OpenAI as the responsible actor. The line became the sound bite from the first major congressional hearing on generative AI.",
+      "narrative": {
+        "whyChosen": "The defining quote from Congress's first ChatGPT-era AI hearing.",
+        "whyImportant": "It mainstreamed AI risk talk in Washington months after ChatGPT's launch.",
+        "problemSolved": "Lawmakers needed a vocabulary for catastrophic AI failure from industry itself."
+      },
+      "tags": [
+        "quote",
+        "warning",
+        "ai",
+        "openai",
+        "policy"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "U.S. Senate — Oversight of A.I. hearing (May 16, 2023)",
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-118shrg52706/html/CHRG-118shrg52706.htm",
+          "role": "date"
+        },
+        {
+          "title": "Ars Technica — Altman Senate testimony (overview)",
+          "url": "https://arstechnica.com/tech-policy/2023/05/ai-technology-can-go-quite-wrong-openai-ceo-tells-senate/",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

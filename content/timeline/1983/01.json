@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "tcp-ip-flag-day",
+      "slug": "tcp-ip-flag-day",
+      "date": "1983-01-01",
+      "datePrecision": "day",
+      "title": "ARPANET switches to TCP/IP",
+      "summary": "On January 1, 1983, ARPANET permanently replaced NCP with TCP/IP — the coordinated 'flag day' that became the foundation of the modern internet.",
+      "about": "TCP/IP splits networking into IP (routing packets between hosts) and TCP (reliable byte streams). Every HTTP request, SSH session, and database connection still rides this stack. The flag day meant all ARPANET hosts had to switch at once or lose connectivity — no gradual migration.",
+      "narrative": {
+        "whyChosen": "TCP/IP flag day is the birth moment of the interoperable internet protocol suite.",
+        "whyImportant": "It let independent networks interconnect and scaled beyond a single research WAN.",
+        "problemSolved": "NCP could not support internetworking; the internet needed open, layered protocols every host could speak."
+      },
+      "category": "protocol",
+      "tags": ["tcp-ip", "protocol", "internet", "arpanet", "ietf"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Internet Society — ARPANET TCP/IP transition (January 1, 1983)",
+          "url": "https://www.internetsociety.org/internet/history-internet/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Flag day (computing) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Flag_day_(computing)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["http-1-1-standardized", "dns-standardized", "ftp-standardized"]
+    },
+    {
+      "id": "apple-lisa-released",
+      "slug": "apple-lisa-released",
+      "date": "1983-01-19",
+      "datePrecision": "day",
+      "title": "Apple Lisa released",
+      "summary": "Apple began selling the Lisa on January 19, 1983 — a GUI workstation with a mouse, overlapping windows, and protected multitasking.",
+      "about": "The Lisa ran a document-centric desktop with pull-down menus and a 5 MHz Motorola 68000 — technology Apple refined for the Macintosh a year later. Its high price limited sales, but the Lisa Office System proved graphical computing could replace command lines for knowledge workers. Developers saw the future of desktop UI before the Mac made it affordable.",
+      "narrative": {
+        "whyChosen": "The Lisa was Apple's first commercial computer with a full graphical user interface and mouse.",
+        "whyImportant": "It validated GUI concepts that the Macintosh would bring to the mass market.",
+        "problemSolved": "Business users needed intuitive visual interfaces instead of memorizing command-line syntax."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "workstation", "apple", "gui", "lisa"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Lisa introduction (January 19, 1983)",
+          "url": "https://www.apple.com/newsroom/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apple Lisa (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apple_Lisa",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["macintosh-128k-released", "xerox-alto-operational", "apple-ii-introduced", "steve-jobs-returns-to-apple"]
+    }
+  ]
+}

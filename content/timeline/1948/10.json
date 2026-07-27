@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "claude-shannon-information-theory",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "claude-shannon",
+          "name": "Claude Shannon",
+          "role": "researcher"
+        }
+      ],
+      "id": "claude-shannon-information-theory",
+      "date": "1948-10",
+      "datePrecision": "month",
+      "title": "Claude Shannon publishes information theory",
+      "summary": "Claude Shannon's 'A Mathematical Theory of Communication' appeared in October 1948 — defining entropy, channels, and digital information.",
+      "about": "Shannon's work underlies compression, error correction, cryptography, and every digital network. Programmers encounter his ideas in hashing, coding theory, and the bit as the atomic unit of data.",
+      "narrative": {
+        "whyChosen": "Information theory is the mathematical foundation of digital computing and networking.",
+        "whyImportant": "It quantified information and set limits on reliable communication.",
+        "problemSolved": "Engineers lacked a unified theory for noise, compression, and channel capacity."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "information-theory",
+        "research"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Bell System Technical Journal — Shannon 1948 paper",
+          "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Information theory (overview)",
+          "url": "https://en.wikipedia.org/wiki/Information_theory",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

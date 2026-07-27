@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "graphql-foundation-announced",
+      "slug": "graphql-foundation-announced",
+      "date": "2018-11-06",
+      "datePrecision": "day",
+      "title": "GraphQL Foundation announced",
+      "summary": "The Linux Foundation announced the GraphQL Foundation on November 6, 2018 — a vendor-neutral home for the GraphQL specification and ecosystem.",
+      "about": "The foundation stewards the GraphQL spec, reference implementations, and community governance outside any single company. Airbnb, Apollo, GitHub, Shopify, and others joined as members. It marked GraphQL's shift from a Facebook project to industry infrastructure alongside REST and gRPC.",
+      "narrative": {
+        "whyChosen": "Neutral governance was the milestone that let enterprises bet on GraphQL long-term.",
+        "whyImportant": "It separated the query language from Meta and aligned it with other Linux Foundation open standards.",
+        "problemSolved": "A single-vendor spec slowed adoption; the community needed open, versioned stewardship."
+      },
+      "category": "software",
+      "tags": ["graphql", "api", "standard", "open-source", "linux-foundation"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Linux Foundation — Intent to form GraphQL Foundation (November 6, 2018)",
+          "url": "https://www.linuxfoundation.org/press/press-release/intent_to_form_graphql",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GraphQL (overview)",
+          "url": "https://en.wikipedia.org/wiki/GraphQL",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["graphql-open-sourced"]
+    }
+  ]
+}

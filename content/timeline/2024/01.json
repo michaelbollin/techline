@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "elixir-1-16-released",
+      "slug": "elixir-1-16-released",
+      "date": "2024-01-28",
+      "datePrecision": "day",
+      "title": "Elixir 1.16 released",
+      "summary": "The Elixir team released Elixir 1.16 on January 28, 2024 with type inference in patterns, `Duration` and `DateTime` improvements, and faster compilation.",
+      "about": "Elixir 1.16 brought gradual typing ergonomics to everyday code — inferring types in function heads and guards. Combined with OTP 26/27 JSON support, it kept the BEAM stack current for Phoenix, LiveView, and Nerves embedded apps.",
+      "narrative": {
+        "whyChosen": "Elixir 1.16 advanced type information without a full static type system.",
+        "whyImportant": "Inferred types caught bugs earlier while preserving Elixir's dynamic feel.",
+        "problemSolved": "Teams wanted more compile-time safety without adopting a separate typed language."
+      },
+      "category": "software",
+      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Elixir Blog — Announcing Elixir v1.16 (January 28, 2024)",
+          "url": "https://elixir-lang.org/blog/2024/01/28/elixir-1-16-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elixir (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["elixir-1-14-released", "elixir-1-0-released", "erlang-otp-27-released"]
+    }
+  ]
+}

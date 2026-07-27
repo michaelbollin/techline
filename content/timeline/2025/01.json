@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "deepseek-r1-released",
+      "slug": "deepseek-r1-released",
+      "date": "2025-01-20",
+      "datePrecision": "day",
+      "title": "DeepSeek R1 released",
+      "summary": "DeepSeek released R1 on January 20, 2025 — an open-weight reasoning model matching o1-class performance at a fraction of the training cost.",
+      "about": "DeepSeek R1 shook the AI industry: strong math and coding results with open weights and transparent training details. It triggered a market reaction over inference economics and proved Chinese labs could ship frontier reasoning models competitively.",
+      "narrative": {
+        "whyChosen": "DeepSeek R1 disrupted assumptions about who could build frontier reasoning models.",
+        "whyImportant": "Open reasoning weights challenged closed API dominance and pricing models.",
+        "problemSolved": "Teams wanted o1-class reasoning without proprietary API lock-in or extreme costs."
+      },
+      "category": "software",
+      "tags": ["ai", "deepseek", "llm", "open-source", "reasoning", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "DeepSeek — DeepSeek-R1 release (January 20, 2025)",
+          "url": "https://api-docs.deepseek.com/news/news250120",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — DeepSeek (overview)",
+          "url": "https://en.wikipedia.org/wiki/DeepSeek",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["openai-o1-released", "llama-3-released", "gpt-4-released"]
+    }
+  ]
+}

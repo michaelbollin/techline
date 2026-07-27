@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "slug": "microsoft-founded",
+      "media": [],
+      "relatedIds": [
+        "csharp-announced",
+        "dotnet-framework-1-0-rtm"
+      ],
+      "people": [
+        {
+          "id": "bill-gates",
+          "name": "Bill Gates",
+          "role": "co-founder"
+        },
+        {
+          "id": "paul-allen",
+          "name": "Paul Allen",
+          "role": "co-founder"
+        }
+      ],
+      "id": "microsoft-founded",
+      "date": "1975-04-04",
+      "datePrecision": "day",
+      "title": "Bill Gates and Paul Allen found Microsoft",
+      "summary": "Bill Gates and Paul Allen founded Microsoft on April 4, 1975 to sell a BASIC interpreter for the Altair 8800.",
+      "about": "Microsoft began as a language vendor for hobbyist microcomputers, then became the dominant PC software company — DOS, Windows, Office, and later Azure and GitHub. Gates and Allen's Altair BASIC deal set the template for commercial software on personal hardware.",
+      "narrative": {
+        "whyChosen": "Microsoft became the defining software company of the PC era.",
+        "whyImportant": "It proved microcomputer software could be a standalone industry.",
+        "problemSolved": "Early PC buyers had hardware but almost no usable programming tools."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "microsoft",
+        "founding"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Microsoft — Our history (founded April 4, 1975)",
+          "url": "https://www.microsoft.com/en-us/about",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microsoft (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

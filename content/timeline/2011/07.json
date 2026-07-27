@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["java-1-0-shipped", "scala-first-release", "kotlin-1-0-released"]
+    },
+    {
+      "id": "leveldb-open-sourced",
+      "slug": "leveldb-open-sourced",
+      "date": "2011-07-28",
+      "datePrecision": "day",
+      "title": "LevelDB open-sourced",
+      "summary": "Google open-sourced LevelDB on July 28, 2011 — a fast embedded key-value store written by Jeffrey Dean and Sanjay Ghemawat.",
+      "about": "LevelDB stores sorted string keys to string values on disk with LSM-tree compaction — used inside Chrome IndexedDB, Bitcoin Core, and as a building block for RocksDB. Unlike Redis, it is embedded in-process with no server. Example: a mobile app persisting a local index without running a separate database daemon.",
+      "narrative": {
+        "whyChosen": "LevelDB brought Google's storage engineering to embeddable open-source libraries.",
+        "whyImportant": "It influenced RocksDB, Cassandra storage engines, and browser-local databases.",
+        "problemSolved": "Apps needed fast on-disk ordered maps without the overhead of a full SQL or client-server store."
+      },
+      "category": "software",
+      "tags": ["leveldb", "database", "key-value", "embedded", "google", "open-source"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Open Source Blog — LevelDB (July 28, 2011)",
+          "url": "https://opensource.googleblog.com/2011/07/leveldb-fast-persistent-key-value-store.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — LevelDB (overview)",
+          "url": "https://en.wikipedia.org/wiki/LevelDB",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["redis-first-released", "mongodb-first-released", "sqlite-1-0-released"]
     }
   ]
 }

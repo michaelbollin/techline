@@ -14,7 +14,15 @@
         "problemSolved": "Mac users wanted Safari to feel as modern as the redesigned OS X Yosemite."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit",
+        "macos"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +37,56 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-7-released", "safari-6-released", "safari-announced"]
+      "relatedIds": [
+        "safari-7-released",
+        "safari-6-released",
+        "safari-announced"
+      ]
+    },
+    {
+      "slug": "lisa-su-amd-ceo",
+      "media": [],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded"
+      ],
+      "people": [
+        {
+          "id": "lisa-su",
+          "name": "Lisa Su",
+          "role": "ceo"
+        }
+      ],
+      "id": "lisa-su-amd-ceo",
+      "date": "2014-10-08",
+      "datePrecision": "day",
+      "title": "Lisa Su named AMD CEO",
+      "summary": "AMD appointed Lisa Su president and CEO on October 8, 2014 — tasking her with turning around the struggling chipmaker.",
+      "about": "Su's Zen architecture and Epyc server CPUs restored AMD as a credible Intel competitor and made the company a key alternative in data centers and gaming. She later became one of the most visible semiconductor executives in the AI era.",
+      "narrative": {
+        "whyChosen": "Su's leadership revived AMD from near-irrelevance to a major Intel and NVIDIA rival.",
+        "whyImportant": "Competition in CPUs and GPUs matters for cloud pricing and AI hardware diversity.",
+        "problemSolved": "AMD had lost server and desktop share and needed a product-led turnaround."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "amd",
+        "ceo",
+        "semiconductor"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "AMD — Lisa Su appointed CEO (October 8, 2014)",
+          "url": "https://www.amd.com/en/corporate/lisa-su",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lisa Su (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lisa_Su",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

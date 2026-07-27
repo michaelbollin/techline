@@ -14,7 +14,13 @@
         "problemSolved": "Accessing nested properties and defaulting null/undefined values required verbose, error-prone boilerplate."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "standard",
+        "browser"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +35,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2015-adopted", "ecmascript-2022-adopted"]
+      "relatedIds": [
+        "ecmascript-2015-adopted",
+        "ecmascript-2022-adopted"
+      ]
     },
     {
       "id": "gpt-3-api-released",
@@ -45,7 +54,14 @@
         "problemSolved": "Teams could not ship LLM features without training and hosting their own massive models."
       },
       "category": "software",
-      "tags": ["ai", "openai", "gpt", "api", "machine-learning"],
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "api",
+        "machine-learning"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +76,55 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["chatgpt-released", "gpt-4-released"]
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released"
+      ]
+    },
+    {
+      "slug": "sanfilippo-redis-maintainer-steps-down",
+      "media": [],
+      "relatedIds": [
+        "redis-first-released"
+      ],
+      "people": [
+        {
+          "id": "salvatore-sanfilippo",
+          "name": "Salvatore Sanfilippo",
+          "role": "maintainer"
+        }
+      ],
+      "id": "sanfilippo-redis-maintainer-steps-down",
+      "date": "2020-06-30",
+      "datePrecision": "day",
+      "title": "Salvatore Sanfilippo steps down as Redis maintainer",
+      "summary": "Salvatore Sanfilippo (antirez) stepped down as Redis maintainer on June 30, 2020, handing the project to a community team.",
+      "about": "Sanfilippo built Redis alone from 2009 into infrastructure powering caches, queues, and real-time systems worldwide. His departure sparked discussion about maintainer burnout and corporate sponsorship of open source.",
+      "narrative": {
+        "whyChosen": "antirez stepping down was a landmark maintainer transition in open source.",
+        "whyImportant": "It highlighted sustainability issues for solo-authored critical infrastructure.",
+        "problemSolved": "Redis needed governance beyond one developer as adoption reached hyperscale."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "redis",
+        "maintainer",
+        "open-source"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "antirez — Stepping down (June 30, 2020)",
+          "url": "http://antirez.com/news/133",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Redis (overview)",
+          "url": "https://en.wikipedia.org/wiki/Redis",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

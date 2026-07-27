@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "slug": "leslie-lamport-paxos-published",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "leslie-lamport",
+          "name": "Leslie Lamport",
+          "role": "researcher"
+        }
+      ],
+      "id": "leslie-lamport-paxos-published",
+      "date": "1998-05",
+      "datePrecision": "month",
+      "title": "Leslie Lamport publishes Paxos",
+      "summary": "Leslie Lamport's May 1998 paper 'The Part-Time Parliament' described the Paxos consensus algorithm — foundational for distributed systems.",
+      "about": "Paxos and Lamport's later work on logical clocks underpin Kafka, etcd, ZooKeeper, and every system that must agree across failures. Programmers encounter his ideas whenever they design replicated state machines.",
+      "narrative": {
+        "whyChosen": "Paxos is the theoretical backbone of practical distributed consensus.",
+        "whyImportant": "It formalized how unreliable nodes can agree on a single value.",
+        "problemSolved": "Distributed services needed provable agreement despite crashes and partitions."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "distributed-systems",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ACM TOCS — Lamport, The Part-Time Parliament (1998)",
+          "url": "https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Paxos (overview)",
+          "url": "https://en.wikipedia.org/wiki/Paxos_(computer_science)",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

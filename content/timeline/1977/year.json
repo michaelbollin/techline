@@ -14,7 +14,14 @@
         "problemSolved": "C programs were overkill for simple columnar reports; sed alone could not express arithmetic and structured control flow."
       },
       "category": "software",
-      "tags": ["awk", "unix", "bell-labs", "text-processing", "programming-language"],
+      "tags": [
+        "awk",
+        "unix",
+        "bell-labs",
+        "text-processing",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,153 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["perl-1-0-released"]
+      "relatedIds": [
+        "perl-1-0-released"
+      ]
+    },
+    {
+      "slug": "brian-kernighan-awk-coauthored",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "brian-kernighan",
+          "name": "Brian Kernighan",
+          "role": "co-creator"
+        }
+      ],
+      "id": "brian-kernighan-awk-coauthored",
+      "date": "1977",
+      "datePrecision": "year",
+      "title": "Brian Kernighan co-creates AWK",
+      "summary": "Brian Kernighan co-designed AWK in 1977 with Aho and Weinberger — the pattern-action language for text processing.",
+      "about": "AWK's columnar field model and regex patterns influenced Perl, Ruby, and every log-parsing one-liner. Kernighan's 'The C Programming Language' and 'Software Tools' shaped how programmers learn Unix.",
+      "narrative": {
+        "whyChosen": "AWK made structured text processing a first-class scripting task.",
+        "whyImportant": "It influenced a generation of scripting languages and CLI culture.",
+        "problemSolved": "Ad-hoc shell pipelines could not easily handle columnar report data."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "unix",
+        "programming-language",
+        "tooling"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Bell Labs — AWK (1977)",
+          "url": "https://en.wikipedia.org/wiki/AWK",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — AWK (overview)",
+          "url": "https://en.wikipedia.org/wiki/AWK",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "rsa-algorithm-published",
+      "media": [],
+      "relatedIds": [
+        "diffie-hellman-paper-published",
+        "clifford-cocks-public-key"
+      ],
+      "people": [
+        {
+          "id": "ron-rivest",
+          "name": "Ron Rivest",
+          "role": "researcher"
+        },
+        {
+          "id": "adi-shamir",
+          "name": "Adi Shamir",
+          "role": "researcher"
+        },
+        {
+          "id": "leonard-adleman",
+          "name": "Leonard Adleman",
+          "role": "researcher"
+        }
+      ],
+      "id": "rsa-algorithm-published",
+      "date": "1977",
+      "datePrecision": "year",
+      "title": "Rivest, Shamir, and Adleman invent RSA",
+      "summary": "Ron Rivest, Adi Shamir, and Leonard Adleman invented the RSA public-key algorithm at MIT in 1977 — enabling encryption and digital signatures at scale.",
+      "about": "RSA turned public-key theory into a practical algorithm used in TLS certificates, SSH host keys, and code signing for decades. Their 1978 Communications of the ACM paper spread RSA beyond academia into commercial security products.",
+      "narrative": {
+        "whyChosen": "RSA became the most widely deployed public-key algorithm of the pre-quantum era.",
+        "whyImportant": "It made digital signatures and encrypted key transport practical for software systems.",
+        "problemSolved": "Public-key cryptography needed a concrete algorithm implementable on 1970s hardware."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "cryptography",
+        "research",
+        "rsa"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "MIT — RSA algorithm invented (1977)",
+          "url": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — RSA cryptosystem (overview)",
+          "url": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "john-backus-turing-award",
+      "media": [],
+      "relatedIds": [
+        "fortran-formally-published"
+      ],
+      "people": [
+        {
+          "id": "john-backus",
+          "name": "John Backus",
+          "role": "researcher"
+        }
+      ],
+      "id": "john-backus-turing-award",
+      "date": "1977",
+      "datePrecision": "year",
+      "title": "John Backus receives Turing Award",
+      "summary": "John Backus won the 1977 ACM Turing Award for contributions to Fortran and functional programming — including the Backus–Naur Form.",
+      "about": "Backus led the IBM team that created Fortran and later argued for functional programming in his Turing lecture. BNF became the standard notation for describing programming language syntax.",
+      "narrative": {
+        "whyChosen": "Backus shaped both practical compilers and formal language specification.",
+        "whyImportant": "Fortran proved high-level languages could match hand-coded assembly performance.",
+        "problemSolved": "Scientists needed faster ways to program computers than machine code."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "fortran",
+        "turing-award",
+        "research"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "ACM — 1977 Turing Award (John Backus)",
+          "url": "https://amturing.acm.org/award_winners/backus_9624209.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — John Backus (overview)",
+          "url": "https://en.wikipedia.org/wiki/John_Backus",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

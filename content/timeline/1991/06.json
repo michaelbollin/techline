@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "id": "autoconf-released",
+      "slug": "autoconf-released",
+      "date": "1991-06",
+      "datePrecision": "month",
+      "title": "Autoconf created",
+      "summary": "David MacKenzie wrote the first Autoconf `configure` script in June 1991 — automating portability checks for GNU software builds.",
+      "about": "Autoconf generates shell scripts that probe the host system for compilers, headers, and libraries — producing a `config.h` and Makefiles that build on Linux, BSD, and Solaris alike. It paired with Automake and Libtool as the GNU build triad for decades. Example: `./configure --prefix=/usr/local && make && make install` adapts to whatever the machine provides.",
+      "narrative": {
+        "whyChosen": "Autoconf ended hand-editing dozens of `-D` compiler flags for every Unix variant.",
+        "whyImportant": "It became the standard way open-source C projects achieved portable builds before CMake dominated.",
+        "problemSolved": "Maintainers could not test every platform; build scripts needed to discover capabilities at install time."
+      },
+      "category": "software",
+      "tags": [
+        "autoconf",
+        "gnu",
+        "build",
+        "configure",
+        "open-source"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GNU Autoconf — Genesis (June 1991)",
+          "url": "https://www.gnu.org/s/autoconf/manual/autoconf-2.72/autoconf.html#Genesis",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Autoconf (overview)",
+          "url": "https://en.wikipedia.org/wiki/Autoconf",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "make-created",
+        "cmake-released"
+      ]
+    },
+    {
+      "slug": "phil-zimmermann-pgp-released",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "phil-zimmermann",
+          "name": "Phil Zimmermann",
+          "role": "creator"
+        }
+      ],
+      "id": "phil-zimmermann-pgp-released",
+      "date": "1991-06-05",
+      "datePrecision": "day",
+      "title": "Phil Zimmermann releases PGP",
+      "summary": "Phil Zimmermann released Pretty Good Privacy (PGP) 1.0 on June 5, 1991 — bringing public-key email encryption to activists and developers.",
+      "about": "PGP let anyone encrypt email and files without a central authority — using RSA and IDEA in the first release. Zimmermann's export investigation made encryption policy a mainstream developer issue and paved the way for OpenPGP standards.",
+      "narrative": {
+        "whyChosen": "PGP democratized strong cryptography for ordinary computer users.",
+        "whyImportant": "It proved end-to-end encryption could spread via grassroots distribution, not only government or corporate channels.",
+        "problemSolved": "Email traveled in plaintext and proprietary crypto tools were unavailable to the public."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "cryptography",
+        "privacy",
+        "pgp"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Phil Zimmermann — PGP 10th anniversary (released June 5, 1991)",
+          "url": "https://philzimmermann.com/EN/essays/PGP_10thAnniversary.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Pretty Good Privacy (overview)",
+          "url": "https://en.wikipedia.org/wiki/Pretty_Good_Privacy",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

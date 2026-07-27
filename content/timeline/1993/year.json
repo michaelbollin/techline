@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "id": "hp-proliant-era",
+      "slug": "hp-proliant-era",
+      "date": "1993",
+      "datePrecision": "year",
+      "title": "Compaq ProLiant servers launched",
+      "summary": "Compaq established the ProLiant server line in 1993 — x86 machines that brought PC economics to datacenter rack servers.",
+      "about": "ProLiant servers ran Windows NT and Linux on standard Intel CPUs in rack-mount form factors — cheaper than proprietary Unix boxes from Sun and DEC. HP acquired Compaq in 2002 and kept the ProLiant brand for millions of datacenter hosts. Backend developers deploying on \"commodity x86 servers\" largely meant hardware in this lineage.",
+      "narrative": {
+        "whyChosen": "ProLiant defined the commodity x86 server category that Linux and Windows datacenters built on.",
+        "whyImportant": "It shifted enterprise backends from expensive Unix minis to standardized rack-mount x86 hardware.",
+        "problemSolved": "Datacenters needed scalable servers without proprietary CPU architectures and vendor lock-in."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "server",
+        "compaq",
+        "hp",
+        "proliant",
+        "x86",
+        "datacenter"
+      ],
+      "people": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "HP — ProLiant server history (1993)",
+          "url": "https://www.hp.com/us-en/servers/proliant-servers.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ProLiant (overview)",
+          "url": "https://en.wikipedia.org/wiki/ProLiant",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "compaq-portable-released",
+        "ibm-pc-5150-released",
+        "amd64-x86-64-announced",
+        "sun-enterprise-10000-released"
+      ]
+    },
+    {
+      "slug": "greenspun-tenth-rule",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "philip-greenspun",
+          "name": "Philip Greenspun",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "greenspun-tenth-rule",
+      "date": "1993",
+      "datePrecision": "year",
+      "title": "Philip Greenspun states his tenth rule",
+      "quoteText": "Any sufficiently complicated C or Fortran program contains an ad-hoc, informally-specified, bug-ridden, slow implementation of half of Common Lisp.",
+      "summary": "Philip Greenspun jokes that big C programs secretly reinvent Lisp badly — the observation known as Greenspun's Tenth Rule.",
+      "about": "There are no rules one through nine; Greenspun picked 'tenth' for memorability. The line explains why frameworks grow interpreters, DSLs, and config languages — and why starting with a higher-level tool might have been cheaper.",
+      "narrative": {
+        "whyChosen": "The snarkiest law about accidental language design in legacy codebases.",
+        "whyImportant": "It named the pattern of reimplementing Lisp features inside lower-level systems.",
+        "problemSolved": "Teams building elaborate C++ frameworks lacked a humorous label for what they were doing."
+      },
+      "tags": [
+        "quote",
+        "critique",
+        "lisp",
+        "programming-language"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Greenspun — Tenth rule FAQ (1993 era)",
+          "url": "https://philip.greenspun.com/bboard/q-and-a-fetch-msg?msg_id=000tgU",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Greenspun's tenth rule (overview)",
+          "url": "https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

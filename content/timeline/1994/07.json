@@ -14,7 +14,13 @@
         "problemSolved": "Brazilian Petrobras projects needed a common configuration language smaller and simpler than Tcl or Perl."
       },
       "category": "software",
-      "tags": ["lua", "embeddable", "scripting", "programming-language"],
+      "tags": [
+        "lua",
+        "embeddable",
+        "scripting",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tcl-created"]
+      "relatedIds": [
+        "tcl-created"
+      ]
     }
   ]
 }

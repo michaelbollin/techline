@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "eslint-released",
+      "slug": "eslint-released",
+      "date": "2013-07-16",
+      "datePrecision": "day",
+      "title": "ESLint first released",
+      "summary": "Nicholas Zakas introduced ESLint on July 16, 2013 — a pluggable JavaScript linter with every rule configurable at runtime.",
+      "about": "ESLint parses code into an AST and runs shareable rules — catch unused variables, enforce style, or ban dangerous patterns. Plugins extend it for React, TypeScript, and Node. Teams ship `.eslintrc` configs in open source and CI. It replaced JSHint as the default linter for modern JavaScript projects.",
+      "narrative": {
+        "whyChosen": "ESLint made lint rules pluggable when JSHint could not be extended for project needs.",
+        "whyImportant": "It became the standard gatekeeper for JavaScript quality in editors and CI pipelines.",
+        "problemSolved": "Teams needed custom static analysis rules that existing linters could not add."
+      },
+      "category": "software",
+      "tags": ["eslint", "linter", "javascript", "static-analysis", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nicholas Zakas — Introducing ESLint (July 16, 2013)",
+          "url": "https://humanwhocodes.com/blog/2013/07/16/introducing-eslint/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ESLint (overview)",
+          "url": "https://en.wikipedia.org/wiki/ESLint",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["babel-released", "typescript-preview-released", "webpack-released"]
+    }
+  ]
+}

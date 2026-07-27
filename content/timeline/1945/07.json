@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "slug": "bush-as-we-may-think-memex",
+      "media": [],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "html-invented"
+      ],
+      "people": [
+        {
+          "id": "vannevar-bush",
+          "name": "Vannevar Bush",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "bush-as-we-may-think-memex",
+      "date": "1945-07",
+      "datePrecision": "month",
+      "title": "Vannevar Bush envisions the \"memex\"",
+      "quoteText": "Consider a future device for individual use, which is a sort of mechanized private file and library, and it is called a memex.",
+      "summary": "In The Atlantic, Vannevar Bush describes a desk-sized personal knowledge machine — a direct ancestor of hypertext and the web.",
+      "about": "Written as WWII ended, Bush's essay imagined associative trails linking documents — the conceptual blueprint Tim Berners-Lee would realize decades later. The memex is cited whenever someone builds note apps, wikis, or personal search.",
+      "narrative": {
+        "whyChosen": "The 1945 essay that predicted personal hyperlinked knowledge work.",
+        "whyImportant": "It planted the idea of linked information before digital computers were mainstream.",
+        "problemSolved": "Researchers drowned in paper; Bush wanted scalable personal memory extension."
+      },
+      "tags": [
+        "quote",
+        "prediction",
+        "hypertext",
+        "history"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "The Atlantic — As We May Think (July 1945)",
+          "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Memex (overview)",
+          "url": "https://en.wikipedia.org/wiki/Memex",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

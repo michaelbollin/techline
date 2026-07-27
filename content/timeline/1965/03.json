@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dec-pdp-8-shipped",
+      "slug": "dec-pdp-8-shipped",
+      "date": "1965-03",
+      "datePrecision": "month",
+      "title": "DEC PDP-8 shipped",
+      "summary": "Digital Equipment Corporation began shipping the PDP-8 in March 1965 — the first commercially successful minicomputer.",
+      "about": "The PDP-8 was small enough and cheap enough ($18,000) for labs, factories, and universities to own their own computer. Teams programmed in assembly and BASIC on teletypes; DEC's minicomputer line trained a generation of systems programmers before PCs arrived. Unix and C were developed on PDP machines at Bell Labs.",
+      "narrative": {
+        "whyChosen": "The PDP-8 created the minicomputer category and democratized access beyond mainframe datacenters.",
+        "whyImportant": "It put interactive computing in departments that could never afford IBM mainframes.",
+        "problemSolved": "Organizations needed local computing power without million-dollar centralized machines."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "minicomputer", "dec", "pdp-8", "computer"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Computer History Museum — PDP-8 (1965)",
+          "url": "https://www.computerhistory.org/collections/catalog/X284.82",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PDP-8 (overview)",
+          "url": "https://en.wikipedia.org/wiki/PDP-8",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dec-pdp-8-shipped", "ibm-system-360-announced", "eniac-dedicated", "dec-vax-11-780-released", "dec-pdp-10-released"]
+    }
+  ]
+}

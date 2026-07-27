@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "apache-cassandra-open-sourced",
+      "slug": "apache-cassandra-open-sourced",
+      "date": "2008-07-14",
+      "datePrecision": "day",
+      "title": "Apache Cassandra open sourced",
+      "summary": "Facebook released Cassandra as open source on July 14, 2008 — a distributed wide-column database inspired by Amazon Dynamo and Google Bigtable.",
+      "about": "Cassandra trades joins for linear scalability: data is partitioned across a ring of nodes with tunable consistency. Facebook built it for inbox search; Netflix, Apple, and Discord later ran it for massive write-heavy workloads. It joined the Apache Incubator in 2009 and graduated as a top-level project in 2010 — a flagship NoSQL option beside MongoDB and Redis.",
+      "narrative": {
+        "whyChosen": "Cassandra brought Facebook-scale distributed storage patterns to the open-source world.",
+        "whyImportant": "It proved wide-column NoSQL could run in production at billion-row scale with no single point of failure.",
+        "problemSolved": "Web-scale apps needed always-on storage that survived node and datacenter failures without a central master."
+      },
+      "category": "software",
+      "tags": ["cassandra", "database", "nosql", "distributed", "facebook", "apache"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "TechCrunch — Facebook releases Cassandra as open source (July 14, 2008)",
+          "url": "https://techcrunch.com/2008/07/14/facebook-release-data-storage-cluster-code-as-open-source/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Cassandra (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Cassandra",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["mongodb-first-released", "redis-first-released", "couchdb-released", "mariadb-released"]
+    },
+    {
+      "id": "iphone-app-store-opens",
+      "slug": "iphone-app-store-opens",
+      "date": "2008-07-10",
+      "datePrecision": "day",
+      "title": "iPhone App Store opens",
+      "summary": "Apple opened the App Store on July 10, 2008 — letting third-party developers sell native iPhone apps to consumers.",
+      "about": "The App Store turned the iPhone from a phone with a browser into a platform — Objective-C and later Swift SDKs, in-app purchases, and review gates. Indie developers and startups built businesses on mobile apps; 'there's an app for that' became the default UX pattern. Android Market (later Google Play) followed the same model.",
+      "narrative": {
+        "whyChosen": "The App Store invented mainstream mobile app distribution and monetization.",
+        "whyImportant": "It created the native mobile developer career path and app economy alongside the web.",
+        "problemSolved": "Early iPhones had no sanctioned way for developers to ship software to users at scale."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "apple", "iphone", "app-store", "software-distribution"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — App Store downloads top 10 million in first weekend (July 10, 2008)",
+          "url": "https://www.apple.com/newsroom/2008/07/10App-Store-Downloads-Top-10-Million-in-First-Weekend/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — App Store (Apple) (overview)",
+          "url": "https://en.wikipedia.org/wiki/App_Store_(Apple)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "android-announced", "t-mobile-g1-released", "objective-c-created"]
+    },
+    {
+      "id": "iphone-3g-released",
+      "slug": "iphone-3g-released",
+      "date": "2008-07-11",
+      "datePrecision": "day",
+      "title": "iPhone 3G released",
+      "summary": "Apple began selling the iPhone 3G on July 11, 2008 — adding 3G cellular data and launching in 22 countries alongside the App Store.",
+      "about": "The iPhone 3G made mobile broadband practical — web apps and native App Store downloads over cellular replaced EDGE trickle speeds. GPS enabled location-based services developers still build on. The simultaneous App Store launch turned the 3G into the first iPhone that was both fast on the network and open to third-party software at scale.",
+      "narrative": {
+        "whyChosen": "The iPhone 3G paired 3G networking with the App Store's global rollout.",
+        "whyImportant": "It made mobile web and app experiences viable over cellular, not just Wi-Fi.",
+        "problemSolved": "The original iPhone's EDGE network was too slow for rich mobile web and app downloads."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "smartphone", "apple", "iphone", "3g"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iPhone 3G available July 11, 2008",
+          "url": "https://www.apple.com/newsroom/2008/07/11iPhone-3G-Available-in-22-Countries-on-July-11/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 3G (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_3G",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["iphone-goes-on-sale", "iphone-app-store-opens", "iphone-4-released", "android-announced", "t-mobile-g1-released"]
+    }
+  ]
+}

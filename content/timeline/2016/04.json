@@ -14,7 +14,14 @@
         "problemSolved": "Opera veterans wanted a browser with tabs, mail, and widgets without giving up modern engine compatibility."
       },
       "category": "software",
-      "tags": ["browser", "web", "vivaldi", "opera", "chromium"],
+      "tags": [
+        "browser",
+        "web",
+        "vivaldi",
+        "opera",
+        "chromium"
+      ],
+      "people": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["opera-2-released", "opera-chromium-switch", "google-chrome-released"]
+      "relatedIds": [
+        "opera-2-released",
+        "opera-chromium-switch",
+        "google-chrome-released"
+      ]
     },
     {
       "id": "nodejs-6-released",
@@ -45,7 +56,13 @@
         "problemSolved": "Production teams feared odd-numbered Node releases would break without warning."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +77,57 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-4-released", "nodejs-10-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-4-released",
+        "nodejs-10-released",
+        "nodejs-first-released"
+      ]
+    },
+    {
+      "slug": "andy-jassy-aws-ceo",
+      "media": [],
+      "relatedIds": [
+        "werner-vogels-amazon-cto"
+      ],
+      "people": [
+        {
+          "id": "andy-jassy",
+          "name": "Andy Jassy",
+          "role": "ceo"
+        }
+      ],
+      "id": "andy-jassy-aws-ceo",
+      "date": "2016-04",
+      "datePrecision": "month",
+      "title": "Andy Jassy named AWS CEO",
+      "summary": "Amazon named Andy Jassy CEO of Amazon Web Services in April 2016 — formalizing his leadership of the cloud division he built since 2003.",
+      "about": "Jassy grew AWS from an internal infrastructure experiment into the template for modern cloud computing — EC2, S3, and managed services changed how startups and enterprises deploy software.",
+      "narrative": {
+        "whyChosen": "Jassy led the business that defined public cloud infrastructure.",
+        "whyImportant": "AWS made on-demand compute and storage the default deployment model for new software.",
+        "problemSolved": "Teams bought servers months in advance instead of scaling elastically with demand."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "aws",
+        "amazon",
+        "ceo",
+        "cloud"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Amazon — Andy Jassy named AWS CEO (April 2016)",
+          "url": "https://www.aboutamazon.com/news/company-news/andy-jassy-to-become-ceo-of-amazon-web-services",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Andy Jassy (overview)",
+          "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

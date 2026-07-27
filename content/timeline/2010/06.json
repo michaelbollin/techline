@@ -30,6 +30,68 @@
         }
       ],
       "relatedIds": ["safari-4-released", "safari-announced", "webkit-open-sourced"]
+    },
+    {
+      "id": "iphone-4-released",
+      "slug": "iphone-4-released",
+      "date": "2010-06-24",
+      "datePrecision": "day",
+      "title": "iPhone 4 released",
+      "summary": "Apple began selling the iPhone 4 on June 24, 2010 — with a Retina display, front-facing camera, and stainless-steel antenna band.",
+      "about": "The Retina screen doubled pixel density to 326 ppi — designers and web developers started shipping @2x assets and `-webkit-device-pixel-ratio` media queries. FaceTime and the gyroscope expanded mobile app possibilities. The iPhone 4 cemented Apple's hardware lead and pushed mobile web design toward high-DPI layouts.",
+      "narrative": {
+        "whyChosen": "The iPhone 4's Retina display forced the mobile web and app ecosystems to adopt high-DPI assets.",
+        "whyImportant": "It set the pixel-density bar every smartphone and responsive CSS workflow followed.",
+        "problemSolved": "Mobile screens looked pixelated next to print; users expected sharper text and images on phones."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "smartphone", "apple", "iphone", "retina"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iPhone 4 available June 24, 2010",
+          "url": "https://www.apple.com/newsroom/2010/06/24iPhone-4-Available-in-US-UK-France-Germany-and-Japan-on-June-24/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "iphone-app-store-opens", "ipad-introduced", "apple-m1-announced", "apple-a4-introduced", "samsung-galaxy-s-released"]
+    },
+    {
+      "id": "samsung-galaxy-s-released",
+      "slug": "samsung-galaxy-s-released",
+      "date": "2010-06",
+      "datePrecision": "month",
+      "title": "Samsung Galaxy S released",
+      "summary": "Samsung began selling the Galaxy S in June 2010 — the first flagship Android phone in a line that would dominate smartphone sales.",
+      "about": "The Galaxy S ran Android 2.1 with Samsung's TouchWiz skin and a 4-inch Super AMOLED display — establishing Samsung as Apple's primary Android hardware rival. Developers targeting Android tested on Galaxy devices as the default non-Nexus reference hardware for years.",
+      "narrative": {
+        "whyChosen": "The Galaxy S launched Samsung's flagship Android line that defined the iOS alternative.",
+        "whyImportant": "It proved Android OEMs could ship premium hardware that competed with the iPhone at scale.",
+        "problemSolved": "Android needed a flagship reference device beyond the G1 for mainstream consumers."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "mobile", "smartphone", "android", "samsung", "galaxy"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung — Galaxy S launched (June 2010)",
+          "url": "https://www.samsung.com/global/galaxy/galaxy-s/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["android-announced", "t-mobile-g1-released", "iphone-4-released", "iphone-goes-on-sale"]
     }
   ]
 }

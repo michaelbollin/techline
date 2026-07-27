@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "apache-http-server-released",
+      "slug": "apache-http-server-released",
+      "date": "1995-04-21",
+      "datePrecision": "day",
+      "title": "Apache HTTP Server first public release",
+      "summary": "The Apache Group announced Apache 0.6.2 on April 21, 1995 — a patched fork of NCSA httpd that became the dominant web server.",
+      "about": "Apache serves static files, CGI scripts, and later PHP, Perl, and proxy traffic for most of the early web. HotWired, MIT AI Lab, and thousands of ISPs ran it instead of unmaintained NCSA httpd. It later powered the LAMP stack (Linux, Apache, MySQL, PHP) and spawned the Apache Software Foundation.",
+      "narrative": {
+        "whyChosen": "Apache became the most widely deployed web server and proved open-source could run the public internet.",
+        "whyImportant": "It set the pattern for community-maintained infrastructure replacing abandoned university code.",
+        "problemSolved": "NCSA httpd stagnated after its author left; sites needed security fixes and features without a vendor."
+      },
+      "category": "software",
+      "tags": ["apache", "web-server", "http", "open-source", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Brian Behlendorf — Apache Server Announcement (April 21, 1995)",
+          "url": "https://lists.w3.org/Archives/Public/www-talk/1995MarApr/0515.html",
+          "role": "date"
+        },
+        {
+          "title": "Apache HTTP Server — About the Project (overview)",
+          "url": "https://httpd.apache.org/ABOUT_APACHE.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nginx-released", "lighttpd-released", "cgi-specified", "apache-tomcat-released", "phusion-passenger-released"]
+    },
+    {
+      "id": "bebox-released",
+      "slug": "bebox-released",
+      "date": "1995-04",
+      "datePrecision": "month",
+      "title": "BeBox released",
+      "summary": "Be Inc. began shipping the BeBox in April 1995 — a dual-PowerPC workstation running the BeOS multimedia operating system.",
+      "about": "The BeBox featured two PowerPC 603 processors and LED load meters on the front panel — BeOS prioritized real-time audio, video, and preemptive multitasking. Developers who missed NeXT's price point experimented with BeOS APIs before the platform pivoted to x86. Jean-Louis Gassée's machine attracted a cult following among multimedia coders.",
+      "narrative": {
+        "whyChosen": "The BeBox showcased BeOS on custom dual-CPU hardware for multimedia developers.",
+        "whyImportant": "It demonstrated modern preemptive multitasking and media pipelines on desktop hardware.",
+        "problemSolved": "Multimedia developers needed low-latency audio and video without Unix kernel overhead."
+      },
+      "category": "hardware",
+      "tags": ["hardware", "workstation", "be", "beos", "powerpc", "multimedia"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — BeBox (released April 1995)",
+          "url": "https://en.wikipedia.org/wiki/BeBox",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Be Inc. (overview)",
+          "url": "https://www.computerhistory.org/revolution/personal-computers/17/298",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["next-computer-released", "nextstation-released", "macintosh-128k-released"]
+    }
+  ]
+}

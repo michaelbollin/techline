@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "xml-rpc-specified",
+      "slug": "xml-rpc-specified",
+      "date": "1998-07-19",
+      "datePrecision": "day",
+      "title": "XML-RPC protocol specified",
+      "summary": "Dave Winer published the XML-RPC specification on July 19, 1998 — remote procedure calls over HTTP with XML-encoded payloads.",
+      "about": "XML-RPC let programs on different machines call functions across the network — POST an XML body, get an XML response. Lighter than CORBA, simpler than rolling your own binary protocol. It powered early blogging tools, Frontier-to-Frontier scripting, and the path toward SOAP enterprise web services.",
+      "narrative": {
+        "whyChosen": "XML-RPC was the first widely deployed HTTP+XML RPC style that everyday developers could implement.",
+        "whyImportant": "It proved the web could carry structured remote calls, not just hypertext pages.",
+        "problemSolved": "Cross-platform apps needed a simple RPC layer when platform-specific event systems (Apple Events, DCOM) would not interoperate."
+      },
+      "category": "protocol",
+      "tags": ["xml-rpc", "xml", "api", "rpc", "http", "protocol"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Dave Winer — XML-RPC for Geeks (July 19, 1998)",
+          "url": "http://scripting.com/davenet/1998/07/19/xmlRpcForGeeks.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — XML-RPC (overview)",
+          "url": "https://en.wikipedia.org/wiki/XML-RPC",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["soap-1-1-published"]
+    }
+  ]
+}

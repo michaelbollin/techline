@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "slug": "marc-andreessen-netscape-founded",
+      "media": [],
+      "relatedIds": [
+        "mosaic-1-0-released",
+        "netscape-navigator-1-0"
+      ],
+      "people": [
+        {
+          "id": "marc-andreessen",
+          "name": "Marc Andreessen",
+          "role": "co-founder"
+        },
+        {
+          "id": "jim-clark",
+          "name": "Jim Clark",
+          "role": "co-founder"
+        }
+      ],
+      "id": "marc-andreessen-netscape-founded",
+      "date": "1994-04-04",
+      "datePrecision": "day",
+      "title": "Marc Andreessen and Jim Clark found Netscape",
+      "summary": "Marc Andreessen and Jim Clark founded Mosaic Communications Corporation on April 4, 1994 — later renamed Netscape Communications.",
+      "about": "Netscape Navigator became the dominant browser of the mid-1990s and drove the first dot-com wave. Andreessen brought Mosaic experience from NCSA; Clark brought Silicon Graphics credibility and venture backing.",
+      "narrative": {
+        "whyChosen": "Netscape turned the web from research curiosity into a commercial platform.",
+        "whyImportant": "It proved browsers could be venture-backed products and set the first browser wars.",
+        "problemSolved": "The web needed a polished, fast browser company to scale beyond academia."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "browser",
+        "web",
+        "netscape"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Computer History Museum — Andreessen founds Netscape (April 4, 1994)",
+          "url": "https://www.computerhistory.org/tdih/april/4/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Netscape (overview)",
+          "url": "https://en.wikipedia.org/wiki/Netscape",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

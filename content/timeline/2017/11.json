@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["firefox-1-0-released", "mozilla-source-released", "rust-1-0-released"]
+    },
+    {
+      "id": "symfony-4-released",
+      "slug": "symfony-4-released",
+      "date": "2017-11-30",
+      "datePrecision": "day",
+      "title": "Symfony 4.0 released",
+      "summary": "Symfony 4.0 shipped on November 30, 2017 — embracing PHP 7.1+, autowiring, and a micro-kernel for smaller apps.",
+      "about": "Symfony 4 made dependency injection automatic and shrunk the framework footprint — `symfony/skeleton` became the starting point for APIs and microservices. Flex composer plugin streamlined installs; the release kept Symfony central to Laravel components and Drupal.",
+      "narrative": {
+        "whyChosen": "Symfony 4's autowiring and Flex modernized PHP framework bootstrapping.",
+        "whyImportant": "Smaller kernels and autowired services matched the microservice era.",
+        "problemSolved": "Symfony 3 required verbose service configuration for everyday dependency injection."
+      },
+      "category": "software",
+      "tags": ["symfony", "php", "web-framework"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Symfony Blog — Symfony 4.0.0 released (November 30, 2017)",
+          "url": "https://symfony.com/blog/symfony-4-0-0-released",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Symfony (overview)",
+          "url": "https://en.wikipedia.org/wiki/Symfony",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["symfony-3-released", "symfony-released", "laravel-5-released"]
     }
   ]
 }

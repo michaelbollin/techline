@@ -14,7 +14,13 @@
         "problemSolved": "Microsoft bundled a capable-enough browser with XP, giving users immediate web access on new PCs."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,56 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-5-0", "firefox-1-0-released", "google-chrome-released"]
+      "relatedIds": [
+        "internet-explorer-4-0",
+        "firefox-1-0-released",
+        "google-chrome-released"
+      ]
+    },
+    {
+      "slug": "eric-schmidt-google-ceo",
+      "media": [],
+      "relatedIds": [
+        "google-founded",
+        "sundar-pichai-google-ceo"
+      ],
+      "people": [
+        {
+          "id": "eric-schmidt",
+          "name": "Eric Schmidt",
+          "role": "ceo"
+        }
+      ],
+      "id": "eric-schmidt-google-ceo",
+      "date": "2001-08",
+      "datePrecision": "month",
+      "title": "Eric Schmidt named Google CEO",
+      "summary": "Google hired Eric Schmidt as CEO in August 2001, pairing adult supervision with founders Page and Brin during hypergrowth.",
+      "about": "Schmidt's era scaled Google's ad business, IPO, and Android acquisition — turning a search startup into a diversified platform company. The 'adult supervision' model influenced how VC-backed startups structure founder/CEO roles.",
+      "narrative": {
+        "whyChosen": "Schmidt guided Google from startup to public platform giant.",
+        "whyImportant": "He professionalized operations while founders kept product vision.",
+        "problemSolved": "Young technical founders needed experienced leadership for scaling and IPO readiness."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "google",
+        "ceo"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Google — Eric Schmidt CEO era (August 2001)",
+          "url": "https://en.wikipedia.org/wiki/Eric_Schmidt",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Eric Schmidt (overview)",
+          "url": "https://en.wikipedia.org/wiki/Eric_Schmidt",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "slug": "stephen-cook-np-completeness",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "stephen-cook",
+          "name": "Stephen Cook",
+          "role": "researcher"
+        }
+      ],
+      "id": "stephen-cook-np-completeness",
+      "date": "1971",
+      "datePrecision": "year",
+      "title": "Stephen Cook proves NP-completeness",
+      "summary": "Stephen Cook published his theorem on NP-completeness in 1971 — defining the hardness class behind thousands of optimization problems.",
+      "about": "Cook's work (and Karp's reductions) explained why many problems seem equally hard — shaping cryptography, scheduling, and complexity theory. P vs NP remains the field's defining open question.",
+      "narrative": {
+        "whyChosen": "NP-completeness is the central concept in computational complexity theory.",
+        "whyImportant": "It gave a framework for identifying intractable problems in software and research.",
+        "problemSolved": "There was no rigorous way to classify which problems were feasibly solvable."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "complexity-theory",
+        "research",
+        "np-complete"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "STOC 1971 — The complexity of theorem-proving procedures",
+          "url": "https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — NP-completeness (overview)",
+          "url": "https://en.wikipedia.org/wiki/NP-completeness",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

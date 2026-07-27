@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "slug": "frank-rosenblatt-perceptron",
+      "media": [],
+      "relatedIds": [
+        "marvin-minsky-dartmouth-workshop"
+      ],
+      "people": [
+        {
+          "id": "frank-rosenblatt",
+          "name": "Frank Rosenblatt",
+          "role": "researcher"
+        }
+      ],
+      "id": "frank-rosenblatt-perceptron",
+      "date": "1957",
+      "datePrecision": "year",
+      "title": "Frank Rosenblatt builds the Perceptron",
+      "summary": "Frank Rosenblatt built the Perceptron in 1957 — an early trainable neural network that launched the first wave of connectionist AI.",
+      "about": "The Perceptron could learn linearly separable patterns from examples — inspiring decades of neural network research and the famous Minsky–Papert critique that sparked AI winters and revivals.",
+      "narrative": {
+        "whyChosen": "The Perceptron was the first hardware neural learning machine.",
+        "whyImportant": "It introduced trainable weights as an approach to pattern recognition.",
+        "problemSolved": "Pattern recognition required hand-coded rules instead of learning from data."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "neural-networks",
+        "ai-history"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Cornell — Perceptron (1957)",
+          "url": "https://en.wikipedia.org/wiki/Perceptron",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Perceptron (overview)",
+          "url": "https://en.wikipedia.org/wiki/Perceptron",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

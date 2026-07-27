@@ -14,7 +14,14 @@
         "problemSolved": "Developers on Windows could not easily test Safari/WebKit behavior for their sites."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit", "windows"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit",
+        "windows"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,103 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-announced", "webkit-open-sourced", "blink-engine-announced"]
+      "relatedIds": [
+        "safari-announced",
+        "webkit-open-sourced",
+        "blink-engine-announced"
+      ]
+    },
+    {
+      "id": "heroku-launched",
+      "slug": "heroku-launched",
+      "date": "2007-06",
+      "datePrecision": "month",
+      "title": "Heroku founded",
+      "summary": "Adam Wiggins, James Lindenbaum, and Orion Henry founded Heroku in June 2007 — a platform-as-a-service for deploying Ruby apps with git push.",
+      "about": "Heroku abstracted servers behind `git push heroku master`: dynos, buildpacks, and add-ons for Postgres, Redis, and logging. Developers stopped provisioning VMs and focused on code. The model influenced Cloud Foundry, Render, Fly.io, and how teams think about twelve-factor apps — even after Salesforce acquired Heroku in 2010.",
+      "narrative": {
+        "whyChosen": "Heroku pioneered developer-friendly PaaS with git-based deploys and managed runtimes.",
+        "whyImportant": "It proved many teams would trade server control for faster shipping on a managed platform.",
+        "problemSolved": "Small teams could not afford dedicated ops staff but still needed reliable production hosting."
+      },
+      "category": "software",
+      "tags": [
+        "heroku",
+        "paas",
+        "cloud",
+        "deployment",
+        "ruby",
+        "hosting"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Heroku (founded June 2007)",
+          "url": "https://en.wikipedia.org/wiki/Heroku",
+          "role": "date"
+        },
+        {
+          "title": "Heroku — About (overview)",
+          "url": "https://www.heroku.com/about",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "github-launched",
+        "docker-open-sourced",
+        "capistrano-released",
+        "circleci-launched",
+        "phusion-passenger-released"
+      ]
+    },
+    {
+      "id": "iphone-goes-on-sale",
+      "slug": "iphone-goes-on-sale",
+      "date": "2007-06-29",
+      "datePrecision": "day",
+      "title": "iPhone goes on sale",
+      "summary": "Apple began selling the iPhone in the United States on June 29, 2007 — six months after its Macworld introduction.",
+      "about": "The iPhone put a capacitive touchscreen, mobile Safari, and eventually the App Store in millions of pockets. Developers pivoted to mobile-first web design, native iOS SDKs, and responsive CSS. Mobile traffic overtook desktop on many sites — all tracing to this product reaching consumers.",
+      "narrative": {
+        "whyChosen": "The iPhone's retail launch turned a keynote demo into the defining smartphone platform for developers.",
+        "whyImportant": "It made mobile web and native app development mandatory skills for mainstream software teams.",
+        "problemSolved": "Phones offered poor mobile browsing; users needed a pocket computer with a real web browser and touch UI."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iPhone available June 29, 2007",
+          "url": "https://www.apple.com/newsroom/2007/06/28iPhone-Available-Coming-to-Additional-Countries-on-September-28/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "steve-jobs-iphone-introduced",
+        "android-announced",
+        "iphone-app-store-opens",
+        "ipad-introduced",
+        "chrome-for-android-released",
+        "ibm-simon-released",
+        "palm-pilot-1000-released",
+        "blackberry-5810-released",
+        "iphone-4-released",
+        "iphone-3g-released"
+      ]
     }
   ]
 }

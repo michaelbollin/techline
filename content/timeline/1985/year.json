@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "mips-r2000-introduced",
+      "slug": "mips-r2000-introduced",
+      "date": "1985",
+      "datePrecision": "year",
+      "title": "MIPS R2000 introduced",
+      "summary": "MIPS Computer Systems introduced the R2000 processor in 1985 — one of the first commercial RISC microprocessors.",
+      "about": "The R2000 powered early MIPS workstations and embedded systems with a clean load-store RISC design — influencing academic computer architecture and commercial Unix boxes from DEC and SGI. MIPS variants later appeared in PlayStation, routers, and embedded devices. RISC principles from MIPS shaped ARM and every modern mobile CPU.",
+      "narrative": {
+        "whyChosen": "The MIPS R2000 was a landmark commercial RISC processor from Stanford research lineage.",
+        "whyImportant": "It proved RISC designs could outperform complex CISC chips in workstations and embedded markets.",
+        "problemSolved": "Complex instruction sets were becoming harder to optimize for higher clock speeds."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "cpu",
+        "mips",
+        "risc",
+        "workstation",
+        "chip"
+      ],
+      "people": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — MIPS architecture (R2000, 1985)",
+          "url": "https://en.wikipedia.org/wiki/MIPS_architecture",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — RISC architectures (overview)",
+          "url": "https://www.computerhistory.org/revolution/microprocessors/11/199",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sparcstation-1-released",
+        "acorn-archimedes-released",
+        "intel-8086-introduced"
+      ]
+    },
+    {
+      "slug": "goldwasser-micali-zero-knowledge-published",
+      "media": [],
+      "relatedIds": [
+        "shafi-goldwasser-turing-award"
+      ],
+      "people": [
+        {
+          "id": "shafi-goldwasser",
+          "name": "Shafi Goldwasser",
+          "role": "researcher"
+        },
+        {
+          "id": "silvio-micali",
+          "name": "Silvio Micali",
+          "role": "researcher"
+        }
+      ],
+      "id": "goldwasser-micali-zero-knowledge-published",
+      "date": "1985",
+      "datePrecision": "year",
+      "title": "Goldwasser and Micali publish zero-knowledge proofs",
+      "summary": "Shafi Goldwasser and Silvio Micali published zero-knowledge interactive proof systems in 1985 — foundational work for modern cryptographic protocols.",
+      "about": "Zero-knowledge proofs let one party prove a statement is true without revealing why — underpinning zk-SNARKs, blockchain privacy, and authentication protocols. Goldwasser and Micali won the Turing Award partly for this line of research.",
+      "narrative": {
+        "whyChosen": "Zero-knowledge proofs became a core primitive in modern cryptography and blockchains.",
+        "whyImportant": "They formalized how to prove knowledge without leaking secrets.",
+        "problemSolved": "Authentication and verification protocols lacked rigorous privacy guarantees."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "cryptography",
+        "research",
+        "zero-knowledge"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "STOC 1985 — The Knowledge Complexity of Interactive Proof Systems",
+          "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Zero-knowledge proof (overview)",
+          "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

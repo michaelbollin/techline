@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "gcc-1-0-released",
+      "slug": "gcc-1-0-released",
+      "date": "1987-03-22",
+      "datePrecision": "day",
+      "title": "GCC 1.0 released",
+      "summary": "Richard Stallman released GCC 1.0 on March 22, 1987 — the GNU C Compiler that could bootstrap itself and target multiple CPU architectures.",
+      "about": "GCC compiled C (and later C++, Fortran, Ada, and more) for m68k, VAX, and other machines from a single codebase. Its retargetable backend and free license made Unix ports possible without proprietary compilers. Linux, GNU tools, and decades of open-source software were built with GCC before LLVM/Clang offered an alternative.",
+      "narrative": {
+        "whyChosen": "GCC was the flagship compiler of the GNU project and free software movement.",
+        "whyImportant": "It proved a community-maintained, multi-platform compiler could match vendor toolchains.",
+        "problemSolved": "Proprietary Unix compilers were expensive and tied developers to single vendors and architectures."
+      },
+      "category": "software",
+      "tags": ["gcc", "gnu", "compiler", "c", "open-source", "stallman"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GCC Wiki — History (first beta release March 22, 1987)",
+          "url": "https://gcc.gnu.org/wiki/History",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GNU Compiler Collection (overview)",
+          "url": "https://en.wikipedia.org/wiki/GNU_Compiler_Collection",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["llvm-1-0-released", "clang-open-sourced", "make-created", "perl-1-0-released"]
+    }
+  ]
+}

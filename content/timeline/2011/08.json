@@ -14,7 +14,13 @@
         "problemSolved": "Long gaps between major Firefox versions left users exposed to unpatched vulnerabilities."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +35,101 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-5-released", "firefox-4-released", "firefox-57-quantum"]
+      "relatedIds": [
+        "firefox-5-released",
+        "firefox-4-released",
+        "firefox-57-quantum"
+      ]
+    },
+    {
+      "id": "swagger-1-0-released",
+      "slug": "swagger-1-0-released",
+      "date": "2011-08-10",
+      "datePrecision": "day",
+      "title": "Swagger 1.0 released",
+      "summary": "Tony Tam released Swagger 1.0 on August 10, 2011 — a machine-readable format for describing REST APIs and generating client SDKs.",
+      "about": "Swagger (later OpenAPI) documents endpoints, parameters, and response schemas in JSON or YAML — powering interactive docs, code generators, and API gateways. Tools like Swagger UI render `try it out` consoles from the same spec. Example: a `GET /users/{id}` path with typed parameters becomes a typed TypeScript client automatically.",
+      "narrative": {
+        "whyChosen": "Swagger 1.0 was the first widely adopted REST API description format.",
+        "whyImportant": "It made API contracts machine-readable and spawned the OpenAPI ecosystem.",
+        "problemSolved": "REST APIs were documented in prose; clients and servers drifted without a shared schema."
+      },
+      "category": "protocol",
+      "tags": [
+        "swagger",
+        "openapi",
+        "api",
+        "rest",
+        "documentation",
+        "standard"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "swagger-api/swagger-core — v1.0 changelog (August 10, 2011)",
+          "url": "https://github.com/swagger-api/swagger-core/wiki/Changelog",
+          "role": "date"
+        },
+        {
+          "title": "OpenAPI Specification — Version history (overview)",
+          "url": "https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rest-architectural-style-defined",
+        "grpc-open-sourced",
+        "graphql-open-sourced",
+        "json-rpc-1-0-published"
+      ]
+    },
+    {
+      "slug": "andreessen-software-eating-world",
+      "media": [],
+      "relatedIds": [
+        "marc-andreessen-netscape-founded"
+      ],
+      "people": [
+        {
+          "id": "marc-andreessen",
+          "name": "Marc Andreessen",
+          "role": "author"
+        }
+      ],
+      "category": "quote",
+      "id": "andreessen-software-eating-world",
+      "date": "2011-08-20",
+      "datePrecision": "day",
+      "title": "Marc Andreessen: \"Software is eating the world\"",
+      "quoteText": "Software is eating the world.",
+      "summary": "In a Wall Street Journal essay, Marc Andreessen argues that every industry is becoming a software business.",
+      "about": "Written at the height of the mobile and cloud boom, the line justified VC bets on Uber, Airbnb, and SaaS eating hotels, taxis, and shrink-wrapped software. It aged into a cliché — because it was largely right.",
+      "narrative": {
+        "whyChosen": "The thesis statement of the 2010s startup era.",
+        "whyImportant": "It reframed non-tech industries as software delivery problems.",
+        "problemSolved": "Investors and incumbents underestimated how fast software would disrupt physical businesses."
+      },
+      "tags": [
+        "quote",
+        "prediction",
+        "venture-capital",
+        "software"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "Wall Street Journal — Why Software Is Eating the World (August 20, 2011)",
+          "url": "https://www.wsj.com/articles/SB10001424053111903480904576512250915629460",
+          "role": "date"
+        },
+        {
+          "title": "Andreessen Horowitz — The essay (overview)",
+          "url": "https://a16z.com/why-software-is-eating-the-world/",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,142 @@
+{
+  "events": [
+    {
+      "id": "miguel-de-icaza-mono-announced",
+      "slug": "miguel-de-icaza-mono-announced",
+      "date": "2001-06",
+      "datePrecision": "month",
+      "title": "Miguel de Icaza announces Mono",
+      "summary": "Miguel de Icaza announced Mono in June 2001 — an open-source .NET implementation that brought C# beyond Windows.",
+      "about": "Mono enabled Xamarin mobile development and Unity's C# scripting on macOS and Linux. de Icaza also co-founded GNOME and Ximian — shaping open desktop and cross-platform .NET.",
+      "narrative": {
+        "whyChosen": "Mono made Microsoft's managed runtime portable before .NET Core existed.",
+        "whyImportant": "It kept C# viable for cross-platform mobile and game development.",
+        "problemSolved": ".NET was Windows-only, blocking open-source and mobile adoption."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "dotnet",
+        "open-source",
+        "mono"
+      ],
+      "people": [
+        {
+          "id": "miguel-de-icaza",
+          "name": "Miguel de Icaza",
+          "role": "creator"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mono project — Announcement (June 2001)",
+          "url": "https://en.wikipedia.org/wiki/Mono_(software)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mono (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mono_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "csharp-announced",
+        "dotnet-framework-1-0-rtm"
+      ]
+    },
+    {
+      "id": "blade-server-era",
+      "slug": "blade-server-era",
+      "date": "2001-06",
+      "datePrecision": "month",
+      "title": "First commercial blade servers ship",
+      "summary": "RLX Technologies began shipping the first commercial blade servers in June 2001 — ultra-dense x86 servers in a shared chassis.",
+      "about": "Blade servers swapped standalone 1U boxes for interchangeable cards sharing power, cooling, and networking in a chassis — HP, IBM, and Dell followed with c-Class, BladeCenter, and PowerEdge blades. Datacenters packed more compute per rack for virtualization hosts and web tiers. Backend developers deploying on \"blades\" in the 2000s ran on this form factor.",
+      "narrative": {
+        "whyChosen": "RLX blade servers pioneered the dense datacenter form factor that dominated 2000s enterprise hosting.",
+        "whyImportant": "Blades made horizontal scaling cheaper and standardized rack infrastructure for virtualization.",
+        "problemSolved": "Traditional rack servers wasted space, power, and cabling in growing datacenters."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "server",
+        "blade",
+        "datacenter",
+        "x86",
+        "rack"
+      ],
+      "people": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Blade server (RLX, June 2001)",
+          "url": "https://en.wikipedia.org/wiki/Blade_server",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Server hardware (overview)",
+          "url": "https://www.computerhistory.org/revolution/networking/11/357",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "hp-proliant-era",
+        "amd64-x86-64-announced",
+        "vmware-workstation-released",
+        "sun-enterprise-10000-released"
+      ]
+    },
+    {
+      "slug": "ballmer-linux-cancer",
+      "media": [],
+      "relatedIds": [
+        "steve-ballmer-named-microsoft-ceo",
+        "linux-kernel-announced"
+      ],
+      "people": [
+        {
+          "id": "steve-ballmer",
+          "name": "Steve Ballmer",
+          "role": "ceo"
+        }
+      ],
+      "category": "quote",
+      "id": "ballmer-linux-cancer",
+      "date": "2001-06-01",
+      "datePrecision": "day",
+      "title": "Steve Ballmer calls Linux \"a cancer\"",
+      "quoteText": "Linux is a cancer that attaches itself in an intellectual property sense to everything it touches.",
+      "summary": "In a Chicago Sun-Times interview, Microsoft CEO Steve Ballmer attacks the GPL and open-source licensing.",
+      "about": "Ballmer was arguing that copyleft 'infects' proprietary code — a framing open-source advocates still push back on. The quote marked peak Microsoft–Linux hostility before Azure embraced open source.",
+      "narrative": {
+        "whyChosen": "The most inflammatory corporate quote of the open-source wars.",
+        "whyImportant": "It galvanized the free-software community and defined Microsoft's public stance for years.",
+        "problemSolved": "Microsoft was defending its licensing model against government open-source adoption."
+      },
+      "tags": [
+        "quote",
+        "controversy",
+        "microsoft",
+        "linux",
+        "open-source"
+      ],
+      "importance": 1,
+      "sources": [
+        {
+          "title": "The Register — Ballmer: Linux is a cancer (June 1, 2001)",
+          "url": "https://www.theregister.com/2001/06/02/ballmer_linux_is_a_cancer/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — History of Linux adoption (overview)",
+          "url": "https://en.wikipedia.org/wiki/Linux_adoption",
+          "role": "overview"
+        }
+      ]
+    }
+  ]
+}

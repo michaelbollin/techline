@@ -14,7 +14,13 @@
         "problemSolved": "Early JavaScript was too limited for complex client-side apps; websites needed better string tools and error handling without breaking old pages."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "es3", "standard"],
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "es3",
+        "standard"
+      ],
+      "people": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +35,55 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-1-adopted", "ecmascript-5-adopted"]
+      "relatedIds": [
+        "ecmascript-1-adopted",
+        "ecmascript-5-adopted"
+      ]
+    },
+    {
+      "slug": "openssh-first-released",
+      "media": [],
+      "relatedIds": [
+        "theo-de-raadt-openbsd-forked"
+      ],
+      "people": [
+        {
+          "id": "theo-de-raadt",
+          "name": "Theo de Raadt",
+          "role": "founder"
+        }
+      ],
+      "id": "openssh-first-released",
+      "date": "1999-12-01",
+      "datePrecision": "day",
+      "title": "OpenBSD team releases OpenSSH",
+      "summary": "The OpenBSD team led by Theo de Raadt shipped OpenSSH 1.2.2 on December 1, 1999 — a free replacement for proprietary SSH.",
+      "about": "OpenSSH secured remote server administration for the entire internet — `ssh` on every Linux and macOS machine traces to this fork. It replaced a commercial SSH license with audited BSD-licensed code bundled with OpenBSD 2.6.",
+      "narrative": {
+        "whyChosen": "OpenSSH became the universal secure shell implementation.",
+        "whyImportant": "It kept encrypted remote access free and auditable after SSH went proprietary.",
+        "problemSolved": "Proprietary SSH licensing threatened to tax every Unix administrator and vendor."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "security",
+        "open-source",
+        "ssh"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "OpenSSH — Project history (December 1, 1999)",
+          "url": "https://www.openssh.org/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OpenSSH (overview)",
+          "url": "https://en.wikipedia.org/wiki/OpenSSH",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["angularjs-released", "typescript-preview-released"]
+    },
+    {
+      "id": "safari-10-released",
+      "slug": "safari-10-released",
+      "date": "2016-09-20",
+      "datePrecision": "day",
+      "title": "Safari 10 released",
+      "summary": "Apple released Safari 10 on September 20, 2016 with macOS Sierra — adding Picture in Picture, Apple Pay on the web, and autoplay blocking.",
+      "about": "Safari 10 brought Apple Pay to e-commerce sites and blocked intrusive media autoplay — improving battery life and UX. Picture in Picture for web video matched features iOS users already had on iPad.",
+      "narrative": {
+        "whyChosen": "Safari 10 integrated payments and media controls into the desktop web platform.",
+        "whyImportant": "Apple Pay on the web expanded Apple's payment ecosystem beyond apps.",
+        "problemSolved": "Autoplaying video ads and audio drained batteries and annoyed users."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — macOS Sierra available today (September 20, 2016)",
+          "url": "https://www.apple.com/newsroom/2016/09/20/macos-sierra-now-available/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-9-released", "safari-8-released", "safari-announced"]
     }
   ]
 }

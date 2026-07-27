@@ -14,7 +14,13 @@
         "problemSolved": "Wall needed something better than shell, awk, and sed for report generation at Unisys — one language for parsing, printing, and gluing Unix tools."
       },
       "category": "software",
-      "tags": ["perl", "wall", "text-processing", "programming-language"],
+      "tags": [
+        "perl",
+        "wall",
+        "text-processing",
+        "programming-language"
+      ],
+      "people": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,54 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released"]
+      "relatedIds": [
+        "php-tools-1-0-released"
+      ]
+    },
+    {
+      "slug": "larry-wall-perl-1-released",
+      "media": [],
+      "relatedIds": [
+        "perl-5-0-released",
+        "perl-6-christmas-released"
+      ],
+      "people": [
+        {
+          "id": "larry-wall",
+          "name": "Larry Wall",
+          "role": "creator"
+        }
+      ],
+      "id": "larry-wall-perl-1-released",
+      "date": "1987-12",
+      "datePrecision": "month",
+      "title": "Larry Wall releases Perl 1.0",
+      "summary": "Larry Wall released Perl 1.0 in December 1987 — a practical text-processing language that became the glue of early web and sysadmin stacks.",
+      "about": "Perl's regex and CPAN ecosystem powered CGI scripts, log parsing, and bioinformatics. Wall's 'TIMTOWTDI' philosophy influenced how dynamic languages approached flexibility versus readability.",
+      "narrative": {
+        "whyChosen": "Perl was the duct tape of the 1990s internet and Unix automation.",
+        "whyImportant": "CPAN pioneered language-specific package ecosystems before npm and PyPI.",
+        "problemSolved": "Shell, awk, and sed were awkward for complex text and report tasks."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "perl",
+        "programming-language"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Perl.org — Perl history (Perl 1.0, December 1987)",
+          "url": "https://www.perl.org/about/history.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Perl (overview)",
+          "url": "https://en.wikipedia.org/wiki/Perl",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }
