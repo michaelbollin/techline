@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "chrome-manifest-v3",
+      "slug": "chrome-manifest-v3",
+      "date": "2021-01",
+      "datePrecision": "month",
+      "title": "Chrome Manifest V3 extension platform",
+      "summary": "Google began rolling out Manifest V3 for Chrome extensions in January 2021 — replacing persistent background pages with service workers and tightening content-blocking APIs.",
+      "about": "Manifest V3 changed how ad blockers, password managers, and dev tools hook into Chrome: extensions became more sandboxed and declarative. The shift sparked years of debate between Google (security, performance) and extension authors (filtering power), and other Chromium browsers inherited the model.",
+      "narrative": {
+        "whyChosen": "MV3 redefined what browser extensions could do in the world's most-used browser.",
+        "whyImportant": "It forced every extension developer to rewrite for service workers and new permission models.",
+        "problemSolved": "Google argued legacy extension APIs were too permissive and hurt battery life and security."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "google", "chrome", "extensions"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Chrome Developers — Manifest V3 rollout (January 2021)",
+          "url": "https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Chrome (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Chrome",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-chrome-released", "brave-browser-launched"]
+    }
+  ]
+}

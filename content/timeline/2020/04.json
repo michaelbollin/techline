@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "nodejs-14-released",
+      "slug": "nodejs-14-released",
+      "date": "2020-04-21",
+      "datePrecision": "day",
+      "title": "Node.js 14 released",
+      "summary": "Node.js 14.0.0 shipped on April 21, 2020 with optional chaining in V8 8.1, diagnostic reports, and improved async hooks.",
+      "about": "Node 14 became LTS in October 2020 — the runtime behind pandemic-era remote tooling and e-commerce spikes. Optional chaining and nullish coalescing worked natively without transpilation; experimental native fetch arrived in later 14.x releases.",
+      "narrative": {
+        "whyChosen": "Node 14 LTS carried production workloads through the 2020–2021 surge in web traffic.",
+        "whyImportant": "Modern JS syntax in V8 reduced Babel dependency for server code.",
+        "problemSolved": "Teams wanted ES2020 operators on the server without extra compile steps."
+      },
+      "category": "software",
+      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v14.0.0 (April 21, 2020)",
+          "url": "https://nodejs.org/en/blog/release/v14.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-12-released", "nodejs-16-released", "nodejs-10-released"]
+    }
+  ]
+}

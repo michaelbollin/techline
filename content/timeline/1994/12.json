@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "netscape-navigator-1-0",
+      "slug": "netscape-navigator-1-0",
+      "date": "1994-12-15",
+      "datePrecision": "day",
+      "title": "Netscape Navigator 1.0 shipped",
+      "summary": "Netscape Communications released Navigator 1.0 on December 15, 1994 — the commercial browser that defined the mid-1990s web and set the pace of the browser wars.",
+      "about": "Navigator bundled fast rendering, SSL for secure shopping, and cookies for session state — the stack behind early e-commerce and portal sites. Built by many of the Mosaic authors, it quickly became the browser most people associated with \"the internet\" before Microsoft's response.",
+      "narrative": {
+        "whyChosen": "Netscape turned the web into a product category and a public-company story.",
+        "whyImportant": "It set de-facto web features (SSL, cookies, rapid releases) that every competitor had to match.",
+        "problemSolved": "The web needed a supported, fast, cross-platform browser backed by a company that could drive standards and ship updates weekly."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "netscape", "ssl"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Netscape Navigator (1.0 release December 15, 1994)",
+          "url": "https://en.wikipedia.org/wiki/Netscape_Navigator",
+          "role": "date"
+        },
+        {
+          "title": "Computer History Museum — Marc Andreessen and the Mosaic/Netscape story (overview)",
+          "url": "https://www.computerhistory.org/tdih/this-day-in-history/1994/12/15/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["mosaic-1-0-released", "javascript-mocha-prototype", "internet-explorer-1-0"]
+    }
+  ]
+}

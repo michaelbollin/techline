@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "java-17-released",
+      "slug": "java-17-released",
+      "date": "2021-09-14",
+      "datePrecision": "day",
+      "title": "Java 17 LTS released",
+      "summary": "Oracle and the OpenJDK community shipped Java 17 on September 14, 2021 — a long-term support release with sealed classes, pattern matching for switch (preview), and foreign memory APIs.",
+      "about": "Java 17 became the baseline for Spring Boot 3, Android toolchain updates, and enterprise migrations off Java 8/11. Sealed classes and records (from 16) let teams model domain data safely; LTS status meant banks and vendors could standardize on one version for years.",
+      "narrative": {
+        "whyChosen": "Java 17 is the modern LTS most enterprises target after the Java 8 era.",
+        "whyImportant": "It bundled years of incremental language improvements into a supported long-term release.",
+        "problemSolved": "Organizations on Java 8 needed a supported path to modern syntax without annual upgrade churn."
+      },
+      "category": "software",
+      "tags": ["java", "jvm", "programming-language", "lts"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenJDK — JDK 17 General Availability (September 14, 2021)",
+          "url": "https://openjdk.org/projects/jdk/17/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-1-0-shipped", "java-21-released", "kotlin-2-0-released"]
+    },
+    {
+      "id": "safari-15-ios-web-extensions",
+      "slug": "safari-15-ios-web-extensions",
+      "date": "2021-09",
+      "datePrecision": "month",
+      "title": "Safari 15 brought web extensions to iOS",
+      "summary": "iOS 15 and Safari 15 in September 2021 allowed WebExtensions on iPhone and iPad for the first time — plus Tab Groups and improved privacy reports.",
+      "about": "Developers could ship password managers, ad blockers, and dev tools to mobile Safari using the same WebExtensions APIs as desktop — within Apple's review rules. It reduced the gap between mobile Safari and Chrome on Android for power users.",
+      "narrative": {
+        "whyChosen": "Mobile Safari extensions opened a platform that had been locked down since the App Store launched.",
+        "whyImportant": "iOS users gained browser customization without jailbreaking or switching ecosystems.",
+        "problemSolved": "iPhone browsing lacked the extension ecosystem developers and users expected on desktop."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "ios", "webkit"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iOS 15 features (September 2021)",
+          "url": "https://www.apple.com/newsroom/2021/09/ios-15-is-available-today/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-announced", "safari-14-big-sur"]
+    },
+    {
+      "id": "swift-5-5-async-await",
+      "slug": "swift-5-5-async-await",
+      "date": "2021-09-20",
+      "datePrecision": "day",
+      "title": "Swift 5.5 async/await released",
+      "summary": "Apple shipped Swift 5.5 on September 20, 2021 with async/await, actors, and structured concurrency — bundled with Xcode 13 and iOS 15.",
+      "about": "Swift concurrency replaced completion-handler pyramids with `async` functions and `await` calls, and actors protected mutable state across tasks. Every new iOS networking and UI codebase adopted the model, paving the way for Swift 6's strict data-race checking.",
+      "narrative": {
+        "whyChosen": "Structured concurrency was Swift's answer to callback hell on Apple platforms.",
+        "whyImportant": "Actors and async/await became the default pattern for iOS and server Swift.",
+        "problemSolved": "Completion handlers and manual queue management produced bugs and unreadable async code."
+      },
+      "category": "software",
+      "tags": ["swift", "apple", "ios", "programming-language", "concurrency"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Xcode 13 released (September 20, 2021)",
+          "url": "https://www.apple.com/newsroom/2021/09/xcode-13-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Swift (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["swift-announced", "swift-open-sourced", "swift-6-released"]
+    }
+  ]
+}

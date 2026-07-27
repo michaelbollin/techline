@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "scala-3-released",
+      "slug": "scala-3-released",
+      "date": "2021-05-04",
+      "datePrecision": "day",
+      "title": "Scala 3.0 released",
+      "summary": "The Scala team released Scala 3.0 on May 4, 2021 — a major redesign with optional braces, union types, and a new compiler (Dotty).",
+      "about": "Scala 3 simplified syntax (`if x then y`), added powerful type-level features, and improved Java interop. It aimed to keep Scala relevant for data engineering (Spark) and typed functional programming without the boilerplate critics blamed on Scala 2.",
+      "narrative": {
+        "whyChosen": "Scala 3 was a once-per-decade language revision for a major JVM language.",
+        "whyImportant": "It reset Scala's design after years of complexity complaints from teams.",
+        "problemSolved": "Scala 2's syntax and implicit-heavy style scared away teams who wanted JVM types without ceremony."
+      },
+      "category": "software",
+      "tags": ["scala", "programming-language", "jvm", "functional-programming"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Scala-lang.org — Scala 3.0.0 released (May 4, 2021)",
+          "url": "https://www.scala-lang.org/blog/2021/05/04/scala3.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Scala (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Scala_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["scala-first-release", "scala-2-0-released", "kotlin-1-0-released"]
+    },
+    {
+      "id": "erlang-otp-24-released",
+      "slug": "erlang-otp-24-released",
+      "date": "2021-05-12",
+      "datePrecision": "day",
+      "title": "Erlang/OTP 24 released",
+      "summary": "The Erlang/OTP team released OTP 24 on May 12, 2021 with JIT compilation, improved SSL/TLS, and enhanced observer tools.",
+      "about": "OTP 24's JIT sped hot Erlang and Elixir code paths without changing semantics — a boost for Phoenix and RabbitMQ workloads. Updated crypto and socket APIs kept BEAM applications current for telecom, messaging, and fintech backends.",
+      "narrative": {
+        "whyChosen": "OTP 24's JIT was the biggest BEAM performance leap in years.",
+        "whyImportant": "Faster Erlang benefited the entire Elixir ecosystem built on the same VM.",
+        "problemSolved": "BEAM bytecode interpretation lagged behind JIT-equipped runtimes for CPU-heavy tasks."
+      },
+      "category": "software",
+      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Erlang.org — OTP 24.0 released (May 12, 2021)",
+          "url": "https://www.erlang.org/news/150",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Erlang (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["erlang-open-sourced", "elixir-1-0-released", "elixir-first-release"]
+    },
+    {
+      "id": "ghc-9-0-released",
+      "slug": "ghc-9-0-released",
+      "date": "2021-05-09",
+      "datePrecision": "day",
+      "title": "GHC 9.0 released",
+      "summary": "The Glasgow Haskell Compiler 9.0.1 shipped on May 9, 2021 with a new code generator, improved IDE support, and linear types groundwork.",
+      "about": "GHC 9.0 replaced the native code generator with a more maintainable pipeline and delivered faster compile times for large Haskell projects. It underpinned Haskell 2010+ development in finance, blockchain (Cardano), and research tooling.",
+      "narrative": {
+        "whyChosen": "GHC 9.0 modernized the compiler infrastructure behind all production Haskell.",
+        "whyImportant": "Compile-time improvements kept Haskell viable for large codebases.",
+        "problemSolved": "GHC 8's backend was hard to extend and slow on megaproject builds."
+      },
+      "category": "software",
+      "tags": ["haskell", "ghc", "compiler", "functional-programming", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Haskell.org — GHC 9.0.1 released (May 9, 2021)",
+          "url": "https://www.haskell.org/ghc/blog/20210509-ghc-9-0-1-released.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Glasgow Haskell Compiler (overview)",
+          "url": "https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["haskell-2010-standard", "haskell-1-0-report"]
+    }
+  ]
+}

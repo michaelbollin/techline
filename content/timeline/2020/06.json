@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-2020-adopted",
+      "slug": "ecmascript-2020-adopted",
+      "date": "2020-06",
+      "datePrecision": "month",
+      "title": "ECMAScript 2020 standardized",
+      "summary": "Ecma adopted ECMAScript 2020 in June 2020 — adding optional chaining, nullish coalescing, `BigInt`, and `Promise.allSettled`.",
+      "about": "ES2020 features became everyday JavaScript: `obj?.prop` and `value ?? fallback` reduced null-pointer bugs; `BigInt` handled large integers; dynamic `import()` improved code splitting. Every modern bundler and browser targets these additions.",
+      "narrative": {
+        "whyChosen": "ES2020 delivered some of the most-used syntax sugar in modern JavaScript.",
+        "whyImportant": "Optional chaining and nullish coalescing changed how millions of developers handle missing data.",
+        "problemSolved": "Accessing nested properties and defaulting null/undefined values required verbose, error-prone boilerplate."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 2020 adopted (June 2020)",
+          "url": "https://ecma-international.org/news/ecma-international-approves-new-standards-4/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-2015-adopted", "ecmascript-2022-adopted"]
+    },
+    {
+      "id": "gpt-3-api-released",
+      "slug": "gpt-3-api-released",
+      "date": "2020-06-11",
+      "datePrecision": "day",
+      "title": "OpenAI GPT-3 API announced",
+      "summary": "OpenAI announced API access to GPT-3 on June 11, 2020 — opening large-language-model text generation to developers beyond research previews.",
+      "about": "The GPT-3 API let apps call a 175B-parameter model for completion, summarization, and code generation via HTTP. It launched the LLM API economy — copywriting tools, coding assistants, and chatbots built on a single endpoint before ChatGPT's consumer interface.",
+      "narrative": {
+        "whyChosen": "The GPT-3 API was the commercial inflection point for LLMs in production software.",
+        "whyImportant": "It proved developers would pay per token for generative AI at scale.",
+        "problemSolved": "Teams could not ship LLM features without training and hosting their own massive models."
+      },
+      "category": "software",
+      "tags": ["ai", "openai", "gpt", "api", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — OpenAI API (June 11, 2020)",
+          "url": "https://openai.com/index/openai-api/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GPT-3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/GPT-3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["chatgpt-released", "gpt-4-released"]
+    }
+  ]
+}

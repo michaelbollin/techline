@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dotnet-core-3-0-released",
+      "slug": "dotnet-core-3-0-released",
+      "date": "2019-09-23",
+      "datePrecision": "day",
+      "title": ".NET Core 3.0 and C# 8 released",
+      "summary": "Microsoft shipped .NET Core 3.0 on September 23, 2019 with C# 8 — adding nullable reference types, async streams, ranges, and Windows desktop support.",
+      "about": "C# 8's nullable annotations (`string?`) caught null bugs at compile time; `IAsyncEnumerable` enabled streaming async data; index/range syntax (`^1`, `..`) simplified slicing. .NET Core 3.0 also brought WPF and WinForms to .NET Core on Windows.",
+      "narrative": {
+        "whyChosen": "C# 8 nullable types changed how .NET teams handle null safety at scale.",
+        "whyImportant": "Desktop support on Core let Windows apps migrate off .NET Framework.",
+        "problemSolved": "NullReferenceException was the #1 .NET runtime bug; Framework-only desktop apps could not move to Core."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET Core 3.0 (September 23, 2019)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C Sharp (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["csharp-7-released", "dotnet-5-released", "dotnet-core-1-0-released"]
+    }
+  ]
+}

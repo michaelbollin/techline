@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "internet-explorer-7-released",
+      "slug": "internet-explorer-7-released",
+      "date": "2006-10-18",
+      "datePrecision": "day",
+      "title": "Internet Explorer 7 released",
+      "summary": "Microsoft shipped Internet Explorer 7 on October 18, 2006 with tabbed browsing, a phishing filter, and improved CSS support in Windows Vista.",
+      "about": "IE 7 was Microsoft's first major browser update in five years — adding tabs years after Firefox popularized them. It shipped with Vista and tried to close the gap with Firefox 2 while IE 6 still dominated market share.",
+      "narrative": {
+        "whyChosen": "IE 7 was Microsoft's belated response to Firefox's resurgence.",
+        "whyImportant": "Tabs and security features became baseline expectations for every browser.",
+        "problemSolved": "IE 6 stagnation and security failures pushed users toward Firefox; Microsoft had to catch up."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer history (IE 7.0, October 18, 2006)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/dn742485(v=vs.85)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer 7 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_7",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-6-released", "firefox-1-5-released", "firefox-1-0-released"]
+    }
+  ]
+}

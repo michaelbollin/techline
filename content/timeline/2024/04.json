@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "nodejs-22-released",
+      "slug": "nodejs-22-released",
+      "date": "2024-04-24",
+      "datePrecision": "day",
+      "title": "Node.js 22 released",
+      "summary": "Node.js 22.0.0 shipped on April 24, 2024 with require() of ES modules, WebSocket client, and V8 12.4.",
+      "about": "Node 22 became LTS in October 2024 — enabling `require(esm)` eased migration from CommonJS to modules; built-in WebSocket client reduced dependency on `ws`. Cloud hosts and edge runtimes adopted it for the 2024–2026 window.",
+      "narrative": {
+        "whyChosen": "Node 22 simplified the ESM/CommonJS interop pain that blocked upgrades.",
+        "whyImportant": "Native WebSocket and module loading reduced npm surface area for servers.",
+        "problemSolved": "Dual package ecosystems forced awkward loaders and bundler workarounds."
+      },
+      "category": "software",
+      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v22.0.0 (April 24, 2024)",
+          "url": "https://nodejs.org/en/blog/release/v22.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-20-released", "nodejs-18-released", "nodejs-4-released"]
+    },
+    {
+      "id": "llama-3-released",
+      "slug": "llama-3-released",
+      "date": "2024-04-18",
+      "datePrecision": "day",
+      "title": "Meta Llama 3 released",
+      "summary": "Meta released Llama 3 on April 18, 2024 — open-weight 8B and 70B models with improved reasoning, coding, and multilingual support.",
+      "about": "Llama 3 closed much of the gap with closed APIs like GPT-4 and Claude — fueling local inference tools (Ollama, LM Studio) and fine-tuning pipelines. The 405B variant followed later, but the April release reset expectations for open-model quality.",
+      "narrative": {
+        "whyChosen": "Llama 3 made frontier-class open weights the default choice for self-hosted AI.",
+        "whyImportant": "Competitive open models reduced vendor lock-in for startups and researchers.",
+        "problemSolved": "Llama 2 lagged closed models on reasoning and code — limiting offline deployments."
+      },
+      "category": "software",
+      "tags": ["ai", "meta", "llama", "open-source", "llm", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Meta AI — Introducing Meta Llama 3 (April 18, 2024)",
+          "url": "https://ai.meta.com/blog/meta-llama-3/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Llama (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["llama-2-released", "chatgpt-released", "gpt-4-released"]
+    }
+  ]
+}

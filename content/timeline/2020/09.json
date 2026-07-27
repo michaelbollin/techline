@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "vue-3-released",
+      "slug": "vue-3-released",
+      "date": "2020-09-18",
+      "datePrecision": "day",
+      "title": "Vue 3.0 released",
+      "summary": "Evan You shipped Vue 3.0 on September 18, 2020 with the Composition API, a faster virtual DOM, and better TypeScript support.",
+      "about": "Vue 3 let teams organize component logic with composables instead of sprawling `data`/`methods` blocks — similar ergonomics to React hooks with Vue's reactive system. The rewrite improved performance for large dashboards and became the default for new Laravel, Nuxt, and enterprise frontends.",
+      "narrative": {
+        "whyChosen": "Vue 3 was a ground-up rewrite that kept Vue's gentle learning curve while scaling to large apps.",
+        "whyImportant": "The Composition API and improved TypeScript story kept Vue competitive with React for new projects.",
+        "problemSolved": "Vue 2's options API did not scale cleanly for complex components shared across big codebases."
+      },
+      "category": "software",
+      "tags": ["vue", "frontend", "spa", "web-framework"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Vue.js — Vue 3.0 One Piece (September 18, 2020)",
+          "url": "https://blog.vuejs.org/posts/vue-3-one-piece.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Vue.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vue.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["vue-js-released", "typescript-preview-released"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "netscape-navigator-2-0",
+      "slug": "netscape-navigator-2-0",
+      "date": "1996-03-18",
+      "datePrecision": "day",
+      "title": "Netscape Navigator 2.0 shipped",
+      "summary": "Netscape released Navigator 2.0 on March 18, 1996 — the first mass-market browser with JavaScript and support for Java applets and plug-ins.",
+      "about": "Navigator 2.0 made pages programmable: form validation, image rollovers, and early dynamic UI without reloading. It also embraced third-party plug-ins (QuickTime, Acrobat) and frames — for better or worse, shaping how 1990s sites were built.",
+      "narrative": {
+        "whyChosen": "This was the first browser millions used that could run JavaScript in the wild.",
+        "whyImportant": "It turned the browser from a document viewer into an application runtime.",
+        "problemSolved": "Static HTML could not deliver interactive pages; Netscape needed to ship the scripting language it had invented."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "netscape", "javascript"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Netscape Navigator 2 (March 18, 1996)",
+          "url": "https://en.wikipedia.org/wiki/Netscape_Navigator_2",
+          "role": "date"
+        },
+        {
+          "title": "MDN — JavaScript history (overview)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/History",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["javascript-mocha-prototype", "javascript-name-announced", "internet-explorer-3-0"]
+    }
+  ]
+}

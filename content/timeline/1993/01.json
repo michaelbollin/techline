@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "mosaic-1-0-released",
+      "slug": "mosaic-1-0-released",
+      "date": "1993-01-23",
+      "datePrecision": "day",
+      "title": "NCSA Mosaic 1.0 released",
+      "summary": "On January 23, 1993, the National Center for Supercomputing Applications released Mosaic 1.0 — the browser that popularized inline images and made the web mainstream.",
+      "about": "Mosaic showed the web as a visual medium: pictures inside pages, clickable links, and forms on Windows, Mac, and Unix. Marc Andreessen's team at NCSA turned a research network into something ordinary users wanted — and its alumni founded Netscape.",
+      "narrative": {
+        "whyChosen": "Mosaic was the tipping point from academic hypertext to mass-market browsing.",
+        "whyImportant": "Inline images and a polished UI made the web understandable to non-specialists and sparked the first web boom.",
+        "problemSolved": "Earlier browsers were niche research tools; the public needed one friendly program that worked across platforms."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mosaic", "ncsa"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "NCSA Mosaic — What is Mosaic? (release history)",
+          "url": "https://www.ncsa.illinois.edu/enabling/mosaic",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mosaic (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mosaic_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["worldwideweb-browser", "netscape-navigator-1-0"]
+    }
+  ]
+}

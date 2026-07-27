@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["python-0-9-0-released", "flask-released", "django-open-sourced"]
+    },
+    {
+      "id": "flutter-1-0-released",
+      "slug": "flutter-1-0-released",
+      "date": "2018-12-04",
+      "datePrecision": "day",
+      "title": "Flutter 1.0 released",
+      "summary": "Google released Flutter 1.0 on December 4, 2018 at Flutter Live — a UI toolkit for building native apps from a single Dart codebase.",
+      "about": "Flutter compiles to native ARM code on iOS and Android with a custom rendering engine (Skia) — hot reload, Material/Cupertino widgets, and one codebase for mobile, web, and desktop. It became the main alternative to React Native for cross-platform mobile apps.",
+      "narrative": {
+        "whyChosen": "Flutter 1.0 made cross-platform native UI a Google-backed product, not an experiment.",
+        "whyImportant": "It proved custom rendering could beat WebView bridges for mobile performance.",
+        "problemSolved": "Teams maintained separate iOS and Android UIs or accepted hybrid WebView limitations."
+      },
+      "category": "software",
+      "tags": ["flutter", "dart", "google", "mobile", "cross-platform"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Developers — Flutter 1.0 released (December 4, 2018)",
+          "url": "https://developers.googleblog.com/2018/12/flutter-10-goes-live.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Flutter (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Flutter_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dart-unveiled", "dart-3-released", "react-open-sourced"]
     }
   ]
 }

@@ -30,6 +30,68 @@
         }
       ],
       "relatedIds": ["react-open-sourced"]
+    },
+    {
+      "id": "microsoft-edge-released",
+      "slug": "microsoft-edge-released",
+      "date": "2015-07-29",
+      "datePrecision": "day",
+      "title": "Microsoft Edge released with Windows 10",
+      "summary": "Microsoft shipped the Edge browser on July 29, 2015 with Windows 10 — replacing Internet Explorer as the default with a new rendering engine (EdgeHTML).",
+      "about": "Edge was Microsoft's clean break from IE's legacy: faster updates, modern standards, and integration with Cortana and Windows 10. It never fully displaced Chrome, but it ended the era of IE as default and set up Microsoft's later move to Chromium.",
+      "narrative": {
+        "whyChosen": "Edge marked Microsoft's attempt to leave Trident and IE compatibility baggage behind.",
+        "whyImportant": "It showed even the Windows default browser could be rebuilt from scratch for the modern web.",
+        "problemSolved": "IE's reputation and technical debt made it untenable as the face of Windows browsing."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "edge"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Windows 10 and Microsoft Edge (July 29, 2015)",
+          "url": "https://blogs.windows.com/windowsexperience/2015/07/29/windows-10-and-microsoft-edge/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microsoft Edge (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Edge",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-6-released", "edge-chromium-released", "google-chrome-released"]
+    },
+    {
+      "id": "csharp-6-roslyn-released",
+      "slug": "csharp-6-roslyn-released",
+      "date": "2015-07-20",
+      "datePrecision": "day",
+      "title": "C# 6 and Roslyn compiler released",
+      "summary": "Visual Studio 2015 shipped on July 20, 2015 with C# 6 and the open-source Roslyn compiler platform — bringing string interpolation, null-conditional operators, and analyzers.",
+      "about": "Roslyn exposed C# as an API: IDEs, linters, and code generators could parse and rewrite syntax trees. C# 6's `$\"Hello {name}\"` and `obj?.Method()` reduced boilerplate. The compiler-as-a-library model influenced .NET tooling for a decade.",
+      "narrative": {
+        "whyChosen": "Roslyn turned the C# compiler into extensible infrastructure for the whole .NET ecosystem.",
+        "whyImportant": "Open-sourcing the compiler enabled analyzers, source generators, and cross-platform builds.",
+        "problemSolved": "Closed compilers blocked third-party refactoring tools and language experimentation."
+      },
+      "category": "software",
+      "tags": ["csharp", "dotnet", "microsoft", "compiler", "roslyn", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Visual Studio 2015 released (July 20, 2015)",
+          "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-2015-and-visual-studio-2013-update-5-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Roslyn (compiler) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Roslyn_(compiler)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-framework-4-5-released", "dotnet-6-released"]
     }
   ]
 }

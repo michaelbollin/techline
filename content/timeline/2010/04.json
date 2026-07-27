@@ -61,6 +61,37 @@
         }
       ],
       "relatedIds": ["csharp-announced", "dotnet-framework-1-0-rtm"]
+    },
+    {
+      "id": "dotnet-framework-4-0-released",
+      "slug": "dotnet-framework-4-0-released",
+      "date": "2010-04-12",
+      "datePrecision": "day",
+      "title": ".NET 4.0 and C# 4.0 released",
+      "summary": "Microsoft shipped .NET Framework 4.0 on April 12, 2010 with C# 4.0 dynamic typing, optional parameters, and `async` preparation via the Task Parallel Library.",
+      "about": "C# 4's `dynamic` keyword made COM and Office automation less painful; optional and named arguments cleaned up APIs. The Task Parallel Library laid groundwork for `async`/`await in C# 5 — keeping .NET competitive for Windows desktop and server through the 2010s.",
+      "narrative": {
+        "whyChosen": "C# 4 added dynamic interop and TPL — stepping stones to modern async .NET.",
+        "whyImportant": "Dynamic typing bridged C# and scripting/COM worlds without abandoning static safety elsewhere.",
+        "problemSolved": "Office and legacy COM APIs were painful to call from strongly typed C#."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — .NET Framework 4 and Visual Studio 2010 (April 12, 2010)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ee856194(v=vs.100)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C Sharp (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-framework-3-5-released", "dotnet-core-1-0-released"]
     }
   ]
 }

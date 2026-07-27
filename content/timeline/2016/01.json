@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "brave-browser-launched",
+      "slug": "brave-browser-launched",
+      "date": "2016-01-20",
+      "datePrecision": "day",
+      "title": "Brave browser launched",
+      "summary": "Brendan Eich's Brave Software released Brave 1.0 in beta on January 20, 2016 — a Chromium-based browser focused on blocking ads and trackers by default.",
+      "about": "Brave shipped with built-in ad and tracker blocking, HTTPS upgrades, and later a BAT micropayments model for publishers. Built on Chromium by the creator of JavaScript, it represented a privacy-first alternative in a market dominated by ad-driven browsers.",
+      "narrative": {
+        "whyChosen": "Brave popularized default privacy blocking in a mainstream Chromium fork.",
+        "whyImportant": "It pushed the industry toward stricter tracking protection and alternative funding models.",
+        "problemSolved": "Users wanted faster, safer browsing without installing extensions or fighting surveillance ads."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "brave", "privacy", "chromium"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Brave — Brave browser beta launch (January 20, 2016)",
+          "url": "https://brave.com/blog/the-brave-browser-beta-is-live/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Brave (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Brave_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-chrome-released", "javascript-mocha-prototype"]
+    }
+  ]
+}

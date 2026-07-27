@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "lua-5-1-released",
+      "slug": "lua-5-1-released",
+      "date": "2006-02-21",
+      "datePrecision": "day",
+      "title": "Lua 5.1 released",
+      "summary": "The Lua team released Lua 5.1 on February 21, 2006 with a new garbage collector, module system (`require`), and vararg improvements.",
+      "about": "Lua 5.1 is the dialect embedded in Redis scripting, World of Warcraft addons, and millions of game engines — the version most hosts still target. Modules and the GC rewrite made long-running embedded scripts more reliable.",
+      "narrative": {
+        "whyChosen": "Lua 5.1 became the de facto embedded Lua for a decade of games and infrastructure.",
+        "whyImportant": "The module system standardized how C hosts load Lua libraries.",
+        "problemSolved": "Lua 5.0's package model was awkward for large embedded codebases."
+      },
+      "category": "software",
+      "tags": ["lua", "programming-language", "embedded"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Lua.org — Lua 5.1.0 released (February 21, 2006)",
+          "url": "https://www.lua.org/manual/5.1/readme.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lua (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lua_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["lua-5-0-released"]
+    }
+  ]
+}

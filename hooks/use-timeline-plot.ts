@@ -1,11 +1,12 @@
 import * as d3 from "d3";
 import { useMemo } from "react";
 
-import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT, TIMELINE_TOOLTIP_EDGE_INSET } from "@/lib/timeline/constants";
+import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT } from "@/lib/timeline/constants";
 import { filterTimelineEvents } from "@/lib/timeline/filters";
-import { resolveLabelLayout, labelTopLocalY } from "@/lib/timeline/label-layout";
+import { resolveLabelLayout } from "@/lib/timeline/label-layout";
 import { measureLabelWidth } from "@/lib/timeline/measure-label";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
+import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { computeStemStarts } from "@/lib/timeline/stem-layout";
 import { maxImportanceForZoom, maxLanesForZoom } from "@/lib/timeline/zoom-lod";
 import type { TimelineEvent } from "@/lib/timeline/schema";
@@ -45,13 +46,17 @@ export function useTimelinePlot({
   const xScale = useMemo(() => transform.rescaleX(baseScale), [baseScale, transform]);
 
   const msPerPixel = useMemo(() => {
-    const t0 = xScale.invert(0).getTime();
-    const t1 = xScale.invert(width).getTime();
-    return Math.abs(t1 - t0) / Math.max(width, 1);
+    const span = visibleTimeSpanMs(xScale, width);
+    return span / Math.max(width, 1);
   }, [width, xScale]);
 
+  const visibleSpanMs = useMemo(() => visibleTimeSpanMs(xScale, width), [width, xScale]);
+
   const maxImportance = useMemo(() => maxImportanceForZoom(msPerPixel), [msPerPixel]);
-  const maxLanes = useMemo(() => maxLanesForZoom(msPerPixel), [msPerPixel]);
+  const maxLanes = useMemo(
+    () => maxLanesForZoom(msPerPixel, visibleSpanMs),
+    [msPerPixel, visibleSpanMs],
+  );
 
   const labelWidths = useMemo(() => {
     const widths = new Map<string, number>();
@@ -70,8 +75,9 @@ export function useTimelinePlot({
         width,
         maxLanes,
         (event) => labelWidths.get(event.id) ?? measureLabelWidth(event.title),
+        visibleSpanMs,
       ),
-    [labelWidths, maxImportance, maxLanes, plotted, width, xScale],
+    [labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, xScale],
   );
 
   const stemStartY = useMemo(
@@ -81,7 +87,7 @@ export function useTimelinePlot({
 
   const labelNodes = useMemo(() => {
     const visible = plotted.filter((event) => labelLayout.get(event.id)?.showLabel);
-    return [...visible].sort((a, b) => {
+    const sorted = [...visible].sort((a, b) => {
       const laneA = labelLayout.get(a.id)?.lane ?? 0;
       const laneB = labelLayout.get(b.id)?.lane ?? 0;
       if (laneA !== laneB) {
@@ -90,23 +96,19 @@ export function useTimelinePlot({
 
       return xScale(a.timestamp) - xScale(b.timestamp);
     });
-  }, [labelLayout, plotted, xScale]);
 
-  const tooltipAnchor = useMemo(() => {
-    if (!hovered || width <= 0) {
-      return null;
+    if (!hovered) {
+      return sorted;
     }
 
-    const x = xScale(hovered.timestamp);
-    const lane = labelLayout.get(hovered.id)?.lane ?? 0;
-    const labelVisible = labelLayout.get(hovered.id)?.showLabel ?? false;
-    const labelTop = axisY + labelTopLocalY(lane);
+    const hoveredIndex = sorted.findIndex((event) => event.id === hovered.id);
+    if (hoveredIndex === -1) {
+      return sorted;
+    }
 
-    return {
-      x: Math.min(Math.max(x, TIMELINE_TOOLTIP_EDGE_INSET), width - TIMELINE_TOOLTIP_EDGE_INSET),
-      y: labelVisible ? labelTop - 12 : axisY - 72,
-    };
-  }, [axisY, hovered, labelLayout, width, xScale]);
+    const hoveredEvent = sorted[hoveredIndex]!;
+    return [...sorted.slice(0, hoveredIndex), ...sorted.slice(hoveredIndex + 1), hoveredEvent];
+  }, [hovered, labelLayout, plotted, xScale]);
 
   return {
     filteredEvents,
@@ -117,6 +119,5 @@ export function useTimelinePlot({
     labelWidths,
     stemStartY,
     labelNodes,
-    tooltipAnchor,
   };
 }

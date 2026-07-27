@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dotnet-core-1-0-released",
+      "slug": "dotnet-core-1-0-released",
+      "date": "2016-06-27",
+      "datePrecision": "day",
+      "title": ".NET Core 1.0 released",
+      "summary": "Microsoft released .NET Core 1.0 on June 27, 2016 — a cross-platform, open-source fork of .NET for Windows, Linux, and macOS.",
+      "about": ".NET Core broke .NET free from Windows-only deployment: ASP.NET APIs on Linux containers, microservices on macOS dev machines, and MIT-licensed runtime code. It evolved into modern .NET 5+ and replaced .NET Framework for new cloud and cross-platform projects.",
+      "narrative": {
+        "whyChosen": ".NET Core was Microsoft's pivot to open, cross-platform server development.",
+        "whyImportant": "Linux and Docker support made C# viable outside the Windows data center.",
+        "problemSolved": ".NET Framework was Windows-only; cloud-native teams needed the CLR on Linux."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft", "open-source", "cross-platform"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET Core 1.0 (June 27, 2016)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — .NET (overview)",
+          "url": "https://en.wikipedia.org/wiki/.NET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-framework-2-0-released", "dotnet-framework-1-0-rtm", "csharp-announced"]
+    }
+  ]
+}

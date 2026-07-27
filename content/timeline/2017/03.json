@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["javascript-name-announced"]
+    },
+    {
+      "id": "csharp-7-released",
+      "slug": "csharp-7-released",
+      "date": "2017-03-07",
+      "datePrecision": "day",
+      "title": "C# 7 released with Visual Studio 2017",
+      "summary": "Microsoft shipped Visual Studio 2017 on March 7, 2017 with C# 7 — adding pattern matching, tuples, and local functions.",
+      "about": "C# 7's `is` patterns, `switch` expressions, and value tuples made data-oriented code concise. Out variables and ref returns closed gaps with modern languages — part of C#'s rapid evolution on Roslyn.",
+      "narrative": {
+        "whyChosen": "C# 7 brought algebraic-style patterns to millions of .NET developers.",
+        "whyImportant": "Pattern matching influenced later C# versions and F# interoperability.",
+        "problemSolved": "C# lacked concise destructuring and type tests for complex data shapes."
+      },
+      "category": "software",
+      "tags": ["csharp", "dotnet", "microsoft", "programming-language", "roslyn"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Visual Studio 2017 released (March 7, 2017)",
+          "url": "https://devblogs.microsoft.com/visualstudio/visual-studio-2017-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C Sharp (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["csharp-6-roslyn-released", "dotnet-framework-4-5-released", "dotnet-6-released"]
     }
   ]
 }

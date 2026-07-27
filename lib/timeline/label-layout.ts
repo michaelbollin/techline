@@ -60,9 +60,13 @@ export function resolveLabelLayout(
   viewportWidth: number,
   maxLanes: number,
   labelWidthFor: (event: PlottedEvent) => number,
+  visibleSpanMs?: number,
 ): Map<string, LabelLayout> {
   const placements = new Map<string, LabelLayout>();
   const placed: LabelRect[] = [];
+  const msPerYear = 365.25 * 86_400_000;
+  const minGapPx =
+    visibleSpanMs !== undefined && visibleSpanMs <= msPerYear * 2 ? 4 : LABEL_COLLISION_GAP;
 
   const sorted = [...events].sort((a, b) => {
     if (a.importance !== b.importance) {
@@ -94,7 +98,7 @@ export function resolveLabelLayout(
       const { top, bottom } = laneVerticalBounds(lane);
       const candidate: LabelRect = { left, right, top, bottom };
       const overlaps = placed.some((rect) =>
-        rectsOverlap(rect, candidate, LABEL_COLLISION_GAP),
+        rectsOverlap(rect, candidate, minGapPx),
       );
 
       if (!overlaps) {

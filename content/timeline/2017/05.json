@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "kotlin-android-official",
+      "slug": "kotlin-android-official",
+      "date": "2017-05-17",
+      "datePrecision": "day",
+      "title": "Kotlin made official for Android",
+      "summary": "At Google I/O on May 17, 2017, Google announced Kotlin as an officially supported language for Android development alongside Java.",
+      "about": "Google's endorsement turned Kotlin from a JetBrains side project into the default choice for new Android apps. Null safety, coroutines, and Java interop let teams migrate gradually off verbose Android Java without rewriting entire codebases overnight.",
+      "narrative": {
+        "whyChosen": "Google's backing made Kotlin the successor to Java on the world's largest mobile platform.",
+        "whyImportant": "Millions of Android developers gained a modern language with first-class IDE and docs support.",
+        "problemSolved": "Android Java was verbose and null-prone; Google needed an official modern alternative developers would adopt."
+      },
+      "category": "software",
+      "tags": ["kotlin", "android", "google", "programming-language", "mobile"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google I/O 2017 — Kotlin on Android announcement (May 17, 2017)",
+          "url": "https://android-developers.googleblog.com/2017/05/android-announces-support-for-kotlin.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Kotlin (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["kotlin-unveiled", "kotlin-1-0-released", "kotlin-2-0-released"]
+    },
+    {
+      "id": "nodejs-8-released",
+      "slug": "nodejs-8-released",
+      "date": "2017-05-30",
+      "datePrecision": "day",
+      "title": "Node.js 8 released",
+      "summary": "Node.js 8.0.0 shipped on May 30, 2017 with V8 5.8, async/await enabled by default, and npm 5.",
+      "about": "Node 8 became LTS in October 2017 — bringing native `async`/`await` to server JavaScript without transpilers. npm 5 added package-lock.json by default, stabilizing dependency trees for millions of projects.",
+      "narrative": {
+        "whyChosen": "Node 8 made async/await the standard pattern for Node.js servers.",
+        "whyImportant": "Native async syntax eliminated callback pyramids in production codebases.",
+        "problemSolved": "Teams transpiled async/await or chained Promises manually before Node 8."
+      },
+      "category": "software",
+      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v8.0.0 (May 30, 2017)",
+          "url": "https://nodejs.org/en/blog/release/v8.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-6-released", "nodejs-10-released", "nodejs-first-released"]
+    }
+  ]
+}

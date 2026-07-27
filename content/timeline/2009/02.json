@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "safari-4-released",
+      "slug": "safari-4-released",
+      "date": "2009-02-24",
+      "datePrecision": "day",
+      "title": "Safari 4 beta released",
+      "summary": "Apple released Safari 4 beta on February 24, 2009 with Top Sites, Cover Flow tabs, and improved HTML5 and CSS support.",
+      "about": "Safari 4 previewed features that defined Apple's browser for years: a new tab bar, developer tools, and Nitro JavaScript engine improvements. It kept Safari competitive with Chrome and Firefox during the browser performance wars.",
+      "narrative": {
+        "whyChosen": "Safari 4 set the template for Apple's browser UX before the mobile-first era.",
+        "whyImportant": "Nitro JS and HTML5 push made WebKit a benchmark for speed on Mac.",
+        "problemSolved": "Safari 3 felt dated against Chrome's fast release cycle and developer tools."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Safari 4 beta available for download (February 24, 2009)",
+          "url": "https://www.apple.com/newsroom/2009/02/24Safari-4-Beta-Available-for-Download/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-announced", "safari-3-windows-released", "webkit-open-sourced"]
+    }
+  ]
+}

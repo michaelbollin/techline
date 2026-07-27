@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "internet-explorer-1-0",
+      "slug": "internet-explorer-1-0",
+      "date": "1995-08-16",
+      "datePrecision": "day",
+      "title": "Internet Explorer 1.0 released",
+      "summary": "Microsoft shipped Internet Explorer 1.0 on August 16, 1995 in the Windows 95 Plus! pack — its first browser and the opening move in the browser wars with Netscape.",
+      "about": "IE 1.0 was a licensed Mosaic derivative that brought the web to Windows users inside Microsoft's ecosystem. It was slow and basic at first, but it came bundled with Windows — a distribution advantage that eventually reshaped the entire software industry.",
+      "narrative": {
+        "whyChosen": "Microsoft's browser entry turned the web into a platform battle between two software giants.",
+        "whyImportant": "Bundling and OS integration made IE the default for hundreds of millions of PCs.",
+        "problemSolved": "Windows users needed a built-in way to browse the web without buying a separate Netscape install."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer history (IE 1.0, August 16, 1995)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/dn742485(v=vs.85)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netscape-navigator-1-0", "internet-explorer-3-0"]
+    }
+  ]
+}

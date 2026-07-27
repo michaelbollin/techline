@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["fortran-95-standard"]
+    },
+    {
+      "id": "firefox-1-0-released",
+      "slug": "firefox-1-0-released",
+      "date": "2004-11-09",
+      "datePrecision": "day",
+      "title": "Firefox 1.0 released",
+      "summary": "The Mozilla Foundation shipped Firefox 1.0 on November 9, 2004 — a fast, tabbed, extension-friendly browser that broke Internet Explorer's monopoly.",
+      "about": "Firefox grew from the Phoenix/Firebird project as the lean alternative to the bloated Mozilla Suite. Extensions (Adblock, Greasemonkey), tabbed browsing, and aggressive standards support made it the browser developers recommended — and proved the web did not have to be IE-only.",
+      "narrative": {
+        "whyChosen": "Firefox 1.0 was the first credible open-source challenger to IE's market dominance.",
+        "whyImportant": "It revived competition, pushed web standards, and inspired the extension ecosystem.",
+        "problemSolved": "Users and developers were stuck on IE 6 with no secure, modern alternative backed by a major open project."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Firefox 1.0 press release (November 9, 2004)",
+          "url": "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/releases/1.0.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mozilla Firefox (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["mozilla-source-released", "internet-explorer-6-released", "google-chrome-released"]
     }
   ]
 }

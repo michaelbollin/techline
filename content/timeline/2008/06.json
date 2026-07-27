@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "firefox-3-released",
+      "slug": "firefox-3-released",
+      "date": "2008-06-17",
+      "datePrecision": "day",
+      "title": "Firefox 3.0 released",
+      "summary": "Mozilla shipped Firefox 3.0 on June 17, 2008 with a new Places bookmark/history system, improved security, and a Guinness World Record download day.",
+      "about": "Firefox 3 refined the browser that broke IE's monopoly: smarter address bar suggestions, malware protection, and lower memory use. Its launch day set a record for software downloads — signaling open-source browsers as mass-market products.",
+      "narrative": {
+        "whyChosen": "Firefox 3 was the peak mindshare moment before Chrome's rise.",
+        "whyImportant": "It proved Mozilla could ship polished consumer software at massive scale.",
+        "problemSolved": "Firefox 2's memory leaks and basic bookmarking lagged user expectations as the web grew richer."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Firefox 3 released (June 17, 2008)",
+          "url": "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/releases/3.0.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Firefox (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["firefox-1-0-released", "firefox-57-quantum", "google-chrome-released"]
+    }
+  ]
+}

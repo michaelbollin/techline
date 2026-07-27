@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "blink-engine-announced",
+      "slug": "blink-engine-announced",
+      "date": "2013-04-03",
+      "datePrecision": "day",
+      "title": "Google announced Blink rendering engine",
+      "summary": "On April 3, 2013, Google announced Blink — a fork of WebKit that would power Chrome and Opera, splitting the open-source browser engine landscape.",
+      "about": "Blink let Google iterate faster than WebKit's multi-vendor governance — dropping vendor prefixes, changing architecture, and eventually dominating Chromium-based browsers. Safari kept WebKit; Chrome, Edge, Opera, and most mobile browsers adopted Blink.",
+      "narrative": {
+        "whyChosen": "Blink fork was the inflection point toward Chromium engine monoculture.",
+        "whyImportant": "It ended the WebKit-only era outside Firefox and defined modern browser internals.",
+        "problemSolved": "Google needed engine freedom to ship multi-process architecture and rapid web platform changes."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "google", "chrome", "blink", "webkit"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Chromium Blog — Blink: A rendering engine for the Chromium project (April 3, 2013)",
+          "url": "https://blog.chromium.org/2013/04/blink-rendering-engine-for-chromium.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Blink (browser engine) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Blink_(browser_engine)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-chrome-released", "webkit-open-sourced", "opera-chromium-switch"]
+    }
+  ]
+}

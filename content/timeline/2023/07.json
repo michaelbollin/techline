@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "claude-2-released",
+      "slug": "claude-2-released",
+      "date": "2023-07-11",
+      "datePrecision": "day",
+      "title": "Anthropic Claude 2 released",
+      "summary": "Anthropic released Claude 2 on July 11, 2023 with a 100K-token context window, improved coding, and a public beta chat interface.",
+      "about": "Claude 2 competed directly with ChatGPT and GPT-4 on reasoning and long documents — analyzing entire books or codebases in one prompt. It expanded Anthropic's API and consumer chat products before the Claude 3 family arrived.",
+      "narrative": {
+        "whyChosen": "Claude 2 made long-context LLMs a mainstream product feature.",
+        "whyImportant": "It validated 100K-token windows for legal, research, and code review workflows.",
+        "problemSolved": "Earlier models could not fit full documents or large repos in a single conversation."
+      },
+      "category": "software",
+      "tags": ["ai", "anthropic", "claude", "llm", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Claude 2 (July 11, 2023)",
+          "url": "https://www.anthropic.com/news/claude-2",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["claude-3-released", "chatgpt-released", "gpt-4-released"]
+    },
+    {
+      "id": "llama-2-released",
+      "slug": "llama-2-released",
+      "date": "2023-07-18",
+      "datePrecision": "day",
+      "title": "Meta Llama 2 open weights released",
+      "summary": "Meta released Llama 2 on July 18, 2023 — open-weight large language models (7B, 13B, 70B) free for research and commercial use.",
+      "about": "Llama 2 let startups and researchers run capable LLMs on their own hardware without OpenAI API bills. It spawned fine-tuning ecosystems (Hugging Face, Ollama, vLLM) and proved open weights could approach closed-model quality.",
+      "narrative": {
+        "whyChosen": "Llama 2 was the open-weights inflection point for self-hosted AI.",
+        "whyImportant": "Commercial licensing of strong open models changed who could ship LLM products.",
+        "problemSolved": "Teams lacked permissively licensed models competitive with proprietary APIs."
+      },
+      "category": "software",
+      "tags": ["ai", "meta", "llama", "open-source", "llm", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Meta AI — Introducing Llama 2 (July 18, 2023)",
+          "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Llama (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["chatgpt-released", "gpt-4-released", "claude-2-released"]
+    }
+  ]
+}

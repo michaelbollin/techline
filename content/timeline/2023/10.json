@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "python-3-12-released",
+      "slug": "python-3-12-released",
+      "date": "2023-10-02",
+      "datePrecision": "day",
+      "title": "Python 3.12 released",
+      "summary": "Python 3.12 arrived on October 2, 2023 with f-string improvements, per-interpreter GIL work, and faster comprehensions.",
+      "about": "Python 3.12 refined ergonomics (`f\"{x=}\"` debugging, better `SyntaxError` messages) and continued CPython speedups. The per-interpreter GIL laid groundwork for better multi-core Python — relevant for AI training scripts and web workers.",
+      "narrative": {
+        "whyChosen": "3.12 kept Python's annual improvement cadence while prepping multicore evolution.",
+        "whyImportant": "Incremental speed and syntax polish matter at Python's massive scale.",
+        "problemSolved": "Developers wanted safer f-strings and faster startup without waiting for Python 4."
+      },
+      "category": "software",
+      "tags": ["python", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Python 3.12.0 released (October 2, 2023)",
+          "url": "https://www.python.org/downloads/release/python-3120/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-3-11-released", "python-3-13-released"]
+    },
+    {
+      "id": "cpp23-standard",
+      "slug": "cpp23-standard",
+      "date": "2023-10",
+      "datePrecision": "month",
+      "title": "C++23 standardized",
+      "summary": "ISO published C++23 in October 2023 — adding `std::expected`, `if consteval`, `std::print`, and multidimensional subscript operators.",
+      "about": "C++23 brought error handling without exceptions (`expected`), compile-time reflection hooks, and formatted printing in the standard library. It continued the three-year release cadence with practical features game engines and systems code adopt quickly.",
+      "narrative": {
+        "whyChosen": "C++23 added error and printing primitives long requested by systems programmers.",
+        "whyImportant": "`std::expected` and `print` reduce dependency on third-party libraries for common patterns.",
+        "problemSolved": "C++ lacked standard error-return types and simple formatted output without iostreams boilerplate."
+      },
+      "category": "software",
+      "tags": ["cpp", "iso", "standard", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO — ISO/IEC 14882:2023 published (October 2023)",
+          "url": "https://www.iso.org/standard/81716.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C++23 (overview)",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B23",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cpp20-standard", "cpp17-standard"]
+    }
+  ]
+}

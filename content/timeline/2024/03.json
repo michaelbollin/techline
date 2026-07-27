@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "ios-eu-browser-choice",
+      "slug": "ios-eu-browser-choice",
+      "date": "2024-03",
+      "datePrecision": "month",
+      "title": "iOS EU browser choice screens",
+      "summary": "In March 2024, Apple rolled out browser choice screens and alternative engine rules in the EU under the Digital Markets Act — letting users pick default browsers beyond Safari.",
+      "about": "For the first time, iPhone users in the EU could set Chrome, Firefox, or Brave as default and download browsers from outside the App Store's Safari wrapper rules. The DMA forced platform owners to treat browsers as competitive products, not bundled OS features.",
+      "narrative": {
+        "whyChosen": "Regulation reopened mobile browser competition on the world's most locked-down platform.",
+        "whyImportant": "It challenged Apple's control over which engines and browsers iOS users can run.",
+        "problemSolved": "iOS users in Europe had no real default-browser choice despite multiple browsers in the App Store."
+      },
+      "category": "culture",
+      "tags": ["browser", "web", "apple", "ios", "regulation"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — DMA compliance in the EU (January 2024 announcement, March rollout)",
+          "url": "https://www.apple.com/newsroom/2024/01/apple-announces-changes-to-ios-safari-and-the-app-store-in-the-european-union/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Digital Markets Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Digital_Markets_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-announced", "google-chrome-released"]
+    },
+    {
+      "id": "claude-3-released",
+      "slug": "claude-3-released",
+      "date": "2024-03-04",
+      "datePrecision": "day",
+      "title": "Anthropic Claude 3 released",
+      "summary": "Anthropic released the Claude 3 model family on March 4, 2024 — Haiku, Sonnet, and Opus — competing with GPT-4 on reasoning, vision, and long context.",
+      "about": "Claude 3 pushed multimodal and 200K-token context windows into mainstream AI products. Sonnet and Opus ranked among top models on benchmarks; Haiku targeted speed and cost. The release intensified the GPT vs Claude rivalry in coding and enterprise assistants.",
+      "narrative": {
+        "whyChosen": "Claude 3 established Anthropic as a peer to OpenAI in frontier model releases.",
+        "whyImportant": "Competition drove faster iteration on safety, context length, and developer APIs.",
+        "problemSolved": "Enterprises wanted alternatives to a single LLM vendor for chat and automation."
+      },
+      "category": "software",
+      "tags": ["ai", "anthropic", "claude", "machine-learning", "llm"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Introducing the next generation of Claude (March 4, 2024)",
+          "url": "https://www.anthropic.com/news/claude-3-family",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["chatgpt-released", "gpt-4-released", "gpt-3-api-released"]
+    }
+  ]
+}

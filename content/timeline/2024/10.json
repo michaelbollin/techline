@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "python-3-13-released",
+      "slug": "python-3-13-released",
+      "date": "2024-10-07",
+      "datePrecision": "day",
+      "title": "Python 3.13 released",
+      "summary": "Python 3.13 shipped on October 7, 2024 with an experimental free-threaded build, improved REPL, and JIT compiler groundwork.",
+      "about": "Python 3.13's optional nogil mode lets threads run truly in parallel on multi-core CPUs — a historic change for CPU-bound Python. The new interactive REPL and colorized tracebacks improved daily developer experience while the project tested JIT for future releases.",
+      "narrative": {
+        "whyChosen": "3.13's free-threading experiment could unlock multicore Python for the first time.",
+        "whyImportant": "The GIL had been Python's biggest architectural limitation for parallel compute.",
+        "problemSolved": "Multi-core machines could not run CPU-heavy Python workloads in parallel threads effectively."
+      },
+      "category": "software",
+      "tags": ["python", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Python 3.13.0 released (October 7, 2024)",
+          "url": "https://www.python.org/downloads/release/python-3130/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-3-12-released", "python-3-14-released"]
+    }
+  ]
+}

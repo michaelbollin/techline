@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ruby-2-0-released",
+      "slug": "ruby-2-0-released",
+      "date": "2013-02-24",
+      "datePrecision": "day",
+      "title": "Ruby 2.0 released",
+      "summary": "Ruby 2.0.0 shipped on February 24, 2013 with keyword arguments, refinements, and significant performance improvements.",
+      "about": "Ruby 2.0 refined the language Matz had been evolving since 1.9: mandatory keyword args cleaned up APIs; refinements scoped monkey patches safely; the VM got faster garbage collection. It powered Rails 4-era apps through the mid-2010s.",
+      "narrative": {
+        "whyChosen": "Ruby 2.0 was the stable baseline for Rails and Rubygems through the framework boom.",
+        "whyImportant": "Keyword arguments and performance kept Ruby competitive with Python and Node.",
+        "problemSolved": "Ruby 1.9's transition pain needed a polished 2.x line for production adoption."
+      },
+      "category": "software",
+      "tags": ["ruby", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ruby-lang.org — Ruby 2.0.0 released (February 24, 2013)",
+          "url": "https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ruby (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ruby-1-8-released", "ruby-3-0-released", "rails-open-sourced"]
+    }
+  ]
+}

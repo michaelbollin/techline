@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "opera-2-released",
+      "slug": "opera-2-released",
+      "date": "1996-04",
+      "datePrecision": "month",
+      "title": "Opera 2.0 publicly released",
+      "summary": "Opera Software released Opera 2.0 for Windows in April 1996 — a compact alternative browser from Norway that prioritized speed and standards on modest hardware.",
+      "about": "Opera became the browser power users and mobile pioneers reached for when IE and Netscape felt bloated. It pioneered features later copied everywhere: tabbed browsing, mouse gestures, built-in pop-up blocking, and a small install size for slow connections and early smartphones.",
+      "narrative": {
+        "whyChosen": "Opera proved independent browsers could survive and innovate outside the Netscape–Microsoft duopoly.",
+        "whyImportant": "Its experiments with tabs, compression, and mobile browsing influenced Safari, Firefox, and Chrome.",
+        "problemSolved": "Many users on slow dial-up or weak PCs needed a faster, configurable browser than the two dominant giants offered."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "opera"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Opera — 30 years of innovation (company history)",
+          "url": "https://www.opera.com/about",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Opera (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Opera_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netscape-navigator-2-0", "internet-explorer-3-0"]
+    }
+  ]
+}

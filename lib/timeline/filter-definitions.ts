@@ -37,6 +37,11 @@ function hasAnyTag(event: TimelineEvent, tags: Set<string>): boolean {
 
 const TOPIC_FILTERS: TimelineFilterDef[] = [
   {
+    id: "browser",
+    label: "Browser",
+    matches: (event) => hasTag(event, "browser"),
+  },
+  {
     id: "web",
     label: "Web",
     matches: (event) =>

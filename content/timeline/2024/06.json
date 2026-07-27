@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-2024-adopted",
+      "slug": "ecmascript-2024-adopted",
+      "date": "2024-06",
+      "datePrecision": "month",
+      "title": "ECMAScript 2024 standardized",
+      "summary": "Ecma adopted ECMAScript 2024 in June 2024 — adding `ArrayBuffer` transfer, `Object.groupBy`, `Promise.withResolvers`, and `String.prototype.isWellFormed`.",
+      "about": "ES2024 brought grouped collections and better async primitives to everyday JavaScript. `Promise.withResolvers` simplified hand-rolled promise patterns; grouping helpers reduced lodash usage for data aggregation in browsers and Node.",
+      "narrative": {
+        "whyChosen": "ES2024 added grouping and promise utilities developers reach for constantly.",
+        "whyImportant": "Native grouping reduced dependency on utility libraries for common data tasks.",
+        "problemSolved": "Grouping arrays and objects required manual loops or external helpers."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 2024 adopted (June 2024)",
+          "url": "https://ecma-international.org/news/ecma-international-approves-new-standards-11/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-2022-adopted", "ecmascript-2025-adopted"]
+    },
+    {
+      "id": "claude-3-5-sonnet-released",
+      "slug": "claude-3-5-sonnet-released",
+      "date": "2024-06-20",
+      "datePrecision": "day",
+      "title": "Anthropic Claude 3.5 Sonnet released",
+      "summary": "Anthropic released Claude 3.5 Sonnet on June 20, 2024 — outperforming Claude 3 Opus on coding, reasoning, and vision at lower cost.",
+      "about": "Claude 3.5 Sonnet set new benchmarks for AI-assisted coding and Artifacts (live previews). It competed head-to-head with GPT-4o and became the default model for many developer tools and enterprise chat products.",
+      "narrative": {
+        "whyChosen": "Claude 3.5 Sonnet was a mid-cycle leap that reset coding-assistant expectations.",
+        "whyImportant": "A smaller, cheaper model beating flagship tiers changed how teams pick LLMs.",
+        "problemSolved": "Developers needed frontier coding quality without flagship-model latency and cost."
+      },
+      "category": "software",
+      "tags": ["ai", "anthropic", "claude", "llm", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Introducing Claude 3.5 Sonnet (June 20, 2024)",
+          "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["claude-3-released", "claude-2-released", "gpt-4-released"]
+    }
+  ]
+}

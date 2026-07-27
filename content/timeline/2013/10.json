@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "internet-explorer-11-released",
+      "slug": "internet-explorer-11-released",
+      "date": "2013-10-17",
+      "datePrecision": "day",
+      "title": "Internet Explorer 11 released",
+      "summary": "Microsoft released Internet Explorer 11 on October 17, 2013 with Windows 8.1 — the final major Internet Explorer version before Edge.",
+      "about": "IE 11 improved WebGL, SPDY, and developer tools while supporting legacy ActiveX and enterprise intranet sites. It remained the Windows default until Edge in 2015 and lingered as IE mode inside Edge for years.",
+      "narrative": {
+        "whyChosen": "IE 11 was the last Internet Explorer most enterprises ever standardized on.",
+        "whyImportant": "Its compatibility modes kept intranet apps running while the web moved to modern engines.",
+        "problemSolved": "Windows users needed one browser that handled both modern sites and decade-old line-of-business apps."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer", "windows"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer 11 for Windows 7 available (November 7, 2013; Windows 8.1 launch October 17, 2013)",
+          "url": "https://blogs.windows.com/windowsexperience/2013/11/07/internet-explorer-11-for-windows-7-available-now/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer 11 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_11",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-10-released", "microsoft-edge-released", "edge-chromium-released"]
+    },
+    {
+      "id": "safari-7-released",
+      "slug": "safari-7-released",
+      "date": "2013-10-22",
+      "datePrecision": "day",
+      "title": "Safari 7 released",
+      "summary": "Apple released Safari 7 on October 22, 2013 with OS X Mavericks — adding Shared Links, Power Saver, and improved JavaScript performance.",
+      "about": "Safari 7 focused on battery life and reading: Power Saver reduced plugin activity; Shared Links surfaced Twitter and LinkedIn in the sidebar. It kept Safari the default Mac browser as Chrome crossed 50% market share globally.",
+      "narrative": {
+        "whyChosen": "Safari 7 emphasized power efficiency as laptops became the primary Mac form factor.",
+        "whyImportant": "Power Saver foreshadowed Apple's focus on battery-aware browsing.",
+        "problemSolved": "Flash and heavy plugins drained laptop batteries during everyday browsing."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — OS X Mavericks available today (October 22, 2013)",
+          "url": "https://www.apple.com/newsroom/2013/10/22OS-X-Mavericks-Available-Today/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-6-released", "safari-5-released", "safari-announced"]
+    }
+  ]
+}

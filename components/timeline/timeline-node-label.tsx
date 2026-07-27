@@ -12,7 +12,7 @@ type TimelineNodeLabelProps = {
   xScale: (timestamp: number) => number;
   axisY: number;
   layout: LabelLayout;
-  width: number;
+  viewportWidth: number;
   isHovered: boolean;
   onHover: (event: PlottedEvent | null) => void;
   onClick: () => void;
@@ -23,7 +23,7 @@ export function TimelineNodeLabel({
   xScale,
   axisY,
   layout,
-  width,
+  viewportWidth,
   isHovered,
   onHover,
   onClick,
@@ -33,7 +33,7 @@ export function TimelineNodeLabel({
   const labelY = axisY + labelTopLocalY(layout.lane);
   const labelLeft = Math.min(
     Math.max(x - labelWidth / 2, TIMELINE_LABEL_EDGE_INSET),
-    Math.max(width - labelWidth - TIMELINE_LABEL_EDGE_INSET, TIMELINE_LABEL_EDGE_INSET),
+    Math.max(viewportWidth - labelWidth - TIMELINE_LABEL_EDGE_INSET, TIMELINE_LABEL_EDGE_INSET),
   );
 
   return (

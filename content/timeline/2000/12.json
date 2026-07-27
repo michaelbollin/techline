@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "konqueror-khtml-released",
+      "slug": "konqueror-khtml-released",
+      "date": "2000-12",
+      "datePrecision": "month",
+      "title": "Konqueror and KHTML shipped with KDE 2",
+      "summary": "KDE 2.0 arrived in December 2000 with Konqueror — a browser and file manager built on the KHTML rendering engine.",
+      "about": "KHTML became one of the most influential browser engines ever: Apple forked it into WebKit for Safari, which later powered Chrome via Blink. Konqueror itself was the default browser on Linux desktops and proved a small open-source team could ship a competitive engine.",
+      "narrative": {
+        "whyChosen": "KHTML is the ancestor of WebKit and Blink — engines that power most browsers today.",
+        "whyImportant": "It broke the IE–Netscape duopoly at the engine level and gave Apple and Google a head start.",
+        "problemSolved": "The Linux desktop needed an integrated browser and file manager that did not depend on proprietary code."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "kde", "konqueror", "webkit"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "KDE — KDE 2.0 announcement (December 2000)",
+          "url": "https://kde.org/announcements/kde-2/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — KHTML (overview)",
+          "url": "https://en.wikipedia.org/wiki/KHTML",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-announced", "webkit-open-sourced", "google-chrome-released"]
+    }
+  ]
+}

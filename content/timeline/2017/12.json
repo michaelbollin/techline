@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "cpp17-standard",
+      "slug": "cpp17-standard",
+      "date": "2017-12",
+      "datePrecision": "month",
+      "title": "C++17 standardized",
+      "summary": "ISO published C++17 in December 2017 — adding `std::optional`, `std::variant`, structured bindings, and parallel algorithms.",
+      "about": "C++17 brought everyday ergonomics game engines and finance code needed: optional values without pointer sentinels, `if (auto x = map.find(key))` bindings, and filesystem library in the standard. It bridged the gap between C++11's foundation and C++20's larger features.",
+      "narrative": {
+        "whyChosen": "C++17 delivered practical quality-of-life features used across industry codebases.",
+        "whyImportant": "Optional, variant, and structured bindings reduced boilerplate and bug classes.",
+        "problemSolved": "C++11 was powerful but verbose; teams needed smaller, composable standard-library tools."
+      },
+      "category": "software",
+      "tags": ["cpp", "iso", "standard", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO — ISO/IEC 14882:2017 published (December 2017)",
+          "url": "https://www.iso.org/standard/68564.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C++17 (overview)",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B17",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cpp11-standard", "cpp20-standard", "cpp98-standard"]
+    }
+  ]
+}

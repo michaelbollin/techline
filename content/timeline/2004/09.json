@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "java-5-released",
+      "slug": "java-5-released",
+      "date": "2004-09-30",
+      "datePrecision": "day",
+      "title": "Java 5 (Tiger) released",
+      "summary": "Sun released Java 5 on September 30, 2004 — adding generics, enums, autoboxing, enhanced for-loops, and annotations.",
+      "about": "Java 5 was the biggest language change since Java 1.0: `List<String>` replaced raw collections, `@Override` caught typos at compile time, and foreach loops cleaned up iteration. Every enterprise codebase written in the 2000s eventually migrated to Tiger's syntax.",
+      "narrative": {
+        "whyChosen": "Generics and annotations defined modern Java style for a decade.",
+        "whyImportant": "Type-safe collections eliminated casts and ClassCastException bugs in production.",
+        "problemSolved": "Raw types and verbose loops made large Java codebases error-prone and hard to read."
+      },
+      "category": "software",
+      "tags": ["java", "jvm", "programming-language", "generics"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenJDK — JDK 5.0 release notes (September 30, 2004)",
+          "url": "https://www.oracle.com/java/technologies/javase/jdk5-jre5-sponsor.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-1-0-shipped", "java-8-released", "java-11-released"]
+    }
+  ]
+}

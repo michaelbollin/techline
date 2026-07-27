@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "python-2-7-released",
+      "slug": "python-2-7-released",
+      "date": "2010-07-03",
+      "datePrecision": "day",
+      "title": "Python 2.7 released",
+      "summary": "Python 2.7 shipped on July 3, 2010 as the final major release of the Python 2 line — bridging users toward Python 3 with years of extended support.",
+      "about": "Python 2.7 added ordered dictionaries, argparse, and unittest improvements while keeping 2.x compatibility. It became the longest-supported Python release — powering legacy systems until the 2020 end-of-life forced the Python 3 migration.",
+      "narrative": {
+        "whyChosen": "Python 2.7 was the last stop before the great Python 2→3 migration.",
+        "whyImportant": "Extended support kept enterprises on a stable 2.x while libraries ported to 3.",
+        "problemSolved": "Teams needed a mature 2.x with modern stdlib pieces while planning Python 3 adoption."
+      },
+      "category": "software",
+      "tags": ["python", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Python 2.7.0 released (July 3, 2010)",
+          "url": "https://www.python.org/downloads/release/python-270/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-2-0-released", "python-3-0-released"]
+    },
+    {
+      "id": "haskell-2010-standard",
+      "slug": "haskell-2010-standard",
+      "date": "2010-07",
+      "datePrecision": "month",
+      "title": "Haskell 2010 language standard published",
+      "summary": "The Haskell 2010 report was finalized in July 2010 — defining the stable language revision used by GHC and textbooks for a decade.",
+      "about": "Haskell 2010 streamlined the language after Haskell 98: foreign function interface support, exceptions, and deprecations that cleaned up corner cases. It became the baseline for learning functional programming and for GHC's default language mode.",
+      "narrative": {
+        "whyChosen": "Haskell 2010 is the standard revision most Haskell courses and books still reference.",
+        "whyImportant": "A stable standard let the ecosystem grow libraries without dialect fragmentation.",
+        "problemSolved": "Haskell 98 was too minimal for real systems programming and FFI needs."
+      },
+      "category": "software",
+      "tags": ["haskell", "functional-programming", "standard", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Haskell.org — Haskell 2010 report (July 2010)",
+          "url": "https://www.haskell.org/onlinereport/haskell2010/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Haskell (overview)",
+          "url": "https://en.wikipedia.org/wiki/Haskell",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["haskell-1-0-report"]
+    }
+  ]
+}

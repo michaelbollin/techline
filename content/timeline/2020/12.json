@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "ruby-3-0-released",
+      "slug": "ruby-3-0-released",
+      "date": "2020-12-25",
+      "datePrecision": "day",
+      "title": "Ruby 3.0 released",
+      "summary": "Matz released Ruby 3.0 on December 25, 2020 — promising 3× faster performance versus Ruby 2.0 and introducing RBS static typing and fiber schedulers.",
+      "about": "Ruby 3 aimed to keep Rails developers happy while answering speed criticism: YJIT (later), improved GC, and concurrent fibers for async I/O. RBS files let teams document types without changing Ruby's dynamic feel — a compromise before gradual typing in 3.x.",
+      "narrative": {
+        "whyChosen": "Ruby 3 was the language's answer to 'Ruby is too slow' after years of 2.x maintenance.",
+        "whyImportant": "Performance work and RBS kept Ruby viable for Shopify-scale Rails deployments.",
+        "problemSolved": "Ruby 2.7 warned the community that 3.0 would break compatibility unless they modernized gems and patterns."
+      },
+      "category": "software",
+      "tags": ["ruby", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ruby-lang.org — Ruby 3.0.0 released (December 25, 2020)",
+          "url": "https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ruby (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ruby-0-95-released", "rails-1-0-released"]
+    },
+    {
+      "id": "cpp20-standard",
+      "slug": "cpp20-standard",
+      "date": "2020-12",
+      "datePrecision": "month",
+      "title": "C++20 standardized",
+      "summary": "ISO published C++20 in December 2020 — adding concepts, coroutines, ranges, and the spaceship operator (`<=>`).",
+      "about": "C++20 let compilers reject bad templates at the constraint level (concepts), write async code with coroutines, and chain range transformations fluently. It was the biggest standard since C++11 and influenced how modern C++ tutorials and codebases are written.",
+      "narrative": {
+        "whyChosen": "C++20 brought concepts and coroutines — features the standards committee had pursued for years.",
+        "whyImportant": "Concepts improved template error messages and API design across the STL.",
+        "problemSolved": "Template metaprogramming was powerful but unreadable; C++ needed safer, clearer abstractions."
+      },
+      "category": "software",
+      "tags": ["cpp", "iso", "standard", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO — ISO/IEC 14882:2020 published (December 2020)",
+          "url": "https://www.iso.org/standard/79358.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C++20 (overview)",
+          "url": "https://en.wikipedia.org/wiki/C%2B%2B20",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cpp17-standard", "cpp11-standard"]
+    }
+  ]
+}

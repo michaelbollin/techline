@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "lua-5-0-released",
+      "slug": "lua-5-0-released",
+      "date": "2003-04",
+      "datePrecision": "month",
+      "title": "Lua 5.0 released",
+      "summary": "The Lua team released Lua 5.0 in April 2003 — a major rewrite with lexical scoping, metamethods, and coroutines.",
+      "about": "Lua 5.0 is the dialect embedded in Redis, World of Warcraft addons, Nginx (OpenResty), and game engines worldwide. Coroutines and metatables let hosts extend the language without bloating the core — the model for embedded scripting today.",
+      "narrative": {
+        "whyChosen": "Lua 5.0 is the version every modern embedding target still ships.",
+        "whyImportant": "Lexical scoping and coroutines made Lua viable for serious game and server scripting.",
+        "problemSolved": "Lua 4's dynamic scoping and limited coroutines restricted complex embedded logic."
+      },
+      "category": "software",
+      "tags": ["lua", "programming-language", "embedded"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Lua.org — Lua 5.0 reference manual (April 2003)",
+          "url": "https://www.lua.org/manual/5.0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lua (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lua_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["lua-1-1-public-release"]
+    }
+  ]
+}

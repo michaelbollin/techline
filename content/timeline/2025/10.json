@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "python-3-14-released",
+      "slug": "python-3-14-released",
+      "date": "2025-10",
+      "datePrecision": "month",
+      "title": "Python 3.14 released",
+      "summary": "Python 3.14 shipped in October 2025 with further free-threading improvements, template string literals (t-strings), and deferred evaluation of annotations.",
+      "about": "Python 3.14 continued the nogil path toward default free-threading in a future release, added t-strings for safer string templating, and simplified typing with lazy annotation evaluation. It keeps Python's annual release train moving for web, data, and AI workloads.",
+      "narrative": {
+        "whyChosen": "3.14 advanced the biggest architectural shift in Python since the 2→3 migration.",
+        "whyImportant": "Free-threading and t-strings address parallel compute and injection risks in modern apps.",
+        "problemSolved": "Python needed safer string interpolation and continued progress removing the GIL bottleneck."
+      },
+      "category": "software",
+      "tags": ["python", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — What's new in Python 3.14",
+          "url": "https://docs.python.org/3.14/whatsnew/3.14.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-3-13-released"]
+    }
+  ]
+}

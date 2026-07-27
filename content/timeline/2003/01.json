@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "safari-announced",
+      "slug": "safari-announced",
+      "date": "2003-01-07",
+      "datePrecision": "day",
+      "title": "Safari announced at Macworld",
+      "summary": "Steve Jobs unveiled Safari at Macworld San Francisco on January 7, 2003 — Apple's own browser built on the KHTML engine, replacing Internet Explorer as the Mac default.",
+      "about": "Safari brought fast rendering and tight macOS integration, then spread to iPhone and iPad as the engine behind mobile web apps. Apple open-sourced its fork as WebKit, which Google later used to build Chrome — making Safari's engine lineage central to modern browsing.",
+      "narrative": {
+        "whyChosen": "Safari ended Microsoft's Mac browser monopoly and launched the WebKit engine era.",
+        "whyImportant": "WebKit became the foundation for mobile browsing and eventually Chrome.",
+        "problemSolved": "Mac users depended on a slow, outdated IE port; Apple needed a fast native browser for OS X."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple Newsroom — Apple launches Safari (January 7, 2003)",
+          "url": "https://www.apple.com/newsroom/2003/01/07Apple-Launches-Safari/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["konqueror-khtml-released", "webkit-open-sourced", "google-chrome-released"]
+    }
+  ]
+}

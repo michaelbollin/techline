@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "kotlin-2-0-released",
+      "slug": "kotlin-2-0-released",
+      "date": "2024-05-21",
+      "datePrecision": "day",
+      "title": "Kotlin 2.0 released",
+      "summary": "JetBrains shipped Kotlin 2.0 on May 21, 2024 with the K2 compiler — faster builds, better multiplatform support, and improved Java interop.",
+      "about": "The K2 compiler rewrote Kotlin's frontend for speed and consistency across JVM, JS, Native, and Wasm targets. Kotlin 2 unified Compose Multiplatform and server-side Kotlin under one toolchain — important for Android teams sharing code with iOS and backend services.",
+      "narrative": {
+        "whyChosen": "Kotlin 2 was a compiler reboot, not just another feature release.",
+        "whyImportant": "Faster analysis and multiplatform parity kept Kotlin competitive with Swift and TypeScript.",
+        "problemSolved": "The old compiler struggled with large Gradle projects and divergent platform backends."
+      },
+      "category": "software",
+      "tags": ["kotlin", "jetbrains", "programming-language", "android"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "JetBrains — Kotlin 2.0.0 released (May 21, 2024)",
+          "url": "https://blog.jetbrains.com/kotlin/2024/05/kotlin-2-0-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Kotlin (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["kotlin-unveiled", "kotlin-1-0-released", "java-21-released"]
+    },
+    {
+      "id": "gpt-4o-released",
+      "slug": "gpt-4o-released",
+      "date": "2024-05-13",
+      "datePrecision": "day",
+      "title": "OpenAI GPT-4o released",
+      "summary": "OpenAI released GPT-4o on May 13, 2024 — a faster, cheaper multimodal model with native audio, vision, and text in one model.",
+      "about": "GPT-4o ('o' for omni) unified text, image, and voice in a single endpoint — powering ChatGPT's voice mode and real-time translation demos. It matched GPT-4 Turbo quality at half the latency, resetting expectations for interactive AI apps.",
+      "narrative": {
+        "whyChosen": "GPT-4o made multimodal, low-latency AI the default consumer experience.",
+        "whyImportant": "Native audio and vision in one model simplified product architecture for AI apps.",
+        "problemSolved": "Separate models for text, vision, and speech added latency, cost, and integration complexity."
+      },
+      "category": "software",
+      "tags": ["ai", "openai", "gpt", "llm", "multimodal", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-4o (May 13, 2024)",
+          "url": "https://openai.com/index/hello-gpt-4o/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GPT-4o (overview)",
+          "url": "https://en.wikipedia.org/wiki/GPT-4o",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["gpt-4-released", "gpt-3-5-turbo-released", "chatgpt-released"]
+    }
+  ]
+}

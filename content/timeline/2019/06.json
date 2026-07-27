@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "opera-gx-released",
+      "slug": "opera-gx-released",
+      "date": "2019-06-11",
+      "datePrecision": "day",
+      "title": "Opera GX browser released",
+      "summary": "Opera launched Opera GX on June 11, 2019 — a Chromium browser for gamers with CPU, RAM, and network limiters plus RGB-themed UI.",
+      "about": "Opera GX let users cap browser resource usage so games and streams stayed smooth — a niche that grew into millions of installs. It showed Chromium forks could differentiate on UX and vertical features, not just engine speed.",
+      "narrative": {
+        "whyChosen": "Opera GX carved out a distinct gamer audience in the Chromium browser market.",
+        "whyImportant": "Resource limiters influenced how power users think about browser overhead.",
+        "problemSolved": "Gamers and streamers needed a browser that would not hog RAM and CPU during sessions."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "opera", "chromium", "gaming"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Opera — Opera GX gaming browser now available (June 11, 2019)",
+          "url": "https://blogs.opera.com/news/2019/06/opera-gx-gaming-browser-now-available/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Opera GX (overview)",
+          "url": "https://en.wikipedia.org/wiki/Opera_GX",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["opera-chromium-switch", "opera-2-released", "google-chrome-released"]
+    }
+  ]
+}

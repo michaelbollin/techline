@@ -44,6 +44,37 @@
         "ruby-0-95-released",
         "rails-1-0-released"
       ]
+    },
+    {
+      "id": "php-5-0-released",
+      "slug": "php-5-0-released",
+      "date": "2004-07-13",
+      "datePrecision": "day",
+      "title": "PHP 5.0 released",
+      "summary": "The PHP project released PHP 5.0 on July 13, 2004 with Zend Engine 2, objects, exceptions, and a redesigned object model.",
+      "about": "PHP 5 turned PHP from a scripting language with classes bolted on into something closer to a real OOP language — constructors, destructors, visibility, interfaces, and exceptions. It powered the WordPress and Drupal boom and set the stage for PHP's dominance on shared hosting through the 2000s.",
+      "narrative": {
+        "whyChosen": "PHP 5 was the object-model rewrite that made PHP viable for frameworks and CMSs.",
+        "whyImportant": "Exceptions and a proper object model replaced PHP 4's shallow class syntax.",
+        "problemSolved": "PHP 4's object handling was too limited for growing web applications and frameworks."
+      },
+      "category": "software",
+      "tags": ["php", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "PHP.net — PHP 5.0.0 released (July 13, 2004)",
+          "url": "https://www.php.net/releases/5_0_0.php",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PHP (overview)",
+          "url": "https://en.wikipedia.org/wiki/PHP",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released", "php-7-0-released"]
     }
   ]
 }

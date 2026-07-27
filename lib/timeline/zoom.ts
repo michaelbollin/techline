@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 
-import { TIMELINE_EDGE_MARGIN } from "./constants";
+import { TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT, TIMELINE_YEAR_MAX, TIMELINE_YEAR_MIN } from "./constants";
 import type { PlottedEvent } from "./plot-data";
 
 export function makeBaseScale(width: number, extent: [number, number]) {
@@ -29,6 +29,27 @@ export function computeFitTransform(
   extent: [number, number],
 ): d3.ZoomTransform {
   return computeTransformForTimeRange(width, extent, extent);
+}
+
+export function yearTimeRange(year: number): [number, number] {
+  const clampedYear = Math.min(Math.max(year, TIMELINE_YEAR_MIN), TIMELINE_YEAR_MAX);
+  const start = Date.parse(`${clampedYear}-01-01T00:00:00Z`);
+  const end = Date.parse(`${clampedYear}-12-31T23:59:59.999Z`);
+  const [tMin, tMax] = TIMELINE_EXTENT;
+
+  return [Math.max(start, tMin), Math.min(end, tMax)];
+}
+
+export function computeZoomToYear(
+  width: number,
+  extent: [number, number],
+  year: number,
+): d3.ZoomTransform {
+  return clampZoomTransform(
+    computeTransformForTimeRange(width, extent, yearTimeRange(year)),
+    width,
+    extent,
+  );
 }
 
 export function visibleInnerTimeRange(

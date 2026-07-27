@@ -8,24 +8,23 @@ import { useContainerSize } from "@/hooks/use-container-size";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
-import { TIMELINE_EXTENT, TIMELINE_INK } from "@/lib/timeline/constants";
+import {
+  TIMELINE_EVENT_DETAIL_OFFSET,
+  TIMELINE_EXTENT,
+  TIMELINE_INK,
+} from "@/lib/timeline/constants";
 import { eventPath } from "@/lib/timeline/format";
-import { measureLabelWidth } from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
-import { computeFitTransform } from "@/lib/timeline/zoom";
+import { computeFitTransform, computeZoomToYear } from "@/lib/timeline/zoom";
 
-import {
-  TimelineControls,
-  zoomInTransform,
-  zoomOutTransform,
-} from "./timeline-controls";
+import { TimelineControls, zoomInTransform, zoomOutTransform } from "./timeline-controls";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
+import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelineFilters } from "./timeline-filters";
 import { TimelineNodeDot } from "./timeline-node-dot";
 import { TimelineNodeLabel } from "./timeline-node-label";
 import { TimelineNodeStem } from "./timeline-node-stem";
-import { TimelineTooltip } from "./timeline-tooltip";
 
 type ModernTimelineProps = {
   events: TimelineEvent[];
@@ -49,24 +48,17 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     svgRef,
   });
 
-  const {
-    filteredEvents,
-    plotted,
-    axisY,
-    xScale,
-    labelLayout,
-    labelWidths,
-    stemStartY,
-    labelNodes,
-    tooltipAnchor,
-  } = useTimelinePlot({
-    events,
-    activeFilterIds,
-    transform,
-    width,
-    height,
-    hovered,
-  });
+  const { filteredEvents, plotted, axisY, xScale, labelLayout, stemStartY, labelNodes } =
+    useTimelinePlot({
+      events,
+      activeFilterIds,
+      transform,
+      width,
+      height,
+      hovered,
+    });
+
+  const detailTop = axisY + TIMELINE_EVENT_DETAIL_OFFSET;
 
   useEffect(() => {
     if (hovered && !filteredEvents.some((event) => event.id === hovered.id)) {
@@ -99,6 +91,16 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const openEvent = (event: PlottedEvent) => {
     router.push(eventPath(event.slug, { filterPathKey }));
   };
+
+  const zoomToYear = useCallback(
+    (year: number) => {
+      if (width <= 0) {
+        return;
+      }
+      animateTo(computeZoomToYear(width, TIMELINE_EXTENT, year));
+    },
+    [animateTo, width],
+  );
 
   return (
     <section aria-label="Interactive timeline" className="modern-timeline relative h-full w-full bg-white">
@@ -136,21 +138,18 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
             onPointerLeave={() => setHovered(null)}
           >
             <g>
-              <TimelineAxisGrid xScale={xScale} width={width} axisY={axisY} />
+              <TimelineAxisGrid
+                xScale={xScale}
+                width={width}
+                axisY={axisY}
+                onYearClick={zoomToYear}
+              />
 
               <line x1={0} x2={width} y1={axisY} y2={axisY} stroke={TIMELINE_INK} strokeWidth={1.5} />
 
               <g className="timeline-stems" pointerEvents="none">
-                {plotted.map((event) => {
-                  const layout = labelLayout.get(event.id) ?? {
-                    showLabel: false,
-                    lane: 0,
-                    width: labelWidths.get(event.id) ?? measureLabelWidth(event.title),
-                  };
-
-                  if (!layout.showLabel) {
-                    return null;
-                  }
+                {labelNodes.map((event) => {
+                  const layout = labelLayout.get(event.id)!;
 
                   return (
                     <TimelineNodeStem
@@ -181,40 +180,27 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               </g>
 
               <g className="timeline-labels">
-                {labelNodes
-                  .filter((event) => event.id !== hovered?.id)
-                  .map((event) => (
-                    <TimelineNodeLabel
-                      key={`label-${event.id}`}
-                      event={event}
-                      xScale={xScale}
-                      axisY={axisY}
-                      layout={labelLayout.get(event.id)!}
-                      width={width}
-                      isHovered={false}
-                      onHover={setHovered}
-                      onClick={() => openEvent(event)}
-                    />
-                  ))}
-                {hovered && labelLayout.get(hovered.id)?.showLabel && (
+                {labelNodes.map((event) => (
                   <TimelineNodeLabel
-                    key={`label-hover-${hovered.id}`}
-                    event={hovered}
+                    key={`label-${event.id}`}
+                    event={event}
                     xScale={xScale}
                     axisY={axisY}
-                    layout={labelLayout.get(hovered.id)!}
-                    width={width}
-                    isHovered
+                    layout={labelLayout.get(event.id)!}
+                    viewportWidth={width}
+                    isHovered={hovered?.id === event.id}
                     onHover={setHovered}
-                    onClick={() => openEvent(hovered)}
+                    onClick={() => openEvent(event)}
                   />
-                )}
+                ))}
               </g>
             </g>
           </svg>
         )}
 
-        {hovered && tooltipAnchor && <TimelineTooltip event={hovered} anchor={tooltipAnchor} />}
+        {hovered && width > 0 && (
+          <TimelineEventDetail event={hovered} top={detailTop} />
+        )}
 
         <TimelineControls
           onZoomIn={() => animateTo(zoomInTransform(transform))}

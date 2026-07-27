@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "nodejs-16-released",
+      "slug": "nodejs-16-released",
+      "date": "2021-04-20",
+      "datePrecision": "day",
+      "title": "Node.js 16 released",
+      "summary": "Node.js 16.0.0 shipped on April 20, 2021 with Apple Silicon builds, stable timers/promises APIs, and V8 9.0.",
+      "about": "Node 16 became LTS in October 2021 — bridging the gap before Node 18's fetch API. Apple Silicon native binaries improved M1 Mac development; `timers/promises` standardized async sleep and scheduling in the stdlib.",
+      "narrative": {
+        "whyChosen": "Node 16 was the LTS line during the post-pandemic JavaScript tooling surge.",
+        "whyImportant": "Apple Silicon support made Node viable on the new Mac developer default.",
+        "problemSolved": "Rosetta-translated Node on M1 Macs was slow and unreliable for daily development."
+      },
+      "category": "software",
+      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v16.0.0 (April 20, 2021)",
+          "url": "https://nodejs.org/en/blog/release/v16.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-18-released", "nodejs-10-released", "nodejs-4-released"]
+    }
+  ]
+}

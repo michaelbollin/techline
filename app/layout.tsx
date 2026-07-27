@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
+import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,10 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Techline",
-    template: "%s · Techline",
+    default: SITE_NAME,
+    template: `%s · ${SITE_NAME}`,
   },
-  description: "A timeline of IT history — inventions, protocols, culture, and the AI race.",
+  description: SITE_DESCRIPTION,
 };
 
 export default function RootLayout({

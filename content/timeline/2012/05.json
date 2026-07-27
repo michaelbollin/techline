@@ -38,6 +38,37 @@
         "laravel-first-beta",
         "symfony-released"
       ]
+    },
+    {
+      "id": "samsung-internet-released",
+      "slug": "samsung-internet-released",
+      "date": "2012-05-03",
+      "datePrecision": "day",
+      "title": "Samsung Internet browser launched",
+      "summary": "Samsung shipped its Internet browser on May 3, 2012 with the Galaxy S III — a WebKit-based mobile browser preinstalled on Samsung Android devices.",
+      "about": "Samsung Internet became the default browser on hundreds of millions of Galaxy phones — often the first browser many Android users encounter outside Chrome. It added ad blocking, extensions, and later Chromium alignment while staying tied to Samsung's mobile ecosystem.",
+      "narrative": {
+        "whyChosen": "Samsung Internet is a major mobile browser by install base, not just market-share headlines.",
+        "whyImportant": "It proved OEM browsers could compete with Chrome on Android through device bundling.",
+        "problemSolved": "Samsung needed a controllable mobile browser integrated with Galaxy hardware and services."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "samsung", "android", "mobile"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung — Galaxy S III launch (May 3, 2012)",
+          "url": "https://news.samsung.com/global/samsung-galaxy-s-iii-launches-in-london",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Internet (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Internet",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-chrome-released", "chrome-for-android-released"]
     }
   ]
 }

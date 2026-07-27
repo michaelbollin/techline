@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "firefox-54-released",
+      "slug": "firefox-54-released",
+      "date": "2017-06-13",
+      "datePrecision": "day",
+      "title": "Firefox 54 enables multi-process for all",
+      "summary": "Mozilla released Firefox 54 on June 13, 2017 — enabling Electrolysis (e10s) multi-process architecture for all users by default.",
+      "about": "Firefox e10s isolated tabs into separate processes — a tab crash no longer took down the whole browser. Firefox 54 completed the years-long Electrolysis project, closing the stability gap with Chrome before Quantum arrived in version 57.",
+      "narrative": {
+        "whyChosen": "Firefox 54 was the e10s milestone that made Firefox multiprocess like Chrome.",
+        "whyImportant": "Process isolation improved security and stability for hundreds of millions of users.",
+        "problemSolved": "Single-process Firefox meant one heavy page or plugin crash killed every open tab."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox", "electrolysis"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Firefox 54 released (June 13, 2017)",
+          "url": "https://blog.mozilla.org/blog/2017/06/13/firefox-54-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Firefox version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["firefox-57-quantum", "firefox-6-released", "google-chrome-released"]
+    }
+  ]
+}

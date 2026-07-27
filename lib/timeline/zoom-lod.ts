@@ -7,24 +7,34 @@
 export function maxImportanceForZoom(msPerPixel: number): 1 | 2 | 3 {
   const msPerDay = 86_400_000;
 
-  if (msPerPixel > msPerDay * 12) {
+  if (msPerPixel > msPerDay * 20) {
     return 1;
   }
 
-  if (msPerPixel > msPerDay * 2) {
+  if (msPerPixel > msPerDay * 4) {
     return 2;
   }
 
   return 3;
 }
 
-/** Fewer stacked rows when zoomed out — avoids the vertical wall of labels. */
-export function maxLanesForZoom(msPerPixel: number): number {
+/** More lanes when zoomed in so year/month views can show clustered labels. */
+export function maxLanesForZoom(msPerPixel: number, visibleSpanMs: number): number {
   const msPerDay = 86_400_000;
+  const msPerYear = 365.25 * msPerDay;
 
-  if (msPerPixel > msPerDay * 0.08) {
+  if (visibleSpanMs <= msPerYear * 1.5) {
+    return 8;
+  }
+  if (visibleSpanMs <= msPerYear * 4) {
+    return 6;
+  }
+  if (visibleSpanMs <= msPerYear * 15) {
+    return 4;
+  }
+  if (msPerPixel > msPerDay * 8) {
     return 2;
   }
 
-  return 4;
+  return 3;
 }

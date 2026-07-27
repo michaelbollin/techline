@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "typescript-1-0-released",
+      "slug": "typescript-1-0-released",
+      "date": "2014-04-02",
+      "datePrecision": "day",
+      "title": "TypeScript 1.0 released",
+      "summary": "Microsoft released TypeScript 1.0 on April 2, 2014 — the first stable version of Anders Hejlsberg's typed JavaScript superset.",
+      "about": "TypeScript 1.0 gave teams optional types, classes, and modules that compiled to ES5 JavaScript for any browser. It laid the groundwork for Angular 2+, VS Code, and the gradual typing approach that now dominates large front-end codebases.",
+      "narrative": {
+        "whyChosen": "TypeScript 1.0 proved typed JavaScript could ship in production without a new runtime.",
+        "whyImportant": "It established the compile-to-JS pattern that frameworks and IDEs built on.",
+        "problemSolved": "Large JavaScript projects lacked static checking and scalable module structure."
+      },
+      "category": "software",
+      "tags": ["typescript", "microsoft", "javascript", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — TypeScript 1.0 released (April 2, 2014)",
+          "url": "https://devblogs.microsoft.com/typescript/typescript-1-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TypeScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/TypeScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["typescript-preview-released", "typescript-5-0-released", "angular-2-released"]
+    }
+  ]
+}

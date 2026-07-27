@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "google-chrome-released",
+      "slug": "google-chrome-released",
+      "date": "2008-09-02",
+      "datePrecision": "day",
+      "title": "Google Chrome 1.0 released",
+      "summary": "Google launched Chrome in beta on September 2, 2008 — a minimalist browser built on WebKit with a multi-process architecture and the new V8 JavaScript engine.",
+      "about": "Chrome treated each tab as a separate process for stability, shipped a blazing-fast JS VM (V8), and popularized the omnibox address bar. It quickly overtook Firefox and IE, drove the shift to evergreen auto-updates, and later forked WebKit into Blink — defining how modern browsers are built.",
+      "narrative": {
+        "whyChosen": "Chrome reset performance expectations and became the world's most-used browser.",
+        "whyImportant": "V8, multi-process tabs, and rapid releases became the template every competitor followed.",
+        "problemSolved": "Web apps like Gmail and Maps were pushing browsers to their limits; Google needed a platform built for applications, not just documents."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "google", "chrome", "v8"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Blog — A fresh take on the browser (September 1, 2008)",
+          "url": "https://googleblog.blogspot.com/2008/09/fresh-take-on-browser.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Chrome (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Chrome",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["webkit-open-sourced", "firefox-1-0-released", "nodejs-first-released"]
+    }
+  ]
+}

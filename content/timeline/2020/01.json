@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "edge-chromium-released",
+      "slug": "edge-chromium-released",
+      "date": "2020-01-15",
+      "datePrecision": "day",
+      "title": "Chromium-based Microsoft Edge released",
+      "summary": "Microsoft shipped the Chromium-based Edge on January 15, 2020 — abandoning EdgeHTML for the same engine that powers Chrome.",
+      "about": "The new Edge traded engine independence for compatibility: sites built for Chrome worked out of the box, and Microsoft contributed back to Chromium. It ended the era of three competing engine families (Gecko, WebKit/Blink, EdgeHTML) and consolidated the web platform around Blink for most users.",
+      "narrative": {
+        "whyChosen": "Microsoft joining Chromium was a watershed moment in browser engine consolidation.",
+        "whyImportant": "It acknowledged developer reality — Chrome compatibility mattered more than a proprietary engine.",
+        "problemSolved": "EdgeHTML could not keep pace with Chrome's site compatibility and release cadence."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "edge", "chromium"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — New year, new browser (January 15, 2020)",
+          "url": "https://blogs.windows.com/windowsexperience/2020/01/15/new-year-new-browser-the-new-microsoft-edge-is-now-available/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microsoft Edge (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Edge",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["microsoft-edge-released", "google-chrome-released"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "php-5-3-released",
+      "slug": "php-5-3-released",
+      "date": "2009-06-30",
+      "datePrecision": "day",
+      "title": "PHP 5.3 released",
+      "summary": "PHP 5.3 shipped on June 30, 2009 with namespaces, closures, and late static binding — modernizing the language for frameworks.",
+      "about": "Namespaces (`namespace App\\Model`) let Symfony, Laravel, and Composer coexist without class name collisions. Closures and `use` imports enabled functional patterns in PHP. PHP 5.3 was the foundation for the framework renaissance of the 2010s.",
+      "narrative": {
+        "whyChosen": "PHP 5.3 added the language features enterprise PHP frameworks required.",
+        "whyImportant": "Namespaces unlocked PSR standards and Composer's package ecosystem.",
+        "problemSolved": "Global class names and weak OOP primitives made large PHP codebases fragile."
+      },
+      "category": "software",
+      "tags": ["php", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "PHP.net — PHP 5.3.0 released (June 30, 2009)",
+          "url": "https://www.php.net/releases/5_3_0.php",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PHP (overview)",
+          "url": "https://en.wikipedia.org/wiki/PHP",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released", "php-5-0-released", "php-7-0-released"]
+    }
+  ]
+}

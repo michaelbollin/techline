@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "php-7-0-released",
+      "slug": "php-7-0-released",
+      "date": "2015-12-03",
+      "datePrecision": "day",
+      "title": "PHP 7.0 released",
+      "summary": "The PHP project released PHP 7.0 on December 3, 2015 — roughly doubling performance and adding scalar type hints and the spaceship operator.",
+      "about": "PHP 7 revived the language after years on PHP 5: WordPress, Laravel, and Symfony sites ran dramatically faster on the same hardware. Scalar types and return declarations brought optional static discipline without losing PHP's deploy-by-FTP simplicity.",
+      "narrative": {
+        "whyChosen": "PHP 7 was the performance reboot that kept PHP relevant against Node and Python.",
+        "whyImportant": "A 2× speedup on real workloads changed hosting economics for millions of sites.",
+        "problemSolved": "PHP 5.6 was slow and aging; the ecosystem needed a breaking cleanup to modernize internals."
+      },
+      "category": "software",
+      "tags": ["php", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "PHP.net — PHP 7.0.0 released (December 3, 2015)",
+          "url": "https://www.php.net/releases/7_0_0.php",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PHP (overview)",
+          "url": "https://en.wikipedia.org/wiki/PHP",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released", "php-8-0-released"]
+    },
+    {
+      "id": "swift-open-sourced",
+      "slug": "swift-open-sourced",
+      "date": "2015-12-03",
+      "datePrecision": "day",
+      "title": "Swift open-sourced",
+      "summary": "Apple open-sourced Swift on December 3, 2015 under the Apache 2.0 license — releasing the compiler, standard library, and Swift.org governance model.",
+      "about": "Open Swift let the language run on Linux servers, attracted outside contributors, and separated Swift from pure Apple platform lock-in. It enabled server-side Swift experiments and laid groundwork for Swift on Windows and cross-platform tooling.",
+      "narrative": {
+        "whyChosen": "Open-sourcing Swift was Apple's bid to make it a general-purpose language, not just an iOS detail.",
+        "whyImportant": "Community governance and Linux support expanded where Swift could run.",
+        "problemSolved": "Swift was tied to Xcode; server and open-source adopters needed a portable toolchain."
+      },
+      "category": "software",
+      "tags": ["swift", "apple", "open-source", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Swift now open source (December 3, 2015)",
+          "url": "https://www.apple.com/newsroom/2015/12/03Swift-Now-Open-Source/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Swift (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["swift-announced", "swift-6-released"]
+    },
+    {
+      "id": "perl-6-christmas-released",
+      "slug": "perl-6-christmas-released",
+      "date": "2015-12-25",
+      "datePrecision": "day",
+      "title": "Perl 6.0.0 'Christmas' released",
+      "summary": "The Perl 6 team shipped version 6.c 'Christmas' on December 25, 2015 — the first production-ready Perl 6 after 15 years of design.",
+      "about": "Perl 6 (later renamed Raku) brought grammars, gradual typing, and concurrency primitives to the Perl family. The Christmas release marked the end of 'Perl 6 is coming' jokes and gave the community a compiler (Rakudo) to build on.",
+      "narrative": {
+        "whyChosen": "After a decade and a half, Perl 6 finally shipped as a real language.",
+        "whyImportant": "It proved long-running language redesigns could reach production, even if adoption stayed niche.",
+        "problemSolved": "Perl 5 could not evolve radically without breaking its massive installed base."
+      },
+      "category": "software",
+      "tags": ["perl", "raku", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Perl 6 Advent Calendar — Christmas is here (December 25, 2015)",
+          "url": "https://perl6advent.wordpress.com/2015/12/24/day-24-christmas-is-here/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Raku (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Raku_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["perl-5-0-released"]
+    }
+  ]
+}

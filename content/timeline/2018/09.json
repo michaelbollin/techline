@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "java-11-released",
+      "slug": "java-11-released",
+      "date": "2018-09-25",
+      "datePrecision": "day",
+      "title": "Java 11 LTS released",
+      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with `var`, HTTP client, and removed Java EE modules.",
+      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. Local-variable type inference (`var`), a built-in HTTP client, and single-file `java` launch scripts modernized everyday Java development.",
+      "narrative": {
+        "whyChosen": "Java 11 was the bridge LTS between the Java 8 era and modern 17/21 releases.",
+        "whyImportant": "It established the six-month feature release + LTS every three years model.",
+        "problemSolved": "After Java 9/10's rapid releases, enterprises needed a stable LTS with modern features."
+      },
+      "category": "software",
+      "tags": ["java", "jvm", "programming-language", "lts"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenJDK — JDK 11 General Availability (September 25, 2018)",
+          "url": "https://openjdk.org/projects/jdk/11/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-8-released", "java-17-released", "java-5-released"]
+    },
+    {
+      "id": "phoenix-liveview-released",
+      "slug": "phoenix-liveview-released",
+      "date": "2018-09-04",
+      "datePrecision": "day",
+      "title": "Phoenix LiveView announced",
+      "summary": "José Valim announced Phoenix LiveView on September 4, 2018 at ElixirConf US — real-time server-rendered UI over WebSockets without writing JavaScript.",
+      "about": "LiveView let Elixir developers build interactive dashboards, forms, and chats with server-side state — sending HTML diffs over the wire. It influenced Rails Hotwire and HTMX by showing that SPAs were not the only path to rich UIs.",
+      "narrative": {
+        "whyChosen": "LiveView pioneered server-driven reactive UIs in a mainstream web framework.",
+        "whyImportant": "It reduced frontend complexity for teams that wanted interactivity without React.",
+        "problemSolved": "Real-time UIs seemed to require JavaScript SPAs and duplicated state on client and server."
+      },
+      "category": "software",
+      "tags": ["phoenix", "liveview", "elixir", "web-framework", "websockets"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Elixir Blog — Phoenix LiveView announcement (September 4, 2018)",
+          "url": "https://elixir-lang.org/blog/2018/09/04/phoenix-liveview/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Phoenix (web framework) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Phoenix_(web_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["phoenix-1-0-released", "elixir-1-0-released", "rails-7-released"]
+    }
+  ]
+}

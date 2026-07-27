@@ -1,30 +1,46 @@
 import * as d3 from "d3";
 
+import {
+  axisTickInterval,
+  axisTicks,
+  formatAxisTick,
+  isYearZoomTick,
+} from "@/lib/timeline/axis-ticks";
 import { TIMELINE_EXTENT, TIMELINE_INK, TIMELINE_YEAR_LABEL_OFFSET } from "@/lib/timeline/constants";
 
 type TimelineAxisGridProps = {
   xScale: d3.ScaleTime<number, number>;
   width: number;
   axisY: number;
+  onYearClick: (year: number) => void;
 };
 
-export function TimelineAxisGrid({ xScale, width, axisY }: TimelineAxisGridProps) {
+const TICK_HIT_WIDTH = 36;
+const TICK_HIT_HEIGHT = 28;
+
+export function TimelineAxisGrid({ xScale, width, axisY, onYearClick }: TimelineAxisGridProps) {
   const [tMin, tMax] = TIMELINE_EXTENT;
-  const ticks = xScale
-    .ticks(Math.max(4, Math.floor(width / 100)))
-    .filter((tick) => {
-      const time = tick.getTime();
-      return time >= tMin && time <= tMax;
-    });
+  const interval = axisTickInterval(
+    Math.abs(xScale.invert(width).getTime() - xScale.invert(0).getTime()),
+  );
+  const ticks = axisTicks(xScale, width).filter((tick) => {
+    const time = tick.getTime();
+    return time >= tMin && time <= tMax;
+  });
   const gridLineEnd = TIMELINE_YEAR_LABEL_OFFSET - 8;
+  const labelY = axisY + TIMELINE_YEAR_LABEL_OFFSET;
 
   return (
-    <g aria-hidden>
+    <g className="timeline-axis-grid">
       {ticks.map((tick) => {
         const x = xScale(tick);
         if (x < 0 || x > width) {
           return null;
         }
+
+        const label = formatAxisTick(tick, interval);
+        const year = tick.getUTCFullYear();
+        const canZoomYear = isYearZoomTick(tick, interval);
 
         return (
           <g key={tick.getTime()}>
@@ -36,15 +52,31 @@ export function TimelineAxisGrid({ xScale, width, axisY }: TimelineAxisGridProps
               stroke={TIMELINE_INK}
               strokeOpacity={0.1}
               strokeWidth={1}
+              aria-hidden
             />
+            {canZoomYear ? (
+              <rect
+                className="timeline-axis-tick-hit"
+                x={x - TICK_HIT_WIDTH / 2}
+                y={labelY - TICK_HIT_HEIGHT + 6}
+                width={TICK_HIT_WIDTH}
+                height={TICK_HIT_HEIGHT}
+                fill="transparent"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onYearClick(year);
+                }}
+              />
+            ) : null}
             <text
               x={x}
-              y={axisY + TIMELINE_YEAR_LABEL_OFFSET}
+              y={labelY}
               textAnchor="middle"
               fill={TIMELINE_INK}
-              className="timeline-axis-year"
+              className={`timeline-axis-tick ${canZoomYear ? "timeline-axis-year" : "timeline-axis-month"}`}
+              pointerEvents="none"
             >
-              {d3.timeFormat("%Y")(tick)}
+              {label}
             </text>
           </g>
         );

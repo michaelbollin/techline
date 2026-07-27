@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "internet-explorer-3-0",
+      "slug": "internet-explorer-3-0",
+      "date": "1996-08-13",
+      "datePrecision": "day",
+      "title": "Internet Explorer 3.0 released",
+      "summary": "Microsoft shipped Internet Explorer 3.0 on August 13, 1996 with CSS, Java applets, ActiveX controls, and its own JavaScript implementation (JScript).",
+      "about": "IE 3 was Microsoft's first browser that could credibly compete with Netscape on features — and it was free for all Windows users. CSS support let sites separate layout from content; ActiveX tied the web tightly to Windows, foreshadowing years of compatibility headaches.",
+      "narrative": {
+        "whyChosen": "IE 3 closed the feature gap and escalated the browser wars into a standards fight.",
+        "whyImportant": "It brought CSS and scripting to Microsoft's massive Windows install base.",
+        "problemSolved": "Netscape dominated the web; Microsoft needed a free, capable browser to keep Windows central to the internet."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer", "css"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer history (IE 3.0, August 13, 1996)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/dn742485(v=vs.85)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer 3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netscape-navigator-2-0", "internet-explorer-4-0", "ecmascript-1-adopted"]
+    }
+  ]
+}

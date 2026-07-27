@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ada-95-standard",
+      "slug": "ada-95-standard",
+      "date": "1995-03",
+      "datePrecision": "month",
+      "title": "Ada 95 standardized",
+      "summary": "ISO published Ada 95 in February 1995 — the first major revision of Ada with object-oriented programming, protected types, and child units.",
+      "about": "Ada 95 modernized the DoD systems language for avionics, rail, and safety-critical software: tagged types, hierarchical libraries, and improved real-time support. It remained the default where compilers must prove absence of runtime surprises — Boeing, Airbus, and nuclear systems.",
+      "narrative": {
+        "whyChosen": "Ada 95 brought OOP to the safety-critical language mandated for US defense projects.",
+        "whyImportant": "It kept Ada relevant for embedded and certification-heavy domains through the 2000s.",
+        "problemSolved": "Ada 83 lacked modern abstraction; mission-critical systems needed safer OO without C++'s footguns."
+      },
+      "category": "software",
+      "tags": ["ada", "iso", "standard", "programming-language", "safety-critical"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "ISO — ISO/IEC 8652:1995 Ada 95 (February 1995)",
+          "url": "https://www.iso.org/standard/26329.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ada (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ada_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ada-83-standard"]
+    }
+  ]
+}

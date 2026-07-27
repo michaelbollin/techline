@@ -14,7 +14,7 @@ export const TIMELINE_INK = "#000000";
 export const TIMELINE_PAPER = "#ffffff";
 
 /** Vertical position of the axis as a fraction of viewport height. */
-export const TIMELINE_AXIS_Y_RATIO = 0.5;
+export const TIMELINE_AXIS_Y_RATIO = 0.4;
 
 /** Animated zoom/pan duration in ms. */
 export const TIMELINE_TRANSITION_MS = 400;
@@ -22,11 +22,14 @@ export const TIMELINE_TRANSITION_MS = 400;
 /** Distance from axis to year labels. */
 export const TIMELINE_YEAR_LABEL_OFFSET = 80;
 
+/** Extra space below year labels before hover detail text. */
+export const TIMELINE_EVENT_DETAIL_GAP = 96;
+
+/** Distance from axis to hover detail text (below year labels). */
+export const TIMELINE_EVENT_DETAIL_OFFSET = TIMELINE_YEAR_LABEL_OFFSET + TIMELINE_EVENT_DETAIL_GAP;
+
 export const TIMELINE_ZOOM_MAX_SCALE = 180;
 export const TIMELINE_ZOOM_STEP = 1.35;
-
-/** Keep tooltips away from viewport edges. */
-export const TIMELINE_TOOLTIP_EDGE_INSET = 160;
 
 /** Clamp label pills inside the viewport. */
 export const TIMELINE_LABEL_EDGE_INSET = 12;

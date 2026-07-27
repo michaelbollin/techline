@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "firefox-6-released",
+      "slug": "firefox-6-released",
+      "date": "2011-08-16",
+      "datePrecision": "day",
+      "title": "Firefox 6 released",
+      "summary": "Mozilla released Firefox 6 on August 16, 2011 — continuing the rapid-release cycle with faster startup, improved dev tools, and Panorama tab groups.",
+      "about": "Firefox 6 refined the six-week release model Mozilla started with version 5: incremental security fixes, WebSockets support, and better permissions UI. It kept Firefox competitive while Chrome's market share climbed.",
+      "narrative": {
+        "whyChosen": "Firefox 6 solidified Mozilla's rapid-release cadence for the 2010s.",
+        "whyImportant": "Frequent releases brought security patches and web APIs to users faster.",
+        "problemSolved": "Long gaps between major Firefox versions left users exposed to unpatched vulnerabilities."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Firefox 6 released (August 16, 2011)",
+          "url": "https://blog.mozilla.org/blog/2011/08/16/firefox-6-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Firefox version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["firefox-5-released", "firefox-4-released", "firefox-57-quantum"]
+    }
+  ]
+}

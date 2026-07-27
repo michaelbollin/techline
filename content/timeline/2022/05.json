@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "erlang-otp-25-released",
+      "slug": "erlang-otp-25-released",
+      "date": "2022-05-17",
+      "datePrecision": "day",
+      "title": "Erlang/OTP 25 released",
+      "summary": "The Erlang/OTP team released OTP 25 on May 17, 2022 with improved JIT performance, SSL updates, and enhanced documentation tooling.",
+      "about": "OTP 25 built on the JIT introduced in OTP 24 — speeding Elixir and Erlang workloads on multi-core servers. Updated crypto libraries and socket APIs kept BEAM applications compliant for messaging, fintech, and telecom systems.",
+      "narrative": {
+        "whyChosen": "OTP 25 refined the JIT and tooling that power Elixir's production ecosystem.",
+        "whyImportant": "Incremental VM gains benefited every Phoenix and RabbitMQ deployment on BEAM.",
+        "problemSolved": "Teams on OTP 24 needed security updates and compiler improvements without a breaking migration."
+      },
+      "category": "software",
+      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Erlang.org — OTP 25.0 released (May 17, 2022)",
+          "url": "https://www.erlang.org/news/159",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Erlang (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Erlang_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["erlang-otp-24-released", "erlang-open-sourced", "elixir-1-0-released"]
+    }
+  ]
+}

@@ -37,6 +37,37 @@
         "laravel-symfony-http-foundation",
         "symfony-released"
       ]
+    },
+    {
+      "id": "firefox-5-released",
+      "slug": "firefox-5-released",
+      "date": "2011-06-21",
+      "datePrecision": "day",
+      "title": "Firefox 5 released",
+      "summary": "Mozilla released Firefox 5 on June 21, 2011 — the first version on a rapid six-week release schedule with CSS animations and improved privacy.",
+      "about": "Firefox 5 kicked off Mozilla's accelerated release cadence to match Chrome's pace. Do-not-track headers, tab animations, and faster JavaScript kept Firefox in the race — though Chrome's growth continued.",
+      "narrative": {
+        "whyChosen": "Firefox 5 began Mozilla's rapid-release model that defined the browser for years.",
+        "whyImportant": "Six-week cycles brought security fixes and web standards to users faster.",
+        "problemSolved": "Year-long Firefox releases left users waiting for security patches and new APIs."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Firefox 5 released (June 21, 2011)",
+          "url": "https://blog.mozilla.org/blog/2011/06/21/firefox-5-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Firefox version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["firefox-4-released", "firefox-57-quantum", "google-chrome-released"]
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "powershell-core-open-sourced",
+      "slug": "powershell-core-open-sourced",
+      "date": "2016-08-18",
+      "datePrecision": "day",
+      "title": "PowerShell open-sourced on GitHub",
+      "summary": "Microsoft open-sourced PowerShell on August 18, 2016 and announced PowerShell on Linux and macOS — porting the Windows shell to cross-platform infrastructure automation.",
+      "about": "PowerShell Core replaced Windows-only shell scripting for DevOps teams running heterogeneous clouds: same cmdlets for Azure, AWS, and on-prem Windows/Linux. It became the backbone of modern Windows automation alongside Bash on Linux servers.",
+      "narrative": {
+        "whyChosen": "Open PowerShell was Microsoft's bid to own cross-platform automation, not just Windows admin.",
+        "whyImportant": "It let operators use one object pipeline language across OS boundaries.",
+        "problemSolved": "Cloud-era teams managed Linux and Windows hosts but lacked a unified automation shell."
+      },
+      "category": "software",
+      "tags": ["powershell", "microsoft", "open-source", "cross-platform", "shell"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — PowerShell open source (August 18, 2016)",
+          "url": "https://devblogs.microsoft.com/powershell/powershell-open-source-edition/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PowerShell (overview)",
+          "url": "https://en.wikipedia.org/wiki/PowerShell",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["powershell-1-0-released", "bash-1-0-released"]
+    }
+  ]
+}

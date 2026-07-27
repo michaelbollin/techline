@@ -1,0 +1,128 @@
+{
+  "events": [
+    {
+      "id": "php-8-0-released",
+      "slug": "php-8-0-released",
+      "date": "2020-11-26",
+      "datePrecision": "day",
+      "title": "PHP 8.0 released",
+      "summary": "The PHP project released PHP 8.0 on November 26, 2020 with JIT compilation, union types, named arguments, and the match expression.",
+      "about": "PHP 8 modernized the language that still powers WordPress, Wikipedia, and Laravel apps: JIT sped hot loops, attributes replaced docblock hacks, and stricter types caught bugs earlier. It was the biggest PHP jump since PHP 7's performance rewrite.",
+      "narrative": {
+        "whyChosen": "PHP 8 proved the web's most-deployed server language could evolve without abandoning its ecosystem.",
+        "whyImportant": "JIT, union types, and match brought PHP closer to modern language expectations.",
+        "problemSolved": "PHP 7.x had plateaued; hosts and frameworks needed a compelling reason to upgrade beyond security patches."
+      },
+      "category": "software",
+      "tags": ["php", "programming-language", "jit"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "PHP.net — PHP 8.0.0 released (November 26, 2020)",
+          "url": "https://www.php.net/releases/8.0/en.php",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PHP (overview)",
+          "url": "https://en.wikipedia.org/wiki/PHP",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released", "laravel-first-beta"]
+    },
+    {
+      "id": "safari-14-big-sur",
+      "slug": "safari-14-big-sur",
+      "date": "2020-11",
+      "datePrecision": "month",
+      "title": "Safari 14 shipped with macOS Big Sur",
+      "summary": "Apple released Safari 14 in November 2020 with macOS Big Sur — adding WebExtensions on Mac, improved tab design, and faster JavaScript performance on Apple Silicon.",
+      "about": "Safari 14 brought Chrome-style extension compatibility to the Mac and set the stage for extension support on iPhone the following year. It also tuned the engine for M1 Macs, keeping Apple's browser competitive on battery life and speed.",
+      "narrative": {
+        "whyChosen": "Safari 14 aligned Apple's browser with the extension ecosystem developers already built for Chromium.",
+        "whyImportant": "WebExtensions on Mac reduced the 'Safari is a different platform' tax for extension authors.",
+        "problemSolved": "Safari's old extension model was incompatible with how developers shipped browser tools elsewhere."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — macOS Big Sur and Safari 14 (November 2020)",
+          "url": "https://www.apple.com/newsroom/2020/11/macos-big-sur-is-available-today/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-announced", "safari-15-ios-web-extensions"]
+    },
+    {
+      "id": "dotnet-5-released",
+      "slug": "dotnet-5-released",
+      "date": "2020-11-10",
+      "datePrecision": "day",
+      "title": ".NET 5 released",
+      "summary": "Microsoft shipped .NET 5 on November 10, 2020 — unifying .NET Core and .NET Framework into one cross-platform runtime.",
+      "about": ".NET 5 dropped the \"Core\" branding and became the single modern .NET: one BCL, one SDK, Windows/Linux/macOS targets. It set the path to .NET 6 LTS and the end of fragmented .NET naming that confused developers for years.",
+      "narrative": {
+        "whyChosen": ".NET 5 was the unification release that simplified Microsoft's platform story.",
+        "whyImportant": "One runtime name and cadence replaced the Framework vs Core split.",
+        "problemSolved": "Developers faced confusing choices between .NET Framework, .NET Core, and Mono."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft", "cross-platform"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET 5.0 (November 10, 2020)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-net-5-0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — .NET (overview)",
+          "url": "https://en.wikipedia.org/wiki/.NET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-core-1-0-released", "dotnet-framework-3-5-released"]
+    },
+    {
+      "id": "csharp-9-released",
+      "slug": "csharp-9-released",
+      "date": "2020-11-10",
+      "datePrecision": "day",
+      "title": "C# 9 released with .NET 5",
+      "summary": "C# 9 shipped with .NET 5 on November 10, 2020 — adding records, init-only properties, and top-level programs.",
+      "about": "C# 9's `record` types made immutable data classes one-liners; `init` accessors enabled object initializers without public setters; top-level statements removed boilerplate `Main` methods. The features shaped modern .NET API design and minimal hosting templates.",
+      "narrative": {
+        "whyChosen": "C# 9 records became the default pattern for DTOs and API models in .NET 5+.",
+        "whyImportant": "Init-only properties and records reduced mutable-state bugs in enterprise code.",
+        "problemSolved": "Immutable data types required verbose class definitions or external libraries."
+      },
+      "category": "software",
+      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET 5.0 (November 10, 2020)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-net-5-0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C Sharp (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-5-released", "dotnet-core-3-0-released", "csharp-7-released"]
+    }
+  ]
+}

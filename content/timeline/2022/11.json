@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "chatgpt-released",
+      "slug": "chatgpt-released",
+      "date": "2022-11-30",
+      "datePrecision": "day",
+      "title": "ChatGPT launched",
+      "summary": "OpenAI released ChatGPT to the public on November 30, 2022 — a conversational interface to GPT-3.5 that reached 100 million users faster than any prior consumer app.",
+      "about": "ChatGPT put large language models in a chat window anyone could use: writing, coding help, tutoring, and brainstorming without API keys. It triggered an industry-wide rush into copilots, search redesigns, and enterprise AI — and changed how developers think about documentation, codegen, and UI.",
+      "narrative": {
+        "whyChosen": "ChatGPT was the consumer moment that made LLMs impossible to ignore.",
+        "whyImportant": "It shifted software from 'AI as feature' to 'AI as interface' across every product category.",
+        "problemSolved": "Powerful language models existed in research APIs but were inaccessible to non-technical users."
+      },
+      "category": "ai",
+      "tags": ["ai", "llm", "openai", "chatgpt"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing ChatGPT (November 30, 2022)",
+          "url": "https://openai.com/blog/chatgpt",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ChatGPT (overview)",
+          "url": "https://en.wikipedia.org/wiki/ChatGPT",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["gpt-3-api-released", "gpt-4-released"]
+    },
+    {
+      "id": "dotnet-7-released",
+      "slug": "dotnet-7-released",
+      "date": "2022-11-08",
+      "datePrecision": "day",
+      "title": ".NET 7 released",
+      "summary": "Microsoft shipped .NET 7 on November 8, 2022 with performance improvements, minimal APIs enhancements, and native AOT previews.",
+      "about": ".NET 7 continued the annual release cadence between LTS versions: faster JSON serialization, improved cloud-native tooling, and C# 11 features like raw string literals. Teams on .NET 6 used it for bleeding-edge performance before committing to .NET 8 LTS.",
+      "narrative": {
+        "whyChosen": ".NET 7 kept the unified platform moving between .NET 6 and 8 LTS releases.",
+        "whyImportant": "Performance and AOT work made .NET viable for CLI tools and containerized microservices.",
+        "problemSolved": "Developers wanted yearly innovation without waiting for the next LTS cycle."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET 7 (November 8, 2022)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — .NET (overview)",
+          "url": "https://en.wikipedia.org/wiki/.NET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-6-released", "dotnet-8-released"]
+    },
+    {
+      "id": "csharp-11-released",
+      "slug": "csharp-11-released",
+      "date": "2022-11-08",
+      "datePrecision": "day",
+      "title": "C# 11 released with .NET 7",
+      "summary": "C# 11 shipped with .NET 7 on November 8, 2022 — adding raw string literals, required members, and generic math support.",
+      "about": "C# 11's raw strings (`\"\"\"...\"\"\"`) made JSON and SQL in code readable without escape hell; `required` properties enforced initialization at compile time; static abstract interface members enabled generic math on numeric types.",
+      "narrative": {
+        "whyChosen": "C# 11 raw strings solved a daily pain point for config-heavy .NET apps.",
+        "whyImportant": "Required members caught incomplete object initialization before runtime.",
+        "problemSolved": "Multiline strings and nullable reference types needed better ergonomics together."
+      },
+      "category": "software",
+      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET 7 (November 8, 2022)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C Sharp (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-7-released", "csharp-10-released", "csharp-12-released"]
+    }
+  ]
+}

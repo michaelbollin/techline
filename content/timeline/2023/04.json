@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "nodejs-20-released",
+      "slug": "nodejs-20-released",
+      "date": "2023-04-18",
+      "datePrecision": "day",
+      "title": "Node.js 20 released",
+      "summary": "Node.js 20.0.0 shipped on April 18, 2023 with a stable test runner, permission model preview, and V8 11.3.",
+      "about": "Node 20 became the active LTS line in October 2023 — the baseline for serverless runtimes, Next.js deployments, and npm packages through 2025. Built-in `node:test` reduced reliance on Jest for simple suites; the permission model previewed sandboxed file and network access.",
+      "narrative": {
+        "whyChosen": "Node 20 was the LTS foundation for mid-2020s JavaScript backends.",
+        "whyImportant": "Stable test runner and permission APIs moved Node toward safer production defaults.",
+        "problemSolved": "Teams needed a long-supported runtime with modern V8 and first-party testing tools."
+      },
+      "category": "software",
+      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v20.0.0 (April 18, 2023)",
+          "url": "https://nodejs.org/en/blog/release/v20.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-18-released", "nodejs-4-released", "nodejs-first-released"]
+    }
+  ]
+}

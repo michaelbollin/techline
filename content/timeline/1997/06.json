@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["javascript-name-announced", "ecmascript-3-adopted"]
+    },
+    {
+      "id": "netscape-communicator-4-0",
+      "slug": "netscape-communicator-4-0",
+      "date": "1997-06-11",
+      "datePrecision": "day",
+      "title": "Netscape Communicator 4.0 released",
+      "summary": "Netscape shipped Communicator 4.0 on June 11, 1997 — a full internet suite with browser, email, news, and HTML editor bundled together.",
+      "about": "Communicator tried to own the whole desktop internet experience, not just browsing. It pushed Dynamic HTML, improved JavaScript, and Netcaster push channels — but its bloated suite model struggled against Microsoft's tighter IE integration in Windows.",
+      "narrative": {
+        "whyChosen": "Communicator 4 was Netscape's flagship before the open-source Mozilla pivot.",
+        "whyImportant": "It pushed DHTML and richer client-side pages while showing the limits of monolithic browser suites.",
+        "problemSolved": "Users wanted one program for web, mail, and authoring — Netscape packaged the entire workflow."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "netscape", "email"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Netscape Communicator (June 11, 1997)",
+          "url": "https://en.wikipedia.org/wiki/Netscape_Communicator",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Netscape Communicator (overview)",
+          "url": "https://en.wikipedia.org/wiki/Netscape_Communicator",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netscape-navigator-2-0", "internet-explorer-4-0", "mozilla-source-released"]
     }
   ]
 }

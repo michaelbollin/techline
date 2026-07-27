@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "java-21-released",
+      "slug": "java-21-released",
+      "date": "2023-09-19",
+      "datePrecision": "day",
+      "title": "Java 21 LTS released",
+      "summary": "Oracle and the OpenJDK community shipped Java 21 on September 19, 2023 — an LTS release with virtual threads, sequenced collections, and pattern matching for switch.",
+      "about": "Java 21's virtual threads (Project Loom) let servers handle millions of concurrent connections with simple thread-per-request code. As the current LTS after Java 17, it became the target for Spring Boot 3.2+, Gradle 8, and enterprise JDK upgrades through 2031.",
+      "narrative": {
+        "whyChosen": "Java 21 virtual threads were the biggest concurrency shift since Java 5 executors.",
+        "whyImportant": "Loom made blocking-style code scale without reactive programming complexity.",
+        "problemSolved": "Thread pools and reactive frameworks were the only ways to handle high concurrency at scale."
+      },
+      "category": "software",
+      "tags": ["java", "jvm", "programming-language", "lts"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenJDK — JDK 21 General Availability (September 19, 2023)",
+          "url": "https://openjdk.org/projects/jdk/21/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["java-17-released", "java-8-released", "kotlin-2-0-released"]
+    },
+    {
+      "id": "elixir-1-14-released",
+      "slug": "elixir-1-14-released",
+      "date": "2023-09-19",
+      "datePrecision": "day",
+      "title": "Elixir 1.14 released",
+      "summary": "The Elixir team released Elixir 1.14 on September 19, 2023 with improved error messages, `dbg/2` debugging, and compiler optimizations.",
+      "about": "Elixir 1.14 made debugging and onboarding easier: `dbg` showed pipeline values inline; clearer compile errors reduced frustration for newcomers. Performance tweaks kept Phoenix and LiveView apps responsive under load.",
+      "narrative": {
+        "whyChosen": "Elixir 1.14 improved developer experience for the growing Phoenix/LiveView community.",
+        "whyImportant": "Better errors and debugging tools lowered the barrier to BEAM adoption.",
+        "problemSolved": "Opaque pipeline errors and cryptic compiler messages slowed Elixir onboarding."
+      },
+      "category": "software",
+      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Elixir Blog — Announcing Elixir v1.14 (September 19, 2023)",
+          "url": "https://elixir-lang.org/blog/2023/09/19/elixir-1-14-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elixir (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["elixir-1-0-released", "elixir-first-release", "erlang-otp-26-released"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "firefox-57-quantum",
+      "slug": "firefox-57-quantum",
+      "date": "2017-11-14",
+      "datePrecision": "day",
+      "title": "Firefox 57 Quantum released",
+      "summary": "Mozilla shipped Firefox 57 on November 14, 2017 — branded Firefox Quantum with a new CSS engine (Stylo), Rust components, and multi-process tabs.",
+      "about": "Quantum was Firefox's fight back against Chrome: Servo's parallel styling code merged into Gecko, Rust replaced C++ in hot paths, and Project Quantum made the browser feel fast again. It proved Mozilla could still compete on performance with an independent engine.",
+      "narrative": {
+        "whyChosen": "Firefox Quantum was the biggest Firefox rewrite since tabbed browsing.",
+        "whyImportant": "It kept Gecko alive as a credible alternative to Blink with measurable speed gains.",
+        "problemSolved": "Firefox had fallen behind Chrome on speed and memory use, losing users and developer mindshare."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox", "rust"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla Blog — Firefox Quantum launched (November 14, 2017)",
+          "url": "https://blog.mozilla.org/en/firefox/quantum/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Firefox (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["firefox-1-0-released", "mozilla-source-released", "rust-1-0-released"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "mozilla-source-released",
+      "slug": "mozilla-source-released",
+      "date": "1998-03-31",
+      "datePrecision": "day",
+      "title": "Mozilla source code open-sourced",
+      "summary": "On March 31, 1998, Netscape released the Mozilla browser suite source code under an open license — the foundation for Firefox, Thunderbird, and modern Gecko engines.",
+      "about": "The Mozilla project turned Netscape's codebase into a community effort after AOL acquired the company. Out of years of rewrite came Gecko, Firefox, and a proof that open-source browsers could compete with billion-dollar platforms.",
+      "narrative": {
+        "whyChosen": "Mozilla open source is the direct ancestor of Firefox and the modern open-web browser movement.",
+        "whyImportant": "It kept an independent browser engine alive when Netscape as a product company faded.",
+        "problemSolved": "Netscape needed outside developers to help finish a modern browser rewrite it could not fund alone."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "open-source", "netscape"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Project Mozilla launched (March 31, 1998)",
+          "url": "https://www.mozilla.org/en-US/about/history/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mozilla (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mozilla",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netscape-communicator-4-0", "firefox-1-0-released"]
+    }
+  ]
+}

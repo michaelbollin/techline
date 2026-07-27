@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-2022-adopted",
+      "slug": "ecmascript-2022-adopted",
+      "date": "2022-06",
+      "datePrecision": "month",
+      "title": "ECMAScript 2022 standardized",
+      "summary": "Ecma adopted ECMAScript 2022 in June 2022 — adding class fields, top-level `await`, `Array.at()`, and `Object.hasOwn()`.",
+      "about": "ES2022 let modules use top-level await for cleaner async bootstrapping, and class fields removed constructor boilerplate for React/Vue class components and Node services. `at(-1)` finally gave arrays a readable 'last element' accessor.",
+      "narrative": {
+        "whyChosen": "ES2022 delivered top-level await and class fields that frameworks and bundlers had polyfilled for years.",
+        "whyImportant": "Module-level async initialization became standard without IIFE wrappers.",
+        "problemSolved": "Developers needed awkward patterns to await data before exporting module bindings."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 2022 adopted (June 2022)",
+          "url": "https://ecma-international.org/news/ecma-international-approves-new-standards-5/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-2020-adopted", "ecmascript-2024-adopted"]
+    }
+  ]
+}

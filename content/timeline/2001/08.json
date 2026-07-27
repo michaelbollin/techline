@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "internet-explorer-6-released",
+      "slug": "internet-explorer-6-released",
+      "date": "2001-08-27",
+      "datePrecision": "day",
+      "title": "Internet Explorer 6.0 released",
+      "summary": "Microsoft released Internet Explorer 6.0 on August 27, 2001 — the version that dominated the web for years and became infamous among developers.",
+      "about": "IE 6 shipped with Windows XP and became the browser most of the world used — and most sites were built for. Its slow update cycle, security holes, and CSS quirks forced an entire industry of hacks, conditional comments, and later campaigns like \"IE6 must die.\"",
+      "narrative": {
+        "whyChosen": "IE 6's long reign shaped web development pain points and motivated Firefox and Chrome.",
+        "whyImportant": "Market dominance plus stagnation made cross-browser compatibility a full-time job for a decade.",
+        "problemSolved": "Microsoft bundled a capable-enough browser with XP, giving users immediate web access on new PCs."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer history (IE 6.0, August 27, 2001)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/general-info/dn742485(v=vs.85)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer 6 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_6",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-5-0", "firefox-1-0-released", "google-chrome-released"]
+    }
+  ]
+}

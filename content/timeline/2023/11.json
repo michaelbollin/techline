@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "dotnet-8-released",
+      "slug": "dotnet-8-released",
+      "date": "2023-11-14",
+      "datePrecision": "day",
+      "title": ".NET 8 LTS released",
+      "summary": "Microsoft shipped .NET 8 on November 14, 2023 — a long-term support release with native AOT, Blazor improvements, and performance gains across the stack.",
+      "about": ".NET 8 extended the unified .NET platform with better container defaults, source generators, and cloud-native tooling. As an LTS release through 2026, it became the target for enterprises migrating from .NET 6 and Framework holdouts.",
+      "narrative": {
+        "whyChosen": ".NET 8 continued the annual LTS cadence for production .NET workloads.",
+        "whyImportant": "Native AOT and performance work made .NET competitive for microservices and CLI tools.",
+        "problemSolved": "Teams needed a supported LTS with modern deployment and trimming for containers."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft", "lts"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET 8 (November 14, 2023)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — .NET (overview)",
+          "url": "https://en.wikipedia.org/wiki/.NET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-6-released", "dotnet-5-released"]
+    },
+    {
+      "id": "csharp-12-released",
+      "slug": "csharp-12-released",
+      "date": "2023-11-14",
+      "datePrecision": "day",
+      "title": "C# 12 released with .NET 8",
+      "summary": "C# 12 shipped with .NET 8 on November 14, 2023 — adding primary constructors, collection expressions, and ref readonly parameters.",
+      "about": "C# 12's primary constructors cut class boilerplate for DI and records; collection expressions (`[1, 2, 3]`) unified array and span initialization syntax. The release paired with .NET 8 LTS for the 2024–2026 enterprise cycle.",
+      "narrative": {
+        "whyChosen": "C# 12 primary constructors simplified dependency injection patterns across .NET 8 apps.",
+        "whyImportant": "Collection expressions reduced syntactic noise for data-heavy modern C#.",
+        "problemSolved": "Constructor and collection initialization required verbose, inconsistent syntax."
+      },
+      "category": "software",
+      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing .NET 8 (November 14, 2023)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — C Sharp (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-8-released", "csharp-11-released", "csharp-10-released"]
+    },
+    {
+      "id": "gpt-4-turbo-released",
+      "slug": "gpt-4-turbo-released",
+      "date": "2023-11-06",
+      "datePrecision": "day",
+      "title": "GPT-4 Turbo announced",
+      "summary": "OpenAI announced GPT-4 Turbo at DevDay on November 6, 2023 — a faster, cheaper GPT-4 with a 128K context window and updated knowledge cutoff.",
+      "about": "GPT-4 Turbo cut API costs and latency while doubling context length — enabling whole-codebase analysis and long document workflows. Custom GPTs and the Assistants API launched the same day, shifting OpenAI from raw models to a platform.",
+      "narrative": {
+        "whyChosen": "GPT-4 Turbo made frontier-model quality economical for high-volume products.",
+        "whyImportant": "128K context and lower pricing unlocked enterprise document and code tools.",
+        "problemSolved": "GPT-4 was too slow and expensive for apps that processed large inputs frequently."
+      },
+      "category": "software",
+      "tags": ["ai", "openai", "gpt", "llm", "api", "machine-learning"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — New models and developer products announced at DevDay (November 6, 2023)",
+          "url": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GPT-4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/GPT-4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["gpt-4-released", "gpt-4o-released", "chatgpt-released"]
+    }
+  ]
+}

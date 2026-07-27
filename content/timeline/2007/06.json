@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "safari-3-windows-released",
+      "slug": "safari-3-windows-released",
+      "date": "2007-06-11",
+      "datePrecision": "day",
+      "title": "Safari 3 for Windows released",
+      "summary": "Apple released Safari 3 for Windows on June 11, 2007 at WWDC — bringing WebKit to PC users for the first time.",
+      "about": "Safari on Windows let web developers test WebKit rendering without a Mac and briefly gave Windows users an Apple browser option. It spread WebKit's engine beyond macOS — a precursor to Chrome adopting WebKit and later forking Blink.",
+      "narrative": {
+        "whyChosen": "Safari for Windows exported Apple's engine to the PC ecosystem.",
+        "whyImportant": "WebKit on Windows influenced cross-browser testing and engine adoption before Chrome.",
+        "problemSolved": "Developers on Windows could not easily test Safari/WebKit behavior for their sites."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit", "windows"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Safari 3 for Windows beta (June 11, 2007)",
+          "url": "https://www.apple.com/newsroom/2007/06/11Safari-on-Windows/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-announced", "webkit-open-sourced", "blink-engine-announced"]
+    }
+  ]
+}

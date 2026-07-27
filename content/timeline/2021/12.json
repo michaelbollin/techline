@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "rails-7-released",
+      "slug": "rails-7-released",
+      "date": "2021-12-15",
+      "datePrecision": "day",
+      "title": "Ruby on Rails 7.0 released",
+      "summary": "Rails 7.0 shipped on December 15, 2021 with import maps, Hotwire (Turbo + Stimulus), and encrypted attributes by default.",
+      "about": "Rails 7 answered the JavaScript framework question: ship modern interactivity without Node bundlers via import maps and Turbo Drive. Encrypted columns and async query loading kept Rails competitive for SaaS APIs and monoliths that wanted React-level UX with Ruby ergonomics.",
+      "narrative": {
+        "whyChosen": "Rails 7 defined the no-Node-default path for full-stack Ruby web apps.",
+        "whyImportant": "Import maps and Hotwire reduced JavaScript toolchain complexity for Rails teams.",
+        "problemSolved": "Rails apps felt forced into webpack/React complexity to match SPA expectations."
+      },
+      "category": "software",
+      "tags": ["rails", "ruby", "web-framework", "hotwire"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ruby on Rails — Rails 7.0 released (December 15, 2021)",
+          "url": "https://rubyonrails.org/2021/12/15/Rails-7-0-fulfilling-an-vision",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ruby on Rails (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ruby_on_Rails",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["rails-1-0-released", "rails-open-sourced", "ruby-3-0-released"]
+    },
+    {
+      "id": "django-4-released",
+      "slug": "django-4-released",
+      "date": "2021-12-07",
+      "datePrecision": "day",
+      "title": "Django 4.0 released",
+      "summary": "The Django team released Django 4.0 on December 7, 2021 with `zoneinfo` timezone support, `scrypt` password hashing, and Redis cache backend.",
+      "about": "Django 4 dropped Python 2 legacy paths and modernized defaults: stdlib timezones replaced pytz; scrypt strengthened password storage; Redis became a built-in cache option. It powered admin panels, REST APIs, and CMS backends through the early 2020s.",
+      "narrative": {
+        "whyChosen": "Django 4 was the Python 3-only cleanup that aligned with modern deployment practices.",
+        "whyImportant": "Built-in Redis caching and zoneinfo simplified production Django stacks.",
+        "problemSolved": "Django carried pytz and legacy compatibility baggage from the Python 2 era."
+      },
+      "category": "software",
+      "tags": ["django", "python", "web-framework"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Django Project — Django 4.0 released (December 7, 2021)",
+          "url": "https://www.djangoproject.com/weblog/2021/dec/07/django-40-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Django (web framework) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Django_(web_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["django-open-sourced", "python-3-0-released", "fastapi-released"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-2023-adopted",
+      "slug": "ecmascript-2023-adopted",
+      "date": "2023-06",
+      "datePrecision": "month",
+      "title": "ECMAScript 2023 standardized",
+      "summary": "Ecma adopted ECMAScript 2023 in June 2023 — adding `Array.prototype.findLast`, Hashbang grammar, symbols as WeakMap keys, and `Array.fromAsync`.",
+      "about": "ES2023 filled array and module ergonomics gaps: finding the last matching element without reversing arrays, supporting `#!` in scripts, and async iteration helpers. Annual releases kept browsers aligned on incremental, shippable JavaScript improvements.",
+      "narrative": {
+        "whyChosen": "ES2023 added practical array methods developers had polyfilled for years.",
+        "whyImportant": "`findLast` and `findLastIndex` simplified common search patterns.",
+        "problemSolved": "Developers reversed arrays or wrote loops to find the last matching element."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 2023 adopted (June 2023)",
+          "url": "https://ecma-international.org/news/ecma-international-approves-new-standards-5/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-2022-adopted", "ecmascript-2024-adopted"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "ecmascript-2025-adopted",
+      "slug": "ecmascript-2025-adopted",
+      "date": "2025-06",
+      "datePrecision": "month",
+      "title": "ECMAScript 2025 standardized",
+      "summary": "Ecma adopted ECMAScript 2025 in June 2025 — adding import attributes, iterator helpers, and JSON module imports.",
+      "about": "ES2025 makes importing JSON and CSS modules first-class, and adds iterator utilities for functional-style pipelines in plain JavaScript. Each annual release lets browsers ship features without waiting for massive 'ES6-sized' bundles.",
+      "narrative": {
+        "whyChosen": "ES2025 continued the stable yearly rhythm for JavaScript platform evolution.",
+        "whyImportant": "Import attributes and JSON modules simplify bundler-free tooling in Node and browsers.",
+        "problemSolved": "Developers relied on bundler-specific hacks to import non-JS assets as modules."
+      },
+      "category": "software",
+      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ecma International — ECMAScript 2025 adopted (June 2025)",
+          "url": "https://ecma-international.org/news/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ECMAScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/ECMAScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["ecmascript-2024-adopted"]
+    }
+  ]
+}

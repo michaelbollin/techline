@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "safari-5-released",
+      "slug": "safari-5-released",
+      "date": "2010-06-07",
+      "datePrecision": "day",
+      "title": "Safari 5 released",
+      "summary": "Apple released Safari 5 on June 7, 2010 at WWDC with Safari Reader, improved HTML5 support, and the Nitro JavaScript engine.",
+      "about": "Safari 5 added Reader for distraction-free articles, extensions, and Bing as a search option. Nitro made JavaScript faster on Mac and Windows — keeping Safari relevant as Chrome gained share and developers tested HTML5 features.",
+      "narrative": {
+        "whyChosen": "Safari 5 bundled the HTML5 and Reader features that defined Apple's desktop browser era.",
+        "whyImportant": "Extensions and Nitro JS kept WebKit competitive during the browser wars.",
+        "problemSolved": "Safari 4 lacked extensions and felt behind Chrome's rapid feature releases."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Apple releases Safari 5 (June 7, 2010)",
+          "url": "https://www.apple.com/newsroom/2010/06/07Apple-Releases-Safari-5/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-4-released", "safari-announced", "webkit-open-sourced"]
+    }
+  ]
+}

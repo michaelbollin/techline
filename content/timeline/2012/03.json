@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "go-1-0-released",
+      "slug": "go-1-0-released",
+      "date": "2012-03-28",
+      "datePrecision": "day",
+      "title": "Go 1.0 released",
+      "summary": "Google released Go 1.0 on March 28, 2012 — promising long-term compatibility and a production-ready toolchain for systems and cloud software.",
+      "about": "Go 1.0 committed to the Go 1 compatibility promise: code written for 1.0 should compile on future 1.x releases. It powered Docker, Kubernetes, Terraform, and countless microservices with goroutines, static binaries, and fast compiles.",
+      "narrative": {
+        "whyChosen": "Go 1.0 was the stability milestone that let companies bet on Go for infrastructure.",
+        "whyImportant": "The compatibility guarantee made Go viable for long-lived server and DevOps tooling.",
+        "problemSolved": "Early Go changed rapidly; production teams needed a frozen language spec and standard library."
+      },
+      "category": "software",
+      "tags": ["go", "golang", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Go Blog — Go version 1 is released (March 28, 2012)",
+          "url": "https://go.dev/blog/go1",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Go (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Go_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["go-open-sourced", "go-1-18-generics"]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "arc-browser-released",
+      "slug": "arc-browser-released",
+      "date": "2022-04-19",
+      "datePrecision": "day",
+      "title": "Arc browser launched",
+      "summary": "The Browser Company released Arc in invite-only beta on April 19, 2022 — a Chromium-based browser rethinking tabs, spaces, and vertical sidebar navigation.",
+      "about": "Arc treats the browser as a workspace: vertical tabs, split views, built-in note-taking, and per-space profiles. Built on Chromium by ex-Chrome engineers, it targeted designers and knowledge workers who wanted Safari-like polish with Chrome compatibility — influencing how startups think about browser UX.",
+      "narrative": {
+        "whyChosen": "Arc proved a startup could still reinvent browser chrome even on Chromium.",
+        "whyImportant": "Its sidebar-and-spaces model inspired copycats and renewed interest in browser innovation.",
+        "problemSolved": "Tab overload and cluttered browser UI had not changed meaningfully since Chrome's minimal bar."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "arc", "chromium"],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Arc (web browser) (April 19, 2022 initial release)",
+          "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)",
+          "role": "date"
+        },
+        {
+          "title": "The Browser Company — Arc product page (overview)",
+          "url": "https://arc.net/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-chrome-released", "vivaldi-browser-launched"]
+    },
+    {
+      "id": "nodejs-18-released",
+      "slug": "nodejs-18-released",
+      "date": "2022-04-19",
+      "datePrecision": "day",
+      "title": "Node.js 18 released",
+      "summary": "Node.js 18.0.0 shipped on April 19, 2022 with a fetch API, test runner module, and V8 10.1.",
+      "about": "Node 18 became LTS in October 2022 — bringing browser-standard `fetch` to server code without `node-fetch`, and previewing a built-in test runner. It powered Next.js 13+, Vercel edge functions, and AWS Lambda runtimes through 2024.",
+      "narrative": {
+        "whyChosen": "Node 18's native fetch removed a ubiquitous npm dependency from server JavaScript.",
+        "whyImportant": "LTS 18 aligned Node with web platform APIs developers already knew.",
+        "problemSolved": "Server code needed polyfills for fetch and struggled with ESM migration friction."
+      },
+      "category": "software",
+      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v18.0.0 (April 19, 2022)",
+          "url": "https://nodejs.org/en/blog/release/v18.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-4-released", "nodejs-20-released", "nodejs-first-released"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "python-2-0-released",
+      "slug": "python-2-0-released",
+      "date": "2000-10-16",
+      "datePrecision": "day",
+      "title": "Python 2.0 released",
+      "summary": "Guido van Rossum released Python 2.0 on October 16, 2000 with list comprehensions, garbage collection, and Unicode support — defining Python for the next decade.",
+      "about": "Python 2.0 added list comprehensions, `//` floor division, and a cycle-detecting GC — the dialect that powered YouTube's early stack, scientific computing, and countless scripts. Its long life eventually forced the painful Python 3 migration.",
+      "narrative": {
+        "whyChosen": "Python 2 defined the language for fifteen years before the Python 3 break.",
+        "whyImportant": "List comprehensions and Unicode groundwork shaped how millions wrote Python.",
+        "problemSolved": "Python 1.x lacked modern collection syntax and consistent text handling for a growing web."
+      },
+      "category": "software",
+      "tags": ["python", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Python 2.0 release (October 16, 2000)",
+          "url": "https://www.python.org/download/releases/2.0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["python-0-9-0-released", "python-3-0-released"]
+    }
+  ]
+}

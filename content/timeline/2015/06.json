@@ -38,6 +38,37 @@
         "javascript-name-announced",
         "ecmascript-5-adopted"
       ]
+    },
+    {
+      "id": "swift-2-announced",
+      "slug": "swift-2-announced",
+      "date": "2015-06-08",
+      "datePrecision": "day",
+      "title": "Swift 2 announced at WWDC",
+      "summary": "Apple announced Swift 2 at WWDC on June 8, 2015 with error handling (`try`/`catch`), protocol extensions, and availability checks.",
+      "about": "Swift 2 made the language feel production-ready: `guard`, improved error propagation, and `@available` for API versioning. Apple also previewed open-sourcing Swift — setting up the December 2015 release that expanded beyond iOS.",
+      "narrative": {
+        "whyChosen": "Swift 2 added the error-handling and API patterns iOS developers needed daily.",
+        "whyImportant": "It bridged Swift 1 experiments to the open-source Swift 2.x line.",
+        "problemSolved": "Swift 1 lacked robust error handling and protocol-oriented patterns for large apps."
+      },
+      "category": "software",
+      "tags": ["swift", "apple", "programming-language", "ios"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — What's new in Swift (WWDC 2015, June 8, 2015)",
+          "url": "https://developer.apple.com/videos/play/wwdc2015/402/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Swift (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["swift-announced", "swift-open-sourced", "swift-6-released"]
     }
   ]
 }

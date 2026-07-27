@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "dotnet-framework-3-5-released",
+      "slug": "dotnet-framework-3-5-released",
+      "date": "2007-11-19",
+      "datePrecision": "day",
+      "title": ".NET 3.5 and C# 3.0 with LINQ released",
+      "summary": "Microsoft shipped .NET Framework 3.5 on November 19, 2007 with C# 3.0 LINQ, lambda expressions, and extension methods.",
+      "about": "LINQ let C# developers query databases, XML, and in-memory collections with the same syntax: `from x in list where x.Age > 18 select x.Name`. It changed how .NET teams wrote data access — influencing Entity Framework, ORMs, and reactive patterns for a decade.",
+      "narrative": {
+        "whyChosen": "LINQ was the defining language feature of the C# 3 era.",
+        "whyImportant": "Unified query syntax across SQL, objects, and XML was a paradigm shift for .NET.",
+        "problemSolved": "C# lacked expressive, composable data queries without verbose loops or stringly-typed SQL."
+      },
+      "category": "software",
+      "tags": ["dotnet", "csharp", "microsoft", "linq", "programming-language"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — .NET Framework 3.5 released (November 19, 2007)",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-3.5/w0x726c2(v=vs.90)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Language Integrated Query (overview)",
+          "url": "https://en.wikipedia.org/wiki/Language_Integrated_Query",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-framework-2-0-released", "csharp-announced", "dotnet-5-released"]
+    }
+  ]
+}

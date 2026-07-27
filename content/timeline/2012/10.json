@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["ecmascript-2015-adopted", "javascript-name-announced"]
+    },
+    {
+      "id": "internet-explorer-10-released",
+      "slug": "internet-explorer-10-released",
+      "date": "2012-10-26",
+      "datePrecision": "day",
+      "title": "Internet Explorer 10 released",
+      "summary": "Microsoft released Internet Explorer 10 on October 26, 2012 with Windows 8 — featuring a touch-first UI, improved HTML5/CSS3, and do-not-track by default.",
+      "about": "IE 10 shipped in two modes: the modern Metro-style browser on Windows 8 and the desktop version for legacy sites. It advanced pointer events, flexbox, and GPU compositing — Microsoft's last major IE push before Edge.",
+      "narrative": {
+        "whyChosen": "IE 10 was the touch-era Internet Explorer tied to Windows 8's launch.",
+        "whyImportant": "Pointer events and modern CSS support influenced cross-device web standards.",
+        "problemSolved": "Windows 8 needed a browser built for touch tablets and hybrid laptops."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer", "windows"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Windows 8 and Internet Explorer 10 launch (October 26, 2012)",
+          "url": "https://blogs.windows.com/windowsexperience/2012/10/25/windows-8-and-internet-explorer-10-launch-tomorrow/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer 10 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_10",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-9-released", "internet-explorer-11-released", "microsoft-edge-released"]
     }
   ]
 }

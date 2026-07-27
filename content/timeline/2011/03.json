@@ -15,7 +15,7 @@
       },
       "category": "software",
       "tags": ["elixir", "erlang", "beam", "functional-programming", "programming-language"],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -30,6 +30,68 @@
         }
       ],
       "relatedIds": ["erlang-open-sourced", "ruby-0-95-released"]
+    },
+    {
+      "id": "internet-explorer-9-released",
+      "slug": "internet-explorer-9-released",
+      "date": "2011-03-14",
+      "datePrecision": "day",
+      "title": "Internet Explorer 9 released",
+      "summary": "Microsoft released Internet Explorer 9 on March 14, 2011 with hardware-accelerated graphics, a cleaner UI, and improved HTML5 and CSS3 support.",
+      "about": "IE 9 was Microsoft's answer to Chrome: a GPU-accelerated rendering pipeline, pinned sites, and a focus on web standards. It was the last IE version many enterprises standardized on before Windows 10 and Edge.",
+      "narrative": {
+        "whyChosen": "IE 9 was Microsoft's most standards-focused Internet Explorer release.",
+        "whyImportant": "Hardware acceleration and HTML5 support narrowed the gap with modern browsers.",
+        "problemSolved": "IE 8 could not keep pace with Chrome's speed and developer mindshare."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Internet Explorer 9 available to the world (March 14, 2011)",
+          "url": "https://blogs.windows.com/windowsexperience/2011/03/14/internet-explorer-9-available-to-the-world/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Internet Explorer 9 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Internet_Explorer_9",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["internet-explorer-8-released", "microsoft-edge-released", "google-chrome-released"]
+    },
+    {
+      "id": "firefox-4-released",
+      "slug": "firefox-4-released",
+      "date": "2011-03-22",
+      "datePrecision": "day",
+      "title": "Firefox 4 released",
+      "summary": "Mozilla released Firefox 4 on March 22, 2011 with a new UI, hardware acceleration, and faster JavaScript — downloaded over 7 million times on launch day.",
+      "about": "Firefox 4 was Mozilla's big refresh: Panorama tab groups, sync, WebGL, and a Chrome-like single-field URL bar. The record launch day showed Firefox still had mass appeal before Chrome became dominant.",
+      "narrative": {
+        "whyChosen": "Firefox 4 was Mozilla's flagship response to Chrome's rapid rise.",
+        "whyImportant": "Hardware acceleration and WebGL kept Firefox in the graphics-heavy web race.",
+        "problemSolved": "Firefox 3.6 felt slow and dated against Chrome's fast release cadence."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "mozilla", "firefox"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Firefox 4 is here! (March 22, 2011)",
+          "url": "https://blog.mozilla.org/blog/2011/03/22/firefox-4-is-here/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Firefox version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Firefox_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["firefox-3-released", "firefox-57-quantum", "google-chrome-released"]
     }
   ]
 }

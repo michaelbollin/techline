@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "safari-8-released",
+      "slug": "safari-8-released",
+      "date": "2014-10-16",
+      "datePrecision": "day",
+      "title": "Safari 8 released",
+      "summary": "Apple released Safari 8 on October 16, 2014 with OS X Yosemite — adding WebGL improvements, Tab View, and DuckDuckGo as a search option.",
+      "about": "Safari 8 refined the Yosemite design language with translucent UI and tighter iCloud integration. WebGL and IndexedDB improvements kept pace with Chrome for casual gaming and offline apps on Mac.",
+      "narrative": {
+        "whyChosen": "Safari 8 paired with Yosemite's visual redesign and continuity features.",
+        "whyImportant": "Tab View and iCloud tabs deepened cross-device browsing on Apple hardware.",
+        "problemSolved": "Mac users wanted Safari to feel as modern as the redesigned OS X Yosemite."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — OS X Yosemite available today (October 16, 2014)",
+          "url": "https://www.apple.com/newsroom/2014/10/16OS-X-Yosemite-Available-Today/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Safari (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["safari-7-released", "safari-6-released", "safari-announced"]
+    }
+  ]
+}
