@@ -139,10 +139,10 @@
     {
       "id": "james-gosling-leaves-oracle",
       "slug": "james-gosling-leaves-oracle",
-      "date": "2010-04-09",
+      "date": "2010-04-02",
       "datePrecision": "day",
       "title": "James Gosling leaves Oracle",
-      "summary": "James Gosling left Oracle on April 9, 2010 — months after Oracle acquired Sun — symbolizing unease over Java's new stewardship.",
+      "summary": "James Gosling left Oracle on April 2, 2010 — months after Oracle acquired Sun — symbolizing unease over Java's new stewardship.",
       "about": "Gosling created Java at Sun in 1995 and the JVM that powers Android, Hadoop, and enterprise backends. His exit foreshadowed years of community tension over Oracle's Java governance and OpenJDK.",
       "narrative": {
         "whyChosen": "Gosling's departure marked a turning point for Java under corporate ownership.",

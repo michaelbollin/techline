@@ -3,11 +3,11 @@
     {
       "id": "swift-6-released",
       "slug": "swift-6-released",
-      "date": "2024-09-16",
+      "date": "2024-09-17",
       "datePrecision": "day",
       "title": "Swift 6 released",
-      "summary": "Apple shipped Swift 6 on September 16, 2024 with strict concurrency checking enabled by default and data-race safety guarantees.",
-      "about": "Swift 6 turns data races into compile-time errors in `@MainActor` and `Sendable` code — critical for iOS apps mixing async networking and UI updates. It completes Apple's push toward safer concurrent Swift after years of incremental concurrency features since Swift 5.5.",
+      "summary": "Apple shipped Swift 6 on September 17, 2024 with compile-time data-race safety available via an opt-in language mode.",
+      "about": "Swift 6 turns data races into compile-time errors when projects enable the Swift 6 language mode — critical for iOS apps mixing async networking and UI updates. It completes Apple's push toward safer concurrent Swift after years of incremental concurrency features since Swift 5.5.",
       "narrative": {
         "whyChosen": "Swift 6 is Apple's biggest language safety upgrade since optionals.",
         "whyImportant": "Compile-time data-race detection raises the bar for concurrent mobile and server Swift.",

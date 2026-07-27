@@ -38,7 +38,7 @@
       "datePrecision": "day",
       "title": "Django 4.0 released",
       "summary": "The Django team released Django 4.0 on December 7, 2021 with `zoneinfo` timezone support, `scrypt` password hashing, and Redis cache backend.",
-      "about": "Django 4 dropped Python 2 legacy paths and modernized defaults: stdlib timezones replaced pytz; scrypt strengthened password storage; Redis became a built-in cache option. It powered admin panels, REST APIs, and CMS backends through the early 2020s.",
+      "about": "Django 4 dropped Python 3.6 support and modernized defaults: stdlib timezones replaced pytz; scrypt strengthened password storage; Redis became a built-in cache option. It powered admin panels, REST APIs, and CMS backends through the early 2020s.",
       "narrative": {
         "whyChosen": "Django 4 was the Python 3-only cleanup that aligned with modern deployment practices.",
         "whyImportant": "Built-in Redis caching and zoneinfo simplified production Django stacks.",

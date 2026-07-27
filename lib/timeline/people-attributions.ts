@@ -60,7 +60,7 @@ export const PEOPLE_ATTRIBUTIONS: Record<string, PersonRef[]> = {
   "babel-released": [{ id: "sebastian-mckenzie", name: "Sebastian McKenzie", role: "creator" }],
   "eslint-released": [{ id: "nicholas-zakas", name: "Nicholas Zakas", role: "creator" }],
   "rollup-released": [{ id: "rich-harris", name: "Rich Harris", role: "creator" }],
-  "vite-1-released": [{ id: "evan-you", name: "Evan You", role: "creator" }],
+  "vite-2-released": [{ id: "evan-you", name: "Evan You", role: "creator" }],
   "terraform-released": [{ id: "mitchell-hashimoto", name: "Mitchell Hashimoto", role: "creator" }],
   "vagrant-released": [{ id: "mitchell-hashimoto", name: "Mitchell Hashimoto", role: "creator" }],
   "ansible-released": [{ id: "michael-dehaan", name: "Michael DeHaan", role: "creator" }],

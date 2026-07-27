@@ -30,6 +30,47 @@
         }
       ],
       "relatedIds": ["ecmascript-2015-adopted", "typescript-preview-released", "webpack-released", "eslint-released", "rollup-released"]
+    },
+    {
+      "id": "elixir-1-0-released",
+      "slug": "elixir-1-0-released",
+      "date": "2014-09-18",
+      "datePrecision": "day",
+      "title": "Elixir 1.0 released",
+      "summary": "José Valim released Elixir 1.0 on September 18, 2014 — the first stable version on the Erlang BEAM VM with macros, protocols, and Mix tooling.",
+      "about": "Elixir 1.0 committed to stability for production: Phoenix web framework, OTP supervision trees, and pipelines for data transformation. Discord, Pinterest, and Bleacher Report adopted it for real-time, fault-tolerant backends.",
+      "narrative": {
+        "whyChosen": "Elixir 1.0 was the milestone that let teams ship BEAM-based systems beyond experiments.",
+        "whyImportant": "Stable tooling and semantics unlocked Elixir for production web and telecom workloads.",
+        "problemSolved": "Pre-1.0 Elixir changed too fast for companies to standardize on it."
+      },
+      "category": "software",
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Elixir Blog — Announcing Elixir 1.0 (September 18, 2014)",
+          "url": "https://elixir-lang.org/blog/2014/09/18/elixir-1-0-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elixir (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "elixir-first-release",
+        "erlang-open-sourced"
+      ]
     }
   ]
 }

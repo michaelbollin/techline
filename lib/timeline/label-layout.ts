@@ -5,7 +5,7 @@ import type { PlottedEvent } from "./plot-data";
 export const LABEL_BOX_HEIGHT = 36;
 
 /** Distance from axis to first label row. */
-export const LABEL_OFFSET = 72;
+export const LABEL_OFFSET = 64;
 
 /** Horizontal gap between adjacent labels. */
 export const LABEL_COLLISION_GAP = 8;
@@ -33,7 +33,7 @@ type LabelRect = {
 };
 
 function laneVerticalBounds(lane: number): { top: number; bottom: number } {
-  const top = -(LABEL_OFFSET + lane * LABEL_LANE_STEP);
+  const top = labelTopLocalY(lane);
   return { top, bottom: top + LABEL_BOX_HEIGHT };
 }
 
@@ -66,7 +66,7 @@ export function resolveLabelLayout(
   const placed: LabelRect[] = [];
   const msPerYear = 365.25 * 86_400_000;
   const minGapPx =
-    visibleSpanMs !== undefined && visibleSpanMs <= msPerYear * 2 ? 4 : LABEL_COLLISION_GAP;
+    visibleSpanMs !== undefined && visibleSpanMs <= msPerYear * 0.25 ? 4 : LABEL_COLLISION_GAP;
 
   const sorted = [...events].sort((a, b) => {
     if (a.importance !== b.importance) {

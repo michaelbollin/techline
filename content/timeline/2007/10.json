@@ -6,7 +6,7 @@
       "date": "2007-10-16",
       "datePrecision": "day",
       "title": "Rich Hickey releases Clojure",
-      "summary": "Rich Hickey released Clojure 1.0 on October 16, 2007 — a Lisp on the JVM with immutable data and software transactional memory.",
+      "summary": "Rich Hickey publicly released Clojure on October 16, 2007 — a Lisp on the JVM with immutable data and software transactional memory.",
       "about": "Clojure brought functional programming to Java shops without giving up the JVM ecosystem. Hickey's 'Simple Made Easy' talks influenced how developers think about state, complexity, and design.",
       "narrative": {
         "whyChosen": "Clojure proved Lisp could thrive on the JVM for production services.",
@@ -38,7 +38,7 @@
       "media": [],
       "sources": [
         {
-          "title": "Clojure — Clojure 1.0 release (October 16, 2007)",
+          "title": "Clojure — Public release (October 16, 2007)",
           "url": "https://clojure.org/about/history",
           "role": "date"
         },
@@ -49,6 +49,50 @@
         }
       ],
       "relatedIds": []
+    },
+    {
+      "id": "oauth-1-0-published",
+      "slug": "oauth-1-0-published",
+      "date": "2007-10-24",
+      "datePrecision": "day",
+      "title": "OAuth 1.0 published",
+      "summary": "The OAuth community finalized OAuth Core 1.0 on October 24, 2007 — a protocol for delegated API access without sharing passwords.",
+      "about": "OAuth 1.0 let users grant third-party apps limited access to services like photos or tweets using signed requests instead of handing over credentials. Twitter, Flickr, and early social APIs adopted it. The three-legged dance (request token, authorize, access token) was clunky but proved delegated authorization could work at web scale — setting the stage for OAuth 2.0 and OpenID Connect.",
+      "narrative": {
+        "whyChosen": "OAuth 1.0 was the first grassroots standard for API delegation across competing web platforms.",
+        "whyImportant": "It established the consent-and-token model that modern identity federation still builds on.",
+        "problemSolved": "Apps needed user data from other services without storing passwords or getting full account control."
+      },
+      "category": "protocol",
+      "tags": [
+        "oauth",
+        "security",
+        "api",
+        "authentication",
+        "authorization",
+        "standard"
+      ],
+      "people": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OAuth Core 1.0 finalized (October 24, 2007)",
+          "url": "https://oauth.net/core/1.0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OAuth (overview)",
+          "url": "https://en.wikipedia.org/wiki/OAuth",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "oauth-2-0-standardized",
+        "openid-connect-1-0-published",
+        "jwt-standardized",
+        "rest-architectural-style-defined"
+      ]
     }
   ]
 }

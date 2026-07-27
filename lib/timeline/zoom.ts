@@ -158,25 +158,35 @@ export function computeZoomToEvents(
     return computeFitTransform(width, extent);
   }
 
-  const edgeMargin = TIMELINE_EDGE_MARGIN;
-  const innerWidth = Math.max(width - edgeMargin * 2, 1);
-  const base = d3.scaleTime().domain(extent).range([edgeMargin, edgeMargin + innerWidth]);
   const times = targets.map((event) => event.timestamp);
   const t0 = Math.min(...times);
   const t1 = Math.max(...times);
   const msPerYear = 365.25 * 86_400_000;
   const span = Math.max(t1 - t0, 1);
-  const timePad = options?.tight
-    ? Math.max(span * 0.12, msPerYear * 2)
-    : Math.max(span * 0.2, (extent[1] - extent[0]) * 0.005);
-  const widthFraction = options?.tight ? 0.85 : 0.9;
-  const x0 = base(t0 - timePad);
-  const x1 = base(t1 + timePad);
-  const scale = (innerWidth * widthFraction) / Math.max(x1 - x0, 1);
-  const mid = (x0 + x1) / 2;
-  const transform = d3.zoomIdentity
-    .translate(edgeMargin + innerWidth / 2 - scale * mid, 0)
-    .scale(scale);
+  const minSpan = options?.tight ? msPerYear * 2 : msPerYear * 4;
+  const edgePad = options?.tight
+    ? Math.max(span * 0.08, msPerYear * 0.5)
+    : Math.max(span * 0.15, msPerYear);
 
-  return clampZoomTransform(transform, width, extent);
+  let visibleT0 = t0 - edgePad;
+  let visibleT1 = t1 + edgePad;
+
+  if (span < msPerYear * 0.1) {
+    const mid = (t0 + t1) / 2;
+    visibleT0 = mid - minSpan / 2;
+    visibleT1 = mid + minSpan / 2;
+  } else if (visibleT1 - visibleT0 < minSpan) {
+    const mid = (visibleT0 + visibleT1) / 2;
+    visibleT0 = mid - minSpan / 2;
+    visibleT1 = mid + minSpan / 2;
+  }
+
+  return clampZoomTransform(
+    computeTransformForTimeRange(width, extent, [
+      Math.max(visibleT0, extent[0]),
+      Math.min(visibleT1, extent[1]),
+    ]),
+    width,
+    extent,
+  );
 }

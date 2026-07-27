@@ -1,5 +1,7 @@
 import * as d3 from "d3";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+
+import { axisYAt } from "@/lib/timeline/axis-path";
 
 import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT } from "@/lib/timeline/constants";
 import { filterTimelineEvents } from "@/lib/timeline/filters";
@@ -8,7 +10,7 @@ import { measureLabelWidth } from "@/lib/timeline/measure-label";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
 import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { computeStemStarts } from "@/lib/timeline/stem-layout";
-import { maxImportanceForZoom, maxLanesForZoom } from "@/lib/timeline/zoom-lod";
+import { maxImportanceForZoom, maxLanesForViewport, maxLanesForZoom } from "@/lib/timeline/zoom-lod";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 type UseTimelinePlotOptions = {
@@ -57,6 +59,8 @@ export function useTimelinePlot({
 
   const axisY = height * TIMELINE_AXIS_Y_RATIO;
 
+  const getAxisY = useCallback((x: number) => axisYAt(x, axisY), [axisY]);
+
   const baseScale = useMemo(() => {
     const margin = TIMELINE_EDGE_MARGIN;
     const innerWidth = Math.max(width - margin * 2, 1);
@@ -77,12 +81,14 @@ export function useTimelinePlot({
       return 3;
     }
 
-    return maxImportanceForZoom(msPerPixel);
-  }, [activeFilterIds.size, msPerPixel]);
-  const maxLanes = useMemo(
-    () => maxLanesForZoom(msPerPixel, visibleSpanMs),
-    [msPerPixel, visibleSpanMs],
-  );
+    return maxImportanceForZoom(msPerPixel, visibleSpanMs);
+  }, [activeFilterIds.size, msPerPixel, visibleSpanMs]);
+  const maxLanes = useMemo(() => {
+    const byZoom = maxLanesForZoom(msPerPixel, visibleSpanMs);
+    const byViewport = maxLanesForViewport(height, TIMELINE_AXIS_Y_RATIO);
+
+    return Math.min(byZoom, byViewport);
+  }, [height, msPerPixel, visibleSpanMs]);
 
   const labelWidths = useMemo(() => {
     const widths = new Map<string, number>();
@@ -140,6 +146,7 @@ export function useTimelinePlot({
     filteredEvents,
     plotted,
     axisY,
+    getAxisY,
     xScale,
     labelLayout,
     labelWidths,

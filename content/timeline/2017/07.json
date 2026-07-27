@@ -5,9 +5,9 @@
       "slug": "windows-phone-eol",
       "date": "2017-07",
       "datePrecision": "month",
-      "title": "Windows Phone support ended",
-      "summary": "Microsoft ended Windows Phone support in July 2017 — closing the third major smartphone platform for developers.",
-      "about": "Windows Phone 8.1 and Windows 10 Mobile stopped receiving security updates and store submissions wound down. Teams that built C#/XAML apps for Lumia devices migrated to iOS and Android or abandoned mobile clients. The EOL marked Microsoft's retreat from phone hardware after acquiring Nokia's devices division.",
+      "title": "Windows Phone 8.1 support ended",
+      "summary": "Microsoft ended Windows Phone 8.1 support on July 11, 2017 — closing the chapter on the third major smartphone platform for developers.",
+      "about": "Windows Phone 8.1 stopped receiving security updates and store submissions wound down. Teams that built C#/XAML apps for Lumia devices migrated to iOS and Android or abandoned mobile clients. Windows 10 Mobile continued receiving updates until January 14, 2020, when Microsoft ended support for its last phone OS entirely.",
       "narrative": {
         "whyChosen": "Windows Phone's end shut down a native mobile platform outside the iOS–Android duopoly.",
         "whyImportant": "It consolidated mobile development into two ecosystems for most of the 2010s.",

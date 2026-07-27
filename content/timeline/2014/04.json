@@ -50,10 +50,10 @@
     {
       "id": "express-4-released",
       "slug": "express-4-released",
-      "date": "2014-04-28",
+      "date": "2014-04-09",
       "datePrecision": "day",
       "title": "Express 4.0 released",
-      "summary": "Express 4.0 shipped on April 28, 2014 — removing Connect middleware bundling and stabilizing the router for production Node APIs.",
+      "summary": "Express 4.0 shipped on April 9, 2014 — removing Connect middleware bundling and stabilizing the router for production Node APIs.",
       "about": "Express 4 split built-in middleware into separate packages and fixed the router — the version that powered the MEAN stack and early REST microservices. Most Node tutorials and boilerplates still trace back to Express 4's API surface.",
       "narrative": {
         "whyChosen": "Express 4 was the stable baseline for Node web APIs through the 2010s.",

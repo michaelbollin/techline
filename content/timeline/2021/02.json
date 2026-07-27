@@ -1,12 +1,12 @@
 {
   "events": [
     {
-      "id": "vite-1-released",
-      "slug": "vite-1-released",
+      "id": "vite-2-released",
+      "slug": "vite-2-released",
       "date": "2021-02-16",
       "datePrecision": "day",
-      "title": "Vite 1.0 released",
-      "summary": "Evan You released Vite 1.0 on February 16, 2021 — an ESM-native dev server with instant hot reload and Rollup-powered production builds.",
+      "title": "Vite 2.0 released",
+      "summary": "Evan You released Vite 2.0 on February 16, 2021 — the first stable Vite release with an ESM-native dev server, instant hot reload, and Rollup-powered production builds.",
       "about": "Vite replaced webpack's slow dev startup with native ES modules — `npm run dev` in milliseconds instead of minutes for large Vue and React apps. It became the default for Vue 3, SvelteKit, and many React starters, shifting frontend tooling toward esbuild and native ESM.",
       "narrative": {
         "whyChosen": "Vite made dev-server speed a competitive requirement for JS build tools.",
@@ -28,8 +28,8 @@
       "media": [],
       "sources": [
         {
-          "title": "Vite — Vite 1.0 is out (February 16, 2021)",
-          "url": "https://vitejs.dev/blog/announcing-vite1.html",
+          "title": "Vite — Announcing Vite 2.0 (February 16, 2021)",
+          "url": "https://vitejs.dev/blog/announcing-vite2",
           "role": "date"
         },
         {
@@ -42,6 +42,48 @@
         "webpack-5-released",
         "webpack-released",
         "vue-3-released"
+      ]
+    },
+    {
+      "id": "ghc-9-0-released",
+      "slug": "ghc-9-0-released",
+      "date": "2021-02-04",
+      "datePrecision": "day",
+      "title": "GHC 9.0 released",
+      "summary": "The Glasgow Haskell Compiler 9.0.1 shipped on February 4, 2021 with linear types groundwork, improved IDE support, and compiler infrastructure updates.",
+      "about": "GHC 9.0 delivered faster compile times for large Haskell projects and continued the evolution of the compiler backend. It underpinned Haskell 2010+ development in finance, blockchain (Cardano), and research tooling.",
+      "narrative": {
+        "whyChosen": "GHC 9.0 modernized the compiler infrastructure behind all production Haskell.",
+        "whyImportant": "Compile-time improvements kept Haskell viable for large codebases.",
+        "problemSolved": "GHC 8's backend was hard to extend and slow on megaproject builds."
+      },
+      "category": "software",
+      "tags": [
+        "haskell",
+        "ghc",
+        "compiler",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Haskell.org — GHC 9.0.1 released (February 4, 2021)",
+          "url": "https://www.haskell.org/ghc/blog/20210204-ghc-9-0-1-released.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Glasgow Haskell Compiler (overview)",
+          "url": "https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "haskell-2010-standard",
+        "haskell-1-0-report"
       ]
     },
     {

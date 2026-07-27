@@ -1,59 +1,6 @@
 {
   "events": [
     {
-      "id": "samsung-internet-chromium-released",
-      "slug": "samsung-internet-chromium-released",
-      "date": "2017-01",
-      "datePrecision": "month",
-      "title": "Samsung Internet moves to Chromium",
-      "summary": "Samsung Internet 6.2 shipped in January 2017 on Chromium 56 — replacing the WebKit base with Blink for closer Chrome compatibility.",
-      "about": "The Chromium switch aligned Samsung Internet with the majority of Android browsers: same DevTools quirks, extension APIs, and rendering as Chrome. It reduced web developer testing burden on Galaxy devices while keeping Samsung-specific features like content blockers.",
-      "narrative": {
-        "whyChosen": "Samsung Internet's Chromium migration affected hundreds of millions of Android users.",
-        "whyImportant": "It consolidated mobile browsing on Blink alongside Chrome and Edge.",
-        "problemSolved": "WebKit-only Samsung Internet diverged from Chrome behavior developers tested against."
-      },
-      "category": "software",
-      "tags": [
-        "browser",
-        "web",
-        "samsung",
-        "android",
-        "chromium",
-        "blink"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        },
-        {
-          "id": "samsung",
-          "name": "Samsung"
-        }
-      ],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Samsung Internet Developer Docs — Chromium-based Samsung Internet",
-          "url": "https://developer.samsung.com/internet",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Samsung Internet (overview)",
-          "url": "https://en.wikipedia.org/wiki/Samsung_Internet",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "samsung-internet-released",
-        "blink-engine-announced",
-        "chrome-for-android-released"
-      ]
-    },
-    {
       "id": "yoshua-bengio-mila-founded",
       "slug": "yoshua-bengio-mila-founded",
       "date": "2017-01",

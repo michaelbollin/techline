@@ -30,37 +30,6 @@
         }
       ],
       "relatedIds": ["mongodb-first-released", "redis-first-released", "rest-architectural-style-defined", "apache-kafka-open-sourced"]
-    },
-    {
-      "id": "gunicorn-released",
-      "slug": "gunicorn-released",
-      "date": "2010-02-20",
-      "datePrecision": "day",
-      "title": "Gunicorn first released",
-      "summary": "Benoit Chesneau released Gunicorn on February 20, 2010 — a pre-fork WSGI HTTP server for Python web applications.",
-      "about": "Gunicorn runs Django, Flask, and other WSGI apps behind nginx or a load balancer — worker processes handle requests while a master manages lifecycle. It ported Ruby's Unicorn model to Python with simple configuration. Example: `gunicorn myapp.wsgi:application --workers 4` serves a Django API on port 8000.",
-      "narrative": {
-        "whyChosen": "Gunicorn became the default production WSGI server for Python web frameworks.",
-        "whyImportant": "It made deploying Python apps behind nginx a standard, well-understood pattern.",
-        "problemSolved": "Python's built-in development server was not safe or performant for production traffic."
-      },
-      "category": "software",
-      "tags": ["gunicorn", "python", "wsgi", "web-server", "django", "flask"],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Wikipedia — Gunicorn (initial release February 20, 2010)",
-          "url": "https://en.wikipedia.org/wiki/Gunicorn",
-          "role": "date"
-        },
-        {
-          "title": "Gunicorn — Design documentation (overview)",
-          "url": "https://docs.gunicorn.org/en/stable/design.html",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": ["django-open-sourced", "flask-released", "nginx-released", "python-0-9-0-released", "uwsgi-released"]
     }
   ]
 }

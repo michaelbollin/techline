@@ -6,8 +6,8 @@
       "date": "2022-10-25",
       "datePrecision": "day",
       "title": "Next.js 13 introduced the App Router",
-      "summary": "Vercel released Next.js 13 on October 25, 2022 with the App Router — React Server Components, nested layouts, and streaming by default.",
-      "about": "The App Router moved data fetching and rendering to the server by default: `app/` directories, layout.tsx files, and streaming HTML replaced many `getServerSideProps` patterns. It became the template for modern React full-stack apps and pushed the ecosystem toward server components.",
+      "summary": "Vercel released Next.js 13 on October 25, 2022 with the App Router beta — React Server Components, nested layouts, and streaming by default.",
+      "about": "The App Router moved data fetching and rendering to the server by default: `app/` directories, layout.tsx files, and streaming HTML replaced many `getServerSideProps` patterns. It shipped as beta in 13.0; the Next.js team recommended production use after App Router reached stable in Next.js 13.4 (May 2023).",
       "narrative": {
         "whyChosen": "Next.js 13 redefined how React apps structure routing and server rendering.",
         "whyImportant": "React Server Components went from experiment to mainstream framework default.",

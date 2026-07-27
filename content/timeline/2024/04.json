@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Node.js 22 released",
       "summary": "Node.js 22.0.0 shipped on April 24, 2024 with require() of ES modules, WebSocket client, and V8 12.4.",
-      "about": "Node 22 became LTS in October 2024 — enabling `require(esm)` eased migration from CommonJS to modules; built-in WebSocket client reduced dependency on `ws`. Cloud hosts and edge runtimes adopted it for the 2024–2026 window.",
+      "about": "Node 22 became LTS in October 2024 — experimental `require(esm)` eased migration from CommonJS to modules; built-in WebSocket client reduced dependency on `ws`. Native ESM loading via require() became default in Node 22.12.0 (December 2024).",
       "narrative": {
         "whyChosen": "Node 22 simplified the ESM/CommonJS interop pain that blocked upgrades.",
         "whyImportant": "Native WebSocket and module loading reduced npm surface area for servers.",

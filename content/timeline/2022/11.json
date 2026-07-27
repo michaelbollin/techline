@@ -6,8 +6,8 @@
       "date": "2022-11-30",
       "datePrecision": "day",
       "title": "ChatGPT launched",
-      "summary": "OpenAI released ChatGPT to the public on November 30, 2022 — a conversational interface to GPT-3.5 that reached 100 million users faster than any prior consumer app.",
-      "about": "ChatGPT put large language models in a chat window anyone could use: writing, coding help, tutoring, and brainstorming without API keys. It triggered an industry-wide rush into copilots, search redesigns, and enterprise AI — and changed how developers think about documentation, codegen, and UI.",
+      "summary": "OpenAI released ChatGPT as a research preview on November 30, 2022 — a conversational interface to GPT-3.5 that quickly became the fastest-growing consumer app in history.",
+      "about": "ChatGPT put large language models in a chat window anyone could use: writing, coding help, tutoring, and brainstorming without API keys. Analyst estimates of 100 million users within two months (reported February 2023) made it the consumer moment that triggered an industry-wide rush into copilots, search redesigns, and enterprise AI.",
       "narrative": {
         "whyChosen": "ChatGPT was the consumer moment that made LLMs impossible to ignore.",
         "whyImportant": "It shifted software from 'AI as feature' to 'AI as interface' across every product category.",

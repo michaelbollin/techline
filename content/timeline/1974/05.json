@@ -99,6 +99,49 @@
       "relatedIds": [
         "tcp-ip-flag-day"
       ]
+    },
+    {
+      "id": "elizabeth-feinler-nic-director",
+      "slug": "elizabeth-feinler-nic-director",
+      "date": "1974-05",
+      "datePrecision": "month",
+      "title": "Elizabeth Feinler leads the ARPANET NIC",
+      "summary": "Elizabeth Feinler became principal investigator of the ARPANET Network Information Center in 1974 — maintaining the hosts file and directory services that preceded DNS.",
+      "about": "Feinler's team published the directory of every machine on the early internet — precursor to DNS and WHOIS. She had joined Doug Engelbart's group in 1972 and wrote the ARPANET Resource Handbook for the 1972 ICCC demo before taking over NIC operations.",
+      "narrative": {
+        "whyChosen": "Feinler operated the human-powered directory of the pre-DNS internet.",
+        "whyImportant": "She scaled NIC directory services as ARPANET grew beyond memorized host lists.",
+        "problemSolved": "There was no automated naming when thousands of hosts joined the network."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "internet",
+        "networking"
+      ],
+      "people": [
+        {
+          "id": "elizabeth-feinler",
+          "name": "Elizabeth Feinler",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Stanford — Feinler NIC history (1974–1989)",
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elizabeth J. Feinler (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
     }
   ]
 }

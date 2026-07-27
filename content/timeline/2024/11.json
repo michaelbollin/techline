@@ -39,46 +39,6 @@
       ]
     },
     {
-      "id": "zig-1-0-released",
-      "slug": "zig-1-0-released",
-      "date": "2024-11-20",
-      "datePrecision": "day",
-      "title": "Zig 1.0 released",
-      "summary": "Andrew Kelley released Zig 1.0 on November 20, 2024 — the first stable version of the systems language aimed at replacing C.",
-      "about": "Zig 1.0 committed to API stability for the language and standard library: comptime execution, explicit allocators, cross-compilation, and C interop without hidden runtime. Teams reach for Zig when they want C's control with fewer footguns and a built-in build system.",
-      "narrative": {
-        "whyChosen": "Zig 1.0 was the stability milestone for a language positioning itself as a C successor.",
-        "whyImportant": "A 1.0 guarantee let early adopters invest in Zig for production systems work.",
-        "problemSolved": "Pre-1.0 Zig changed rapidly; contributors and companies needed a compatibility promise."
-      },
-      "category": "software",
-      "tags": [
-        "zig",
-        "systems",
-        "programming-language"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Zig Blog — Zig 1.0.0 release notes (November 20, 2024)",
-          "url": "https://ziglang.org/download/1.0.0/release-notes.html",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Zig (programming language) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Zig_(programming_language)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "zig-announced",
-        "rust-1-0-released"
-      ]
-    },
-    {
       "id": "dotnet-9-released",
       "slug": "dotnet-9-released",
       "date": "2024-11-12",
@@ -130,10 +90,10 @@
       "date": "2024-11-12",
       "datePrecision": "day",
       "title": "C# 13 released with .NET 9",
-      "summary": "C# 13 shipped with .NET 9 on November 12, 2024 — adding `params` collections, extension types, and improved overload resolution.",
-      "about": "C# 13's `params` spans and collections simplified APIs that accept variable arguments; extension types brought new ways to add behavior without inheritance. Paired with .NET 9's performance work, it kept C# current for cloud and AI workloads.",
+      "summary": "C# 13 shipped with .NET 9 on November 12, 2024 — adding `params` collections, a new `lock` type, and partial properties.",
+      "about": "C# 13's `params` spans and collections simplified APIs that accept variable arguments; the new `lock` type and partial properties improved concurrency and code generation ergonomics. Paired with .NET 9's performance work, it kept C# current for cloud and AI workloads.",
       "narrative": {
-        "whyChosen": "C# 13 refined collection parameters and type extensions for modern .NET APIs.",
+        "whyChosen": "C# 13 refined collection parameters, partial properties, and lock ergonomics for modern .NET APIs.",
         "whyImportant": "Params collections reduced boilerplate in logging, formatting, and DSL APIs.",
         "problemSolved": "Variable-argument APIs required array allocations or `params object[]` workarounds."
       },

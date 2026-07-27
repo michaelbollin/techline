@@ -10,7 +10,7 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type TimelineNodeLabelProps = {
   event: PlottedEvent;
   xScale: (timestamp: number) => number;
-  axisY: number;
+  getAxisY: (x: number) => number;
   layout: LabelLayout;
   viewportWidth: number;
   isHovered: boolean;
@@ -21,7 +21,7 @@ type TimelineNodeLabelProps = {
 export function TimelineNodeLabel({
   event,
   xScale,
-  axisY,
+  getAxisY,
   layout,
   viewportWidth,
   isHovered,
@@ -30,7 +30,7 @@ export function TimelineNodeLabel({
 }: TimelineNodeLabelProps) {
   const x = xScale(event.timestamp);
   const labelWidth = layout.width;
-  const labelY = axisY + labelTopLocalY(layout.lane);
+  const labelY = getAxisY(x) + labelTopLocalY(layout.lane);
   const labelLeft = Math.min(
     Math.max(x - labelWidth / 2, TIMELINE_LABEL_EDGE_INSET),
     Math.max(viewportWidth - labelWidth - TIMELINE_LABEL_EDGE_INSET, TIMELINE_LABEL_EDGE_INSET),

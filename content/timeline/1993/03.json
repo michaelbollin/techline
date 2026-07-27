@@ -48,6 +48,37 @@
         "intel-8086-introduced",
         "amd64-x86-64-announced"
       ]
+    },
+    {
+      "id": "lynx-2-released",
+      "slug": "lynx-2-released",
+      "date": "1993-03",
+      "datePrecision": "month",
+      "title": "Lynx 2.0 gains World Wide Web support",
+      "summary": "Lynx 2.0 shipped in March 1993 with World Wide Web support — turning the University of Kansas text browser into a terminal client for HTML pages.",
+      "about": "Lynx rendered pages as plain text in a terminal: links listed by number, no images, no JavaScript. It stayed essential on slow connections, blind-accessible browsing, and server-side automation for decades — and still runs today for scripting and accessibility testing.",
+      "narrative": {
+        "whyChosen": "Lynx 2.0 brought the early web to text terminals before Mosaic popularized graphics.",
+        "whyImportant": "It made the web usable on Unix shells and influenced accessibility and command-line tooling.",
+        "problemSolved": "Researchers and students on Unix shells needed a keyboard-driven way to read HTML documents."
+      },
+      "category": "software",
+      "tags": ["browser", "web", "lynx", "accessibility"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Lynx revision history — Lynx 2.0 WWW support (March 1993)",
+          "url": "https://lynx.invisible-island.net/release/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lynx (web browser) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lynx_(web_browser)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["lynx-browser-created", "mosaic-1-0-released"]
     }
   ]
 }

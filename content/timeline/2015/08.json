@@ -50,6 +50,49 @@
         "google-founded",
         "google-gemini-released"
       ]
+    },
+    {
+      "id": "phoenix-1-0-released",
+      "slug": "phoenix-1-0-released",
+      "date": "2015-08-28",
+      "datePrecision": "day",
+      "title": "Phoenix 1.0 released",
+      "summary": "Chris McCord released Phoenix 1.0 on August 28, 2015 — a productive Elixir web framework with channels for real-time WebSocket apps.",
+      "about": "Phoenix brought Rails-like productivity to Elixir: generators, Ecto for databases, and channels for live updates. It powered Discord-scale chat, dashboards, and APIs where BEAM fault tolerance mattered — proving Elixir was more than a syntax experiment.",
+      "narrative": {
+        "whyChosen": "Phoenix 1.0 was the web framework that made Elixir production-credible.",
+        "whyImportant": "Channels and OTP supervision brought real-time features without fragile Node clusters.",
+        "problemSolved": "Elixir needed a batteries-included web stack to compete with Rails and Django."
+      },
+      "category": "software",
+      "tags": [
+        "phoenix",
+        "elixir",
+        "web-framework",
+        "beam",
+        "websockets"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Phoenix Framework — v1.0.0 release (August 28, 2015)",
+          "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Phoenix (web framework) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Phoenix_(web_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "elixir-1-0-released",
+        "elixir-first-release",
+        "phoenix-liveview-released"
+      ]
     }
   ]
 }

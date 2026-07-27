@@ -14,10 +14,10 @@
         }
       ],
       "id": "yukihiro-matsumoto-ruby-1-released",
-      "date": "1996-12-21",
+      "date": "1996-12-25",
       "datePrecision": "day",
       "title": "Yukihiro Matsumoto releases Ruby 1.0",
-      "summary": "Yukihiro 'Matz' Matsumoto released Ruby 1.0 on December 21, 1996 — crystallizing a language designed for programmer happiness.",
+      "summary": "Yukihiro 'Matz' Matsumoto released Ruby 1.0 on December 25, 1996 — crystallizing a language designed for programmer happiness.",
       "about": "Ruby's expressiveness influenced Rails, Elixir, and modern scripting language design. Matz built a global community from Japan that proved language innovation need not come from Silicon Valley.",
       "narrative": {
         "whyChosen": "Ruby 1.0 marked Matz's language graduating from personal project to production use.",
@@ -34,7 +34,7 @@
       "importance": 2,
       "sources": [
         {
-          "title": "Ruby — Ruby 1.0 released (December 21, 1996)",
+          "title": "Ruby — Ruby 1.0 released (December 25, 1996)",
           "url": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
           "role": "date"
         },

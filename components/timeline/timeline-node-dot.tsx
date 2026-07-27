@@ -4,7 +4,8 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type TimelineNodeDotProps = {
   event: PlottedEvent;
   xScale: (timestamp: number) => number;
-  axisY: number;
+  getAxisY: (x: number) => number;
+  showLabel: boolean;
   isHovered: boolean;
   onHover: (event: PlottedEvent | null) => void;
   onClick: () => void;
@@ -25,19 +26,20 @@ function dotRadius(importance: PlottedEvent["importance"]): number {
 export function TimelineNodeDot({
   event,
   xScale,
-  axisY,
+  getAxisY,
+  showLabel,
   isHovered,
   onHover,
   onClick,
 }: TimelineNodeDotProps) {
   const x = xScale(event.timestamp);
   const dotR = dotRadius(event.importance);
-  const filled = isHovered || event.importance <= 1;
+  const filled = showLabel || isHovered;
 
   return (
-    <g transform={`translate(${x}, ${axisY})`}>
+    <g transform={`translate(${x}, ${getAxisY(x)})`}>
       <circle
-        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""} ${event.importance === 0 ? "is-pillar" : ""}`}
+        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""} ${event.importance === 0 ? "is-pillar" : ""} ${showLabel ? "has-label" : ""}`}
         cx={0}
         cy={0}
         r={dotR}

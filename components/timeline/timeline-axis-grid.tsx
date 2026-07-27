@@ -11,14 +11,14 @@ import { TIMELINE_EXTENT, TIMELINE_INK, TIMELINE_YEAR_LABEL_OFFSET } from "@/lib
 type TimelineAxisGridProps = {
   xScale: d3.ScaleTime<number, number>;
   width: number;
-  axisY: number;
+  getAxisY: (x: number) => number;
   onYearClick: (year: number) => void;
 };
 
 const TICK_HIT_WIDTH = 36;
 const TICK_HIT_HEIGHT = 28;
 
-export function TimelineAxisGrid({ xScale, width, axisY, onYearClick }: TimelineAxisGridProps) {
+export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: TimelineAxisGridProps) {
   const [tMin, tMax] = TIMELINE_EXTENT;
   const interval = axisTickInterval(
     Math.abs(xScale.invert(width).getTime() - xScale.invert(0).getTime()),
@@ -28,7 +28,8 @@ export function TimelineAxisGrid({ xScale, width, axisY, onYearClick }: Timeline
     return time >= tMin && time <= tMax;
   });
   const gridLineEnd = TIMELINE_YEAR_LABEL_OFFSET - 8;
-  const labelY = axisY + TIMELINE_YEAR_LABEL_OFFSET;
+  const baseAxisY = getAxisY(0);
+  const labelY = baseAxisY + TIMELINE_YEAR_LABEL_OFFSET;
 
   return (
     <g className="timeline-axis-grid">
@@ -37,6 +38,8 @@ export function TimelineAxisGrid({ xScale, width, axisY, onYearClick }: Timeline
         if (x < 0 || x > width) {
           return null;
         }
+
+        const tickAxisY = getAxisY(x);
 
         const label = formatAxisTick(tick, interval, ticks[index - 1]);
         const year = tick.getUTCFullYear();
@@ -47,8 +50,8 @@ export function TimelineAxisGrid({ xScale, width, axisY, onYearClick }: Timeline
             <line
               x1={x}
               x2={x}
-              y1={axisY}
-              y2={axisY + gridLineEnd}
+              y1={tickAxisY}
+              y2={tickAxisY + gridLineEnd}
               stroke={TIMELINE_INK}
               strokeOpacity={0.1}
               strokeWidth={1}

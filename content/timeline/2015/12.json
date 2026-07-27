@@ -176,7 +176,7 @@
       "date": "2015-12",
       "datePrecision": "month",
       "title": "Sam Altman co-founds OpenAI",
-      "summary": "OpenAI launched in December 2015 with Sam Altman as president — a research lab aimed at safe artificial general intelligence.",
+      "summary": "OpenAI launched in December 2015 with Sam Altman as co-chair — a research lab aimed at safe artificial general intelligence.",
       "about": "OpenAI pivoted from nonprofit research to the API and ChatGPT products that triggered the generative AI boom. Altman became the public face of frontier model deployment and developer-facing LLM APIs.",
       "narrative": {
         "whyChosen": "OpenAI under Altman defined the consumer and API LLM era.",

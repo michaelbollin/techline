@@ -5,7 +5,7 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type TimelineNodeStemProps = {
   event: PlottedEvent;
   xScale: (timestamp: number) => number;
-  axisY: number;
+  getAxisY: (x: number) => number;
   layout: LabelLayout;
   stemStartY: number;
 };
@@ -13,11 +13,12 @@ type TimelineNodeStemProps = {
 export function TimelineNodeStem({
   event,
   xScale,
-  axisY,
+  getAxisY,
   layout,
   stemStartY,
 }: TimelineNodeStemProps) {
   const x = xScale(event.timestamp);
+  const axisY = getAxisY(x);
   const stemEndY = labelBottomLocalY(layout.lane);
 
   return (

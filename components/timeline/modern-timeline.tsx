@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
@@ -13,6 +13,7 @@ import {
   TIMELINE_EXTENT,
   TIMELINE_INK,
 } from "@/lib/timeline/constants";
+import { buildAxisPath } from "@/lib/timeline/axis-path";
 import { eventPath } from "@/lib/timeline/format";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
@@ -56,7 +57,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     svgRef,
   });
 
-  const { filteredEvents, plotted, axisY, xScale, labelLayout, stemStartY, labelNodes } =
+  const { filteredEvents, plotted, axisY, getAxisY, xScale, labelLayout, stemStartY, labelNodes } =
     useTimelinePlot({
       events,
       activeFilterIds,
@@ -66,6 +67,8 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
       hovered,
     });
 
+  const axisPath = useMemo(() => buildAxisPath(width, axisY), [axisY, width]);
+
   const detailTop = axisY + TIMELINE_EVENT_DETAIL_OFFSET;
 
   useEffect(() => {
@@ -73,6 +76,11 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
       setHovered(null);
     }
   }, [filteredEvents, hovered]);
+
+  const filterKey = useMemo(
+    () => [...activeFilterIds].sort().join(","),
+    [activeFilterIds],
+  );
 
   const fitView = useCallback(() => {
     if (width <= 0 || plotted.length === 0) {
@@ -85,27 +93,36 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     }
 
     animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [activeFilterIds.size, animateTo, plotted, width]);
+  }, [activeFilterIds.size, animateTo, filterKey, plotted, width]);
 
   useEffect(() => {
+    if (width <= 0) {
+      return;
+    }
+
+    if (activeFilterIds.size > 0) {
+      if (plotted.length === 0) {
+        return;
+      }
+
+      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
+      hasInitialized.current = true;
+      return;
+    }
+
     if (!hasInitialized.current) {
-      if (width > 0 && plotted.length > 0) {
+      if (plotted.length > 0) {
         hasInitialized.current = true;
       }
       return;
     }
 
-    if (width <= 0 || plotted.length === 0) {
-      return;
-    }
-
-    if (activeFilterIds.size > 0) {
-      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
+    if (plotted.length === 0) {
       return;
     }
 
     animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [activeFilterIds.size, animateTo, filterPathKey, plotted, width]);
+  }, [activeFilterIds.size, animateTo, filterKey, plotted, width]);
 
   const openEvent = (event: PlottedEvent) => {
     router.push(eventPath(event.slug, { filterPathKey }));
@@ -178,11 +195,11 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               <TimelineAxisGrid
                 xScale={xScale}
                 width={width}
-                axisY={axisY}
+                getAxisY={getAxisY}
                 onYearClick={zoomToYear}
               />
 
-              <line x1={0} x2={width} y1={axisY} y2={axisY} stroke={TIMELINE_INK} strokeWidth={1.5} />
+              <path d={axisPath} fill="none" stroke={TIMELINE_INK} strokeWidth={1.5} />
 
               <g className="timeline-stems" pointerEvents="none">
                 {labelNodes.map((event) => {
@@ -193,7 +210,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                       key={`stem-${event.id}`}
                       event={event}
                       xScale={xScale}
-                      axisY={axisY}
+                      getAxisY={getAxisY}
                       layout={layout}
                       stemStartY={stemStartY.get(event.id) ?? 0}
                     />
@@ -207,7 +224,8 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                     key={`dot-${event.id}`}
                     event={event}
                     xScale={xScale}
-                    axisY={axisY}
+                    getAxisY={getAxisY}
+                    showLabel={labelLayout.get(event.id)?.showLabel ?? false}
                     isHovered={hovered?.id === event.id}
                     onHover={setHovered}
                     onClick={() => openEvent(event)}
@@ -221,7 +239,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                     key={`label-${event.id}`}
                     event={event}
                     xScale={xScale}
-                    axisY={axisY}
+                    getAxisY={getAxisY}
                     layout={labelLayout.get(event.id)!}
                     viewportWidth={width}
                     isHovered={hovered?.id === event.id}

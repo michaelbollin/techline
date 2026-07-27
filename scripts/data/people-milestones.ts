@@ -1643,12 +1643,12 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     relatedIds: [],
   }),
   m({
-    id: "elizabeth-feinler-nic-created",
-    date: "1972",
-    datePrecision: "year",
-    title: "Elizabeth Feinler runs the ARPANET NIC",
+    id: "elizabeth-feinler-nic-director",
+    date: "1974-05",
+    datePrecision: "month",
+    title: "Elizabeth Feinler leads the ARPANET NIC",
     summary:
-      "Elizabeth Feinler led the ARPANET Network Information Center in the 1970s — maintaining the hosts file that was the web before DNS.",
+      "Elizabeth Feinler became principal investigator of the ARPANET Network Information Center in 1974 — maintaining the hosts file and directory services that preceded DNS.",
     about:
       "Feinler's team published the directory of every machine on the early internet — precursor to DNS and WHOIS. Her work made the growing network navigable for researchers and operators.",
     narrative: {
@@ -1803,12 +1803,12 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     relatedIds: ["fortran-formally-published"],
   }),
   m({
-    id: "mary-ken-thompson-lynx-created",
+    id: "lynx-browser-created",
     date: "1992",
     datePrecision: "year",
-    title: "Mary Kenneth Thompson creates Lynx",
+    title: "University of Kansas team creates Lynx",
     summary:
-      "Mary Kenneth Thompson and Lou Montulli built Lynx in 1992 — the text browser that brought the early web to terminals.",
+      "Lou Montulli, Michael Grobe, and Charles Rezac at the University of Kansas built Lynx in 1992 — a text-based hypertext browser that later gained web support.",
     about:
       "Before graphical browsers dominated, Lynx let developers and universities browse HTML from shell accounts. It remained essential for accessibility and low-bandwidth access for decades.",
     narrative: {
@@ -1819,8 +1819,9 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "browser", "web", "accessibility"],
     people: [
-      { id: "mary-ken-thompson", name: "Mary Kenneth Thompson", role: "creator" },
-      { id: "lou-montulli", name: "Lou Montulli", role: "co-creator" },
+      { id: "lou-montulli", name: "Lou Montulli", role: "creator" },
+      { id: "michael-grobe", name: "Michael Grobe", role: "co-creator" },
+      { id: "charles-rezac", name: "Charles Rezac", role: "co-creator" },
     ],
     importance: 3,
     sources: [

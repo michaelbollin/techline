@@ -1,40 +1,47 @@
 {
   "events": [
     {
-      "slug": "mary-ken-thompson-lynx-created",
+      "slug": "lynx-browser-created",
       "media": [],
       "relatedIds": [
-        "worldwideweb-browser"
+        "worldwideweb-browser",
+        "lynx-2-released"
       ],
       "people": [
         {
-          "id": "mary-ken-thompson",
-          "name": "Mary Kenneth Thompson",
+          "id": "lou-montulli",
+          "name": "Lou Montulli",
           "role": "creator"
         },
         {
-          "id": "lou-montulli",
-          "name": "Lou Montulli",
+          "id": "michael-grobe",
+          "name": "Michael Grobe",
+          "role": "co-creator"
+        },
+        {
+          "id": "charles-rezac",
+          "name": "Charles Rezac",
           "role": "co-creator"
         }
       ],
-      "id": "mary-ken-thompson-lynx-created",
+      "id": "lynx-browser-created",
       "date": "1992",
       "datePrecision": "year",
-      "title": "Mary Kenneth Thompson creates Lynx",
-      "summary": "Mary Kenneth Thompson and Lou Montulli built Lynx in 1992 — the text browser that brought the early web to terminals.",
-      "about": "Before graphical browsers dominated, Lynx let developers and universities browse HTML from shell accounts. It remained essential for accessibility and low-bandwidth access for decades.",
+      "title": "University of Kansas team creates Lynx",
+      "summary": "Lou Montulli, Michael Grobe, and Charles Rezac at the University of Kansas built Lynx in 1992 — a text-based hypertext browser that later gained web support.",
+      "about": "Before graphical browsers dominated, Lynx let developers and universities browse hypertext from shell accounts. It remained essential for accessibility and low-bandwidth access for decades.",
       "narrative": {
-        "whyChosen": "Lynx proved the web worked without graphics — critical for universities on Unix.",
+        "whyChosen": "Lynx proved hypertext worked without graphics — critical for universities on Unix.",
         "whyImportant": "It kept the web accessible on text-only and low-resource systems.",
-        "problemSolved": "Many users had no GUI but still needed to read hypertext documents."
+        "problemSolved": "Many users had no GUI but still needed to read linked documents."
       },
       "category": "software",
       "tags": [
         "people",
         "browser",
         "web",
-        "accessibility"
+        "accessibility",
+        "lynx"
       ],
       "importance": 3,
       "sources": [

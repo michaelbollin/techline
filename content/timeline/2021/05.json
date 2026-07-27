@@ -89,48 +89,6 @@
         "elixir-1-0-released",
         "elixir-first-release"
       ]
-    },
-    {
-      "id": "ghc-9-0-released",
-      "slug": "ghc-9-0-released",
-      "date": "2021-05-09",
-      "datePrecision": "day",
-      "title": "GHC 9.0 released",
-      "summary": "The Glasgow Haskell Compiler 9.0.1 shipped on May 9, 2021 with a new code generator, improved IDE support, and linear types groundwork.",
-      "about": "GHC 9.0 replaced the native code generator with a more maintainable pipeline and delivered faster compile times for large Haskell projects. It underpinned Haskell 2010+ development in finance, blockchain (Cardano), and research tooling.",
-      "narrative": {
-        "whyChosen": "GHC 9.0 modernized the compiler infrastructure behind all production Haskell.",
-        "whyImportant": "Compile-time improvements kept Haskell viable for large codebases.",
-        "problemSolved": "GHC 8's backend was hard to extend and slow on megaproject builds."
-      },
-      "category": "software",
-      "tags": [
-        "haskell",
-        "ghc",
-        "compiler",
-        "functional-programming",
-        "programming-language"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Haskell.org — GHC 9.0.1 released (May 9, 2021)",
-          "url": "https://www.haskell.org/ghc/blog/20210509-ghc-9-0-1-released.html",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Glasgow Haskell Compiler (overview)",
-          "url": "https://en.wikipedia.org/wiki/Glasgow_Haskell_Compiler",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "haskell-2010-standard",
-        "haskell-1-0-report"
-      ]
     }
   ]
 }
