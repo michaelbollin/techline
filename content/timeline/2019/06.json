@@ -14,7 +14,24 @@
         "problemSolved": "Gamers and streamers needed a browser that would not hog RAM and CPU during sessions."
       },
       "category": "software",
-      "tags": ["browser", "web", "opera", "chromium", "gaming"],
+      "tags": [
+        "browser",
+        "web",
+        "opera",
+        "chromium",
+        "gaming"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "opera",
+          "name": "Opera"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +46,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["opera-chromium-switch", "opera-2-released", "google-chrome-released"]
+      "relatedIds": [
+        "opera-chromium-switch",
+        "opera-2-released",
+        "google-chrome-released"
+      ]
     }
   ]
 }

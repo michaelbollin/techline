@@ -14,7 +14,20 @@
         "problemSolved": "NCSA httpd stagnated after its author left; sites needed security fixes and features without a vendor."
       },
       "category": "software",
-      "tags": ["apache", "web-server", "http", "open-source", "web"],
+      "tags": [
+        "apache",
+        "web-server",
+        "http",
+        "open-source",
+        "web"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apache-software-foundation",
+          "name": "Apache Software Foundation"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nginx-released", "lighttpd-released", "cgi-specified", "apache-tomcat-released", "phusion-passenger-released"]
+      "relatedIds": [
+        "nginx-released",
+        "lighttpd-released",
+        "cgi-specified",
+        "apache-tomcat-released",
+        "phusion-passenger-released"
+      ]
     },
     {
       "id": "bebox-released",
@@ -45,7 +64,16 @@
         "problemSolved": "Multimedia developers needed low-latency audio and video without Unix kernel overhead."
       },
       "category": "hardware",
-      "tags": ["hardware", "workstation", "be", "beos", "powerpc", "multimedia"],
+      "tags": [
+        "hardware",
+        "workstation",
+        "be",
+        "beos",
+        "powerpc",
+        "multimedia"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +88,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["next-computer-released", "nextstation-released", "macintosh-128k-released"]
+      "relatedIds": [
+        "next-computer-released",
+        "nextstation-released",
+        "macintosh-128k-released"
+      ]
     }
   ]
 }

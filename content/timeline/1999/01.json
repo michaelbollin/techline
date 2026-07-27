@@ -14,7 +14,16 @@
         "problemSolved": "Proprietary IM networks trapped users in walled gardens with no interoperability."
       },
       "category": "protocol",
-      "tags": ["xmpp", "jabber", "instant-messaging", "xml", "federation", "open-source"],
+      "tags": [
+        "xmpp",
+        "jabber",
+        "instant-messaging",
+        "xml",
+        "federation",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +38,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["websocket-protocol-standardized", "http-1-1-standardized"]
+      "relatedIds": [
+        "websocket-protocol-standardized",
+        "http-1-1-standardized"
+      ]
     },
     {
       "id": "tls-1-0-standardized",
@@ -45,7 +57,21 @@
         "problemSolved": "Proprietary SSL implementations fragmented; the web needed one auditable protocol for privacy on the wire."
       },
       "category": "protocol",
-      "tags": ["tls", "ssl", "protocol", "security", "standard", "ietf"],
+      "tags": [
+        "tls",
+        "ssl",
+        "protocol",
+        "security",
+        "standard",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +86,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["http-1-1-standardized", "netscape-navigator-2-0", "oauth-2-0-standardized", "lets-encrypt-public-beta"]
+      "relatedIds": [
+        "http-1-1-standardized",
+        "netscape-navigator-2-0",
+        "oauth-2-0-standardized",
+        "lets-encrypt-public-beta"
+      ]
     }
   ]
 }

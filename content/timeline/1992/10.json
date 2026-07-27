@@ -14,7 +14,20 @@
         "problemSolved": "Business travelers needed a rugged, full-featured laptop that could replace a desktop on the road."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "ibm", "thinkpad", "pc"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "ibm",
+        "thinkpad",
+        "pc"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released", "apple-powerbook-released"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "ibm-pc-xt-released",
+        "apple-powerbook-released"
+      ]
     }
   ]
 }

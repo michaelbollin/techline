@@ -14,7 +14,20 @@
         "problemSolved": "GNU needed a liberally licensed shell to complete a usable Unix-like userland without proprietary `sh`."
       },
       "category": "software",
-      "tags": ["bash", "gnu", "shell", "unix", "scripting"],
+      "tags": [
+        "bash",
+        "gnu",
+        "shell",
+        "unix",
+        "scripting"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "fsf",
+          "name": "Free Software Foundation"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["powershell-1-0-released"]
+      "relatedIds": [
+        "powershell-1-0-released"
+      ]
     }
   ]
 }

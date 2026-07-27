@@ -14,7 +14,20 @@
         "problemSolved": "Safari 4 lacked extensions and felt behind Chrome's rapid feature releases."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-4-released", "safari-announced", "webkit-open-sourced"]
+      "relatedIds": [
+        "safari-4-released",
+        "safari-announced",
+        "webkit-open-sourced"
+      ]
     },
     {
       "id": "iphone-4-released",
@@ -45,7 +62,21 @@
         "problemSolved": "Mobile screens looked pixelated next to print; users expected sharper text and images on phones."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "apple", "iphone", "retina"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone",
+        "retina"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +91,15 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "iphone-app-store-opens", "ipad-introduced", "apple-m1-announced", "apple-a4-introduced", "samsung-galaxy-s-released"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "steve-jobs-iphone-introduced",
+        "iphone-app-store-opens",
+        "ipad-introduced",
+        "apple-m1-announced",
+        "apple-a4-introduced",
+        "samsung-galaxy-s-released"
+      ]
     },
     {
       "id": "samsung-galaxy-s-released",
@@ -76,7 +115,25 @@
         "problemSolved": "Android needed a flagship reference device beyond the G1 for mainstream consumers."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "android", "samsung", "galaxy"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "android",
+        "samsung",
+        "galaxy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +148,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["android-announced", "t-mobile-g1-released", "iphone-4-released", "iphone-goes-on-sale"]
+      "relatedIds": [
+        "android-announced",
+        "t-mobile-g1-released",
+        "iphone-4-released",
+        "iphone-goes-on-sale"
+      ]
     }
   ]
 }

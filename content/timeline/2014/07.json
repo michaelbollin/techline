@@ -14,7 +14,21 @@
         "problemSolved": "Click-ops and snowflake servers could not scale; teams needed one tool to describe entire environments."
       },
       "category": "software",
-      "tags": ["terraform", "iac", "devops", "hashicorp", "cloud", "open-source"],
+      "tags": [
+        "terraform",
+        "iac",
+        "devops",
+        "hashicorp",
+        "cloud",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "hashicorp",
+          "name": "HashiCorp"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["docker-open-sourced", "kubernetes-open-sourced", "ansible-released", "vagrant-released"]
+      "relatedIds": [
+        "docker-open-sourced",
+        "kubernetes-open-sourced",
+        "ansible-released",
+        "vagrant-released"
+      ]
     }
   ]
 }

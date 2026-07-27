@@ -14,7 +14,19 @@
         "problemSolved": "Classic VB could not target web services or safe managed memory; .NET needed a familiar language beside C#."
       },
       "category": "software",
-      "tags": ["visual-basic", "dotnet", "microsoft", "programming-language"],
+      "tags": [
+        "visual-basic",
+        "dotnet",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["visual-basic-1-0-released", "csharp-announced", "dotnet-framework-1-0-rtm", "aspnet-1-0-released"]
+      "relatedIds": [
+        "visual-basic-1-0-released",
+        "csharp-announced",
+        "dotnet-framework-1-0-rtm",
+        "aspnet-1-0-released"
+      ]
     },
     {
       "id": "aspnet-1-0-released",
@@ -45,7 +62,19 @@
         "problemSolved": "Classic ASP was interpreted VBScript/JScript with limited structure; teams needed compiled, component-based web development."
       },
       "category": "software",
-      "tags": ["aspnet", "dotnet", "microsoft", "web-framework"],
+      "tags": [
+        "aspnet",
+        "dotnet",
+        "microsoft",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +89,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-framework-1-0-rtm", "csharp-announced", "visual-basic-net-released"]
+      "relatedIds": [
+        "dotnet-framework-1-0-rtm",
+        "csharp-announced",
+        "visual-basic-net-released"
+      ]
     }
   ]
 }

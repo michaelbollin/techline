@@ -14,7 +14,20 @@
         "problemSolved": "Process-per-connection Apache models struggled past thousands of concurrent clients."
       },
       "category": "software",
-      "tags": ["nginx", "web-server", "http", "reverse-proxy", "web"],
+      "tags": [
+        "nginx",
+        "web-server",
+        "http",
+        "reverse-proxy",
+        "web"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nginx",
+          "name": "Nginx"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apache-http-server-released", "lighttpd-released", "gunicorn-released", "caddy-released", "uwsgi-released"]
+      "relatedIds": [
+        "apache-http-server-released",
+        "lighttpd-released",
+        "gunicorn-released",
+        "caddy-released",
+        "uwsgi-released"
+      ]
     }
   ]
 }

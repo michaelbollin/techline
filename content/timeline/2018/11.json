@@ -14,7 +14,20 @@
         "problemSolved": "A single-vendor spec slowed adoption; the community needed open, versioned stewardship."
       },
       "category": "software",
-      "tags": ["graphql", "api", "standard", "open-source", "linux-foundation"],
+      "tags": [
+        "graphql",
+        "api",
+        "standard",
+        "open-source",
+        "linux-foundation"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["graphql-open-sourced"]
+      "relatedIds": [
+        "graphql-open-sourced"
+      ]
     }
   ]
 }

@@ -4,7 +4,7 @@ export type CompanyRef = { id: string; name: string };
 
 /**
  * Manual event → company links when tags alone are insufficient or ambiguous.
- * Used only for COMPANY-MAP.md generation — not applied at load time yet.
+ * Merged with tag inference when running `npm run seed:companies`.
  */
 export const COMPANY_ATTRIBUTIONS: Record<string, CompanyRef[]> = {
   "blink-engine-announced": [{ id: "google", name: "Google" }],
@@ -61,4 +61,8 @@ export function resolveEventCompanies(event: MappableEvent): ResolvedCompany[] {
   );
   const fromTags = deriveCompaniesFromTags(event.tags);
   return mergeResolved(manual, fromTags);
+}
+
+export function companiesForEvent(event: MappableEvent): CompanyRef[] {
+  return resolveEventCompanies(event).map(({ id, name }) => ({ id, name }));
 }

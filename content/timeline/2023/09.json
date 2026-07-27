@@ -14,7 +14,19 @@
         "problemSolved": "Thread pools and reactive frameworks were the only ways to handle high concurrency at scale."
       },
       "category": "software",
-      "tags": ["java", "jvm", "programming-language", "lts"],
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "lts"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-17-released", "java-8-released", "kotlin-2-0-released"]
+      "relatedIds": [
+        "java-17-released",
+        "java-8-released",
+        "kotlin-2-0-released"
+      ]
     },
     {
       "id": "elixir-1-14-released",
@@ -45,7 +61,14 @@
         "problemSolved": "Opaque pipeline errors and cryptic compiler messages slowed Elixir onboarding."
       },
       "category": "software",
-      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["elixir-1-0-released", "elixir-first-release", "erlang-otp-26-released"]
+      "relatedIds": [
+        "elixir-1-0-released",
+        "elixir-first-release",
+        "erlang-otp-26-released"
+      ]
     },
     {
       "id": "mistral-7b-released",
@@ -76,7 +103,15 @@
         "problemSolved": "Teams needed capable models that did not require datacenter-scale GPU clusters."
       },
       "category": "software",
-      "tags": ["ai", "mistral", "llm", "open-source", "machine-learning"],
+      "tags": [
+        "ai",
+        "mistral",
+        "llm",
+        "open-source",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +126,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["llama-2-released", "llama-3-released", "chatgpt-released"]
+      "relatedIds": [
+        "llama-2-released",
+        "llama-3-released",
+        "chatgpt-released"
+      ]
     }
   ]
 }

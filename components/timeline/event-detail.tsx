@@ -73,6 +73,21 @@ export function EventDetail({ event }: EventDetailProps) {
           </section>
         )}
 
+        {event.companies.length > 0 && (
+          <section>
+            <h2 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">
+              Companies
+            </h2>
+            <ul className="space-y-2">
+              {event.companies.map((company) => (
+                <li key={company.id} className="text-sm text-foreground/90">
+                  <span className="font-medium text-foreground">{company.name}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <NarrativeBlock narrative={event.narrative} />
 
         {event.media.length > 0 && (

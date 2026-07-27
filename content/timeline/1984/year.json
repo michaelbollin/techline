@@ -22,6 +22,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -43,17 +49,8 @@
       ]
     },
     {
-      "slug": "susan-kare-macintosh-icons",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "susan-kare",
-          "name": "Susan Kare",
-          "role": "creator"
-        }
-      ],
       "id": "susan-kare-macintosh-icons",
+      "slug": "susan-kare-macintosh-icons",
       "date": "1984",
       "datePrecision": "year",
       "title": "Susan Kare designs Macintosh icons",
@@ -71,7 +68,21 @@
         "gui",
         "apple"
       ],
+      "people": [
+        {
+          "id": "susan-kare",
+          "name": "Susan Kare",
+          "role": "creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Apple — Macintosh introduction (1984; Kare iconography 1983–84)",
@@ -83,7 +94,8 @@
           "url": "https://en.wikipedia.org/wiki/Susan_Kare",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

@@ -74,6 +74,11 @@ const TOPIC_FILTERS: TimelineFilterDef[] = [
     label: "Quotes",
     matches: (event) => event.category === "quote" || hasTag(event, "quote"),
   },
+  {
+    id: "companies",
+    label: "Companies",
+    matches: (event) => event.companies.length > 0,
+  },
 ];
 
 const LANGUAGE_FILTERS: TimelineFilterDef[] = [

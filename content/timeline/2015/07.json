@@ -14,7 +14,19 @@
         "problemSolved": "Facebook's mobile apps needed flexible, efficient data loading; rigid REST endpoints caused over-fetching and version churn."
       },
       "category": "software",
-      "tags": ["graphql", "facebook", "api", "query-language"],
+      "tags": [
+        "graphql",
+        "facebook",
+        "api",
+        "query-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["react-open-sourced", "graphql-foundation-announced", "grpc-open-sourced", "swagger-1-0-released"]
+      "relatedIds": [
+        "react-open-sourced",
+        "graphql-foundation-announced",
+        "grpc-open-sourced",
+        "swagger-1-0-released"
+      ]
     },
     {
       "id": "microsoft-edge-released",
@@ -45,7 +62,19 @@
         "problemSolved": "IE's reputation and technical debt made it untenable as the face of Windows browsing."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "edge"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "edge"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +89,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-6-released", "edge-chromium-released", "google-chrome-released"]
+      "relatedIds": [
+        "internet-explorer-6-released",
+        "edge-chromium-released",
+        "google-chrome-released"
+      ]
     },
     {
       "id": "csharp-6-roslyn-released",
@@ -76,7 +109,21 @@
         "problemSolved": "Closed compilers blocked third-party refactoring tools and language experimentation."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "compiler", "roslyn", "programming-language"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "compiler",
+        "roslyn",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +138,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-framework-4-5-released", "dotnet-6-released"]
+      "relatedIds": [
+        "dotnet-framework-4-5-released",
+        "dotnet-6-released"
+      ]
     }
   ]
 }

@@ -14,7 +14,20 @@
         "problemSolved": "The PDP-7 had very little memory, and existing languages were too large to compile or run on the new Unix hardware."
       },
       "category": "software",
-      "tags": ["b-language", "unix", "bell-labs", "thompson", "programming-language"],
+      "tags": [
+        "b-language",
+        "unix",
+        "bell-labs",
+        "thompson",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "bell-labs",
+          "name": "Bell Labs"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["bcpl-manual-published", "c-language-created"]
+      "relatedIds": [
+        "bcpl-manual-published",
+        "c-language-created"
+      ]
     }
   ]
 }

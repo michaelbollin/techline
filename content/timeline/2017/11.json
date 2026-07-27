@@ -14,7 +14,20 @@
         "problemSolved": "Firefox had fallen behind Chrome on speed and memory use, losing users and developer mindshare."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox", "rust"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox",
+        "rust"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-1-0-released", "mozilla-source-released", "rust-1-0-released"]
+      "relatedIds": [
+        "firefox-1-0-released",
+        "mozilla-source-released",
+        "rust-1-0-released"
+      ]
     },
     {
       "id": "symfony-4-released",
@@ -45,7 +62,13 @@
         "problemSolved": "Symfony 3 required verbose service configuration for everyday dependency injection."
       },
       "category": "software",
-      "tags": ["symfony", "php", "web-framework"],
+      "tags": [
+        "symfony",
+        "php",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["symfony-3-released", "symfony-released", "laravel-5-released"]
+      "relatedIds": [
+        "symfony-3-released",
+        "symfony-released",
+        "laravel-5-released"
+      ]
     }
   ]
 }

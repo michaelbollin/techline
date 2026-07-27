@@ -14,7 +14,19 @@
         "problemSolved": "Firefox 2's memory leaks and basic bookmarking lagged user expectations as the web grew richer."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-1-0-released", "firefox-57-quantum", "google-chrome-released"]
+      "relatedIds": [
+        "firefox-1-0-released",
+        "firefox-57-quantum",
+        "google-chrome-released"
+      ]
     },
     {
       "id": "bitbucket-launched",
@@ -45,7 +61,21 @@
         "problemSolved": "Teams needed affordable private repos when the dominant host charged per private project."
       },
       "category": "software",
-      "tags": ["bitbucket", "git", "mercurial", "hosting", "atlassian", "version-control"],
+      "tags": [
+        "bitbucket",
+        "git",
+        "mercurial",
+        "hosting",
+        "atlassian",
+        "version-control"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "atlassian",
+          "name": "Atlassian"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +90,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["github-launched", "gitlab-released", "mercurial-released"]
+      "relatedIds": [
+        "github-launched",
+        "gitlab-released",
+        "mercurial-released"
+      ]
     }
   ]
 }

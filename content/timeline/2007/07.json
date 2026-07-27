@@ -14,7 +14,22 @@
         "problemSolved": "GCC's monolithic design made fast, friendly diagnostics and IDE integration difficult."
       },
       "category": "software",
-      "tags": ["clang", "compiler", "llvm", "c", "cpp", "objective-c", "open-source"],
+      "tags": [
+        "clang",
+        "compiler",
+        "llvm",
+        "c",
+        "cpp",
+        "objective-c",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +44,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["llvm-1-0-released", "language-server-protocol-announced", "gcc-1-0-released"]
+      "relatedIds": [
+        "llvm-1-0-released",
+        "language-server-protocol-announced",
+        "gcc-1-0-released"
+      ]
     }
   ]
 }

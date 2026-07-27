@@ -1,20 +1,8 @@
 {
   "events": [
     {
-      "slug": "mozilla-foundation-created",
-      "media": [],
-      "relatedIds": [
-        "firefox-1-0-released",
-        "mozilla-source-released"
-      ],
-      "people": [
-        {
-          "id": "mitchell-baker",
-          "name": "Mitchell Baker",
-          "role": "founder"
-        }
-      ],
       "id": "mozilla-foundation-created",
+      "slug": "mozilla-foundation-created",
       "date": "2003-07-15",
       "datePrecision": "day",
       "title": "Mozilla Foundation created",
@@ -32,7 +20,21 @@
         "browser",
         "open-source"
       ],
+      "people": [
+        {
+          "id": "mitchell-baker",
+          "name": "Mitchell Baker",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Mozilla — Mozilla Foundation established (July 15, 2003)",
@@ -44,6 +46,10 @@
           "url": "https://en.wikipedia.org/wiki/Mozilla_Foundation",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "firefox-1-0-released",
+        "mozilla-source-released"
       ]
     }
   ]

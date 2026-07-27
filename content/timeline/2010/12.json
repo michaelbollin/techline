@@ -14,7 +14,20 @@
         "problemSolved": "Traditional laptops carried slow boot times, heavy local software, and complex IT management."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "google", "chromebook", "chrome-os"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "google",
+        "chromebook",
+        "chrome-os"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "intel-atom-announced", "ipad-introduced"]
+      "relatedIds": [
+        "google-chrome-released",
+        "intel-atom-announced",
+        "ipad-introduced"
+      ]
     }
   ]
 }

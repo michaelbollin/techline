@@ -14,7 +14,20 @@
         "problemSolved": "BeginInvoke, callbacks, and `Task.ContinueWith` made asynchronous .NET code hard to read and maintain."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "async", "programming-language"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "async",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-framework-4-0-released", "dotnet-framework-3-5-released", "dotnet-6-released"]
+      "relatedIds": [
+        "dotnet-framework-4-0-released",
+        "dotnet-framework-3-5-released",
+        "dotnet-6-released"
+      ]
     }
   ]
 }

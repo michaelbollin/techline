@@ -21,6 +21,7 @@
         "microframework"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -64,6 +65,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -104,6 +111,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -149,6 +162,16 @@
           "role": "creator"
         }
       ],
+      "companies": [
+        {
+          "id": "oracle",
+          "name": "Oracle"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -168,22 +191,11 @@
       ]
     },
     {
-      "slug": "jobs-flash-closed-system",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "steve-jobs",
-          "name": "Steve Jobs",
-          "role": "ceo"
-        }
-      ],
-      "category": "quote",
       "id": "jobs-flash-closed-system",
+      "slug": "jobs-flash-closed-system",
       "date": "2010-04-29",
       "datePrecision": "day",
       "title": "Steve Jobs: \"Flash is a closed system\"",
-      "quoteText": "By almost any definition, Flash is a closed system.",
       "summary": "In his open letter Thoughts on Flash, Steve Jobs explains why iPhone and iPad would never ship Adobe Flash — citing openness, battery life, touch, and security.",
       "about": "Jobs argued Flash was built for mice and PCs, not touch mobile. The letter accelerated HTML5 video adoption and became the epitaph for Flash on phones — even as critics called Apple hypocritical about its own walled garden.",
       "narrative": {
@@ -191,6 +203,7 @@
         "whyImportant": "It pushed the web toward H.264, HTML5, and native apps on iOS.",
         "problemSolved": "Mobile devices needed a stance on plugin-heavy desktop web content."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "controversy",
@@ -199,7 +212,26 @@
         "mobile",
         "web"
       ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "adobe",
+          "name": "Adobe"
+        },
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "quoteText": "By almost any definition, Flash is a closed system.",
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Apple — Thoughts on Flash (April 29, 2010)",
@@ -211,7 +243,8 @@
           "url": "https://www.bbc.co.uk/news/10092298",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

@@ -14,7 +14,19 @@
         "problemSolved": "jQuery spaghetti could not scale; teams needed structure for complex client-side applications."
       },
       "category": "software",
-      "tags": ["angularjs", "google", "spa", "web-framework"],
+      "tags": [
+        "angularjs",
+        "google",
+        "spa",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["angular-2-released", "vue-js-released"]
+      "relatedIds": [
+        "angular-2-released",
+        "vue-js-released"
+      ]
     },
     {
       "id": "nuget-released",
@@ -45,7 +60,20 @@
         "problemSolved": ".NET teams manually vendored binaries with no shared registry or version resolution."
       },
       "category": "software",
-      "tags": ["nuget", "package-manager", "dotnet", "microsoft", "dependencies"],
+      "tags": [
+        "nuget",
+        "package-manager",
+        "dotnet",
+        "microsoft",
+        "dependencies"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +88,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "composer-released", "maven-1-0-released", "dotnet-framework-1-0-rtm"]
+      "relatedIds": [
+        "npm-first-released",
+        "composer-released",
+        "maven-1-0-released",
+        "dotnet-framework-1-0-rtm"
+      ]
     }
   ]
 }

@@ -14,7 +14,20 @@
         "problemSolved": "Business travelers carried separate phones and organizers; convergence needed a single touchscreen device."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "ibm", "pda"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "ibm",
+        "pda"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["palm-pilot-1000-released", "nokia-9000-communicator-released", "iphone-goes-on-sale"]
+      "relatedIds": [
+        "palm-pilot-1000-released",
+        "nokia-9000-communicator-released",
+        "iphone-goes-on-sale"
+      ]
     }
   ]
 }

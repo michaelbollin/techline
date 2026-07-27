@@ -14,7 +14,20 @@
         "problemSolved": "Consumers wanted a simple, internet-ready computer without legacy ports and beige boxes."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "apple", "imac", "usb"],
+      "tags": [
+        "hardware",
+        "pc",
+        "apple",
+        "imac",
+        "usb"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["macintosh-128k-released", "steve-jobs-returns-to-apple", "iphone-goes-on-sale"]
+      "relatedIds": [
+        "macintosh-128k-released",
+        "steve-jobs-returns-to-apple",
+        "iphone-goes-on-sale"
+      ]
     }
   ]
 }

@@ -1,25 +1,8 @@
 {
   "events": [
     {
-      "slug": "microsoft-founded",
-      "media": [],
-      "relatedIds": [
-        "csharp-announced",
-        "dotnet-framework-1-0-rtm"
-      ],
-      "people": [
-        {
-          "id": "bill-gates",
-          "name": "Bill Gates",
-          "role": "co-founder"
-        },
-        {
-          "id": "paul-allen",
-          "name": "Paul Allen",
-          "role": "co-founder"
-        }
-      ],
       "id": "microsoft-founded",
+      "slug": "microsoft-founded",
       "date": "1975-04-04",
       "datePrecision": "day",
       "title": "Bill Gates and Paul Allen found Microsoft",
@@ -36,7 +19,26 @@
         "microsoft",
         "founding"
       ],
+      "people": [
+        {
+          "id": "bill-gates",
+          "name": "Bill Gates",
+          "role": "co-founder"
+        },
+        {
+          "id": "paul-allen",
+          "name": "Paul Allen",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Microsoft — Our history (founded April 4, 1975)",
@@ -48,6 +50,10 @@
           "url": "https://en.wikipedia.org/wiki/Microsoft",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "csharp-announced",
+        "dotnet-framework-1-0-rtm"
       ]
     }
   ]

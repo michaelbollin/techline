@@ -20,6 +20,13 @@
         "typescript",
         "web-framework"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [

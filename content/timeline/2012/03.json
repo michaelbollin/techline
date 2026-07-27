@@ -14,7 +14,18 @@
         "problemSolved": "Early Go changed rapidly; production teams needed a frozen language spec and standard library."
       },
       "category": "software",
-      "tags": ["go", "golang", "programming-language"],
+      "tags": [
+        "go",
+        "golang",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +40,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["go-open-sourced", "go-1-18-generics"]
+      "relatedIds": [
+        "go-open-sourced",
+        "go-1-18-generics"
+      ]
     },
     {
       "id": "webpack-released",
@@ -45,7 +59,15 @@
         "problemSolved": "Browsers could not load hundreds of separate npm modules efficiently; apps needed one optimized artifact."
       },
       "category": "software",
-      "tags": ["webpack", "bundler", "javascript", "build-tool", "open-source"],
+      "tags": [
+        "webpack",
+        "bundler",
+        "javascript",
+        "build-tool",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +82,14 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "nodejs-first-released", "browserify-released", "babel-released", "eslint-released", "rollup-released"]
+      "relatedIds": [
+        "npm-first-released",
+        "nodejs-first-released",
+        "browserify-released",
+        "babel-released",
+        "eslint-released",
+        "rollup-released"
+      ]
     },
     {
       "id": "composer-released",
@@ -76,7 +105,14 @@
         "problemSolved": "PHP projects copied vendor code by hand or used brittle global PEAR installs."
       },
       "category": "software",
-      "tags": ["composer", "php", "package-manager", "open-source"],
+      "tags": [
+        "composer",
+        "php",
+        "package-manager",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +127,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "pip-released", "maven-1-0-released"]
+      "relatedIds": [
+        "npm-first-released",
+        "pip-released",
+        "maven-1-0-released"
+      ]
     }
   ]
 }

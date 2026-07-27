@@ -14,7 +14,19 @@
         "problemSolved": "Large Facebook UIs were hard to keep consistent; manual DOM sync did not scale with growing feature sets."
       },
       "category": "software",
-      "tags": ["react", "facebook", "virtual-dom", "frontend"],
+      "tags": [
+        "react",
+        "facebook",
+        "virtual-dom",
+        "frontend"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["javascript-name-announced", "nextjs-open-sourced"]
+      "relatedIds": [
+        "javascript-name-announced",
+        "nextjs-open-sourced"
+      ]
     },
     {
       "id": "opera-chromium-switch",
@@ -45,7 +60,23 @@
         "problemSolved": "Presto could not keep up with Chrome's pace; Opera needed Chrome-compatible rendering without rebuilding from scratch."
       },
       "category": "software",
-      "tags": ["browser", "web", "opera", "chromium"],
+      "tags": [
+        "browser",
+        "web",
+        "opera",
+        "chromium"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "opera",
+          "name": "Opera"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +91,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["opera-2-released", "google-chrome-released", "vivaldi-browser-launched"]
+      "relatedIds": [
+        "opera-2-released",
+        "google-chrome-released",
+        "vivaldi-browser-launched"
+      ]
     }
   ]
 }

@@ -14,7 +14,15 @@
         "problemSolved": "Flask lacked native async and automatic API schemas; teams bolted on Marshmallow and manual Swagger."
       },
       "category": "software",
-      "tags": ["fastapi", "python", "async", "api", "web-framework"],
+      "tags": [
+        "fastapi",
+        "python",
+        "async",
+        "api",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +37,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-0-9-0-released", "flask-released", "django-open-sourced"]
+      "relatedIds": [
+        "python-0-9-0-released",
+        "flask-released",
+        "django-open-sourced"
+      ]
     },
     {
       "id": "flutter-1-0-released",
@@ -45,7 +57,20 @@
         "problemSolved": "Teams maintained separate iOS and Android UIs or accepted hybrid WebView limitations."
       },
       "category": "software",
-      "tags": ["flutter", "dart", "google", "mobile", "cross-platform"],
+      "tags": [
+        "flutter",
+        "dart",
+        "google",
+        "mobile",
+        "cross-platform"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +85,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dart-unveiled", "dart-3-released", "react-open-sourced"]
+      "relatedIds": [
+        "dart-unveiled",
+        "dart-3-released",
+        "react-open-sourced"
+      ]
     }
   ]
 }

@@ -14,7 +14,20 @@
         "problemSolved": "Road warriors wanted full macOS in a package lighter than existing PowerBook and ThinkPad models."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "apple", "macbook", "ultraportable"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "apple",
+        "macbook",
+        "ultraportable"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apple-powerbook-released", "macintosh-portable-released", "grid-compass-released", "apple-m1-mac-shipped", "intel-atom-announced"]
+      "relatedIds": [
+        "apple-powerbook-released",
+        "macintosh-portable-released",
+        "grid-compass-released",
+        "apple-m1-mac-shipped",
+        "intel-atom-announced"
+      ]
     }
   ]
 }

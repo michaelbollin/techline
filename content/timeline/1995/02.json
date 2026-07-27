@@ -14,7 +14,21 @@
         "problemSolved": "Windows developers wanted Visual Basic's ease of building screens, but needed faster runtimes and reusable UI components for serious business software."
       },
       "category": "software",
-      "tags": ["delphi", "borland", "pascal", "windows", "ide", "programming-language"],
+      "tags": [
+        "delphi",
+        "borland",
+        "pascal",
+        "windows",
+        "ide",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +43,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["pascal-report-published", "csharp-announced"]
+      "relatedIds": [
+        "pascal-report-published",
+        "csharp-announced"
+      ]
     }
   ]
 }

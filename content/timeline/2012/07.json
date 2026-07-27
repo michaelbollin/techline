@@ -23,6 +23,12 @@
         "macos"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [

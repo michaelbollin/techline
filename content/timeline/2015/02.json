@@ -14,7 +14,15 @@
         "problemSolved": "The original Pi was too slow for JavaScript build tools, databases, and multi-user workloads."
       },
       "category": "hardware",
-      "tags": ["hardware", "embedded", "raspberry-pi", "arm", "single-board-computer"],
+      "tags": [
+        "hardware",
+        "embedded",
+        "raspberry-pi",
+        "arm",
+        "single-board-computer"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +37,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["raspberry-pi-model-b-released", "raspberry-pi-zero-released", "acorn-archimedes-released"]
+      "relatedIds": [
+        "raspberry-pi-model-b-released",
+        "raspberry-pi-zero-released",
+        "acorn-archimedes-released"
+      ]
     },
     {
       "id": "grpc-open-sourced",
@@ -45,7 +57,21 @@
         "problemSolved": "REST JSON over HTTP/1.1 was verbose and slow for internal microservice meshes."
       },
       "category": "software",
-      "tags": ["grpc", "rpc", "google", "protobuf", "microservices", "open-source"],
+      "tags": [
+        "grpc",
+        "rpc",
+        "google",
+        "protobuf",
+        "microservices",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +86,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["http-2-standardized", "rest-architectural-style-defined", "kubernetes-open-sourced"]
+      "relatedIds": [
+        "http-2-standardized",
+        "rest-architectural-style-defined",
+        "kubernetes-open-sourced"
+      ]
     },
     {
       "id": "laravel-5-released",
@@ -76,7 +106,13 @@
         "problemSolved": "Laravel 4's structure felt dated compared to Rails and modern PHP PSR standards."
       },
       "category": "software",
-      "tags": ["laravel", "php", "web-framework"],
+      "tags": [
+        "laravel",
+        "php",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +127,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["laravel-first-beta", "laravel-symfony-http-foundation", "symfony-released"]
+      "relatedIds": [
+        "laravel-first-beta",
+        "laravel-symfony-http-foundation",
+        "symfony-released"
+      ]
     }
   ]
 }

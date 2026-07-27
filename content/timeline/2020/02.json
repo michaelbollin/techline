@@ -1,10 +1,25 @@
 {
   "events": [
     {
+      "id": "musk-openai-more-open",
       "slug": "musk-openai-more-open",
-      "media": [],
-      "relatedIds": [
-        "sam-altman-openai-founded"
+      "date": "2020-02-17",
+      "datePrecision": "day",
+      "title": "Elon Musk: \"OpenAI should be more open\"",
+      "summary": "Years after leaving OpenAI's board, Elon Musk tweets that the research lab he co-founded is not living up to its name.",
+      "about": "Musk helped launch OpenAI as a nonprofit counterweight to Google, then clashed over direction and funding. The tweet foreshadowed his later attacks on OpenAI's Microsoft partnership and his founding of xAI.",
+      "narrative": {
+        "whyChosen": "The moment a co-founder publicly broke with OpenAI's openness mission.",
+        "whyImportant": "It framed later debates about closed frontier models and corporate control.",
+        "problemSolved": "Observers needed language for the gap between OpenAI's brand and its practices."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "controversy",
+        "openai",
+        "ai",
+        "open-source"
       ],
       "people": [
         {
@@ -13,27 +28,15 @@
           "role": "co-founder"
         }
       ],
-      "category": "quote",
-      "id": "musk-openai-more-open",
-      "date": "2020-02-17",
-      "datePrecision": "day",
-      "title": "Elon Musk: \"OpenAI should be more open\"",
-      "quoteText": "OpenAI should be more open imo",
-      "summary": "Years after leaving OpenAI's board, Elon Musk tweets that the research lab he co-founded is not living up to its name.",
-      "about": "Musk helped launch OpenAI as a nonprofit counterweight to Google, then clashed over direction and funding. The tweet foreshadowed his later attacks on OpenAI's Microsoft partnership and his founding of xAI.",
-      "narrative": {
-        "whyChosen": "The moment a co-founder publicly broke with OpenAI's openness mission.",
-        "whyImportant": "It framed later debates about closed frontier models and corporate control.",
-        "problemSolved": "Observers needed language for the gap between OpenAI's brand and its practices."
-      },
-      "tags": [
-        "quote",
-        "controversy",
-        "openai",
-        "ai",
-        "open-source"
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
       ],
+      "quoteText": "OpenAI should be more open imo",
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Business Insider — Musk: OpenAI should be more open (February 17, 2020)",
@@ -45,6 +48,9 @@
           "url": "https://techmeme.com/200218/p9",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "sam-altman-openai-founded"
       ]
     }
   ]

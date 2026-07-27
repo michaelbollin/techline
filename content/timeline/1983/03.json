@@ -14,7 +14,20 @@
         "problemSolved": "Floppy-only PCs could not hold large databases, compilers, and multi-file projects comfortably."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "ibm", "x86", "microcomputer"],
+      "tags": [
+        "hardware",
+        "pc",
+        "ibm",
+        "x86",
+        "microcomputer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "intel-80386-introduced", "microsoft-founded", "compaq-portable-released"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "intel-80386-introduced",
+        "microsoft-founded",
+        "compaq-portable-released"
+      ]
     },
     {
       "id": "compaq-portable-released",
@@ -45,7 +63,16 @@
         "problemSolved": "Businesses wanted portable PCs that ran the same software as their IBM desktops."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "portable", "compaq", "pc", "x86"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "portable",
+        "compaq",
+        "pc",
+        "x86"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +87,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released", "osborne-1-released", "hp-proliant-era"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "ibm-pc-xt-released",
+        "osborne-1-released",
+        "hp-proliant-era"
+      ]
     }
   ]
 }

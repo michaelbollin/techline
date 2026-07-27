@@ -1,25 +1,8 @@
 {
   "events": [
     {
-      "slug": "moore-noyce-intel-founded",
-      "media": [],
-      "relatedIds": [
-        "gordon-moore-moores-law",
-        "pat-gelsinger-intel-ceo"
-      ],
-      "people": [
-        {
-          "id": "gordon-moore",
-          "name": "Gordon Moore",
-          "role": "co-founder"
-        },
-        {
-          "id": "robert-noyce",
-          "name": "Robert Noyce",
-          "role": "co-founder"
-        }
-      ],
       "id": "moore-noyce-intel-founded",
+      "slug": "moore-noyce-intel-founded",
       "date": "1968-07-18",
       "datePrecision": "day",
       "title": "Gordon Moore and Robert Noyce found Intel",
@@ -37,7 +20,26 @@
         "semiconductor",
         "founding"
       ],
+      "people": [
+        {
+          "id": "gordon-moore",
+          "name": "Gordon Moore",
+          "role": "co-founder"
+        },
+        {
+          "id": "robert-noyce",
+          "name": "Robert Noyce",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Intel — Company founded (July 18, 1968)",
@@ -49,6 +51,10 @@
           "url": "https://en.wikipedia.org/wiki/Intel",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "gordon-moore-moores-law",
+        "pat-gelsinger-intel-ceo"
       ]
     }
   ]

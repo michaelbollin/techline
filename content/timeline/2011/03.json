@@ -14,7 +14,15 @@
         "problemSolved": "Erlang was proven for telecom but had a steep syntax curve; Valim wanted Ruby-like ergonomics on BEAM."
       },
       "category": "software",
-      "tags": ["elixir", "erlang", "beam", "functional-programming", "programming-language"],
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +37,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["erlang-open-sourced", "ruby-0-95-released"]
+      "relatedIds": [
+        "erlang-open-sourced",
+        "ruby-0-95-released"
+      ]
     },
     {
       "id": "internet-explorer-9-released",
@@ -45,7 +56,19 @@
         "problemSolved": "IE 8 could not keep pace with Chrome's speed and developer mindshare."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-8-released", "microsoft-edge-released", "google-chrome-released"]
+      "relatedIds": [
+        "internet-explorer-8-released",
+        "microsoft-edge-released",
+        "google-chrome-released"
+      ]
     },
     {
       "id": "firefox-4-released",
@@ -76,7 +103,19 @@
         "problemSolved": "Firefox 3.6 felt slow and dated against Chrome's fast release cadence."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +130,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-3-released", "firefox-57-quantum", "google-chrome-released"]
+      "relatedIds": [
+        "firefox-3-released",
+        "firefox-57-quantum",
+        "google-chrome-released"
+      ]
     }
   ]
 }

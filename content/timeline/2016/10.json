@@ -21,6 +21,16 @@
         "web-framework"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel"
+        }
+      ],
       "importance": 1,
       "media": [
         {
@@ -68,6 +78,12 @@
         "facebook"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -90,19 +106,8 @@
       ]
     },
     {
-      "slug": "audrey-tang-digital-minister",
-      "media": [],
-      "relatedIds": [
-        "audrey-tang-g0v-launched"
-      ],
-      "people": [
-        {
-          "id": "audrey-tang",
-          "name": "Audrey Tang",
-          "role": "researcher"
-        }
-      ],
       "id": "audrey-tang-digital-minister",
+      "slug": "audrey-tang-digital-minister",
       "date": "2016-10-01",
       "datePrecision": "day",
       "title": "Audrey Tang appointed Taiwan digital minister",
@@ -120,7 +125,16 @@
         "government",
         "taiwan"
       ],
+      "people": [
+        {
+          "id": "audrey-tang",
+          "name": "Audrey Tang",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Taiwan Executive Yuan — Digital minister appointment (October 2016)",
@@ -132,6 +146,9 @@
           "url": "https://www.britannica.com/biography/Audrey-Tang",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "audrey-tang-g0v-launched"
       ]
     }
   ]

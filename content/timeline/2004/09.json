@@ -14,7 +14,19 @@
         "problemSolved": "Raw types and verbose loops made large Java codebases error-prone and hard to read."
       },
       "category": "software",
-      "tags": ["java", "jvm", "programming-language", "generics"],
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "generics"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "java-8-released", "java-11-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "java-8-released",
+        "java-11-released"
+      ]
     }
   ]
 }

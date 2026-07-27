@@ -14,7 +14,20 @@
         "problemSolved": "Earlier models could not fit full documents or large repos in a single conversation."
       },
       "category": "software",
-      "tags": ["ai", "anthropic", "claude", "llm", "machine-learning"],
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "llm",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["claude-3-released", "chatgpt-released", "gpt-4-released"]
+      "relatedIds": [
+        "claude-3-released",
+        "chatgpt-released",
+        "gpt-4-released"
+      ]
     },
     {
       "id": "llama-2-released",
@@ -45,7 +62,21 @@
         "problemSolved": "Teams lacked permissively licensed models competitive with proprietary APIs."
       },
       "category": "software",
-      "tags": ["ai", "meta", "llama", "open-source", "llm", "machine-learning"],
+      "tags": [
+        "ai",
+        "meta",
+        "llama",
+        "open-source",
+        "llm",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +91,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["chatgpt-released", "gpt-4-released", "claude-2-released"]
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released",
+        "claude-2-released"
+      ]
     }
   ]
 }

@@ -14,7 +14,16 @@
         "problemSolved": "Autotools and CMake configs were verbose, slow to configure, and error-prone for contributors."
       },
       "category": "software",
-      "tags": ["meson", "build", "ninja", "c", "cpp", "open-source"],
+      "tags": [
+        "meson",
+        "build",
+        "ninja",
+        "c",
+        "cpp",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +38,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ninja-released", "cmake-released", "bazel-open-sourced"]
+      "relatedIds": [
+        "ninja-released",
+        "cmake-released",
+        "bazel-open-sourced"
+      ]
     },
     {
       "id": "nodejs-0-10-released",
@@ -45,7 +58,13 @@
         "problemSolved": "Earlier 0.x releases broke APIs too often for enterprises to commit."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +79,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-first-released"
+      ]
     },
     {
       "id": "docker-open-sourced",
@@ -76,7 +97,20 @@
         "problemSolved": "Deploying apps meant fragile snowflake servers; teams needed reproducible, isolated runtime environments."
       },
       "category": "software",
-      "tags": ["docker", "container", "devops", "open-source", "linux"],
+      "tags": [
+        "docker",
+        "container",
+        "devops",
+        "open-source",
+        "linux"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "docker",
+          "name": "Docker"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +125,19 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["docker-open-sourced", "kubernetes-open-sourced", "go-1-0-released", "terraform-released", "ansible-released", "vagrant-released", "open-container-initiative-launched", "helm-2-released", "lxc-released", "sun-1-released", "vmware-workstation-released"]
+      "relatedIds": [
+        "docker-open-sourced",
+        "kubernetes-open-sourced",
+        "go-1-0-released",
+        "terraform-released",
+        "ansible-released",
+        "vagrant-released",
+        "open-container-initiative-launched",
+        "helm-2-released",
+        "lxc-released",
+        "sun-1-released",
+        "vmware-workstation-released"
+      ]
     }
   ]
 }

@@ -14,7 +14,19 @@
         "problemSolved": "After Java 9/10's rapid releases, enterprises needed a stable LTS with modern features."
       },
       "category": "software",
-      "tags": ["java", "jvm", "programming-language", "lts"],
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "lts"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-8-released", "java-17-released", "java-5-released"]
+      "relatedIds": [
+        "java-8-released",
+        "java-17-released",
+        "java-5-released"
+      ]
     },
     {
       "id": "phoenix-liveview-released",
@@ -45,7 +61,15 @@
         "problemSolved": "Real-time UIs seemed to require JavaScript SPAs and duplicated state on client and server."
       },
       "category": "software",
-      "tags": ["phoenix", "liveview", "elixir", "web-framework", "websockets"],
+      "tags": [
+        "phoenix",
+        "liveview",
+        "elixir",
+        "web-framework",
+        "websockets"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +84,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["phoenix-1-0-released", "elixir-1-0-released", "rails-7-released"]
+      "relatedIds": [
+        "phoenix-1-0-released",
+        "elixir-1-0-released",
+        "rails-7-released"
+      ]
     }
   ]
 }

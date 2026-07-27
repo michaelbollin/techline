@@ -14,7 +14,20 @@
         "problemSolved": "Raw YAML sprawl made it hard to version, share, and roll back complex Kubernetes applications."
       },
       "category": "software",
-      "tags": ["helm", "kubernetes", "devops", "package-manager", "open-source"],
+      "tags": [
+        "helm",
+        "kubernetes",
+        "devops",
+        "package-manager",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["kubernetes-open-sourced", "docker-open-sourced", "terraform-released"]
+      "relatedIds": [
+        "kubernetes-open-sourced",
+        "docker-open-sourced",
+        "terraform-released"
+      ]
     }
   ]
 }

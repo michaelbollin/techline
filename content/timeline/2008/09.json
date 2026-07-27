@@ -14,7 +14,20 @@
         "problemSolved": "Web apps like Gmail and Maps were pushing browsers to their limits; Google needed a platform built for applications, not just documents."
       },
       "category": "software",
-      "tags": ["browser", "web", "google", "chrome", "v8"],
+      "tags": [
+        "browser",
+        "web",
+        "google",
+        "chrome",
+        "v8"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["webkit-open-sourced", "firefox-1-0-released", "nodejs-first-released"]
+      "relatedIds": [
+        "webkit-open-sourced",
+        "firefox-1-0-released",
+        "nodejs-first-released"
+      ]
     }
   ]
 }

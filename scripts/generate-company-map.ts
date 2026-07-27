@@ -1,6 +1,6 @@
 /**
- * Generates content/timeline/COMPANY-MAP.md — reference only, not applied to events at load time.
- * Run: npm run generate:company-map
+ * Generates content/timeline/COMPANY-MAP.md from seeded event companies + attribution rules.
+ * Run after `npm run seed:companies`
  */
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -39,7 +39,7 @@ async function main() {
     "",
     `**Coverage:** ${mappedCount} of ${events.length} events mapped · ${companyCount} organizations`,
     "",
-    "> Reference map only — not wired into timeline load/schema yet. Regenerate with `npm run generate:company-map`. Edit `lib/timeline/company-registry.ts` (tag rules) or `lib/timeline/company-attributions.ts` (manual overrides).",
+    "> Regenerate with `npm run seed:companies` then `npm run generate:company-map`. Edit `lib/timeline/company-registry.ts` (tag rules) or `lib/timeline/company-attributions.ts` (manual overrides).",
     "",
     "---",
     "",

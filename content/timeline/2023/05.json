@@ -21,6 +21,12 @@
         "mobile"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -61,6 +67,7 @@
         "elixir"
       ],
       "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -108,6 +115,12 @@
           "role": "researcher"
         }
       ],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -128,16 +141,25 @@
       ]
     },
     {
+      "id": "altman-ai-goes-wrong",
       "slug": "altman-ai-goes-wrong",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=fP5YdyjTfG0",
-          "title": "Sam Altman Senate testimony on AI oversight (May 16, 2023)"
-        }
-      ],
-      "relatedIds": [
-        "sam-altman-openai-founded"
+      "date": "2023-05-16",
+      "datePrecision": "day",
+      "title": "Sam Altman: \"If this technology goes wrong, it can go quite wrong\"",
+      "summary": "OpenAI CEO Sam Altman tells the Senate Judiciary Committee that frontier AI needs government oversight — while arguing for licensing and safety testing.",
+      "about": "Altman walked a tightrope: urging regulation that could entrench incumbents while presenting OpenAI as the responsible actor. The line became the sound bite from the first major congressional hearing on generative AI.",
+      "narrative": {
+        "whyChosen": "The defining quote from Congress's first ChatGPT-era AI hearing.",
+        "whyImportant": "It mainstreamed AI risk talk in Washington months after ChatGPT's launch.",
+        "problemSolved": "Lawmakers needed a vocabulary for catastrophic AI failure from industry itself."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "warning",
+        "ai",
+        "openai",
+        "policy"
       ],
       "people": [
         {
@@ -146,27 +168,21 @@
           "role": "ceo"
         }
       ],
-      "category": "quote",
-      "id": "altman-ai-goes-wrong",
-      "date": "2023-05-16",
-      "datePrecision": "day",
-      "title": "Sam Altman: \"If this technology goes wrong, it can go quite wrong\"",
-      "quoteText": "If this technology goes wrong, it can go quite wrong, and we want to be vocal about that.",
-      "summary": "OpenAI CEO Sam Altman tells the Senate Judiciary Committee that frontier AI needs government oversight — while arguing for licensing and safety testing.",
-      "about": "Altman walked a tightrope: urging regulation that could entrench incumbents while presenting OpenAI as the responsible actor. The line became the sound bite from the first major congressional hearing on generative AI.",
-      "narrative": {
-        "whyChosen": "The defining quote from Congress's first ChatGPT-era AI hearing.",
-        "whyImportant": "It mainstreamed AI risk talk in Washington months after ChatGPT's launch.",
-        "problemSolved": "Lawmakers needed a vocabulary for catastrophic AI failure from industry itself."
-      },
-      "tags": [
-        "quote",
-        "warning",
-        "ai",
-        "openai",
-        "policy"
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
       ],
+      "quoteText": "If this technology goes wrong, it can go quite wrong, and we want to be vocal about that.",
       "importance": 1,
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=fP5YdyjTfG0",
+          "title": "Sam Altman Senate testimony on AI oversight (May 16, 2023)"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. Senate — Oversight of A.I. hearing (May 16, 2023)",
@@ -178,6 +194,9 @@
           "url": "https://arstechnica.com/tech-policy/2023/05/ai-technology-can-go-quite-wrong-openai-ceo-tells-senate/",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "sam-altman-openai-founded"
       ]
     }
   ]

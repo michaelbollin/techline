@@ -14,7 +14,19 @@
         "problemSolved": "Large codebases needed faster builds and stable decorator support for Angular-style DI."
       },
       "category": "software",
-      "tags": ["typescript", "microsoft", "javascript", "programming-language"],
+      "tags": [
+        "typescript",
+        "microsoft",
+        "javascript",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["typescript-preview-released", "angular-2-released"]
+      "relatedIds": [
+        "typescript-preview-released",
+        "angular-2-released"
+      ]
     },
     {
       "id": "gpt-4-released",
@@ -45,7 +60,19 @@
         "problemSolved": "Earlier models hallucinated too often for high-stakes tasks; teams needed a stronger general model."
       },
       "category": "ai",
-      "tags": ["ai", "llm", "openai", "gpt-4"],
+      "tags": [
+        "ai",
+        "llm",
+        "openai",
+        "gpt-4"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +87,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["chatgpt-released"]
+      "relatedIds": [
+        "chatgpt-released"
+      ]
     },
     {
       "id": "gpt-3-5-turbo-released",
@@ -76,7 +105,21 @@
         "problemSolved": "GPT-4 was too expensive for high-volume chat; GPT-3 was too weak for production."
       },
       "category": "software",
-      "tags": ["ai", "openai", "gpt", "llm", "api", "machine-learning"],
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "llm",
+        "api",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +134,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gpt-3-api-released", "gpt-4-released", "chatgpt-released"]
+      "relatedIds": [
+        "gpt-3-api-released",
+        "gpt-4-released",
+        "chatgpt-released"
+      ]
     },
     {
       "id": "ghc-9-6-released",
@@ -107,7 +154,15 @@
         "problemSolved": "Cryptic GHC type errors frustrated newcomers and slowed refactors."
       },
       "category": "software",
-      "tags": ["haskell", "ghc", "compiler", "functional-programming", "programming-language"],
+      "tags": [
+        "haskell",
+        "ghc",
+        "compiler",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +177,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ghc-9-2-released", "ghc-9-0-released", "haskell-2010-standard"]
+      "relatedIds": [
+        "ghc-9-2-released",
+        "ghc-9-0-released",
+        "haskell-2010-standard"
+      ]
     }
   ]
 }

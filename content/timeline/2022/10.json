@@ -14,7 +14,24 @@
         "problemSolved": "Pages Router scaling issues — layout duplication and client-heavy data loading — needed a new model."
       },
       "category": "software",
-      "tags": ["nextjs", "react", "frontend", "ssr", "web-framework"],
+      "tags": [
+        "nextjs",
+        "react",
+        "frontend",
+        "ssr",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +46,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nextjs-open-sourced", "react-open-sourced"]
+      "relatedIds": [
+        "nextjs-open-sourced",
+        "react-open-sourced"
+      ]
     },
     {
       "id": "python-3-11-released",
@@ -45,7 +65,12 @@
         "problemSolved": "CPU-bound Python workloads needed real speedups without rewriting in C or Rust."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +85,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-3-10-released", "python-3-12-released"]
+      "relatedIds": [
+        "python-3-10-released",
+        "python-3-12-released"
+      ]
     }
   ]
 }

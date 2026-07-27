@@ -21,6 +21,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -62,6 +68,7 @@
         "middleware"
       ],
       "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -83,19 +90,8 @@
       ]
     },
     {
-      "slug": "brendan-eich-mozilla-ceo-resigns",
-      "media": [],
-      "relatedIds": [
-        "javascript-name-announced"
-      ],
-      "people": [
-        {
-          "id": "brendan-eich",
-          "name": "Brendan Eich",
-          "role": "ceo"
-        }
-      ],
       "id": "brendan-eich-mozilla-ceo-resigns",
+      "slug": "brendan-eich-mozilla-ceo-resigns",
       "date": "2014-04-03",
       "datePrecision": "day",
       "title": "Brendan Eich resigns as Mozilla CEO",
@@ -113,7 +109,21 @@
         "javascript",
         "ceo"
       ],
+      "people": [
+        {
+          "id": "brendan-eich",
+          "name": "Brendan Eich",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Mozilla — Brendan Eich steps down (April 3, 2014)",
@@ -125,22 +135,14 @@
           "url": "https://en.wikipedia.org/wiki/Brendan_Eich",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "javascript-name-announced"
       ]
     },
     {
-      "slug": "tom-preston-werner-github-resigns",
-      "media": [],
-      "relatedIds": [
-        "github-launched"
-      ],
-      "people": [
-        {
-          "id": "tom-preston-werner",
-          "name": "Tom Preston-Werner",
-          "role": "co-founder"
-        }
-      ],
       "id": "tom-preston-werner-github-resigns",
+      "slug": "tom-preston-werner-github-resigns",
       "date": "2014-04-21",
       "datePrecision": "day",
       "title": "Tom Preston-Werner resigns from GitHub",
@@ -157,7 +159,21 @@
         "github",
         "founding"
       ],
+      "people": [
+        {
+          "id": "tom-preston-werner",
+          "name": "Tom Preston-Werner",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
       "importance": 3,
+      "media": [],
       "sources": [
         {
           "title": "The Verge — Preston-Werner resigns (April 21, 2014)",
@@ -169,6 +185,9 @@
           "url": "https://en.wikipedia.org/wiki/Tom_Preston-Werner",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "github-launched"
       ]
     }
   ]

@@ -1,19 +1,8 @@
 {
   "events": [
     {
-      "slug": "werner-vogels-amazon-cto",
-      "media": [],
-      "relatedIds": [
-        "andy-jassy-aws-ceo"
-      ],
-      "people": [
-        {
-          "id": "werner-vogels",
-          "name": "Werner Vogels",
-          "role": "cto"
-        }
-      ],
       "id": "werner-vogels-amazon-cto",
+      "slug": "werner-vogels-amazon-cto",
       "date": "2005-09",
       "datePrecision": "month",
       "title": "Werner Vogels named Amazon CTO",
@@ -32,7 +21,21 @@
         "cto",
         "distributed-systems"
       ],
+      "people": [
+        {
+          "id": "werner-vogels",
+          "name": "Werner Vogels",
+          "role": "cto"
+        }
+      ],
+      "companies": [
+        {
+          "id": "amazon",
+          "name": "Amazon"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Amazon — Werner Vogels appointed CTO (September 2005)",
@@ -44,6 +47,9 @@
           "url": "https://en.wikipedia.org/wiki/Werner_Vogels",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "andy-jassy-aws-ceo"
       ]
     }
   ]

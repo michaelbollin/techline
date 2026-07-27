@@ -14,7 +14,19 @@
         "problemSolved": "Windows users needed a built-in way to browse the web without buying a separate Netscape install."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["netscape-navigator-1-0", "internet-explorer-3-0"]
+      "relatedIds": [
+        "netscape-navigator-1-0",
+        "internet-explorer-3-0"
+      ]
     }
   ]
 }

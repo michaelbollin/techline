@@ -14,7 +14,20 @@
         "problemSolved": "Command-line PCs intimidated mainstream users; Apple bet on approachable graphics and a unified design language."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "apple", "macintosh", "gui"],
+      "tags": [
+        "hardware",
+        "pc",
+        "apple",
+        "macintosh",
+        "gui"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,17 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["susan-kare-macintosh-icons", "steve-wozniak-apple-founded", "apple-ii-introduced", "ibm-pc-5150-released", "next-computer-released", "apple-lisa-released", "apple-powerbook-released", "imac-g3-released", "atari-st-released"]
+      "relatedIds": [
+        "susan-kare-macintosh-icons",
+        "steve-wozniak-apple-founded",
+        "apple-ii-introduced",
+        "ibm-pc-5150-released",
+        "next-computer-released",
+        "apple-lisa-released",
+        "apple-powerbook-released",
+        "imac-g3-released",
+        "atari-st-released"
+      ]
     }
   ]
 }

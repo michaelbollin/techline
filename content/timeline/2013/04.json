@@ -14,7 +14,21 @@
         "problemSolved": "Google needed engine freedom to ship multi-process architecture and rapid web platform changes."
       },
       "category": "software",
-      "tags": ["browser", "web", "google", "chrome", "blink", "webkit"],
+      "tags": [
+        "browser",
+        "web",
+        "google",
+        "chrome",
+        "blink",
+        "webkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "webkit-open-sourced", "opera-chromium-switch"]
+      "relatedIds": [
+        "google-chrome-released",
+        "webkit-open-sourced",
+        "opera-chromium-switch"
+      ]
     }
   ]
 }

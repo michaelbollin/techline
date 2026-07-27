@@ -14,7 +14,12 @@
         "problemSolved": "Ruby 1.9's transition pain needed a polished 2.x line for production adoption."
       },
       "category": "software",
-      "tags": ["ruby", "programming-language"],
+      "tags": [
+        "ruby",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ruby-1-8-released", "ruby-3-0-released", "rails-open-sourced"]
+      "relatedIds": [
+        "ruby-1-8-released",
+        "ruby-3-0-released",
+        "rails-open-sourced"
+      ]
     },
     {
       "id": "microsoft-surface-pro-released",
@@ -45,7 +54,21 @@
         "problemSolved": "Developers wanted tablet portability but needed full Win32 and desktop IDEs, not just mobile apps."
       },
       "category": "hardware",
-      "tags": ["hardware", "tablet", "laptop", "microsoft", "surface", "windows"],
+      "tags": [
+        "hardware",
+        "tablet",
+        "laptop",
+        "microsoft",
+        "surface",
+        "windows"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +83,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ipad-introduced", "ibm-thinkpad-700c-released", "windows-phone-eol", "intel-atom-announced"]
+      "relatedIds": [
+        "ipad-introduced",
+        "ibm-thinkpad-700c-released",
+        "windows-phone-eol",
+        "intel-atom-announced"
+      ]
     }
   ]
 }

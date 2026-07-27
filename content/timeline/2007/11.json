@@ -14,7 +14,20 @@
         "problemSolved": "C# lacked expressive, composable data queries without verbose loops or stringly-typed SQL."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "linq", "programming-language"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "linq",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-framework-2-0-released", "csharp-announced", "dotnet-5-released"]
+      "relatedIds": [
+        "dotnet-framework-2-0-released",
+        "csharp-announced",
+        "dotnet-5-released"
+      ]
     },
     {
       "id": "couchdb-released",
@@ -45,7 +62,16 @@
         "problemSolved": "Relational schemas were awkward for evolving JSON documents and offline mobile sync."
       },
       "category": "software",
-      "tags": ["couchdb", "database", "nosql", "document-store", "rest", "open-source"],
+      "tags": [
+        "couchdb",
+        "database",
+        "nosql",
+        "document-store",
+        "rest",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +86,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mongodb-first-released", "redis-first-released", "rest-architectural-style-defined", "apache-cassandra-open-sourced"]
+      "relatedIds": [
+        "mongodb-first-released",
+        "redis-first-released",
+        "rest-architectural-style-defined",
+        "apache-cassandra-open-sourced"
+      ]
     },
     {
       "id": "android-announced",
@@ -76,7 +107,21 @@
         "problemSolved": "Carriers and handset makers lacked a modern, open smartphone OS to compete with the iPhone."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "android", "google", "smartphone", "open-source"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "android",
+        "google",
+        "smartphone",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +136,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "t-mobile-g1-released", "kotlin-android-official", "chrome-for-android-released"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "steve-jobs-iphone-introduced",
+        "t-mobile-g1-released",
+        "kotlin-android-official",
+        "chrome-for-android-released"
+      ]
     },
     {
       "id": "olpc-xo-laptop-released",
@@ -107,7 +158,16 @@
         "problemSolved": "Millions of children lacked access to computers for learning programming and digital literacy."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "olpc", "education", "linux", "embedded"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "olpc",
+        "education",
+        "linux",
+        "embedded"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +182,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mary-lou-jepsen-olpc-displays", "raspberry-pi-model-b-released", "intel-atom-announced"]
+      "relatedIds": [
+        "mary-lou-jepsen-olpc-displays",
+        "raspberry-pi-model-b-released",
+        "intel-atom-announced"
+      ]
     }
   ]
 }

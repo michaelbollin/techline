@@ -14,7 +14,16 @@
         "problemSolved": "Browsers had no native module system; developers could not reuse the growing npm ecosystem client-side."
       },
       "category": "software",
-      "tags": ["browserify", "bundler", "javascript", "npm", "commonjs", "open-source"],
+      "tags": [
+        "browserify",
+        "bundler",
+        "javascript",
+        "npm",
+        "commonjs",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +38,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "nodejs-first-released", "webpack-released", "rollup-released"]
+      "relatedIds": [
+        "npm-first-released",
+        "nodejs-first-released",
+        "webpack-released",
+        "rollup-released"
+      ]
     },
     {
       "id": "travis-ci-launched",
@@ -45,7 +59,20 @@
         "problemSolved": "Self-hosted Jenkins was heavy for small teams; OSS needed free, Git-native automation."
       },
       "category": "software",
-      "tags": ["travis-ci", "ci", "continuous-integration", "github", "open-source"],
+      "tags": [
+        "travis-ci",
+        "ci",
+        "continuous-integration",
+        "github",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +87,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["hudson-ci-released", "github-launched", "github-actions-ga", "gitlab-released", "circleci-launched"]
+      "relatedIds": [
+        "hudson-ci-released",
+        "github-launched",
+        "github-actions-ga",
+        "gitlab-released",
+        "circleci-launched"
+      ]
     },
     {
       "id": "ninja-released",
@@ -76,7 +109,22 @@
         "problemSolved": "Make-based incremental builds were too slow for million-line codebases like Chromium."
       },
       "category": "software",
-      "tags": ["ninja", "build", "google", "chrome", "c", "cpp", "open-source"],
+      "tags": [
+        "ninja",
+        "build",
+        "google",
+        "chrome",
+        "c",
+        "cpp",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +139,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cmake-released", "meson-released", "bazel-open-sourced", "make-created"]
+      "relatedIds": [
+        "cmake-released",
+        "meson-released",
+        "bazel-open-sourced",
+        "make-created"
+      ]
     }
   ]
 }

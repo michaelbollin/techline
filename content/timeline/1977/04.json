@@ -1,24 +1,8 @@
 {
   "events": [
     {
-      "slug": "apple-ii-introduced",
-      "media": [],
-      "relatedIds": [
-        "steve-wozniak-apple-founded"
-      ],
-      "people": [
-        {
-          "id": "steve-jobs",
-          "name": "Steve Jobs",
-          "role": "co-founder"
-        },
-        {
-          "id": "steve-wozniak",
-          "name": "Steve Wozniak",
-          "role": "co-founder"
-        }
-      ],
       "id": "apple-ii-introduced",
+      "slug": "apple-ii-introduced",
       "date": "1977-04-16",
       "datePrecision": "day",
       "title": "Steve Jobs and Steve Wozniak introduce the Apple II",
@@ -36,7 +20,26 @@
         "personal-computer",
         "hardware"
       ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "co-founder"
+        },
+        {
+          "id": "steve-wozniak",
+          "name": "Steve Wozniak",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Apple — Apple II introduced (April 16–17, 1977)",
@@ -48,6 +51,9 @@
           "url": "https://en.wikipedia.org/wiki/Apple_II",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "steve-wozniak-apple-founded"
       ]
     }
   ]

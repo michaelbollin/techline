@@ -22,6 +22,7 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -43,25 +44,8 @@
       ]
     },
     {
-      "slug": "google-founded",
-      "media": [],
-      "relatedIds": [
-        "google-gemini-released",
-        "google-chrome-released"
-      ],
-      "people": [
-        {
-          "id": "larry-page",
-          "name": "Larry Page",
-          "role": "co-founder"
-        },
-        {
-          "id": "sergey-brin",
-          "name": "Sergey Brin",
-          "role": "co-founder"
-        }
-      ],
       "id": "google-founded",
+      "slug": "google-founded",
       "date": "1998-09-04",
       "datePrecision": "day",
       "title": "Larry Page and Sergey Brin incorporate Google",
@@ -78,7 +62,26 @@
         "google",
         "founding"
       ],
+      "people": [
+        {
+          "id": "larry-page",
+          "name": "Larry Page",
+          "role": "co-founder"
+        },
+        {
+          "id": "sergey-brin",
+          "name": "Sergey Brin",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Google — Our story (founded September 1998)",
@@ -90,6 +93,10 @@
           "url": "https://en.wikipedia.org/wiki/Google",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "google-gemini-released",
+        "google-chrome-released"
       ]
     }
   ]

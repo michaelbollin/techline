@@ -14,7 +14,19 @@
         "problemSolved": "Feature phones lacked the CPU and bandwidth to run full desktop browsers locally."
       },
       "category": "software",
-      "tags": ["browser", "web", "opera", "mobile"],
+      "tags": [
+        "browser",
+        "web",
+        "opera",
+        "mobile"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "opera",
+          "name": "Opera"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["opera-2-released", "safari-announced"]
+      "relatedIds": [
+        "opera-2-released",
+        "safari-announced"
+      ]
     }
   ]
 }

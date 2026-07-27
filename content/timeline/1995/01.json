@@ -14,7 +14,21 @@
         "problemSolved": "Java web apps needed HTTP and servlet support without deploying to a full J2EE server."
       },
       "category": "software",
-      "tags": ["jetty", "java", "servlet", "web-server", "embedded", "open-source"],
+      "tags": [
+        "jetty",
+        "java",
+        "servlet",
+        "web-server",
+        "embedded",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "apache-tomcat-released", "spring-framework-1-0-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "apache-tomcat-released",
+        "spring-framework-1-0-released"
+      ]
     }
   ]
 }

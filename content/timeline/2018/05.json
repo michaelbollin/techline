@@ -1,19 +1,8 @@
 {
   "events": [
     {
-      "slug": "ryan-dahl-deno-announced",
-      "media": [],
-      "relatedIds": [
-        "nodejs-first-released"
-      ],
-      "people": [
-        {
-          "id": "ryan-dahl",
-          "name": "Ryan Dahl",
-          "role": "creator"
-        }
-      ],
       "id": "ryan-dahl-deno-announced",
+      "slug": "ryan-dahl-deno-announced",
       "date": "2018-05-30",
       "datePrecision": "day",
       "title": "Ryan Dahl announces Deno",
@@ -31,7 +20,21 @@
         "nodejs",
         "typescript"
       ],
+      "people": [
+        {
+          "id": "ryan-dahl",
+          "name": "Ryan Dahl",
+          "role": "creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "JSConf EU — Ryan Dahl: Deno (May 30, 2018)",
@@ -43,6 +46,9 @@
           "url": "https://en.wikipedia.org/wiki/Deno_(software)",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "nodejs-first-released"
       ]
     }
   ]

@@ -14,7 +14,25 @@
         "problemSolved": "Web-scale apps needed always-on storage that survived node and datacenter failures without a central master."
       },
       "category": "software",
-      "tags": ["cassandra", "database", "nosql", "distributed", "facebook", "apache"],
+      "tags": [
+        "cassandra",
+        "database",
+        "nosql",
+        "distributed",
+        "facebook",
+        "apache"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apache-software-foundation",
+          "name": "Apache Software Foundation"
+        },
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +47,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mongodb-first-released", "redis-first-released", "couchdb-released", "mariadb-released"]
+      "relatedIds": [
+        "mongodb-first-released",
+        "redis-first-released",
+        "couchdb-released",
+        "mariadb-released"
+      ]
     },
     {
       "id": "iphone-app-store-opens",
@@ -45,7 +68,21 @@
         "problemSolved": "Early iPhones had no sanctioned way for developers to ship software to users at scale."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "apple", "iphone", "app-store", "software-distribution"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "apple",
+        "iphone",
+        "app-store",
+        "software-distribution"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +97,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "android-announced", "t-mobile-g1-released", "objective-c-created"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "steve-jobs-iphone-introduced",
+        "android-announced",
+        "t-mobile-g1-released",
+        "objective-c-created"
+      ]
     },
     {
       "id": "iphone-3g-released",
@@ -76,7 +119,21 @@
         "problemSolved": "The original iPhone's EDGE network was too slow for rich mobile web and app downloads."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "apple", "iphone", "3g"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone",
+        "3g"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +148,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["iphone-goes-on-sale", "iphone-app-store-opens", "iphone-4-released", "android-announced", "t-mobile-g1-released"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-app-store-opens",
+        "iphone-4-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     }
   ]
 }

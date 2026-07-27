@@ -14,7 +14,20 @@
         "problemSolved": "Businesses wanted a trusted brand for desktops but needed a machine third parties could extend with cards and software."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "ibm", "x86", "microcomputer"],
+      "tags": [
+        "hardware",
+        "pc",
+        "ibm",
+        "x86",
+        "microcomputer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,17 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["microsoft-founded", "altair-8800-released", "commodore-64-released", "macintosh-128k-released", "ibm-pc-xt-released", "ibm-pc-at-released", "ibm-pc-5150-discontinued", "compaq-portable-released", "intel-8088-introduced"]
+      "relatedIds": [
+        "microsoft-founded",
+        "altair-8800-released",
+        "commodore-64-released",
+        "macintosh-128k-released",
+        "ibm-pc-xt-released",
+        "ibm-pc-at-released",
+        "ibm-pc-5150-discontinued",
+        "compaq-portable-released",
+        "intel-8088-introduced"
+      ]
     }
   ]
 }

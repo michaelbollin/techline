@@ -14,7 +14,20 @@
         "problemSolved": "C# 1.0 boxed everything as `object`; developers needed type-safe collections and cleaner iteration."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "generics", "programming-language"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "generics",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["csharp-announced", "dotnet-framework-1-0-rtm", "dotnet-framework-3-5-released"]
+      "relatedIds": [
+        "csharp-announced",
+        "dotnet-framework-1-0-rtm",
+        "dotnet-framework-3-5-released"
+      ]
     },
     {
       "id": "firefox-1-5-released",
@@ -45,7 +62,19 @@
         "problemSolved": "Early Firefox needed faster navigation and tab management to match user expectations set by IE."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +89,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-1-0-released", "firefox-57-quantum", "internet-explorer-7-released"]
+      "relatedIds": [
+        "firefox-1-0-released",
+        "firefox-57-quantum",
+        "internet-explorer-7-released"
+      ]
     }
   ]
 }

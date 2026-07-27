@@ -14,7 +14,19 @@
         "problemSolved": "IE 7 lagged on standards and privacy features as competitors innovated faster."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-7-released", "internet-explorer-6-released", "google-chrome-released"]
+      "relatedIds": [
+        "internet-explorer-7-released",
+        "internet-explorer-6-released",
+        "google-chrome-released"
+      ]
     }
   ]
 }

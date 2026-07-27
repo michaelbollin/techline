@@ -14,7 +14,25 @@
         "problemSolved": "Java developers needed a free, deeply integrated IDE that vendors could extend without lock-in."
       },
       "category": "software",
-      "tags": ["eclipse", "ide", "java", "ibm", "open-source", "plugins"],
+      "tags": [
+        "eclipse",
+        "ide",
+        "java",
+        "ibm",
+        "open-source",
+        "plugins"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +47,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "intellij-idea-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "intellij-idea-released"
+      ]
     }
   ]
 }

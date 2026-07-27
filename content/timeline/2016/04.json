@@ -22,6 +22,16 @@
         "chromium"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "opera",
+          "name": "Opera"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -63,6 +73,7 @@
         "lts"
       ],
       "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -84,19 +95,8 @@
       ]
     },
     {
-      "slug": "andy-jassy-aws-ceo",
-      "media": [],
-      "relatedIds": [
-        "werner-vogels-amazon-cto"
-      ],
-      "people": [
-        {
-          "id": "andy-jassy",
-          "name": "Andy Jassy",
-          "role": "ceo"
-        }
-      ],
       "id": "andy-jassy-aws-ceo",
+      "slug": "andy-jassy-aws-ceo",
       "date": "2016-04",
       "datePrecision": "month",
       "title": "Andy Jassy named AWS CEO",
@@ -115,7 +115,21 @@
         "ceo",
         "cloud"
       ],
+      "people": [
+        {
+          "id": "andy-jassy",
+          "name": "Andy Jassy",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "amazon",
+          "name": "Amazon"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Amazon — Andy Jassy named AWS CEO (April 2016)",
@@ -127,6 +141,9 @@
           "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "werner-vogels-amazon-cto"
       ]
     }
   ]

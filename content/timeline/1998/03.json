@@ -22,6 +22,16 @@
         "netscape"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        },
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -42,17 +52,8 @@
       ]
     },
     {
-      "slug": "daniel-stenberg-curl-released",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "daniel-stenberg",
-          "name": "Daniel Stenberg",
-          "role": "creator"
-        }
-      ],
       "id": "daniel-stenberg-curl-released",
+      "slug": "daniel-stenberg-curl-released",
       "date": "1998-03",
       "datePrecision": "month",
       "title": "Daniel Stenberg releases curl",
@@ -70,7 +71,16 @@
         "open-source",
         "tooling"
       ],
+      "people": [
+        {
+          "id": "daniel-stenberg",
+          "name": "Daniel Stenberg",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "curl — Project history (March 1998)",
@@ -82,7 +92,8 @@
           "url": "https://en.wikipedia.org/wiki/CURL",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

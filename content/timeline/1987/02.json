@@ -1,20 +1,8 @@
 {
   "events": [
     {
-      "slug": "morris-chang-tsmc-founded",
-      "media": [],
-      "relatedIds": [
-        "jensen-huang-nvidia-founded",
-        "lisa-su-amd-zen-launched"
-      ],
-      "people": [
-        {
-          "id": "morris-chang",
-          "name": "Morris Chang",
-          "role": "founder"
-        }
-      ],
       "id": "morris-chang-tsmc-founded",
+      "slug": "morris-chang-tsmc-founded",
       "date": "1987-02-21",
       "datePrecision": "day",
       "title": "Morris Chang founds TSMC",
@@ -33,7 +21,21 @@
         "founding",
         "foundry"
       ],
+      "people": [
+        {
+          "id": "morris-chang",
+          "name": "Morris Chang",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "tsmc",
+          "name": "TSMC"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "TSMC — Company founded (February 21, 1987)",
@@ -45,6 +47,10 @@
           "url": "https://en.wikipedia.org/wiki/TSMC",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded",
+        "lisa-su-amd-zen-launched"
       ]
     }
   ]

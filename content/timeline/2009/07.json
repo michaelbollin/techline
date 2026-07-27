@@ -14,7 +14,21 @@
         "problemSolved": "Python web frameworks needed a robust, performant process manager between nginx and WSGI apps."
       },
       "category": "software",
-      "tags": ["uwsgi", "python", "wsgi", "web-server", "django", "nginx"],
+      "tags": [
+        "uwsgi",
+        "python",
+        "wsgi",
+        "web-server",
+        "django",
+        "nginx"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nginx",
+          "name": "Nginx"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gunicorn-released", "django-open-sourced", "nginx-released", "apache-http-server-released"]
+      "relatedIds": [
+        "gunicorn-released",
+        "django-open-sourced",
+        "nginx-released",
+        "apache-http-server-released"
+      ]
     }
   ]
 }

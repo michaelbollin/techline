@@ -14,7 +14,19 @@
         "problemSolved": "IE 6 stagnation and security failures pushed users toward Firefox; Microsoft had to catch up."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-6-released", "firefox-1-5-released", "firefox-1-0-released"]
+      "relatedIds": [
+        "internet-explorer-6-released",
+        "firefox-1-5-released",
+        "firefox-1-0-released"
+      ]
     }
   ]
 }

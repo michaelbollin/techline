@@ -14,7 +14,14 @@
         "problemSolved": "Developers needed awkward patterns to await data before exporting module bindings."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "standard",
+        "browser"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2020-adopted", "ecmascript-2024-adopted"]
+      "relatedIds": [
+        "ecmascript-2020-adopted",
+        "ecmascript-2024-adopted"
+      ]
     },
     {
       "id": "internet-explorer-11-retired",
@@ -45,7 +55,20 @@
         "problemSolved": "Microsoft could not maintain a separate legacy browser alongside Chromium-based Edge indefinitely."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer", "windows"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer",
+        "windows"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-11-released", "microsoft-edge-released", "edge-chromium-released"]
+      "relatedIds": [
+        "internet-explorer-11-released",
+        "microsoft-edge-released",
+        "edge-chromium-released"
+      ]
     },
     {
       "id": "http-3-standardized",
@@ -76,7 +103,21 @@
         "problemSolved": "TCP's head-of-line blocking still hurt HTTP/2 on unreliable networks; QUIC fixes that at the transport layer."
       },
       "category": "protocol",
-      "tags": ["http3", "quic", "http", "protocol", "standard", "ietf"],
+      "tags": [
+        "http3",
+        "quic",
+        "http",
+        "protocol",
+        "standard",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +132,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["http-2-standardized", "http-1-1-standardized", "tls-1-0-standardized"]
+      "relatedIds": [
+        "http-2-standardized",
+        "http-1-1-standardized",
+        "tls-1-0-standardized"
+      ]
     }
   ]
 }

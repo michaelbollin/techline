@@ -1,17 +1,8 @@
 {
   "events": [
     {
-      "slug": "stallman-gnu-manifesto",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "richard-stallman",
-          "name": "Richard Stallman",
-          "role": "founder"
-        }
-      ],
       "id": "stallman-gnu-manifesto",
+      "slug": "stallman-gnu-manifesto",
       "date": "1985-03",
       "datePrecision": "month",
       "title": "Richard Stallman publishes the GNU Manifesto",
@@ -29,7 +20,21 @@
         "open-source",
         "free-software"
       ],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "fsf",
+          "name": "Free Software Foundation"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "GNU — The GNU Manifesto (March 1985)",
@@ -41,7 +46,8 @@
           "url": "https://en.wikipedia.org/wiki/GNU_Manifesto",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

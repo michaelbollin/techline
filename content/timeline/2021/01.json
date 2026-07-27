@@ -22,6 +22,12 @@
         "extensions"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -42,20 +48,8 @@
       ]
     },
     {
-      "slug": "dario-amodei-anthropic-founded",
-      "media": [],
-      "relatedIds": [
-        "claude-3-released",
-        "claude-3-5-sonnet-released"
-      ],
-      "people": [
-        {
-          "id": "dario-amodei",
-          "name": "Dario Amodei",
-          "role": "co-founder"
-        }
-      ],
       "id": "dario-amodei-anthropic-founded",
+      "slug": "dario-amodei-anthropic-founded",
       "date": "2021-01",
       "datePrecision": "month",
       "title": "Dario Amodei co-founds Anthropic",
@@ -73,7 +67,21 @@
         "ai",
         "founding"
       ],
+      "people": [
+        {
+          "id": "dario-amodei",
+          "name": "Dario Amodei",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Anthropic — Company (founded 2021)",
@@ -85,6 +93,10 @@
           "url": "https://en.wikipedia.org/wiki/Anthropic",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "claude-3-released",
+        "claude-3-5-sonnet-released"
       ]
     }
   ]

@@ -14,7 +14,14 @@
         "problemSolved": "Dual package ecosystems forced awkward loaders and bundler workarounds."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-20-released", "nodejs-18-released", "nodejs-4-released"]
+      "relatedIds": [
+        "nodejs-20-released",
+        "nodejs-18-released",
+        "nodejs-4-released"
+      ]
     },
     {
       "id": "llama-3-released",
@@ -45,7 +56,21 @@
         "problemSolved": "Llama 2 lagged closed models on reasoning and code — limiting offline deployments."
       },
       "category": "software",
-      "tags": ["ai", "meta", "llama", "open-source", "llm", "machine-learning"],
+      "tags": [
+        "ai",
+        "meta",
+        "llama",
+        "open-source",
+        "llm",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +85,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["llama-2-released", "chatgpt-released", "gpt-4-released"]
+      "relatedIds": [
+        "llama-2-released",
+        "chatgpt-released",
+        "gpt-4-released"
+      ]
     }
   ]
 }

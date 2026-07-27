@@ -14,7 +14,21 @@
         "problemSolved": "486-class CPUs could not keep pace with multimedia, GUIs, and server workloads of the early 1990s."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "intel", "pentium", "x86", "microprocessor"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "intel",
+        "pentium",
+        "x86",
+        "microprocessor"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["intel-80386-introduced", "intel-8086-introduced", "amd64-x86-64-announced"]
+      "relatedIds": [
+        "intel-80386-introduced",
+        "intel-8086-introduced",
+        "amd64-x86-64-announced"
+      ]
     }
   ]
 }

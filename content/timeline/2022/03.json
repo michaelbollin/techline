@@ -14,7 +14,19 @@
         "problemSolved": "Teams duplicated slice/map helpers or used unsafe reflection because Go lacked parametric polymorphism."
       },
       "category": "software",
-      "tags": ["go", "golang", "programming-language", "generics"],
+      "tags": [
+        "go",
+        "golang",
+        "programming-language",
+        "generics"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["go-open-sourced"]
+      "relatedIds": [
+        "go-open-sourced"
+      ]
     }
   ]
 }

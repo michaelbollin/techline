@@ -23,6 +23,12 @@
         "dotnet"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -43,20 +49,8 @@
       ]
     },
     {
-      "slug": "jensen-huang-cuda-announced",
-      "media": [],
-      "relatedIds": [
-        "jensen-huang-nvidia-founded",
-        "hinton-alexnet-imagenet-breakthrough"
-      ],
-      "people": [
-        {
-          "id": "jensen-huang",
-          "name": "Jensen Huang",
-          "role": "ceo"
-        }
-      ],
       "id": "jensen-huang-cuda-announced",
+      "slug": "jensen-huang-cuda-announced",
       "date": "2006-11-08",
       "datePrecision": "day",
       "title": "Jensen Huang announces CUDA",
@@ -75,7 +69,21 @@
         "cuda",
         "parallel-computing"
       ],
+      "people": [
+        {
+          "id": "jensen-huang",
+          "name": "Jensen Huang",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "nvidia",
+          "name": "NVIDIA"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "NVIDIA — CUDA announced (November 8, 2006)",
@@ -87,6 +95,10 @@
           "url": "https://en.wikipedia.org/wiki/CUDA",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded",
+        "hinton-alexnet-imagenet-breakthrough"
       ]
     }
   ]

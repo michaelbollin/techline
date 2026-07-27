@@ -14,7 +14,20 @@
         "problemSolved": "iOS users in Europe had no real default-browser choice despite multiple browsers in the App Store."
       },
       "category": "culture",
-      "tags": ["browser", "web", "apple", "ios", "regulation"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "ios",
+        "regulation"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-announced", "google-chrome-released"]
+      "relatedIds": [
+        "safari-announced",
+        "google-chrome-released"
+      ]
     },
     {
       "id": "claude-3-released",
@@ -45,7 +61,20 @@
         "problemSolved": "Enterprises wanted alternatives to a single LLM vendor for chat and automation."
       },
       "category": "software",
-      "tags": ["ai", "anthropic", "claude", "machine-learning", "llm"],
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "machine-learning",
+        "llm"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +89,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["chatgpt-released", "gpt-4-released", "gpt-3-api-released"]
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released",
+        "gpt-3-api-released"
+      ]
     }
   ]
 }

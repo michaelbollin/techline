@@ -14,7 +14,19 @@
         "problemSolved": "The web needed a supported, fast, cross-platform browser backed by a company that could drive standards and ship updates weekly."
       },
       "category": "software",
-      "tags": ["browser", "web", "netscape", "ssl"],
+      "tags": [
+        "browser",
+        "web",
+        "netscape",
+        "ssl"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mosaic-1-0-released", "javascript-mocha-prototype", "internet-explorer-1-0"]
+      "relatedIds": [
+        "mosaic-1-0-released",
+        "javascript-mocha-prototype",
+        "internet-explorer-1-0"
+      ]
     }
   ]
 }

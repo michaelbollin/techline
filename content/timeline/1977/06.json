@@ -1,10 +1,24 @@
 {
   "events": [
     {
+      "id": "larry-ellison-oracle-founded",
       "slug": "larry-ellison-oracle-founded",
-      "media": [],
-      "relatedIds": [
-        "oracle-2-released"
+      "date": "1977-06-16",
+      "datePrecision": "day",
+      "title": "Larry Ellison co-founds Oracle",
+      "summary": "Larry Ellison, Bob Miner, and Ed Oates founded Software Development Laboratories on June 16, 1977 — later Oracle Corporation.",
+      "about": "Oracle commercialized SQL relational databases before IBM's DB2 shipped — growing into enterprise software spanning databases, ERP, and cloud. Ellison's decades as CEO made Oracle a fixture of corporate IT stacks.",
+      "narrative": {
+        "whyChosen": "Oracle became the defining enterprise database vendor of the client-server era.",
+        "whyImportant": "It proved relational databases could be sold as commercial products at scale.",
+        "problemSolved": "Organizations needed packaged SQL database software independent of IBM mainframes."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "oracle",
+        "database",
+        "founding"
       ],
       "people": [
         {
@@ -23,25 +37,14 @@
           "role": "co-founder"
         }
       ],
-      "id": "larry-ellison-oracle-founded",
-      "date": "1977-06-16",
-      "datePrecision": "day",
-      "title": "Larry Ellison co-founds Oracle",
-      "summary": "Larry Ellison, Bob Miner, and Ed Oates founded Software Development Laboratories on June 16, 1977 — later Oracle Corporation.",
-      "about": "Oracle commercialized SQL relational databases before IBM's DB2 shipped — growing into enterprise software spanning databases, ERP, and cloud. Ellison's decades as CEO made Oracle a fixture of corporate IT stacks.",
-      "narrative": {
-        "whyChosen": "Oracle became the defining enterprise database vendor of the client-server era.",
-        "whyImportant": "It proved relational databases could be sold as commercial products at scale.",
-        "problemSolved": "Organizations needed packaged SQL database software independent of IBM mainframes."
-      },
-      "category": "company",
-      "tags": [
-        "people",
-        "oracle",
-        "database",
-        "founding"
+      "companies": [
+        {
+          "id": "oracle",
+          "name": "Oracle"
+        }
       ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Oracle — Company founded (June 16, 1977)",
@@ -53,6 +56,9 @@
           "url": "https://en.wikipedia.org/wiki/Oracle_Corporation",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "oracle-2-released"
       ]
     }
   ]

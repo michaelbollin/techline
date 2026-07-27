@@ -20,6 +20,13 @@
         "microsoft",
         "programming-language"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [
         {
@@ -40,7 +47,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["visual-basic-net-released", "dotnet-framework-1-0-rtm"]
+      "relatedIds": [
+        "visual-basic-net-released",
+        "dotnet-framework-1-0-rtm"
+      ]
     }
   ]
 }

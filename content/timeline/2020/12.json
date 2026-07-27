@@ -14,7 +14,12 @@
         "problemSolved": "Ruby 2.7 warned the community that 3.0 would break compatibility unless they modernized gems and patterns."
       },
       "category": "software",
-      "tags": ["ruby", "programming-language"],
+      "tags": [
+        "ruby",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ruby-0-95-released", "rails-1-0-released"]
+      "relatedIds": [
+        "ruby-0-95-released",
+        "rails-1-0-released"
+      ]
     },
     {
       "id": "cpp20-standard",
@@ -45,7 +53,14 @@
         "problemSolved": "Template metaprogramming was powerful but unreadable; C++ needed safer, clearer abstractions."
       },
       "category": "software",
-      "tags": ["cpp", "iso", "standard", "programming-language"],
+      "tags": [
+        "cpp",
+        "iso",
+        "standard",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +75,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cpp17-standard", "cpp11-standard"]
+      "relatedIds": [
+        "cpp17-standard",
+        "cpp11-standard"
+      ]
     },
     {
       "id": "flash-player-discontinued",
@@ -76,7 +94,20 @@
         "problemSolved": "Flash's security record and plugin model no longer fit a web platform moving to open standards."
       },
       "category": "software",
-      "tags": ["actionscript", "flash", "adobe", "web", "programming-language"],
+      "tags": [
+        "actionscript",
+        "flash",
+        "adobe",
+        "web",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "adobe",
+          "name": "Adobe"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +122,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["actionscript-1-0-flash-5", "flash-4-scripting"]
+      "relatedIds": [
+        "actionscript-1-0-flash-5",
+        "flash-4-scripting"
+      ]
     }
   ]
 }

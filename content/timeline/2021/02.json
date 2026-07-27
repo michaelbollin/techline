@@ -23,6 +23,7 @@
         "vue"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -44,17 +45,8 @@
       ]
     },
     {
-      "slug": "pat-gelsinger-intel-ceo",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "pat-gelsinger",
-          "name": "Pat Gelsinger",
-          "role": "ceo"
-        }
-      ],
       "id": "pat-gelsinger-intel-ceo",
+      "slug": "pat-gelsinger-intel-ceo",
       "date": "2021-02-15",
       "datePrecision": "day",
       "title": "Pat Gelsinger returns as Intel CEO",
@@ -72,7 +64,21 @@
         "ceo",
         "semiconductor"
       ],
+      "people": [
+        {
+          "id": "pat-gelsinger",
+          "name": "Pat Gelsinger",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Intel — Pat Gelsinger appointed CEO (February 15, 2021)",
@@ -84,7 +90,8 @@
           "url": "https://en.wikipedia.org/wiki/Pat_Gelsinger",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

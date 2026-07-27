@@ -14,7 +14,12 @@
         "problemSolved": "Growing Rust codebases needed clearer rules around unsafe and edition migrations."
       },
       "category": "software",
-      "tags": ["rust", "programming-language"],
+      "tags": [
+        "rust",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rust-1-0-released", "rust-2021-edition"]
+      "relatedIds": [
+        "rust-1-0-released",
+        "rust-2021-edition"
+      ]
     },
     {
       "id": "claude-3-7-sonnet-released",
@@ -45,7 +53,21 @@
         "problemSolved": "Users could not see or trust multi-step reasoning in standard chat models."
       },
       "category": "software",
-      "tags": ["ai", "anthropic", "claude", "llm", "reasoning", "machine-learning"],
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +82,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["claude-3-5-sonnet-released", "openai-o1-released", "gpt-4-1-released"]
+      "relatedIds": [
+        "claude-3-5-sonnet-released",
+        "openai-o1-released",
+        "gpt-4-1-released"
+      ]
     }
   ]
 }

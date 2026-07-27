@@ -14,7 +14,20 @@
         "problemSolved": "Plain JavaScript lacked types for million-line codebases; teams needed safety without abandoning the web platform."
       },
       "category": "software",
-      "tags": ["typescript", "microsoft", "javascript", "types", "programming-language"],
+      "tags": [
+        "typescript",
+        "microsoft",
+        "javascript",
+        "types",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2015-adopted", "javascript-name-announced", "visual-studio-code-preview", "babel-released", "eslint-released"]
+      "relatedIds": [
+        "ecmascript-2015-adopted",
+        "javascript-name-announced",
+        "visual-studio-code-preview",
+        "babel-released",
+        "eslint-released"
+      ]
     },
     {
       "id": "internet-explorer-10-released",
@@ -45,7 +64,20 @@
         "problemSolved": "Windows 8 needed a browser built for touch tablets and hybrid laptops."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer", "windows"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer",
+        "windows"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +92,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-9-released", "internet-explorer-11-released", "microsoft-edge-released"]
+      "relatedIds": [
+        "internet-explorer-9-released",
+        "internet-explorer-11-released",
+        "microsoft-edge-released"
+      ]
     },
     {
       "id": "oauth-2-0-standardized",
@@ -76,7 +112,21 @@
         "problemSolved": "Apps needed user data from other services without storing credentials or getting full account access."
       },
       "category": "protocol",
-      "tags": ["oauth", "security", "api", "authentication", "standard", "ietf"],
+      "tags": [
+        "oauth",
+        "security",
+        "api",
+        "authentication",
+        "standard",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +141,14 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tls-1-0-standardized", "github-launched", "rest-architectural-style-defined", "jwt-standardized", "openid-connect-1-0-published", "oauth-1-0-published"]
+      "relatedIds": [
+        "tls-1-0-standardized",
+        "github-launched",
+        "rest-architectural-style-defined",
+        "jwt-standardized",
+        "openid-connect-1-0-published",
+        "oauth-1-0-published"
+      ]
     }
   ]
 }

@@ -14,7 +14,20 @@
         "problemSolved": "Developers building browsers or embedded web views needed a modern, licensable engine beyond IE and Gecko."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "webkit", "open-source"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "webkit",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-announced", "konqueror-khtml-released", "google-chrome-released"]
+      "relatedIds": [
+        "safari-announced",
+        "konqueror-khtml-released",
+        "google-chrome-released"
+      ]
     }
   ]
 }

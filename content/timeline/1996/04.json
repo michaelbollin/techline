@@ -14,7 +14,18 @@
         "problemSolved": "Many users on slow dial-up or weak PCs needed a faster, configurable browser than the two dominant giants offered."
       },
       "category": "software",
-      "tags": ["browser", "web", "opera"],
+      "tags": [
+        "browser",
+        "web",
+        "opera"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "opera",
+          "name": "Opera"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +40,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["netscape-navigator-2-0", "internet-explorer-3-0"]
+      "relatedIds": [
+        "netscape-navigator-2-0",
+        "internet-explorer-3-0"
+      ]
     }
   ]
 }

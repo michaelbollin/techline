@@ -22,6 +22,12 @@
         "ietf"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -43,22 +49,8 @@
       ]
     },
     {
-      "slug": "ritchie-thompson-turing-award",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "dennis-ritchie",
-          "name": "Dennis Ritchie",
-          "role": "creator"
-        },
-        {
-          "id": "ken-thompson",
-          "name": "Ken Thompson",
-          "role": "co-creator"
-        }
-      ],
       "id": "ritchie-thompson-turing-award",
+      "slug": "ritchie-thompson-turing-award",
       "date": "1983-11",
       "datePrecision": "month",
       "title": "Ritchie and Thompson receive Turing Award",
@@ -76,7 +68,21 @@
         "c",
         "award"
       ],
+      "people": [
+        {
+          "id": "dennis-ritchie",
+          "name": "Dennis Ritchie",
+          "role": "creator"
+        },
+        {
+          "id": "ken-thompson",
+          "name": "Ken Thompson",
+          "role": "co-creator"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "ACM — 1983 Turing Award (Ritchie & Thompson)",
@@ -88,23 +94,12 @@
           "url": "https://en.wikipedia.org/wiki/Unix",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     },
     {
-      "slug": "anders-hejlsberg-turbo-pascal-shipped",
-      "media": [],
-      "relatedIds": [
-        "csharp-announced",
-        "typescript-preview-released"
-      ],
-      "people": [
-        {
-          "id": "anders-hejlsberg",
-          "name": "Anders Hejlsberg",
-          "role": "creator"
-        }
-      ],
       "id": "anders-hejlsberg-turbo-pascal-shipped",
+      "slug": "anders-hejlsberg-turbo-pascal-shipped",
       "date": "1983-11",
       "datePrecision": "month",
       "title": "Anders Hejlsberg ships Turbo Pascal",
@@ -121,7 +116,16 @@
         "pascal",
         "programming-language"
       ],
+      "people": [
+        {
+          "id": "anders-hejlsberg",
+          "name": "Anders Hejlsberg",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Borland — Turbo Pascal history (1983)",
@@ -133,6 +137,10 @@
           "url": "https://en.wikipedia.org/wiki/Anders_Hejlsberg",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "csharp-announced",
+        "typescript-preview-released"
       ]
     }
   ]

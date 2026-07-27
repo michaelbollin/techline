@@ -14,7 +14,14 @@
         "problemSolved": "Statisticians needed affordable, programmable software for teaching and research — commercial packages were expensive."
       },
       "category": "software",
-      "tags": ["r", "statistics", "data-science", "programming-language"],
+      "tags": [
+        "r",
+        "statistics",
+        "data-science",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -45,7 +52,21 @@
         "problemSolved": "Mobile professionals needed a pocket computer for notes, contacts, and scheduling beyond paper planners."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "pda", "apple", "newton", "arm"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "pda",
+        "apple",
+        "newton",
+        "arm"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +81,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["acorn-archimedes-released", "palm-pilot-1000-released", "iphone-goes-on-sale", "apple-m1-announced"]
+      "relatedIds": [
+        "acorn-archimedes-released",
+        "palm-pilot-1000-released",
+        "iphone-goes-on-sale",
+        "apple-m1-announced"
+      ]
     }
   ]
 }

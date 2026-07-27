@@ -14,7 +14,21 @@
         "problemSolved": "Manual integration builds broke constantly; teams needed a always-on server to catch failures immediately."
       },
       "category": "software",
-      "tags": ["jenkins", "hudson", "ci", "continuous-integration", "java", "open-source"],
+      "tags": [
+        "jenkins",
+        "hudson",
+        "ci",
+        "continuous-integration",
+        "java",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["git-created", "subversion-1-0-released", "github-launched", "travis-ci-launched", "github-actions-ga"]
+      "relatedIds": [
+        "git-created",
+        "subversion-1-0-released",
+        "github-launched",
+        "travis-ci-launched",
+        "github-actions-ga"
+      ]
     }
   ]
 }

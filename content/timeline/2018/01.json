@@ -1,20 +1,8 @@
 {
   "events": [
     {
-      "slug": "yann-lecun-meta-chief-ai",
-      "media": [],
-      "relatedIds": [
-        "deep-learning-turing-trio-2018",
-        "yann-lecun-lenet-published"
-      ],
-      "people": [
-        {
-          "id": "yann-lecun",
-          "name": "Yann LeCun",
-          "role": "researcher"
-        }
-      ],
       "id": "yann-lecun-meta-chief-ai",
+      "slug": "yann-lecun-meta-chief-ai",
       "date": "2018-01-23",
       "datePrecision": "day",
       "title": "Yann LeCun named Facebook chief AI scientist",
@@ -32,7 +20,21 @@
         "facebook",
         "meta"
       ],
+      "people": [
+        {
+          "id": "yann-lecun",
+          "name": "Yann LeCun",
+          "role": "researcher"
+        }
+      ],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "The Verge — LeCun becomes chief AI scientist (January 23, 2018)",
@@ -44,6 +46,10 @@
           "url": "https://en.wikipedia.org/wiki/Yann_LeCun",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "deep-learning-turing-trio-2018",
+        "yann-lecun-lenet-published"
       ]
     }
   ]

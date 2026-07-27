@@ -1,19 +1,8 @@
 {
   "events": [
     {
-      "slug": "berners-lee-web-public-domain",
-      "media": [],
-      "relatedIds": [
-        "worldwideweb-browser"
-      ],
-      "people": [
-        {
-          "id": "tim-berners-lee",
-          "name": "Tim Berners-Lee",
-          "role": "creator"
-        }
-      ],
       "id": "berners-lee-web-public-domain",
+      "slug": "berners-lee-web-public-domain",
       "date": "1993-04-30",
       "datePrecision": "day",
       "title": "CERN releases the web into the public domain",
@@ -31,7 +20,21 @@
         "open-source",
         "cern"
       ],
+      "people": [
+        {
+          "id": "tim-berners-lee",
+          "name": "Tim Berners-Lee",
+          "role": "creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "cern",
+          "name": "CERN"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "CERN — Web release into public domain (April 30, 1993)",
@@ -43,30 +46,14 @@
           "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser"
       ]
     },
     {
-      "slug": "jensen-huang-nvidia-founded",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "jensen-huang",
-          "name": "Jensen Huang",
-          "role": "co-founder"
-        },
-        {
-          "id": "chris-malachowsky",
-          "name": "Chris Malachowsky",
-          "role": "co-founder"
-        },
-        {
-          "id": "curtis-priem",
-          "name": "Curtis Priem",
-          "role": "co-founder"
-        }
-      ],
       "id": "jensen-huang-nvidia-founded",
+      "slug": "jensen-huang-nvidia-founded",
       "date": "1993-04-05",
       "datePrecision": "day",
       "title": "Jensen Huang co-founds NVIDIA",
@@ -85,7 +72,31 @@
         "founding",
         "semiconductor"
       ],
+      "people": [
+        {
+          "id": "jensen-huang",
+          "name": "Jensen Huang",
+          "role": "co-founder"
+        },
+        {
+          "id": "chris-malachowsky",
+          "name": "Chris Malachowsky",
+          "role": "co-founder"
+        },
+        {
+          "id": "curtis-priem",
+          "name": "Curtis Priem",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "nvidia",
+          "name": "NVIDIA"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "NVIDIA — Company founded (April 5, 1993)",
@@ -97,7 +108,8 @@
           "url": "https://en.wikipedia.org/wiki/Nvidia",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

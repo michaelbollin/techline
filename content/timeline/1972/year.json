@@ -21,6 +21,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "bell-labs",
+          "name": "Bell Labs"
+        }
+      ],
       "importance": 1,
       "media": [
         {
@@ -70,6 +76,7 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -90,17 +97,8 @@
       ]
     },
     {
-      "slug": "karen-sparck-jones-idf",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "karen-sparck-jones",
-          "name": "Karen Spärck Jones",
-          "role": "researcher"
-        }
-      ],
       "id": "karen-sparck-jones-idf",
+      "slug": "karen-sparck-jones-idf",
       "date": "1972",
       "datePrecision": "year",
       "title": "Karen Spärck Jones publishes inverse document frequency",
@@ -117,7 +115,16 @@
         "search",
         "research"
       ],
+      "people": [
+        {
+          "id": "karen-sparck-jones",
+          "name": "Karen Spärck Jones",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Journal of Documentation — Spärck Jones, 1972",
@@ -129,20 +136,12 @@
           "url": "https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     },
     {
-      "slug": "elizabeth-feinler-nic-created",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "elizabeth-feinler",
-          "name": "Elizabeth Feinler",
-          "role": "researcher"
-        }
-      ],
       "id": "elizabeth-feinler-nic-created",
+      "slug": "elizabeth-feinler-nic-created",
       "date": "1972",
       "datePrecision": "year",
       "title": "Elizabeth Feinler runs the ARPANET NIC",
@@ -159,7 +158,16 @@
         "internet",
         "networking"
       ],
+      "people": [
+        {
+          "id": "elizabeth-feinler",
+          "name": "Elizabeth Feinler",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 3,
+      "media": [],
       "sources": [
         {
           "title": "Stanford — Feinler NIC history (1972–1989)",
@@ -171,23 +179,12 @@
           "url": "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     },
     {
-      "slug": "jon-postel-iana-stewardship",
-      "media": [],
-      "relatedIds": [
-        "tcp-ip-flag-day",
-        "dns-standardized"
-      ],
-      "people": [
-        {
-          "id": "jon-postel",
-          "name": "Jon Postel",
-          "role": "maintainer"
-        }
-      ],
       "id": "jon-postel-iana-stewardship",
+      "slug": "jon-postel-iana-stewardship",
       "date": "1972",
       "datePrecision": "year",
       "title": "Jon Postel begins IANA stewardship",
@@ -205,7 +202,16 @@
         "iana",
         "rfc"
       ],
+      "people": [
+        {
+          "id": "jon-postel",
+          "name": "Jon Postel",
+          "role": "maintainer"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "ISI/USC — Postel IANA history (1970s)",
@@ -217,6 +223,10 @@
           "url": "https://en.wikipedia.org/wiki/Jon_Postel",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "dns-standardized"
       ]
     }
   ]

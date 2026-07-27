@@ -21,6 +21,7 @@
         "web"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -41,20 +42,8 @@
       ]
     },
     {
-      "slug": "haakon-lie-css-proposed",
-      "media": [],
-      "relatedIds": [
-        "worldwideweb-browser",
-        "html-invented"
-      ],
-      "people": [
-        {
-          "id": "haakon-wium-lie",
-          "name": "Håkon Wium Lie",
-          "role": "author"
-        }
-      ],
       "id": "haakon-lie-css-proposed",
+      "slug": "haakon-lie-css-proposed",
       "date": "1994-10-10",
       "datePrecision": "day",
       "title": "Håkon Wium Lie proposes CSS",
@@ -72,7 +61,21 @@
         "web",
         "w3c"
       ],
+      "people": [
+        {
+          "id": "haakon-wium-lie",
+          "name": "Håkon Wium Lie",
+          "role": "author"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "W3C www-talk — Cascading HTML style sheets proposal (October 10, 1994)",
@@ -84,23 +87,15 @@
           "url": "https://en.wikipedia.org/wiki/CSS",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "html-invented"
       ]
     },
     {
-      "slug": "tim-berners-lee-w3c-founded",
-      "media": [],
-      "relatedIds": [
-        "worldwideweb-browser",
-        "berners-lee-web-public-domain"
-      ],
-      "people": [
-        {
-          "id": "tim-berners-lee",
-          "name": "Tim Berners-Lee",
-          "role": "founder"
-        }
-      ],
       "id": "tim-berners-lee-w3c-founded",
+      "slug": "tim-berners-lee-w3c-founded",
       "date": "1994-10-01",
       "datePrecision": "day",
       "title": "Tim Berners-Lee founds the W3C",
@@ -118,7 +113,21 @@
         "w3c",
         "standards"
       ],
+      "people": [
+        {
+          "id": "tim-berners-lee",
+          "name": "Tim Berners-Lee",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "W3C — Consortium founded (October 1, 1994)",
@@ -130,6 +139,10 @@
           "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "berners-lee-web-public-domain"
       ]
     }
   ]

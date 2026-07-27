@@ -14,7 +14,20 @@
         "problemSolved": "Mac users depended on a slow, outdated IE port; Apple needed a fast native browser for OS X."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["konqueror-khtml-released", "webkit-open-sourced", "google-chrome-released"]
+      "relatedIds": [
+        "konqueror-khtml-released",
+        "webkit-open-sourced",
+        "google-chrome-released"
+      ]
     }
   ]
 }

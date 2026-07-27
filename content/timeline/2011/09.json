@@ -14,7 +14,15 @@
         "problemSolved": "C++98 code felt verbose and error-prone next to newer languages — especially around memory management and threading. Teams wanted modern conveniences without giving up C++'s speed."
       },
       "category": "software",
-      "tags": ["cpp", "iso", "standard", "modern-cpp", "programming-language"],
+      "tags": [
+        "cpp",
+        "iso",
+        "standard",
+        "modern-cpp",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +37,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cpp98-standard"]
+      "relatedIds": [
+        "cpp98-standard"
+      ]
     },
     {
       "id": "circleci-launched",
@@ -45,7 +55,20 @@
         "problemSolved": "Slow, serial CI blocked developer flow; teams needed faster feedback on every commit."
       },
       "category": "software",
-      "tags": ["circleci", "ci", "continuous-integration", "docker", "devops"],
+      "tags": [
+        "circleci",
+        "ci",
+        "continuous-integration",
+        "docker",
+        "devops"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "docker",
+          "name": "Docker"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +83,14 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["travis-ci-launched", "github-launched", "hudson-ci-released", "github-actions-ga", "capistrano-released", "heroku-launched"]
+      "relatedIds": [
+        "travis-ci-launched",
+        "github-launched",
+        "hudson-ci-released",
+        "github-actions-ga",
+        "capistrano-released",
+        "heroku-launched"
+      ]
     }
   ]
 }

@@ -14,7 +14,19 @@
         "problemSolved": "Java lacked concise callbacks and modern date handling while competing with C# and Scala."
       },
       "category": "software",
-      "tags": ["java", "jvm", "programming-language", "lambdas"],
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "lambdas"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "java-17-released", "java-21-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "java-17-released",
+        "java-21-released"
+      ]
     }
   ]
 }

@@ -22,6 +22,12 @@
         "database"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -44,24 +50,8 @@
       ]
     },
     {
-      "slug": "cerf-kahn-tcp-ip-paper-published",
-      "media": [],
-      "relatedIds": [
-        "tcp-ip-flag-day"
-      ],
-      "people": [
-        {
-          "id": "vint-cerf",
-          "name": "Vint Cerf",
-          "role": "researcher"
-        },
-        {
-          "id": "bob-kahn",
-          "name": "Bob Kahn",
-          "role": "researcher"
-        }
-      ],
       "id": "cerf-kahn-tcp-ip-paper-published",
+      "slug": "cerf-kahn-tcp-ip-paper-published",
       "date": "1974-05",
       "datePrecision": "month",
       "title": "Vint Cerf and Bob Kahn publish TCP/IP design",
@@ -79,7 +69,21 @@
         "internet",
         "research"
       ],
+      "people": [
+        {
+          "id": "vint-cerf",
+          "name": "Vint Cerf",
+          "role": "researcher"
+        },
+        {
+          "id": "bob-kahn",
+          "name": "Bob Kahn",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "IEEE — A Protocol for Packet Network Intercommunication (May 1974)",
@@ -91,6 +95,9 @@
           "url": "https://en.wikipedia.org/wiki/Vint_Cerf",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "tcp-ip-flag-day"
       ]
     }
   ]

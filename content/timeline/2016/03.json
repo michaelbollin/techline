@@ -1,19 +1,8 @@
 {
   "events": [
     {
-      "slug": "demis-hassabis-alphago-victory",
-      "media": [],
-      "relatedIds": [
-        "demis-hassabis-deepmind-founded"
-      ],
-      "people": [
-        {
-          "id": "demis-hassabis",
-          "name": "Demis Hassabis",
-          "role": "researcher"
-        }
-      ],
       "id": "demis-hassabis-alphago-victory",
+      "slug": "demis-hassabis-alphago-victory",
       "date": "2016-03-15",
       "datePrecision": "day",
       "title": "Demis Hassabis's AlphaGo defeats Lee Sedol 4–1",
@@ -31,7 +20,21 @@
         "reinforcement-learning",
         "deepmind"
       ],
+      "people": [
+        {
+          "id": "demis-hassabis",
+          "name": "Demis Hassabis",
+          "role": "researcher"
+        }
+      ],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Wikipedia — AlphaGo versus Lee Sedol (March 9–15, 2016)",
@@ -43,6 +46,9 @@
           "url": "https://deepmind.google/research/alphago/",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "demis-hassabis-deepmind-founded"
       ]
     }
   ]

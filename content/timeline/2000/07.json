@@ -14,7 +14,25 @@
         "problemSolved": "Building Tomcat on many platforms with Make was fragile; Java needed its own portable build tool."
       },
       "category": "software",
-      "tags": ["ant", "build", "java", "xml", "apache", "open-source"],
+      "tags": [
+        "ant",
+        "build",
+        "java",
+        "xml",
+        "apache",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apache-software-foundation",
+          "name": "Apache Software Foundation"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +47,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["make-created", "maven-1-0-released", "gradle-released", "apache-tomcat-released"]
+      "relatedIds": [
+        "make-created",
+        "maven-1-0-released",
+        "gradle-released",
+        "apache-tomcat-released"
+      ]
     }
   ]
 }

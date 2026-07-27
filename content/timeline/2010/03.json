@@ -14,7 +14,20 @@
         "problemSolved": "Onboarding to a project meant hours of manual dependency installation and broken environments."
       },
       "category": "software",
-      "tags": ["vagrant", "devops", "virtualization", "hashicorp", "open-source"],
+      "tags": [
+        "vagrant",
+        "devops",
+        "virtualization",
+        "hashicorp",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "hashicorp",
+          "name": "HashiCorp"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["docker-open-sourced", "terraform-released", "ruby-0-95-released"]
+      "relatedIds": [
+        "docker-open-sourced",
+        "terraform-released",
+        "ruby-0-95-released"
+      ]
     }
   ]
 }

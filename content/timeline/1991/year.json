@@ -22,6 +22,12 @@
         "standard"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "cern",
+          "name": "CERN"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -43,17 +49,8 @@
       ]
     },
     {
-      "slug": "bram-moolenaar-vim-released",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "bram-moolenaar",
-          "name": "Bram Moolenaar",
-          "role": "creator"
-        }
-      ],
       "id": "bram-moolenaar-vim-released",
+      "slug": "bram-moolenaar-vim-released",
       "date": "1991",
       "datePrecision": "year",
       "title": "Bram Moolenaar releases Vim",
@@ -70,7 +67,16 @@
         "editor",
         "open-source"
       ],
+      "people": [
+        {
+          "id": "bram-moolenaar",
+          "name": "Bram Moolenaar",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Vim — History (1991)",
@@ -82,7 +88,8 @@
           "url": "https://en.wikipedia.org/wiki/Vim_(text_editor)",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

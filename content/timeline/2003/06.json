@@ -14,7 +14,21 @@
         "problemSolved": "SOAP 1.1 was only a W3C Note; large integrators needed a full Recommendation with test suites."
       },
       "category": "protocol",
-      "tags": ["soap", "xml", "api", "web-service", "standard", "w3c"],
+      "tags": [
+        "soap",
+        "xml",
+        "api",
+        "web-service",
+        "standard",
+        "w3c"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["soap-1-1-published", "xml-rpc-specified", "rest-architectural-style-defined"]
+      "relatedIds": [
+        "soap-1-1-published",
+        "xml-rpc-specified",
+        "rest-architectural-style-defined"
+      ]
     }
   ]
 }

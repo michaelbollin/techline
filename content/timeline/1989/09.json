@@ -14,7 +14,20 @@
         "problemSolved": "Mac users who traveled needed full desktop software without sacrificing the GUI experience."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "apple", "macintosh", "portable"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "apple",
+        "macintosh",
+        "portable"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["macintosh-128k-released", "apple-powerbook-released", "apple-lisa-released"]
+      "relatedIds": [
+        "macintosh-128k-released",
+        "apple-powerbook-released",
+        "apple-lisa-released"
+      ]
     }
   ]
 }

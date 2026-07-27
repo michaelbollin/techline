@@ -14,7 +14,20 @@
         "problemSolved": "Engineers needed interactive graphics and Unix on a desk without million-dollar minicomputers."
       },
       "category": "hardware",
-      "tags": ["hardware", "workstation", "sun", "unix", "networking"],
+      "tags": [
+        "hardware",
+        "workstation",
+        "sun",
+        "unix",
+        "networking"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nfs-released", "java-1-0-shipped", "ibm-pc-5150-released", "sparcstation-1-released", "sun-enterprise-10000-released"]
+      "relatedIds": [
+        "nfs-released",
+        "java-1-0-shipped",
+        "ibm-pc-5150-released",
+        "sparcstation-1-released",
+        "sun-enterprise-10000-released"
+      ]
     }
   ]
 }

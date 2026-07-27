@@ -14,7 +14,19 @@
         "problemSolved": "Enterprise Java development was verbose and tied to heavy servers; teams needed a simpler way to assemble and test applications."
       },
       "category": "software",
-      "tags": ["spring", "java", "dependency-injection", "framework"],
+      "tags": [
+        "spring",
+        "java",
+        "dependency-injection",
+        "framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped"]
+      "relatedIds": [
+        "java-1-0-shipped"
+      ]
     },
     {
       "id": "rubygems-released",
@@ -45,7 +59,15 @@
         "problemSolved": "Ruby developers manually vendored libraries with no central registry or dependency resolution."
       },
       "category": "software",
-      "tags": ["rubygems", "ruby", "package-manager", "gems", "open-source"],
+      "tags": [
+        "rubygems",
+        "ruby",
+        "package-manager",
+        "gems",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +82,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ruby-0-95-released", "rails-open-sourced", "capistrano-released", "npm-first-released"]
+      "relatedIds": [
+        "ruby-0-95-released",
+        "rails-open-sourced",
+        "capistrano-released",
+        "npm-first-released"
+      ]
     }
   ]
 }

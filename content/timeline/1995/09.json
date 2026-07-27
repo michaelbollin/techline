@@ -1,10 +1,25 @@
 {
   "events": [
     {
+      "id": "ellison-pc-ridiculous",
       "slug": "ellison-pc-ridiculous",
-      "media": [],
-      "relatedIds": [
-        "larry-ellison-oracle-founded"
+      "date": "1995-09",
+      "datePrecision": "month",
+      "title": "Larry Ellison calls the PC \"a ridiculous device\"",
+      "summary": "Oracle CEO Larry Ellison pitches network computers — thin clients that get software from servers — and dismisses overpowered desktop PCs.",
+      "about": "Ellison's NC vision failed in the market as PCs got cheaper, but the quote captures 1990s thin-client thinking that resurfaced with Chromebooks and cloud desktops. He was wrong on timing, right that most users never needed a tower under the desk.",
+      "narrative": {
+        "whyChosen": "Peak network-computer rhetoric against the Windows PC mainstream.",
+        "whyImportant": "It framed the thin-client vs fat-client debate that never fully died.",
+        "problemSolved": "Enterprise IT wanted cheaper, manageable endpoints for casual users."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "controversy",
+        "oracle",
+        "thin-client",
+        "prediction"
       ],
       "people": [
         {
@@ -13,27 +28,15 @@
           "role": "ceo"
         }
       ],
-      "category": "quote",
-      "id": "ellison-pc-ridiculous",
-      "date": "1995-09",
-      "datePrecision": "month",
-      "title": "Larry Ellison calls the PC \"a ridiculous device\"",
-      "quoteText": "The personal computer is a ridiculous device.",
-      "summary": "Oracle CEO Larry Ellison pitches network computers — thin clients that get software from servers — and dismisses overpowered desktop PCs.",
-      "about": "Ellison's NC vision failed in the market as PCs got cheaper, but the quote captures 1990s thin-client thinking that resurfaced with Chromebooks and cloud desktops. He was wrong on timing, right that most users never needed a tower under the desk.",
-      "narrative": {
-        "whyChosen": "Peak network-computer rhetoric against the Windows PC mainstream.",
-        "whyImportant": "It framed the thin-client vs fat-client debate that never fully died.",
-        "problemSolved": "Enterprise IT wanted cheaper, manageable endpoints for casual users."
-      },
-      "tags": [
-        "quote",
-        "controversy",
-        "oracle",
-        "thin-client",
-        "prediction"
+      "companies": [
+        {
+          "id": "oracle",
+          "name": "Oracle"
+        }
       ],
+      "quoteText": "The personal computer is a ridiculous device.",
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Los Angeles Times — Is the PC becoming passé? (September 28, 1995)",
@@ -45,6 +48,9 @@
           "url": "https://www.newsweek.com/your-pc-too-complex-get-ready-nc-181210",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "larry-ellison-oracle-founded"
       ]
     }
   ]

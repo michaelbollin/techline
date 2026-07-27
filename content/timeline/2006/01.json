@@ -14,7 +14,19 @@
         "problemSolved": "JVM developers wanted Haskell-like expressiveness without leaving the Java ecosystem."
       },
       "category": "software",
-      "tags": ["scala", "jvm", "functional-programming", "programming-language"],
+      "tags": [
+        "scala",
+        "jvm",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["scala-first-release", "java-5-released"]
+      "relatedIds": [
+        "scala-first-release",
+        "java-5-released"
+      ]
     }
   ]
 }

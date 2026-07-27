@@ -1,20 +1,8 @@
 {
   "events": [
     {
-      "slug": "andy-grove-intel-ceo",
-      "media": [],
-      "relatedIds": [
-        "moore-noyce-intel-founded",
-        "pat-gelsinger-intel-ceo"
-      ],
-      "people": [
-        {
-          "id": "andy-grove",
-          "name": "Andy Grove",
-          "role": "ceo"
-        }
-      ],
       "id": "andy-grove-intel-ceo",
+      "slug": "andy-grove-intel-ceo",
       "date": "1987-10-18",
       "datePrecision": "day",
       "title": "Andy Grove named Intel CEO",
@@ -32,7 +20,21 @@
         "ceo",
         "semiconductor"
       ],
+      "people": [
+        {
+          "id": "andy-grove",
+          "name": "Andy Grove",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Intel — Andy Grove becomes CEO (October 18, 1987)",
@@ -44,6 +46,10 @@
           "url": "https://en.wikipedia.org/wiki/Andrew_Grove",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "moore-noyce-intel-founded",
+        "pat-gelsinger-intel-ceo"
       ]
     }
   ]

@@ -22,6 +22,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -66,6 +72,12 @@
           "id": "steve-jobs",
           "name": "Steve Jobs",
           "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
         }
       ],
       "importance": 1,
@@ -120,6 +132,12 @@
           "id": "marc-randolph",
           "name": "Marc Randolph",
           "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "netflix",
+          "name": "Netflix"
         }
       ],
       "importance": 2,

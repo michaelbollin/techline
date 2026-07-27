@@ -14,7 +14,21 @@
         "problemSolved": "Engineers needed faster floating-point and graphics than Motorola 68000 Sun-1 boxes could deliver."
       },
       "category": "hardware",
-      "tags": ["hardware", "workstation", "sun", "sparc", "unix", "risc"],
+      "tags": [
+        "hardware",
+        "workstation",
+        "sun",
+        "sparc",
+        "unix",
+        "risc"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +43,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["sun-1-released", "java-1-0-shipped", "nfs-released", "sun-enterprise-10000-released"]
+      "relatedIds": [
+        "sun-1-released",
+        "java-1-0-shipped",
+        "nfs-released",
+        "sun-enterprise-10000-released"
+      ]
     }
   ]
 }

@@ -14,7 +14,20 @@
         "problemSolved": "Developers on Mac and Linux lacked a lightweight Microsoft-grade editor with solid debugging and Git."
       },
       "category": "software",
-      "tags": ["vscode", "ide", "editor", "microsoft", "cross-platform"],
+      "tags": [
+        "vscode",
+        "ide",
+        "editor",
+        "microsoft",
+        "cross-platform"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["typescript-preview-released", "github-launched", "intellij-idea-released", "language-server-protocol-announced"]
+      "relatedIds": [
+        "typescript-preview-released",
+        "github-launched",
+        "intellij-idea-released",
+        "language-server-protocol-announced"
+      ]
     },
     {
       "id": "caddy-released",
@@ -45,7 +63,21 @@
         "problemSolved": "Configuring TLS certificates and HTTP/2 on nginx or Apache remained painful for small teams."
       },
       "category": "software",
-      "tags": ["caddy", "web-server", "https", "http2", "go", "reverse-proxy"],
+      "tags": [
+        "caddy",
+        "web-server",
+        "https",
+        "http2",
+        "go",
+        "reverse-proxy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +92,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nginx-released", "lets-encrypt-public-beta", "http-2-standardized"]
+      "relatedIds": [
+        "nginx-released",
+        "lets-encrypt-public-beta",
+        "http-2-standardized"
+      ]
     },
     {
       "id": "apple-watch-released",
@@ -76,7 +112,21 @@
         "problemSolved": "Users wanted smartphone notifications and health tracking without pulling a phone from their pocket."
       },
       "category": "hardware",
-      "tags": ["hardware", "wearable", "smartwatch", "apple", "watchos", "mobile"],
+      "tags": [
+        "hardware",
+        "wearable",
+        "smartwatch",
+        "apple",
+        "watchos",
+        "mobile"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +141,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["iphone-goes-on-sale", "iphone-app-store-opens", "apple-a4-introduced", "apple-m1-announced"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-app-store-opens",
+        "apple-a4-introduced",
+        "apple-m1-announced"
+      ]
     }
   ]
 }

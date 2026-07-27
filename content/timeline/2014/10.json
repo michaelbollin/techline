@@ -23,6 +23,12 @@
         "macos"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -44,19 +50,8 @@
       ]
     },
     {
-      "slug": "lisa-su-amd-ceo",
-      "media": [],
-      "relatedIds": [
-        "jensen-huang-nvidia-founded"
-      ],
-      "people": [
-        {
-          "id": "lisa-su",
-          "name": "Lisa Su",
-          "role": "ceo"
-        }
-      ],
       "id": "lisa-su-amd-ceo",
+      "slug": "lisa-su-amd-ceo",
       "date": "2014-10-08",
       "datePrecision": "day",
       "title": "Lisa Su named AMD CEO",
@@ -74,7 +69,21 @@
         "ceo",
         "semiconductor"
       ],
+      "people": [
+        {
+          "id": "lisa-su",
+          "name": "Lisa Su",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "amd",
+          "name": "AMD"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "AMD — Lisa Su appointed CEO (October 8, 2014)",
@@ -86,6 +95,9 @@
           "url": "https://en.wikipedia.org/wiki/Lisa_Su",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded"
       ]
     }
   ]

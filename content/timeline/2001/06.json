@@ -27,6 +27,12 @@
           "role": "creator"
         }
       ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -69,6 +75,7 @@
         "rack"
       ],
       "people": [],
+      "companies": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -91,11 +98,25 @@
       ]
     },
     {
+      "id": "ballmer-linux-cancer",
       "slug": "ballmer-linux-cancer",
-      "media": [],
-      "relatedIds": [
-        "steve-ballmer-named-microsoft-ceo",
-        "linux-kernel-announced"
+      "date": "2001-06-01",
+      "datePrecision": "day",
+      "title": "Steve Ballmer calls Linux \"a cancer\"",
+      "summary": "In a Chicago Sun-Times interview, Microsoft CEO Steve Ballmer attacks the GPL and open-source licensing.",
+      "about": "Ballmer was arguing that copyleft 'infects' proprietary code — a framing open-source advocates still push back on. The quote marked peak Microsoft–Linux hostility before Azure embraced open source.",
+      "narrative": {
+        "whyChosen": "The most inflammatory corporate quote of the open-source wars.",
+        "whyImportant": "It galvanized the free-software community and defined Microsoft's public stance for years.",
+        "problemSolved": "Microsoft was defending its licensing model against government open-source adoption."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "controversy",
+        "microsoft",
+        "linux",
+        "open-source"
       ],
       "people": [
         {
@@ -104,27 +125,15 @@
           "role": "ceo"
         }
       ],
-      "category": "quote",
-      "id": "ballmer-linux-cancer",
-      "date": "2001-06-01",
-      "datePrecision": "day",
-      "title": "Steve Ballmer calls Linux \"a cancer\"",
-      "quoteText": "Linux is a cancer that attaches itself in an intellectual property sense to everything it touches.",
-      "summary": "In a Chicago Sun-Times interview, Microsoft CEO Steve Ballmer attacks the GPL and open-source licensing.",
-      "about": "Ballmer was arguing that copyleft 'infects' proprietary code — a framing open-source advocates still push back on. The quote marked peak Microsoft–Linux hostility before Azure embraced open source.",
-      "narrative": {
-        "whyChosen": "The most inflammatory corporate quote of the open-source wars.",
-        "whyImportant": "It galvanized the free-software community and defined Microsoft's public stance for years.",
-        "problemSolved": "Microsoft was defending its licensing model against government open-source adoption."
-      },
-      "tags": [
-        "quote",
-        "controversy",
-        "microsoft",
-        "linux",
-        "open-source"
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
       ],
+      "quoteText": "Linux is a cancer that attaches itself in an intellectual property sense to everything it touches.",
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "The Register — Ballmer: Linux is a cancer (June 1, 2001)",
@@ -136,6 +145,10 @@
           "url": "https://en.wikipedia.org/wiki/Linux_adoption",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "steve-ballmer-named-microsoft-ceo",
+        "linux-kernel-announced"
       ]
     }
   ]

@@ -23,6 +23,12 @@
         "datacenter"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -44,11 +50,24 @@
       ]
     },
     {
+      "id": "stallman-free-speech-not-beer",
       "slug": "stallman-free-speech-not-beer",
-      "media": [],
-      "relatedIds": [
-        "stallman-gnu-manifesto",
-        "gpl-version-1-released"
+      "date": "1996",
+      "datePrecision": "year",
+      "title": "Richard Stallman: \"free as in speech, not beer\"",
+      "summary": "Richard Stallman clarifies free software as freedom to use and modify code — not zero price.",
+      "about": "The phrase appears in GNU philosophy writing and talks as Stallman fought the confusion between gratis downloads and user freedom. It still surfaces in every LGPL vs MIT license thread.",
+      "narrative": {
+        "whyChosen": "Stallman's most effective one-liner for a politically loaded term.",
+        "whyImportant": "It separated libre from gratis in open-source debates for decades.",
+        "problemSolved": "Businesses and users conflated 'free software' with unpaid products."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "insight",
+        "open-source",
+        "free-software"
       ],
       "people": [
         {
@@ -57,26 +76,15 @@
           "role": "founder"
         }
       ],
-      "category": "quote",
-      "id": "stallman-free-speech-not-beer",
-      "date": "1996",
-      "datePrecision": "year",
-      "title": "Richard Stallman: \"free as in speech, not beer\"",
-      "quoteText": "Think of 'free' as in 'free speech,' not as in 'free beer.'",
-      "summary": "Richard Stallman clarifies free software as freedom to use and modify code — not zero price.",
-      "about": "The phrase appears in GNU philosophy writing and talks as Stallman fought the confusion between gratis downloads and user freedom. It still surfaces in every LGPL vs MIT license thread.",
-      "narrative": {
-        "whyChosen": "Stallman's most effective one-liner for a politically loaded term.",
-        "whyImportant": "It separated libre from gratis in open-source debates for decades.",
-        "problemSolved": "Businesses and users conflated 'free software' with unpaid products."
-      },
-      "tags": [
-        "quote",
-        "insight",
-        "open-source",
-        "free-software"
+      "companies": [
+        {
+          "id": "fsf",
+          "name": "Free Software Foundation"
+        }
       ],
+      "quoteText": "Think of 'free' as in 'free speech,' not as in 'free beer.'",
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "GNU — Free Software Definition (1996 era)",
@@ -88,6 +96,10 @@
           "url": "https://en.wikipedia.org/wiki/Free_software",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "stallman-gnu-manifesto",
+        "gpl-version-1-released"
       ]
     }
   ]

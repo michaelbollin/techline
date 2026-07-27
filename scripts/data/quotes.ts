@@ -1,18 +1,19 @@
 import type { TimelineEvent } from "../../lib/timeline/schema";
 
-type Q = Omit<TimelineEvent, "slug" | "media" | "relatedIds" | "people"> &
-  Partial<Pick<TimelineEvent, "slug" | "media" | "relatedIds" | "people">> & {
+type Q = Omit<TimelineEvent, "slug" | "media" | "relatedIds" | "people" | "companies" | "category"> &
+  Partial<Pick<TimelineEvent, "slug" | "media" | "relatedIds" | "people" | "companies">> & {
     quoteText: string;
   };
 
 function q(event: Q): TimelineEvent {
   return {
+    ...event,
     slug: event.slug ?? event.id,
     media: event.media ?? [],
     relatedIds: event.relatedIds ?? [],
     people: event.people ?? [],
+    companies: event.companies ?? [],
     category: "quote",
-    ...event,
   };
 }
 

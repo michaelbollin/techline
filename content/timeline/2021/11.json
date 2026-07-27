@@ -14,7 +14,20 @@
         "problemSolved": "Teams hesitated on .NET 5 without LTS guarantees for production workloads."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "lts", "cross-platform"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "lts",
+        "cross-platform"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-5-released", "dotnet-core-1-0-released"]
+      "relatedIds": [
+        "dotnet-5-released",
+        "dotnet-core-1-0-released"
+      ]
     },
     {
       "id": "csharp-10-released",
@@ -45,7 +61,19 @@
         "problemSolved": "Namespace braces and repetitive using statements cluttered modern C# files."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +88,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-6-released", "csharp-9-released", "csharp-11-released"]
+      "relatedIds": [
+        "dotnet-6-released",
+        "csharp-9-released",
+        "csharp-11-released"
+      ]
     },
     {
       "id": "ghc-9-2-released",
@@ -76,7 +108,15 @@
         "problemSolved": "Teams hesitated to move off GHC 8.x due to build-time regressions in early 9.0."
       },
       "category": "software",
-      "tags": ["haskell", "ghc", "compiler", "functional-programming", "programming-language"],
+      "tags": [
+        "haskell",
+        "ghc",
+        "compiler",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +131,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ghc-9-0-released", "ghc-9-6-released", "haskell-2010-standard"]
+      "relatedIds": [
+        "ghc-9-0-released",
+        "ghc-9-6-released",
+        "haskell-2010-standard"
+      ]
     }
   ]
 }

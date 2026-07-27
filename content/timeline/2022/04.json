@@ -14,7 +14,19 @@
         "problemSolved": "Tab overload and cluttered browser UI had not changed meaningfully since Chrome's minimal bar."
       },
       "category": "software",
-      "tags": ["browser", "web", "arc", "chromium"],
+      "tags": [
+        "browser",
+        "web",
+        "arc",
+        "chromium"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "vivaldi-browser-launched"]
+      "relatedIds": [
+        "google-chrome-released",
+        "vivaldi-browser-launched"
+      ]
     },
     {
       "id": "nodejs-18-released",
@@ -45,7 +60,14 @@
         "problemSolved": "Server code needed polyfills for fetch and struggled with ESM migration friction."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +82,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-4-released", "nodejs-20-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-4-released",
+        "nodejs-20-released",
+        "nodejs-first-released"
+      ]
     }
   ]
 }

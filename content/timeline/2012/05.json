@@ -20,6 +20,8 @@
         "php",
         "components"
       ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -53,7 +55,24 @@
         "problemSolved": "Samsung needed a controllable mobile browser integrated with Galaxy hardware and services."
       },
       "category": "software",
-      "tags": ["browser", "web", "samsung", "android", "mobile"],
+      "tags": [
+        "browser",
+        "web",
+        "samsung",
+        "android",
+        "mobile"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -68,7 +87,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "chrome-for-android-released"]
+      "relatedIds": [
+        "google-chrome-released",
+        "chrome-for-android-released"
+      ]
     }
   ]
 }

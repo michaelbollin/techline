@@ -1,20 +1,8 @@
 {
   "events": [
     {
-      "slug": "bill-gates-steps-down-microsoft-ceo",
-      "media": [],
-      "relatedIds": [
-        "microsoft-founded",
-        "satya-nadella-microsoft-ceo"
-      ],
-      "people": [
-        {
-          "id": "bill-gates",
-          "name": "Bill Gates",
-          "role": "ceo"
-        }
-      ],
       "id": "bill-gates-steps-down-microsoft-ceo",
+      "slug": "bill-gates-steps-down-microsoft-ceo",
       "date": "2000-01-13",
       "datePrecision": "day",
       "title": "Bill Gates steps down as Microsoft CEO",
@@ -31,7 +19,21 @@
         "microsoft",
         "ceo"
       ],
+      "people": [
+        {
+          "id": "bill-gates",
+          "name": "Bill Gates",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Microsoft — Gates steps down as CEO (January 13, 2000)",
@@ -43,22 +45,15 @@
           "url": "https://en.wikipedia.org/wiki/Bill_Gates",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "microsoft-founded",
+        "satya-nadella-microsoft-ceo"
       ]
     },
     {
-      "slug": "steve-ballmer-named-microsoft-ceo",
-      "media": [],
-      "relatedIds": [
-        "satya-nadella-microsoft-ceo"
-      ],
-      "people": [
-        {
-          "id": "steve-ballmer",
-          "name": "Steve Ballmer",
-          "role": "ceo"
-        }
-      ],
       "id": "steve-ballmer-named-microsoft-ceo",
+      "slug": "steve-ballmer-named-microsoft-ceo",
       "date": "2000-01-13",
       "datePrecision": "day",
       "title": "Steve Ballmer named Microsoft CEO",
@@ -75,7 +70,21 @@
         "microsoft",
         "ceo"
       ],
+      "people": [
+        {
+          "id": "steve-ballmer",
+          "name": "Steve Ballmer",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Microsoft — Ballmer promoted to CEO (January 13, 2000)",
@@ -87,6 +96,9 @@
           "url": "https://en.wikipedia.org/wiki/Steve_Ballmer",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "satya-nadella-microsoft-ceo"
       ]
     }
   ]

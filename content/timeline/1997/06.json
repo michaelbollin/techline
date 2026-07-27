@@ -14,7 +14,19 @@
         "problemSolved": "Without a standard, each browser vendor could change the language and break websites — the open web needed a stable definition."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "standard", "netscape"],
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "standard",
+        "netscape"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["javascript-name-announced", "ecmascript-3-adopted"]
+      "relatedIds": [
+        "javascript-name-announced",
+        "ecmascript-3-adopted"
+      ]
     },
     {
       "id": "netscape-communicator-4-0",
@@ -45,7 +60,19 @@
         "problemSolved": "Users wanted one program for web, mail, and authoring — Netscape packaged the entire workflow."
       },
       "category": "software",
-      "tags": ["browser", "web", "netscape", "email"],
+      "tags": [
+        "browser",
+        "web",
+        "netscape",
+        "email"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +87,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["netscape-navigator-2-0", "internet-explorer-4-0", "mozilla-source-released"]
+      "relatedIds": [
+        "netscape-navigator-2-0",
+        "internet-explorer-4-0",
+        "mozilla-source-released"
+      ]
     }
   ]
 }

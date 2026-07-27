@@ -14,7 +14,28 @@
         "problemSolved": "JetBrains needed a JVM language that compiled as fast as Java and fixed pain points Scala's complexity introduced."
       },
       "category": "software",
-      "tags": ["kotlin", "jetbrains", "jvm", "android", "programming-language"],
+      "tags": [
+        "kotlin",
+        "jetbrains",
+        "jvm",
+        "android",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +50,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "scala-first-release", "kotlin-1-0-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "scala-first-release",
+        "kotlin-1-0-released"
+      ]
     },
     {
       "id": "leveldb-open-sourced",
@@ -45,7 +70,21 @@
         "problemSolved": "Apps needed fast on-disk ordered maps without the overhead of a full SQL or client-server store."
       },
       "category": "software",
-      "tags": ["leveldb", "database", "key-value", "embedded", "google", "open-source"],
+      "tags": [
+        "leveldb",
+        "database",
+        "key-value",
+        "embedded",
+        "google",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +99,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["redis-first-released", "mongodb-first-released", "sqlite-1-0-released"]
+      "relatedIds": [
+        "redis-first-released",
+        "mongodb-first-released",
+        "sqlite-1-0-released"
+      ]
     }
   ]
 }

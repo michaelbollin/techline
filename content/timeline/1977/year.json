@@ -22,6 +22,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "bell-labs",
+          "name": "Bell Labs"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -41,17 +47,8 @@
       ]
     },
     {
-      "slug": "brian-kernighan-awk-coauthored",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "brian-kernighan",
-          "name": "Brian Kernighan",
-          "role": "co-creator"
-        }
-      ],
       "id": "brian-kernighan-awk-coauthored",
+      "slug": "brian-kernighan-awk-coauthored",
       "date": "1977",
       "datePrecision": "year",
       "title": "Brian Kernighan co-creates AWK",
@@ -69,7 +66,16 @@
         "programming-language",
         "tooling"
       ],
+      "people": [
+        {
+          "id": "brian-kernighan",
+          "name": "Brian Kernighan",
+          "role": "co-creator"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Bell Labs — AWK (1977)",
@@ -81,14 +87,28 @@
           "url": "https://en.wikipedia.org/wiki/AWK",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     },
     {
+      "id": "rsa-algorithm-published",
       "slug": "rsa-algorithm-published",
-      "media": [],
-      "relatedIds": [
-        "diffie-hellman-paper-published",
-        "clifford-cocks-public-key"
+      "date": "1977",
+      "datePrecision": "year",
+      "title": "Rivest, Shamir, and Adleman invent RSA",
+      "summary": "Ron Rivest, Adi Shamir, and Leonard Adleman invented the RSA public-key algorithm at MIT in 1977 — enabling encryption and digital signatures at scale.",
+      "about": "RSA turned public-key theory into a practical algorithm used in TLS certificates, SSH host keys, and code signing for decades. Their 1978 Communications of the ACM paper spread RSA beyond academia into commercial security products.",
+      "narrative": {
+        "whyChosen": "RSA became the most widely deployed public-key algorithm of the pre-quantum era.",
+        "whyImportant": "It made digital signatures and encrypted key transport practical for software systems.",
+        "problemSolved": "Public-key cryptography needed a concrete algorithm implementable on 1970s hardware."
+      },
+      "category": "invention",
+      "tags": [
+        "people",
+        "cryptography",
+        "research",
+        "rsa"
       ],
       "people": [
         {
@@ -107,25 +127,9 @@
           "role": "researcher"
         }
       ],
-      "id": "rsa-algorithm-published",
-      "date": "1977",
-      "datePrecision": "year",
-      "title": "Rivest, Shamir, and Adleman invent RSA",
-      "summary": "Ron Rivest, Adi Shamir, and Leonard Adleman invented the RSA public-key algorithm at MIT in 1977 — enabling encryption and digital signatures at scale.",
-      "about": "RSA turned public-key theory into a practical algorithm used in TLS certificates, SSH host keys, and code signing for decades. Their 1978 Communications of the ACM paper spread RSA beyond academia into commercial security products.",
-      "narrative": {
-        "whyChosen": "RSA became the most widely deployed public-key algorithm of the pre-quantum era.",
-        "whyImportant": "It made digital signatures and encrypted key transport practical for software systems.",
-        "problemSolved": "Public-key cryptography needed a concrete algorithm implementable on 1970s hardware."
-      },
-      "category": "invention",
-      "tags": [
-        "people",
-        "cryptography",
-        "research",
-        "rsa"
-      ],
+      "companies": [],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "MIT — RSA algorithm invented (1977)",
@@ -137,22 +141,15 @@
           "url": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "diffie-hellman-paper-published",
+        "clifford-cocks-public-key"
       ]
     },
     {
-      "slug": "john-backus-turing-award",
-      "media": [],
-      "relatedIds": [
-        "fortran-formally-published"
-      ],
-      "people": [
-        {
-          "id": "john-backus",
-          "name": "John Backus",
-          "role": "researcher"
-        }
-      ],
       "id": "john-backus-turing-award",
+      "slug": "john-backus-turing-award",
       "date": "1977",
       "datePrecision": "year",
       "title": "John Backus receives Turing Award",
@@ -170,7 +167,16 @@
         "turing-award",
         "research"
       ],
+      "people": [
+        {
+          "id": "john-backus",
+          "name": "John Backus",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "ACM — 1977 Turing Award (John Backus)",
@@ -182,6 +188,9 @@
           "url": "https://en.wikipedia.org/wiki/John_Backus",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "fortran-formally-published"
       ]
     }
   ]

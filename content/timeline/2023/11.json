@@ -14,7 +14,19 @@
         "problemSolved": "Teams needed a supported LTS with modern deployment and trimming for containers."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "lts"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "lts"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-6-released", "dotnet-5-released"]
+      "relatedIds": [
+        "dotnet-6-released",
+        "dotnet-5-released"
+      ]
     },
     {
       "id": "csharp-12-released",
@@ -45,7 +60,19 @@
         "problemSolved": "Constructor and collection initialization required verbose, inconsistent syntax."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +87,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-8-released", "csharp-11-released", "csharp-10-released"]
+      "relatedIds": [
+        "dotnet-8-released",
+        "csharp-11-released",
+        "csharp-10-released"
+      ]
     },
     {
       "id": "gpt-4-turbo-released",
@@ -76,7 +107,21 @@
         "problemSolved": "GPT-4 was too slow and expensive for apps that processed large inputs frequently."
       },
       "category": "software",
-      "tags": ["ai", "openai", "gpt", "llm", "api", "machine-learning"],
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "llm",
+        "api",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +136,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gpt-4-released", "gpt-4o-released", "chatgpt-released"]
+      "relatedIds": [
+        "gpt-4-released",
+        "gpt-4o-released",
+        "chatgpt-released"
+      ]
     }
   ]
 }

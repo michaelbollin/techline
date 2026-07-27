@@ -14,7 +14,20 @@
         "problemSolved": "Git was powerful locally but lacked a standard place to host, discover, and review shared code."
       },
       "category": "software",
-      "tags": ["github", "git", "vcs", "open-source", "forge"],
+      "tags": [
+        "github",
+        "git",
+        "vcs",
+        "open-source",
+        "forge"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,17 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["git-created", "hudson-ci-released", "travis-ci-launched", "github-actions-ga", "oauth-2-0-standardized", "gitlab-released", "circleci-launched", "bitbucket-launched", "heroku-launched"]
+      "relatedIds": [
+        "git-created",
+        "hudson-ci-released",
+        "travis-ci-launched",
+        "github-actions-ga",
+        "oauth-2-0-standardized",
+        "gitlab-released",
+        "circleci-launched",
+        "bitbucket-launched",
+        "heroku-launched"
+      ]
     },
     {
       "id": "gradle-released",
@@ -45,7 +68,25 @@
         "problemSolved": "Ant and Maven were rigid; large polyglot projects needed a flexible, incremental build language."
       },
       "category": "software",
-      "tags": ["gradle", "build", "java", "groovy", "android", "open-source"],
+      "tags": [
+        "gradle",
+        "build",
+        "java",
+        "groovy",
+        "android",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +101,14 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["make-created", "java-1-0-shipped", "maven-1-0-released", "ant-released", "bazel-open-sourced", "ninja-released"]
+      "relatedIds": [
+        "make-created",
+        "java-1-0-shipped",
+        "maven-1-0-released",
+        "ant-released",
+        "bazel-open-sourced",
+        "ninja-released"
+      ]
     },
     {
       "id": "phusion-passenger-released",
@@ -76,7 +124,21 @@
         "problemSolved": "Rails deploys required juggling multiple Mongrel processes, proxies, and hand-tuned Apache configs."
       },
       "category": "software",
-      "tags": ["passenger", "rails", "ruby", "apache", "deployment", "mod-rails"],
+      "tags": [
+        "passenger",
+        "rails",
+        "ruby",
+        "apache",
+        "deployment",
+        "mod-rails"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apache-software-foundation",
+          "name": "Apache Software Foundation"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +153,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rails-open-sourced", "capistrano-released", "rubygems-released", "apache-http-server-released", "heroku-launched"]
+      "relatedIds": [
+        "rails-open-sourced",
+        "capistrano-released",
+        "rubygems-released",
+        "apache-http-server-released",
+        "heroku-launched"
+      ]
     },
     {
       "id": "intel-atom-announced",
@@ -107,7 +175,22 @@
         "problemSolved": "Laptops were too expensive and power-hungry for secondary devices and emerging markets."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "intel", "atom", "netbook", "embedded", "x86"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "intel",
+        "atom",
+        "netbook",
+        "embedded",
+        "x86"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +205,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["intel-80386-introduced", "amd64-x86-64-announced", "ibm-pc-5150-released"]
+      "relatedIds": [
+        "intel-80386-introduced",
+        "amd64-x86-64-announced",
+        "ibm-pc-5150-released"
+      ]
     }
   ]
 }

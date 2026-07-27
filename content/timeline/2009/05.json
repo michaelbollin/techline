@@ -14,7 +14,14 @@
         "problemSolved": "Server frameworks blocked on each request; Dahl wanted C10k-style concurrency with a language front-end devs already knew."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "v8", "runtime"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "v8",
+        "runtime"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["javascript-name-announced", "express-released", "nestjs-announced", "webpack-released", "browserify-released"]
+      "relatedIds": [
+        "javascript-name-announced",
+        "express-released",
+        "nestjs-announced",
+        "webpack-released",
+        "browserify-released"
+      ]
     },
     {
       "id": "homebrew-released",
@@ -45,7 +58,20 @@
         "problemSolved": "macOS shipped without a friendly package manager for open-source CLI utilities."
       },
       "category": "software",
-      "tags": ["homebrew", "package-manager", "macos", "ruby", "open-source"],
+      "tags": [
+        "homebrew",
+        "package-manager",
+        "macos",
+        "ruby",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +86,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "pip-released"]
+      "relatedIds": [
+        "npm-first-released",
+        "pip-released"
+      ]
     }
   ]
 }

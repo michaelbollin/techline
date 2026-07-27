@@ -23,6 +23,16 @@
         "blink"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -44,19 +54,8 @@
       ]
     },
     {
-      "slug": "yoshua-bengio-mila-founded",
-      "media": [],
-      "relatedIds": [
-        "deep-learning-turing-trio-2018"
-      ],
-      "people": [
-        {
-          "id": "yoshua-bengio",
-          "name": "Yoshua Bengio",
-          "role": "researcher"
-        }
-      ],
       "id": "yoshua-bengio-mila-founded",
+      "slug": "yoshua-bengio-mila-founded",
       "date": "2017-01",
       "datePrecision": "month",
       "title": "Yoshua Bengio leads founding of Mila AI institute",
@@ -74,7 +73,16 @@
         "canada",
         "research"
       ],
+      "people": [
+        {
+          "id": "yoshua-bengio",
+          "name": "Yoshua Bengio",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Mila — About (founded 2017)",
@@ -86,6 +94,9 @@
           "url": "https://en.wikipedia.org/wiki/Mila_(research_institute)",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "deep-learning-turing-trio-2018"
       ]
     }
   ]

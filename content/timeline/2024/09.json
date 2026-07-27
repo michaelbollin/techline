@@ -14,7 +14,20 @@
         "problemSolved": "Async/await adoption exposed subtle threading bugs that only crashed in production."
       },
       "category": "software",
-      "tags": ["swift", "apple", "ios", "programming-language", "concurrency"],
+      "tags": [
+        "swift",
+        "apple",
+        "ios",
+        "programming-language",
+        "concurrency"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["swift-announced", "kotlin-2-0-released"]
+      "relatedIds": [
+        "swift-announced",
+        "kotlin-2-0-released"
+      ]
     },
     {
       "id": "openai-o1-released",
@@ -45,7 +61,21 @@
         "problemSolved": "Standard LLMs struggled with multi-step logic despite larger context windows."
       },
       "category": "software",
-      "tags": ["ai", "openai", "o1", "llm", "reasoning", "machine-learning"],
+      "tags": [
+        "ai",
+        "openai",
+        "o1",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +90,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gpt-4-released", "gpt-4o-released", "chatgpt-released"]
+      "relatedIds": [
+        "gpt-4-released",
+        "gpt-4o-released",
+        "chatgpt-released"
+      ]
     },
     {
       "id": "elixir-1-17-released",
@@ -76,7 +110,14 @@
         "problemSolved": "Complex guard logic was hard to validate without external type tools."
       },
       "category": "software",
-      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +132,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["elixir-1-16-released", "elixir-1-14-released", "erlang-otp-28-released"]
+      "relatedIds": [
+        "elixir-1-16-released",
+        "elixir-1-14-released",
+        "erlang-otp-28-released"
+      ]
     }
   ]
 }

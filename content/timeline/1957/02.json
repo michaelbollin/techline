@@ -20,6 +20,13 @@
         "ibm",
         "programming-language"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 1,
       "media": [
         {

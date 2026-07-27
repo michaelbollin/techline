@@ -14,7 +14,21 @@
         "problemSolved": "Diskless workstations and multi-user labs needed shared files without copying data to every machine."
       },
       "category": "protocol",
-      "tags": ["nfs", "sun", "filesystem", "rpc", "unix", "networking"],
+      "tags": [
+        "nfs",
+        "sun",
+        "filesystem",
+        "rpc",
+        "unix",
+        "networking"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tcp-ip-flag-day", "telnet-standardized", "dns-standardized", "sun-1-released"]
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "telnet-standardized",
+        "dns-standardized",
+        "sun-1-released"
+      ]
     },
     {
       "id": "ibm-pc-at-released",
@@ -45,7 +64,20 @@
         "problemSolved": "The original PC and XT were hitting limits on speed and memory for business applications."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "ibm", "x86", "80286"],
+      "tags": [
+        "hardware",
+        "pc",
+        "ibm",
+        "x86",
+        "80286"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +92,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released", "ibm-pc-5150-discontinued", "intel-80386-introduced"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "ibm-pc-xt-released",
+        "ibm-pc-5150-discontinued",
+        "intel-80386-introduced"
+      ]
     }
   ]
 }

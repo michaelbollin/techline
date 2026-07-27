@@ -14,7 +14,14 @@
         "problemSolved": "Fortran 95 couldn't cleanly talk to C libraries or express object-oriented models that researchers expected from other languages."
       },
       "category": "software",
-      "tags": ["fortran", "iso", "standard", "scientific-computing"],
+      "tags": [
+        "fortran",
+        "iso",
+        "standard",
+        "scientific-computing"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +36,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["fortran-95-standard"]
+      "relatedIds": [
+        "fortran-95-standard"
+      ]
     },
     {
       "id": "firefox-1-0-released",
@@ -45,7 +54,20 @@
         "problemSolved": "Users and developers were stuck on IE 6 with no secure, modern alternative backed by a major open project."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox", "open-source"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +82,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mozilla-source-released", "internet-explorer-6-released", "google-chrome-released"]
+      "relatedIds": [
+        "mozilla-source-released",
+        "internet-explorer-6-released",
+        "google-chrome-released"
+      ]
     }
   ]
 }

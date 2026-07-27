@@ -14,7 +14,24 @@
         "problemSolved": "Android Java was verbose and null-prone; Google needed an official modern alternative developers would adopt."
       },
       "category": "software",
-      "tags": ["kotlin", "android", "google", "programming-language", "mobile"],
+      "tags": [
+        "kotlin",
+        "android",
+        "google",
+        "programming-language",
+        "mobile"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +46,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["kotlin-unveiled", "kotlin-1-0-released", "kotlin-2-0-released", "android-announced", "t-mobile-g1-released"]
+      "relatedIds": [
+        "kotlin-unveiled",
+        "kotlin-1-0-released",
+        "kotlin-2-0-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     },
     {
       "id": "nodejs-8-released",
@@ -45,7 +68,14 @@
         "problemSolved": "Teams transpiled async/await or chained Promises manually before Node 8."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +90,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-6-released", "nodejs-10-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-6-released",
+        "nodejs-10-released",
+        "nodejs-first-released"
+      ]
     }
   ]
 }

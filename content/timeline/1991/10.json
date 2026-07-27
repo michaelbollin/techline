@@ -20,6 +20,8 @@
         "generics",
         "programming-language"
       ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -53,7 +55,20 @@
         "problemSolved": "Early portables placed keyboards awkwardly; users needed a usable pointing device without external mice."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "apple", "powerbook", "macintosh"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "apple",
+        "powerbook",
+        "macintosh"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -68,7 +83,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["macintosh-portable-released", "macintosh-128k-released", "ibm-thinkpad-700c-released", "imac-g3-released", "apple-macbook-air-released"]
+      "relatedIds": [
+        "macintosh-portable-released",
+        "macintosh-128k-released",
+        "ibm-thinkpad-700c-released",
+        "imac-g3-released",
+        "apple-macbook-air-released"
+      ]
     }
   ]
 }

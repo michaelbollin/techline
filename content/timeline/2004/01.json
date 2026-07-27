@@ -14,7 +14,19 @@
         "problemSolved": "Java lacked expressive abstraction for components; researchers needed a scalable language for composable software."
       },
       "category": "software",
-      "tags": ["scala", "jvm", "functional-programming", "programming-language"],
+      "tags": [
+        "scala",
+        "jvm",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped"]
+      "relatedIds": [
+        "java-1-0-shipped"
+      ]
     }
   ]
 }

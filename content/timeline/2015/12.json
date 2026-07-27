@@ -19,6 +19,7 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -59,6 +60,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -98,6 +105,7 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -140,6 +148,7 @@
         "open-source"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -162,20 +171,8 @@
       ]
     },
     {
-      "slug": "sam-altman-openai-founded",
-      "media": [],
-      "relatedIds": [
-        "chatgpt-released",
-        "gpt-4-released"
-      ],
-      "people": [
-        {
-          "id": "sam-altman",
-          "name": "Sam Altman",
-          "role": "co-founder"
-        }
-      ],
       "id": "sam-altman-openai-founded",
+      "slug": "sam-altman-openai-founded",
       "date": "2015-12",
       "datePrecision": "month",
       "title": "Sam Altman co-founds OpenAI",
@@ -193,7 +190,21 @@
         "ai",
         "founding"
       ],
+      "people": [
+        {
+          "id": "sam-altman",
+          "name": "Sam Altman",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "OpenAI — Introducing OpenAI (December 11, 2015)",
@@ -205,23 +216,15 @@
           "url": "https://en.wikipedia.org/wiki/OpenAI",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released"
       ]
     },
     {
-      "slug": "ilya-sutskever-openai-research",
-      "media": [],
-      "relatedIds": [
-        "sam-altman-openai-founded",
-        "hinton-alexnet-imagenet-breakthrough"
-      ],
-      "people": [
-        {
-          "id": "ilya-sutskever",
-          "name": "Ilya Sutskever",
-          "role": "researcher"
-        }
-      ],
       "id": "ilya-sutskever-openai-research",
+      "slug": "ilya-sutskever-openai-research",
       "date": "2015-12-11",
       "datePrecision": "day",
       "title": "Ilya Sutskever named OpenAI research director",
@@ -239,7 +242,21 @@
         "deep-learning",
         "llm"
       ],
+      "people": [
+        {
+          "id": "ilya-sutskever",
+          "name": "Ilya Sutskever",
+          "role": "researcher"
+        }
+      ],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "OpenAI — Introducing OpenAI (December 11, 2015)",
@@ -251,6 +268,10 @@
           "url": "https://en.wikipedia.org/wiki/Ilya_Sutskever",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "sam-altman-openai-founded",
+        "hinton-alexnet-imagenet-breakthrough"
       ]
     }
   ]

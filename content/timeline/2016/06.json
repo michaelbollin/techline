@@ -14,7 +14,20 @@
         "problemSolved": ".NET Framework was Windows-only; cloud-native teams needed the CLR on Linux."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "open-source", "cross-platform"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "open-source",
+        "cross-platform"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-framework-2-0-released", "dotnet-framework-1-0-rtm", "csharp-announced"]
+      "relatedIds": [
+        "dotnet-framework-2-0-released",
+        "dotnet-framework-1-0-rtm",
+        "csharp-announced"
+      ]
     },
     {
       "id": "language-server-protocol-announced",
@@ -45,7 +62,21 @@
         "problemSolved": "Each IDE duplicated parsers and analyzers; language authors could not afford to support every tool."
       },
       "category": "protocol",
-      "tags": ["lsp", "ide", "editor", "protocol", "microsoft", "standard"],
+      "tags": [
+        "lsp",
+        "ide",
+        "editor",
+        "protocol",
+        "microsoft",
+        "standard"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +91,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["visual-studio-code-preview", "intellij-idea-released", "clang-open-sourced"]
+      "relatedIds": [
+        "visual-studio-code-preview",
+        "intellij-idea-released",
+        "clang-open-sourced"
+      ]
     }
   ]
 }

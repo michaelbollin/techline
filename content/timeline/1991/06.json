@@ -22,6 +22,12 @@
         "open-source"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "fsf",
+          "name": "Free Software Foundation"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -42,17 +48,8 @@
       ]
     },
     {
-      "slug": "phil-zimmermann-pgp-released",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "phil-zimmermann",
-          "name": "Phil Zimmermann",
-          "role": "creator"
-        }
-      ],
       "id": "phil-zimmermann-pgp-released",
+      "slug": "phil-zimmermann-pgp-released",
       "date": "1991-06-05",
       "datePrecision": "day",
       "title": "Phil Zimmermann releases PGP",
@@ -70,7 +67,16 @@
         "privacy",
         "pgp"
       ],
+      "people": [
+        {
+          "id": "phil-zimmermann",
+          "name": "Phil Zimmermann",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Phil Zimmermann — PGP 10th anniversary (released June 5, 1991)",
@@ -82,7 +88,8 @@
           "url": "https://en.wikipedia.org/wiki/Pretty_Good_Privacy",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

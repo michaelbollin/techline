@@ -14,7 +14,19 @@
         "problemSolved": "Windows developers juggled incompatible APIs for desktop (COM/MFC) and web (classic ASP); .NET offered one managed platform for both."
       },
       "category": "software",
-      "tags": ["dotnet", "microsoft", "clr", "framework"],
+      "tags": [
+        "dotnet",
+        "microsoft",
+        "clr",
+        "framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -34,7 +46,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["csharp-announced", "visual-basic-net-released", "aspnet-1-0-released"]
+      "relatedIds": [
+        "csharp-announced",
+        "visual-basic-net-released",
+        "aspnet-1-0-released"
+      ]
     }
   ]
 }

@@ -14,7 +14,23 @@
         "problemSolved": "AOL could not sustain a competing browser; users needed a clear migration path to supported software."
       },
       "category": "software",
-      "tags": ["browser", "web", "netscape", "mozilla"],
+      "tags": [
+        "browser",
+        "web",
+        "netscape",
+        "mozilla"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        },
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +45,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["netscape-navigator-1-0", "mozilla-source-released", "firefox-1-0-released"]
+      "relatedIds": [
+        "netscape-navigator-1-0",
+        "mozilla-source-released",
+        "firefox-1-0-released"
+      ]
     }
   ]
 }

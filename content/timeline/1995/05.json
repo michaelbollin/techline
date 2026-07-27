@@ -21,6 +21,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -61,6 +67,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -101,6 +113,7 @@
         "open-source"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -124,11 +137,25 @@
       ]
     },
     {
+      "id": "gates-internet-tidal-wave-memo",
       "slug": "gates-internet-tidal-wave-memo",
-      "media": [],
-      "relatedIds": [
-        "microsoft-founded",
-        "internet-explorer-1-0"
+      "date": "1995-05-26",
+      "datePrecision": "day",
+      "title": "Bill Gates declares the \"Internet tidal wave\"",
+      "summary": "Bill Gates's internal Microsoft memo redirects the company to make the Internet central to every product.",
+      "about": "Gates had initially dismissed the web; this memo is the pivot. It led to IE bundling, MSN strategy, and the browser wars — and later antitrust scrutiny.",
+      "narrative": {
+        "whyChosen": "The moment Microsoft officially bet the company on the web.",
+        "whyImportant": "It accelerated browser development and reshaped Windows as a networked platform.",
+        "problemSolved": "Microsoft risked missing the Internet after focusing on desktop CD-ROM products."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "prediction",
+        "microsoft",
+        "internet",
+        "web"
       ],
       "people": [
         {
@@ -137,27 +164,15 @@
           "role": "ceo"
         }
       ],
-      "category": "quote",
-      "id": "gates-internet-tidal-wave-memo",
-      "date": "1995-05-26",
-      "datePrecision": "day",
-      "title": "Bill Gates declares the \"Internet tidal wave\"",
-      "quoteText": "The Internet is a tidal wave. It changes the rules. It is an incredible opportunity as well as an incredible challenge.",
-      "summary": "Bill Gates's internal Microsoft memo redirects the company to make the Internet central to every product.",
-      "about": "Gates had initially dismissed the web; this memo is the pivot. It led to IE bundling, MSN strategy, and the browser wars — and later antitrust scrutiny.",
-      "narrative": {
-        "whyChosen": "The moment Microsoft officially bet the company on the web.",
-        "whyImportant": "It accelerated browser development and reshaped Windows as a networked platform.",
-        "problemSolved": "Microsoft risked missing the Internet after focusing on desktop CD-ROM products."
-      },
-      "tags": [
-        "quote",
-        "prediction",
-        "microsoft",
-        "internet",
-        "web"
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
       ],
+      "quoteText": "The Internet is a tidal wave. It changes the rules. It is an incredible opportunity as well as an incredible challenge.",
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Microsoft — Internet Tidal Wave memo (May 26, 1995)",
@@ -169,6 +184,10 @@
           "url": "https://en.wikipedia.org/wiki/Internet_Tidal_Wave",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "microsoft-founded",
+        "internet-explorer-1-0"
       ]
     }
   ]

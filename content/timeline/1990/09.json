@@ -14,7 +14,20 @@
         "problemSolved": "The original NeXT Computer was too expensive for many research groups that wanted NeXTSTEP."
       },
       "category": "hardware",
-      "tags": ["hardware", "workstation", "next", "unix", "objective-c"],
+      "tags": [
+        "hardware",
+        "workstation",
+        "next",
+        "unix",
+        "objective-c"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["next-computer-released", "worldwideweb-browser", "objective-c-created", "macintosh-128k-released"]
+      "relatedIds": [
+        "next-computer-released",
+        "worldwideweb-browser",
+        "objective-c-created",
+        "macintosh-128k-released"
+      ]
     }
   ]
 }

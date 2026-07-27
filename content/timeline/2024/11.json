@@ -14,7 +14,12 @@
         "problemSolved": "PHP classes needed verbose getter/setter pairs or `__get` magic for computed properties."
       },
       "category": "software",
-      "tags": ["php", "programming-language"],
+      "tags": [
+        "php",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +34,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-8-0-released"]
+      "relatedIds": [
+        "php-8-0-released"
+      ]
     },
     {
       "id": "zig-1-0-released",
@@ -45,7 +52,13 @@
         "problemSolved": "Pre-1.0 Zig changed rapidly; contributors and companies needed a compatibility promise."
       },
       "category": "software",
-      "tags": ["zig", "systems", "programming-language"],
+      "tags": [
+        "zig",
+        "systems",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +73,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["zig-announced", "rust-1-0-released"]
+      "relatedIds": [
+        "zig-announced",
+        "rust-1-0-released"
+      ]
     },
     {
       "id": "dotnet-9-released",
@@ -76,7 +92,18 @@
         "problemSolved": "Developers on .NET 8 LTS needed a path to newer APIs without waiting two years."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +118,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-8-released", "dotnet-7-released", "dotnet-6-released"]
+      "relatedIds": [
+        "dotnet-8-released",
+        "dotnet-7-released",
+        "dotnet-6-released"
+      ]
     },
     {
       "id": "csharp-13-released",
@@ -107,7 +138,19 @@
         "problemSolved": "Variable-argument APIs required array allocations or `params object[]` workarounds."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +165,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-9-released", "csharp-12-released", "csharp-11-released"]
+      "relatedIds": [
+        "dotnet-9-released",
+        "csharp-12-released",
+        "csharp-11-released"
+      ]
     }
   ]
 }

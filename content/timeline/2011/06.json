@@ -14,7 +14,20 @@
         "problemSolved": "Consumers and schools needed affordable laptops with zero-maintenance software updates."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "google", "chromebook", "chrome-os"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "google",
+        "chromebook",
+        "chrome-os"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["chromebook-cr-48-pilot", "google-chrome-released", "intel-atom-announced"]
+      "relatedIds": [
+        "chromebook-cr-48-pilot",
+        "google-chrome-released",
+        "intel-atom-announced"
+      ]
     },
     {
       "id": "laravel-first-beta",
@@ -45,7 +62,14 @@
         "problemSolved": "PHP frameworks lacked cohesive ergonomics; developers wanted Rails-like productivity on PHP."
       },
       "category": "software",
-      "tags": ["laravel", "php", "web-framework", "taylor-otwell"],
+      "tags": [
+        "laravel",
+        "php",
+        "web-framework",
+        "taylor-otwell"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +84,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released", "symfony-released", "laravel-symfony-http-foundation"]
+      "relatedIds": [
+        "php-tools-1-0-released",
+        "symfony-released",
+        "laravel-symfony-http-foundation"
+      ]
     },
     {
       "id": "firefox-5-released",
@@ -76,7 +104,19 @@
         "problemSolved": "Year-long Firefox releases left users waiting for security fixes and new web APIs."
       },
       "category": "software",
-      "tags": ["browser", "web", "mozilla", "firefox"],
+      "tags": [
+        "browser",
+        "web",
+        "mozilla",
+        "firefox"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +131,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["firefox-6-released", "google-chrome-released"]
+      "relatedIds": [
+        "firefox-6-released",
+        "google-chrome-released"
+      ]
     }
   ]
 }

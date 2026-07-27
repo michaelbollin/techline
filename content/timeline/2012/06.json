@@ -14,7 +14,21 @@
         "problemSolved": "Android's stock browser lagged desktop Chrome in speed, sync, and developer tools."
       },
       "category": "software",
-      "tags": ["browser", "web", "google", "chrome", "android", "mobile"],
+      "tags": [
+        "browser",
+        "web",
+        "google",
+        "chrome",
+        "android",
+        "mobile"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "safari-announced", "android-announced", "t-mobile-g1-released", "iphone-goes-on-sale"]
+      "relatedIds": [
+        "google-chrome-released",
+        "safari-announced",
+        "android-announced",
+        "t-mobile-g1-released",
+        "iphone-goes-on-sale"
+      ]
     }
   ]
 }

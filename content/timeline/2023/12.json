@@ -14,7 +14,21 @@
         "problemSolved": "Google needed a unified model family to compete with OpenAI and Anthropic across products."
       },
       "category": "software",
-      "tags": ["ai", "google", "gemini", "llm", "multimodal", "machine-learning"],
+      "tags": [
+        "ai",
+        "google",
+        "gemini",
+        "llm",
+        "multimodal",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["chatgpt-released", "gpt-4-released", "claude-3-released"]
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released",
+        "claude-3-released"
+      ]
     }
   ]
 }

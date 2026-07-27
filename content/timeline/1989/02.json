@@ -1,19 +1,8 @@
 {
   "events": [
     {
-      "slug": "gpl-version-1-released",
-      "media": [],
-      "relatedIds": [
-        "stallman-gnu-manifesto"
-      ],
-      "people": [
-        {
-          "id": "richard-stallman",
-          "name": "Richard Stallman",
-          "role": "author"
-        }
-      ],
       "id": "gpl-version-1-released",
+      "slug": "gpl-version-1-released",
       "date": "1989-02",
       "datePrecision": "month",
       "title": "GPL version 1 published",
@@ -31,7 +20,21 @@
         "license",
         "free-software"
       ],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "author"
+        }
+      ],
+      "companies": [
+        {
+          "id": "fsf",
+          "name": "Free Software Foundation"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "GNU — GPL version 1 (February 1989)",
@@ -43,6 +46,9 @@
           "url": "https://en.wikipedia.org/wiki/GNU_General_Public_License",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "stallman-gnu-manifesto"
       ]
     }
   ]

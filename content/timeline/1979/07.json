@@ -14,7 +14,20 @@
         "problemSolved": "PC designs needed 16-bit computing at a price point 8-bit peripherals could support."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "intel", "x86", "microprocessor"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "intel",
+        "x86",
+        "microprocessor"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["intel-8086-introduced", "ibm-pc-5150-released", "intel-80386-introduced"]
+      "relatedIds": [
+        "intel-8086-introduced",
+        "ibm-pc-5150-released",
+        "intel-80386-introduced"
+      ]
     }
   ]
 }

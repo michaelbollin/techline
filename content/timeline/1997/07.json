@@ -26,6 +26,12 @@
           "role": "ceo"
         }
       ],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [

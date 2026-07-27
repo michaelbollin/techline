@@ -14,7 +14,21 @@
         "problemSolved": "Early web software mixed incompatible naming schemes; hyperlinks needed one portable syntax."
       },
       "category": "protocol",
-      "tags": ["uri", "url", "protocol", "standard", "web", "ietf"],
+      "tags": [
+        "uri",
+        "url",
+        "protocol",
+        "standard",
+        "web",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["worldwideweb-browser", "http-1-1-standardized", "dns-standardized", "html-invented"]
+      "relatedIds": [
+        "worldwideweb-browser",
+        "http-1-1-standardized",
+        "dns-standardized",
+        "html-invented"
+      ]
     }
   ]
 }

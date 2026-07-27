@@ -14,7 +14,20 @@
         "problemSolved": "JavaScript lacked optional types and tooling for million-line web clients; Google wanted a structured alternative."
       },
       "category": "software",
-      "tags": ["dart", "google", "flutter", "web", "programming-language"],
+      "tags": [
+        "dart",
+        "google",
+        "flutter",
+        "web",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dart-unveiled", "javascript-name-announced", "typescript-preview-released"]
+      "relatedIds": [
+        "dart-unveiled",
+        "javascript-name-announced",
+        "typescript-preview-released"
+      ]
     },
     {
       "id": "gitlab-released",
@@ -45,7 +62,16 @@
         "problemSolved": "Teams wanted Git collaboration without depending on a single proprietary SaaS forge."
       },
       "category": "software",
-      "tags": ["gitlab", "git", "vcs", "devops", "ci", "open-source"],
+      "tags": [
+        "gitlab",
+        "git",
+        "vcs",
+        "devops",
+        "ci",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +86,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["github-launched", "git-created", "travis-ci-launched", "hudson-ci-released", "bitbucket-launched"]
+      "relatedIds": [
+        "github-launched",
+        "git-created",
+        "travis-ci-launched",
+        "hudson-ci-released",
+        "bitbucket-launched"
+      ]
     }
   ]
 }

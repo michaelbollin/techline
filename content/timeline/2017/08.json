@@ -1,20 +1,8 @@
 {
   "events": [
     {
-      "slug": "chris-wanstrath-github-ceo-steps-down",
-      "media": [],
-      "relatedIds": [
-        "github-launched",
-        "tom-preston-werner-github-resigns"
-      ],
-      "people": [
-        {
-          "id": "chris-wanstrath",
-          "name": "Chris Wanstrath",
-          "role": "ceo"
-        }
-      ],
       "id": "chris-wanstrath-github-ceo-steps-down",
+      "slug": "chris-wanstrath-github-ceo-steps-down",
       "date": "2017-08-17",
       "datePrecision": "day",
       "title": "Chris Wanstrath announces he will step down as GitHub CEO",
@@ -31,7 +19,21 @@
         "github",
         "ceo"
       ],
+      "people": [
+        {
+          "id": "chris-wanstrath",
+          "name": "Chris Wanstrath",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
       "importance": 3,
+      "media": [],
       "sources": [
         {
           "title": "CNBC — Wanstrath stepping down as CEO (August 17, 2017)",
@@ -43,6 +45,10 @@
           "url": "https://en.wikipedia.org/wiki/Chris_Wanstrath",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "github-launched",
+        "tom-preston-werner-github-resigns"
       ]
     }
   ]

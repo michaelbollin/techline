@@ -58,6 +58,14 @@ export const personRefSchema = z.object({
   role: personRoleSchema,
 });
 
+export const companyRefSchema = z.object({
+  id: z
+    .string()
+    .min(1)
+    .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "company id must be kebab-case"),
+  name: z.string().min(1),
+});
+
 export const timelineEventSchema = z.object({
   id: z
     .string()
@@ -78,6 +86,8 @@ export const timelineEventSchema = z.object({
   tags: z.array(z.string().min(1)).default([]),
   /** Key figures tied to this milestone — use on tech events instead of duplicating a person event. */
   people: z.array(personRefSchema).default([]),
+  /** Vendor, foundation, or lab tied to this milestone — seeded via `npm run seed:companies`. */
+  companies: z.array(companyRefSchema).default([]),
   /** Exact wording for `category: "quote"` events — the famous line(s). */
   quoteText: z.string().min(1).optional(),
   importance: z.union([z.literal(1), z.literal(2), z.literal(3)]),
@@ -108,6 +118,7 @@ export type SourceRole = z.infer<typeof sourceRoleSchema>;
 export type Narrative = z.infer<typeof narrativeSchema>;
 export type PersonRole = z.infer<typeof personRoleSchema>;
 export type PersonRef = z.infer<typeof personRefSchema>;
+export type CompanyRef = z.infer<typeof companyRefSchema>;
 export type TimelineEvent = z.infer<typeof timelineEventSchema>;
 export type TimelineBucketFile = z.infer<typeof timelineBucketFileSchema>;
 

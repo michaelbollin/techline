@@ -22,6 +22,7 @@
         "open-source"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -43,11 +44,25 @@
       ]
     },
     {
+      "id": "schwartz-innovate-not-litigate",
       "slug": "schwartz-innovate-not-litigate",
-      "media": [],
-      "relatedIds": [
-        "ballmer-linux-cancer",
-        "linux-kernel-announced"
+      "date": "2007-05-15",
+      "datePrecision": "day",
+      "title": "Jonathan Schwartz: \"innovate, not litigate\"",
+      "summary": "Sun CEO Jonathan Schwartz responds to Microsoft's patent threats against Linux — offering Sun's patent portfolio to defend open source instead of suing.",
+      "about": "Press dubbed Microsoft's campaign 'patent terrorism'; Schwartz framed Sun's choice as building better products rather than lawyering rivals. The blog post became a rallying cry during the open-source wars of the 2000s.",
+      "narrative": {
+        "whyChosen": "Sun's public line when Microsoft threatened Linux with unspecified patents.",
+        "whyImportant": "It contrasted litigation strategy with open-source ecosystem building.",
+        "problemSolved": "The Linux community needed corporate allies willing to counter patent FUD."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "controversy",
+        "open-source",
+        "patents",
+        "sun"
       ],
       "people": [
         {
@@ -56,27 +71,15 @@
           "role": "ceo"
         }
       ],
-      "category": "quote",
-      "id": "schwartz-innovate-not-litigate",
-      "date": "2007-05-15",
-      "datePrecision": "day",
-      "title": "Jonathan Schwartz: \"innovate, not litigate\"",
-      "quoteText": "We decided to innovate, not litigate.",
-      "summary": "Sun CEO Jonathan Schwartz responds to Microsoft's patent threats against Linux — offering Sun's patent portfolio to defend open source instead of suing.",
-      "about": "Press dubbed Microsoft's campaign 'patent terrorism'; Schwartz framed Sun's choice as building better products rather than lawyering rivals. The blog post became a rallying cry during the open-source wars of the 2000s.",
-      "narrative": {
-        "whyChosen": "Sun's public line when Microsoft threatened Linux with unspecified patents.",
-        "whyImportant": "It contrasted litigation strategy with open-source ecosystem building.",
-        "problemSolved": "The Linux community needed corporate allies willing to counter patent FUD."
-      },
-      "tags": [
-        "quote",
-        "controversy",
-        "open-source",
-        "patents",
-        "sun"
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
       ],
+      "quoteText": "We decided to innovate, not litigate.",
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Jonathan Schwartz blog — innovate, not litigate (May 15, 2007)",
@@ -88,6 +91,10 @@
           "url": "https://www.techdirt.com/2007/05/16/sun-to-microsoft-real-companies-innovate-not-litigate/",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "ballmer-linux-cancer",
+        "linux-kernel-announced"
       ]
     }
   ]

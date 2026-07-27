@@ -14,7 +14,15 @@
         "problemSolved": "Python lacked a simple, reliable installer that handled uninstalls and version pinning well."
       },
       "category": "software",
-      "tags": ["pip", "python", "package-manager", "pypi", "open-source"],
+      "tags": [
+        "pip",
+        "python",
+        "package-manager",
+        "pypi",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +37,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "python-2-7-released", "cargo-released"]
+      "relatedIds": [
+        "npm-first-released",
+        "python-2-7-released",
+        "cargo-released"
+      ]
     },
     {
       "id": "t-mobile-g1-released",
@@ -45,7 +57,21 @@
         "problemSolved": "Android needed a shipping reference device to attract developers and carrier partners."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "android", "smartphone", "google", "htc"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "android",
+        "smartphone",
+        "google",
+        "htc"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +86,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["android-announced", "iphone-goes-on-sale", "iphone-app-store-opens", "kotlin-android-official", "chrome-for-android-released"]
+      "relatedIds": [
+        "android-announced",
+        "iphone-goes-on-sale",
+        "iphone-app-store-opens",
+        "kotlin-android-official",
+        "chrome-for-android-released"
+      ]
     }
   ]
 }

@@ -14,7 +14,19 @@
         "problemSolved": "Organizations on Java 8 needed a supported path to modern syntax without annual upgrade churn."
       },
       "category": "software",
-      "tags": ["java", "jvm", "programming-language", "lts"],
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "lts"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "java-21-released", "kotlin-2-0-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "java-21-released",
+        "kotlin-2-0-released"
+      ]
     },
     {
       "id": "safari-15-ios-web-extensions",
@@ -45,7 +61,21 @@
         "problemSolved": "iPhone browsing lacked the extension ecosystem developers and users expected on desktop."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "ios", "webkit"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "ios",
+        "webkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -60,7 +90,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-announced", "safari-14-big-sur"]
+      "relatedIds": [
+        "safari-announced",
+        "safari-14-big-sur"
+      ]
     },
     {
       "id": "swift-5-5-async-await",
@@ -76,7 +109,20 @@
         "problemSolved": "Completion handlers and manual queue management produced bugs and unreadable async code."
       },
       "category": "software",
-      "tags": ["swift", "apple", "ios", "programming-language", "concurrency"],
+      "tags": [
+        "swift",
+        "apple",
+        "ios",
+        "programming-language",
+        "concurrency"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +137,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["swift-announced", "swift-open-sourced", "swift-6-released"]
+      "relatedIds": [
+        "swift-announced",
+        "swift-open-sourced",
+        "swift-6-released"
+      ]
     }
   ]
 }

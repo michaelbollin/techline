@@ -20,6 +20,13 @@
         "macromedia",
         "web"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "adobe",
+          "name": "Adobe"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -53,7 +60,25 @@
         "problemSolved": "Java web developers needed a free, portable runtime for servlets without buying WebLogic or WebSphere."
       },
       "category": "software",
-      "tags": ["tomcat", "java", "servlet", "jsp", "apache", "open-source"],
+      "tags": [
+        "tomcat",
+        "java",
+        "servlet",
+        "jsp",
+        "apache",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apache-software-foundation",
+          "name": "Apache Software Foundation"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -68,7 +93,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["java-1-0-shipped", "ant-released", "jetty-released", "apache-http-server-released", "spring-framework-1-0-released"]
+      "relatedIds": [
+        "java-1-0-shipped",
+        "ant-released",
+        "jetty-released",
+        "apache-http-server-released",
+        "spring-framework-1-0-released"
+      ]
     }
   ]
 }

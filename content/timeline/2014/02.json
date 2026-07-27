@@ -21,6 +21,7 @@
         "web-framework"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -62,6 +63,7 @@
         "standard"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -83,21 +85,8 @@
       ]
     },
     {
-      "slug": "satya-nadella-microsoft-ceo",
-      "media": [],
-      "relatedIds": [
-        "dotnet-6-released",
-        "github-launched",
-        "typescript-preview-released"
-      ],
-      "people": [
-        {
-          "id": "satya-nadella",
-          "name": "Satya Nadella",
-          "role": "ceo"
-        }
-      ],
       "id": "satya-nadella-microsoft-ceo",
+      "slug": "satya-nadella-microsoft-ceo",
       "date": "2014-02-04",
       "datePrecision": "day",
       "title": "Satya Nadella named Microsoft CEO",
@@ -115,7 +104,21 @@
         "ceo",
         "open-source"
       ],
+      "people": [
+        {
+          "id": "satya-nadella",
+          "name": "Satya Nadella",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Microsoft — Satya Nadella CEO announcement (February 4, 2014)",
@@ -127,6 +130,11 @@
           "url": "https://en.wikipedia.org/wiki/Satya_Nadella",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "dotnet-6-released",
+        "github-launched",
+        "typescript-preview-released"
       ]
     }
   ]

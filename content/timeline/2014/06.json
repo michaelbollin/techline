@@ -21,6 +21,12 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,6 +66,7 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -102,6 +109,16 @@
         "google"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "docker",
+          "name": "Docker"
+        },
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -125,17 +142,8 @@
       ]
     },
     {
-      "slug": "ian-goodfellow-gan-invented",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "ian-goodfellow",
-          "name": "Ian Goodfellow",
-          "role": "researcher"
-        }
-      ],
       "id": "ian-goodfellow-gan-invented",
+      "slug": "ian-goodfellow-gan-invented",
       "date": "2014-06",
       "datePrecision": "month",
       "title": "Ian Goodfellow invents GANs",
@@ -152,7 +160,16 @@
         "generative-ai",
         "deep-learning"
       ],
+      "people": [
+        {
+          "id": "ian-goodfellow",
+          "name": "Ian Goodfellow",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "arXiv — Generative Adversarial Networks (June 2014)",
@@ -164,7 +181,8 @@
           "url": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

@@ -2,9 +2,9 @@
 
 Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timeline events to **companies, vendors, and foundations** when one is clearly involved.
 
-**Coverage:** 268 of 547 events mapped · 36 organizations
+**Coverage:** 310 of 628 events mapped · 36 organizations
 
-> Reference map only — not wired into timeline load/schema yet. Regenerate with `npm run generate:company-map`. Edit `lib/timeline/company-registry.ts` (tag rules) or `lib/timeline/company-attributions.ts` (manual overrides).
+> Regenerate with `npm run seed:companies` then `npm run generate:company-map`. Edit `lib/timeline/company-registry.ts` (tag rules) or `lib/timeline/company-attributions.ts` (manual overrides).
 
 ---
 
@@ -19,12 +19,13 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 
 ## By company
 
-### Adobe (`adobe`) — 3 events
+### Adobe (`adobe`) — 4 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1999-06-15 | `flash-4-scripting` | Flash 4 ships with a real scripting language |
 | 2000-08-24 | `actionscript-1-0-flash-5` | ActionScript 1.0 debuts with Flash 5 |
+| 2010-04-29 | `jobs-flash-closed-system` | Steve Jobs: "Flash is a closed system" |
 | 2020-12-31 | `flash-player-discontinued` | Adobe Flash Player discontinued |
 
 ### Amazon (`amazon`) — 2 events
@@ -34,10 +35,11 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2005-09 | `werner-vogels-amazon-cto` | Werner Vogels named Amazon CTO |
 | 2016-04 | `andy-jassy-aws-ceo` | Andy Jassy named AWS CEO |
 
-### AMD (`amd`) — 2 events
+### AMD (`amd`) — 3 events
 
 | Date | Event id | Title |
 |------|----------|-------|
+| 2003-04-22 | `amd64-x86-64-announced` | AMD64 (x86-64) announced |
 | 2014-10-08 | `lisa-su-amd-ceo` | Lisa Su named AMD CEO |
 | 2017-03-02 | `lisa-su-amd-zen-launched` | Lisa Su launches AMD Ryzen on Zen architecture |
 
@@ -63,39 +65,53 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2008-04-11 | `phusion-passenger-released` | Phusion Passenger released |
 | 2008-07-14 | `apache-cassandra-open-sourced` | Apache Cassandra open sourced |
 
-### Apple (`apple`) — 33 events
+### Apple (`apple`) — 47 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1976-04-01 | `steve-wozniak-apple-founded` | Steve Jobs and Steve Wozniak found Apple |
+| 1976-07 | `apple-i-released` | Apple I goes on sale |
 | 1977-04-16 | `apple-ii-introduced` | Steve Jobs and Steve Wozniak introduce the Apple II |
 | 1983-01-19 | `apple-lisa-released` | Apple Lisa released |
 | 1984 | `objective-c-created` | Objective-C created at Stepstone |
 | 1984 | `susan-kare-macintosh-icons` | Susan Kare designs Macintosh icons |
 | 1984-01-24 | `macintosh-128k-released` | Macintosh 128K released |
 | 1988-10-12 | `next-computer-released` | NeXT Computer released |
+| 1989-09 | `macintosh-portable-released` | Macintosh Portable released |
+| 1990-09 | `nextstation-released` | NeXTstation released |
+| 1991-10 | `apple-powerbook-released` | Apple PowerBook released |
+| 1993-08 | `apple-newton-released` | Apple Newton MessagePad released |
 | 1997-07-09 | `steve-jobs-returns-to-apple` | Steve Jobs returns to Apple as interim CEO |
+| 1998-08-15 | `imac-g3-released` | iMac G3 released |
 | 2003-01-07 | `safari-announced` | Safari announced at Macworld |
 | 2005-06-07 | `webkit-open-sourced` | WebKit open-sourced by Apple |
 | 2007-01-09 | `steve-jobs-iphone-introduced` | Steve Jobs introduces the iPhone |
 | 2007-06-11 | `safari-3-windows-released` | Safari 3 for Windows released |
 | 2007-06-29 | `iphone-goes-on-sale` | iPhone goes on sale |
 | 2007-07-11 | `clang-open-sourced` | Clang open-sourced |
+| 2008-01-29 | `apple-macbook-air-released` | MacBook Air released |
 | 2008-07-10 | `iphone-app-store-opens` | iPhone App Store opens |
+| 2008-07-11 | `iphone-3g-released` | iPhone 3G released |
 | 2009-02-24 | `safari-4-released` | Safari 4 beta released |
 | 2009-05-20 | `homebrew-released` | Homebrew first released |
+| 2010-01-27 | `apple-a4-introduced` | Apple A4 chip introduced |
 | 2010-01-27 | `ipad-introduced` | iPad introduced |
+| 2010-04-29 | `jobs-flash-closed-system` | Steve Jobs: "Flash is a closed system" |
 | 2010-06-07 | `safari-5-released` | Safari 5 released |
+| 2010-06-24 | `iphone-4-released` | iPhone 4 released |
 | 2012-07-25 | `safari-6-released` | Safari 6 released |
 | 2013-10-22 | `safari-7-released` | Safari 7 released |
 | 2014-06-02 | `swift-announced` | Swift programming language announced at WWDC |
 | 2014-10-16 | `safari-8-released` | Safari 8 released |
+| 2015-04-24 | `apple-watch-released` | Apple Watch released |
 | 2015-06-08 | `swift-2-announced` | Swift 2 announced at WWDC |
 | 2015-09-30 | `safari-9-released` | Safari 9 released |
 | 2015-12-03 | `swift-open-sourced` | Swift open-sourced |
 | 2016-09-20 | `safari-10-released` | Safari 10 released |
 | 2017-09-19 | `safari-11-released` | Safari 11 released |
 | 2020-11 | `safari-14-big-sur` | Safari 14 shipped with macOS Big Sur |
+| 2020-11-10 | `apple-m1-announced` | Apple M1 announced |
+| 2020-11-17 | `apple-m1-mac-shipped` | M1 MacBook Air and Pro ship |
 | 2021-09 | `safari-15-ios-web-extensions` | Safari 15 brought web extensions to iOS |
 | 2021-09-20 | `swift-5-5-async-await` | Swift 5.5 async/await released |
 | 2024-03 | `ios-eu-browser-choice` | iOS EU browser choice screens |
@@ -133,7 +149,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2014-06-10 | `kubernetes-open-sourced` | Kubernetes open-sourced |
 | 2015-06-22 | `open-container-initiative-launched` | Open Container Initiative launched |
 
-### Free Software Foundation (`fsf`) — 6 events
+### Free Software Foundation (`fsf`) — 7 events
 
 | Date | Event id | Title |
 |------|----------|-------|
@@ -143,6 +159,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 1989-02 | `gpl-version-1-released` | GPL version 1 published |
 | 1989-06-08 | `bash-1-0-released` | Bash 1.0 released for the GNU Project |
 | 1991-06 | `autoconf-released` | Autoconf created |
+| 1996 | `stallman-free-speech-not-beer` | Richard Stallman: "free as in speech, not beer" |
 
 ### GitHub (`github`) — 5 events
 
@@ -154,7 +171,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2017-08-17 | `chris-wanstrath-github-ceo-steps-down` | Chris Wanstrath announces he will step down as GitHub CEO |
 | 2019-11-13 | `github-actions-ga` | GitHub Actions generally available |
 
-### Google (`google`) — 42 events
+### Google (`google`) — 45 events
 
 | Date | Event id | Title |
 |------|----------|-------|
@@ -165,9 +182,12 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2008-09-02 | `google-chrome-released` | Google Chrome 1.0 released |
 | 2008-10-22 | `t-mobile-g1-released` | T-Mobile G1 released |
 | 2009-11-10 | `go-open-sourced` | Go programming language open-sourced |
+| 2010-06 | `samsung-galaxy-s-released` | Samsung Galaxy S released |
 | 2010-09 | `demis-hassabis-deepmind-founded` | Demis Hassabis co-founds DeepMind |
 | 2010-10-20 | `angularjs-released` | AngularJS released |
+| 2010-12 | `chromebook-cr-48-pilot` | Chromebook CR-48 pilot begins |
 | 2011-02-06 | `ninja-released` | Ninja build system open-sourced |
+| 2011-06 | `chromebook-retail-launched` | Chromebooks go on sale |
 | 2011-07-19 | `kotlin-unveiled` | Kotlin announced |
 | 2011-07-28 | `leveldb-open-sourced` | LevelDB open-sourced |
 | 2011-10-10 | `dart-unveiled` | Dart language unveiled at GOTO |
@@ -214,7 +234,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 |------|----------|-------|
 | 2007-06 | `heroku-launched` | Heroku founded |
 
-### IBM (`ibm`) — 8 events
+### IBM (`ibm`) — 12 events
 
 | Date | Event id | Title |
 |------|----------|-------|
@@ -224,6 +244,10 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 1974-05-01 | `sequel-paper-published` | SQL database language invented |
 | 1981-08-12 | `ibm-pc-5150-released` | IBM PC 5150 released |
 | 1983-03 | `ibm-pc-xt-released` | IBM PC XT released |
+| 1984-08 | `ibm-pc-at-released` | IBM PC AT released |
+| 1987-04-02 | `ibm-pc-5150-discontinued` | IBM PC 5150 discontinued |
+| 1988-06 | `ibm-as400-released` | IBM AS/400 announced |
+| 1992-10 | `ibm-thinkpad-700c-released` | IBM ThinkPad 700C released |
 | 1994-08 | `ibm-simon-released` | IBM Simon Personal Communicator released |
 | 2001-11-07 | `eclipse-open-sourced` | Eclipse IDE open-sourced |
 
@@ -245,13 +269,17 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2015-05-14 | `http-2-standardized` | HTTP/2 standardized |
 | 2022-06-06 | `http-3-standardized` | HTTP/3 standardized |
 
-### Intel (`intel`) — 4 events
+### Intel (`intel`) — 8 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1968-07-18 | `moore-noyce-intel-founded` | Gordon Moore and Robert Noyce found Intel |
+| 1978-06 | `intel-8086-introduced` | Intel 8086 introduced |
+| 1979-07 | `intel-8088-introduced` | Intel 8088 introduced |
 | 1985-10 | `intel-80386-introduced` | Intel 80386 introduced |
 | 1987-10-18 | `andy-grove-intel-ceo` | Andy Grove named Intel CEO |
+| 1993-03-22 | `intel-pentium-introduced` | Intel Pentium introduced |
+| 2008-04 | `intel-atom-announced` | Intel Atom announced |
 | 2021-02-15 | `pat-gelsinger-intel-ceo` | Pat Gelsinger returns as Intel CEO |
 
 ### JetBrains (`jetbrains`) — 5 events
@@ -264,11 +292,12 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2017-05-17 | `kotlin-android-official` | Kotlin made official for Android |
 | 2024-05-21 | `kotlin-2-0-released` | Kotlin 2.0 released |
 
-### Meta (`meta`) — 10 events
+### Meta (`meta`) — 11 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 2008-07-14 | `apache-cassandra-open-sourced` | Apache Cassandra open sourced |
+| 2009 | `zuckerberg-move-fast-break-things` | Facebook motto: "Move fast and break things" |
 | 2013-05-29 | `react-open-sourced` | React open-sourced at JSConf US |
 | 2015-07-01 | `graphql-open-sourced` | GraphQL technical preview open-sourced |
 | 2016-10-11 | `yarn-released` | Yarn released |
@@ -279,20 +308,24 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2023-07-18 | `llama-2-released` | Meta Llama 2 open weights released |
 | 2024-04-18 | `llama-3-released` | Meta Llama 3 released |
 
-### Microsoft (`microsoft`) — 54 events
+### Microsoft (`microsoft`) — 61 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1975-04-04 | `microsoft-founded` | Bill Gates and Paul Allen found Microsoft |
 | 1991-05 | `visual-basic-1-0-released` | Visual Basic 1.0 released |
 | 1995-02-14 | `delphi-1-0-launched` | Borland Delphi 1.0 launched |
+| 1995-05-26 | `gates-internet-tidal-wave-memo` | Bill Gates declares the "Internet tidal wave" |
 | 1995-08-16 | `internet-explorer-1-0` | Internet Explorer 1.0 released |
 | 1996-08-13 | `internet-explorer-3-0` | Internet Explorer 3.0 released |
 | 1997-09 | `internet-explorer-4-0` | Internet Explorer 4.0 released |
 | 2000-01-13 | `bill-gates-steps-down-microsoft-ceo` | Bill Gates steps down as Microsoft CEO |
 | 2000-01-13 | `steve-ballmer-named-microsoft-ceo` | Steve Ballmer named Microsoft CEO |
+| 2000-04 | `pocket-pc-released` | Windows Pocket PC released |
 | 2000-06-26 | `csharp-announced` | C# programming language announced |
+| 2000-09 | `ballmer-developers-chant` | Steve Ballmer chants "Developers! Developers! Developers!" |
 | 2001-06 | `miguel-de-icaza-mono-announced` | Miguel de Icaza announces Mono |
+| 2001-06-01 | `ballmer-linux-cancer` | Steve Ballmer calls Linux "a cancer" |
 | 2001-08-27 | `internet-explorer-6-released` | Internet Explorer 6.0 released |
 | 2002-01-15 | `dotnet-framework-1-0-rtm` | .NET Framework 1.0 released |
 | 2002-02-13 | `aspnet-1-0-released` | ASP.NET 1.0 launched with Visual Studio .NET |
@@ -302,6 +335,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2006-11-14 | `powershell-1-0-released` | Windows PowerShell 1.0 released |
 | 2007-06-11 | `safari-3-windows-released` | Safari 3 for Windows released |
 | 2007-11-19 | `dotnet-framework-3-5-released` | .NET 3.5 and C# 3.0 with LINQ released |
+| 2008-03-06 | `ballmer-web-developers-chant` | Steve Ballmer chants "Web developers! Web developers! Web developers!" |
 | 2009-03-19 | `internet-explorer-8-released` | Internet Explorer 8 released |
 | 2010-04-12 | `dotnet-framework-4-0-released` | .NET 4.0 and C# 4.0 released |
 | 2010-04-12 | `fsharp-2-released` | F# 2.0 shipped with Visual Studio 2010 |
@@ -310,6 +344,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2012-08-15 | `dotnet-framework-4-5-released` | .NET 4.5 and C# 5.0 with async/await released |
 | 2012-10-01 | `typescript-preview-released` | TypeScript preview released |
 | 2012-10-26 | `internet-explorer-10-released` | Internet Explorer 10 released |
+| 2013-02-09 | `microsoft-surface-pro-released` | Surface Pro released |
 | 2013-10-17 | `internet-explorer-11-released` | Internet Explorer 11 released |
 | 2014-02-04 | `satya-nadella-microsoft-ceo` | Satya Nadella named Microsoft CEO |
 | 2014-04-02 | `typescript-1-0-released` | TypeScript 1.0 released |
@@ -322,6 +357,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2016-09-14 | `angular-2-released` | Angular 2.0 final released |
 | 2017-02-26 | `nestjs-announced` | NestJS introduced |
 | 2017-03-07 | `csharp-7-released` | C# 7 released with Visual Studio 2017 |
+| 2017-07 | `windows-phone-eol` | Windows Phone support ended |
 | 2018-05-30 | `ryan-dahl-deno-announced` | Ryan Dahl announces Deno |
 | 2019-09-23 | `dotnet-core-3-0-released` | .NET Core 3.0 and C# 8 released |
 | 2020-01-15 | `edge-chromium-released` | Chromium-based Microsoft Edge released |
@@ -387,23 +423,26 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2004-10-04 | `nginx-released` | nginx first public release |
 | 2009-07 | `uwsgi-released` | uWSGI released |
 
-### NVIDIA (`nvidia`) — 2 events
+### NVIDIA (`nvidia`) — 3 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1993-04-05 | `jensen-huang-nvidia-founded` | Jensen Huang co-founds NVIDIA |
 | 2006-11-08 | `jensen-huang-cuda-announced` | Jensen Huang announces CUDA |
+| 2015-03-17 | `nvidia-jetson-released` | NVIDIA Jetson TK1 released |
 
-### OpenAI (`openai`) — 10 events
+### OpenAI (`openai`) — 12 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 2015-12 | `sam-altman-openai-founded` | Sam Altman co-founds OpenAI |
 | 2015-12-11 | `ilya-sutskever-openai-research` | Ilya Sutskever named OpenAI research director |
+| 2020-02-17 | `musk-openai-more-open` | Elon Musk: "OpenAI should be more open" |
 | 2020-06-11 | `gpt-3-api-released` | OpenAI GPT-3 API announced |
 | 2022-11-30 | `chatgpt-released` | ChatGPT launched |
 | 2023-03-01 | `gpt-3-5-turbo-released` | GPT-3.5 Turbo API released |
 | 2023-03-14 | `gpt-4-released` | GPT-4 released |
+| 2023-05-16 | `altman-ai-goes-wrong` | Sam Altman: "If this technology goes wrong, it can go quite wrong" |
 | 2023-11-06 | `gpt-4-turbo-released` | GPT-4 Turbo announced |
 | 2024-05-13 | `gpt-4o-released` | OpenAI GPT-4o released |
 | 2024-09-12 | `openai-o1-released` | OpenAI o1 reasoning models released |
@@ -419,12 +458,13 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2016-04-12 | `vivaldi-browser-launched` | Vivaldi browser launched |
 | 2019-06-11 | `opera-gx-released` | Opera GX browser released |
 
-### Oracle (`oracle`) — 3 events
+### Oracle (`oracle`) — 4 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1977-06-16 | `larry-ellison-oracle-founded` | Larry Ellison co-founds Oracle |
 | 1979 | `oracle-2-released` | Oracle Database 2 shipped |
+| 1995-09 | `ellison-pc-ridiculous` | Larry Ellison calls the PC "a ridiculous device" |
 | 2010-04-09 | `james-gosling-leaves-oracle` | James Gosling leaves Oracle |
 
 ### Redis (`redis`) — 2 events
@@ -434,22 +474,25 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2009-02-26 | `redis-first-released` | Redis first released |
 | 2020-06-30 | `sanfilippo-redis-maintainer-steps-down` | Salvatore Sanfilippo steps down as Redis maintainer |
 
-### Samsung (`samsung`) — 2 events
+### Samsung (`samsung`) — 3 events
 
 | Date | Event id | Title |
 |------|----------|-------|
+| 2010-06 | `samsung-galaxy-s-released` | Samsung Galaxy S released |
 | 2012-05-03 | `samsung-internet-released` | Samsung Internet browser launched |
 | 2017-01 | `samsung-internet-chromium-released` | Samsung Internet moves to Chromium |
 
-### Sun Microsystems (`sun-microsystems`) — 27 events
+### Sun Microsystems (`sun-microsystems`) — 30 events
 
 | Date | Event id | Title |
 |------|----------|-------|
 | 1982-05 | `sun-1-released` | Sun-1 workstation released |
 | 1984-08 | `nfs-released` | NFS released |
+| 1989-05 | `sparcstation-1-released` | SPARCstation 1 released |
 | 1995-01 | `jetty-released` | Jetty released |
 | 1995-05-23 | `java-announced` | Java announced at SunWorld |
 | 1995-12-04 | `javascript-name-announced` | JavaScript name announced by Netscape and Sun |
+| 1996 | `sun-enterprise-10000-released` | Sun Enterprise 10000 released |
 | 1996-01-23 | `java-1-0-shipped` | Java 1.0 shipped |
 | 1999-06 | `apache-tomcat-released` | Apache Tomcat released |
 | 2000-07-19 | `ant-released` | Apache Ant first released |
@@ -462,6 +505,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | 2005-02-07 | `hudson-ci-released` | Hudson CI first released |
 | 2006-01 | `scala-2-0-released` | Scala 2.0 released |
 | 2007-01-05 | `groovy-1-0-released` | Groovy 1.0 released |
+| 2007-05-15 | `schwartz-innovate-not-litigate` | Jonathan Schwartz: "innovate, not litigate" |
 | 2007-10-16 | `rich-hickey-clojure-released` | Rich Hickey releases Clojure |
 | 2008-04-21 | `gradle-released` | Gradle first released |
 | 2010-04-09 | `james-gosling-leaves-oracle` | James Gosling leaves Oracle |
@@ -511,10 +555,13 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `microsoft-founded` | Microsoft | tag |
 | `make-created` | Bell Labs | tag |
 | `steve-wozniak-apple-founded` | Apple | tag |
+| `apple-i-released` | Apple | tag |
 | `awk-created` | Bell Labs | tag |
 | `apple-ii-introduced` | Apple | tag |
 | `larry-ellison-oracle-founded` | Oracle | tag |
+| `intel-8086-introduced` | Intel | tag |
 | `oracle-2-released` | Oracle | manual |
+| `intel-8088-introduced` | Intel | tag |
 | `ibm-pc-5150-released` | IBM | tag |
 | `sun-1-released` | Sun Microsystems | tag |
 | `tcp-ip-flag-day` | IETF | tag |
@@ -525,6 +572,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `objective-c-created` | Apple | tag |
 | `susan-kare-macintosh-icons` | Apple | tag |
 | `macintosh-128k-released` | Apple | tag |
+| `ibm-pc-at-released` | IBM | tag |
 | `nfs-released` | Sun Microsystems | tag |
 | `stallman-gnu-manifesto` | Free Software Foundation | tag |
 | `ftp-standardized` | IETF | tag |
@@ -532,16 +580,25 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `richard-stallman-fsf-founded` | Free Software Foundation | tag |
 | `morris-chang-tsmc-founded` | TSMC | tag |
 | `gcc-1-0-released` | Free Software Foundation | tag |
+| `ibm-pc-5150-discontinued` | IBM | tag |
 | `andy-grove-intel-ceo` | Intel | tag |
+| `ibm-as400-released` | IBM | tag |
 | `next-computer-released` | Apple | tag |
 | `gpl-version-1-released` | Free Software Foundation | tag |
+| `sparcstation-1-released` | Sun Microsystems | tag |
 | `bash-1-0-released` | Free Software Foundation | tag |
+| `macintosh-portable-released` | Apple | tag |
+| `nextstation-released` | Apple | tag |
 | `worldwideweb-browser` | CERN | manual |
 | `html-invented` | CERN | tag |
 | `visual-basic-1-0-released` | Microsoft | tag |
 | `autoconf-released` | Free Software Foundation | tag |
+| `apple-powerbook-released` | Apple | tag |
+| `ibm-thinkpad-700c-released` | IBM | tag |
+| `intel-pentium-introduced` | Intel | tag |
 | `jensen-huang-nvidia-founded` | NVIDIA | tag |
 | `berners-lee-web-public-domain` | CERN | tag |
+| `apple-newton-released` | Apple | tag |
 | `marc-andreessen-netscape-founded` | Netscape | tag |
 | `uri-standardized` | IETF | tag |
 | `ibm-simon-released` | IBM | tag |
@@ -554,8 +611,12 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `apache-http-server-released` | Apache Software Foundation | tag |
 | `javascript-mocha-prototype` | Netscape | tag |
 | `java-announced` | Sun Microsystems | manual |
+| `gates-internet-tidal-wave-memo` | Microsoft | tag |
 | `internet-explorer-1-0` | Microsoft | tag |
+| `ellison-pc-ridiculous` | Oracle | tag |
 | `javascript-name-announced` | Netscape, Sun Microsystems | tag |
+| `stallman-free-speech-not-beer` | Free Software Foundation | tag |
+| `sun-enterprise-10000-released` | Sun Microsystems | tag |
 | `java-1-0-shipped` | Sun Microsystems | tag |
 | `netscape-navigator-2-0` | Netscape | tag |
 | `opera-2-released` | Opera | tag |
@@ -567,17 +628,21 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `steve-jobs-returns-to-apple` | Apple | tag |
 | `internet-explorer-4-0` | Microsoft | tag |
 | `mozilla-source-released` | Mozilla, Netscape | tag |
+| `imac-g3-released` | Apple | tag |
 | `google-founded` | Google | tag |
 | `tls-1-0-standardized` | IETF | tag |
 | `apache-tomcat-released` | Apache Software Foundation, Sun Microsystems | tag |
 | `flash-4-scripting` | Adobe | tag |
 | `bill-gates-steps-down-microsoft-ceo` | Microsoft | tag |
 | `steve-ballmer-named-microsoft-ceo` | Microsoft | tag |
+| `pocket-pc-released` | Microsoft | tag |
 | `csharp-announced` | Microsoft | tag |
 | `ant-released` | Apache Software Foundation, Sun Microsystems | tag |
 | `actionscript-1-0-flash-5` | Adobe | tag |
+| `ballmer-developers-chant` | Microsoft | tag |
 | `intellij-idea-released` | JetBrains, Sun Microsystems | tag |
 | `miguel-de-icaza-mono-announced` | Microsoft | tag |
+| `ballmer-linux-cancer` | Microsoft | tag |
 | `eric-schmidt-google-ceo` | Google | tag |
 | `internet-explorer-6-released` | Microsoft | tag |
 | `eclipse-open-sourced` | IBM, Sun Microsystems | tag |
@@ -585,6 +650,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `aspnet-1-0-released` | Microsoft | tag |
 | `visual-basic-net-released` | Microsoft | tag |
 | `safari-announced` | Apple | tag |
+| `amd64-x86-64-announced` | AMD | tag |
 | `soap-1-2-standardized` | W3C | tag |
 | `mozilla-foundation-created` | Mozilla | tag |
 | `scala-first-release` | Sun Microsystems | tag |
@@ -606,6 +672,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `groovy-1-0-released` | Sun Microsystems | tag |
 | `steve-jobs-iphone-introduced` | Apple | tag |
 | `reed-hastings-netflix-streaming` | Netflix | tag |
+| `schwartz-innovate-not-litigate` | Sun Microsystems | tag |
 | `heroku-launched` | Heroku | tag |
 | `safari-3-windows-released` | Apple, Microsoft | tag |
 | `iphone-goes-on-sale` | Apple | tag |
@@ -613,16 +680,21 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `rich-hickey-clojure-released` | Sun Microsystems | tag |
 | `android-announced` | Google | tag |
 | `dotnet-framework-3-5-released` | Microsoft | tag |
+| `apple-macbook-air-released` | Apple | tag |
 | `netscape-browser-discontinued` | Mozilla, Netscape | tag |
+| `ballmer-web-developers-chant` | Microsoft | tag |
+| `intel-atom-announced` | Intel | tag |
 | `github-launched` | GitHub | tag |
 | `phusion-passenger-released` | Apache Software Foundation | tag |
 | `gradle-released` | Google, Sun Microsystems | tag |
 | `firefox-3-released` | Mozilla | tag |
 | `bitbucket-launched` | Atlassian | tag |
 | `iphone-app-store-opens` | Apple | tag |
+| `iphone-3g-released` | Apple | tag |
 | `apache-cassandra-open-sourced` | Apache Software Foundation, Meta | tag |
 | `google-chrome-released` | Google | tag |
 | `t-mobile-g1-released` | Google | tag |
+| `zuckerberg-move-fast-break-things` | Meta | tag |
 | `mongodb-first-released` | MongoDB | tag |
 | `safari-4-released` | Apple | tag |
 | `redis-first-released` | Redis | tag |
@@ -630,19 +702,25 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `homebrew-released` | Apple | tag |
 | `uwsgi-released` | Nginx | tag |
 | `go-open-sourced` | Google | tag |
+| `apple-a4-introduced` | Apple | tag |
 | `ipad-introduced` | Apple | tag |
 | `vagrant-released` | HashiCorp | tag |
 | `james-gosling-leaves-oracle` | Oracle, Sun Microsystems | tag |
 | `dotnet-framework-4-0-released` | Microsoft | tag |
 | `fsharp-2-released` | Microsoft | tag |
+| `jobs-flash-closed-system` | Adobe, Apple | tag |
+| `samsung-galaxy-s-released` | Google, Samsung | tag |
 | `safari-5-released` | Apple | tag |
+| `iphone-4-released` | Apple | tag |
 | `demis-hassabis-deepmind-founded` | Google | tag |
 | `nuget-released` | Microsoft | tag |
 | `angularjs-released` | Google | tag |
+| `chromebook-cr-48-pilot` | Google | tag |
 | `travis-ci-launched` | GitHub | tag |
 | `ninja-released` | Google | tag |
 | `internet-explorer-9-released` | Microsoft | tag |
 | `firefox-4-released` | Mozilla | tag |
+| `chromebook-retail-launched` | Google | tag |
 | `firefox-5-released` | Mozilla | tag |
 | `kotlin-unveiled` | Google, JetBrains, Sun Microsystems | tag, manual |
 | `leveldb-open-sourced` | Google | tag |
@@ -658,6 +736,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `oauth-2-0-standardized` | IETF | tag |
 | `typescript-preview-released` | Microsoft | tag |
 | `internet-explorer-10-released` | Microsoft | tag |
+| `microsoft-surface-pro-released` | Microsoft | tag |
 | `docker-open-sourced` | Docker | tag |
 | `blink-engine-announced` | Google | manual |
 | `opera-chromium-switch` | Google, Opera | tag |
@@ -675,7 +754,9 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `lisa-su-amd-ceo` | AMD | tag |
 | `safari-8-released` | Apple | tag |
 | `grpc-open-sourced` | Google | tag |
+| `nvidia-jetson-released` | NVIDIA | tag |
 | `bazel-open-sourced` | Google | tag |
+| `apple-watch-released` | Apple | tag |
 | `caddy-released` | Google | tag |
 | `visual-studio-code-preview` | Microsoft | tag |
 | `jwt-standardized` | IETF | tag |
@@ -708,6 +789,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `lisa-su-amd-zen-launched` | AMD | tag |
 | `csharp-7-released` | Microsoft | tag |
 | `kotlin-android-official` | Google, JetBrains | tag |
+| `windows-phone-eol` | Microsoft | tag |
 | `chris-wanstrath-github-ceo-steps-down` | GitHub | tag |
 | `safari-11-released` | Apple | tag |
 | `firefox-57-quantum` | Mozilla | tag |
@@ -720,11 +802,14 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `dotnet-core-3-0-released` | Microsoft | tag |
 | `github-actions-ga` | GitHub | tag |
 | `edge-chromium-released` | Google, Microsoft | tag |
+| `musk-openai-more-open` | OpenAI | tag |
 | `gpt-3-api-released` | OpenAI | tag |
 | `sanfilippo-redis-maintainer-steps-down` | Redis | tag |
 | `safari-14-big-sur` | Apple | tag |
 | `dotnet-5-released` | Microsoft | tag |
+| `apple-m1-announced` | Apple | tag |
 | `csharp-9-released` | Microsoft | tag |
+| `apple-m1-mac-shipped` | Apple | tag |
 | `flash-player-discontinued` | Adobe | tag |
 | `chrome-manifest-v3` | Google | tag |
 | `dario-amodei-anthropic-founded` | Anthropic | tag |
@@ -748,6 +833,7 @@ Companion to [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md). Links timelin
 | `typescript-5-0-released` | Microsoft | tag |
 | `geoffrey-hinton-google-departure` | Google | tag |
 | `dart-3-released` | Google | tag |
+| `altman-ai-goes-wrong` | OpenAI | tag |
 | `claude-2-released` | Anthropic | tag |
 | `llama-2-released` | Meta | tag |
 | `java-21-released` | Sun Microsystems | tag |

@@ -14,7 +14,20 @@
         "problemSolved": "Customers faced incompatible machines every upgrade; IBM needed one architecture from lab to datacenter."
       },
       "category": "invention",
-      "tags": ["hardware", "mainframe", "ibm", "computer", "invention"],
+      "tags": [
+        "hardware",
+        "mainframe",
+        "ibm",
+        "computer",
+        "invention"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cobol-specifications-submitted", "eniac-dedicated"]
+      "relatedIds": [
+        "cobol-specifications-submitted",
+        "eniac-dedicated"
+      ]
     }
   ]
 }

@@ -21,6 +21,7 @@
         "programming-language"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [
         {
@@ -68,6 +69,12 @@
         "ietf"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -88,19 +95,8 @@
       ]
     },
     {
-      "slug": "bjarne-stroustrup-cpp-released",
-      "media": [],
-      "relatedIds": [
-        "cpp11-standard"
-      ],
-      "people": [
-        {
-          "id": "bjarne-stroustrup",
-          "name": "Bjarne Stroustrup",
-          "role": "creator"
-        }
-      ],
       "id": "bjarne-stroustrup-cpp-released",
+      "slug": "bjarne-stroustrup-cpp-released",
       "date": "1985-10",
       "datePrecision": "month",
       "title": "Bjarne Stroustrup releases C++",
@@ -117,7 +113,16 @@
         "cpp",
         "programming-language"
       ],
+      "people": [
+        {
+          "id": "bjarne-stroustrup",
+          "name": "Bjarne Stroustrup",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Stroustrup — A History of C++ (first commercial release 1985)",
@@ -129,23 +134,14 @@
           "url": "https://en.wikipedia.org/wiki/C%2B%2B",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "cpp11-standard"
       ]
     },
     {
-      "slug": "richard-stallman-fsf-founded",
-      "media": [],
-      "relatedIds": [
-        "stallman-gnu-manifesto",
-        "gpl-version-1-released"
-      ],
-      "people": [
-        {
-          "id": "richard-stallman",
-          "name": "Richard Stallman",
-          "role": "founder"
-        }
-      ],
       "id": "richard-stallman-fsf-founded",
+      "slug": "richard-stallman-fsf-founded",
       "date": "1985-10-04",
       "datePrecision": "day",
       "title": "Richard Stallman founds the Free Software Foundation",
@@ -163,7 +159,21 @@
         "free-software",
         "fsf"
       ],
+      "people": [
+        {
+          "id": "richard-stallman",
+          "name": "Richard Stallman",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "fsf",
+          "name": "Free Software Foundation"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "FSF — Founded October 4, 1985",
@@ -175,6 +185,10 @@
           "url": "https://en.wikipedia.org/wiki/Free_Software_Foundation",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "stallman-gnu-manifesto",
+        "gpl-version-1-released"
       ]
     },
     {
@@ -199,6 +213,12 @@
         "microprocessor"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [

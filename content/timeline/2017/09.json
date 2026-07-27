@@ -14,7 +14,22 @@
         "problemSolved": "Third-party cookies enabled pervasive cross-site tracking without user awareness."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit", "privacy", "macos"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit",
+        "privacy",
+        "macos"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +44,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-10-released", "safari-9-released", "safari-announced"]
+      "relatedIds": [
+        "safari-10-released",
+        "safari-9-released",
+        "safari-announced"
+      ]
     }
   ]
 }

@@ -21,6 +21,12 @@
         "bell-labs"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "bell-labs",
+          "name": "Bell Labs"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -45,25 +51,8 @@
       ]
     },
     {
-      "slug": "steve-wozniak-apple-founded",
-      "media": [],
-      "relatedIds": [
-        "apple-ii-introduced",
-        "susan-kare-macintosh-icons"
-      ],
-      "people": [
-        {
-          "id": "steve-jobs",
-          "name": "Steve Jobs",
-          "role": "co-founder"
-        },
-        {
-          "id": "steve-wozniak",
-          "name": "Steve Wozniak",
-          "role": "co-founder"
-        }
-      ],
       "id": "steve-wozniak-apple-founded",
+      "slug": "steve-wozniak-apple-founded",
       "date": "1976-04-01",
       "datePrecision": "day",
       "title": "Steve Jobs and Steve Wozniak found Apple",
@@ -81,7 +70,26 @@
         "founding",
         "hardware"
       ],
+      "people": [
+        {
+          "id": "steve-jobs",
+          "name": "Steve Jobs",
+          "role": "co-founder"
+        },
+        {
+          "id": "steve-wozniak",
+          "name": "Steve Wozniak",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
+      "media": [],
       "sources": [
         {
           "title": "Apple — Company history (founded April 1, 1976)",
@@ -93,6 +101,10 @@
           "url": "https://en.wikipedia.org/wiki/Apple_Inc.",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "apple-ii-introduced",
+        "susan-kare-macintosh-icons"
       ]
     }
   ]

@@ -14,7 +14,13 @@
         "problemSolved": "PHP 7.x had plateaued; hosts and frameworks needed a compelling reason to upgrade beyond security patches."
       },
       "category": "software",
-      "tags": ["php", "programming-language", "jit"],
+      "tags": [
+        "php",
+        "programming-language",
+        "jit"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released", "laravel-first-beta"]
+      "relatedIds": [
+        "php-tools-1-0-released",
+        "laravel-first-beta"
+      ]
     },
     {
       "id": "safari-14-big-sur",
@@ -45,7 +54,20 @@
         "problemSolved": "Safari's old extension model was incompatible with how developers shipped browser tools elsewhere."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -60,7 +82,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-announced", "safari-15-ios-web-extensions"]
+      "relatedIds": [
+        "safari-announced",
+        "safari-15-ios-web-extensions"
+      ]
     },
     {
       "id": "dotnet-5-released",
@@ -76,7 +101,19 @@
         "problemSolved": "Developers faced confusing choices between .NET Framework, .NET Core, and Mono."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "cross-platform"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "cross-platform"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +128,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-core-1-0-released", "dotnet-framework-3-5-released"]
+      "relatedIds": [
+        "dotnet-core-1-0-released",
+        "dotnet-framework-3-5-released"
+      ]
     },
     {
       "id": "csharp-9-released",
@@ -107,7 +147,19 @@
         "problemSolved": "Immutable data types required verbose class definitions or external libraries."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +174,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-5-released", "dotnet-core-3-0-released", "csharp-7-released"]
+      "relatedIds": [
+        "dotnet-5-released",
+        "dotnet-core-3-0-released",
+        "csharp-7-released"
+      ]
     },
     {
       "id": "apple-m1-announced",
@@ -138,7 +194,21 @@
         "problemSolved": "Intel Macs lagged on performance-per-watt; Apple needed in-house chips to control its Mac roadmap."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "arm", "apple", "apple-silicon", "chip"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "arm",
+        "apple",
+        "apple-silicon",
+        "chip"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -153,7 +223,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apple-m1-mac-shipped", "imac-g3-released", "iphone-4-released", "intel-80386-introduced"]
+      "relatedIds": [
+        "apple-m1-mac-shipped",
+        "imac-g3-released",
+        "iphone-4-released",
+        "intel-80386-introduced"
+      ]
     },
     {
       "id": "apple-m1-mac-shipped",
@@ -169,7 +244,21 @@
         "problemSolved": "Developers needed real hardware to test arm64 builds before committing to Apple silicon migration."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "apple", "apple-silicon", "arm", "macbook"],
+      "tags": [
+        "hardware",
+        "laptop",
+        "apple",
+        "apple-silicon",
+        "arm",
+        "macbook"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -184,7 +273,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apple-m1-announced", "imac-g3-released", "ibm-thinkpad-700c-released", "apple-powerbook-released"]
+      "relatedIds": [
+        "apple-m1-announced",
+        "imac-g3-released",
+        "ibm-thinkpad-700c-released",
+        "apple-powerbook-released"
+      ]
     }
   ]
 }

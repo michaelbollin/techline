@@ -14,7 +14,21 @@
         "problemSolved": "Make, Maven, and Gradle struggled with incremental builds and dependency isolation in huge repos."
       },
       "category": "software",
-      "tags": ["bazel", "build", "google", "monorepo", "devops", "open-source"],
+      "tags": [
+        "bazel",
+        "build",
+        "google",
+        "monorepo",
+        "devops",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["make-created", "cmake-released", "gradle-released", "maven-1-0-released", "ninja-released"]
+      "relatedIds": [
+        "make-created",
+        "cmake-released",
+        "gradle-released",
+        "maven-1-0-released",
+        "ninja-released"
+      ]
     },
     {
       "id": "nvidia-jetson-released",
@@ -45,7 +65,22 @@
         "problemSolved": "Edge projects needed local neural-network inference without cloud latency or a full desktop GPU."
       },
       "category": "hardware",
-      "tags": ["hardware", "embedded", "nvidia", "jetson", "ai", "cuda", "iot"],
+      "tags": [
+        "hardware",
+        "embedded",
+        "nvidia",
+        "jetson",
+        "ai",
+        "cuda",
+        "iot"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nvidia",
+          "name": "NVIDIA"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +95,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["raspberry-pi-model-b-released", "esp8266-released", "arduino-released"]
+      "relatedIds": [
+        "raspberry-pi-model-b-released",
+        "esp8266-released",
+        "arduino-released"
+      ]
     }
   ]
 }

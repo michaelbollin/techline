@@ -14,7 +14,21 @@
         "problemSolved": "Mobile workers needed Office-compatible documents and email on pocket devices beyond the Palm Pilot."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "pda", "microsoft", "windows-ce", "pocket-pc"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "pda",
+        "microsoft",
+        "windows-ce",
+        "pocket-pc"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +43,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["palm-pilot-1000-released", "windows-phone-eol", "iphone-goes-on-sale", "blackberry-5810-released"]
+      "relatedIds": [
+        "palm-pilot-1000-released",
+        "windows-phone-eol",
+        "iphone-goes-on-sale",
+        "blackberry-5810-released"
+      ]
     }
   ]
 }

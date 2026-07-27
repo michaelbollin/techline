@@ -14,7 +14,20 @@
         "problemSolved": "Cloud-era teams managed Linux and Windows hosts but lacked a unified automation shell."
       },
       "category": "software",
-      "tags": ["powershell", "microsoft", "open-source", "cross-platform", "shell"],
+      "tags": [
+        "powershell",
+        "microsoft",
+        "open-source",
+        "cross-platform",
+        "shell"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["powershell-1-0-released", "bash-1-0-released"]
+      "relatedIds": [
+        "powershell-1-0-released",
+        "bash-1-0-released"
+      ]
     }
   ]
 }

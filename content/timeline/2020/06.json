@@ -21,6 +21,7 @@
         "browser"
       ],
       "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -62,6 +63,12 @@
         "machine-learning"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -82,19 +89,8 @@
       ]
     },
     {
-      "slug": "sanfilippo-redis-maintainer-steps-down",
-      "media": [],
-      "relatedIds": [
-        "redis-first-released"
-      ],
-      "people": [
-        {
-          "id": "salvatore-sanfilippo",
-          "name": "Salvatore Sanfilippo",
-          "role": "maintainer"
-        }
-      ],
       "id": "sanfilippo-redis-maintainer-steps-down",
+      "slug": "sanfilippo-redis-maintainer-steps-down",
       "date": "2020-06-30",
       "datePrecision": "day",
       "title": "Salvatore Sanfilippo steps down as Redis maintainer",
@@ -112,7 +108,21 @@
         "maintainer",
         "open-source"
       ],
+      "people": [
+        {
+          "id": "salvatore-sanfilippo",
+          "name": "Salvatore Sanfilippo",
+          "role": "maintainer"
+        }
+      ],
+      "companies": [
+        {
+          "id": "redis",
+          "name": "Redis"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "antirez — Stepping down (June 30, 2020)",
@@ -124,6 +134,9 @@
           "url": "https://en.wikipedia.org/wiki/Redis",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "redis-first-released"
       ]
     }
   ]

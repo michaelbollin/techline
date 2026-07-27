@@ -1,25 +1,8 @@
 {
   "events": [
     {
-      "slug": "marc-andreessen-netscape-founded",
-      "media": [],
-      "relatedIds": [
-        "mosaic-1-0-released",
-        "netscape-navigator-1-0"
-      ],
-      "people": [
-        {
-          "id": "marc-andreessen",
-          "name": "Marc Andreessen",
-          "role": "co-founder"
-        },
-        {
-          "id": "jim-clark",
-          "name": "Jim Clark",
-          "role": "co-founder"
-        }
-      ],
       "id": "marc-andreessen-netscape-founded",
+      "slug": "marc-andreessen-netscape-founded",
       "date": "1994-04-04",
       "datePrecision": "day",
       "title": "Marc Andreessen and Jim Clark found Netscape",
@@ -37,7 +20,26 @@
         "web",
         "netscape"
       ],
+      "people": [
+        {
+          "id": "marc-andreessen",
+          "name": "Marc Andreessen",
+          "role": "co-founder"
+        },
+        {
+          "id": "jim-clark",
+          "name": "Jim Clark",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Computer History Museum — Andreessen founds Netscape (April 4, 1994)",
@@ -49,6 +51,10 @@
           "url": "https://en.wikipedia.org/wiki/Netscape",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "mosaic-1-0-released",
+        "netscape-navigator-1-0"
       ]
     }
   ]

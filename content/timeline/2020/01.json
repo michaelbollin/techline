@@ -14,7 +14,24 @@
         "problemSolved": "EdgeHTML could not keep pace with Chrome's site compatibility and release cadence."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "edge", "chromium"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "edge",
+        "chromium"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +46,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["microsoft-edge-released", "google-chrome-released"]
+      "relatedIds": [
+        "microsoft-edge-released",
+        "google-chrome-released"
+      ]
     },
     {
       "id": "python-2-end-of-life",
@@ -45,7 +65,12 @@
         "problemSolved": "Maintaining two incompatible Python dialects split library authors and slowed language evolution."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +85,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-2-7-released", "python-2-0-released", "python-3-0-released"]
+      "relatedIds": [
+        "python-2-7-released",
+        "python-2-0-released",
+        "python-3-0-released"
+      ]
     }
   ]
 }

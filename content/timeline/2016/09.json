@@ -14,7 +14,24 @@
         "problemSolved": "AngularJS could not meet mobile performance and tooling needs; the digest cycle and JS-only codebase hit limits."
       },
       "category": "software",
-      "tags": ["angular", "google", "typescript", "spa", "web-framework"],
+      "tags": [
+        "angular",
+        "google",
+        "typescript",
+        "spa",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +46,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["angularjs-released", "typescript-preview-released"]
+      "relatedIds": [
+        "angularjs-released",
+        "typescript-preview-released"
+      ]
     },
     {
       "id": "safari-10-released",
@@ -45,7 +65,21 @@
         "problemSolved": "Autoplaying video ads and audio drained batteries and annoyed users."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit",
+        "macos"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +94,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-9-released", "safari-8-released", "safari-announced"]
+      "relatedIds": [
+        "safari-9-released",
+        "safari-8-released",
+        "safari-announced"
+      ]
     }
   ]
 }

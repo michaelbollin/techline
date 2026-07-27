@@ -20,6 +20,17 @@
         "sun",
         "ecmascript"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [
         {
@@ -65,6 +76,8 @@
         "matz",
         "programming-language"
       ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [

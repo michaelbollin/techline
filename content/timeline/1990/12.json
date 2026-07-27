@@ -14,7 +14,19 @@
         "problemSolved": "CERN scientists needed a practical way to navigate and share linked documentation across machines and projects."
       },
       "category": "software",
-      "tags": ["browser", "web", "cern", "hypertext"],
+      "tags": [
+        "browser",
+        "web",
+        "cern",
+        "hypertext"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "cern",
+          "name": "CERN"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mosaic-1-0-released", "uri-standardized", "http-1-1-standardized", "html-invented", "next-computer-released"]
+      "relatedIds": [
+        "mosaic-1-0-released",
+        "uri-standardized",
+        "http-1-1-standardized",
+        "html-invented",
+        "next-computer-released"
+      ]
     }
   ]
 }

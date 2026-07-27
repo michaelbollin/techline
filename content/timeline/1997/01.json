@@ -14,7 +14,20 @@
         "problemSolved": "HTTP/1.0 opened a new TCP connection per request and handled caching inconsistently."
       },
       "category": "protocol",
-      "tags": ["http", "protocol", "standard", "web", "ietf"],
+      "tags": [
+        "http",
+        "protocol",
+        "standard",
+        "web",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +42,18 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rest-architectural-style-defined", "tcp-ip-flag-day", "tls-1-0-standardized", "websocket-protocol-standardized", "http-2-standardized", "http-3-standardized", "dns-standardized", "worldwideweb-browser", "uri-standardized", "html-invented"]
+      "relatedIds": [
+        "rest-architectural-style-defined",
+        "tcp-ip-flag-day",
+        "tls-1-0-standardized",
+        "websocket-protocol-standardized",
+        "http-2-standardized",
+        "http-3-standardized",
+        "dns-standardized",
+        "worldwideweb-browser",
+        "uri-standardized",
+        "html-invented"
+      ]
     },
     {
       "id": "postgresql-6-released",
@@ -45,7 +69,15 @@
         "problemSolved": "Postgres95 needed a durable name and version line as SQL features matured beyond research prototypes."
       },
       "category": "software",
-      "tags": ["postgresql", "postgres", "database", "sql", "open-source"],
+      "tags": [
+        "postgresql",
+        "postgres",
+        "database",
+        "sql",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +92,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["sequel-paper-published", "mysql-first-released", "cockroachdb-open-sourced"]
+      "relatedIds": [
+        "sequel-paper-published",
+        "mysql-first-released",
+        "cockroachdb-open-sourced"
+      ]
     }
   ]
 }

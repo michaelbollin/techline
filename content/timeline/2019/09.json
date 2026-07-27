@@ -14,7 +14,19 @@
         "problemSolved": "NullReferenceException was the #1 .NET runtime bug; Framework-only desktop apps could not move to Core."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft", "programming-language"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["csharp-7-released", "dotnet-5-released", "dotnet-core-1-0-released"]
+      "relatedIds": [
+        "csharp-7-released",
+        "dotnet-5-released",
+        "dotnet-core-1-0-released"
+      ]
     }
   ]
 }

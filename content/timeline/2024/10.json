@@ -14,7 +14,12 @@
         "problemSolved": "Multi-core machines could not run CPU-heavy Python workloads in parallel threads effectively."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-3-12-released", "python-3-14-released"]
+      "relatedIds": [
+        "python-3-12-released",
+        "python-3-14-released"
+      ]
     },
     {
       "id": "claude-3-5-haiku-released",
@@ -45,7 +53,20 @@
         "problemSolved": "Using flagship models for every request was too slow and expensive for production traffic."
       },
       "category": "software",
-      "tags": ["ai", "anthropic", "claude", "llm", "machine-learning"],
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "llm",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +81,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["claude-3-5-sonnet-released", "claude-3-released", "gpt-4o-released"]
+      "relatedIds": [
+        "claude-3-5-sonnet-released",
+        "claude-3-released",
+        "gpt-4o-released"
+      ]
     }
   ]
 }

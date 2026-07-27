@@ -14,7 +14,20 @@
         "problemSolved": "IBM replaced the aging 5150 with newer models while clones had already commoditized its design."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "ibm", "x86", "discontinued"],
+      "tags": [
+        "hardware",
+        "pc",
+        "ibm",
+        "x86",
+        "discontinued"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "ibm-pc-xt-released"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "ibm-pc-xt-released"
+      ]
     }
   ]
 }

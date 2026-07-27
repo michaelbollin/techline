@@ -14,7 +14,15 @@
         "problemSolved": "The previous Caml dialect needed objects without giving up the static safety and module system researchers relied on."
       },
       "category": "software",
-      "tags": ["ocaml", "ml", "caml", "functional", "programming-language"],
+      "tags": [
+        "ocaml",
+        "ml",
+        "caml",
+        "functional",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +37,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["haskell-1-0-report", "fsharp-2-released", "pascal-report-published"]
+      "relatedIds": [
+        "haskell-1-0-report",
+        "fsharp-2-released",
+        "pascal-report-published"
+      ]
     },
     {
       "id": "amaya-browser-released",
@@ -45,7 +57,20 @@
         "problemSolved": "The W3C needed a living laboratory to test specifications without waiting for Netscape or Microsoft."
       },
       "category": "software",
-      "tags": ["browser", "web", "w3c", "standards", "css"],
+      "tags": [
+        "browser",
+        "web",
+        "w3c",
+        "standards",
+        "css"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -60,7 +85,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-3-0", "netscape-communicator-4-0"]
+      "relatedIds": [
+        "internet-explorer-3-0",
+        "netscape-communicator-4-0"
+      ]
     }
   ]
 }

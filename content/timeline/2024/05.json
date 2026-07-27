@@ -14,7 +14,23 @@
         "problemSolved": "The old compiler struggled with large Gradle projects and divergent platform backends."
       },
       "category": "software",
-      "tags": ["kotlin", "jetbrains", "programming-language", "android"],
+      "tags": [
+        "kotlin",
+        "jetbrains",
+        "programming-language",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +45,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["kotlin-unveiled", "kotlin-1-0-released", "java-21-released"]
+      "relatedIds": [
+        "kotlin-unveiled",
+        "kotlin-1-0-released",
+        "java-21-released"
+      ]
     },
     {
       "id": "gpt-4o-released",
@@ -45,7 +65,21 @@
         "problemSolved": "Separate models for text, vision, and speech added latency, cost, and integration complexity."
       },
       "category": "software",
-      "tags": ["ai", "openai", "gpt", "llm", "multimodal", "machine-learning"],
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "llm",
+        "multimodal",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +94,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gpt-4-released", "gpt-3-5-turbo-released", "chatgpt-released"]
+      "relatedIds": [
+        "gpt-4-released",
+        "gpt-3-5-turbo-released",
+        "chatgpt-released"
+      ]
     },
     {
       "id": "erlang-otp-27-released",
@@ -76,7 +114,15 @@
         "problemSolved": "Container orchestration exposed edge cases in signal handling and stdlib gaps."
       },
       "category": "software",
-      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
+      "tags": [
+        "erlang",
+        "otp",
+        "beam",
+        "programming-language",
+        "elixir"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +137,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["erlang-otp-26-released", "erlang-otp-25-released", "elixir-1-16-released"]
+      "relatedIds": [
+        "erlang-otp-26-released",
+        "erlang-otp-25-released",
+        "elixir-1-16-released"
+      ]
     }
   ]
 }

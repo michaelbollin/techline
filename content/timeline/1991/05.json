@@ -20,6 +20,13 @@
         "gui",
         "programming-language"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -34,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["basic-first-run", "visual-basic-net-released"]
+      "relatedIds": [
+        "basic-first-run",
+        "visual-basic-net-released"
+      ]
     }
   ]
 }

@@ -1,17 +1,8 @@
 {
   "events": [
     {
-      "slug": "rich-hickey-clojure-released",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "rich-hickey",
-          "name": "Rich Hickey",
-          "role": "creator"
-        }
-      ],
       "id": "rich-hickey-clojure-released",
+      "slug": "rich-hickey-clojure-released",
       "date": "2007-10-16",
       "datePrecision": "day",
       "title": "Rich Hickey releases Clojure",
@@ -30,7 +21,21 @@
         "jvm",
         "programming-language"
       ],
+      "people": [
+        {
+          "id": "rich-hickey",
+          "name": "Rich Hickey",
+          "role": "creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Clojure — Clojure 1.0 release (October 16, 2007)",
@@ -42,7 +47,8 @@
           "url": "https://en.wikipedia.org/wiki/Clojure",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

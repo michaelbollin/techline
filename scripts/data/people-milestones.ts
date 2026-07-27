@@ -1,15 +1,16 @@
 import type { TimelineEvent } from "../../lib/timeline/schema";
 
-type M = Omit<TimelineEvent, "slug" | "media" | "relatedIds"> &
-  Partial<Pick<TimelineEvent, "slug" | "media" | "relatedIds">>;
+type M = Omit<TimelineEvent, "slug" | "media" | "relatedIds" | "companies"> &
+  Partial<Pick<TimelineEvent, "slug" | "media" | "relatedIds" | "companies">>;
 
 function m(event: M): TimelineEvent {
   return {
+    ...event,
     slug: event.slug ?? event.id,
     media: event.media ?? [],
     relatedIds: event.relatedIds ?? [],
     people: event.people ?? [],
-    ...event,
+    companies: event.companies ?? [],
   };
 }
 

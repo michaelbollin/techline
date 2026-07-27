@@ -14,7 +14,20 @@
         "problemSolved": "Users wanted faster, safer browsing without installing extensions or fighting surveillance ads."
       },
       "category": "software",
-      "tags": ["browser", "web", "brave", "privacy", "chromium"],
+      "tags": [
+        "browser",
+        "web",
+        "brave",
+        "privacy",
+        "chromium"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +42,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["google-chrome-released", "javascript-mocha-prototype"]
+      "relatedIds": [
+        "google-chrome-released",
+        "javascript-mocha-prototype"
+      ]
     }
   ]
 }

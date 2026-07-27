@@ -14,7 +14,28 @@
         "problemSolved": "Preview Kotlin changed frequently; teams needed a stable 1.0 with long-term compatibility guarantees."
       },
       "category": "software",
-      "tags": ["kotlin", "jetbrains", "jvm", "android", "programming-language"],
+      "tags": [
+        "kotlin",
+        "jetbrains",
+        "jvm",
+        "android",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +50,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["kotlin-unveiled", "java-1-0-shipped"]
+      "relatedIds": [
+        "kotlin-unveiled",
+        "java-1-0-shipped"
+      ]
     },
     {
       "id": "zig-announced",
@@ -45,7 +69,14 @@
         "problemSolved": "Kelley hit friction integrating C libraries in Go, memory bugs in C++, and Rust's learning curve while building audio software."
       },
       "category": "software",
-      "tags": ["zig", "systems", "c", "programming-language"],
+      "tags": [
+        "zig",
+        "systems",
+        "c",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +91,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rust-1-0-released", "go-open-sourced", "c-language-created"]
+      "relatedIds": [
+        "rust-1-0-released",
+        "go-open-sourced",
+        "c-language-created"
+      ]
     }
   ]
 }

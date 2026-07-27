@@ -14,7 +14,19 @@
         "problemSolved": "Static HTML could not deliver interactive pages; Netscape needed to ship the scripting language it had invented."
       },
       "category": "software",
-      "tags": ["browser", "web", "netscape", "javascript"],
+      "tags": [
+        "browser",
+        "web",
+        "netscape",
+        "javascript"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["javascript-mocha-prototype", "javascript-name-announced", "internet-explorer-3-0"]
+      "relatedIds": [
+        "javascript-mocha-prototype",
+        "javascript-name-announced",
+        "internet-explorer-3-0"
+      ]
     },
     {
       "id": "palm-pilot-1000-released",
@@ -45,7 +61,15 @@
         "problemSolved": "Paper planners and bulky laptops could not keep mobile professionals organized on the go."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "pda", "palm", "pilot"],
+      "tags": [
+        "hardware",
+        "mobile",
+        "pda",
+        "palm",
+        "pilot"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +84,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-simon-released", "nokia-9000-communicator-released", "blackberry-5810-released", "iphone-goes-on-sale"]
+      "relatedIds": [
+        "ibm-simon-released",
+        "nokia-9000-communicator-released",
+        "blackberry-5810-released",
+        "iphone-goes-on-sale"
+      ]
     }
   ]
 }

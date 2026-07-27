@@ -21,6 +21,7 @@
         "binary-format"
       ],
       "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -61,6 +62,12 @@
         "roslyn"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -82,20 +89,8 @@
       ]
     },
     {
-      "slug": "lisa-su-amd-zen-launched",
-      "media": [],
-      "relatedIds": [
-        "lisa-su-amd-ceo",
-        "jensen-huang-nvidia-founded"
-      ],
-      "people": [
-        {
-          "id": "lisa-su",
-          "name": "Lisa Su",
-          "role": "ceo"
-        }
-      ],
       "id": "lisa-su-amd-zen-launched",
+      "slug": "lisa-su-amd-zen-launched",
       "date": "2017-03-02",
       "datePrecision": "day",
       "title": "Lisa Su launches AMD Ryzen on Zen architecture",
@@ -114,7 +109,21 @@
         "zen",
         "semiconductor"
       ],
+      "people": [
+        {
+          "id": "lisa-su",
+          "name": "Lisa Su",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "amd",
+          "name": "AMD"
+        }
+      ],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "AMD — Ryzen launch on Zen (March 2, 2017)",
@@ -126,6 +135,10 @@
           "url": "https://en.wikipedia.org/wiki/Ryzen",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "lisa-su-amd-ceo",
+        "jensen-huang-nvidia-founded"
       ]
     }
   ]

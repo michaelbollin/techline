@@ -14,7 +14,20 @@
         "problemSolved": "8-bit CPUs could not address enough memory for growing business applications."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "intel", "x86", "microprocessor"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "intel",
+        "x86",
+        "microprocessor"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["intel-80386-introduced", "ibm-pc-5150-released", "amd64-x86-64-announced", "intel-8088-introduced"]
+      "relatedIds": [
+        "intel-80386-introduced",
+        "ibm-pc-5150-released",
+        "amd64-x86-64-announced",
+        "intel-8088-introduced"
+      ]
     }
   ]
 }

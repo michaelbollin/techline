@@ -14,7 +14,20 @@
         "problemSolved": "C++ build times and complexity slowed Google infrastructure teams; they needed C-like speed with simpler concurrency."
       },
       "category": "software",
-      "tags": ["go", "golang", "google", "concurrency", "programming-language"],
+      "tags": [
+        "go",
+        "golang",
+        "google",
+        "concurrency",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [

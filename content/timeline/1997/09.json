@@ -14,7 +14,19 @@
         "problemSolved": "Microsoft needed a browser tightly woven into Windows to counter Netscape's cross-platform dominance."
       },
       "category": "software",
-      "tags": ["browser", "web", "microsoft", "internet-explorer"],
+      "tags": [
+        "browser",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["internet-explorer-3-0", "internet-explorer-6-released", "netscape-communicator-4-0"]
+      "relatedIds": [
+        "internet-explorer-3-0",
+        "internet-explorer-6-released",
+        "netscape-communicator-4-0"
+      ]
     }
   ]
 }

@@ -14,7 +14,14 @@
         "problemSolved": "Grouping arrays and objects required manual loops or external helpers."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "standard", "browser"],
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "standard",
+        "browser"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -29,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2022-adopted", "ecmascript-2025-adopted"]
+      "relatedIds": [
+        "ecmascript-2022-adopted",
+        "ecmascript-2025-adopted"
+      ]
     },
     {
       "id": "claude-3-5-sonnet-released",
@@ -45,7 +55,20 @@
         "problemSolved": "Developers needed frontier coding quality without flagship-model latency and cost."
       },
       "category": "software",
-      "tags": ["ai", "anthropic", "claude", "llm", "machine-learning"],
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "llm",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["claude-3-released", "claude-2-released", "gpt-4-released"]
+      "relatedIds": [
+        "claude-3-released",
+        "claude-2-released",
+        "gpt-4-released"
+      ]
     }
   ]
 }

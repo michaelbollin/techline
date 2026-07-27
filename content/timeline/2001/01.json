@@ -22,6 +22,16 @@
         "refactoring"
       ],
       "people": [],
+      "companies": [
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -43,22 +53,8 @@
       ]
     },
     {
-      "slug": "wikipedia-launched",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "jimmy-wales",
-          "name": "Jimmy Wales",
-          "role": "co-founder"
-        },
-        {
-          "id": "larry-sanger",
-          "name": "Larry Sanger",
-          "role": "co-founder"
-        }
-      ],
       "id": "wikipedia-launched",
+      "slug": "wikipedia-launched",
       "date": "2001-01-15",
       "datePrecision": "day",
       "title": "Wikipedia launched",
@@ -75,7 +71,21 @@
         "wiki",
         "open-source"
       ],
+      "people": [
+        {
+          "id": "jimmy-wales",
+          "name": "Jimmy Wales",
+          "role": "co-founder"
+        },
+        {
+          "id": "larry-sanger",
+          "name": "Larry Sanger",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [],
       "importance": 2,
+      "media": [],
       "sources": [
         {
           "title": "Wikipedia — Wikipedia launched (January 15, 2001)",
@@ -87,7 +97,8 @@
           "url": "https://www.wikimedia.org/",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     }
   ]
 }

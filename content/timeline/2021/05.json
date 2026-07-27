@@ -14,7 +14,19 @@
         "problemSolved": "Scala 2's syntax and implicit-heavy style scared away teams who wanted JVM types without ceremony."
       },
       "category": "software",
-      "tags": ["scala", "programming-language", "jvm", "functional-programming"],
+      "tags": [
+        "scala",
+        "programming-language",
+        "jvm",
+        "functional-programming"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["scala-first-release", "scala-2-0-released", "kotlin-1-0-released"]
+      "relatedIds": [
+        "scala-first-release",
+        "scala-2-0-released",
+        "kotlin-1-0-released"
+      ]
     },
     {
       "id": "erlang-otp-24-released",
@@ -45,7 +61,15 @@
         "problemSolved": "BEAM bytecode interpretation lagged behind JIT-equipped runtimes for CPU-heavy tasks."
       },
       "category": "software",
-      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
+      "tags": [
+        "erlang",
+        "otp",
+        "beam",
+        "programming-language",
+        "elixir"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +84,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["erlang-open-sourced", "elixir-1-0-released", "elixir-first-release"]
+      "relatedIds": [
+        "erlang-open-sourced",
+        "elixir-1-0-released",
+        "elixir-first-release"
+      ]
     },
     {
       "id": "ghc-9-0-released",
@@ -76,7 +104,15 @@
         "problemSolved": "GHC 8's backend was hard to extend and slow on megaproject builds."
       },
       "category": "software",
-      "tags": ["haskell", "ghc", "compiler", "functional-programming", "programming-language"],
+      "tags": [
+        "haskell",
+        "ghc",
+        "compiler",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +127,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["haskell-2010-standard", "haskell-1-0-report"]
+      "relatedIds": [
+        "haskell-2010-standard",
+        "haskell-1-0-report"
+      ]
     }
   ]
 }

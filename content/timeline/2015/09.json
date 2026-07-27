@@ -14,7 +14,14 @@
         "problemSolved": "Pre-1.0 Elixir changed too fast for companies to standardize on it."
       },
       "category": "software",
-      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["elixir-first-release", "erlang-open-sourced"]
+      "relatedIds": [
+        "elixir-first-release",
+        "erlang-open-sourced"
+      ]
     },
     {
       "id": "phoenix-1-0-released",
@@ -45,7 +55,15 @@
         "problemSolved": "Elixir needed a batteries-included web stack to compete with Rails and Django."
       },
       "category": "software",
-      "tags": ["phoenix", "elixir", "web-framework", "beam", "websockets"],
+      "tags": [
+        "phoenix",
+        "elixir",
+        "web-framework",
+        "beam",
+        "websockets"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +78,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["elixir-1-0-released", "elixir-first-release", "phoenix-liveview-released"]
+      "relatedIds": [
+        "elixir-1-0-released",
+        "elixir-first-release",
+        "phoenix-liveview-released"
+      ]
     },
     {
       "id": "nodejs-4-released",
@@ -76,7 +98,14 @@
         "problemSolved": "The io.js fork split contributors and left production teams unsure which runtime to ship."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "open-source"],
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +120,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-0-10-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-0-10-released",
+        "nodejs-first-released"
+      ]
     },
     {
       "id": "safari-9-released",
@@ -107,7 +139,21 @@
         "problemSolved": "Users wanted Safari-native ad blocking without third-party plugins like Flash."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit", "macos"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit",
+        "macos"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +168,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-8-released", "safari-10-released", "safari-announced"]
+      "relatedIds": [
+        "safari-8-released",
+        "safari-10-released",
+        "safari-announced"
+      ]
     }
   ]
 }

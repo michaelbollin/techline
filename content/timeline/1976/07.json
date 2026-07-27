@@ -14,7 +14,20 @@
         "problemSolved": "Hobbyists wanted a working CPU board without building from scratch like the Altair."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "apple", "6502", "microcomputer"],
+      "tags": [
+        "hardware",
+        "pc",
+        "apple",
+        "6502",
+        "microcomputer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["steve-wozniak-apple-founded", "apple-ii-introduced", "altair-8800-released"]
+      "relatedIds": [
+        "steve-wozniak-apple-founded",
+        "apple-ii-introduced",
+        "altair-8800-released"
+      ]
     }
   ]
 }

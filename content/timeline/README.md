@@ -133,9 +133,9 @@ Tag people milestones with `"people"` in `tags`. Use `importance: 1` for world-c
 
 Link events to a vendor, foundation, or research lab when one clearly sponsored or shipped the work. See [COMPANY-MAP.md](./COMPANY-MAP.md) for the full generated index.
 
-1. **Tag inference** — tags like `microsoft`, `dotnet`, `google`, `android` map to companies via `lib/timeline/company-registry.ts` (merged at load time).
+1. **Tag inference** — tags like `microsoft`, `dotnet`, `google`, `android` map to companies via `lib/timeline/company-registry.ts`.
 2. **Manual override** — add `lib/timeline/company-attributions.ts` when tags are ambiguous.
-3. **Inline on event** — optional `companies` array in the JSON bucket.
+3. **Seeded onto events** — run `npm run seed:companies` to write the `companies` array into each event JSON bucket.
 
 ```json
 "companies": [
@@ -143,9 +143,10 @@ Link events to a vendor, foundation, or research lab when one clearly sponsored 
 ]
 ```
 
-Regenerate the map after edits:
+Regenerate after registry/attribution edits:
 
 ```bash
+npm run seed:companies
 npm run generate:company-map
 ```
 

@@ -1,16 +1,24 @@
 {
   "events": [
     {
+      "id": "ballmer-developers-chant",
       "slug": "ballmer-developers-chant",
-      "media": [
-        {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=XxbJw8PrIkc",
-          "title": "Steve Ballmer — Developers chant (.NET presentation)"
-        }
-      ],
-      "relatedIds": [
-        "steve-ballmer-named-microsoft-ceo"
+      "date": "2000-09",
+      "datePrecision": "month",
+      "title": "Steve Ballmer chants \"Developers! Developers! Developers!\"",
+      "summary": "At Microsoft's 25th anniversary event, CEO Steve Ballmer screams the word developers on stage — sweat, volume, and pure hype.",
+      "about": "The clip became one of tech's earliest viral videos — parodied, remixed, and cited whenever a platform needs third-party apps. Ballmer later reprised it as 'web developers' in 2008.",
+      "narrative": {
+        "whyChosen": "Peak CEO energy — a meme before memes had a name.",
+        "whyImportant": "It symbolized Microsoft's platform bet on ISVs and the Windows ecosystem.",
+        "problemSolved": "Microsoft needed to rally partners around building on its stack."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "meme",
+        "microsoft",
+        "developers"
       ],
       "people": [
         {
@@ -19,26 +27,21 @@
           "role": "ceo"
         }
       ],
-      "category": "quote",
-      "id": "ballmer-developers-chant",
-      "date": "2000-09",
-      "datePrecision": "month",
-      "title": "Steve Ballmer chants \"Developers! Developers! Developers!\"",
-      "quoteText": "Developers! Developers! Developers! Developers!",
-      "summary": "At Microsoft's 25th anniversary event, CEO Steve Ballmer screams the word developers on stage — sweat, volume, and pure hype.",
-      "about": "The clip became one of tech's earliest viral videos — parodied, remixed, and cited whenever a platform needs third-party apps. Ballmer later reprised it as 'web developers' in 2008.",
-      "narrative": {
-        "whyChosen": "Peak CEO energy — a meme before memes had a name.",
-        "whyImportant": "It symbolized Microsoft's platform bet on ISVs and the Windows ecosystem.",
-        "problemSolved": "Microsoft needed to rally partners around building on its stack."
-      },
-      "tags": [
-        "quote",
-        "meme",
-        "microsoft",
-        "developers"
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
       ],
+      "quoteText": "Developers! Developers! Developers! Developers!",
       "importance": 1,
+      "media": [
+        {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=XxbJw8PrIkc",
+          "title": "Steve Ballmer — Developers chant (.NET presentation)"
+        }
+      ],
       "sources": [
         {
           "title": "Know Your Meme — Steve Ballmer Monkey Dance (September 2000 event)",
@@ -50,6 +53,9 @@
           "url": "https://www.barrypopik.com/blog/developers_developers_developers",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "steve-ballmer-named-microsoft-ceo"
       ]
     }
   ]

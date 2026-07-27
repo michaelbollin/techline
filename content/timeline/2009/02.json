@@ -14,7 +14,20 @@
         "problemSolved": "Safari 3 felt dated against Chrome's fast release cycle and developer tools."
       },
       "category": "software",
-      "tags": ["browser", "web", "apple", "safari", "webkit"],
+      "tags": [
+        "browser",
+        "web",
+        "apple",
+        "safari",
+        "webkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["safari-announced", "safari-3-windows-released", "webkit-open-sourced"]
+      "relatedIds": [
+        "safari-announced",
+        "safari-3-windows-released",
+        "webkit-open-sourced"
+      ]
     },
     {
       "id": "redis-first-released",
@@ -45,7 +62,20 @@
         "problemSolved": "Relational databases were too slow for session stores, counters, and real-time feeds at web scale."
       },
       "category": "software",
-      "tags": ["redis", "database", "cache", "nosql", "open-source"],
+      "tags": [
+        "redis",
+        "database",
+        "cache",
+        "nosql",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "redis",
+          "name": "Redis"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +90,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mongodb-first-released", "mysql-first-released", "memcached-released", "leveldb-open-sourced", "apache-cassandra-open-sourced"]
+      "relatedIds": [
+        "mongodb-first-released",
+        "mysql-first-released",
+        "memcached-released",
+        "leveldb-open-sourced",
+        "apache-cassandra-open-sourced"
+      ]
     },
     {
       "id": "mongodb-first-released",
@@ -76,7 +112,20 @@
         "problemSolved": "Rigid SQL schemas and vertical scaling hurt fast-moving product teams building JSON-heavy apps."
       },
       "category": "software",
-      "tags": ["mongodb", "database", "nosql", "document-store", "open-source"],
+      "tags": [
+        "mongodb",
+        "database",
+        "nosql",
+        "document-store",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mongodb",
+          "name": "MongoDB"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +140,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["redis-first-released", "sequel-paper-published", "elasticsearch-released", "couchdb-released", "apache-cassandra-open-sourced"]
+      "relatedIds": [
+        "redis-first-released",
+        "sequel-paper-published",
+        "elasticsearch-released",
+        "couchdb-released",
+        "apache-cassandra-open-sourced"
+      ]
     }
   ]
 }

@@ -14,7 +14,13 @@
         "problemSolved": "Lua 4's dynamic scoping and limited coroutines restricted complex embedded logic."
       },
       "category": "software",
-      "tags": ["lua", "programming-language", "embedded"],
+      "tags": [
+        "lua",
+        "programming-language",
+        "embedded"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["lua-1-1-public-release"]
+      "relatedIds": [
+        "lua-1-1-public-release"
+      ]
     },
     {
       "id": "amd64-x86-64-announced",
@@ -45,7 +53,21 @@
         "problemSolved": "32-bit x86 could not address enough RAM for large databases, JVM heaps, and in-memory analytics."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "amd", "x86-64", "server", "chip"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "amd",
+        "x86-64",
+        "server",
+        "chip"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "amd",
+          "name": "AMD"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +82,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["intel-80386-introduced", "ibm-pc-5150-released", "vmware-workstation-released", "linux-kernel-announced"]
+      "relatedIds": [
+        "intel-80386-introduced",
+        "ibm-pc-5150-released",
+        "vmware-workstation-released",
+        "linux-kernel-announced"
+      ]
     }
   ]
 }

@@ -14,7 +14,21 @@
         "problemSolved": "Mid-market businesses needed reliable, integrated business computing without mainframe complexity."
       },
       "category": "hardware",
-      "tags": ["hardware", "server", "ibm", "as400", "mainframe", "business"],
+      "tags": [
+        "hardware",
+        "server",
+        "ibm",
+        "as400",
+        "mainframe",
+        "business"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ibm",
+          "name": "IBM"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-system-360-announced", "ibm-pc-5150-released", "cobol-specifications-submitted"]
+      "relatedIds": [
+        "ibm-system-360-announced",
+        "ibm-pc-5150-released",
+        "cobol-specifications-submitted"
+      ]
     }
   ]
 }

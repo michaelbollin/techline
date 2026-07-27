@@ -14,7 +14,14 @@
         "problemSolved": "Systems programmers faced a false choice between C++ speed with manual memory bugs and GC languages with runtime cost."
       },
       "category": "software",
-      "tags": ["rust", "systems-programming", "memory-safety", "programming-language"],
+      "tags": [
+        "rust",
+        "systems-programming",
+        "memory-safety",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cargo-released"]
+      "relatedIds": [
+        "cargo-released"
+      ]
     },
     {
       "id": "cargo-released",
@@ -45,7 +54,15 @@
         "problemSolved": "Rust needed a unified tool for dependencies, builds, tests, and publishing — not ad-hoc makefiles."
       },
       "category": "software",
-      "tags": ["cargo", "rust", "package-manager", "build", "crates-io"],
+      "tags": [
+        "cargo",
+        "rust",
+        "package-manager",
+        "build",
+        "crates-io"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +77,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rust-1-0-released", "npm-first-released", "pip-released"]
+      "relatedIds": [
+        "rust-1-0-released",
+        "npm-first-released",
+        "pip-released"
+      ]
     },
     {
       "id": "http-2-standardized",
@@ -76,7 +97,21 @@
         "problemSolved": "HTTP/1.1's one-request-per-connection model caused latency and inefficient use of modern networks."
       },
       "category": "protocol",
-      "tags": ["http2", "http", "protocol", "standard", "web", "ietf"],
+      "tags": [
+        "http2",
+        "http",
+        "protocol",
+        "standard",
+        "web",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +126,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["http-1-1-standardized", "grpc-open-sourced", "tls-1-0-standardized", "http-3-standardized"]
+      "relatedIds": [
+        "http-1-1-standardized",
+        "grpc-open-sourced",
+        "tls-1-0-standardized",
+        "http-3-standardized"
+      ]
     },
     {
       "id": "jwt-standardized",
@@ -107,7 +147,21 @@
         "problemSolved": "Every API invented its own opaque token format; clients and gateways needed a portable standard."
       },
       "category": "protocol",
-      "tags": ["jwt", "security", "authentication", "api", "standard", "ietf"],
+      "tags": [
+        "jwt",
+        "security",
+        "authentication",
+        "api",
+        "standard",
+        "ietf"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -122,7 +176,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["oauth-2-0-standardized", "tls-1-0-standardized", "rest-architectural-style-defined", "openid-connect-1-0-published"]
+      "relatedIds": [
+        "oauth-2-0-standardized",
+        "tls-1-0-standardized",
+        "rest-architectural-style-defined",
+        "openid-connect-1-0-published"
+      ]
     },
     {
       "id": "rollup-released",
@@ -138,7 +197,16 @@
         "problemSolved": "Bundlers shipped entire dependency trees even when apps used a fraction of each library."
       },
       "category": "software",
-      "tags": ["rollup", "bundler", "javascript", "es6", "tree-shaking", "open-source"],
+      "tags": [
+        "rollup",
+        "bundler",
+        "javascript",
+        "es6",
+        "tree-shaking",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -153,7 +221,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["webpack-released", "browserify-released", "babel-released"]
+      "relatedIds": [
+        "webpack-released",
+        "browserify-released",
+        "babel-released"
+      ]
     }
   ]
 }

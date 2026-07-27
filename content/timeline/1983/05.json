@@ -14,7 +14,21 @@
         "problemSolved": "Operators needed to manage distant computers without physical terminals attached to every machine."
       },
       "category": "protocol",
-      "tags": ["telnet", "tcp", "remote-access", "protocol", "ietf", "standard"],
+      "tags": [
+        "telnet",
+        "tcp",
+        "remote-access",
+        "protocol",
+        "ietf",
+        "standard"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "ietf",
+          "name": "IETF"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tcp-ip-flag-day", "dns-standardized"]
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "dns-standardized"
+      ]
     }
   ]
 }

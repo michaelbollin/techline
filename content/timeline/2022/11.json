@@ -14,7 +14,19 @@
         "problemSolved": "Powerful language models existed in research APIs but were inaccessible to non-technical users."
       },
       "category": "ai",
-      "tags": ["ai", "llm", "openai", "chatgpt"],
+      "tags": [
+        "ai",
+        "llm",
+        "openai",
+        "chatgpt"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +41,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gpt-3-api-released", "gpt-4-released"]
+      "relatedIds": [
+        "gpt-3-api-released",
+        "gpt-4-released"
+      ]
     },
     {
       "id": "dotnet-7-released",
@@ -45,7 +60,18 @@
         "problemSolved": "Developers wanted yearly innovation without waiting for the next LTS cycle."
       },
       "category": "software",
-      "tags": ["dotnet", "csharp", "microsoft"],
+      "tags": [
+        "dotnet",
+        "csharp",
+        "microsoft"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +86,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-6-released", "dotnet-8-released"]
+      "relatedIds": [
+        "dotnet-6-released",
+        "dotnet-8-released"
+      ]
     },
     {
       "id": "csharp-11-released",
@@ -76,7 +105,19 @@
         "problemSolved": "Multiline strings and nullable reference types needed better ergonomics together."
       },
       "category": "software",
-      "tags": ["csharp", "dotnet", "microsoft", "programming-language"],
+      "tags": [
+        "csharp",
+        "dotnet",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -91,7 +132,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dotnet-7-released", "csharp-10-released", "csharp-12-released"]
+      "relatedIds": [
+        "dotnet-7-released",
+        "csharp-10-released",
+        "csharp-12-released"
+      ]
     }
   ]
 }

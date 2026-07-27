@@ -20,6 +20,8 @@
         "es6",
         "standard"
       ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -54,7 +56,19 @@
         "problemSolved": "Swift 1 lacked robust error handling and protocol-oriented patterns for large apps."
       },
       "category": "software",
-      "tags": ["swift", "apple", "programming-language", "ios"],
+      "tags": [
+        "swift",
+        "apple",
+        "programming-language",
+        "ios"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -69,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["swift-announced", "swift-open-sourced", "swift-6-released"]
+      "relatedIds": [
+        "swift-announced",
+        "swift-open-sourced",
+        "swift-6-released"
+      ]
     },
     {
       "id": "open-container-initiative-launched",
@@ -85,7 +103,21 @@
         "problemSolved": "The container ecosystem needed vendor-neutral standards before proprietary formats locked in users."
       },
       "category": "protocol",
-      "tags": ["oci", "runc", "container", "docker", "standard", "linux-foundation"],
+      "tags": [
+        "oci",
+        "runc",
+        "container",
+        "docker",
+        "standard",
+        "linux-foundation"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "docker",
+          "name": "Docker"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -100,7 +132,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["docker-open-sourced", "kubernetes-open-sourced"]
+      "relatedIds": [
+        "docker-open-sourced",
+        "kubernetes-open-sourced"
+      ]
     },
     {
       "id": "cockroachdb-open-sourced",
@@ -116,7 +151,16 @@
         "problemSolved": "Teams outgrew single-node Postgres but needed SQL, not the tradeoffs of eventual-consistency NoSQL."
       },
       "category": "software",
-      "tags": ["cockroachdb", "database", "sql", "distributed", "postgres", "open-source"],
+      "tags": [
+        "cockroachdb",
+        "database",
+        "sql",
+        "distributed",
+        "postgres",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -131,7 +175,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["postgresql-6-released", "mysql-first-released", "apache-cassandra-open-sourced", "sequel-paper-published"]
+      "relatedIds": [
+        "postgresql-6-released",
+        "mysql-first-released",
+        "apache-cassandra-open-sourced",
+        "sequel-paper-published"
+      ]
     }
   ]
 }

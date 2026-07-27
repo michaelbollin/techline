@@ -14,7 +14,21 @@
         "problemSolved": "Developers needed stronger coding models with larger context at API scale."
       },
       "category": "software",
-      "tags": ["ai", "openai", "gpt", "llm", "api", "machine-learning"],
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "llm",
+        "api",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gpt-4o-released", "gpt-4-turbo-released", "chatgpt-released"]
+      "relatedIds": [
+        "gpt-4o-released",
+        "gpt-4-turbo-released",
+        "chatgpt-released"
+      ]
     }
   ]
 }

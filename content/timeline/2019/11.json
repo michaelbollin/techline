@@ -14,7 +14,21 @@
         "problemSolved": "Teams juggled separate CI services, webhooks, and permissions outside their git host."
       },
       "category": "software",
-      "tags": ["github-actions", "ci", "cd", "github", "devops", "yaml"],
+      "tags": [
+        "github-actions",
+        "ci",
+        "cd",
+        "github",
+        "devops",
+        "yaml"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +43,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["github-launched", "travis-ci-launched", "hudson-ci-released"]
+      "relatedIds": [
+        "github-launched",
+        "travis-ci-launched",
+        "hudson-ci-released"
+      ]
     }
   ]
 }

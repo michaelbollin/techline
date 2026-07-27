@@ -14,7 +14,14 @@
         "problemSolved": "Raw Node HTTP required boilerplate for every route; teams needed a thin, composable router on top."
       },
       "category": "software",
-      "tags": ["express", "nodejs", "web-framework", "middleware"],
+      "tags": [
+        "express",
+        "nodejs",
+        "web-framework",
+        "middleware"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-first-released", "nestjs-announced"]
+      "relatedIds": [
+        "nodejs-first-released",
+        "nestjs-announced"
+      ]
     },
     {
       "id": "npm-first-released",
@@ -45,7 +55,15 @@
         "problemSolved": "Node had no standard way to discover, version, and install third-party modules."
       },
       "category": "software",
-      "tags": ["npm", "package-manager", "nodejs", "javascript", "open-source"],
+      "tags": [
+        "npm",
+        "package-manager",
+        "nodejs",
+        "javascript",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +78,18 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-first-released", "express-released", "webpack-released", "browserify-released", "eslint-released", "homebrew-released", "cargo-released", "nuget-released", "yarn-released", "pnpm-released"]
+      "relatedIds": [
+        "nodejs-first-released",
+        "express-released",
+        "webpack-released",
+        "browserify-released",
+        "eslint-released",
+        "homebrew-released",
+        "cargo-released",
+        "nuget-released",
+        "yarn-released",
+        "pnpm-released"
+      ]
     },
     {
       "id": "ipad-introduced",
@@ -76,7 +105,20 @@
         "problemSolved": "Users wanted internet and media consumption without carrying a laptop or squinting at a phone."
       },
       "category": "hardware",
-      "tags": ["hardware", "tablet", "mobile", "apple", "ipad"],
+      "tags": [
+        "hardware",
+        "tablet",
+        "mobile",
+        "apple",
+        "ipad"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -91,7 +133,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["iphone-goes-on-sale", "steve-jobs-iphone-introduced", "iphone-app-store-opens", "microsoft-surface-pro-released", "apple-a4-introduced"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "steve-jobs-iphone-introduced",
+        "iphone-app-store-opens",
+        "microsoft-surface-pro-released",
+        "apple-a4-introduced"
+      ]
     },
     {
       "id": "apple-a4-introduced",
@@ -107,7 +155,21 @@
         "problemSolved": "Apple needed tighter control over performance and battery life than merchant ARM chips provided."
       },
       "category": "hardware",
-      "tags": ["hardware", "cpu", "arm", "apple", "soc", "chip"],
+      "tags": [
+        "hardware",
+        "cpu",
+        "arm",
+        "apple",
+        "soc",
+        "chip"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -122,7 +184,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ipad-introduced", "iphone-4-released", "apple-m1-announced", "acorn-archimedes-released"]
+      "relatedIds": [
+        "ipad-introduced",
+        "iphone-4-released",
+        "apple-m1-announced",
+        "acorn-archimedes-released"
+      ]
     }
   ]
 }
