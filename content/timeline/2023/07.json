@@ -28,7 +28,7 @@
           "name": "Anthropic"
         }
       ],
-      "importance": 3,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -77,7 +77,7 @@
           "name": "Meta"
         }
       ],
-      "importance": 3,
+      "importance": 2,
       "media": [],
       "sources": [
         {

@@ -74,7 +74,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 6,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -117,7 +117,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 6,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -159,7 +159,7 @@
         "nodejs",
         "open-source"
       ],
-      "importance": 3,
+      "importance": 7,
       "media": [],
       "sources": [
         {

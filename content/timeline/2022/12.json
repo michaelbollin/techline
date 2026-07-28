@@ -20,7 +20,7 @@
         "ssr",
         "web-framework"
       ],
-      "importance": 9,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -68,7 +68,7 @@
           "role": "creator"
         }
       ],
-      "importance": 3,
+      "importance": 8,
       "media": [],
       "sources": [
         {

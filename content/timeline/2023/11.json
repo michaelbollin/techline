@@ -27,7 +27,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 3,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -73,7 +73,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 6,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -122,7 +122,7 @@
           "name": "OpenAI"
         }
       ],
-      "importance": 3,
+      "importance": 5,
       "media": [],
       "sources": [
         {

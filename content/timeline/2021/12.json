@@ -20,7 +20,7 @@
         "web-framework",
         "hotwire"
       ],
-      "importance": 3,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -59,7 +59,7 @@
         "python",
         "web-framework"
       ],
-      "importance": 6,
+      "importance": 5,
       "media": [],
       "sources": [
         {

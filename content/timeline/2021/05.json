@@ -27,7 +27,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 3,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -110,7 +110,7 @@
         "frontend",
         "web"
       ],
-      "importance": 3,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -151,7 +151,7 @@
         "saas",
         "retail"
       ],
-      "importance": 3,
+      "importance": 7,
       "media": [],
       "sources": [
         {

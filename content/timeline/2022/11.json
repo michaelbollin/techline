@@ -72,7 +72,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 6,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -118,7 +118,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 6,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -159,7 +159,7 @@
         "web-framework",
         "jakarta"
       ],
-      "importance": 3,
+      "importance": 4,
       "media": [],
       "sources": [
         {

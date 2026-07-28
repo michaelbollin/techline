@@ -29,7 +29,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 9,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -75,7 +75,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 3,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -123,7 +123,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 6,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -171,7 +171,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 9,
+      "importance": 8,
       "media": [],
       "sources": [
         {

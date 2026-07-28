@@ -27,7 +27,7 @@
           "name": "Google"
         }
       ],
-      "importance": 6,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -121,7 +121,7 @@
           "name": "Google"
         }
       ],
-      "importance": 6,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -175,7 +175,7 @@
         }
       ],
       "quoteText": "If this technology goes wrong, it can go quite wrong, and we want to be vocal about that.",
-      "importance": 3,
+      "importance": 8,
       "media": [
         {
           "type": "youtube",
