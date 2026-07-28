@@ -26,24 +26,23 @@ export function labelBottomLocalY(lane: number): number {
   return labelTopLocalY(lane) + LABEL_BOX_HEIGHT;
 }
 
-type LabelRect = {
+type PlacedLabel = {
+  lane: number;
   left: number;
   right: number;
-  top: number;
-  bottom: number;
 };
 
-function laneVerticalBounds(lane: number): { top: number; bottom: number } {
-  const top = labelTopLocalY(lane);
-  return { top, bottom: top + LABEL_BOX_HEIGHT };
-}
-
-function rectsOverlap(a: LabelRect, b: LabelRect, gap: number): boolean {
-  return !(
-    a.right + gap <= b.left ||
-    b.right + gap <= a.left ||
-    a.bottom + gap <= b.top ||
-    b.bottom + gap <= a.top
+function overlapsHorizontallyInLane(
+  placed: PlacedLabel[],
+  lane: number,
+  left: number,
+  right: number,
+  gap: number,
+): boolean {
+  return placed.some(
+    (rect) =>
+      rect.lane === lane &&
+      !(rect.right + gap <= left || right + gap <= rect.left),
   );
 }
 
@@ -64,7 +63,7 @@ export function resolveLabelLayout(
   visibleSpanMs?: number,
 ): Map<string, LabelLayout> {
   const placements = new Map<string, LabelLayout>();
-  const placed: LabelRect[] = [];
+  const placed: PlacedLabel[] = [];
   const msPerYear = 365.25 * 86_400_000;
   const minGapPx =
     visibleSpanMs !== undefined && visibleSpanMs <= msPerYear * 0.25 ? 4 : LABEL_COLLISION_GAP;
@@ -96,18 +95,14 @@ export function resolveLabelLayout(
     let placedLabel = false;
 
     for (let lane = 0; lane < maxLanes; lane++) {
-      const { top, bottom } = laneVerticalBounds(lane);
-      const candidate: LabelRect = { left, right, top, bottom };
-      const overlaps = placed.some((rect) =>
-        rectsOverlap(rect, candidate, minGapPx),
-      );
-
-      if (!overlaps) {
-        placed.push(candidate);
-        placements.set(event.id, { showLabel: true, lane, width: labelWidth });
-        placedLabel = true;
-        break;
+      if (overlapsHorizontallyInLane(placed, lane, left, right, minGapPx)) {
+        continue;
       }
+
+      placed.push({ lane, left, right });
+      placements.set(event.id, { showLabel: true, lane, width: labelWidth });
+      placedLabel = true;
+      break;
     }
 
     if (!placedLabel) {

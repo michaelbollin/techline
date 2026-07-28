@@ -54,6 +54,7 @@ export function TimelineFilterTrigger({ isOpen, activeCount, onToggle }: Timelin
 }
 
 type TimelineFilterSidebarProps = {
+  variant?: "dock" | "overlay";
   isOpen: boolean;
   events: TimelineEvent[];
   activeFilterIds: Set<string>;
@@ -66,6 +67,7 @@ type TimelineFilterSidebarProps = {
 };
 
 export function TimelineFilterSidebar({
+  variant = "dock",
   isOpen,
   events,
   activeFilterIds,
@@ -111,7 +113,20 @@ export function TimelineFilterSidebar({
   }
 
   return (
-    <FilterSidebar id="timeline-filter-sidebar">
+    <>
+      {variant === "overlay" && (
+        <button
+          type="button"
+          className="fixed inset-0 z-30 bg-black/20"
+          aria-label="Close filters"
+          onClick={onClose}
+        />
+      )}
+
+      <FilterSidebar
+        id="timeline-filter-sidebar"
+        className={variant === "overlay" ? "fixed inset-y-0 right-0 z-40 w-full max-w-sm" : undefined}
+      >
       <FilterSidebarHeader>
         <FilterSidebarTitle>Filters</FilterSidebarTitle>
         <TimelineSearchFilter
@@ -137,5 +152,6 @@ export function TimelineFilterSidebar({
         </Button>
       </FilterSidebarFooter>
     </FilterSidebar>
+    </>
   );
 }

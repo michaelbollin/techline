@@ -1,7 +1,9 @@
+import { EventDetailSection } from "@/components/timeline/event-detail-section";
 import type { Narrative } from "@/lib/timeline/schema";
 
 type NarrativeBlockProps = {
   narrative: Narrative;
+  variant?: "page" | "modal";
 };
 
 const sections: { key: keyof Narrative; label: string }[] = [
@@ -10,7 +12,19 @@ const sections: { key: keyof Narrative; label: string }[] = [
   { key: "problemSolved", label: "What it solved" },
 ];
 
-export function NarrativeBlock({ narrative }: NarrativeBlockProps) {
+export function NarrativeBlock({ narrative, variant = "page" }: NarrativeBlockProps) {
+  if (variant === "modal") {
+    return (
+      <div className="space-y-8">
+        {sections.map((section) => (
+          <EventDetailSection key={section.key} title={section.label}>
+            <p className="text-sm leading-relaxed text-foreground">{narrative[section.key]}</p>
+          </EventDetailSection>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <section className="space-y-6">
       {sections.map((section) => (

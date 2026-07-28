@@ -1,6 +1,9 @@
 import { LABEL_BOX_HEIGHT, LABEL_LANE_STEP, LABEL_OFFSET } from "./label-layout";
 import { IMPORTANCE_MAX, type Importance } from "./importance";
 
+const MS_PER_DAY = 86_400_000;
+const MS_PER_YEAR = 365.25 * MS_PER_DAY;
+
 /**
  * Importance tiers (from content schema, 0–9):
  * 0 — pillar / era-defining (sparse at full-timeline zoom)
@@ -13,58 +16,58 @@ export function maxImportanceForZoom(
   msPerPixel: number,
   visibleSpanMs: number,
 ): Importance {
-  const msPerDay = 86_400_000;
-  const msPerYear = 365.25 * msPerDay;
-
   let tier: number;
-  if (msPerPixel > msPerDay * 60) {
+  if (msPerPixel > MS_PER_DAY * 60) {
     tier = 0;
-  } else if (msPerPixel > msPerDay * 20) {
+  } else if (msPerPixel > MS_PER_DAY * 20) {
     tier = 1;
-  } else if (msPerPixel > msPerDay * 8) {
+  } else if (msPerPixel > MS_PER_DAY * 8) {
     tier = 2;
-  } else if (msPerPixel > msPerDay * 4) {
+  } else if (msPerPixel > MS_PER_DAY * 4) {
     tier = 3;
-  } else if (msPerPixel > msPerDay * 2) {
+  } else if (msPerPixel > MS_PER_DAY * 2) {
     tier = 4;
-  } else if (msPerPixel > msPerDay) {
+  } else if (msPerPixel > MS_PER_DAY) {
     tier = 5;
-  } else if (msPerPixel > msPerDay / 4) {
+  } else if (msPerPixel > MS_PER_DAY / 4) {
     tier = 6;
-  } else if (msPerPixel > msPerDay / 12) {
+  } else if (msPerPixel > MS_PER_DAY / 12) {
     tier = 7;
-  } else if (msPerPixel > msPerDay / 48) {
+  } else if (msPerPixel > MS_PER_DAY / 48) {
     tier = 8;
   } else {
     tier = IMPORTANCE_MAX;
   }
 
-  if (visibleSpanMs > msPerYear * 2) {
+  if (visibleSpanMs > MS_PER_YEAR * 8) {
     tier = Math.min(tier, 1);
-  } else if (visibleSpanMs > msPerYear * 0.75) {
+  } else if (visibleSpanMs > MS_PER_YEAR * 3) {
     tier = Math.min(tier, 3);
-  } else if (visibleSpanMs > msPerYear * 0.3) {
+  } else if (visibleSpanMs > MS_PER_YEAR) {
     tier = Math.min(tier, 6);
   }
 
   return tier as Importance;
 }
 
-/** Lane budget from zoom level — kept low to avoid tall label stacks. */
+/** Lane budget from zoom level — more lanes when zoomed in tight. */
 export function maxLanesForZoom(msPerPixel: number, visibleSpanMs: number): number {
-  const msPerDay = 86_400_000;
-  const msPerYear = 365.25 * msPerDay;
-
-  if (visibleSpanMs <= msPerYear * 0.25) {
+  if (visibleSpanMs <= MS_PER_YEAR * 0.15) {
+    return 6;
+  }
+  if (visibleSpanMs <= MS_PER_YEAR * 0.5) {
+    return 5;
+  }
+  if (visibleSpanMs <= MS_PER_YEAR) {
     return 4;
   }
-  if (visibleSpanMs <= msPerYear) {
+  if (visibleSpanMs <= MS_PER_YEAR * 3) {
+    return 4;
+  }
+  if (visibleSpanMs <= MS_PER_YEAR * 8) {
     return 3;
   }
-  if (visibleSpanMs <= msPerYear * 4) {
-    return 2;
-  }
-  if (msPerPixel > msPerDay * 8) {
+  if (msPerPixel > MS_PER_DAY * 8) {
     return 2;
   }
 

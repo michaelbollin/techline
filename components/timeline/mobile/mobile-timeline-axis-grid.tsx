@@ -7,41 +7,47 @@ import {
   formatAxisTick,
   isYearZoomTick,
 } from "@/lib/timeline/axis-ticks";
-import { TIMELINE_EXTENT, TIMELINE_INK, TIMELINE_YEAR_LABEL_OFFSET } from "@/lib/timeline/constants";
+import { TIMELINE_EXTENT, TIMELINE_INK } from "@/lib/timeline/constants";
+import {
+  MOBILE_YEAR_LABEL_X,
+} from "@/lib/timeline/vertical/constants";
 
-type TimelineAxisGridProps = {
-  xScale: d3.ScaleTime<number, number>;
-  width: number;
-  getAxisY: (x: number) => number;
+type MobileTimelineAxisGridProps = {
+  yScale: d3.ScaleTime<number, number>;
+  height: number;
+  getAxisX: (y: number) => number;
   onYearClick: (year: number) => void;
 };
 
-const TICK_HIT_WIDTH = 36;
+const TICK_HIT_WIDTH = 40;
 const TICK_HIT_HEIGHT = 28;
 
-export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: TimelineAxisGridProps) {
+export function MobileTimelineAxisGrid({
+  yScale,
+  height,
+  getAxisX,
+  onYearClick,
+}: MobileTimelineAxisGridProps) {
   const [tMin, tMax] = TIMELINE_EXTENT;
   const interval = axisTickInterval(
-    Math.abs(xScale.invert(width).getTime() - xScale.invert(0).getTime()),
+    Math.abs(yScale.invert(height).getTime() - yScale.invert(0).getTime()),
   );
-  const ticks = axisTicks(xScale, width).filter((tick) => {
+  const ticks = axisTicks(yScale, height).filter((tick) => {
     const time = tick.getTime();
     return time >= tMin && time <= tMax;
   });
-  const gridLineEnd = TIMELINE_YEAR_LABEL_OFFSET - 8;
-  const baseAxisY = getAxisY(0);
-  const labelY = baseAxisY + TIMELINE_YEAR_LABEL_OFFSET;
+  const tickLineStart = MOBILE_YEAR_LABEL_X + 6;
+  const labelX = MOBILE_YEAR_LABEL_X;
 
   return (
     <g>
       {ticks.map((tick, index) => {
-        const x = xScale(tick);
-        if (x < 0 || x > width) {
+        const y = yScale(tick);
+        if (y < 0 || y > height) {
           return null;
         }
 
-        const tickAxisY = getAxisY(x);
-
+        const tickAxisX = getAxisX(y);
         const label = formatAxisTick(tick, interval, ticks[index - 1]);
         const year = tick.getUTCFullYear();
         const canZoomYear = isYearZoomTick(tick, interval);
@@ -49,10 +55,10 @@ export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: Timel
         return (
           <g key={tick.getTime()}>
             <line
-              x1={x}
-              x2={x}
-              y1={tickAxisY}
-              y2={tickAxisY + gridLineEnd}
+              x1={tickLineStart}
+              x2={Math.max(tickLineStart + 4, tickAxisX)}
+              y1={y}
+              y2={y}
               stroke={TIMELINE_INK}
               strokeOpacity={0.1}
               strokeWidth={1}
@@ -61,8 +67,8 @@ export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: Timel
             {canZoomYear ? (
               <rect
                 className="peer cursor-pointer"
-                x={x - TICK_HIT_WIDTH / 2}
-                y={labelY - TICK_HIT_HEIGHT + 6}
+                x={labelX - TICK_HIT_WIDTH + 8}
+                y={y - TICK_HIT_HEIGHT / 2}
                 width={TICK_HIT_WIDTH}
                 height={TICK_HIT_HEIGHT}
                 fill="transparent"
@@ -73,9 +79,10 @@ export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: Timel
               />
             ) : null}
             <text
-              x={x}
-              y={labelY}
-              textAnchor="middle"
+              x={labelX}
+              y={y}
+              textAnchor="end"
+              dominantBaseline="middle"
               fill={TIMELINE_INK}
               className={cn(
                 "pointer-events-none font-sans font-medium",

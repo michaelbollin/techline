@@ -1,29 +1,30 @@
+import { EventDetailSection } from "@/components/timeline/event-detail-section";
 import { NarrativeBlock } from "@/components/timeline/narrative-block";
 import { MediaList } from "@/components/timeline/media-list";
 import type { Source, TimelineEvent } from "@/lib/timeline/schema";
 
 type EventDetailProps = {
   event: TimelineEvent;
+  variant?: "page" | "modal";
 };
 
 function sourcesByRole(sources: Source[]) {
-  const dated = sources.filter((source) => source.role === "date");
   const overview = sources.filter((source) => source.role === "overview");
   const other = sources.filter((source) => !source.role);
 
-  return { dated, overview, other };
+  return { overview, other };
 }
 
 function SourceLinks({ sources }: { sources: Source[] }) {
   return (
-    <ul className="space-y-3">
+    <ul className="space-y-2">
       {sources.map((source) => (
         <li key={source.url}>
           <a
             href={source.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-foreground underline decoration-border underline-offset-4 hover:text-accent hover:decoration-accent"
+            className="text-sm text-foreground underline decoration-black/15 underline-offset-4 hover:decoration-black/40"
           >
             {source.title}
           </a>
@@ -33,8 +34,71 @@ function SourceLinks({ sources }: { sources: Source[] }) {
   );
 }
 
-export function EventDetail({ event }: EventDetailProps) {
-  const { dated, overview, other } = sourcesByRole(event.sources);
+export function EventDetail({ event, variant = "page" }: EventDetailProps) {
+  const { overview, other } = sourcesByRole(event.sources);
+
+  if (variant === "modal") {
+    return (
+      <div className="space-y-8">
+        {event.quoteText && (
+          <EventDetailSection title="Quote">
+            <blockquote className="text-base leading-relaxed font-medium text-foreground italic">
+              &ldquo;{event.quoteText}&rdquo;
+            </blockquote>
+          </EventDetailSection>
+        )}
+
+        <EventDetailSection title="What it was for">
+          <p className="text-sm leading-relaxed text-foreground">{event.about}</p>
+        </EventDetailSection>
+
+        {event.people.length > 0 && (
+          <EventDetailSection title="People">
+            <ul className="space-y-2">
+              {event.people.map((person) => (
+                <li key={person.id} className="text-sm text-foreground">
+                  <span className="font-medium">{person.name}</span>
+                  <span className="text-muted"> — {person.role.replace("-", " ")}</span>
+                </li>
+              ))}
+            </ul>
+          </EventDetailSection>
+        )}
+
+        {event.companies.length > 0 && (
+          <EventDetailSection title="Companies">
+            <ul className="space-y-2">
+              {event.companies.map((company) => (
+                <li key={company.id} className="text-sm text-foreground">
+                  {company.name}
+                </li>
+              ))}
+            </ul>
+          </EventDetailSection>
+        )}
+
+        <NarrativeBlock narrative={event.narrative} variant="modal" />
+
+        {event.media.length > 0 && (
+          <EventDetailSection title="Media">
+            <MediaList media={event.media} variant="modal" />
+          </EventDetailSection>
+        )}
+
+        {overview.length > 0 && (
+          <EventDetailSection title="Overview">
+            <SourceLinks sources={overview} />
+          </EventDetailSection>
+        )}
+
+        {other.length > 0 && (
+          <EventDetailSection title="Sources">
+            <SourceLinks sources={other} />
+          </EventDetailSection>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px]">
@@ -100,17 +164,8 @@ export function EventDetail({ event }: EventDetailProps) {
         )}
       </div>
 
-      {event.sources.length > 0 && (
+      {(overview.length > 0 || other.length > 0) && (
         <aside className="h-fit space-y-5 rounded-2xl border border-border bg-surface p-5">
-          {dated.length > 0 && (
-            <section>
-              <h2 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">
-                Date source
-              </h2>
-              <SourceLinks sources={dated} />
-            </section>
-          )}
-
           {overview.length > 0 && (
             <section>
               <h2 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">

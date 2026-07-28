@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { ModernTimeline } from "@/components/timeline/modern-timeline";
+import { ResponsiveTimeline } from "@/components/timeline/responsive-timeline";
 import { filterLabels, parseFilterSegment } from "@/lib/timeline/filter-url";
 import { getTimeline } from "@/lib/timeline/get-timeline";
 import { SITE_NAME } from "@/lib/site";
@@ -30,6 +30,6 @@ export default async function FilteredTimelinePage({ params }: FilteredTimelineP
   const { events } = await getTimeline();
 
   return (
-    <ModernTimeline events={events} filterPathKey={filters} />
+    <ResponsiveTimeline events={events} filterPathKey={filters} />
   );
 }
