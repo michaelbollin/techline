@@ -48,7 +48,7 @@
       "datePrecision": "day",
       "title": "Internet Explorer 11 retired",
       "summary": "Microsoft retired the Internet Explorer 11 desktop app on June 15, 2022 — ending 27 years of the browser that once held over 90% market share.",
-      "about": "Opening IE on Windows 10 redirected users to Microsoft Edge; IE mode in Edge kept legacy intranet apps running. For developers, it was the final break from ActiveX-only sites, `-ms-` hacks, and the IE6–IE11 compatibility matrix. Enterprises that had delayed migration got a hard push toward modern browsers.",
+      "about": "Opening IE on Windows 10 redirected users to Microsoft Edge; IE mode in Edge kept legacy intranet apps running. The retirement applied to the IE11 desktop app on consumer Windows 10 — Windows 10 LTSC, Windows Server, and Windows 7 ESU editions retained IE11 support. For developers, it was the final break from ActiveX-only sites, `-ms-` hacks, and the IE6–IE11 compatibility matrix.",
       "narrative": {
         "whyChosen": "IE's retirement closed the longest chapter in browser history and the era of building for one dominant engine.",
         "whyImportant": "It forced the last holdouts off a browser with no security updates and shrinking web compatibility.",

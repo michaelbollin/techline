@@ -1,0 +1,87 @@
+{
+  "events": [
+    {
+      "id": "storyblok-founded",
+      "slug": "storyblok-founded",
+      "date": "2017",
+      "datePrecision": "year",
+      "title": "Storyblok founded",
+      "summary": "Dominik Angerer and Alexander Feiglstorfer founded Storyblok in Linz, Austria in 2017 — a headless CMS with a visual editor for marketers and component APIs for developers.",
+      "about": "Storyblok's block-based visual editor let content teams compose pages from developer-defined components — bridging the marketer-developer gap that pure API CMSs left open. It became a leading European headless CMS for enterprises like Adidas and Pizza Hut.",
+      "narrative": {
+        "whyChosen": "Storyblok pioneered visual editing in a headless CMS without sacrificing developer control.",
+        "whyImportant": "Component-based content blocks influenced how headless CMSs serve both marketers and engineers.",
+        "problemSolved": "Headless CMSs forced marketers to edit JSON or rely entirely on developers for layout changes."
+      },
+      "category": "software",
+      "tags": [
+        "storyblok",
+        "cms",
+        "headless",
+        "api",
+        "saas"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Storyblok — About (founded 2017)",
+          "url": "https://www.storyblok.com/about",
+          "role": "date"
+        },
+        {
+          "title": "Storyblok — Series A press release (overview)",
+          "url": "https://www.storyblok.com/mp/series-a-press-release",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "contentful-founded",
+        "sanity-launched",
+        "nextjs-open-sourced"
+      ]
+    },
+    {
+      "id": "graphcms-founded",
+      "slug": "graphcms-founded",
+      "date": "2017",
+      "datePrecision": "year",
+      "title": "GraphCMS founded",
+      "summary": "Michael Lukaszczyk and Daniel Winter founded GraphCMS in Germany in 2017 (GmbH registered June 2017) — the first GraphQL-native headless CMS, later rebranded Hygraph.",
+      "about": "GraphCMS built its content API on GraphQL from day one — typed schemas, nested queries, and federation for omnichannel content. It competed with REST-first headless CMSs and later rebranded to Hygraph in 2022 as the platform expanded beyond pure CMS.",
+      "narrative": {
+        "whyChosen": "GraphCMS made GraphQL the native API for headless content management.",
+        "whyImportant": "It validated GraphQL as the query layer for structured content at enterprise scale.",
+        "problemSolved": "REST CMS APIs required multiple round-trips for nested content relationships."
+      },
+      "category": "software",
+      "tags": [
+        "hygraph",
+        "graphcms",
+        "cms",
+        "headless",
+        "graphql",
+        "api"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CMS Critic — GraphCMS launched 2017 (overview)",
+          "url": "https://cmscritic.com/graphcms-rebrands-to-hygraph-launches-new-federated-content-platform",
+          "role": "date"
+        },
+        {
+          "title": "Hygraph — Seed funding press release (overview)",
+          "url": "https://hygraph.com/blog/seed-press-release",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "graphql-foundation-announced",
+        "contentful-founded",
+        "sanity-launched"
+      ]
+    }
+  ]
+}

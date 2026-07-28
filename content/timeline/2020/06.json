@@ -138,6 +138,38 @@
       "relatedIds": [
         "redis-first-released"
       ]
+    },
+    {
+      "id": "drupal-9-released",
+      "slug": "drupal-9-released",
+      "date": "2020-06-03",
+      "datePrecision": "day",
+      "title": "Drupal 9 released",
+      "summary": "Drupal 9.0 shipped on June 3, 2020 — a major version that removed deprecated code and updated Symfony and Twig dependencies while keeping the Drupal 8 architecture.",
+      "about": "Drupal 9 was designed as a smooth upgrade from Drupal 8 — same APIs, updated vendor libraries, and no feature rewrites. It gave enterprise sites a supported path before Symfony 4 end-of-life forced migration to Drupal 10.",
+      "narrative": {
+        "whyChosen": "Drupal 9 extended the Symfony-based architecture with a low-friction upgrade from Drupal 8.",
+        "whyImportant": "It kept enterprise Drupal sites on supported dependencies through 2023.",
+        "problemSolved": "Drupal 8 sites faced end-of-life without a clear migration path that preserved custom modules."
+      },
+      "category": "software",
+      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
+      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Drupal.org — Drupal 9.0.0 released (June 3, 2020)",
+          "url": "https://www.drupal.org/project/drupal/releases/9.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Drupal.org — Drupal 9.0.0 released blog (overview)",
+          "url": "https://www.drupal.org/blog/drupal-9-released",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["drupal-8-released", "drupal-10-released", "drupal-7-released"]
     }
   ]
 }

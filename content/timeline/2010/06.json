@@ -104,10 +104,10 @@
     {
       "id": "samsung-galaxy-s-released",
       "slug": "samsung-galaxy-s-released",
-      "date": "2010-06",
-      "datePrecision": "month",
+      "date": "2010-06-04",
+      "datePrecision": "day",
       "title": "Samsung Galaxy S released",
-      "summary": "Samsung began selling the Galaxy S in June 2010 — the first flagship Android phone in a line that would dominate smartphone sales.",
+      "summary": "Samsung put the Galaxy S on sale on June 4, 2010 in Singapore — the first flagship Android phone in a line that would dominate smartphone shipments.",
       "about": "The Galaxy S ran Android 2.1 with Samsung's TouchWiz skin and a 4-inch Super AMOLED display — establishing Samsung as Apple's primary Android hardware rival. Developers targeting Android tested on Galaxy devices as the default non-Nexus reference hardware for years.",
       "narrative": {
         "whyChosen": "The Galaxy S launched Samsung's flagship Android line that defined the iOS alternative.",
@@ -153,6 +153,46 @@
         "t-mobile-g1-released",
         "iphone-4-released",
         "iphone-goes-on-sale"
+      ]
+    },
+    {
+      "id": "wordpress-3-0-released",
+      "slug": "wordpress-3-0-released",
+      "date": "2010-06-17",
+      "datePrecision": "day",
+      "title": "WordPress 3.0 released",
+      "summary": "WordPress 3.0 \"Thelonious\" shipped on June 17, 2010 — merging WordPress MU into core and adding custom post types.",
+      "about": "WordPress 3.0 turned blogging software into a general CMS — custom post types, nav menus, and Multisite for running many sites from one install. The Twenty Ten default theme launched the annual theme tradition; agencies could finally build portfolios and directories without fighting the post-only model.",
+      "narrative": {
+        "whyChosen": "WordPress 3.0 was the release that made WordPress a true CMS, not just a blog.",
+        "whyImportant": "Custom post types and Multisite unlocked enterprise and agency use cases at massive scale.",
+        "problemSolved": "Separate WordPress MU installs were awkward; publishers needed structured content beyond posts and pages."
+      },
+      "category": "software",
+      "tags": [
+        "wordpress",
+        "cms",
+        "php",
+        "web"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "WordPress News — WordPress 3.0 Thelonious (June 17, 2010)",
+          "url": "https://wordpress.org/news/2010/06/thelonious/",
+          "role": "date"
+        },
+        {
+          "title": "WordPress.org — Version 3.0 (overview)",
+          "url": "https://wordpress.org/documentation/wordpress-version/version-3-0/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "wordpress-released",
+        "woocommerce-released",
+        "drupal-7-released"
       ]
     }
   ]

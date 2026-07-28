@@ -1,0 +1,98 @@
+{
+  "events": [
+    {
+      "id": "bootstrap-3-released",
+      "slug": "bootstrap-3-released",
+      "date": "2013-08-19",
+      "datePrecision": "day",
+      "title": "Bootstrap 3 released",
+      "summary": "Bootstrap 3.0 shipped on August 19, 2013 — a flat, mobile-first redesign that defined responsive web UI for the mid-2010s.",
+      "about": "Bootstrap 3 dropped gradients for flat design and made mobile breakpoints the default — `col-xs-12`, responsive navbars, and glyphicons in every tutorial. It shipped in Laravel, WordPress admin themes, and internal dashboards until Bootstrap 4's flexbox rewrite.",
+      "narrative": {
+        "whyChosen": "Bootstrap 3 codified mobile-first responsive design for mainstream developers.",
+        "whyImportant": "Its grid and components became the visual language of the responsive web era.",
+        "problemSolved": "Teams rebuilt the same responsive layouts and media queries for every new project."
+      },
+      "category": "software",
+      "tags": ["bootstrap", "css", "frontend", "web", "responsive"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Bootstrap Blog — Bootstrap 3 released (August 19, 2013)",
+          "url": "https://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — twbs/bootstrap v3.0.0 (overview)",
+          "url": "https://github.com/twbs/bootstrap/releases/tag/v3.0.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["bootstrap-released", "bootstrap-4-released", "jquery-1-0-released"]
+    },
+    {
+      "id": "webflow-launched",
+      "slug": "webflow-launched",
+      "date": "2013-08-05",
+      "datePrecision": "day",
+      "title": "Webflow launched",
+      "summary": "Vlad Magdalin, Sergie Magdalin, and Bryant Chou launched Webflow on August 5, 2013 — a visual editor for designing and publishing responsive websites without hand-coding CSS.",
+      "about": "Webflow generates clean HTML and CSS from a drag-and-drop canvas — designers ship production sites without handing off to developers. It became the leading no-code visual development platform for agencies and marketing teams building on the modern web stack.",
+      "narrative": {
+        "whyChosen": "Webflow proved visual design tools could output production-grade responsive code.",
+        "whyImportant": "It bridged designer workflows and deployable web apps before no-code went mainstream.",
+        "problemSolved": "Designers exported mockups to developers who rebuilt every layout by hand in HTML and CSS."
+      },
+      "category": "software",
+      "tags": ["webflow", "nocode", "frontend", "css", "web", "design"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "TechCrunch — Webflow launches out of closed beta (August 5, 2013)",
+          "url": "https://techcrunch.com/2013/08/05/webflow-lets-you-design-responsive-websites-visually-publish-instantly-when-youre-done/",
+          "role": "date"
+        },
+        {
+          "title": "Y Combinator — Webflow launch announcement (overview)",
+          "url": "https://www.ycombinator.com/blog/webflow-yc-s13-lets-you-design-responsive-websites-visually-and-publish-instantly-when-youre-done",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["bootstrap-released", "tailwind-css-released", "nextjs-open-sourced"]
+    },
+    {
+      "id": "shopify-payments-launched",
+      "slug": "shopify-payments-launched",
+      "date": "2013-08-12",
+      "datePrecision": "day",
+      "title": "Shopify Payments launched",
+      "summary": "Shopify introduced Shopify Payments on August 12, 2013 — integrated credit card processing built into the merchant admin, powered by Stripe.",
+      "about": "Merchants enabled Visa, Mastercard, and Amex in two clicks without a separate payment gateway — sales, inventory, and payouts synced in one dashboard. Integrated payments became table stakes for e-commerce platforms and a major Shopify revenue stream.",
+      "narrative": {
+        "whyChosen": "Shopify Payments made payments a native platform feature, not a third-party bolt-on.",
+        "whyImportant": "Unified commerce and payments data became the model for modern e-commerce SaaS.",
+        "problemSolved": "Store owners juggled separate gateway accounts that never synced with sales and inventory."
+      },
+      "category": "software",
+      "tags": ["shopify", "ecommerce", "payments", "saas", "fintech"],
+      "companies": [{ "id": "shopify", "name": "Shopify" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Shopify News — Shopify Payments launched (August 12, 2013)",
+          "url": "https://www.shopify.com/news/shopify-launches-shopify-payments",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Shopify debuts integrated payment processing (overview)",
+          "url": "https://techcrunch.com/2013/08/12/shopify-debuts-fully-integrated-credit-card-payment-processing-for-its-e-commerce-platform/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["shopify-launched", "shopify-ipo", "woocommerce-released"]
+    }
+  ]
+}

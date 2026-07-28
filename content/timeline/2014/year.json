@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "framer-founded",
+      "slug": "framer-founded",
+      "date": "2014",
+      "datePrecision": "year",
+      "title": "Framer founded",
+      "summary": "Koen Bok and Jorn van Dijk founded Framer in Amsterdam in 2014 — an interactive design and prototyping tool for high-fidelity app mockups.",
+      "about": "Framer started as a prototyping tool for designers after its founders sold Sofa to Facebook in 2011. It later pivoted to a full website builder in 2022 — design, CMS, and publish from one canvas — competing with Webflow and Figma's expanding scope.",
+      "narrative": {
+        "whyChosen": "Framer became a leading tool bridging design and production-ready web publishing.",
+        "whyImportant": "It showed designers could ship live sites without handing off to developers.",
+        "problemSolved": "High-fidelity prototypes could not become production sites without a full rebuild."
+      },
+      "category": "software",
+      "tags": ["framer", "design", "prototyping", "nocode", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "TechCrunch — Framer Series B (founded 2014)",
+          "url": "https://techcrunch.com/2018/11/12/framer-series-b/",
+          "role": "date"
+        },
+        {
+          "title": "Forbes — Framer reinvents itself (overview)",
+          "url": "https://www.forbes.com/sites/iainmartin/2023/09/28/framer-website-builder-design-software-figma-challenger/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["webflow-launched", "squarespace-launched", "react-open-sourced"]
+    }
+  ]
+}

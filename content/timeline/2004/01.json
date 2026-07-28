@@ -1,49 +1,68 @@
 {
   "events": [
     {
+      "id": "squarespace-launched",
+      "slug": "squarespace-launched",
+      "date": "2004-01",
+      "datePrecision": "month",
+      "title": "Squarespace launched",
+      "summary": "Anthony Casalena launched Squarespace in January 2004 from his University of Maryland dorm room — an all-in-one website builder and hosting platform.",
+      "about": "Squarespace combined blogging, galleries, and styled templates without requiring HTML knowledge — a design-first alternative to WordPress and Blogger. Casalena was the sole developer until revenue hit $1 million in 2006; Squarespace later IPO'd on the NYSE in 2021.",
+      "narrative": {
+        "whyChosen": "Squarespace pioneered polished, template-driven site building for non-developers.",
+        "whyImportant": "It proved design quality could be a product differentiator in website builders.",
+        "problemSolved": "Creators wanted beautiful sites without learning code or patching together separate tools."
+      },
+      "category": "software",
+      "tags": ["squarespace", "website-builder", "saas", "hosting", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Squarespace (launched January 2004)",
+          "url": "https://en.wikipedia.org/wiki/Squarespace",
+          "role": "date"
+        },
+        {
+          "title": "Squarespace — Press coverage (overview)",
+          "url": "https://www.squarespace.com/press-coverage/2014/1/29/squarespace-a-quiet-success-story",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["wordpress-released", "wix-founded", "webflow-launched"]
+    },
+    {
       "id": "scala-first-release",
       "slug": "scala-first-release",
       "date": "2004-01-20",
       "datePrecision": "day",
       "title": "Scala first public release",
-      "summary": "Martin Odersky announced the first Scala implementation on the JVM on January 20, 2004 at EPFL.",
-      "about": "Scala merges object-oriented and functional programming on the JVM — case classes, pattern matching, implicits, and seamless Java interop. It powers Apache Spark (big data), Akka (actors), and Twitter's early backend. Kotlin and Swift borrowed ideas from Scala's type system and syntax.",
+      "summary": "Martin Odersky released Scala publicly on January 20, 2004 — a language combining object-oriented and functional programming on the JVM.",
+      "about": "Scala brought pattern matching, implicits, and actor-friendly concurrency to the Java ecosystem — later powering Twitter, Spark, and Akka. Scala 2.0 in 2006 stabilized the language for production use.",
       "narrative": {
-        "whyChosen": "Scala showed the JVM could host modern FP+OO languages beyond Java without a new runtime.",
-        "whyImportant": "It became the language of big-data (Spark) and proved functional features could scale to industry codebases.",
-        "problemSolved": "Java lacked expressive abstraction for components; researchers needed a scalable language for composable software."
+        "whyChosen": "Scala introduced functional programming to mainstream JVM development.",
+        "whyImportant": "It influenced Kotlin, Swift, and modern language design on managed runtimes.",
+        "problemSolved": "JVM developers wanted expressive functional abstractions without abandoning Java interop."
       },
       "category": "software",
-      "tags": [
-        "scala",
-        "jvm",
-        "functional-programming",
-        "programming-language"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "sun-microsystems",
-          "name": "Sun Microsystems"
-        }
-      ],
+      "tags": ["scala", "jvm", "functional-programming", "programming-language"],
+      "people": [{ "id": "martin-odersky", "name": "Martin Odersky", "role": "creator" }],
+      "companies": [{ "id": "epfl", "name": "EPFL" }],
       "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Odersky — ANNOUNCEMENT: The Scala Programming Language (Jan 20, 2004)",
-          "url": "https://lists.seas.upenn.edu/pipermail/types-list/2004/000101.html",
+          "title": "Wikipedia — Scala (first released January 20, 2004)",
+          "url": "https://en.wikipedia.org/wiki/Scala_(programming_language)",
           "role": "date"
         },
         {
-          "title": "Scala — An Overview of the Scala Programming Language (overview)",
-          "url": "https://www.scala-lang.org/docu/files/ScalaOverview.pdf",
+          "title": "Scala-lang.org — Scala documentation (overview)",
+          "url": "https://docs.scala-lang.org/",
           "role": "overview"
         }
       ],
-      "relatedIds": [
-        "java-1-0-shipped"
-      ]
+      "relatedIds": ["scala-2-0-released", "scala-3-released", "java-5-released"]
     }
   ]
 }

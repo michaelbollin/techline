@@ -22,6 +22,7 @@ type TimelineSearchFilterProps = {
   onFulltextChange: (query: string) => void;
   fulltextQuery: string;
   resetNonce?: number;
+  layout?: "inline" | "pane";
 };
 
 export function TimelineSearchFilter({
@@ -32,6 +33,7 @@ export function TimelineSearchFilter({
   onFulltextChange,
   fulltextQuery,
   resetNonce = 0,
+  layout = "inline",
 }: TimelineSearchFilterProps) {
   const rootRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -59,7 +61,7 @@ export function TimelineSearchFilter({
   return (
     <div
       ref={rootRef}
-      className={`timeline-search-filter ${isOpen ? "is-open" : ""} ${hasSelection ? "has-selection" : ""}`}
+      className={`timeline-search-filter ${layout === "pane" ? "timeline-search-filter--pane" : ""} ${isOpen ? "is-open" : ""} ${hasSelection ? "has-selection" : ""}`}
     >
       <label className="timeline-search-filter-label" htmlFor={`${listboxId}-input`}>
         Search

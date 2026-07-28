@@ -91,6 +91,70 @@
         "capistrano-released",
         "heroku-launched"
       ]
+    },
+    {
+      "id": "woocommerce-released",
+      "slug": "woocommerce-released",
+      "date": "2011-09-27",
+      "datePrecision": "day",
+      "title": "WooCommerce released",
+      "summary": "WooThemes released WooCommerce on September 27, 2011 — a WordPress plugin that turned blogs into full online stores.",
+      "about": "WooCommerce adds products, carts, checkout, and payment gateways to any WordPress site — themes and extensions from a huge marketplace. It became the most-used e-commerce stack on the web, later stewarded by Automattic after acquiring WooThemes.",
+      "narrative": {
+        "whyChosen": "WooCommerce made WordPress a commerce platform without leaving the CMS ecosystem.",
+        "whyImportant": "It proved plugin-based e-commerce could outscale dedicated carts for SMB merchants.",
+        "problemSolved": "WordPress site owners needed selling tools without migrating to Magento or hosted SaaS."
+      },
+      "category": "software",
+      "tags": ["woocommerce", "wordpress", "ecommerce", "php", "web", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "WooCommerce — WooCommerce Has Arrived (September 27, 2011)",
+          "url": "https://woocommerce.com/posts/woocommerce-has-arrived/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — WooCommerce (overview)",
+          "url": "https://en.wikipedia.org/wiki/WooCommerce",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["wordpress-released", "wordpress-3-0-released", "shopify-launched", "magento-1-0-released"]
+    },
+    {
+      "id": "css-selectors-level-3-recommendation",
+      "slug": "css-selectors-level-3-recommendation",
+      "date": "2011-09-29",
+      "datePrecision": "day",
+      "title": "CSS Selectors Level 3 becomes a W3C Recommendation",
+      "summary": "The W3C published Selectors Level 3 as a Recommendation on September 29, 2011 — standardizing `:nth-child`, `:not`, attribute selectors, and pseudo-elements.",
+      "about": "Selectors Level 3 was the first major CSS module to reach Recommendation status after CSS 2.1 — adding structural pseudo-classes, UI state selectors (`:checked`, `:disabled`), and combinators that jQuery had popularized in JavaScript. Every modern stylesheet uses its patterns for targeting DOM nodes without extra markup.",
+      "narrative": {
+        "whyChosen": "Selectors Level 3 was the first CSS3 module to ship as a finished standard.",
+        "whyImportant": "It gave authors precise DOM targeting primitives that powered responsive and component-based CSS.",
+        "problemSolved": "CSS2 selectors were too limited for dynamic UIs and complex document structures."
+      },
+      "category": "protocol",
+      "tags": ["css", "web", "w3c", "standards"],
+      "people": [],
+      "companies": [{ "id": "w3c", "name": "W3C" }],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C CSS WG Blog — Selectors Level 3 REC (September 29, 2011)",
+          "url": "https://www.w3.org/blog/CSS/2011/09/29/selectors-3-selectors-4-rec-fpwd/",
+          "role": "date"
+        },
+        {
+          "title": "W3C — Selectors Level 3 (overview)",
+          "url": "https://www.w3.org/TR/2011/REC-css3-selectors-20110929/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["css-2-1-w3c-recommendation", "jquery-1-0-released", "bootstrap-released"]
     }
   ]
 }

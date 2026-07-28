@@ -14,7 +14,13 @@
         "problemSolved": "Complex agent-based config management was heavy; teams wanted simple, readable automation."
       },
       "category": "software",
-      "tags": ["ansible", "devops", "configuration-management", "yaml", "open-source"],
+      "tags": [
+        "ansible",
+        "devops",
+        "configuration-management",
+        "yaml",
+        "open-source"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["hudson-ci-released", "docker-open-sourced", "terraform-released", "puppet-released", "chef-released"]
+      "relatedIds": [
+        "hudson-ci-released",
+        "docker-open-sourced",
+        "terraform-released",
+        "puppet-released",
+        "chef-released"
+      ]
     },
     {
       "id": "raspberry-pi-model-b-released",
@@ -37,7 +49,7 @@
       "date": "2012-02-29",
       "datePrecision": "day",
       "title": "Raspberry Pi Model B released",
-      "summary": "The Raspberry Pi Foundation began shipping the Model B on February 29, 2012 — a $35 credit-card-sized Linux computer.",
+      "summary": "The Raspberry Pi Foundation opened Model B orders on February 29, 2012 — a $35 credit-card-sized Linux computer; first production units shipped in mid-April 2012.",
       "about": "Raspberry Pi runs Debian on ARM with GPIO pins for robotics, home automation, and retro gaming. Schools taught Python on Pis; makers built NAS boxes and media centers. It brought full Linux userspace to the same audience Arduino served at the microcontroller layer — and sold tens of millions of units.",
       "narrative": {
         "whyChosen": "The Model B made a complete Linux computer affordable for education and hobbyists.",
@@ -45,7 +57,14 @@
         "problemSolved": "Students and hobbyists could not experiment with real computers at microcontroller price points."
       },
       "category": "hardware",
-      "tags": ["hardware", "embedded", "raspberry-pi", "linux", "single-board-computer", "education"],
+      "tags": [
+        "hardware",
+        "embedded",
+        "raspberry-pi",
+        "linux",
+        "single-board-computer",
+        "education"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -60,7 +79,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["arduino-released", "linux-kernel-announced", "esp8266-released", "raspberry-pi-zero-released"]
+      "relatedIds": [
+        "arduino-released",
+        "linux-kernel-announced",
+        "esp8266-released",
+        "raspberry-pi-zero-released"
+      ]
     }
   ]
 }

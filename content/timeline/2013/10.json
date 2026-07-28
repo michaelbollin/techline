@@ -97,6 +97,37 @@
         "safari-5-released",
         "safari-announced"
       ]
+    },
+    {
+      "id": "ghost-released",
+      "slug": "ghost-released",
+      "date": "2013-10-14",
+      "datePrecision": "day",
+      "title": "Ghost publicly released",
+      "summary": "John O'Nolan and Hannah Wolfe released Ghost 0.3.2 on October 14, 2013 — an open-source Node.js publishing platform focused on blogging.",
+      "about": "Ghost shipped a Markdown editor, clean themes, and a Node.js stack — a deliberate alternative to WordPress bloat. Funded by a record-breaking Kickstarter, it became the default open-source choice for developers who wanted a fast, content-first blog engine.",
+      "narrative": {
+        "whyChosen": "Ghost proved a modern JavaScript CMS could compete with WordPress for publishing.",
+        "whyImportant": "It championed simplicity and speed when CMS platforms were growing ever more complex.",
+        "problemSolved": "Bloggers wanted a focused writing tool, not a general-purpose CMS with thousands of plugins."
+      },
+      "category": "software",
+      "tags": ["ghost", "cms", "nodejs", "blogging", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ghost Blog — Ghost launches to the public (October 14, 2013)",
+          "url": "https://ghost.org/changelog/launch/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ghost (blogging platform) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ghost_(blogging_platform)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["wordpress-released", "nodejs-first-released", "contentful-founded"]
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "id": "hibernate-released",
+      "slug": "hibernate-released",
+      "date": "2001-05-23",
+      "datePrecision": "day",
+      "title": "Hibernate ORM released",
+      "summary": "Gavin King released Hibernate on May 23, 2001 — an open-source Java ORM that mapped objects to relational tables without EJB entity beans.",
+      "about": "Hibernate (`Session.save(user)`) became the default way Java apps talk to Postgres and MySQL — annotations, HQL queries, and lazy loading without hand-written JDBC. It influenced JPA and Spring Data; most enterprise Java stacks still run Hibernate or its spec under the hood.",
+      "narrative": {
+        "whyChosen": "Hibernate proved lightweight ORM could replace heavyweight Java EE persistence.",
+        "whyImportant": "Its patterns became the basis for JPA and shaped how Java backends model databases.",
+        "problemSolved": "EJB2 entity beans were verbose, container-dependent, and painful for typical web applications."
+      },
+      "category": "software",
+      "tags": ["hibernate", "java", "orm", "database", "open-source"],
+      "people": [
+        { "id": "gavin-king", "name": "Gavin King", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Hibernate (initial release May 23, 2001)",
+          "url": "https://en.wikipedia.org/wiki/Hibernate_(framework)",
+          "role": "date"
+        },
+        {
+          "title": "Hibernate ORM — An Introduction to Hibernate 6 (overview)",
+          "url": "https://docs.hibernate.org/orm/6.2/introduction/pdf/Hibernate_Introduction.pdf",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["spring-framework-1-0-released", "java-1-0-shipped", "mysql-first-released"]
+    }
+  ]
+}

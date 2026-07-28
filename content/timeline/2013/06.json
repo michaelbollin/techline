@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "craft-cms-released",
+      "slug": "craft-cms-released",
+      "date": "2013-06-04",
+      "datePrecision": "day",
+      "title": "Craft CMS 1.0 released",
+      "summary": "Pixel & Tonic released Craft CMS 1.0 on June 4, 2013 — a flexible PHP content management system with live preview and custom fields.",
+      "about": "Craft gave developers Matrix fields, live preview, and Twig templating without WordPress plugin sprawl — born from the ExpressionEngine add-on ecosystem. It became the preferred CMS for agencies building bespoke content sites before headless took over.",
+      "narrative": {
+        "whyChosen": "Craft CMS proved a modern PHP CMS could compete with WordPress on developer experience.",
+        "whyImportant": "Matrix fields and live preview set new standards for flexible content modeling.",
+        "problemSolved": "Developers wanted CMS power without WordPress bloat or ExpressionEngine rigidity."
+      },
+      "category": "software",
+      "tags": ["craft", "cms", "php", "web", "twig"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CraftEntries — Craft CMS 1.0 (June 4, 2013)",
+          "url": "https://craftentries.io/new-in-craft-cms-1-0",
+          "role": "date"
+        },
+        {
+          "title": "Mutual — History of Craft CMS (overview)",
+          "url": "https://www.mutual.agency/blog/the-history-of-craft-cms-from-blocks-to-laravel",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["wordpress-released", "drupal-7-released", "symfony-released"]
+    }
+  ]
+}

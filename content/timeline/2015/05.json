@@ -189,7 +189,7 @@
       "date": "2015-05-21",
       "datePrecision": "day",
       "title": "Rollup first released",
-      "summary": "Rich Harris published Rollup 0.3.0 on May 21, 2015 — an ES module bundler with tree-shaking to drop unused code.",
+      "summary": "Rich Harris published Rollup 0.3.0 on May 21, 2015 — the first meaningful public ES module bundler release with tree-shaking (earlier 0.1.x tags were experiments).",
       "about": "Rollup analyzes static `import`/`export` graphs and eliminates dead code — producing smaller bundles than Browserify or early webpack for library authors. It powers Vue, React tooling, and many npm packages shipped as ES modules. Example: importing one function from lodash-es ships only that function, not the entire library.",
       "narrative": {
         "whyChosen": "Rollup pioneered tree-shaking for ES modules at a time when webpack optimized CommonJS bundles.",
@@ -225,6 +225,95 @@
         "webpack-released",
         "browserify-released",
         "babel-released"
+      ]
+    },
+    {
+      "id": "shopify-ipo",
+      "slug": "shopify-ipo",
+      "date": "2015-05-21",
+      "datePrecision": "day",
+      "title": "Shopify IPO",
+      "summary": "Shopify went public on the NYSE on May 21, 2015 — raising $131 million and trading under ticker SHOP.",
+      "about": "The IPO validated hosted e-commerce as a massive market — Shopify had grown from a snowboard shop side project to a platform powering hundreds of thousands of merchants. Public capital funded payments, POS, and fulfillment products that extended beyond online storefronts.",
+      "narrative": {
+        "whyChosen": "Shopify's IPO marked hosted e-commerce as a mainstream public-market category.",
+        "whyImportant": "It funded expansion into payments and omnichannel retail infrastructure.",
+        "problemSolved": "Merchants needed a scalable platform backed by public capital, not just venture funding."
+      },
+      "category": "company",
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "ipo",
+        "saas",
+        "retail"
+      ],
+      "companies": [
+        {
+          "id": "shopify",
+          "name": "Shopify"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Shopify News — Shopify files for IPO (May 21, 2015)",
+          "url": "https://www.shopify.com/news/shopify-files-for-ipo",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Shopify IPO (overview)",
+          "url": "https://techcrunch.com/2015/05/21/shopify-ipo/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "shopify-launched",
+        "magento-2-0-released",
+        "woocommerce-released"
+      ]
+    },
+    {
+      "id": "gatsby-open-sourced",
+      "slug": "gatsby-open-sourced",
+      "date": "2015-05-21",
+      "datePrecision": "day",
+      "title": "Gatsby open sourced",
+      "summary": "Kyle Mathews open sourced Gatsby on May 21, 2015 — a React-based static site generator with GraphQL data layer.",
+      "about": "Gatsby pre-renders React pages at build time and pulls data via GraphQL from Markdown, CMSs, and APIs — blazing fast sites with component ergonomics. It powered the Jamstack movement alongside Netlify before Next.js static generation absorbed much of the market.",
+      "narrative": {
+        "whyChosen": "Gatsby made React static sites production-ready with a unified data layer.",
+        "whyImportant": "It proved static generation and React components could coexist at scale.",
+        "problemSolved": "React SPAs were slow to load; teams needed SSR/SSG without abandoning components."
+      },
+      "category": "software",
+      "tags": [
+        "gatsby",
+        "react",
+        "graphql",
+        "static-site",
+        "jamstack",
+        "open-source"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub — gatsbyjs/gatsby initial commit (May 21, 2015)",
+          "url": "https://github.com/gatsbyjs/gatsby/commit/24606f5a2d5c85d7b6661403333f34823409bdf3",
+          "role": "date"
+        },
+        {
+          "title": "Gatsby Blog — Announcing new Gatsby company (overview)",
+          "url": "https://www.gatsbyjs.com/blog/2018-05-24-launching-new-gatsby-company/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "jamstack-term-coined",
+        "react-open-sourced",
+        "nextjs-open-sourced"
       ]
     }
   ]

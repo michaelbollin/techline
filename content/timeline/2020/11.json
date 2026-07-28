@@ -46,8 +46,8 @@
       "date": "2020-11",
       "datePrecision": "month",
       "title": "Safari 14 shipped with macOS Big Sur",
-      "summary": "Apple released Safari 14 in November 2020 with macOS Big Sur — adding WebExtensions on Mac, improved tab design, and faster JavaScript performance on Apple Silicon.",
-      "about": "Safari 14 brought Chrome-style extension compatibility to the Mac and set the stage for extension support on iPhone the following year. It also tuned the engine for M1 Macs, keeping Apple's browser competitive on battery life and speed.",
+      "summary": "Apple released Safari 14 with macOS Big Sur on November 12, 2020 — adding WebExtensions on Mac and improved tab design, five days before M1 Mac retail launch on November 17.",
+      "about": "Safari 14 refined Big Sur's visual design with translucent UI and tighter iCloud integration. WebExtensions support brought Chrome extension compatibility to Mac Safari; M1-specific tuning followed with Apple Silicon Macs days later.",
       "narrative": {
         "whyChosen": "Safari 14 aligned Apple's browser with the extension ecosystem developers already built for Chromium.",
         "whyImportant": "WebExtensions on Mac reduced the 'Safari is a different platform' tax for extension authors.",

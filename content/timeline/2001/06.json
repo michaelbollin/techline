@@ -1,58 +1,6 @@
 {
   "events": [
     {
-      "id": "miguel-de-icaza-mono-announced",
-      "slug": "miguel-de-icaza-mono-announced",
-      "date": "2001-06",
-      "datePrecision": "month",
-      "title": "Miguel de Icaza announces Mono",
-      "summary": "Miguel de Icaza announced Mono in June 2001 — an open-source .NET implementation that brought C# beyond Windows.",
-      "about": "Mono enabled Xamarin mobile development and Unity's C# scripting on macOS and Linux. de Icaza also co-founded GNOME and Ximian — shaping open desktop and cross-platform .NET.",
-      "narrative": {
-        "whyChosen": "Mono made Microsoft's managed runtime portable before .NET Core existed.",
-        "whyImportant": "It kept C# viable for cross-platform mobile and game development.",
-        "problemSolved": ".NET was Windows-only, blocking open-source and mobile adoption."
-      },
-      "category": "software",
-      "tags": [
-        "people",
-        "dotnet",
-        "open-source",
-        "mono"
-      ],
-      "people": [
-        {
-          "id": "miguel-de-icaza",
-          "name": "Miguel de Icaza",
-          "role": "creator"
-        }
-      ],
-      "companies": [
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Mono project — Announcement (June 2001)",
-          "url": "https://en.wikipedia.org/wiki/Mono_(software)",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Mono (overview)",
-          "url": "https://en.wikipedia.org/wiki/Mono_(software)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "csharp-announced",
-        "dotnet-framework-1-0-rtm"
-      ]
-    },
-    {
       "id": "blade-server-era",
       "slug": "blade-server-era",
       "date": "2001-06",

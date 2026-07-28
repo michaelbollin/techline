@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "id": "selenium-released",
+      "slug": "selenium-released",
+      "date": "2004",
+      "datePrecision": "year",
+      "title": "Selenium released",
+      "summary": "Jason Huggins open sourced Selenium at ThoughtWorks in 2004 — a JavaScript-based framework for automating browser tests.",
+      "about": "Selenium drove browsers from HTML tables of commands — click, type, assert — before dedicated WebDriver binaries existed. It became the default way QA teams regression-tested web apps and later merged with WebDriver into Selenium 2. Cypress and Playwright are spiritual successors with modern APIs.",
+      "narrative": {
+        "whyChosen": "Selenium pioneered open-source browser test automation for the web era.",
+        "whyImportant": "It established keyword-driven testing patterns used across the industry for a decade.",
+        "problemSolved": "Manual clicking through web apps for every release did not scale as Agile teams shipped faster."
+      },
+      "category": "software",
+      "tags": ["selenium", "testing", "javascript", "browser", "open-source"],
+      "people": [
+        { "id": "jason-huggins", "name": "Jason Huggins", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Selenium — History (2004 at ThoughtWorks)",
+          "url": "https://www.selenium.dev/history/",
+          "role": "date"
+        },
+        {
+          "title": "AOSA Book — Selenium WebDriver (overview)",
+          "url": "https://aosabook.org/en/v1/selenium.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["selenium-2-released", "cypress-open-sourced", "playwright-released"]
+    },
+    {
+      "id": "shopware-released",
+      "slug": "shopware-released",
+      "date": "2004",
+      "datePrecision": "year",
+      "title": "Shopware first released",
+      "summary": "Stefan and Sebastian Hamann released Shopware version 1 in 2004 — a modular PHP e-commerce platform developed in Germany.",
+      "about": "Shopware grew from Hamann-Media's agency work into a standalone product — templates, checkout, and catalog management for European merchants. It later open-sourced its Community Edition and rebuilt as Shopware 6 on Symfony and Vue.js.",
+      "narrative": {
+        "whyChosen": "Shopware became Europe's leading open-source e-commerce platform.",
+        "whyImportant": "It gave DACH-region merchants a PHP alternative to Magento and proprietary carts.",
+        "problemSolved": "European retailers lacked flexible, locally supported e-commerce software."
+      },
+      "category": "software",
+      "tags": ["shopware", "ecommerce", "php", "open-source", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Shopware (version 1, 2004)",
+          "url": "https://en.wikipedia.org/wiki/Shopware",
+          "role": "date"
+        },
+        {
+          "title": "Shopware — Our Story (overview)",
+          "url": "https://www.shopware.com/en/company/story/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["magento-1-0-released", "prestashop-released", "shopware-open-sourced"]
+    }
+  ]
+}

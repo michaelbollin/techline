@@ -21,8 +21,8 @@
       "id": "rob-pike-utf8-paper",
       "date": "1992-09",
       "datePrecision": "month",
-      "title": "Rob Pike and Ken Thompson publish UTF-8 design",
-      "summary": "Rob Pike and Ken Thompson published the UTF-8 encoding plan in September 1992 — the text encoding underlying the modern web and JSON.",
+      "title": "Rob Pike and Ken Thompson design UTF-8",
+      "summary": "Rob Pike and Ken Thompson designed UTF-8 in September 1992 at Bell Labs — the variable-width encoding underlying the modern web; Plan 9 converted within days and a formal paper followed later.",
       "about": "UTF-8 let ASCII-compatible systems handle Unicode without breaking existing software. Every API, database, and browser today assumes UTF-8 as the default string encoding.",
       "narrative": {
         "whyChosen": "UTF-8 is the universal text encoding of the internet.",

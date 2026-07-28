@@ -5,8 +5,8 @@
       "slug": "next-computer-released",
       "date": "1988-10-12",
       "datePrecision": "day",
-      "title": "NeXT Computer released",
-      "summary": "NeXT shipped its first workstation on October 12, 1988 — a Motorola 68030 Unix box with Objective-C tooling and a magneto-optical drive.",
+      "title": "NeXT Computer unveiled",
+      "summary": "Steve Jobs unveiled the NeXT Computer on October 12, 1988 at Davies Symphony Hall — a Motorola 68030 Unix workstation with Objective-C tooling; general availability followed in spring 1989.",
       "about": "NeXTSTEP bundled a Unix kernel, Display PostScript graphics, and Interface Builder for GUI apps. Tim Berners-Lee wrote the WorldWideWeb browser on a NeXT at CERN; id Software prototyped on NeXT; Apple acquired the company and its OS became macOS and iOS foundations. For web history, this is the machine the web was born on.",
       "narrative": {
         "whyChosen": "NeXT was the hardware platform where the web browser was invented and modern Apple OS lineage began.",

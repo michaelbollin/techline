@@ -52,7 +52,7 @@
       "date": "1977",
       "datePrecision": "year",
       "title": "Brian Kernighan co-creates AWK",
-      "summary": "Brian Kernighan co-designed AWK in 1977 with Aho and Weinberger — the pattern-action language for text processing.",
+      "summary": "Brian Kernighan co-designed AWK in 1977 with Alfred Aho and Peter Weinberger — the pattern-action language whose name comes from their initials.",
       "about": "AWK's columnar field model and regex patterns influenced Perl, Ruby, and every log-parsing one-liner. Kernighan's 'The C Programming Language' and 'Software Tools' shaped how programmers learn Unix.",
       "narrative": {
         "whyChosen": "AWK made structured text processing a first-class scripting task.",

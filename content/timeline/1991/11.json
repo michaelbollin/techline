@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "bram-moolenaar-vim-released",
+      "slug": "bram-moolenaar-vim-released",
+      "date": "1991-11-02",
+      "datePrecision": "day",
+      "title": "Bram Moolenaar releases Vim",
+      "summary": "Bram Moolenaar released Vim 1.14 on November 2, 1991 — the Vi IMitation editor for Amiga that became the default for terminal-centric developers.",
+      "about": "Vim's modal editing, macros, and plugin ecosystem shaped how sysadmins and programmers edit remote servers. It remains among the most installed developer tools worldwide.",
+      "narrative": {
+        "whyChosen": "Vim defined modal text editing for a generation of terminal users.",
+        "whyImportant": "It kept powerful keyboard-driven editing viable on constrained systems.",
+        "problemSolved": "vi was inconsistent across Unix variants and lacked extensibility."
+      },
+      "category": "software",
+      "tags": [
+        "people",
+        "editor",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "bram-moolenaar",
+          "name": "Bram Moolenaar",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Vim — History (1991)",
+          "url": "https://www.vim.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Vim (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vim_(text_editor)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
+    }
+  ]
+}

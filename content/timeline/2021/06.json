@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "astro-released",
+      "slug": "astro-released",
+      "date": "2021-06-08",
+      "datePrecision": "day",
+      "title": "Astro public beta released",
+      "summary": "Fred Schott and contributors released Astro's first public beta on June 8, 2021 — a static site builder that ships zero JavaScript by default with partial hydration.",
+      "about": "Astro's island architecture lets developers use React, Vue, or Svelte components but only hydrate interactive islands — dramatically cutting page weight. It became the default choice for content-heavy sites prioritizing Core Web Vitals.",
+      "narrative": {
+        "whyChosen": "Astro pioneered partial hydration for content-focused sites.",
+        "whyImportant": "Ship less JavaScript became a mainstream performance strategy.",
+        "problemSolved": "Static site generators shipped entire framework runtimes even for mostly static pages."
+      },
+      "category": "software",
+      "tags": ["astro", "static-site", "frontend", "javascript", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Astro Blog — Introducing Astro (June 8, 2021)",
+          "url": "https://astro.build/blog/introducing-astro/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — withastro/astro (overview)",
+          "url": "https://github.com/withastro/astro",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["gatsby-open-sourced", "nextjs-open-sourced", "jamstack-term-coined"]
+    }
+  ]
+}

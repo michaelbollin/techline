@@ -1,49 +1,50 @@
 {
   "events": [
     {
-      "id": "yoshua-bengio-mila-founded",
-      "slug": "yoshua-bengio-mila-founded",
-      "date": "2017-01",
-      "datePrecision": "month",
-      "title": "Yoshua Bengio leads founding of Mila AI institute",
-      "summary": "Yoshua Bengio helped establish Mila — Quebec's Artificial Intelligence Institute — in January 2017, growing it into the world's largest academic deep-learning research center.",
-      "about": "Mila consolidated Montreal's AI ecosystem under Bengio's scientific direction — attracting Element AI, corporate labs, and hundreds of researchers. It became the institutional anchor behind Bengio's Turing Award recognition.",
+      "id": "pytorch-released",
+      "slug": "pytorch-released",
+      "date": "2017-01-21",
+      "datePrecision": "day",
+      "title": "PyTorch public beta released",
+      "summary": "Facebook AI Research released PyTorch public beta (v0.1.6) on January 21, 2017 — a Python-first deep learning framework with dynamic computation graphs.",
+      "about": "PyTorch's eager execution (`tensor.backward()`) felt like NumPy with GPU acceleration — researchers debugged models interactively instead of rebuilding static graphs. It overtook TensorFlow in academic papers and powered transformers, diffusion models, and Meta's Llama training stack.",
       "narrative": {
-        "whyChosen": "Mila turned Montreal into a global deep-learning hub rivaling Silicon Valley labs.",
-        "whyImportant": "It proved regional AI clusters could scale through nonprofit academic institutes.",
-        "problemSolved": "Scattered university labs lacked shared compute, talent pipelines, and industry partnerships."
+        "whyChosen": "PyTorch made dynamic neural networks the default for AI research.",
+        "whyImportant": "Pythonic APIs and autograd lowered the barrier for deep learning experimentation.",
+        "problemSolved": "TensorFlow 1.x's static graphs were hard to debug and iterate on for research code."
       },
-      "category": "ai",
+      "category": "software",
       "tags": [
-        "people",
-        "deep-learning",
-        "canada",
-        "research"
+        "pytorch",
+        "machine-learning",
+        "python",
+        "ai",
+        "open-source"
       ],
-      "people": [
+      "companies": [
         {
-          "id": "yoshua-bengio",
-          "name": "Yoshua Bengio",
-          "role": "researcher"
+          "id": "meta",
+          "name": "Meta"
         }
       ],
-      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Mila — About (founded 2017)",
-          "url": "https://mila.quebec/en/about/",
+          "title": "PyTorch Blog — Accelerating research with PyTorch beta (January 18, 2017)",
+          "url": "https://pytorch.org/blog/accelerating-deep-learning-research/",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Mila (Quebec AI institute) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Mila_(research_institute)",
+          "title": "Wikipedia — PyTorch (overview)",
+          "url": "https://en.wikipedia.org/wiki/PyTorch",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "deep-learning-turing-trio-2018"
+        "pytorch-1-0-released",
+        "tensorflow-open-sourced",
+        "tensorflow-2-0-released"
       ]
     }
   ]

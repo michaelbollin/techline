@@ -30,6 +30,37 @@
         }
       ],
       "relatedIds": ["erlang-otp-24-released", "erlang-open-sourced", "elixir-1-0-released"]
+    },
+    {
+      "id": "wordpress-6-0-released",
+      "slug": "wordpress-6-0-released",
+      "date": "2022-05-24",
+      "datePrecision": "day",
+      "title": "WordPress 6.0 released",
+      "summary": "WordPress 6.0 \"Arturo\" shipped on May 24, 2022 — adding style switching, block theme templates, and improved site editing workflows.",
+      "about": "WordPress 6.0 refined the block editor era with style variations, block locking, and better list view navigation — nearly 1,000 enhancements since 5.9. It pushed full-site editing closer to production readiness for block-based themes.",
+      "narrative": {
+        "whyChosen": "WordPress 6.0 advanced full-site editing and block themes for millions of sites.",
+        "whyImportant": "Style switching and template tools made block themes practical for non-developers.",
+        "problemSolved": "Block themes lacked polish and flexibility compared to classic PHP themes."
+      },
+      "category": "software",
+      "tags": ["wordpress", "cms", "php", "gutenberg", "frontend", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "WordPress News — WordPress 6.0 Arturo (May 24, 2022)",
+          "url": "https://wordpress.org/news/2022/05/arturo/",
+          "role": "date"
+        },
+        {
+          "title": "WordPress Documentation — Version 6.0 (overview)",
+          "url": "https://wordpress.org/documentation/wordpress-version/version-6-0/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["wordpress-5-0-released", "wordpress-3-0-released", "react-open-sourced"]
     }
   ]
 }

@@ -149,8 +149,8 @@
       "slug": "olpc-xo-laptop-released",
       "date": "2007-11",
       "datePrecision": "month",
-      "title": "OLPC XO-1 laptop released",
-      "summary": "The One Laptop Per Child project began shipping XO-1 laptops in November 2007 — a low-cost, rugged notebook for education in developing countries.",
+      "title": "OLPC Give One Get One program launched",
+      "summary": "The One Laptop Per Child Give One Get One program launched on November 12, 2007 — consumer XO-1 units began shipping on December 10, 2007.",
       "about": "The XO-1 ran Sugar on Linux with a dual-mode display readable in sunlight — designed for mesh networking and classroom use. Developers contributed to open firmware, Sugar activities, and the Bitfrost security model. Though the million-laptop vision scaled back, OLPC influenced netbooks, ARM education boards, and the Raspberry Pi mission.",
       "narrative": {
         "whyChosen": "The XO-1 was the flagship $100-laptop project that pushed low-cost computing for education.",

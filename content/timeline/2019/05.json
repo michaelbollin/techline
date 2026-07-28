@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "id": "tailwind-css-1-0-released",
+      "slug": "tailwind-css-1-0-released",
+      "date": "2019-05-13",
+      "datePrecision": "day",
+      "title": "Tailwind CSS 1.0 released",
+      "summary": "Adam Wathan released Tailwind CSS 1.0 on May 13, 2019 — the first stable version of the utility-first CSS framework.",
+      "about": "Tailwind 1.0 (`flex`, `pt-4`, `text-lg`) let developers style UIs by composing utility classes instead of writing custom CSS — paired with PurgeCSS for production bundles. It challenged Bootstrap's component model and became the default stack with React, Next.js, and Laravel.",
+      "narrative": {
+        "whyChosen": "Tailwind 1.0 validated utility-first CSS as a mainstream styling approach.",
+        "whyImportant": "Composable utilities replaced hand-written stylesheets for thousands of design systems.",
+        "problemSolved": "Naming CSS classes and fighting specificity wars slowed front-end iteration."
+      },
+      "category": "software",
+      "tags": ["tailwind", "css", "frontend", "web", "open-source"],
+      "people": [
+        { "id": "adam-wathan", "name": "Adam Wathan", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Adam Wathan — Tailwind CSS v1.0 (May 13, 2019)",
+          "url": "https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — tailwindlabs/tailwindcss v0.1.0 (overview)",
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v0.1.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["tailwind-css-released", "bootstrap-5-released", "nextjs-open-sourced"]
+    },
+    {
+      "id": "shopware-6-preview-released",
+      "slug": "shopware-6-preview-released",
+      "date": "2019-05-23",
+      "datePrecision": "day",
+      "title": "Shopware 6 developer preview released",
+      "summary": "Shopware unveiled Shopware 6 at the Shopware Community Day on May 23, 2019 — a complete rewrite on Symfony 4, Vue.js admin, and a 100% API-first architecture.",
+      "about": "Shopware 6 split storefront, administration, and core into headless services — Twig and Bootstrap 4 for the default storefront, REST APIs for every function. The developer preview let the community test the platform before Shopware 6.1 stable in January 2020.",
+      "narrative": {
+        "whyChosen": "Shopware 6 preview signaled Europe's leading OSS commerce platform going headless.",
+        "whyImportant": "API-first architecture aligned Shopware with composable commerce trends.",
+        "problemSolved": "Shopware 5's monolith could not support omnichannel and headless storefront demands."
+      },
+      "category": "software",
+      "tags": ["shopware", "ecommerce", "php", "symfony", "vue", "headless", "api"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "IT-Business — Shopware Community Day 2019 (May 23, 2019)",
+          "url": "https://www.it-business.de/shopware-community-day-2019-a-833441/",
+          "role": "date"
+        },
+        {
+          "title": "Ecommerce News — Shopware 6 API-first approach (overview)",
+          "url": "https://ecommercenews.eu/shopware-6-gets-api-first-approach/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["shopware-6-1-released", "shopware-open-sourced", "symfony-4-released"]
+    }
+  ]
+}

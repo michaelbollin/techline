@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "strapi-open-sourced",
+      "slug": "strapi-open-sourced",
+      "date": "2015-10",
+      "datePrecision": "month",
+      "title": "Strapi open sourced",
+      "summary": "Pierre Burgy, Aurélien Georget, and Jim Laurie published Strapi on GitHub in October 2015 — a self-hosted Node.js headless CMS.",
+      "about": "Strapi gives developers a customizable admin UI and auto-generated REST/GraphQL APIs for any content type — self-hosted unlike Contentful. It became the default open-source headless CMS for JavaScript teams building Next.js and React sites.",
+      "narrative": {
+        "whyChosen": "Strapi brought open-source, self-hosted headless CMS to the Node.js ecosystem.",
+        "whyImportant": "It proved teams could own their content API without SaaS lock-in.",
+        "problemSolved": "JavaScript developers needed a CMS that fit modern frontends, not WordPress templates."
+      },
+      "category": "software",
+      "tags": ["strapi", "cms", "headless", "nodejs", "api", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Strapi Handbook — Strapi Story (October 2015 GitHub publication)",
+          "url": "https://handbook.strapi.io/strapi-story",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Strapi raises $4M (overview)",
+          "url": "https://techcrunch.com/2019/10/15/headless-cms-company-strapi-raises-4-million/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["contentful-founded", "nodejs-first-released", "nextjs-open-sourced"]
+    }
+  ]
+}

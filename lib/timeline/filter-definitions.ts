@@ -15,6 +15,10 @@ export type TimelineFilterGroup = {
 const WEB_TAGS = new Set([
   "web",
   "web-framework",
+  "cms",
+  "ecommerce",
+  "saas",
+  "crm",
   "frontend",
   "spa",
   "ssr",

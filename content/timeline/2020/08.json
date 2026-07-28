@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "bigcommerce-ipo",
+      "slug": "bigcommerce-ipo",
+      "date": "2020-08-05",
+      "datePrecision": "day",
+      "title": "BigCommerce IPO",
+      "summary": "BigCommerce began trading on NASDAQ on August 5, 2020 under ticker BIGC — raising capital at $24 per share in its initial public offering.",
+      "about": "The IPO came during the pandemic e-commerce boom — BigCommerce positioned as open SaaS commerce competing with Shopify Plus and Adobe Commerce. Public funding accelerated enterprise sales and partner ecosystem growth.",
+      "narrative": {
+        "whyChosen": "BigCommerce's IPO validated open SaaS e-commerce as a public-market category.",
+        "whyImportant": "It funded expansion into headless and enterprise commerce features.",
+        "problemSolved": "Fast-growing commerce platforms needed public capital to compete with Shopify's scale."
+      },
+      "category": "company",
+      "tags": ["bigcommerce", "ecommerce", "ipo", "saas", "retail"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "BigCommerce — IPO pricing announcement (August 4, 2020)",
+          "url": "https://www.bigcommerce.com/press/releases/bigcommerce-announces-pricing-of-initial-public-offering/",
+          "role": "date"
+        },
+        {
+          "title": "SEC — BigCommerce S-1 registration (overview)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1626450/000119312520210804/d844671d424b4.htm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["bigcommerce-launched", "shopify-ipo", "magento-2-0-released"]
+    }
+  ]
+}

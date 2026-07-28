@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "id": "salesforce-force-com-launched",
+      "slug": "salesforce-force-com-launched",
+      "date": "2007-09-17",
+      "datePrecision": "day",
+      "title": "Salesforce Force.com launched",
+      "summary": "Marc Benioff unveiled Force.com on September 17, 2007 at Dreamforce — rebranding Salesforce's Apex development platform as a PaaS for custom business apps.",
+      "about": "Force.com let developers write Apex code and Visualforce UIs that run on Salesforce's multi-tenant cloud — custom CRM extensions, industry apps, and ISV products on AppExchange. It turned Salesforce from a single CRM product into a programmable platform rivaling on-prem middleware.",
+      "narrative": {
+        "whyChosen": "Force.com defined enterprise PaaS: build and host custom apps on someone else's CRM cloud.",
+        "whyImportant": "Apex and Visualforce became the template for extensible SaaS platforms.",
+        "problemSolved": "Enterprises needed custom business logic without buying servers or maintaining middleware stacks."
+      },
+      "category": "software",
+      "tags": ["salesforce", "paas", "saas", "apex", "cloud"],
+      "people": [
+        { "id": "marc-benioff", "name": "Marc Benioff", "role": "founder" }
+      ],
+      "companies": [{ "id": "salesforce", "name": "Salesforce" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "ZDNet — Dreamforce 07: Salesforce rolls out Visualforce (September 17, 2007)",
+          "url": "https://www.zdnet.com/article/dreamforce-07-salesforce-rolls-out-visualforce/",
+          "role": "date"
+        },
+        {
+          "title": "Salesforce — The History of Salesforce (overview)",
+          "url": "https://www.salesforce.com/news/stories/the-history-of-salesforce/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["salesforce-launched", "salesforce-appexchange-launched"]
+    }
+  ]
+}

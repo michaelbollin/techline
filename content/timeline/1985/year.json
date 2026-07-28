@@ -5,8 +5,8 @@
       "slug": "mips-r2000-introduced",
       "date": "1985",
       "datePrecision": "year",
-      "title": "MIPS R2000 introduced",
-      "summary": "MIPS Computer Systems introduced the R2000 processor in 1985 — one of the first commercial RISC microprocessors.",
+      "title": "MIPS architecture launched",
+      "summary": "MIPS Computer Systems launched the MIPS I architecture in 1985 — one of the first commercial RISC designs; the R2000 chipset followed in May 1986.",
       "about": "The R2000 powered early MIPS workstations and embedded systems with a clean load-store RISC design — influencing academic computer architecture and commercial Unix boxes from DEC and SGI. MIPS variants later appeared in PlayStation, routers, and embedded devices. RISC principles from MIPS shaped ARM and every modern mobile CPU.",
       "narrative": {
         "whyChosen": "The MIPS R2000 was a landmark commercial RISC processor from Stanford research lineage.",
@@ -89,6 +89,50 @@
         {
           "title": "Wikipedia — Zero-knowledge proof (overview)",
           "url": "https://en.wikipedia.org/wiki/Zero-knowledge_proof",
+          "role": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "grace-hopper-nanoseconds-lecture",
+      "media": [],
+      "relatedIds": [
+        "cobol-specifications-submitted"
+      ],
+      "people": [
+        {
+          "id": "grace-hopper",
+          "name": "Grace Hopper",
+          "role": "researcher"
+        }
+      ],
+      "id": "grace-hopper-nanoseconds-lecture",
+      "date": "1985",
+      "datePrecision": "year",
+      "title": "Grace Hopper popularizes nanosecond wire demonstration",
+      "summary": "Rear Admiral Grace Hopper used 11.8-inch wire pieces in lectures from the late 1960s through the 1980s — including a famous 1985 MIT Lincoln Lab talk — to illustrate why short programs and fast hardware matter.",
+      "about": "Hopper helped standardize COBOL and pushed high-level languages on the military and industry. Her teaching made latency tangible for generations of managers and programmers beyond the 1959 COBOL specification event.",
+      "narrative": {
+        "whyChosen": "Hopper was the most visible advocate for programmer-friendly languages in industry.",
+        "whyImportant": "She bridged military procurement and commercial software standardization.",
+        "problemSolved": "Hardware buyers underestimated how physical distance limits computer speed."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "cobol",
+        "advocacy"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Yale — Grace Murray Hopper archives",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Grace Hopper (overview)",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
           "role": "overview"
         }
       ]

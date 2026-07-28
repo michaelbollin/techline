@@ -1,46 +1,6 @@
 {
   "events": [
     {
-      "id": "webassembly-mvp-finished",
-      "slug": "webassembly-mvp-finished",
-      "date": "2017-03",
-      "datePrecision": "month",
-      "title": "WebAssembly MVP design finished",
-      "summary": "The WebAssembly Community Group finished the minimum viable product design in March 2017 — portable binary code for browsers.",
-      "about": "WebAssembly (Wasm) runs C, C++, Rust, and other languages in the browser at near-native speed — games, video editors, and Figma-class apps in the tab. Also runs on servers (Wasmtime, Wasmer) and as a portable sandbox. Compiles from LLVM and ships as a compact `.wasm` binary.",
-      "narrative": {
-        "whyChosen": "WebAssembly became the fourth web platform language alongside HTML, CSS, and JavaScript.",
-        "whyImportant": "It let existing native codebases run in browsers without rewriting everything in JS.",
-        "problemSolved": "JavaScript could not match native performance for heavy compute; asm.js proved the concept but needed a standard binary format."
-      },
-      "category": "software",
-      "tags": [
-        "webassembly",
-        "wasm",
-        "browser",
-        "binary-format"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "Wikipedia — WebAssembly MVP finished March 2017",
-          "url": "https://en.wikipedia.org/wiki/WebAssembly",
-          "role": "date"
-        },
-        {
-          "title": "WebAssembly.org — documentation (overview)",
-          "url": "https://webassembly.org/",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "javascript-name-announced"
-      ]
-    },
-    {
       "id": "csharp-7-released",
       "slug": "csharp-7-released",
       "date": "2017-03-07",
@@ -139,6 +99,53 @@
       "relatedIds": [
         "lisa-su-amd-ceo",
         "jensen-huang-nvidia-founded"
+      ]
+    },
+    {
+      "id": "css-grid-layout-shipped",
+      "slug": "css-grid-layout-shipped",
+      "date": "2017-03-07",
+      "datePrecision": "day",
+      "title": "CSS Grid Layout ships in Firefox 52",
+      "summary": "Mozilla enabled unprefixed CSS Grid Layout in Firefox 52 on March 7, 2017 — the first major browser to ship the two-dimensional layout module.",
+      "about": "CSS Grid lets authors define rows, columns, and named areas with `display: grid` and `grid-template-areas` — replacing float hacks and framework grid systems for page-level layout. Chrome 57 followed a week later; by late 2017 every major browser supported Grid, ending a decade of table and flexbox workarounds for two-dimensional designs.",
+      "narrative": {
+        "whyChosen": "CSS Grid was the biggest layout advance since flexbox — and Firefox shipped it first.",
+        "whyImportant": "It gave the web a native two-dimensional layout system designed for UI and page design.",
+        "problemSolved": "Complex page layouts required nested flexbox containers, floats, or JavaScript grid libraries."
+      },
+      "category": "protocol",
+      "tags": [
+        "css",
+        "web",
+        "frontend",
+        "standards"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Firefox 52 Release Notes — CSS Grid Layout enabled (March 7, 2017)",
+          "url": "https://www.firefox.com/en-US/firefox/52.0/releasenotes/",
+          "role": "date"
+        },
+        {
+          "title": "Grid by Example — Browser support (overview)",
+          "url": "https://gridbyexample.com/browsers/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "css-2-1-w3c-recommendation",
+        "bootstrap-4-released",
+        "tailwind-css-released"
       ]
     }
   ]

@@ -144,8 +144,8 @@
       "slug": "jon-postel-iana-stewardship",
       "date": "1972",
       "datePrecision": "year",
-      "title": "Jon Postel begins IANA stewardship",
-      "summary": "Jon Postel took on Internet Assigned Numbers Authority (IANA) functions in the early 1970s — editing RFCs and assigning protocol numbers for decades.",
+      "title": "Jon Postel begins Internet numbering stewardship",
+      "summary": "Jon Postel took on socket-number and protocol assignment duties in 1972 — the functions later formalized as IANA, though that name was not used until the 1980s.",
       "about": "Postel's stewardship kept the internet's naming and numbering coherent as it grew from ARPANET research to a global network. He was the RFC Editor and IANA administrator until his death in 1998.",
       "narrative": {
         "whyChosen": "Postel's quiet governance made decentralized internet growth possible.",

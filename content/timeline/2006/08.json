@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "id": "jquery-1-0-released",
+      "slug": "jquery-1-0-released",
+      "date": "2006-08-26",
+      "datePrecision": "day",
+      "title": "jQuery 1.0 released",
+      "summary": "John Resig released jQuery 1.0 on August 26, 2006 — a JavaScript library for DOM traversal, events, and AJAX with a chainable API.",
+      "about": "jQuery (`$(selector).hide().fadeIn()`) hid browser quirks behind one syntax — plugins, animations, and `$.ajax` powered the Web 2.0 era before SPAs took over. WordPress, Bootstrap, and countless themes shipped it by default; it taught a generation of front-end devs to treat the DOM as a queryable object graph.",
+      "narrative": {
+        "whyChosen": "jQuery became the most widely used JavaScript library of the 2000s.",
+        "whyImportant": "Its selector engine and plugin ecosystem standardized client-side scripting before component frameworks.",
+        "problemSolved": "Cross-browser DOM and AJAX code required verbose, incompatible boilerplate."
+      },
+      "category": "software",
+      "tags": ["jquery", "javascript", "frontend", "web", "dom"],
+      "people": [
+        { "id": "john-resig", "name": "John Resig", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "jQuery Blog — jQuery 1.0 (August 26, 2006)",
+          "url": "https://blog.jquery.com/2006/08/26/jquery-10/",
+          "role": "date"
+        },
+        {
+          "title": "jQuery — History (overview)",
+          "url": "https://jquery.com/history/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["angularjs-released", "bootstrap-released", "ecmascript-5-adopted"]
+    }
+  ]
+}

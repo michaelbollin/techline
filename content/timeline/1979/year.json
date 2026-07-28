@@ -52,8 +52,8 @@
       "slug": "lynn-conway-vlsi-course",
       "date": "1979",
       "datePrecision": "year",
-      "title": "Lynn Conway publishes MOSIS VLSI design course",
-      "summary": "Lynn Conway co-authored the 1979 Mead–Conway VLSI course — democratizing chip design with scalable design rules.",
+      "title": "Lynn Conway co-develops Mead–Conway VLSI methodology",
+      "summary": "Lynn Conway co-developed the Mead–Conway VLSI design methodology in 1978–1979 — scalable design rules that democratized chip design before the MOSIS service followed.",
       "about": "The Mead–Conway revolution let universities fabricate student-designed chips via MOSIS — training a generation of hardware engineers. Conway's advocacy also advanced transgender visibility in tech.",
       "narrative": {
         "whyChosen": "Mead–Conway made custom silicon accessible beyond a few chip companies.",

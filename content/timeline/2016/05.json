@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "id": "electron-1-0-released",
+      "slug": "electron-1-0-released",
+      "date": "2016-05-11",
+      "datePrecision": "day",
+      "title": "Electron 1.0 released",
+      "summary": "GitHub released Electron 1.0 on May 11, 2016 — a stable API for building desktop apps with Chromium, Node.js, and web technologies.",
+      "about": "Electron (`BrowserWindow`, `ipcMain`) packages HTML/CSS/JS as native apps for Windows, macOS, and Linux — VS Code, Slack, and Discord all use it. Born as Atom Shell for the Atom editor, it made cross-platform desktop development accessible to web developers.",
+      "narrative": {
+        "whyChosen": "Electron 1.0 marked desktop web apps as a mainstream deployment target.",
+        "whyImportant": "It proved Chromium + Node could ship production desktop software at scale.",
+        "problemSolved": "Cross-platform desktop UIs required separate native codebases or immature web wrappers."
+      },
+      "category": "software",
+      "tags": ["electron", "desktop", "javascript", "nodejs", "open-source"],
+      "companies": [{ "id": "github", "name": "GitHub" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub — electron v1.0.0 release (May 11, 2016)",
+          "url": "https://github.com/electron/electron/releases/tag/v1.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Electron (software framework) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Electron_(software_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nodejs-first-released", "visual-studio-code-preview", "google-chrome-released"]
+    }
+  ]
+}

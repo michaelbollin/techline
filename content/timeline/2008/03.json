@@ -52,6 +52,37 @@
       ]
     },
     {
+      "id": "magento-1-0-released",
+      "slug": "magento-1-0-released",
+      "date": "2008-03-31",
+      "datePrecision": "day",
+      "title": "Magento 1.0 released",
+      "summary": "Varien released Magento Community Edition 1.0 on March 31, 2008 — an open-source PHP e-commerce platform built on Zend Framework.",
+      "about": "Magento powers mid-market and enterprise online stores — catalog rules, multi-store views, checkout flows, and a module ecosystem for B2B and B2C. Adobe acquired it in 2018; before that it was the go-to self-hosted alternative to proprietary suites, with extension marketplaces and agency specialization worldwide.",
+      "narrative": {
+        "whyChosen": "Magento brought enterprise-grade e-commerce features to open-source PHP.",
+        "whyImportant": "Its modular architecture and extension marketplace defined how PHP shops scaled online retail.",
+        "problemSolved": "Merchants outgrew osCommerce but could not afford six-figure proprietary commerce platforms."
+      },
+      "category": "software",
+      "tags": ["magento", "ecommerce", "php", "web", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Magento (first release March 31, 2008)",
+          "url": "https://en.wikipedia.org/wiki/Magento",
+          "role": "date"
+        },
+        {
+          "title": "Magento Open Source — About (overview)",
+          "url": "https://business.adobe.com/products/magento/magento-commerce.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-5-0-released", "shopify-launched", "symfony-released", "wordpress-released"]
+    },
+    {
       "id": "ballmer-web-developers-chant",
       "slug": "ballmer-web-developers-chant",
       "date": "2008-03-06",

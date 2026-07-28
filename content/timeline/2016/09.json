@@ -99,6 +99,37 @@
         "safari-8-released",
         "safari-announced"
       ]
+    },
+    {
+      "id": "netlify-cms-released",
+      "slug": "netlify-cms-released",
+      "date": "2016-09-21",
+      "datePrecision": "day",
+      "title": "Netlify CMS released",
+      "summary": "Netlify published Netlify CMS on September 21, 2016 — an open-source, Git-based content editor for static sites and the Jamstack.",
+      "about": "Netlify CMS wraps the GitHub API in a React admin UI — content editors write Markdown while developers keep static site generators. It later rebranded as Decap CMS in 2023 but defined Git-based CMS for the Jamstack era.",
+      "narrative": {
+        "whyChosen": "Netlify CMS brought WordPress-like editing to static site workflows.",
+        "whyImportant": "Git-based CMS became the standard content layer for Jamstack sites.",
+        "problemSolved": "Static sites had no editor-friendly way to manage content without touching Git."
+      },
+      "category": "software",
+      "tags": ["netlify-cms", "decap", "cms", "git", "jamstack", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "npm — netlify-cms first published (September 21, 2016)",
+          "url": "https://www.npmjs.com/package/netlify-cms",
+          "role": "date"
+        },
+        {
+          "title": "Netlify Blog — Open source CMS with Git workflow (overview)",
+          "url": "https://www.netlify.com/blog/2017/03/17/an-open-source-cms-with-a-git-centric-workflow/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netlify-launched", "jamstack-term-coined", "gatsby-open-sourced"]
     }
   ]
 }

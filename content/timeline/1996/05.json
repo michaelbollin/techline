@@ -42,53 +42,6 @@
         "fsharp-2-released",
         "pascal-report-published"
       ]
-    },
-    {
-      "id": "amaya-browser-released",
-      "slug": "amaya-browser-released",
-      "date": "1996-05",
-      "datePrecision": "month",
-      "title": "Amaya — W3C browser and editor",
-      "summary": "The W3C released Amaya in May 1996 as a testbed browser and editor for emerging web standards like HTML, CSS, and MathML.",
-      "about": "Amaya was never meant for mainstream users — it was a reference implementation where standards authors could try new specs in real software. Researchers and spec writers used it to validate CSS layout, structured editing, and semantic markup ideas before they reached commercial browsers.",
-      "narrative": {
-        "whyChosen": "Amaya shows how standards bodies prototyped the web platform alongside vendors.",
-        "whyImportant": "It helped prove CSS and structured editing could work in a real browser, not just on paper.",
-        "problemSolved": "The W3C needed a living laboratory to test specifications without waiting for Netscape or Microsoft."
-      },
-      "category": "software",
-      "tags": [
-        "browser",
-        "web",
-        "w3c",
-        "standards",
-        "css"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "w3c",
-          "name": "W3C"
-        }
-      ],
-      "importance": 3,
-      "media": [],
-      "sources": [
-        {
-          "title": "W3C — Amaya project history",
-          "url": "https://www.w3.org/Amaya/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Amaya (web browser) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Amaya_(web_browser)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "internet-explorer-3-0",
-        "netscape-communicator-4-0"
-      ]
     }
   ]
 }

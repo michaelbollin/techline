@@ -96,6 +96,69 @@
         "intellij-idea-released",
         "clang-open-sourced"
       ]
+    },
+    {
+      "id": "asp-net-core-1-0-released",
+      "slug": "asp-net-core-1-0-released",
+      "date": "2016-06-27",
+      "datePrecision": "day",
+      "title": "ASP.NET Core 1.0 released",
+      "summary": "Microsoft shipped ASP.NET Core 1.0 on June 27, 2016 — a cross-platform, modular rewrite of ASP.NET alongside .NET Core.",
+      "about": "ASP.NET Core runs on Linux and macOS with Kestrel, middleware pipelines, and dependency injection built in — `dotnet new webapi` scaffolds APIs without IIS. It unified MVC and Web API, enabling microservices and containerized .NET deployments outside Windows Server.",
+      "narrative": {
+        "whyChosen": "ASP.NET Core broke .NET web development out of Windows-only IIS deployments.",
+        "whyImportant": "Cross-platform Kestrel and middleware pipelines defined modern .NET web architecture.",
+        "problemSolved": "ASP.NET Framework was tied to Windows and monolithic System.Web abstractions."
+      },
+      "category": "software",
+      "tags": ["aspnet", "dotnet", "csharp", "web-framework", "cross-platform"],
+      "companies": [{ "id": "microsoft", "name": "Microsoft" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": ".NET Blog — Announcing ASP.NET Core 1.0 (June 27, 2016)",
+          "url": "https://devblogs.microsoft.com/dotnet/announcing-asp-net-core-1-0/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — dotnet/aspnetcore 1.0.0 (overview)",
+          "url": "https://github.com/dotnet/aspnetcore/releases/tag/1.0.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["dotnet-core-1-0-released", "dotnet-6-released", "dotnet-framework-1-0-rtm"]
+    },
+    {
+      "id": "jquery-3-0-released",
+      "slug": "jquery-3-0-released",
+      "date": "2016-06-09",
+      "datePrecision": "day",
+      "title": "jQuery 3.0 released",
+      "summary": "jQuery 3.0 shipped on June 9, 2016 — dropping legacy IE workarounds and slimming the library for modern browsers.",
+      "about": "jQuery 3.0 removed old IE hacks, improved animation performance, and tightened edge-case behavior — the line that assumed evergreen browsers only. WordPress and legacy themes eventually migrated; greenfield projects increasingly chose React and Vue instead.",
+      "narrative": {
+        "whyChosen": "jQuery 3.0 drew a line under the IE6–8 era for the world's most-used JS library.",
+        "whyImportant": "It signaled jQuery's shift from growth to maintenance as SPAs took over.",
+        "problemSolved": "Carrying decade-old browser compatibility code bloated every page load."
+      },
+      "category": "software",
+      "tags": ["jquery", "javascript", "frontend", "web"],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "jQuery Blog — jQuery 3.0 Final Released (June 9, 2016)",
+          "url": "https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/",
+          "role": "date"
+        },
+        {
+          "title": "jQuery — History (overview)",
+          "url": "https://jquery.com/history/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["jquery-1-0-released", "angularjs-released", "react-open-sourced"]
     }
   ]
 }

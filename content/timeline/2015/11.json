@@ -61,6 +61,132 @@
         }
       ],
       "relatedIds": ["raspberry-pi-model-b-released", "arduino-released", "esp8266-released"]
+    },
+    {
+      "id": "tensorflow-open-sourced",
+      "slug": "tensorflow-open-sourced",
+      "date": "2015-11-09",
+      "datePrecision": "day",
+      "title": "TensorFlow open sourced",
+      "summary": "Google open sourced TensorFlow on November 9, 2015 — a machine learning framework for training and deploying neural networks at scale.",
+      "about": "TensorFlow (`tf.keras`, computational graphs, TPU support) replaced Google's internal DistBelief stack and became the default ML toolkit for researchers and production teams. It powers recommendation, vision, and NLP systems — though PyTorch later challenged it in research.",
+      "narrative": {
+        "whyChosen": "TensorFlow democratized Google's production ML infrastructure for the wider community.",
+        "whyImportant": "It standardized how teams build, train, and deploy deep learning models.",
+        "problemSolved": "Researchers lacked portable tools matching the scale and reliability of hyperscaler ML systems."
+      },
+      "category": "ai",
+      "tags": ["tensorflow", "ai", "machine-learning", "python", "open-source"],
+      "companies": [{ "id": "google", "name": "Google" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Research — TensorFlow open sourced (November 9, 2015)",
+          "url": "https://research.google/blog/tensorflow-googles-latest-machine-learning-system-open-sourced-for-everyone/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TensorFlow (overview)",
+          "url": "https://en.wikipedia.org/wiki/TensorFlow",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["tensorflow-2-0-released", "bazel-open-sourced"]
+    },
+    {
+      "id": "drupal-8-released",
+      "slug": "drupal-8-released",
+      "date": "2015-11-19",
+      "datePrecision": "day",
+      "title": "Drupal 8 released",
+      "summary": "Drupal 8.0 shipped on November 19, 2015 — rebuilding core on Symfony components with REST APIs and configuration management.",
+      "about": "Drupal 8 replaced procedural hooks with OOP services, Twig templates, and Symfony's HTTP kernel — a five-year rewrite that aligned Drupal with modern PHP. It added JSON APIs and CMI for deploying config between environments, setting the foundation for Drupal 9/10.",
+      "narrative": {
+        "whyChosen": "Drupal 8 was the Symfony modernization that kept Drupal relevant in enterprise PHP.",
+        "whyImportant": "It brought REST-first architecture and composer-based workflows to a major CMS.",
+        "problemSolved": "Drupal 7's legacy architecture could not match modern PHP frameworks and API expectations."
+      },
+      "category": "software",
+      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
+      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Drupal.org — Drupal 8.0.0 released (November 19, 2015)",
+          "url": "https://www.drupal.org/blog/drupal-800-released",
+          "role": "date"
+        },
+        {
+          "title": "Dries Buytaert — Drupal 8 released (overview)",
+          "url": "https://dri.es/drupal-8-released",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["drupal-7-released", "symfony-released", "symfony-3-released"]
+    },
+    {
+      "id": "magento-2-0-released",
+      "slug": "magento-2-0-released",
+      "date": "2015-11-17",
+      "datePrecision": "day",
+      "title": "Magento 2.0 released",
+      "summary": "Magento Commerce released Magento 2.0 on November 17, 2015 — a full re-architecture with dependency injection, Composer, and a new admin UI.",
+      "about": "Magento 2 replaced the 1.x codebase with modular PHP, DI containers, and improved caching — a painful but necessary migration for enterprise e-commerce. It introduced new checkout flows, Page Builder (later), and the path to Adobe Commerce after Adobe's acquisition.",
+      "narrative": {
+        "whyChosen": "Magento 2 was the platform rewrite merchants needed for modern PHP commerce.",
+        "whyImportant": "Dependency injection and Composer aligned Magento with enterprise PHP practices.",
+        "problemSolved": "Magento 1's legacy architecture could not meet performance and extensibility demands at scale."
+      },
+      "category": "software",
+      "tags": ["magento", "ecommerce", "php", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub — magento/magento2 v2.0.0 (November 17, 2015)",
+          "url": "https://github.com/magento/magento2/releases/tag/2.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Magento (overview)",
+          "url": "https://en.wikipedia.org/wiki/Magento",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["magento-1-0-released", "symfony-released", "shopify-launched"]
+    },
+    {
+      "id": "jamstack-term-coined",
+      "slug": "jamstack-term-coined",
+      "date": "2015-11-16",
+      "datePrecision": "day",
+      "title": "Jamstack term coined",
+      "summary": "Matt Biilmann published \"What is the JAMstack?\" on November 16, 2015 — naming the JavaScript, APIs, and Markup architecture Netlify had been enabling.",
+      "about": "Jamstack described pre-rendered sites served from CDNs with serverless APIs — decoupling the frontend from monolithic backends. The term gave a vocabulary to static site generators, headless CMSs, and Git-based deploy workflows that defined modern web development.",
+      "narrative": {
+        "whyChosen": "Jamstack named the architectural shift from LAMP monoliths to composable frontends.",
+        "whyImportant": "It unified static generators, headless CMSs, and CDN deploys under one movement.",
+        "problemSolved": "Teams building decoupled sites lacked a shared term to describe their approach."
+      },
+      "category": "software",
+      "tags": ["jamstack", "web", "architecture", "static", "cdn"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Netlify Blog — What is the JAMstack? (November 16, 2015)",
+          "url": "https://www.netlify.com/blog/2015/11/16/what-is-the-jamstack",
+          "role": "date"
+        },
+        {
+          "title": "Jamstack.org — What is Jamstack (overview)",
+          "url": "https://jamstack.org/what-is-jamstack/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["netlify-launched", "nextjs-open-sourced", "contentful-founded"]
     }
   ]
 }

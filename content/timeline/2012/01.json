@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "joomla-2-5-released",
+      "slug": "joomla-2-5-released",
+      "date": "2012-01-24",
+      "datePrecision": "day",
+      "title": "Joomla 2.5 released",
+      "summary": "The Joomla project shipped Joomla 2.5 on January 24, 2012 — the first long-term support release in the 2.x series.",
+      "about": "Joomla 2.5 added one-click core updates, multi-language support in core, and a refined ACL system — bridging Joomla 1.5 sites toward the Bootstrap-based Joomla 3 admin. It was the stable branch most production Joomla sites ran through the early 2010s.",
+      "narrative": {
+        "whyChosen": "Joomla 2.5 was the LTS release that carried the Joomla ecosystem through the 2.x era.",
+        "whyImportant": "Core multilingual support and one-click updates reduced upgrade friction for thousands of sites.",
+        "problemSolved": "Joomla 1.5 sites needed a supported path forward with modern security and localization."
+      },
+      "category": "software",
+      "tags": ["joomla", "cms", "php", "web", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Joomla Downloads — Joomla 2.5.0 (January 24, 2012)",
+          "url": "https://downloads.joomla.org/cms/joomla25/2-5-0",
+          "role": "date"
+        },
+        {
+          "title": "Joomla Documentation — Past release and support cycle (overview)",
+          "url": "https://docs.joomla.org/Past_release_and_support_cycle",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["joomla-1-5-released", "joomla-3-0-released", "wordpress-3-0-released"]
+    }
+  ]
+}

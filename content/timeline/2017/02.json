@@ -46,6 +46,46 @@
         "nodejs-first-released",
         "express-released"
       ]
+    },
+    {
+      "id": "webassembly-mvp-finished",
+      "slug": "webassembly-mvp-finished",
+      "date": "2017-02-28",
+      "datePrecision": "day",
+      "title": "WebAssembly MVP design finished",
+      "summary": "Browser vendors reached WebAssembly MVP design consensus on February 28, 2017 — portable binary code for browsers; Firefox 52 began shipping Wasm in early March 2017.",
+      "about": "WebAssembly (Wasm) runs C, C++, Rust, and other languages in the browser at near-native speed — games, video editors, and Figma-class apps in the tab. Also runs on servers (Wasmtime, Wasmer) and as a portable sandbox. Compiles from LLVM and ships as a compact `.wasm` binary.",
+      "narrative": {
+        "whyChosen": "WebAssembly became the fourth web platform language alongside HTML, CSS, and JavaScript.",
+        "whyImportant": "It let existing native codebases run in browsers without rewriting everything in JS.",
+        "problemSolved": "JavaScript could not match native performance for heavy compute; asm.js proved the concept but needed a standard binary format."
+      },
+      "category": "software",
+      "tags": [
+        "webassembly",
+        "wasm",
+        "browser",
+        "binary-format"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — WebAssembly MVP finished March 2017",
+          "url": "https://en.wikipedia.org/wiki/WebAssembly",
+          "role": "date"
+        },
+        {
+          "title": "WebAssembly.org — documentation (overview)",
+          "url": "https://webassembly.org/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "javascript-name-announced"
+      ]
     }
   ]
 }

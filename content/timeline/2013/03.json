@@ -86,10 +86,10 @@
     {
       "id": "docker-open-sourced",
       "slug": "docker-open-sourced",
-      "date": "2013-03",
-      "datePrecision": "month",
+      "date": "2013-03-20",
+      "datePrecision": "day",
       "title": "Docker open-sourced",
-      "summary": "dotCloud released Docker as open source in March 2013 — packaging apps as portable containers with isolated filesystems and namespaces.",
+      "summary": "dotCloud open-sourced Docker on March 20, 2013 — packaging apps as portable containers (Solomon Hykes had publicly demoed it at PyCon on March 15).",
       "about": "Docker images bundle an app and its dependencies; `docker run` starts containers identically on laptops, CI, and cloud VMs. It standardized 'build once, run anywhere' for microservices and dev environments. Kubernetes later orchestrated Docker containers at fleet scale.",
       "narrative": {
         "whyChosen": "Docker made Linux containers usable for everyday developers, not just kernel experts.",
@@ -137,6 +137,55 @@
         "lxc-released",
         "sun-1-released",
         "vmware-workstation-released"
+      ]
+    },
+    {
+      "id": "autoprefixer-released",
+      "slug": "autoprefixer-released",
+      "date": "2013-03-14",
+      "datePrecision": "day",
+      "title": "Autoprefixer released",
+      "summary": "Andrey Sitnik released Autoprefixer on March 14, 2013 — a tool that adds vendor prefixes to CSS based on Can I Use browser data.",
+      "about": "Autoprefixer reads plain CSS and inserts `-webkit-`, `-moz-`, and `-ms-` prefixes where needed — freeing developers from memorizing which browsers needed prefixed flexbox or gradients. It started as rework-vendors, became Autoprefixer within weeks, and later migrated to PostCSS — becoming one of the most-used CSS build tools in history.",
+      "narrative": {
+        "whyChosen": "Autoprefixer automated the most tedious part of writing cross-browser CSS.",
+        "whyImportant": "It let authors write spec syntax and let tooling handle vendor-prefix churn.",
+        "problemSolved": "Developers copied prefixed and unprefixed rules by hand for every new CSS feature."
+      },
+      "category": "software",
+      "tags": [
+        "autoprefixer",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "andrey-sitnik",
+          "name": "Andrey Sitnik",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub — postcss/autoprefixer initial commit (March 14, 2013)",
+          "url": "https://github.com/postcss/autoprefixer/commit/d36346effe999e82fa8064076dc5f0e8f37e7e48",
+          "role": "date"
+        },
+        {
+          "title": "CSS-Tricks — Autoprefixer guest post by Andrey Sitnik (overview)",
+          "url": "https://css-tricks.com/autoprefixer/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "postcss-released",
+        "sass-released",
+        "bootstrap-released"
       ]
     }
   ]

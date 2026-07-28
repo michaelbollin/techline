@@ -136,6 +136,37 @@
         "ghc-9-6-released",
         "haskell-2010-standard"
       ]
+    },
+    {
+      "id": "directus-9-released",
+      "slug": "directus-9-released",
+      "date": "2021-11-30",
+      "datePrecision": "day",
+      "title": "Directus 9 released",
+      "summary": "Directus 9 reached general availability on November 30, 2021 — a full rewrite in Node.js and Vue 3 as an open data platform over any SQL database.",
+      "about": "Directus 9 wraps existing SQL databases with instant REST and GraphQL APIs plus a no-code admin app — 10x faster than previous versions. It competes with Strapi and Payload as a self-hosted, database-agnostic headless CMS.",
+      "narrative": {
+        "whyChosen": "Directus 9 modernized the platform as a JavaScript-native open data layer.",
+        "whyImportant": "Database-agnostic APIs let teams add a CMS without migrating content stores.",
+        "problemSolved": "Organizations had structured data in SQL but no user-friendly interface or API layer."
+      },
+      "category": "software",
+      "tags": ["directus", "cms", "headless", "api", "nodejs", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Directus — Directus 9 GA announcement (November 30, 2021)",
+          "url": "https://medium.com/directus/how-directus-9-is-revolutionizing-data-management-a-q-a-with-directus-founder-and-ceo-ben-haynes-106add71adb8",
+          "role": "date"
+        },
+        {
+          "title": "BusinessWire — Directus 9 Open Data Platform (overview)",
+          "url": "https://www.businesswire.com/news/home/20220202005162/en/Directus-Launches-Directus-9-the-Worlds-First-Open-Data-Platform",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["strapi-open-sourced", "payload-cms-released", "graphql-foundation-announced"]
     }
   ]
 }

@@ -51,6 +51,37 @@
         "deep-learning-turing-trio-2018",
         "yann-lecun-lenet-published"
       ]
+    },
+    {
+      "id": "bootstrap-4-released",
+      "slug": "bootstrap-4-released",
+      "date": "2018-01-18",
+      "datePrecision": "day",
+      "title": "Bootstrap 4 released",
+      "summary": "Bootstrap 4.0 shipped on January 18, 2018 — rebuilding the grid on flexbox and dropping Glyphicons for a modern component set.",
+      "about": "Bootstrap 4 replaced floats with flexbox utilities, simplified cards and navbars, and removed jQuery as a hard dependency path toward v5. It was the last major version many Bootstrap 3 sites migrated to before Tailwind gained share.",
+      "narrative": {
+        "whyChosen": "Bootstrap 4 modernized the framework for flexbox-era layouts.",
+        "whyImportant": "Flexbox grids and rebuilt components kept Bootstrap the default admin UI kit.",
+        "problemSolved": "Float-based grids were fragile; teams needed flexbox-native responsive patterns."
+      },
+      "category": "software",
+      "tags": ["bootstrap", "css", "frontend", "web", "flexbox"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Bootstrap Blog — Bootstrap 4 (January 18, 2018)",
+          "url": "https://blog.getbootstrap.com/2018/01/18/bootstrap-4/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bootstrap (front-end framework) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["bootstrap-3-released", "bootstrap-5-released", "bootstrap-released"]
     }
   ]
 }

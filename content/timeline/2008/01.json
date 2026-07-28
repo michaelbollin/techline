@@ -49,6 +49,37 @@
         "apple-m1-mac-shipped",
         "intel-atom-announced"
       ]
+    },
+    {
+      "id": "joomla-1-5-released",
+      "slug": "joomla-1-5-released",
+      "date": "2008-01-22",
+      "datePrecision": "day",
+      "title": "Joomla 1.5 released",
+      "summary": "The Joomla project shipped Joomla 1.5 on January 22, 2008 — a major rewrite with a new MVC framework and improved templating.",
+      "about": "Joomla 1.5 introduced the JFramework, native UTF-8 support, and a plugin architecture that powered thousands of community extensions. It cemented Joomla as WordPress's main open-source CMS rival for portals, intranets, and membership sites through the late 2000s.",
+      "narrative": {
+        "whyChosen": "Joomla 1.5 was the release that made Joomla a serious enterprise CMS contender.",
+        "whyImportant": "Its MVC architecture and extension ecosystem set patterns for PHP CMS development.",
+        "problemSolved": "Joomla 1.0's codebase could not scale to complex multi-language sites and custom applications."
+      },
+      "category": "software",
+      "tags": ["joomla", "cms", "php", "web", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Joomla Documentation — Joomla 1.5 (January 22, 2008)",
+          "url": "https://docs.joomla.org/Joomla_1.5",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Joomla (overview)",
+          "url": "https://en.wikipedia.org/wiki/Joomla",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["joomla-1-0-released", "wordpress-released", "drupal-7-released"]
     }
   ]
 }

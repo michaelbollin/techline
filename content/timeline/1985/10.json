@@ -6,7 +6,7 @@
       "date": "1985-10",
       "datePrecision": "month",
       "title": "First commercial C++ compiler",
-      "summary": "Bjarne Stroustrup shipped Cfront 1.0, the first commercial C++ compiler translating C++ to C.",
+      "summary": "Bjarne Stroustrup shipped Cfront 1.0 in October 1985 — the first commercial C++ compiler translating C++ to C, complementing the language's earlier public definition.",
       "about": "C++ adds classes and abstraction on top of C while keeping performance. Used for browsers (Chrome), game engines (Unreal), databases, trading systems, and large desktop apps. If you need C speed with OOP, teams still reach for C++.",
       "narrative": {
         "whyChosen": "C++ brought object-oriented and systems abstractions to the C ecosystem without breaking its performance model.",

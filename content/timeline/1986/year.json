@@ -1,50 +1,6 @@
 {
   "events": [
     {
-      "slug": "grace-hopper-nanoseconds-lecture",
-      "media": [],
-      "relatedIds": [
-        "cobol-specifications-submitted"
-      ],
-      "people": [
-        {
-          "id": "grace-hopper",
-          "name": "Grace Hopper",
-          "role": "researcher"
-        }
-      ],
-      "id": "grace-hopper-nanoseconds-lecture",
-      "date": "1986",
-      "datePrecision": "year",
-      "title": "Grace Hopper popularizes nanosecond wire demonstration",
-      "summary": "Rear Admiral Grace Hopper toured the 1980s explaining nanoseconds with physical wire — evangelizing why short programs and fast hardware matter.",
-      "about": "Hopper helped standardize COBOL and pushed high-level languages on the military and industry. Her teaching made latency tangible for generations of managers and programmers beyond the 1959 COBOL specification event.",
-      "narrative": {
-        "whyChosen": "Hopper was the most visible advocate for programmer-friendly languages in industry.",
-        "whyImportant": "She bridged military procurement and commercial software standardization.",
-        "problemSolved": "Hardware buyers underestimated how physical distance limits computer speed."
-      },
-      "category": "culture",
-      "tags": [
-        "people",
-        "cobol",
-        "advocacy"
-      ],
-      "importance": 2,
-      "sources": [
-        {
-          "title": "Yale — Grace Murray Hopper archives",
-          "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Grace Hopper (overview)",
-          "url": "https://en.wikipedia.org/wiki/Grace_Hopper",
-          "role": "overview"
-        }
-      ]
-    },
-    {
       "slug": "michael-stonebraker-postgres-research",
       "media": [],
       "relatedIds": [

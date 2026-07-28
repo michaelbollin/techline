@@ -50,6 +50,41 @@
       "relatedIds": [
         "nodejs-first-released"
       ]
+    },
+    {
+      "id": "adobe-acquires-magento",
+      "slug": "adobe-acquires-magento",
+      "date": "2018-05-21",
+      "datePrecision": "day",
+      "title": "Adobe acquires Magento",
+      "summary": "Adobe announced on May 21, 2018 that it would acquire Magento Commerce for $1.68 billion — folding open-source e-commerce into its Experience Cloud.",
+      "about": "Magento brought Adobe a PHP e-commerce platform with enterprise B2B features, while Adobe brought Magento CDN, analytics, and marketing automation. The deal signaled that digital experience platforms needed native commerce — not just CMS and DAM.",
+      "narrative": {
+        "whyChosen": "Adobe's Magento acquisition merged enterprise CMS and e-commerce under one vendor.",
+        "whyImportant": "It accelerated Adobe Commerce Cloud as a Shopify Enterprise competitor.",
+        "problemSolved": "Enterprises stitched together separate CMS, analytics, and cart platforms without unified customer data."
+      },
+      "category": "company",
+      "tags": ["adobe", "magento", "ecommerce", "acquisition", "saas"],
+      "companies": [
+        { "id": "adobe", "name": "Adobe" },
+        { "id": "magento", "name": "Magento" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Adobe News — Adobe to acquire Magento Commerce (May 21, 2018)",
+          "url": "https://news.adobe.com/news/news-details/2018/Adobe-to-Acquire-Magento-Commerce/default.aspx",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Adobe buys Magento for $1.68B (overview)",
+          "url": "https://techcrunch.com/2018/05/21/adobe-to-buy-magento-for-1-68b/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["magento-1-0-released", "magento-2-0-released", "shopify-ipo"]
     }
   ]
 }

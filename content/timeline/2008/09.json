@@ -5,7 +5,7 @@
       "slug": "google-chrome-released",
       "date": "2008-09-02",
       "datePrecision": "day",
-      "title": "Google Chrome 1.0 released",
+      "title": "Google Chrome beta released",
       "summary": "Google launched Chrome in beta on September 2, 2008 — a minimalist browser built on WebKit with a multi-process architecture and the new V8 JavaScript engine.",
       "about": "Chrome treated each tab as a separate process for stability, shipped a blazing-fast JS VM (V8), and popularized the omnibox address bar. It quickly overtook Firefox and IE, drove the shift to evergreen auto-updates, and later forked WebKit into Blink — defining how modern browsers are built.",
       "narrative": {

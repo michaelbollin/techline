@@ -45,57 +45,6 @@
         "javascript-name-announced",
         "nextjs-open-sourced"
       ]
-    },
-    {
-      "id": "opera-chromium-switch",
-      "slug": "opera-chromium-switch",
-      "date": "2013-05",
-      "datePrecision": "month",
-      "title": "Opera switched to Chromium",
-      "summary": "Opera 15 arrived in May 2013 built on Chromium and Blink — retiring the in-house Presto engine after seventeen years.",
-      "about": "Opera abandoned its own rendering engine to focus on features like Turbo compression and cross-device sync while riding Chromium's compatibility. The move mirrored the industry's consolidation: maintaining a unique engine was too expensive when sites targeted Chrome first.",
-      "narrative": {
-        "whyChosen": "Opera's engine switch left Firefox's Gecko as the last major independent lineage outside WebKit/Blink.",
-        "whyImportant": "It signaled that even innovative browser vendors could not sustain proprietary engines alone.",
-        "problemSolved": "Presto could not keep up with Chrome's pace; Opera needed Chrome-compatible rendering without rebuilding from scratch."
-      },
-      "category": "software",
-      "tags": [
-        "browser",
-        "web",
-        "opera",
-        "chromium"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        },
-        {
-          "id": "opera",
-          "name": "Opera"
-        }
-      ],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Opera — Opera 15 with Chromium (May 2013)",
-          "url": "https://blogs.opera.com/news/2013/05/a-first-peek-at-opera-15-for-computers/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Opera (web browser) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Opera_(web_browser)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "opera-2-released",
-        "google-chrome-released",
-        "vivaldi-browser-launched"
-      ]
     }
   ]
 }

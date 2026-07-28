@@ -49,6 +49,52 @@
         "t-mobile-g1-released",
         "pocket-pc-released"
       ]
+    },
+    {
+      "id": "yoshua-bengio-mila-founded",
+      "slug": "yoshua-bengio-mila-founded",
+      "date": "2017-07-19",
+      "datePrecision": "day",
+      "title": "Mila AI institute incorporated",
+      "summary": "Mila — Quebec's Artificial Intelligence Institute — incorporated as a nonprofit on July 19, 2017 under Yoshua Bengio's leadership, expanding a research lab dating to 1993.",
+      "about": "Mila consolidated Montreal's AI ecosystem under Bengio's scientific direction — attracting Element AI, corporate labs, and hundreds of researchers. It became the institutional anchor behind Bengio's Turing Award recognition.",
+      "narrative": {
+        "whyChosen": "Mila turned Montreal into a global deep-learning hub rivaling Silicon Valley labs.",
+        "whyImportant": "It proved regional AI clusters could scale through nonprofit academic institutes.",
+        "problemSolved": "Scattered university labs lacked shared compute, talent pipelines, and industry partnerships."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "deep-learning",
+        "canada",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "yoshua-bengio",
+          "name": "Yoshua Bengio",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mila — About (founded 2017)",
+          "url": "https://mila.quebec/en/about/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mila (Quebec AI institute) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mila_(research_institute)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "deep-learning-turing-trio-2018"
+      ]
     }
   ]
 }

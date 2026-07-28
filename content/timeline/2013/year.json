@@ -1,0 +1,66 @@
+{
+  "events": [
+    {
+      "id": "contentful-founded",
+      "slug": "contentful-founded",
+      "date": "2013",
+      "datePrecision": "year",
+      "title": "Contentful founded",
+      "summary": "Sascha Konietzke and Paolo Negri founded Contentful in Berlin in 2013 — an API-first headless CMS for delivering content to any channel.",
+      "about": "Contentful stores structured content as JSON via REST and GraphQL APIs — marketers edit in a web app while developers fetch content in React, mobile, or IoT apps. It pioneered the headless CMS category alongside Strapi and Sanity, decoupling content from presentation.",
+      "narrative": {
+        "whyChosen": "Contentful helped define headless CMS: content as data, not page templates.",
+        "whyImportant": "API-first content delivery enabled omnichannel apps and JAMstack frontends.",
+        "problemSolved": "Traditional CMSs tied content to HTML pages, blocking mobile and multi-platform delivery."
+      },
+      "category": "software",
+      "tags": ["contentful", "cms", "headless", "api", "saas"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Contentful — About us (founded 2013)",
+          "url": "https://www.contentful.com/about-us/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Contentful (overview)",
+          "url": "https://en.wikipedia.org/wiki/Contentful",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["strapi-open-sourced", "wordpress-5-0-released", "graphql-foundation-announced"]
+    },
+    {
+      "id": "prismic-founded",
+      "slug": "prismic-founded",
+      "date": "2013",
+      "datePrecision": "year",
+      "title": "Prismic founded",
+      "summary": "Sadek Drobi and Guillaume Bort founded Prismic in Paris in 2013 — a SaaS headless CMS with a visual page builder and slice-based content model.",
+      "about": "Prismic's Slices let developers define reusable page sections in code while marketers compose layouts visually — integrated with Next.js, Nuxt, and SvelteKit. It became a mainstream headless CMS for marketing sites and landing pages.",
+      "narrative": {
+        "whyChosen": "Prismic's slice model bridged developer-defined components and marketer-friendly editing.",
+        "whyImportant": "Reusable content slices influenced page-builder patterns across headless CMSs.",
+        "problemSolved": "Marketing teams needed visual page building without abandoning modern JavaScript frontends."
+      },
+      "category": "software",
+      "tags": ["prismic", "cms", "headless", "api", "saas"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CB Insights — Prismic founded 2013",
+          "url": "https://www.cbinsights.com/company/prismic",
+          "role": "date"
+        },
+        {
+          "title": "CMSWire — Prismic review (overview)",
+          "url": "https://www.cmswire.com/web-cms/content-management-system-review-prismic/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["contentful-founded", "sanity-launched", "nextjs-open-sourced"]
+    }
+  ]
+}

@@ -12,10 +12,10 @@
         }
       ],
       "id": "moxie-marlinspike-textsecure-released",
-      "date": "2010-05",
-      "datePrecision": "month",
+      "date": "2010-05-25",
+      "datePrecision": "day",
       "title": "Moxie Marlinspike releases TextSecure",
-      "summary": "Moxie Marlinspike co-founded Whisper Systems and released TextSecure in May 2010 — bringing end-to-end encrypted SMS to Android.",
+      "summary": "Whisper Systems launched TextSecure public beta on May 25, 2010 — Moxie Marlinspike's end-to-end encrypted SMS app for Android.",
       "about": "TextSecure evolved into the Signal Protocol and Signal messenger — setting the standard for forward secrecy and encrypted messaging that WhatsApp and others later adopted. Marlinspike's open protocols influenced how developers think about E2E chat.",
       "narrative": {
         "whyChosen": "TextSecure started the modern era of consumer end-to-end encrypted messaging.",
@@ -42,6 +42,56 @@
           "url": "https://en.wikipedia.org/wiki/Signal_(software)",
           "role": "overview"
         }
+      ]
+    },
+    {
+      "id": "scss-syntax-released",
+      "slug": "scss-syntax-released",
+      "date": "2010-05-10",
+      "datePrecision": "day",
+      "title": "Sass 3.0 adds SCSS syntax",
+      "summary": "Natalie Weizenbaum released Sass 3.0 on May 10, 2010 — adding SCSS, a CSS-compatible superset syntax with braces and semicolons.",
+      "about": "SCSS made every valid CSS3 file valid Sass — variables use `$` prefixes, mixins use `@mixin`/`@include`, but the surface syntax matches CSS. The change responded to Less's popularity and let teams adopt Sass without rewriting existing stylesheets or breaking editor tooling.",
+      "narrative": {
+        "whyChosen": "SCSS removed the biggest adoption barrier for Sass: an unfamiliar indented syntax.",
+        "whyImportant": "It unified the preprocessor ecosystem around CSS-compatible supersets.",
+        "problemSolved": "Teams with large CSS codebases could not justify migrating to Sass's indentation-only format."
+      },
+      "category": "software",
+      "tags": [
+        "sass",
+        "scss",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "natalie-weizenbaum",
+          "name": "Natalie Weizenbaum",
+          "role": "maintainer"
+        }
+      ],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "InfoQ — Sass 3 Delivers CSS Compatibility (May 10, 2010)",
+          "url": "https://www.infoq.com/news/2010/05/sass-3/",
+          "role": "date"
+        },
+        {
+          "title": "Sass — Documentation (overview)",
+          "url": "https://sass-lang.com/documentation/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sass-released",
+        "less-1-0-released",
+        "bootstrap-released"
       ]
     }
   ]

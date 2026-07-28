@@ -54,6 +54,68 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "contentstack-founded",
+      "slug": "contentstack-founded",
+      "date": "2018",
+      "datePrecision": "year",
+      "title": "Contentstack founded",
+      "summary": "Neha Sampat, Nishant Patel, and Matthew Baier founded Contentstack in 2018 — an enterprise headless CMS spun out from Raw Engineering.",
+      "about": "Contentstack targets Fortune 500 omnichannel content — API-first, MACH Alliance founding member, with workflows for global marketing teams. It competes with Contentful and Adobe Experience Manager for enterprise DXP budgets.",
+      "narrative": {
+        "whyChosen": "Contentstack became a leading enterprise headless CMS for omnichannel content.",
+        "whyImportant": "It validated headless CMS as an enterprise DXP category, not just a developer tool.",
+        "problemSolved": "Enterprises needed governed, multi-locale content APIs without monolithic CMS lock-in."
+      },
+      "category": "software",
+      "tags": ["contentstack", "cms", "headless", "enterprise", "api", "saas"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "TechCrunch — Contentstack founded 2018",
+          "url": "https://techcrunch.com/2022/11/15/contentstack-raises-80m-to-grow-its-headless-cms-platform-for-the-enterprise/",
+          "role": "date"
+        },
+        {
+          "title": "Contentstack — Series A press release (overview)",
+          "url": "https://www.prnewswire.co.uk/news-releases/contentstack-announces-31-5-million-in-series-a-funding-to-deliver-personalized-omnichannel-digital-experiences-823459120.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["contentful-founded", "sanity-launched", "strapi-open-sourced"]
+    },
+    {
+      "id": "builder-io-founded",
+      "slug": "builder-io-founded",
+      "date": "2018",
+      "datePrecision": "year",
+      "title": "Builder.io founded",
+      "summary": "Steve Sewell and Brent Locks founded Builder.io in 2018 — a visual headless CMS that connects drag-and-drop editing to any frontend stack.",
+      "about": "Builder.io lets marketers compose pages from developer-defined React components without code — A/B testing, personalization, and visual editing on top of headless architecture. Customers include Allbirds, Harry's, and Warby Parker.",
+      "narrative": {
+        "whyChosen": "Builder.io brought visual page building to headless commerce without sacrificing developer control.",
+        "whyImportant": "It proved marketers and developers could share a composable frontend workflow.",
+        "problemSolved": "Headless stacks left marketers unable to change landing pages without developer tickets."
+      },
+      "category": "software",
+      "tags": ["builder", "cms", "headless", "visual-editor", "commerce"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CB Insights — Builder.io company profile (founded 2018)",
+          "url": "https://www.cbinsights.com/company/builderio",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Builder.io commerce tool (overview)",
+          "url": "https://techcrunch.com/2021/10/18/builder-io-aims-to-make-developers-happy-with-its-no-code-approach-to-digital-storefronts/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["contentstack-founded", "nextjs-open-sourced", "shopify-launched"]
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "joomla-4-released",
+      "slug": "joomla-4-released",
+      "date": "2021-08-17",
+      "datePrecision": "day",
+      "title": "Joomla 4.0 released",
+      "summary": "The Joomla project shipped Joomla 4.0 on August 17, 2021 — a nine-year rewrite with Bootstrap 5, improved accessibility, and a modernized admin experience.",
+      "about": "Joomla 4 arrived alongside Joomla 3.10 as a migration bridge — new media manager, child templates, and workflow publishing. It was the CMS's answer to WordPress Gutenberg and the block-editor era while keeping PHP extension compatibility.",
+      "narrative": {
+        "whyChosen": "Joomla 4 was the major release the project had been building toward since 2012.",
+        "whyImportant": "It modernized Joomla's UX and accessibility for a new generation of site builders.",
+        "problemSolved": "Joomla 3's aging admin and templates could not match modern CMS expectations."
+      },
+      "category": "software",
+      "tags": ["joomla", "cms", "php", "web", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Joomla.org — Joomla 4.0 and 3.10 are here (August 17, 2021)",
+          "url": "https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — joomla/joomla-cms 4.0.0 (overview)",
+          "url": "https://github.com/joomla/joomla-cms/releases/tag/4.0.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["joomla-3-0-released", "joomla-2-5-released", "wordpress-6-0-released"]
+    }
+  ]
+}

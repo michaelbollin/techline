@@ -44,6 +44,42 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "css1-w3c-recommendation",
+      "slug": "css1-w3c-recommendation",
+      "date": "1996-12-17",
+      "datePrecision": "day",
+      "title": "CSS Level 1 becomes a W3C Recommendation",
+      "summary": "The W3C published Cascading Style Sheets, Level 1 as an official Recommendation on December 17, 1996 — co-authored by Håkon Wium Lie and Bert Bos.",
+      "about": "CSS1 let authors set fonts, colors, margins, and spacing in a separate stylesheet while readers could override styles through the cascade. A single linked `.css` file could style an entire site — ending the era of `<font>` tags and presentational HTML attributes in professional publishing.",
+      "narrative": {
+        "whyChosen": "CSS1 was the first stable web standard for separating document structure from presentation.",
+        "whyImportant": "It gave browsers and authors a shared vocabulary for layout and typography on the open web.",
+        "problemSolved": "HTML had no standard way to style pages consistently without polluting markup with presentation tags."
+      },
+      "category": "protocol",
+      "tags": ["css", "web", "w3c", "standards"],
+      "people": [
+        { "id": "haakon-wium-lie", "name": "Håkon Wium Lie", "role": "author" },
+        { "id": "bert-bos", "name": "Bert Bos", "role": "author" }
+      ],
+      "companies": [{ "id": "w3c", "name": "W3C" }],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C — Cascading Style Sheets Recommendation (December 17, 1996)",
+          "url": "https://www.w3.org/press-releases/1996/css1-rec/",
+          "role": "date"
+        },
+        {
+          "title": "W3C — Cascading Style Sheets, level 1 (overview)",
+          "url": "https://www.w3.org/TR/REC-CSS1/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["haakon-lie-css-proposed", "bert-bos-joins-css-project", "css2-w3c-recommendation"]
     }
   ]
 }

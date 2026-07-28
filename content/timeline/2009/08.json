@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "bigcommerce-launched",
+      "slug": "bigcommerce-launched",
+      "date": "2009-08",
+      "datePrecision": "month",
+      "title": "BigCommerce launched",
+      "summary": "Eddie Machaalani and Mitchell Harper launched BigCommerce in August 2009 — a hosted e-commerce SaaS platform evolved from their Interspire shopping cart.",
+      "about": "BigCommerce gave SMB merchants enterprise features — multi-channel selling, SEO tools, and themes — without server management. It competed with Shopify and Magento for mid-market stores and later went public on NASDAQ in 2020.",
+      "narrative": {
+        "whyChosen": "BigCommerce became a major hosted alternative to Shopify for growing online retailers.",
+        "whyImportant": "It proved SaaS e-commerce could scale from Sydney startup to public company.",
+        "problemSolved": "Merchants outgrew self-hosted carts but could not afford enterprise licensing or ops overhead."
+      },
+      "category": "software",
+      "tags": ["bigcommerce", "ecommerce", "saas", "web", "retail"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "PR Newswire — BigCommerce hosted ecommerce since August 2009 (March 8, 2010)",
+          "url": "https://www.prnewswire.com/news-releases/online-merchants-increase-sales-and-web-traffic-with-bigcommerce-ecommerce-shopping-cart-software-86827087.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BigCommerce (overview)",
+          "url": "https://en.wikipedia.org/wiki/BigCommerce",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["shopify-launched", "magento-1-0-released", "prestashop-released"]
+    }
+  ]
+}

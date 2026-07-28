@@ -46,6 +46,38 @@
         "dotnet-5-released",
         "dotnet-core-1-0-released"
       ]
+    },
+    {
+      "id": "tensorflow-2-0-released",
+      "slug": "tensorflow-2-0-released",
+      "date": "2019-09-30",
+      "datePrecision": "day",
+      "title": "TensorFlow 2.0 released",
+      "summary": "Google released TensorFlow 2.0 on September 30, 2019 — making Keras the default API and eager execution the default mode.",
+      "about": "TensorFlow 2.0 dropped the 1.x graph/session model for imperative `tf.function` training — simpler notebooks and production pipelines. It unified the fragmented TF ecosystem and responded to PyTorch's research dominance with a more approachable developer experience.",
+      "narrative": {
+        "whyChosen": "TensorFlow 2.0 was Google's answer to usability complaints that drove researchers to PyTorch.",
+        "whyImportant": "Keras integration and eager execution made TF competitive for interactive ML development.",
+        "problemSolved": "TensorFlow 1.x's graph boilerplate was too complex for most practitioners."
+      },
+      "category": "ai",
+      "tags": ["tensorflow", "ai", "machine-learning", "python", "keras"],
+      "companies": [{ "id": "google", "name": "Google" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "TensorFlow Blog — TensorFlow 2.0 is now available (September 30, 2019)",
+          "url": "https://blog.tensorflow.org/2019/09/tensorflow-20-is-now-available.html",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — tensorflow/tensorflow v2.0.0 (overview)",
+          "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.0.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["tensorflow-open-sourced", "bazel-open-sourced"]
     }
   ]
 }

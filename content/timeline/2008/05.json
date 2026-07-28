@@ -46,6 +46,38 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "google-app-engine-open-signups",
+      "slug": "google-app-engine-open-signups",
+      "date": "2008-05-28",
+      "datePrecision": "day",
+      "title": "Google App Engine opens to all developers",
+      "summary": "Google opened App Engine sign-ups to everyone on May 28, 2008 at Google I/O — ending the invite-only preview that began in April.",
+      "about": "After 150,000 developers joined the waitlist, App Engine became publicly available with pricing tiers and new APIs — Python apps could scale on Google's infrastructure without provisioning servers. It validated PaaS as a category alongside Heroku and set expectations for cloud-native deployment.",
+      "narrative": {
+        "whyChosen": "Opening App Engine proved managed cloud hosting had mass developer demand.",
+        "whyImportant": "It moved PaaS from invite-only experiment to a product any developer could try.",
+        "problemSolved": "Preview waitlists blocked teams from evaluating Google's platform for real workloads."
+      },
+      "category": "software",
+      "tags": ["google-app-engine", "paas", "cloud", "python", "web"],
+      "companies": [{ "id": "google", "name": "Google" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Press — App Engine open sign-ups at Google I/O (May 27, 2008)",
+          "url": "http://googlepress.blogspot.com/2008/05/google-app-engine-to-announce-open-sign_27.html",
+          "role": "date"
+        },
+        {
+          "title": "Computerworld — Google opens App Engine to all (May 27, 2008)",
+          "url": "https://www.computerworld.com/article/1565401/google-opens-app-engine-to-all-details-pricing.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["google-app-engine-preview", "heroku-launched", "docker-open-sourced"]
     }
   ]
 }

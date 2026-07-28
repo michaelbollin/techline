@@ -60,9 +60,9 @@
       "id": "metcalfe-metcalfe-law",
       "date": "1980",
       "datePrecision": "year",
-      "title": "Robert Metcalfe states Metcalfe's Law",
+      "title": "Robert Metcalfe articulates network value scaling",
       "quoteText": "The value of a telecommunications network is proportional to the square of the number of connected users of the system.",
-      "summary": "Ethernet inventor Robert Metcalfe articulates why network effects compound — each new user makes the network more valuable for everyone else.",
+      "summary": "Ethernet inventor Robert Metcalfe articulated circa 1980 why network value grows with the square of users — later popularized as Metcalfe's Law by George Gilder in 1993.",
       "about": "Metcalfe's Law became the mental model behind social networks, marketplaces, and platform economics. Critics note n² oversimplifies real networks, but the core insight — connectivity has nonlinear returns — still shapes startup pitch decks.",
       "narrative": {
         "whyChosen": "The formula behind 'network effects' before the phrase existed.",

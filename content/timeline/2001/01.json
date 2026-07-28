@@ -99,6 +99,40 @@
         }
       ],
       "relatedIds": []
+    },
+    {
+      "id": "drupal-1-0-released",
+      "slug": "drupal-1-0-released",
+      "date": "2001-01-15",
+      "datePrecision": "day",
+      "title": "Drupal 1.0 released",
+      "summary": "Dries Buytaert released Drupal 1.0 on January 15, 2001 — open-sourcing the drop.org community software as a modular CMS.",
+      "about": "Drupal is a PHP CMS for complex sites — content types, views, roles, and thousands of modules for government, university, and enterprise portals. Drupal 8+ rebuilt on Symfony components; today it powers large multilingual and accessibility-focused sites that outgrow simpler blogging tools.",
+      "narrative": {
+        "whyChosen": "Drupal pioneered modular, community-governed CMS architecture for ambitious web projects.",
+        "whyImportant": "It showed how open-source CMSs could serve enterprises and institutions, not just blogs.",
+        "problemSolved": "drop.org experimenters wanted to extend the software themselves instead of waiting for one maintainer."
+      },
+      "category": "software",
+      "tags": ["drupal", "cms", "php", "web", "open-source"],
+      "people": [
+        { "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Drupal.org — Legacy Drupal release history (1.0.0, January 15, 2001)",
+          "url": "https://www.drupal.org/docs/getting-started/understanding-drupal/understanding-drupal-version-numbers/legacy-drupal-release-history",
+          "role": "date"
+        },
+        {
+          "title": "Dries Buytaert — Drupal celebrates 20 years (overview)",
+          "url": "https://dri.es/drupal-celebrates-20-years",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released", "wordpress-released", "symfony-released"]
     }
   ]
 }

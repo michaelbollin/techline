@@ -6,7 +6,7 @@
       "date": "2015-09-08",
       "datePrecision": "day",
       "title": "Node.js 4.0 released",
-      "summary": "Node.js 4.0.0 shipped on September 8, 2015 — merging the io.js fork back into Node with V8 4.5, native ES6 support, and an LTS schedule.",
+      "summary": "Node.js 4.0.0 shipped on September 8, 2015, merging the io.js fork back into Node with V8 4.5 and native ES6 support; the first official LTS line began with 4.2.0 'Argon' in October 2015.",
       "about": "Node 4 ended the io.js schism and established even-numbered LTS releases. Arrow functions, classes, and template literals worked natively; npm 2 shipped bundled. It became the baseline for Express, Koa, and the MEAN/MERN stacks of the mid-2010s.",
       "narrative": {
         "whyChosen": "Node 4 reunited the community after the io.js fork and defined modern Node LTS.",

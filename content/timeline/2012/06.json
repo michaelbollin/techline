@@ -6,8 +6,8 @@
       "date": "2012-06-27",
       "datePrecision": "day",
       "title": "Chrome for Android released",
-      "summary": "Google released Chrome for Android on June 27, 2012 — bringing the Blink/WebKit engine and Chrome sync to the world's dominant mobile OS.",
-      "about": "Chrome for Android made mobile browsing a first-class Google product: tab sync with desktop, V8 performance, and later dominance on Android phones. It extended the Chrome ecosystem beyond desktops and set the stage for WebView powering in-app browsers.",
+      "summary": "Google released Chrome for Android on June 27, 2012 — bringing the WebKit engine and Chrome sync to the world's dominant mobile OS.",
+      "about": "Chrome for Android made mobile browsing a first-class Google product: tab sync with desktop, V8 performance, and later dominance on Android phones. It shipped on WebKit (Google forked Blink from WebKit in April 2013) and extended the Chrome ecosystem beyond desktops.",
       "narrative": {
         "whyChosen": "Mobile Chrome put Google's browser on the platform that would define the next decade of web usage.",
         "whyImportant": "It made Chrome the default mental model for mobile browsing outside Apple's walled garden.",

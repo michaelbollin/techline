@@ -3,10 +3,10 @@
     {
       "id": "chromebook-retail-launched",
       "slug": "chromebook-retail-launched",
-      "date": "2011-06",
-      "datePrecision": "month",
+      "date": "2011-06-15",
+      "datePrecision": "day",
       "title": "Chromebooks go on sale",
-      "summary": "Samsung and Acer began selling the first retail Chromebooks in June 2011 — consumer laptops running Chrome OS.",
+      "summary": "Samsung and Acer put the first retail Chromebooks on sale on June 15, 2011 — consumer laptops running Chrome OS after Google announced them at I/O on May 11.",
       "about": "After the CR-48 pilot, retail Chromebooks brought Google's browser-centric OS to schools and budget buyers — automatic updates, Google account sign-in, and web apps only. IT departments adopted them for managed classrooms; developers tested PWAs and Chrome extensions on locked-down hardware. The category grew into a major segment beside Windows and Mac laptops.",
       "narrative": {
         "whyChosen": "Retail Chromebooks turned Google's pilot into a shipping product category.",
@@ -51,10 +51,10 @@
     {
       "id": "laravel-first-beta",
       "slug": "laravel-first-beta",
-      "date": "2011-06",
-      "datePrecision": "month",
+      "date": "2011-06-09",
+      "datePrecision": "day",
       "title": "Laravel first beta released",
-      "summary": "Taylor Otwell released the first Laravel beta in June 2011 — a PHP web framework emphasizing elegant syntax and developer ergonomics.",
+      "summary": "Taylor Otwell released the first Laravel beta on June 9, 2011 — a PHP web framework emphasizing elegant syntax and developer ergonomics.",
       "about": "Laravel brought routing, Eloquent ORM, and Blade templates to PHP with conventions inspired by Ruby on Rails. It grew into the most popular PHP framework for APIs and full-stack apps — artisan CLI, queues, and later Livewire and Forge hosting.",
       "narrative": {
         "whyChosen": "Laravel redefined modern PHP web development with expressive APIs and strong conventions.",
@@ -134,6 +134,64 @@
       "relatedIds": [
         "firefox-6-released",
         "google-chrome-released"
+      ]
+    },
+    {
+      "id": "css-2-1-w3c-recommendation",
+      "slug": "css-2-1-w3c-recommendation",
+      "date": "2011-06-07",
+      "datePrecision": "day",
+      "title": "CSS 2.1 becomes a W3C Recommendation",
+      "summary": "The W3C published CSS Level 2 Revision 1 as a Recommendation on June 7, 2011 — a corrected, interoperable snapshot of CSS2 after fifteen years of refinement.",
+      "about": "CSS 2.1 removed unimplementable CSS2 features, fixed specification errors, and reflected what browsers actually supported — backed by tens of thousands of test cases. It became the stable baseline the CSS Working Group built modular Level 3 specs on top of: selectors, flexbox, grid, and animations all trace back to this foundation.",
+      "narrative": {
+        "whyChosen": "CSS 2.1 ended years of spec drift and gave the web a stable styling baseline.",
+        "whyImportant": "It unlocked modular CSS3 development by freezing a reliable interoperability target.",
+        "problemSolved": "CSS2 contained errors and features no browser could implement consistently."
+      },
+      "category": "protocol",
+      "tags": [
+        "css",
+        "web",
+        "w3c",
+        "standards"
+      ],
+      "people": [
+        {
+          "id": "bert-bos",
+          "name": "Bert Bos",
+          "role": "author"
+        },
+        {
+          "id": "haakon-wium-lie",
+          "name": "Håkon Wium Lie",
+          "role": "author"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C — CSS 2.1 Recommendation press release (June 7, 2011)",
+          "url": "https://www.w3.org/press-releases/2011/css/",
+          "role": "date"
+        },
+        {
+          "title": "W3C — Cascading Style Sheets Level 2 Revision 1 (overview)",
+          "url": "https://www.w3.org/TR/2011/REC-CSS2-20110607/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "css2-w3c-recommendation",
+        "css-selectors-level-3-recommendation",
+        "css-grid-layout-shipped"
       ]
     }
   ]

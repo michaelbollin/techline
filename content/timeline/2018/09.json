@@ -6,8 +6,8 @@
       "date": "2018-09-25",
       "datePrecision": "day",
       "title": "Java 11 LTS released",
-      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with `var`, HTTP client, and removed Java EE modules.",
-      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. Local-variable type inference (`var`), a built-in HTTP client, and single-file `java` launch scripts modernized everyday Java development.",
+      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in HTTP client and removed Java EE modules.",
+      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in Java 10), added a built-in HTTP client, and single-file `java` launch scripts modernized everyday Java development.",
       "narrative": {
         "whyChosen": "Java 11 was the bridge LTS between the Java 8 era and modern 17/21 releases.",
         "whyImportant": "It established the six-month feature release + LTS every three years model.",
@@ -89,6 +89,37 @@
         "elixir-1-0-released",
         "rails-7-released"
       ]
+    },
+    {
+      "id": "cypress-out-of-beta",
+      "slug": "cypress-out-of-beta",
+      "date": "2018-09-20",
+      "datePrecision": "day",
+      "title": "Cypress leaves beta",
+      "summary": "Cypress officially left beta on September 20, 2018 — marking 1.0 stability after years of development and millions of npm downloads.",
+      "about": "The GA release signaled Cypress was production-ready for front-end E2E testing — time-travel debugging, automatic waiting, and real browser execution. Teams migrated from flaky Selenium suites to `cy.visit` and `cy.get` for React and Vue apps.",
+      "narrative": {
+        "whyChosen": "Cypress GA validated in-browser E2E testing as an enterprise-ready practice.",
+        "whyImportant": "It set the reliability bar that Playwright later extended to multi-browser testing.",
+        "problemSolved": "Teams hesitated to adopt Cypress in CI while the framework was still labeled beta."
+      },
+      "category": "software",
+      "tags": ["cypress", "testing", "javascript", "browser", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Cypress Blog — Cypress is officially out of beta (September 20, 2018)",
+          "url": "https://www.cypress.io/blog/cypress-is-officially-out-of-beta",
+          "role": "date"
+        },
+        {
+          "title": "Cypress — Our Story (overview)",
+          "url": "https://www.cypress.io/about-us/our-story",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["cypress-open-sourced", "selenium-2-released", "playwright-released"]
     }
   ]
 }

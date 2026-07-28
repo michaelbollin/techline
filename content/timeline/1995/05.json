@@ -98,7 +98,7 @@
       "date": "1995-05-23",
       "datePrecision": "day",
       "title": "MySQL first released",
-      "summary": "Michael Widenius and MySQL AB shipped the first MySQL release on May 23, 1995 — a fast SQL database with an mSQL-compatible API.",
+      "summary": "Michael Widenius and David Axmark made the first MySQL release on May 23, 1995 — an internal mSQL-compatible SQL server; broader public distribution followed.",
       "about": "MySQL powers LAMP stacks, WordPress, early Facebook, and countless web apps needing a simple relational store. Teams run `SELECT`, `JOIN`, and transactions for CRUD APIs and reporting. It became the default cheap SQL option before PostgreSQL's rise and cloud-managed databases.",
       "narrative": {
         "whyChosen": "MySQL made SQL databases accessible to every PHP and web hosting provider on the planet.",

@@ -17,7 +17,7 @@
       "date": "2012-09",
       "datePrecision": "month",
       "title": "Geoffrey Hinton's team wins ImageNet with AlexNet",
-      "summary": "Geoffrey Hinton's students Krizhevsky, Sutskever, and Hinton won ImageNet 2012 with AlexNet — triggering the deep learning revolution.",
+      "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton submitted AlexNet to ILSVRC 2012 on September 30, 2012 — winning with 15.3% top-5 error and triggering the deep learning revolution.",
       "about": "AlexNet's GPU-trained convolutional network crushed traditional computer vision pipelines — convincing Google, Facebook, and industry to bet on neural networks. Hinton had pursued backprop for decades before this breakthrough.",
       "narrative": {
         "whyChosen": "AlexNet was the inflection point for modern deep learning adoption.",
@@ -43,6 +43,47 @@
           "url": "https://en.wikipedia.org/wiki/AlexNet",
           "role": "overview"
         }
+      ]
+    },
+    {
+      "id": "joomla-3-0-released",
+      "slug": "joomla-3-0-released",
+      "date": "2012-09-27",
+      "datePrecision": "day",
+      "title": "Joomla 3.0 released",
+      "summary": "The Joomla project shipped Joomla 3.0 on September 27, 2012 — a Bootstrap-based admin UI and mobile-ready front-end templates.",
+      "about": "Joomla 3 brought responsive templates, a modernized media manager, and improved ACL — aligning the CMS with mobile-first expectations. It followed the short-term release strategy before Joomla settled on longer support cycles in the 3.x era.",
+      "narrative": {
+        "whyChosen": "Joomla 3 modernized the admin experience with Bootstrap and responsive design.",
+        "whyImportant": "It kept Joomla competitive as mobile traffic overtook desktop browsing.",
+        "problemSolved": "Joomla 2.5's admin and default templates felt dated on phones and tablets."
+      },
+      "category": "software",
+      "tags": [
+        "joomla",
+        "cms",
+        "php",
+        "web",
+        "open-source"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Joomla Downloads — Joomla 3.0.0 (September 27, 2012)",
+          "url": "https://downloads.joomla.org/cms/joomla3/3-0-0",
+          "role": "date"
+        },
+        {
+          "title": "Joomla Magazine — Joomla 2.5 vs 3.0 (overview)",
+          "url": "https://magazine.joomla.org/issues/2012/november-2012/20-new-things-joomla25-vs-joomla30",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "joomla-2-5-released",
+        "joomla-1-5-released",
+        "bootstrap-released"
       ]
     }
   ]

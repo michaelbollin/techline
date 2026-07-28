@@ -47,7 +47,7 @@
       "date": "2010-01-12",
       "datePrecision": "day",
       "title": "npm first released",
-      "summary": "Isaac Schlueter released npm 1.0 on January 12, 2010 — the default package manager for Node.js and the largest software registry on the web.",
+      "summary": "Isaac Schlueter released npm 1.0 on January 12, 2010 — the default package manager for Node.js (an earlier prototype was committed in September 2009).",
       "about": "npm installs libraries with `npm install express`, publishes packages to the registry, and locks versions in `package-lock.json`. It shaped how JavaScript shares code — from lodash to React to corporate private registries. Every Node project, frontend bundler, and CI install step depends on it.",
       "narrative": {
         "whyChosen": "npm turned Node from a runtime into an ecosystem with millions of reusable packages.",
@@ -205,7 +205,14 @@
         "problemSolved": "Python's built-in development server was not safe or performant for production traffic."
       },
       "category": "software",
-      "tags": ["gunicorn", "python", "wsgi", "web-server", "django", "flask"],
+      "tags": [
+        "gunicorn",
+        "python",
+        "wsgi",
+        "web-server",
+        "django",
+        "flask"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -220,7 +227,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["django-open-sourced", "flask-released", "nginx-released", "python-0-9-0-released", "uwsgi-released"]
+      "relatedIds": [
+        "django-open-sourced",
+        "flask-released",
+        "nginx-released",
+        "python-0-9-0-released",
+        "uwsgi-released"
+      ]
     }
   ]
 }

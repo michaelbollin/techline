@@ -30,6 +30,38 @@
         }
       ],
       "relatedIds": ["vue-3-released", "nextjs-13-app-router"]
+    },
+    {
+      "id": "drupal-10-released",
+      "slug": "drupal-10-released",
+      "date": "2022-12-15",
+      "datePrecision": "day",
+      "title": "Drupal 10 released",
+      "summary": "Drupal 10.0 shipped on December 15, 2022 — upgrading to Symfony 6, CKEditor 5, and a modernized Claro admin theme.",
+      "about": "Drupal 10 replaced end-of-life Symfony 4 and CKEditor 4 dependencies — a required migration path as Drupal 9 approached EOL in November 2023. Olivero became the default front-end theme; modules could target Drupal 9 and 10 simultaneously.",
+      "narrative": {
+        "whyChosen": "Drupal 10 kept the platform on supported Symfony and editor dependencies.",
+        "whyImportant": "It maintained Drupal's enterprise CMS position through the Symfony 6 era.",
+        "problemSolved": "Drupal 9 sites faced security risk when Symfony 4 and CKEditor 4 reached end-of-life."
+      },
+      "category": "software",
+      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
+      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Drupal.org — Drupal 10.0.0 released (December 15, 2022)",
+          "url": "https://www.drupal.org/project/drupal/releases/10.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Drupal.org — Drupal 10.0.0 is available (overview)",
+          "url": "https://www.drupal.org/blog/drupal-10-0-0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["drupal-9-released", "drupal-8-released", "symfony-4-released"]
     }
   ]
 }

@@ -90,6 +90,69 @@
         "dart-3-released",
         "react-open-sourced"
       ]
+    },
+    {
+      "id": "wordpress-5-0-released",
+      "slug": "wordpress-5-0-released",
+      "date": "2018-12-06",
+      "datePrecision": "day",
+      "title": "WordPress 5.0 released",
+      "summary": "WordPress 5.0 \"Bebo\" shipped on December 6, 2018 with Gutenberg — a block-based editor replacing the classic writing experience.",
+      "about": "Gutenberg splits content into blocks (paragraphs, images, columns) edited in a React-powered UI — the biggest UX change in WordPress history. Themes and plugins adapted to block patterns; controversy drove the Classic Editor plugin, but blocks became the platform's future.",
+      "narrative": {
+        "whyChosen": "WordPress 5.0's Gutenberg editor redefined how millions publish content.",
+        "whyImportant": "Block editing aligned WordPress with modern page builders and component-based UIs.",
+        "problemSolved": "The classic TinyMCE editor could not compete with visual builders or structured content needs."
+      },
+      "category": "software",
+      "tags": ["wordpress", "cms", "php", "gutenberg", "frontend", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "WordPress News — WordPress 5.0 Bebo (December 6, 2018)",
+          "url": "https://wordpress.org/news/2018/12/bebo/",
+          "role": "date"
+        },
+        {
+          "title": "WordPress.org — Version history (overview)",
+          "url": "https://wordpress.org/documentation/article/learn-about-wordpress-and-version-history/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["wordpress-released", "wordpress-3-0-released", "react-open-sourced"]
+    },
+    {
+      "id": "pytorch-1-0-released",
+      "slug": "pytorch-1-0-released",
+      "date": "2018-12-07",
+      "datePrecision": "day",
+      "title": "PyTorch 1.0 released",
+      "summary": "Facebook AI Research released PyTorch 1.0 on December 7, 2018 at NeurIPS — adding production deployment via TorchScript and a stable API.",
+      "about": "PyTorch 1.0 bridged research and production: `torch.jit.script` compiled models for C++ inference, and the Caffe2 backend merged into PyTorch for mobile deployment. It marked the framework's transition from academic toy to infrastructure for Meta, Tesla, and OpenAI training runs.",
+      "narrative": {
+        "whyChosen": "PyTorch 1.0 made the framework production-ready without sacrificing research ergonomics.",
+        "whyImportant": "TorchScript and stable APIs let teams ship models trained in notebooks to serving infrastructure.",
+        "problemSolved": "Researchers loved PyTorch's flexibility but could not deploy models without rewriting in C++ or TensorFlow."
+      },
+      "category": "software",
+      "tags": ["pytorch", "machine-learning", "ai", "python", "open-source"],
+      "companies": [{ "id": "meta", "name": "Meta" }],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "PyTorch Blog — PyTorch 1.0 stable release (December 7, 2018)",
+          "url": "https://pytorch.org/blog/pytorch-1.0-stable-release/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PyTorch (overview)",
+          "url": "https://en.wikipedia.org/wiki/PyTorch",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["pytorch-released", "tensorflow-2-0-released", "tensorflow-open-sourced"]
     }
   ]
 }

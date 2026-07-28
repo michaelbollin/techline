@@ -52,8 +52,8 @@
       "date": "2022-04-19",
       "datePrecision": "day",
       "title": "Node.js 18 released",
-      "summary": "Node.js 18.0.0 shipped on April 19, 2022 with a fetch API, test runner module, and V8 10.1.",
-      "about": "Node 18 became LTS in October 2022 — bringing browser-standard `fetch` to server code without `node-fetch`, and previewing a built-in test runner. It powered Next.js 13+, Vercel edge functions, and AWS Lambda runtimes through 2024.",
+      "summary": "Node.js 18.0.0 shipped on April 19, 2022 with an experimental fetch API, test runner module, and V8 10.1.",
+      "about": "Node 18 became LTS in October 2022 — bringing browser-standard `fetch` to server code (experimental in 18.0.0, stabilized in later releases) without `node-fetch`, and previewing a built-in test runner. It powered Next.js 13+, Vercel edge functions, and AWS Lambda runtimes through 2024.",
       "narrative": {
         "whyChosen": "Node 18's native fetch removed a ubiquitous npm dependency from server JavaScript.",
         "whyImportant": "LTS 18 aligned Node with web platform APIs developers already knew.",

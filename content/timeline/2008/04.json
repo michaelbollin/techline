@@ -210,6 +210,38 @@
         "amd64-x86-64-announced",
         "ibm-pc-5150-released"
       ]
+    },
+    {
+      "id": "google-app-engine-preview",
+      "slug": "google-app-engine-preview",
+      "date": "2008-04-07",
+      "datePrecision": "day",
+      "title": "Google App Engine preview released",
+      "summary": "Google launched a preview of App Engine on April 7, 2008 at Campfire One — a platform for running Python web apps on Google's infrastructure.",
+      "about": "App Engine (`app.yaml`, Bigtable, automatic scaling) was Google's first major PaaS — deploy without managing servers and scale to millions of page views. It influenced Heroku, AWS Elastic Beanstalk, and how startups thought about cloud-native deployment before containers dominated.",
+      "narrative": {
+        "whyChosen": "App Engine pioneered managed platform hosting for web developers at hyperscale.",
+        "whyImportant": "It showed PaaS could abstract servers, databases, and scaling behind a simple SDK.",
+        "problemSolved": "Teams spent more time on ops and capacity planning than writing application code."
+      },
+      "category": "software",
+      "tags": ["google-app-engine", "paas", "cloud", "python", "web"],
+      "companies": [{ "id": "google", "name": "Google" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Press — Previewing Google App Engine (April 7, 2008)",
+          "url": "http://googlepress.blogspot.com/2008/04/previewing-google-app-engine-run-your_07.html",
+          "role": "date"
+        },
+        {
+          "title": "Google App Engine Blog — Introducing Google App Engine (overview)",
+          "url": "http://googleappengine.blogspot.com/2008/04/introducing-google-app-engine-our-new.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["heroku-launched", "docker-open-sourced", "kubernetes-open-sourced"]
     }
   ]
 }

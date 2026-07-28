@@ -30,6 +30,74 @@
         }
       ],
       "relatedIds": ["redis-first-released", "mysql-first-released", "rabbitmq-released", "apache-kafka-open-sourced", "zeromq-released"]
+    },
+    {
+      "id": "wordpress-released",
+      "slug": "wordpress-released",
+      "date": "2003-05-27",
+      "datePrecision": "day",
+      "title": "WordPress released",
+      "summary": "Matt Mullenweg and Mike Little released WordPress 0.7 on May 27, 2003 — a fork of b2/cafelog that became the world's most-used CMS.",
+      "about": "WordPress powers blogs, marketing sites, WooCommerce stores, and headless CMS backends — themes, plugins, and a familiar admin UI on any PHP host. It democratized publishing for non-developers while staying hackable for agencies. Today it runs a large share of the public web.",
+      "narrative": {
+        "whyChosen": "WordPress became the default way to publish on the web without building a CMS from scratch.",
+        "whyImportant": "It proved open-source PHP could dominate consumer publishing and plugin ecosystems at global scale.",
+        "problemSolved": "Blogging tools like b2 were stagnating; developers needed a maintained, extensible fork with a modern admin."
+      },
+      "category": "software",
+      "tags": ["wordpress", "cms", "php", "web", "open-source"],
+      "people": [
+        { "id": "matt-mullenweg", "name": "Matt Mullenweg", "role": "co-founder" },
+        { "id": "mike-little", "name": "Mike Little", "role": "co-founder" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "WordPress News — WordPress Now Available (May 27, 2003)",
+          "url": "https://wordpress.org/news/2003/05/wordpress-now-available/",
+          "role": "date"
+        },
+        {
+          "title": "WordPress.org — Version 0.70 (overview)",
+          "url": "https://wordpress.org/documentation/wordpress-version/version-0-70/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["php-tools-1-0-released", "drupal-1-0-released", "mysql-first-released", "symfony-released"]
+    },
+    {
+      "id": "css-zen-garden-launched",
+      "slug": "css-zen-garden-launched",
+      "date": "2003-05",
+      "datePrecision": "month",
+      "title": "CSS Zen Garden launched",
+      "summary": "Dave Shea launched the CSS Zen Garden in May 2003 — a collaborative gallery where designers restyle one HTML page using only CSS.",
+      "about": "The Zen Garden answered skeptics who still treated CSS as a novelty: hundreds of designers submitted radically different skins of the same markup, proving presentation could be fully separated from structure. It became a teaching reference and helped convince agencies to abandon table-based layouts.",
+      "narrative": {
+        "whyChosen": "The Zen Garden showed what CSS could do better than any specification document.",
+        "whyImportant": "It accelerated the shift from table layouts and font tags to standards-based design.",
+        "problemSolved": "Many teams still doubted CSS could match the visual richness of table hacks and spacer GIFs."
+      },
+      "category": "culture",
+      "tags": ["css", "web", "design", "frontend"],
+      "people": [{ "id": "dave-shea", "name": "Dave Shea", "role": "creator" }],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "CSS Zen Garden — About (launched May 2003)",
+          "url": "https://csszengarden.com/pages/about/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — CSS Zen Garden (overview)",
+          "url": "https://en.wikipedia.org/wiki/CSS_Zen_Garden",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["css1-w3c-recommendation", "css2-w3c-recommendation", "bootstrap-released"]
     }
   ]
 }

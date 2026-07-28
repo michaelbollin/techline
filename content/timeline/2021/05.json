@@ -89,6 +89,68 @@
         "elixir-1-0-released",
         "elixir-first-release"
       ]
+    },
+    {
+      "id": "bootstrap-5-released",
+      "slug": "bootstrap-5-released",
+      "date": "2021-05-05",
+      "datePrecision": "day",
+      "title": "Bootstrap 5 released",
+      "summary": "Bootstrap 5.0 shipped on May 5, 2021 — dropping jQuery, adding RTL support, and refreshing components for the utility-first era.",
+      "about": "Bootstrap 5 removed jQuery entirely, added offcanvas and updated forms, and improved dark-mode hooks — staying relevant as Tailwind grew. It remains the fastest path to a polished admin UI without designing from scratch.",
+      "narrative": {
+        "whyChosen": "Bootstrap 5 kept the framework current by shedding jQuery and adding modern layout features.",
+        "whyImportant": "Vanilla JS and RTL support aligned Bootstrap with contemporary front-end practices.",
+        "problemSolved": "jQuery dependency and legacy components made Bootstrap feel dated next to newer toolkits."
+      },
+      "category": "software",
+      "tags": ["bootstrap", "css", "frontend", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Bootstrap Blog — Bootstrap 5 (May 5, 2021)",
+          "url": "https://blog.getbootstrap.com/2021/05/05/bootstrap-5/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — twbs/release Bootstrap 5.x (overview)",
+          "url": "https://github.com/twbs/release",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["bootstrap-4-released", "bootstrap-3-released", "react-open-sourced"]
+    },
+    {
+      "id": "squarespace-ipo",
+      "slug": "squarespace-ipo",
+      "date": "2021-05-19",
+      "datePrecision": "day",
+      "title": "Squarespace direct listing",
+      "summary": "Squarespace began trading on the NYSE on May 19, 2021 under ticker SQSP — a direct listing at a $50 reference price valuing the company at roughly $6.5 billion.",
+      "about": "Unlike a traditional IPO, Squarespace's direct listing let existing shareholders sell without issuing new shares — following Spotify and Slack's playbook. The debut validated website builders as a mature public SaaS category.",
+      "narrative": {
+        "whyChosen": "Squarespace's NYSE debut marked website builders as public-market businesses.",
+        "whyImportant": "Direct listings offered an alternative path to public markets for SaaS companies.",
+        "problemSolved": "Mature SaaS companies wanted public liquidity without dilutive IPO share issuance."
+      },
+      "category": "company",
+      "tags": ["squarespace", "ipo", "website-builder", "saas", "retail"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Squarespace Newsroom — NYSE trading begins May 19, 2021",
+          "url": "https://newsroom.squarespace.com/blog/squarespace-to-commence-trading-on-nyse",
+          "role": "date"
+        },
+        {
+          "title": "Reuters — Squarespace valued at $6.5B in market debut (overview)",
+          "url": "https://www.reuters.com/technology/squarespace-valued-65-bln-market-debut-2021-05-19/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["squarespace-launched", "wix-ipo", "shopify-ipo"]
     }
   ]
 }

@@ -137,6 +137,37 @@
         "csharp-10-released",
         "csharp-12-released"
       ]
+    },
+    {
+      "id": "spring-boot-3-0-released",
+      "slug": "spring-boot-3-0-released",
+      "date": "2022-11-24",
+      "datePrecision": "day",
+      "title": "Spring Boot 3.0 released",
+      "summary": "The Spring team released Spring Boot 3.0 on November 24, 2022 — requiring Java 17 and migrating to Jakarta EE namespaces.",
+      "about": "Spring Boot 3.0 aligned with Spring Framework 6: native image hints via GraalVM, observability improvements, and `jakarta.*` packages instead of `javax.*`. It forced enterprises off Java 8 and marked the modern baseline for new Java microservices.",
+      "narrative": {
+        "whyChosen": "Spring Boot 3.0 set Java 17 and Jakarta EE as the new enterprise default.",
+        "whyImportant": "GraalVM native support and Jakarta migration defined the next decade of Java cloud apps.",
+        "problemSolved": "Teams on Java 8 and javax APIs needed a clear upgrade path for cloud-native deployments."
+      },
+      "category": "software",
+      "tags": ["spring-boot", "spring", "java", "web-framework", "jakarta"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub — spring-projects/spring-boot v3.0.0 (November 24, 2022)",
+          "url": "https://github.com/spring-projects/spring-boot/releases/tag/v3.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Spring Boot Wiki — 3.0 Release Notes (overview)",
+          "url": "https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-3.0-Release-Notes",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["spring-boot-2-0-released", "spring-boot-1-0-released", "java-17-released"]
     }
   ]
 }

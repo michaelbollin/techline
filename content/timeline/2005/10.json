@@ -37,37 +37,6 @@
       "relatedIds": [
         "laravel-symfony-http-foundation"
       ]
-    },
-    {
-      "id": "arduino-released",
-      "slug": "arduino-released",
-      "date": "2005-10",
-      "datePrecision": "month",
-      "title": "Arduino boards first shipped",
-      "summary": "The Arduino team began shipping the first Arduino boards in October 2005 — an open-source microcontroller platform for hobbyists and makers.",
-      "about": "Arduino boards run sketches in C-like Wiring on AVR microcontrollers — blink LEDs, read sensors, drive motors with a USB cable and no OS. Makers, educators, and IoT prototypes used it before Raspberry Pi brought full Linux to the same audience. The IDE and shield ecosystem made embedded programming accessible without a EE degree.",
-      "narrative": {
-        "whyChosen": "Arduino democratized microcontroller programming for non-specialists.",
-        "whyImportant": "It launched the modern maker movement and influenced IoT prototyping worldwide.",
-        "problemSolved": "Embedded development required expensive tools and proprietary toolchains out of reach for hobbyists."
-      },
-      "category": "hardware",
-      "tags": ["hardware", "embedded", "arduino", "microcontroller", "iot", "open-source"],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "Arduino — Guide / Introduction (first boards 2005)",
-          "url": "https://www.arduino.cc/en/Guide/Introduction",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Arduino (overview)",
-          "url": "https://en.wikipedia.org/wiki/Arduino",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": ["raspberry-pi-model-b-released"]
     }
   ]
 }

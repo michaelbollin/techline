@@ -104,6 +104,37 @@
         "mongodb-first-released",
         "sqlite-1-0-released"
       ]
+    },
+    {
+      "id": "selenium-2-released",
+      "slug": "selenium-2-released",
+      "date": "2011-07-08",
+      "datePrecision": "day",
+      "title": "Selenium 2.0 released",
+      "summary": "The Selenium project shipped Selenium 2.0 on July 8, 2011 — merging Selenium RC with the WebDriver API for native browser automation.",
+      "about": "Selenium 2 unified two competing approaches: WebDriver talked directly to browser engines (Chrome, Firefox, IE) while Selenium Grid distributed tests across machines. The W3C later standardized WebDriver; Selenium remained the default stack for Java and Python QA teams.",
+      "narrative": {
+        "whyChosen": "Selenium 2 merged WebDriver into the mainstream testing stack.",
+        "whyImportant": "Native browser drivers replaced brittle JavaScript injection for most test suites.",
+        "problemSolved": "Teams maintained parallel Selenium RC and WebDriver codebases with incompatible APIs."
+      },
+      "category": "software",
+      "tags": ["selenium", "testing", "webdriver", "browser", "open-source"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Selenium Blog — Selenium 2.0: Out Now! (July 8, 2011)",
+          "url": "https://www.selenium.dev/blog/2011/selenium-2-0-out-now/",
+          "role": "date"
+        },
+        {
+          "title": "Selenium — History (overview)",
+          "url": "https://www.selenium.dev/history/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["selenium-released", "cypress-open-sourced", "playwright-released"]
     }
   ]
 }

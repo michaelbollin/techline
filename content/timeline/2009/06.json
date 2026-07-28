@@ -14,7 +14,10 @@
         "problemSolved": "Global class names and weak OOP primitives made large PHP codebases fragile."
       },
       "category": "software",
-      "tags": ["php", "programming-language"],
+      "tags": [
+        "php",
+        "programming-language"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +32,60 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released", "php-5-0-released", "php-7-0-released"]
+      "relatedIds": [
+        "php-tools-1-0-released",
+        "php-5-0-released",
+        "php-7-0-released"
+      ]
+    },
+    {
+      "id": "less-1-0-released",
+      "slug": "less-1-0-released",
+      "date": "2009-06-16",
+      "datePrecision": "day",
+      "title": "Less CSS preprocessor introduced",
+      "summary": "Alexis Sellier introduced the Less CSS preprocessor on June 16, 2009 via the 'Introducing LESS' blog post — keeping standard CSS syntax while adding variables and mixins.",
+      "about": "Less extended CSS with `@variable` declarations, nested rules, and mixins — all valid CSS with extra features on top. Inspired by Sass but written in JavaScript, it lowered the barrier for developers who wanted preprocessor power without learning a new indented syntax. Bootstrap adopted Less before moving to Sass.",
+      "narrative": {
+        "whyChosen": "Less proved preprocessors could feel like CSS with braces, not a separate language.",
+        "whyImportant": "It pushed Sass toward SCSS and made preprocessor workflows mainstream in JavaScript toolchains.",
+        "problemSolved": "Sass's indented syntax felt alien to developers used to curly-brace CSS."
+      },
+      "category": "software",
+      "tags": [
+        "less",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "alexis-sellier",
+          "name": "Alexis Sellier",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Usability Post — Introducing LESS: a Better CSS (June 16, 2009)",
+          "url": "https://usabilitypost.com/2009/06/16/introducing-less-a-better-css/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Less (style sheet language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Less_(style_sheet_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sass-released",
+        "bootstrap-released",
+        "scss-syntax-released"
+      ]
     }
   ]
 }

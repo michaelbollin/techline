@@ -90,8 +90,8 @@
       "slug": "perl-6-christmas-released",
       "date": "2015-12-25",
       "datePrecision": "day",
-      "title": "Perl 6.0.0 'Christmas' released",
-      "summary": "The Perl 6 team shipped version 6.c 'Christmas' on December 25, 2015 — the first production-ready Perl 6 after 15 years of design.",
+      "title": "Perl 6.c 'Christmas' released",
+      "summary": "The Perl 6 team shipped the 6.c 'Christmas' language release on December 25, 2015 — the first production-ready Perl 6 after 15 years of design.",
       "about": "Perl 6 (later renamed Raku) brought grammars, gradual typing, and concurrency primitives to the Perl family. The Christmas release marked the end of 'Perl 6 is coming' jokes and gave the community a compiler (Rakudo) to build on.",
       "narrative": {
         "whyChosen": "After a decade and a half, Perl 6 finally shipped as a real language.",

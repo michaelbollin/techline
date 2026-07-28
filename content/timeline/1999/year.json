@@ -6,7 +6,7 @@
       "date": "1999",
       "datePrecision": "year",
       "title": "Martin Fowler publishes Refactoring",
-      "summary": "Martin Fowler published Refactoring in 1999 — cataloging code improvement patterns and popularizing incremental design in OO systems.",
+      "summary": "Martin Fowler published Refactoring in 1999 — cataloging code improvement patterns that complement his contemporaneous quote defining refactoring as behavior-preserving structure change.",
       "about": "Fowler's catalog gave names to extract-method, move-field, and dozens of safe transformations IDEs now automate. He shaped agile, microservices, and enterprise patterns discourse for Java and beyond.",
       "narrative": {
         "whyChosen": "Refactoring vocabulary became standard in IDEs and code review culture.",

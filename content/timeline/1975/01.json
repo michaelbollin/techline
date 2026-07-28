@@ -6,7 +6,7 @@
       "date": "1975-01",
       "datePrecision": "month",
       "title": "Altair 8800 released",
-      "summary": "MITS shipped the Altair 8800 kit in January 1975 after its cover story in Popular Electronics — the machine that sparked the personal computer revolution.",
+      "summary": "MITS put the Altair 8800 on the January 1975 cover of Popular Electronics — the machine that sparked the personal computer revolution, with working kits shipping in early 1975.",
       "about": "The Altair was a bare-bones Intel 8080 box with switches and blinking lights — no keyboard, no monitor. Hobbyists ordered thousands of kits; Bill Gates and Paul Allen wrote Altair BASIC for it and founded Microsoft. Every garage-startup PC narrative starts here: cheap hardware + software you could sell.",
       "narrative": {
         "whyChosen": "The Altair proved a market existed for personal microcomputers beyond mainframes and minis.",
@@ -14,7 +14,13 @@
         "problemSolved": "Enthusiasts wanted an affordable computer they could own, extend, and program at home."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "altair", "microcomputer", "mits"],
+      "tags": [
+        "hardware",
+        "pc",
+        "altair",
+        "microcomputer",
+        "mits"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["microsoft-founded", "apple-ii-introduced", "ibm-pc-5150-released", "trs-80-model-i-released", "commodore-pet-2001-released"]
+      "relatedIds": [
+        "microsoft-founded",
+        "apple-ii-introduced",
+        "ibm-pc-5150-released",
+        "trs-80-model-i-released",
+        "commodore-pet-2001-released"
+      ]
     }
   ]
 }

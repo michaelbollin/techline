@@ -1,4 +1,4 @@
-import { TIMELINE_INK, TIMELINE_PAPER } from "@/lib/timeline/constants";
+import { TIMELINE_INK } from "@/lib/timeline/constants";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
 type TimelineNodeDotProps = {
@@ -11,7 +11,7 @@ type TimelineNodeDotProps = {
   onClick: () => void;
 };
 
-function dotRadius(importance: PlottedEvent["importance"]): number {
+function hitRadius(importance: PlottedEvent["importance"]): number {
   if (importance === 0) {
     return 7.5;
   }
@@ -21,6 +21,30 @@ function dotRadius(importance: PlottedEvent["importance"]): number {
   }
 
   return 4.5;
+}
+
+function dotRadius(importance: PlottedEvent["importance"], filled: boolean): number {
+  if (filled) {
+    if (importance === 0) {
+      return 7.5;
+    }
+
+    if (importance === 1) {
+      return 6;
+    }
+
+    return 4.5;
+  }
+
+  if (importance === 0) {
+    return 3.75;
+  }
+
+  if (importance === 1) {
+    return 3;
+  }
+
+  return 2.25;
 }
 
 export function TimelineNodeDot({
@@ -33,19 +57,18 @@ export function TimelineNodeDot({
   onClick,
 }: TimelineNodeDotProps) {
   const x = xScale(event.timestamp);
-  const dotR = dotRadius(event.importance);
   const filled = showLabel || isHovered;
+  const dotR = dotRadius(event.importance, filled);
+  const hitR = hitRadius(event.importance);
 
   return (
     <g transform={`translate(${x}, ${getAxisY(x)})`}>
       <circle
-        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""} ${event.importance === 0 ? "is-pillar" : ""} ${showLabel ? "has-label" : ""}`}
+        className="timeline-node-dot-hit"
         cx={0}
         cy={0}
-        r={dotR}
-        fill={filled ? TIMELINE_INK : TIMELINE_PAPER}
-        stroke={TIMELINE_INK}
-        strokeWidth={event.importance === 0 ? 2 : 1.5}
+        r={hitR}
+        fill="transparent"
         onClick={onClick}
         onMouseEnter={() => onHover(event)}
         onMouseLeave={() => onHover(null)}
@@ -54,6 +77,16 @@ export function TimelineNodeDot({
         tabIndex={0}
         role="button"
         aria-label={`${event.title}, ${event.dateLabel}`}
+      />
+      <circle
+        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""} ${event.importance === 0 ? "is-pillar" : ""} ${showLabel ? "has-label" : ""}`}
+        cx={0}
+        cy={0}
+        r={dotR}
+        fill={TIMELINE_INK}
+        stroke={TIMELINE_INK}
+        strokeWidth={filled ? (event.importance === 0 ? 2 : 1.5) : event.importance === 0 ? 1 : 0.75}
+        pointerEvents="none"
       />
     </g>
   );

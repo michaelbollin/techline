@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "bert-bos-joins-css-project",
+      "slug": "bert-bos-joins-css-project",
+      "date": "1995-07",
+      "datePrecision": "month",
+      "title": "Bert Bos joins CSS development",
+      "summary": "Bert Bos joined Håkon Wium Lie at INRIA in July 1995 to co-develop Cascading Style Sheets — merging his Stream-based Style Sheet Proposal with Lie's CSS draft.",
+      "about": "Bos had been building Argo, a browser with style sheet support, when he responded to Lie's October 1994 proposal on www-talk. The two met at WWW3 in Darmstadt that April and spent the summer at INRIA hammering out the cascading model that became CSS1. Bos is credited as co-creator alongside Lie.",
+      "narrative": {
+        "whyChosen": "CSS needed a second architect to turn a CERN proposal into a implementable standard.",
+        "whyImportant": "Bos brought browser implementation experience and helped unify competing style sheet proposals at the W3C.",
+        "problemSolved": "Multiple incompatible style sheet languages threatened to fragment how the web handled presentation."
+      },
+      "category": "protocol",
+      "tags": ["people", "css", "web", "w3c", "standards"],
+      "people": [
+        { "id": "bert-bos", "name": "Bert Bos", "role": "co-creator" },
+        { "id": "haakon-wium-lie", "name": "Håkon Wium Lie", "role": "co-creator" }
+      ],
+      "companies": [{ "id": "w3c", "name": "W3C" }],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C — CSS1 press release: Bert Bos joined July 1995 (December 17, 1996)",
+          "url": "https://www.w3.org/press-releases/1996/css1-rec/",
+          "role": "date"
+        },
+        {
+          "title": "W3C — The CSS saga, Lie and Bos (overview)",
+          "url": "https://www.w3.org/Style/LieBos2e/history/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["haakon-lie-css-proposed", "css1-w3c-recommendation"]
+    }
+  ]
+}

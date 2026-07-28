@@ -55,8 +55,8 @@
       "date": "2015-04-28",
       "datePrecision": "day",
       "title": "Caddy first released",
-      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a Go web server with automatic HTTPS and HTTP/2 by default.",
-      "about": "Caddy obtains and renews Let's Encrypt certificates automatically — `caddy reverse-proxy` terminates TLS without manual certbot steps. Its Caddyfile config and JSON API made it popular for dev proxies, static sites, and API gateways. Example: point a domain at Caddy; HTTPS works on first request with no extra setup.",
+      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a Go web server with HTTP/2 support and a simple configuration format.",
+      "about": "Caddy later added automatic Let's Encrypt HTTPS (from v0.8 in December 2015) — `caddy reverse-proxy` could terminate TLS without manual certbot steps. Its Caddyfile config and JSON API made it popular for dev proxies, static sites, and API gateways.",
       "narrative": {
         "whyChosen": "Caddy made automatic HTTPS a default feature, not an afterthought.",
         "whyImportant": "It showed a modern web server could be simple, secure, and written in Go.",
@@ -147,6 +147,37 @@
         "apple-a4-introduced",
         "apple-m1-announced"
       ]
+    },
+    {
+      "id": "netlify-launched",
+      "slug": "netlify-launched",
+      "date": "2015-04-07",
+      "datePrecision": "day",
+      "title": "Netlify launched",
+      "summary": "Mathias Biilmann and Christian Bach publicly launched Netlify on April 7, 2015 — a Git-based platform for deploying static sites and JAMstack apps to a global CDN.",
+      "about": "Netlify connected Git pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before Vercel dominated React SSR.",
+      "narrative": {
+        "whyChosen": "Netlify pioneered Git-to-CDN deploys for static and JAMstack sites.",
+        "whyImportant": "It made frontend deploys as simple as `git push` for thousands of developers.",
+        "problemSolved": "Teams manually FTP'd build artifacts or managed nginx configs for every static site."
+      },
+      "category": "software",
+      "tags": ["netlify", "jamstack", "hosting", "cdn", "deployment", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Netlify (public launch April 7, 2015)",
+          "url": "https://en.wikipedia.org/wiki/Netlify",
+          "role": "date"
+        },
+        {
+          "title": "Netlify Press — Company overview (overview)",
+          "url": "https://www.netlify.com/press/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["nextjs-open-sourced", "heroku-launched", "github-launched"]
     }
   ]
 }

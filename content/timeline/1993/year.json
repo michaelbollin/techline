@@ -6,7 +6,7 @@
       "date": "1993",
       "datePrecision": "year",
       "title": "Compaq ProLiant servers launched",
-      "summary": "Compaq established the ProLiant server line in 1993 — x86 machines that brought PC economics to datacenter rack servers.",
+      "summary": "Compaq introduced the ProLiant server line in September 1993 — x86 machines that brought PC economics to datacenter rack servers (HP acquired Compaq in 2002).",
       "about": "ProLiant servers ran Windows NT and Linux on standard Intel CPUs in rack-mount form factors — cheaper than proprietary Unix boxes from Sun and DEC. HP acquired Compaq in 2002 and kept the ProLiant brand for millions of datacenter hosts. Backend developers deploying on \"commodity x86 servers\" largely meant hardware in this lineage.",
       "narrative": {
         "whyChosen": "ProLiant defined the commodity x86 server category that Linux and Windows datacenters built on.",

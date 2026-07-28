@@ -5,8 +5,8 @@
       "slug": "opera-mini-launched",
       "date": "2005-08",
       "datePrecision": "month",
-      "title": "Opera Mini launched for mobile phones",
-      "summary": "Opera Mini debuted in August 2005 — a proxy-based mobile browser that compressed pages on Opera's servers for slow feature phones.",
+      "title": "Opera Mini pilot launched",
+      "summary": "Opera introduced Opera Mini on August 10, 2005 as a TV 2 Norway pilot — a proxy-based mobile browser; worldwide launch followed on January 24, 2006.",
       "about": "Opera Mini brought the web to billions of low-end phones long before smartphones were common: pages were rendered remotely, shrunk, and sent as images or simplified markup. It was how many users in emerging markets first experienced email, news, and search on a phone.",
       "narrative": {
         "whyChosen": "Opera Mini pioneered mobile web access before the iPhone era.",
@@ -60,7 +60,13 @@
         "problemSolved": "Sysadmins could not keep hundreds of servers consistent by hand or with ad-hoc scripts."
       },
       "category": "software",
-      "tags": ["puppet", "devops", "configuration-management", "ruby", "open-source"],
+      "tags": [
+        "puppet",
+        "devops",
+        "configuration-management",
+        "ruby",
+        "open-source"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -75,7 +81,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ansible-released", "hudson-ci-released", "terraform-released", "chef-released"]
+      "relatedIds": [
+        "ansible-released",
+        "hudson-ci-released",
+        "terraform-released",
+        "chef-released"
+      ]
     }
   ]
 }

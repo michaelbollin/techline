@@ -136,6 +136,38 @@
         "github-launched",
         "typescript-preview-released"
       ]
+    },
+    {
+      "id": "shopify-plus-launched",
+      "slug": "shopify-plus-launched",
+      "date": "2014-02-04",
+      "datePrecision": "day",
+      "title": "Shopify Plus launched",
+      "summary": "Shopify announced Shopify Plus on February 4, 2014 — an enterprise e-commerce tier with dedicated support, higher API limits, and white-glove onboarding.",
+      "about": "Shopify Plus extended the platform to high-volume merchants like Tesla, Budweiser, and the LA Lakers — competing with Magento Enterprise and Salesforce Commerce Cloud. It became Shopify's fastest-growing revenue segment.",
+      "narrative": {
+        "whyChosen": "Shopify Plus moved Shopify from SMB into enterprise e-commerce.",
+        "whyImportant": "It proved hosted SaaS could serve high-traffic enterprise storefronts.",
+        "problemSolved": "Fast-growing Shopify merchants outgrew standard plans but wanted to stay on the platform."
+      },
+      "category": "software",
+      "tags": ["shopify", "ecommerce", "enterprise", "saas", "retail"],
+      "companies": [{ "id": "shopify", "name": "Shopify" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Shopify News — Shopify Plus launched (February 4, 2014)",
+          "url": "https://www.shopify.com/news/shopify-launches-shopify-plus",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Shopify Plus announcement (overview)",
+          "url": "https://techcrunch.com/2014/02/05/shopify-launches-shopify-plus-a-new-white-glove-e-commerce-solution-for-big-brands/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["shopify-launched", "shopify-ipo", "magento-2-0-released"]
     }
   ]
 }

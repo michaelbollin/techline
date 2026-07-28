@@ -1,6 +1,9 @@
-export const SITE_NAME = "Techline";
+export const SITE_NAME = "History of Dev";
 
-/** One-line positioning — e.g. hero, Open Graph title context. */
+/** Uppercase wordmark shown in the header. */
+export const SITE_WORDMARK = "HISTORY OF DEV";
+
+/** Short line beside the logo in the header. */
 export const SITE_TAGLINE = "A timeline of programming history";
 
 /** Supporting line — what the timeline actually covers. */

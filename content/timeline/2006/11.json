@@ -100,6 +100,60 @@
         "jensen-huang-nvidia-founded",
         "hinton-alexnet-imagenet-breakthrough"
       ]
+    },
+    {
+      "id": "sass-released",
+      "slug": "sass-released",
+      "date": "2006-11-28",
+      "datePrecision": "day",
+      "title": "Sass released",
+      "summary": "Hampton Catlin committed the first public Sass code on November 28, 2006 — a CSS preprocessor adding variables, nesting, and mixins (some sources also cite an October 5, 2006 0.1.0 milestone).",
+      "about": "Sass (Syntactically Awesome Style Sheets) compiled to plain CSS — letting teams define `$primary-color` variables, nest selectors, and share mixins across large stylesheets. Natalie Weizenbaum became lead maintainer and grew Sass into the dominant preprocessor of the 2010s, influencing Less, Stylus, and eventually native CSS features.",
+      "narrative": {
+        "whyChosen": "Sass pioneered the CSS preprocessor pattern that defined front-end build pipelines for a decade.",
+        "whyImportant": "It proved developers wanted programming-language features on top of declarative CSS.",
+        "problemSolved": "Large CSS codebases repeated values and selectors with no variables, functions, or imports."
+      },
+      "category": "software",
+      "tags": [
+        "sass",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "hampton-catlin",
+          "name": "Hampton Catlin",
+          "role": "creator"
+        },
+        {
+          "id": "natalie-weizenbaum",
+          "name": "Natalie Weizenbaum",
+          "role": "maintainer"
+        }
+      ],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Sass (initial release November 28, 2006)",
+          "url": "https://en.wikipedia.org/wiki/Sass_(style_sheet_language)",
+          "role": "date"
+        },
+        {
+          "title": "Sass — sass-lang.com (overview)",
+          "url": "https://sass-lang.com/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "css1-w3c-recommendation",
+        "less-1-0-released",
+        "scss-syntax-released"
+      ]
     }
   ]
 }

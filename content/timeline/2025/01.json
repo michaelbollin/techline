@@ -30,6 +30,40 @@
         }
       ],
       "relatedIds": ["openai-o1-released", "llama-3-released", "gpt-4-released"]
+    },
+    {
+      "id": "tailwind-css-4-released",
+      "slug": "tailwind-css-4-released",
+      "date": "2025-01-22",
+      "datePrecision": "day",
+      "title": "Tailwind CSS 4.0 released",
+      "summary": "Adam Wathan released Tailwind CSS 4.0 on January 22, 2025 — a ground-up rewrite with a Rust-powered engine and CSS-first configuration.",
+      "about": "Tailwind 4 replaced PostCSS config files with `@import \"tailwindcss\"` in CSS — automatic content detection, native cascade layers, and builds up to 100x faster on incremental compiles. It redefined utility-first CSS for the modern platform.",
+      "narrative": {
+        "whyChosen": "Tailwind 4's Oxide engine made utility-first CSS dramatically faster to build.",
+        "whyImportant": "CSS-first config and native platform features set a new baseline for CSS frameworks.",
+        "problemSolved": "Tailwind 3's JavaScript config and PostCSS pipeline slowed large monorepo builds."
+      },
+      "category": "software",
+      "tags": ["tailwind", "css", "frontend", "web", "open-source"],
+      "people": [
+        { "id": "adam-wathan", "name": "Adam Wathan", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Tailwind CSS Blog — Tailwind CSS v4.0 (January 22, 2025)",
+          "url": "https://tailwindcss.com/blog/tailwindcss-v4",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — tailwindlabs/tailwindcss v4.0.0 (overview)",
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.0.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["tailwind-css-1-0-released", "tailwind-css-released", "bootstrap-5-released"]
     }
   ]
 }

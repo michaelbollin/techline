@@ -90,6 +90,69 @@
         "python-2-0-released",
         "python-3-0-released"
       ]
+    },
+    {
+      "id": "playwright-released",
+      "slug": "playwright-released",
+      "date": "2020-01-31",
+      "datePrecision": "day",
+      "title": "Playwright released",
+      "summary": "Microsoft open sourced Playwright on January 31, 2020 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
+      "about": "Playwright (`page.click`, auto-waiting, tracing) unified end-to-end testing across browsers with one API — succeeding Puppeteer's Chromium-only model. Teams at Microsoft, Shopify, and open-source projects adopted it for reliable CI tests that Selenium struggled to keep fast.",
+      "narrative": {
+        "whyChosen": "Playwright became the modern default for cross-browser E2E testing.",
+        "whyImportant": "Auto-wait and multi-engine support reduced flaky tests and browser-specific hacks.",
+        "problemSolved": "Selenium and early Puppeteer scripts were brittle and browser-limited."
+      },
+      "category": "software",
+      "tags": ["playwright", "testing", "javascript", "browser", "microsoft", "open-source"],
+      "companies": [{ "id": "microsoft", "name": "Microsoft" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Playwright (initial release January 31, 2020)",
+          "url": "https://en.wikipedia.org/wiki/Playwright_(software)",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — microsoft/playwright (overview)",
+          "url": "https://github.com/microsoft/playwright",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["visual-studio-code-preview", "google-chrome-released", "nodejs-first-released"]
+    },
+    {
+      "id": "shopware-6-1-released",
+      "slug": "shopware-6-1-released",
+      "date": "2020-01-15",
+      "datePrecision": "day",
+      "title": "Shopware 6.1 released",
+      "summary": "Shopware released version 6.1.0 on January 15, 2020 — the first stable production release of Shopware 6's Symfony and Vue.js rewrite.",
+      "about": "Shopware 6 split storefront, administration, and core into headless APIs — a complete rewrite from Shopware 5's monolith. Version 6.1 marked the platform as ready for merchant migrations after months of release candidates.",
+      "narrative": {
+        "whyChosen": "Shopware 6.1 validated the headless commerce rewrite for production merchants.",
+        "whyImportant": "Symfony and Vue.js aligned Shopware with modern PHP and frontend stacks.",
+        "problemSolved": "Shopware 5's monolithic architecture could not support API-first omnichannel commerce."
+      },
+      "category": "software",
+      "tags": ["shopware", "ecommerce", "php", "symfony", "vue", "headless"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Shopware — 6.1.0 changelog (January 15, 2020)",
+          "url": "https://www.shopware.com/en/changelog/#6-1-0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Shopware (overview)",
+          "url": "https://en.wikipedia.org/wiki/Shopware",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["shopware-open-sourced", "magento-2-0-released", "symfony-4-released"]
     }
   ]
 }

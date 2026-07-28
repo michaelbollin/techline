@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { ModernTimeline } from "@/components/timeline/modern-timeline";
 import { filterLabels, parseFilterSegment } from "@/lib/timeline/filter-url";
 import { getTimeline } from "@/lib/timeline/get-timeline";
+import { SITE_NAME } from "@/lib/site";
 
 type FilteredTimelinePageProps = {
   params: Promise<{ filters: string }>;
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: FilteredTimelinePageProps): P
   const labels = filterLabels(activeFilterIds, events);
 
   if (labels.length === 0) {
-    return { title: "Techline" };
+    return { title: SITE_NAME };
   }
 
   return {

@@ -15,7 +15,7 @@
       "date": "1998-05",
       "datePrecision": "month",
       "title": "Leslie Lamport publishes Paxos",
-      "summary": "Leslie Lamport's May 1998 paper 'The Part-Time Parliament' described the Paxos consensus algorithm — foundational for distributed systems.",
+      "summary": "Leslie Lamport's May 1998 ACM TOCS paper 'The Part-Time Parliament' formally published the Paxos consensus algorithm — building on his 1989 DEC technical report.",
       "about": "Paxos and Lamport's later work on logical clocks underpin Kafka, etcd, ZooKeeper, and every system that must agree across failures. Programmers encounter his ideas whenever they design replicated state machines.",
       "narrative": {
         "whyChosen": "Paxos is the theoretical backbone of practical distributed consensus.",
@@ -40,6 +40,63 @@
           "url": "https://en.wikipedia.org/wiki/Paxos_(computer_science)",
           "role": "overview"
         }
+      ]
+    },
+    {
+      "id": "css2-w3c-recommendation",
+      "slug": "css2-w3c-recommendation",
+      "date": "1998-05-12",
+      "datePrecision": "day",
+      "title": "CSS Level 2 becomes a W3C Recommendation",
+      "summary": "The W3C published Cascading Style Sheets, Level 2 as a Recommendation on May 12, 1998 — adding positioning, media types, and downloadable fonts.",
+      "about": "CSS2 introduced absolute and relative positioning, z-index layering, `@media` rules for print and screen, and table layout controls — while remaining backward compatible with CSS1. It became the prerequisite for the Document Object Model and set the foundation for richer page design through the browser wars era.",
+      "narrative": {
+        "whyChosen": "CSS2 expanded styling from basic typography to layout, media, and accessibility features.",
+        "whyImportant": "It gave designers positioning and media-query primitives that shaped web design for the next decade.",
+        "problemSolved": "CSS1 could not express layered layouts, print styles, or device-specific presentation."
+      },
+      "category": "protocol",
+      "tags": [
+        "css",
+        "web",
+        "w3c",
+        "standards"
+      ],
+      "people": [
+        {
+          "id": "bert-bos",
+          "name": "Bert Bos",
+          "role": "author"
+        },
+        {
+          "id": "haakon-wium-lie",
+          "name": "Håkon Wium Lie",
+          "role": "author"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C — CSS2 Recommendation press release (May 12, 1998)",
+          "url": "https://www.w3.org/press-releases/1998/css2/",
+          "role": "date"
+        },
+        {
+          "title": "W3C — Cascading Style Sheets, Level 2 (overview)",
+          "url": "https://www.w3.org/TR/1998/REC-CSS2-19980512/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "css1-w3c-recommendation",
+        "css-2-1-w3c-recommendation"
       ]
     }
   ]

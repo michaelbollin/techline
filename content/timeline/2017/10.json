@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "id": "cypress-open-sourced",
+      "slug": "cypress-open-sourced",
+      "date": "2017-10-10",
+      "datePrecision": "day",
+      "title": "Cypress open sourced",
+      "summary": "Brian Mann open sourced Cypress on October 10, 2017 — a JavaScript end-to-end testing framework that runs inside the browser.",
+      "about": "Cypress (`cy.visit`, `cy.get`, time-travel debugging) replaced flaky Selenium scripts for many front-end teams — tests run in the same event loop as the app. Real-time reloads and automatic waiting made E2E tests feel like unit tests for React and Vue SPAs.",
+      "narrative": {
+        "whyChosen": "Cypress made browser E2E testing developer-friendly after years of Selenium pain.",
+        "whyImportant": "In-browser execution and auto-waiting set a new bar for front-end test reliability.",
+        "problemSolved": "Selenium's remote WebDriver model was slow, flaky, and hard to debug for modern SPAs."
+      },
+      "category": "software",
+      "tags": ["cypress", "testing", "javascript", "browser", "open-source"],
+      "people": [
+        { "id": "brian-mann", "name": "Brian Mann", "role": "creator" }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Cypress Blog — Cypress is now public beta (October 10, 2017)",
+          "url": "https://www.cypress.io/blog/2017/10/10/cypress-is-now-public-beta",
+          "role": "date"
+        },
+        {
+          "title": "Cypress — Our Story (overview)",
+          "url": "https://www.cypress.io/about-us/our-story",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["selenium-released", "playwright-released", "react-open-sourced"]
+    }
+  ]
+}

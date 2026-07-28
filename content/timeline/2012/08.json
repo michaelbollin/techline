@@ -47,6 +47,37 @@
         "dotnet-framework-3-5-released",
         "dotnet-6-released"
       ]
+    },
+    {
+      "id": "shopware-open-sourced",
+      "slug": "shopware-open-sourced",
+      "date": "2012-08-28",
+      "datePrecision": "day",
+      "title": "Shopware 4 open sourced",
+      "summary": "Shopware released version 4.0 on August 28, 2012 under the AGPL license — making the e-commerce platform officially open source.",
+      "about": "Shopware 4 disclosed its full PHP codebase — themes under Apache 2.0 — after years of a paid Community Edition preview. The move accelerated adoption across Europe and established Shopware as Magento's main open-source rival in the DACH market.",
+      "narrative": {
+        "whyChosen": "Shopware 4's AGPL release committed the platform to open-source e-commerce.",
+        "whyImportant": "It expanded the European open-source commerce ecosystem beyond Magento.",
+        "problemSolved": "Merchants wanted inspectable, extensible cart software without proprietary lock-in."
+      },
+      "category": "software",
+      "tags": ["shopware", "ecommerce", "php", "open-source", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Shopware (AGPL with version 4.0, August 28, 2012)",
+          "url": "https://en.wikipedia.org/wiki/Shopware",
+          "role": "date"
+        },
+        {
+          "title": "Shopware — Our Story (overview)",
+          "url": "https://www.shopware.com/en/company/story/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["shopware-released", "magento-1-0-released", "shopware-6-1-released"]
     }
   ]
 }

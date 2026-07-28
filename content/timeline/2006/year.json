@@ -84,6 +84,37 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "wix-founded",
+      "slug": "wix-founded",
+      "date": "2006",
+      "datePrecision": "year",
+      "title": "Wix founded",
+      "summary": "Avishai Abrahami, Nadav Abrahami, and Giora Kaplan founded Wix in 2006 in Israel — a drag-and-drop website builder for non-technical users.",
+      "about": "Wix started as a Flash-based site creator and shifted to HTML5 in 2012 — freemium templates, app market, and e-commerce for small businesses. It IPO'd on NASDAQ in 2013 and became one of the largest no-code website platforms worldwide.",
+      "narrative": {
+        "whyChosen": "Wix democratized website creation for millions of small businesses.",
+        "whyImportant": "Freemium drag-and-drop builders changed who could publish on the web.",
+        "problemSolved": "Building a professional website required developers or expensive agencies."
+      },
+      "category": "software",
+      "tags": ["wix", "website-builder", "saas", "nocode", "web"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wix — About us (founded 2006)",
+          "url": "https://www.wix.com/about/us",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Wix.com (overview)",
+          "url": "https://en.wikipedia.org/wiki/Wix.com",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["squarespace-launched", "wix-ipo", "webflow-launched"]
     }
   ]
 }

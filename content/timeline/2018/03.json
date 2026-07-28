@@ -1,0 +1,35 @@
+{
+  "events": [
+    {
+      "id": "spring-boot-2-0-released",
+      "slug": "spring-boot-2-0-released",
+      "date": "2018-03-01",
+      "datePrecision": "day",
+      "title": "Spring Boot 2.0 released",
+      "summary": "Pivotal released Spring Boot 2.0 on March 1, 2018 — adding reactive WebFlux, Java 8 baseline, and Spring Framework 5 support.",
+      "about": "Spring Boot 2.0 brought non-blocking Netty servers, Micrometer metrics, and HTTP/2 defaults — the stack teams used for microservices through the late 2010s. It aligned with Spring 5's reactive programming story while keeping the `java -jar` simplicity that made Boot popular.",
+      "narrative": {
+        "whyChosen": "Spring Boot 2.0 made reactive Java microservices production-viable.",
+        "whyImportant": "WebFlux and Micrometer integrated observability and async I/O into the default Boot stack.",
+        "problemSolved": "Blocking servlet stacks struggled with high-concurrency APIs and cloud-native metrics."
+      },
+      "category": "software",
+      "tags": ["spring-boot", "spring", "java", "web-framework", "microservices"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Spring Blog — Spring Boot 2.0 Goes GA (March 1, 2018)",
+          "url": "https://spring.io/blog/2018/03/01/spring-boot-2-0-goes-ga",
+          "role": "date"
+        },
+        {
+          "title": "InfoQ — Spring Boot 2.0 release (overview)",
+          "url": "https://www.infoq.com/news/2018/03/spring-boot-2.0-release-ga-webb/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["spring-boot-1-0-released", "spring-boot-3-0-released", "spring-framework-1-0-released"]
+    }
+  ]
+}

@@ -189,6 +189,37 @@
       "relatedIds": [
         "github-launched"
       ]
+    },
+    {
+      "id": "spring-boot-1-0-released",
+      "slug": "spring-boot-1-0-released",
+      "date": "2014-04-01",
+      "datePrecision": "day",
+      "title": "Spring Boot 1.0 released",
+      "summary": "Pivotal released Spring Boot 1.0 on April 1, 2014 — opinionated auto-configuration for Spring apps with embedded servers and starter dependencies.",
+      "about": "Spring Boot (`java -jar app.jar`) eliminated XML boilerplate: starters bundle dependencies, auto-config wires beans, and Actuator exposes health checks. Microservices teams ship REST APIs and batch jobs without application servers; it became the default way new Java backends start in the 2010s.",
+      "narrative": {
+        "whyChosen": "Spring Boot made Spring as fast to start as Ruby or Node microframeworks.",
+        "whyImportant": "Embedded Tomcat/Jetty and starter POMs defined the containerless Java deployment model.",
+        "problemSolved": "Spring apps required heavy WAR deployments and pages of XML before writing business logic."
+      },
+      "category": "software",
+      "tags": ["spring-boot", "spring", "java", "web-framework", "microservices"],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Spring Blog — Spring Boot 1.0 GA Released (April 1, 2014)",
+          "url": "https://spring.io/blog/2014/04/01/spring-boot-1-0-ga-released",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Spring Boot (overview)",
+          "url": "https://en.wikipedia.org/wiki/Spring_Boot",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["spring-framework-1-0-released", "maven-1-0-released", "gradle-released"]
     }
   ]
 }

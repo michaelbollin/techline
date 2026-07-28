@@ -50,6 +50,39 @@
       "relatedIds": [
         "demis-hassabis-deepmind-founded"
       ]
+    },
+    {
+      "id": "css-custom-properties-shipped",
+      "slug": "css-custom-properties-shipped",
+      "date": "2016-03-02",
+      "datePrecision": "day",
+      "title": "CSS custom properties ship in Chrome 49",
+      "summary": "Google shipped CSS custom properties in Chrome 49 on March 2, 2016 — native `--variable` syntax with the `var()` function for runtime theming.",
+      "about": "CSS custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike Sass variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. Chrome 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
+      "narrative": {
+        "whyChosen": "Native CSS variables closed the biggest gap between preprocessors and the platform.",
+        "whyImportant": "Runtime-updatable variables enabled theming, design tokens, and responsive design without JavaScript frameworks.",
+        "problemSolved": "Preprocessor variables were static — changing a theme required recompiling the entire stylesheet."
+      },
+      "category": "protocol",
+      "tags": ["css", "web", "frontend", "standards"],
+      "people": [],
+      "companies": [{ "id": "google", "name": "Google" }],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Chrome Developers — CSS Variables in Chrome 49 (March 2, 2016)",
+          "url": "https://developer.chrome.com/blog/css-variables-why-should-you-care",
+          "role": "date"
+        },
+        {
+          "title": "MDN — Using CSS custom properties (overview)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": ["css-2-1-w3c-recommendation", "sass-released", "tailwind-css-released"]
     }
   ]
 }

@@ -93,6 +93,48 @@
         "hudson-ci-released",
         "bitbucket-launched"
       ]
+    },
+    {
+      "slug": "andrew-ng-stanford-ml-course",
+      "media": [],
+      "relatedIds": [],
+      "people": [
+        {
+          "id": "andrew-ng",
+          "name": "Andrew Ng",
+          "role": "author"
+        }
+      ],
+      "id": "andrew-ng-stanford-ml-course",
+      "date": "2011-10-10",
+      "datePrecision": "day",
+      "title": "Andrew Ng's Stanford ML course goes online",
+      "summary": "Andrew Ng's free online Machine Learning course ran from October 10 to December 16, 2011 with over 100,000 enrollees — predating Coursera (which launched in 2012).",
+      "about": "Ng's MOOCs democratized ML education before ChatGPT — training practitioners who later built recommendation, vision, and NLP products. He also led Google Brain and Baidu AI Lab.",
+      "narrative": {
+        "whyChosen": "Ng's courses created the first mass audience of practicing ML engineers.",
+        "whyImportant": "MOOCs bridged academia and industry hiring pipelines for data science.",
+        "problemSolved": "ML knowledge was locked in PhD programs and elite research labs."
+      },
+      "category": "ai",
+      "tags": [
+        "people",
+        "education",
+        "machine-learning"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "Coursera — Machine Learning course (2011)",
+          "url": "https://www.coursera.org/learn/machine-learning",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Andrew Ng (overview)",
+          "url": "https://en.wikipedia.org/wiki/Andrew_Ng",
+          "role": "overview"
+        }
+      ]
     }
   ]
 }

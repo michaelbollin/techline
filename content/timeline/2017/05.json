@@ -60,7 +60,7 @@
       "date": "2017-05-30",
       "datePrecision": "day",
       "title": "Node.js 8 released",
-      "summary": "Node.js 8.0.0 shipped on May 30, 2017 with V8 5.8, async/await enabled by default, and npm 5.",
+      "summary": "Node.js 8.0.0 shipped on May 30, 2017 with V8 5.8 and npm 5; native async/await had already been enabled by default in Node 7.6, and Node 8 became Active LTS in October 2017.",
       "about": "Node 8 became LTS in October 2017 — bringing native `async`/`await` to server JavaScript without transpilers. npm 5 added package-lock.json by default, stabilizing dependency trees for millions of projects.",
       "narrative": {
         "whyChosen": "Node 8 made async/await the standard pattern for Node.js servers.",
