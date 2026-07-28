@@ -45,7 +45,53 @@
       "relatedIds": [
         "redis-first-released",
         "bitcoin-whitepaper-published",
-        "cassandra-open-sourced"
+        "apache-cassandra-open-sourced"
+      ]
+    },
+    {
+      "id": "kotlin-unveiled",
+      "slug": "kotlin-unveiled",
+      "date": "2011-07-19",
+      "datePrecision": "day",
+      "title": "Kotlin programming language announced",
+      "summary": "JetBrains unveiled Kotlin on July 19, 2011 at the JVM Language Summit — a pragmatic JVM language designed to interoperate with Java.",
+      "about": "Kotlin aimed to fix Java's verbosity and null-safety gaps while keeping 100% Java interop — years before Google made it the preferred Android language. JetBrains dogfooded it in IntelliJ plugins before Kotlin 1.0 shipped in 2016.",
+      "narrative": {
+        "whyChosen": "Kotlin was JetBrains' answer to Java's stagnation on the JVM.",
+        "whyImportant": "It later became Android's recommended language and a server-side alternative to Java.",
+        "problemSolved": "JVM developers wanted modern syntax without abandoning existing Java libraries."
+      },
+      "category": "software",
+      "tags": [
+        "kotlin",
+        "jetbrains",
+        "jvm",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "JetBrains — Kotlin announced at JVM Language Summit (July 19, 2011)",
+          "url": "https://blog.jetbrains.com/kotlin/2011/07/kotlin/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Kotlin (overview)",
+          "url": "https://en.wikipedia.org/wiki/Kotlin",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "kotlin-1-0-released",
+        "java-1-0-shipped"
       ]
     }
   ]
