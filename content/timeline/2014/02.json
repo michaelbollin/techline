@@ -232,6 +232,97 @@
         "visual-studio-code-preview",
         "sublime-text-1-released"
       ]
+    },
+    {
+      "id": "slack-launched",
+      "slug": "slack-launched",
+      "date": "2014-02-12",
+      "datePrecision": "day",
+      "title": "Slack team messaging launches",
+      "summary": "Stewart Butterfield's Slack launched publicly on February 12, 2014 — a channel-based chat app born from a failed game startup that replaced email for engineering teams.",
+      "about": "Slack integrated GitHub commits, Jira tickets, PagerDuty alerts, and `/giphy` into searchable channels — IRC for enterprises with OAuth bots and threads. It normalized async work chat alongside Zoom standups; Salesforce acquired it for $27.7B in 2021. Developers still joke about notification overload, but Slack became the town square of modern software orgs.",
+      "narrative": {
+        "whyChosen": "Slack replaced internal email and IRC for millions of software teams.",
+        "whyImportant": "Integrations turned chat into the notification hub for CI, deploys, and incidents.",
+        "problemSolved": "Email and ad-hoc IM could not keep distributed engineering teams aligned in real time."
+      },
+      "category": "software",
+      "tags": [
+        "slack",
+        "chat",
+        "collaboration",
+        "saas",
+        "remote-work"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "salesforce",
+          "name": "Salesforce"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Slack — Slack launches publicly (February 12, 2014)",
+          "url": "https://slack.com/intl/en-gb/blog/news/slack-launches-publicly",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Slack (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Slack_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "microsoft-teams-launched",
+        "discord-launched",
+        "trello-launched",
+        "github-launched"
+      ]
+    },
+    {
+      "id": "monday-com-launched",
+      "slug": "monday-com-launched",
+      "date": "2014-02",
+      "datePrecision": "month",
+      "title": "Monday.com work OS launched",
+      "summary": "dapulse rebranded and launched Monday.com in February 2014 — a colorful spreadsheet-kanban hybrid for tracking projects, sprints, and marketing work.",
+      "about": "Monday.com targeted teams that found Jira intimidating and Trello too simple — customizable boards with automations and integrations. It spread from startups to non-technical departments, competing with Asana and Notion for visibility into who is doing what.",
+      "narrative": {
+        "whyChosen": "Monday.com made visual work tracking mainstream outside pure engineering teams.",
+        "whyImportant": "Its template boards lowered the bar for cross-functional project visibility.",
+        "problemSolved": "Managers needed shared status views without learning Jira query language."
+      },
+      "category": "software",
+      "tags": [
+        "monday",
+        "project-management",
+        "saas",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Monday.com (launched 2014)",
+          "url": "https://en.wikipedia.org/wiki/Monday.com",
+          "role": "date"
+        },
+        {
+          "title": "Monday.com — About (overview)",
+          "url": "https://monday.com/w/about",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "asana-launched",
+        "trello-launched",
+        "jira-launched"
+      ]
     }
   ]
 }

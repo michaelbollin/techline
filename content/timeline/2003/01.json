@@ -47,6 +47,54 @@
         "webkit-open-sourced",
         "google-chrome-released"
       ]
+    },
+    {
+      "id": "sql-slammer-worm",
+      "slug": "sql-slammer-worm",
+      "date": "2003-01-25",
+      "datePrecision": "day",
+      "title": "SQL Slammer worm doubles internet traffic",
+      "summary": "The SQL Slammer worm spread on January 25, 2003 — exploiting an unpatched buffer overflow in Microsoft SQL Server and doubling global internet traffic within minutes.",
+      "about": "Slammer was only 376 bytes — pure propagation with no payload beyond replication. It knocked out 911 dispatch systems, ATM networks, and South Korean broadband. DBAs learned that exposing SQL Server to the internet without patches was catastrophic; the worm also popularized egress filtering and segmented database networks.",
+      "narrative": {
+        "whyChosen": "SQL Slammer was the fastest-spreading worm in history at the time of its release.",
+        "whyImportant": "It proved database servers on public IPs were critical infrastructure vulnerabilities.",
+        "problemSolved": "Nothing initially — a single UDP packet could compromise unpatched SQL Server instances worldwide."
+      },
+      "category": "culture",
+      "tags": [
+        "worm",
+        "malware",
+        "security",
+        "database",
+        "microsoft"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "CERT — SQL Slammer worm (January 25, 2003)",
+          "url": "https://www.cert.org/historical/advisories/CA-2003-04.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — SQL Slammer (overview)",
+          "url": "https://en.wikipedia.org/wiki/SQL_Slammer",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "code-red-worm",
+        "morris-worm",
+        "openssh-first-released"
+      ]
     }
   ]
 }

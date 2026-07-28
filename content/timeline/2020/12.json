@@ -174,6 +174,49 @@
         "cambridge-analytica-scandal",
         "eu-digital-markets-act-gatekeepers"
       ]
+    },
+    {
+      "id": "solarwinds-hack-disclosed",
+      "slug": "solarwinds-hack-disclosed",
+      "date": "2020-12-13",
+      "datePrecision": "day",
+      "title": "SolarWinds supply-chain hack disclosed",
+      "summary": "FireEye disclosed on December 13, 2020 that nation-state actors had compromised SolarWinds Orion software — inserting backdoor code into updates trusted by thousands of organizations.",
+      "about": "The SUNBURST trojan rode signed Orion builds into U.S. government agencies, Microsoft, and Fortune 500 networks — the definitive supply-chain breach. DevOps teams accelerated SBOM adoption, build-pipeline signing, and least-privilege for CI/CD — treating dependency and vendor updates as attack surfaces, not chores.",
+      "narrative": {
+        "whyChosen": "SolarWinds was the supply-chain compromise that made every vendor update suspect.",
+        "whyImportant": "It forced SBOMs, signed builds, and zero-trust into mainstream DevSecOps.",
+        "problemSolved": "Nothing initially — attackers piggybacked on trusted auto-update channels."
+      },
+      "category": "culture",
+      "tags": [
+        "hack",
+        "supply-chain",
+        "security",
+        "nation-state",
+        "malware"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "FireEye — Highly Evasive Attacker Leverages SolarWinds Supply Chain (December 13, 2020)",
+          "url": "https://www.mandiant.com/resources/blog/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — 2020 United States federal government data breach (overview)",
+          "url": "https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "stuxnet-discovered",
+        "log4shell-disclosed",
+        "heartbleed-disclosed"
+      ]
     }
   ]
 }

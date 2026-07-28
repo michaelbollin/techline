@@ -53,6 +53,47 @@
         "imac-g3-released",
         "atari-st-released"
       ]
+    },
+    {
+      "id": "2600-magazine-founded",
+      "slug": "2600-magazine-founded",
+      "date": "1984-01",
+      "datePrecision": "month",
+      "title": "2600: The Hacker Quarterly first published",
+      "summary": "Emmanuel Goldstein launched 2600: The Hacker Quarterly in January 1984 — a magazine documenting phone phreaking, BBS culture, and early computer intrusion techniques.",
+      "about": "2600 became the longest-running print voice of the hacker underground — meetups, HOPE conferences, and legal advocacy alongside exploit write-ups. It bridged phone phreaks and PC crackers, preserving techniques that would later surface in Phrack, DEF CON, and modern bug-bounty culture.",
+      "narrative": {
+        "whyChosen": "2600 is the enduring print institution of American hacker culture.",
+        "whyImportant": "It legitimized security research as a community practice outside vendor silos.",
+        "problemSolved": "Hackers lacked a durable forum to share techniques and organize outside corporate R&D labs."
+      },
+      "category": "culture",
+      "tags": [
+        "hacking",
+        "magazine",
+        "phreaking",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "2600 — About 2600 Magazine (founded 1984)",
+          "url": "https://www.2600.com/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — 2600: The Hacker Quarterly (overview)",
+          "url": "https://en.wikipedia.org/wiki/2600:_The_Hacker_Quarterly",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "phone-phreaking-esquire-article",
+        "phrack-first-issue"
+      ]
     }
   ]
 }

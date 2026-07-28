@@ -378,6 +378,49 @@
         "ethereum-mainnet-launched",
         "metamask-released"
       ]
+    },
+    {
+      "id": "heartbleed-disclosed",
+      "slug": "heartbleed-disclosed",
+      "date": "2014-04-07",
+      "datePrecision": "day",
+      "title": "Heartbleed OpenSSL vulnerability disclosed",
+      "summary": "Researchers disclosed CVE-2014-0160 on April 7, 2014 — the Heartbleed bug in OpenSSL's TLS heartbeat extension that leaked server memory including private keys and passwords.",
+      "about": "Heartbleed forced mass certificate rotation, OpenSSL governance reform, and the creation of LibreSSL and BoringSSL forks. Any site using OpenSSL 1.0.1 needed emergency patching — a reminder that a single C bug in ubiquitous crypto libraries compromises the entire web trust model.",
+      "narrative": {
+        "whyChosen": "Heartbleed was the biggest TLS library vulnerability since SSL's commercialization.",
+        "whyImportant": "It triggered global cert reissues and scrutiny of underfunded crypto infrastructure.",
+        "problemSolved": "Nothing until patched — attackers could read 64 KB chunks of server memory without authentication."
+      },
+      "category": "culture",
+      "tags": [
+        "security",
+        "openssl",
+        "tls",
+        "vulnerability",
+        "cryptography"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Heartbleed.com — CVE-2014-0160 disclosed (April 7, 2014)",
+          "url": "http://heartbleed.com/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Heartbleed (overview)",
+          "url": "https://en.wikipedia.org/wiki/Heartbleed",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "openssh-first-released",
+        "log4shell-disclosed",
+        "stuxnet-discovered"
+      ]
     }
   ]
 }

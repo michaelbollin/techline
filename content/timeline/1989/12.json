@@ -39,6 +39,48 @@
         "c-language-created",
         "c-k-and-r-published"
       ]
+    },
+    {
+      "id": "aids-trojan-ransomware",
+      "slug": "aids-trojan-ransomware",
+      "date": "1989-12",
+      "datePrecision": "month",
+      "title": "PC Cyborg AIDS Trojan — first known ransomware",
+      "summary": "In December 1989, thousands of floppy disks mailed to AIDS conference attendees carried the PC Cyborg Trojan — the earliest documented ransomware, encrypting files and demanding payment by mail.",
+      "about": "The \"AIDS Information Introductory Disk\" hid malware that counted reboots and eventually locked the system, demanding $189 to a Panama mailbox. It predated crypto-ransomware by decades but established the extortion pattern WannaCry and Colonial Pipeline attackers would later automate with Bitcoin and leaked exploits.",
+      "narrative": {
+        "whyChosen": "The AIDS Trojan is the first recorded ransomware attack in computing history.",
+        "whyImportant": "It proved data hostage-taking worked before the internet made propagation trivial.",
+        "problemSolved": "Nothing was solved — it introduced a threat model vendors ignored for twenty years."
+      },
+      "category": "culture",
+      "tags": [
+        "ransomware",
+        "malware",
+        "security",
+        "virus"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — AIDS (Trojan horse) (December 1989)",
+          "url": "https://en.wikipedia.org/wiki/AIDS_(Trojan_horse)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ransomware (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ransomware",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "brain-pc-virus",
+        "wannacry-ransomware",
+        "morris-worm"
+      ]
     }
   ]
 }

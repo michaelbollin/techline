@@ -1,0 +1,88 @@
+{
+  "events": [
+    {
+      "id": "phrack-first-issue",
+      "slug": "phrack-first-issue",
+      "date": "1985-11-17",
+      "datePrecision": "day",
+      "title": "Phrack hacker zine first published",
+      "summary": "The first issue of Phrack was published on November 17, 1985 — an electronic magazine that became the technical bible of the 1980s–1990s hacker underground.",
+      "about": "Phrack published exploit techniques, Unix internals, and legal commentary — including the Hacker Manifesto and early CERT advisories. Its editors (Taran King, Knight Lightning, and later Erik Bloodaxe) shaped how security researchers shared knowledge before blogs and CVE databases existed.",
+      "narrative": {
+        "whyChosen": "Phrack was the definitive technical zine of the pre-web hacker era.",
+        "whyImportant": "It documented vulnerabilities and culture in one archive researchers still cite.",
+        "problemSolved": "Hackers on BBSes needed a centralized, persistent technical journal beyond ephemeral message boards."
+      },
+      "category": "culture",
+      "tags": [
+        "hacking",
+        "zine",
+        "security",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Phrack — Issue 1 (November 17, 1985)",
+          "url": "http://phrack.org/issues/1/1.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Phrack (overview)",
+          "url": "https://en.wikipedia.org/wiki/Phrack",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "2600-magazine-founded",
+        "morris-worm"
+      ]
+    },
+    {
+      "id": "razor-1911-founded",
+      "slug": "razor-1911-founded",
+      "date": "1985-11",
+      "datePrecision": "month",
+      "title": "Warez scene group Razor 1911 founded",
+      "summary": "The software cracking group Razor 1911 formed in November 1985 — one of the oldest and most prolific teams in the warez and demoscene underground.",
+      "about": "Razor 1911 shipped cracked games and applications with branded ASCII art intros and .NFO files — a template every scene release followed. Their competition with groups like Fairlight and CLASS drove faster cracks, tougher DRM battles, and the BBS/FTP topsite infrastructure that preceded BitTorrent piracy.",
+      "narrative": {
+        "whyChosen": "Razor 1911 is the most storied name in PC warez and game-cracking history.",
+        "whyImportant": "Scene release standards (.NFO, crack intros, topsites) influenced how underground software distribution organized.",
+        "problemSolved": "This was illicit distribution — it exposed how copy protection motivated an parallel reverse-engineering economy."
+      },
+      "category": "culture",
+      "tags": [
+        "warez",
+        "cracking",
+        "piracy",
+        "demoscene",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 7,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Razor 1911 (founded 1985)",
+          "url": "https://en.wikipedia.org/wiki/Razor_1911",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Warez scene (overview)",
+          "url": "https://en.wikipedia.org/wiki/Warez_scene",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "fairlight-cracking-group-founded",
+        "bittorrent-released",
+        "napster-launched"
+      ]
+    }
+  ]
+}

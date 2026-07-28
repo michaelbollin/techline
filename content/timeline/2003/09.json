@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "the-pirate-bay-founded",
+      "slug": "the-pirate-bay-founded",
+      "date": "2003-09-15",
+      "datePrecision": "day",
+      "title": "The Pirate Bay BitTorrent tracker founded",
+      "summary": "Gottfrid Svartholm, Fredrik Neij, and Peter Sunde launched The Pirate Bay on September 15, 2003 — a BitTorrent indexer that became the world's most famous piracy site.",
+      "about": "TPB hosted .torrent files and magnet links for movies, games, and software — the successor to Napster and warez FTP topsites in the BitTorrent era. Raids, domain seizures, and prison sentences for its founders made it a symbol of copyright resistance; developers studied its resilience tactics for censorship-resistant systems (and rights holders studied takedown law).",
+      "narrative": {
+        "whyChosen": "The Pirate Bay was the flagship of post-Napster BitTorrent piracy.",
+        "whyImportant": "It kept public attention on P2P enforcement and inspired decentralization experiments.",
+        "problemSolved": "This was illicit distribution — it showed how resilient indexing could be against legal pressure."
+      },
+      "category": "culture",
+      "tags": [
+        "piracy",
+        "warez",
+        "bittorrent",
+        "file-sharing",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — The Pirate Bay (founded September 15, 2003)",
+          "url": "https://en.wikipedia.org/wiki/The_Pirate_Bay",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — The Pirate Bay (overview)",
+          "url": "https://en.wikipedia.org/wiki/The_Pirate_Bay",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bittorrent-released",
+        "napster-launched",
+        "dmca-signed"
+      ]
+    }
+  ]
+}

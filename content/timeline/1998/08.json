@@ -47,6 +47,54 @@
         "steve-jobs-returns-to-apple",
         "iphone-goes-on-sale"
       ]
+    },
+    {
+      "id": "bugzilla-released",
+      "slug": "bugzilla-released",
+      "date": "1998-08-26",
+      "datePrecision": "day",
+      "title": "Bugzilla 1.0 released",
+      "summary": "Mozilla.org released Bugzilla 1.0 on August 26, 1998 — an open-source bug-tracking system that became the template for web-based issue trackers.",
+      "about": "Bugzilla powered Mozilla, Apache, and thousands of open-source projects before Jira dominated enterprises. Its severity levels, dependency graphs, and email notifications defined how developers filed and triaged bugs online — the ancestor of every modern issue tracker UI.",
+      "narrative": {
+        "whyChosen": "Bugzilla was the open-source bug tracker every OSS project used before GitHub Issues.",
+        "whyImportant": "It established web-based bug workflows that Jira and others later commercialized.",
+        "problemSolved": "Projects tracked bugs in mailing lists and text files with no shared searchable database."
+      },
+      "category": "software",
+      "tags": [
+        "bugzilla",
+        "bug-tracker",
+        "mozilla",
+        "open-source",
+        "project-management"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Bugzilla 1.0 release announcement (August 26, 1998)",
+          "url": "https://www.bugzilla.org/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bugzilla (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bugzilla",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "jira-launched",
+        "mozilla-source-released",
+        "github-launched"
+      ]
     }
   ]
 }

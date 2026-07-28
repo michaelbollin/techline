@@ -147,6 +147,54 @@
         "bootstrap-4-released",
         "tailwind-css-released"
       ]
+    },
+    {
+      "id": "microsoft-teams-launched",
+      "slug": "microsoft-teams-launched",
+      "date": "2017-03-14",
+      "datePrecision": "day",
+      "title": "Microsoft Teams launches worldwide",
+      "summary": "Microsoft made Teams generally available worldwide on March 14, 2017 — chat, meetings, and Office 365 integrations positioned as Slack's enterprise rival.",
+      "about": "Teams bundled video, channels, and SharePoint tabs into every Office 365 license — winning enterprises already standardized on Microsoft. GitHub, Azure DevOps, and Planner integrations targeted engineering orgs; COVID remote work cemented Teams alongside Zoom as the default corporate communication stack.",
+      "narrative": {
+        "whyChosen": "Teams bundled chat into Office 365 and challenged Slack in the enterprise.",
+        "whyImportant": "Tight Microsoft integration made it the default for Fortune 500 engineering departments.",
+        "problemSolved": "Enterprises paying for Office wanted chat without buying a separate Slack contract."
+      },
+      "category": "software",
+      "tags": [
+        "teams",
+        "microsoft",
+        "chat",
+        "collaboration",
+        "remote-work"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Teams now available worldwide (March 14, 2017)",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2017/03/14/teams-now-available-worldwide/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microsoft Teams (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Teams",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "slack-launched",
+        "zoom-launched",
+        "github-launched"
+      ]
     }
   ]
 }

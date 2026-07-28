@@ -1,82 +1,25 @@
 {
   "events": [
     {
-      "id": "kotlin-unveiled",
-      "slug": "kotlin-unveiled",
-      "date": "2011-07-19",
-      "datePrecision": "day",
-      "title": "Kotlin announced",
-      "summary": "JetBrains announced Project Kotlin on July 19, 2011 — a pragmatic JVM language designed to interoperate with Java.",
-      "about": "Kotlin is JetBrains' modern JVM language — null safety, data classes, coroutines, and 100% Java interop. Google made it the preferred Android language in 2017; it also compiles to JavaScript and native via Kotlin Multiplatform. Teams adopt it to write safer Android and backend code without leaving the Java ecosystem.",
-      "narrative": {
-        "whyChosen": "Kotlin became Android's recommended language and a mainstream Java alternative on the JVM.",
-        "whyImportant": "It showed a language could be more concise and null-safe than Java while calling existing Java libraries unchanged.",
-        "problemSolved": "JetBrains needed a JVM language that compiled as fast as Java and fixed pain points Scala's complexity introduced."
-      },
-      "category": "software",
-      "tags": [
-        "kotlin",
-        "jetbrains",
-        "jvm",
-        "android",
-        "programming-language"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        },
-        {
-          "id": "jetbrains",
-          "name": "JetBrains"
-        },
-        {
-          "id": "sun-microsystems",
-          "name": "Sun Microsystems"
-        }
-      ],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "JetBrains — Hello World: Kotlin unveiled (July 19, 2011)",
-          "url": "https://blog.jetbrains.com/kotlin/2011/07/hello-world-2/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Kotlin (overview)",
-          "url": "https://en.wikipedia.org/wiki/Kotlin",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "java-1-0-shipped",
-        "scala-first-release",
-        "kotlin-1-0-released"
-      ]
-    },
-    {
       "id": "leveldb-open-sourced",
       "slug": "leveldb-open-sourced",
       "date": "2011-07-28",
       "datePrecision": "day",
-      "title": "LevelDB open-sourced",
-      "summary": "Google open-sourced LevelDB on July 28, 2011 — a fast embedded key-value store written by Jeffrey Dean and Sanjay Ghemawat.",
-      "about": "LevelDB stores sorted string keys to string values on disk with LSM-tree compaction — used inside Chrome IndexedDB, Bitcoin Core, and as a building block for RocksDB. Unlike Redis, it is embedded in-process with no server. Example: a mobile app persisting a local index without running a separate database daemon.",
+      "title": "Google open-sources LevelDB",
+      "summary": "Google open-sourced LevelDB on July 28, 2011 — a fast key-value storage library written by Jeff Dean and Sanjay Ghemawat that underpinned early Bitcoin and Chrome indexing.",
+      "about": "LevelDB offered ordered key-value storage with LSM-tree performance on a single machine — simpler than Berkeley DB, faster than SQLite for append-heavy workloads. Bitcoin Core adopted it for chain state; Node ecosystems wrapped it in `level` and `rocksdb` inspired its design. It became a building block for embedded databases in distributed systems courses.",
       "narrative": {
-        "whyChosen": "LevelDB brought Google's storage engineering to embeddable open-source libraries.",
-        "whyImportant": "It influenced RocksDB, Cassandra storage engines, and browser-local databases.",
-        "problemSolved": "Apps needed fast on-disk ordered maps without the overhead of a full SQL or client-server store."
+        "whyChosen": "LevelDB was Google's gift of production-grade embedded storage to open source.",
+        "whyImportant": "It powered Bitcoin's UTXO set and influenced RocksDB and modern LSM stores.",
+        "problemSolved": "Applications needed fast local ordered storage without running a full database server."
       },
       "category": "software",
       "tags": [
         "leveldb",
         "database",
-        "key-value",
-        "embedded",
         "google",
-        "open-source"
+        "open-source",
+        "storage"
       ],
       "people": [],
       "companies": [
@@ -85,7 +28,7 @@
           "name": "Google"
         }
       ],
-      "importance": 5,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -101,49 +44,8 @@
       ],
       "relatedIds": [
         "redis-first-released",
-        "mongodb-first-released",
-        "sqlite-1-0-released"
-      ]
-    },
-    {
-      "id": "selenium-2-released",
-      "slug": "selenium-2-released",
-      "date": "2011-07-08",
-      "datePrecision": "day",
-      "title": "Selenium 2.0 released",
-      "summary": "The Selenium project shipped Selenium 2.0 on July 8, 2011 — merging Selenium RC with the WebDriver API for native browser automation.",
-      "about": "Selenium 2 unified two competing approaches: WebDriver talked directly to browser engines (Chrome, Firefox, IE) while Selenium Grid distributed tests across machines. The W3C later standardized WebDriver; Selenium remained the default stack for Java and Python QA teams.",
-      "narrative": {
-        "whyChosen": "Selenium 2 merged WebDriver into the mainstream testing stack.",
-        "whyImportant": "Native browser drivers replaced brittle JavaScript injection for most test suites.",
-        "problemSolved": "Teams maintained parallel Selenium RC and WebDriver codebases with incompatible APIs."
-      },
-      "category": "software",
-      "tags": [
-        "selenium",
-        "testing",
-        "webdriver",
-        "browser",
-        "open-source"
-      ],
-      "importance": 5,
-      "media": [],
-      "sources": [
-        {
-          "title": "Selenium Blog — Selenium 2.0: Out Now! (July 8, 2011)",
-          "url": "https://www.selenium.dev/blog/2011/selenium-2-0-out-now/",
-          "role": "date"
-        },
-        {
-          "title": "Selenium — History (overview)",
-          "url": "https://www.selenium.dev/history/",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "selenium-released",
-        "cypress-open-sourced",
-        "playwright-released"
+        "bitcoin-whitepaper-published",
+        "cassandra-open-sourced"
       ]
     }
   ]

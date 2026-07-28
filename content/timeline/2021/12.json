@@ -78,6 +78,49 @@
         "python-3-0-released",
         "fastapi-released"
       ]
+    },
+    {
+      "id": "log4shell-disclosed",
+      "slug": "log4shell-disclosed",
+      "date": "2021-12-09",
+      "datePrecision": "day",
+      "title": "Log4Shell vulnerability disclosed",
+      "summary": "Apache disclosed CVE-2021-44228 on December 9, 2021 — Log4Shell, a critical remote code execution flaw in the ubiquitous Log4j logging library.",
+      "about": "A crafted JNDI lookup string in log messages could execute arbitrary code on millions of Java servers — Minecraft, enterprise apps, and cloud services scrambled to patch over the holidays. Log4Shell became the benchmark for dependency-scanning, runtime WAF rules, and the phrase 'it's always logging' in security memes.",
+      "narrative": {
+        "whyChosen": "Log4Shell was the most severe open-source supply-chain bug since Heartbleed.",
+        "whyImportant": "It made software composition analysis and emergency patching mandatory for Java shops.",
+        "problemSolved": "Nothing until upgraded — any app logging attacker-controlled strings was remotely exploitable."
+      },
+      "category": "culture",
+      "tags": [
+        "security",
+        "vulnerability",
+        "java",
+        "open-source",
+        "supply-chain"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apache — Log4j security vulnerabilities (CVE-2021-44228, December 9, 2021)",
+          "url": "https://logging.apache.org/log4j/2.x/security.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Log4Shell (overview)",
+          "url": "https://en.wikipedia.org/wiki/Log4Shell",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "heartbleed-disclosed",
+        "solarwinds-hack-disclosed",
+        "java-1-0-shipped"
+      ]
     }
   ]
 }

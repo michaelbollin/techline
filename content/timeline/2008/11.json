@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "asana-launched",
+      "slug": "asana-launched",
+      "date": "2008-11",
+      "datePrecision": "month",
+      "title": "Asana project management launched",
+      "summary": "Dustin Moskovitz and Justin Rosenstein launched Asana in November 2008 — a task and project tool built after their experience scaling Facebook's internal coordination.",
+      "about": "Asana brought lists, timelines, and workload views to teams outgrowing email — competing with Basecamp and later Monday.com. Its API and integrations made it popular with product and engineering managers who wanted Jira alternatives without enterprise bloat.",
+      "narrative": {
+        "whyChosen": "Asana brought Facebook-grade internal task tooling to the broader market.",
+        "whyImportant": "It kept PM accessible for teams that found Jira too heavy.",
+        "problemSolved": "Growing startups needed structured task tracking beyond shared inboxes."
+      },
+      "category": "software",
+      "tags": [
+        "asana",
+        "project-management",
+        "saas",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Asana (software) (launched November 2008)",
+          "url": "https://en.wikipedia.org/wiki/Asana_(software)",
+          "role": "date"
+        },
+        {
+          "title": "Asana — Company history (overview)",
+          "url": "https://asana.com/company",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "basecamp-launched",
+        "trello-launched",
+        "jira-launched"
+      ]
+    }
+  ]
+}

@@ -37,6 +37,49 @@
       "relatedIds": [
         "laravel-symfony-http-foundation"
       ]
+    },
+    {
+      "id": "sony-bmg-rootkit-scandal",
+      "slug": "sony-bmg-rootkit-scandal",
+      "date": "2005-10-31",
+      "datePrecision": "day",
+      "title": "Sony BMG rootkit DRM exposed",
+      "summary": "On October 31, 2005, Sysinternals researcher Mark Russinovich revealed that Sony BMG music CDs installed a hidden rootkit — XCP — that opened security holes on Windows PCs.",
+      "about": "Sony's copy protection phoned home, hid files from the OS, and was trivially exploited by other malware. The scandal united security researchers and civil-liberties advocates against DRM that compromised user machines — leading to recalls, lawsuits, and lasting skepticism of anti-piracy software shipping with entertainment products.",
+      "narrative": {
+        "whyChosen": "The Sony rootkit proved anti-piracy DRM could be worse than the piracy it fought.",
+        "whyImportant": "It made kernel-level copy protection politically toxic for a decade.",
+        "problemSolved": "Nothing for users — it showed entertainment DRM could install undeletable rootkits on PCs."
+      },
+      "category": "culture",
+      "tags": [
+        "drm",
+        "rootkit",
+        "malware",
+        "security",
+        "piracy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mark Russinovich — Sony, Rootkits and Digital Rights Management Gone Too Far (October 31, 2005)",
+          "url": "https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/sony-rootkits-and-digital-rights-management-gone-too-far",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — 2005 Sony BMG CD copy protection scandal (overview)",
+          "url": "https://en.wikipedia.org/wiki/2005_Sony_BMG_CD_copy_protection_scandal",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "de-css-released",
+        "dmca-signed",
+        "napster-launched"
+      ]
     }
   ]
 }

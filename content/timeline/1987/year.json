@@ -43,6 +43,49 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "fairlight-cracking-group-founded",
+      "slug": "fairlight-cracking-group-founded",
+      "date": "1987",
+      "datePrecision": "year",
+      "title": "Game cracking group Fairlight (FLT) founded",
+      "summary": "The warez group Fairlight — known by the tag FLT — formed in 1987 and became legendary for cracking PC and Amiga games with cinematic intro demos.",
+      "about": "Fairlight's cracktros paired reverse-engineering skill with demoscene aesthetics — trainers, keygens, and removed copy protection shipped hours after retail releases. Groups like FLT, SKIDROW, and RELOADED kept pace with SecuROM, Denuvo, and online DRM — an arms race that pushed anti-tamper technology and shaped how game publishers think about authentication.",
+      "narrative": {
+        "whyChosen": "Fairlight's FLT tag is iconic in game-cracking and demoscene crossover culture.",
+        "whyImportant": "Scene cracks were the benchmark that forced stronger DRM and always-online checks.",
+        "problemSolved": "This was unauthorized copying — it revealed how fast skilled reversers could defeat commercial protection."
+      },
+      "category": "culture",
+      "tags": [
+        "warez",
+        "cracking",
+        "games",
+        "demoscene",
+        "piracy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 7,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Fairlight (warez group) (founded 1987)",
+          "url": "https://en.wikipedia.org/wiki/Fairlight_(warez_group)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Warez scene (overview)",
+          "url": "https://en.wikipedia.org/wiki/Warez_scene",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "razor-1911-founded",
+        "napster-launched",
+        "bittorrent-released"
+      ]
     }
   ]
 }

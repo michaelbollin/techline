@@ -100,6 +100,54 @@
         "http-1-1-standardized",
         "itunes-released"
       ]
+    },
+    {
+      "id": "code-red-worm",
+      "slug": "code-red-worm",
+      "date": "2001-07-19",
+      "datePrecision": "day",
+      "title": "Code Red worm targets IIS web servers",
+      "summary": "The Code Red worm peaked on July 19, 2001 — exploiting a buffer overflow in Microsoft IIS to deface websites and launch DDoS attacks against the White House.",
+      "about": "Code Red scanned the entire IPv4 space for vulnerable IIS installs — hundreds of thousands of servers compromised in hours. It was named after Mountain Dew flavor at eEye Digital Security and forced emergency patching of Windows NT and 2000 web farms. Developers learned that internet-facing services could be weaponized into botnets overnight.",
+      "narrative": {
+        "whyChosen": "Code Red showed how one IIS bug could infect the public web in a single day.",
+        "whyImportant": "It accelerated automated patching and incident-response teams for internet services.",
+        "problemSolved": "Nothing initially — it exploited unpatched buffer overflows faster than admins could deploy fixes."
+      },
+      "category": "culture",
+      "tags": [
+        "worm",
+        "malware",
+        "security",
+        "iis",
+        "microsoft"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "CERT — Code Red worm (July 19, 2001)",
+          "url": "https://www.cert.org/historical/advisories/CA-2001-19.cfm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Code Red (computer worm) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Code_Red_(computer_worm)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sql-slammer-worm",
+        "morris-worm",
+        "internet-explorer-1-0"
+      ]
     }
   ]
 }

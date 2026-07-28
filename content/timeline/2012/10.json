@@ -149,6 +149,92 @@
         "openid-connect-1-0-published",
         "oauth-1-0-published"
       ]
+    },
+    {
+      "id": "postman-launched",
+      "slug": "postman-launched",
+      "date": "2012-10",
+      "datePrecision": "month",
+      "title": "Postman API client launched",
+      "summary": "Abhinav Asthana released Postman in October 2012 — first as a Chrome extension for sending and organizing HTTP API requests.",
+      "about": "Postman turned curl one-liners into shareable collections, environments, and mock servers — the default toolbox for backend and frontend devs testing REST and GraphQL APIs. Teams synced request folders in version control; Newman ran collections in CI. It became essential infrastructure alongside Swagger/OpenAPI specs.",
+      "narrative": {
+        "whyChosen": "Postman became the standard GUI for exploring and sharing HTTP APIs.",
+        "whyImportant": "Collections and environments made API testing repeatable across teams.",
+        "problemSolved": "Developers reused ad-hoc curl commands with no shared history or variables."
+      },
+      "category": "software",
+      "tags": [
+        "postman",
+        "api",
+        "testing",
+        "rest",
+        "developer-tools"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Postman — Company timeline (launched October 2012)",
+          "url": "https://www.postman.com/company/about-postman/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Postman (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Postman_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rest-architectural-style-defined",
+        "graphql-open-sourced",
+        "swagger-1-0-released"
+      ]
+    },
+    {
+      "id": "sentry-launched",
+      "slug": "sentry-launched",
+      "date": "2012-10",
+      "datePrecision": "month",
+      "title": "Sentry error monitoring open-sourced",
+      "summary": "David Cramer open-sourced Sentry in October 2012 — an error-tracking service that aggregates exceptions with stack traces and release context.",
+      "about": "Sentry SDKs for Python, JavaScript, Ruby, and dozens of languages piped production errors to a searchable dashboard — grouping duplicates, assigning owners, and linking deploys. It became as standard as Postman for APIs: `SENTRY_DSN` in every startup's environment variables alongside logging and APM.",
+      "narrative": {
+        "whyChosen": "Sentry made production exception tracking a default part of the dev stack.",
+        "whyImportant": "Grouped stack traces and release tracking cut mean time to diagnose crashes.",
+        "problemSolved": "Teams grepped log files manually to find recurring production exceptions."
+      },
+      "category": "software",
+      "tags": [
+        "sentry",
+        "error-monitoring",
+        "observability",
+        "developer-tools",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Sentry — About (founded 2012)",
+          "url": "https://sentry.io/about/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sentry (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sentry_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "postman-launched",
+        "github-launched",
+        "hudson-ci-released"
+      ]
     }
   ]
 }

@@ -174,6 +174,49 @@
         "google-founded",
         "amazon-ec2-launched"
       ]
+    },
+    {
+      "id": "airtable-launched",
+      "slug": "airtable-launched",
+      "date": "2015-02",
+      "datePrecision": "month",
+      "title": "Airtable spreadsheet-database launched",
+      "summary": "Airtable launched in February 2015 — a spreadsheet interface with relational databases, views, and API access for lightweight ops and content workflows.",
+      "about": "Airtable let non-engineers build mini-apps — kanban, calendars, and forms on top of linked tables — while developers used its REST API for glue scripts. Startups tracked hiring pipelines, content calendars, and bug triage without standing up Postgres; it influenced Notion databases and the no-code movement.",
+      "narrative": {
+        "whyChosen": "Airtable made databases approachable for PMs and ops teams without SQL.",
+        "whyImportant": "Its API let developers integrate spreadsheet UX with custom automation.",
+        "problemSolved": "Teams hacked together Google Sheets for relational data that needed structure and permissions."
+      },
+      "category": "software",
+      "tags": [
+        "airtable",
+        "database",
+        "no-code",
+        "saas",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Airtable (launched 2015)",
+          "url": "https://en.wikipedia.org/wiki/Airtable",
+          "role": "date"
+        },
+        {
+          "title": "Airtable — About (overview)",
+          "url": "https://www.airtable.com/about",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "notion-launched",
+        "trello-launched",
+        "basecamp-launched"
+      ]
     }
   ]
 }

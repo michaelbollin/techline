@@ -88,6 +88,54 @@
         "apache-kafka-open-sourced",
         "websocket-protocol-standardized"
       ]
+    },
+    {
+      "id": "melissa-virus",
+      "slug": "melissa-virus",
+      "date": "1999-03-26",
+      "datePrecision": "day",
+      "title": "Melissa macro virus spreads via email",
+      "summary": "The Melissa virus began spreading on March 26, 1999 — a Word macro worm that emailed itself to the first 50 contacts in Microsoft Outlook address books.",
+      "about": "Melissa overloaded corporate Exchange servers worldwide within days — the first mass-mailer worm to exploit email as its primary vector. It forced IT departments to disable Office macros by default and preview the phishing era: social engineering plus automation beats exotic exploits.",
+      "narrative": {
+        "whyChosen": "Melissa was the wake-up call that email could weaponize address books at scale.",
+        "whyImportant": "It made macro security and mail filtering mandatory in enterprise IT.",
+        "problemSolved": "Nothing was solved initially — it showed Office macros plus Outlook were a self-propagating malware platform."
+      },
+      "category": "culture",
+      "tags": [
+        "virus",
+        "worm",
+        "malware",
+        "email",
+        "security"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "FBI — Melissa virus investigation (March 1999)",
+          "url": "https://www.fbi.gov/history/famous-cases/melissa-virus",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Melissa (computer virus) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Melissa_(computer_virus)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iloveyou-virus",
+        "morris-worm",
+        "windows-95-released"
+      ]
     }
   ]
 }

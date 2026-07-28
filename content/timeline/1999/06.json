@@ -100,6 +100,49 @@
         "apache-http-server-released",
         "spring-framework-1-0-released"
       ]
+    },
+    {
+      "id": "napster-launched",
+      "slug": "napster-launched",
+      "date": "1999-06-01",
+      "datePrecision": "day",
+      "title": "Napster peer-to-peer music sharing launches",
+      "summary": "Shawn Fanning's Napster went live on June 1, 1999 — a centralized peer-to-peer service that let users trade MP3 files and brought music piracy to mainstream college campuses.",
+      "about": "Napster indexed filenames on users' hard drives and matched seekers to hosts — no warez topsites or crack intros required. The RIAA lawsuit, Metallica testimony, and eventual shutdown defined the copyright wars that produced iTunes, Spotify, and today's DMCA takedown infrastructure. It proved P2P could scale faster than any FTP ring.",
+      "narrative": {
+        "whyChosen": "Napster was the consumer face of P2P piracy before BitTorrent.",
+        "whyImportant": "It forced the music industry and courts to confront digital copying at internet scale.",
+        "problemSolved": "This was illicit sharing — it exposed that MP3 compression made music as copyable as software warez."
+      },
+      "category": "culture",
+      "tags": [
+        "p2p",
+        "piracy",
+        "warez",
+        "music",
+        "file-sharing"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Napster (launched June 1999)",
+          "url": "https://en.wikipedia.org/wiki/Napster",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Napster (overview)",
+          "url": "https://en.wikipedia.org/wiki/Napster",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bittorrent-released",
+        "itunes-released",
+        "dmca-signed"
+      ]
     }
   ]
 }

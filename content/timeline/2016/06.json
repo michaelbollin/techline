@@ -268,6 +268,49 @@
         "gdpr-effective",
         "schrems-ii-privacy-shield-invalidated"
       ]
+    },
+    {
+      "id": "notion-launched",
+      "slug": "notion-launched",
+      "date": "2016-06",
+      "datePrecision": "month",
+      "title": "Notion all-in-one workspace launches",
+      "summary": "Notion released its first public tools in June 2016 — blending notes, wikis, databases, and task boards in one block-based editor.",
+      "about": "Notion let startups replace Confluence, Trello, and Google Docs with linked pages and relational databases — `/code` blocks, templates, and team wikis in a single app. It became the default knowledge base for indie hackers and product teams who wanted flexible docs without Atlassian licensing.",
+      "narrative": {
+        "whyChosen": "Notion unified docs, tasks, and lightweight databases for modern teams.",
+        "whyImportant": "Block-based pages made internal wikis approachable for non-engineers.",
+        "problemSolved": "Teams juggled separate tools for notes, specs, and project tracking."
+      },
+      "category": "software",
+      "tags": [
+        "notion",
+        "wiki",
+        "documentation",
+        "project-management",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Notion (productivity software) (launched 2016)",
+          "url": "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+          "role": "date"
+        },
+        {
+          "title": "Notion — About (overview)",
+          "url": "https://www.notion.so/about",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "confluence-launched",
+        "trello-launched",
+        "figma-launched"
+      ]
     }
   ]
 }

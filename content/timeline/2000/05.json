@@ -42,6 +42,54 @@
         "soap-1-2-standardized",
         "dotnet-framework-1-0-rtm"
       ]
+    },
+    {
+      "id": "iloveyou-virus",
+      "slug": "iloveyou-virus",
+      "date": "2000-05-04",
+      "datePrecision": "day",
+      "title": "ILOVEYOU worm infects millions of PCs",
+      "summary": "The ILOVEYOU worm spread globally on May 4, 2000 — a Visual Basic Script attachment named LOVE-LETTER-FOR-YOU that overwrote files and mailed itself via Outlook.",
+      "about": "ILOVEYOU caused an estimated $10 billion in damage — parliaments and corporations shut down email systems. It followed Melissa's playbook with nastier payloads and proved users would open romantic subject lines without hesitation. Microsoft later hardened default script execution, but social engineering remained undefeated.",
+      "narrative": {
+        "whyChosen": "ILOVEYOU was the most destructive email worm of the early internet era.",
+        "whyImportant": "It made email attachment policies and user training non-optional for enterprises.",
+        "problemSolved": "Nothing initially — it exploited trust and default Windows scripting with devastating speed."
+      },
+      "category": "culture",
+      "tags": [
+        "worm",
+        "virus",
+        "malware",
+        "email",
+        "security"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "BBC — ILOVEYOU virus overwhelms computers (May 4, 2000)",
+          "url": "https://www.bbc.com/future/article/20200504-the-most-powerful-computer-virus-ever-created",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ILOVEYOU (overview)",
+          "url": "https://en.wikipedia.org/wiki/ILOVEYOU",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "melissa-virus",
+        "windows-95-released",
+        "morris-worm"
+      ]
     }
   ]
 }

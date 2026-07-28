@@ -315,6 +315,49 @@
         "react-open-sourced",
         "nextjs-open-sourced"
       ]
+    },
+    {
+      "id": "discord-launched",
+      "slug": "discord-launched",
+      "date": "2015-05-13",
+      "datePrecision": "day",
+      "title": "Discord chat for gamers launches",
+      "summary": "Discord launched publicly on May 13, 2015 — voice, video, and text chat built for gaming communities that developers adopted for open-source projects and team hangouts.",
+      "about": "Discord servers replaced IRC and TeamSpeak for millions of users — bots, webhooks, and stage channels extended it beyond gaming into study groups, crypto communities, and eng-team social rooms. Its Electron client and low-latency voice made it the informal complement to Slack's workplace formality.",
+      "narrative": {
+        "whyChosen": "Discord became the default community chat layer for developers and gamers alike.",
+        "whyImportant": "Free servers and voice channels scaled grassroots communities without corporate IT.",
+        "problemSolved": "Open-source projects and friend groups needed persistent chat without enterprise Slack pricing."
+      },
+      "category": "software",
+      "tags": [
+        "discord",
+        "chat",
+        "voice",
+        "collaboration",
+        "community"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Discord — Our story (launched May 13, 2015)",
+          "url": "https://discord.com/company",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Discord (overview)",
+          "url": "https://en.wikipedia.org/wiki/Discord",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "slack-launched",
+        "electron-1-0-released",
+        "zoom-launched"
+      ]
     }
   ]
 }

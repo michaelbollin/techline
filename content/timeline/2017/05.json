@@ -95,6 +95,54 @@
         "nodejs-10-released",
         "nodejs-first-released"
       ]
+    },
+    {
+      "id": "wannacry-ransomware",
+      "slug": "wannacry-ransomware",
+      "date": "2017-05-12",
+      "datePrecision": "day",
+      "title": "WannaCry ransomware spreads worldwide",
+      "summary": "The WannaCry ransomware attack began on May 12, 2017 — encrypting Windows systems worldwide using an NSA-leaked EternalBlue exploit and demanding Bitcoin payments.",
+      "about": "WannaCry hit Britain's NHS hospitals, FedEx, and hundreds of thousands of PCs in 150 countries — many still on unpatched Windows 7. Marcus Hutchins' kill-switch domain slowed the spread. It linked nation-state exploit hoarding to criminal ransomware and made MS17-010 patching an emergency global priority.",
+      "narrative": {
+        "whyChosen": "WannaCry was the first ransomware worm to paralyze national healthcare systems.",
+        "whyImportant": "It proved leaked government exploits could fuel criminal campaigns at planetary scale.",
+        "problemSolved": "Nothing until patched — unpatched SMBv1 systems were encryptable without user interaction."
+      },
+      "category": "culture",
+      "tags": [
+        "ransomware",
+        "malware",
+        "worm",
+        "security",
+        "nation-state"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Customer guidance for WannaCrypt attacks (May 12, 2017)",
+          "url": "https://msrc.microsoft.com/blog/2017/05/customer-guidance-for-wannacrypt-attacks/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — WannaCry ransomware attack (overview)",
+          "url": "https://en.wikipedia.org/wiki/WannaCry_ransomware_attack",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "aids-trojan-ransomware",
+        "notpetya-cyberattack",
+        "colonial-pipeline-ransomware"
+      ]
     }
   ]
 }

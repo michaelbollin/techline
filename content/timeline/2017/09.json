@@ -151,6 +151,48 @@
         "t-mobile-g1-released",
         "samsung-galaxy-s-released"
       ]
+    },
+    {
+      "id": "equifax-data-breach",
+      "slug": "equifax-data-breach",
+      "date": "2017-09-07",
+      "datePrecision": "day",
+      "title": "Equifax discloses massive data breach",
+      "summary": "Equifax announced on September 7, 2017 that attackers had stolen personal data on 147 million Americans — names, Social Security numbers, and birth dates — via an unpatched Apache Struts flaw.",
+      "about": "The breach exposed credit-bureau data that cannot be rotated like passwords — fueling identity-theft monitoring services and GDPR-style breach-notification debates in the U.S. Developers learned that unpatched Java web frameworks on internet-facing apps could leak half the country's PII; Equifax's CISO and CEO resigned amid congressional hearings.",
+      "narrative": {
+        "whyChosen": "Equifax was the breach that put 147 million SSNs on the dark web.",
+        "whyImportant": "It made framework patching and breach disclosure timelines board-level issues.",
+        "problemSolved": "Nothing for consumers — attackers exploited a known Struts CVE Equifax had failed to patch."
+      },
+      "category": "culture",
+      "tags": [
+        "breach",
+        "hack",
+        "security",
+        "privacy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Equifax — Cybersecurity incident disclosure (September 7, 2017)",
+          "url": "https://www.equifaxsecurity2017.com/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — 2017 Equifax data breach (overview)",
+          "url": "https://en.wikipedia.org/wiki/2017_Equifax_data_breach",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ashley-madison-data-breach",
+        "heartbleed-disclosed",
+        "gdpr-effective"
+      ]
     }
   ]
 }

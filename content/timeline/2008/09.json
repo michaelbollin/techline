@@ -88,6 +88,49 @@
         "google-chrome-released",
         "amazon-ec2-launched"
       ]
+    },
+    {
+      "id": "stackoverflow-launched",
+      "slug": "stackoverflow-launched",
+      "date": "2008-09-15",
+      "datePrecision": "day",
+      "title": "Stack Overflow public beta launches",
+      "summary": "Joel Spolsky and Jeff Atwood opened Stack Overflow to the public on September 15, 2008 — a Q&A site with voting, accepted answers, and reputation for programmers.",
+      "about": "Stack Overflow replaced forum chaos with one canonical answer per question — copy-paste from Google became 'stackoverflow.com/questions/...' in every codebase. Reputation, badges, and moderation scaled to millions of devs; the Stack Exchange network cloned the model for sysadmins, UX, and math. It shaped how programmers learn APIs and debug errors.",
+      "narrative": {
+        "whyChosen": "Stack Overflow became the default second brain for working programmers.",
+        "whyImportant": "Voting and accepted answers made technical Q&A searchable and trustworthy at scale.",
+        "problemSolved": "Forum threads buried good answers under noise and duplicate questions."
+      },
+      "category": "software",
+      "tags": [
+        "stackoverflow",
+        "q-and-a",
+        "community",
+        "documentation",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Stack Overflow Blog — Stack Overflow launches (September 15, 2008)",
+          "url": "https://stackoverflow.blog/2008/09/15/stack-overflow-launches/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Stack Overflow (overview)",
+          "url": "https://en.wikipedia.org/wiki/Stack_Overflow",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "github-launched",
+        "confluence-launched",
+        "chatgpt-released"
+      ]
     }
   ]
 }

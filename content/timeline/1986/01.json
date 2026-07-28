@@ -46,6 +46,48 @@
         "apple-ii-introduced",
         "susan-kare-macintosh-icons"
       ]
+    },
+    {
+      "id": "brain-pc-virus",
+      "slug": "brain-pc-virus",
+      "date": "1986-01",
+      "datePrecision": "month",
+      "title": "Brain boot-sector virus spreads on PCs",
+      "summary": "The Brain virus appeared in January 1986 on IBM PC floppy disks from Pakistan — widely considered the first PC virus to spread in the wild.",
+      "about": "Brain infected the boot sector of 360 KB floppies and displayed a copyright message from its authors, Basit and Amjad Farooq Alvi. It launched the antivirus industry, boot-sector scanning, and decades of copy-protection versus malware debates — the PC equivalent of what Morris would do to Unix networks two years later.",
+      "narrative": {
+        "whyChosen": "Brain is the canonical first IBM PC virus developers cite in security history.",
+        "whyImportant": "It proved removable media could propagate malicious code across the growing PC installed base.",
+        "problemSolved": "Nothing was solved — it exposed that PCs had no integrity checks on boot sectors or floppy images."
+      },
+      "category": "culture",
+      "tags": [
+        "virus",
+        "malware",
+        "security",
+        "pc"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Brain (computer virus) (January 1986)",
+          "url": "https://en.wikipedia.org/wiki/Brain_(computer_virus)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Computer virus (overview)",
+          "url": "https://en.wikipedia.org/wiki/Computer_virus",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "morris-worm",
+        "aids-trojan-ransomware"
+      ]
     }
   ]
 }

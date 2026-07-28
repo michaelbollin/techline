@@ -273,6 +273,49 @@
         "sam-altman-openai-founded",
         "hinton-alexnet-imagenet-breakthrough"
       ]
+    },
+    {
+      "id": "figma-launched",
+      "slug": "figma-launched",
+      "date": "2015-12-09",
+      "datePrecision": "day",
+      "title": "Figma collaborative design tool launches",
+      "summary": "Figma opened its design tool to early adopters on December 9, 2015 — a browser-based UI design app with real-time multiplayer editing.",
+      "about": "Figma replaced Sketch files emailed between designers and developers — components, variants, and dev-mode specs lived in one shared URL. Design systems, FigJam whiteboards, and plugins made it the default handoff layer between product design and frontend implementation.",
+      "narrative": {
+        "whyChosen": "Figma moved UI design from desktop files to multiplayer browser collaboration.",
+        "whyImportant": "Real-time co-editing and shared libraries reshaped design-dev workflows.",
+        "problemSolved": "Designers version-controlled PSDs and Sketch files that developers could not easily inspect."
+      },
+      "category": "software",
+      "tags": [
+        "figma",
+        "design",
+        "collaboration",
+        "ui",
+        "saas"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Figma Blog — Figma is now open to everyone (December 9, 2015)",
+          "url": "https://www.figma.com/blog/figma-is-now-open-to-everyone/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Figma (overview)",
+          "url": "https://en.wikipedia.org/wiki/Figma",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "notion-launched",
+        "confluence-launched",
+        "slack-launched"
+      ]
     }
   ]
 }

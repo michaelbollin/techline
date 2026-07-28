@@ -181,6 +181,54 @@
         "jquery-1-0-released",
         "bootstrap-released"
       ]
+    },
+    {
+      "id": "trello-launched",
+      "slug": "trello-launched",
+      "date": "2011-09-13",
+      "datePrecision": "day",
+      "title": "Trello kanban boards launched",
+      "summary": "Fog Creek Software unveiled Trello on September 13, 2011 at TechCrunch Disrupt — a card-based kanban tool that made project tracking feel like drag-and-drop sticky notes.",
+      "about": "Trello's boards, lists, and cards spread from side projects to entire startups — lighter than Jira, more visual than Basecamp. Atlassian acquired it in 2017, but millions of dev teams still run sprint boards and bug triage columns on Trello before graduating to heavier tools.",
+      "narrative": {
+        "whyChosen": "Trello popularized kanban PM for developers who hated enterprise issue trackers.",
+        "whyImportant": "Its card UI became the template for lightweight agile boards everywhere.",
+        "problemSolved": "Jira was overkill for small teams that just needed visible work-in-progress."
+      },
+      "category": "software",
+      "tags": [
+        "trello",
+        "atlassian",
+        "project-management",
+        "kanban",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "atlassian",
+          "name": "Atlassian"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "TechCrunch — Trello launches at Disrupt (September 13, 2011)",
+          "url": "https://techcrunch.com/2011/09/13/trello-launches/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Trello (overview)",
+          "url": "https://en.wikipedia.org/wiki/Trello",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "jira-launched",
+        "basecamp-launched",
+        "slack-launched"
+      ]
     }
   ]
 }

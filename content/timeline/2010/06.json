@@ -194,6 +194,49 @@
         "woocommerce-released",
         "drupal-7-released"
       ]
+    },
+    {
+      "id": "stuxnet-discovered",
+      "slug": "stuxnet-discovered",
+      "date": "2010-06-17",
+      "datePrecision": "day",
+      "title": "Stuxnet worm discovered targeting industrial systems",
+      "summary": "Belarusian security firm VirusBlokAda identified the Stuxnet worm on June 17, 2010 — malware that exploited multiple Windows zero-days to sabotage Iranian nuclear centrifuges via Siemens PLCs.",
+      "about": "Stuxnet was the first known cyberweapon to cause physical destruction — USB propagation, stolen code-signing certificates, and PLC ladder-logic manipulation in one package. It launched the era of nation-state APT research, ICS security teams, and air-gapped network paranoia. Developers securing SCADA and IoT still reference Stuxnet as the proof point.",
+      "narrative": {
+        "whyChosen": "Stuxnet was the first malware proven to cross from IT networks into physical plant damage.",
+        "whyImportant": "It created the ICS/OT security industry and nation-state cyber doctrine.",
+        "problemSolved": "Nothing for defenders initially — it showed industrial control systems were as vulnerable as office PCs."
+      },
+      "category": "culture",
+      "tags": [
+        "malware",
+        "worm",
+        "security",
+        "ics",
+        "nation-state"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wired — Stuxnet first identified (June 17, 2010)",
+          "url": "https://www.wired.com/2014/11/countdown-zero-day-stuxnet/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Stuxnet (overview)",
+          "url": "https://en.wikipedia.org/wiki/Stuxnet",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "morris-worm",
+        "heartbleed-disclosed",
+        "solarwinds-hack-disclosed"
+      ]
     }
   ]
 }

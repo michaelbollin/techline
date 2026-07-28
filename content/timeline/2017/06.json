@@ -41,6 +41,49 @@
         "yarn-released",
         "nodejs-0-10-released"
       ]
+    },
+    {
+      "id": "notpetya-cyberattack",
+      "slug": "notpetya-cyberattack",
+      "date": "2017-06-27",
+      "datePrecision": "day",
+      "title": "NotPetya destructive malware hits global firms",
+      "summary": "NotPetya began spreading on June 27, 2017 — malware disguised as ransomware that permanently wiped data, paralyzing Maersk, Merck, and Ukrainian infrastructure.",
+      "about": "NotPetya entered networks via compromised Ukrainian tax software and reused EternalBlue — but recovery was impossible because encryption keys were fake. Attributed to Russian military intelligence, it caused over $10 billion in damage and redefined 'ransomware' as a cover story for wiper attacks. Supply-chain and shipping IT teams still cite it in disaster-recovery planning.",
+      "narrative": {
+        "whyChosen": "NotPetya was the costliest cyberattack in history at the time of its release.",
+        "whyImportant": "It blurred the line between ransomware and nation-state data destruction.",
+        "problemSolved": "Nothing for victims — backups and offline recovery became the only defense against wipers."
+      },
+      "category": "culture",
+      "tags": [
+        "malware",
+        "ransomware",
+        "nation-state",
+        "security",
+        "supply-chain"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wired — NotPetya spreads globally (June 27, 2017)",
+          "url": "https://www.wired.com/story/notpetya-cyberattack-ukraine-russia-code-crashed-the-world/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Petya (malware family) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Petya_(malware_family)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "wannacry-ransomware",
+        "stuxnet-discovered",
+        "sony-pictures-hack"
+      ]
     }
   ]
 }

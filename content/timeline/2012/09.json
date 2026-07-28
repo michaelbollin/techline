@@ -187,6 +187,49 @@
         "joomla-1-5-released",
         "bootstrap-released"
       ]
+    },
+    {
+      "id": "zoom-launched",
+      "slug": "zoom-launched",
+      "date": "2012-09-10",
+      "datePrecision": "day",
+      "title": "Zoom video conferencing software launches",
+      "summary": "Zoom Video Communications released its first software on September 10, 2012 — a cloud video meeting platform built by former WebEx engineers.",
+      "about": "Zoom prioritized one-click joins and reliable screen share over enterprise telepresence complexity. Developers adopted it for standups, pair programming, and remote interviews long before COVID — then usage exploded in 2020 when offices closed. Its API and SDK powered embedded video in education and health apps.",
+      "narrative": {
+        "whyChosen": "Zoom became the default video layer for remote engineering teams.",
+        "whyImportant": "Frictionless meetings made distributed standups and interviews routine.",
+        "problemSolved": "Legacy WebEx and Skype calls were painful to join and dropped constantly."
+      },
+      "category": "software",
+      "tags": [
+        "zoom",
+        "video",
+        "collaboration",
+        "remote-work",
+        "saas"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Zoom Video Communications (software launch September 10, 2012)",
+          "url": "https://en.wikipedia.org/wiki/Zoom_Video_Communications",
+          "role": "date"
+        },
+        {
+          "title": "Zoom — About (overview)",
+          "url": "https://zoom.us/about",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "slack-launched",
+        "microsoft-teams-launched",
+        "covid-19-pandemic-declared"
+      ]
     }
   ]
 }

@@ -98,6 +98,49 @@
         "docker-open-sourced",
         "kubernetes-open-sourced"
       ]
+    },
+    {
+      "id": "sony-pictures-hack",
+      "slug": "sony-pictures-hack",
+      "date": "2014-11-24",
+      "datePrecision": "day",
+      "title": "Sony Pictures Entertainment hacked",
+      "summary": "Attackers destroyed Sony Pictures systems and leaked internal data starting November 24, 2014 — a destructive breach attributed to North Korea over the film The Interview.",
+      "about": "The GOP (Guardians of Peace) group wiped workstations, leaked unreleased films and executive emails, and threatened theaters. Studios hardened incident response, air-gapped critical assets, and treated nation-state ransomware as a business continuity risk — not just an IT problem.",
+      "narrative": {
+        "whyChosen": "Sony Pictures was the first major studio destroyed by nation-state-style destructive malware.",
+        "whyImportant": "It linked geopolitics, entertainment, and wipe-and-leak attacks in the public eye.",
+        "problemSolved": "Nothing initially — it showed creative-industry networks were strategic targets."
+      },
+      "category": "culture",
+      "tags": [
+        "hack",
+        "breach",
+        "ransomware",
+        "nation-state",
+        "security"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "FBI — Update on Sony investigation (December 19, 2014)",
+          "url": "https://www.fbi.gov/news/press-releases/update-on-sony-investigation",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sony Pictures hack (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sony_Pictures_hack",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "stuxnet-discovered",
+        "wannacry-ransomware",
+        "notpetya-cyberattack"
+      ]
     }
   ]
 }

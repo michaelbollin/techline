@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "phone-phreaking-esquire-article",
+      "slug": "phone-phreaking-esquire-article",
+      "date": "1971-10",
+      "datePrecision": "month",
+      "title": "Esquire publishes \"Secrets of the Little Blue Box\"",
+      "summary": "Esquire magazine's October 1971 issue featured Ron Rosenbaum's article on phone phreaking — introducing blue boxes, Captain Crunch whistles, and blind hacker Joybubbles to mainstream America.",
+      "about": "Phreakers exploited AT&T tone frequencies to route free long-distance calls — the spiritual ancestor of computer hacking culture. Steve Wozniak and Steve Jobs famously sold blue boxes before Apple; the article inspired a generation to explore systems by bending rules rather than breaking hardware.",
+      "narrative": {
+        "whyChosen": "The Esquire piece linked phone-system hacking to the culture that later built personal computing.",
+        "whyImportant": "It showed how technical curiosity on networks could outpace corporate security assumptions.",
+        "problemSolved": "This was exploratory subversion, not a product — it exposed that phone networks trusted in-band signaling anyone could mimic."
+      },
+      "category": "culture",
+      "tags": [
+        "phreaking",
+        "hacking",
+        "security",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Esquire — Secrets of the Little Blue Box (October 1971)",
+          "url": "https://en.wikipedia.org/wiki/Phreaking",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Phreaking (overview)",
+          "url": "https://en.wikipedia.org/wiki/Phreaking",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "apple-ii-introduced",
+        "arpanet-first-message"
+      ]
+    }
+  ]
+}

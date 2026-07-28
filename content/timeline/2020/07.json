@@ -40,6 +40,53 @@
       "relatedIds": [
         "gdpr-effective"
       ]
+    },
+    {
+      "id": "twitter-2020-hack",
+      "slug": "twitter-2020-hack",
+      "date": "2020-07-15",
+      "datePrecision": "day",
+      "title": "Twitter internal tools hijacked in Bitcoin scam",
+      "summary": "Attackers compromised Twitter employees on July 15, 2020 — using internal admin tools to post Bitcoin scams from accounts including Obama, Musk, and Apple.",
+      "about": "Teen hackers social-engineered Twitter staff via phone spear-phishing — not exotic malware. The breach exposed how much power centralized admin panels hold: verified accounts became megaphones for fraud in minutes. Twitter hardened SOC workflows, zero-trust access, and phased out phone-based support tooling.",
+      "narrative": {
+        "whyChosen": "The Twitter hack was the highest-profile social-engineering breach of a platform's god mode.",
+        "whyImportant": "It showed insider admin tools are the crown jewels for account-takeover attacks.",
+        "problemSolved": "Nothing until hardened — attackers needed only employee credentials, not a TLS bug."
+      },
+      "category": "culture",
+      "tags": [
+        "hack",
+        "social-engineering",
+        "security",
+        "twitter"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "twitter",
+          "name": "Twitter"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Twitter — Investigation update on July 15, 2020 incident",
+          "url": "https://blog.twitter.com/en_us/topics/company/2020/an-update-on-our-security-incident",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — 2020 Twitter bitcoin scam (overview)",
+          "url": "https://en.wikipedia.org/wiki/2020_Twitter_bitcoin_scam",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "twitter-launched",
+        "kevin-mitnick-arrested",
+        "bitcoin-genesis-block-mined"
+      ]
     }
   ]
 }

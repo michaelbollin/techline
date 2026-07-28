@@ -39,6 +39,49 @@
       "relatedIds": [
         "git-created"
       ]
+    },
+    {
+      "id": "basecamp-launched",
+      "slug": "basecamp-launched",
+      "date": "2004-02-04",
+      "datePrecision": "day",
+      "title": "Basecamp project management launched",
+      "summary": "37signals (now Basecamp) launched Basecamp on February 4, 2004 — a web-based project tool with to-do lists, message boards, and milestones.",
+      "about": "Basecamp proved small teams could run projects in the browser without Microsoft Project — and its internals became Ruby on Rails. It influenced a generation of simple, opinionated SaaS: less feature bloat, more async communication. Trello, Asana, and Notion all inherited its 'get work out of email' DNA.",
+      "narrative": {
+        "whyChosen": "Basecamp was the project tool that spawned Rails and shaped modern web SaaS.",
+        "whyImportant": "It made lightweight PM normal for remote software teams.",
+        "problemSolved": "Email threads and spreadsheets could not coordinate distributed project work."
+      },
+      "category": "software",
+      "tags": [
+        "basecamp",
+        "project-management",
+        "saas",
+        "rails",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Signal v. Noise — Basecamp launch (February 4, 2004)",
+          "url": "https://signalvnoise.com/posts/118-announcing-basecamp",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Basecamp (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Basecamp_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rails-open-sourced",
+        "trello-launched",
+        "asana-launched"
+      ]
     }
   ]
 }

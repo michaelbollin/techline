@@ -88,6 +88,54 @@
         "capistrano-released",
         "npm-first-released"
       ]
+    },
+    {
+      "id": "confluence-launched",
+      "slug": "confluence-launched",
+      "date": "2004-03-25",
+      "datePrecision": "day",
+      "title": "Atlassian Confluence 1.0 released",
+      "summary": "Atlassian released Confluence 1.0 on March 25, 2004 — a team wiki for documentation, specs, and runbooks alongside Jira tickets.",
+      "about": "Confluence became where engineering teams wrote RFCs, onboarding docs, and postmortems — linked from Jira issues and Bitbucket PRs. Its WYSIWYG editor and page permissions made internal wikis approachable before Notion; many enterprises still treat Confluence as the system of record for technical knowledge.",
+      "narrative": {
+        "whyChosen": "Confluence paired with Jira to own engineering documentation and ticketing.",
+        "whyImportant": "It standardized internal wikis for specs, runbooks, and retrospectives.",
+        "problemSolved": "Teams scattered docs across file shares and ad-hoc Word files with no search."
+      },
+      "category": "software",
+      "tags": [
+        "confluence",
+        "atlassian",
+        "wiki",
+        "documentation",
+        "collaboration"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "atlassian",
+          "name": "Atlassian"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Atlassian — Confluence history (March 25, 2004)",
+          "url": "https://www.atlassian.com/software/confluence",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Confluence (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Confluence_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "jira-launched",
+        "notion-launched",
+        "stackoverflow-launched"
+      ]
     }
   ]
 }
