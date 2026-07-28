@@ -14,8 +14,14 @@
         "problemSolved": "Heavy enterprise messaging protocols consumed too much bandwidth and battery for remote sensors."
       },
       "category": "protocol",
-      "tags": ["mqtt", "iot", "messaging", "protocol", "publish-subscribe"],
-      "importance": 1,
+      "tags": [
+        "mqtt",
+        "iot",
+        "messaging",
+        "protocol",
+        "publish-subscribe"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rabbitmq-released", "apache-kafka-open-sourced", "websocket-protocol-standardized"]
+      "relatedIds": [
+        "rabbitmq-released",
+        "apache-kafka-open-sourced",
+        "websocket-protocol-standardized"
+      ]
     }
   ]
 }

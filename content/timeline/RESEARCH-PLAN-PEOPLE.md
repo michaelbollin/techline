@@ -404,7 +404,7 @@ For each row:
 
 - [ ] All dates verified from primary source
 - [ ] No duplicate person+tech events (attributions used where applicable)
-- [ ] `importance` set (1 / 2 / 3)
+- [ ] `importance` set (`0`–`9`; lower = more important)
 - [ ] `tags` includes `"people"`
 - [ ] `relatedIds` point to existing event ids
 - [ ] `npm run validate` passes

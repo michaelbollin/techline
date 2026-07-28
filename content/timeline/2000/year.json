@@ -22,7 +22,7 @@
         "architecture"
       ],
       "people": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -73,7 +73,7 @@
         "multimedia",
         "open-source"
       ],
-      "importance": 2,
+      "importance": 4,
       "sources": [
         {
           "title": "FFmpeg — Project history (2000)",

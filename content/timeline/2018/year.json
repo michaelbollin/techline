@@ -41,7 +41,7 @@
         "deep-learning",
         "turing-award"
       ],
-      "importance": 1,
+      "importance": 4,
       "sources": [
         {
           "title": "ACM — 2018 Turing Award (Bengio, Hinton, LeCun)",
@@ -69,8 +69,15 @@
         "problemSolved": "Enterprises needed governed, multi-locale content APIs without monolithic CMS lock-in."
       },
       "category": "software",
-      "tags": ["contentstack", "cms", "headless", "enterprise", "api", "saas"],
-      "importance": 1,
+      "tags": [
+        "contentstack",
+        "cms",
+        "headless",
+        "enterprise",
+        "api",
+        "saas"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -84,7 +91,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["contentful-founded", "sanity-launched", "strapi-open-sourced"]
+      "relatedIds": [
+        "contentful-founded",
+        "sanity-launched",
+        "strapi-open-sourced"
+      ]
     },
     {
       "id": "builder-io-founded",
@@ -100,8 +111,14 @@
         "problemSolved": "Headless stacks left marketers unable to change landing pages without developer tickets."
       },
       "category": "software",
-      "tags": ["builder", "cms", "headless", "visual-editor", "commerce"],
-      "importance": 1,
+      "tags": [
+        "builder",
+        "cms",
+        "headless",
+        "visual-editor",
+        "commerce"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -115,7 +132,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["contentstack-founded", "nextjs-open-sourced", "shopify-launched"]
+      "relatedIds": [
+        "contentstack-founded",
+        "nextjs-open-sourced",
+        "shopify-launched"
+      ]
     }
   ]
 }

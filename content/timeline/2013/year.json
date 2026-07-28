@@ -14,8 +14,14 @@
         "problemSolved": "Traditional CMSs tied content to HTML pages, blocking mobile and multi-platform delivery."
       },
       "category": "software",
-      "tags": ["contentful", "cms", "headless", "api", "saas"],
-      "importance": 1,
+      "tags": [
+        "contentful",
+        "cms",
+        "headless",
+        "api",
+        "saas"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["strapi-open-sourced", "wordpress-5-0-released", "graphql-foundation-announced"]
+      "relatedIds": [
+        "strapi-open-sourced",
+        "wordpress-5-0-released",
+        "graphql-foundation-announced"
+      ]
     },
     {
       "id": "prismic-founded",
@@ -45,8 +55,14 @@
         "problemSolved": "Marketing teams needed visual page building without abandoning modern JavaScript frontends."
       },
       "category": "software",
-      "tags": ["prismic", "cms", "headless", "api", "saas"],
-      "importance": 1,
+      "tags": [
+        "prismic",
+        "cms",
+        "headless",
+        "api",
+        "saas"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -60,7 +76,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["contentful-founded", "sanity-launched", "nextjs-open-sourced"]
+      "relatedIds": [
+        "contentful-founded",
+        "sanity-launched",
+        "nextjs-open-sourced"
+      ]
     }
   ]
 }

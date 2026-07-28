@@ -14,8 +14,13 @@
         "problemSolved": "C++11 was powerful but verbose; teams needed smaller, composable standard-library tools."
       },
       "category": "software",
-      "tags": ["cpp", "iso", "standard", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "cpp",
+        "iso",
+        "standard",
+        "programming-language"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cpp11-standard", "cpp20-standard", "cpp98-standard"]
+      "relatedIds": [
+        "cpp11-standard",
+        "cpp20-standard",
+        "cpp98-standard"
+      ]
     }
   ]
 }

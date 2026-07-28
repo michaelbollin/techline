@@ -33,7 +33,7 @@
           "name": "AMD"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -80,7 +80,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -129,7 +129,7 @@
           "name": "Samsung"
         }
       ],
-      "importance": 3,
+      "importance": 7,
       "media": [],
       "sources": [
         {

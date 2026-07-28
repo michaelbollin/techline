@@ -14,8 +14,13 @@
         "problemSolved": "Students queued for batch runs on mainframes; Dartmouth needed a language anyone could learn in hours on a terminal."
       },
       "category": "software",
-      "tags": ["basic", "dartmouth", "timesharing", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "basic",
+        "dartmouth",
+        "timesharing",
+        "programming-language"
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["visual-basic-1-0-released"]
+      "relatedIds": [
+        "visual-basic-1-0-released"
+      ]
     }
   ]
 }

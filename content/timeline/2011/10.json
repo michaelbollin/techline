@@ -24,7 +24,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -74,7 +74,7 @@
         "education",
         "machine-learning"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "title": "Coursera — Machine Learning course (2011)",
@@ -116,7 +116,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -164,7 +164,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -216,7 +216,7 @@
           "name": "Samsung"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {

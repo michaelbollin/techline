@@ -14,8 +14,14 @@
         "problemSolved": "Teams rebuilt the same responsive layouts and media queries for every new project."
       },
       "category": "software",
-      "tags": ["bootstrap", "css", "frontend", "web", "responsive"],
-      "importance": 1,
+      "tags": [
+        "bootstrap",
+        "css",
+        "frontend",
+        "web",
+        "responsive"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["bootstrap-released", "bootstrap-4-released", "jquery-1-0-released"]
+      "relatedIds": [
+        "bootstrap-released",
+        "bootstrap-4-released",
+        "jquery-1-0-released"
+      ]
     },
     {
       "id": "webflow-launched",
@@ -45,8 +55,15 @@
         "problemSolved": "Designers exported mockups to developers who rebuilt every layout by hand in HTML and CSS."
       },
       "category": "software",
-      "tags": ["webflow", "nocode", "frontend", "css", "web", "design"],
-      "importance": 1,
+      "tags": [
+        "webflow",
+        "nocode",
+        "frontend",
+        "css",
+        "web",
+        "design"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -60,7 +77,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["bootstrap-released", "tailwind-css-released", "nextjs-open-sourced"]
+      "relatedIds": [
+        "bootstrap-released",
+        "tailwind-css-released",
+        "nextjs-open-sourced"
+      ]
     },
     {
       "id": "shopify-payments-launched",
@@ -76,9 +97,20 @@
         "problemSolved": "Store owners juggled separate gateway accounts that never synced with sales and inventory."
       },
       "category": "software",
-      "tags": ["shopify", "ecommerce", "payments", "saas", "fintech"],
-      "companies": [{ "id": "shopify", "name": "Shopify" }],
-      "importance": 1,
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "payments",
+        "saas",
+        "fintech"
+      ],
+      "companies": [
+        {
+          "id": "shopify",
+          "name": "Shopify"
+        }
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -92,7 +124,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["shopify-launched", "shopify-ipo", "woocommerce-released"]
+      "relatedIds": [
+        "shopify-launched",
+        "shopify-ipo",
+        "woocommerce-released"
+      ]
     }
   ]
 }

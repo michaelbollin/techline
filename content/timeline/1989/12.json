@@ -14,8 +14,14 @@
         "problemSolved": "Each vendor had extended C in incompatible ways. Code that compiled on one machine could fail on another, and there was no authority to settle what 'correct C' even meant."
       },
       "category": "software",
-      "tags": ["c", "ansi", "iso", "standard", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "c",
+        "ansi",
+        "iso",
+        "standard",
+        "programming-language"
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["c-language-created", "c-k-and-r-published"]
+      "relatedIds": [
+        "c-language-created",
+        "c-k-and-r-published"
+      ]
     }
   ]
 }

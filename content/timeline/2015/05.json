@@ -22,7 +22,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -63,7 +63,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -112,7 +112,7 @@
           "name": "IETF"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -162,7 +162,7 @@
           "name": "IETF"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -207,7 +207,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -254,7 +254,7 @@
           "name": "Shopify"
         }
       ],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -296,7 +296,7 @@
         "jamstack",
         "open-source"
       ],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {

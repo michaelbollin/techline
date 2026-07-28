@@ -31,7 +31,7 @@
           "name": "JetBrains"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -80,7 +80,7 @@
           "name": "OpenAI"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -123,7 +123,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {

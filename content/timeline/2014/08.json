@@ -14,8 +14,15 @@
         "problemSolved": "Adding Wi-Fi to embedded projects previously required expensive modules and complex stacks."
       },
       "category": "hardware",
-      "tags": ["hardware", "embedded", "iot", "esp8266", "wifi", "microcontroller"],
-      "importance": 3,
+      "tags": [
+        "hardware",
+        "embedded",
+        "iot",
+        "esp8266",
+        "wifi",
+        "microcontroller"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["arduino-released", "raspberry-pi-model-b-released"]
+      "relatedIds": [
+        "arduino-released",
+        "raspberry-pi-model-b-released"
+      ]
     }
   ]
 }

@@ -10,6 +10,7 @@ import { resolveLabelLayout } from "@/lib/timeline/label-layout";
 import { measureLabelWidth } from "@/lib/timeline/measure-label";
 import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
+import { IMPORTANCE_MAX } from "@/lib/timeline/importance";
 import { computeStemStarts } from "@/lib/timeline/stem-layout";
 import { makeBaseScale } from "@/lib/timeline/zoom";
 import { maxImportanceForZoom, maxLanesForViewport, maxLanesForZoom } from "@/lib/timeline/zoom-lod";
@@ -74,7 +75,7 @@ export function useTimelinePlot({
 
   const maxImportance = useMemo(() => {
     if (hasActiveFilters(activeFilterIds, fulltextQuery)) {
-      return 3;
+      return IMPORTANCE_MAX;
     }
 
     return maxImportanceForZoom(msPerPixel, visibleSpanMs);

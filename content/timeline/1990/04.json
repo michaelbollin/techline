@@ -14,8 +14,13 @@
         "problemSolved": "Dozens of incompatible functional research languages existed; the community needed one common design to build tools and textbooks around."
       },
       "category": "software",
-      "tags": ["haskell", "functional-programming", "lazy-evaluation", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "haskell",
+        "functional-programming",
+        "lazy-evaluation",
+        "programming-language"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {

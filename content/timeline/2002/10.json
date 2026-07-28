@@ -14,8 +14,14 @@
         "problemSolved": "Feature phones offered poor mobile web and no integrated instant messaging experience."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "sidekick", "danger"],
-      "importance": 3,
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "sidekick",
+        "danger"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["blackberry-5810-released", "iphone-goes-on-sale", "android-announced"]
+      "relatedIds": [
+        "blackberry-5810-released",
+        "iphone-goes-on-sale",
+        "android-announced"
+      ]
     }
   ]
 }

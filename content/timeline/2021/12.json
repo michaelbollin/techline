@@ -14,8 +14,13 @@
         "problemSolved": "Rails apps felt forced into webpack/React complexity to match SPA expectations."
       },
       "category": "software",
-      "tags": ["rails", "ruby", "web-framework", "hotwire"],
-      "importance": 1,
+      "tags": [
+        "rails",
+        "ruby",
+        "web-framework",
+        "hotwire"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rails-1-0-released", "rails-open-sourced", "ruby-3-0-released"]
+      "relatedIds": [
+        "rails-1-0-released",
+        "rails-open-sourced",
+        "ruby-3-0-released"
+      ]
     },
     {
       "id": "django-4-released",
@@ -45,8 +54,12 @@
         "problemSolved": "Django carried pytz and legacy compatibility baggage from the Python 2 era."
       },
       "category": "software",
-      "tags": ["django", "python", "web-framework"],
-      "importance": 2,
+      "tags": [
+        "django",
+        "python",
+        "web-framework"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -60,7 +73,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["django-open-sourced", "python-3-0-released", "fastapi-released"]
+      "relatedIds": [
+        "django-open-sourced",
+        "python-3-0-released",
+        "fastapi-released"
+      ]
     }
   ]
 }

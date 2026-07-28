@@ -14,8 +14,15 @@
         "problemSolved": "Teams needed denser isolation than chroot jails but lighter overhead than hypervisor VMs."
       },
       "category": "software",
-      "tags": ["lxc", "containers", "linux", "virtualization", "cgroups", "namespaces"],
-      "importance": 1,
+      "tags": [
+        "lxc",
+        "containers",
+        "linux",
+        "virtualization",
+        "cgroups",
+        "namespaces"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["docker-open-sourced", "kubernetes-open-sourced", "open-container-initiative-launched"]
+      "relatedIds": [
+        "docker-open-sourced",
+        "kubernetes-open-sourced",
+        "open-container-initiative-launched"
+      ]
     }
   ]
 }

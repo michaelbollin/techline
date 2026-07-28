@@ -14,8 +14,14 @@
         "problemSolved": "Process-per-connection servers could not sustain tens of thousands of idle keep-alive clients."
       },
       "category": "software",
-      "tags": ["lighttpd", "web-server", "http", "reverse-proxy", "web"],
-      "importance": 2,
+      "tags": [
+        "lighttpd",
+        "web-server",
+        "http",
+        "reverse-proxy",
+        "web"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nginx-released", "apache-http-server-released"]
+      "relatedIds": [
+        "nginx-released",
+        "apache-http-server-released"
+      ]
     }
   ]
 }

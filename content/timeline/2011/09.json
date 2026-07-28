@@ -23,7 +23,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -69,7 +69,7 @@
           "name": "Docker"
         }
       ],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -106,8 +106,15 @@
         "problemSolved": "WordPress site owners needed selling tools without migrating to Magento or hosted SaaS."
       },
       "category": "software",
-      "tags": ["woocommerce", "wordpress", "ecommerce", "php", "web", "open-source"],
-      "importance": 1,
+      "tags": [
+        "woocommerce",
+        "wordpress",
+        "ecommerce",
+        "php",
+        "web",
+        "open-source"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -121,7 +128,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["wordpress-released", "wordpress-3-0-released", "shopify-launched", "magento-1-0-released"]
+      "relatedIds": [
+        "wordpress-released",
+        "wordpress-3-0-released",
+        "shopify-launched",
+        "magento-1-0-released"
+      ]
     },
     {
       "id": "css-selectors-level-3-recommendation",
@@ -137,10 +149,20 @@
         "problemSolved": "CSS2 selectors were too limited for dynamic UIs and complex document structures."
       },
       "category": "protocol",
-      "tags": ["css", "web", "w3c", "standards"],
+      "tags": [
+        "css",
+        "web",
+        "w3c",
+        "standards"
+      ],
       "people": [],
-      "companies": [{ "id": "w3c", "name": "W3C" }],
-      "importance": 2,
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -154,7 +176,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["css-2-1-w3c-recommendation", "jquery-1-0-released", "bootstrap-released"]
+      "relatedIds": [
+        "css-2-1-w3c-recommendation",
+        "jquery-1-0-released",
+        "bootstrap-released"
+      ]
     }
   ]
 }

@@ -14,8 +14,14 @@
         "problemSolved": "Repeating expensive database queries on every page view could not scale LiveJournal and similar sites."
       },
       "category": "software",
-      "tags": ["memcached", "cache", "database", "distributed", "open-source"],
-      "importance": 1,
+      "tags": [
+        "memcached",
+        "cache",
+        "database",
+        "distributed",
+        "open-source"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["redis-first-released", "mysql-first-released", "rabbitmq-released", "apache-kafka-open-sourced", "zeromq-released"]
+      "relatedIds": [
+        "redis-first-released",
+        "mysql-first-released",
+        "rabbitmq-released",
+        "apache-kafka-open-sourced",
+        "zeromq-released"
+      ]
     },
     {
       "id": "wordpress-released",
@@ -45,12 +57,26 @@
         "problemSolved": "Blogging tools like b2 were stagnating; developers needed a maintained, extensible fork with a modern admin."
       },
       "category": "software",
-      "tags": ["wordpress", "cms", "php", "web", "open-source"],
-      "people": [
-        { "id": "matt-mullenweg", "name": "Matt Mullenweg", "role": "co-founder" },
-        { "id": "mike-little", "name": "Mike Little", "role": "co-founder" }
+      "tags": [
+        "wordpress",
+        "cms",
+        "php",
+        "web",
+        "open-source"
       ],
-      "importance": 1,
+      "people": [
+        {
+          "id": "matt-mullenweg",
+          "name": "Matt Mullenweg",
+          "role": "co-founder"
+        },
+        {
+          "id": "mike-little",
+          "name": "Mike Little",
+          "role": "co-founder"
+        }
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -64,7 +90,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released", "drupal-1-0-released", "mysql-first-released", "symfony-released"]
+      "relatedIds": [
+        "php-tools-1-0-released",
+        "drupal-1-0-released",
+        "mysql-first-released",
+        "symfony-released"
+      ]
     },
     {
       "id": "css-zen-garden-launched",
@@ -80,10 +111,21 @@
         "problemSolved": "Many teams still doubted CSS could match the visual richness of table hacks and spacer GIFs."
       },
       "category": "culture",
-      "tags": ["css", "web", "design", "frontend"],
-      "people": [{ "id": "dave-shea", "name": "Dave Shea", "role": "creator" }],
+      "tags": [
+        "css",
+        "web",
+        "design",
+        "frontend"
+      ],
+      "people": [
+        {
+          "id": "dave-shea",
+          "name": "Dave Shea",
+          "role": "creator"
+        }
+      ],
       "companies": [],
-      "importance": 1,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -97,7 +139,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["css1-w3c-recommendation", "css2-w3c-recommendation", "bootstrap-released"]
+      "relatedIds": [
+        "css1-w3c-recommendation",
+        "css2-w3c-recommendation",
+        "bootstrap-released"
+      ]
     }
   ]
 }

@@ -32,7 +32,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -84,7 +84,7 @@
         }
       ],
       "companies": [],
-      "importance": 2,
+      "importance": 1,
       "media": [],
       "sources": [
         {
@@ -114,11 +114,21 @@
         "problemSolved": "drop.org experimenters wanted to extend the software themselves instead of waiting for one maintainer."
       },
       "category": "software",
-      "tags": ["drupal", "cms", "php", "web", "open-source"],
-      "people": [
-        { "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }
+      "tags": [
+        "drupal",
+        "cms",
+        "php",
+        "web",
+        "open-source"
       ],
-      "importance": 1,
+      "people": [
+        {
+          "id": "dries-buytaert",
+          "name": "Dries Buytaert",
+          "role": "creator"
+        }
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -132,7 +142,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-tools-1-0-released", "wordpress-released", "symfony-released"]
+      "relatedIds": [
+        "php-tools-1-0-released",
+        "wordpress-released",
+        "symfony-released"
+      ]
     }
   ]
 }

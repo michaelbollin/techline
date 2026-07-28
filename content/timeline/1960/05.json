@@ -14,8 +14,13 @@
         "problemSolved": "ALGOL 58 was still a rough draft; implementers needed a clearer, more consistent design they could actually build and trust."
       },
       "category": "software",
-      "tags": ["algol", "programming-language", "acm", "formal-specification"],
-      "importance": 1,
+      "tags": [
+        "algol",
+        "programming-language",
+        "acm",
+        "formal-specification"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["algol-58-published", "simula-67-presented"]
+      "relatedIds": [
+        "algol-58-published",
+        "simula-67-presented"
+      ]
     }
   ]
 }

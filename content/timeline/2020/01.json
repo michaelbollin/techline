@@ -32,7 +32,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -71,7 +71,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -105,9 +105,21 @@
         "problemSolved": "Selenium and early Puppeteer scripts were brittle and browser-limited."
       },
       "category": "software",
-      "tags": ["playwright", "testing", "javascript", "browser", "microsoft", "open-source"],
-      "companies": [{ "id": "microsoft", "name": "Microsoft" }],
-      "importance": 1,
+      "tags": [
+        "playwright",
+        "testing",
+        "javascript",
+        "browser",
+        "microsoft",
+        "open-source"
+      ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -121,7 +133,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["visual-studio-code-preview", "google-chrome-released", "nodejs-first-released"]
+      "relatedIds": [
+        "visual-studio-code-preview",
+        "google-chrome-released",
+        "nodejs-first-released"
+      ]
     },
     {
       "id": "shopware-6-1-released",
@@ -137,8 +153,15 @@
         "problemSolved": "Shopware 5's monolithic architecture could not support API-first omnichannel commerce."
       },
       "category": "software",
-      "tags": ["shopware", "ecommerce", "php", "symfony", "vue", "headless"],
-      "importance": 1,
+      "tags": [
+        "shopware",
+        "ecommerce",
+        "php",
+        "symfony",
+        "vue",
+        "headless"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -152,7 +175,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["shopware-open-sourced", "magento-2-0-released", "symfony-4-released"]
+      "relatedIds": [
+        "shopware-open-sourced",
+        "magento-2-0-released",
+        "symfony-4-released"
+      ]
     }
   ]
 }

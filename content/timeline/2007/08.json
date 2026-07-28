@@ -14,8 +14,14 @@
         "problemSolved": "Small retailers needed affordable store software without enterprise licensing fees."
       },
       "category": "software",
-      "tags": ["prestashop", "ecommerce", "php", "web", "open-source"],
-      "importance": 2,
+      "tags": [
+        "prestashop",
+        "ecommerce",
+        "php",
+        "web",
+        "open-source"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["magento-1-0-released", "wordpress-released", "php-5-0-released"]
+      "relatedIds": [
+        "magento-1-0-released",
+        "wordpress-released",
+        "php-5-0-released"
+      ]
     }
   ]
 }

@@ -57,6 +57,8 @@ def d(
     wiki: str,
     date_url: str,
 ) -> Device:
+    legacy_importance = {1: 3, 2: 6, 3: 9}
+    mapped_importance = legacy_importance.get(importance, importance)
     return Device(
         id=slug,
         date=date,
@@ -66,7 +68,7 @@ def d(
         why_chosen=why_chosen,
         why_important=why_important,
         problem_solved=problem_solved,
-        importance=importance,
+        importance=mapped_importance,
         tags=tags,
         company_id=company[0],
         company_name=company[1],

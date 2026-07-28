@@ -33,7 +33,7 @@
           "name": "Meta"
         }
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -66,8 +66,14 @@
         "problemSolved": "Float-based grids were fragile; teams needed flexbox-native responsive patterns."
       },
       "category": "software",
-      "tags": ["bootstrap", "css", "frontend", "web", "flexbox"],
-      "importance": 1,
+      "tags": [
+        "bootstrap",
+        "css",
+        "frontend",
+        "web",
+        "flexbox"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -81,7 +87,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["bootstrap-3-released", "bootstrap-5-released", "bootstrap-released"]
+      "relatedIds": [
+        "bootstrap-3-released",
+        "bootstrap-5-released",
+        "bootstrap-released"
+      ]
     }
   ]
 }

@@ -20,7 +20,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -53,8 +53,13 @@
         "problemSolved": "C++ lacked standard error-return types and simple formatted output without iostreams boilerplate."
       },
       "category": "software",
-      "tags": ["cpp", "iso", "standard", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "cpp",
+        "iso",
+        "standard",
+        "programming-language"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -68,7 +73,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cpp20-standard", "cpp17-standard"]
+      "relatedIds": [
+        "cpp20-standard",
+        "cpp17-standard"
+      ]
     },
     {
       "id": "claude-3-5-haiku-released",
@@ -98,7 +106,7 @@
           "name": "Anthropic"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {

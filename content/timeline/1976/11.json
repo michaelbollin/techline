@@ -34,7 +34,7 @@
         "research",
         "public-key"
       ],
-      "importance": 1,
+      "importance": 2,
       "sources": [
         {
           "title": "IEEE — New Directions in Cryptography (November 1976)",

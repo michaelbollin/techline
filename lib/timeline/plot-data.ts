@@ -1,4 +1,5 @@
 import { formatEventDate } from "./format";
+import type { Importance } from "./importance";
 import type { TimelineEvent } from "./schema";
 import { TIMELINE_EXTENT } from "./constants";
 
@@ -7,7 +8,7 @@ export type PlottedEvent = {
   slug: string;
   title: string;
   summary: string;
-  importance: 0 | 1 | 2 | 3;
+  importance: Importance;
   timestamp: number;
   dateLabel: string;
 };

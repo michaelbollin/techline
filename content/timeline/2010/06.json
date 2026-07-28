@@ -28,7 +28,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -77,7 +77,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -175,7 +175,7 @@
         "php",
         "web"
       ],
-      "importance": 1,
+      "importance": 6,
       "media": [],
       "sources": [
         {

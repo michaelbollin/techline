@@ -27,7 +27,7 @@
           "name": "BlackBerry"
         }
       ],
-      "importance": 3,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -76,7 +76,7 @@
           "role": "creator"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -117,7 +117,7 @@
         "open-source",
         "web"
       ],
-      "importance": 1,
+      "importance": 9,
       "media": [],
       "sources": [
         {

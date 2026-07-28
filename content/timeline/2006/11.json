@@ -29,7 +29,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -82,7 +82,7 @@
           "name": "NVIDIA"
         }
       ],
-      "importance": 2,
+      "importance": 1,
       "media": [],
       "sources": [
         {
@@ -135,7 +135,7 @@
         }
       ],
       "companies": [],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {

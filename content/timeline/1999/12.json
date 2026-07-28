@@ -21,7 +21,7 @@
         "standard"
       ],
       "people": [],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -71,7 +71,7 @@
         "open-source",
         "ssh"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "title": "OpenSSH — Project history (December 1, 1999)",

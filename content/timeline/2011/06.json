@@ -28,7 +28,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -70,7 +70,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -117,7 +117,7 @@
           "name": "Mozilla"
         }
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -174,7 +174,7 @@
           "name": "W3C"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {

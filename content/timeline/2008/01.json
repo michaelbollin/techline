@@ -28,7 +28,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -64,8 +64,14 @@
         "problemSolved": "Joomla 1.0's codebase could not scale to complex multi-language sites and custom applications."
       },
       "category": "software",
-      "tags": ["joomla", "cms", "php", "web", "open-source"],
-      "importance": 1,
+      "tags": [
+        "joomla",
+        "cms",
+        "php",
+        "web",
+        "open-source"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -79,7 +85,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["joomla-1-0-released", "wordpress-released", "drupal-7-released"]
+      "relatedIds": [
+        "joomla-1-0-released",
+        "wordpress-released",
+        "drupal-7-released"
+      ]
     }
   ]
 }

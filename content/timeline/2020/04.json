@@ -14,8 +14,13 @@
         "problemSolved": "Teams wanted ES2020 operators on the server without extra compile steps."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
-      "importance": 2,
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-12-released", "nodejs-16-released", "nodejs-10-released"]
+      "relatedIds": [
+        "nodejs-12-released",
+        "nodejs-16-released",
+        "nodejs-10-released"
+      ]
     },
     {
       "id": "vercel-rebranded",
@@ -45,10 +54,28 @@
         "problemSolved": "Frontend teams lacked integrated develop-preview-deploy workflows tied to Git."
       },
       "category": "company",
-      "tags": ["vercel", "zeit", "hosting", "jamstack", "nextjs", "deployment"],
-      "people": [{ "id": "guillermo-rauch", "name": "Guillermo Rauch", "role": "founder" }],
-      "companies": [{ "id": "vercel", "name": "Vercel" }],
-      "importance": 1,
+      "tags": [
+        "vercel",
+        "zeit",
+        "hosting",
+        "jamstack",
+        "nextjs",
+        "deployment"
+      ],
+      "people": [
+        {
+          "id": "guillermo-rauch",
+          "name": "Guillermo Rauch",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "vercel",
+          "name": "Vercel"
+        }
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -62,7 +89,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nextjs-open-sourced", "netlify-launched", "jamstack-term-coined"]
+      "relatedIds": [
+        "nextjs-open-sourced",
+        "netlify-launched",
+        "jamstack-term-coined"
+      ]
     }
   ]
 }

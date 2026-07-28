@@ -22,7 +22,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -71,7 +71,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -117,7 +117,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -172,7 +172,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 2,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -230,7 +230,7 @@
         }
       ],
       "quoteText": "By almost any definition, Flash is a closed system.",
-      "importance": 1,
+      "importance": 7,
       "media": [],
       "sources": [
         {

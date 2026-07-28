@@ -14,8 +14,13 @@
         "problemSolved": "Fortran-era engineers needed fast matrix operations and plotting without recompiling for every experiment."
       },
       "category": "software",
-      "tags": ["matlab", "mathworks", "numerical-computing", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "matlab",
+        "mathworks",
+        "numerical-computing",
+        "programming-language"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["fortran-first-delivery", "objective-c-created"]
+      "relatedIds": [
+        "fortran-first-delivery",
+        "objective-c-created"
+      ]
     }
   ]
 }

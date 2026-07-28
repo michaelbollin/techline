@@ -14,8 +14,13 @@
         "problemSolved": "FORTRAN 77 couldn't express modern numerical algorithms cleanly; researchers needed array-level operations and reusable libraries."
       },
       "category": "software",
-      "tags": ["fortran", "iso", "standard", "scientific-computing"],
-      "importance": 2,
+      "tags": [
+        "fortran",
+        "iso",
+        "standard",
+        "scientific-computing"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["fortran-77-standard", "fortran-95-standard"]
+      "relatedIds": [
+        "fortran-77-standard",
+        "fortran-95-standard"
+      ]
     },
     {
       "id": "sgi-indigo-released",
@@ -45,8 +53,15 @@
         "problemSolved": "Creative studios needed affordable 3D acceleration without mainframe-class price tags."
       },
       "category": "hardware",
-      "tags": ["hardware", "workstation", "sgi", "opengl", "3d", "unix"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "workstation",
+        "sgi",
+        "opengl",
+        "3d",
+        "unix"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -60,7 +75,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["sparcstation-1-released", "sun-1-released", "next-computer-released"]
+      "relatedIds": [
+        "sparcstation-1-released",
+        "sun-1-released",
+        "next-computer-released"
+      ]
     }
   ]
 }

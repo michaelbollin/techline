@@ -26,7 +26,7 @@
           "role": "researcher"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -74,7 +74,7 @@
         "programming-language",
         "software-engineering"
       ],
-      "importance": 1,
+      "importance": 8,
       "sources": [
         {
           "title": "CACM — Letter: Go To Statement Considered Harmful (March 1968)",

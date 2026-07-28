@@ -28,7 +28,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -62,8 +62,14 @@
         "problemSolved": "Merchants wanted inspectable, extensible cart software without proprietary lock-in."
       },
       "category": "software",
-      "tags": ["shopware", "ecommerce", "php", "open-source", "web"],
-      "importance": 1,
+      "tags": [
+        "shopware",
+        "ecommerce",
+        "php",
+        "open-source",
+        "web"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -77,7 +83,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["shopware-released", "magento-1-0-released", "shopware-6-1-released"]
+      "relatedIds": [
+        "shopware-released",
+        "magento-1-0-released",
+        "shopware-6-1-released"
+      ]
     }
   ]
 }

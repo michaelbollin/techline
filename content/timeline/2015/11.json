@@ -14,8 +14,12 @@
         "problemSolved": "Symfony 2 carried bundle sprawl and legacy paths that confused new adopters."
       },
       "category": "software",
-      "tags": ["symfony", "php", "web-framework"],
-      "importance": 2,
+      "tags": [
+        "symfony",
+        "php",
+        "web-framework"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +33,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["symfony-released", "laravel-symfony-http-foundation", "laravel-5-released"]
+      "relatedIds": [
+        "symfony-released",
+        "laravel-symfony-http-foundation",
+        "laravel-5-released"
+      ]
     },
     {
       "id": "raspberry-pi-zero-released",
@@ -45,8 +53,15 @@
         "problemSolved": "Makers needed a full Linux board smaller and cheaper than the $35 Model B for embedded builds."
       },
       "category": "hardware",
-      "tags": ["hardware", "embedded", "raspberry-pi", "linux", "single-board-computer", "iot"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "embedded",
+        "raspberry-pi",
+        "linux",
+        "single-board-computer",
+        "iot"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -60,7 +75,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["raspberry-pi-model-b-released", "arduino-released", "esp8266-released"]
+      "relatedIds": [
+        "raspberry-pi-model-b-released",
+        "arduino-released",
+        "esp8266-released"
+      ]
     },
     {
       "id": "tensorflow-open-sourced",
@@ -76,8 +95,19 @@
         "problemSolved": "Researchers lacked portable tools matching the scale and reliability of hyperscaler ML systems."
       },
       "category": "ai",
-      "tags": ["tensorflow", "ai", "machine-learning", "python", "open-source"],
-      "companies": [{ "id": "google", "name": "Google" }],
+      "tags": [
+        "tensorflow",
+        "ai",
+        "machine-learning",
+        "python",
+        "open-source"
+      ],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -92,7 +122,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tensorflow-2-0-released", "bazel-open-sourced"]
+      "relatedIds": [
+        "tensorflow-2-0-released",
+        "bazel-open-sourced"
+      ]
     },
     {
       "id": "drupal-8-released",
@@ -108,9 +141,22 @@
         "problemSolved": "Drupal 7's legacy architecture could not match modern PHP frameworks and API expectations."
       },
       "category": "software",
-      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
-      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
-      "importance": 1,
+      "tags": [
+        "drupal",
+        "cms",
+        "php",
+        "symfony",
+        "web",
+        "api"
+      ],
+      "people": [
+        {
+          "id": "dries-buytaert",
+          "name": "Dries Buytaert",
+          "role": "creator"
+        }
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -124,7 +170,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["drupal-7-released", "symfony-released", "symfony-3-released"]
+      "relatedIds": [
+        "drupal-7-released",
+        "symfony-released",
+        "symfony-3-released"
+      ]
     },
     {
       "id": "magento-2-0-released",
@@ -140,8 +190,13 @@
         "problemSolved": "Magento 1's legacy architecture could not meet performance and extensibility demands at scale."
       },
       "category": "software",
-      "tags": ["magento", "ecommerce", "php", "web"],
-      "importance": 1,
+      "tags": [
+        "magento",
+        "ecommerce",
+        "php",
+        "web"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -155,7 +210,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["magento-1-0-released", "symfony-released", "shopify-launched"]
+      "relatedIds": [
+        "magento-1-0-released",
+        "symfony-released",
+        "shopify-launched"
+      ]
     },
     {
       "id": "jamstack-term-coined",
@@ -171,8 +230,14 @@
         "problemSolved": "Teams building decoupled sites lacked a shared term to describe their approach."
       },
       "category": "software",
-      "tags": ["jamstack", "web", "architecture", "static", "cdn"],
-      "importance": 1,
+      "tags": [
+        "jamstack",
+        "web",
+        "architecture",
+        "static",
+        "cdn"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -186,7 +251,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["netlify-launched", "nextjs-open-sourced", "contentful-founded"]
+      "relatedIds": [
+        "netlify-launched",
+        "nextjs-open-sourced",
+        "contentful-founded"
+      ]
     }
   ]
 }

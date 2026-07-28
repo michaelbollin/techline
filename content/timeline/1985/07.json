@@ -14,8 +14,15 @@
         "problemSolved": "PCs and Macs of the era could not deliver arcade-quality graphics and audio at consumer prices."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "amiga", "commodore", "multimedia", "8-bit"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "pc",
+        "amiga",
+        "commodore",
+        "multimedia",
+        "8-bit"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["commodore-64-released", "commodore-pet-2001-released", "macintosh-128k-released", "atari-st-released"]
+      "relatedIds": [
+        "commodore-64-released",
+        "commodore-pet-2001-released",
+        "macintosh-128k-released",
+        "atari-st-released"
+      ]
     }
   ]
 }

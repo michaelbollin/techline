@@ -14,8 +14,14 @@
         "problemSolved": "Manual server setup did not scale; teams needed repeatable, version-controlled system configuration."
       },
       "category": "software",
-      "tags": ["chef", "devops", "configuration-management", "ruby", "open-source"],
-      "importance": 1,
+      "tags": [
+        "chef",
+        "devops",
+        "configuration-management",
+        "ruby",
+        "open-source"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["puppet-released", "ansible-released", "terraform-released", "capistrano-released"]
+      "relatedIds": [
+        "puppet-released",
+        "ansible-released",
+        "terraform-released",
+        "capistrano-released"
+      ]
     }
   ]
 }

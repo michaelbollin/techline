@@ -28,7 +28,7 @@
         "distributed-systems",
         "research"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "title": "ACM TOCS — Lamport, The Part-Time Parliament (1998)",
@@ -80,7 +80,7 @@
           "name": "W3C"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {

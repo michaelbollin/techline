@@ -24,7 +24,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -73,7 +73,7 @@
           "name": "GitHub"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -125,7 +125,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {

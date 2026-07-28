@@ -28,7 +28,7 @@
         }
       ],
       "companies": [],
-      "importance": 2,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -75,7 +75,7 @@
           "name": "Meta"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -125,7 +125,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -176,7 +176,7 @@
           "name": "Vercel"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [
         {
           "type": "link",

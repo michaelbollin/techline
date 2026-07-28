@@ -14,8 +14,13 @@
         "problemSolved": "Native addons broke on each V8 bump, blocking enterprise Node adoption."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
-      "importance": 2,
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-4-released", "nodejs-18-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-4-released",
+        "nodejs-18-released",
+        "nodejs-first-released"
+      ]
     }
   ]
 }

@@ -37,7 +37,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "semiconductor", "moores-law"],
     people: [{ id: "gordon-moore", name: "Gordon Moore", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
@@ -69,7 +69,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "critique", "programming-language", "software-engineering"],
     people: [{ id: "edsger-dijkstra", name: "Edsger Dijkstra", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "CACM — Letter: Go To Statement Considered Harmful (March 1968)",
@@ -101,7 +101,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "software-engineering", "algorithms"],
     people: [{ id: "donald-knuth", name: "Donald Knuth", role: "author" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Knuth — Structured Programming with go to Statements (December 1974)",
@@ -133,7 +133,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "software-engineering", "management"],
     people: [{ id: "fred-brooks", name: "Fred Brooks", role: "author" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Brooks — The Mythical Man-Month (1975)",
@@ -165,7 +165,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "open-source", "free-software"],
     people: [{ id: "richard-stallman", name: "Richard Stallman", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "GNU — Free Software Definition (1996 era)",
@@ -198,7 +198,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "critique", "unix", "lisp", "software-engineering"],
     people: [{ id: "richard-gabriel", name: "Richard Gabriel", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Gabriel — The Rise of Worse Is Better (1990 talk / 1991 essay)",
@@ -231,7 +231,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "linux", "operating-system"],
     people: [{ id: "andrew-tanenbaum", name: "Andrew Tanenbaum", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "comp.os.minix — LINUX is obsolete (January 29, 1992)",
@@ -263,7 +263,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "open-source", "linux"],
     people: [{ id: "linus-torvalds", name: "Linus Torvalds", role: "maintainer" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "LKML — Re: linux-kernel archive (August 30, 2000)",
@@ -295,7 +295,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "meme", "microsoft", "developers"],
     people: [{ id: "steve-ballmer", name: "Steve Ballmer", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Know Your Meme — Steve Ballmer Monkey Dance (September 2000 event)",
@@ -335,7 +335,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "microsoft", "linux", "open-source"],
     people: [{ id: "steve-ballmer", name: "Steve Ballmer", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "The Register — Ballmer: Linux is a cancer (June 1, 2001)",
@@ -368,7 +368,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "microsoft", "internet", "web"],
     people: [{ id: "bill-gates", name: "Bill Gates", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Microsoft — Internet Tidal Wave memo (May 26, 1995)",
@@ -400,7 +400,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "venture-capital", "software"],
     people: [{ id: "marc-andreessen", name: "Marc Andreessen", role: "author" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Wall Street Journal — Why Software Is Eating the World (August 20, 2011)",
@@ -432,7 +432,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "facebook", "culture", "startup"],
     people: [{ id: "mark-zuckerberg", name: "Mark Zuckerberg", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Business Insider — Facebook motto history (2009–2014)",
@@ -466,7 +466,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "networking", "ethernet"],
     people: [{ id: "robert-metcalfe", name: "Robert Metcalfe", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Wikipedia — Metcalfe's law (1980s formulation)",
@@ -499,7 +499,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "futures", "technology-policy"],
     people: [{ id: "roy-amara", name: "Roy Amara", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Wikipedia — Amara's law",
@@ -532,7 +532,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "software-engineering", "management"],
     people: [{ id: "douglas-hofstadter", name: "Douglas Hofstadter", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Wikipedia — Hofstadter's law (1979, Gödel, Escher, Bach)",
@@ -564,7 +564,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "open-innovation", "startups"],
     people: [{ id: "bill-joy", name: "Bill Joy", role: "co-founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Kevin Kelly — Out of Control (1994, citing Bill Joy)",
@@ -597,7 +597,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "ai", "futures"],
     people: [{ id: "ray-kurzweil", name: "Ray Kurzweil", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Kurzweil — The Law of Accelerating Returns (March 7, 2001)",
@@ -630,7 +630,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "prediction", "hypertext", "history"],
     people: [{ id: "vannevar-bush", name: "Vannevar Bush", role: "author" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "The Atlantic — As We May Think (July 1945)",
@@ -663,7 +663,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "linux", "operating-system"],
     people: [{ id: "linus-torvalds", name: "Linus Torvalds", role: "maintainer" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "comp.os.minix — Re: LINUX is obsolete (January 29, 1992)",
@@ -695,7 +695,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "open-source", "patents", "sun"],
     people: [{ id: "jonathan-schwartz", name: "Jonathan Schwartz", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Jonathan Schwartz blog — innovate, not litigate (May 15, 2007)",
@@ -727,7 +727,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "oracle", "thin-client", "prediction"],
     people: [{ id: "larry-ellison", name: "Larry Ellison", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Los Angeles Times — Is the PC becoming passé? (September 28, 1995)",
@@ -759,7 +759,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "apple", "flash", "mobile", "web"],
     people: [{ id: "steve-jobs", name: "Steve Jobs", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Apple — Thoughts on Flash (April 29, 2010)",
@@ -791,7 +791,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "controversy", "openai", "ai", "open-source"],
     people: [{ id: "elon-musk", name: "Elon Musk", role: "co-founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Business Insider — Musk: OpenAI should be more open (February 17, 2020)",
@@ -824,7 +824,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "warning", "ai", "openai", "policy"],
     people: [{ id: "sam-altman", name: "Sam Altman", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     media: [
       {
         type: "youtube",
@@ -864,7 +864,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "meme", "microsoft", "web", "developers"],
     people: [{ id: "steve-ballmer", name: "Steve Ballmer", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     media: [
       {
         type: "youtube",
@@ -903,7 +903,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "javascript", "books"],
     people: [{ id: "douglas-crockford", name: "Douglas Crockford", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "O'Reilly — JavaScript: The Good Parts (May 2008)",
@@ -936,7 +936,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "software-engineering", "management"],
     people: [{ id: "joel-spolsky", name: "Joel Spolsky", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Joel on Software — The Joel Test (August 9, 2000)",
@@ -969,7 +969,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "insight", "software-engineering", "refactoring"],
     people: [{ id: "martin-fowler", name: "Martin Fowler", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "martinfowler.com — Refactoring book (1999)",
@@ -1005,7 +1005,7 @@ export const QUOTES: TimelineEvent[] = [
       { id: "andy-hunt", name: "Andy Hunt", role: "author" },
       { id: "dave-thomas", name: "Dave Thomas", role: "author" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "The Pragmatic Programmer — DRY principle (October 1999)",
@@ -1038,7 +1038,7 @@ export const QUOTES: TimelineEvent[] = [
     },
     tags: ["quote", "critique", "lisp", "programming-language"],
     people: [{ id: "philip-greenspun", name: "Philip Greenspun", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Greenspun — Tenth rule FAQ (1993 era)",

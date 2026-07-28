@@ -14,8 +14,15 @@
         "problemSolved": "Business travelers needed PC software on the road without luggable 30-pound machines."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "toshiba", "pc", "x86", "portable"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "laptop",
+        "toshiba",
+        "pc",
+        "x86",
+        "portable"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "compaq-portable-released", "ibm-thinkpad-700c-released", "grid-compass-released"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "compaq-portable-released",
+        "ibm-thinkpad-700c-released",
+        "grid-compass-released"
+      ]
     }
   ]
 }

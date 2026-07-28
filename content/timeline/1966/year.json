@@ -14,8 +14,14 @@
         "problemSolved": "Research labs needed shared interactive access to a powerful computer, not batch punch-card queues."
       },
       "category": "hardware",
-      "tags": ["hardware", "minicomputer", "dec", "pdp-10", "server"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "minicomputer",
+        "dec",
+        "pdp-10",
+        "server"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["dec-pdp-8-shipped", "dec-vax-11-780-released", "ibm-system-360-announced"]
+      "relatedIds": [
+        "dec-pdp-8-shipped",
+        "dec-vax-11-780-released",
+        "ibm-system-360-announced"
+      ]
     }
   ]
 }

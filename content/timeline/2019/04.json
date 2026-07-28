@@ -14,8 +14,13 @@
         "problemSolved": "Cold starts and slow HTTP/1.1 limited Node in serverless and high-throughput APIs."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
-      "importance": 2,
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-10-released", "nodejs-14-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-10-released",
+        "nodejs-14-released",
+        "nodejs-first-released"
+      ]
     }
   ]
 }

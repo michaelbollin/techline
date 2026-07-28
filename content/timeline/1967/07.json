@@ -14,8 +14,13 @@
         "problemSolved": "Earlier language designs were too heavy to compile on small computers; systems programmers needed something lean for building tools and compilers."
       },
       "category": "software",
-      "tags": ["bcpl", "systems-programming", "compiler", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "bcpl",
+        "systems-programming",
+        "compiler",
+        "programming-language"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -34,7 +39,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["b-language-created", "c-language-created"]
+      "relatedIds": [
+        "b-language-created",
+        "c-language-created"
+      ]
     }
   ]
 }

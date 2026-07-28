@@ -14,8 +14,15 @@
         "problemSolved": "Cross-platform apps needed a simple RPC layer when platform-specific event systems (Apple Events, DCOM) would not interoperate."
       },
       "category": "protocol",
-      "tags": ["xml-rpc", "xml", "api", "rpc", "http", "protocol"],
-      "importance": 2,
+      "tags": [
+        "xml-rpc",
+        "xml",
+        "api",
+        "rpc",
+        "http",
+        "protocol"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["soap-1-1-published"]
+      "relatedIds": [
+        "soap-1-1-published"
+      ]
     }
   ]
 }

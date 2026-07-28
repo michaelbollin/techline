@@ -14,8 +14,14 @@
         "problemSolved": "BlackBerry could no longer justify operating legacy infrastructure for dwindling device fleets."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "blackberry", "discontinued"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "blackberry",
+        "discontinued"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["blackberry-5810-released", "iphone-goes-on-sale"]
+      "relatedIds": [
+        "blackberry-5810-released",
+        "iphone-goes-on-sale"
+      ]
     }
   ]
 }

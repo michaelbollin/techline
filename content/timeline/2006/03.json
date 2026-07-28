@@ -14,8 +14,15 @@
         "problemSolved": "Teams running Rails on several boxes needed consistent, auditable release steps without hand-typing commands on each host."
       },
       "category": "software",
-      "tags": ["capistrano", "deployment", "ruby", "devops", "automation", "ssh"],
-      "importance": 1,
+      "tags": [
+        "capistrano",
+        "deployment",
+        "ruby",
+        "devops",
+        "automation",
+        "ssh"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,14 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ruby-0-95-released", "rails-open-sourced", "chef-released", "circleci-launched", "rubygems-released", "phusion-passenger-released"]
+      "relatedIds": [
+        "ruby-0-95-released",
+        "rails-open-sourced",
+        "chef-released",
+        "circleci-launched",
+        "rubygems-released",
+        "phusion-passenger-released"
+      ]
     }
   ]
 }

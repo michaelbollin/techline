@@ -73,7 +73,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -125,7 +125,7 @@
           "name": "Samsung"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -168,7 +168,7 @@
         "web",
         "open-source"
       ],
-      "importance": 1,
+      "importance": 8,
       "media": [],
       "sources": [
         {

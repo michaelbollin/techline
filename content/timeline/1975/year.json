@@ -26,7 +26,7 @@
           "role": "author"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -74,7 +74,7 @@
         "software-engineering",
         "management"
       ],
-      "importance": 1,
+      "importance": 8,
       "sources": [
         {
           "title": "Brooks — The Mythical Man-Month (1975)",
@@ -118,7 +118,7 @@
         "futures",
         "technology-policy"
       ],
-      "importance": 2,
+      "importance": 7,
       "sources": [
         {
           "title": "Wikipedia — Amara's law",

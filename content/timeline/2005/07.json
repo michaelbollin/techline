@@ -14,8 +14,13 @@
         "problemSolved": "Newsroom developers rebuilt the same CMS patterns for every site; they needed one framework to extract from Lawrence.com."
       },
       "category": "software",
-      "tags": ["django", "python", "web-framework", "orm"],
-      "importance": 1,
+      "tags": [
+        "django",
+        "python",
+        "web-framework",
+        "orm"
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-0-9-0-released", "flask-released", "fastapi-released", "gunicorn-released"]
+      "relatedIds": [
+        "python-0-9-0-released",
+        "flask-released",
+        "fastapi-released",
+        "gunicorn-released"
+      ]
     }
   ]
 }

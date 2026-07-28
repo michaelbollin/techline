@@ -1,4 +1,5 @@
 import { TIMELINE_EDGE_MARGIN } from "./constants";
+import type { Importance } from "./importance";
 import type { PlottedEvent } from "./plot-data";
 
 /** Vertical label box height in px. */
@@ -56,7 +57,7 @@ export type LabelLayout = {
 export function resolveLabelLayout(
   events: PlottedEvent[],
   x: (timestamp: number) => number,
-  maxImportance: 0 | 1 | 2 | 3,
+  maxImportance: Importance,
   viewportWidth: number,
   maxLanes: number,
   labelWidthFor: (event: PlottedEvent) => number,

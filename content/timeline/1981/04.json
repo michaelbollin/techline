@@ -14,8 +14,14 @@
         "problemSolved": "Professionals needed to run business software away from the office without access to a desktop machine."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "portable", "osborne", "cp-m"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "laptop",
+        "portable",
+        "osborne",
+        "cp-m"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-pc-5150-released", "compaq-portable-released", "grid-compass-released"]
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "compaq-portable-released",
+        "grid-compass-released"
+      ]
     }
   ]
 }

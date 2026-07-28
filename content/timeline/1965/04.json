@@ -27,7 +27,7 @@
           "role": "researcher"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -77,7 +77,7 @@
         "semiconductor",
         "moores-law"
       ],
-      "importance": 1,
+      "importance": 7,
       "sources": [
         {
           "title": "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",

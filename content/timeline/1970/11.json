@@ -14,8 +14,14 @@
         "problemSolved": "Teaching languages were either too academic to implement easily or too bloated for classroom use; Pascal hit a practical middle ground."
       },
       "category": "software",
-      "tags": ["pascal", "wirth", "eth", "structured-programming", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "pascal",
+        "wirth",
+        "eth",
+        "structured-programming",
+        "programming-language"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["algol-60-published"]
+      "relatedIds": [
+        "algol-60-published"
+      ]
     }
   ]
 }

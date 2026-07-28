@@ -14,8 +14,15 @@
         "problemSolved": "Ad-hoc XML RPC needed a common envelope, encoding rules, and HTTP binding for multi-vendor systems."
       },
       "category": "protocol",
-      "tags": ["soap", "xml", "api", "web-service", "rpc", "standard"],
-      "importance": 1,
+      "tags": [
+        "soap",
+        "xml",
+        "api",
+        "web-service",
+        "rpc",
+        "standard"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["xml-rpc-specified", "rest-architectural-style-defined", "soap-1-2-standardized", "dotnet-framework-1-0-rtm"]
+      "relatedIds": [
+        "xml-rpc-specified",
+        "rest-architectural-style-defined",
+        "soap-1-2-standardized",
+        "dotnet-framework-1-0-rtm"
+      ]
     }
   ]
 }

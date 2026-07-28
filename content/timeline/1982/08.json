@@ -14,8 +14,14 @@
         "problemSolved": "Families wanted an affordable computer for games and learning, not a $3,000 business machine."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "commodore", "8-bit", "microcomputer"],
-      "importance": 1,
+      "tags": [
+        "hardware",
+        "pc",
+        "commodore",
+        "8-bit",
+        "microcomputer"
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apple-ii-introduced", "ibm-pc-5150-released", "basic-first-run", "commodore-pet-2001-released"]
+      "relatedIds": [
+        "apple-ii-introduced",
+        "ibm-pc-5150-released",
+        "basic-first-run",
+        "commodore-pet-2001-released"
+      ]
     }
   ]
 }

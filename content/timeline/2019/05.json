@@ -14,11 +14,21 @@
         "problemSolved": "Naming CSS classes and fighting specificity wars slowed front-end iteration."
       },
       "category": "software",
-      "tags": ["tailwind", "css", "frontend", "web", "open-source"],
-      "people": [
-        { "id": "adam-wathan", "name": "Adam Wathan", "role": "creator" }
+      "tags": [
+        "tailwind",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
       ],
-      "importance": 1,
+      "people": [
+        {
+          "id": "adam-wathan",
+          "name": "Adam Wathan",
+          "role": "creator"
+        }
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -32,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tailwind-css-released", "bootstrap-5-released", "nextjs-open-sourced"]
+      "relatedIds": [
+        "tailwind-css-released",
+        "bootstrap-5-released",
+        "nextjs-open-sourced"
+      ]
     },
     {
       "id": "shopware-6-preview-released",
@@ -48,8 +62,16 @@
         "problemSolved": "Shopware 5's monolith could not support omnichannel and headless storefront demands."
       },
       "category": "software",
-      "tags": ["shopware", "ecommerce", "php", "symfony", "vue", "headless", "api"],
-      "importance": 1,
+      "tags": [
+        "shopware",
+        "ecommerce",
+        "php",
+        "symfony",
+        "vue",
+        "headless",
+        "api"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -63,7 +85,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["shopware-6-1-released", "shopware-open-sourced", "symfony-4-released"]
+      "relatedIds": [
+        "shopware-6-1-released",
+        "shopware-open-sourced",
+        "symfony-4-released"
+      ]
     }
   ]
 }

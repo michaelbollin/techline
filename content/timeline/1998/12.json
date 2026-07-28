@@ -14,8 +14,14 @@
         "problemSolved": "Phone switches needed near-perfect reliability; traditional shared-memory threading and locks could not meet uptime requirements."
       },
       "category": "software",
-      "tags": ["erlang", "ericsson", "otp", "concurrency", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "erlang",
+        "ericsson",
+        "otp",
+        "concurrency",
+        "programming-language"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["elixir-first-release"]
+      "relatedIds": [
+        "elixir-first-release"
+      ]
     }
   ]
 }

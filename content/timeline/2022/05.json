@@ -14,8 +14,14 @@
         "problemSolved": "Teams on OTP 24 needed security updates and compiler improvements without a breaking migration."
       },
       "category": "software",
-      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
-      "importance": 2,
+      "tags": [
+        "erlang",
+        "otp",
+        "beam",
+        "programming-language",
+        "elixir"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["erlang-otp-24-released", "erlang-open-sourced", "elixir-1-0-released"]
+      "relatedIds": [
+        "erlang-otp-24-released",
+        "erlang-open-sourced",
+        "elixir-1-0-released"
+      ]
     },
     {
       "id": "wordpress-6-0-released",
@@ -45,8 +55,15 @@
         "problemSolved": "Block themes lacked polish and flexibility compared to classic PHP themes."
       },
       "category": "software",
-      "tags": ["wordpress", "cms", "php", "gutenberg", "frontend", "web"],
-      "importance": 1,
+      "tags": [
+        "wordpress",
+        "cms",
+        "php",
+        "gutenberg",
+        "frontend",
+        "web"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -60,7 +77,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["wordpress-5-0-released", "wordpress-3-0-released", "react-open-sourced"]
+      "relatedIds": [
+        "wordpress-5-0-released",
+        "wordpress-3-0-released",
+        "react-open-sourced"
+      ]
     }
   ]
 }

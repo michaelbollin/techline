@@ -14,8 +14,14 @@
         "problemSolved": "Early portables were heavy luggables; users needed a compact machine that closed like a briefcase."
       },
       "category": "hardware",
-      "tags": ["hardware", "laptop", "portable", "grid", "x86"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "laptop",
+        "portable",
+        "grid",
+        "x86"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["osborne-1-released", "ibm-thinkpad-700c-released", "apple-powerbook-released", "apple-macbook-air-released"]
+      "relatedIds": [
+        "osborne-1-released",
+        "ibm-thinkpad-700c-released",
+        "apple-powerbook-released",
+        "apple-macbook-air-released"
+      ]
     }
   ]
 }

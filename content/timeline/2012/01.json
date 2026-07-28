@@ -14,8 +14,14 @@
         "problemSolved": "Joomla 1.5 sites needed a supported path forward with modern security and localization."
       },
       "category": "software",
-      "tags": ["joomla", "cms", "php", "web", "open-source"],
-      "importance": 1,
+      "tags": [
+        "joomla",
+        "cms",
+        "php",
+        "web",
+        "open-source"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["joomla-1-5-released", "joomla-3-0-released", "wordpress-3-0-released"]
+      "relatedIds": [
+        "joomla-1-5-released",
+        "joomla-3-0-released",
+        "wordpress-3-0-released"
+      ]
     }
   ]
 }

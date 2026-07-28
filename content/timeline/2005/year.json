@@ -14,8 +14,15 @@
         "problemSolved": "XML-RPC and SOAP were heavy; AJAX-era apps needed thin RPC over HTTP with JavaScript-friendly payloads."
       },
       "category": "protocol",
-      "tags": ["json-rpc", "rpc", "api", "json", "protocol", "standard"],
-      "importance": 1,
+      "tags": [
+        "json-rpc",
+        "rpc",
+        "api",
+        "json",
+        "protocol",
+        "standard"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rest-architectural-style-defined", "grpc-open-sourced", "swagger-1-0-released"]
+      "relatedIds": [
+        "rest-architectural-style-defined",
+        "grpc-open-sourced",
+        "swagger-1-0-released"
+      ]
     }
   ]
 }

@@ -21,7 +21,7 @@
         "api",
         "saas"
       ],
-      "importance": 1,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -63,7 +63,7 @@
         "graphql",
         "api"
       ],
-      "importance": 1,
+      "importance": 8,
       "media": [],
       "sources": [
         {

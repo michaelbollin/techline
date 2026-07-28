@@ -31,7 +31,7 @@
           "name": "Netscape"
         }
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -65,8 +65,14 @@
         "problemSolved": "Merchants outgrew osCommerce but could not afford six-figure proprietary commerce platforms."
       },
       "category": "software",
-      "tags": ["magento", "ecommerce", "php", "web", "open-source"],
-      "importance": 1,
+      "tags": [
+        "magento",
+        "ecommerce",
+        "php",
+        "web",
+        "open-source"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -80,7 +86,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["php-5-0-released", "shopify-launched", "symfony-released", "wordpress-released"]
+      "relatedIds": [
+        "php-5-0-released",
+        "shopify-launched",
+        "symfony-released",
+        "wordpress-released"
+      ]
     },
     {
       "id": "ballmer-web-developers-chant",
@@ -117,7 +128,7 @@
         }
       ],
       "quoteText": "Web developers! Web developers! Web developers!",
-      "importance": 2,
+      "importance": 8,
       "media": [
         {
           "type": "youtube",

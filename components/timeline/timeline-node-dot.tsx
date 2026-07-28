@@ -1,5 +1,6 @@
 import { cn } from "@/lib/cn";
 import { TIMELINE_INK } from "@/lib/timeline/constants";
+import { visualImportanceTier } from "@/lib/timeline/importance";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
 type TimelineNodeDotProps = {
@@ -13,11 +14,13 @@ type TimelineNodeDotProps = {
 };
 
 function hitRadius(importance: PlottedEvent["importance"]): number {
-  if (importance === 0) {
+  const tier = visualImportanceTier(importance);
+
+  if (tier === 0) {
     return 7.5;
   }
 
-  if (importance === 1) {
+  if (tier === 1) {
     return 6;
   }
 
@@ -25,23 +28,25 @@ function hitRadius(importance: PlottedEvent["importance"]): number {
 }
 
 function dotRadius(importance: PlottedEvent["importance"], filled: boolean): number {
+  const tier = visualImportanceTier(importance);
+
   if (filled) {
-    if (importance === 0) {
+    if (tier === 0) {
       return 7.5;
     }
 
-    if (importance === 1) {
+    if (tier === 1) {
       return 6;
     }
 
     return 4.5;
   }
 
-  if (importance === 0) {
+  if (tier === 0) {
     return 3.75;
   }
 
-  if (importance === 1) {
+  if (tier === 1) {
     return 3;
   }
 
@@ -62,6 +67,7 @@ export function TimelineNodeDot({
 }: TimelineNodeDotProps) {
   const x = xScale(event.timestamp);
   const filled = showLabel || isHovered;
+  const tier = visualImportanceTier(event.importance);
   const dotR = dotRadius(event.importance, filled);
   const hitR = hitRadius(event.importance);
 
@@ -89,7 +95,7 @@ export function TimelineNodeDot({
         r={dotR}
         fill={TIMELINE_INK}
         stroke={TIMELINE_INK}
-        strokeWidth={filled ? (event.importance === 0 ? 2 : 1.5) : event.importance === 0 ? 1 : 0.75}
+        strokeWidth={filled ? (tier === 0 ? 2 : 1.5) : tier === 0 ? 1 : 0.75}
         pointerEvents="none"
       />
     </g>

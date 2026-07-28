@@ -27,7 +27,7 @@
           "name": "Mozilla"
         }
       ],
-      "importance": 2,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -71,7 +71,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -121,7 +121,7 @@
       ],
       "companies": [],
       "quoteText": "Software is eating the world.",
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -153,15 +153,32 @@
         "problemSolved": "Every Twitter internal app reinvented the same buttons, forms, and grids with inconsistent CSS."
       },
       "category": "software",
-      "tags": ["bootstrap", "css", "frontend", "web", "open-source"],
+      "tags": [
+        "bootstrap",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
       "people": [
-        { "id": "mark-otto", "name": "Mark Otto", "role": "co-creator" },
-        { "id": "jacob-thornton", "name": "Jacob Thornton", "role": "co-creator" }
+        {
+          "id": "mark-otto",
+          "name": "Mark Otto",
+          "role": "co-creator"
+        },
+        {
+          "id": "jacob-thornton",
+          "name": "Jacob Thornton",
+          "role": "co-creator"
+        }
       ],
       "companies": [
-        { "id": "twitter", "name": "Twitter" }
+        {
+          "id": "twitter",
+          "name": "Twitter"
+        }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -175,7 +192,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["jquery-1-0-released", "angularjs-released", "react-open-sourced"]
+      "relatedIds": [
+        "jquery-1-0-released",
+        "angularjs-released",
+        "react-open-sourced"
+      ]
     }
   ]
 }

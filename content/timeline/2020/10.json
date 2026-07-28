@@ -21,7 +21,7 @@
         "frontend",
         "build-tool"
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -69,7 +69,7 @@
           "name": "Google"
         }
       ],
-      "importance": 3,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -119,7 +119,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {

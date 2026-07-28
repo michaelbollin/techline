@@ -27,7 +27,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -74,7 +74,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -109,8 +109,14 @@
         "problemSolved": "European developers lacked a free, full-featured alternative to paid cart software."
       },
       "category": "software",
-      "tags": ["shopware", "ecommerce", "php", "open-source", "web"],
-      "importance": 1,
+      "tags": [
+        "shopware",
+        "ecommerce",
+        "php",
+        "open-source",
+        "web"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -124,7 +130,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["shopware-released", "shopware-open-sourced", "prestashop-released"]
+      "relatedIds": [
+        "shopware-released",
+        "shopware-open-sourced",
+        "prestashop-released"
+      ]
     }
   ]
 }

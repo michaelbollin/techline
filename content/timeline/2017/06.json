@@ -14,8 +14,15 @@
         "problemSolved": "Duplicate packages across projects wasted disk and hid missing dependency declarations."
       },
       "category": "software",
-      "tags": ["pnpm", "npm", "package-manager", "javascript", "nodejs", "monorepo"],
-      "importance": 1,
+      "tags": [
+        "pnpm",
+        "npm",
+        "package-manager",
+        "javascript",
+        "nodejs",
+        "monorepo"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["npm-first-released", "yarn-released", "nodejs-0-10-released"]
+      "relatedIds": [
+        "npm-first-released",
+        "yarn-released",
+        "nodejs-0-10-released"
+      ]
     }
   ]
 }

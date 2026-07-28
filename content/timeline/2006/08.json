@@ -14,11 +14,21 @@
         "problemSolved": "Cross-browser DOM and AJAX code required verbose, incompatible boilerplate."
       },
       "category": "software",
-      "tags": ["jquery", "javascript", "frontend", "web", "dom"],
-      "people": [
-        { "id": "john-resig", "name": "John Resig", "role": "creator" }
+      "tags": [
+        "jquery",
+        "javascript",
+        "frontend",
+        "web",
+        "dom"
       ],
-      "importance": 1,
+      "people": [
+        {
+          "id": "john-resig",
+          "name": "John Resig",
+          "role": "creator"
+        }
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -32,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["angularjs-released", "bootstrap-released", "ecmascript-5-adopted"]
+      "relatedIds": [
+        "angularjs-released",
+        "bootstrap-released",
+        "ecmascript-5-adopted"
+      ]
     }
   ]
 }

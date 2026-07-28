@@ -14,8 +14,13 @@
         "problemSolved": "Developers reversed arrays or wrote loops to find the last matching element."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "standard", "browser"],
-      "importance": 3,
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "standard",
+        "browser"
+      ],
+      "importance": 9,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2022-adopted", "ecmascript-2024-adopted"]
+      "relatedIds": [
+        "ecmascript-2022-adopted",
+        "ecmascript-2024-adopted"
+      ]
     }
   ]
 }

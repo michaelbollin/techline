@@ -14,8 +14,14 @@
         "problemSolved": "Developers wanted CMS power without WordPress bloat or ExpressionEngine rigidity."
       },
       "category": "software",
-      "tags": ["craft", "cms", "php", "web", "twig"],
-      "importance": 1,
+      "tags": [
+        "craft",
+        "cms",
+        "php",
+        "web",
+        "twig"
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["wordpress-released", "drupal-7-released", "symfony-released"]
+      "relatedIds": [
+        "wordpress-released",
+        "drupal-7-released",
+        "symfony-released"
+      ]
     }
   ]
 }

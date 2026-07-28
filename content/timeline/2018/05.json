@@ -33,7 +33,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -65,12 +65,24 @@
         "problemSolved": "Enterprises stitched together separate CMS, analytics, and cart platforms without unified customer data."
       },
       "category": "company",
-      "tags": ["adobe", "magento", "ecommerce", "acquisition", "saas"],
-      "companies": [
-        { "id": "adobe", "name": "Adobe" },
-        { "id": "magento", "name": "Magento" }
+      "tags": [
+        "adobe",
+        "magento",
+        "ecommerce",
+        "acquisition",
+        "saas"
       ],
-      "importance": 1,
+      "companies": [
+        {
+          "id": "adobe",
+          "name": "Adobe"
+        },
+        {
+          "id": "magento",
+          "name": "Magento"
+        }
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -84,7 +96,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["magento-1-0-released", "magento-2-0-released", "shopify-ipo"]
+      "relatedIds": [
+        "magento-1-0-released",
+        "magento-2-0-released",
+        "shopify-ipo"
+      ]
     }
   ]
 }

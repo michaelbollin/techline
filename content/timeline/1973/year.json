@@ -31,7 +31,7 @@
         "research",
         "gchq"
       ],
-      "importance": 3,
+      "importance": 5,
       "sources": [
         {
           "title": "GCHQ — Public-key cryptography declassified (1973 work)",
@@ -68,7 +68,7 @@
         "invention"
       ],
       "people": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {

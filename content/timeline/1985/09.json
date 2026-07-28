@@ -28,7 +28,7 @@
         "networking",
         "protocol"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "title": "IEEE — Perlman, An Algorithm for Distributed Computation of a Spanning Tree (1985)",

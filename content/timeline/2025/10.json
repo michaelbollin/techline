@@ -14,8 +14,11 @@
         "problemSolved": "Python needed safer string interpolation and continued progress removing the GIL bottleneck."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +32,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-3-13-released"]
+      "relatedIds": [
+        "python-3-13-released"
+      ]
     }
   ]
 }

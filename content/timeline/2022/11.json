@@ -72,7 +72,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -118,7 +118,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -152,8 +152,14 @@
         "problemSolved": "Teams on Java 8 and javax APIs needed a clear upgrade path for cloud-native deployments."
       },
       "category": "software",
-      "tags": ["spring-boot", "spring", "java", "web-framework", "jakarta"],
-      "importance": 1,
+      "tags": [
+        "spring-boot",
+        "spring",
+        "java",
+        "web-framework",
+        "jakarta"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -167,7 +173,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["spring-boot-2-0-released", "spring-boot-1-0-released", "java-17-released"]
+      "relatedIds": [
+        "spring-boot-2-0-released",
+        "spring-boot-1-0-released",
+        "java-17-released"
+      ]
     }
   ]
 }

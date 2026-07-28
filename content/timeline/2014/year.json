@@ -14,8 +14,14 @@
         "problemSolved": "High-fidelity prototypes could not become production sites without a full rebuild."
       },
       "category": "software",
-      "tags": ["framer", "design", "prototyping", "nocode", "web"],
-      "importance": 1,
+      "tags": [
+        "framer",
+        "design",
+        "prototyping",
+        "nocode",
+        "web"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["webflow-launched", "squarespace-launched", "react-open-sourced"]
+      "relatedIds": [
+        "webflow-launched",
+        "squarespace-launched",
+        "react-open-sourced"
+      ]
     }
   ]
 }

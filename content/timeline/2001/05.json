@@ -14,11 +14,21 @@
         "problemSolved": "EJB2 entity beans were verbose, container-dependent, and painful for typical web applications."
       },
       "category": "software",
-      "tags": ["hibernate", "java", "orm", "database", "open-source"],
-      "people": [
-        { "id": "gavin-king", "name": "Gavin King", "role": "creator" }
+      "tags": [
+        "hibernate",
+        "java",
+        "orm",
+        "database",
+        "open-source"
       ],
-      "importance": 1,
+      "people": [
+        {
+          "id": "gavin-king",
+          "name": "Gavin King",
+          "role": "creator"
+        }
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -32,7 +42,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["spring-framework-1-0-released", "java-1-0-shipped", "mysql-first-released"]
+      "relatedIds": [
+        "spring-framework-1-0-released",
+        "java-1-0-shipped",
+        "mysql-first-released"
+      ]
     }
   ]
 }

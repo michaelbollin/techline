@@ -29,7 +29,7 @@
           "name": "Samsung"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -77,7 +77,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -127,7 +127,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -174,7 +174,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {

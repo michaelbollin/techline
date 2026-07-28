@@ -29,7 +29,7 @@
         }
       ],
       "companies": [],
-      "importance": 1,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -77,7 +77,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 3,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -126,7 +126,7 @@
           "name": "Nokia"
         }
       ],
-      "importance": 3,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -167,7 +167,7 @@
         "php",
         "programming-language"
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {

@@ -33,7 +33,7 @@
         "linux",
         "operating-system"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "comp.os.minix — LINUX is obsolete (January 29, 1992)",
@@ -80,7 +80,7 @@
         "linux",
         "operating-system"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "comp.os.minix — Re: LINUX is obsolete (January 29, 1992)",

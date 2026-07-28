@@ -71,7 +71,7 @@ bucketPathForEvent({ date: "2022-11-30", datePrecision: "day" });
 | `tags` | no | Filters, e.g. `llm`, `internet`, `people` |
 | `people` | no | Key figures on this milestone — see [People](#people) |
 | `companies` | no | Vendor / foundation on this milestone — see [Companies](#companies) |
-| `importance` | yes | `1` landmark, `2` standard, `3` dense |
+| `importance` | yes | `0`–`9` — lower = more important; see [Importance](#importance) |
 | `media` | no | YouTube, links, memes, images |
 | `sources` | no | Citations — prefer two links: `role: "date"` confirms when, `role: "overview"` confirms what it was for (Wikipedia, official docs) |
 | `relatedIds` | no | Other event ids |
@@ -98,6 +98,20 @@ Keep `summary` short for the timeline list. Use `about` for accessible context �
   "problemSolved": "What problem or constraint it addressed."
 }
 ```
+
+### Importance
+
+`importance` is an integer from `0` (most important) to `9` (densest). It controls which events get timeline labels at each zoom level — lower tiers appear when zoomed out; higher tiers only when zoomed in or when label lanes have space.
+
+| Range | Meaning | Examples |
+|-------|---------|----------|
+| `0` | Pillar — era-defining | Internet, WWW, iPhone launch |
+| `1`–`2` | Landmark — platform shift | C, Java, iPhone X, Galaxy Fold |
+| `3`–`5` | Major — notable release or standard | Framework 1.0, flagship with a twist |
+| `6`–`7` | Standard — annual iteration | iPhone 13, Galaxy S23 |
+| `8`–`9` | Dense — minor; hidden until tight zoom | Mid-tier refresh, patch-level |
+
+Dots use four visual sizes mapped from these tiers; you do not need ten distinct sizes.
 
 ### Sources
 
@@ -127,7 +141,7 @@ Use milestone titles like **founds**, **creates**, **named CEO**, **researches**
 
 Roles: `creator`, `co-creator`, `founder`, `co-founder`, `ceo`, `cto`, `researcher`, `author`, `maintainer`.
 
-Tag people milestones with `"people"` in `tags`. Use `importance: 1` for world-changing figures (founders of major platforms, Turing-level researchers); `2` for significant but narrower milestones.
+Tag people milestones with `"people"` in `tags`. Use `importance: 2–3` for world-changing figures (founders of major platforms, Turing-level researchers); `5–6` for significant but narrower milestones.
 
 ### Companies
 
@@ -225,7 +239,7 @@ const { events, buckets } = await loadTimeline();
 ## Authoring tips
 
 - Put many events in the same `YYYY/MM.json` when they share a month.
-- Use `importance: 3` to keep busy months manageable in the UI later.
+- Use higher `importance` values (`7`–`9`) to keep busy months manageable — they appear only when zoomed in.
 - Keep `id` stable once published.
 - Prefer primary sources for dates; Wikipedia or official docs for overview/purpose.
 - **People milestones:** see [RESEARCH-PLAN-PEOPLE.md](./RESEARCH-PLAN-PEOPLE.md) for batch backlog and attribution rules.

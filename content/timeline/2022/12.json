@@ -14,8 +14,13 @@
         "problemSolved": "Svelte needed routing, SSR, and deployment adapters before teams could build real products on it."
       },
       "category": "software",
-      "tags": ["svelte", "frontend", "ssr", "web-framework"],
-      "importance": 3,
+      "tags": [
+        "svelte",
+        "frontend",
+        "ssr",
+        "web-framework"
+      ],
+      "importance": 9,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["vue-3-released", "nextjs-13-app-router"]
+      "relatedIds": [
+        "vue-3-released",
+        "nextjs-13-app-router"
+      ]
     },
     {
       "id": "drupal-10-released",
@@ -45,9 +53,22 @@
         "problemSolved": "Drupal 9 sites faced security risk when Symfony 4 and CKEditor 4 reached end-of-life."
       },
       "category": "software",
-      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
-      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
-      "importance": 1,
+      "tags": [
+        "drupal",
+        "cms",
+        "php",
+        "symfony",
+        "web",
+        "api"
+      ],
+      "people": [
+        {
+          "id": "dries-buytaert",
+          "name": "Dries Buytaert",
+          "role": "creator"
+        }
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -61,7 +82,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["drupal-9-released", "drupal-8-released", "symfony-4-released"]
+      "relatedIds": [
+        "drupal-9-released",
+        "drupal-8-released",
+        "symfony-4-released"
+      ]
     }
   ]
 }

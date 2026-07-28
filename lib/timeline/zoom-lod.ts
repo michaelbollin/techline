@@ -1,38 +1,53 @@
 import { LABEL_BOX_HEIGHT, LABEL_LANE_STEP, LABEL_OFFSET } from "./label-layout";
+import { IMPORTANCE_MAX, type Importance } from "./importance";
 
 /**
- * Importance tiers (from content schema):
+ * Importance tiers (from content schema, 0–9):
  * 0 — pillar / era-defining (sparse at full-timeline zoom)
- * 1 — landmark / milestone (e.g. C, Java, Linux-era shifts)
- * 2 — standard / notable (releases, major standards)
- * 3 — dense / minor (patch-level, secondary milestones)
+ * 1–2 — landmark / platform shift
+ * 3–5 — major / notable release or standard
+ * 6–7 — standard / annual iteration
+ * 8–9 — dense / minor (hidden until zoomed tight)
  */
 export function maxImportanceForZoom(
   msPerPixel: number,
   visibleSpanMs: number,
-): 0 | 1 | 2 | 3 {
+): Importance {
   const msPerDay = 86_400_000;
   const msPerYear = 365.25 * msPerDay;
 
-  let tier: 0 | 1 | 2 | 3;
-  if (msPerPixel > msPerDay * 20) {
+  let tier: number;
+  if (msPerPixel > msPerDay * 60) {
     tier = 0;
-  } else if (msPerPixel > msPerDay * 4) {
+  } else if (msPerPixel > msPerDay * 20) {
     tier = 1;
-  } else if (msPerPixel > msPerDay) {
+  } else if (msPerPixel > msPerDay * 8) {
     tier = 2;
-  } else {
+  } else if (msPerPixel > msPerDay * 4) {
     tier = 3;
+  } else if (msPerPixel > msPerDay * 2) {
+    tier = 4;
+  } else if (msPerPixel > msPerDay) {
+    tier = 5;
+  } else if (msPerPixel > msPerDay / 4) {
+    tier = 6;
+  } else if (msPerPixel > msPerDay / 12) {
+    tier = 7;
+  } else if (msPerPixel > msPerDay / 48) {
+    tier = 8;
+  } else {
+    tier = IMPORTANCE_MAX;
   }
 
-  // Month-scale views stay readable — dense tier-3 labels only when zoomed tight.
-  if (visibleSpanMs > msPerYear * 0.75) {
-    tier = Math.min(tier, 1) as 0 | 1 | 2 | 3;
+  if (visibleSpanMs > msPerYear * 2) {
+    tier = Math.min(tier, 1);
+  } else if (visibleSpanMs > msPerYear * 0.75) {
+    tier = Math.min(tier, 3);
   } else if (visibleSpanMs > msPerYear * 0.3) {
-    tier = Math.min(tier, 2) as 0 | 1 | 2 | 3;
+    tier = Math.min(tier, 6);
   }
 
-  return tier;
+  return tier as Importance;
 }
 
 /** Lane budget from zoom level — kept low to avoid tall label stacks. */

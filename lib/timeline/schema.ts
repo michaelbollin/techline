@@ -1,5 +1,7 @@
 import { z } from "zod";
 
+import { IMPORTANCE_LEVELS, type Importance } from "./importance";
+
 export const datePrecisionSchema = z.enum(["day", "month", "year", "decade"]);
 
 export const timelineCategorySchema = z.enum([
@@ -90,7 +92,20 @@ export const timelineEventSchema = z.object({
   companies: z.array(companyRefSchema).default([]),
   /** Exact wording for `category: "quote"` events — the famous line(s). */
   quoteText: z.string().min(1).optional(),
-  importance: z.union([z.literal(0), z.literal(1), z.literal(2), z.literal(3)]),
+  importance: z.union(
+    IMPORTANCE_LEVELS.map((level) => z.literal(level)) as [
+      z.ZodLiteral<0>,
+      z.ZodLiteral<1>,
+      z.ZodLiteral<2>,
+      z.ZodLiteral<3>,
+      z.ZodLiteral<4>,
+      z.ZodLiteral<5>,
+      z.ZodLiteral<6>,
+      z.ZodLiteral<7>,
+      z.ZodLiteral<8>,
+      z.ZodLiteral<9>,
+    ],
+  ),
   media: z.array(mediaItemSchema).default([]),
   sources: z.array(sourceSchema).default([]),
   relatedIds: z.array(z.string().min(1)).default([]),
@@ -108,6 +123,8 @@ export const timelineEventSchema = z.object({
 export const timelineBucketFileSchema = z.object({
   events: z.array(timelineEventSchema).min(1),
 });
+
+export type { Importance };
 
 export type DatePrecision = z.infer<typeof datePrecisionSchema>;
 export type TimelineCategory = z.infer<typeof timelineCategorySchema>;

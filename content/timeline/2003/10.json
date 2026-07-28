@@ -14,8 +14,15 @@
         "problemSolved": "Each new language or target meant forking a whole compiler; researchers needed modular optimization."
       },
       "category": "software",
-      "tags": ["llvm", "compiler", "ir", "open-source", "c", "cpp"],
-      "importance": 1,
+      "tags": [
+        "llvm",
+        "compiler",
+        "ir",
+        "open-source",
+        "c",
+        "cpp"
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["clang-open-sourced", "gcc-1-0-released"]
+      "relatedIds": [
+        "clang-open-sourced",
+        "gcc-1-0-released"
+      ]
     }
   ]
 }

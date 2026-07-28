@@ -26,7 +26,7 @@
           "role": "author"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -69,7 +69,7 @@
           "role": "author"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -117,7 +117,7 @@
         "software-engineering",
         "refactoring"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "martinfowler.com — Refactoring book (1999)",

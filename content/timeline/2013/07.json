@@ -31,7 +31,7 @@
           "name": "Opera"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -72,7 +72,7 @@
         "static-analysis",
         "open-source"
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -119,7 +119,7 @@
           "name": "Nokia"
         }
       ],
-      "importance": 3,
+      "importance": 9,
       "media": [],
       "sources": [
         {

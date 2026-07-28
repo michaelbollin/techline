@@ -14,8 +14,13 @@
         "problemSolved": "Older Fortran lacked modern control structures, and teams needed one stable definition that worked the same on every vendor's compiler."
       },
       "category": "software",
-      "tags": ["fortran", "ansi", "standard", "scientific-computing"],
-      "importance": 2,
+      "tags": [
+        "fortran",
+        "ansi",
+        "standard",
+        "scientific-computing"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["fortran-formally-published", "fortran-first-delivery", "fortran-90-standard"]
+      "relatedIds": [
+        "fortran-formally-published",
+        "fortran-first-delivery",
+        "fortran-90-standard"
+      ]
     }
   ]
 }

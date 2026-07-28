@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { CategoryBadge } from "@/components/timeline/category-badge";
 import { eventPath, formatEventDate } from "@/lib/timeline/format";
+import { IMPORTANCE_LABELS } from "@/lib/timeline/importance";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 type EventCardProps = {
@@ -16,12 +17,12 @@ export function EventCard({ event }: EventCardProps) {
           {formatEventDate(event.date, event.datePrecision)}
         </time>
         <CategoryBadge category={event.category} />
-        {event.importance === 0 && (
+        {IMPORTANCE_LABELS[event.importance] === "Pillar" && (
           <span className="rounded-full border border-black bg-black px-2 py-0.5 text-xs font-medium tracking-wide text-white uppercase">
             Pillar
           </span>
         )}
-        {event.importance === 1 && (
+        {IMPORTANCE_LABELS[event.importance] === "Landmark" && (
           <span className="rounded-full bg-accent-muted px-2 py-0.5 text-xs font-medium tracking-wide text-accent uppercase">
             Landmark
           </span>

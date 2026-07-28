@@ -29,7 +29,7 @@
         "research",
         "sorting"
       ],
-      "importance": 2,
+      "importance": 4,
       "sources": [
         {
           "title": "CACM — Algorithm 64: Quicksort (July 1961)",

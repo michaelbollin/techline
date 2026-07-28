@@ -23,7 +23,7 @@
         "chip"
       ],
       "people": [],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -79,7 +79,7 @@
         "research",
         "zero-knowledge"
       ],
-      "importance": 2,
+      "importance": 5,
       "sources": [
         {
           "title": "STOC 1985 — The Knowledge Complexity of Interactive Proof Systems",
@@ -123,7 +123,7 @@
         "cobol",
         "advocacy"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "Yale — Grace Murray Hopper archives",

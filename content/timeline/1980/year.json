@@ -75,7 +75,7 @@
         "networking",
         "ethernet"
       ],
-      "importance": 2,
+      "importance": 7,
       "sources": [
         {
           "title": "Wikipedia — Metcalfe's law (1980s formulation)",

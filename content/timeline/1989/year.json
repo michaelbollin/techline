@@ -31,7 +31,7 @@
         "computer-vision",
         "cnn"
       ],
-      "importance": 2,
+      "importance": 3,
       "sources": [
         {
           "title": "LeCun et al. — Backpropagation Applied to Handwritten Zip Code Recognition (1989)",

@@ -14,8 +14,11 @@
         "problemSolved": "Teams needed a mature 2.x with modern stdlib pieces while planning Python 3 adoption."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +32,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-2-0-released", "python-3-0-released", "python-2-end-of-life"]
+      "relatedIds": [
+        "python-2-0-released",
+        "python-3-0-released",
+        "python-2-end-of-life"
+      ]
     },
     {
       "id": "haskell-2010-standard",
@@ -45,8 +52,13 @@
         "problemSolved": "Haskell 98 was too minimal for real systems programming and FFI needs."
       },
       "category": "software",
-      "tags": ["haskell", "functional-programming", "standard", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "haskell",
+        "functional-programming",
+        "standard",
+        "programming-language"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -60,7 +72,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["haskell-1-0-report"]
+      "relatedIds": [
+        "haskell-1-0-report"
+      ]
     }
   ]
 }

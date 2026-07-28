@@ -14,8 +14,13 @@
         "problemSolved": "There was no shared language for describing algorithms in journals and textbooks; every computer vendor used its own syntax."
       },
       "category": "software",
-      "tags": ["algol", "programming-language", "acm", "international-standard"],
-      "importance": 1,
+      "tags": [
+        "algol",
+        "programming-language",
+        "acm",
+        "international-standard"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -34,7 +39,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["algol-60-published"]
+      "relatedIds": [
+        "algol-60-published"
+      ]
     }
   ]
 }

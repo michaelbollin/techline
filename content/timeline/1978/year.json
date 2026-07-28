@@ -31,7 +31,7 @@
         "research",
         "author"
       ],
-      "importance": 2,
+      "importance": 5,
       "sources": [
         {
           "title": "Knuth — TeX development began (1978)",

@@ -14,8 +14,14 @@
         "problemSolved": "Scientists needed far more floating-point throughput than general-purpose mainframes could provide."
       },
       "category": "hardware",
-      "tags": ["hardware", "supercomputer", "cray", "hpc", "server"],
-      "importance": 1,
+      "tags": [
+        "hardware",
+        "supercomputer",
+        "cray",
+        "hpc",
+        "server"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ibm-system-360-announced", "dec-pdp-8-shipped"]
+      "relatedIds": [
+        "ibm-system-360-announced",
+        "dec-pdp-8-shipped"
+      ]
     }
   ]
 }

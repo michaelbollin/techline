@@ -14,8 +14,15 @@
         "problemSolved": "Personal computers were sold through niche mail-order and hobby shops with little mainstream reach."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "trs-80", "radio-shack", "8-bit", "microcomputer"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "pc",
+        "trs-80",
+        "radio-shack",
+        "8-bit",
+        "microcomputer"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apple-ii-introduced", "commodore-pet-2001-released", "altair-8800-released", "ibm-pc-5150-released"]
+      "relatedIds": [
+        "apple-ii-introduced",
+        "commodore-pet-2001-released",
+        "altair-8800-released",
+        "ibm-pc-5150-released"
+      ]
     }
   ]
 }

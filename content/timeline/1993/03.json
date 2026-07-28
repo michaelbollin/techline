@@ -63,8 +63,13 @@
         "problemSolved": "Researchers and students on Unix shells needed a keyboard-driven way to read HTML documents."
       },
       "category": "software",
-      "tags": ["browser", "web", "lynx", "accessibility"],
-      "importance": 2,
+      "tags": [
+        "browser",
+        "web",
+        "lynx",
+        "accessibility"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -78,7 +83,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["lynx-browser-created", "mosaic-1-0-released"]
+      "relatedIds": [
+        "lynx-browser-created",
+        "mosaic-1-0-released"
+      ]
     }
   ]
 }

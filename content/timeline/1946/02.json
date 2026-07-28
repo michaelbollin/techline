@@ -14,7 +14,13 @@
         "problemSolved": "World War II ballistics tables took weeks of human calculation; the Army needed faster, repeatable numerical work."
       },
       "category": "invention",
-      "tags": ["hardware", "mainframe", "eniac", "computer", "invention"],
+      "tags": [
+        "hardware",
+        "mainframe",
+        "eniac",
+        "computer",
+        "invention"
+      ],
       "people": [],
       "companies": [],
       "importance": 1,
@@ -31,7 +37,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["edsac-first-programs", "edsac-initial-orders", "univac-i-delivered"]
+      "relatedIds": [
+        "edsac-first-programs",
+        "edsac-initial-orders",
+        "univac-i-delivered"
+      ]
     }
   ]
 }

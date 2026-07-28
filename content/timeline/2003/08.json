@@ -14,8 +14,11 @@
         "problemSolved": "Earlier Ruby branches changed too quickly for frameworks and hosting providers to standardize."
       },
       "category": "software",
-      "tags": ["ruby", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "ruby",
+        "programming-language"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +32,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ruby-0-95-released", "rails-open-sourced", "ruby-3-0-released"]
+      "relatedIds": [
+        "ruby-0-95-released",
+        "rails-open-sourced",
+        "ruby-3-0-released"
+      ]
     }
   ]
 }

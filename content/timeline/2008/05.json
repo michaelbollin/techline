@@ -33,7 +33,7 @@
         "javascript",
         "books"
       ],
-      "importance": 2,
+      "importance": 5,
       "sources": [
         {
           "title": "O'Reilly — JavaScript: The Good Parts (May 2008)",
@@ -74,7 +74,7 @@
           "name": "BlackBerry"
         }
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -123,7 +123,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {

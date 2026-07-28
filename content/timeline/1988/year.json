@@ -14,8 +14,14 @@
         "problemSolved": "Every interactive application needed a command language; Ousterhout wanted one reusable interpreter libraries could embed."
       },
       "category": "software",
-      "tags": ["tcl", "ousterhout", "berkeley", "embeddable", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "tcl",
+        "ousterhout",
+        "berkeley",
+        "embeddable",
+        "programming-language"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {

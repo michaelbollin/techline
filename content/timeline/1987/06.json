@@ -14,8 +14,15 @@
         "problemSolved": "Acorn needed a faster, cooler CPU than off-the-shelf chips for education and home markets."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "acorn", "arm", "risc", "microcomputer"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "pc",
+        "acorn",
+        "arm",
+        "risc",
+        "microcomputer"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apple-m1-announced", "apple-m1-mac-shipped", "raspberry-pi-model-b-released", "apple-newton-released"]
+      "relatedIds": [
+        "apple-m1-announced",
+        "apple-m1-mac-shipped",
+        "raspberry-pi-model-b-released",
+        "apple-newton-released"
+      ]
     }
   ]
 }

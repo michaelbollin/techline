@@ -22,7 +22,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -64,7 +64,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -117,7 +117,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -151,9 +151,20 @@
         "problemSolved": "Fast-growing Shopify merchants outgrew standard plans but wanted to stay on the platform."
       },
       "category": "software",
-      "tags": ["shopify", "ecommerce", "enterprise", "saas", "retail"],
-      "companies": [{ "id": "shopify", "name": "Shopify" }],
-      "importance": 1,
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "enterprise",
+        "saas",
+        "retail"
+      ],
+      "companies": [
+        {
+          "id": "shopify",
+          "name": "Shopify"
+        }
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -167,7 +178,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["shopify-launched", "shopify-ipo", "magento-2-0-released"]
+      "relatedIds": [
+        "shopify-launched",
+        "shopify-ipo",
+        "magento-2-0-released"
+      ]
     }
   ]
 }

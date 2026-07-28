@@ -14,8 +14,15 @@
         "problemSolved": "Teams wanted o1-class reasoning without proprietary API lock-in or extreme costs."
       },
       "category": "software",
-      "tags": ["ai", "deepseek", "llm", "open-source", "reasoning", "machine-learning"],
-      "importance": 1,
+      "tags": [
+        "ai",
+        "deepseek",
+        "llm",
+        "open-source",
+        "reasoning",
+        "machine-learning"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["openai-o1-released", "llama-3-released", "gpt-4-released"]
+      "relatedIds": [
+        "openai-o1-released",
+        "llama-3-released",
+        "gpt-4-released"
+      ]
     },
     {
       "id": "tailwind-css-4-released",
@@ -45,11 +56,21 @@
         "problemSolved": "Tailwind 3's JavaScript config and PostCSS pipeline slowed large monorepo builds."
       },
       "category": "software",
-      "tags": ["tailwind", "css", "frontend", "web", "open-source"],
-      "people": [
-        { "id": "adam-wathan", "name": "Adam Wathan", "role": "creator" }
+      "tags": [
+        "tailwind",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
       ],
-      "importance": 1,
+      "people": [
+        {
+          "id": "adam-wathan",
+          "name": "Adam Wathan",
+          "role": "creator"
+        }
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -63,7 +84,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tailwind-css-1-0-released", "tailwind-css-released", "bootstrap-5-released"]
+      "relatedIds": [
+        "tailwind-css-1-0-released",
+        "tailwind-css-released",
+        "bootstrap-5-released"
+      ]
     }
   ]
 }

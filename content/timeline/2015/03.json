@@ -29,7 +29,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -81,7 +81,7 @@
           "name": "NVIDIA"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {

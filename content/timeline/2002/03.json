@@ -14,8 +14,14 @@
         "problemSolved": "Professionals needed reliable mobile email without constantly dialing into desktop clients."
       },
       "category": "hardware",
-      "tags": ["hardware", "mobile", "smartphone", "blackberry", "email"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "blackberry",
+        "email"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,13 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["palm-pilot-1000-released", "nokia-9000-communicator-released", "iphone-goes-on-sale", "sidekick-released", "blackberry-os-eol"]
+      "relatedIds": [
+        "palm-pilot-1000-released",
+        "nokia-9000-communicator-released",
+        "iphone-goes-on-sale",
+        "sidekick-released",
+        "blackberry-os-eol"
+      ]
     }
   ]
 }

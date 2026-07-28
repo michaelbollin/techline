@@ -14,8 +14,12 @@
         "problemSolved": "Lua 5.0's package model was awkward for large embedded codebases."
       },
       "category": "software",
-      "tags": ["lua", "programming-language", "embedded"],
-      "importance": 2,
+      "tags": [
+        "lua",
+        "programming-language",
+        "embedded"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +33,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["lua-5-0-released"]
+      "relatedIds": [
+        "lua-5-0-released"
+      ]
     }
   ]
 }

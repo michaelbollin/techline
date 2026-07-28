@@ -22,7 +22,7 @@
         "deployment",
         "web"
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -71,7 +71,7 @@
           "name": "Samsung"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -123,7 +123,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -173,7 +173,7 @@
           "name": "Google"
         }
       ],
-      "importance": 1,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -221,7 +221,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {

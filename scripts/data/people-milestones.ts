@@ -37,7 +37,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "bill-gates", name: "Bill Gates", role: "co-founder" },
       { id: "paul-allen", name: "Paul Allen", role: "co-founder" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Microsoft — Our history (founded April 4, 1975)",
@@ -69,7 +69,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "linux", "open-source", "operating-system"],
     people: [{ id: "linus-torvalds", name: "Linus Torvalds", role: "creator" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "LKML archive — Linux 0.01 announcement (August 25, 1991)",
@@ -104,7 +104,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "larry-page", name: "Larry Page", role: "co-founder" },
       { id: "sergey-brin", name: "Sergey Brin", role: "co-founder" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Google — Our story (founded September 1998)",
@@ -136,7 +136,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "algorithms", "computer-science", "author"],
     people: [{ id: "donald-knuth", name: "Donald Knuth", role: "author" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Stanford — Donald E. Knuth (TAOCP bibliography)",
@@ -171,7 +171,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "dennis-ritchie", name: "Dennis Ritchie", role: "creator" },
       { id: "ken-thompson", name: "Ken Thompson", role: "co-creator" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 1983 Turing Award (Ritchie & Thompson)",
@@ -203,7 +203,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "information-theory", "research"],
     people: [{ id: "claude-shannon", name: "Claude Shannon", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Bell System Technical Journal — Shannon 1948 paper",
@@ -235,7 +235,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "computer-science", "research"],
     people: [{ id: "alan-turing", name: "Alan Turing", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Proceedings of the London Mathematical Society — Turing 1936",
@@ -267,7 +267,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "software-engineering", "aerospace"],
     people: [{ id: "margaret-hamilton", name: "Margaret Hamilton", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "NASA — Apollo 11 mission (July 1969)",
@@ -299,7 +299,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "history", "programming"],
     people: [{ id: "ada-lovelace", name: "Ada Lovelace", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Scientific Memoirs — Lovelace's Notes (1843)",
@@ -333,7 +333,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "microsoft", "ceo"],
     people: [{ id: "bill-gates", name: "Bill Gates", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Microsoft — Gates steps down as CEO (January 13, 2000)",
@@ -365,7 +365,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "microsoft", "ceo"],
     people: [{ id: "steve-ballmer", name: "Steve Ballmer", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Microsoft — Ballmer promoted to CEO (January 13, 2000)",
@@ -397,7 +397,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "microsoft", "ceo", "open-source"],
     people: [{ id: "satya-nadella", name: "Satya Nadella", role: "ceo" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Microsoft — Satya Nadella CEO announcement (February 4, 2014)",
@@ -429,7 +429,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "google", "ceo"],
     people: [{ id: "sundar-pichai", name: "Sundar Pichai", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Google — Sundar Pichai CEO (August 10, 2015)",
@@ -461,7 +461,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "google", "ceo"],
     people: [{ id: "eric-schmidt", name: "Eric Schmidt", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Google — Eric Schmidt CEO era (August 2001)",
@@ -493,7 +493,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "openai", "ai", "founding"],
     people: [{ id: "sam-altman", name: "Sam Altman", role: "co-founder" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "OpenAI — Introducing OpenAI (December 11, 2015)",
@@ -525,7 +525,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "anthropic", "ai", "founding"],
     people: [{ id: "dario-amodei", name: "Dario Amodei", role: "co-founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Anthropic — Company (founded 2021)",
@@ -559,7 +559,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "python", "maintainer"],
     people: [{ id: "guido-van-rossum", name: "Guido van Rossum", role: "maintainer" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Python.org — Transfer of power (July 12, 2018)",
@@ -591,7 +591,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "redis", "maintainer", "open-source"],
     people: [{ id: "salvatore-sanfilippo", name: "Salvatore Sanfilippo", role: "maintainer" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "antirez — Stepping down (June 30, 2020)",
@@ -623,7 +623,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "mozilla", "javascript", "ceo"],
     people: [{ id: "brendan-eich", name: "Brendan Eich", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Mozilla — Brendan Eich steps down (April 3, 2014)",
@@ -655,7 +655,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "deno", "nodejs", "typescript"],
     people: [{ id: "ryan-dahl", name: "Ryan Dahl", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "JSConf EU — Ryan Dahl: Deno (May 30, 2018)",
@@ -687,7 +687,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "clojure", "lisp", "jvm", "programming-language"],
     people: [{ id: "rich-hickey", name: "Rich Hickey", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Clojure — Clojure 1.0 release (October 16, 2007)",
@@ -719,7 +719,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "cpp", "programming-language"],
     people: [{ id: "bjarne-stroustrup", name: "Bjarne Stroustrup", role: "creator" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Stroustrup — A History of C++ (first commercial release 1985)",
@@ -751,7 +751,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "java", "oracle"],
     people: [{ id: "james-gosling", name: "James Gosling", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Gosling — blog on leaving Oracle (April 2010)",
@@ -783,7 +783,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "perl", "programming-language"],
     people: [{ id: "larry-wall", name: "Larry Wall", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Perl.org — Perl history (Perl 1.0, December 1987)",
@@ -815,7 +815,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "pascal", "programming-language"],
     people: [{ id: "anders-hejlsberg", name: "Anders Hejlsberg", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Borland — Turbo Pascal history (1983)",
@@ -847,7 +847,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "rust", "programming-language"],
     people: [{ id: "graydon-hoare", name: "Graydon Hoare", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Rust — Project history (started 2006)",
@@ -881,7 +881,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "computer-science", "research"],
     people: [{ id: "edsger-dijkstra", name: "Edsger Dijkstra", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Communications of the ACM — Dijkstra letter (March 1968)",
@@ -913,7 +913,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "distributed-systems", "research"],
     people: [{ id: "leslie-lamport", name: "Leslie Lamport", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM TOCS — Lamport, The Part-Time Parliament (1998)",
@@ -945,7 +945,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "computer-science", "award"],
     people: [{ id: "barbara-liskov", name: "Barbara Liskov", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 2008 Turing Award (Barbara Liskov)",
@@ -977,7 +977,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "lisp", "ai", "programming-language"],
     people: [{ id: "john-mccarthy", name: "John McCarthy", role: "creator" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Stanford — McCarthy, Recursive Functions of Symbolic Expressions (1960; Lisp 1958)",
@@ -1009,7 +1009,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "pascal", "programming-language"],
     people: [{ id: "niklaus-wirth", name: "Niklaus Wirth", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ETH Zurich — Wirth, The Programming Language Pascal (1970)",
@@ -1041,7 +1041,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "software-engineering", "author"],
     people: [{ id: "fred-brooks", name: "Fred Brooks", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "University of North Carolina — Brooks bibliography (1975)",
@@ -1073,7 +1073,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "computer-architecture", "research"],
     people: [{ id: "john-von-neumann", name: "John von Neumann", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "IAS — First Draft of a Report on the EDVAC (June 1945)",
@@ -1105,7 +1105,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "compiler", "award"],
     people: [{ id: "frances-allen", name: "Frances Allen", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 2006 Turing Award (Frances Allen)",
@@ -1137,7 +1137,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "cryptography", "award"],
     people: [{ id: "shafi-goldwasser", name: "Shafi Goldwasser", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 2012 Turing Award (Goldwasser & Micali)",
@@ -1169,7 +1169,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "search", "research"],
     people: [{ id: "karen-sparck-jones", name: "Karen Spärck Jones", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Journal of Documentation — Spärck Jones, 1972",
@@ -1203,7 +1203,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "web", "open-source", "cern"],
     people: [{ id: "tim-berners-lee", name: "Tim Berners-Lee", role: "creator" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "CERN — Web release into public domain (April 30, 1993)",
@@ -1235,7 +1235,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "gnu", "open-source", "free-software"],
     people: [{ id: "richard-stallman", name: "Richard Stallman", role: "founder" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "GNU — The GNU Manifesto (March 1985)",
@@ -1267,7 +1267,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "open-source", "license", "free-software"],
     people: [{ id: "richard-stallman", name: "Richard Stallman", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "GNU — GPL version 1 (February 1989)",
@@ -1302,7 +1302,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "eric-raymond", name: "Eric S. Raymond", role: "co-founder" },
       { id: "bruce-perens", name: "Bruce Perens", role: "co-founder" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "OSI — History (founded February 1998)",
@@ -1334,7 +1334,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "mozilla", "browser", "open-source"],
     people: [{ id: "mitchell-baker", name: "Mitchell Baker", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Mozilla — Mozilla Foundation established (July 15, 2003)",
@@ -1369,7 +1369,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "jimmy-wales", name: "Jimmy Wales", role: "co-founder" },
       { id: "larry-sanger", name: "Larry Sanger", role: "co-founder" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Wikipedia — Wikipedia launched (January 15, 2001)",
@@ -1401,7 +1401,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "wiki", "collaboration"],
     people: [{ id: "ward-cunningham", name: "Ward Cunningham", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Cunningham & Cunningham — Wiki history (March 1995)",
@@ -1433,7 +1433,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "software-engineering", "author"],
     people: [{ id: "martin-fowler", name: "Martin Fowler", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "martinfowler.com — Refactoring book (1999)",
@@ -1465,7 +1465,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "agile", "testing", "author"],
     people: [{ id: "kent-beck", name: "Kent Beck", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Kent Beck — Extreme Programming Explained (1999)",
@@ -1497,7 +1497,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "open-source", "essay"],
     people: [{ id: "eric-raymond", name: "Eric S. Raymond", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Eric Raymond — The Cathedral and the Bazaar (1997)",
@@ -1531,7 +1531,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "networking", "protocol"],
     people: [{ id: "radia-perlman", name: "Radia Perlman", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "IEEE — Perlman, An Algorithm for Distributed Computation of a Spanning Tree (1985)",
@@ -1563,7 +1563,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "smalltalk", "oop", "gui"],
     people: [{ id: "adele-goldberg", name: "Adele Goldberg", role: "co-creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Xerox PARC — Smalltalk-80 (1980)",
@@ -1595,7 +1595,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "cobol", "advocacy"],
     people: [{ id: "grace-hopper", name: "Grace Hopper", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Yale — Grace Murray Hopper archives",
@@ -1627,7 +1627,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "diversity", "community"],
     people: [{ id: "anita-borg", name: "Anita Borg", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "AnitaB.org — Grace Hopper Celebration history (1994)",
@@ -1659,7 +1659,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "internet", "networking"],
     people: [{ id: "elizabeth-feinler", name: "Elizabeth Feinler", role: "researcher" }],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "Stanford — Feinler NIC history (1972–1989)",
@@ -1691,7 +1691,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "hardware",
     tags: ["people", "hardware", "accessibility"],
     people: [{ id: "mary-lou-jepsen", name: "Mary Lou Jepsen", role: "researcher" }],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "OLPC — One Laptop per Child project (2007)",
@@ -1723,7 +1723,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "design", "gui", "apple"],
     people: [{ id: "susan-kare", name: "Susan Kare", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Apple — Macintosh introduction (1984; Kare iconography 1983–84)",
@@ -1755,7 +1755,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "hardware", "vlsi"],
     people: [{ id: "lynn-conway", name: "Lynn Conway", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Mead & Conway — Introduction to VLSI Systems (1979)",
@@ -1787,7 +1787,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "programming-language", "symbolic-computing"],
     people: [{ id: "jean-sammet", name: "Jean Sammet", role: "creator" }],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "IBM — FORMAC development (1962)",
@@ -1823,7 +1823,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "michael-grobe", name: "Michael Grobe", role: "co-creator" },
       { id: "charles-rezac", name: "Charles Rezac", role: "co-creator" },
     ],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "University of Kansas — Lynx browser history (1992)",
@@ -1857,7 +1857,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "multimedia", "open-source"],
     people: [{ id: "fabrice-bellard", name: "Fabrice Bellard", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "FFmpeg — Project history (2000)",
@@ -1889,7 +1889,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "dotnet", "open-source", "mono"],
     people: [{ id: "miguel-de-icaza", name: "Miguel de Icaza", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Mono project — Announcement (June 2001)",
@@ -1921,7 +1921,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "editor", "open-source"],
     people: [{ id: "bram-moolenaar", name: "Bram Moolenaar", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Vim — History (1991)",
@@ -1953,7 +1953,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "http", "open-source", "tooling"],
     people: [{ id: "daniel-stenberg", name: "Daniel Stenberg", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "curl — Project history (March 1998)",
@@ -1985,7 +1985,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "security", "open-source", "operating-system"],
     people: [{ id: "theo-de-raadt", name: "Theo de Raadt", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "OpenBSD — Project history (October 1995)",
@@ -2020,7 +2020,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "rob-pike", name: "Rob Pike", role: "co-creator" },
       { id: "ken-thompson", name: "Ken Thompson", role: "co-creator" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Plan 9 — UTF-8 proposal (September 1992)",
@@ -2052,7 +2052,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "protocol",
     tags: ["people", "json", "web", "api"],
     people: [{ id: "douglas-crockford", name: "Douglas Crockford", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "JSON.org — Douglas Crockford specification (2006)",
@@ -2084,7 +2084,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "operating-system", "education"],
     people: [{ id: "andrew-tanenbaum", name: "Andrew Tanenbaum", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "MINIX — First release (1987)",
@@ -2116,7 +2116,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "unix", "programming-language", "tooling"],
     people: [{ id: "brian-kernighan", name: "Brian Kernighan", role: "co-creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Bell Labs — AWK (1977)",
@@ -2148,7 +2148,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "cpp", "generic-programming", "library"],
     people: [{ id: "alexander-stepanov", name: "Alexander Stepanov", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "HP Labs — STL first release (1994)",
@@ -2182,7 +2182,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "computer-vision", "imagenet"],
     people: [{ id: "geoffrey-hinton", name: "Geoffrey Hinton", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "ImageNet 2012 — AlexNet results (September 2012)",
@@ -2214,7 +2214,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "ai", "deep-learning", "deepmind"],
     people: [{ id: "demis-hassabis", name: "Demis Hassabis", role: "co-founder" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "DeepMind — Company founded (September 2010)",
@@ -2246,7 +2246,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "dataset", "computer-vision", "imagenet"],
     people: [{ id: "fei-fei-li", name: "Fei-Fei Li", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "ImageNet — Dataset introduced (2009)",
@@ -2282,7 +2282,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "geoffrey-hinton", name: "Geoffrey Hinton", role: "researcher" },
       { id: "yann-lecun", name: "Yann LeCun", role: "researcher" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "ACM — 2018 Turing Award (Bengio, Hinton, LeCun)",
@@ -2314,7 +2314,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "generative-ai", "deep-learning"],
     people: [{ id: "ian-goodfellow", name: "Ian Goodfellow", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "arXiv — Generative Adversarial Networks (June 2014)",
@@ -2349,7 +2349,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "marvin-minsky", name: "Marvin Minsky", role: "co-founder" },
       { id: "john-mccarthy", name: "John McCarthy", role: "co-founder" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Dartmouth workshop proposal (August 1956)",
@@ -2381,7 +2381,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "ai", "turing-award", "causality"],
     people: [{ id: "judea-pearl", name: "Judea Pearl", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 2011 Turing Award (Judea Pearl)",
@@ -2413,7 +2413,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "education", "machine-learning"],
     people: [{ id: "andrew-ng", name: "Andrew Ng", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Coursera — Machine Learning course (2011)",
@@ -2445,7 +2445,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "computer-vision", "cnn"],
     people: [{ id: "yann-lecun", name: "Yann LeCun", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "LeCun et al. — Backpropagation Applied to Handwritten Zip Code Recognition (1989)",
@@ -2477,7 +2477,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "neural-networks", "ai-history"],
     people: [{ id: "frank-rosenblatt", name: "Frank Rosenblatt", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Cornell — Perceptron (1957)",
@@ -2514,7 +2514,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "marc-andreessen", name: "Marc Andreessen", role: "co-founder" },
       { id: "jim-clark", name: "Jim Clark", role: "co-founder" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Computer History Museum — Andreessen founds Netscape (April 4, 1994)",
@@ -2546,7 +2546,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "protocol",
     tags: ["people", "css", "web", "w3c"],
     people: [{ id: "haakon-wium-lie", name: "Håkon Wium Lie", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "W3C www-talk — Cascading HTML style sheets proposal (October 10, 1994)",
@@ -2581,7 +2581,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "steve-jobs", name: "Steve Jobs", role: "co-founder" },
       { id: "steve-wozniak", name: "Steve Wozniak", role: "co-founder" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Apple — Company history (founded April 1, 1976)",
@@ -2616,7 +2616,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "vint-cerf", name: "Vint Cerf", role: "researcher" },
       { id: "bob-kahn", name: "Bob Kahn", role: "researcher" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "IEEE — A Protocol for Packet Network Intercommunication (May 1974)",
@@ -2648,7 +2648,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "internet", "iana", "rfc"],
     people: [{ id: "jon-postel", name: "Jon Postel", role: "maintainer" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ISI/USC — Postel IANA history (1970s)",
@@ -2682,7 +2682,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "cryptography", "privacy", "pgp"],
     people: [{ id: "phil-zimmermann", name: "Phil Zimmermann", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Phil Zimmermann — PGP 10th anniversary (released June 5, 1991)",
@@ -2717,7 +2717,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "whitfield-diffie", name: "Whitfield Diffie", role: "researcher" },
       { id: "martin-hellman", name: "Martin Hellman", role: "researcher" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "IEEE — New Directions in Cryptography (November 1976)",
@@ -2753,7 +2753,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "adi-shamir", name: "Adi Shamir", role: "researcher" },
       { id: "leonard-adleman", name: "Leonard Adleman", role: "researcher" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "MIT — RSA algorithm invented (1977)",
@@ -2785,7 +2785,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "cryptography", "author", "security"],
     people: [{ id: "bruce-schneier", name: "Bruce Schneier", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Schneier on Security — Applied Cryptography (1994)",
@@ -2820,7 +2820,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "shafi-goldwasser", name: "Shafi Goldwasser", role: "researcher" },
       { id: "silvio-micali", name: "Silvio Micali", role: "researcher" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "STOC 1985 — The Knowledge Complexity of Interactive Proof Systems",
@@ -2852,7 +2852,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "cryptography", "research", "gchq"],
     people: [{ id: "clifford-cocks", name: "Clifford Cocks", role: "researcher" }],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "GCHQ — Public-key cryptography declassified (1973 work)",
@@ -2884,7 +2884,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "cryptography", "privacy", "messaging", "signal"],
     people: [{ id: "moxie-marlinspike", name: "Moxie Marlinspike", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Whisper Systems — TextSecure for Android (May 2010)",
@@ -2916,7 +2916,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "security", "open-source", "ssh"],
     people: [{ id: "theo-de-raadt", name: "Theo de Raadt", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "OpenSSH — Project history (December 1, 1999)",
@@ -2954,7 +2954,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "chris-malachowsky", name: "Chris Malachowsky", role: "co-founder" },
       { id: "curtis-priem", name: "Curtis Priem", role: "co-founder" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "NVIDIA — Company founded (April 5, 1993)",
@@ -2986,7 +2986,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "amd", "ceo", "semiconductor"],
     people: [{ id: "lisa-su", name: "Lisa Su", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "AMD — Lisa Su appointed CEO (October 8, 2014)",
@@ -3018,7 +3018,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "aws", "amazon", "ceo", "cloud"],
     people: [{ id: "andy-jassy", name: "Andy Jassy", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Amazon — Andy Jassy named AWS CEO (April 2016)",
@@ -3050,7 +3050,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "intel", "ceo", "semiconductor"],
     people: [{ id: "pat-gelsinger", name: "Pat Gelsinger", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Intel — Pat Gelsinger appointed CEO (February 15, 2021)",
@@ -3086,7 +3086,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "bob-miner", name: "Bob Miner", role: "co-founder" },
       { id: "ed-oates", name: "Ed Oates", role: "co-founder" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Oracle — Company founded (June 16, 1977)",
@@ -3120,7 +3120,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "jenkins", "ci", "open-source", "maintainer"],
     people: [{ id: "kohsuke-kawaguchi", name: "Kohsuke Kawaguchi", role: "maintainer" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Kohsuke Kawaguchi — Bye bye Hudson, Hello Jenkins (January 11, 2011)",
@@ -3152,7 +3152,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "amazon", "aws", "cto", "distributed-systems"],
     people: [{ id: "werner-vogels", name: "Werner Vogels", role: "cto" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Amazon — Werner Vogels appointed CTO (September 2005)",
@@ -3184,7 +3184,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "github", "founding"],
     people: [{ id: "tom-preston-werner", name: "Tom Preston-Werner", role: "co-founder" }],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "The Verge — Preston-Werner resigns (April 21, 2014)",
@@ -3216,7 +3216,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "github", "ceo"],
     people: [{ id: "chris-wanstrath", name: "Chris Wanstrath", role: "ceo" }],
-    importance: 3,
+    importance: 9,
     sources: [
       {
         title: "CNBC — Wanstrath stepping down as CEO (August 17, 2017)",
@@ -3250,7 +3250,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "algorithms", "research", "sorting"],
     people: [{ id: "tony-hoare", name: "Tony Hoare", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "CACM — Algorithm 64: Quicksort (July 1961)",
@@ -3282,7 +3282,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "concurrency", "research", "formal-methods"],
     people: [{ id: "tony-hoare", name: "Tony Hoare", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "CACM — Communicating Sequential Processes (August 1978)",
@@ -3314,7 +3314,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "typography", "research", "author"],
     people: [{ id: "donald-knuth", name: "Donald Knuth", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Knuth — TeX development began (1978)",
@@ -3346,7 +3346,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "fortran", "turing-award", "research"],
     people: [{ id: "john-backus", name: "John Backus", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 1977 Turing Award (John Backus)",
@@ -3378,7 +3378,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "error-correction", "research", "theory"],
     people: [{ id: "richard-hamming", name: "Richard Hamming", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Bell System Technical Journal — Error detecting and error correcting codes (1950)",
@@ -3410,7 +3410,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "complexity-theory", "research", "np-complete"],
     people: [{ id: "stephen-cook", name: "Stephen Cook", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "STOC 1971 — The complexity of theorem-proving procedures",
@@ -3442,7 +3442,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "database", "postgres", "research"],
     people: [{ id: "michael-stonebraker", name: "Michael Stonebraker", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "UC Berkeley — Postgres project (1986)",
@@ -3474,7 +3474,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "database", "turing-award", "research"],
     people: [{ id: "jim-gray", name: "Jim Gray", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "ACM — 1998 Turing Award (Jim Gray)",
@@ -3508,7 +3508,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "semiconductor", "moores-law", "research"],
     people: [{ id: "gordon-moore", name: "Gordon Moore", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
@@ -3540,7 +3540,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "semiconductor", "integrated-circuit", "hardware"],
     people: [{ id: "jack-kilby", name: "Jack Kilby", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Texas Instruments — First integrated circuit (September 12, 1958)",
@@ -3572,7 +3572,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "invention",
     tags: ["people", "semiconductor", "integrated-circuit", "hardware"],
     people: [{ id: "robert-noyce", name: "Robert Noyce", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Fairchild — Planar integrated circuit (1959)",
@@ -3607,7 +3607,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "gordon-moore", name: "Gordon Moore", role: "co-founder" },
       { id: "robert-noyce", name: "Robert Noyce", role: "co-founder" },
     ],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Intel — Company founded (July 18, 1968)",
@@ -3639,7 +3639,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "hardware",
     tags: ["people", "supercomputing", "hardware"],
     people: [{ id: "seymour-cray", name: "Seymour Cray", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "CDC — 6600 supercomputer (1964)",
@@ -3674,7 +3674,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
       { id: "steve-jobs", name: "Steve Jobs", role: "co-founder" },
       { id: "steve-wozniak", name: "Steve Wozniak", role: "co-founder" },
     ],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Apple — Apple II introduced (April 16–17, 1977)",
@@ -3706,7 +3706,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "nvidia", "gpu", "cuda", "parallel-computing"],
     people: [{ id: "jensen-huang", name: "Jensen Huang", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "NVIDIA — CUDA announced (November 8, 2006)",
@@ -3738,7 +3738,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "hardware",
     tags: ["people", "amd", "cpu", "zen", "semiconductor"],
     people: [{ id: "lisa-su", name: "Lisa Su", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "AMD — Ryzen launch on Zen (March 2, 2017)",
@@ -3770,7 +3770,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "intel", "ceo", "semiconductor"],
     people: [{ id: "andy-grove", name: "Andy Grove", role: "ceo" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Intel — Andy Grove becomes CEO (October 18, 1987)",
@@ -3802,7 +3802,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "company",
     tags: ["people", "tsmc", "semiconductor", "founding", "foundry"],
     people: [{ id: "morris-chang", name: "Morris Chang", role: "founder" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "TSMC — Company founded (February 21, 1987)",
@@ -3836,7 +3836,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "ruby", "programming-language", "japan"],
     people: [{ id: "yukihiro-matsumoto", name: "Yukihiro Matsumoto", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Ruby — Ruby 1.0 released (December 21, 1996)",
@@ -3868,7 +3868,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "civic-tech", "open-source", "taiwan"],
     people: [{ id: "audrey-tang", name: "Audrey Tang", role: "co-founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "g0v — Civic hacking movement launched (December 2012)",
@@ -3900,7 +3900,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "civic-tech", "government", "taiwan"],
     people: [{ id: "audrey-tang", name: "Audrey Tang", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Taiwan Executive Yuan — Digital minister appointment (October 2016)",
@@ -3932,7 +3932,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "web", "w3c", "standards"],
     people: [{ id: "tim-berners-lee", name: "Tim Berners-Lee", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "W3C — Consortium founded (October 1, 1994)",
@@ -3964,7 +3964,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "gnu", "free-software", "fsf"],
     people: [{ id: "richard-stallman", name: "Richard Stallman", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "FSF — Founded October 4, 1985",
@@ -3996,7 +3996,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "php", "web", "denmark"],
     people: [{ id: "rasmus-lerdorf", name: "Rasmus Lerdorf", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "PHP — PHP 3 release (June 1998)",
@@ -4028,7 +4028,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "culture",
     tags: ["people", "python", "open-source", "netherlands"],
     people: [{ id: "guido-van-rossum", name: "Guido van Rossum", role: "founder" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Python Software Foundation — Incorporated (March 6, 2001)",
@@ -4060,7 +4060,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "software",
     tags: ["people", "linux", "open-source", "operating-system"],
     people: [{ id: "patrick-volkerding", name: "Patrick Volkerding", role: "creator" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Slackware — Version 1.0 release (July 17, 1993)",
@@ -4094,7 +4094,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "openai", "deep-learning", "llm"],
     people: [{ id: "ilya-sutskever", name: "Ilya Sutskever", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "OpenAI — Introducing OpenAI (December 11, 2015)",
@@ -4126,7 +4126,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "education", "computer-vision"],
     people: [{ id: "andrej-karpathy", name: "Andrej Karpathy", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Stanford CS231n — Course history (winter 2015)",
@@ -4158,7 +4158,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "reinforcement-learning", "deepmind"],
     people: [{ id: "demis-hassabis", name: "Demis Hassabis", role: "researcher" }],
-    importance: 1,
+    importance: 3,
     sources: [
       {
         title: "Wikipedia — AlphaGo versus Lee Sedol (March 9–15, 2016)",
@@ -4190,7 +4190,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "ai-safety", "google"],
     people: [{ id: "geoffrey-hinton", name: "Geoffrey Hinton", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "The New York Times — Geoffrey Hinton leaves Google (May 1, 2023)",
@@ -4222,7 +4222,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "ai-policy", "education", "stanford"],
     people: [{ id: "fei-fei-li", name: "Fei-Fei Li", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Stanford Report — HAI launch (March 18, 2019)",
@@ -4254,7 +4254,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "facebook", "meta"],
     people: [{ id: "yann-lecun", name: "Yann LeCun", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "The Verge — LeCun becomes chief AI scientist (January 23, 2018)",
@@ -4286,7 +4286,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "deep-learning", "canada", "research"],
     people: [{ id: "yoshua-bengio", name: "Yoshua Bengio", role: "researcher" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "Mila — About (founded 2017)",
@@ -4318,7 +4318,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     category: "ai",
     tags: ["people", "reinforcement-learning", "textbook", "research"],
     people: [{ id: "rich-sutton", name: "Rich Sutton", role: "author" }],
-    importance: 2,
+    importance: 6,
     sources: [
       {
         title: "MIT Press — Reinforcement Learning: An Introduction (first edition, 1998)",

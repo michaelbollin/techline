@@ -14,8 +14,15 @@
         "problemSolved": "Enterprises stored content across dozens of systems with no unified query layer."
       },
       "category": "software",
-      "tags": ["hygraph", "graphcms", "cms", "headless", "graphql", "federation"],
-      "importance": 1,
+      "tags": [
+        "hygraph",
+        "graphcms",
+        "cms",
+        "headless",
+        "graphql",
+        "federation"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["graphcms-founded", "contentful-founded", "graphql-foundation-announced"]
+      "relatedIds": [
+        "graphcms-founded",
+        "contentful-founded",
+        "graphql-foundation-announced"
+      ]
     }
   ]
 }

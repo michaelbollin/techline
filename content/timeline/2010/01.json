@@ -22,7 +22,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -63,7 +63,7 @@
         "django",
         "flask"
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -114,7 +114,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -157,7 +157,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -213,7 +213,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -262,7 +262,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {

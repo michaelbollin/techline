@@ -14,8 +14,13 @@
         "problemSolved": "Fortran 90 left gaps that made it hard for compilers to safely optimize large numerical loops."
       },
       "category": "software",
-      "tags": ["fortran", "iso", "standard", "scientific-computing"],
-      "importance": 3,
+      "tags": [
+        "fortran",
+        "iso",
+        "standard",
+        "scientific-computing"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["fortran-90-standard", "fortran-2003-standard"]
+      "relatedIds": [
+        "fortran-90-standard",
+        "fortran-2003-standard"
+      ]
     }
   ]
 }

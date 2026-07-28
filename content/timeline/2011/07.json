@@ -36,7 +36,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -85,7 +85,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -119,8 +119,14 @@
         "problemSolved": "Teams maintained parallel Selenium RC and WebDriver codebases with incompatible APIs."
       },
       "category": "software",
-      "tags": ["selenium", "testing", "webdriver", "browser", "open-source"],
-      "importance": 1,
+      "tags": [
+        "selenium",
+        "testing",
+        "webdriver",
+        "browser",
+        "open-source"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -134,7 +140,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["selenium-released", "cypress-open-sourced", "playwright-released"]
+      "relatedIds": [
+        "selenium-released",
+        "cypress-open-sourced",
+        "playwright-released"
+      ]
     }
   ]
 }

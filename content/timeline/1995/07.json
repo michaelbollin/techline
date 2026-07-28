@@ -14,13 +14,32 @@
         "problemSolved": "Multiple incompatible style sheet languages threatened to fragment how the web handled presentation."
       },
       "category": "protocol",
-      "tags": ["people", "css", "web", "w3c", "standards"],
-      "people": [
-        { "id": "bert-bos", "name": "Bert Bos", "role": "co-creator" },
-        { "id": "haakon-wium-lie", "name": "Håkon Wium Lie", "role": "co-creator" }
+      "tags": [
+        "people",
+        "css",
+        "web",
+        "w3c",
+        "standards"
       ],
-      "companies": [{ "id": "w3c", "name": "W3C" }],
-      "importance": 2,
+      "people": [
+        {
+          "id": "bert-bos",
+          "name": "Bert Bos",
+          "role": "co-creator"
+        },
+        {
+          "id": "haakon-wium-lie",
+          "name": "Håkon Wium Lie",
+          "role": "co-creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -34,7 +53,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["haakon-lie-css-proposed", "css1-w3c-recommendation"]
+      "relatedIds": [
+        "haakon-lie-css-proposed",
+        "css1-w3c-recommendation"
+      ]
     }
   ]
 }

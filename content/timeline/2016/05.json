@@ -14,9 +14,20 @@
         "problemSolved": "Cross-platform desktop UIs required separate native codebases or immature web wrappers."
       },
       "category": "software",
-      "tags": ["electron", "desktop", "javascript", "nodejs", "open-source"],
-      "companies": [{ "id": "github", "name": "GitHub" }],
-      "importance": 1,
+      "tags": [
+        "electron",
+        "desktop",
+        "javascript",
+        "nodejs",
+        "open-source"
+      ],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -30,7 +41,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-first-released", "visual-studio-code-preview", "google-chrome-released"]
+      "relatedIds": [
+        "nodejs-first-released",
+        "visual-studio-code-preview",
+        "google-chrome-released"
+      ]
     }
   ]
 }

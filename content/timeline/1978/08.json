@@ -31,7 +31,7 @@
         "research",
         "formal-methods"
       ],
-      "importance": 2,
+      "importance": 4,
       "sources": [
         {
           "title": "CACM — Communicating Sequential Processes (August 1978)",

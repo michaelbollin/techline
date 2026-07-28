@@ -14,8 +14,13 @@
         "problemSolved": "Rosetta-translated Node on M1 Macs was slow and unreliable for daily development."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
-      "importance": 2,
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-18-released", "nodejs-10-released", "nodejs-4-released"]
+      "relatedIds": [
+        "nodejs-18-released",
+        "nodejs-10-released",
+        "nodejs-4-released"
+      ]
     }
   ]
 }

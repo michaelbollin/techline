@@ -14,8 +14,15 @@
         "problemSolved": "Applications coupled via direct HTTP calls could not absorb traffic spikes or retry failed work reliably."
       },
       "category": "software",
-      "tags": ["rabbitmq", "messaging", "amqp", "queue", "microservices", "open-source"],
-      "importance": 1,
+      "tags": [
+        "rabbitmq",
+        "messaging",
+        "amqp",
+        "queue",
+        "microservices",
+        "open-source"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["apache-kafka-open-sourced", "memcached-released", "zeromq-released"]
+      "relatedIds": [
+        "apache-kafka-open-sourced",
+        "memcached-released",
+        "zeromq-released"
+      ]
     }
   ]
 }

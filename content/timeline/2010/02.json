@@ -14,8 +14,15 @@
         "problemSolved": "Building distributed full-text search required deep Lucene expertise; teams needed a batteries-included cluster."
       },
       "category": "software",
-      "tags": ["elasticsearch", "search", "database", "lucene", "analytics", "open-source"],
-      "importance": 1,
+      "tags": [
+        "elasticsearch",
+        "search",
+        "database",
+        "lucene",
+        "analytics",
+        "open-source"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mongodb-first-released", "redis-first-released", "rest-architectural-style-defined", "apache-kafka-open-sourced"]
+      "relatedIds": [
+        "mongodb-first-released",
+        "redis-first-released",
+        "rest-architectural-style-defined",
+        "apache-kafka-open-sourced"
+      ]
     }
   ]
 }

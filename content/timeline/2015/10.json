@@ -14,8 +14,15 @@
         "problemSolved": "JavaScript developers needed a CMS that fit modern frontends, not WordPress templates."
       },
       "category": "software",
-      "tags": ["strapi", "cms", "headless", "nodejs", "api", "open-source"],
-      "importance": 1,
+      "tags": [
+        "strapi",
+        "cms",
+        "headless",
+        "nodejs",
+        "api",
+        "open-source"
+      ],
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["contentful-founded", "nodejs-first-released", "nextjs-open-sourced"]
+      "relatedIds": [
+        "contentful-founded",
+        "nodejs-first-released",
+        "nextjs-open-sourced"
+      ]
     }
   ]
 }

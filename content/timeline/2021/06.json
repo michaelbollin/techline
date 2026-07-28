@@ -14,8 +14,14 @@
         "problemSolved": "Static site generators shipped entire framework runtimes even for mostly static pages."
       },
       "category": "software",
-      "tags": ["astro", "static-site", "frontend", "javascript", "open-source"],
-      "importance": 1,
+      "tags": [
+        "astro",
+        "static-site",
+        "frontend",
+        "javascript",
+        "open-source"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["gatsby-open-sourced", "nextjs-open-sourced", "jamstack-term-coined"]
+      "relatedIds": [
+        "gatsby-open-sourced",
+        "nextjs-open-sourced",
+        "jamstack-term-coined"
+      ]
     }
   ]
 }

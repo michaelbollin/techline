@@ -87,7 +87,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -139,7 +139,7 @@
           "name": "Apache Software Foundation"
         }
       ],
-      "importance": 1,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -191,7 +191,7 @@
           "name": "Intel"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -225,9 +225,20 @@
         "problemSolved": "Teams spent more time on ops and capacity planning than writing application code."
       },
       "category": "software",
-      "tags": ["google-app-engine", "paas", "cloud", "python", "web"],
-      "companies": [{ "id": "google", "name": "Google" }],
-      "importance": 1,
+      "tags": [
+        "google-app-engine",
+        "paas",
+        "cloud",
+        "python",
+        "web"
+      ],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -241,7 +252,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["heroku-launched", "docker-open-sourced", "kubernetes-open-sourced"]
+      "relatedIds": [
+        "heroku-launched",
+        "docker-open-sourced",
+        "kubernetes-open-sourced"
+      ]
     }
   ]
 }

@@ -32,7 +32,7 @@
         "education",
         "computer-vision"
       ],
-      "importance": 2,
+      "importance": 5,
       "sources": [
         {
           "title": "Stanford CS231n — Course history (winter 2015)",

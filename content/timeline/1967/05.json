@@ -14,7 +14,12 @@
         "problemSolved": "Simulation software needed reusable models of entities (customers, machines, vehicles) without rewriting the same logic for every project."
       },
       "category": "software",
-      "tags": ["simula", "oop", "simulation", "programming-language"],
+      "tags": [
+        "simula",
+        "oop",
+        "simulation",
+        "programming-language"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +34,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["algol-60-published"]
+      "relatedIds": [
+        "algol-60-published"
+      ]
     }
   ]
 }

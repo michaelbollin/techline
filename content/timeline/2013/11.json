@@ -29,7 +29,7 @@
         }
       ],
       "companies": [],
-      "importance": 1,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -76,7 +76,7 @@
           "name": "Wix"
         }
       ],
-      "importance": 1,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -123,7 +123,7 @@
           "name": "Nokia"
         }
       ],
-      "importance": 3,
+      "importance": 9,
       "media": [],
       "sources": [
         {

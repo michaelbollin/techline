@@ -14,8 +14,14 @@
         "problemSolved": "The MySQL community needed a fork they could trust after Sun's acquisition by Oracle."
       },
       "category": "software",
-      "tags": ["mariadb", "mysql", "database", "sql", "open-source"],
-      "importance": 1,
+      "tags": [
+        "mariadb",
+        "mysql",
+        "database",
+        "sql",
+        "open-source"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mysql-first-released", "sequel-paper-published", "postgresql-6-released"]
+      "relatedIds": [
+        "mysql-first-released",
+        "sequel-paper-published",
+        "postgresql-6-released"
+      ]
     }
   ]
 }

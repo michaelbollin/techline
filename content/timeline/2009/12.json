@@ -14,8 +14,13 @@
         "problemSolved": "A failed ES4 rewrite had frozen the language; browsers and developers needed practical improvements they could ship now."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "es5", "standard"],
-      "importance": 2,
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "es5",
+        "standard"
+      ],
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -34,7 +39,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-3-adopted", "ecmascript-2015-adopted"]
+      "relatedIds": [
+        "ecmascript-3-adopted",
+        "ecmascript-2015-adopted"
+      ]
     }
   ]
 }

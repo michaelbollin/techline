@@ -14,8 +14,13 @@
         "problemSolved": "C++11 left gaps — no `make_unique`, verbose lambdas — that slowed adoption."
       },
       "category": "software",
-      "tags": ["cpp", "iso", "standard", "programming-language"],
-      "importance": 2,
+      "tags": [
+        "cpp",
+        "iso",
+        "standard",
+        "programming-language"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cpp11-standard", "cpp17-standard"]
+      "relatedIds": [
+        "cpp11-standard",
+        "cpp17-standard"
+      ]
     }
   ]
 }

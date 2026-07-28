@@ -22,7 +22,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -121,7 +121,7 @@
           "name": "Redis"
         }
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -153,9 +153,22 @@
         "problemSolved": "Drupal 8 sites faced end-of-life without a clear migration path that preserved custom modules."
       },
       "category": "software",
-      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
-      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
-      "importance": 1,
+      "tags": [
+        "drupal",
+        "cms",
+        "php",
+        "symfony",
+        "web",
+        "api"
+      ],
+      "people": [
+        {
+          "id": "dries-buytaert",
+          "name": "Dries Buytaert",
+          "role": "creator"
+        }
+      ],
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -169,7 +182,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["drupal-8-released", "drupal-10-released", "drupal-7-released"]
+      "relatedIds": [
+        "drupal-8-released",
+        "drupal-10-released",
+        "drupal-7-released"
+      ]
     }
   ]
 }

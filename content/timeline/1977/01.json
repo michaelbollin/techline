@@ -14,8 +14,14 @@
         "problemSolved": "Early microcomputers were kits or bare boards; users needed a complete system out of the box."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "commodore", "8-bit", "microcomputer"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "pc",
+        "commodore",
+        "8-bit",
+        "microcomputer"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["commodore-64-released", "apple-ii-introduced", "trs-80-model-i-released", "basic-first-run"]
+      "relatedIds": [
+        "commodore-64-released",
+        "apple-ii-introduced",
+        "trs-80-model-i-released",
+        "basic-first-run"
+      ]
     }
   ]
 }

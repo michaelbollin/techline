@@ -21,7 +21,7 @@
         "web",
         "open-source"
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -68,7 +68,7 @@
           "name": "Salesforce"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -109,7 +109,7 @@
         "iot",
         "open-source"
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {

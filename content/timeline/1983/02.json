@@ -14,8 +14,14 @@
         "problemSolved": "Defense projects used hundreds of incompatible languages and tools; the Pentagon wanted one portable standard every contractor could be required to use."
       },
       "category": "software",
-      "tags": ["ada", "ansi", "dod", "safety-critical", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "ada",
+        "ansi",
+        "dod",
+        "safety-critical",
+        "programming-language"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["pascal-report-published"]
+      "relatedIds": [
+        "pascal-report-published"
+      ]
     }
   ]
 }

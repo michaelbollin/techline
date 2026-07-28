@@ -31,7 +31,7 @@
         "programming-language",
         "japan"
       ],
-      "importance": 2,
+      "importance": 7,
       "sources": [
         {
           "title": "Ruby — Ruby 1.0 released (December 25, 1996)",
@@ -59,13 +59,31 @@
         "problemSolved": "HTML had no standard way to style pages consistently without polluting markup with presentation tags."
       },
       "category": "protocol",
-      "tags": ["css", "web", "w3c", "standards"],
-      "people": [
-        { "id": "haakon-wium-lie", "name": "Håkon Wium Lie", "role": "author" },
-        { "id": "bert-bos", "name": "Bert Bos", "role": "author" }
+      "tags": [
+        "css",
+        "web",
+        "w3c",
+        "standards"
       ],
-      "companies": [{ "id": "w3c", "name": "W3C" }],
-      "importance": 2,
+      "people": [
+        {
+          "id": "haakon-wium-lie",
+          "name": "Håkon Wium Lie",
+          "role": "author"
+        },
+        {
+          "id": "bert-bos",
+          "name": "Bert Bos",
+          "role": "author"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -79,7 +97,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["haakon-lie-css-proposed", "bert-bos-joins-css-project", "css2-w3c-recommendation"]
+      "relatedIds": [
+        "haakon-lie-css-proposed",
+        "bert-bos-joins-css-project",
+        "css2-w3c-recommendation"
+      ]
     }
   ]
 }

@@ -27,7 +27,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -79,7 +79,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 4,
       "media": [],
       "sources": [
         {

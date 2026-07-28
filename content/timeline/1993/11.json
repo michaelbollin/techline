@@ -14,8 +14,15 @@
         "problemSolved": "Early websites were static files; developers needed a portable way to generate HTML from programs."
       },
       "category": "protocol",
-      "tags": ["cgi", "http", "web", "ncsa", "perl", "protocol"],
-      "importance": 1,
+      "tags": [
+        "cgi",
+        "http",
+        "web",
+        "ncsa",
+        "perl",
+        "protocol"
+      ],
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,12 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["mosaic-1-0-released", "apache-http-server-released", "perl-1-0-released", "gunicorn-released"]
+      "relatedIds": [
+        "mosaic-1-0-released",
+        "apache-http-server-released",
+        "perl-1-0-released",
+        "gunicorn-released"
+      ]
     }
   ]
 }

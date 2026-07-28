@@ -14,8 +14,14 @@
         "problemSolved": "Long-running BEAM services need regular performance and security updates without breaking changes."
       },
       "category": "software",
-      "tags": ["erlang", "otp", "beam", "programming-language", "elixir"],
-      "importance": 2,
+      "tags": [
+        "erlang",
+        "otp",
+        "beam",
+        "programming-language",
+        "elixir"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["erlang-otp-27-released", "erlang-otp-26-released", "elixir-1-17-released"]
+      "relatedIds": [
+        "erlang-otp-27-released",
+        "erlang-otp-26-released",
+        "elixir-1-17-released"
+      ]
     }
   ]
 }

@@ -14,8 +14,13 @@
         "problemSolved": "Teams needed a long-supported runtime with modern V8 and first-party testing tools."
       },
       "category": "software",
-      "tags": ["nodejs", "javascript", "runtime", "lts"],
-      "importance": 2,
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["nodejs-18-released", "nodejs-4-released", "nodejs-first-released"]
+      "relatedIds": [
+        "nodejs-18-released",
+        "nodejs-4-released",
+        "nodejs-first-released"
+      ]
     }
   ]
 }

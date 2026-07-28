@@ -23,7 +23,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -64,7 +64,7 @@
         "browser",
         "open-source"
       ],
-      "importance": 1,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -112,7 +112,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 3,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -162,7 +162,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {

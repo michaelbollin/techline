@@ -22,7 +22,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -69,7 +69,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -118,7 +118,7 @@
           "name": "IETF"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {

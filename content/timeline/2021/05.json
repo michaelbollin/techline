@@ -27,7 +27,7 @@
           "name": "Sun Microsystems"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -70,7 +70,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -104,8 +104,13 @@
         "problemSolved": "jQuery dependency and legacy components made Bootstrap feel dated next to newer toolkits."
       },
       "category": "software",
-      "tags": ["bootstrap", "css", "frontend", "web"],
-      "importance": 1,
+      "tags": [
+        "bootstrap",
+        "css",
+        "frontend",
+        "web"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -119,7 +124,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["bootstrap-4-released", "bootstrap-3-released", "react-open-sourced"]
+      "relatedIds": [
+        "bootstrap-4-released",
+        "bootstrap-3-released",
+        "react-open-sourced"
+      ]
     },
     {
       "id": "squarespace-ipo",
@@ -135,8 +144,14 @@
         "problemSolved": "Mature SaaS companies wanted public liquidity without dilutive IPO share issuance."
       },
       "category": "company",
-      "tags": ["squarespace", "ipo", "website-builder", "saas", "retail"],
-      "importance": 1,
+      "tags": [
+        "squarespace",
+        "ipo",
+        "website-builder",
+        "saas",
+        "retail"
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -150,7 +165,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["squarespace-launched", "wix-ipo", "shopify-ipo"]
+      "relatedIds": [
+        "squarespace-launched",
+        "wix-ipo",
+        "shopify-ipo"
+      ]
     }
   ]
 }

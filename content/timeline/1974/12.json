@@ -32,7 +32,7 @@
         "software-engineering",
         "algorithms"
       ],
-      "importance": 1,
+      "importance": 8,
       "sources": [
         {
           "title": "Knuth — Structured Programming with go to Statements (December 1974)",

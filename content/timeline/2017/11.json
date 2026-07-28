@@ -28,7 +28,7 @@
           "role": "creator"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -127,7 +127,7 @@
           "name": "Mozilla"
         }
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -169,7 +169,7 @@
         "react",
         "saas"
       ],
-      "importance": 1,
+      "importance": 7,
       "media": [],
       "sources": [
         {
@@ -210,7 +210,7 @@
       ],
       "people": [],
       "companies": [],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {

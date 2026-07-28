@@ -14,8 +14,15 @@
         "problemSolved": "Musicians needed a computer with native MIDI I/O and decent graphics without workstation prices."
       },
       "category": "hardware",
-      "tags": ["hardware", "pc", "atari", "midi", "16-bit", "microcomputer"],
-      "importance": 2,
+      "tags": [
+        "hardware",
+        "pc",
+        "atari",
+        "midi",
+        "16-bit",
+        "microcomputer"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +36,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["amiga-1000-released", "macintosh-128k-released", "commodore-64-released"]
+      "relatedIds": [
+        "amiga-1000-released",
+        "macintosh-128k-released",
+        "commodore-64-released"
+      ]
     }
   ]
 }

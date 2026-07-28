@@ -14,8 +14,13 @@
         "problemSolved": "Developers relied on bundler-specific hacks to import non-JS assets as modules."
       },
       "category": "software",
-      "tags": ["javascript", "ecmascript", "standard", "browser"],
-      "importance": 3,
+      "tags": [
+        "javascript",
+        "ecmascript",
+        "standard",
+        "browser"
+      ],
+      "importance": 9,
       "media": [],
       "sources": [
         {
@@ -29,7 +34,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["ecmascript-2024-adopted"]
+      "relatedIds": [
+        "ecmascript-2024-adopted"
+      ]
     }
   ]
 }

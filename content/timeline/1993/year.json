@@ -24,7 +24,7 @@
         "datacenter"
       ],
       "people": [],
-      "importance": 3,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -75,7 +75,7 @@
         "lisp",
         "programming-language"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "Greenspun — Tenth rule FAQ (1993 era)",

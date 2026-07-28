@@ -21,7 +21,7 @@
         "blogging",
         "open-source"
       ],
-      "importance": 1,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -69,7 +69,7 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -119,7 +119,7 @@
           "name": "Apple"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -168,7 +168,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 7,
       "media": [],
       "sources": [
         {

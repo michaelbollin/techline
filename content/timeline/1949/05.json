@@ -14,10 +14,15 @@
         "problemSolved": "Earlier machines like ENIAC were reprogrammed by rewiring; EDSAC loaded new tasks from tape into memory."
       },
       "category": "invention",
-      "tags": ["edsac", "cambridge", "stored-program", "invention"],
+      "tags": [
+        "edsac",
+        "cambridge",
+        "stored-program",
+        "invention"
+      ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -31,7 +36,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["edsac-initial-orders", "eniac-dedicated"]
+      "relatedIds": [
+        "edsac-initial-orders",
+        "eniac-dedicated"
+      ]
     },
     {
       "id": "edsac-initial-orders",
@@ -47,10 +55,15 @@
         "problemSolved": "Human transcription of machine instructions was slow, error-prone, and did not scale."
       },
       "category": "software",
-      "tags": ["assembly", "edsac", "cambridge", "wheeler"],
+      "tags": [
+        "assembly",
+        "edsac",
+        "cambridge",
+        "wheeler"
+      ],
       "people": [],
       "companies": [],
-      "importance": 1,
+      "importance": 4,
       "media": [],
       "sources": [
         {
@@ -64,7 +77,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["edsac-first-programs"]
+      "relatedIds": [
+        "edsac-first-programs"
+      ]
     }
   ]
 }

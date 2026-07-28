@@ -28,7 +28,7 @@
         "cryptography",
         "award"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "ACM — 2012 Turing Award (Goldwasser & Micali)",

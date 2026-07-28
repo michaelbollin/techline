@@ -84,15 +84,17 @@ export function TimelineNodeLabel({
         >
           {event.title}
         </text>
-        <line
-          x1={LABEL_PADDING_X}
-          x2={labelWidth - LABEL_PADDING_X}
-          y1={LABEL_BOX_HEIGHT / 2 + 9}
-          y2={LABEL_BOX_HEIGHT / 2 + 9}
-          className={cn(labelTransition, isHovered ? "stroke-black" : "stroke-white")}
-          strokeWidth={1}
-          pointerEvents="none"
-        />
+        {isHovered && (
+          <line
+            x1={LABEL_PADDING_X}
+            x2={labelWidth - LABEL_PADDING_X}
+            y1={LABEL_BOX_HEIGHT / 2 + 9}
+            y2={LABEL_BOX_HEIGHT / 2 + 9}
+            className={cn(labelTransition, "stroke-black")}
+            strokeWidth={1}
+            pointerEvents="none"
+          />
+        )}
       </g>
     </g>
   );

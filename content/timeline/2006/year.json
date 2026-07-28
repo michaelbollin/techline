@@ -28,7 +28,7 @@
         "compiler",
         "award"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "ACM — 2006 Turing Award (Frances Allen)",
@@ -99,8 +99,14 @@
         "problemSolved": "Building a professional website required developers or expensive agencies."
       },
       "category": "software",
-      "tags": ["wix", "website-builder", "saas", "nocode", "web"],
-      "importance": 1,
+      "tags": [
+        "wix",
+        "website-builder",
+        "saas",
+        "nocode",
+        "web"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -114,7 +120,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["squarespace-launched", "wix-ipo", "webflow-launched"]
+      "relatedIds": [
+        "squarespace-launched",
+        "wix-ipo",
+        "webflow-launched"
+      ]
     }
   ]
 }

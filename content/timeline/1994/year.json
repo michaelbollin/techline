@@ -26,7 +26,7 @@
           "role": "founder"
         }
       ],
-      "importance": 2,
+      "importance": 8,
       "media": [],
       "sources": [
         {
@@ -69,7 +69,7 @@
           "role": "creator"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -114,7 +114,7 @@
           "role": "author"
         }
       ],
-      "importance": 2,
+      "importance": 5,
       "media": [],
       "sources": [
         {
@@ -160,7 +160,7 @@
         "open-innovation",
         "startups"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "Kevin Kelly — Out of Control (1994, citing Bill Joy)",

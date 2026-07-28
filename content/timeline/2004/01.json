@@ -14,8 +14,14 @@
         "problemSolved": "Creators wanted beautiful sites without learning code or patching together separate tools."
       },
       "category": "software",
-      "tags": ["squarespace", "website-builder", "saas", "hosting", "web"],
-      "importance": 1,
+      "tags": [
+        "squarespace",
+        "website-builder",
+        "saas",
+        "hosting",
+        "web"
+      ],
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -29,7 +35,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["wordpress-released", "wix-founded", "webflow-launched"]
+      "relatedIds": [
+        "wordpress-released",
+        "wix-founded",
+        "webflow-launched"
+      ]
     },
     {
       "id": "scala-first-release",
@@ -45,10 +55,26 @@
         "problemSolved": "JVM developers wanted expressive functional abstractions without abandoning Java interop."
       },
       "category": "software",
-      "tags": ["scala", "jvm", "functional-programming", "programming-language"],
-      "people": [{ "id": "martin-odersky", "name": "Martin Odersky", "role": "creator" }],
-      "companies": [{ "id": "epfl", "name": "EPFL" }],
-      "importance": 1,
+      "tags": [
+        "scala",
+        "jvm",
+        "functional-programming",
+        "programming-language"
+      ],
+      "people": [
+        {
+          "id": "martin-odersky",
+          "name": "Martin Odersky",
+          "role": "creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "epfl",
+          "name": "EPFL"
+        }
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
@@ -62,7 +88,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["scala-2-0-released", "scala-3-released", "java-5-released"]
+      "relatedIds": [
+        "scala-2-0-released",
+        "scala-3-released",
+        "java-5-released"
+      ]
     }
   ]
 }

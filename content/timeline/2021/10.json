@@ -18,7 +18,7 @@
         "python",
         "programming-language"
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -55,7 +55,7 @@
         "rust",
         "programming-language"
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -103,7 +103,7 @@
           "name": "Google"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {

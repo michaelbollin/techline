@@ -19,7 +19,7 @@
         "php",
         "web-framework"
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -68,7 +68,7 @@
           "name": "Samsung"
         }
       ],
-      "importance": 2,
+      "importance": 6,
       "media": [],
       "sources": [
         {
@@ -110,7 +110,7 @@
         "spa",
         "web-framework"
       ],
-      "importance": 1,
+      "importance": 3,
       "media": [],
       "sources": [
         {

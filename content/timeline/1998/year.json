@@ -31,7 +31,7 @@
         "turing-award",
         "research"
       ],
-      "importance": 2,
+      "importance": 8,
       "sources": [
         {
           "title": "ACM — 1998 Turing Award (Jim Gray)",
@@ -76,7 +76,7 @@
         "textbook",
         "research"
       ],
-      "importance": 2,
+      "importance": 5,
       "sources": [
         {
           "title": "MIT Press — Reinforcement Learning: An Introduction (first edition, 1998)",

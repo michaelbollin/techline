@@ -14,8 +14,14 @@
         "problemSolved": "Static HTML could not handle forms, logs, or counters; Lerdorf needed simple CGI tools without Perl or Tcl on his host."
       },
       "category": "software",
-      "tags": ["php", "lerdorf", "web", "cgi", "programming-language"],
-      "importance": 1,
+      "tags": [
+        "php",
+        "lerdorf",
+        "web",
+        "cgi",
+        "programming-language"
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
@@ -34,7 +40,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["perl-1-0-released", "symfony-released", "laravel-first-beta"]
+      "relatedIds": [
+        "perl-1-0-released",
+        "symfony-released",
+        "laravel-first-beta"
+      ]
     }
   ]
 }
