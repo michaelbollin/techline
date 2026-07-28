@@ -1,6 +1,48 @@
 {
   "events": [
     {
+      "id": "bitcoin-spot-etf-approved",
+      "slug": "bitcoin-spot-etf-approved",
+      "date": "2024-01-10",
+      "datePrecision": "day",
+      "title": "SEC approves spot Bitcoin ETFs",
+      "summary": "The U.S. SEC approved spot Bitcoin exchange-traded funds on January 10, 2024 — letting mainstream investors hold BTC exposure through brokerage accounts.",
+      "about": "BlackRock, Fidelity, and other issuers listed ETFs that track bitcoin spot prices, routing billions from pensions and retail into custodied BTC. The decision ended a decade-long regulatory fight and linked TradFi portfolios directly to crypto's oldest asset.",
+      "narrative": {
+        "whyChosen": "Spot Bitcoin ETFs bridged Wall Street and on-chain BTC for the first time at scale.",
+        "whyImportant": "It legitimized bitcoin as an institutional asset class in US markets.",
+        "problemSolved": "Investors wanted BTC exposure without managing private keys or unregulated exchanges."
+      },
+      "category": "culture",
+      "tags": [
+        "bitcoin",
+        "etf",
+        "cryptocurrency",
+        "finance"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — History of bitcoin (SEC spot ETF approval January 10, 2024)",
+          "url": "https://en.wikipedia.org/wiki/History_of_bitcoin",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Exchange-traded fund (overview)",
+          "url": "https://en.wikipedia.org/wiki/Exchange-traded_fund",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bitcoin-genesis-block-mined",
+        "coinbase-founded",
+        "bitcoin-whitepaper-published"
+      ]
+    },
+    {
       "id": "elixir-1-16-released",
       "slug": "elixir-1-16-released",
       "date": "2024-01-28",

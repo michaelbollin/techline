@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "z3-completed",
+      "slug": "z3-completed",
+      "date": "1941-05-12",
+      "datePrecision": "day",
+      "title": "Konrad Zuse completes the Z3",
+      "summary": "Konrad Zuse completed the Z3 on May 12, 1941 — the first working programmable, fully automatic digital computer, using electromechanical relays.",
+      "about": "The Z3 read programs from punched film and could perform conditional branching — a stored-program concept years before ENIAC. Destroyed in a 1943 bombing raid, it was rebuilt in the 1960s and is recognized as a Turing-complete machine built for practical calculation.",
+      "narrative": {
+        "whyChosen": "The Z3 was the first operational programmable digital computer.",
+        "whyImportant": "It proved automatic computation with stored instructions was achievable in wartime Europe.",
+        "problemSolved": "Engineers needed repeatable, programmable calculation without manual rewiring for every problem."
+      },
+      "category": "invention",
+      "tags": [
+        "hardware",
+        "computer",
+        "z3",
+        "invention"
+      ],
+      "people": [
+        {
+          "id": "konrad-zuse",
+          "name": "Konrad Zuse",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Z3 (completed May 12, 1941)",
+          "url": "https://en.wikipedia.org/wiki/Z3_(computer)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Z3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Z3_(computer)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "eniac-dedicated",
+        "harvard-mark-1-completed",
+        "manchester-baby-first-program"
+      ]
+    }
+  ]
+}

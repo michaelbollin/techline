@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "unix-created",
+      "slug": "unix-created",
+      "date": "1969",
+      "datePrecision": "year",
+      "title": "Unix operating system created",
+      "summary": "Ken Thompson and Dennis Ritchie began developing Unix at Bell Labs in 1969 — a small, multi-user operating system on a spare PDP-7 after AT&T withdrew from the Multics project.",
+      "about": "Unix combined a simple kernel, hierarchical file system, and pipe-based tools into an environment designed for programmers. Thompson and Ritchie rewrote it in C on the PDP-11, then AT&T licensed it to universities — spawning BSD, Linux, macOS, and Android across every server and smartphone today.",
+      "narrative": {
+        "whyChosen": "Unix defined the portable, multi-user OS model that still runs most of the internet.",
+        "whyImportant": "Files, pipes, and C on Unix became the blueprint for modern operating systems.",
+        "problemSolved": "Multics was too complex; Bell Labs needed a small, flexible OS for daily programming work."
+      },
+      "category": "software",
+      "tags": [
+        "unix",
+        "operating-system",
+        "bell-labs",
+        "c-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "bell-labs",
+          "name": "Bell Labs"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — History of Unix (development began 1969)",
+          "url": "https://en.wikipedia.org/wiki/History_of_Unix",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Unix (overview)",
+          "url": "https://en.wikipedia.org/wiki/Unix",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "b-language-created",
+        "c-language-created",
+        "linux-kernel-announced",
+        "arpanet-first-message"
+      ]
+    },
+    {
       "id": "b-language-created",
       "slug": "b-language-created",
       "date": "1969",
@@ -43,6 +91,7 @@
         }
       ],
       "relatedIds": [
+        "unix-created",
         "bcpl-manual-published",
         "c-language-created"
       ]

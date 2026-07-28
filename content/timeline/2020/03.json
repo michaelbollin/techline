@@ -51,6 +51,49 @@
         "android-announced",
         "t-mobile-g1-released"
       ]
+    },
+    {
+      "id": "solana-mainnet-launched",
+      "slug": "solana-mainnet-launched",
+      "date": "2020-03-16",
+      "datePrecision": "day",
+      "title": "Solana mainnet beta launches",
+      "summary": "Solana launched mainnet beta on March 16, 2020 — a high-throughput blockchain using proof-of-history alongside proof-of-stake.",
+      "about": "Solana targeted sub-second finality and thousands of transactions per second for DeFi and NFT mints. Rust smart contracts and cheap fees attracted traders during the 2021 bull run — and later outages reminded developers that speed trades off against decentralization narratives.",
+      "narrative": {
+        "whyChosen": "Solana became the leading Ethereum-alternative L1 for high-frequency on-chain apps.",
+        "whyImportant": "It pushed the industry to compare throughput, fees, and validator counts across chains.",
+        "problemSolved": "Ethereum layer-1 congestion made low-fee trading and gaming impractical at peak demand."
+      },
+      "category": "protocol",
+      "tags": [
+        "solana",
+        "blockchain",
+        "web3",
+        "defi",
+        "cryptocurrency"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Solana (blockchain platform) (mainnet beta March 16, 2020)",
+          "url": "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Solana (overview)",
+          "url": "https://en.wikipedia.org/wiki/Solana_(blockchain_platform)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "uniswap-v1-released",
+        "cryptokitties-launched"
+      ]
     }
   ]
 }

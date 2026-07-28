@@ -16,7 +16,7 @@
       "id": "hinton-alexnet-imagenet-breakthrough",
       "date": "2012-09",
       "datePrecision": "month",
-      "title": "Geoffrey Hinton's team wins ImageNet with AlexNet",
+      "title": "AlexNet wins ImageNet",
       "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton submitted AlexNet to ILSVRC 2012 on September 30, 2012 — winning with 15.3% top-5 error and triggering the deep learning revolution.",
       "about": "AlexNet's GPU-trained convolutional network crushed traditional computer vision pipelines — convincing Google, Facebook, and industry to bet on neural networks. Hinton had pursued backprop for decades before this breakthrough.",
       "narrative": {

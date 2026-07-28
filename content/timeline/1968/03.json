@@ -47,7 +47,7 @@
       "id": "dijkstra-goto-letter-quote",
       "date": "1968-03",
       "datePrecision": "month",
-      "title": "Edsger Dijkstra declares \"Go To statement considered harmful\"",
+      "title": "Dijkstra: Go To considered harmful",
       "quoteText": "For a number of years I have been familiar with the observed development that program code containing go to statements cancels out the advantages of structured programming.",
       "summary": "Dijkstra's letter to the Communications of the ACM editor — titled \"Go To Statement Considered Harmful\" — attacks unstructured jumps in code.",
       "about": "The title became a meme decades before Twitter. Fortran and BASIC programmers had lived on GOTO; Dijkstra argued that structured control flow made programs easier to reason about. The debate still echoes whenever someone reaches for a quick escape hatch.",

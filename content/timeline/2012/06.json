@@ -50,6 +50,59 @@
         "t-mobile-g1-released",
         "iphone-goes-on-sale"
       ]
+    },
+    {
+      "id": "coinbase-founded",
+      "slug": "coinbase-founded",
+      "date": "2012-06",
+      "datePrecision": "month",
+      "title": "Coinbase founded",
+      "summary": "Brian Armstrong and Fred Ehrsam founded Coinbase in June 2012 — a regulated on-ramp that let users buy Bitcoin with bank accounts instead of peer-to-peer trades.",
+      "about": "Coinbase wrapped key custody, KYC, and fiat rails in a consumer app — the opposite of cypherpunk self-custody but the path most newcomers took. Its 2021 Nasdaq listing and later spot-ETF custody deals made it the face of mainstream crypto infrastructure in the United States.",
+      "narrative": {
+        "whyChosen": "Coinbase became the default fiat gateway for US crypto adoption.",
+        "whyImportant": "It proved regulated exchanges could scale without running their own blockchains.",
+        "problemSolved": "Buying bitcoin required forum trades and technical wallet setup beyond most users."
+      },
+      "category": "company",
+      "tags": [
+        "coinbase",
+        "bitcoin",
+        "exchange",
+        "cryptocurrency"
+      ],
+      "people": [
+        {
+          "id": "brian-armstrong",
+          "name": "Brian Armstrong",
+          "role": "co-founder"
+        },
+        {
+          "id": "fred-ehrsam",
+          "name": "Fred Ehrsam",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Coinbase (founded June 2012)",
+          "url": "https://en.wikipedia.org/wiki/Coinbase",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Coinbase (overview)",
+          "url": "https://en.wikipedia.org/wiki/Coinbase",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bitcoin-genesis-block-mined",
+        "bitcoin-pizza-transaction",
+        "bitcoin-spot-etf-approved"
+      ]
     }
   ]
 }

@@ -48,7 +48,7 @@
       "slug": "kent-beck-extreme-programming",
       "date": "1999",
       "datePrecision": "year",
-      "title": "Kent Beck publishes Extreme Programming Explained",
+      "title": "Extreme Programming Explained",
       "summary": "Kent Beck published Extreme Programming Explained in 1999 — popularizing pair programming, TDD, and iterative delivery.",
       "about": "XP influenced Agile Manifesto authors and every modern CI/CD pipeline. Beck also created JUnit — the ancestor of xUnit frameworks in every language.",
       "narrative": {

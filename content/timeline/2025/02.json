@@ -186,6 +186,55 @@
         "gpt-5-released",
         "chatgpt-released"
       ]
+    },
+    {
+      "id": "grok-3-released",
+      "slug": "grok-3-released",
+      "date": "2025-02-17",
+      "datePrecision": "day",
+      "title": "xAI Grok 3 released",
+      "summary": "xAI released Grok 3 on February 17, 2025 — Elon Musk's flagship model with DeepSearch, reasoning modes, and SuperGrok subscriptions on X and grok.com.",
+      "about": "Grok 3 trained on roughly 10x the compute of Grok 2 and launched days after DeepSeek R1 shook the market. Think and Big Brain modes, DeepSearch over X and the web, and a separate SuperGrok tier made xAI a visible third pole beside OpenAI and Anthropic in the 2025 model wars.",
+      "narrative": {
+        "whyChosen": "Grok 3 put xAI on the frontier model map with X distribution built in.",
+        "whyImportant": "Social-native search and edgy positioning differentiated Grok from corporate chatbots.",
+        "problemSolved": "X needed a competitive in-house AI model tied to its social graph and subscriber base."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "xai",
+        "grok",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "xai",
+          "name": "xAI"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "TechCrunch — xAI releases Grok 3 (February 17, 2025)",
+          "url": "https://techcrunch.com/2025/02/17/elon-musks-ai-company-xai-releases-its-latest-flagship-ai-grok-3/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Grok (chatbot) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "deepseek-r1-released",
+        "gpt-5-released",
+        "chatgpt-released"
+      ]
     }
   ]
 }

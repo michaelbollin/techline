@@ -52,7 +52,7 @@
       "id": "torvalds-reply-linux-obsolete",
       "date": "1992-01-29",
       "datePrecision": "day",
-      "title": "Linus Torvalds replies: \"linux is more portable than minix\"",
+      "title": "Torvalds: Linux more portable than Minix",
       "quoteText": "The fact is that linux is more portable than minix.",
       "summary": "Linus Torvalds fires back on comp.os.minix the same day Andrew Tanenbaum declared Linux obsolete — conceding microkernels are nicer in theory while defending Linux's pragmatic portability.",
       "about": "Torvalds admitted Linux was monolithic and that he 'over-reacted' — but stood by shipping a working kernel over academic purity. The thread is still cited in every monolith-vs-microservices debate.",

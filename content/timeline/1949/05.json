@@ -46,7 +46,7 @@
       "slug": "edsac-initial-orders",
       "date": "1949-05",
       "datePrecision": "month",
-      "title": "Wheeler's EDSAC Initial Orders add the first assembler",
+      "title": "EDSAC Initial Orders assembler",
       "summary": "By May 1949, David Wheeler's Initial Orders let EDSAC translate mnemonic instructions from paper tape into machine code — the first assembler.",
       "about": "Before assemblers, programmers punched raw binary numbers for every instruction. Wheeler's Initial Orders — a small boot program loaded at startup — read labels like `A 80` from tape and wrote the 17-bit words EDSAC executed. The same month EDSAC ran its first user programs, this loader made programming faster and launched the idea behind every compiler since.",
       "narrative": {

@@ -49,6 +49,7 @@
       ],
       "relatedIds": [
         "c-k-and-r-published",
+        "unix-created",
         "b-language-created",
         "ansi-c-standard",
         "prolog-first-implementation"
@@ -101,7 +102,7 @@
       "slug": "karen-sparck-jones-idf",
       "date": "1972",
       "datePrecision": "year",
-      "title": "Karen Spärck Jones publishes inverse document frequency",
+      "title": "Karen Spärck Jones publishes IDF",
       "summary": "Karen Spärck Jones introduced inverse document frequency (IDF) in 1972 — a cornerstone of search ranking and information retrieval.",
       "about": "IDF weights rare terms higher in search — the 'idf' in tf-idf used by Elasticsearch, Lucene, and early Google. Her work predates the web but powers every search engine developers integrate with.",
       "narrative": {

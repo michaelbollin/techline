@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "arpanet-first-message",
+      "slug": "arpanet-first-message",
+      "date": "1969-10-29",
+      "datePrecision": "day",
+      "title": "First ARPANET host-to-host message",
+      "summary": "On October 29, 1969, UCLA and SRI completed the first ARPANET host-to-host connection — Charley Kline typed \"login\" and the first two characters \"lo\" were received before the remote host crashed.",
+      "about": "The link between UCLA's Sigma 7 and SRI's SDS 940 over BBN Interface Message Processors proved packet-switched networking between computers. ARPANET grew to four nodes by December 1969 and became the research network that evolved into the modern internet.",
+      "narrative": {
+        "whyChosen": "The first ARPANET login was the proof that computers could talk across a packet network.",
+        "whyImportant": "It launched the networking research program that became the global internet.",
+        "problemSolved": "Universities and labs needed to share computing resources without dedicated phone lines to every machine."
+      },
+      "category": "protocol",
+      "tags": [
+        "arpanet",
+        "internet",
+        "networking",
+        "protocol"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — ARPANET (first message, October 29, 1969)",
+          "url": "https://en.wikipedia.org/wiki/ARPANET",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ARPANET (overview)",
+          "url": "https://en.wikipedia.org/wiki/ARPANET",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "cerf-kahn-tcp-ip-paper-published",
+        "dec-pdp-1-introduced"
+      ]
+    }
+  ]
+}

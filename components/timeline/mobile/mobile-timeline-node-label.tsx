@@ -1,9 +1,7 @@
 import {
   MOBILE_LABEL_BOX_HEIGHT,
-  MOBILE_LABEL_FONT_SIZE_PX,
   MOBILE_LABEL_ICON_GAP,
   MOBILE_LABEL_ICON_SIZE,
-  MOBILE_LABEL_MAX_TEXT_WIDTH,
   MOBILE_LABEL_PADDING_X,
   MOBILE_LABEL_RADIUS,
 } from "@/lib/timeline/vertical/label-metrics";
@@ -65,8 +63,6 @@ export function MobileTimelineNodeLabel({
         paddingX={MOBILE_LABEL_PADDING_X}
         iconSize={MOBILE_LABEL_ICON_SIZE}
         iconGap={MOBILE_LABEL_ICON_GAP}
-        maxTextWidth={MOBILE_LABEL_MAX_TEXT_WIDTH}
-        fontSizePx={MOBILE_LABEL_FONT_SIZE_PX}
         textClassName="pointer-events-none text-xs font-medium tracking-wide fill-white"
         iconClassName="text-white"
       />

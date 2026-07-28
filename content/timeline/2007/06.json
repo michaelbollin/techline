@@ -105,6 +105,60 @@
       ]
     },
     {
+      "id": "dropbox-founded",
+      "slug": "dropbox-founded",
+      "date": "2007-06",
+      "datePrecision": "month",
+      "title": "Dropbox founded",
+      "summary": "Drew Houston and Arash Ferdowsi founded Dropbox in June 2007 — a cloud sync service that made files follow users across devices.",
+      "about": "Dropbox's demo video and Y Combinator launch popularized \"it just works\" file sync — drag a folder, find it everywhere. Developers copied the model for notes, passwords, and IDE settings. The company normalized cloud storage APIs and consumer freemium SaaS before Google Drive and iCloud caught up.",
+      "narrative": {
+        "whyChosen": "Dropbox made personal cloud sync mainstream for developers and knowledge workers.",
+        "whyImportant": "It shifted expectations from emailing attachments to always-available shared files.",
+        "problemSolved": "People carried USB drives and emailed files to themselves to work across machines."
+      },
+      "category": "company",
+      "tags": [
+        "dropbox",
+        "cloud",
+        "sync",
+        "storage",
+        "saas"
+      ],
+      "people": [
+        {
+          "id": "drew-houston",
+          "name": "Drew Houston",
+          "role": "co-founder"
+        },
+        {
+          "id": "arash-ferdowsi",
+          "name": "Arash Ferdowsi",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Dropbox (founded June 2007)",
+          "url": "https://en.wikipedia.org/wiki/Dropbox",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Dropbox (overview)",
+          "url": "https://en.wikipedia.org/wiki/Dropbox",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "github-launched",
+        "heroku-launched",
+        "iphone-goes-on-sale"
+      ]
+    },
+    {
       "id": "iphone-goes-on-sale",
       "slug": "iphone-goes-on-sale",
       "date": "2007-06-29",

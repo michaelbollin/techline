@@ -35,6 +35,51 @@
       "relatedIds": [
         "python-3-13-released"
       ]
+    },
+    {
+      "id": "windows-10-end-of-support",
+      "slug": "windows-10-end-of-support",
+      "date": "2025-10-14",
+      "datePrecision": "day",
+      "title": "Windows 10 end of support",
+      "summary": "Microsoft ended free security updates for Windows 10 on October 14, 2025 — closing a decade-long OS generation still used on hundreds of millions of PCs.",
+      "about": "Windows 10 EOL forced enterprises and consumers toward Windows 11 or paid Extended Security Updates. For developers it marked the end of targeting IE-mode legacy and an aging kernel baseline — one of the largest forced migration events in desktop computing since Windows XP.",
+      "narrative": {
+        "whyChosen": "Windows 10's EOL ended the longest-supported consumer Windows generation in years.",
+        "whyImportant": "Hundreds of millions of machines needed migration or paid security patches.",
+        "problemSolved": "Microsoft needed to sunset an OS generation to focus security engineering on Windows 11."
+      },
+      "category": "culture",
+      "tags": [
+        "windows",
+        "microsoft",
+        "policy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Windows 10 end of support (October 14, 2025)",
+          "url": "https://www.microsoft.com/en-us/windows/end-of-support",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Windows 10 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Windows_10",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "microsoft-edge-released",
+        "internet-explorer-11-retired"
+      ]
     }
   ]
 }

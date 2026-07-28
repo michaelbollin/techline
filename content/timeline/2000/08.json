@@ -138,7 +138,7 @@
       "id": "torvalds-talk-is-cheap",
       "date": "2000-08-30",
       "datePrecision": "day",
-      "title": "Linus Torvalds: \"Talk is cheap. Show me the code.\"",
+      "title": "Torvalds: Talk is cheap",
       "quoteText": "Talk is cheap. Show me the code.",
       "summary": "Linus Torvalds dismisses architecture debates on the Linux kernel mailing list — ship patches, not opinions.",
       "about": "The line became open-source culture in eight words. It appears on stickers, README files, and every thread where design docs pile up without a pull request.",

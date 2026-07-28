@@ -37,8 +37,56 @@
       ],
       "relatedIds": [
         "dec-pdp-8-shipped",
-        "dec-vax-11-780-released",
+        "dec-pdp-1-introduced",
         "ibm-system-360-announced"
+      ]
+    },
+    {
+      "id": "eliza-created",
+      "slug": "eliza-created",
+      "date": "1966",
+      "datePrecision": "year",
+      "title": "Joseph Weizenbaum creates ELIZA",
+      "summary": "Joseph Weizenbaum created ELIZA at MIT in 1966 — a program that simulated conversation by pattern-matching user text, including the DOCTOR Rogerian therapist script.",
+      "about": "ELIZA fooled some users into attributing understanding to a simple keyword engine — prompting Weizenbaum's later warnings about anthropomorphizing machines. It launched chatbot research and debates about AI deception that continue in modern LLM guardrails.",
+      "narrative": {
+        "whyChosen": "ELIZA was the first widely known conversational computer program.",
+        "whyImportant": "It showed how little code could mimic dialogue — and why users over-trust machines.",
+        "problemSolved": "Researchers wanted to explore natural-language interaction without real language understanding."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "chatbot",
+        "nlp",
+        "mit"
+      ],
+      "people": [
+        {
+          "id": "joseph-weizenbaum",
+          "name": "Joseph Weizenbaum",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — ELIZA (created 1966)",
+          "url": "https://en.wikipedia.org/wiki/ELIZA",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ELIZA (overview)",
+          "url": "https://en.wikipedia.org/wiki/ELIZA",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "chatgpt-released",
+        "dec-pdp-10-released",
+        "marvin-minsky-dartmouth-workshop"
       ]
     }
   ]

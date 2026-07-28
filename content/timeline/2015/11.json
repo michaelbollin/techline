@@ -256,6 +256,49 @@
         "nextjs-open-sourced",
         "contentful-founded"
       ]
+    },
+    {
+      "id": "erc-20-token-standard-finalized",
+      "slug": "erc-20-token-standard-finalized",
+      "date": "2015-11-19",
+      "datePrecision": "day",
+      "title": "ERC-20 token standard finalized",
+      "summary": "EIP-20 finalized the ERC-20 fungible token interface on November 19, 2015 — standardizing `transfer`, `approve`, and `balanceOf` for Ethereum tokens.",
+      "about": "ERC-20 let exchanges, wallets, and DeFi protocols integrate any compliant token without custom code. The 2017 ICO wave minted thousands of ERC-20 assets; Uniswap pools and MetaMask balances all assume this ABI. It became the template every EVM chain copied.",
+      "narrative": {
+        "whyChosen": "ERC-20 standardized how fungible assets work on Ethereum.",
+        "whyImportant": "A common interface unlocked composable DeFi and exchange integrations.",
+        "problemSolved": "Every token contract used incompatible APIs, blocking wallets and automated market makers."
+      },
+      "category": "protocol",
+      "tags": [
+        "ethereum",
+        "erc-20",
+        "token",
+        "smart-contracts",
+        "web3"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "EIPs — EIP-20: Token Standard (final November 19, 2015)",
+          "url": "https://eips.ethereum.org/EIPS/eip-20",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ERC-20 (overview)",
+          "url": "https://en.wikipedia.org/wiki/ERC-20",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "uniswap-v1-released",
+        "compound-governance-token-launched"
+      ]
     }
   ]
 }

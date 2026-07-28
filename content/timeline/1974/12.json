@@ -4,7 +4,7 @@
       "id": "knuth-premature-optimization",
       "date": "1974-12",
       "datePrecision": "month",
-      "title": "Donald Knuth warns against premature optimization",
+      "title": "Knuth: premature optimization",
       "quoteText": "Premature optimization is the root of all evil (or at least most of it) in programming.",
       "summary": "Donald Knuth's paper Structured Programming with go to Statements coins the line every performance tweaker quotes back at themselves.",
       "about": "Knuth wasn't against optimization — he argued for profiling first. The quote is misused to dismiss all early performance work, but the original point was about clarity before micro-benchmarks.",

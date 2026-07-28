@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "id": "metamask-released",
+      "slug": "metamask-released",
+      "date": "2016-07",
+      "datePrecision": "month",
+      "title": "MetaMask browser wallet released",
+      "summary": "ConsenSys released MetaMask in July 2016 — a browser extension that injected an Ethereum wallet and `web3` provider into every webpage.",
+      "about": "MetaMask let users sign transactions without running a full node and gave dapps a standard `window.ethereum` API. It became the default wallet for DeFi, NFT mints, and testnets — the on-ramp that turned Web3 from CLI tools into click-to-sign UX.",
+      "narrative": {
+        "whyChosen": "MetaMask made Ethereum usable from a normal browser tab.",
+        "whyImportant": "It standardized how web apps request signatures and read chain state.",
+        "problemSolved": "Early dapps required command-line clients; mainstream users needed a simple signing surface."
+      },
+      "category": "software",
+      "tags": [
+        "metamask",
+        "ethereum",
+        "wallet",
+        "web3",
+        "browser-extension"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — MetaMask (released 2016)",
+          "url": "https://en.wikipedia.org/wiki/MetaMask",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — MetaMask (overview)",
+          "url": "https://en.wikipedia.org/wiki/MetaMask",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "web3-term-coined",
+        "uniswap-v1-released",
+        "cryptokitties-launched"
+      ]
+    }
+  ]
+}

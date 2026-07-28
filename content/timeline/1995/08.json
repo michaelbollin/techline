@@ -43,7 +43,54 @@
       ],
       "relatedIds": [
         "netscape-navigator-1-0",
-        "internet-explorer-3-0"
+        "internet-explorer-3-0",
+        "ibm-pc-5150-released"
+      ]
+    },
+    {
+      "id": "windows-95-released",
+      "slug": "windows-95-released",
+      "date": "1995-08-24",
+      "datePrecision": "day",
+      "title": "Microsoft Windows 95 released",
+      "summary": "Microsoft released Windows 95 to retail on August 24, 1995 — merging MS-DOS and Windows into a 32-bit OS with the Start menu, taskbar, and Plug and Play.",
+      "about": "Windows 95 sold over a million copies in four days and made the GUI PC mainstream. Its $300 million launch campaign and bundled MS-DOS kernel defined the PC software stack for a decade — the platform most developers targeted until the web and mobile shifted the center of gravity.",
+      "narrative": {
+        "whyChosen": "Windows 95 unified DOS and Windows and set the desktop UI patterns billions still recognize.",
+        "whyImportant": "Preemptive multitasking and Plug and Play made PCs approachable for home and office users at scale.",
+        "problemSolved": "Windows 3.x ran on top of DOS with cooperative multitasking; users needed one integrated 32-bit system."
+      },
+      "category": "software",
+      "tags": [
+        "windows",
+        "microsoft",
+        "operating-system"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Windows 95 (retail release August 24, 1995)",
+          "url": "https://en.wikipedia.org/wiki/Windows_95",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microsoft Windows (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Windows",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "internet-explorer-1-0",
+        "windows-10-end-of-support"
       ]
     }
   ]

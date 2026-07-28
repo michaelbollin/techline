@@ -43,6 +43,8 @@
         }
       ],
       "relatedIds": [
+        "arpanet-first-message",
+        "cerf-kahn-tcp-ip-paper-published",
         "http-1-1-standardized",
         "dns-standardized",
         "ftp-standardized"
@@ -95,6 +97,48 @@
         "xerox-alto-operational",
         "apple-ii-introduced",
         "steve-jobs-returns-to-apple"
+      ]
+    },
+    {
+      "id": "lotus-1-2-3-released",
+      "slug": "lotus-1-2-3-released",
+      "date": "1983-01-26",
+      "datePrecision": "day",
+      "title": "Lotus 1-2-3 released",
+      "summary": "Lotus Development released 1-2-3 on January 26, 1983 — a spreadsheet, graphing, and database program that became the killer app for the IBM PC.",
+      "about": "1-2-3 was written in assembly for the PC's graphics and keyboard, crushing slower VisiCalc clones. It drove corporate PC purchases and made spreadsheet skills a desk-job requirement — the template Excel followed a decade later.",
+      "narrative": {
+        "whyChosen": "Lotus 1-2-3 was the defining business application of the early IBM PC era.",
+        "whyImportant": "Killer apps justified PC budgets faster than hardware specs alone.",
+        "problemSolved": "Business users needed integrated calculation, charting, and simple databases on one machine."
+      },
+      "category": "software",
+      "tags": [
+        "spreadsheet",
+        "software",
+        "pc",
+        "business"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Lotus 1-2-3 (released January 26, 1983)",
+          "url": "https://en.wikipedia.org/wiki/Lotus_1-2-3",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lotus 1-2-3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lotus_1-2-3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "ms-dos-released",
+        "windows-95-released"
       ]
     }
   ]

@@ -142,6 +142,49 @@
         "dotnet-framework-4-5-released",
         "dotnet-6-released"
       ]
+    },
+    {
+      "id": "ethereum-mainnet-launched",
+      "slug": "ethereum-mainnet-launched",
+      "date": "2015-07-30",
+      "datePrecision": "day",
+      "title": "Ethereum mainnet launches",
+      "summary": "Ethereum's Frontier mainnet went live on July 30, 2015 — opening a public blockchain where anyone could deploy smart contracts with ether gas.",
+      "about": "Developers compiled Solidity to EVM bytecode and deployed with `geth` or Mist wallets. The ICO boom, Uniswap, and NFT standards all ran on this chain. Proof-of-work mining secured the network until the 2022 Merge moved consensus to proof-of-stake.",
+      "narrative": {
+        "whyChosen": "Frontier turned Ethereum from a crowdsale promise into a live smart-contract platform.",
+        "whyImportant": "It launched the dominant programmable blockchain for DeFi and Web3 apps.",
+        "problemSolved": "Builders needed a production network to test unstoppable programs with real economic stakes."
+      },
+      "category": "protocol",
+      "tags": [
+        "ethereum",
+        "blockchain",
+        "smart-contracts",
+        "web3"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Ethereum (Frontier launch July 30, 2015)",
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "role": "date"
+        },
+        {
+          "title": "Ethereum.org — History of Ethereum (overview)",
+          "url": "https://ethereum.org/en/history/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-whitepaper-published",
+        "erc-20-token-standard-finalized",
+        "the-dao-hacked",
+        "ethereum-merge-completed"
+      ]
     }
   ]
 }

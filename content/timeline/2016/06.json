@@ -183,6 +183,49 @@
         "angularjs-released",
         "react-open-sourced"
       ]
+    },
+    {
+      "id": "the-dao-hacked",
+      "slug": "the-dao-hacked",
+      "date": "2016-06-17",
+      "datePrecision": "day",
+      "title": "The DAO exploited on Ethereum",
+      "summary": "An attacker drained roughly $60 million from The DAO on June 17, 2016 — exploiting a recursive-call bug in the largest Ethereum smart contract crowdfunding project to date.",
+      "about": "The DAO had raised ether through a novel on-chain venture fund; the hack forced a contentious hard fork that split Ethereum and Ethereum Classic. Audits, formal verification, and multisig treasuries became standard after developers saw immutable code fail in production.",
+      "narrative": {
+        "whyChosen": "The DAO hack was smart-contract security's Lehman moment.",
+        "whyImportant": "It proved on-chain code needed audits and governance escape hatches.",
+        "problemSolved": "Nothing yet — it exposed that immutable contracts could lose millions from a single logic bug."
+      },
+      "category": "culture",
+      "tags": [
+        "ethereum",
+        "smart-contracts",
+        "security",
+        "dao",
+        "web3"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — The DAO (organization) (hack June 17, 2016)",
+          "url": "https://en.wikipedia.org/wiki/The_DAO_(organization)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — The DAO (overview)",
+          "url": "https://en.wikipedia.org/wiki/The_DAO_(organization)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "ethereum-merge-completed",
+        "uniswap-v1-released"
+      ]
     }
   ]
 }

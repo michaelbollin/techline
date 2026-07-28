@@ -85,7 +85,9 @@
           "role": "overview"
         }
       ],
-      "relatedIds": [],
+      "relatedIds": [
+        "ethernet-invented"
+      ],
       "slug": "metcalfe-metcalfe-law",
       "media": [],
       "companies": [],

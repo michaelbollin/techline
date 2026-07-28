@@ -48,7 +48,8 @@
         "chatgpt-released",
         "gpt-4-released",
         "openai-o3-released",
-        "gpt-5-4-released"
+        "gpt-5-4-released",
+        "gpt-5-1-released"
       ]
     }
   ]

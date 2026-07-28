@@ -96,6 +96,47 @@
         }
       ],
       "relatedIds": []
+    },
+    {
+      "id": "cd-rom-introduced",
+      "slug": "cd-rom-introduced",
+      "date": "1984",
+      "datePrecision": "year",
+      "title": "CD-ROM format introduced",
+      "summary": "Philips and Sony introduced the CD-ROM read-only optical disc format in 1984 — extending audio CD technology to store hundreds of megabytes of computer data.",
+      "about": "CD-ROMs shipped encyclopedias, games, and software in the 1980s–90s before broadband made downloads practical. The format bridged physical media and hypertext — much early web content was ported straight from CD-ROM titles.",
+      "narrative": {
+        "whyChosen": "CD-ROM brought cheap, high-capacity read-only storage to personal computers.",
+        "whyImportant": "It enabled multimedia software distribution before the web could carry large binaries.",
+        "problemSolved": "Floppy disks could not hold encyclopedias, operating systems, or rich media collections."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "storage",
+        "optical-media",
+        "cd-rom"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — CD-ROM (introduced 1984)",
+          "url": "https://en.wikipedia.org/wiki/CD-ROM",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Compact disc (overview)",
+          "url": "https://en.wikipedia.org/wiki/Compact_disc",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ibm-pc-5150-released",
+        "worldwideweb-browser"
+      ]
     }
   ]
 }

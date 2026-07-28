@@ -45,6 +45,56 @@
       "relatedIds": [
         "graphql-open-sourced"
       ]
+    },
+    {
+      "id": "uniswap-v1-released",
+      "slug": "uniswap-v1-released",
+      "date": "2018-11-02",
+      "datePrecision": "day",
+      "title": "Uniswap v1 released",
+      "summary": "Hayden Adams deployed Uniswap v1 on November 2, 2018 — an automated market maker that swapped ERC-20 tokens with x*y=k liquidity pools.",
+      "about": "Uniswap replaced order books with constant-product pools anyone could fund. Liquidity providers earned fees; traders swapped atomically on-chain. V2 and V3 scaled the model into the backbone of DeFi — composable with flash loans, yield farms, and aggregators.",
+      "narrative": {
+        "whyChosen": "Uniswap pioneered on-chain AMM trading for Ethereum tokens.",
+        "whyImportant": "Permissionless pools made every ERC-20 instantly tradable without listing fees.",
+        "problemSolved": "Decentralized exchanges relied on slow order books with thin liquidity."
+      },
+      "category": "software",
+      "tags": [
+        "uniswap",
+        "defi",
+        "ethereum",
+        "dex",
+        "web3"
+      ],
+      "people": [
+        {
+          "id": "hayden-adams",
+          "name": "Hayden Adams",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Uniswap (v1 launched November 2, 2018)",
+          "url": "https://en.wikipedia.org/wiki/Uniswap",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Uniswap (overview)",
+          "url": "https://en.wikipedia.org/wiki/Uniswap",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "erc-20-token-standard-finalized",
+        "makerdao-dai-launched",
+        "compound-governance-token-launched",
+        "ethereum-mainnet-launched"
+      ]
     }
   ]
 }

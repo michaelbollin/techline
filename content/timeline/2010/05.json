@@ -191,6 +191,47 @@
         "intellij-idea-released",
         "visual-studio-code-preview"
       ]
+    },
+    {
+      "id": "bitcoin-pizza-transaction",
+      "slug": "bitcoin-pizza-transaction",
+      "date": "2010-05-22",
+      "datePrecision": "day",
+      "title": "First real-world Bitcoin purchase",
+      "summary": "Laszlo Hanyecz paid 10,000 BTC for two pizzas on May 22, 2010 — the first documented commercial Bitcoin transaction.",
+      "about": "Hanyecz posted on Bitcointalk offering bitcoins for delivered pizza; Jeremy Sturdivant took the trade. The coins were worth pennies then and became a cautionary tale about early spending — but the event proved Bitcoin could settle real-world commerce, not just forum tips.",
+      "narrative": {
+        "whyChosen": "Bitcoin Pizza Day marks the moment cryptocurrency left pure speculation.",
+        "whyImportant": "It demonstrated peer-to-peer digital cash could buy ordinary goods.",
+        "problemSolved": "Bitcoin needed proof it worked as a medium of exchange, not just a curiosity."
+      },
+      "category": "culture",
+      "tags": [
+        "bitcoin",
+        "cryptocurrency",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Bitcoin Pizza Day (May 22, 2010)",
+          "url": "https://en.wikipedia.org/wiki/Bitcoin_Pizza_Day",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bitcoin (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bitcoin",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bitcoin-genesis-block-mined",
+        "bitcoin-whitepaper-published",
+        "coinbase-founded"
+      ]
     }
   ]
 }

@@ -137,6 +137,58 @@
         "http-1-1-standardized",
         "tls-1-0-standardized"
       ]
+    },
+    {
+      "id": "github-copilot-ga",
+      "slug": "github-copilot-ga",
+      "date": "2022-06-21",
+      "datePrecision": "day",
+      "title": "GitHub Copilot generally available",
+      "summary": "GitHub made Copilot generally available on June 21, 2022 — an AI pair programmer in VS Code and JetBrains IDEs for $10/month.",
+      "about": "Copilot turned OpenAI Codex into the first mass-market in-editor autocomplete product — tab-to-accept whole functions from natural language comments. It launched the AI-coding era that Cursor, Codeium, and Copilot Workspace extended, and made GitHub the default distribution channel for developer LLMs.",
+      "narrative": {
+        "whyChosen": "Copilot was the first widely sold AI pair programmer inside mainstream IDEs.",
+        "whyImportant": "Inline code generation became a paid developer tool category overnight.",
+        "problemSolved": "Developers spent hours on boilerplate that LLMs could draft from context and comments."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "github",
+        "copilot",
+        "ide",
+        "openai"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        },
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub Blog — GitHub Copilot is generally available (June 21, 2022)",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers/",
+          "role": "date"
+        },
+        {
+          "title": "GitHub Changelog — Copilot available to individual developers (overview)",
+          "url": "https://github.blog/changelog/2022-06-21-github-copilot-is-now-available-to-individual-developers/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "visual-studio-code-preview",
+        "cursor-released",
+        "chatgpt-released"
+      ]
     }
   ]
 }

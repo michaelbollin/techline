@@ -14,7 +14,7 @@
       "id": "john-von-neumann-architecture",
       "date": "1945-06",
       "datePrecision": "month",
-      "title": "John von Neumann describes stored-program architecture",
+      "title": "von Neumann stored-program architecture",
       "summary": "John von Neumann's 1945 'First Draft' report described stored-program computers — program and data in shared memory.",
       "about": "The von Neumann architecture still defines how CPUs fetch instructions from RAM. Every C program, Python interpreter, and JavaScript engine runs on this model unless explicitly heterogeneous (GPUs, TPUs).",
       "narrative": {

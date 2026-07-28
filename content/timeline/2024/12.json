@@ -144,7 +144,101 @@
       "relatedIds": [
         "openai-o1-released",
         "google-gemini-2-0-released",
-        "openai-o3-released"
+        "openai-o3-released",
+        "openai-o3-mini-released"
+      ]
+    },
+    {
+      "id": "react-19-released",
+      "slug": "react-19-released",
+      "date": "2024-12-05",
+      "datePrecision": "day",
+      "title": "React 19 released",
+      "summary": "Meta released React 19 on December 5, 2024 — stable Actions, the `use` API, ref-as-prop, and server components in the mainline library.",
+      "about": "React 19 made async transitions and server actions first-class — simplifying forms, mutations, and streaming without third-party frameworks owning the pattern. It completed years of concurrent features and set the baseline Next.js, Remix, and Expo adopted through 2025.",
+      "narrative": {
+        "whyChosen": "React 19 shipped Actions and server components as stable platform primitives.",
+        "whyImportant": "Built-in async state handling reduced framework-specific form and mutation boilerplate.",
+        "problemSolved": "Teams patched around React 18 with libraries for pending states, errors, and optimistic UI."
+      },
+      "category": "software",
+      "tags": [
+        "react",
+        "javascript",
+        "frontend",
+        "meta"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "React — React v19 (December 5, 2024)",
+          "url": "https://react.dev/blog/2024/12/05/react-19",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — React v19.0.0 release (overview)",
+          "url": "https://github.com/facebook/react/releases/tag/v19.0.0",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "react-open-sourced",
+        "nextjs-open-sourced"
+      ]
+    },
+    {
+      "id": "sora-released",
+      "slug": "sora-released",
+      "date": "2024-12-09",
+      "datePrecision": "day",
+      "title": "OpenAI Sora released to ChatGPT users",
+      "summary": "OpenAI released Sora Turbo to ChatGPT Plus and Pro users on December 9, 2024 — the first public access to its text-to-video model at sora.com.",
+      "about": "Sora moved from research preview to a consumer product with a faster Turbo variant — generating short clips from text prompts inside ChatGPT subscriptions. It previewed the video generation race that Sora 2 and social features would escalate in 2025.",
+      "narrative": {
+        "whyChosen": "Sora's public launch made generative video a paid consumer feature, not a lab demo.",
+        "whyImportant": "Text-to-video entered the same subscription bundle as chat and image models.",
+        "problemSolved": "Creators wanted accessible AI video without waiting lists or separate tools."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "openai",
+        "sora",
+        "video",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Sora is here (December 9, 2024)",
+          "url": "https://openai.com/index/sora-is-here/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sora (text-to-video model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "chatgpt-released",
+        "sora-2-released"
       ]
     }
   ]

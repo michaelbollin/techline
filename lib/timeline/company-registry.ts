@@ -43,6 +43,7 @@ export const COMPANIES: Record<string, { name: string }> = {
   tsmc: { name: "TSMC" },
   vercel: { name: "Vercel" },
   w3c: { name: "W3C" },
+  xai: { name: "xAI" },
 };
 
 /**
@@ -153,4 +154,6 @@ export const TAG_TO_COMPANY_ID: Record<string, string> = {
   nextjs: "vercel",
   vercel: "vercel",
   w3c: "w3c",
+  grok: "xai",
+  xai: "xai",
 };

@@ -19,7 +19,7 @@
       "id": "diffie-hellman-paper-published",
       "date": "1976-11",
       "datePrecision": "month",
-      "title": "Diffie and Hellman publish New Directions in Cryptography",
+      "title": "Diffie–Hellman cryptography paper",
       "summary": "Whitfield Diffie and Martin Hellman published New Directions in Cryptography in November 1976 — introducing public-key exchange and the foundations of modern cryptography.",
       "about": "The Diffie–Hellman key exchange let two parties agree on a shared secret over an insecure channel — enabling TLS, SSH, and VPN handshakes today. The paper also articulated the vision of public-key cryptography that RSA would fulfill a year later.",
       "narrative": {

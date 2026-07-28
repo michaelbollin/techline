@@ -46,7 +46,58 @@
       "relatedIds": [
         "claude-4-released",
         "gpt-5-released",
-        "claude-opus-5-released"
+        "claude-opus-5-released",
+        "gpt-5-3-codex-released"
+      ]
+    },
+    {
+      "id": "gpt-5-3-codex-released",
+      "slug": "gpt-5-3-codex-released",
+      "date": "2026-02-05",
+      "datePrecision": "day",
+      "title": "OpenAI GPT-5.3-Codex released",
+      "summary": "OpenAI released GPT-5.3-Codex on February 5, 2026 — an agentic coding model merging Codex performance with GPT-5.2 reasoning, 25% faster in Codex tools.",
+      "about": "GPT-5.3-Codex handled long-running research, tool use, and complex execution while staying steerable mid-task — OpenAI's answer to Claude Opus 4.6 in the same week. OpenAI said early versions helped build the model itself, and it shipped in Codex app, CLI, and IDE extensions on GB200 systems.",
+      "narrative": {
+        "whyChosen": "GPT-5.3-Codex unified OpenAI's coding and reasoning stacks in one agentic model.",
+        "whyImportant": "Interactive steering during long agent runs became a baseline Codex feature.",
+        "problemSolved": "Developers juggled separate Codex and GPT models for coding versus general reasoning."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "codex",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-5.3-Codex (February 5, 2026)",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OpenAI Codex (overview)",
+          "url": "https://en.wikipedia.org/wiki/OpenAI_Codex",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "claude-opus-4-6-released",
+        "gpt-5-2-released",
+        "gpt-5-4-released"
       ]
     }
   ]

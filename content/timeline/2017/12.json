@@ -39,6 +39,50 @@
         "cpp20-standard",
         "cpp98-standard"
       ]
+    },
+    {
+      "id": "makerdao-dai-launched",
+      "slug": "makerdao-dai-launched",
+      "date": "2017-12-18",
+      "datePrecision": "day",
+      "title": "MakerDAO launches DAI stablecoin",
+      "summary": "MakerDAO launched the DAI stablecoin on December 18, 2017 — a dollar-pegged asset backed by overcollateralized ether locked in smart contracts.",
+      "about": "Users deposited ETH into Maker vaults and minted DAI against it — no bank account required. DAI became DeFi's unit of account for lending, trading, and payroll before centralized stablecoins dominated volume. It showed algorithmic collateral could hold a peg — until black swans tested the design.",
+      "narrative": {
+        "whyChosen": "DAI was the first widely used decentralized stablecoin on Ethereum.",
+        "whyImportant": "It gave DeFi protocols a trust-minimized dollar substitute.",
+        "problemSolved": "Traders needed stable value on-chain without off-ramping to banks for every trade."
+      },
+      "category": "protocol",
+      "tags": [
+        "makerdao",
+        "dai",
+        "defi",
+        "ethereum",
+        "stablecoin",
+        "web3"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Dai (cryptocurrency) (launched December 18, 2017)",
+          "url": "https://en.wikipedia.org/wiki/Dai_(cryptocurrency)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — MakerDAO (overview)",
+          "url": "https://en.wikipedia.org/wiki/MakerDAO",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "uniswap-v1-released",
+        "compound-governance-token-launched"
+      ]
     }
   ]
 }

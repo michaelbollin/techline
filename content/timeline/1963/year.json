@@ -1,0 +1,93 @@
+{
+  "events": [
+    {
+      "id": "ascii-standard-published",
+      "slug": "ascii-standard-published",
+      "date": "1963",
+      "datePrecision": "year",
+      "title": "ASCII standard published",
+      "summary": "The American National Standards Institute adopted ASCII as ANSI X3.4-1963 — a 7-bit character encoding for information interchange.",
+      "about": "ASCII gave computers a shared alphabet for text files, terminals, and protocols. Every later encoding — including UTF-8 — builds on or maps through ASCII's 128 code points, making it the invisible layer beneath email, HTTP, JSON, and source code.",
+      "narrative": {
+        "whyChosen": "ASCII became the universal text layer for hardware and software from the 1960s onward.",
+        "whyImportant": "A single character set let programs and networks exchange plain text without vendor-specific codes.",
+        "problemSolved": "Each manufacturer used incompatible teletype and punch-card character sets."
+      },
+      "category": "protocol",
+      "tags": [
+        "ascii",
+        "standard",
+        "character-encoding",
+        "protocol"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — ASCII (ANSI X3.4-1963)",
+          "url": "https://en.wikipedia.org/wiki/ASCII",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ASCII (overview)",
+          "url": "https://en.wikipedia.org/wiki/ASCII",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rob-pike-utf8-paper",
+        "ecmascript-1-adopted"
+      ]
+    },
+    {
+      "id": "sketchpad-created",
+      "slug": "sketchpad-created",
+      "date": "1963",
+      "datePrecision": "year",
+      "title": "Ivan Sutherland creates Sketchpad",
+      "summary": "Ivan Sutherland demonstrated Sketchpad in 1963 — the first program to use a light pen for interactive drawing, constraints, and zoom on a computer display.",
+      "about": "Sketchpad on MIT's TX-2 pioneered direct manipulation, object instances, and constraint solving — ideas that became CAD, GUIs, and modern graphics toolkits. Sutherland's PhD work showed computers could be visual design instruments, not just number crunchers.",
+      "narrative": {
+        "whyChosen": "Sketchpad invented interactive computer graphics and constraint-based drawing.",
+        "whyImportant": "It foreshadowed CAD, WYSIWYG editors, and graphical user interfaces decades ahead.",
+        "problemSolved": "Engineers drafted on paper with no way to edit geometry or reuse symbols interactively on screen."
+      },
+      "category": "invention",
+      "tags": [
+        "graphics",
+        "cad",
+        "hci",
+        "invention",
+        "computer"
+      ],
+      "people": [
+        {
+          "id": "ivan-sutherland",
+          "name": "Ivan Sutherland",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Sketchpad (1963)",
+          "url": "https://en.wikipedia.org/wiki/Sketchpad",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sketchpad (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sketchpad",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "xerox-alto-operational",
+        "macintosh-128k-released"
+      ]
+    }
+  ]
+}

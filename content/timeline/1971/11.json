@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "id": "intel-4004-introduced",
+      "slug": "intel-4004-introduced",
+      "date": "1971-11-15",
+      "datePrecision": "day",
+      "title": "Intel 4004 microprocessor introduced",
+      "summary": "Intel introduced the 4004 on November 15, 1971 — the first commercially available microprocessor, a 4-bit CPU with about 2,300 transistors.",
+      "about": "Designed for Busicom calculators, the 4004 proved a full CPU could live on one chip — enabling embedded controllers, hobby computers, and the personal computer revolution. Intel followed with the 8-bit 8008 and 8080 that powered the Altair and early PCs.",
+      "narrative": {
+        "whyChosen": "The 4004 was the first microprocessor sold as a commercial product.",
+        "whyImportant": "Putting a CPU on a chip made computers cheap enough to embed everywhere.",
+        "problemSolved": "Logic boards needed many discrete chips; a single programmable processor cut cost and size."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "cpu",
+        "microprocessor",
+        "intel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Intel 4004 (introduced November 15, 1971)",
+          "url": "https://en.wikipedia.org/wiki/Intel_4004",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microprocessor (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microprocessor",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "intel-8086-introduced",
+        "altair-8800-released",
+        "moore-noyce-intel-founded"
+      ]
+    }
+  ]
+}

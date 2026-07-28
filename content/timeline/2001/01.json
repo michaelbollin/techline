@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "itunes-released",
+      "slug": "itunes-released",
+      "date": "2001-01-09",
+      "datePrecision": "day",
+      "title": "iTunes 1.0 released",
+      "summary": "Apple released iTunes 1.0 on January 9, 2001 at Macworld — a jukebox app for ripping, organizing, and playing digital music on the Mac.",
+      "about": "iTunes became the hub for the iPod, the iTunes Store, and iPhone sync — shaping how developers thought about media libraries and DRM. Its playlist model and AAC encoding influenced streaming apps that replaced it, but for a decade it was the default way users managed music on Apple devices.",
+      "narrative": {
+        "whyChosen": "iTunes was Apple's software foundation for the iPod and digital music era.",
+        "whyImportant": "It proved desktop sync software could drive hardware sales and later app ecosystems.",
+        "problemSolved": "Mac users lacked a polished tool to import CDs and manage large digital music collections."
+      },
+      "category": "software",
+      "tags": [
+        "itunes",
+        "apple",
+        "music",
+        "software",
+        "mac"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — iTunes (first release January 9, 2001)",
+          "url": "https://en.wikipedia.org/wiki/ITunes",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iTunes (overview)",
+          "url": "https://en.wikipedia.org/wiki/ITunes",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "macintosh-128k-released",
+        "steve-jobs-iphone-introduced",
+        "iphone-goes-on-sale"
+      ]
+    },
+    {
       "id": "intellij-idea-released",
       "slug": "intellij-idea-released",
       "date": "2001-01",

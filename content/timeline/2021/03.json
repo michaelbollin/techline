@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "beeple-everydays-nft-sale",
+      "slug": "beeple-everydays-nft-sale",
+      "date": "2021-03-11",
+      "datePrecision": "day",
+      "title": "Beeple NFT sells for $69 million at Christie's",
+      "summary": "Christie's closed the sale of Beeple's \"Everydays: The First 5000 Days\" on March 11, 2021 for $69.3 million — the highest-priced NFT by a living artist at the time.",
+      "about": "The ERC-721 token bundled 5,000 daily digital images into one on-chain collectible bought with ether. Mainstream art houses, celebrities, and startups rushed into NFTs — minting PFP projects, music rights, and gaming assets until the 2022 crash cooled speculation.",
+      "narrative": {
+        "whyChosen": "Beeple's Christie's sale put NFTs on front pages worldwide.",
+        "whyImportant": "It proved digital art could command eight-figure prices with blockchain provenance.",
+        "problemSolved": "Digital creators lacked scarcity and resale royalties in a copy-paste internet."
+      },
+      "category": "culture",
+      "tags": [
+        "nft",
+        "ethereum",
+        "web3",
+        "art",
+        "cryptocurrency"
+      ],
+      "people": [
+        {
+          "id": "beeple",
+          "name": "Beeple (Mike Winkelmann)",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Everydays: the First 5000 Days (sold March 11, 2021)",
+          "url": "https://en.wikipedia.org/wiki/Everydays:_the_First_5000_Days",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Non-fungible token (overview)",
+          "url": "https://en.wikipedia.org/wiki/Non-fungible_token",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cryptokitties-launched",
+        "ethereum-mainnet-launched",
+        "metamask-released"
+      ]
+    }
+  ]
+}

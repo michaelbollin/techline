@@ -40,7 +40,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 3,
     sources: [
       {
-        title: "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
+        title: "Moore: chip density doubles yearly",
         url: "https://en.wikipedia.org/wiki/Moore%27s_law",
         role: "date",
       },
@@ -72,7 +72,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 3,
     sources: [
       {
-        title: "CACM — Letter: Go To Statement Considered Harmful (March 1968)",
+        title: "Dijkstra: Go To considered harmful",
         url: "https://doi.org/10.1145/362945.362947",
         role: "date",
       },
@@ -88,7 +88,7 @@ export const QUOTES: TimelineEvent[] = [
     id: "knuth-premature-optimization",
     date: "1974-12",
     datePrecision: "month",
-    title: "Donald Knuth warns against premature optimization",
+    title: "Knuth: premature optimization",
     quoteText: "Premature optimization is the root of all evil (or at least most of it) in programming.",
     summary:
       "Donald Knuth's paper Structured Programming with go to Statements coins the line every performance tweaker quotes back at themselves.",
@@ -136,7 +136,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 3,
     sources: [
       {
-        title: "Brooks — The Mythical Man-Month (1975)",
+        title: "Brooks: adding people delays projects",
         url: "https://en.wikipedia.org/wiki/The_Mythical_Man-Month",
         role: "date",
       },
@@ -266,7 +266,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 6,
     sources: [
       {
-        title: "LKML — Re: linux-kernel archive (August 30, 2000)",
+        title: "Torvalds: Talk is cheap",
         url: "https://en.wikiquote.org/wiki/Linus_Torvalds",
         role: "date",
       },
@@ -298,7 +298,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 3,
     sources: [
       {
-        title: "Know Your Meme — Steve Ballmer Monkey Dance (September 2000 event)",
+        title: "Ballmer: \"Developers!\" chant",
         url: "https://knowyourmeme.com/memes/steve-ballmer-monkey-dance",
         role: "date",
       },
@@ -567,7 +567,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 6,
     sources: [
       {
-        title: "Kevin Kelly — Out of Control (1994, citing Bill Joy)",
+        title: "Bill Joy: smartest people elsewhere",
         url: "https://en.wikipedia.org/wiki/Joy%27s_law",
         role: "date",
       },
@@ -583,7 +583,7 @@ export const QUOTES: TimelineEvent[] = [
     id: "kurzweil-law-accelerating-returns",
     date: "2001-03-07",
     datePrecision: "day",
-    title: "Ray Kurzweil argues technology change is exponential",
+    title: "Kurzweil: accelerating returns",
     quoteText:
       "An analysis of the history of technology shows that technological change is exponential, contrary to the common-sense 'intuitive linear' view.",
     summary:
@@ -666,7 +666,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 6,
     sources: [
       {
-        title: "comp.os.minix — Re: LINUX is obsolete (January 29, 1992)",
+        title: "Torvalds: Linux more portable than Minix",
         url: "https://groups.google.com/g/comp.os.minix/c/wlhw16QWltI",
         role: "date",
       },
@@ -829,7 +829,7 @@ export const QUOTES: TimelineEvent[] = [
       {
         type: "youtube",
         url: "https://www.youtube.com/watch?v=fP5YdyjTfG0",
-        title: "Sam Altman Senate testimony on AI oversight (May 16, 2023)",
+        title: "Altman: AI can go quite wrong",
       },
     ],
     sources: [
@@ -868,7 +868,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 4,
     sources: [
       {
-        title: "NVIDIA Blog — 2024 GTC keynote (March 18, 2024)",
+        title: "Huang: generative AI era",
         url: "https://blogs.nvidia.com/blog/2024-gtc-keynote/",
         role: "date",
       },
@@ -902,7 +902,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 6,
     sources: [
       {
-        title: "NVIDIA — COMPUTEX 2024 keynote (June 2, 2024)",
+        title: "Huang: more you buy, more you save",
         url: "https://blogs.nvidia.com/blog/computex-2024-jensen-huang/",
         role: "date",
       },
@@ -935,7 +935,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 4,
     sources: [
       {
-        title: "Anthropic — Claude Fable 5 and Claude Mythos 5 (June 9, 2026)",
+        title: "Anthropic: Fable 5 misuse risk",
         url: "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         role: "date",
       },
@@ -968,7 +968,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 5,
     sources: [
       {
-        title: "Anthropic — Statement on US government directive (June 12, 2026)",
+        title: "Anthropic disables Fable 5 and Mythos 5",
         url: "https://www.anthropic.com/news/fable-mythos-access",
         role: "date",
       },
@@ -1005,7 +1005,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 4,
     sources: [
       {
-        title: "Anthropic — Statement on US government directive (June 12, 2026)",
+        title: "Anthropic: halt model deployments",
         url: "https://www.anthropic.com/news/fable-mythos-access",
         role: "date",
       },
@@ -1040,7 +1040,7 @@ export const QUOTES: TimelineEvent[] = [
       {
         type: "youtube",
         url: "https://www.youtube.com/watch?v=8pdkEJ0nFBg",
-        title: "Steve Ballmer — Web developers chant (MIX08)",
+        title: "Ballmer: \"Web developers!\" chant",
       },
     ],
     sources: [
@@ -1077,7 +1077,7 @@ export const QUOTES: TimelineEvent[] = [
     importance: 6,
     sources: [
       {
-        title: "O'Reilly — JavaScript: The Good Parts (May 2008)",
+        title: "JavaScript: The Good Parts",
         url: "https://www.oreilly.com/library/view/javascript-the-good/9780596517748/",
         role: "date",
       },

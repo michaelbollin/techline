@@ -16,7 +16,7 @@
       "id": "clifford-cocks-public-key",
       "date": "1973",
       "datePrecision": "year",
-      "title": "Clifford Cocks invents RSA-class encryption at GCHQ",
+      "title": "Cocks invents RSA at GCHQ",
       "summary": "Clifford Cocks invented a public-key encryption scheme equivalent to RSA at GCHQ in 1973 — years before the public RSA announcement.",
       "about": "Cocks' classified work remained secret until 1997 — revealing that British intelligence had discovered public-key cryptography independently. His story illustrates how security research often happened in parallel inside government labs.",
       "narrative": {
@@ -85,7 +85,50 @@
       "relatedIds": [
         "macintosh-128k-released",
         "apple-ii-introduced",
-        "adele-goldberg-smalltalk-80"
+        "adele-goldberg-smalltalk-80",
+        "ethernet-invented"
+      ]
+    },
+    {
+      "id": "ethernet-invented",
+      "slug": "ethernet-invented",
+      "date": "1973",
+      "datePrecision": "year",
+      "title": "Ethernet invented at Xerox PARC",
+      "summary": "Robert Metcalfe and colleagues developed Ethernet at Xerox PARC in 1973 — a packet-switched local area network for connecting Alto workstations.",
+      "about": "Ethernet's CSMA/CD design let many machines share a coax cable cheaply — a pattern DEC, Intel, and Xerox standardized in 1980 and that still underlies wired office and datacenter networking today (now switched, not shared bus).",
+      "narrative": {
+        "whyChosen": "Ethernet became the dominant LAN technology for four decades.",
+        "whyImportant": "It made networking PCs and workstations affordable before Wi-Fi existed.",
+        "problemSolved": "Labs needed to link computers, printers, and file servers without point-to-point serial links."
+      },
+      "category": "protocol",
+      "tags": [
+        "ethernet",
+        "networking",
+        "protocol",
+        "xerox"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Ethernet (developed 1973 at Xerox PARC)",
+          "url": "https://en.wikipedia.org/wiki/Ethernet",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ethernet (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ethernet",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "xerox-alto-operational",
+        "metcalfe-metcalfe-law",
+        "arpanet-first-message"
       ]
     }
   ]

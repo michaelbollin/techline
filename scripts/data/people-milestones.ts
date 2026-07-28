@@ -286,7 +286,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "ada-lovelace-analytical-engine-notes",
     date: "1843",
     datePrecision: "year",
-    title: "Ada Lovelace publishes Notes on the Analytical Engine",
+    title: "Ada Lovelace Analytical Engine notes",
     summary:
       "Ada Lovelace's 1843 notes described how Babbage's Analytical Engine could compute Bernoulli numbers — often cited as the first algorithm meant for a machine.",
     about:
@@ -578,7 +578,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "sanfilippo-redis-maintainer-steps-down",
     date: "2020-06-30",
     datePrecision: "day",
-    title: "Salvatore Sanfilippo steps down as Redis maintainer",
+    title: "Sanfilippo steps down from Redis",
     summary:
       "Salvatore Sanfilippo (antirez) stepped down as Redis maintainer on June 30, 2020, handing the project to a community team.",
     about:
@@ -1060,7 +1060,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "john-von-neumann-architecture",
     date: "1945-06",
     datePrecision: "month",
-    title: "John von Neumann describes stored-program architecture",
+    title: "von Neumann stored-program architecture",
     summary:
       "John von Neumann's 1945 'First Draft' report described stored-program computers — program and data in shared memory.",
     about:
@@ -1156,7 +1156,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "karen-sparck-jones-idf",
     date: "1972",
     datePrecision: "year",
-    title: "Karen Spärck Jones publishes inverse document frequency",
+    title: "Karen Spärck Jones publishes IDF",
     summary:
       "Karen Spärck Jones introduced inverse document frequency (IDF) in 1972 — a cornerstone of search ranking and information retrieval.",
     about:
@@ -1452,7 +1452,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "kent-beck-extreme-programming",
     date: "1999",
     datePrecision: "year",
-    title: "Kent Beck publishes Extreme Programming Explained",
+    title: "Extreme Programming Explained",
     summary:
       "Kent Beck published Extreme Programming Explained in 1999 — popularizing pair programming, TDD, and iterative delivery.",
     about:
@@ -1484,7 +1484,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "eric-raymond-cathedral-bazaar",
     date: "1997",
     datePrecision: "year",
-    title: "Eric Raymond publishes The Cathedral and the Bazaar",
+    title: "The Cathedral and the Bazaar",
     summary:
       "Eric Raymond's essay The Cathedral and the Bazaar (1997) argued open, distributed development beats closed planning — influencing Netscape's Mozilla release.",
     about:
@@ -1582,7 +1582,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "grace-hopper-nanoseconds-lecture",
     date: "1986",
     datePrecision: "year",
-    title: "Grace Hopper popularizes nanosecond wire demonstration",
+    title: "Grace Hopper nanosecond lecture",
     summary:
       "Rear Admiral Grace Hopper toured the 1980s explaining nanoseconds with physical wire — evangelizing why short programs and fast hardware matter.",
     about:
@@ -1742,7 +1742,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "lynn-conway-vlsi-course",
     date: "1979",
     datePrecision: "year",
-    title: "Lynn Conway publishes MOSIS VLSI design course",
+    title: "Mead–Conway VLSI methodology",
     summary:
       "Lynn Conway co-authored the 1979 Mead–Conway VLSI course — democratizing chip design with scalable design rules.",
     about:
@@ -2169,7 +2169,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "hinton-alexnet-imagenet-breakthrough",
     date: "2012-09",
     datePrecision: "month",
-    title: "Geoffrey Hinton's team wins ImageNet with AlexNet",
+    title: "AlexNet wins ImageNet",
     summary:
       "Geoffrey Hinton's students Krizhevsky, Sutskever, and Hinton won ImageNet 2012 with AlexNet — triggering the deep learning revolution.",
     about:
@@ -2432,7 +2432,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "yann-lecun-lenet-published",
     date: "1989",
     datePrecision: "year",
-    title: "Yann LeCun publishes LeNet convolutional networks",
+    title: "LeNet convolutional networks",
     summary:
       "Yann LeCun applied convolutional neural networks to handwritten digit recognition in 1989 — the LeNet architecture that foreshadowed AlexNet.",
     about:
@@ -2701,7 +2701,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "diffie-hellman-paper-published",
     date: "1976-11",
     datePrecision: "month",
-    title: "Diffie and Hellman publish New Directions in Cryptography",
+    title: "Diffie–Hellman cryptography paper",
     summary:
       "Whitfield Diffie and Martin Hellman published New Directions in Cryptography in November 1976 — introducing public-key exchange and the foundations of modern cryptography.",
     about:
@@ -2804,7 +2804,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "goldwasser-micali-zero-knowledge-published",
     date: "1985",
     datePrecision: "year",
-    title: "Goldwasser and Micali publish zero-knowledge proofs",
+    title: "Zero-knowledge proofs published",
     summary:
       "Shafi Goldwasser and Silvio Micali published zero-knowledge interactive proof systems in 1985 — foundational work for modern cryptographic protocols.",
     about:
@@ -2839,7 +2839,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "clifford-cocks-public-key",
     date: "1973",
     datePrecision: "year",
-    title: "Clifford Cocks invents RSA-class encryption at GCHQ",
+    title: "Cocks invents RSA at GCHQ",
     summary:
       "Clifford Cocks invented a public-key encryption scheme equivalent to RSA at GCHQ in 1973 — years before the public RSA announcement.",
     about:
@@ -3203,7 +3203,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "chris-wanstrath-github-ceo-steps-down",
     date: "2017-08-17",
     datePrecision: "day",
-    title: "Chris Wanstrath announces he will step down as GitHub CEO",
+    title: "Chris Wanstrath steps down as CEO",
     summary:
       "Chris Wanstrath announced on August 17, 2017 that he would step down as GitHub CEO — paving the way for Microsoft's acquisition and Nat Friedman's leadership.",
     about:
@@ -3269,7 +3269,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "tony-hoare-csp-published",
     date: "1978-08",
     datePrecision: "month",
-    title: "Tony Hoare publishes Communicating Sequential Processes",
+    title: "Hoare publishes CSP",
     summary:
       "Tony Hoare published Communicating Sequential Processes in August 1978 — a model for concurrent programs communicating through channels.",
     about:
@@ -3527,7 +3527,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "jack-kilby-integrated-circuit",
     date: "1958-09-12",
     datePrecision: "day",
-    title: "Jack Kilby demonstrates the first integrated circuit",
+    title: "Kilby demonstrates first IC",
     summary:
       "Jack Kilby demonstrated the first integrated circuit at Texas Instruments on September 12, 1958 — building an oscillator on a germanium chip.",
     about:
@@ -3559,7 +3559,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "robert-noyce-integrated-circuit",
     date: "1959",
     datePrecision: "year",
-    title: "Robert Noyce invents the planar integrated circuit",
+    title: "Noyce invents planar IC",
     summary:
       "Robert Noyce developed the planar integrated circuit at Fairchild Semiconductor in 1959 — enabling mass production of monolithic silicon chips.",
     about:
@@ -3658,7 +3658,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "apple-ii-introduced",
     date: "1977-04-16",
     datePrecision: "day",
-    title: "Steve Jobs and Steve Wozniak introduce the Apple II",
+    title: "Apple II introduced",
     summary:
       "Apple introduced the Apple II at the West Coast Computer Faire on April 16, 1977 — one of the first successful mass-market personal computers.",
     about:
@@ -3951,7 +3951,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "richard-stallman-fsf-founded",
     date: "1985-10-04",
     datePrecision: "day",
-    title: "Richard Stallman founds the Free Software Foundation",
+    title: "Richard Stallman founds FSF",
     summary:
       "Richard Stallman founded the Free Software Foundation on October 4, 1985 — the nonprofit behind GNU and the GPL.",
     about:
@@ -4015,7 +4015,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "guido-van-rossum-psf-founded",
     date: "2001-03-06",
     datePrecision: "day",
-    title: "Guido van Rossum helps found the Python Software Foundation",
+    title: "Python Software Foundation founded",
     summary:
       "The Python Software Foundation was incorporated on March 6, 2001 with Guido van Rossum as chairman — stewarding Python's open governance.",
     about:
@@ -4177,7 +4177,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "geoffrey-hinton-google-departure",
     date: "2023-05-01",
     datePrecision: "day",
-    title: "Geoffrey Hinton leaves Google warning of AI risks",
+    title: "Hinton leaves Google over AI risk",
     summary:
       "Geoffrey Hinton resigned from Google on May 1, 2023 to speak freely about existential risks from rapidly advancing AI — the godfather of deep learning sounding an alarm.",
     about:
@@ -4305,7 +4305,7 @@ export const PEOPLE_MILESTONES: TimelineEvent[] = [
     id: "rich-sutton-rl-textbook",
     date: "1998",
     datePrecision: "year",
-    title: "Rich Sutton publishes Reinforcement Learning textbook",
+    title: "Sutton RL textbook published",
     summary:
       "Richard Sutton and Andrew Barto published Reinforcement Learning: An Introduction in 1998 — the foundational textbook for RL theory and practice.",
     about:

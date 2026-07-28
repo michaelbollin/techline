@@ -87,7 +87,49 @@
       "relatedIds": [
         "claude-3-7-sonnet-released",
         "openai-o3-released",
-        "google-gemini-2-5-pro-released"
+        "google-gemini-2-5-pro-released",
+        "claude-opus-4-5-released"
+      ]
+    },
+    {
+      "id": "nodejs-24-released",
+      "slug": "nodejs-24-released",
+      "date": "2025-05-06",
+      "datePrecision": "day",
+      "title": "Node.js 24 released",
+      "summary": "Node.js 24.0.0 shipped on May 6, 2025 with V8 13.6, npm 11, global URLPattern, and AsyncContextFrame for AsyncLocalStorage.",
+      "about": "Node 24 became the Current release before LTS in October 2025 — continuing the annual cadence after Node 22. Global URLPattern and AsyncLocalStorage defaults simplified web platform APIs and request tracing in servers and edge runtimes.",
+      "narrative": {
+        "whyChosen": "Node 24 advanced web-platform APIs and async context defaults in the runtime.",
+        "whyImportant": "URLPattern and npm 11 reduced polyfills for modern JavaScript servers.",
+        "problemSolved": "Node needed fresher V8 features and cleaner async tracing without breaking LTS users."
+      },
+      "category": "software",
+      "tags": [
+        "nodejs",
+        "javascript",
+        "runtime",
+        "lts"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Node.js — Node v24.0.0 (May 6, 2025)",
+          "url": "https://nodejs.org/en/blog/release/v24.0.0",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Node.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Node.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nodejs-22-released",
+        "nodejs-20-released"
       ]
     }
   ]

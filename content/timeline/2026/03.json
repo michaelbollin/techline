@@ -46,7 +46,57 @@
       "relatedIds": [
         "gpt-5-released",
         "claude-opus-4-6-released",
-        "claude-opus-5-released"
+        "claude-opus-5-released",
+        "gpt-5-3-codex-released"
+      ]
+    },
+    {
+      "id": "iphone-17e-released",
+      "slug": "iphone-17e-released",
+      "date": "2026-03-11",
+      "datePrecision": "day",
+      "title": "iPhone 17e released",
+      "summary": "Apple began selling the iPhone 17e on March 11, 2026 — a $599 budget iPhone with A19, MagSafe, and 256GB base storage.",
+      "about": "The 17e added MagSafe and the C1X modem to Apple's affordable tier while doubling base storage at the same $599 price as iPhone 16e. It gave developers a new mid-cycle hardware baseline with Apple Intelligence on the A19 chip — between annual fall flagships.",
+      "narrative": {
+        "whyChosen": "iPhone 17e brought MagSafe and doubled storage to Apple's budget line.",
+        "whyImportant": "Mid-cycle e-models set the floor for iOS feature assumptions between fall launches.",
+        "problemSolved": "Budget iPhone buyers lacked MagSafe and enough storage for on-device AI workloads."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone",
+        "ios"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 7,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — Apple introduces iPhone 17e (March 2, 2026)",
+          "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 17e (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_17e",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-17-released",
+        "iphone-16-released",
+        "iphone-goes-on-sale"
       ]
     }
   ]

@@ -130,6 +130,54 @@
         "csharp-12-released",
         "csharp-11-released"
       ]
+    },
+    {
+      "id": "mcp-announced",
+      "slug": "mcp-announced",
+      "date": "2024-11-25",
+      "datePrecision": "day",
+      "title": "Model Context Protocol announced",
+      "summary": "Anthropic announced the Model Context Protocol on November 25, 2024 — an open standard for connecting AI assistants to tools, databases, and external data.",
+      "about": "MCP defined a client-server wire format so one integration works across Claude, ChatGPT, Cursor, and Copilot — replacing ad-hoc function-calling plugins. Within a year it became the de facto standard for agent tooling before Anthropic donated it to the Linux Foundation.",
+      "narrative": {
+        "whyChosen": "MCP unified how LLMs call external tools instead of every vendor inventing its own API.",
+        "whyImportant": "A shared protocol let IDEs and SaaS products ship AI integrations once.",
+        "problemSolved": "Each AI product built incompatible tool-calling layers for the same databases and APIs."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "anthropic",
+        "mcp",
+        "open-source",
+        "protocol"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Introducing the Model Context Protocol (November 25, 2024)",
+          "url": "https://www.anthropic.com/news/model-context-protocol",
+          "role": "date"
+        },
+        {
+          "title": "Model Context Protocol — Specification (overview)",
+          "url": "https://modelcontextprotocol.io/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cursor-released",
+        "github-copilot-ga",
+        "mcp-donated-to-linux-foundation"
+      ]
     }
   ]
 }

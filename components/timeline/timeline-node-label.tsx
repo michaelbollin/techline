@@ -7,11 +7,9 @@ import {
 } from "@/lib/timeline/label-layout";
 import { TIMELINE_LABEL_EDGE_INSET } from "@/lib/timeline/constants";
 import {
-  LABEL_FONT_SIZE_PX,
   LABEL_ICON_GAP,
   LABEL_ICON_SIZE,
   LABEL_PADDING_X,
-  DESKTOP_LABEL_MAX_TEXT_WIDTH,
 } from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import { TimelineLabelContent } from "@/components/timeline/timeline-label-content";
@@ -86,8 +84,6 @@ export function TimelineNodeLabel({
           paddingX={LABEL_PADDING_X}
           iconSize={LABEL_ICON_SIZE}
           iconGap={LABEL_ICON_GAP}
-          maxTextWidth={DESKTOP_LABEL_MAX_TEXT_WIDTH}
-          fontSizePx={LABEL_FONT_SIZE_PX}
           textClassName={cn(
             labelTransition,
             "pointer-events-none text-sm font-medium tracking-wide",

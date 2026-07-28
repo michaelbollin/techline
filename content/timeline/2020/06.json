@@ -93,7 +93,7 @@
       "slug": "sanfilippo-redis-maintainer-steps-down",
       "date": "2020-06-30",
       "datePrecision": "day",
-      "title": "Salvatore Sanfilippo steps down as Redis maintainer",
+      "title": "Sanfilippo steps down from Redis",
       "summary": "Salvatore Sanfilippo (antirez) stepped down as Redis maintainer on June 30, 2020, handing the project to a community team.",
       "about": "Sanfilippo built Redis alone from 2009 into infrastructure powering caches, queues, and real-time systems worldwide. His departure sparked discussion about maintainer burnout and corporate sponsorship of open source.",
       "narrative": {
@@ -186,6 +186,50 @@
         "drupal-8-released",
         "drupal-10-released",
         "drupal-7-released"
+      ]
+    },
+    {
+      "id": "compound-governance-token-launched",
+      "slug": "compound-governance-token-launched",
+      "date": "2020-06-16",
+      "datePrecision": "day",
+      "title": "Compound launches COMP governance token",
+      "summary": "Compound distributed its COMP governance token on June 16, 2020 — rewarding users who lent and borrowed on the protocol and kicking off \"DeFi Summer.\"",
+      "about": "Yield farming — earning governance tokens for providing liquidity — spread across Aave, Curve, and copycat protocols within weeks. TVL exploded as developers composed money legos: deposit DAI, borrow ETH, stake LP tokens, claim rewards. It rewired how crypto startups bootstrapped usage.",
+      "narrative": {
+        "whyChosen": "COMP liquidity mining ignited the 2020 DeFi Summer boom.",
+        "whyImportant": "Governance tokens became the default growth hack for on-chain protocols.",
+        "problemSolved": "DeFi protocols needed decentralized ownership and incentives without venture-only cap tables."
+      },
+      "category": "protocol",
+      "tags": [
+        "compound",
+        "defi",
+        "ethereum",
+        "governance",
+        "web3"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Compound (company) (COMP launch June 16, 2020)",
+          "url": "https://en.wikipedia.org/wiki/Compound_(company)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Decentralized finance (overview)",
+          "url": "https://en.wikipedia.org/wiki/Decentralized_finance",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "uniswap-v1-released",
+        "makerdao-dai-launched",
+        "ethereum-mainnet-launched",
+        "metamask-released"
       ]
     }
   ]

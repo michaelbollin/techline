@@ -64,7 +64,7 @@
       "id": "goldwasser-micali-zero-knowledge-published",
       "date": "1985",
       "datePrecision": "year",
-      "title": "Goldwasser and Micali publish zero-knowledge proofs",
+      "title": "Zero-knowledge proofs published",
       "summary": "Shafi Goldwasser and Silvio Micali published zero-knowledge interactive proof systems in 1985 — foundational work for modern cryptographic protocols.",
       "about": "Zero-knowledge proofs let one party prove a statement is true without revealing why — underpinning zk-SNARKs, blockchain privacy, and authentication protocols. Goldwasser and Micali won the Turing Award partly for this line of research.",
       "narrative": {
@@ -109,7 +109,7 @@
       "id": "grace-hopper-nanoseconds-lecture",
       "date": "1985",
       "datePrecision": "year",
-      "title": "Grace Hopper popularizes nanosecond wire demonstration",
+      "title": "Grace Hopper nanosecond lecture",
       "summary": "Rear Admiral Grace Hopper used 11.8-inch wire pieces in lectures from the late 1960s through the 1980s — including a famous 1985 MIT Lincoln Lab talk — to illustrate why short programs and fast hardware matter.",
       "about": "Hopper helped standardize COBOL and pushed high-level languages on the military and industry. Her teaching made latency tangible for generations of managers and programmers beyond the 1959 COBOL specification event.",
       "narrative": {

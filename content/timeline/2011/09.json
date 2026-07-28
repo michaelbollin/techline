@@ -140,7 +140,7 @@
       "slug": "css-selectors-level-3-recommendation",
       "date": "2011-09-29",
       "datePrecision": "day",
-      "title": "CSS Selectors Level 3 becomes a W3C Recommendation",
+      "title": "CSS Selectors Level 3 standard",
       "summary": "The W3C published Selectors Level 3 as a Recommendation on September 29, 2011 — standardizing `:nth-child`, `:not`, attribute selectors, and pseudo-elements.",
       "about": "Selectors Level 3 was the first major CSS module to reach Recommendation status after CSS 2.1 — adding structural pseudo-classes, UI state selectors (`:checked`, `:disabled`), and combinators that jQuery had popularized in JavaScript. Every modern stylesheet uses its patterns for targeting DOM nodes without extra markup.",
       "narrative": {

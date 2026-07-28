@@ -4,7 +4,7 @@
       "id": "crockford-javascript-good-parts",
       "date": "2008-05",
       "datePrecision": "month",
-      "title": "Douglas Crockford names \"JavaScript: The Good Parts\"",
+      "title": "JavaScript: The Good Parts",
       "quoteText": "JavaScript: The Good Parts.",
       "summary": "Douglas Crockford's book title became a rallying cry — use the small subset of JavaScript that is reliable and ignore the rest.",
       "about": "In 2008 many teams treated JS as a toy language. Crockford argued you could write serious software by deliberately avoiding the bad parts — influencing lint rules, style guides, and later TypeScript's stricter subsets.",

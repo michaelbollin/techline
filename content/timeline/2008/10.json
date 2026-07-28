@@ -93,6 +93,51 @@
         "kotlin-android-official",
         "chrome-for-android-released"
       ]
+    },
+    {
+      "id": "bitcoin-whitepaper-published",
+      "slug": "bitcoin-whitepaper-published",
+      "date": "2008-10-31",
+      "datePrecision": "day",
+      "title": "Bitcoin whitepaper published",
+      "summary": "Satoshi Nakamoto published \"Bitcoin: A Peer-to-Peer Electronic Cash System\" on October 31, 2008 — proposing a decentralized ledger secured by proof-of-work.",
+      "about": "The paper described blocks chained by hashes, a difficulty-adjusted mining race, and incentives for honest nodes — without a central bank. Bitcoin launched open-source software in January 2009 and spawned blockchains, smart contracts, and a decade of debate about energy, regulation, and trustless systems.",
+      "narrative": {
+        "whyChosen": "The Bitcoin whitepaper introduced blockchain consensus to mainstream technical discourse.",
+        "whyImportant": "It inspired cryptocurrencies, DeFi experiments, and new models of distributed trust.",
+        "problemSolved": "Digital cash needed a way to prevent double-spending without a trusted intermediary."
+      },
+      "category": "protocol",
+      "tags": [
+        "bitcoin",
+        "blockchain",
+        "cryptocurrency",
+        "p2p",
+        "whitepaper"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Bitcoin.org — Bitcoin whitepaper (October 31, 2008)",
+          "url": "https://bitcoin.org/bitcoin.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bitcoin (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bitcoin",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bittorrent-released",
+        "json-rpc-1-0-published",
+        "leveldb-open-sourced",
+        "bitcoin-genesis-block-mined",
+        "ethereum-whitepaper-published"
+      ]
     }
   ]
 }

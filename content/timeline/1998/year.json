@@ -61,7 +61,7 @@
       "id": "rich-sutton-rl-textbook",
       "date": "1998",
       "datePrecision": "year",
-      "title": "Rich Sutton publishes Reinforcement Learning textbook",
+      "title": "Sutton RL textbook published",
       "summary": "Richard Sutton and Andrew Barto published Reinforcement Learning: An Introduction in 1998 — the foundational textbook for RL theory and practice.",
       "about": "Sutton's temporal-difference learning and policy-gradient frameworks became the vocabulary for game-playing agents, robotics, and later DeepMind's AlphaGo. The book's second edition in 2018 updated decades of RL progress.",
       "narrative": {

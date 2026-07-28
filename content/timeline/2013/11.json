@@ -144,6 +144,56 @@
         "android-announced",
         "windows-phone-eol"
       ]
+    },
+    {
+      "id": "ethereum-whitepaper-published",
+      "slug": "ethereum-whitepaper-published",
+      "date": "2013-11-27",
+      "datePrecision": "day",
+      "title": "Ethereum whitepaper published",
+      "summary": "Vitalik Buterin published the Ethereum whitepaper on November 27, 2013 — proposing a blockchain with a built-in Turing-complete programming language for smart contracts.",
+      "about": "Ethereum extended Bitcoin's ledger with accounts, gas, and bytecode execution — letting developers deploy unstoppable programs instead of just moving coins. ICOs, DeFi, NFTs, and DAOs all trace to this design: one shared state machine anyone can call.",
+      "narrative": {
+        "whyChosen": "Ethereum introduced programmable blockchains to mainstream developer discourse.",
+        "whyImportant": "Smart contracts turned blockchains from ledgers into general-purpose distributed runtimes.",
+        "problemSolved": "Bitcoin's script was intentionally limited; builders wanted arbitrary on-chain logic."
+      },
+      "category": "protocol",
+      "tags": [
+        "ethereum",
+        "blockchain",
+        "smart-contracts",
+        "web3",
+        "cryptocurrency"
+      ],
+      "people": [
+        {
+          "id": "vitalik-buterin",
+          "name": "Vitalik Buterin",
+          "role": "author"
+        }
+      ],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ethereum.org — Ethereum whitepaper (published November 27, 2013)",
+          "url": "https://ethereum.org/en/whitepaper/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ethereum (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bitcoin-whitepaper-published",
+        "ethereum-mainnet-launched",
+        "web3-term-coined",
+        "erc-20-token-standard-finalized"
+      ]
     }
   ]
 }

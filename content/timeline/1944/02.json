@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "colossus-operational",
+      "slug": "colossus-operational",
+      "date": "1944-02-05",
+      "datePrecision": "day",
+      "title": "Colossus computer operational at Bletchley Park",
+      "summary": "The first Colossus computer became operational at Bletchley Park on February 5, 1944 — an electronic code-breaking machine built to decrypt German Lorenz teleprinter traffic.",
+      "about": "Colossus used thousands of vacuum tubes and programmable logic to analyze ciphertext at speeds impossible for human clerks. Tommy Flowers designed it in secret; ten Colossus machines ran by war's end — a landmark in electronic digital computing kept classified until the 1970s.",
+      "narrative": {
+        "whyChosen": "Colossus was among the first electronic digital computers used in production.",
+        "whyImportant": "It demonstrated large-scale programmable electronics for real-time cryptanalysis.",
+        "problemSolved": "Allied intelligence needed to break high-volume encrypted teleprinter messages faster than manual methods."
+      },
+      "category": "invention",
+      "tags": [
+        "hardware",
+        "computer",
+        "colossus",
+        "cryptography",
+        "invention"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Colossus computer (first operational February 5, 1944)",
+          "url": "https://en.wikipedia.org/wiki/Colossus_computer",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Colossus computer (overview)",
+          "url": "https://en.wikipedia.org/wiki/Colossus_computer",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "eniac-dedicated",
+        "harvard-mark-1-completed",
+        "z3-completed"
+      ]
+    }
+  ]
+}

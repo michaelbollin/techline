@@ -330,6 +330,54 @@
         "htc-one-m7-released",
         "android-announced"
       ]
+    },
+    {
+      "id": "web3-term-coined",
+      "slug": "web3-term-coined",
+      "date": "2014-04",
+      "datePrecision": "month",
+      "title": "Gavin Wood coins the term Web3",
+      "summary": "Ethereum co-founder Gavin Wood coined \"Web 3.0\" in April 2014 — describing decentralized apps that run without trusting a central server.",
+      "about": "Wood's vision paired blockchains, peer-to-peer messaging, and decentralized storage so users owned identity and data instead of platforms. The label became marketing shorthand for wallets, NFTs, and token-gated apps — loved by founders, mocked by skeptics, but the name stuck.",
+      "narrative": {
+        "whyChosen": "Web3 named the post-platform internet Ethereum builders were pitching.",
+        "whyImportant": "It framed crypto as infrastructure for apps, not just digital gold.",
+        "problemSolved": "Web 2.0 centralized user data in a handful of companies; builders wanted an alternative architecture."
+      },
+      "category": "culture",
+      "tags": [
+        "web3",
+        "ethereum",
+        "decentralization",
+        "blockchain"
+      ],
+      "people": [
+        {
+          "id": "gavin-wood",
+          "name": "Gavin Wood",
+          "role": "author"
+        }
+      ],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Web3 (term coined by Gavin Wood, 2014)",
+          "url": "https://en.wikipedia.org/wiki/Web3",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Web3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Web3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-whitepaper-published",
+        "ethereum-mainnet-launched",
+        "metamask-released"
+      ]
     }
   ]
 }

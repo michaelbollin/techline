@@ -16,7 +16,7 @@
       "id": "tony-hoare-csp-published",
       "date": "1978-08",
       "datePrecision": "month",
-      "title": "Tony Hoare publishes Communicating Sequential Processes",
+      "title": "Hoare publishes CSP",
       "summary": "Tony Hoare published Communicating Sequential Processes in August 1978 — a model for concurrent programs communicating through channels.",
       "about": "CSP influenced Go's goroutines, occam, and formal reasoning about concurrency. Hoare's earlier Hoare logic (1969) and CSP together shaped how programmers verify and structure parallel systems.",
       "narrative": {

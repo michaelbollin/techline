@@ -229,6 +229,50 @@
         "symfony-released",
         "laravel-5-released"
       ]
+    },
+    {
+      "id": "cryptokitties-launched",
+      "slug": "cryptokitties-launched",
+      "date": "2017-11-28",
+      "datePrecision": "day",
+      "title": "CryptoKitties launches on Ethereum",
+      "summary": "Dapper Labs launched CryptoKitties on November 28, 2017 — collectible NFT cats that congested Ethereum with breeding and trading transactions.",
+      "about": "Each kitty was an ERC-721-style unique token; viral demand spiked gas prices and made mainstream news. The game showed blockchains could carry consumer collectibles — and that scaling layer-1 for games required sidechains or rollups.",
+      "narrative": {
+        "whyChosen": "CryptoKitties was the first NFT craze to hit the mainstream press.",
+        "whyImportant": "It proved unique on-chain assets could drive consumer demand and network congestion.",
+        "problemSolved": "Developers needed a template for non-fungible digital goods beyond ERC-20 coins."
+      },
+      "category": "software",
+      "tags": [
+        "nft",
+        "ethereum",
+        "web3",
+        "gaming",
+        "cryptocurrency"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — CryptoKitties (launched November 28, 2017)",
+          "url": "https://en.wikipedia.org/wiki/CryptoKitties",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — CryptoKitties (overview)",
+          "url": "https://en.wikipedia.org/wiki/CryptoKitties",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "metamask-released",
+        "erc-20-token-standard-finalized",
+        "beeple-everydays-nft-sale"
+      ]
     }
   ]
 }

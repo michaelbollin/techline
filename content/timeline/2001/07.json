@@ -51,6 +51,55 @@
         "csharp-announced",
         "dotnet-framework-1-0-rtm"
       ]
+    },
+    {
+      "id": "bittorrent-released",
+      "slug": "bittorrent-released",
+      "date": "2001-07-02",
+      "datePrecision": "day",
+      "title": "BitTorrent client first released",
+      "summary": "Bram Cohen released the first BitTorrent client on July 2, 2001 — a peer-to-peer protocol that splits large files into swarms of cooperating downloaders.",
+      "about": "BitTorrent inverted client-server bandwidth: every downloader also uploads pieces to peers. Linux ISOs, game patches, and legal media used it to survive traffic spikes without giant CDN bills. The protocol influenced how engineers think about distributed file transfer and content-addressed chunks.",
+      "narrative": {
+        "whyChosen": "BitTorrent pioneered swarm-based large-file distribution on the open internet.",
+        "whyImportant": "It showed peer-to-peer protocols could scale downloads without centralized bandwidth.",
+        "problemSolved": "Popular files overwhelmed single servers; users needed resilient ways to share multi-gigabyte archives."
+      },
+      "category": "protocol",
+      "tags": [
+        "bittorrent",
+        "p2p",
+        "protocol",
+        "file-sharing",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "bram-cohen",
+          "name": "Bram Cohen",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — BitTorrent (first client July 2, 2001)",
+          "url": "https://en.wikipedia.org/wiki/BitTorrent",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BitTorrent (overview)",
+          "url": "https://en.wikipedia.org/wiki/BitTorrent",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "http-1-1-standardized",
+        "itunes-released"
+      ]
     }
   ]
 }

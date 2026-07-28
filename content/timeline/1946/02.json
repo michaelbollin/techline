@@ -38,6 +38,10 @@
         }
       ],
       "relatedIds": [
+        "z3-completed",
+        "colossus-operational",
+        "harvard-mark-1-completed",
+        "manchester-baby-first-program",
         "edsac-first-programs",
         "edsac-initial-orders",
         "univac-i-delivered"

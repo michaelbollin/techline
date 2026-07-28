@@ -1,0 +1,47 @@
+{
+  "events": [
+    {
+      "id": "dec-pdp-1-introduced",
+      "slug": "dec-pdp-1-introduced",
+      "date": "1960-11",
+      "datePrecision": "month",
+      "title": "DEC PDP-1 introduced",
+      "summary": "Digital Equipment Corporation delivered the first PDP-1 to BBN in November 1960 — the first commercial computer with a monitor and keyboard for interactive use.",
+      "about": "The PDP-1 brought real-time interaction to a $120,000 minicomputer: a CRT display, light pen, and paper-tape I/O. MIT hackers built early text tools, debuggers, and time-sharing experiments on it — the culture that later produced Unix, the ARPANET, and personal computing.",
+      "narrative": {
+        "whyChosen": "The PDP-1 was the first mass-produced interactive minicomputer with a screen and keyboard.",
+        "whyImportant": "It proved small machines could support live programming, not just batch jobs.",
+        "problemSolved": "Researchers needed affordable interactive access instead of queueing decks on room-sized mainframes."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "minicomputer",
+        "dec",
+        "pdp-1",
+        "computer"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — PDP-1 (first delivery November 1960)",
+          "url": "https://en.wikipedia.org/wiki/PDP-1",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PDP-1 (overview)",
+          "url": "https://en.wikipedia.org/wiki/PDP-1",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "dec-pdp-10-released",
+        "dec-pdp-8-shipped",
+        "ibm-system-360-announced"
+      ]
+    }
+  ]
+}

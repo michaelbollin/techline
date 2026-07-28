@@ -50,6 +50,48 @@
         "t-mobile-g1-released",
         "samsung-galaxy-s-released"
       ]
+    },
+    {
+      "id": "ethereum-merge-completed",
+      "slug": "ethereum-merge-completed",
+      "date": "2022-09-15",
+      "datePrecision": "day",
+      "title": "Ethereum Merge completes",
+      "summary": "Ethereum transitioned to proof-of-stake on September 15, 2022 — the Merge replaced energy-intensive mining with validator staking overnight.",
+      "about": "The Bellatrix and Paris upgrades chained execution and consensus clients at block 15537393. ETH issuance dropped sharply and GPU miners pivoted elsewhere. Rollups still handled scale, but the base layer shed its largest environmental criticism — a template other chains watched closely.",
+      "narrative": {
+        "whyChosen": "The Merge was the largest live consensus upgrade in blockchain history.",
+        "whyImportant": "It cut Ethereum's energy use and shifted security economics to stakers.",
+        "problemSolved": "Proof-of-work's environmental cost blocked institutional adoption of the dominant smart-contract chain."
+      },
+      "category": "protocol",
+      "tags": [
+        "ethereum",
+        "blockchain",
+        "proof-of-stake",
+        "web3"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ethereum.org — The Merge (September 15, 2022)",
+          "url": "https://ethereum.org/en/roadmap/merge/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ethereum (The Merge overview)",
+          "url": "https://en.wikipedia.org/wiki/Ethereum",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethereum-mainnet-launched",
+        "the-dao-hacked",
+        "solana-mainnet-launched"
+      ]
     }
   ]
 }
