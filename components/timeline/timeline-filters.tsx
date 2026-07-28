@@ -117,7 +117,7 @@ export function TimelineFilterSidebar({
       {variant === "overlay" && (
         <button
           type="button"
-          className="fixed inset-0 z-30 bg-black/20"
+          className="fixed inset-x-0 top-14 bottom-0 z-30 bg-black/20"
           aria-label="Close filters"
           onClick={onClose}
         />
@@ -125,10 +125,16 @@ export function TimelineFilterSidebar({
 
       <FilterSidebar
         id="timeline-filter-sidebar"
-        className={variant === "overlay" ? "fixed inset-y-0 right-0 z-40 w-full max-w-sm" : undefined}
+        className={
+          variant === "overlay"
+            ? "fixed inset-x-0 top-14 bottom-0 z-40 w-full border-l-0"
+            : undefined
+        }
       >
-      <FilterSidebarHeader>
-        <FilterSidebarTitle>Filters</FilterSidebarTitle>
+      <FilterSidebarHeader inset={variant === "overlay" ? "overlay" : "dock"}>
+        <FilterSidebarTitle className={variant === "overlay" ? "pt-0" : undefined}>
+          Filters
+        </FilterSidebarTitle>
         <TimelineSearchFilter
           className="mt-6"
           value={fulltextQuery}
@@ -136,7 +142,7 @@ export function TimelineFilterSidebar({
         />
       </FilterSidebarHeader>
 
-      <FilterSidebarBody>
+      <FilterSidebarBody inset={variant === "overlay" ? "overlay" : "dock"}>
         <FilterCheckboxList
           className="mt-6"
           label="Theme"
@@ -146,7 +152,7 @@ export function TimelineFilterSidebar({
         />
       </FilterSidebarBody>
 
-      <FilterSidebarFooter>
+      <FilterSidebarFooter inset={variant === "overlay" ? "overlay" : "dock"}>
         <Button variant="text" onClick={onReset}>
           Reset all
         </Button>

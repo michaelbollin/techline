@@ -1,4 +1,5 @@
 import { formatEventDate } from "./format";
+import { resolveEventTheme, type ThemeId } from "./event-theme";
 import type { Importance } from "./importance";
 import type { TimelineEvent } from "./schema";
 import { TIMELINE_EXTENT } from "./constants";
@@ -11,6 +12,7 @@ export type PlottedEvent = {
   importance: Importance;
   timestamp: number;
   dateLabel: string;
+  themeId: ThemeId;
 };
 
 function eventToIsoDate(date: string, precision: TimelineEvent["datePrecision"]): string {
@@ -45,6 +47,7 @@ export function toPlottedEvents(events: TimelineEvent[]): PlottedEvent[] {
       importance: event.importance,
       timestamp: eventToTimestamp(event.date, event.datePrecision),
       dateLabel: formatEventDate(event.date, event.datePrecision),
+      themeId: resolveEventTheme(event),
     }))
     .sort((a, b) => a.timestamp - b.timestamp);
 }

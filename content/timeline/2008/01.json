@@ -90,6 +90,47 @@
         "wordpress-released",
         "drupal-7-released"
       ]
+    },
+    {
+      "id": "sublime-text-1-released",
+      "slug": "sublime-text-1-released",
+      "date": "2008-01-18",
+      "datePrecision": "day",
+      "title": "Sublime Text 1.0 released",
+      "summary": "Jon Skinner released Sublime Text 1.0 on January 18, 2008 — a fast, minimal code editor for Windows with tabs and side-by-side views.",
+      "about": "Sublime Text became the editor of choice for developers who wanted speed and keyboard-driven editing without IDE bloat — multiple cursors, command palette, and Python plugins via Package Control. It influenced VS Code's UX and remained a cult favorite through the 2010s.",
+      "narrative": {
+        "whyChosen": "Sublime Text set the aesthetic and UX bar for modern minimalist code editors.",
+        "whyImportant": "Its command palette and multi-cursor editing became standard features everywhere.",
+        "problemSolved": "Heavy Java IDEs and aging text editors felt slow for quick script and web edits."
+      },
+      "category": "software",
+      "tags": [
+        "sublime",
+        "editor",
+        "ide"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Sublime Text Blog — 1.0 release (January 18, 2008)",
+          "url": "https://web.archive.org/web/20160609070409/http://www.sublimetext.com/blog/articles/one-point-oh",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sublime Text (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sublime_Text",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "visual-studio-code-preview",
+        "atom-editor-released",
+        "intellij-idea-released"
+      ]
     }
   ]
 }

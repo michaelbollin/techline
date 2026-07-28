@@ -92,10 +92,10 @@
     },
     {
       "id": "hofstadter-law",
-      "slug": "hofstadter-law",
       "date": "1979",
       "datePrecision": "year",
       "title": "Douglas Hofstadter coins Hofstadter's Law",
+      "quoteText": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
       "summary": "In Gödel, Escher, Bach, Douglas Hofstadter states the recursive scheduling joke that became a staple of software estimation.",
       "about": "Hofstadter's Law is self-referential on purpose — you pad the schedule, then pad the padding, and still slip. Every sprint retrospective and waterfall postmortem cites it, usually while missing the next deadline.",
       "narrative": {
@@ -103,7 +103,6 @@
         "whyImportant": "It named the optimism bias that planning tools rarely fix.",
         "problemSolved": "Teams kept underestimating complex work despite prior experience."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "insight",
@@ -117,10 +116,7 @@
           "role": "author"
         }
       ],
-      "companies": [],
-      "quoteText": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
-      "importance": 8,
-      "media": [],
+      "importance": 6,
       "sources": [
         {
           "title": "Wikipedia — Hofstadter's law (1979, Gödel, Escher, Bach)",
@@ -133,7 +129,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "slug": "hofstadter-law",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

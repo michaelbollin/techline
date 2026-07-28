@@ -26,6 +26,7 @@
           "role": "researcher"
         }
       ],
+      "companies": [],
       "importance": 4,
       "media": [],
       "sources": [
@@ -43,19 +44,6 @@
       "relatedIds": []
     },
     {
-      "slug": "dijkstra-goto-letter-quote",
-      "media": [],
-      "relatedIds": [
-        "dijkstra-go-to-considered-harmful"
-      ],
-      "people": [
-        {
-          "id": "edsger-dijkstra",
-          "name": "Edsger Dijkstra",
-          "role": "researcher"
-        }
-      ],
-      "category": "quote",
       "id": "dijkstra-goto-letter-quote",
       "date": "1968-03",
       "datePrecision": "month",
@@ -74,7 +62,14 @@
         "programming-language",
         "software-engineering"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "edsger-dijkstra",
+          "name": "Edsger Dijkstra",
+          "role": "researcher"
+        }
+      ],
+      "importance": 3,
       "sources": [
         {
           "title": "CACM — Letter: Go To Statement Considered Harmful (March 1968)",
@@ -86,7 +81,14 @@
           "url": "https://en.wikipedia.org/wiki/Go_to_statement_considered_harmful",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "dijkstra-go-to-considered-harmful"
+      ],
+      "slug": "dijkstra-goto-letter-quote",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

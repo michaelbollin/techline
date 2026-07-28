@@ -142,10 +142,10 @@
     },
     {
       "id": "altman-ai-goes-wrong",
-      "slug": "altman-ai-goes-wrong",
       "date": "2023-05-16",
       "datePrecision": "day",
       "title": "Sam Altman: \"If this technology goes wrong, it can go quite wrong\"",
+      "quoteText": "If this technology goes wrong, it can go quite wrong, and we want to be vocal about that.",
       "summary": "OpenAI CEO Sam Altman tells the Senate Judiciary Committee that frontier AI needs government oversight — while arguing for licensing and safety testing.",
       "about": "Altman walked a tightrope: urging regulation that could entrench incumbents while presenting OpenAI as the responsible actor. The line became the sound bite from the first major congressional hearing on generative AI.",
       "narrative": {
@@ -153,7 +153,6 @@
         "whyImportant": "It mainstreamed AI risk talk in Washington months after ChatGPT's launch.",
         "problemSolved": "Lawmakers needed a vocabulary for catastrophic AI failure from industry itself."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "warning",
@@ -168,14 +167,7 @@
           "role": "ceo"
         }
       ],
-      "companies": [
-        {
-          "id": "openai",
-          "name": "OpenAI"
-        }
-      ],
-      "quoteText": "If this technology goes wrong, it can go quite wrong, and we want to be vocal about that.",
-      "importance": 8,
+      "importance": 3,
       "media": [
         {
           "type": "youtube",
@@ -197,7 +189,10 @@
       ],
       "relatedIds": [
         "sam-altman-openai-founded"
-      ]
+      ],
+      "slug": "altman-ai-goes-wrong",
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

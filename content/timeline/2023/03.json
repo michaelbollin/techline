@@ -182,6 +182,54 @@
         "ghc-9-0-released",
         "haskell-2010-standard"
       ]
+    },
+    {
+      "id": "cursor-released",
+      "slug": "cursor-released",
+      "date": "2023-03-14",
+      "datePrecision": "day",
+      "title": "Cursor AI code editor released",
+      "summary": "Anysphere publicly released Cursor on March 14, 2023 — an AI-first code editor built for pair-programming with large language models.",
+      "about": "Cursor started as a Codemirror app, then forked VSCodium to reuse VS Code's editing stack while adding inline chat, codebase-aware completions, and multi-file edits. It kicked off the AI-native IDE wave — developers could ask questions about a repo, apply diffs, and run terminal commands from natural language.",
+      "narrative": {
+        "whyChosen": "Cursor proved developers would switch editors for deeply integrated AI, not just a chat sidebar.",
+        "whyImportant": "It reframed the IDE as an agent workspace, not just a text editor with plugins.",
+        "problemSolved": "Copilot-style completions were not enough; teams wanted whole-repo context and editable AI suggestions."
+      },
+      "category": "software",
+      "tags": [
+        "cursor",
+        "ide",
+        "editor",
+        "ai",
+        "anysphere"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anysphere",
+          "name": "Anysphere"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Cursor — Changelog v0.0.37 public release (March 14, 2023)",
+          "url": "https://www.cursor.com/changelog/v0-0-37-2023-03-14-",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Anysphere raises $8M to build an AI-powered IDE (overview)",
+          "url": "https://techcrunch.com/2023/10/11/anysphere-raises-8m-from-openai-to-build-an-ai-powered-ide/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "visual-studio-code-preview",
+        "chatgpt-released",
+        "openai-o1-released"
+      ]
     }
   ]
 }

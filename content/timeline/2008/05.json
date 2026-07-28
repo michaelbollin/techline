@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "slug": "crockford-javascript-good-parts",
-      "media": [],
-      "relatedIds": [
-        "douglas-crockford-json-spec",
-        "javascript-name-announced"
-      ],
-      "people": [
-        {
-          "id": "douglas-crockford",
-          "name": "Douglas Crockford",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "crockford-javascript-good-parts",
       "date": "2008-05",
       "datePrecision": "month",
@@ -33,7 +19,14 @@
         "javascript",
         "books"
       ],
-      "importance": 5,
+      "people": [
+        {
+          "id": "douglas-crockford",
+          "name": "Douglas Crockford",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "O'Reilly — JavaScript: The Good Parts (May 2008)",
@@ -45,7 +38,15 @@
           "url": "https://en.wikipedia.org/wiki/Douglas_Crockford",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "douglas-crockford-json-spec",
+        "javascript-name-announced"
+      ],
+      "slug": "crockford-javascript-good-parts",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     },
     {
       "id": "blackberry-bold-9000-released",
@@ -117,6 +118,7 @@
         "python",
         "web"
       ],
+      "people": [],
       "companies": [
         {
           "id": "google",

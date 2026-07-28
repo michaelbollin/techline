@@ -136,10 +136,10 @@
     },
     {
       "id": "torvalds-talk-is-cheap",
-      "slug": "torvalds-talk-is-cheap",
       "date": "2000-08-30",
       "datePrecision": "day",
       "title": "Linus Torvalds: \"Talk is cheap. Show me the code.\"",
+      "quoteText": "Talk is cheap. Show me the code.",
       "summary": "Linus Torvalds dismisses architecture debates on the Linux kernel mailing list — ship patches, not opinions.",
       "about": "The line became open-source culture in eight words. It appears on stickers, README files, and every thread where design docs pile up without a pull request.",
       "narrative": {
@@ -147,7 +147,6 @@
         "whyImportant": "It reinforced Linux's patch-driven governance over specification committees.",
         "problemSolved": "Mailing-list theory needed a norm that rewarded working implementations."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "insight",
@@ -161,10 +160,7 @@
           "role": "maintainer"
         }
       ],
-      "companies": [],
-      "quoteText": "Talk is cheap. Show me the code.",
-      "importance": 8,
-      "media": [],
+      "importance": 6,
       "sources": [
         {
           "title": "LKML — Re: linux-kernel archive (August 30, 2000)",
@@ -180,14 +176,18 @@
       "relatedIds": [
         "linux-kernel-announced",
         "git-created"
-      ]
+      ],
+      "slug": "torvalds-talk-is-cheap",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     },
     {
       "id": "spolsky-joel-test",
-      "slug": "spolsky-joel-test",
       "date": "2000-08-09",
       "datePrecision": "day",
       "title": "Joel Spolsky publishes the Joel Test",
+      "quoteText": "Do you use source control? Can you make a build in one step? Do you make daily builds? Do you have a bug database?",
       "summary": "Joel Spolsky's blog post The Joel Test lists twelve yes-or-no questions that separate great software teams from dysfunctional ones.",
       "about": "The Joel Test was never scientific — Joel admitted as much — but it spread because it was memorable and actionable. Teams still score themselves out of 12 in onboarding docs and engineering blog posts.",
       "narrative": {
@@ -195,7 +195,6 @@
         "whyImportant": "It gave non-engineers a simple rubric for software organization quality.",
         "problemSolved": "Startups had no quick way to audit whether their dev process was broken."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "insight",
@@ -209,10 +208,7 @@
           "role": "author"
         }
       ],
-      "companies": [],
-      "quoteText": "Do you use source control? Can you make a build in one step? Do you make daily builds? Do you have a bug database?",
-      "importance": 7,
-      "media": [],
+      "importance": 6,
       "sources": [
         {
           "title": "Joel on Software — The Joel Test (August 9, 2000)",
@@ -225,7 +221,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "slug": "spolsky-joel-test",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

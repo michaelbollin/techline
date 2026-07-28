@@ -24,6 +24,7 @@
         "datacenter"
       ],
       "people": [],
+      "companies": [],
       "importance": 8,
       "media": [],
       "sources": [
@@ -46,17 +47,6 @@
       ]
     },
     {
-      "slug": "greenspun-tenth-rule",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "philip-greenspun",
-          "name": "Philip Greenspun",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "greenspun-tenth-rule",
       "date": "1993",
       "datePrecision": "year",
@@ -75,7 +65,14 @@
         "lisp",
         "programming-language"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "philip-greenspun",
+          "name": "Philip Greenspun",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "Greenspun — Tenth rule FAQ (1993 era)",
@@ -87,7 +84,12 @@
           "url": "https://en.wikipedia.org/wiki/Greenspun%27s_tenth_rule",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [],
+      "slug": "greenspun-tenth-rule",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

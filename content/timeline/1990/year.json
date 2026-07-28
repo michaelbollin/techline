@@ -1,17 +1,6 @@
 {
   "events": [
     {
-      "slug": "gabriel-worse-is-better",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "richard-gabriel",
-          "name": "Richard Gabriel",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "gabriel-worse-is-better",
       "date": "1990",
       "datePrecision": "year",
@@ -31,7 +20,14 @@
         "lisp",
         "software-engineering"
       ],
-      "importance": 7,
+      "people": [
+        {
+          "id": "richard-gabriel",
+          "name": "Richard Gabriel",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "Gabriel — The Rise of Worse Is Better (1990 talk / 1991 essay)",
@@ -43,7 +39,12 @@
           "url": "https://en.wikipedia.org/wiki/Worse_is_better",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [],
+      "slug": "gabriel-worse-is-better",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

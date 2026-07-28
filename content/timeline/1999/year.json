@@ -26,6 +26,7 @@
           "role": "author"
         }
       ],
+      "companies": [],
       "importance": 4,
       "media": [],
       "sources": [
@@ -69,6 +70,7 @@
           "role": "author"
         }
       ],
+      "companies": [],
       "importance": 4,
       "media": [],
       "sources": [
@@ -86,19 +88,6 @@
       "relatedIds": []
     },
     {
-      "slug": "fowler-refactoring-definition",
-      "media": [],
-      "relatedIds": [
-        "martin-fowler-refactoring-published"
-      ],
-      "people": [
-        {
-          "id": "martin-fowler",
-          "name": "Martin Fowler",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "fowler-refactoring-definition",
       "date": "1999",
       "datePrecision": "year",
@@ -117,7 +106,14 @@
         "software-engineering",
         "refactoring"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "martin-fowler",
+          "name": "Martin Fowler",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "martinfowler.com — Refactoring book (1999)",
@@ -129,7 +125,14 @@
           "url": "https://en.wikipedia.org/wiki/Code_refactoring",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "martin-fowler-refactoring-published"
+      ],
+      "slug": "fowler-refactoring-definition",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

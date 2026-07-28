@@ -6,8 +6,15 @@ import {
   type LabelLayout,
 } from "@/lib/timeline/label-layout";
 import { TIMELINE_LABEL_EDGE_INSET } from "@/lib/timeline/constants";
-import { LABEL_PADDING_X } from "@/lib/timeline/measure-label";
+import {
+  LABEL_FONT_SIZE_PX,
+  LABEL_ICON_GAP,
+  LABEL_ICON_SIZE,
+  LABEL_PADDING_X,
+  DESKTOP_LABEL_MAX_TEXT_WIDTH,
+} from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
+import { TimelineLabelContent } from "@/components/timeline/timeline-label-content";
 
 type TimelineNodeLabelProps = {
   event: PlottedEvent;
@@ -71,19 +78,26 @@ export function TimelineNodeLabel({
             isHovered ? "fill-white" : "fill-black",
           )}
         />
-        <text
-          x={labelWidth / 2}
-          y={LABEL_BOX_HEIGHT / 2}
-          textAnchor="middle"
-          dominantBaseline="central"
-          className={cn(
+        <TimelineLabelContent
+          title={event.title}
+          themeId={event.themeId}
+          width={labelWidth}
+          height={LABEL_BOX_HEIGHT}
+          paddingX={LABEL_PADDING_X}
+          iconSize={LABEL_ICON_SIZE}
+          iconGap={LABEL_ICON_GAP}
+          maxTextWidth={DESKTOP_LABEL_MAX_TEXT_WIDTH}
+          fontSizePx={LABEL_FONT_SIZE_PX}
+          textClassName={cn(
             labelTransition,
             "pointer-events-none text-sm font-medium tracking-wide",
             isHovered ? "fill-black" : "fill-white",
           )}
-        >
-          {event.title}
-        </text>
+          iconClassName={cn(
+            labelTransition,
+            isHovered ? "text-black" : "text-white",
+          )}
+        />
         {isHovered && (
           <line
             x1={LABEL_PADDING_X}

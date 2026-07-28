@@ -94,6 +94,116 @@
         "gpt-4-released",
         "gpt-3-api-released"
       ]
+    },
+    {
+      "id": "nvidia-blackwell-announced",
+      "slug": "nvidia-blackwell-announced",
+      "date": "2024-03-18",
+      "datePrecision": "day",
+      "title": "NVIDIA Blackwell platform announced",
+      "summary": "NVIDIA announced the Blackwell GPU platform at GTC on March 18, 2024 — GB200 Grace Blackwell Superchips and B200 accelerators built for trillion-parameter generative AI.",
+      "about": "Blackwell succeeded Hopper as NVIDIA's AI compute generation: second-gen transformer engines, fifth-gen NVLink, and GB200 systems pairing two B200 GPUs with a Grace CPU. Jensen Huang called it a processor for the generative AI era — the hardware layer behind the next wave of frontier model training and inference.",
+      "narrative": {
+        "whyChosen": "Blackwell defined the GPU generation that trained and served 2024–2026 frontier models.",
+        "whyImportant": "It raised the ceiling on AI factory scale, efficiency, and real-time trillion-parameter inference.",
+        "problemSolved": "Hopper-era clusters could not meet the cost and energy demands of next-gen generative AI workloads."
+      },
+      "category": "hardware",
+      "tags": [
+        "nvidia",
+        "cuda",
+        "gpu",
+        "ai",
+        "hardware",
+        "semiconductor"
+      ],
+      "people": [
+        {
+          "id": "jensen-huang",
+          "name": "Jensen Huang",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "nvidia",
+          "name": "NVIDIA"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "NVIDIA — Blackwell platform announced at GTC (March 18, 2024)",
+          "url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Blackwell-Platform-Arrives-to-Power-a-New-Era-of-Computing/default.aspx",
+          "role": "date"
+        },
+        {
+          "title": "NVIDIA Blog — 2024 GTC keynote (overview)",
+          "url": "https://blogs.nvidia.com/blog/2024-gtc-keynote/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "jensen-huang-cuda-announced",
+        "jensen-huang-nvidia-founded",
+        "openai-o1-released",
+        "chatgpt-released"
+      ]
+    },
+    {
+      "id": "huang-generative-ai-era-quote",
+      "date": "2024-03-18",
+      "datePrecision": "day",
+      "title": "Jensen Huang: \"We created a processor for the generative AI era\"",
+      "quoteText": "The way we compute is fundamentally different. We created a processor for the generative AI era.",
+      "summary": "At GTC 2024, NVIDIA CEO Jensen Huang unveils Blackwell and frames GPUs as the engine of AI factories, not just graphics.",
+      "about": "Huang pulled a Blackwell chip from his pocket beside a Hopper die — the visual shorthand for a platform shift. The line captured how NVIDIA repositioned from gaming GPUs to the default substrate for trillion-parameter models and real-time generative AI.",
+      "narrative": {
+        "whyChosen": "The defining phrase from the Blackwell keynote that named the generative-AI hardware era.",
+        "whyImportant": "It reframed data centers as AI factories and cemented NVIDIA's narrative for investors and builders.",
+        "problemSolved": "The industry needed language for why next-gen AI required a new class of processors, not faster CPUs."
+      },
+      "tags": [
+        "quote",
+        "prediction",
+        "ai",
+        "nvidia",
+        "hardware"
+      ],
+      "people": [
+        {
+          "id": "jensen-huang",
+          "name": "Jensen Huang",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "nvidia",
+          "name": "NVIDIA"
+        }
+      ],
+      "importance": 4,
+      "sources": [
+        {
+          "title": "NVIDIA Blog — 2024 GTC keynote (March 18, 2024)",
+          "url": "https://blogs.nvidia.com/blog/2024-gtc-keynote/",
+          "role": "date"
+        },
+        {
+          "title": "NVIDIA — Blackwell platform press release (overview)",
+          "url": "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Blackwell-Platform-Arrives-to-Power-a-New-Era-of-Computing/default.aspx",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nvidia-blackwell-announced",
+        "jensen-huang-cuda-announced"
+      ],
+      "slug": "huang-generative-ai-era-quote",
+      "media": [],
+      "category": "quote"
     }
   ]
 }

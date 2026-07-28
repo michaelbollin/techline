@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "gpt-5-4-released",
+      "slug": "gpt-5-4-released",
+      "date": "2026-03-05",
+      "datePrecision": "day",
+      "title": "OpenAI GPT-5.4 released",
+      "summary": "OpenAI released GPT-5.4 on March 5, 2026 — a frontier reasoning model with native coding, computer use, and GPT-5.3-Codex capabilities in the mainline stack.",
+      "about": "GPT-5.4 unified OpenAI's coding and reasoning lines under one model name in ChatGPT and Codex. It led benchmarks on OSWorld, BrowseComp, and GPQA Diamond while simplifying the model picker for developers who had juggled GPT-5.x, o-series, and Codex variants.",
+      "narrative": {
+        "whyChosen": "GPT-5.4 merged Codex-grade coding into OpenAI's default reasoning model.",
+        "whyImportant": "One mainline model reduced fragmentation between chat, agents, and IDE tooling.",
+        "problemSolved": "Developers needed a single frontier model for coding agents without picking separate SKUs."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-5.4 (March 5, 2026)",
+          "url": "https://openai.com/index/introducing-gpt-5-4/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GPT-5 (overview)",
+          "url": "https://en.wikipedia.org/wiki/GPT-5",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gpt-5-released",
+        "claude-opus-4-6-released",
+        "claude-opus-5-released"
+      ]
+    }
+  ]
+}

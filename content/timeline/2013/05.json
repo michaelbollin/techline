@@ -45,6 +45,58 @@
         "javascript-name-announced",
         "nextjs-open-sourced"
       ]
+    },
+    {
+      "id": "android-studio-announced",
+      "slug": "android-studio-announced",
+      "date": "2013-05-15",
+      "datePrecision": "day",
+      "title": "Android Studio announced",
+      "summary": "Google announced Android Studio at Google I/O on May 15, 2013 — a dedicated Android IDE built on the IntelliJ Platform.",
+      "about": "Android Studio replaced Eclipse ADT with Gradle builds, layout editors, emulators, and Kotlin-first tooling. It became the only officially supported Android IDE by 2015 — where millions of mobile developers write Java, Kotlin, and Jetpack Compose apps.",
+      "narrative": {
+        "whyChosen": "Android Studio consolidated Android development onto JetBrains' IDE platform under Google.",
+        "whyImportant": "It ended the fragmented Eclipse plugin era for mobile Android teams.",
+        "problemSolved": "Android developers juggled Eclipse plugins, Ant builds, and inconsistent emulator workflows."
+      },
+      "category": "software",
+      "tags": [
+        "android",
+        "ide",
+        "google",
+        "jetbrains",
+        "mobile"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "The Verge — Google announces Android Studio (May 15, 2013)",
+          "url": "https://www.theverge.com/2013/5/15/4333534/google-android-studio",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Android Studio (overview)",
+          "url": "https://en.wikipedia.org/wiki/Android_Studio",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "intellij-idea-released",
+        "kotlin-1-0-released",
+        "android-announced"
+      ]
     }
   ]
 }

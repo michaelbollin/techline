@@ -48,10 +48,10 @@
     },
     {
       "id": "zuckerberg-move-fast-break-things",
-      "slug": "zuckerberg-move-fast-break-things",
       "date": "2009",
       "datePrecision": "year",
       "title": "Facebook motto: \"Move fast and break things\"",
+      "quoteText": "Move fast and break things.",
       "summary": "Facebook's early internal motto encodes shipping velocity over stability — later retired as the company matured.",
       "about": "The phrase summed up 2010s growth-at-all-costs culture: hackathons, A/B tests, and apologizing later. Facebook dropped it by 2014 for 'Move fast with stable infrastructure' as outages and privacy scandals mounted.",
       "narrative": {
@@ -59,7 +59,6 @@
         "whyImportant": "It named a product culture that prioritized iteration speed over caution.",
         "problemSolved": "Fast-growing social products needed permission to ship experiments without paralysis."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "controversy",
@@ -74,15 +73,7 @@
           "role": "founder"
         }
       ],
-      "companies": [
-        {
-          "id": "meta",
-          "name": "Meta"
-        }
-      ],
-      "quoteText": "Move fast and break things.",
-      "importance": 8,
-      "media": [],
+      "importance": 6,
       "sources": [
         {
           "title": "Business Insider — Facebook motto history (2009–2014)",
@@ -95,7 +86,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": []
+      "relatedIds": [],
+      "slug": "zuckerberg-move-fast-break-things",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

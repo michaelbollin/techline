@@ -47,10 +47,10 @@
     },
     {
       "id": "ballmer-linux-cancer",
-      "slug": "ballmer-linux-cancer",
       "date": "2001-06-01",
       "datePrecision": "day",
       "title": "Steve Ballmer calls Linux \"a cancer\"",
+      "quoteText": "Linux is a cancer that attaches itself in an intellectual property sense to everything it touches.",
       "summary": "In a Chicago Sun-Times interview, Microsoft CEO Steve Ballmer attacks the GPL and open-source licensing.",
       "about": "Ballmer was arguing that copyleft 'infects' proprietary code — a framing open-source advocates still push back on. The quote marked peak Microsoft–Linux hostility before Azure embraced open source.",
       "narrative": {
@@ -58,7 +58,6 @@
         "whyImportant": "It galvanized the free-software community and defined Microsoft's public stance for years.",
         "problemSolved": "Microsoft was defending its licensing model against government open-source adoption."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "controversy",
@@ -73,15 +72,7 @@
           "role": "ceo"
         }
       ],
-      "companies": [
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
-      "quoteText": "Linux is a cancer that attaches itself in an intellectual property sense to everything it touches.",
-      "importance": 8,
-      "media": [],
+      "importance": 3,
       "sources": [
         {
           "title": "The Register — Ballmer: Linux is a cancer (June 1, 2001)",
@@ -97,7 +88,11 @@
       "relatedIds": [
         "steve-ballmer-named-microsoft-ceo",
         "linux-kernel-announced"
-      ]
+      ],
+      "slug": "ballmer-linux-cancer",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "slug": "hunt-thomas-dry",
-      "media": [],
-      "relatedIds": [
-        "kent-beck-extreme-programming"
-      ],
-      "people": [
-        {
-          "id": "andy-hunt",
-          "name": "Andy Hunt",
-          "role": "author"
-        },
-        {
-          "id": "dave-thomas",
-          "name": "Dave Thomas",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "hunt-thomas-dry",
       "date": "1999-10",
       "datePrecision": "month",
@@ -37,7 +19,19 @@
         "software-engineering",
         "pragmatic-programmer"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "andy-hunt",
+          "name": "Andy Hunt",
+          "role": "author"
+        },
+        {
+          "id": "dave-thomas",
+          "name": "Dave Thomas",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "The Pragmatic Programmer — DRY principle (October 1999)",
@@ -49,7 +43,14 @@
           "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "kent-beck-extreme-programming"
+      ],
+      "slug": "hunt-thomas-dry",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "id": "kimi-k2-5-released",
+      "slug": "kimi-k2-5-released",
+      "date": "2026-01-27",
+      "datePrecision": "day",
+      "title": "Moonshot Kimi K2.5 released",
+      "summary": "Moonshot AI released Kimi K2.5 on January 27, 2026 — an open multimodal agentic model with Agent Swarm parallel sub-agents and strong coding benchmarks.",
+      "about": "K2.5 extended Kimi from text-only agents to native vision: joint text-vision pretraining, Agent Swarm orchestration of up to 100 parallel sub-agents, and open weights on Hugging Face. It positioned Moonshot as a leader in open agentic intelligence — competing with Claude Code and Codex on real software engineering tasks.",
+      "narrative": {
+        "whyChosen": "Kimi K2.5 made parallel agent swarms a shipped open-source capability.",
+        "whyImportant": "Multimodal open models with orchestrated agents narrowed the gap to closed coding stacks.",
+        "problemSolved": "Complex multi-step tasks needed parallel agents, not just longer single-threaded reasoning."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "moonshot",
+        "kimi",
+        "llm",
+        "open-source",
+        "machine-learning",
+        "moe"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "moonshot",
+          "name": "Moonshot AI"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Moonshot AI — Kimi K2.5 model on Hugging Face (January 2026)",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+          "role": "date"
+        },
+        {
+          "title": "arXiv — Kimi K2.5: Visual Agentic Intelligence (overview)",
+          "url": "https://arxiv.org/abs/2602.02276",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "kimi-k2-released",
+        "claude-opus-4-6-released",
+        "gpt-5-4-released"
+      ]
+    }
+  ]
+}

@@ -138,10 +138,10 @@
     },
     {
       "id": "gates-internet-tidal-wave-memo",
-      "slug": "gates-internet-tidal-wave-memo",
       "date": "1995-05-26",
       "datePrecision": "day",
       "title": "Bill Gates declares the \"Internet tidal wave\"",
+      "quoteText": "The Internet is a tidal wave. It changes the rules. It is an incredible opportunity as well as an incredible challenge.",
       "summary": "Bill Gates's internal Microsoft memo redirects the company to make the Internet central to every product.",
       "about": "Gates had initially dismissed the web; this memo is the pivot. It led to IE bundling, MSN strategy, and the browser wars — and later antitrust scrutiny.",
       "narrative": {
@@ -149,7 +149,6 @@
         "whyImportant": "It accelerated browser development and reshaped Windows as a networked platform.",
         "problemSolved": "Microsoft risked missing the Internet after focusing on desktop CD-ROM products."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "prediction",
@@ -164,15 +163,7 @@
           "role": "ceo"
         }
       ],
-      "companies": [
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
-      "quoteText": "The Internet is a tidal wave. It changes the rules. It is an incredible opportunity as well as an incredible challenge.",
-      "importance": 4,
-      "media": [],
+      "importance": 3,
       "sources": [
         {
           "title": "Microsoft — Internet Tidal Wave memo (May 26, 1995)",
@@ -188,7 +179,11 @@
       "relatedIds": [
         "microsoft-founded",
         "internet-explorer-1-0"
-      ]
+      ],
+      "slug": "gates-internet-tidal-wave-memo",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

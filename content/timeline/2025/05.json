@@ -40,6 +40,55 @@
         "erlang-otp-26-released",
         "elixir-1-17-released"
       ]
+    },
+    {
+      "id": "claude-4-released",
+      "slug": "claude-4-released",
+      "date": "2025-05-22",
+      "datePrecision": "day",
+      "title": "Anthropic Claude 4 Opus and Sonnet released",
+      "summary": "Anthropic released Claude Opus 4 and Sonnet 4 on May 22, 2025 — hybrid reasoning models with extended thinking, parallel tool use, and state-of-the-art coding scores.",
+      "about": "Claude 4 made extended thinking with tool use a default capability and shipped Claude Code to general availability. Opus 4 led SWE-bench and long-running agent tasks; Sonnet 4 balanced cost and capability for everyday coding — intensifying the three-way race with OpenAI o3 and Gemini 2.5.",
+      "narrative": {
+        "whyChosen": "Claude 4 paired frontier coding with production-ready agent tooling.",
+        "whyImportant": "Parallel tools and memory files pushed agentic coding from demo to daily workflow.",
+        "problemSolved": "Developers needed models that could sustain multi-hour coding and research sessions reliably."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Introducing Claude 4 (May 22, 2025)",
+          "url": "https://www.anthropic.com/news/claude-4",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "claude-3-7-sonnet-released",
+        "openai-o3-released",
+        "google-gemini-2-5-pro-released"
+      ]
     }
   ]
 }

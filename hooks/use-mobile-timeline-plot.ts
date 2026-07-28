@@ -14,7 +14,7 @@ import { makeBaseScaleVertical } from "@/lib/timeline/vertical/zoom";
 import { TIMELINE_EXTENT } from "@/lib/timeline/constants";
 import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
-import { measureLabelWidth } from "@/lib/timeline/measure-label";
+import { measureMobileLabelWidth } from "@/lib/timeline/vertical/label-metrics";
 import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
 import { IMPORTANCE_MAX } from "@/lib/timeline/importance";
@@ -96,7 +96,7 @@ export function useMobileTimelinePlot({
   const labelWidths = useMemo(() => {
     const widths = new Map<string, number>();
     for (const event of plotted) {
-      widths.set(event.id, measureLabelWidth(event.title));
+      widths.set(event.id, measureMobileLabelWidth(event.title));
     }
     return widths;
   }, [fontEpoch, plotted]);
@@ -110,7 +110,7 @@ export function useMobileTimelinePlot({
         maxImportance,
         width,
         maxLanes,
-        (event) => labelWidths.get(event.id) ?? measureLabelWidth(event.title),
+        (event) => labelWidths.get(event.id) ?? measureMobileLabelWidth(event.title),
         visibleSpanMs,
       ),
     [axisX, labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, yScale],

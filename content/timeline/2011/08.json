@@ -94,10 +94,10 @@
     },
     {
       "id": "andreessen-software-eating-world",
-      "slug": "andreessen-software-eating-world",
       "date": "2011-08-20",
       "datePrecision": "day",
       "title": "Marc Andreessen: \"Software is eating the world\"",
+      "quoteText": "Software is eating the world.",
       "summary": "In a Wall Street Journal essay, Marc Andreessen argues that every industry is becoming a software business.",
       "about": "Written at the height of the mobile and cloud boom, the line justified VC bets on Uber, Airbnb, and SaaS eating hotels, taxis, and shrink-wrapped software. It aged into a cliché — because it was largely right.",
       "narrative": {
@@ -105,7 +105,6 @@
         "whyImportant": "It reframed non-tech industries as software delivery problems.",
         "problemSolved": "Investors and incumbents underestimated how fast software would disrupt physical businesses."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "prediction",
@@ -119,10 +118,7 @@
           "role": "author"
         }
       ],
-      "companies": [],
-      "quoteText": "Software is eating the world.",
-      "importance": 4,
-      "media": [],
+      "importance": 3,
       "sources": [
         {
           "title": "Wall Street Journal — Why Software Is Eating the World (August 20, 2011)",
@@ -137,7 +133,11 @@
       ],
       "relatedIds": [
         "marc-andreessen-netscape-founded"
-      ]
+      ],
+      "slug": "andreessen-software-eating-world",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     },
     {
       "id": "bootstrap-released",

@@ -18,8 +18,9 @@ import { eventPath } from "@/lib/timeline/format";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
-import { TimelineFilterSidebar } from "./timeline-filters";
-import { TimelineHeader } from "./timeline-header";
+import { SiteBrand } from "@/components/layout/site-brand";
+
+import { TimelineFilterSidebar, TimelineFilterTrigger } from "./timeline-filters";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelinePanArrows } from "./timeline-pan-arrows";
@@ -102,14 +103,12 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
 
   return (
     <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
-      <TimelineHeader
-        isOpen={filtersOpen}
-        activeCount={activeFilterCount}
-        onToggle={() => setFiltersOpen((open) => !open)}
-      />
-
       <div className="flex min-h-0 flex-1">
         <div className="flex min-h-0 min-w-0 flex-1 flex-col">
+          <header className="flex min-h-10 shrink-0 items-center py-5 pr-[3.75rem] pb-4 pl-6 sm:pl-8 sm:pr-[4.25rem]">
+            <SiteBrand className="shrink-0" />
+          </header>
+
           <div ref={containerRef} className="relative min-h-0 flex-1">
             {plotted.length === 0 && (
               <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-6">
@@ -211,6 +210,14 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
           fulltextQuery={fulltextQuery}
           onClose={() => setFiltersOpen(false)}
           onOpenChange={setDeferUrlSync}
+        />
+      </div>
+
+      <div className="absolute top-5 right-6 z-20 flex h-10 items-center overflow-visible sm:right-8">
+        <TimelineFilterTrigger
+          isOpen={filtersOpen}
+          activeCount={activeFilterCount}
+          onToggle={() => setFiltersOpen((open) => !open)}
         />
       </div>
     </section>

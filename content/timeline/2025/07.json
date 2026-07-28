@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "kimi-k2-released",
+      "slug": "kimi-k2-released",
+      "date": "2025-07-11",
+      "datePrecision": "day",
+      "title": "Moonshot Kimi K2 released",
+      "summary": "Moonshot AI open-sourced Kimi K2 on July 11, 2025 — a 1T-parameter MoE model with 32B active parameters, optimized for agentic coding and tool use.",
+      "about": "Kimi K2 brought Chinese open-weight models to the agentic frontier: strong SWE-bench scores, Modified MIT license, and reflex-grade tool calling without long thinking chains. It proved Moonshot could ship trillion-parameter open models competitive with Western closed APIs — right as DeepSeek R1 had already shaken inference economics.",
+      "narrative": {
+        "whyChosen": "Kimi K2 made open agentic intelligence a credible alternative to closed coding models.",
+        "whyImportant": "Chinese labs expanded from reasoning shocks to open trillion-parameter agent platforms.",
+        "problemSolved": "Teams wanted o3-class agentic coding with weights they could self-host and fine-tune."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "moonshot",
+        "kimi",
+        "llm",
+        "open-source",
+        "machine-learning",
+        "moe"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "moonshot",
+          "name": "Moonshot AI"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Moonshot AI — Kimi K2: Open Agentic Intelligence (July 2025)",
+          "url": "https://platform.moonshot.ai/blog/posts/k2-report",
+          "role": "date"
+        },
+        {
+          "title": "GitHub — MoonshotAI/Kimi-K2 (overview)",
+          "url": "https://github.com/MoonshotAI/Kimi-K2",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "deepseek-r1-released",
+        "deepseek-v3-released",
+        "qwen-3-released",
+        "kimi-k2-5-released"
+      ]
+    }
+  ]
+}

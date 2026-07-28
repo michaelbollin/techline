@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "gpt-5-released",
+      "slug": "gpt-5-released",
+      "date": "2025-08-07",
+      "datePrecision": "day",
+      "title": "OpenAI GPT-5 released",
+      "summary": "OpenAI released GPT-5 on August 7, 2025 — a unified system that routes between fast responses and extended reasoning, replacing GPT-4o and o3 in ChatGPT.",
+      "about": "GPT-5 merged OpenAI's chat and reasoning lines into one default model: stronger coding, math, health, and vision with automatic thinking when needed. GPT-5 Pro added scaled test-time compute for the hardest tasks — resetting the consumer AI baseline the way GPT-4 did in 2023.",
+      "narrative": {
+        "whyChosen": "GPT-5 unified OpenAI's fragmented model picker into one flagship system.",
+        "whyImportant": "Automatic reasoning routing made frontier intelligence the default, not a power-user toggle.",
+        "problemSolved": "Users faced confusing choices between GPT-4.x, o-series, and API-only models."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "chatgpt",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-5 (August 7, 2025)",
+          "url": "https://openai.com/index/introducing-gpt-5/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — GPT-5 (overview)",
+          "url": "https://en.wikipedia.org/wiki/GPT-5",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "chatgpt-released",
+        "gpt-4-released",
+        "openai-o3-released",
+        "gpt-5-4-released"
+      ]
+    }
+  ]
+}

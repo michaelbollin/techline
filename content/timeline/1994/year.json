@@ -26,6 +26,7 @@
           "role": "founder"
         }
       ],
+      "companies": [],
       "importance": 8,
       "media": [],
       "sources": [
@@ -69,6 +70,7 @@
           "role": "creator"
         }
       ],
+      "companies": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -114,6 +116,7 @@
           "role": "author"
         }
       ],
+      "companies": [],
       "importance": 5,
       "media": [],
       "sources": [
@@ -131,17 +134,6 @@
       "relatedIds": []
     },
     {
-      "slug": "joy-most-smart-people-elsewhere",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "bill-joy",
-          "name": "Bill Joy",
-          "role": "co-founder"
-        }
-      ],
-      "category": "quote",
       "id": "joy-most-smart-people-elsewhere",
       "date": "1994",
       "datePrecision": "year",
@@ -160,7 +152,14 @@
         "open-innovation",
         "startups"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "bill-joy",
+          "name": "Bill Joy",
+          "role": "co-founder"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "Kevin Kelly — Out of Control (1994, citing Bill Joy)",
@@ -172,7 +171,12 @@
           "url": "https://en.wikipedia.org/wiki/Joy%27s_law",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [],
+      "slug": "joy-most-smart-people-elsewhere",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

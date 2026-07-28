@@ -1,0 +1,151 @@
+{
+  "events": [
+    {
+      "id": "deepseek-v3-released",
+      "slug": "deepseek-v3-released",
+      "date": "2024-12-26",
+      "datePrecision": "day",
+      "title": "DeepSeek V3 released",
+      "summary": "DeepSeek released V3 on December 26, 2024 — a 671B-parameter MoE model with open weights, strong coding results, and training costs far below Western frontier labs.",
+      "about": "DeepSeek V3 preceded R1 and proved Chinese labs could ship competitive open-weight MoE models at scale. Its MIT-licensed weights and transparent training details made it a default choice for self-hosted inference — and a wake-up call on AI compute economics before the R1 reasoning shock in January.",
+      "narrative": {
+        "whyChosen": "DeepSeek V3 showed open MoE models could rival closed APIs before the R1 reasoning wave.",
+        "whyImportant": "It shifted assumptions about who could afford frontier-scale training and release open weights.",
+        "problemSolved": "Teams wanted strong coding and general models without proprietary API lock-in or Western-only vendors."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "deepseek",
+        "llm",
+        "open-source",
+        "machine-learning",
+        "moe"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "deepseek",
+          "name": "DeepSeek"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "DeepSeek — DeepSeek-V3 release (December 26, 2024)",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — DeepSeek (overview)",
+          "url": "https://en.wikipedia.org/wiki/DeepSeek",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "deepseek-r1-released",
+        "llama-3-released",
+        "gpt-4-released"
+      ]
+    },
+    {
+      "id": "google-gemini-2-0-released",
+      "slug": "google-gemini-2-0-released",
+      "date": "2024-12-11",
+      "datePrecision": "day",
+      "title": "Google Gemini 2.0 Flash released",
+      "summary": "Google released Gemini 2.0 Flash on December 11, 2024 — a multimodal agentic model with native image and audio output, tool use, and twice the speed of 1.5 Pro.",
+      "about": "Gemini 2.0 Flash launched Google's agentic era: multimodal live APIs, Deep Research in Gemini Advanced, and native tool calling for Search and code execution. It outperformed 1.5 Pro on key benchmarks at Flash-tier latency — keeping Google competitive in the year-end race with OpenAI's o1 and Sora releases.",
+      "narrative": {
+        "whyChosen": "Gemini 2.0 reframed Google's models around agents, multimodal output, and low latency.",
+        "whyImportant": "Native multimodal generation and tool use became baseline expectations for frontier models.",
+        "problemSolved": "Developers needed faster Gemini models that could act, not just answer, across modalities."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "google",
+        "gemini",
+        "deepmind",
+        "llm",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google — Introducing Gemini 2.0 (December 11, 2024)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Gemini (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-gemini-1-5-released",
+        "google-gemini-released",
+        "openai-o3-announced"
+      ]
+    },
+    {
+      "id": "openai-o3-announced",
+      "slug": "openai-o3-announced",
+      "date": "2024-12-20",
+      "datePrecision": "day",
+      "title": "OpenAI o3 reasoning models announced",
+      "summary": "OpenAI announced o3 and o3-mini on December 20, 2024 — successors to o1 with stronger math, coding, and science reasoning, offered first to safety researchers.",
+      "about": "The o3 reveal closed OpenAI's '12 Days of OpenAI' with a direct answer to Google's Gemini 2.0 Flash Thinking. Sam Altman said o3-mini would ship by late January and full o3 shortly after — escalating the inference-time reasoning arms race that DeepSeek R1 would later join with open weights.",
+      "narrative": {
+        "whyChosen": "o3 signaled the next generation of OpenAI reasoning models before public release.",
+        "whyImportant": "It kept frontier labs competing on test-time compute, not just parameter count.",
+        "problemSolved": "o1-class reasoning needed a successor for harder STEM, coding, and agent benchmarks."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "openai",
+        "o3",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Early access for safety testing: o3 and o3-mini (December 20, 2024)",
+          "url": "https://openai.com/index/early-access-for-safety-testing/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OpenAI o3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "openai-o1-released",
+        "google-gemini-2-0-released",
+        "openai-o3-released"
+      ]
+    }
+  ]
+}

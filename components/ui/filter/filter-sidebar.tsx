@@ -5,6 +5,15 @@ import { cn } from "@/lib/cn";
 /** Shared horizontal inset — aligns headings, filter labels, and counts with the close control. */
 export const filterSidebarInsetClassName = "px-6 pr-16 sm:pr-[4.25rem]";
 
+/** Symmetric inset for full-width mobile overlay (close control lives in the header). */
+export const filterSidebarOverlayInsetClassName = "px-6";
+
+type FilterSidebarInset = "dock" | "overlay";
+
+function insetClassName(inset: FilterSidebarInset) {
+  return inset === "overlay" ? filterSidebarOverlayInsetClassName : filterSidebarInsetClassName;
+}
+
 type FilterSidebarProps = HTMLAttributes<HTMLElement> & {
   id?: string;
 };
@@ -25,12 +34,19 @@ export function FilterSidebar({ className, children, ...props }: FilterSidebarPr
   );
 }
 
-type FilterSidebarHeaderProps = HTMLAttributes<HTMLElement>;
+type FilterSidebarHeaderProps = HTMLAttributes<HTMLElement> & {
+  inset?: FilterSidebarInset;
+};
 
-export function FilterSidebarHeader({ className, children, ...props }: FilterSidebarHeaderProps) {
+export function FilterSidebarHeader({
+  className,
+  inset = "dock",
+  children,
+  ...props
+}: FilterSidebarHeaderProps) {
   return (
     <header
-      className={cn("flex shrink-0 flex-col pt-5 pb-4", filterSidebarInsetClassName, className)}
+      className={cn("flex shrink-0 flex-col pt-5 pb-4", insetClassName(inset), className)}
       {...props}
     >
       {children}
@@ -54,14 +70,21 @@ export function FilterSidebarTitle({ className, children, ...props }: FilterSide
   );
 }
 
-type FilterSidebarBodyProps = HTMLAttributes<HTMLDivElement>;
+type FilterSidebarBodyProps = HTMLAttributes<HTMLDivElement> & {
+  inset?: FilterSidebarInset;
+};
 
-export function FilterSidebarBody({ className, children, ...props }: FilterSidebarBodyProps) {
+export function FilterSidebarBody({
+  className,
+  inset = "dock",
+  children,
+  ...props
+}: FilterSidebarBodyProps) {
   return (
     <div
       className={cn(
         "flex flex-1 flex-col gap-6 overflow-y-auto pb-5",
-        filterSidebarInsetClassName,
+        insetClassName(inset),
         className,
       )}
       {...props}
@@ -73,14 +96,20 @@ export function FilterSidebarBody({ className, children, ...props }: FilterSideb
 
 type FilterSidebarFooterProps = HTMLAttributes<HTMLElement> & {
   children: ReactNode;
+  inset?: FilterSidebarInset;
 };
 
-export function FilterSidebarFooter({ className, children, ...props }: FilterSidebarFooterProps) {
+export function FilterSidebarFooter({
+  className,
+  inset = "dock",
+  children,
+  ...props
+}: FilterSidebarFooterProps) {
   return (
     <footer
       className={cn(
         "flex justify-end border-t border-black pt-3 pb-5",
-        filterSidebarInsetClassName,
+        insetClassName(inset),
         className,
       )}
       {...props}

@@ -239,7 +239,8 @@
         "typescript-preview-released",
         "github-launched",
         "intellij-idea-released",
-        "language-server-protocol-announced"
+        "language-server-protocol-announced",
+        "cursor-released"
       ]
     }
   ]

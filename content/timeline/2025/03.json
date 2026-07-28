@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "id": "google-gemini-2-5-pro-released",
+      "slug": "google-gemini-2-5-pro-released",
+      "date": "2025-03-25",
+      "datePrecision": "day",
+      "title": "Google Gemini 2.5 Pro released",
+      "summary": "Google released Gemini 2.5 Pro on March 25, 2025 — a thinking model topping LMArena with strong coding, math, and a 1M-token context window.",
+      "about": "Gemini 2.5 Pro was Google's first 2.5 thinking model: hybrid reasoning, native multimodality, and state-of-the-art benchmark scores. It arrived in AI Studio and Gemini Advanced as Google raced OpenAI's o3 and Anthropic's Claude 3.7 for developer mindshare.",
+      "narrative": {
+        "whyChosen": "Gemini 2.5 Pro put Google back at the top of public leaderboards for reasoning models.",
+        "whyImportant": "Thinking models with million-token context became the new frontier baseline.",
+        "problemSolved": "Teams needed a Google model that matched o-series reasoning without leaving Vertex or AI Studio."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "google",
+        "gemini",
+        "deepmind",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google — Gemini 2.5: our newest Gemini model with thinking (March 25, 2025)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Gemini (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-gemini-2-0-released",
+        "google-gemini-1-5-released",
+        "claude-3-7-sonnet-released"
+      ]
+    }
+  ]
+}

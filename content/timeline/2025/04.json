@@ -46,7 +46,157 @@
       "relatedIds": [
         "gpt-4o-released",
         "gpt-4-turbo-released",
+        "openai-o3-released",
         "chatgpt-released"
+      ]
+    },
+    {
+      "id": "openai-o3-released",
+      "slug": "openai-o3-released",
+      "date": "2025-04-16",
+      "datePrecision": "day",
+      "title": "OpenAI o3 and o4-mini released",
+      "summary": "OpenAI released o3 and o4-mini on April 16, 2025 — reasoning models with tool use, coding, and science benchmarks that replaced o1 in ChatGPT and the API.",
+      "about": "After December's preview, o3 brought private chain-of-thought reasoning to production alongside the smaller o4-mini. Together they anchored OpenAI's reasoning tier until GPT-5 unified fast and thinking modes — and kept pressure on Google Gemini 2.5 and Anthropic Claude 4.",
+      "narrative": {
+        "whyChosen": "o3 moved OpenAI's second-generation reasoning models from preview to production.",
+        "whyImportant": "Reasoning plus tool use became the default stack for hard coding and research agents.",
+        "problemSolved": "o1 users needed stronger STEM, coding, and agentic performance at API scale."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "openai",
+        "o3",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenAI — Introducing o3 and o4-mini (April 16, 2025)",
+          "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — OpenAI o3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/OpenAI_o3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "openai-o3-announced",
+        "openai-o1-released",
+        "gpt-5-released"
+      ]
+    },
+    {
+      "id": "llama-4-released",
+      "slug": "llama-4-released",
+      "date": "2025-04-05",
+      "datePrecision": "day",
+      "title": "Meta Llama 4 Scout and Maverick released",
+      "summary": "Meta released Llama 4 Scout and Maverick on April 5, 2025 — open-weight natively multimodal MoE models with up to 10M-token context on Scout.",
+      "about": "Llama 4 brought mixture-of-experts and native multimodality to Meta's open model line. Scout fit on a single H100; Maverick beat GPT-4o and Gemini 2.0 Flash on several benchmarks. Meta also previewed the training-only Behemoth teacher — signaling open weights would keep pace with closed frontier models.",
+      "narrative": {
+        "whyChosen": "Llama 4 made open MoE multimodal models competitive with closed API flagships.",
+        "whyImportant": "Ten-million-token context and MoE efficiency reset expectations for self-hosted AI.",
+        "problemSolved": "Open-source teams needed frontier multimodal models without cloud API dependence."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "meta",
+        "llama",
+        "llm",
+        "open-source",
+        "machine-learning",
+        "moe"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Meta — The Llama 4 herd (April 5, 2025)",
+          "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Llama (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Llama_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "llama-3-released",
+        "deepseek-v3-released",
+        "google-gemini-2-5-pro-released"
+      ]
+    },
+    {
+      "id": "qwen-3-released",
+      "slug": "qwen-3-released",
+      "date": "2025-04-28",
+      "datePrecision": "day",
+      "title": "Alibaba Qwen3 released",
+      "summary": "Alibaba open-weighted Qwen3 on April 28, 2025 — hybrid thinking and non-thinking modes across dense and MoE models up to 235B parameters.",
+      "about": "Qwen3 matched or beat o1, DeepSeek R1, and Gemini 2.5 on several public benchmarks while supporting 119 languages. Hybrid reasoning let developers toggle extended thinking per task — making Alibaba a top-tier open-source alternative alongside DeepSeek and Meta.",
+      "narrative": {
+        "whyChosen": "Qwen3 put Alibaba firmly in the open frontier model race with hybrid reasoning.",
+        "whyImportant": "Chinese open-weight models became credible defaults for global self-hosted deployments.",
+        "problemSolved": "Teams wanted o1-class reasoning with open weights and flexible thinking budgets."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "alibaba",
+        "qwen",
+        "llm",
+        "open-source",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "alibaba",
+          "name": "Alibaba"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Qwen — Qwen3: Think Deeper, Act Faster (April 28, 2025)",
+          "url": "https://qwenlm.github.io/blog/qwen3/",
+          "role": "date"
+        },
+        {
+          "title": "Alibaba Cloud — Introducing Qwen3 (overview)",
+          "url": "https://www.alibabacloud.com/blog/alibaba-introduces-qwen3-setting-new-benchmark-in-open-source-ai-with-hybrid-reasoning_602192",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "deepseek-r1-released",
+        "deepseek-v3-released",
+        "openai-o1-released"
       ]
     }
   ]

@@ -1,8 +1,9 @@
-import { LABEL_BOX_HEIGHT, LABEL_COLLISION_GAP } from "@/lib/timeline/label-layout";
+import { LABEL_COLLISION_GAP } from "@/lib/timeline/label-layout";
 import type { Importance } from "@/lib/timeline/importance";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
 import { MOBILE_LABEL_LANE_STEP, MOBILE_LABEL_OFFSET, MOBILE_TIMELINE_EDGE_MARGIN } from "./constants";
+import { MOBILE_LABEL_BOX_HEIGHT } from "./label-metrics";
 
 export type VerticalLabelLayout = {
   showLabel: boolean;
@@ -61,8 +62,8 @@ export function resolveVerticalLabelLayout(
   for (const event of sorted) {
     const centerY = y(event.timestamp);
     const labelWidth = labelWidthFor(event);
-    const top = centerY - LABEL_BOX_HEIGHT / 2;
-    const bottom = centerY + LABEL_BOX_HEIGHT / 2;
+    const top = centerY - MOBILE_LABEL_BOX_HEIGHT / 2;
+    const bottom = centerY + MOBILE_LABEL_BOX_HEIGHT / 2;
 
     if (event.importance > maxImportance) {
       placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });

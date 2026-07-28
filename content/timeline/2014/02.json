@@ -183,6 +183,55 @@
         "shopify-ipo",
         "magento-2-0-released"
       ]
+    },
+    {
+      "id": "atom-editor-released",
+      "slug": "atom-editor-released",
+      "date": "2014-02-26",
+      "datePrecision": "day",
+      "title": "GitHub Atom editor released",
+      "summary": "GitHub released the Atom text editor preview on February 26, 2014 — a hackable editor built on the Electron framework.",
+      "about": "Atom brought web technologies to desktop editing: HTML, CSS, and JavaScript for themes and packages, plus built-in Git integration. It powered GitHub's own hackable-editor pitch before VS Code won the category — and Electron became the stack for Slack, Discord, and VS Code itself.",
+      "narrative": {
+        "whyChosen": "Atom proved Electron could ship polished developer tools, not just chat apps.",
+        "whyImportant": "It pushed the 'hackable editor' idea into mainstream open source before Microsoft's response.",
+        "problemSolved": "Developers wanted a modern, extensible editor tied to Git workflows without proprietary lock-in."
+      },
+      "category": "software",
+      "tags": [
+        "atom",
+        "editor",
+        "ide",
+        "github",
+        "electron",
+        "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "github",
+          "name": "GitHub"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Atom (text editor) (initial release February 26, 2014)",
+          "url": "https://en.wikipedia.org/wiki/Atom_(text_editor)",
+          "role": "date"
+        },
+        {
+          "title": "GitHub Blog — Atom (overview)",
+          "url": "https://github.blog/news-insights/product-news/atom/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "github-launched",
+        "visual-studio-code-preview",
+        "sublime-text-1-released"
+      ]
     }
   ]
 }

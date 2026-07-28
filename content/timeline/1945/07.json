@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "slug": "bush-as-we-may-think-memex",
-      "media": [],
-      "relatedIds": [
-        "worldwideweb-browser",
-        "html-invented"
-      ],
-      "people": [
-        {
-          "id": "vannevar-bush",
-          "name": "Vannevar Bush",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "bush-as-we-may-think-memex",
       "date": "1945-07",
       "datePrecision": "month",
@@ -33,7 +19,14 @@
         "hypertext",
         "history"
       ],
-      "importance": 4,
+      "people": [
+        {
+          "id": "vannevar-bush",
+          "name": "Vannevar Bush",
+          "role": "author"
+        }
+      ],
+      "importance": 3,
       "sources": [
         {
           "title": "The Atlantic — As We May Think (July 1945)",
@@ -45,7 +38,15 @@
           "url": "https://en.wikipedia.org/wiki/Memex",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "html-invented"
+      ],
+      "slug": "bush-as-we-may-think-memex",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

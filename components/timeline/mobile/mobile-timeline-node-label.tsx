@@ -1,10 +1,16 @@
 import {
-  LABEL_BOX_HEIGHT,
-  LABEL_RADIUS,
-} from "@/lib/timeline/label-layout";
+  MOBILE_LABEL_BOX_HEIGHT,
+  MOBILE_LABEL_FONT_SIZE_PX,
+  MOBILE_LABEL_ICON_GAP,
+  MOBILE_LABEL_ICON_SIZE,
+  MOBILE_LABEL_MAX_TEXT_WIDTH,
+  MOBILE_LABEL_PADDING_X,
+  MOBILE_LABEL_RADIUS,
+} from "@/lib/timeline/vertical/label-metrics";
 import { labelLeftLocalX, type VerticalLabelLayout } from "@/lib/timeline/vertical/label-layout";
 import { MOBILE_TIMELINE_EDGE_MARGIN } from "@/lib/timeline/vertical/constants";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
+import { TimelineLabelContent } from "@/components/timeline/timeline-label-content";
 
 type MobileTimelineNodeLabelProps = {
   event: PlottedEvent;
@@ -30,7 +36,7 @@ export function MobileTimelineNodeLabel({
     Math.max(axisX + labelLeftLocalX(layout.lane), MOBILE_TIMELINE_EDGE_MARGIN),
     Math.max(viewportWidth - labelWidth - MOBILE_TIMELINE_EDGE_MARGIN, MOBILE_TIMELINE_EDGE_MARGIN),
   );
-  const labelTop = y - LABEL_BOX_HEIGHT / 2;
+  const labelTop = y - MOBILE_LABEL_BOX_HEIGHT / 2;
 
   return (
     <g
@@ -46,20 +52,24 @@ export function MobileTimelineNodeLabel({
     >
       <rect
         width={labelWidth}
-        height={LABEL_BOX_HEIGHT}
-        rx={LABEL_RADIUS}
-        ry={LABEL_RADIUS}
+        height={MOBILE_LABEL_BOX_HEIGHT}
+        rx={MOBILE_LABEL_RADIUS}
+        ry={MOBILE_LABEL_RADIUS}
         className="fill-black stroke-black stroke-1"
       />
-      <text
-        x={labelWidth / 2}
-        y={LABEL_BOX_HEIGHT / 2}
-        textAnchor="middle"
-        dominantBaseline="central"
-        className="pointer-events-none text-sm font-medium tracking-wide fill-white"
-      >
-        {event.title}
-      </text>
+      <TimelineLabelContent
+        title={event.title}
+        themeId={event.themeId}
+        width={labelWidth}
+        height={MOBILE_LABEL_BOX_HEIGHT}
+        paddingX={MOBILE_LABEL_PADDING_X}
+        iconSize={MOBILE_LABEL_ICON_SIZE}
+        iconGap={MOBILE_LABEL_ICON_GAP}
+        maxTextWidth={MOBILE_LABEL_MAX_TEXT_WIDTH}
+        fontSizePx={MOBILE_LABEL_FONT_SIZE_PX}
+        textClassName="pointer-events-none text-xs font-medium tracking-wide fill-white"
+        iconClassName="text-white"
+      />
     </g>
   );
 }

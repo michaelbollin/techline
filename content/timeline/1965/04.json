@@ -27,6 +27,7 @@
           "role": "researcher"
         }
       ],
+      "companies": [],
       "importance": 3,
       "media": [],
       "sources": [
@@ -46,19 +47,6 @@
       ]
     },
     {
-      "slug": "moore-components-doubling-quote",
-      "media": [],
-      "relatedIds": [
-        "gordon-moore-moores-law"
-      ],
-      "people": [
-        {
-          "id": "gordon-moore",
-          "name": "Gordon Moore",
-          "role": "researcher"
-        }
-      ],
-      "category": "quote",
       "id": "moore-components-doubling-quote",
       "date": "1965-04-19",
       "datePrecision": "day",
@@ -77,7 +65,14 @@
         "semiconductor",
         "moores-law"
       ],
-      "importance": 7,
+      "people": [
+        {
+          "id": "gordon-moore",
+          "name": "Gordon Moore",
+          "role": "researcher"
+        }
+      ],
+      "importance": 3,
       "sources": [
         {
           "title": "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
@@ -89,7 +84,14 @@
           "url": "https://www.intel.com/content/www/us/en/newsroom/resources/moores-law.html",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "gordon-moore-moores-law"
+      ],
+      "slug": "moore-components-doubling-quote",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

@@ -27,6 +27,7 @@
           "role": "founder"
         }
       ],
+      "companies": [],
       "importance": 7,
       "media": [],
       "sources": [
@@ -47,17 +48,6 @@
       ]
     },
     {
-      "slug": "kurzweil-law-accelerating-returns",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "ray-kurzweil",
-          "name": "Ray Kurzweil",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "kurzweil-law-accelerating-returns",
       "date": "2001-03-07",
       "datePrecision": "day",
@@ -76,7 +66,14 @@
         "ai",
         "futures"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "ray-kurzweil",
+          "name": "Ray Kurzweil",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "Kurzweil — The Law of Accelerating Returns (March 7, 2001)",
@@ -88,7 +85,12 @@
           "url": "https://en.wikipedia.org/wiki/Technological_singularity",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [],
+      "slug": "kurzweil-law-accelerating-returns",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

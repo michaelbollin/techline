@@ -38,6 +38,54 @@
         "fortran-90-standard",
         "fortran-2003-standard"
       ]
+    },
+    {
+      "id": "macromedia-dreamweaver-released",
+      "slug": "macromedia-dreamweaver-released",
+      "date": "1997-12-08",
+      "datePrecision": "day",
+      "title": "Macromedia Dreamweaver 1.0 released",
+      "summary": "Macromedia shipped Dreamweaver 1.0 on December 8, 1997 — a visual web authoring tool that combined WYSIWYG layout with direct HTML editing.",
+      "about": "Dreamweaver let designers switch between Design and Code views, manage sites, and preview dynamic HTML — bundled with BBEdit on Mac and HomeSite on Windows. It dominated late-1990s and 2000s web design before WordPress and hand-coded workflows, and later lived on under Adobe after the 2005 acquisition.",
+      "narrative": {
+        "whyChosen": "Dreamweaver defined professional visual web authoring before modern component frameworks.",
+        "whyImportant": "It proved designers wanted WYSIWYG and source control in one tool, not either/or.",
+        "problemSolved": "Teams building table-layout sites needed visual tools without giving up HTML access."
+      },
+      "category": "software",
+      "tags": [
+        "dreamweaver",
+        "macromedia",
+        "ide",
+        "editor",
+        "web",
+        "wysiwyg"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "macromedia",
+          "name": "Macromedia"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "MacTech — Macromedia ships Dreamweaver (December 8, 1997)",
+          "url": "https://www.mactech.com/1997/12/09/md1-macromedia-ships-dreamweaver/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Adobe Dreamweaver (overview)",
+          "url": "https://en.wikipedia.org/wiki/Adobe_Dreamweaver",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "html-invented",
+        "javascript-name-announced"
+      ]
     }
   ]
 }

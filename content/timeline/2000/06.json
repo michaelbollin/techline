@@ -51,6 +51,54 @@
         "visual-basic-net-released",
         "dotnet-framework-1-0-rtm"
       ]
+    },
+    {
+      "id": "netbeans-open-sourced",
+      "slug": "netbeans-open-sourced",
+      "date": "2000-06",
+      "datePrecision": "month",
+      "title": "NetBeans open-sourced by Sun",
+      "summary": "In June 2000, Sun Microsystems launched netbeans.org — open-sourcing the NetBeans Java IDE and plugin platform.",
+      "about": "NetBeans gave Java developers a free, extensible IDE with GUI builders, Ant/Maven integration, and modules for enterprise Java EE. It became Sun's flagship Java tool, later the base for early Android tooling research, and eventually an Apache project after Oracle's acquisition.",
+      "narrative": {
+        "whyChosen": "NetBeans was Sun's first sponsored open-source IDE — a model Eclipse soon competed with.",
+        "whyImportant": "It kept a full Java IDE free when commercial tools dominated enterprise shops.",
+        "problemSolved": "Java teams needed a vendor-backed IDE platform they could extend without licensing fees."
+      },
+      "category": "software",
+      "tags": [
+        "netbeans",
+        "ide",
+        "java",
+        "open-source",
+        "sun"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apache NetBeans — History (June 2000 open source launch)",
+          "url": "https://netbeans.apache.org/front/main/about/history/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache NetBeans (overview)",
+          "url": "https://en.wikipedia.org/wiki/NetBeans",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "eclipse-open-sourced",
+        "intellij-idea-released",
+        "java-1-0-shipped"
+      ]
     }
   ]
 }

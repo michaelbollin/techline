@@ -846,6 +846,177 @@ export const QUOTES: TimelineEvent[] = [
     ],
     relatedIds: ["sam-altman-openai-founded"],
   }),
+  q({
+    id: "huang-generative-ai-era-quote",
+    date: "2024-03-18",
+    datePrecision: "day",
+    title: 'Jensen Huang: "We created a processor for the generative AI era"',
+    quoteText:
+      "The way we compute is fundamentally different. We created a processor for the generative AI era.",
+    summary:
+      "At GTC 2024, NVIDIA CEO Jensen Huang unveils Blackwell and frames GPUs as the engine of AI factories, not just graphics.",
+    about:
+      "Huang pulled a Blackwell chip from his pocket beside a Hopper die — the visual shorthand for a platform shift. The line captured how NVIDIA repositioned from gaming GPUs to the default substrate for trillion-parameter models and real-time generative AI.",
+    narrative: {
+      whyChosen: "The defining phrase from the Blackwell keynote that named the generative-AI hardware era.",
+      whyImportant: "It reframed data centers as AI factories and cemented NVIDIA's narrative for investors and builders.",
+      problemSolved: "The industry needed language for why next-gen AI required a new class of processors, not faster CPUs.",
+    },
+    tags: ["quote", "prediction", "ai", "nvidia", "hardware"],
+    people: [{ id: "jensen-huang", name: "Jensen Huang", role: "ceo" }],
+    companies: [{ id: "nvidia", name: "NVIDIA" }],
+    importance: 4,
+    sources: [
+      {
+        title: "NVIDIA Blog — 2024 GTC keynote (March 18, 2024)",
+        url: "https://blogs.nvidia.com/blog/2024-gtc-keynote/",
+        role: "date",
+      },
+      {
+        title: "NVIDIA — Blackwell platform press release (overview)",
+        url: "https://investor.nvidia.com/news/press-release-details/2024/NVIDIA-Blackwell-Platform-Arrives-to-Power-a-New-Era-of-Computing/default.aspx",
+        role: "overview",
+      },
+    ],
+    relatedIds: ["nvidia-blackwell-announced", "jensen-huang-cuda-announced"],
+  }),
+  q({
+    id: "huang-ceo-math-quote",
+    date: "2024-06-02",
+    datePrecision: "day",
+    title: 'Jensen Huang: "The more you buy, the more you save"',
+    quoteText:
+      "The more you buy, the more you save. That's called CEO math. It's not accurate, but it is correct.",
+    summary:
+      "At COMPUTEX 2024, Huang argues GPU clusters save money versus CPU-only AI infrastructure — then jokes about the logic.",
+    about:
+      "The quip went viral: Huang's pitch that accelerated computing cuts total cost of ownership even as customers buy more GPUs. Tech press dubbed it 'CEO math' — half meme, half serious TCO argument that fueled NVIDIA's trillion-dollar valuation narrative.",
+    narrative: {
+      whyChosen: "The most quoted Jensen Huang line of the AI boom years — meme and sales pitch in one.",
+      whyImportant: "It encapsulated how NVIDIA sold scale-up clusters to hyperscalers and enterprises.",
+      problemSolved: "Buyers needed a simple story for why bigger GPU bills could mean lower cost per AI workload.",
+    },
+    tags: ["quote", "meme", "ai", "nvidia", "hardware"],
+    people: [{ id: "jensen-huang", name: "Jensen Huang", role: "ceo" }],
+    companies: [{ id: "nvidia", name: "NVIDIA" }],
+    importance: 6,
+    sources: [
+      {
+        title: "NVIDIA — COMPUTEX 2024 keynote (June 2, 2024)",
+        url: "https://blogs.nvidia.com/blog/computex-2024-jensen-huang/",
+        role: "date",
+      },
+      {
+        title: "The Verge — Nvidia's CEO math (overview)",
+        url: "https://www.theverge.com/2024/6/2/24169790/nvidias-ceo-math",
+        role: "overview",
+      },
+    ],
+    relatedIds: ["nvidia-blackwell-announced", "jensen-huang-cuda-announced"],
+  }),
+  q({
+    id: "anthropic-fable-serious-damage-quote",
+    date: "2026-06-09",
+    datePrecision: "day",
+    title: 'Anthropic: Fable 5 "could be misused to cause serious damage"',
+    quoteText:
+      "Without safeguards, Fable 5's capabilities in areas like cybersecurity could be misused to cause serious damage.",
+    summary:
+      "Launching Claude Fable 5, Anthropic warns the model is too capable in offensive cybersecurity to release without safety classifiers.",
+    about:
+      "Anthropic split Fable 5 from Mythos 5 on day one: same weights, but Fable routes sensitive cyber and biology queries to Opus 4.8. The line justified why a frontier model shipped with guardrails critics called overly broad — and why Mythos stayed locked to Project Glasswing partners.",
+    narrative: {
+      whyChosen: "Anthropic's own words for why its strongest GA model needed hard blocks on day one.",
+      whyImportant: "It framed dual-use AI risk as a shipping constraint, not just a research talking point.",
+      problemSolved: "Labs needed language for releasing dangerous-capability models without open-weight misuse.",
+    },
+    tags: ["quote", "warning", "ai", "anthropic", "claude", "policy"],
+    companies: [{ id: "anthropic", name: "Anthropic" }],
+    importance: 4,
+    sources: [
+      {
+        title: "Anthropic — Claude Fable 5 and Claude Mythos 5 (June 9, 2026)",
+        url: "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        role: "date",
+      },
+      {
+        title: "Anthropic — Introducing Claude Fable 5 and Claude Mythos 5 (overview)",
+        url: "https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5",
+        role: "overview",
+      },
+    ],
+    relatedIds: ["claude-fable-5-mythos-5-released", "claude-fable-mythos-access-suspended"],
+  }),
+  q({
+    id: "anthropic-fable-abruptly-disable-quote",
+    date: "2026-06-12",
+    datePrecision: "day",
+    title: 'Anthropic: "We must abruptly disable Fable 5 and Mythos 5 for all our customers"',
+    quoteText:
+      "The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.",
+    summary:
+      "Three days after launch, a U.S. export-control directive forces Anthropic to pull its frontier models offline worldwide.",
+    about:
+      "Commerce ordered Anthropic to block foreign nationals from using Fable and Mythos — including employees in the U.S. Because the API could not verify citizenship in real time, Anthropic shut both models off for everyone. The first time Washington used export controls on a deployed commercial frontier model, not just training chips.",
+    narrative: {
+      whyChosen: "The sentence that turned AI safety rhetoric into a global product blackout.",
+      whyImportant: "It showed governments could recall frontier models days after launch over jailbreak fears.",
+      problemSolved: "Policymakers needed a lever to block foreign access to models deemed nationally sensitive.",
+    },
+    tags: ["quote", "warning", "controversy", "ai", "anthropic", "claude", "policy"],
+    companies: [{ id: "anthropic", name: "Anthropic" }],
+    importance: 5,
+    sources: [
+      {
+        title: "Anthropic — Statement on US government directive (June 12, 2026)",
+        url: "https://www.anthropic.com/news/fable-mythos-access",
+        role: "date",
+      },
+      {
+        title: "BBC — Anthropic suspends new AI tools over US security concerns (overview)",
+        url: "https://www.bbc.com/news/articles/c932g3v3e13o",
+        role: "overview",
+      },
+    ],
+    relatedIds: [
+      "claude-fable-5-mythos-5-released",
+      "claude-fable-mythos-access-suspended",
+      "anthropic-fable-serious-damage-quote",
+    ],
+  }),
+  q({
+    id: "anthropic-fable-halt-deployments-quote",
+    date: "2026-06-12",
+    datePrecision: "day",
+    title: 'Anthropic: recall standard would "halt all new model deployments"',
+    quoteText:
+      "If this standard was applied across the industry, we believe it would essentially halt all new model deployments for all frontier model providers.",
+    summary:
+      "Responding to the Fable 5 shutdown, Anthropic argues a narrow jailbreak finding should not recall models used by hundreds of millions.",
+    about:
+      "Anthropic complied with the export-control order but disputed the rationale: the reported bypass was narrow, and other frontier models showed similar capability. The pushback previewed an industry fight over when a jailbreak should trigger withdrawal versus patched safeguards.",
+    narrative: {
+      whyChosen: "Anthropic's counter-argument to the first frontier-model recall order.",
+      whyImportant: "It defined the stakes for every lab shipping cyber-capable models after Fable.",
+      problemSolved: "Industry lacked a shared standard for when a jailbreak should block a model release.",
+    },
+    tags: ["quote", "warning", "controversy", "ai", "anthropic", "policy"],
+    companies: [{ id: "anthropic", name: "Anthropic" }],
+    importance: 4,
+    sources: [
+      {
+        title: "Anthropic — Statement on US government directive (June 12, 2026)",
+        url: "https://www.anthropic.com/news/fable-mythos-access",
+        role: "date",
+      },
+      {
+        title: "Anthropic — Redeploying Claude Fable 5 (overview)",
+        url: "https://www.anthropic.com/news/redeploying-fable-5",
+        role: "overview",
+      },
+    ],
+    relatedIds: ["claude-fable-mythos-access-suspended", "anthropic-fable-abruptly-disable-quote"],
+  }),
   // ── Q4: Memes & culture ──────────────────────────────────────────────────
   q({
     id: "ballmer-web-developers-chant",

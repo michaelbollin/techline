@@ -86,6 +86,52 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "jetbrains-founded",
+      "slug": "jetbrains-founded",
+      "date": "2000",
+      "datePrecision": "year",
+      "title": "JetBrains founded",
+      "summary": "JetBrains was founded in 2000 in Prague — starting as IntelliJ s.r.o. before shipping IntelliJ IDEA and growing into a family of language-specific IDEs.",
+      "about": "JetBrains built the IDE stack many developers live in: IntelliJ IDEA for Java, then RubyMine, PhpStorm, WebStorm, PyCharm, Rider, and the Kotlin language itself. Its IntelliJ Platform also powers Android Studio and Google's language tooling partnerships.",
+      "narrative": {
+        "whyChosen": "JetBrains became the dominant independent IDE vendor outside Microsoft and Apple.",
+        "whyImportant": "It proved deep static analysis and refactoring could be a sustainable product business.",
+        "problemSolved": "Java and polyglot teams needed smarter tooling than free Eclipse plugins could deliver."
+      },
+      "category": "software",
+      "tags": [
+        "jetbrains",
+        "ide",
+        "java"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — JetBrains (founded 2000)",
+          "url": "https://en.wikipedia.org/wiki/JetBrains",
+          "role": "date"
+        },
+        {
+          "title": "JetBrains — Company (overview)",
+          "url": "https://www.jetbrains.com/company/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "intellij-idea-released",
+        "phpstorm-1-released",
+        "pycharm-1-released"
+      ]
     }
   ]
 }

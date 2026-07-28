@@ -93,6 +93,104 @@
         "less-1-0-released",
         "bootstrap-released"
       ]
+    },
+    {
+      "id": "phpstorm-1-released",
+      "slug": "phpstorm-1-released",
+      "date": "2010-05-27",
+      "datePrecision": "day",
+      "title": "JetBrains PhpStorm 1.0 released",
+      "summary": "JetBrains released PhpStorm 1.0 on May 27, 2010 — a dedicated PHP IDE with deep Symfony, Laravel, and Drupal support.",
+      "about": "PhpStorm brought IntelliJ-grade refactoring, debugging, and Composer integration to PHP — the language behind WordPress, Drupal, and Laravel. It became the default paid IDE for professional PHP teams who outgrew generic editors but wanted more than syntax highlighting.",
+      "narrative": {
+        "whyChosen": "PhpStorm made JetBrains' IDE intelligence the standard for PHP web development.",
+        "whyImportant": "It proved language-specific IDEs could win markets Eclipse and NetBeans served poorly.",
+        "problemSolved": "PHP developers lacked an IDE that understood frameworks, templates, and mixed HTML/PHP files."
+      },
+      "category": "software",
+      "tags": [
+        "phpstorm",
+        "jetbrains",
+        "ide",
+        "php",
+        "web"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "JetBrains — PhpStorm 1.0 and WebStorm 1.0 released (May 27, 2010)",
+          "url": "https://blog.jetbrains.com/blog/2010/05/27/pr_270510/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PhpStorm (overview)",
+          "url": "https://en.wikipedia.org/wiki/PhpStorm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "intellij-idea-released",
+        "webstorm-1-released",
+        "drupal-1-0-released",
+        "wordpress-released"
+      ]
+    },
+    {
+      "id": "webstorm-1-released",
+      "slug": "webstorm-1-released",
+      "date": "2010-05-27",
+      "datePrecision": "day",
+      "title": "JetBrains WebStorm 1.0 released",
+      "summary": "JetBrains released WebStorm 1.0 on May 27, 2010 alongside PhpStorm — a JavaScript and HTML IDE for front-end developers.",
+      "about": "WebStorm targeted the jQuery and early SPA era with smart completion for JavaScript, CSS, and HTML — plus Node.js debugging before VS Code existed. It extended JetBrains' language-specific IDE line beyond RubyMine and PHP into everyday front-end work.",
+      "narrative": {
+        "whyChosen": "WebStorm brought IntelliJ-style editing to JavaScript before VS Code dominated the category.",
+        "whyImportant": "It validated paid front-end IDEs in the age of TextMate and early Sublime Text.",
+        "problemSolved": "Front-end developers used generic Java IDEs or text editors without JS-aware refactoring."
+      },
+      "category": "software",
+      "tags": [
+        "webstorm",
+        "jetbrains",
+        "ide",
+        "javascript",
+        "frontend",
+        "web"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "JetBrains — PhpStorm 1.0 and WebStorm 1.0 released (May 27, 2010)",
+          "url": "https://blog.jetbrains.com/blog/2010/05/27/pr_270510/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — WebStorm (overview)",
+          "url": "https://en.wikipedia.org/wiki/WebStorm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "phpstorm-1-released",
+        "intellij-idea-released",
+        "visual-studio-code-preview"
+      ]
     }
   ]
 }

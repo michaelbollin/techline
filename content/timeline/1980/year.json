@@ -27,6 +27,7 @@
           "role": "co-creator"
         }
       ],
+      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
@@ -46,23 +47,12 @@
       ]
     },
     {
-      "slug": "metcalfe-metcalfe-law",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "robert-metcalfe",
-          "name": "Robert Metcalfe",
-          "role": "researcher"
-        }
-      ],
-      "category": "quote",
       "id": "metcalfe-metcalfe-law",
       "date": "1980",
       "datePrecision": "year",
-      "title": "Robert Metcalfe articulates network value scaling",
+      "title": "Robert Metcalfe states Metcalfe's Law",
       "quoteText": "The value of a telecommunications network is proportional to the square of the number of connected users of the system.",
-      "summary": "Ethernet inventor Robert Metcalfe articulated circa 1980 why network value grows with the square of users — later popularized as Metcalfe's Law by George Gilder in 1993.",
+      "summary": "Ethernet inventor Robert Metcalfe articulates why network effects compound — each new user makes the network more valuable for everyone else.",
       "about": "Metcalfe's Law became the mental model behind social networks, marketplaces, and platform economics. Critics note n² oversimplifies real networks, but the core insight — connectivity has nonlinear returns — still shapes startup pitch decks.",
       "narrative": {
         "whyChosen": "The formula behind 'network effects' before the phrase existed.",
@@ -75,7 +65,14 @@
         "networking",
         "ethernet"
       ],
-      "importance": 7,
+      "people": [
+        {
+          "id": "robert-metcalfe",
+          "name": "Robert Metcalfe",
+          "role": "researcher"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "Wikipedia — Metcalfe's law (1980s formulation)",
@@ -87,7 +84,12 @@
           "url": "https://spectrum.ieee.org/metcalfe-law",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [],
+      "slug": "metcalfe-metcalfe-law",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "slug": "tanenbaum-linux-obsolete",
-      "media": [],
-      "relatedIds": [
-        "linux-kernel-announced",
-        "andy-tanenbaum-minix-created"
-      ],
-      "people": [
-        {
-          "id": "andrew-tanenbaum",
-          "name": "Andrew Tanenbaum",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "tanenbaum-linux-obsolete",
       "date": "1992-01-29",
       "datePrecision": "day",
@@ -33,7 +19,14 @@
         "linux",
         "operating-system"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "andrew-tanenbaum",
+          "name": "Andrew Tanenbaum",
+          "role": "author"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "comp.os.minix — LINUX is obsolete (January 29, 1992)",
@@ -45,23 +38,17 @@
           "url": "https://en.wikipedia.org/wiki/Tanenbaum%E2%80%93Torvalds_debate",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "linux-kernel-announced",
+        "andy-tanenbaum-minix-created"
+      ],
+      "slug": "tanenbaum-linux-obsolete",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     },
     {
-      "slug": "torvalds-reply-linux-obsolete",
-      "media": [],
-      "relatedIds": [
-        "tanenbaum-linux-obsolete",
-        "linux-kernel-announced"
-      ],
-      "people": [
-        {
-          "id": "linus-torvalds",
-          "name": "Linus Torvalds",
-          "role": "maintainer"
-        }
-      ],
-      "category": "quote",
       "id": "torvalds-reply-linux-obsolete",
       "date": "1992-01-29",
       "datePrecision": "day",
@@ -80,7 +67,14 @@
         "linux",
         "operating-system"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "linus-torvalds",
+          "name": "Linus Torvalds",
+          "role": "maintainer"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "comp.os.minix — Re: LINUX is obsolete (January 29, 1992)",
@@ -92,7 +86,15 @@
           "url": "https://www.oreilly.com/openbook/opensources/book/appa.html",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "tanenbaum-linux-obsolete",
+        "linux-kernel-announced"
+      ],
+      "slug": "torvalds-reply-linux-obsolete",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

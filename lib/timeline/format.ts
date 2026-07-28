@@ -36,7 +36,7 @@ export function formatBucketLabel(year: number, month: number | null): string {
 }
 
 export function eventPath(slug: string, options?: { filterPathKey?: string }): string {
-  const base = `/timeline/${slug}`;
+  const base = `/${slug}`;
   const filterPathKey = options?.filterPathKey?.trim();
 
   if (!filterPathKey) {

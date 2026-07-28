@@ -26,6 +26,7 @@
           "role": "author"
         }
       ],
+      "companies": [],
       "importance": 4,
       "media": [],
       "sources": [
@@ -43,19 +44,6 @@
       "relatedIds": []
     },
     {
-      "slug": "brooks-add-manpower-makes-later",
-      "media": [],
-      "relatedIds": [
-        "fred-brooks-mythical-man-month"
-      ],
-      "people": [
-        {
-          "id": "fred-brooks",
-          "name": "Fred Brooks",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "brooks-add-manpower-makes-later",
       "date": "1975",
       "datePrecision": "year",
@@ -74,7 +62,14 @@
         "software-engineering",
         "management"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "fred-brooks",
+          "name": "Fred Brooks",
+          "role": "author"
+        }
+      ],
+      "importance": 3,
       "sources": [
         {
           "title": "Brooks — The Mythical Man-Month (1975)",
@@ -86,27 +81,23 @@
           "url": "https://en.wikipedia.org/wiki/Brooks%27s_law",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "fred-brooks-mythical-man-month"
+      ],
+      "slug": "brooks-add-manpower-makes-later",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     },
     {
-      "slug": "amara-law",
-      "media": [],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "roy-amara",
-          "name": "Roy Amara",
-          "role": "researcher"
-        }
-      ],
-      "category": "quote",
       "id": "amara-law",
       "date": "1975",
       "datePrecision": "year",
       "title": "Roy Amara warns we misjudge technology timelines",
       "quoteText": "We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.",
-      "summary": "Roy Amara — president of the Institute for the Future — articulated the observation later called Amara's Law: we overestimate technology in the short run and underestimate it in the long run.",
-      "about": "The quote is widely attributed to Amara from his futurism work in the 1970s–1980s, though it was never formally published in a single canonical source. It became a staple warning against hype cycles in tech forecasting.",
+      "summary": "Roy Amara — president of the Institute for the Future — coins the observation later called Amara's Law.",
+      "about": "Every hype cycle proves Amara right: VR in the 1990s, blockchain in 2017, generative AI in 2023. Short-term disappointment hides long-term transformation — and vice versa for overhyped quarter-to-quarter bets.",
       "narrative": {
         "whyChosen": "The best one-sentence antidote to tech hype and despair.",
         "whyImportant": "It reframed how futurists and policymakers talk about adoption curves.",
@@ -118,7 +109,14 @@
         "futures",
         "technology-policy"
       ],
-      "importance": 7,
+      "people": [
+        {
+          "id": "roy-amara",
+          "name": "Roy Amara",
+          "role": "researcher"
+        }
+      ],
+      "importance": 6,
       "sources": [
         {
           "title": "Wikipedia — Amara's law",
@@ -130,7 +128,12 @@
           "url": "https://en.wikipedia.org/wiki/Roy_Amara",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [],
+      "slug": "amara-law",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

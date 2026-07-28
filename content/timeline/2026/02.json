@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "claude-opus-4-6-released",
+      "slug": "claude-opus-4-6-released",
+      "date": "2026-02-05",
+      "datePrecision": "day",
+      "title": "Anthropic Claude Opus 4.6 released",
+      "summary": "Anthropic released Claude Opus 4.6 on February 5, 2026 — stronger agentic coding, 1M-token context, and state-of-the-art terminal and knowledge-work benchmarks.",
+      "about": "Opus 4.6 added adaptive thinking, agent teams in Claude Code, and Excel and PowerPoint integrations for knowledge work. It led Terminal-Bench 2.0 and Humanity's Last Exam — Anthropic's answer to GPT-5.2 and Gemini 3 Pro in the agentic coding arms race.",
+      "narrative": {
+        "whyChosen": "Opus 4.6 made million-token agentic coding a production Anthropic tier.",
+        "whyImportant": "Parallel agent teams and adaptive thinking pushed multi-hour autonomous work mainstream.",
+        "problemSolved": "Enterprise coding agents needed better long-context retrieval and sustained focus on large codebases."
+      },
+      "category": "software",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "llm",
+        "reasoning",
+        "machine-learning"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Anthropic — Introducing Claude Opus 4.6 (February 5, 2026)",
+          "url": "https://www.anthropic.com/news/claude-opus-4-6",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Claude (language model) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "claude-4-released",
+        "gpt-5-released",
+        "claude-opus-5-released"
+      ]
+    }
+  ]
+}

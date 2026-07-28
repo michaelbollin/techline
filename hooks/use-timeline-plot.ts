@@ -7,7 +7,7 @@ import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EXTENT } from "@/lib/timeline/constants
 import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
 import { resolveLabelLayout } from "@/lib/timeline/label-layout";
-import { measureLabelWidth } from "@/lib/timeline/measure-label";
+import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
 import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
 import { IMPORTANCE_MAX } from "@/lib/timeline/importance";
@@ -91,7 +91,7 @@ export function useTimelinePlot({
   const labelWidths = useMemo(() => {
     const widths = new Map<string, number>();
     for (const event of plotted) {
-      widths.set(event.id, measureLabelWidth(event.title));
+      widths.set(event.id, measureTimelineLabelWidth(event.title));
     }
     return widths;
   }, [fontEpoch, plotted]);
@@ -104,7 +104,7 @@ export function useTimelinePlot({
         maxImportance,
         width,
         maxLanes,
-        (event) => labelWidths.get(event.id) ?? measureLabelWidth(event.title),
+        (event) => labelWidths.get(event.id) ?? measureTimelineLabelWidth(event.title),
         visibleSpanMs,
       ),
     [labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, xScale],

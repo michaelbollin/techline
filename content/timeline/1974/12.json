@@ -1,19 +1,6 @@
 {
   "events": [
     {
-      "slug": "knuth-premature-optimization",
-      "media": [],
-      "relatedIds": [
-        "knuth-taocp-volume-1-published"
-      ],
-      "people": [
-        {
-          "id": "donald-knuth",
-          "name": "Donald Knuth",
-          "role": "author"
-        }
-      ],
-      "category": "quote",
       "id": "knuth-premature-optimization",
       "date": "1974-12",
       "datePrecision": "month",
@@ -32,7 +19,14 @@
         "software-engineering",
         "algorithms"
       ],
-      "importance": 8,
+      "people": [
+        {
+          "id": "donald-knuth",
+          "name": "Donald Knuth",
+          "role": "author"
+        }
+      ],
+      "importance": 3,
       "sources": [
         {
           "title": "Knuth — Structured Programming with go to Statements (December 1974)",
@@ -44,7 +38,14 @@
           "url": "https://en.wikipedia.org/wiki/Donald_Knuth",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": [
+        "knuth-taocp-volume-1-published"
+      ],
+      "slug": "knuth-premature-optimization",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }

@@ -4,9 +4,10 @@ import { EventModal } from "@/components/timeline/event-modal";
 import { EventPageContent } from "@/components/timeline/event-page-content";
 import { getTimeline } from "@/lib/timeline/get-timeline";
 import { getEventById } from "@/lib/timeline/load";
+import { getEventBySlug, isEventSlug } from "@/lib/timeline/routing";
 
 type InterceptedEventPageProps = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ segment: string }>;
   searchParams: Promise<{ from?: string }>;
 };
 
@@ -14,15 +15,15 @@ export default async function InterceptedEventPage({
   params,
   searchParams,
 }: InterceptedEventPageProps) {
-  const { slug } = await params;
+  const { segment } = await params;
   const { from } = await searchParams;
   const { events } = await getTimeline();
-  const event = events.find((item) => item.slug === slug);
 
-  if (!event) {
+  if (!isEventSlug(segment, events)) {
     notFound();
   }
 
+  const event = getEventBySlug(events, segment)!;
   const related = event.relatedIds
     .map((id) => getEventById(events, id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));

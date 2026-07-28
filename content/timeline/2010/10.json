@@ -135,6 +135,54 @@
         "shopware-open-sourced",
         "prestashop-released"
       ]
+    },
+    {
+      "id": "pycharm-1-released",
+      "slug": "pycharm-1-released",
+      "date": "2010-10-13",
+      "datePrecision": "day",
+      "title": "JetBrains PyCharm 1.0 released",
+      "summary": "JetBrains released PyCharm 1.0 on October 13, 2010 — a Python and Django IDE with smart completion, refactorings, and test runners.",
+      "about": "PyCharm brought IntelliJ's code intelligence to Python — virtualenv support, Django templates, and debugger integration that data scientists and web developers adopted alongside scientific stacks. It joined PhpStorm and WebStorm in JetBrains' language-specific IDE family.",
+      "narrative": {
+        "whyChosen": "PyCharm became the reference Python IDE for professional teams before VS Code's rise.",
+        "whyImportant": "It showed JetBrains could productize deep language support beyond Java and PHP.",
+        "problemSolved": "Python developers used generic editors or Eclipse PyDev without strong refactoring and Django tooling."
+      },
+      "category": "software",
+      "tags": [
+        "pycharm",
+        "jetbrains",
+        "ide",
+        "python",
+        "django"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "jetbrains",
+          "name": "JetBrains"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "JetBrains — PyCharm 1.0 released (October 13, 2010)",
+          "url": "https://blog.jetbrains.com/blog/2010/10/13/pr_131010/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — PyCharm (overview)",
+          "url": "https://en.wikipedia.org/wiki/PyCharm",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "intellij-idea-released",
+        "phpstorm-1-released",
+        "python-3-0-released"
+      ]
     }
   ]
 }

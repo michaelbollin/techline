@@ -51,10 +51,10 @@
     },
     {
       "id": "stallman-free-speech-not-beer",
-      "slug": "stallman-free-speech-not-beer",
       "date": "1996",
       "datePrecision": "year",
       "title": "Richard Stallman: \"free as in speech, not beer\"",
+      "quoteText": "Think of 'free' as in 'free speech,' not as in 'free beer.'",
       "summary": "Richard Stallman clarifies free software as freedom to use and modify code — not zero price.",
       "about": "The phrase appears in GNU philosophy writing and talks as Stallman fought the confusion between gratis downloads and user freedom. It still surfaces in every LGPL vs MIT license thread.",
       "narrative": {
@@ -62,7 +62,6 @@
         "whyImportant": "It separated libre from gratis in open-source debates for decades.",
         "problemSolved": "Businesses and users conflated 'free software' with unpaid products."
       },
-      "category": "quote",
       "tags": [
         "quote",
         "insight",
@@ -76,15 +75,7 @@
           "role": "founder"
         }
       ],
-      "companies": [
-        {
-          "id": "fsf",
-          "name": "Free Software Foundation"
-        }
-      ],
-      "quoteText": "Think of 'free' as in 'free speech,' not as in 'free beer.'",
-      "importance": 7,
-      "media": [],
+      "importance": 6,
       "sources": [
         {
           "title": "GNU — Free Software Definition (1996 era)",
@@ -100,7 +91,11 @@
       "relatedIds": [
         "stallman-gnu-manifesto",
         "gpl-version-1-released"
-      ]
+      ],
+      "slug": "stallman-free-speech-not-beer",
+      "media": [],
+      "companies": [],
+      "category": "quote"
     }
   ]
 }
