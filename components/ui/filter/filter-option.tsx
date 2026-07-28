@@ -26,7 +26,7 @@ export function FilterOption({
   return (
     <label
       className={cn(
-        "flex w-full cursor-pointer items-center gap-2 px-3 py-2 text-left text-sm leading-snug text-black hover:bg-black/[0.04]",
+        "flex w-full cursor-pointer items-center gap-2 py-2 text-left text-sm leading-snug text-black hover:bg-black/[0.04]",
         checked && "bg-black/[0.04]",
       )}
       onMouseDown={onMouseDown}

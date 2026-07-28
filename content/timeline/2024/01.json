@@ -14,7 +14,12 @@
         "problemSolved": "Teams wanted more compile-time safety without adopting a separate typed language."
       },
       "category": "software",
-      "tags": ["elixir", "erlang", "beam", "programming-language"],
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "programming-language"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +34,63 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["elixir-1-14-released", "elixir-1-0-released", "erlang-otp-27-released"]
+      "relatedIds": [
+        "elixir-1-14-released",
+        "elixir-1-0-released",
+        "erlang-otp-27-released"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s24-released",
+      "slug": "samsung-galaxy-s24-released",
+      "date": "2024-01-31",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S24 released",
+      "summary": "Samsung began selling the Samsung Galaxy S24 — Galaxy AI on-device features integrated across the S24 line.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Galaxy ai on-device features integrated across the s24 line. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S24 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S24 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S24 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s23-released",
+        "samsung-galaxy-s25-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     }
   ]
 }

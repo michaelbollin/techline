@@ -1,4 +1,3 @@
-import { cn } from "@/lib/cn";
 import { TIMELINE_EDGE_MARGIN } from "@/lib/timeline/constants";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 

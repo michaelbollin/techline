@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "id": "spring-boot-1-0-released",
+      "slug": "spring-boot-1-0-released",
+      "date": "2014-04-01",
+      "datePrecision": "day",
+      "title": "Spring Boot 1.0 released",
+      "summary": "Pivotal released Spring Boot 1.0 on April 1, 2014 — opinionated auto-configuration for Spring apps with embedded servers and starter dependencies.",
+      "about": "Spring Boot (`java -jar app.jar`) eliminated XML boilerplate: starters bundle dependencies, auto-config wires beans, and Actuator exposes health checks. Microservices teams ship REST APIs and batch jobs without application servers; it became the default way new Java backends start in the 2010s.",
+      "narrative": {
+        "whyChosen": "Spring Boot made Spring as fast to start as Ruby or Node microframeworks.",
+        "whyImportant": "Embedded Tomcat/Jetty and starter POMs defined the containerless Java deployment model.",
+        "problemSolved": "Spring apps required heavy WAR deployments and pages of XML before writing business logic."
+      },
+      "category": "software",
+      "tags": [
+        "spring-boot",
+        "spring",
+        "java",
+        "web-framework",
+        "microservices"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Spring Blog — Spring Boot 1.0 GA Released (April 1, 2014)",
+          "url": "https://spring.io/blog/2014/04/01/spring-boot-1-0-ga-released",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Spring Boot (overview)",
+          "url": "https://en.wikipedia.org/wiki/Spring_Boot",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "spring-framework-1-0-released",
+        "maven-1-0-released",
+        "gradle-released"
+      ]
+    },
+    {
       "id": "typescript-1-0-released",
       "slug": "typescript-1-0-released",
       "date": "2014-04-02",
@@ -45,48 +86,6 @@
         "typescript-preview-released",
         "typescript-5-0-released",
         "angular-2-released"
-      ]
-    },
-    {
-      "id": "express-4-released",
-      "slug": "express-4-released",
-      "date": "2014-04-09",
-      "datePrecision": "day",
-      "title": "Express 4.0 released",
-      "summary": "Express 4.0 shipped on April 9, 2014 — removing Connect middleware bundling and stabilizing the router for production Node APIs.",
-      "about": "Express 4 split built-in middleware into separate packages and fixed the router — the version that powered the MEAN stack and early REST microservices. Most Node tutorials and boilerplates still trace back to Express 4's API surface.",
-      "narrative": {
-        "whyChosen": "Express 4 was the stable baseline for Node web APIs through the 2010s.",
-        "whyImportant": "A cleaner router and middleware model defined how Node handles HTTP.",
-        "problemSolved": "Express 3 bundled deprecated Connect middleware and had router edge cases in production."
-      },
-      "category": "software",
-      "tags": [
-        "express",
-        "nodejs",
-        "web-framework",
-        "middleware"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Express — Migrating to Express 4 (April 28, 2014)",
-          "url": "https://expressjs.com/en/guide/migrating-4.html",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Express.js (overview)",
-          "url": "https://en.wikipedia.org/wiki/Express.js",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "express-released",
-        "nodejs-first-released",
-        "nestjs-announced"
       ]
     },
     {
@@ -141,6 +140,100 @@
       ]
     },
     {
+      "id": "express-4-released",
+      "slug": "express-4-released",
+      "date": "2014-04-09",
+      "datePrecision": "day",
+      "title": "Express 4.0 released",
+      "summary": "Express 4.0 shipped on April 9, 2014 — removing Connect middleware bundling and stabilizing the router for production Node APIs.",
+      "about": "Express 4 split built-in middleware into separate packages and fixed the router — the version that powered the MEAN stack and early REST microservices. Most Node tutorials and boilerplates still trace back to Express 4's API surface.",
+      "narrative": {
+        "whyChosen": "Express 4 was the stable baseline for Node web APIs through the 2010s.",
+        "whyImportant": "A cleaner router and middleware model defined how Node handles HTTP.",
+        "problemSolved": "Express 3 bundled deprecated Connect middleware and had router edge cases in production."
+      },
+      "category": "software",
+      "tags": [
+        "express",
+        "nodejs",
+        "web-framework",
+        "middleware"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Express — Migrating to Express 4 (April 28, 2014)",
+          "url": "https://expressjs.com/en/guide/migrating-4.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Express.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Express.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "express-released",
+        "nodejs-first-released",
+        "nestjs-announced"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s5-released",
+      "slug": "samsung-galaxy-s5-released",
+      "date": "2014-04-11",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S5 released",
+      "summary": "Samsung began selling the Samsung Galaxy S5 — water resistance and a fingerprint sensor in a plastic flagship body.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Water resistance and a fingerprint sensor in a plastic flagship body. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S5 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S5 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S5",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S5 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S5",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s4-released",
+        "samsung-galaxy-s6-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    },
+    {
       "id": "tom-preston-werner-github-resigns",
       "slug": "tom-preston-werner-github-resigns",
       "date": "2014-04-21",
@@ -191,35 +284,52 @@
       ]
     },
     {
-      "id": "spring-boot-1-0-released",
-      "slug": "spring-boot-1-0-released",
-      "date": "2014-04-01",
+      "id": "oneplus-one-released",
+      "slug": "oneplus-one-released",
+      "date": "2014-04-23",
       "datePrecision": "day",
-      "title": "Spring Boot 1.0 released",
-      "summary": "Pivotal released Spring Boot 1.0 on April 1, 2014 — opinionated auto-configuration for Spring apps with embedded servers and starter dependencies.",
-      "about": "Spring Boot (`java -jar app.jar`) eliminated XML boilerplate: starters bundle dependencies, auto-config wires beans, and Actuator exposes health checks. Microservices teams ship REST APIs and batch jobs without application servers; it became the default way new Java backends start in the 2010s.",
+      "title": "OnePlus One released",
+      "summary": "OnePlus released the OnePlus One — flagship specs at mid-range price — CyanogenMod-era disruptor.",
+      "about": "The phone expanded Android's flagship landscape beyond Samsung and Google. Flagship specs at mid-range price — cyanogenmod-era disruptor.",
       "narrative": {
-        "whyChosen": "Spring Boot made Spring as fast to start as Ruby or Node microframeworks.",
-        "whyImportant": "Embedded Tomcat/Jetty and starter POMs defined the containerless Java deployment model.",
-        "problemSolved": "Spring apps required heavy WAR deployments and pages of XML before writing business logic."
+        "whyChosen": "The OnePlus One was a significant Android flagship.",
+        "whyImportant": "Diverse Android flagships gave developers multiple hardware targets beyond Galaxy and Pixel.",
+        "problemSolved": "Android needed credible flagship alternatives to Samsung and carrier-skinned phones."
       },
-      "category": "software",
-      "tags": ["spring-boot", "spring", "java", "web-framework", "microservices"],
-      "importance": 1,
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "android",
+        "oneplus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "oneplus",
+          "name": "OnePlus"
+        }
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Spring Blog — Spring Boot 1.0 GA Released (April 1, 2014)",
-          "url": "https://spring.io/blog/2014/04/01/spring-boot-1-0-ga-released",
+          "title": "OnePlus One released — launch",
+          "url": "https://en.wikipedia.org/wiki/OnePlus_One",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Spring Boot (overview)",
-          "url": "https://en.wikipedia.org/wiki/Spring_Boot",
+          "title": "Wikipedia — OnePlus One (overview)",
+          "url": "https://en.wikipedia.org/wiki/OnePlus_One",
           "role": "overview"
         }
       ],
-      "relatedIds": ["spring-framework-1-0-released", "maven-1-0-released", "gradle-released"]
+      "relatedIds": [
+        "t-mobile-g1-released",
+        "htc-one-m7-released",
+        "android-announced"
+      ]
     }
   ]
 }

@@ -1,54 +1,6 @@
 {
   "events": [
     {
-      "id": "dart-unveiled",
-      "slug": "dart-unveiled",
-      "date": "2011-10-10",
-      "datePrecision": "day",
-      "title": "Dart language unveiled at GOTO",
-      "summary": "Google unveiled Dart on October 10, 2011 at GOTO Aarhus — a structured web language compiling to JavaScript or a VM.",
-      "about": "Dart targets Flutter mobile/desktop apps, web via dart2js, and server-side tooling. Optional typing, sound null safety (2.0), and async/await made it Google's answer to large-scale client code. Flutter's widget framework made Dart the language behind many cross-platform apps.",
-      "narrative": {
-        "whyChosen": "Dart + Flutter became Google's cross-platform UI stack rivaling React Native.",
-        "whyImportant": "It showed a language could target both JS engines and a native VM for structured large web apps.",
-        "problemSolved": "JavaScript lacked optional types and tooling for million-line web clients; Google wanted a structured alternative."
-      },
-      "category": "software",
-      "tags": [
-        "dart",
-        "google",
-        "flutter",
-        "web",
-        "programming-language"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        }
-      ],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "Google Developers Blog — Dart preview (October 10, 2011)",
-          "url": "https://developers.googleblog.com/dart-a-language-for-structured-web-programming/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Dart (overview)",
-          "url": "https://en.wikipedia.org/wiki/Dart_(programming_language)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "dart-unveiled",
-        "javascript-name-announced",
-        "typescript-preview-released"
-      ]
-    },
-    {
       "id": "gitlab-released",
       "slug": "gitlab-released",
       "date": "2011-10-08",
@@ -134,6 +86,154 @@
           "url": "https://en.wikipedia.org/wiki/Andrew_Ng",
           "role": "overview"
         }
+      ]
+    },
+    {
+      "id": "dart-unveiled",
+      "slug": "dart-unveiled",
+      "date": "2011-10-10",
+      "datePrecision": "day",
+      "title": "Dart language unveiled at GOTO",
+      "summary": "Google unveiled Dart on October 10, 2011 at GOTO Aarhus — a structured web language compiling to JavaScript or a VM.",
+      "about": "Dart targets Flutter mobile/desktop apps, web via dart2js, and server-side tooling. Optional typing, sound null safety (2.0), and async/await made it Google's answer to large-scale client code. Flutter's widget framework made Dart the language behind many cross-platform apps.",
+      "narrative": {
+        "whyChosen": "Dart + Flutter became Google's cross-platform UI stack rivaling React Native.",
+        "whyImportant": "It showed a language could target both JS engines and a native VM for structured large web apps.",
+        "problemSolved": "JavaScript lacked optional types and tooling for million-line web clients; Google wanted a structured alternative."
+      },
+      "category": "software",
+      "tags": [
+        "dart",
+        "google",
+        "flutter",
+        "web",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Developers Blog — Dart preview (October 10, 2011)",
+          "url": "https://developers.googleblog.com/dart-a-language-for-structured-web-programming/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Dart (overview)",
+          "url": "https://en.wikipedia.org/wiki/Dart_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "dart-unveiled",
+        "javascript-name-announced",
+        "typescript-preview-released"
+      ]
+    },
+    {
+      "id": "iphone-4s-released",
+      "slug": "iphone-4s-released",
+      "date": "2011-10-14",
+      "datePrecision": "day",
+      "title": "iPhone 4S released",
+      "summary": "Apple released the iPhone 4S on October 14, 2011 — introducing Siri and the A5 chip in the iPhone 4 body.",
+      "about": "Siri brought voice-driven assistants to mainstream smartphones and gave developers a speech API path through iOS integration. The 4S also shipped an 8 MP camera that raised mobile photography expectations for app developers building camera workflows.",
+      "narrative": {
+        "whyChosen": "The 4S launched Siri — the assistant that pushed every platform to add voice interfaces.",
+        "whyImportant": "Voice control and better cameras expanded what mobile apps could assume about device capabilities.",
+        "problemSolved": "Smartphones lacked credible on-device voice assistants integrated with third-party services."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 4S released — launch",
+          "url": "https://www.apple.com/newsroom/2011/10/04iPhone-4S-Pre-Orders-Top-One-Million-in-First-24-Hours/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 4S (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_4S",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-3gs-released",
+        "iphone-5-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-note-released",
+      "slug": "samsung-galaxy-note-released",
+      "date": "2011-10-29",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Note released",
+      "summary": "Samsung released the Samsung Galaxy Note — 5.3-inch display and S Pen stylus created the phablet category.",
+      "about": "The Galaxy Note targeted stylus power users on Android. 5.3-inch display and s pen stylus created the phablet category. Note apps and split-screen Android development often targeted this hardware class.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Note advanced Samsung's stylus phablet line.",
+        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
+        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-note",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Note released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_(original)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Note (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_(original)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-note-2-released",
+        "samsung-galaxy-s-released",
+        "iphone-6-plus-released"
       ]
     }
   ]

@@ -42,6 +42,107 @@
       ]
     },
     {
+      "id": "iphone-6s-released",
+      "slug": "iphone-6s-released",
+      "date": "2015-09-25",
+      "datePrecision": "day",
+      "title": "iPhone 6S released",
+      "summary": "Apple released the iPhone 6S on September 25, 2015 — adding 3D Touch pressure sensitivity and Live Photos.",
+      "about": "3D Touch introduced peek-and-pop interactions and quick actions — a short-lived but influential pressure UI layer. Developers experimented with context menus before long-press and haptics replaced most use cases.",
+      "narrative": {
+        "whyChosen": "The 6S introduced pressure-sensitive input as an iOS developer surface.",
+        "whyImportant": "3D Touch APIs let apps expose preview and shortcut interactions from the home screen and in-app.",
+        "problemSolved": "Touch UIs lacked a middle ground between tap and long-press for previews."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 6S released — launch",
+          "url": "https://www.apple.com/newsroom/2015/09/28iPhone-6s-6s-Plus-Available-in-More-Than-40-Countries/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 6S (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_6S",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-6-plus-released",
+        "iphone-se-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
+    },
+    {
+      "id": "nexus-6p-released",
+      "slug": "nexus-6p-released",
+      "date": "2015-09-29",
+      "datePrecision": "day",
+      "title": "Nexus 6P released",
+      "summary": "Google began selling the Nexus 6P — Huawei-built premium Nexus with fingerprint sensor.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Huawei-built premium nexus with fingerprint sensor. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Nexus 6P was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "nexus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nexus 6P released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nexus_6P",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nexus 6P (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nexus_6P",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nexus-one-released",
+        "nexus-6-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    },
+    {
       "id": "safari-9-released",
       "slug": "safari-9-released",
       "date": "2015-09-30",

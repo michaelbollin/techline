@@ -14,9 +14,19 @@
         "problemSolved": "Selenium's remote WebDriver model was slow, flaky, and hard to debug for modern SPAs."
       },
       "category": "software",
-      "tags": ["cypress", "testing", "javascript", "browser", "open-source"],
+      "tags": [
+        "cypress",
+        "testing",
+        "javascript",
+        "browser",
+        "open-source"
+      ],
       "people": [
-        { "id": "brian-mann", "name": "Brian Mann", "role": "creator" }
+        {
+          "id": "brian-mann",
+          "name": "Brian Mann",
+          "role": "creator"
+        }
       ],
       "importance": 1,
       "media": [],
@@ -32,7 +42,62 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["selenium-released", "playwright-released", "react-open-sourced"]
+      "relatedIds": [
+        "selenium-released",
+        "playwright-released",
+        "react-open-sourced"
+      ]
+    },
+    {
+      "id": "google-pixel-2-released",
+      "slug": "google-pixel-2-released",
+      "date": "2017-10-19",
+      "datePrecision": "day",
+      "title": "Google Pixel 2 released",
+      "summary": "Google began selling the Google Pixel 2 — computational photography with Portrait Mode and Active Edge.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Computational photography with portrait mode and active edge. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Google Pixel 2 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Pixel 2 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_2",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Pixel 2 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_2",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-pixel-released",
+        "google-pixel-released",
+        "google-pixel-3-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
     }
   ]
 }

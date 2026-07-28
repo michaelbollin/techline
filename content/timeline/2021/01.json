@@ -48,6 +48,48 @@
       ]
     },
     {
+      "id": "payload-cms-released",
+      "slug": "payload-cms-released",
+      "date": "2021-01-13",
+      "datePrecision": "day",
+      "title": "Payload CMS released",
+      "summary": "James Mikrut, Dan Ribbens, and Elliot DeNolf released Payload CMS on January 13, 2021 — a self-hosted Node.js and React headless CMS.",
+      "about": "Payload gives developers a TypeScript-configured admin UI and auto-generated REST/GraphQL APIs — self-hosted with no SaaS lock-in. It later became Next.js-native, installing directly into the `/app` folder as a full-stack framework.",
+      "narrative": {
+        "whyChosen": "Payload brought a code-first, self-hosted CMS to the JavaScript ecosystem.",
+        "whyImportant": "TypeScript schemas and React admin UI set a new bar for developer-centric CMS design.",
+        "problemSolved": "JavaScript teams wanted headless CMS power without SaaS restrictions or PHP baggage."
+      },
+      "category": "software",
+      "tags": [
+        "payload",
+        "cms",
+        "headless",
+        "nodejs",
+        "typescript",
+        "open-source"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Payload CMS — Introducing Payload (January 13, 2021)",
+          "url": "https://medium.com/payload-cms/introducing-payload-2021s-node-react-headless-cms-for-javascript-developers-582eef9c1866",
+          "role": "date"
+        },
+        {
+          "title": "PR Newswire — Payload CMS launches to the public (overview)",
+          "url": "https://www.prnewswire.com/news-releases/payload-a-new-headless-content-management-system-launches-to-the-public-301210328.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "strapi-open-sourced",
+        "nextjs-open-sourced",
+        "nodejs-first-released"
+      ]
+    },
+    {
       "id": "dario-amodei-anthropic-founded",
       "slug": "dario-amodei-anthropic-founded",
       "date": "2021-01-26",
@@ -100,45 +142,55 @@
       ]
     },
     {
-      "id": "payload-cms-released",
-      "slug": "payload-cms-released",
-      "date": "2021-01-13",
+      "id": "samsung-galaxy-s21-released",
+      "slug": "samsung-galaxy-s21-released",
+      "date": "2021-01-29",
       "datePrecision": "day",
-      "title": "Payload CMS released",
-      "summary": "James Mikrut, Dan Ribbens, and Elliot DeNolf released Payload CMS on January 13, 2021 — a self-hosted Node.js and React headless CMS.",
-      "about": "Payload gives developers a TypeScript-configured admin UI and auto-generated REST/GraphQL APIs — self-hosted with no SaaS lock-in. It later became Next.js-native, installing directly into the `/app` folder as a full-stack framework.",
+      "title": "Samsung Galaxy S21 released",
+      "summary": "Samsung began selling the Samsung Galaxy S21 — Snapdragon 888/Exynos 2100 and Contour Cut camera housing.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Snapdragon 888/exynos 2100 and contour cut camera housing. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
       "narrative": {
-        "whyChosen": "Payload brought a code-first, self-hosted CMS to the JavaScript ecosystem.",
-        "whyImportant": "TypeScript schemas and React admin UI set a new bar for developer-centric CMS design.",
-        "problemSolved": "JavaScript teams wanted headless CMS power without SaaS restrictions or PHP baggage."
+        "whyChosen": "The Samsung Galaxy S21 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
       },
-      "category": "software",
+      "category": "hardware",
       "tags": [
-        "payload",
-        "cms",
-        "headless",
-        "nodejs",
-        "typescript",
-        "open-source"
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
       ],
-      "importance": 1,
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
       "media": [],
       "sources": [
         {
-          "title": "Payload CMS — Introducing Payload (January 13, 2021)",
-          "url": "https://medium.com/payload-cms/introducing-payload-2021s-node-react-headless-cms-for-javascript-developers-582eef9c1866",
+          "title": "Samsung Galaxy S21 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21",
           "role": "date"
         },
         {
-          "title": "PR Newswire — Payload CMS launches to the public (overview)",
-          "url": "https://www.prnewswire.com/news-releases/payload-a-new-headless-content-management-system-launches-to-the-public-301210328.html",
+          "title": "Wikipedia — Samsung Galaxy S21 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S21",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "strapi-open-sourced",
-        "nextjs-open-sourced",
-        "nodejs-first-released"
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s20-released",
+        "samsung-galaxy-s22-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
       ]
     }
   ]

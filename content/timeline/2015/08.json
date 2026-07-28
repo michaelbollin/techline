@@ -52,6 +52,57 @@
       ]
     },
     {
+      "id": "samsung-galaxy-note-5-released",
+      "slug": "samsung-galaxy-note-5-released",
+      "date": "2015-08-21",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Note 5 released",
+      "summary": "Samsung released the Samsung Galaxy Note 5 — glass unibody design — dropped microSD in favor of premium build.",
+      "about": "The Galaxy Note targeted stylus power users on Android. Glass unibody design — dropped microsd in favor of premium build. Note apps and split-screen Android development often targeted this hardware class.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Note 5 advanced Samsung's stylus phablet line.",
+        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
+        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-note",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Note 5 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_5",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Note 5 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_5",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-note-released",
+        "samsung-galaxy-note-4-released",
+        "samsung-galaxy-note-7-released",
+        "samsung-galaxy-s-released",
+        "iphone-6-plus-released"
+      ]
+    },
+    {
       "id": "phoenix-1-0-released",
       "slug": "phoenix-1-0-released",
       "date": "2015-08-28",

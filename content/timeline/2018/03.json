@@ -14,7 +14,13 @@
         "problemSolved": "Blocking servlet stacks struggled with high-concurrency APIs and cloud-native metrics."
       },
       "category": "software",
-      "tags": ["spring-boot", "spring", "java", "web-framework", "microservices"],
+      "tags": [
+        "spring-boot",
+        "spring",
+        "java",
+        "web-framework",
+        "microservices"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,63 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["spring-boot-1-0-released", "spring-boot-3-0-released", "spring-framework-1-0-released"]
+      "relatedIds": [
+        "spring-boot-1-0-released",
+        "spring-boot-3-0-released",
+        "spring-framework-1-0-released"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s9-released",
+      "slug": "samsung-galaxy-s9-released",
+      "date": "2018-03-16",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S9 released",
+      "summary": "Samsung began selling the Samsung Galaxy S9 — variable aperture camera and AR Emoji — iterative S-line update.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Variable aperture camera and ar emoji — iterative s-line update. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S9 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S9 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S9",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S9 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S9",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s8-released",
+        "samsung-galaxy-s10-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     }
   ]
 }

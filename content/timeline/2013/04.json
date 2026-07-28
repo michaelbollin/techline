@@ -48,6 +48,58 @@
         "webkit-open-sourced",
         "opera-chromium-switch"
       ]
+    },
+    {
+      "id": "samsung-galaxy-s4-released",
+      "slug": "samsung-galaxy-s4-released",
+      "date": "2013-04-27",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S4 released",
+      "summary": "Samsung began selling the Samsung Galaxy S4 — 1080p five-inch display and eye-tracking features — peak TouchWiz era dominance.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. 1080p five-inch display and eye-tracking features — peak touchwiz era dominance. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S4 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S4 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S4",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s3-released",
+        "samsung-galaxy-s5-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     }
   ]
 }

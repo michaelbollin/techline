@@ -1,6 +1,58 @@
 {
   "events": [
     {
+      "id": "samsung-galaxy-s10-released",
+      "slug": "samsung-galaxy-s10-released",
+      "date": "2019-03-08",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S10 released",
+      "summary": "Samsung began selling the Samsung Galaxy S10 — hole-punch display, ultrasonic fingerprint, and three-model lineup including S10e.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Hole-punch display, ultrasonic fingerprint, and three-model lineup including s10e. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S10 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S10 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S10 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S10",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s9-released",
+        "samsung-galaxy-s20-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    },
+    {
       "slug": "fei-fei-li-stanford-hai",
       "media": [],
       "relatedIds": [

@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "blackberry-7290-released",
+      "slug": "blackberry-7290-released",
+      "date": "2004",
+      "datePrecision": "year",
+      "title": "BlackBerry 7290 released",
+      "summary": "BlackBerry released the BlackBerry 7290 — Bluetooth and color screen enterprise BlackBerry.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Bluetooth and color screen enterprise blackberry. BES-connected apps and push email defined mobile workflows for years.",
+      "narrative": {
+        "whyChosen": "The BlackBerry 7290 was a key BlackBerry hardware milestone.",
+        "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
+        "problemSolved": "Business users needed secure mobile email before modern smartphone platforms."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "blackberry"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "blackberry",
+          "name": "BlackBerry"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "BlackBerry 7290 released — launch",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_7290",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BlackBerry 7290 (overview)",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_7290",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "blackberry-5810-released",
+        "blackberry-pearl-released",
+        "iphone-goes-on-sale",
+        "blackberry-os-eol"
+      ]
+    },
+    {
       "id": "selenium-released",
       "slug": "selenium-released",
       "date": "2004",
@@ -14,9 +62,19 @@
         "problemSolved": "Manual clicking through web apps for every release did not scale as Agile teams shipped faster."
       },
       "category": "software",
-      "tags": ["selenium", "testing", "javascript", "browser", "open-source"],
+      "tags": [
+        "selenium",
+        "testing",
+        "javascript",
+        "browser",
+        "open-source"
+      ],
       "people": [
-        { "id": "jason-huggins", "name": "Jason Huggins", "role": "creator" }
+        {
+          "id": "jason-huggins",
+          "name": "Jason Huggins",
+          "role": "creator"
+        }
       ],
       "importance": 1,
       "media": [],
@@ -32,7 +90,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["selenium-2-released", "cypress-open-sourced", "playwright-released"]
+      "relatedIds": [
+        "selenium-2-released",
+        "cypress-open-sourced",
+        "playwright-released"
+      ]
     },
     {
       "id": "shopware-released",
@@ -48,7 +110,13 @@
         "problemSolved": "European retailers lacked flexible, locally supported e-commerce software."
       },
       "category": "software",
-      "tags": ["shopware", "ecommerce", "php", "open-source", "web"],
+      "tags": [
+        "shopware",
+        "ecommerce",
+        "php",
+        "open-source",
+        "web"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -63,7 +131,11 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["magento-1-0-released", "prestashop-released", "shopware-open-sourced"]
+      "relatedIds": [
+        "magento-1-0-released",
+        "prestashop-released",
+        "shopware-open-sourced"
+      ]
     }
   ]
 }

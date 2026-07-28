@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "nexus-6-released",
+      "slug": "nexus-6-released",
+      "date": "2014-11-12",
+      "datePrecision": "day",
+      "title": "Nexus 6 released",
+      "summary": "Google began selling the Nexus 6 — Motorola-built large Nexus with Lollipop.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Motorola-built large nexus with lollipop. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Nexus 6 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "nexus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nexus 6 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nexus_6",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nexus 6 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nexus_6",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nexus-one-released",
+        "nexus-5-released",
+        "nexus-6p-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    }
+  ]
+}

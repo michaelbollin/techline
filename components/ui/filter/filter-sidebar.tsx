@@ -2,6 +2,9 @@ import type { HTMLAttributes, ReactNode } from "react";
 
 import { cn } from "@/lib/cn";
 
+/** Shared horizontal inset — aligns headings, filter labels, and counts with the close control. */
+export const filterSidebarInsetClassName = "px-6 pr-16 sm:pr-[4.25rem]";
+
 type FilterSidebarProps = HTMLAttributes<HTMLElement> & {
   id?: string;
 };
@@ -27,10 +30,7 @@ type FilterSidebarHeaderProps = HTMLAttributes<HTMLElement>;
 export function FilterSidebarHeader({ className, children, ...props }: FilterSidebarHeaderProps) {
   return (
     <header
-      className={cn(
-        "flex shrink-0 flex-col py-5 pr-[3.75rem] pb-4 pl-5 sm:pr-[4.25rem]",
-        className,
-      )}
+      className={cn("flex shrink-0 flex-col pt-5 pb-4", filterSidebarInsetClassName, className)}
       {...props}
     >
       {children}
@@ -58,7 +58,14 @@ type FilterSidebarBodyProps = HTMLAttributes<HTMLDivElement>;
 
 export function FilterSidebarBody({ className, children, ...props }: FilterSidebarBodyProps) {
   return (
-    <div className={cn("flex flex-1 flex-col gap-6 overflow-y-auto px-5 pb-5", className)} {...props}>
+    <div
+      className={cn(
+        "flex flex-1 flex-col gap-6 overflow-y-auto pb-5",
+        filterSidebarInsetClassName,
+        className,
+      )}
+      {...props}
+    >
       {children}
     </div>
   );
@@ -71,7 +78,11 @@ type FilterSidebarFooterProps = HTMLAttributes<HTMLElement> & {
 export function FilterSidebarFooter({ className, children, ...props }: FilterSidebarFooterProps) {
   return (
     <footer
-      className={cn("flex justify-end border-t border-black px-5 pt-3 pb-5", className)}
+      className={cn(
+        "flex justify-end border-t border-black pt-3 pb-5",
+        filterSidebarInsetClassName,
+        className,
+      )}
       {...props}
     >
       {children}

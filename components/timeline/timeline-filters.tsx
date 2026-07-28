@@ -15,8 +15,8 @@ import type { FilterUpdater } from "@/hooks/use-timeline-filters";
 import { toggleFilterId } from "@/lib/timeline/filters";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
+import { FilterCheckboxList } from "./filter-checkbox-list";
 import { FilterToggleIcon } from "./filter-toggle-icon";
-import { ThemeFilterList } from "./theme-filter-list";
 import { TimelineSearchFilter } from "./timeline-search-filter";
 
 type TimelineFilterTriggerProps = {
@@ -122,7 +122,9 @@ export function TimelineFilterSidebar({
       </FilterSidebarHeader>
 
       <FilterSidebarBody>
-        <ThemeFilterList
+        <FilterCheckboxList
+          className="mt-6"
+          label="Theme"
           options={themeOptions}
           selectedIds={selectedThemeIds}
           onToggle={toggle}

@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "samsung-galaxy-s8-released",
+      "slug": "samsung-galaxy-s8-released",
+      "date": "2017-04-21",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S8 released",
+      "summary": "Samsung began selling the Samsung Galaxy S8 — Infinity Display with 18.5:9 aspect ratio and Bixby — bezel-less Android reference.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Infinity display with 18.5:9 aspect ratio and bixby — bezel-less android reference. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S8 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S8 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S8",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S8 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S8",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s7-released",
+        "samsung-galaxy-s9-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    }
+  ]
+}

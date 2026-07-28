@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "samsung-galaxy-note-10-released",
+      "slug": "samsung-galaxy-note-10-released",
+      "date": "2019-08-23",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Note 10 released",
+      "summary": "Samsung released the Samsung Galaxy Note 10 — center punch-hole and removed headphone jack from the Note line.",
+      "about": "The Galaxy Note targeted stylus power users on Android. Center punch-hole and removed headphone jack from the note line. Note apps and split-screen Android development often targeted this hardware class.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Note 10 advanced Samsung's stylus phablet line.",
+        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
+        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-note",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Note 10 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_10",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Note 10 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_10",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-note-released",
+        "samsung-galaxy-note-9-released",
+        "samsung-galaxy-note-20-released",
+        "samsung-galaxy-s-released",
+        "iphone-6-plus-released"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "events": [
+    {
+      "id": "nokia-lumia-800-released",
+      "slug": "nokia-lumia-800-released",
+      "date": "2011-11-11",
+      "datePrecision": "day",
+      "title": "Nokia Lumia 800 released",
+      "summary": "Nokia released the Nokia Lumia 800 — first Nokia Windows Phone — Mango-era Metro UI hardware.",
+      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. First nokia windows phone — mango-era metro ui hardware.",
+      "narrative": {
+        "whyChosen": "The Nokia Lumia 800 was a flagship Nokia smartphone milestone.",
+        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "nokia"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nokia",
+          "name": "Nokia"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nokia Lumia 800 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_800",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nokia Lumia 800 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_800",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nokia-9000-communicator-released",
+        "nokia-n97-released",
+        "nokia-lumia-920-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "windows-phone-eol"
+      ]
+    },
+    {
+      "id": "galaxy-nexus-released",
+      "slug": "galaxy-nexus-released",
+      "date": "2011-11-17",
+      "datePrecision": "day",
+      "title": "Galaxy Nexus released",
+      "summary": "Google began selling the Galaxy Nexus — first phone with Android 4.0 Ice Cream Sandwich.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. First phone with android 4.0 ice cream sandwich. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Galaxy Nexus was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "nexus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Galaxy Nexus released — launch",
+          "url": "https://en.wikipedia.org/wiki/Galaxy_Nexus",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Galaxy Nexus (overview)",
+          "url": "https://en.wikipedia.org/wiki/Galaxy_Nexus",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nexus-one-released",
+        "nexus-s-released",
+        "nexus-4-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    }
+  ]
+}

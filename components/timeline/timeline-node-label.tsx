@@ -6,6 +6,7 @@ import {
   type LabelLayout,
 } from "@/lib/timeline/label-layout";
 import { TIMELINE_LABEL_EDGE_INSET } from "@/lib/timeline/constants";
+import { LABEL_PADDING_X } from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
 type TimelineNodeLabelProps = {
@@ -83,6 +84,15 @@ export function TimelineNodeLabel({
         >
           {event.title}
         </text>
+        <line
+          x1={LABEL_PADDING_X}
+          x2={labelWidth - LABEL_PADDING_X}
+          y1={LABEL_BOX_HEIGHT / 2 + 9}
+          y2={LABEL_BOX_HEIGHT / 2 + 9}
+          className={cn(labelTransition, isHovered ? "stroke-black" : "stroke-white")}
+          strokeWidth={1}
+          pointerEvents="none"
+        />
       </g>
     </g>
   );

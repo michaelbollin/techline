@@ -27,9 +27,148 @@ const WEB_TAGS = new Set([
   "aspnet",
   "nextjs",
   "virtual-dom",
-  "browser",
   "api",
+  "jamstack",
+  "headless",
+  "wiki",
 ]);
+
+const DATA_TAGS = new Set([
+  "database",
+  "sql",
+  "nosql",
+  "orm",
+  "sequel",
+  "redis",
+  "postgres",
+  "postgresql",
+  "mysql",
+  "mongodb",
+  "analytics",
+  "rdbms",
+  "document-store",
+  "search",
+]);
+
+const INFRASTRUCTURE_TAGS = new Set([
+  "devops",
+  "linux",
+  "unix",
+  "cloud",
+  "docker",
+  "kubernetes",
+  "k8s",
+  "git",
+  "ci",
+  "continuous-integration",
+  "container",
+  "containers",
+  "deployment",
+  "nginx",
+  "apache",
+  "infrastructure",
+  "iac",
+  "orchestration",
+  "package-manager",
+  "ide",
+  "operating-system",
+]);
+
+const NETWORKING_TAGS = new Set([
+  "protocol",
+  "internet",
+  "tcp",
+  "tcp-ip",
+  "http",
+  "https",
+  "dns",
+  "email",
+  "ietf",
+  "rfc",
+  "networking",
+  "websocket",
+  "websockets",
+  "tls",
+  "ssl",
+  "ftp",
+  "ssh",
+  "uri",
+  "url",
+  "distributed-systems",
+  "concurrency",
+]);
+
+const HARDWARE_TAGS = new Set([
+  "hardware",
+  "semiconductor",
+  "chip",
+  "cpu",
+  "gpu",
+  "pc",
+  "laptop",
+  "embedded",
+  "integrated-circuit",
+  "mainframe",
+  "minicomputer",
+  "workstation",
+  "microcomputer",
+  "microprocessor",
+  "smartphone",
+  "server",
+  "supercomputer",
+  "computer-architecture",
+  "stored-program",
+  "error-correction",
+]);
+
+const SECURITY_TAGS = new Set([
+  "security",
+  "cryptography",
+  "encryption",
+  "privacy",
+  "authentication",
+  "authorization",
+  "pgp",
+  "public-key",
+]);
+
+const MOBILE_TAGS = new Set([
+  "mobile",
+  "smartphone",
+  "ios",
+  "android",
+  "iphone",
+  "app-store",
+  "flutter",
+  "react-native",
+]);
+
+const LANGUAGE_TAGS = new Set([
+  "programming-language",
+  "compiler",
+  "runtime",
+  "jvm",
+  "llvm",
+  "bytecode",
+  "oop",
+  "transpiler",
+  "build-tool",
+  "assembly",
+  "cpp",
+]);
+
+const AI_TAGS = new Set([
+  "ai",
+  "machine-learning",
+  "deep-learning",
+  "llm",
+  "neural-networks",
+  "generative-ai",
+  "logic-programming",
+  "computer-vision",
+]);
+
+const STANDARDS_TAGS = new Set(["standard", "ansi", "iso", "w3c", "international-standard"]);
 
 function hasTag(event: TimelineEvent, ...tags: string[]): boolean {
   return tags.some((tag) => event.tags.includes(tag));
@@ -41,31 +180,102 @@ function hasAnyTag(event: TimelineEvent, tags: Set<string>): boolean {
 
 const TOPIC_FILTERS: TimelineFilterDef[] = [
   {
-    id: "browser",
-    label: "Browser",
-    matches: (event) => hasTag(event, "browser"),
+    id: "languages",
+    label: "Languages",
+    matches: (event) => hasAnyTag(event, LANGUAGE_TAGS),
   },
   {
     id: "web",
     label: "Web",
     matches: (event) =>
       hasAnyTag(event, WEB_TAGS) ||
-      hasTag(event, "react", "vue", "angular", "angularjs", "graphql", "nodejs"),
+      hasTag(
+        event,
+        "react",
+        "vue",
+        "angular",
+        "angularjs",
+        "graphql",
+        "nodejs",
+        "css",
+        "html",
+        "webpack",
+        "npm",
+        "jquery",
+        "bootstrap",
+        "wordpress",
+        "drupal",
+        "rails",
+        "django",
+        "laravel",
+        "spring",
+        "dotnet",
+        "javascript",
+        "ecmascript",
+      ),
+  },
+  {
+    id: "browser",
+    label: "Browser",
+    matches: (event) => hasTag(event, "browser"),
+  },
+  {
+    id: "mobile",
+    label: "Mobile",
+    matches: (event) => hasAnyTag(event, MOBILE_TAGS),
   },
   {
     id: "ai",
     label: "AI",
-    matches: (event) => event.category === "ai" || hasTag(event, "ai", "logic-programming"),
+    matches: (event) => event.category === "ai" || hasAnyTag(event, AI_TAGS),
   },
   {
     id: "database",
-    label: "Database",
-    matches: (event) => hasTag(event, "database", "sql", "sequel", "orm"),
+    label: "Data",
+    matches: (event) => hasAnyTag(event, DATA_TAGS),
+  },
+  {
+    id: "infrastructure",
+    label: "Infrastructure",
+    matches: (event) => hasAnyTag(event, INFRASTRUCTURE_TAGS),
+  },
+  {
+    id: "networking",
+    label: "Networking",
+    matches: (event) => event.category === "protocol" || hasAnyTag(event, NETWORKING_TAGS),
+  },
+  {
+    id: "hardware",
+    label: "Hardware",
+    matches: (event) => event.category === "hardware" || hasAnyTag(event, HARDWARE_TAGS),
+  },
+  {
+    id: "security",
+    label: "Security",
+    matches: (event) => hasAnyTag(event, SECURITY_TAGS),
+  },
+  {
+    id: "open-source",
+    label: "Open Source",
+    matches: (event) => hasTag(event, "open-source"),
   },
   {
     id: "standards",
     label: "Standards",
-    matches: (event) => hasTag(event, "standard", "ansi", "iso"),
+    matches: (event) => hasAnyTag(event, STANDARDS_TAGS),
+  },
+  {
+    id: "companies",
+    label: "Companies",
+    matches: (event) =>
+      event.category === "company" || hasTag(event, "founding", "ipo", "acquisition"),
+  },
+  {
+    id: "culture",
+    label: "Culture",
+    matches: (event) =>
+      event.category === "culture" ||
+      hasTag(event, "computer-science", "algorithms", "typography", "information-theory", "complexity-theory"),
   },
   {
     id: "quotes",

@@ -1,6 +1,57 @@
 {
   "events": [
     {
+      "id": "lisa-su-amd-ceo",
+      "slug": "lisa-su-amd-ceo",
+      "date": "2014-10-08",
+      "datePrecision": "day",
+      "title": "Lisa Su named AMD CEO",
+      "summary": "AMD appointed Lisa Su president and CEO on October 8, 2014 — tasking her with turning around the struggling chipmaker.",
+      "about": "Su's Zen architecture and Epyc server CPUs restored AMD as a credible Intel competitor and made the company a key alternative in data centers and gaming. She later became one of the most visible semiconductor executives in the AI era.",
+      "narrative": {
+        "whyChosen": "Su's leadership revived AMD from near-irrelevance to a major Intel and NVIDIA rival.",
+        "whyImportant": "Competition in CPUs and GPUs matters for cloud pricing and AI hardware diversity.",
+        "problemSolved": "AMD had lost server and desktop share and needed a product-led turnaround."
+      },
+      "category": "company",
+      "tags": [
+        "people",
+        "amd",
+        "ceo",
+        "semiconductor"
+      ],
+      "people": [
+        {
+          "id": "lisa-su",
+          "name": "Lisa Su",
+          "role": "ceo"
+        }
+      ],
+      "companies": [
+        {
+          "id": "amd",
+          "name": "AMD"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "AMD — Lisa Su appointed CEO (October 8, 2014)",
+          "url": "https://www.amd.com/en/corporate/lisa-su",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Lisa Su (overview)",
+          "url": "https://en.wikipedia.org/wiki/Lisa_Su",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "jensen-huang-nvidia-founded"
+      ]
+    },
+    {
       "id": "safari-8-released",
       "slug": "safari-8-released",
       "date": "2014-10-16",
@@ -50,54 +101,54 @@
       ]
     },
     {
-      "id": "lisa-su-amd-ceo",
-      "slug": "lisa-su-amd-ceo",
-      "date": "2014-10-08",
+      "id": "samsung-galaxy-note-4-released",
+      "slug": "samsung-galaxy-note-4-released",
+      "date": "2014-10-17",
       "datePrecision": "day",
-      "title": "Lisa Su named AMD CEO",
-      "summary": "AMD appointed Lisa Su president and CEO on October 8, 2014 — tasking her with turning around the struggling chipmaker.",
-      "about": "Su's Zen architecture and Epyc server CPUs restored AMD as a credible Intel competitor and made the company a key alternative in data centers and gaming. She later became one of the most visible semiconductor executives in the AI era.",
+      "title": "Samsung Galaxy Note 4 released",
+      "summary": "Samsung released the Samsung Galaxy Note 4 — QHD display and improved S Pen latency for note-taking apps.",
+      "about": "The Galaxy Note targeted stylus power users on Android. Qhd display and improved s pen latency for note-taking apps. Note apps and split-screen Android development often targeted this hardware class.",
       "narrative": {
-        "whyChosen": "Su's leadership revived AMD from near-irrelevance to a major Intel and NVIDIA rival.",
-        "whyImportant": "Competition in CPUs and GPUs matters for cloud pricing and AI hardware diversity.",
-        "problemSolved": "AMD had lost server and desktop share and needed a product-led turnaround."
+        "whyChosen": "The Samsung Galaxy Note 4 advanced Samsung's stylus phablet line.",
+        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
+        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
       },
-      "category": "company",
+      "category": "hardware",
       "tags": [
-        "people",
-        "amd",
-        "ceo",
-        "semiconductor"
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-note",
+        "android"
       ],
-      "people": [
-        {
-          "id": "lisa-su",
-          "name": "Lisa Su",
-          "role": "ceo"
-        }
-      ],
+      "people": [],
       "companies": [
         {
-          "id": "amd",
-          "name": "AMD"
+          "id": "samsung",
+          "name": "Samsung"
         }
       ],
-      "importance": 2,
+      "importance": 3,
       "media": [],
       "sources": [
         {
-          "title": "AMD — Lisa Su appointed CEO (October 8, 2014)",
-          "url": "https://www.amd.com/en/corporate/lisa-su",
+          "title": "Samsung Galaxy Note 4 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_4",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Lisa Su (overview)",
-          "url": "https://en.wikipedia.org/wiki/Lisa_Su",
+          "title": "Wikipedia — Samsung Galaxy Note 4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_4",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "jensen-huang-nvidia-founded"
+        "samsung-galaxy-note-released",
+        "samsung-galaxy-note-3-released",
+        "samsung-galaxy-note-5-released",
+        "samsung-galaxy-s-released",
+        "iphone-6-plus-released"
       ]
     }
   ]

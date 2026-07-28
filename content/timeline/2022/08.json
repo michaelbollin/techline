@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "samsung-galaxy-z-fold-4-released",
+      "slug": "samsung-galaxy-z-fold-4-released",
+      "date": "2022-08-26",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Z Fold 4 released",
+      "summary": "Samsung began selling the Samsung Galaxy Z Fold 4 — Snapdragon 8+ Gen 1 and improved multitasking on foldables.",
+      "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. Snapdragon 8+ gen 1 and improved multitasking on foldables.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Z Fold 4 pushed foldable Android hardware into the mainstream.",
+        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-z",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Z Fold 4 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_4",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Z Fold 4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-fold-released",
+        "samsung-galaxy-z-fold-3-released",
+        "samsung-galaxy-z-fold-5-released",
+        "samsung-galaxy-s10-released",
+        "iphone-x-released"
+      ]
+    }
+  ]
+}

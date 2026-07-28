@@ -14,7 +14,10 @@
         "problemSolved": "Developers wanted safer f-strings and faster startup without waiting for Python 4."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
+      "tags": [
+        "python",
+        "programming-language"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +32,61 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-3-11-released", "python-3-13-released"]
+      "relatedIds": [
+        "python-3-11-released",
+        "python-3-13-released"
+      ]
+    },
+    {
+      "id": "google-pixel-8-released",
+      "slug": "google-pixel-8-released",
+      "date": "2023-10-12",
+      "datePrecision": "day",
+      "title": "Google Pixel 8 released",
+      "summary": "Google began selling the Google Pixel 8 — Tensor G3 with seven years of OS updates promised.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g3 with seven years of os updates promised. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Google Pixel 8 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Pixel 8 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_8",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Pixel 8 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_8",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-pixel-released",
+        "google-pixel-7-released",
+        "google-pixel-9-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
     }
   ]
 }

@@ -1,6 +1,105 @@
 {
   "events": [
     {
+      "id": "css-custom-properties-shipped",
+      "slug": "css-custom-properties-shipped",
+      "date": "2016-03-02",
+      "datePrecision": "day",
+      "title": "CSS custom properties ship in Chrome 49",
+      "summary": "Google shipped CSS custom properties in Chrome 49 on March 2, 2016 — native `--variable` syntax with the `var()` function for runtime theming.",
+      "about": "CSS custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike Sass variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. Chrome 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
+      "narrative": {
+        "whyChosen": "Native CSS variables closed the biggest gap between preprocessors and the platform.",
+        "whyImportant": "Runtime-updatable variables enabled theming, design tokens, and responsive design without JavaScript frameworks.",
+        "problemSolved": "Preprocessor variables were static — changing a theme required recompiling the entire stylesheet."
+      },
+      "category": "protocol",
+      "tags": [
+        "css",
+        "web",
+        "frontend",
+        "standards"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Chrome Developers — CSS Variables in Chrome 49 (March 2, 2016)",
+          "url": "https://developer.chrome.com/blog/css-variables-why-should-you-care",
+          "role": "date"
+        },
+        {
+          "title": "MDN — Using CSS custom properties (overview)",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "css-2-1-w3c-recommendation",
+        "sass-released",
+        "tailwind-css-released"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s7-released",
+      "slug": "samsung-galaxy-s7-released",
+      "date": "2016-03-11",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S7 released",
+      "summary": "Samsung began selling the Samsung Galaxy S7 — refined waterproof design and microSD return — solid iterative flagship.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Refined waterproof design and microsd return — solid iterative flagship. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S7 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S7 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S7",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S7 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S7",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s6-released",
+        "samsung-galaxy-s8-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    },
+    {
       "id": "demis-hassabis-alphago-victory",
       "slug": "demis-hassabis-alphago-victory",
       "date": "2016-03-15",
@@ -52,37 +151,55 @@
       ]
     },
     {
-      "id": "css-custom-properties-shipped",
-      "slug": "css-custom-properties-shipped",
-      "date": "2016-03-02",
+      "id": "iphone-se-released",
+      "slug": "iphone-se-released",
+      "date": "2016-03-31",
       "datePrecision": "day",
-      "title": "CSS custom properties ship in Chrome 49",
-      "summary": "Google shipped CSS custom properties in Chrome 49 on March 2, 2016 — native `--variable` syntax with the `var()` function for runtime theming.",
-      "about": "CSS custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike Sass variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. Chrome 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
+      "title": "iPhone SE (1st gen) released",
+      "summary": "Apple began selling the first iPhone SE on March 31, 2016 — packing iPhone 6S internals into the compact iPhone 5 body.",
+      "about": "The SE kept a 4-inch screen alive for developers who still tested small-size-class layouts. It also offered a lower entry price for markets and users who wanted modern iOS without phablet dimensions.",
       "narrative": {
-        "whyChosen": "Native CSS variables closed the biggest gap between preprocessors and the platform.",
-        "whyImportant": "Runtime-updatable variables enabled theming, design tokens, and responsive design without JavaScript frameworks.",
-        "problemSolved": "Preprocessor variables were static — changing a theme required recompiling the entire stylesheet."
+        "whyChosen": "The SE proved Apple would ship a modern small iPhone for holdouts and budget buyers.",
+        "whyImportant": "A compact iOS device kept small-screen layout testing relevant for developers.",
+        "problemSolved": "Users who wanted a small phone had to buy aging hardware or switch platforms."
       },
-      "category": "protocol",
-      "tags": ["css", "web", "frontend", "standards"],
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
       "people": [],
-      "companies": [{ "id": "google", "name": "Google" }],
-      "importance": 1,
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Chrome Developers — CSS Variables in Chrome 49 (March 2, 2016)",
-          "url": "https://developer.chrome.com/blog/css-variables-why-should-you-care",
+          "title": "iPhone SE (1st gen) released — launch",
+          "url": "https://www.apple.com/newsroom/2016/03/21Apple-Introduces-iPhone-SE-The-Most-Powerful-Phone-with-a-Four-inch-Display/",
           "role": "date"
         },
         {
-          "title": "MDN — Using CSS custom properties (overview)",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties",
+          "title": "Wikipedia — iPhone SE (1st gen) (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_SE_(1st_generation)",
           "role": "overview"
         }
       ],
-      "relatedIds": ["css-2-1-w3c-recommendation", "sass-released", "tailwind-css-released"]
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-6s-released",
+        "iphone-7-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
     }
   ]
 }

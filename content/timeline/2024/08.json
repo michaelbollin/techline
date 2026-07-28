@@ -14,8 +14,21 @@
         "problemSolved": "Drupal 10 sites needed a migration path before Symfony 6 and PHP 8.1 reached end-of-life."
       },
       "category": "software",
-      "tags": ["drupal", "cms", "php", "symfony", "web", "api"],
-      "people": [{ "id": "dries-buytaert", "name": "Dries Buytaert", "role": "creator" }],
+      "tags": [
+        "drupal",
+        "cms",
+        "php",
+        "symfony",
+        "web",
+        "api"
+      ],
+      "people": [
+        {
+          "id": "dries-buytaert",
+          "name": "Dries Buytaert",
+          "role": "creator"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -30,7 +43,61 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["drupal-10-released", "drupal-9-released", "symfony-4-released"]
+      "relatedIds": [
+        "drupal-10-released",
+        "drupal-9-released",
+        "symfony-4-released"
+      ]
+    },
+    {
+      "id": "google-pixel-9-released",
+      "slug": "google-pixel-9-released",
+      "date": "2024-08-22",
+      "datePrecision": "day",
+      "title": "Google Pixel 9 released",
+      "summary": "Google began selling the Google Pixel 9 — Tensor G4 and Gemini Nano on-device AI features.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g4 and gemini nano on-device ai features. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Google Pixel 9 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Pixel 9 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_9",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Pixel 9 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_9",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-pixel-released",
+        "google-pixel-8-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
     }
   ]
 }

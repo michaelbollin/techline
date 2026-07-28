@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "id": "ghost-released",
+      "slug": "ghost-released",
+      "date": "2013-10-14",
+      "datePrecision": "day",
+      "title": "Ghost publicly released",
+      "summary": "John O'Nolan and Hannah Wolfe released Ghost 0.3.2 on October 14, 2013 — an open-source Node.js publishing platform focused on blogging.",
+      "about": "Ghost shipped a Markdown editor, clean themes, and a Node.js stack — a deliberate alternative to WordPress bloat. Funded by a record-breaking Kickstarter, it became the default open-source choice for developers who wanted a fast, content-first blog engine.",
+      "narrative": {
+        "whyChosen": "Ghost proved a modern JavaScript CMS could compete with WordPress for publishing.",
+        "whyImportant": "It championed simplicity and speed when CMS platforms were growing ever more complex.",
+        "problemSolved": "Bloggers wanted a focused writing tool, not a general-purpose CMS with thousands of plugins."
+      },
+      "category": "software",
+      "tags": [
+        "ghost",
+        "cms",
+        "nodejs",
+        "blogging",
+        "open-source"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Ghost Blog — Ghost launches to the public (October 14, 2013)",
+          "url": "https://ghost.org/changelog/launch/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Ghost (blogging platform) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Ghost_(blogging_platform)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "wordpress-released",
+        "nodejs-first-released",
+        "contentful-founded"
+      ]
+    },
+    {
       "id": "internet-explorer-11-released",
       "slug": "internet-explorer-11-released",
       "date": "2013-10-17",
@@ -99,35 +140,55 @@
       ]
     },
     {
-      "id": "ghost-released",
-      "slug": "ghost-released",
-      "date": "2013-10-14",
+      "id": "nexus-5-released",
+      "slug": "nexus-5-released",
+      "date": "2013-10-31",
       "datePrecision": "day",
-      "title": "Ghost publicly released",
-      "summary": "John O'Nolan and Hannah Wolfe released Ghost 0.3.2 on October 14, 2013 — an open-source Node.js publishing platform focused on blogging.",
-      "about": "Ghost shipped a Markdown editor, clean themes, and a Node.js stack — a deliberate alternative to WordPress bloat. Funded by a record-breaking Kickstarter, it became the default open-source choice for developers who wanted a fast, content-first blog engine.",
+      "title": "Nexus 5 released",
+      "summary": "Google began selling the Nexus 5 — LG Nexus with KitKat — popular developer reference phone.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Lg nexus with kitkat — popular developer reference phone. AOSP builds and CTS testing often used Pixel devices as the baseline.",
       "narrative": {
-        "whyChosen": "Ghost proved a modern JavaScript CMS could compete with WordPress for publishing.",
-        "whyImportant": "It championed simplicity and speed when CMS platforms were growing ever more complex.",
-        "problemSolved": "Bloggers wanted a focused writing tool, not a general-purpose CMS with thousands of plugins."
+        "whyChosen": "The Nexus 5 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
       },
-      "category": "software",
-      "tags": ["ghost", "cms", "nodejs", "blogging", "open-source"],
-      "importance": 1,
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "nexus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Ghost Blog — Ghost launches to the public (October 14, 2013)",
-          "url": "https://ghost.org/changelog/launch/",
+          "title": "Nexus 5 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nexus_5",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Ghost (blogging platform) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Ghost_(blogging_platform)",
+          "title": "Wikipedia — Nexus 5 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nexus_5",
           "role": "overview"
         }
       ],
-      "relatedIds": ["wordpress-released", "nodejs-first-released", "contentful-founded"]
+      "relatedIds": [
+        "nexus-one-released",
+        "nexus-4-released",
+        "nexus-6-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     }
   ]
 }

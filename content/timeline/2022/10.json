@@ -1,6 +1,96 @@
 {
   "events": [
     {
+      "id": "google-pixel-7-released",
+      "slug": "google-pixel-7-released",
+      "date": "2022-10-13",
+      "datePrecision": "day",
+      "title": "Google Pixel 7 released",
+      "summary": "Google began selling the Google Pixel 7 — Tensor G2 and refined camera bar design.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g2 and refined camera bar design. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Google Pixel 7 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Pixel 7 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_7",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Pixel 7 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_7",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-pixel-released",
+        "google-pixel-6-released",
+        "google-pixel-8-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
+    },
+    {
+      "id": "python-3-11-released",
+      "slug": "python-3-11-released",
+      "date": "2022-10-24",
+      "datePrecision": "day",
+      "title": "Python 3.11 released",
+      "summary": "Python 3.11 shipped on October 24, 2022 with major CPython speedups, better tracebacks, and exception groups.",
+      "about": "The 'faster CPython' project delivered 10–60% speed gains for many workloads — important for data science, web APIs, and automation at scale. Fine-grained error locations (`^` under the exact token) and `TaskGroup` async primitives made production Python less painful.",
+      "narrative": {
+        "whyChosen": "3.11 was the performance release that answered critics of Python's speed.",
+        "whyImportant": "Faster bytecode and specialization kept Python competitive for servers and notebooks.",
+        "problemSolved": "CPU-bound Python workloads needed real speedups without rewriting in C or Rust."
+      },
+      "category": "software",
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Python 3.11.0 released (October 24, 2022)",
+          "url": "https://www.python.org/downloads/release/python-3110/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "python-3-10-released",
+        "python-3-12-released"
+      ]
+    },
+    {
       "id": "nextjs-13-app-router",
       "slug": "nextjs-13-app-router",
       "date": "2022-10-25",
@@ -49,45 +139,6 @@
       "relatedIds": [
         "nextjs-open-sourced",
         "react-open-sourced"
-      ]
-    },
-    {
-      "id": "python-3-11-released",
-      "slug": "python-3-11-released",
-      "date": "2022-10-24",
-      "datePrecision": "day",
-      "title": "Python 3.11 released",
-      "summary": "Python 3.11 shipped on October 24, 2022 with major CPython speedups, better tracebacks, and exception groups.",
-      "about": "The 'faster CPython' project delivered 10–60% speed gains for many workloads — important for data science, web APIs, and automation at scale. Fine-grained error locations (`^` under the exact token) and `TaskGroup` async primitives made production Python less painful.",
-      "narrative": {
-        "whyChosen": "3.11 was the performance release that answered critics of Python's speed.",
-        "whyImportant": "Faster bytecode and specialization kept Python competitive for servers and notebooks.",
-        "problemSolved": "CPU-bound Python workloads needed real speedups without rewriting in C or Rust."
-      },
-      "category": "software",
-      "tags": [
-        "python",
-        "programming-language"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 2,
-      "media": [],
-      "sources": [
-        {
-          "title": "Python.org — Python 3.11.0 released (October 24, 2022)",
-          "url": "https://www.python.org/downloads/release/python-3110/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Python (programming language) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "python-3-10-released",
-        "python-3-12-released"
       ]
     }
   ]

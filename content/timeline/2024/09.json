@@ -1,53 +1,6 @@
 {
   "events": [
     {
-      "id": "swift-6-released",
-      "slug": "swift-6-released",
-      "date": "2024-09-17",
-      "datePrecision": "day",
-      "title": "Swift 6 released",
-      "summary": "Apple shipped Swift 6 on September 17, 2024 with compile-time data-race safety available via an opt-in language mode.",
-      "about": "Swift 6 turns data races into compile-time errors when projects enable the Swift 6 language mode — critical for iOS apps mixing async networking and UI updates. It completes Apple's push toward safer concurrent Swift after years of incremental concurrency features since Swift 5.5.",
-      "narrative": {
-        "whyChosen": "Swift 6 is Apple's biggest language safety upgrade since optionals.",
-        "whyImportant": "Compile-time data-race detection raises the bar for concurrent mobile and server Swift.",
-        "problemSolved": "Async/await adoption exposed subtle threading bugs that only crashed in production."
-      },
-      "category": "software",
-      "tags": [
-        "swift",
-        "apple",
-        "ios",
-        "programming-language",
-        "concurrency"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "apple",
-          "name": "Apple"
-        }
-      ],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "Apple — iOS 18 available today (September 16, 2024)",
-          "url": "https://www.apple.com/newsroom/2024/09/ios-18-is-available-today-making-iphone-more-personal-and-capable-than-ever/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Swift (programming language) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "swift-announced",
-        "kotlin-2-0-released"
-      ]
-    },
-    {
       "id": "openai-o1-released",
       "slug": "openai-o1-released",
       "date": "2024-09-12",
@@ -97,6 +50,53 @@
       ]
     },
     {
+      "id": "swift-6-released",
+      "slug": "swift-6-released",
+      "date": "2024-09-17",
+      "datePrecision": "day",
+      "title": "Swift 6 released",
+      "summary": "Apple shipped Swift 6 on September 17, 2024 with compile-time data-race safety available via an opt-in language mode.",
+      "about": "Swift 6 turns data races into compile-time errors when projects enable the Swift 6 language mode — critical for iOS apps mixing async networking and UI updates. It completes Apple's push toward safer concurrent Swift after years of incremental concurrency features since Swift 5.5.",
+      "narrative": {
+        "whyChosen": "Swift 6 is Apple's biggest language safety upgrade since optionals.",
+        "whyImportant": "Compile-time data-race detection raises the bar for concurrent mobile and server Swift.",
+        "problemSolved": "Async/await adoption exposed subtle threading bugs that only crashed in production."
+      },
+      "category": "software",
+      "tags": [
+        "swift",
+        "apple",
+        "ios",
+        "programming-language",
+        "concurrency"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — iOS 18 available today (September 16, 2024)",
+          "url": "https://www.apple.com/newsroom/2024/09/ios-18-is-available-today-making-iphone-more-personal-and-capable-than-ever/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Swift (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "swift-announced",
+        "kotlin-2-0-released"
+      ]
+    },
+    {
       "id": "elixir-1-17-released",
       "slug": "elixir-1-17-released",
       "date": "2024-09-19",
@@ -136,6 +136,56 @@
         "elixir-1-16-released",
         "elixir-1-14-released",
         "erlang-otp-28-released"
+      ]
+    },
+    {
+      "id": "iphone-16-released",
+      "slug": "iphone-16-released",
+      "date": "2024-09-20",
+      "datePrecision": "day",
+      "title": "iPhone 16 released",
+      "summary": "Apple began selling the iPhone 16 on September 20, 2024 — Camera Control button and Apple Intelligence integration.",
+      "about": "The Camera Control button added a dedicated hardware input for camera and future app actions. Apple Intelligence brought on-device LLM features that iOS developers began integrating through new system APIs.",
+      "narrative": {
+        "whyChosen": "The iPhone 16 paired a new hardware button with Apple's on-device AI push.",
+        "whyImportant": "Camera Control and Apple Intelligence APIs expanded how apps integrate with system AI and capture.",
+        "problemSolved": "Mobile AI features were mostly cloud-dependent; camera access lacked dedicated hardware."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 16 released — launch",
+          "url": "https://www.apple.com/newsroom/2024/09/09apple-introduces-iphone-16-and-iphone-16-plus/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 16 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_16",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-15-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
       ]
     }
   ]

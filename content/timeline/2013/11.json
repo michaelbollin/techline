@@ -1,38 +1,6 @@
 {
   "events": [
     {
-      "id": "wix-ipo",
-      "slug": "wix-ipo",
-      "date": "2013-11-06",
-      "datePrecision": "day",
-      "title": "Wix IPO",
-      "summary": "Wix began trading on NASDAQ on November 6, 2013 under ticker WIX — raising $127 million at $16.50 per share.",
-      "about": "The IPO validated freemium website builders as a public-market category alongside Twitter's debut that same week. Wix had grown to 40 million registered users with a drag-and-drop editor that let small businesses publish without developers.",
-      "narrative": {
-        "whyChosen": "Wix's IPO marked website builders as a scalable public SaaS business.",
-        "whyImportant": "Public capital funded international expansion and product development for no-code publishing.",
-        "problemSolved": "Freemium builders needed growth capital beyond venture rounds to compete at scale."
-      },
-      "category": "company",
-      "tags": ["wix", "ipo", "website-builder", "saas", "retail"],
-      "companies": [{ "id": "wix", "name": "Wix" }],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "NASDAQ — Wix begins trading November 6, 2013",
-          "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-welcomes-wix-nasdaqwix-nasdaq-stock-market",
-          "role": "date"
-        },
-        {
-          "title": "TechCrunch — Wix prices IPO at $16.50 (overview)",
-          "url": "https://techcrunch.com/2013/11/05/twitter-friends-ahead-of-its-public-debut-wednesday-wix-prices-ipo-at-16-50-per-share-with-valuation-near-800m/",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": ["wix-founded", "shopify-ipo", "squarespace-launched"]
-    },
-    {
       "id": "postcss-released",
       "slug": "postcss-released",
       "date": "2013-11-04",
@@ -46,8 +14,20 @@
         "problemSolved": "Each CSS tool reinvented parsing and transformation instead of sharing a common pipeline."
       },
       "category": "software",
-      "tags": ["postcss", "css", "frontend", "web", "open-source"],
-      "people": [{ "id": "andrey-sitnik", "name": "Andrey Sitnik", "role": "creator" }],
+      "tags": [
+        "postcss",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "andrey-sitnik",
+          "name": "Andrey Sitnik",
+          "role": "creator"
+        }
+      ],
       "companies": [],
       "importance": 1,
       "media": [],
@@ -63,7 +43,107 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["autoprefixer-released", "tailwind-css-released", "sass-released"]
+      "relatedIds": [
+        "autoprefixer-released",
+        "tailwind-css-released",
+        "sass-released"
+      ]
+    },
+    {
+      "id": "wix-ipo",
+      "slug": "wix-ipo",
+      "date": "2013-11-06",
+      "datePrecision": "day",
+      "title": "Wix IPO",
+      "summary": "Wix began trading on NASDAQ on November 6, 2013 under ticker WIX — raising $127 million at $16.50 per share.",
+      "about": "The IPO validated freemium website builders as a public-market category alongside Twitter's debut that same week. Wix had grown to 40 million registered users with a drag-and-drop editor that let small businesses publish without developers.",
+      "narrative": {
+        "whyChosen": "Wix's IPO marked website builders as a scalable public SaaS business.",
+        "whyImportant": "Public capital funded international expansion and product development for no-code publishing.",
+        "problemSolved": "Freemium builders needed growth capital beyond venture rounds to compete at scale."
+      },
+      "category": "company",
+      "tags": [
+        "wix",
+        "ipo",
+        "website-builder",
+        "saas",
+        "retail"
+      ],
+      "companies": [
+        {
+          "id": "wix",
+          "name": "Wix"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "NASDAQ — Wix begins trading November 6, 2013",
+          "url": "https://ir.nasdaq.com/news-releases/news-release-details/nasdaq-welcomes-wix-nasdaqwix-nasdaq-stock-market",
+          "role": "date"
+        },
+        {
+          "title": "TechCrunch — Wix prices IPO at $16.50 (overview)",
+          "url": "https://techcrunch.com/2013/11/05/twitter-friends-ahead-of-its-public-debut-wednesday-wix-prices-ipo-at-16-50-per-share-with-valuation-near-800m/",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "wix-founded",
+        "shopify-ipo",
+        "squarespace-launched"
+      ]
+    },
+    {
+      "id": "nokia-lumia-1520-released",
+      "slug": "nokia-lumia-1520-released",
+      "date": "2013-11-15",
+      "datePrecision": "day",
+      "title": "Nokia Lumia 1520 released",
+      "summary": "Nokia released the Nokia Lumia 1520 — 6-inch phablet Windows Phone with 1080p display.",
+      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. 6-inch phablet windows phone with 1080p display.",
+      "narrative": {
+        "whyChosen": "The Nokia Lumia 1520 was a flagship Nokia smartphone milestone.",
+        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "nokia"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nokia",
+          "name": "Nokia"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nokia Lumia 1520 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_1520",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nokia Lumia 1520 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_1520",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nokia-9000-communicator-released",
+        "nokia-lumia-1020-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "windows-phone-eol"
+      ]
     }
   ]
 }

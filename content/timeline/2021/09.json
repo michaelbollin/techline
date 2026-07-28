@@ -1,53 +1,6 @@
 {
   "events": [
     {
-      "id": "java-17-released",
-      "slug": "java-17-released",
-      "date": "2021-09-14",
-      "datePrecision": "day",
-      "title": "Java 17 LTS released",
-      "summary": "Oracle and the OpenJDK community shipped Java 17 on September 14, 2021 — a long-term support release with sealed classes, pattern matching for switch (preview), and foreign memory APIs.",
-      "about": "Java 17 became the baseline for Spring Boot 3, Android toolchain updates, and enterprise migrations off Java 8/11. Sealed classes and records (from 16) let teams model domain data safely; LTS status meant banks and vendors could standardize on one version for years.",
-      "narrative": {
-        "whyChosen": "Java 17 is the modern LTS most enterprises target after the Java 8 era.",
-        "whyImportant": "It bundled years of incremental language improvements into a supported long-term release.",
-        "problemSolved": "Organizations on Java 8 needed a supported path to modern syntax without annual upgrade churn."
-      },
-      "category": "software",
-      "tags": [
-        "java",
-        "jvm",
-        "programming-language",
-        "lts"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "sun-microsystems",
-          "name": "Sun Microsystems"
-        }
-      ],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "OpenJDK — JDK 17 General Availability (September 14, 2021)",
-          "url": "https://openjdk.org/projects/jdk/17/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Java (programming language) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "java-1-0-shipped",
-        "java-21-released",
-        "kotlin-2-0-released"
-      ]
-    },
-    {
       "id": "safari-15-ios-web-extensions",
       "slug": "safari-15-ios-web-extensions",
       "date": "2021-09",
@@ -96,6 +49,53 @@
       ]
     },
     {
+      "id": "java-17-released",
+      "slug": "java-17-released",
+      "date": "2021-09-14",
+      "datePrecision": "day",
+      "title": "Java 17 LTS released",
+      "summary": "Oracle and the OpenJDK community shipped Java 17 on September 14, 2021 — a long-term support release with sealed classes, pattern matching for switch (preview), and foreign memory APIs.",
+      "about": "Java 17 became the baseline for Spring Boot 3, Android toolchain updates, and enterprise migrations off Java 8/11. Sealed classes and records (from 16) let teams model domain data safely; LTS status meant banks and vendors could standardize on one version for years.",
+      "narrative": {
+        "whyChosen": "Java 17 is the modern LTS most enterprises target after the Java 8 era.",
+        "whyImportant": "It bundled years of incremental language improvements into a supported long-term release.",
+        "problemSolved": "Organizations on Java 8 needed a supported path to modern syntax without annual upgrade churn."
+      },
+      "category": "software",
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "lts"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenJDK — JDK 17 General Availability (September 14, 2021)",
+          "url": "https://openjdk.org/projects/jdk/17/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "java-1-0-shipped",
+        "java-21-released",
+        "kotlin-2-0-released"
+      ]
+    },
+    {
       "id": "swift-5-5-async-await",
       "slug": "swift-5-5-async-await",
       "date": "2021-09-20",
@@ -141,6 +141,57 @@
         "swift-announced",
         "swift-open-sourced",
         "swift-6-released"
+      ]
+    },
+    {
+      "id": "iphone-13-released",
+      "slug": "iphone-13-released",
+      "date": "2021-09-24",
+      "datePrecision": "day",
+      "title": "iPhone 13 released",
+      "summary": "Apple released the iPhone 13 on September 24, 2021 — improved battery life, smaller notch, and Cinematic mode video.",
+      "about": "Incremental gains in battery and video APIs kept iOS as the reference for mobile cinematography apps. The smaller notch slightly adjusted safe-area metrics developers had to handle.",
+      "narrative": {
+        "whyChosen": "The iPhone 13 refined the 5G iPhone with major battery and video upgrades.",
+        "whyImportant": "Cinematic mode showed computational video could be a default camera feature.",
+        "problemSolved": "All-day battery and pro-style video required Pro-tier hardware or third-party apps."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 13 released — launch",
+          "url": "https://www.apple.com/newsroom/2021/09/14apple-introduces-iphone-13-and-iphone-13-mini/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 13 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_13",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-12-released",
+        "iphone-14-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
       ]
     }
   ]

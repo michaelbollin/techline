@@ -1,58 +1,49 @@
 {
   "events": [
     {
-      "id": "nextjs-open-sourced",
-      "slug": "nextjs-open-sourced",
-      "date": "2016-10-25",
+      "id": "audrey-tang-digital-minister",
+      "slug": "audrey-tang-digital-minister",
+      "date": "2016-10-01",
       "datePrecision": "day",
-      "title": "Next.js open sourced",
-      "summary": "Vercel (then ZEIT) released Next.js — a React framework for server-rendered universal JavaScript apps.",
-      "about": "Next.js wraps React with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive UI. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on Vercel. Example: a blog that pre-renders HTML at build time but hydrates React on the client.",
+      "title": "Audrey Tang appointed Taiwan digital minister",
+      "summary": "Audrey Tang was appointed minister without portfolio for digital affairs in Taiwan on October 1, 2016 — the youngest and first transgender cabinet minister.",
+      "about": "Tang promoted radical government transparency, open data, and participatory budgeting — exporting Taiwan's civic tech model during COVID contact tracing and beyond.",
       "narrative": {
-        "whyChosen": "Next.js became the default way to ship React with SSR, routing, and static generation in one toolchain.",
-        "whyImportant": "It bridged SPA ergonomics with SEO-friendly server rendering before React Server Components.",
-        "problemSolved": "React alone did not solve routing, data loading, or SSR — every team rebuilt the same webpack stack."
+        "whyChosen": "Tang brought open-source values into national government at cabinet level.",
+        "whyImportant": "It demonstrated hackers could reform public institutions from inside government.",
+        "problemSolved": "Governments lacked technical leadership that understood open collaboration."
       },
-      "category": "software",
+      "category": "culture",
       "tags": [
-        "nextjs",
-        "react",
-        "ssr",
-        "web-framework"
+        "people",
+        "civic-tech",
+        "government",
+        "taiwan"
       ],
-      "people": [],
-      "companies": [
+      "people": [
         {
-          "id": "meta",
-          "name": "Meta"
-        },
-        {
-          "id": "vercel",
-          "name": "Vercel"
+          "id": "audrey-tang",
+          "name": "Audrey Tang",
+          "role": "researcher"
         }
       ],
-      "importance": 1,
-      "media": [
-        {
-          "type": "link",
-          "url": "https://vercel.com/blog/next",
-          "title": "Vercel — Next.js announcement"
-        }
-      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
       "sources": [
         {
-          "title": "Vercel blog — Next.js (October 25, 2016)",
-          "url": "https://vercel.com/blog/next",
+          "title": "Taiwan Executive Yuan — Digital minister appointment (October 2016)",
+          "url": "https://en.wikipedia.org/wiki/Audrey_Tang",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Next.js (overview)",
-          "url": "https://en.wikipedia.org/wiki/Next.js",
+          "title": "Britannica — Audrey Tang (overview)",
+          "url": "https://www.britannica.com/biography/Audrey-Tang",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "react-open-sourced"
+        "audrey-tang-g0v-launched"
       ]
     },
     {
@@ -106,49 +97,107 @@
       ]
     },
     {
-      "id": "audrey-tang-digital-minister",
-      "slug": "audrey-tang-digital-minister",
-      "date": "2016-10-01",
+      "id": "google-pixel-released",
+      "slug": "google-pixel-released",
+      "date": "2016-10-20",
       "datePrecision": "day",
-      "title": "Audrey Tang appointed Taiwan digital minister",
-      "summary": "Audrey Tang was appointed minister without portfolio for digital affairs in Taiwan on October 1, 2016 — the youngest and first transgender cabinet minister.",
-      "about": "Tang promoted radical government transparency, open data, and participatory budgeting — exporting Taiwan's civic tech model during COVID contact tracing and beyond.",
+      "title": "Google Pixel released",
+      "summary": "Google began selling the Google Pixel — first Google-only phone — Assistant, best-in-class Android camera.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. First google-only phone — assistant, best-in-class android camera. AOSP builds and CTS testing often used Pixel devices as the baseline.",
       "narrative": {
-        "whyChosen": "Tang brought open-source values into national government at cabinet level.",
-        "whyImportant": "It demonstrated hackers could reform public institutions from inside government.",
-        "problemSolved": "Governments lacked technical leadership that understood open collaboration."
+        "whyChosen": "The Google Pixel was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
       },
-      "category": "culture",
+      "category": "hardware",
       "tags": [
-        "people",
-        "civic-tech",
-        "government",
-        "taiwan"
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
       ],
-      "people": [
+      "people": [],
+      "companies": [
         {
-          "id": "audrey-tang",
-          "name": "Audrey Tang",
-          "role": "researcher"
+          "id": "google",
+          "name": "Google"
         }
       ],
-      "companies": [],
       "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Taiwan Executive Yuan — Digital minister appointment (October 2016)",
-          "url": "https://en.wikipedia.org/wiki/Audrey_Tang",
+          "title": "Google Pixel released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel",
           "role": "date"
         },
         {
-          "title": "Britannica — Audrey Tang (overview)",
-          "url": "https://www.britannica.com/biography/Audrey-Tang",
+          "title": "Wikipedia — Google Pixel (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "audrey-tang-g0v-launched"
+        "google-pixel-2-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
+    },
+    {
+      "id": "nextjs-open-sourced",
+      "slug": "nextjs-open-sourced",
+      "date": "2016-10-25",
+      "datePrecision": "day",
+      "title": "Next.js open sourced",
+      "summary": "Vercel (then ZEIT) released Next.js — a React framework for server-rendered universal JavaScript apps.",
+      "about": "Next.js wraps React with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive UI. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on Vercel. Example: a blog that pre-renders HTML at build time but hydrates React on the client.",
+      "narrative": {
+        "whyChosen": "Next.js became the default way to ship React with SSR, routing, and static generation in one toolchain.",
+        "whyImportant": "It bridged SPA ergonomics with SEO-friendly server rendering before React Server Components.",
+        "problemSolved": "React alone did not solve routing, data loading, or SSR — every team rebuilt the same webpack stack."
+      },
+      "category": "software",
+      "tags": [
+        "nextjs",
+        "react",
+        "ssr",
+        "web-framework"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        },
+        {
+          "id": "vercel",
+          "name": "Vercel"
+        }
+      ],
+      "importance": 1,
+      "media": [
+        {
+          "type": "link",
+          "url": "https://vercel.com/blog/next",
+          "title": "Vercel — Next.js announcement"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vercel blog — Next.js (October 25, 2016)",
+          "url": "https://vercel.com/blog/next",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Next.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Next.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "react-open-sourced"
       ]
     }
   ]

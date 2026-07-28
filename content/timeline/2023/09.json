@@ -1,6 +1,48 @@
 {
   "events": [
     {
+      "id": "elixir-1-14-released",
+      "slug": "elixir-1-14-released",
+      "date": "2023-09-19",
+      "datePrecision": "day",
+      "title": "Elixir 1.14 released",
+      "summary": "The Elixir team released Elixir 1.14 on September 19, 2023 with improved error messages, `dbg/2` debugging, and compiler optimizations.",
+      "about": "Elixir 1.14 made debugging and onboarding easier: `dbg` showed pipeline values inline; clearer compile errors reduced frustration for newcomers. Performance tweaks kept Phoenix and LiveView apps responsive under load.",
+      "narrative": {
+        "whyChosen": "Elixir 1.14 improved developer experience for the growing Phoenix/LiveView community.",
+        "whyImportant": "Better errors and debugging tools lowered the barrier to BEAM adoption.",
+        "problemSolved": "Opaque pipeline errors and cryptic compiler messages slowed Elixir onboarding."
+      },
+      "category": "software",
+      "tags": [
+        "elixir",
+        "erlang",
+        "beam",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Elixir Blog — Announcing Elixir v1.14 (September 19, 2023)",
+          "url": "https://elixir-lang.org/blog/2023/09/19/elixir-1-14-0-released/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Elixir (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "elixir-1-0-released",
+        "elixir-first-release",
+        "erlang-otp-26-released"
+      ]
+    },
+    {
       "id": "java-21-released",
       "slug": "java-21-released",
       "date": "2023-09-19",
@@ -48,45 +90,54 @@
       ]
     },
     {
-      "id": "elixir-1-14-released",
-      "slug": "elixir-1-14-released",
-      "date": "2023-09-19",
+      "id": "iphone-15-released",
+      "slug": "iphone-15-released",
+      "date": "2023-09-22",
       "datePrecision": "day",
-      "title": "Elixir 1.14 released",
-      "summary": "The Elixir team released Elixir 1.14 on September 19, 2023 with improved error messages, `dbg/2` debugging, and compiler optimizations.",
-      "about": "Elixir 1.14 made debugging and onboarding easier: `dbg` showed pipeline values inline; clearer compile errors reduced frustration for newcomers. Performance tweaks kept Phoenix and LiveView apps responsive under load.",
+      "title": "iPhone 15 released",
+      "summary": "Apple released the iPhone 15 on September 22, 2023 — USB-C on all models and the A16/A17 Pro split across tiers.",
+      "about": "USB-C ended the Lightning era for iPhone peripherals — one cable for iPad, Mac, and iPhone simplified hardware accessory development. The 15 Pro's A17 Pro emphasized console-grade mobile gaming.",
       "narrative": {
-        "whyChosen": "Elixir 1.14 improved developer experience for the growing Phoenix/LiveView community.",
-        "whyImportant": "Better errors and debugging tools lowered the barrier to BEAM adoption.",
-        "problemSolved": "Opaque pipeline errors and cryptic compiler messages slowed Elixir onboarding."
+        "whyChosen": "The iPhone 15 switched the entire iPhone line to USB-C.",
+        "whyImportant": "A universal USB-C port aligned iPhone with the rest of Apple's and Android's hardware ecosystem.",
+        "problemSolved": "Developers and users juggled Lightning and USB-C cables across Apple devices."
       },
-      "category": "software",
+      "category": "hardware",
       "tags": [
-        "elixir",
-        "erlang",
-        "beam",
-        "programming-language"
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
       ],
       "people": [],
-      "companies": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
       "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Elixir Blog — Announcing Elixir v1.14 (September 19, 2023)",
-          "url": "https://elixir-lang.org/blog/2023/09/19/elixir-1-14-0-released/",
+          "title": "iPhone 15 released — launch",
+          "url": "https://www.apple.com/newsroom/2023/09/12apple-unveils-iphone-15-and-iphone-15-plus/",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Elixir (programming language) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Elixir_(programming_language)",
+          "title": "Wikipedia — iPhone 15 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_15",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "elixir-1-0-released",
-        "elixir-first-release",
-        "erlang-otp-26-released"
+        "iphone-goes-on-sale",
+        "iphone-14-released",
+        "iphone-16-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
       ]
     },
     {

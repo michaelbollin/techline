@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "blackberry-pearl-released",
+      "slug": "blackberry-pearl-released",
+      "date": "2006-09-12",
+      "datePrecision": "day",
+      "title": "BlackBerry Pearl released",
+      "summary": "BlackBerry released the BlackBerry Pearl — consumer-focused BlackBerry with trackball and camera.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Consumer-focused blackberry with trackball and camera. BES-connected apps and push email defined mobile workflows for years.",
+      "narrative": {
+        "whyChosen": "The BlackBerry Pearl was a key BlackBerry hardware milestone.",
+        "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
+        "problemSolved": "Business users needed secure mobile email before modern smartphone platforms."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "blackberry"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "blackberry",
+          "name": "BlackBerry"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "BlackBerry Pearl released — launch",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_Pearl",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BlackBerry Pearl (overview)",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_Pearl",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "blackberry-5810-released",
+        "blackberry-7290-released",
+        "blackberry-bold-9000-released",
+        "iphone-goes-on-sale",
+        "blackberry-os-eol"
+      ]
+    }
+  ]
+}

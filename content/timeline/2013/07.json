@@ -1,47 +1,6 @@
 {
   "events": [
     {
-      "id": "eslint-released",
-      "slug": "eslint-released",
-      "date": "2013-07-16",
-      "datePrecision": "day",
-      "title": "ESLint first released",
-      "summary": "Nicholas Zakas introduced ESLint on July 16, 2013 — a pluggable JavaScript linter with every rule configurable at runtime.",
-      "about": "ESLint parses code into an AST and runs shareable rules — catch unused variables, enforce style, or ban dangerous patterns. Plugins extend it for React, TypeScript, and Node. Teams ship `.eslintrc` configs in open source and CI. It replaced JSHint as the default linter for modern JavaScript projects.",
-      "narrative": {
-        "whyChosen": "ESLint made lint rules pluggable when JSHint could not be extended for project needs.",
-        "whyImportant": "It became the standard gatekeeper for JavaScript quality in editors and CI pipelines.",
-        "problemSolved": "Teams needed custom static analysis rules that existing linters could not add."
-      },
-      "category": "software",
-      "tags": [
-        "eslint",
-        "linter",
-        "javascript",
-        "static-analysis",
-        "open-source"
-      ],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "Nicholas Zakas — Introducing ESLint (July 16, 2013)",
-          "url": "https://humanwhocodes.com/blog/2013/07/16/introducing-eslint/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — ESLint (overview)",
-          "url": "https://en.wikipedia.org/wiki/ESLint",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "babel-released",
-        "typescript-preview-released",
-        "webpack-released"
-      ]
-    },
-    {
       "id": "opera-chromium-switch",
       "slug": "opera-chromium-switch",
       "date": "2013-07-02",
@@ -90,6 +49,97 @@
         "opera-2-released",
         "google-chrome-released",
         "vivaldi-browser-launched"
+      ]
+    },
+    {
+      "id": "eslint-released",
+      "slug": "eslint-released",
+      "date": "2013-07-16",
+      "datePrecision": "day",
+      "title": "ESLint first released",
+      "summary": "Nicholas Zakas introduced ESLint on July 16, 2013 — a pluggable JavaScript linter with every rule configurable at runtime.",
+      "about": "ESLint parses code into an AST and runs shareable rules — catch unused variables, enforce style, or ban dangerous patterns. Plugins extend it for React, TypeScript, and Node. Teams ship `.eslintrc` configs in open source and CI. It replaced JSHint as the default linter for modern JavaScript projects.",
+      "narrative": {
+        "whyChosen": "ESLint made lint rules pluggable when JSHint could not be extended for project needs.",
+        "whyImportant": "It became the standard gatekeeper for JavaScript quality in editors and CI pipelines.",
+        "problemSolved": "Teams needed custom static analysis rules that existing linters could not add."
+      },
+      "category": "software",
+      "tags": [
+        "eslint",
+        "linter",
+        "javascript",
+        "static-analysis",
+        "open-source"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nicholas Zakas — Introducing ESLint (July 16, 2013)",
+          "url": "https://humanwhocodes.com/blog/2013/07/16/introducing-eslint/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ESLint (overview)",
+          "url": "https://en.wikipedia.org/wiki/ESLint",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "babel-released",
+        "typescript-preview-released",
+        "webpack-released"
+      ]
+    },
+    {
+      "id": "nokia-lumia-1020-released",
+      "slug": "nokia-lumia-1020-released",
+      "date": "2013-07-26",
+      "datePrecision": "day",
+      "title": "Nokia Lumia 1020 released",
+      "summary": "Nokia released the Nokia Lumia 1020 — 41 MP PureView camera — photography-focused Windows Phone.",
+      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. 41 mp pureview camera — photography-focused windows phone.",
+      "narrative": {
+        "whyChosen": "The Nokia Lumia 1020 was a flagship Nokia smartphone milestone.",
+        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "nokia"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nokia",
+          "name": "Nokia"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nokia Lumia 1020 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_1020",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nokia Lumia 1020 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_1020",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nokia-9000-communicator-released",
+        "nokia-lumia-920-released",
+        "nokia-lumia-1520-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "windows-phone-eol"
       ]
     }
   ]

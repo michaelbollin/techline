@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "samsung-galaxy-s23-released",
+      "slug": "samsung-galaxy-s23-released",
+      "date": "2023-02-17",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S23 released",
+      "summary": "Samsung began selling the Samsung Galaxy S23 — Snapdragon 8 Gen 2 globally — refined efficiency-focused flagship.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Snapdragon 8 gen 2 globally — refined efficiency-focused flagship. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S23 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S23 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S23",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S23 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S23",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s22-released",
+        "samsung-galaxy-s24-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    }
+  ]
+}

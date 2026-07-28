@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "samsung-galaxy-s20-released",
+      "slug": "samsung-galaxy-s20-released",
+      "date": "2020-03-06",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy S20 released",
+      "summary": "Samsung began selling the Samsung Galaxy S20 — 120 Hz displays and 5G across the line — COVID-era flagship launch.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. 120 hz displays and 5g across the line — covid-era flagship launch. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy S20 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy S20 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S20",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy S20 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S20",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s10-released",
+        "samsung-galaxy-s21-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    }
+  ]
+}

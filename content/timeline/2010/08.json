@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "blackberry-torch-released",
+      "slug": "blackberry-torch-released",
+      "date": "2010-08-12",
+      "datePrecision": "day",
+      "title": "BlackBerry Torch released",
+      "summary": "BlackBerry released the BlackBerry Torch — slider phone mixing touch and keyboard on BlackBerry OS 6.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Slider phone mixing touch and keyboard on blackberry os 6. BES-connected apps and push email defined mobile workflows for years.",
+      "narrative": {
+        "whyChosen": "The BlackBerry Torch was a key BlackBerry hardware milestone.",
+        "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
+        "problemSolved": "Business users needed secure mobile email before modern smartphone platforms."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "blackberry"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "blackberry",
+          "name": "BlackBerry"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "BlackBerry Torch released — launch",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_Torch",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BlackBerry Torch (overview)",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_Torch",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "blackberry-5810-released",
+        "blackberry-bold-9000-released",
+        "blackberry-z10-released",
+        "iphone-goes-on-sale",
+        "blackberry-os-eol"
+      ]
+    }
+  ]
+}

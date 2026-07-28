@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "samsung-galaxy-note-9-released",
+      "slug": "samsung-galaxy-note-9-released",
+      "date": "2018-08-24",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Note 9 released",
+      "summary": "Samsung released the Samsung Galaxy Note 9 — Bluetooth S Pen and 4000 mAh battery — iterative Note update.",
+      "about": "The Galaxy Note targeted stylus power users on Android. Bluetooth s pen and 4000 mah battery — iterative note update. Note apps and split-screen Android development often targeted this hardware class.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Note 9 advanced Samsung's stylus phablet line.",
+        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
+        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-note",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Note 9 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_9",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Note 9 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_9",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-note-released",
+        "samsung-galaxy-note-8-released",
+        "samsung-galaxy-note-10-released",
+        "samsung-galaxy-s-released",
+        "iphone-6-plus-released"
+      ]
+    }
+  ]
+}

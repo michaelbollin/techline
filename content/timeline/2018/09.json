@@ -1,53 +1,6 @@
 {
   "events": [
     {
-      "id": "java-11-released",
-      "slug": "java-11-released",
-      "date": "2018-09-25",
-      "datePrecision": "day",
-      "title": "Java 11 LTS released",
-      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in HTTP client and removed Java EE modules.",
-      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in Java 10), added a built-in HTTP client, and single-file `java` launch scripts modernized everyday Java development.",
-      "narrative": {
-        "whyChosen": "Java 11 was the bridge LTS between the Java 8 era and modern 17/21 releases.",
-        "whyImportant": "It established the six-month feature release + LTS every three years model.",
-        "problemSolved": "After Java 9/10's rapid releases, enterprises needed a stable LTS with modern features."
-      },
-      "category": "software",
-      "tags": [
-        "java",
-        "jvm",
-        "programming-language",
-        "lts"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "sun-microsystems",
-          "name": "Sun Microsystems"
-        }
-      ],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "OpenJDK — JDK 11 General Availability (September 25, 2018)",
-          "url": "https://openjdk.org/projects/jdk/11/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Java version history (overview)",
-          "url": "https://en.wikipedia.org/wiki/Java_version_history",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "java-8-released",
-        "java-17-released",
-        "java-5-released"
-      ]
-    },
-    {
       "id": "phoenix-liveview-released",
       "slug": "phoenix-liveview-released",
       "date": "2018-09-04",
@@ -104,7 +57,13 @@
         "problemSolved": "Teams hesitated to adopt Cypress in CI while the framework was still labeled beta."
       },
       "category": "software",
-      "tags": ["cypress", "testing", "javascript", "browser", "open-source"],
+      "tags": [
+        "cypress",
+        "testing",
+        "javascript",
+        "browser",
+        "open-source"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -119,7 +78,109 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["cypress-open-sourced", "selenium-2-released", "playwright-released"]
+      "relatedIds": [
+        "cypress-open-sourced",
+        "selenium-2-released",
+        "playwright-released"
+      ]
+    },
+    {
+      "id": "iphone-xs-released",
+      "slug": "iphone-xs-released",
+      "date": "2018-09-21",
+      "datePrecision": "day",
+      "title": "iPhone XS released",
+      "summary": "Apple began selling the iPhone XS on September 21, 2018 — refining the iPhone X with the A12 Bionic and improved cameras.",
+      "about": "The XS established the annual 'pro' tier cadence with better neural engine performance for Core ML and computational photography APIs developers could leverage in camera and AR apps.",
+      "narrative": {
+        "whyChosen": "The XS iterated the premium iPhone template with a much faster neural engine.",
+        "whyImportant": "On-device ML performance became a realistic baseline for iOS camera and AR apps.",
+        "problemSolved": "Premium iPhones needed better ML silicon for real-time vision workloads."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone XS released — launch",
+          "url": "https://www.apple.com/newsroom/2018/09/12iPhone-xs-and-iphone-xs-max-the-best-and-biggest-displays-in-iphone-history/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone XS (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_XS",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-x-released",
+        "iphone-xr-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
+    },
+    {
+      "id": "java-11-released",
+      "slug": "java-11-released",
+      "date": "2018-09-25",
+      "datePrecision": "day",
+      "title": "Java 11 LTS released",
+      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in HTTP client and removed Java EE modules.",
+      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in Java 10), added a built-in HTTP client, and single-file `java` launch scripts modernized everyday Java development.",
+      "narrative": {
+        "whyChosen": "Java 11 was the bridge LTS between the Java 8 era and modern 17/21 releases.",
+        "whyImportant": "It established the six-month feature release + LTS every three years model.",
+        "problemSolved": "After Java 9/10's rapid releases, enterprises needed a stable LTS with modern features."
+      },
+      "category": "software",
+      "tags": [
+        "java",
+        "jvm",
+        "programming-language",
+        "lts"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "OpenJDK — JDK 11 General Availability (September 25, 2018)",
+          "url": "https://openjdk.org/projects/jdk/11/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Java version history (overview)",
+          "url": "https://en.wikipedia.org/wiki/Java_version_history",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "java-8-released",
+        "java-17-released",
+        "java-5-released"
+      ]
     }
   ]
 }

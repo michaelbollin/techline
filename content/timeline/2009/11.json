@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "motorola-droid-released",
+      "slug": "motorola-droid-released",
+      "date": "2009-11-06",
+      "datePrecision": "day",
+      "title": "Motorola Droid released",
+      "summary": "Motorola released the Motorola Droid — Verizon Android flagship that popularized Android 2.0 in the US.",
+      "about": "The phone expanded Android's flagship landscape beyond Samsung and Google. Verizon android flagship that popularized android 2.0 in the us.",
+      "narrative": {
+        "whyChosen": "The Motorola Droid was a significant Android flagship.",
+        "whyImportant": "Diverse Android flagships gave developers multiple hardware targets beyond Galaxy and Pixel.",
+        "problemSolved": "Android needed credible flagship alternatives to Samsung and carrier-skinned phones."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "android",
+        "motorola"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "motorola",
+          "name": "Motorola"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Motorola Droid released — launch",
+          "url": "https://en.wikipedia.org/wiki/Motorola_Droid",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Motorola Droid (overview)",
+          "url": "https://en.wikipedia.org/wiki/Motorola_Droid",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "t-mobile-g1-released",
+        "htc-one-m7-released",
+        "android-announced"
+      ]
+    },
+    {
       "id": "go-open-sourced",
       "slug": "go-open-sourced",
       "date": "2009-11-10",

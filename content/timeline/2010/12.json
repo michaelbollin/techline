@@ -47,6 +47,57 @@
         "intel-atom-announced",
         "ipad-introduced"
       ]
+    },
+    {
+      "id": "nexus-s-released",
+      "slug": "nexus-s-released",
+      "date": "2010-12-16",
+      "datePrecision": "day",
+      "title": "Nexus S released",
+      "summary": "Google began selling the Nexus S — Samsung-built Nexus with NFC and curved glass.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Samsung-built nexus with nfc and curved glass. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Nexus S was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "nexus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nexus S released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nexus_S",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nexus S (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nexus_S",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nexus-one-released",
+        "nexus-one-released",
+        "galaxy-nexus-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
     }
   ]
 }

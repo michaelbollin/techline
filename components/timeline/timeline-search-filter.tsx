@@ -17,7 +17,7 @@ export function TimelineSearchFilter({ value, onChange, className }: TimelineSea
           type="search"
           className="w-full border-0 border-b border-black bg-transparent py-0.5 pr-5 pb-1.5 text-base leading-snug text-black outline-none placeholder:text-neutral-500"
           value={value}
-          placeholder="Search events…"
+          placeholder="wordpress, bill gates"
           aria-label="Search events"
           onChange={(event) => onChange(event.target.value)}
         />

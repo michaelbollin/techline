@@ -14,7 +14,13 @@
         "problemSolved": "Joomla 3's aging admin and templates could not match modern CMS expectations."
       },
       "category": "software",
-      "tags": ["joomla", "cms", "php", "web", "open-source"],
+      "tags": [
+        "joomla",
+        "cms",
+        "php",
+        "web",
+        "open-source"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,62 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["joomla-3-0-released", "joomla-2-5-released", "wordpress-6-0-released"]
+      "relatedIds": [
+        "joomla-3-0-released",
+        "joomla-2-5-released",
+        "wordpress-6-0-released"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-z-fold-3-released",
+      "slug": "samsung-galaxy-z-fold-3-released",
+      "date": "2021-08-27",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Z Fold 3 released",
+      "summary": "Samsung began selling the Samsung Galaxy Z Fold 3 — S Pen support and IPX8 water resistance on a foldable.",
+      "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. S pen support and ipx8 water resistance on a foldable.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Z Fold 3 pushed foldable Android hardware into the mainstream.",
+        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-z",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Z Fold 3 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_3",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Z Fold 3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-fold-released",
+        "samsung-galaxy-z-fold-2-released",
+        "samsung-galaxy-z-fold-4-released",
+        "samsung-galaxy-s10-released",
+        "iphone-x-released"
+      ]
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "id": "nokia-n95-released",
+      "slug": "nokia-n95-released",
+      "date": "2007-03-23",
+      "datePrecision": "day",
+      "title": "Nokia N95 released",
+      "summary": "Nokia released the Nokia N95 — 5 MP camera and GPS — Symbian smartphone peak before iPhone.",
+      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. 5 mp camera and gps — symbian smartphone peak before iphone.",
+      "narrative": {
+        "whyChosen": "The Nokia N95 was a flagship Nokia smartphone milestone.",
+        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "nokia"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nokia",
+          "name": "Nokia"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nokia N95 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nokia_N95",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nokia N95 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_N95",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nokia-9000-communicator-released",
+        "nokia-9210-communicator-released",
+        "nokia-n97-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "windows-phone-eol"
+      ]
+    }
+  ]
+}

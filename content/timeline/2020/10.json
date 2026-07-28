@@ -14,7 +14,13 @@
         "problemSolved": "Monolithic frontends could not be split into independently deployed apps without duplicate bundles."
       },
       "category": "software",
-      "tags": ["webpack", "javascript", "bundler", "frontend", "build-tool"],
+      "tags": [
+        "webpack",
+        "javascript",
+        "bundler",
+        "frontend",
+        "build-tool"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +35,112 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["webpack-released", "vite-2-released"]
+      "relatedIds": [
+        "webpack-released",
+        "vite-2-released"
+      ]
+    },
+    {
+      "id": "google-pixel-5-released",
+      "slug": "google-pixel-5-released",
+      "date": "2020-10-15",
+      "datePrecision": "day",
+      "title": "Google Pixel 5 released",
+      "summary": "Google began selling the Google Pixel 5 — mid-range pivot with wireless charging in aluminum body.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Mid-range pivot with wireless charging in aluminum body. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Google Pixel 5 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Pixel 5 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_5",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Pixel 5 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_5",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-pixel-released",
+        "google-pixel-4-released",
+        "google-pixel-6-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
+    },
+    {
+      "id": "iphone-12-released",
+      "slug": "iphone-12-released",
+      "date": "2020-10-23",
+      "datePrecision": "day",
+      "title": "iPhone 12 released",
+      "summary": "Apple began selling the iPhone 12 on October 23, 2020 — 5G, flat-edge design, and MagSafe accessories.",
+      "about": "5G connectivity changed how developers thought about mobile bandwidth; MagSafe created a new accessory and charging API ecosystem. The flat design returned to a form factor reminiscent of iPhone 4/5 industrial design.",
+      "narrative": {
+        "whyChosen": "The iPhone 12 brought 5G and MagSafe to the mainstream iPhone line.",
+        "whyImportant": "5G and magnetic accessory attachment opened new mobile hardware interaction patterns.",
+        "problemSolved": "iPhones lacked 5G radios; wireless charging alignment was finicky without magnets."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 12 released — launch",
+          "url": "https://www.apple.com/newsroom/2020/10/apple-announces-iphone-12-and-iphone-12-mini-a-new-era-for-iphone/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 12 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_12",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-11-released",
+        "iphone-13-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
     }
   ]
 }

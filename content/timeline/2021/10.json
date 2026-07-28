@@ -14,7 +14,10 @@
         "problemSolved": "Complex conditional logic in Python often devolved into unreadable nested comparisons."
       },
       "category": "software",
-      "tags": ["python", "programming-language"],
+      "tags": [
+        "python",
+        "programming-language"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -29,7 +32,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["python-3-0-released", "python-3-11-released"]
+      "relatedIds": [
+        "python-3-0-released",
+        "python-3-11-released"
+      ]
     },
     {
       "id": "rust-2021-edition",
@@ -45,7 +51,10 @@
         "problemSolved": "Async closures and panic formatting had rough edges that slowed Rust adoption in production services."
       },
       "category": "software",
-      "tags": ["rust", "programming-language"],
+      "tags": [
+        "rust",
+        "programming-language"
+      ],
       "importance": 2,
       "media": [],
       "sources": [
@@ -60,7 +69,61 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["rust-1-0-released", "rust-2024-edition"]
+      "relatedIds": [
+        "rust-1-0-released",
+        "rust-2024-edition"
+      ]
+    },
+    {
+      "id": "google-pixel-6-released",
+      "slug": "google-pixel-6-released",
+      "date": "2021-10-28",
+      "datePrecision": "day",
+      "title": "Google Pixel 6 released",
+      "summary": "Google began selling the Google Pixel 6 — first Tensor chip — Google-designed silicon for ML workloads.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. First tensor chip — google-designed silicon for ml workloads. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Google Pixel 6 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "pixel"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Google Pixel 6 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_6",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Google Pixel 6 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Google_Pixel_6",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-pixel-released",
+        "google-pixel-5-released",
+        "google-pixel-7-released",
+        "android-announced",
+        "nexus-one-released"
+      ]
     }
   ]
 }

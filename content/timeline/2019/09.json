@@ -1,6 +1,106 @@
 {
   "events": [
     {
+      "id": "samsung-galaxy-fold-released",
+      "slug": "samsung-galaxy-fold-released",
+      "date": "2019-09-06",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Fold released",
+      "summary": "Samsung began selling the Samsung Galaxy Fold — first mainstream foldable smartphone — 7.3-inch unfolded tablet phone.",
+      "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. First mainstream foldable smartphone — 7.3-inch unfolded tablet phone.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Fold pushed foldable Android hardware into the mainstream.",
+        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-z",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Fold released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fold",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Fold (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Fold",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-z-flip-released",
+        "samsung-galaxy-s10-released",
+        "iphone-x-released"
+      ]
+    },
+    {
+      "id": "iphone-11-released",
+      "slug": "iphone-11-released",
+      "date": "2019-09-20",
+      "datePrecision": "day",
+      "title": "iPhone 11 released",
+      "summary": "Apple released the iPhone 11 line on September 20, 2019 — dual cameras on the base model and Night mode computational photography.",
+      "about": "Night mode and ultra-wide lenses made multi-camera assumptions standard even on non-Pro iPhones. Developers building AR and vision features could expect depth and wide-angle hardware on the mainstream model.",
+      "narrative": {
+        "whyChosen": "The iPhone 11 made multi-camera computational photography the default iOS baseline.",
+        "whyImportant": "Night mode and ultra-wide sensors expanded what camera apps could assume on base iPhones.",
+        "problemSolved": "Low-light mobile photography required third-party hacks or Pro-tier hardware."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 11 released — launch",
+          "url": "https://www.apple.com/newsroom/2019/09/10apple-introduces-dual-camera-iphone-11/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 11 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_11",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-xr-released",
+        "iphone-12-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
+    },
+    {
       "id": "dotnet-core-3-0-released",
       "slug": "dotnet-core-3-0-released",
       "date": "2019-09-23",
@@ -61,8 +161,19 @@
         "problemSolved": "TensorFlow 1.x's graph boilerplate was too complex for most practitioners."
       },
       "category": "ai",
-      "tags": ["tensorflow", "ai", "machine-learning", "python", "keras"],
-      "companies": [{ "id": "google", "name": "Google" }],
+      "tags": [
+        "tensorflow",
+        "ai",
+        "machine-learning",
+        "python",
+        "keras"
+      ],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -77,7 +188,10 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["tensorflow-open-sourced", "bazel-open-sourced"]
+      "relatedIds": [
+        "tensorflow-open-sourced",
+        "bazel-open-sourced"
+      ]
     }
   ]
 }

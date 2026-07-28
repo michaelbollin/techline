@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "iphone-14-released",
+      "slug": "iphone-14-released",
+      "date": "2022-09-16",
+      "datePrecision": "day",
+      "title": "iPhone 14 released",
+      "summary": "Apple began selling the iPhone 14 on September 16, 2022 — satellite emergency SOS and crash detection on Pro models, USB standards pressure building.",
+      "about": "The 14 Pro introduced Dynamic Island — a live activity surface developers could target for persistent status UI. Emergency satellite features showed phones as safety devices beyond apps.",
+      "narrative": {
+        "whyChosen": "The iPhone 14 Pro's Dynamic Island created a new live UI surface for developers.",
+        "whyImportant": "Dynamic Island APIs extended how apps show ongoing status around the camera cutout.",
+        "problemSolved": "Persistent status UI was trapped in notifications or in-app chrome."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone 14 released — launch",
+          "url": "https://www.apple.com/newsroom/2022/09/07apple-introduces-iphone-14-and-iphone-14-plus/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone 14 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_14",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-13-released",
+        "iphone-15-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
+    }
+  ]
+}

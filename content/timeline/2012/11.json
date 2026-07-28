@@ -1,0 +1,105 @@
+{
+  "events": [
+    {
+      "id": "nokia-lumia-920-released",
+      "slug": "nokia-lumia-920-released",
+      "date": "2012-11-02",
+      "datePrecision": "day",
+      "title": "Nokia Lumia 920 released",
+      "summary": "Nokia released the Nokia Lumia 920 — wireless charging and PureView camera on Windows Phone 8.",
+      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. Wireless charging and pureview camera on windows phone 8.",
+      "narrative": {
+        "whyChosen": "The Nokia Lumia 920 was a flagship Nokia smartphone milestone.",
+        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "nokia"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "nokia",
+          "name": "Nokia"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nokia Lumia 920 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_920",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nokia Lumia 920 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nokia_Lumia_920",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nokia-9000-communicator-released",
+        "nokia-lumia-800-released",
+        "nokia-lumia-1020-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "windows-phone-eol"
+      ]
+    },
+    {
+      "id": "nexus-4-released",
+      "slug": "nexus-4-released",
+      "date": "2012-11-13",
+      "datePrecision": "day",
+      "title": "Nexus 4 released",
+      "summary": "Google began selling the Nexus 4 — LG-built affordable flagship with wireless charging.",
+      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Lg-built affordable flagship with wireless charging. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "narrative": {
+        "whyChosen": "The Nexus 4 was a flagship Google Android reference device.",
+        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
+        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "google",
+        "android",
+        "nexus"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Nexus 4 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Nexus_4",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nexus 4 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nexus_4",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "nexus-one-released",
+        "galaxy-nexus-released",
+        "nexus-5-released",
+        "android-announced",
+        "t-mobile-g1-released"
+      ]
+    }
+  ]
+}

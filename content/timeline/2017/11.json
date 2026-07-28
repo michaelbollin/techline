@@ -1,6 +1,105 @@
 {
   "events": [
     {
+      "id": "tailwind-css-released",
+      "slug": "tailwind-css-released",
+      "date": "2017-11-01",
+      "datePrecision": "day",
+      "title": "Tailwind CSS first released",
+      "summary": "Adam Wathan published Tailwind CSS v0.1.0 on November 1, 2017 — a utility-first CSS framework built on PostCSS.",
+      "about": "Tailwind shipped hundreds of single-purpose classes (`flex`, `mt-4`, `text-gray-700`) instead of pre-built components — developers composed designs in markup. It started as a side project and grew into a commercial ecosystem with Tailwind UI, Headless UI, and Catalyst.",
+      "narrative": {
+        "whyChosen": "Tailwind introduced utility-first CSS as a credible alternative to Bootstrap components.",
+        "whyImportant": "It changed how front-end teams think about styling — composition over custom CSS files.",
+        "problemSolved": "Component frameworks forced designs into predefined patterns; custom CSS did not scale across teams."
+      },
+      "category": "software",
+      "tags": [
+        "tailwind",
+        "css",
+        "frontend",
+        "web",
+        "open-source"
+      ],
+      "people": [
+        {
+          "id": "adam-wathan",
+          "name": "Adam Wathan",
+          "role": "creator"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "GitHub — tailwindlabs/tailwindcss v0.1.0 (November 1, 2017)",
+          "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v0.1.0",
+          "role": "date"
+        },
+        {
+          "title": "Tailwind CSS — Documentation (overview)",
+          "url": "https://tailwindcss.com/docs",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "tailwind-css-1-0-released",
+        "bootstrap-released",
+        "bootstrap-5-released"
+      ]
+    },
+    {
+      "id": "iphone-x-released",
+      "slug": "iphone-x-released",
+      "date": "2017-11-03",
+      "datePrecision": "day",
+      "title": "iPhone X released",
+      "summary": "Apple began selling the iPhone X on November 3, 2017 — Face ID, an edge-to-edge OLED display, and the notch.",
+      "about": "The X eliminated the home button and introduced safe areas — every iOS app had to adapt layouts for the notch and gesture navigation. Face ID APIs replaced Touch ID for secure auth in a generation of flagship apps.",
+      "narrative": {
+        "whyChosen": "The iPhone X redefined iOS layout with the notch, gestures, and Face ID.",
+        "whyImportant": "Safe-area insets and facial authentication became mandatory considerations for iOS developers.",
+        "problemSolved": "Bezels and home buttons dominated phone design; secure face unlock was not mainstream."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "apple",
+        "iphone"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "iPhone X released — launch",
+          "url": "https://www.apple.com/newsroom/2017/09/12iPhone-X-The-Future-of-the-Smartphone/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — iPhone X (overview)",
+          "url": "https://en.wikipedia.org/wiki/IPhone_X",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "iphone-8-released",
+        "iphone-xs-released",
+        "android-announced",
+        "t-mobile-g1-released",
+        "samsung-galaxy-s-released"
+      ]
+    },
+    {
       "id": "firefox-57-quantum",
       "slug": "firefox-57-quantum",
       "date": "2017-11-14",
@@ -49,6 +148,48 @@
       ]
     },
     {
+      "id": "sanity-launched",
+      "slug": "sanity-launched",
+      "date": "2017-11-14",
+      "datePrecision": "day",
+      "title": "Sanity launched",
+      "summary": "Sanity went live on November 14, 2017 — opening its API-first headless CMS and customizable React-based Studio to the public.",
+      "about": "Sanity stores structured content in a real-time Content Lake queried via GROQ — developers define schemas in code and customize the editing UI in React. It competed with Contentful and Strapi as teams adopted JAMstack and decoupled frontends.",
+      "narrative": {
+        "whyChosen": "Sanity brought real-time structured content and a customizable open-source Studio.",
+        "whyImportant": "GROQ and Portable Text set patterns for developer-centric headless CMS design.",
+        "problemSolved": "Headless CMSs offered APIs but locked teams into rigid, uncustomizable admin UIs."
+      },
+      "category": "software",
+      "tags": [
+        "sanity",
+        "cms",
+        "headless",
+        "api",
+        "react",
+        "saas"
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Sanity Blog — Post launch post (November 14, 2017)",
+          "url": "https://www.sanity.io/blog/post-launch-post",
+          "role": "date"
+        },
+        {
+          "title": "Sanity Blog — Seed funding announcement (overview)",
+          "url": "https://www.sanity.io/blog/seed-funding-announcement",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "contentful-founded",
+        "strapi-open-sourced",
+        "nextjs-open-sourced"
+      ]
+    },
+    {
       "id": "symfony-4-released",
       "slug": "symfony-4-released",
       "date": "2017-11-30",
@@ -88,71 +229,6 @@
         "symfony-released",
         "laravel-5-released"
       ]
-    },
-    {
-      "id": "tailwind-css-released",
-      "slug": "tailwind-css-released",
-      "date": "2017-11-01",
-      "datePrecision": "day",
-      "title": "Tailwind CSS first released",
-      "summary": "Adam Wathan published Tailwind CSS v0.1.0 on November 1, 2017 — a utility-first CSS framework built on PostCSS.",
-      "about": "Tailwind shipped hundreds of single-purpose classes (`flex`, `mt-4`, `text-gray-700`) instead of pre-built components — developers composed designs in markup. It started as a side project and grew into a commercial ecosystem with Tailwind UI, Headless UI, and Catalyst.",
-      "narrative": {
-        "whyChosen": "Tailwind introduced utility-first CSS as a credible alternative to Bootstrap components.",
-        "whyImportant": "It changed how front-end teams think about styling — composition over custom CSS files.",
-        "problemSolved": "Component frameworks forced designs into predefined patterns; custom CSS did not scale across teams."
-      },
-      "category": "software",
-      "tags": ["tailwind", "css", "frontend", "web", "open-source"],
-      "people": [
-        { "id": "adam-wathan", "name": "Adam Wathan", "role": "creator" }
-      ],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "GitHub — tailwindlabs/tailwindcss v0.1.0 (November 1, 2017)",
-          "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v0.1.0",
-          "role": "date"
-        },
-        {
-          "title": "Tailwind CSS — Documentation (overview)",
-          "url": "https://tailwindcss.com/docs",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": ["tailwind-css-1-0-released", "bootstrap-released", "bootstrap-5-released"]
-    },
-    {
-      "id": "sanity-launched",
-      "slug": "sanity-launched",
-      "date": "2017-11-14",
-      "datePrecision": "day",
-      "title": "Sanity launched",
-      "summary": "Sanity went live on November 14, 2017 — opening its API-first headless CMS and customizable React-based Studio to the public.",
-      "about": "Sanity stores structured content in a real-time Content Lake queried via GROQ — developers define schemas in code and customize the editing UI in React. It competed with Contentful and Strapi as teams adopted JAMstack and decoupled frontends.",
-      "narrative": {
-        "whyChosen": "Sanity brought real-time structured content and a customizable open-source Studio.",
-        "whyImportant": "GROQ and Portable Text set patterns for developer-centric headless CMS design.",
-        "problemSolved": "Headless CMSs offered APIs but locked teams into rigid, uncustomizable admin UIs."
-      },
-      "category": "software",
-      "tags": ["sanity", "cms", "headless", "api", "react", "saas"],
-      "importance": 1,
-      "media": [],
-      "sources": [
-        {
-          "title": "Sanity Blog — Post launch post (November 14, 2017)",
-          "url": "https://www.sanity.io/blog/post-launch-post",
-          "role": "date"
-        },
-        {
-          "title": "Sanity Blog — Seed funding announcement (overview)",
-          "url": "https://www.sanity.io/blog/seed-funding-announcement",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": ["contentful-founded", "strapi-open-sourced", "nextjs-open-sourced"]
     }
   ]
 }

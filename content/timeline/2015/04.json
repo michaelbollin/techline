@@ -1,101 +1,97 @@
 {
   "events": [
     {
-      "id": "visual-studio-code-preview",
-      "slug": "visual-studio-code-preview",
-      "date": "2015-04-29",
+      "id": "netlify-launched",
+      "slug": "netlify-launched",
+      "date": "2015-04-07",
       "datePrecision": "day",
-      "title": "Visual Studio Code preview released",
-      "summary": "Microsoft released the Visual Studio Code preview on April 29, 2015 — a free, cross-platform editor with IntelliSense, debugging, and Git integration.",
-      "about": "VS Code is the default editor for millions of developers — TypeScript/JavaScript, Python, Go, Rust, and more via extensions. It is Electron-based but keyboard-centric: multi-cursor editing, integrated terminal, debugger, and Git diff view. It displaced Atom and challenged JetBrains for everyday editing.",
+      "title": "Netlify launched",
+      "summary": "Mathias Biilmann and Christian Bach publicly launched Netlify on April 7, 2015 — a Git-based platform for deploying static sites and JAMstack apps to a global CDN.",
+      "about": "Netlify connected Git pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before Vercel dominated React SSR.",
       "narrative": {
-        "whyChosen": "VS Code proved Microsoft could win developer mindshare with a free, cross-platform editor.",
-        "whyImportant": "It became the hub for LSP-based language support and the most popular dev tool in surveys.",
-        "problemSolved": "Developers on Mac and Linux lacked a lightweight Microsoft-grade editor with solid debugging and Git."
+        "whyChosen": "Netlify pioneered Git-to-CDN deploys for static and JAMstack sites.",
+        "whyImportant": "It made frontend deploys as simple as `git push` for thousands of developers.",
+        "problemSolved": "Teams manually FTP'd build artifacts or managed nginx configs for every static site."
       },
       "category": "software",
       "tags": [
-        "vscode",
-        "ide",
-        "editor",
-        "microsoft",
-        "cross-platform"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
+        "netlify",
+        "jamstack",
+        "hosting",
+        "cdn",
+        "deployment",
+        "web"
       ],
       "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Microsoft — Announcing Visual Studio Code Preview (April 29, 2015)",
-          "url": "https://devblogs.microsoft.com/visualstudio/build-2015-news-visual-studio-code-visual-studio-2015-rc-team-foundation-server-2015-rc-visual-studio-2013-update-5/",
+          "title": "Wikipedia — Netlify (public launch April 7, 2015)",
+          "url": "https://en.wikipedia.org/wiki/Netlify",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Visual Studio Code (overview)",
-          "url": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+          "title": "Netlify Press — Company overview (overview)",
+          "url": "https://www.netlify.com/press/",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "typescript-preview-released",
-        "github-launched",
-        "intellij-idea-released",
-        "language-server-protocol-announced"
+        "nextjs-open-sourced",
+        "heroku-launched",
+        "github-launched"
       ]
     },
     {
-      "id": "caddy-released",
-      "slug": "caddy-released",
-      "date": "2015-04-28",
+      "id": "samsung-galaxy-s6-released",
+      "slug": "samsung-galaxy-s6-released",
+      "date": "2015-04-10",
       "datePrecision": "day",
-      "title": "Caddy first released",
-      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a Go web server with HTTP/2 support and a simple configuration format.",
-      "about": "Caddy later added automatic Let's Encrypt HTTPS (from v0.8 in December 2015) — `caddy reverse-proxy` could terminate TLS without manual certbot steps. Its Caddyfile config and JSON API made it popular for dev proxies, static sites, and API gateways.",
+      "title": "Samsung Galaxy S6 released",
+      "summary": "Samsung began selling the Samsung Galaxy S6 — glass-and-metal redesign dropped removable battery for premium build quality.",
+      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Glass-and-metal redesign dropped removable battery for premium build quality. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
       "narrative": {
-        "whyChosen": "Caddy made automatic HTTPS a default feature, not an afterthought.",
-        "whyImportant": "It showed a modern web server could be simple, secure, and written in Go.",
-        "problemSolved": "Configuring TLS certificates and HTTP/2 on nginx or Apache remained painful for small teams."
+        "whyChosen": "The Samsung Galaxy S6 continued Samsung's annual Android flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
+        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
       },
-      "category": "software",
+      "category": "hardware",
       "tags": [
-        "caddy",
-        "web-server",
-        "https",
-        "http2",
-        "go",
-        "reverse-proxy"
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy",
+        "android"
       ],
       "people": [],
       "companies": [
         {
-          "id": "google",
-          "name": "Google"
+          "id": "samsung",
+          "name": "Samsung"
         }
       ],
-      "importance": 1,
+      "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "caddyserver/caddy — v0.5.0 first public release (April 28, 2015)",
-          "url": "https://github.com/caddyserver/caddy/releases/tag/v0.5.0",
+          "title": "Samsung Galaxy S6 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S6",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Caddy (web server) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Caddy_(web_server)",
+          "title": "Wikipedia — Samsung Galaxy S6 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S6",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "nginx-released",
-        "lets-encrypt-public-beta",
-        "http-2-standardized"
+        "samsung-galaxy-s-released",
+        "samsung-galaxy-s5-released",
+        "samsung-galaxy-s7-released",
+        "iphone-goes-on-sale",
+        "android-announced",
+        "t-mobile-g1-released"
       ]
     },
     {
@@ -149,35 +145,102 @@
       ]
     },
     {
-      "id": "netlify-launched",
-      "slug": "netlify-launched",
-      "date": "2015-04-07",
+      "id": "caddy-released",
+      "slug": "caddy-released",
+      "date": "2015-04-28",
       "datePrecision": "day",
-      "title": "Netlify launched",
-      "summary": "Mathias Biilmann and Christian Bach publicly launched Netlify on April 7, 2015 — a Git-based platform for deploying static sites and JAMstack apps to a global CDN.",
-      "about": "Netlify connected Git pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before Vercel dominated React SSR.",
+      "title": "Caddy first released",
+      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a Go web server with HTTP/2 support and a simple configuration format.",
+      "about": "Caddy later added automatic Let's Encrypt HTTPS (from v0.8 in December 2015) — `caddy reverse-proxy` could terminate TLS without manual certbot steps. Its Caddyfile config and JSON API made it popular for dev proxies, static sites, and API gateways.",
       "narrative": {
-        "whyChosen": "Netlify pioneered Git-to-CDN deploys for static and JAMstack sites.",
-        "whyImportant": "It made frontend deploys as simple as `git push` for thousands of developers.",
-        "problemSolved": "Teams manually FTP'd build artifacts or managed nginx configs for every static site."
+        "whyChosen": "Caddy made automatic HTTPS a default feature, not an afterthought.",
+        "whyImportant": "It showed a modern web server could be simple, secure, and written in Go.",
+        "problemSolved": "Configuring TLS certificates and HTTP/2 on nginx or Apache remained painful for small teams."
       },
       "category": "software",
-      "tags": ["netlify", "jamstack", "hosting", "cdn", "deployment", "web"],
+      "tags": [
+        "caddy",
+        "web-server",
+        "https",
+        "http2",
+        "go",
+        "reverse-proxy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
       "importance": 1,
       "media": [],
       "sources": [
         {
-          "title": "Wikipedia — Netlify (public launch April 7, 2015)",
-          "url": "https://en.wikipedia.org/wiki/Netlify",
+          "title": "caddyserver/caddy — v0.5.0 first public release (April 28, 2015)",
+          "url": "https://github.com/caddyserver/caddy/releases/tag/v0.5.0",
           "role": "date"
         },
         {
-          "title": "Netlify Press — Company overview (overview)",
-          "url": "https://www.netlify.com/press/",
+          "title": "Wikipedia — Caddy (web server) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Caddy_(web_server)",
           "role": "overview"
         }
       ],
-      "relatedIds": ["nextjs-open-sourced", "heroku-launched", "github-launched"]
+      "relatedIds": [
+        "nginx-released",
+        "lets-encrypt-public-beta",
+        "http-2-standardized"
+      ]
+    },
+    {
+      "id": "visual-studio-code-preview",
+      "slug": "visual-studio-code-preview",
+      "date": "2015-04-29",
+      "datePrecision": "day",
+      "title": "Visual Studio Code preview released",
+      "summary": "Microsoft released the Visual Studio Code preview on April 29, 2015 — a free, cross-platform editor with IntelliSense, debugging, and Git integration.",
+      "about": "VS Code is the default editor for millions of developers — TypeScript/JavaScript, Python, Go, Rust, and more via extensions. It is Electron-based but keyboard-centric: multi-cursor editing, integrated terminal, debugger, and Git diff view. It displaced Atom and challenged JetBrains for everyday editing.",
+      "narrative": {
+        "whyChosen": "VS Code proved Microsoft could win developer mindshare with a free, cross-platform editor.",
+        "whyImportant": "It became the hub for LSP-based language support and the most popular dev tool in surveys.",
+        "problemSolved": "Developers on Mac and Linux lacked a lightweight Microsoft-grade editor with solid debugging and Git."
+      },
+      "category": "software",
+      "tags": [
+        "vscode",
+        "ide",
+        "editor",
+        "microsoft",
+        "cross-platform"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Announcing Visual Studio Code Preview (April 29, 2015)",
+          "url": "https://devblogs.microsoft.com/visualstudio/build-2015-news-visual-studio-code-visual-studio-2015-rc-team-foundation-server-2015-rc-visual-studio-2013-update-5/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Visual Studio Code (overview)",
+          "url": "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "typescript-preview-released",
+        "github-launched",
+        "intellij-idea-released",
+        "language-server-protocol-announced"
+      ]
     }
   ]
 }

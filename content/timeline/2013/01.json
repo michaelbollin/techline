@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "id": "blackberry-z10-released",
+      "slug": "blackberry-z10-released",
+      "date": "2013-01-31",
+      "datePrecision": "day",
+      "title": "BlackBerry Z10 released",
+      "summary": "BlackBerry released the BlackBerry Z10 — first BlackBerry 10 full-touch flagship — post-iPhone reboot attempt.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. First blackberry 10 full-touch flagship — post-iphone reboot attempt. BES-connected apps and push email defined mobile workflows for years.",
+      "narrative": {
+        "whyChosen": "The BlackBerry Z10 was a key BlackBerry hardware milestone.",
+        "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
+        "problemSolved": "Business users needed secure mobile email before modern smartphone platforms."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "blackberry"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "blackberry",
+          "name": "BlackBerry"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "BlackBerry Z10 released — launch",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_Z10",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — BlackBerry Z10 (overview)",
+          "url": "https://en.wikipedia.org/wiki/BlackBerry_Z10",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "blackberry-5810-released",
+        "blackberry-torch-released",
+        "blackberry-key2-released",
+        "iphone-goes-on-sale",
+        "blackberry-os-eol"
+      ]
+    }
+  ]
+}

@@ -14,7 +14,13 @@
         "problemSolved": "Fast-growing commerce platforms needed public capital to compete with Shopify's scale."
       },
       "category": "company",
-      "tags": ["bigcommerce", "ecommerce", "ipo", "saas", "retail"],
+      "tags": [
+        "bigcommerce",
+        "ecommerce",
+        "ipo",
+        "saas",
+        "retail"
+      ],
       "importance": 1,
       "media": [],
       "sources": [
@@ -29,7 +35,61 @@
           "role": "overview"
         }
       ],
-      "relatedIds": ["bigcommerce-launched", "shopify-ipo", "magento-2-0-released"]
+      "relatedIds": [
+        "bigcommerce-launched",
+        "shopify-ipo",
+        "magento-2-0-released"
+      ]
+    },
+    {
+      "id": "samsung-galaxy-note-20-released",
+      "slug": "samsung-galaxy-note-20-released",
+      "date": "2020-08-21",
+      "datePrecision": "day",
+      "title": "Samsung Galaxy Note 20 released",
+      "summary": "Samsung released the Samsung Galaxy Note 20 — final Galaxy Note generation before Ultra absorbed the stylus line.",
+      "about": "The Galaxy Note targeted stylus power users on Android. Final galaxy note generation before ultra absorbed the stylus line. Note apps and split-screen Android development often targeted this hardware class.",
+      "narrative": {
+        "whyChosen": "The Samsung Galaxy Note 20 advanced Samsung's stylus phablet line.",
+        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
+        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "mobile",
+        "smartphone",
+        "samsung",
+        "galaxy-note",
+        "android"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "samsung",
+          "name": "Samsung"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Samsung Galaxy Note 20 released — launch",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_20",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Samsung Galaxy Note 20 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_20",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "samsung-galaxy-note-released",
+        "samsung-galaxy-note-10-released",
+        "samsung-galaxy-s-released",
+        "iphone-6-plus-released"
+      ]
     }
   ]
 }
