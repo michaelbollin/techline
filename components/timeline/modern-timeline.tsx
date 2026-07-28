@@ -6,27 +6,19 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
+import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
+import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
 import {
   TIMELINE_EVENT_DETAIL_OFFSET,
-  TIMELINE_EXTENT,
   TIMELINE_INK,
 } from "@/lib/timeline/constants";
 import { buildAxisPath } from "@/lib/timeline/axis-path";
 import { eventPath } from "@/lib/timeline/format";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
-import {
-  canPanEarlier,
-  canPanLater,
-  computeFitTransform,
-  computePanTransform,
-  computeZoomToEvents,
-  computeZoomToYear,
-} from "@/lib/timeline/zoom";
 
-import { TimelineControls, zoomInTransform, zoomOutTransform } from "./timeline-controls";
 import { TimelinePanArrows } from "./timeline-pan-arrows";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 import { TimelineEventDetail } from "./timeline-event-detail";
@@ -44,12 +36,18 @@ type ModernTimelineProps = {
 export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelineProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
-  const hasInitialized = useRef(false);
   const { width, height } = useContainerSize(containerRef);
   const router = useRouter();
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
+  const [fulltextQuery, setFulltextQuery] = useState("");
+  const [filterResetNonce, setFilterResetNonce] = useState(0);
+
+  const clearLocalFilters = useCallback(() => {
+    setFulltextQuery("");
+    setFilterResetNonce((nonce) => nonce + 1);
+  }, []);
 
   const { transform, animateTo } = useTimelineZoom({
     width,
@@ -57,18 +55,38 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     svgRef,
   });
 
+  const plot = useTimelinePlot({
+    events,
+    activeFilterIds,
+    fulltextQuery,
+    transform,
+    width,
+    height,
+    hovered,
+  });
+
   const { filteredEvents, plotted, axisY, getAxisY, xScale, labelLayout, stemStartY, labelNodes } =
-    useTimelinePlot({
-      events,
-      activeFilterIds,
-      transform,
+    plot;
+
+  useTimelineFilterZoom({
+    width,
+    plotted,
+    activeFilterIds,
+    fulltextQuery,
+    animateTo,
+  });
+
+  const { resetView, zoomToYear, panEarlier, panLater, showPanEarlier, showPanLater } =
+    useTimelineViewActions({
       width,
-      height,
-      hovered,
+      transform,
+      plottedCount: plotted.length,
+      animateTo,
+      updateFilters,
+      onResetFilters: clearLocalFilters,
     });
 
   const axisPath = useMemo(() => buildAxisPath(width, axisY), [axisY, width]);
-
   const detailTop = axisY + TIMELINE_EVENT_DETAIL_OFFSET;
 
   useEffect(() => {
@@ -77,83 +95,9 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     }
   }, [filteredEvents, hovered]);
 
-  const filterKey = useMemo(
-    () => [...activeFilterIds].sort().join(","),
-    [activeFilterIds],
-  );
-
-  const fitView = useCallback(() => {
-    if (width <= 0 || plotted.length === 0) {
-      return;
-    }
-
-    if (activeFilterIds.size > 0) {
-      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
-      return;
-    }
-
-    animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [activeFilterIds.size, animateTo, filterKey, plotted, width]);
-
-  useEffect(() => {
-    if (width <= 0) {
-      return;
-    }
-
-    if (activeFilterIds.size > 0) {
-      if (plotted.length === 0) {
-        return;
-      }
-
-      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
-      hasInitialized.current = true;
-      return;
-    }
-
-    if (!hasInitialized.current) {
-      if (plotted.length > 0) {
-        hasInitialized.current = true;
-      }
-      return;
-    }
-
-    if (plotted.length === 0) {
-      return;
-    }
-
-    animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [activeFilterIds.size, animateTo, filterKey, plotted, width]);
-
   const openEvent = (event: PlottedEvent) => {
     router.push(eventPath(event.slug, { filterPathKey }));
   };
-
-  const zoomToYear = useCallback(
-    (year: number) => {
-      if (width <= 0) {
-        return;
-      }
-      animateTo(computeZoomToYear(width, TIMELINE_EXTENT, year));
-    },
-    [animateTo, width],
-  );
-
-  const panEarlier = useCallback(() => {
-    if (width <= 0) {
-      return;
-    }
-    animateTo(computePanTransform(transform, width, TIMELINE_EXTENT, "earlier"));
-  }, [animateTo, transform, width]);
-
-  const panLater = useCallback(() => {
-    if (width <= 0) {
-      return;
-    }
-    animateTo(computePanTransform(transform, width, TIMELINE_EXTENT, "later"));
-  }, [animateTo, transform, width]);
-
-  const showPanEarlier = width > 0 && plotted.length > 0 && canPanEarlier(transform, width, TIMELINE_EXTENT);
-  const showPanLater = width > 0 && plotted.length > 0 && canPanLater(transform, width, TIMELINE_EXTENT);
 
   return (
     <section aria-label="Interactive timeline" className="modern-timeline relative h-full w-full bg-white">
@@ -170,6 +114,10 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               events={events}
               activeFilterIds={activeFilterIds}
               onChange={updateFilters}
+              onReset={resetView}
+              onFulltextChange={setFulltextQuery}
+              fulltextQuery={fulltextQuery}
+              resetNonce={filterResetNonce}
               onThemeMenuOpenChange={setDeferUrlSync}
             />
           </div>
@@ -261,12 +209,6 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
           canPanLater={showPanLater}
           onPanEarlier={panEarlier}
           onPanLater={panLater}
-        />
-
-        <TimelineControls
-          onZoomIn={() => animateTo(zoomInTransform(transform))}
-          onZoomOut={() => animateTo(zoomOutTransform(transform))}
-          onFit={fitView}
         />
       </div>
     </section>

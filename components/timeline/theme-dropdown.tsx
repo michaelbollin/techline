@@ -1,6 +1,8 @@
 "use client";
 
-import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from "react";
+
+import { useClickOutside } from "@/hooks/use-click-outside";
 
 export type ThemeDropdownOption = {
   id: string;
@@ -48,16 +50,8 @@ export function ThemeDropdown({
     onOpenChange?.(isOpen);
   }, [isOpen, onOpenChange]);
 
-  useEffect(() => {
-    const handlePointerDown = (event: PointerEvent) => {
-      if (!rootRef.current?.contains(event.target as Node)) {
-        setIsOpen(false);
-      }
-    };
-
-    document.addEventListener("pointerdown", handlePointerDown);
-    return () => document.removeEventListener("pointerdown", handlePointerDown);
-  }, []);
+  const closeMenu = useCallback(() => setIsOpen(false), []);
+  useClickOutside(rootRef, closeMenu);
 
   return (
     <div

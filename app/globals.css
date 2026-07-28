@@ -202,6 +202,24 @@
   width: 100%;
 }
 
+.timeline-reset-button {
+  flex-shrink: 0;
+  border: 0;
+  background: transparent;
+  padding: 2px 0 6px;
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.timeline-reset-button:hover {
+  opacity: 0.65;
+}
+
 .timeline-search-filter {
   position: relative;
   min-width: 12rem;

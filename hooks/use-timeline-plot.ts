@@ -3,19 +3,22 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { axisYAt } from "@/lib/timeline/axis-path";
 
-import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT } from "@/lib/timeline/constants";
-import { filterTimelineEvents } from "@/lib/timeline/filters";
+import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EXTENT } from "@/lib/timeline/constants";
+import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
+import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
 import { resolveLabelLayout } from "@/lib/timeline/label-layout";
 import { measureLabelWidth } from "@/lib/timeline/measure-label";
+import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
-import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { computeStemStarts } from "@/lib/timeline/stem-layout";
+import { makeBaseScale } from "@/lib/timeline/zoom";
 import { maxImportanceForZoom, maxLanesForViewport, maxLanesForZoom } from "@/lib/timeline/zoom-lod";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 type UseTimelinePlotOptions = {
   events: TimelineEvent[];
   activeFilterIds: Set<string>;
+  fulltextQuery: string;
   transform: d3.ZoomTransform;
   width: number;
   height: number;
@@ -25,14 +28,15 @@ type UseTimelinePlotOptions = {
 export function useTimelinePlot({
   events,
   activeFilterIds,
+  fulltextQuery,
   transform,
   width,
   height,
   hovered,
 }: UseTimelinePlotOptions) {
   const filteredEvents = useMemo(
-    () => filterTimelineEvents(filterEventsInTimelineRange(events), activeFilterIds),
-    [activeFilterIds, events],
+    () => filterTimelineEvents(filterEventsInTimelineRange(events), activeFilterIds, fulltextQuery),
+    [activeFilterIds, events, fulltextQuery],
   );
 
   const plotted = useMemo(() => toPlottedEvents(filteredEvents), [filteredEvents]);
@@ -61,28 +65,21 @@ export function useTimelinePlot({
 
   const getAxisY = useCallback((x: number) => axisYAt(x, axisY), [axisY]);
 
-  const baseScale = useMemo(() => {
-    const margin = TIMELINE_EDGE_MARGIN;
-    const innerWidth = Math.max(width - margin * 2, 1);
-    return d3.scaleTime().domain(TIMELINE_EXTENT).range([margin, margin + innerWidth]);
-  }, [width]);
+  const baseScale = useMemo(() => makeBaseScale(width, TIMELINE_EXTENT), [width]);
 
   const xScale = useMemo(() => transform.rescaleX(baseScale), [baseScale, transform]);
 
-  const msPerPixel = useMemo(() => {
-    const span = visibleTimeSpanMs(xScale, width);
-    return span / Math.max(width, 1);
-  }, [width, xScale]);
-
   const visibleSpanMs = useMemo(() => visibleTimeSpanMs(xScale, width), [width, xScale]);
+  const msPerPixel = visibleSpanMs / Math.max(width, 1);
 
   const maxImportance = useMemo(() => {
-    if (activeFilterIds.size > 0) {
+    if (hasActiveFilters(activeFilterIds, fulltextQuery)) {
       return 3;
     }
 
     return maxImportanceForZoom(msPerPixel, visibleSpanMs);
-  }, [activeFilterIds.size, msPerPixel, visibleSpanMs]);
+  }, [activeFilterIds, fulltextQuery, msPerPixel, visibleSpanMs]);
+
   const maxLanes = useMemo(() => {
     const byZoom = maxLanesForZoom(msPerPixel, visibleSpanMs);
     const byViewport = maxLanesForViewport(height, TIMELINE_AXIS_Y_RATIO);
@@ -118,28 +115,8 @@ export function useTimelinePlot({
   );
 
   const labelNodes = useMemo(() => {
-    const visible = plotted.filter((event) => labelLayout.get(event.id)?.showLabel);
-    const sorted = [...visible].sort((a, b) => {
-      const laneA = labelLayout.get(a.id)?.lane ?? 0;
-      const laneB = labelLayout.get(b.id)?.lane ?? 0;
-      if (laneA !== laneB) {
-        return laneA - laneB;
-      }
-
-      return xScale(a.timestamp) - xScale(b.timestamp);
-    });
-
-    if (!hovered) {
-      return sorted;
-    }
-
-    const hoveredIndex = sorted.findIndex((event) => event.id === hovered.id);
-    if (hoveredIndex === -1) {
-      return sorted;
-    }
-
-    const hoveredEvent = sorted[hoveredIndex]!;
-    return [...sorted.slice(0, hoveredIndex), ...sorted.slice(hoveredIndex + 1), hoveredEvent];
+    const sorted = sortVisibleLabelNodes(plotted, labelLayout, (timestamp) => xScale(timestamp));
+    return reorderLabelsForHover(sorted, hovered);
   }, [hovered, labelLayout, plotted, xScale]);
 
   return {
@@ -149,7 +126,6 @@ export function useTimelinePlot({
     getAxisY,
     xScale,
     labelLayout,
-    labelWidths,
     stemStartY,
     labelNodes,
   };
