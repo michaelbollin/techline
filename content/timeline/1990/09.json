@@ -48,6 +48,54 @@
         "objective-c-created",
         "macintosh-128k-released"
       ]
+    },
+    {
+      "id": "archie-search-launched",
+      "slug": "archie-search-launched",
+      "date": "1990-09",
+      "datePrecision": "month",
+      "title": "Archie search engine launched",
+      "summary": "Alan Emtage launched Archie in September 1990 at McGill University — the first tool for indexing FTP archives across the internet.",
+      "about": "Archie crawled anonymous FTP servers and let users search filenames before the web existed — a direct ancestor of Yahoo, Google, and every search box. It proved the internet needed discovery layers on top of raw protocols.",
+      "narrative": {
+        "whyChosen": "Archie was the first internet search engine.",
+        "whyImportant": "It showed indexed discovery was essential as networked files exploded.",
+        "problemSolved": "FTP servers multiplied; users could not manually find files across hosts."
+      },
+      "category": "software",
+      "tags": [
+        "search",
+        "internet",
+        "ftp",
+        "software"
+      ],
+      "people": [
+        {
+          "id": "alan-emtage",
+          "name": "Alan Emtage",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Archie (search engine) (1990)",
+          "url": "https://en.wikipedia.org/wiki/Archie_(search_engine)",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Archie (overview)",
+          "url": "https://en.wikipedia.org/wiki/Archie_(search_engine)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "ftp-standardized",
+        "google-founded"
+      ]
     }
   ]
 }

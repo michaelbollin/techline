@@ -1,6 +1,53 @@
 {
   "events": [
     {
+      "id": "typescript-3-7-released",
+      "slug": "typescript-3-7-released",
+      "date": "2019-11-05",
+      "datePrecision": "day",
+      "title": "TypeScript 3.7 released",
+      "summary": "Microsoft released TypeScript 3.7 on November 5, 2019 — adding optional chaining (`?.`) and nullish coalescing (`??`).",
+      "about": "TypeScript 3.7 brought JavaScript's most-requested syntax to typed codebases — optional chaining spread to Babel and ES2020. Millions of React and Node projects adopted `obj?.prop` and `value ?? fallback` overnight.",
+      "narrative": {
+        "whyChosen": "TypeScript 3.7 shipped optional chaining and nullish coalescing before ES2020.",
+        "whyImportant": "It reduced null-pointer bugs with syntax now standard in JavaScript.",
+        "problemSolved": "Accessing nested properties required verbose null checks and default-value boilerplate."
+      },
+      "category": "software",
+      "tags": [
+        "typescript",
+        "javascript",
+        "microsoft",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "TypeScript Blog — Announcing TypeScript 3.7 (November 5, 2019)",
+          "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-3-7/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TypeScript (overview)",
+          "url": "https://en.wikipedia.org/wiki/TypeScript",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "typescript-preview-released",
+        "ecmascript-2020-adopted",
+        "babel-released"
+      ]
+    },
+    {
       "id": "github-actions-ga",
       "slug": "github-actions-ga",
       "date": "2019-11-13",

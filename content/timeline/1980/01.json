@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "sinclair-zx80-released",
+      "slug": "sinclair-zx80-released",
+      "date": "1980-01-15",
+      "datePrecision": "day",
+      "title": "Sinclair ZX80 released",
+      "summary": "Clive Sinclair launched the ZX80 on January 15, 1980 in the UK — a £99 home computer that brought BASIC programming to the mass market.",
+      "about": "The ZX80 shipped with 1 KB RAM and a membrane keyboard but sold in the hundreds of thousands — proving hobbyists would buy cheap programmable machines. Its successor ZX Spectrum defined British game development and bedroom coding culture.",
+      "narrative": {
+        "whyChosen": "The ZX80 made home computing affordable outside the US.",
+        "whyImportant": "It seeded a generation of European programmers and game developers.",
+        "problemSolved": "Personal computers cost thousands; hobbyists needed an entry-level programmable machine."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "microcomputer",
+        "sinclair",
+        "home-computer"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — ZX80 (released January 15, 1980)",
+          "url": "https://en.wikipedia.org/wiki/ZX80",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ZX80 (overview)",
+          "url": "https://en.wikipedia.org/wiki/ZX80",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "commodore-64-released",
+        "apple-ii-introduced",
+        "altair-8800-released"
+      ]
+    }
+  ]
+}

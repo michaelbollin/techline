@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "dynamo-paper-published",
+      "slug": "dynamo-paper-published",
+      "date": "2007-10",
+      "datePrecision": "month",
+      "title": "Amazon Dynamo paper published",
+      "summary": "Amazon published the Dynamo paper at SOSP in October 2007 — describing a highly available key-value store that influenced NoSQL databases.",
+      "about": "Dynamo's consistent hashing, vector clocks, and quorum reads inspired Cassandra, Riak, and DynamoDB — the blueprint for eventually consistent systems at scale. Every 'AP over CP' debate in distributed systems classes cites this paper.",
+      "narrative": {
+        "whyChosen": "The Dynamo paper defined the architectural pattern for hyperscale key-value stores.",
+        "whyImportant": "It legitimized eventual consistency for production ecommerce workloads.",
+        "problemSolved": "Relational databases could not scale horizontally for Amazon's shopping cart during outages."
+      },
+      "category": "culture",
+      "tags": [
+        "dynamo",
+        "database",
+        "distributed-systems",
+        "paper",
+        "amazon"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "amazon",
+          "name": "Amazon"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Amazon — Dynamo: Amazon's Highly Available Key-value Store (SOSP 2007)",
+          "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Amazon DynamoDB (overview)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_DynamoDB",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "apache-cassandra-open-sourced",
+        "amazon-s3-launched",
+        "mongodb-first-released"
+      ]
+    },
+    {
       "id": "rich-hickey-clojure-released",
       "slug": "rich-hickey-clojure-released",
       "date": "2007-10-16",

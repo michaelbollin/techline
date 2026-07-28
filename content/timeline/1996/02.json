@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "section-230-enacted",
+      "slug": "section-230-enacted",
+      "date": "1996-02-08",
+      "datePrecision": "day",
+      "title": "Section 230 of the Communications Decency Act enacted",
+      "summary": "President Clinton signed the Telecommunications Act of 1996 on February 8, 1996 — including Section 230, which shielded online platforms from liability for user-generated content.",
+      "about": "Section 230 became the legal backbone of social media, forums, and marketplaces: platforms could moderate without becoming publishers of every post. Courts and Congress have debated reform ever since, but the statute enabled YouTube, Reddit, app stores, and comment sections at scale.",
+      "narrative": {
+        "whyChosen": "Section 230 defined how the internet could host third-party speech without platform bankruptcy.",
+        "whyImportant": "It let startups scale user content before they could afford armies of lawyers.",
+        "problemSolved": "Early online services faced lawsuits for every defamatory or infringing post users published."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "internet",
+        "policy",
+        "platforms"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Congress.gov — Telecommunications Act of 1996 (signed February 8, 1996)",
+          "url": "https://www.congress.gov/bill/104th-congress/house-bill/1555",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Section 230 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Section_230",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "netscape-navigator-1-0",
+        "mozilla-source-released"
+      ]
+    }
+  ]
+}

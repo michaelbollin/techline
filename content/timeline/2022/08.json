@@ -50,6 +50,53 @@
         "samsung-galaxy-s10-released",
         "iphone-x-released"
       ]
+    },
+    {
+      "id": "chips-and-science-act-signed",
+      "slug": "chips-and-science-act-signed",
+      "date": "2022-08-09",
+      "datePrecision": "day",
+      "title": "U.S. CHIPS and Science Act signed into law",
+      "summary": "President Biden signed the CHIPS and Science Act on August 9, 2022 — allocating $52 billion in subsidies to rebuild domestic semiconductor manufacturing and fund advanced chip R&D.",
+      "about": "The act responded to pandemic chip shortages and geopolitical dependence on Asian fabs. Intel, TSMC, and Samsung announced U.S. fab projects; developers felt the impact through supply-chain stability and renewed government investment in quantum, AI, and advanced packaging — reshaping hardware roadmaps for datacenters and edge devices.",
+      "narrative": {
+        "whyChosen": "CHIPS was the largest U.S. industrial policy bet on semiconductors in a generation.",
+        "whyImportant": "It accelerated onshore fab construction and R&D funding for next-gen processors.",
+        "problemSolved": "Global chip shortages and supply-chain risk exposed dangerous concentration of advanced manufacturing in East Asia."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "semiconductors",
+        "policy",
+        "hardware",
+        "manufacturing"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "intel",
+          "name": "Intel"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Congress.gov — CHIPS and Science Act of 2022 (signed August 9, 2022)",
+          "url": "https://www.congress.gov/bill/117th-congress/house-bill/4346",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — CHIPS and Science Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/CHIPS_and_Science_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "intel-4004-introduced",
+        "jensen-huang-nvidia-founded"
+      ]
     }
   ]
 }

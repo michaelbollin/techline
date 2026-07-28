@@ -92,6 +92,54 @@
         "android-announced",
         "t-mobile-g1-released"
       ]
+    },
+    {
+      "id": "cambridge-analytica-scandal",
+      "slug": "cambridge-analytica-scandal",
+      "date": "2018-03-17",
+      "datePrecision": "day",
+      "title": "Facebook suspends Cambridge Analytica",
+      "summary": "Facebook suspended Cambridge Analytica and its parent on March 17, 2018 — after reports that up to 87 million users' data had been harvested via a personality quiz app and used for political targeting.",
+      "about": "The scandal triggered FTC investigations, congressional hearings, and a $5 billion FTC fine. Developers faced stricter App Review, OAuth scope limits, and platform API lockdowns — the end of the permissive Facebook Platform era. It accelerated GDPR enforcement mindshare and made 'data ethics' a product requirement for any app touching social graphs.",
+      "narrative": {
+        "whyChosen": "Cambridge Analytica ended the era of permissive social platform APIs.",
+        "whyImportant": "It triggered API lockdowns that reshaped how apps integrate with Facebook and other social graphs.",
+        "problemSolved": "Users had no visibility into how quiz apps exfiltrated friend-network data to political consultancies."
+      },
+      "category": "culture",
+      "tags": [
+        "privacy",
+        "facebook",
+        "policy",
+        "scandal",
+        "data"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Facebook Newsroom — Suspending Cambridge Analytica and SCL Group (March 16–17, 2018)",
+          "url": "https://about.fb.com/news/2018/03/suspending-cambridge-analytica/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Facebook–Cambridge Analytica data scandal (overview)",
+          "url": "https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gdpr-effective",
+        "ftc-sues-meta-antitrust",
+        "section-230-enacted"
+      ]
     }
   ]
 }

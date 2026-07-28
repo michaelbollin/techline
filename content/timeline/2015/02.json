@@ -132,6 +132,48 @@
         "laravel-symfony-http-foundation",
         "symfony-released"
       ]
+    },
+    {
+      "id": "fcc-net-neutrality-rules-adopted",
+      "slug": "fcc-net-neutrality-rules-adopted",
+      "date": "2015-02-26",
+      "datePrecision": "day",
+      "title": "FCC adopts Open Internet net neutrality rules",
+      "summary": "The U.S. Federal Communications Commission voted 3–2 on February 26, 2015 to classify broadband as a Title II utility — banning paid prioritization, blocking, and throttling of lawful internet traffic.",
+      "about": "The 2015 Open Internet Order treated ISPs like common carriers, protecting startups from having to pay cable companies for fast lanes. Video streaming, VoIP, and cloud SaaS depended on neutral pipes; the rules became a political football repealed in 2017 and debated again through the 2020s.",
+      "narrative": {
+        "whyChosen": "The 2015 rules were the strongest U.S. net neutrality protections developers had seen.",
+        "whyImportant": "They prevented ISPs from charging platforms for priority delivery of bits.",
+        "problemSolved": "Without rules, ISPs could throttle competing video or charge CDNs for faster last-mile delivery."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "internet",
+        "policy",
+        "net-neutrality"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "FCC — FCC adopts strong net neutrality rules (February 26, 2015)",
+          "url": "https://www.fcc.gov/document/fcc-adopts-strong-sustainable-open-internet-rules",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Net neutrality in the United States (overview)",
+          "url": "https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "fcc-net-neutrality-repealed",
+        "google-founded",
+        "amazon-ec2-launched"
+      ]
     }
   ]
 }

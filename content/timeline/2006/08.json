@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "amazon-ec2-launched",
+      "slug": "amazon-ec2-launched",
+      "date": "2006-08-25",
+      "datePrecision": "day",
+      "title": "Amazon EC2 beta launched",
+      "summary": "AWS opened the Elastic Compute Cloud (EC2) beta on August 25, 2006 — rent Linux VMs by the hour over an API.",
+      "about": "EC2 let developers `ssh` into instances in minutes instead of waiting for hardware — the foundation of modern cloud infrastructure. Auto scaling groups, AMIs, and spot instances followed; every Terraform `aws_instance` resource echoes this launch.",
+      "narrative": {
+        "whyChosen": "EC2 made virtual servers a utility you could provision with an API call.",
+        "whyImportant": "It shifted startups and enterprises from owned data centers to elastic cloud compute.",
+        "problemSolved": "Provisioning servers took weeks of procurement and manual installation."
+      },
+      "category": "software",
+      "tags": [
+        "aws",
+        "ec2",
+        "cloud",
+        "virtualization",
+        "amazon"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "amazon",
+          "name": "Amazon"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "AWS — Amazon EC2 (beta announced August 25, 2006)",
+          "url": "https://aws.amazon.com/ec2/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Amazon Elastic Compute Cloud (overview)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "amazon-s3-launched",
+        "docker-open-sourced",
+        "kubernetes-open-sourced"
+      ]
+    },
+    {
       "id": "jquery-1-0-released",
       "slug": "jquery-1-0-released",
       "date": "2006-08-26",

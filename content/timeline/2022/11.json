@@ -178,6 +178,49 @@
         "spring-boot-1-0-released",
         "java-17-released"
       ]
+    },
+    {
+      "id": "ftx-bankruptcy-filed",
+      "slug": "ftx-bankruptcy-filed",
+      "date": "2022-11-11",
+      "datePrecision": "day",
+      "title": "FTX files for bankruptcy after liquidity collapse",
+      "summary": "Cryptocurrency exchange FTX and over 130 affiliated entities filed for Chapter 11 bankruptcy on November 11, 2022 — wiping out billions in customer deposits and triggering a crypto industry reckoning.",
+      "about": "FTX had been a top-tier exchange and venture investor; its collapse froze developer grants, killed sponsorship deals, and spurred global calls for exchange custody rules. The fallout accelerated regulatory scrutiny of stablecoins, proof-of-reserves audits, and decentralized exchange design — ending the era of lightly regulated crypto banking.",
+      "narrative": {
+        "whyChosen": "FTX's failure was the defining crypto scandal of the 2022 bear market.",
+        "whyImportant": "It forced exchanges and DeFi projects to prove custody, audits, and governance.",
+        "problemSolved": "Users lacked transparency into whether centralized exchanges actually held their assets."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "crypto",
+        "crisis",
+        "bankruptcy",
+        "regulation"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "U.S. Bankruptcy Court — FTX Trading Ltd. Chapter 11 filing (November 11, 2022)",
+          "url": "https://restructuring.ra.kroll.com/ftx/Home-DocketInfo",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bankruptcy of FTX (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_FTX",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bitcoin-genesis-block-mined",
+        "coinbase-founded",
+        "ethereum-merge-completed"
+      ]
     }
   ]
 }

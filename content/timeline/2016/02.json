@@ -96,6 +96,54 @@
         "go-open-sourced",
         "c-language-created"
       ]
+    },
+    {
+      "id": "apple-fbi-encryption-dispute",
+      "slug": "apple-fbi-encryption-dispute",
+      "date": "2016-02-16",
+      "datePrecision": "day",
+      "title": "Apple ordered to help FBI unlock San Bernardino iPhone",
+      "summary": "A federal magistrate ordered Apple on February 16, 2016 to assist the FBI in bypassing security on an iPhone used by a San Bernardino shooter — sparking a national debate over encryption backdoors.",
+      "about": "Apple refused to build a custom iOS version that would weaken passcode protections for all users. Tim Cook framed it as a civil-liberties line in the sand; the FBI eventually unlocked the phone with a third-party exploit. The fight shaped how platforms market device encryption, law-enforcement access requests, and the 'going dark' debate that still influences E2E messaging design.",
+      "narrative": {
+        "whyChosen": "The Apple–FBI fight defined the encryption backdoor debate for a generation of security engineers.",
+        "whyImportant": "It cemented on-device encryption as a product differentiator platforms would not casually compromise.",
+        "problemSolved": "Law enforcement wanted access to locked devices; Apple argued a master key would endanger every user."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "encryption",
+        "privacy",
+        "apple",
+        "security"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apple — A Message to Our Customers (February 16, 2016)",
+          "url": "https://www.apple.com/newsroom/2016/02/02-16-Letter-to-Customers/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — FBI–Apple encryption dispute (overview)",
+          "url": "https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "snowden-nsa-revelations",
+        "gdpr-effective"
+      ]
     }
   ]
 }

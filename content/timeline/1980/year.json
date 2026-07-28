@@ -92,6 +92,48 @@
       "media": [],
       "companies": [],
       "category": "quote"
+    },
+    {
+      "id": "usenet-established",
+      "slug": "usenet-established",
+      "date": "1980",
+      "datePrecision": "year",
+      "title": "Usenet established",
+      "summary": "Tom Truscott and Jim Ellis established Usenet in 1980 at Duke University — a distributed discussion system that became the internet's first social network.",
+      "about": "Usenet newsgroups carried technical debates, source code, and culture across UUCP links before the web existed. NNTP, moderation, and threaded conversations influenced forums, Reddit, and every threaded comment system developers use today.",
+      "narrative": {
+        "whyChosen": "Usenet pioneered distributed online communities before the World Wide Web.",
+        "whyImportant": "It proved people would collaborate and argue productively over networked text.",
+        "problemSolved": "ARPANET researchers lacked a general-purpose platform for public group discussion."
+      },
+      "category": "culture",
+      "tags": [
+        "usenet",
+        "networking",
+        "culture",
+        "internet"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Usenet (established 1980)",
+          "url": "https://en.wikipedia.org/wiki/Usenet",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Usenet (overview)",
+          "url": "https://en.wikipedia.org/wiki/Usenet",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "tcp-ip-flag-day",
+        "worldwideweb-browser",
+        "linux-kernel-announced"
+      ]
     }
   ]
 }

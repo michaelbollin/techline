@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "id": "apple-macintosh-plus-released",
+      "slug": "apple-macintosh-plus-released",
+      "date": "1986-01-16",
+      "datePrecision": "day",
+      "title": "Macintosh Plus released",
+      "summary": "Apple released the Macintosh Plus on January 16, 1986 — the first Mac with 1 MB RAM, a SCSI port, and the extended keyboard.",
+      "about": "The Plus was the Mac developers actually used for desktop publishing and HyperCard stacks — enough memory to run MultiFinder and SCSI hard drives. It extended the Macintosh platform through the late 1980s before the SE and II arrived.",
+      "narrative": {
+        "whyChosen": "The Mac Plus made the original Macintosh platform practical for daily professional work.",
+        "whyImportant": "SCSI and expanded RAM turned the Mac from a demo machine into a production tool.",
+        "problemSolved": "Original Macs lacked memory and storage expansion for serious applications."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "apple",
+        "macintosh",
+        "gui"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Macintosh Plus (released January 16, 1986)",
+          "url": "https://en.wikipedia.org/wiki/Macintosh_Plus",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Macintosh Plus (overview)",
+          "url": "https://en.wikipedia.org/wiki/Macintosh_Plus",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "macintosh-128k-released",
+        "apple-ii-introduced",
+        "susan-kare-macintosh-icons"
+      ]
+    }
+  ]
+}

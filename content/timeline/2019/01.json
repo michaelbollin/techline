@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "vue-2-6-released",
+      "slug": "vue-2-6-released",
+      "date": "2019-01-29",
+      "datePrecision": "day",
+      "title": "Vue 2.6 released",
+      "summary": "Evan You released Vue.js 2.6 on January 29, 2019 — adding scoped slots APIs and improved TypeScript support before Vue 3.",
+      "about": "Vue 2.6 refined the composition patterns teams used in production — slot syntax and `v-slot` cleaned up component APIs. It was the stable baseline millions of apps ran on while Vue 3 was developed.",
+      "narrative": {
+        "whyChosen": "Vue 2.6 was the last major Vue 2 release before the Vue 3 migration.",
+        "whyImportant": "It matured the component API surface used across the Vue ecosystem.",
+        "problemSolved": "Teams needed clearer slot APIs and better TypeScript ergonomics on Vue 2."
+      },
+      "category": "software",
+      "tags": [
+        "vue",
+        "javascript",
+        "frontend",
+        "web"
+      ],
+      "people": [
+        {
+          "id": "evan-you",
+          "name": "Evan You",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Vue.js Blog — Vue 2.6 Vuanilla (January 29, 2019)",
+          "url": "https://blog.vuejs.org/posts/vue-2-6-released.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Vue.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vue.js",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "vue-js-released",
+        "vue-3-released",
+        "webpack-released"
+      ]
+    }
+  ]
+}

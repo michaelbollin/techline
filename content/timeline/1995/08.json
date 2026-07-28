@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "netscape-ipo",
+      "slug": "netscape-ipo",
+      "date": "1995-08-09",
+      "datePrecision": "day",
+      "title": "Netscape IPO ignites the dot-com gold rush",
+      "summary": "Netscape Communications went public on August 9, 1995 — its stock more than doubled on the first day of trading, signaling that internet companies could command blockbuster valuations.",
+      "about": "The IPO turned Andreessen and Clark's browser startup into a Wall Street sensation and proved venture-backed software could mint billionaires overnight. It kicked off a decade of internet IPO mania, telecom overbuild, and the hiring boom that crashed when NASDAQ peaked in March 2000.",
+      "narrative": {
+        "whyChosen": "Netscape's IPO is the moment Wall Street fell in love with the internet.",
+        "whyImportant": "It validated the browser as a platform and made 'internet company' a fundable category.",
+        "problemSolved": "Investors needed proof that web software could generate public-market returns, not just hype."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "dot-com",
+        "netscape",
+        "ipo",
+        "startup"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "SEC — Netscape Communications Corporation S-1 (August 9, 1995 IPO)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1001295/000095013595001200/nscl-8_424b4.txt",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Netscape (overview)",
+          "url": "https://en.wikipedia.org/wiki/Netscape",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "netscape-navigator-1-0",
+        "internet-explorer-1-0",
+        "dot-com-nasdaq-peak"
+      ]
+    },
+    {
       "id": "internet-explorer-1-0",
       "slug": "internet-explorer-1-0",
       "date": "1995-08-16",

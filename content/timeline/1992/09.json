@@ -49,6 +49,54 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "odbc-1-0-released",
+      "slug": "odbc-1-0-released",
+      "date": "1992-09",
+      "datePrecision": "month",
+      "title": "ODBC 1.0 released",
+      "summary": "Microsoft and partners shipped the Open Database Connectivity (ODBC) SDK in September 1992 — a standard C API for talking to SQL databases.",
+      "about": "ODBC let one Windows app query Oracle, SQL Server, and Access through the same driver interface — the pattern JDBC followed for Java and every ORM still abstracts today. It made client/server database apps portable across vendors.",
+      "narrative": {
+        "whyChosen": "ODBC standardized how applications connect to relational databases.",
+        "whyImportant": "Driver-based database access became the default integration model for decades.",
+        "problemSolved": "Each database shipped a proprietary C API; apps were locked to one vendor."
+      },
+      "category": "protocol",
+      "tags": [
+        "odbc",
+        "database",
+        "sql",
+        "microsoft",
+        "standard"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Open Database Connectivity (released 1992)",
+          "url": "https://en.wikipedia.org/wiki/Open_Database_Connectivity",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — ODBC (overview)",
+          "url": "https://en.wikipedia.org/wiki/Open_Database_Connectivity",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "sequel-paper-published",
+        "mysql-first-released",
+        "microsoft-access-1-0-released"
+      ]
     }
   ]
 }

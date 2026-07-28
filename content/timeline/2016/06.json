@@ -226,6 +226,48 @@
         "ethereum-merge-completed",
         "uniswap-v1-released"
       ]
+    },
+    {
+      "id": "brexit-referendum",
+      "slug": "brexit-referendum",
+      "date": "2016-06-23",
+      "datePrecision": "day",
+      "title": "UK votes to leave the European Union",
+      "summary": "The United Kingdom voted 52% to 48% on June 23, 2016 to leave the European Union — triggering years of negotiation over data flows, trade, and regulatory divergence from GDPR-era EU law.",
+      "about": "Brexit forced tech companies to split UK and EU legal entities, rethink data-transfer agreements, and staff separate compliance teams. London's fintech and startup hub faced uncertainty while Dublin, Amsterdam, and Paris courted relocations. Developers building for 'Europe' had to treat the UK as a third country for GDPR purposes after transition.",
+      "narrative": {
+        "whyChosen": "Brexit split the UK's data-protection regime from the EU and reshaped where tech firms headquartered in Europe.",
+        "whyImportant": "It made data residency and legal-entity structure a routine engineering and compliance concern.",
+        "problemSolved": "This was a political rupture — companies needed clarity on whether UK user data could flow freely to EU servers."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "brexit",
+        "eu",
+        "policy",
+        "privacy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "UK Electoral Commission — EU referendum results (June 23, 2016)",
+          "url": "https://www.electoralcommission.org.uk/find-information-by-subject/elections-and-referendums/past-elections-and-referendums/eu-referendum/electorate-and-cast-votes",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — 2016 United Kingdom European Union membership referendum (overview)",
+          "url": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gdpr-effective",
+        "schrems-ii-privacy-shield-invalidated"
+      ]
     }
   ]
 }

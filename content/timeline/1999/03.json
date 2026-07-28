@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "xmlhttprequest-introduced",
+      "slug": "xmlhttprequest-introduced",
+      "date": "1999-03-18",
+      "datePrecision": "day",
+      "title": "XMLHttpRequest introduced in IE5",
+      "summary": "Microsoft shipped XMLHttpRequest with Internet Explorer 5 on March 18, 1999 — enabling JavaScript to fetch data without reloading the page.",
+      "about": "XHR powered Gmail, Google Maps, and the AJAX revolution — `fetch()` and axios still solve the same problem. It turned browsers from document viewers into application runtimes that could talk to APIs asynchronously.",
+      "narrative": {
+        "whyChosen": "XMLHttpRequest enabled the first wave of rich web applications.",
+        "whyImportant": "It made single-page interaction patterns possible before WebSockets.",
+        "problemSolved": "Every user action required a full page reload to get new server data."
+      },
+      "category": "protocol",
+      "tags": [
+        "ajax",
+        "javascript",
+        "web",
+        "microsoft",
+        "internet-explorer"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — XMLHttpRequest (introduced in IE5, March 1999)",
+          "url": "https://en.wikipedia.org/wiki/XMLHttpRequest",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — XMLHttpRequest (overview)",
+          "url": "https://en.wikipedia.org/wiki/XMLHttpRequest",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ajax-term-coined",
+        "javascript-name-announced",
+        "jquery-1-0-released"
+      ]
+    },
+    {
       "id": "mqtt-invented",
       "slug": "mqtt-invented",
       "date": "1999-03-26",

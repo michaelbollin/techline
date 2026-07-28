@@ -50,6 +50,53 @@
       ]
     },
     {
+      "id": "playwright-announced",
+      "slug": "playwright-announced",
+      "date": "2019-09-16",
+      "datePrecision": "day",
+      "title": "Playwright announced by Microsoft",
+      "summary": "Microsoft announced Playwright on September 16, 2019 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
+      "about": "Playwright (`page.goto`, auto-waiting, tracing) became the modern alternative to Selenium for E2E tests — one API driving Chrome, Safari, and Firefox with reliable selectors. It powers CI suites at Microsoft, Vercel, and thousands of open-source projects.",
+      "narrative": {
+        "whyChosen": "Playwright modernized browser automation for the multi-engine web.",
+        "whyImportant": "It made reliable cross-browser E2E tests practical in CI pipelines.",
+        "problemSolved": "Selenium tests were flaky and struggled with modern SPA timing."
+      },
+      "category": "software",
+      "tags": [
+        "playwright",
+        "testing",
+        "e2e",
+        "microsoft",
+        "browser"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft DevBlogs — Playwright announcement (September 16, 2019)",
+          "url": "https://devblogs.microsoft.com/playwright/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Playwright (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Playwright_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "selenium-released",
+        "cypress-open-sourced"
+      ]
+    },
+    {
       "id": "iphone-11-released",
       "slug": "iphone-11-released",
       "date": "2019-09-20",

@@ -44,6 +44,54 @@
           "role": "overview"
         }
       ]
+    },
+    {
+      "id": "windows-nt-3-1-released",
+      "slug": "windows-nt-3-1-released",
+      "date": "1993-07-27",
+      "datePrecision": "day",
+      "title": "Windows NT 3.1 released",
+      "summary": "Microsoft released Windows NT 3.1 on July 27, 1993 — a 32-bit operating system with the NT kernel, POSIX subsystem, and Win32 API.",
+      "about": "NT brought preemptive multitasking, security ACLs, and Unicode to Windows — the lineage behind Windows XP, Server, and Azure hosts. Developers got a stable Win32 platform for servers and workstations separate from the DOS-based Windows 3.x line.",
+      "narrative": {
+        "whyChosen": "Windows NT was Microsoft's clean-slate 32-bit OS for servers and professionals.",
+        "whyImportant": "The NT kernel still underpins modern Windows and enterprise deployments.",
+        "problemSolved": "DOS-based Windows could not scale to servers, security, or heavy multitasking."
+      },
+      "category": "software",
+      "tags": [
+        "windows",
+        "microsoft",
+        "operating-system",
+        "nt",
+        "win32"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Windows NT 3.1 (released July 27, 1993)",
+          "url": "https://en.wikipedia.org/wiki/Windows_NT_3.1",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Windows NT (overview)",
+          "url": "https://en.wikipedia.org/wiki/Windows_NT",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "windows-3-0-released",
+        "windows-95-released",
+        "posix-1-standardized"
+      ]
     }
   ]
 }

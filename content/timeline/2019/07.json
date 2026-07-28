@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "id": "docker-19-03-released",
+      "slug": "docker-19-03-released",
+      "date": "2019-07-22",
+      "datePrecision": "day",
+      "title": "Docker 19.03 released",
+      "summary": "Docker Inc. released Docker Engine 19.03 on July 22, 2019 — bringing rootless mode and BuildKit as the default builder.",
+      "about": "Docker 19.03 made multi-stage builds and faster image layers the default workflow — `docker build` with BuildKit cut CI times for millions of pipelines. Rootless mode improved security on shared developer machines.",
+      "narrative": {
+        "whyChosen": "Docker 19.03 made BuildKit the default, modernizing container builds.",
+        "whyImportant": "It improved build speed and security for everyday Docker users.",
+        "problemSolved": "Legacy Docker builds were slow and required root daemon access."
+      },
+      "category": "software",
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "buildkit"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "docker",
+          "name": "Docker"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Docker Blog — Docker 19.03 (July 22, 2019)",
+          "url": "https://www.docker.com/blog/docker-engine-19-03/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Docker (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "docker-open-sourced",
+        "kubernetes-open-sourced",
+        "amazon-ec2-launched"
+      ]
+    }
+  ]
+}

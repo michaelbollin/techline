@@ -50,6 +50,54 @@
         "android-announced",
         "t-mobile-g1-released"
       ]
+    },
+    {
+      "id": "aws-lambda-launched",
+      "slug": "aws-lambda-launched",
+      "date": "2014-11-13",
+      "datePrecision": "day",
+      "title": "AWS Lambda launched",
+      "summary": "Amazon announced AWS Lambda at re:Invent on November 13, 2014 — event-driven functions billed per invocation without managing servers.",
+      "about": "Lambda (`exports.handler`) launched serverless computing for production — API Gateway, S3 triggers, and cron jobs all invoke functions. Teams stopped patching EC2 for glue code; Vercel, Cloudflare Workers, and Azure Functions followed the same model.",
+      "narrative": {
+        "whyChosen": "Lambda popularized serverless functions as a cloud primitive.",
+        "whyImportant": "It changed how teams deploy small services and event handlers.",
+        "problemSolved": "Even small background jobs required always-on servers and capacity planning."
+      },
+      "category": "software",
+      "tags": [
+        "aws",
+        "lambda",
+        "serverless",
+        "cloud",
+        "amazon"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "amazon",
+          "name": "Amazon"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "AWS — AWS Lambda (announced November 13, 2014)",
+          "url": "https://aws.amazon.com/lambda/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — AWS Lambda (overview)",
+          "url": "https://en.wikipedia.org/wiki/AWS_Lambda",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "amazon-ec2-launched",
+        "docker-open-sourced",
+        "kubernetes-open-sourced"
+      ]
     }
   ]
 }

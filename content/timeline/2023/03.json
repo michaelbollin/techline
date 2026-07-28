@@ -231,6 +231,47 @@
         "chatgpt-released",
         "mcp-announced"
       ]
+    },
+    {
+      "id": "silicon-valley-bank-collapse",
+      "slug": "silicon-valley-bank-collapse",
+      "date": "2023-03-10",
+      "datePrecision": "day",
+      "title": "Silicon Valley Bank seized by regulators",
+      "summary": "California regulators closed Silicon Valley Bank on March 10, 2023 — the second-largest bank failure in U.S. history and a shock to the startup ecosystem that held most of its deposits there.",
+      "about": "Thousands of startups faced payroll crises until the FDIC, Treasury, and Fed guaranteed deposits. The run exposed how concentrated tech banking had become and pushed CFOs toward diversified treasury strategies — while venture funding was already tightening after the 2022 rate hikes and crypto collapse.",
+      "narrative": {
+        "whyChosen": "SVB's failure was the biggest banking crisis to hit Silicon Valley since 2008.",
+        "whyImportant": "It forced startups to rethink cash management and sped up regulatory scrutiny of regional banks.",
+        "problemSolved": "This was a liquidity crisis — startups needed immediate access to payroll deposits, not a software patch."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "crisis",
+        "startup",
+        "banking"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "FDIC — Silicon Valley Bank closed (March 10, 2023)",
+          "url": "https://www.fdic.gov/news/press-releases/2023/pr23016.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Collapse of Silicon Valley Bank (overview)",
+          "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ftx-bankruptcy-filed",
+        "lehman-brothers-bankruptcy"
+      ]
     }
   ]
 }

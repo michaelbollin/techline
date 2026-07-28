@@ -82,6 +82,49 @@
         "wordpress-3-0-released",
         "react-open-sourced"
       ]
+    },
+    {
+      "id": "terra-luna-collapse",
+      "slug": "terra-luna-collapse",
+      "date": "2022-05-09",
+      "datePrecision": "day",
+      "title": "TerraUSD stablecoin loses dollar peg",
+      "summary": "The algorithmic stablecoin TerraUSD (UST) broke its $1 peg on May 9, 2022 — collapsing the Terra/Luna ecosystem and erasing tens of billions in crypto market value within days.",
+      "about": "UST relied on arbitrage with sister token Luna to maintain its peg; a death spiral wiped out retail savings, venture funds, and the credibility of algorithmic stablecoins. Exchanges delisted Luna, regulators accelerated stablecoin legislation, and DeFi developers refocused on collateralized and fiat-backed designs over reflexive tokenomics.",
+      "narrative": {
+        "whyChosen": "Terra/Luna was the defining crypto blow-up of 2022 before FTX.",
+        "whyImportant": "It ended the algorithmic-stablecoin experiment for mainstream finance and triggered regulatory urgency.",
+        "problemSolved": "Markets needed to price the risk that 'stable' tokens without full reserves could depeg catastrophically."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "crypto",
+        "crisis",
+        "defi",
+        "stablecoin"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "CoinDesk — TerraUSD loses peg (May 9, 2022)",
+          "url": "https://www.coindesk.com/markets/2022/05/09/terrausd-briefly-loses-peg/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Terra (blockchain) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Terra_(blockchain)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "bitcoin-genesis-block-mined",
+        "ftx-bankruptcy-filed",
+        "ethereum-mainnet-launched"
+      ]
     }
   ]
 }

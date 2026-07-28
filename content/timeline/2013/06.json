@@ -40,6 +40,57 @@
         "drupal-7-released",
         "symfony-released"
       ]
+    },
+    {
+      "id": "snowden-nsa-revelations",
+      "slug": "snowden-nsa-revelations",
+      "date": "2013-06-05",
+      "datePrecision": "day",
+      "title": "Snowden NSA surveillance programs revealed",
+      "summary": "The Guardian published the first Edward Snowden leaks on June 5, 2013 — exposing NSA bulk collection of Verizon phone records and PRISM access to major internet companies' user data.",
+      "about": "Snowden's disclosures forced Google, Microsoft, Apple, and Facebook to publish transparency reports, encrypt traffic by default, and fight gag orders in court. Engineers accelerated HTTPS everywhere, end-to-end encryption in messaging apps, and zero-trust security models — while governments debated backdoors and mass surveillance reform.",
+      "narrative": {
+        "whyChosen": "Snowden's leaks were the catalyst for default encryption and cloud transparency reporting.",
+        "whyImportant": "They made privacy engineering a mainstream product requirement, not a niche concern.",
+        "problemSolved": "Users and developers lacked visibility into how governments accessed data held by tech platforms."
+      },
+      "category": "culture",
+      "tags": [
+        "surveillance",
+        "privacy",
+        "security",
+        "policy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "The Guardian — NSA collecting phone records of millions (June 5, 2013)",
+          "url": "https://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Global surveillance disclosures (overview)",
+          "url": "https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "patriot-act-signed",
+        "gdpr-effective",
+        "apple-fbi-encryption-dispute"
+      ]
     }
   ]
 }

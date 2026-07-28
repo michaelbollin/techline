@@ -44,6 +44,103 @@
         "rubygems-released",
         "phusion-passenger-released"
       ]
+    },
+    {
+      "id": "amazon-s3-launched",
+      "slug": "amazon-s3-launched",
+      "date": "2006-03-14",
+      "datePrecision": "day",
+      "title": "Amazon S3 launched",
+      "summary": "Amazon Web Services launched Simple Storage Service (S3) on March 14, 2006 — pay-per-use object storage with an HTTP API.",
+      "about": "S3 (`PUT`/`GET` buckets and keys) became the default blob store for backups, static sites, ML datasets, and CI artifacts. Its durability SLA and pricing model defined cloud object storage — every `s3://` URI in a tutorial traces here.",
+      "narrative": {
+        "whyChosen": "S3 pioneered commodity object storage as a cloud API.",
+        "whyImportant": "It removed the need to operate file servers for static assets and archives.",
+        "problemSolved": "Teams provisioned NAS and FTP servers for files that needed global, durable storage."
+      },
+      "category": "software",
+      "tags": [
+        "aws",
+        "s3",
+        "cloud",
+        "storage",
+        "amazon"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "amazon",
+          "name": "Amazon"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "AWS — Amazon S3 (launched March 14, 2006)",
+          "url": "https://aws.amazon.com/s3/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Amazon S3 (overview)",
+          "url": "https://en.wikipedia.org/wiki/Amazon_S3",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "amazon-ec2-launched",
+        "dynamo-paper-published",
+        "dropbox-founded"
+      ]
+    },
+    {
+      "id": "twitter-launched",
+      "slug": "twitter-launched",
+      "date": "2006-03-21",
+      "datePrecision": "day",
+      "title": "Twitter launches",
+      "summary": "Jack Dorsey sent the first tweet on March 21, 2006 — launching Twitter as a microblogging service built in Ruby on Rails.",
+      "about": "Twitter's 140-character posts and public API shaped real-time web culture — hashtags, @mentions, and firehoses influenced every social feed and many developer tools. Its Rails origin story became legendary in startup engineering circles.",
+      "narrative": {
+        "whyChosen": "Twitter defined microblogging and real-time public messaging.",
+        "whyImportant": "Its API ecosystem taught a generation of developers about social graph integrations.",
+        "problemSolved": "Blogging was too heavy for short status updates between friends and colleagues."
+      },
+      "category": "company",
+      "tags": [
+        "twitter",
+        "social",
+        "rails",
+        "ruby",
+        "web"
+      ],
+      "people": [
+        {
+          "id": "jack-dorsey",
+          "name": "Jack Dorsey",
+          "role": "co-founder"
+        }
+      ],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Twitter (launched March 21, 2006)",
+          "url": "https://en.wikipedia.org/wiki/Twitter",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Twitter (overview)",
+          "url": "https://en.wikipedia.org/wiki/Twitter",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "rails-open-sourced",
+        "ruby-0-95-released",
+        "google-founded"
+      ]
     }
   ]
 }

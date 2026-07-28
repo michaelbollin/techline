@@ -51,6 +51,54 @@
         "opera-2-released",
         "google-chrome-released"
       ]
+    },
+    {
+      "id": "kubernetes-1-15-released",
+      "slug": "kubernetes-1-15-released",
+      "date": "2019-06-19",
+      "datePrecision": "day",
+      "title": "Kubernetes 1.15 released",
+      "summary": "The Kubernetes project released version 1.15 on June 19, 2019 — with CRD pruning, improved scheduling, and continued CSI maturation.",
+      "about": "Kubernetes 1.15 refined the extension points operators use — custom resources, admission webhooks, and volume plugins. Each release tightened the control plane teams run in production GKE, EKS, and self-hosted clusters.",
+      "narrative": {
+        "whyChosen": "Kubernetes 1.15 advanced the CRD and scheduling features platform teams depend on.",
+        "whyImportant": "It showed Kubernetes evolving from hype to stable infrastructure APIs.",
+        "problemSolved": "Cluster operators needed safer upgrades and richer extension mechanisms."
+      },
+      "category": "software",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "containers",
+        "cloud",
+        "devops"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 6,
+      "media": [],
+      "sources": [
+        {
+          "title": "Kubernetes Blog — Kubernetes 1.15 released (June 19, 2019)",
+          "url": "https://kubernetes.io/blog/2019/06/19/kubernetes-1-15-release-announcement/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Kubernetes (overview)",
+          "url": "https://en.wikipedia.org/wiki/Kubernetes",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "kubernetes-open-sourced",
+        "docker-open-sourced",
+        "helm-2-released"
+      ]
     }
   ]
 }

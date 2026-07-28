@@ -41,6 +41,49 @@
         "contentful-founded",
         "graphql-foundation-announced"
       ]
+    },
+    {
+      "id": "eu-digital-services-act-adopted",
+      "slug": "eu-digital-services-act-adopted",
+      "date": "2022-07-05",
+      "datePrecision": "day",
+      "title": "EU Digital Services Act adopted",
+      "summary": "The European Parliament and Council adopted the Digital Services Act on July 5, 2022 — imposing transparency, illegal-content removal, and algorithmic accountability rules on online platforms and search engines.",
+      "about": "The DSA complements GDPR and the DMA: very large online platforms must publish risk assessments, offer recommender-system choices, and share data with researchers. Trust-and-safety teams, content moderators, and ML engineers building feeds faced new documentation and audit requirements — a template other democracies studied for their own platform laws.",
+      "narrative": {
+        "whyChosen": "The DSA is Europe's comprehensive content-moderation and platform-transparency law.",
+        "whyImportant": "It mandated algorithm transparency and researcher data access for the largest platforms.",
+        "problemSolved": "EU lawmakers wanted enforceable rules for illegal content and opaque recommendation algorithms."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "eu",
+        "policy",
+        "platforms",
+        "content-moderation"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "European Council — Digital Services Act adopted (July 5, 2022)",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2022/07/05/digital-services-act-council-gives-final-approval-to-the-protection-of-digital-rights/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Digital Services Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Digital_Services_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gdpr-effective",
+        "eu-digital-markets-act-gatekeepers",
+        "section-230-enacted"
+      ]
     }
   ]
 }

@@ -41,6 +41,46 @@
       ]
     },
     {
+      "id": "y2k-rollover",
+      "slug": "y2k-rollover",
+      "date": "1999-12-31",
+      "datePrecision": "day",
+      "title": "Y2K millennium rollover passes with minimal failures",
+      "summary": "As clocks rolled from December 31, 1999 to January 1, 2000, decades of Y2K remediation paid off — critical systems worldwide kept running with only scattered glitches.",
+      "about": "Governments and enterprises had spent an estimated $300–600 billion rewriting COBOL date fields, testing firmware, and stockpiling diesel generators. The anticlimactic rollover validated IT project management at scale and reminded developers that legacy code outlives its authors — a lesson repeated with IPv4 exhaustion and mainframe migrations.",
+      "narrative": {
+        "whyChosen": "Y2K was the largest coordinated software remediation effort in history.",
+        "whyImportant": "It proved enterprises could mobilize massive testing and code-rewrite programs under deadline pressure.",
+        "problemSolved": "Two-digit year fields in legacy systems threatened incorrect dates in finance, utilities, and embedded firmware."
+      },
+      "category": "culture",
+      "tags": [
+        "y2k",
+        "legacy",
+        "enterprise",
+        "crisis"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "U.S. GAO — Year 2000 computing crisis: lessons learned (2000)",
+          "url": "https://www.gao.gov/assets/gao-00-145.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Year 2000 problem (overview)",
+          "url": "https://en.wikipedia.org/wiki/Year_2000_problem",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "dot-com-nasdaq-peak"
+      ]
+    },
+    {
       "slug": "openssh-first-released",
       "media": [],
       "relatedIds": [

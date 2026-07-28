@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "patriot-act-signed",
+      "slug": "patriot-act-signed",
+      "date": "2001-10-26",
+      "datePrecision": "day",
+      "title": "USA PATRIOT Act signed into law",
+      "summary": "President Bush signed the USA PATRIOT Act on October 26, 2001 — expanding government surveillance powers including wiretap, business-record, and pen-register authorities in the wake of the September 11 attacks.",
+      "about": "The PATRIOT Act reshaped how telecoms and internet companies handled law-enforcement requests — and later fueled debates over bulk metadata collection revealed by Edward Snowden. Section 215 business records and national security letters became routine compliance workflows for cloud providers storing user data.",
+      "narrative": {
+        "whyChosen": "The PATRIOT Act set the legal framework for post-9/11 digital surveillance that Snowden later exposed.",
+        "whyImportant": "It forced tech companies to build legal-compliance teams for government data requests at scale.",
+        "problemSolved": "Law enforcement argued pre-9/11 tools were too slow for tracking terrorists across phones and the internet."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "surveillance",
+        "policy",
+        "privacy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Congress.gov — USA PATRIOT Act (signed October 26, 2001)",
+          "url": "https://www.congress.gov/bill/107th-congress/house-bill/3162",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Patriot Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Patriot_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "section-230-enacted",
+        "snowden-nsa-revelations"
+      ]
+    }
+  ]
+}

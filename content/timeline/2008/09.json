@@ -47,6 +47,47 @@
         "firefox-1-0-released",
         "nodejs-first-released"
       ]
+    },
+    {
+      "id": "lehman-brothers-bankruptcy",
+      "slug": "lehman-brothers-bankruptcy",
+      "date": "2008-09-15",
+      "datePrecision": "day",
+      "title": "Lehman Brothers bankruptcy triggers global financial crisis",
+      "summary": "Lehman Brothers filed for Chapter 11 bankruptcy on September 15, 2008 — the largest failure in U.S. history and the shock that froze credit markets worldwide.",
+      "about": "Venture funding dried up, ad budgets collapsed, and enterprise IT projects were cut. Startups that had raised in 2007 suddenly faced down rounds or shutdowns; survivors like Airbnb and Uber later credited the crisis with forcing leaner product focus. Cloud adoption accelerated as CFOs demanded opex over capex — a tailwind for AWS and SaaS.",
+      "narrative": {
+        "whyChosen": "Lehman Monday is the date developers cite when startup funding and enterprise sales froze overnight.",
+        "whyImportant": "The crisis reshaped startup survival strategies and accelerated the shift to cloud opex models.",
+        "problemSolved": "This was a macro shock, not a product fix — it exposed over-leveraged finance and interconnected counterparty risk."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "crisis",
+        "startup",
+        "recession"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "SEC — Lehman Brothers Holdings Inc. Chapter 11 filing (September 15, 2008)",
+          "url": "https://www.sec.gov/Archives/edgar/data/806085/000119312508200053/d10k.htm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Bankruptcy of Lehman Brothers (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "google-chrome-released",
+        "amazon-ec2-launched"
+      ]
     }
   ]
 }

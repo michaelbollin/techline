@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "dmca-signed",
+      "slug": "dmca-signed",
+      "date": "1998-10-28",
+      "datePrecision": "day",
+      "title": "Digital Millennium Copyright Act signed into U.S. law",
+      "summary": "President Clinton signed the Digital Millennium Copyright Act on October 28, 1998 — criminalizing circumvention of DRM and creating safe harbors for online service providers.",
+      "about": "The DMCA shaped how developers build media apps, security research, and takedown workflows. Section 1201 anti-circumvention rules affected jailbreaking debates; DMCA takedown notices became routine for GitHub, YouTube, and CDNs. EU equivalents followed in later copyright directives.",
+      "narrative": {
+        "whyChosen": "The DMCA set the global template for copyright enforcement on the internet.",
+        "whyImportant": "Safe harbors and takedown processes became standard infrastructure for every UGC platform.",
+        "problemSolved": "Copyright owners had no clear legal path to remove infringing material online without suing every host."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "copyright",
+        "internet",
+        "policy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "U.S. Copyright Office — Digital Millennium Copyright Act (signed October 28, 1998)",
+          "url": "https://www.copyright.gov/legislation/dmca.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Digital Millennium Copyright Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "mozilla-source-released",
+        "itunes-released"
+      ]
+    }
+  ]
+}

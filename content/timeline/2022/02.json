@@ -51,6 +51,54 @@
         "android-announced",
         "t-mobile-g1-released"
       ]
+    },
+    {
+      "id": "meta-stock-crash",
+      "slug": "meta-stock-crash",
+      "date": "2022-02-03",
+      "datePrecision": "day",
+      "title": "Meta loses $230 billion in market value in one day",
+      "summary": "Meta Platforms stock plunged 26% on February 3, 2022 — wiping out roughly $230 billion in market capitalization after a weak earnings report and pivot costs toward the metaverse.",
+      "about": "It was the largest single-day value destruction for any U.S. company. Zuckerberg blamed Apple iOS privacy changes (ATT) for ad-targeting headwinds and doubled down on Reality Labs spending. The crash signaled that ad-dependent social platforms were vulnerable to privacy regulation and that 'metaverse' bets were not convincing public markets.",
+      "narrative": {
+        "whyChosen": "Meta's one-day crash was the loudest market signal that privacy changes hurt ad-tech economics.",
+        "whyImportant": "It validated Apple's ATT impact and cooled investor appetite for metaverse spending.",
+        "problemSolved": "Markets repriced social ad businesses after iOS privacy limits reduced targeting precision."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "meta",
+        "stock-market",
+        "advertising",
+        "privacy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Meta — Q4 2021 earnings release (February 2, 2022)",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2022/Meta-Reports-Fourth-Quarter-and-Full-Year-2021-Results/default.aspx",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Meta Platforms (2022 stock decline overview)",
+          "url": "https://en.wikipedia.org/wiki/Meta_Platforms",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "cambridge-analytica-scandal",
+        "ftc-sues-meta-antitrust",
+        "gdpr-effective"
+      ]
     }
   ]
 }

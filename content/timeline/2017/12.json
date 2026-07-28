@@ -83,6 +83,47 @@
         "uniswap-v1-released",
         "compound-governance-token-launched"
       ]
+    },
+    {
+      "id": "fcc-net-neutrality-repealed",
+      "slug": "fcc-net-neutrality-repealed",
+      "date": "2017-12-14",
+      "datePrecision": "day",
+      "title": "FCC votes to repeal net neutrality rules",
+      "summary": "The FCC voted 3–2 on December 14, 2017 to repeal the 2015 Open Internet Order — ending Title II classification of broadband and returning ISPs to lighter-touch regulation.",
+      "about": "Chairman Ajit Pai's Restoring Internet Freedom Order let ISPs theoretically block, throttle, or prioritize traffic again — though major providers largely pledged not to. States like California passed their own net neutrality laws; startups worried about paid peering deals affecting latency-sensitive apps. The repeal remained politically contested through subsequent FCC administrations.",
+      "narrative": {
+        "whyChosen": "The 2017 repeal reversed the strongest federal net neutrality protections U.S. developers had.",
+        "whyImportant": "It shifted broadband regulation to state-by-state patchwork and renewed ISP lobbying battles.",
+        "problemSolved": "ISPs argued Title II rules discouraged infrastructure investment; advocates feared fast-lane discrimination."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "internet",
+        "policy",
+        "net-neutrality"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "FCC — Restoring Internet Freedom Order adopted (December 14, 2017)",
+          "url": "https://www.fcc.gov/document/fcc-releases-restoring-internet-freedom-order",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Net neutrality in the United States (overview)",
+          "url": "https://en.wikipedia.org/wiki/Net_neutrality_in_the_United_States",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "fcc-net-neutrality-rules-adopted",
+        "google-founded"
+      ]
     }
   ]
 }

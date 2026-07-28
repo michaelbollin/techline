@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "apache-kafka-2-0-released",
+      "slug": "apache-kafka-2-0-released",
+      "date": "2019-02-04",
+      "datePrecision": "day",
+      "title": "Apache Kafka 2.0 released",
+      "summary": "The Apache Kafka project released version 2.0 on February 4, 2019 — adding self-balancing clusters and improved Java client APIs.",
+      "about": "Kafka 2.0 matured the event-streaming platform microservices rely on — producers, consumers, and Kafka Streams for real-time pipelines. It cemented Kafka as the default log backbone between services.",
+      "narrative": {
+        "whyChosen": "Kafka 2.0 marked the platform's transition to enterprise-grade streaming infrastructure.",
+        "whyImportant": "It expanded Kafka beyond a message queue into a full event streaming system.",
+        "problemSolved": "Teams needed durable, replayable event logs between distributed services."
+      },
+      "category": "software",
+      "tags": [
+        "kafka",
+        "messaging",
+        "streaming",
+        "apache",
+        "distributed-systems"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apache-software-foundation",
+          "name": "Apache Software Foundation"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Apache Kafka — 2.0.0 release (February 4, 2019)",
+          "url": "https://kafka.apache.org/21/documentation.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Apache Kafka (overview)",
+          "url": "https://en.wikipedia.org/wiki/Apache_Kafka",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "apache-kafka-open-sourced",
+        "rabbitmq-released",
+        "mqtt-invented"
+      ]
+    }
+  ]
+}

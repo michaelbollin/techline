@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "schrems-ii-privacy-shield-invalidated",
+      "slug": "schrems-ii-privacy-shield-invalidated",
+      "date": "2020-07-16",
+      "datePrecision": "day",
+      "title": "EU Court invalidates EU–U.S. Privacy Shield",
+      "summary": "The Court of Justice of the European Union ruled on July 16, 2020 in Schrems II that the EU–U.S. Privacy Shield framework was invalid — forcing companies to rethink transatlantic data transfers.",
+      "about": "The decision struck down the legal basis thousands of SaaS vendors used to store EU user data on U.S. servers. Legal teams adopted Standard Contractual Clauses, EU data residency, and encryption strategies; engineers built regional shards and data-localization features that GDPR alone had not fully mandated.",
+      "narrative": {
+        "whyChosen": "Schrems II was the biggest shock to cross-border cloud architecture since GDPR.",
+        "whyImportant": "It made data-transfer impact assessments a routine engineering and legal deliverable.",
+        "problemSolved": "EU residents lacked enforceable protections when data flowed to U.S. intelligence-accessible jurisdictions."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "privacy",
+        "gdpr",
+        "cloud",
+        "policy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Court of Justice of the EU — Schrems II judgment (July 16, 2020)",
+          "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2020-07/cp200091en.pdf",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Schrems II (overview)",
+          "url": "https://en.wikipedia.org/wiki/Schrems_II",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gdpr-effective"
+      ]
+    }
+  ]
+}

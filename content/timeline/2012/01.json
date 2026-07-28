@@ -40,6 +40,53 @@
         "joomla-3-0-released",
         "wordpress-3-0-released"
       ]
+    },
+    {
+      "id": "sopa-pipa-internet-blackout",
+      "slug": "sopa-pipa-internet-blackout",
+      "date": "2012-01-18",
+      "datePrecision": "day",
+      "title": "SOPA/PIPA protest blackout mobilizes the web",
+      "summary": "On January 18, 2012, Wikipedia, Reddit, Google, and thousands of sites blacked out or protested the Stop Online Piracy Act and PROTECT IP Act — congressional bills that would have expanded copyright enforcement online.",
+      "about": "The coordinated protest generated millions of emails to Congress and shelved both bills within days. It showed developers and platform operators could wield political power as a bloc — a template later reused for net neutrality campaigns and EU copyright directive fights.",
+      "narrative": {
+        "whyChosen": "The blackout was the largest political protest in internet history.",
+        "whyImportant": "It proved tech communities could kill legislation that threatened open platforms.",
+        "problemSolved": "SOPA/PIPA would have forced sites to police user links and enabled domain seizures without full due process."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "copyright",
+        "activism",
+        "internet",
+        "policy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — SOPA initiative (January 18, 2012 blackout)",
+          "url": "https://en.wikipedia.org/wiki/Wikipedia:SOPA_initiative",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Stop Online Piracy Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Stop_Online_Piracy_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "dmca-signed",
+        "wikipedia-launched"
+      ]
     }
   ]
 }

@@ -94,6 +94,47 @@
         "uniswap-v1-released",
         "cryptokitties-launched"
       ]
+    },
+    {
+      "id": "covid-19-pandemic-declared",
+      "slug": "covid-19-pandemic-declared",
+      "date": "2020-03-11",
+      "datePrecision": "day",
+      "title": "WHO declares COVID-19 a global pandemic",
+      "summary": "The World Health Organization declared COVID-19 a pandemic on March 11, 2020 — triggering worldwide lockdowns and the largest sudden shift to remote work in history.",
+      "about": "Offices emptied overnight; Zoom, Teams, and Slack usage exploded; e-commerce and cloud infrastructure strained under demand. Developers shipped contact-tracing apps, vaccine portals, and WFH tooling at breakneck speed — permanently normalizing distributed teams, async communication, and hybrid office policies across tech.",
+      "narrative": {
+        "whyChosen": "The pandemic declaration marks the day remote work became the default for millions of developers.",
+        "whyImportant": "It accelerated cloud adoption, digital transformation, and async engineering culture by years.",
+        "problemSolved": "This was a public-health crisis — tech's role was enabling continuity when in-person work stopped."
+      },
+      "category": "culture",
+      "tags": [
+        "pandemic",
+        "remote-work",
+        "crisis",
+        "culture"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "WHO — WHO Director-General's opening remarks (March 11, 2020)",
+          "url": "https://www.who.int/director-general/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — COVID-19 pandemic (overview)",
+          "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "solana-mainnet-launched",
+        "samsung-galaxy-s20-released"
+      ]
     }
   ]
 }

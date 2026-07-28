@@ -1,44 +1,109 @@
 {
   "events": [
     {
-      "id": "perl-5-0-released",
-      "slug": "perl-5-0-released",
-      "date": "1994-10-17",
-      "datePrecision": "day",
-      "title": "Perl 5.0 released",
-      "summary": "Larry Wall released Perl 5.0 on October 17, 1994 — a complete rewrite adding objects, references, modules, and the CPAN ecosystem foundation.",
-      "about": "Perl 5 became the duct tape of the early web: CGI scripts, system administration, bioinformatics, and text munging. The module system and CPAN let developers share libraries decades before npm or PyPI — powering everything from Slashdot to early Amazon glue code.",
+      "id": "http-cookies-introduced",
+      "slug": "http-cookies-introduced",
+      "date": "1994-10",
+      "datePrecision": "month",
+      "title": "HTTP cookies introduced in Netscape",
+      "summary": "Lou Montulli implemented HTTP cookies in Netscape Navigator in October 1994 — letting servers store state in the browser.",
+      "about": "Cookies enabled shopping carts, login sessions, and analytics — every `Set-Cookie` header traces to this Netscape feature. Developers gained stateful web apps on a stateless protocol, though privacy debates followed for decades.",
       "narrative": {
-        "whyChosen": "Perl 5 defined scripting culture for the 1990s web and Unix automation.",
-        "whyImportant": "Objects, references, and CPAN made Perl a platform, not just a language.",
-        "problemSolved": "Perl 4 could not scale to complex programs; the web needed a richer scripting language with reusable libraries."
+        "whyChosen": "Cookies made session state possible on the early web.",
+        "whyImportant": "They enabled e-commerce, authentication, and personalization at scale.",
+        "problemSolved": "HTTP had no memory between requests; servers could not track users."
       },
-      "category": "software",
+      "category": "protocol",
       "tags": [
-        "perl",
-        "programming-language",
-        "cpan",
-        "web"
+        "cookies",
+        "http",
+        "web",
+        "netscape",
+        "protocol"
       ],
-      "people": [],
-      "companies": [],
+      "people": [
+        {
+          "id": "lou-montulli",
+          "name": "Lou Montulli",
+          "role": "creator"
+        }
+      ],
+      "companies": [
+        {
+          "id": "netscape",
+          "name": "Netscape"
+        }
+      ],
       "importance": 4,
       "media": [],
       "sources": [
         {
-          "title": "PerlMonks — Perl 5.000 announcement (October 17, 1994)",
-          "url": "https://www.perlmonks.org/?node_id=328",
+          "title": "Wikipedia — HTTP cookie (introduced 1994)",
+          "url": "https://en.wikipedia.org/wiki/HTTP_cookie",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Perl (overview)",
-          "url": "https://en.wikipedia.org/wiki/Perl",
+          "title": "Wikipedia — HTTP cookie (overview)",
+          "url": "https://en.wikipedia.org/wiki/HTTP_cookie",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "perl-1-0-released",
-        "php-tools-1-0-released"
+        "http-1-1-standardized",
+        "mosaic-1-0-released",
+        "netscape-navigator-1-0"
+      ]
+    },
+    {
+      "id": "tim-berners-lee-w3c-founded",
+      "slug": "tim-berners-lee-w3c-founded",
+      "date": "1994-10-01",
+      "datePrecision": "day",
+      "title": "Tim Berners-Lee founds the W3C",
+      "summary": "Tim Berners-Lee founded the World Wide Web Consortium on October 1, 1994 at MIT — stewarding web standards globally.",
+      "about": "W3C standardized HTML, CSS, HTTP, and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
+      "narrative": {
+        "whyChosen": "W3C became the neutral forum for web standardization.",
+        "whyImportant": "It prevented proprietary fragmentation of the open web.",
+        "problemSolved": "Competing vendors needed a shared process to evolve web technologies."
+      },
+      "category": "culture",
+      "tags": [
+        "people",
+        "web",
+        "w3c",
+        "standards"
+      ],
+      "people": [
+        {
+          "id": "tim-berners-lee",
+          "name": "Tim Berners-Lee",
+          "role": "founder"
+        }
+      ],
+      "companies": [
+        {
+          "id": "w3c",
+          "name": "W3C"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "W3C — Consortium founded (October 1, 1994)",
+          "url": "https://www.w3.org/about/history/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — World Wide Web Consortium (overview)",
+          "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "worldwideweb-browser",
+        "berners-lee-web-public-domain"
       ]
     },
     {
@@ -94,55 +159,44 @@
       ]
     },
     {
-      "id": "tim-berners-lee-w3c-founded",
-      "slug": "tim-berners-lee-w3c-founded",
-      "date": "1994-10-01",
+      "id": "perl-5-0-released",
+      "slug": "perl-5-0-released",
+      "date": "1994-10-17",
       "datePrecision": "day",
-      "title": "Tim Berners-Lee founds the W3C",
-      "summary": "Tim Berners-Lee founded the World Wide Web Consortium on October 1, 1994 at MIT — stewarding web standards globally.",
-      "about": "W3C standardized HTML, CSS, HTTP, and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
+      "title": "Perl 5.0 released",
+      "summary": "Larry Wall released Perl 5.0 on October 17, 1994 — a complete rewrite adding objects, references, modules, and the CPAN ecosystem foundation.",
+      "about": "Perl 5 became the duct tape of the early web: CGI scripts, system administration, bioinformatics, and text munging. The module system and CPAN let developers share libraries decades before npm or PyPI — powering everything from Slashdot to early Amazon glue code.",
       "narrative": {
-        "whyChosen": "W3C became the neutral forum for web standardization.",
-        "whyImportant": "It prevented proprietary fragmentation of the open web.",
-        "problemSolved": "Competing vendors needed a shared process to evolve web technologies."
+        "whyChosen": "Perl 5 defined scripting culture for the 1990s web and Unix automation.",
+        "whyImportant": "Objects, references, and CPAN made Perl a platform, not just a language.",
+        "problemSolved": "Perl 4 could not scale to complex programs; the web needed a richer scripting language with reusable libraries."
       },
-      "category": "culture",
+      "category": "software",
       "tags": [
-        "people",
-        "web",
-        "w3c",
-        "standards"
+        "perl",
+        "programming-language",
+        "cpan",
+        "web"
       ],
-      "people": [
-        {
-          "id": "tim-berners-lee",
-          "name": "Tim Berners-Lee",
-          "role": "founder"
-        }
-      ],
-      "companies": [
-        {
-          "id": "w3c",
-          "name": "W3C"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 4,
       "media": [],
       "sources": [
         {
-          "title": "W3C — Consortium founded (October 1, 1994)",
-          "url": "https://www.w3.org/about/history/",
+          "title": "PerlMonks — Perl 5.000 announcement (October 17, 1994)",
+          "url": "https://www.perlmonks.org/?node_id=328",
           "role": "date"
         },
         {
-          "title": "Wikipedia — World Wide Web Consortium (overview)",
-          "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Consortium",
+          "title": "Wikipedia — Perl (overview)",
+          "url": "https://en.wikipedia.org/wiki/Perl",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "worldwideweb-browser",
-        "berners-lee-web-public-domain"
+        "perl-1-0-released",
+        "php-tools-1-0-released"
       ]
     }
   ]

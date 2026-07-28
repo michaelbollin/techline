@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "id": "windows-subsystem-linux-released",
+      "slug": "windows-subsystem-linux-released",
+      "date": "2016-08-02",
+      "datePrecision": "day",
+      "title": "Windows Subsystem for Linux released",
+      "summary": "Microsoft shipped Windows Subsystem for Linux (WSL) in the Windows 10 Anniversary Update on August 2, 2016 — running Linux ELF binaries on Windows without a VM.",
+      "about": "WSL let developers run bash, apt, and Node tooling on Windows laptops — `wsl` became standard in full-stack setup guides. WSL 2 later added a real Linux kernel, blurring the line between Windows and Linux dev environments.",
+      "narrative": {
+        "whyChosen": "WSL brought native Linux tooling to Windows developers.",
+        "whyImportant": "It reduced friction for cross-platform and open-source workflows on Windows.",
+        "problemSolved": "Windows developers dual-booted or ran slow VMs to use Linux build chains."
+      },
+      "category": "software",
+      "tags": [
+        "wsl",
+        "linux",
+        "windows",
+        "microsoft",
+        "developer-tools"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "Microsoft — Bash on Ubuntu on Windows (August 2, 2016)",
+          "url": "https://devblogs.microsoft.com/commandline/bash-on-ubuntu-on-windows/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Windows Subsystem for Linux (overview)",
+          "url": "https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "linux-kernel-announced",
+        "posix-1-standardized",
+        "docker-open-sourced"
+      ]
+    },
+    {
       "id": "powershell-core-open-sourced",
       "slug": "powershell-core-open-sourced",
       "date": "2016-08-18",

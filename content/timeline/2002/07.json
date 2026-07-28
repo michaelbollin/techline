@@ -1,0 +1,90 @@
+{
+  "events": [
+    {
+      "id": "sarbanes-oxley-enacted",
+      "slug": "sarbanes-oxley-enacted",
+      "date": "2002-07-30",
+      "datePrecision": "day",
+      "title": "Sarbanes-Oxley Act signed into U.S. law",
+      "summary": "President Bush signed the Sarbanes-Oxley Act on July 30, 2002 — imposing strict financial reporting and internal-control requirements on U.S. public companies after Enron and WorldCom scandals.",
+      "about": "SOX made going public more expensive: Section 404 internal-control audits, CEO/CFO certifications, and heavier compliance teams. Many tech startups delayed IPOs or stayed private longer; public SaaS companies built audit trails into engineering and finance systems that private firms later copied voluntarily.",
+      "narrative": {
+        "whyChosen": "SOX reshaped how public tech companies govern code, data, and financial systems.",
+        "whyImportant": "Compliance overhead changed the calculus of IPO timing for venture-backed startups.",
+        "problemSolved": "Investors had lost trust after accounting fraud at major corporations; markets needed enforceable transparency rules."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "finance",
+        "compliance",
+        "policy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Congress.gov — Sarbanes-Oxley Act of 2002 (signed July 30, 2002)",
+          "url": "https://www.congress.gov/bill/107th-congress/house-bill/3763",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Sarbanes–Oxley Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Sarbanes%E2%80%93Oxley_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "dot-com-nasdaq-peak",
+        "enron-bankruptcy",
+        "worldcom-bankruptcy",
+        "shopify-ipo"
+      ]
+    },
+    {
+      "id": "worldcom-bankruptcy",
+      "slug": "worldcom-bankruptcy",
+      "date": "2002-07-21",
+      "datePrecision": "day",
+      "title": "WorldCom files for bankruptcy",
+      "summary": "WorldCom filed for Chapter 11 bankruptcy on July 21, 2002 — after revealing $3.8 billion in accounting fraud, becoming the largest bankruptcy in U.S. history and capping the telecom overbuild that followed the dot-com bubble.",
+      "about": "WorldCom had laid millions of miles of fiber during the dot-com boom; when demand failed to materialize, executives inflated earnings to keep stock prices up. The collapse stranded excess datacenter and backbone capacity — cheap bandwidth that later benefited cloud providers — while destroying shareholder value and accelerating telecom industry consolidation.",
+      "narrative": {
+        "whyChosen": "WorldCom's fraud was the telecom capstone to Enron-era accounting scandals.",
+        "whyImportant": "It wrote off billions in fiber buildout and pushed Congress toward Sarbanes-Oxley.",
+        "problemSolved": "Markets needed to purge fraudulent balance sheets after the dot-com and telecom bubbles."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "crisis",
+        "telecom",
+        "fraud",
+        "bankruptcy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "SEC — WorldCom bankruptcy and fraud charges (July 2002)",
+          "url": "https://www.sec.gov/news/press/2002-110.htm",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — WorldCom scandal (overview)",
+          "url": "https://en.wikipedia.org/wiki/WorldCom_scandal",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "dot-com-nasdaq-peak",
+        "enron-bankruptcy",
+        "sarbanes-oxley-enacted"
+      ]
+    }
+  ]
+}

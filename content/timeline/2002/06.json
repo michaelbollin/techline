@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "id": "mozilla-1-0-released",
+      "slug": "mozilla-1-0-released",
+      "date": "2002-06-05",
+      "datePrecision": "day",
+      "title": "Mozilla 1.0 released",
+      "summary": "The Mozilla Organization released Mozilla 1.0 on June 5, 2002 — the open-source browser suite descended from Netscape's code.",
+      "about": "Mozilla 1.0 proved the Netscape open-source release could ship a full browser — spawning Firefox, Thunderbird, and the Gecko engine. Developers got a community-governed alternative to Internet Explorer during the browser wars' second act.",
+      "narrative": {
+        "whyChosen": "Mozilla 1.0 validated open-source browser development after Netscape's fall.",
+        "whyImportant": "It led directly to Firefox and modern Gecko-based engines.",
+        "problemSolved": "The web needed a maintained open browser codebase not controlled by one vendor."
+      },
+      "category": "software",
+      "tags": [
+        "mozilla",
+        "browser",
+        "open-source",
+        "gecko",
+        "web"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "mozilla",
+          "name": "Mozilla"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mozilla — Mozilla 1.0 (June 5, 2002)",
+          "url": "https://www.mozilla.org/en-US/press/mozilla-1.0/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Mozilla Application Suite (overview)",
+          "url": "https://en.wikipedia.org/wiki/Mozilla_Application_Suite",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "mozilla-source-released",
+        "firefox-1-0-released",
+        "netscape-navigator-1-0"
+      ]
+    }
+  ]
+}

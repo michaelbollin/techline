@@ -193,6 +193,54 @@
         "t-mobile-g1-released",
         "samsung-galaxy-s-released"
       ]
+    },
+    {
+      "id": "epic-v-apple-trial-verdict",
+      "slug": "epic-v-apple-trial-verdict",
+      "date": "2021-09-10",
+      "datePrecision": "day",
+      "title": "Epic v. Apple antitrust trial verdict",
+      "summary": "U.S. District Judge Yvonne Gonzalez Rogers ruled on September 10, 2021 in Epic Games v. Apple — largely siding with Apple but ordering it to allow developers to steer users to external payment links.",
+      "about": "Epic had provoked the fight by bypassing Apple's 30% App Store fee in Fortnite. The verdict kept the App Store model intact but cracked the anti-steering rules — later shaping EU DMA mandates for alternative payments and stores. Mobile game and SaaS developers gained legal language to challenge platform fees worldwide.",
+      "narrative": {
+        "whyChosen": "Epic v. Apple was the highest-profile App Store antitrust trial of the mobile era.",
+        "whyImportant": "It forced Apple to allow external payment links and fueled global app-store regulation.",
+        "problemSolved": "Developers argued Apple's 30% fee and exclusive billing were anticompetitive monopolization."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "antitrust",
+        "apple",
+        "app-store",
+        "policy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "apple",
+          "name": "Apple"
+        }
+      ],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "U.S. District Court — Epic Games v. Apple judgment (September 10, 2021)",
+          "url": "https://www.cand.uscourts.gov/judges/yvonne-gonzalez-rogers/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Epic Games v. Apple (overview)",
+          "url": "https://en.wikipedia.org/wiki/Epic_Games_v._Apple",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-app-store-opens",
+        "eu-digital-markets-act-gatekeepers",
+        "microsoft-antitrust-ruling"
+      ]
     }
   ]
 }

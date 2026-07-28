@@ -1,26 +1,24 @@
 {
   "events": [
     {
-      "id": "pocket-pc-released",
-      "slug": "pocket-pc-released",
-      "date": "2000-04",
-      "datePrecision": "month",
-      "title": "Windows Pocket PC released",
-      "summary": "Microsoft launched Pocket PC 2000 in April 2000 — a Windows CE PDA platform with Pocket Word, Excel, and Internet Explorer.",
-      "about": "Pocket PC devices from HP, Compaq, and Dell targeted mobile professionals with stylus input and ActiveSync desktop pairing. Developers wrote Compact Framework and native C++ apps for enterprise mobile workflows before the iPhone reset expectations. The line evolved into Windows Mobile and eventually Windows Phone.",
+      "id": "microsoft-antitrust-ruling",
+      "slug": "microsoft-antitrust-ruling",
+      "date": "2000-04-03",
+      "datePrecision": "day",
+      "title": "U.S. judge rules Microsoft violated antitrust law",
+      "summary": "On April 3, 2000, U.S. District Judge Thomas Penfield Jackson ruled that Microsoft had violated antitrust laws by maintaining a monopoly through anti-competitive conduct — during the same month the dot-com bubble began to burst.",
+      "about": "The findings targeted browser bundling and OEM restrictions that had kneecapped Netscape. Jackson later ordered a breakup (later reversed on appeal), but the case forced Microsoft to open APIs, document protocols, and accept oversight — influencing how regulators later treated Google, Apple, and Amazon.",
       "narrative": {
-        "whyChosen": "Pocket PC was Microsoft's first cohesive PDA platform for enterprise mobile development.",
-        "whyImportant": "It created a Windows-native mobile app ecosystem for business users in the early 2000s.",
-        "problemSolved": "Mobile workers needed Office-compatible documents and email on pocket devices beyond the Palm Pilot."
+        "whyChosen": "The ruling was the defining antitrust moment of the PC software era.",
+        "whyImportant": "It constrained how platform owners could bundle products and exclude rivals.",
+        "problemSolved": "Competitors argued Windows integration made independent browsers and middleware impossible to sell."
       },
-      "category": "hardware",
+      "category": "culture",
       "tags": [
-        "hardware",
-        "mobile",
-        "pda",
+        "law",
+        "antitrust",
         "microsoft",
-        "windows-ce",
-        "pocket-pc"
+        "policy"
       ],
       "people": [],
       "companies": [
@@ -29,25 +27,24 @@
           "name": "Microsoft"
         }
       ],
-      "importance": 6,
+      "importance": 2,
       "media": [],
       "sources": [
         {
-          "title": "Microsoft — Pocket PC 2000 launch (April 2000)",
-          "url": "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa908260(v=msdn.10)",
+          "title": "U.S. DOJ — U.S. v. Microsoft findings of fact and conclusions of law (April 3, 2000)",
+          "url": "https://www.justice.gov/atr/case-document/us-v-microsoft-findings-fact",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Pocket PC (overview)",
-          "url": "https://en.wikipedia.org/wiki/Pocket_PC",
+          "title": "Wikipedia — United States v. Microsoft Corp. (overview)",
+          "url": "https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "palm-pilot-1000-released",
-        "windows-phone-eol",
-        "iphone-goes-on-sale",
-        "blackberry-5810-released"
+        "internet-explorer-1-0",
+        "netscape-navigator-1-0",
+        "dot-com-nasdaq-peak"
       ]
     }
   ]

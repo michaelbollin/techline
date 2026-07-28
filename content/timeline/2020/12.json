@@ -126,6 +126,54 @@
         "actionscript-1-0-flash-5",
         "flash-4-scripting"
       ]
+    },
+    {
+      "id": "ftc-sues-meta-antitrust",
+      "slug": "ftc-sues-meta-antitrust",
+      "date": "2020-12-09",
+      "datePrecision": "day",
+      "title": "FTC sues Facebook for anticompetitive conduct",
+      "summary": "The U.S. Federal Trade Commission filed an antitrust lawsuit against Facebook on December 9, 2020 — alleging illegal monopolization through acquisitions of Instagram and WhatsApp and anticompetitive platform policies.",
+      "about": "The suit sought divestitures of Instagram and WhatsApp — unprecedented for a social platform. It ran parallel to state AG cases and EU DMA designations, signaling a new era of antitrust aimed at network-effect moats rather than just price fixing. Developers watched for mandates to open social graphs, interoperability APIs, and reduced platform self-preferencing.",
+      "narrative": {
+        "whyChosen": "The FTC suit was the boldest U.S. antitrust challenge to a social platform since Microsoft.",
+        "whyImportant": "It threatened breakups of Instagram and WhatsApp and reshaped M&A calculus for big tech.",
+        "problemSolved": "Regulators argued Facebook bought rivals to maintain monopoly power in social networking."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "antitrust",
+        "meta",
+        "facebook",
+        "policy"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
+      ],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "FTC — FTC sues Facebook to unwind Instagram and WhatsApp acquisitions (December 9, 2020)",
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2020/12/ftc-sues-facebook-illegal-monopolization",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Federal Trade Commission v. Meta Platforms (overview)",
+          "url": "https://en.wikipedia.org/wiki/Federal_Trade_Commission_v._Meta_Platforms",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "microsoft-antitrust-ruling",
+        "cambridge-analytica-scandal",
+        "eu-digital-markets-act-gatekeepers"
+      ]
     }
   ]
 }

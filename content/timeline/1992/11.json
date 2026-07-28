@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "id": "microsoft-access-1-0-released",
+      "slug": "microsoft-access-1-0-released",
+      "date": "1992-11-19",
+      "datePrecision": "day",
+      "title": "Microsoft Access 1.0 released",
+      "summary": "Microsoft released Access 1.0 on November 19, 1992 — a desktop database with forms, queries, and the Jet engine for Windows.",
+      "about": "Access put relational databases on millions of office PCs — power users built line-of-business apps without a DBA. Its file format and VBA macros influenced how small teams shipped internal tools before web apps and SaaS took over.",
+      "narrative": {
+        "whyChosen": "Access democratized relational databases on Windows desktops.",
+        "whyImportant": "It proved non-programmers could build data-driven applications with GUIs.",
+        "problemSolved": "Departments needed databases but could not afford server DBAs and custom development."
+      },
+      "category": "software",
+      "tags": [
+        "access",
+        "database",
+        "microsoft",
+        "windows"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "Wikipedia — Microsoft Access (version 1.0, November 19, 1992)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Access",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Microsoft Access (overview)",
+          "url": "https://en.wikipedia.org/wiki/Microsoft_Access",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "odbc-1-0-released",
+        "windows-3-0-released",
+        "mysql-first-released"
+      ]
+    }
+  ]
+}

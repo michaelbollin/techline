@@ -180,6 +180,48 @@
         "magento-2-0-released",
         "symfony-4-released"
       ]
+    },
+    {
+      "id": "ccpa-effective",
+      "slug": "ccpa-effective",
+      "date": "2020-01-01",
+      "datePrecision": "day",
+      "title": "California Consumer Privacy Act takes effect",
+      "summary": "The California Consumer Privacy Act became enforceable on January 1, 2020 — granting California residents rights to know, delete, and opt out of sale of their personal information.",
+      "about": "CCPA was the first comprehensive U.S. state privacy law — forcing national brands to add 'Do Not Sell My Personal Information' links, data-deletion workflows, and vendor contracts mirroring GDPR. It inspired Virginia's VCDPA, Colorado's CPA, and the eventual American Privacy Rights Act debates. Privacy engineering teams doubled down on consent management platforms and data-inventory tooling.",
+      "narrative": {
+        "whyChosen": "CCPA brought GDPR-style privacy rights to the largest U.S. state economy.",
+        "whyImportant": "It made California-specific privacy UX mandatory for any national consumer app.",
+        "problemSolved": "U.S. users lacked statutory rights to access or delete personal data held by tech companies."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "privacy",
+        "ccpa",
+        "california",
+        "policy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "California Attorney General — CCPA effective January 1, 2020",
+          "url": "https://oag.ca.gov/privacy/ccpa",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — California Consumer Privacy Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gdpr-effective",
+        "cambridge-analytica-scandal"
+      ]
     }
   ]
 }

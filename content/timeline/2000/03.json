@@ -1,0 +1,45 @@
+{
+  "events": [
+    {
+      "id": "dot-com-nasdaq-peak",
+      "slug": "dot-com-nasdaq-peak",
+      "date": "2000-03-10",
+      "datePrecision": "day",
+      "title": "NASDAQ peaks at the height of the dot-com bubble",
+      "summary": "The NASDAQ Composite index closed at 5,048.62 on March 10, 2000 — the all-time high that marked the peak of the dot-com bubble before a two-year crash.",
+      "about": "Venture capital had poured into internet startups with no profits; telecom fiber and datacenter buildouts raced ahead of demand. After March 2000, hundreds of dot-coms failed, IPO windows slammed shut, and developers who had joined pre-IPO startups watched options evaporate — reshaping Silicon Valley hiring for a decade.",
+      "narrative": {
+        "whyChosen": "The NASDAQ peak is the calendar date developers cite for the dot-com bubble's turning point.",
+        "whyImportant": "The crash ended reckless 'growth at all costs' and delayed tech IPOs until Web 2.0.",
+        "problemSolved": "This was a market correction, not a product launch — it exposed unsustainable burn rates and business models."
+      },
+      "category": "culture",
+      "tags": [
+        "finance",
+        "dot-com",
+        "stock-market",
+        "startup"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "NASDAQ — Historical index data (March 10, 2000 close 5,048.62)",
+          "url": "https://www.nasdaq.com/market-activity/index/comp/historical",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Dot-com bubble (overview)",
+          "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "netscape-ipo",
+        "bill-gates-steps-down-microsoft-ceo"
+      ]
+    }
+  ]
+}
