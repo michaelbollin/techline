@@ -17,12 +17,12 @@ export function EventCard({ event }: EventCardProps) {
         </time>
         <CategoryBadge category={event.category} />
         {event.importance === 0 && (
-          <span className="rounded-full border border-black bg-black px-2 py-0.5 text-[10px] font-medium tracking-wide text-white uppercase">
+          <span className="rounded-full border border-black bg-black px-2 py-0.5 text-xs font-medium tracking-wide text-white uppercase">
             Pillar
           </span>
         )}
         {event.importance === 1 && (
-          <span className="rounded-full bg-accent-muted px-2 py-0.5 text-[10px] font-medium tracking-wide text-accent uppercase">
+          <span className="rounded-full bg-accent-muted px-2 py-0.5 text-xs font-medium tracking-wide text-accent uppercase">
             Landmark
           </span>
         )}
@@ -43,7 +43,7 @@ export function EventCard({ event }: EventCardProps) {
           {event.tags.slice(0, 4).map((tag) => (
             <li
               key={tag}
-              className="rounded-md bg-background px-2 py-1 font-mono text-[11px] text-muted"
+              className="rounded-md bg-background px-2 py-1 font-mono text-xs text-muted"
             >
               #{tag}
             </li>

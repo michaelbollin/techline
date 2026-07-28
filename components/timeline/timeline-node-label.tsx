@@ -1,3 +1,4 @@
+import { cn } from "@/lib/cn";
 import {
   LABEL_BOX_HEIGHT,
   LABEL_RADIUS,
@@ -17,6 +18,9 @@ type TimelineNodeLabelProps = {
   onHover: (event: PlottedEvent | null) => void;
   onClick: () => void;
 };
+
+const labelTransition =
+  "transition-[transform,fill] duration-[220ms] ease-[cubic-bezier(0.22,1,0.36,1)]";
 
 export function TimelineNodeLabel({
   event,
@@ -38,7 +42,7 @@ export function TimelineNodeLabel({
 
   return (
     <g
-      className="timeline-node-label"
+      className="cursor-pointer outline-none"
       transform={`translate(${labelLeft}, ${labelY})`}
       onClick={onClick}
       onMouseEnter={() => onHover(event)}
@@ -49,20 +53,33 @@ export function TimelineNodeLabel({
       role="button"
       aria-label={`${event.title}, ${event.dateLabel}`}
     >
-      <g className={`timeline-node-label-inner ${isHovered ? "is-hovered" : ""}`}>
+      <g
+        className={cn(
+          labelTransition,
+          isHovered && "origin-center scale-[1.04] [transform-box:fill-box]",
+        )}
+      >
         <rect
           width={labelWidth}
           height={LABEL_BOX_HEIGHT}
           rx={LABEL_RADIUS}
           ry={LABEL_RADIUS}
-          className="timeline-node-label-bg"
+          className={cn(
+            labelTransition,
+            "stroke-black stroke-1",
+            isHovered ? "fill-white" : "fill-black",
+          )}
         />
         <text
           x={labelWidth / 2}
           y={LABEL_BOX_HEIGHT / 2}
           textAnchor="middle"
           dominantBaseline="central"
-          className="timeline-node-label-text"
+          className={cn(
+            labelTransition,
+            "pointer-events-none text-sm font-medium tracking-wide",
+            isHovered ? "fill-black" : "fill-white",
+          )}
         >
           {event.title}
         </text>

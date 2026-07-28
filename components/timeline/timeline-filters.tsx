@@ -2,13 +2,19 @@
 
 import { useEffect, useMemo } from "react";
 
+import { Button } from "@/components/ui/button";
+import {
+  FilterSidebar,
+  FilterSidebarBody,
+  FilterSidebarFooter,
+  FilterSidebarHeader,
+  FilterSidebarTitle,
+} from "@/components/ui/filter/filter-sidebar";
 import { useTimelineFilterOptions } from "@/hooks/use-timeline-filter-options";
 import type { FilterUpdater } from "@/hooks/use-timeline-filters";
-import { removeFilters, toggleFilterId } from "@/lib/timeline/filters";
-import { isSearchFilterId } from "@/lib/timeline/filter-options";
+import { toggleFilterId } from "@/lib/timeline/filters";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
-import { ActiveFilterChips } from "./active-filter-chips";
 import { FilterToggleIcon } from "./filter-toggle-icon";
 import { ThemeFilterList } from "./theme-filter-list";
 import { TimelineSearchFilter } from "./timeline-search-filter";
@@ -27,9 +33,8 @@ export function TimelineFilterTrigger({ isOpen, activeCount, onToggle }: Timelin
       : "Filters";
 
   return (
-    <button
-      type="button"
-      className={`timeline-filter-trigger ${isOpen ? "is-open" : ""} ${activeCount > 0 ? "has-selection" : ""}`}
+    <Button
+      variant="icon"
       aria-expanded={isOpen}
       aria-controls="timeline-filter-sidebar"
       aria-label={ariaLabel}
@@ -37,11 +42,14 @@ export function TimelineFilterTrigger({ isOpen, activeCount, onToggle }: Timelin
     >
       <FilterToggleIcon isOpen={isOpen} />
       {!isOpen && activeCount > 0 && (
-        <span className="timeline-filter-trigger-count" aria-hidden>
+        <span
+          className="absolute -top-0.5 -right-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-black px-0.5 font-mono text-xs leading-none font-semibold text-white"
+          aria-hidden
+        >
           {activeCount}
         </span>
       )}
-    </button>
+    </Button>
   );
 }
 
@@ -53,7 +61,6 @@ type TimelineFilterSidebarProps = {
   onReset: () => void;
   onFulltextChange: (query: string) => void;
   fulltextQuery: string;
-  resetNonce?: number;
   onClose: () => void;
   onOpenChange?: (open: boolean) => void;
 };
@@ -66,25 +73,14 @@ export function TimelineFilterSidebar({
   onReset,
   onFulltextChange,
   fulltextQuery,
-  resetNonce = 0,
   onClose,
   onOpenChange,
 }: TimelineFilterSidebarProps) {
-  const { themeOptions, searchOptions } = useTimelineFilterOptions(events);
+  const { themeOptions } = useTimelineFilterOptions(events);
 
   const selectedThemeIds = useMemo(
     () => new Set([...activeFilterIds].filter((id) => themeOptions.some((option) => option.id === id))),
     [activeFilterIds, themeOptions],
-  );
-
-  const selectedSearchIds = useMemo(
-    () => new Set([...activeFilterIds].filter((id) => isSearchFilterId(id))),
-    [activeFilterIds],
-  );
-
-  const selectedSearchOptions = useMemo(
-    () => searchOptions.filter((option) => selectedSearchIds.has(option.id)),
-    [searchOptions, selectedSearchIds],
   );
 
   useEffect(() => {
@@ -110,57 +106,34 @@ export function TimelineFilterSidebar({
     onChange((prev) => toggleFilterId(prev, id));
   };
 
-  const clearSearch = () => {
-    onFulltextChange("");
-    onChange((prev) => removeFilters(prev, isSearchFilterId));
-  };
-
   if (!isOpen) {
     return null;
   }
 
   return (
-    <aside
-      id="timeline-filter-sidebar"
-      className="timeline-filter-sidebar"
-      role="region"
-      aria-label="Filter timeline events"
-    >
-      <header className="timeline-filter-sidebar-header">
-        <h2 className="timeline-filter-sidebar-title">Filters</h2>
-      </header>
-
-      <div className="timeline-filter-sidebar-body">
-        <ActiveFilterChips
-          fulltextQuery={fulltextQuery}
-          chips={selectedSearchOptions}
-          onClearFulltext={() => onFulltextChange("")}
-          onRemoveChip={toggle}
-        />
-
+    <FilterSidebar id="timeline-filter-sidebar">
+      <FilterSidebarHeader>
+        <FilterSidebarTitle>Filters</FilterSidebarTitle>
         <TimelineSearchFilter
-          layout="pane"
-          options={searchOptions}
-          selectedIds={selectedSearchIds}
-          onToggle={toggle}
-          onClear={clearSearch}
-          onFulltextChange={onFulltextChange}
-          fulltextQuery={fulltextQuery}
-          resetNonce={resetNonce}
+          className="mt-6"
+          value={fulltextQuery}
+          onChange={onFulltextChange}
         />
+      </FilterSidebarHeader>
 
+      <FilterSidebarBody>
         <ThemeFilterList
           options={themeOptions}
           selectedIds={selectedThemeIds}
           onToggle={toggle}
         />
-      </div>
+      </FilterSidebarBody>
 
-      <footer className="timeline-filter-sidebar-footer">
-        <button type="button" className="timeline-reset-button" onClick={onReset}>
+      <FilterSidebarFooter>
+        <Button variant="text" onClick={onReset}>
           Reset all
-        </button>
-      </footer>
-    </aside>
+        </Button>
+      </FilterSidebarFooter>
+    </FilterSidebar>
   );
 }

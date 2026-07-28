@@ -18,7 +18,7 @@ const categoryStyles: Record<TimelineEvent["category"], string> = {
 export function CategoryBadge({ category }: CategoryBadgeProps) {
   return (
     <span
-      className={`rounded-full px-2 py-0.5 text-[10px] font-medium tracking-wide uppercase ${categoryStyles[category]}`}
+      className={`rounded-full px-2 py-0.5 text-xs font-medium tracking-wide uppercase ${categoryStyles[category]}`}
     >
       {category}
     </span>

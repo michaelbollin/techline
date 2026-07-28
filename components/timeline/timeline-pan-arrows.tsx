@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/cn";
+
 type TimelinePanArrowsProps = {
   canPanEarlier: boolean;
   canPanLater: boolean;
@@ -46,24 +49,24 @@ export function TimelinePanArrows({
   return (
     <>
       {canPanEarlier && (
-        <button
-          type="button"
+        <Button
+          variant="control"
           onClick={onPanEarlier}
-          className="modern-timeline-control modern-timeline-control-square modern-timeline-pan-arrow modern-timeline-pan-arrow-left rounded-full"
+          className={cn("pointer-events-auto absolute top-1/2 left-4 z-10 -translate-y-1/2")}
           aria-label="Show earlier events"
         >
           <ChevronLeft />
-        </button>
+        </Button>
       )}
       {canPanLater && (
-        <button
-          type="button"
+        <Button
+          variant="control"
           onClick={onPanLater}
-          className="modern-timeline-control modern-timeline-control-square modern-timeline-pan-arrow modern-timeline-pan-arrow-right rounded-full"
+          className={cn("pointer-events-auto absolute top-1/2 right-4 z-10 -translate-y-1/2")}
           aria-label="Show later events"
         >
           <ChevronRight />
-        </button>
+        </Button>
       )}
     </>
   );

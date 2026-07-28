@@ -57,7 +57,7 @@ export function MediaList({ media }: MediaListProps) {
 
             <div className="space-y-2 p-4">
               <div className="flex items-center gap-2">
-                <span className="rounded-full bg-background px-2 py-0.5 font-mono text-[10px] tracking-wide text-muted uppercase">
+                <span className="rounded-full bg-background px-2 py-0.5 font-mono text-xs tracking-wide text-muted uppercase">
                   {typeLabels[item.type]}
                 </span>
                 {item.title && (

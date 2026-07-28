@@ -1,3 +1,4 @@
+import { cn } from "@/lib/cn";
 import { TIMELINE_EDGE_MARGIN } from "@/lib/timeline/constants";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
@@ -9,14 +10,20 @@ type TimelineEventDetailProps = {
 export function TimelineEventDetail({ event, top }: TimelineEventDetailProps) {
   return (
     <div
-      className="timeline-event-detail pointer-events-none absolute inset-x-0 z-10"
+      className="pointer-events-none absolute inset-x-0 z-10 text-left text-black"
       style={{ top, paddingLeft: TIMELINE_EDGE_MARGIN, paddingRight: TIMELINE_EDGE_MARGIN }}
       aria-live="polite"
     >
-      <div key={event.id} className="timeline-event-detail-reveal max-w-2xl">
-        <p className="timeline-event-detail-date">{event.dateLabel}</p>
-        <p className="timeline-event-detail-title">{event.title}</p>
-        <p className="timeline-event-detail-summary">{event.summary}</p>
+      <div key={event.id} className="animate-timeline-detail-reveal max-w-2xl pl-4">
+        <p className="m-0 text-xs font-medium tracking-widest uppercase">
+          {event.dateLabel}
+        </p>
+        <p className="mt-1.5 text-xl leading-tight font-semibold tracking-tight">
+          {event.title}
+        </p>
+        <p className="mt-2 max-w-xl text-base leading-normal">
+          {event.summary}
+        </p>
       </div>
     </div>
   );

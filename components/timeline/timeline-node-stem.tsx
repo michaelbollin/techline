@@ -23,7 +23,6 @@ export function TimelineNodeStem({
 
   return (
     <line
-      className="timeline-node-stem"
       x1={x}
       x2={x}
       y1={axisY + stemStartY}

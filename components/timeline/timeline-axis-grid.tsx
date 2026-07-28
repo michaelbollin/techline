@@ -1,5 +1,6 @@
 import * as d3 from "d3";
 
+import { cn } from "@/lib/cn";
 import {
   axisTickInterval,
   axisTicks,
@@ -32,7 +33,7 @@ export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: Timel
   const labelY = baseAxisY + TIMELINE_YEAR_LABEL_OFFSET;
 
   return (
-    <g className="timeline-axis-grid">
+    <g>
       {ticks.map((tick, index) => {
         const x = xScale(tick);
         if (x < 0 || x > width) {
@@ -59,7 +60,7 @@ export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: Timel
             />
             {canZoomYear ? (
               <rect
-                className="timeline-axis-tick-hit"
+                className="peer cursor-pointer"
                 x={x - TICK_HIT_WIDTH / 2}
                 y={labelY - TICK_HIT_HEIGHT + 6}
                 width={TICK_HIT_WIDTH}
@@ -76,7 +77,12 @@ export function TimelineAxisGrid({ xScale, width, getAxisY, onYearClick }: Timel
               y={labelY}
               textAnchor="middle"
               fill={TIMELINE_INK}
-              className={`timeline-axis-tick ${canZoomYear ? "timeline-axis-year" : "timeline-axis-month"}`}
+              className={cn(
+                "pointer-events-none font-sans font-medium",
+                canZoomYear
+                  ? "text-xs tracking-wider peer-hover:opacity-55"
+                  : "text-xs tracking-wide",
+              )}
               pointerEvents="none"
             >
               {label}

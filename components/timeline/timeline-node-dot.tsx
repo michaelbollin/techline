@@ -1,3 +1,4 @@
+import { cn } from "@/lib/cn";
 import { TIMELINE_INK } from "@/lib/timeline/constants";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
@@ -47,6 +48,9 @@ function dotRadius(importance: PlottedEvent["importance"], filled: boolean): num
   return 2.25;
 }
 
+const dotTransition =
+  "transition-[transform,fill] duration-[220ms] ease-[cubic-bezier(0.22,1,0.36,1)]";
+
 export function TimelineNodeDot({
   event,
   xScale,
@@ -64,7 +68,7 @@ export function TimelineNodeDot({
   return (
     <g transform={`translate(${x}, ${getAxisY(x)})`}>
       <circle
-        className="timeline-node-dot-hit"
+        className="cursor-pointer outline-none"
         cx={0}
         cy={0}
         r={hitR}
@@ -79,7 +83,7 @@ export function TimelineNodeDot({
         aria-label={`${event.title}, ${event.dateLabel}`}
       />
       <circle
-        className={`timeline-node-dot ${isHovered ? "is-hovered" : ""} ${event.importance === 0 ? "is-pillar" : ""} ${showLabel ? "has-label" : ""}`}
+        className={cn(dotTransition, isHovered && "scale-[1.2]")}
         cx={0}
         cy={0}
         r={dotR}

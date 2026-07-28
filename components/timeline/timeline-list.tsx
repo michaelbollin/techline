@@ -75,7 +75,7 @@ export function TimelineList({ events }: TimelineListProps) {
           <div className="mb-5 flex items-center gap-4">
             <h2
               id={`group-${group.key}`}
-              className="font-mono text-sm tracking-[0.2em] text-muted uppercase"
+              className="font-mono text-sm tracking-widest text-muted uppercase"
             >
               {group.label}
             </h2>

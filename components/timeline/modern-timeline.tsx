@@ -43,14 +43,12 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
   const [fulltextQuery, setFulltextQuery] = useState("");
-  const [filterResetNonce, setFilterResetNonce] = useState(0);
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const activeFilterCount = activeFilterIds.size + (fulltextQuery ? 1 : 0);
 
   const clearLocalFilters = useCallback(() => {
     setFulltextQuery("");
-    setFilterResetNonce((nonce) => nonce + 1);
   }, []);
 
   const { transform, animateTo } = useTimelineZoom({
@@ -104,117 +102,118 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   };
 
   return (
-    <section aria-label="Interactive timeline" className="modern-timeline">
-      <div className="modern-timeline-main">
-        <header className="modern-timeline-header">
-          <SiteBrand className="site-brand shrink-0" />
-        </header>
+    <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
+      <div className="flex min-h-0 flex-1">
+        <div className="flex min-h-0 min-w-0 flex-1 flex-col">
+          <header className="flex min-h-10 shrink-0 items-center py-5 pr-[3.75rem] pb-4 pl-6 sm:pl-8 sm:pr-[4.25rem]">
+            <SiteBrand className="shrink-0" />
+          </header>
 
-        <div ref={containerRef} className="modern-timeline-canvas">
-          {plotted.length === 0 && (
-            <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-6">
-              <p className="timeline-empty-filter rounded-full border border-black bg-white px-5 py-2.5 text-sm text-black">
-                No events match the selected filters.
-              </p>
-            </div>
-          )}
+          <div ref={containerRef} className="relative min-h-0 flex-1">
+            {plotted.length === 0 && (
+              <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-6">
+                <p className="rounded-full border border-black bg-white px-5 py-2.5 text-sm text-black">
+                  No events match the selected filters.
+                </p>
+              </div>
+            )}
 
-          {width > 0 && height > 0 && (
-            <svg
-              ref={svgRef}
-              width={width}
-              height={height}
-              className="block touch-none select-none bg-white"
-              onPointerLeave={() => setHovered(null)}
-            >
-              <g>
-                <TimelineAxisGrid
-                  xScale={xScale}
-                  width={width}
-                  getAxisY={getAxisY}
-                  onYearClick={zoomToYear}
-                />
+            {width > 0 && height > 0 && (
+              <svg
+                ref={svgRef}
+                width={width}
+                height={height}
+                className="block touch-none select-none bg-white"
+                onPointerLeave={() => setHovered(null)}
+              >
+                <g>
+                  <TimelineAxisGrid
+                    xScale={xScale}
+                    width={width}
+                    getAxisY={getAxisY}
+                    onYearClick={zoomToYear}
+                  />
 
-                <path d={axisPath} fill="none" stroke={TIMELINE_INK} strokeWidth={1.5} />
+                  <path d={axisPath} fill="none" stroke={TIMELINE_INK} strokeWidth={1.5} />
 
-                <g className="timeline-stems" pointerEvents="none">
-                  {labelNodes.map((event) => {
-                    const layout = labelLayout.get(event.id)!;
+                  <g className="timeline-stems" pointerEvents="none">
+                    {labelNodes.map((event) => {
+                      const layout = labelLayout.get(event.id)!;
 
-                    return (
-                      <TimelineNodeStem
-                        key={`stem-${event.id}`}
+                      return (
+                        <TimelineNodeStem
+                          key={`stem-${event.id}`}
+                          event={event}
+                          xScale={xScale}
+                          getAxisY={getAxisY}
+                          layout={layout}
+                          stemStartY={stemStartY.get(event.id) ?? 0}
+                        />
+                      );
+                    })}
+                  </g>
+
+                  <g className="timeline-dots">
+                    {plotted.map((event) => (
+                      <TimelineNodeDot
+                        key={`dot-${event.id}`}
                         event={event}
                         xScale={xScale}
                         getAxisY={getAxisY}
-                        layout={layout}
-                        stemStartY={stemStartY.get(event.id) ?? 0}
+                        showLabel={labelLayout.get(event.id)?.showLabel ?? false}
+                        isHovered={hovered?.id === event.id}
+                        onHover={setHovered}
+                        onClick={() => openEvent(event)}
                       />
-                    );
-                  })}
+                    ))}
+                  </g>
+
+                  <g className="timeline-labels">
+                    {labelNodes.map((event) => (
+                      <TimelineNodeLabel
+                        key={`label-${event.id}`}
+                        event={event}
+                        xScale={xScale}
+                        getAxisY={getAxisY}
+                        layout={labelLayout.get(event.id)!}
+                        viewportWidth={width}
+                        isHovered={hovered?.id === event.id}
+                        onHover={setHovered}
+                        onClick={() => openEvent(event)}
+                      />
+                    ))}
+                  </g>
                 </g>
+              </svg>
+            )}
 
-                <g className="timeline-dots">
-                  {plotted.map((event) => (
-                    <TimelineNodeDot
-                      key={`dot-${event.id}`}
-                      event={event}
-                      xScale={xScale}
-                      getAxisY={getAxisY}
-                      showLabel={labelLayout.get(event.id)?.showLabel ?? false}
-                      isHovered={hovered?.id === event.id}
-                      onHover={setHovered}
-                      onClick={() => openEvent(event)}
-                    />
-                  ))}
-                </g>
+            {hovered && width > 0 && (
+              <TimelineEventDetail event={hovered} top={detailTop} />
+            )}
 
-                <g className="timeline-labels">
-                  {labelNodes.map((event) => (
-                    <TimelineNodeLabel
-                      key={`label-${event.id}`}
-                      event={event}
-                      xScale={xScale}
-                      getAxisY={getAxisY}
-                      layout={labelLayout.get(event.id)!}
-                      viewportWidth={width}
-                      isHovered={hovered?.id === event.id}
-                      onHover={setHovered}
-                      onClick={() => openEvent(event)}
-                    />
-                  ))}
-                </g>
-              </g>
-            </svg>
-          )}
-
-          {hovered && width > 0 && (
-            <TimelineEventDetail event={hovered} top={detailTop} />
-          )}
-
-          <TimelinePanArrows
-            canPanEarlier={showPanEarlier}
-            canPanLater={showPanLater}
-            onPanEarlier={panEarlier}
-            onPanLater={panLater}
-          />
+            <TimelinePanArrows
+              canPanEarlier={showPanEarlier}
+              canPanLater={showPanLater}
+              onPanEarlier={panEarlier}
+              onPanLater={panLater}
+            />
+          </div>
         </div>
+
+        <TimelineFilterSidebar
+          isOpen={filtersOpen}
+          events={events}
+          activeFilterIds={activeFilterIds}
+          onChange={updateFilters}
+          onReset={resetView}
+          onFulltextChange={setFulltextQuery}
+          fulltextQuery={fulltextQuery}
+          onClose={() => setFiltersOpen(false)}
+          onOpenChange={setDeferUrlSync}
+        />
       </div>
 
-      <TimelineFilterSidebar
-        isOpen={filtersOpen}
-        events={events}
-        activeFilterIds={activeFilterIds}
-        onChange={updateFilters}
-        onReset={resetView}
-        onFulltextChange={setFulltextQuery}
-        fulltextQuery={fulltextQuery}
-        resetNonce={filterResetNonce}
-        onClose={() => setFiltersOpen(false)}
-        onOpenChange={setDeferUrlSync}
-      />
-
-      <div className="timeline-filter-trigger-slot">
+      <div className="absolute top-5 right-6 z-20 flex h-10 items-center overflow-visible sm:right-8">
         <TimelineFilterTrigger
           isOpen={filtersOpen}
           activeCount={activeFilterCount}
