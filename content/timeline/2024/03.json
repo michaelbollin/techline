@@ -48,6 +48,49 @@
       ]
     },
     {
+      "id": "eu-ai-act-adopted",
+      "slug": "eu-ai-act-adopted",
+      "date": "2024-03-13",
+      "datePrecision": "day",
+      "title": "European Parliament adopts EU AI Act",
+      "summary": "The European Parliament voted to adopt the EU Artificial Intelligence Act on March 13, 2024 — the world's first comprehensive legal framework for high-risk AI systems, foundation models, and prohibited practices.",
+      "about": "The AI Act tiers obligations by risk: banned social scoring and real-time biometric surveillance in public spaces (with exceptions), strict documentation for hiring and credit-scoring AI, and transparency rules for general-purpose models like GPT-4. Teams shipping copilots, hiring tools, and medical AI face conformity assessments — influencing how U.S. and UK regulators draft their own AI rules.",
+      "narrative": {
+        "whyChosen": "The EU AI Act is the first major horizontal law governing foundation models and high-risk AI.",
+        "whyImportant": "It created compliance categories that product and ML teams must map features against.",
+        "problemSolved": "Governments lacked a shared framework for auditing AI systems that affect safety and fundamental rights."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "ai",
+        "eu",
+        "policy",
+        "regulation"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "European Parliament — AI Act adopted (March 13, 2024)",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-parliament-adopts-landmark-law",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Artificial Intelligence Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "chatgpt-released",
+        "gdpr-effective",
+        "eu-digital-services-act-adopted"
+      ]
+    },
+    {
       "id": "claude-3-released",
       "slug": "claude-3-released",
       "date": "2024-03-04",
