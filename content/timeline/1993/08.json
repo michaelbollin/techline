@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/r-first-public-release.svg",
+          "title": "R (programming language)",
+          "caption": "The R Foundation, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ihaka — The R Project: A Brief History (StatLib release 1993)",
@@ -68,7 +75,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-newton-released.jpg",
+          "title": "Apple Newton MessagePad (1993) - Computer History Museum",
+          "caption": "Michael Hicks from Saint Paul, MN, USA, CC BY 2.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Newton MessagePad (August 1993)",

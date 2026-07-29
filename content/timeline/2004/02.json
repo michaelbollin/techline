@@ -23,7 +23,14 @@
       ],
       "people": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/subversion-1-0-released.svg",
+          "title": "Apache Subversion",
+          "caption": "™/®The Apache Software Foundation, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apache Subversion — Release 1.0.0 (February 23, 2004)",
@@ -64,7 +71,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/basecamp-launched.svg",
+          "title": "Basecamp (software)",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Signal v. Noise — Basecamp launch (February 4, 2004)",

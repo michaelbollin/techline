@@ -34,7 +34,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/andy-grove-intel-ceo.jpg",
+          "title": "Andrew Grove",
+          "caption": "Steve Jurvetson from Los Altos, USA, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — Andy Grove becomes CEO (October 18, 1987)",

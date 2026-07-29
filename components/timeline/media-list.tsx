@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { youtubeEmbedUrl } from "@/lib/timeline/youtube-embed";
 import type { MediaItem } from "@/lib/timeline/schema";
 
@@ -38,6 +40,23 @@ export function MediaList({ media, variant = "page" }: MediaListProps) {
               </div>
             )}
 
+            {item.type === "image" && (
+              <div className={variant === "modal" ? "overflow-hidden rounded-lg border border-black/10" : ""}>
+                <Image
+                  src={item.url}
+                  alt={item.title ?? "Event image"}
+                  width={960}
+                  height={540}
+                  className={
+                    variant === "modal"
+                      ? "h-auto max-h-56 w-full object-cover"
+                      : "h-auto max-h-80 w-full object-cover"
+                  }
+                  unoptimized={item.url.endsWith(".svg")}
+                />
+              </div>
+            )}
+
             <div className={variant === "modal" ? "space-y-2" : "space-y-2 p-4"}>
               <div className="flex items-center gap-2">
                 {variant === "page" && (
@@ -59,7 +78,7 @@ export function MediaList({ media, variant = "page" }: MediaListProps) {
                 <p className="text-sm leading-relaxed text-muted">{item.caption}</p>
               )}
 
-              {!embedUrl && (
+              {!embedUrl && item.type !== "image" && (
                 <a
                   href={item.url}
                   target="_blank"

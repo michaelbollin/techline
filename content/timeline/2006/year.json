@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "frances-allen-turing-award",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/frances-allen-turing-award.jpg",
+          "title": "Frances Allen",
+          "caption": "Rama, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {
@@ -44,7 +51,14 @@
     },
     {
       "slug": "douglas-crockford-json-spec",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/douglas-crockford-json-spec.jpg",
+          "title": "Douglas Crockford",
+          "caption": "Robert Claypool, CC0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {
@@ -107,7 +121,14 @@
         "web"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wix-founded.svg",
+          "title": "Wix.com",
+          "caption": "Wix.com, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wix — About us (founded 2006)",

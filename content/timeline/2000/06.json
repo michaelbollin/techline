@@ -30,9 +30,10 @@
       "importance": 2,
       "media": [
         {
-          "type": "link",
-          "url": "https://news.microsoft.com/source/2000/06/26/microsoft-introduces-highly-productive-net-programming-language-c/",
-          "title": "Microsoft — C# announcement"
+          "type": "image",
+          "url": "/media/timeline/csharp-announced.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
         }
       ],
       "sources": [
@@ -81,7 +82,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netbeans-open-sourced.svg",
+          "title": "NetBeans",
+          "caption": "Apache NetBeans, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apache NetBeans — History (June 2000 open source launch)",

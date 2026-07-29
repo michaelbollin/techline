@@ -44,7 +44,14 @@
         "larry-ellison-oracle-founded"
       ],
       "slug": "ellison-pc-ridiculous",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ellison-pc-ridiculous.png",
+          "title": "Larry Ellison",
+          "caption": "Oracle PR Hartmann Studios, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

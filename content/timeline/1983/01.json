@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tcp-ip-flag-day.jpg",
+          "title": "Internet Splat Map",
+          "caption": "jurvetson, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Internet Society — ARPANET TCP/IP transition (January 1, 1983)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-lisa-released.jpg",
+          "title": "Apple Lisa",
+          "caption": "Timothy Colegrove, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Lisa introduction (January 19, 1983)",
@@ -122,7 +136,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lotus-1-2-3-released.svg",
+          "title": "Lotus 1-2-3",
+          "caption": "Darklanlan, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Lotus 1-2-3 (released January 26, 1983)",

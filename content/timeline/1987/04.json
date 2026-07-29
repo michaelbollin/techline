@@ -29,7 +29,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-pc-5150-discontinued.svg",
+          "title": "IBM Personal Computer",
+          "caption": "Own work (based on graphics by International Business Machines Corporation), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — Personal Computer history (5150 discontinued April 2, 1987)",

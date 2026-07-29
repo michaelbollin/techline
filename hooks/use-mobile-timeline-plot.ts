@@ -96,7 +96,7 @@ export function useMobileTimelinePlot({
   const labelWidths = useMemo(() => {
     const widths = new Map<string, number>();
     for (const event of plotted) {
-      widths.set(event.id, measureMobileLabelWidth(event.title));
+      widths.set(event.id, measureMobileLabelWidth(event.bubbleTitle));
     }
     return widths;
   }, [fontEpoch, plotted]);
@@ -110,7 +110,7 @@ export function useMobileTimelinePlot({
         maxImportance,
         width,
         maxLanes,
-        (event) => labelWidths.get(event.id) ?? measureMobileLabelWidth(event.title),
+        (event) => labelWidths.get(event.id) ?? measureMobileLabelWidth(event.bubbleTitle),
         visibleSpanMs,
       ),
     [axisX, labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, yScale],

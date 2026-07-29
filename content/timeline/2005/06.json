@@ -29,7 +29,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/webkit-open-sourced.svg",
+          "title": "WebKit",
+          "caption": "Apple, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Safari and WebKit at WWDC 2005",

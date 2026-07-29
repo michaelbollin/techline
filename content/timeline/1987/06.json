@@ -23,7 +23,14 @@
         "microcomputer"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/acorn-archimedes-released.jpg",
+          "title": "Acorn Archimedes",
+          "caption": "PaulVernon1974, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Acorn Archimedes (released June 1987)",

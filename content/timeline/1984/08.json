@@ -30,7 +30,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nfs-released.png",
+          "title": "Web server serving static content",
+          "caption": "Ade56facc, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Sandberg et al. — The Sun Network Filesystem (USENIX 1985; implementation began March 1984)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-pc-at-released.svg",
+          "title": "IBM Personal Computer AT",
+          "caption": "Own work (based on graphics by International Business Machines Corporation), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — Personal Computer AT (August 1984)",

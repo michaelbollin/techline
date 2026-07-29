@@ -28,7 +28,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-1-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Andrejus Ševcovas, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ECMA-262 1st edition — adopted by Ecma General Assembly June 1997",
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netscape-communicator-4-0.svg",
+          "title": "Netscape Communicator",
+          "caption": "Netscape Communications Corp. (original icon). Gabriel dos Santos (SVG version)., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Netscape Communicator (June 11, 1997)",

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/actionscript-1-0-flash-5.svg",
+          "title": "Adobe Flash",
+          "caption": "Adobe, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MacTech — Macromedia Flash 5 (August 24, 2000)",
@@ -70,7 +77,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sqlite-1-0-released.png",
+          "title": "SQLite",
+          "caption": "Максим Пе, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "SQLite — Check-in f37dd18e3f (August 17, 2000)",
@@ -114,7 +128,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cmake-released.png",
+          "title": "CMake",
+          "caption": "Software: LLVM Developer Group and cmake.org Screenshot: VulcanSphere, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Kitware — Happy Birthday CMake (August 31, 2000)",
@@ -178,7 +199,14 @@
         "git-created"
       ],
       "slug": "torvalds-talk-is-cheap",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/torvalds-talk-is-cheap.jpg",
+          "title": "Linus Torvalds",
+          "caption": "Krd (photo)Von Sprat (crop/extraction), CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     },
@@ -223,7 +251,14 @@
       ],
       "relatedIds": [],
       "slug": "spolsky-joel-test",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/spolsky-joel-test.jpg",
+          "title": "Joel Spolsky",
+          "caption": "Katie Chan, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

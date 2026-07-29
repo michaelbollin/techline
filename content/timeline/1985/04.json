@@ -23,7 +23,14 @@
         "portable"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/toshiba-t1100-released.jpg",
+          "title": "Toshiba T1100",
+          "caption": "Johann H. Addicks, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Toshiba T1100 (released April 1985)",

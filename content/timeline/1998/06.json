@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "rasmus-lerdorf-php-3-released",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rasmus-lerdorf-php-3-released.jpg",
+          "title": "Rasmus Lerdorf",
+          "caption": "William Stadtwald Demchick, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "php-tools-1-0-released"
       ],

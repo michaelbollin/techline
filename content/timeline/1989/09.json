@@ -29,7 +29,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/macintosh-portable-released.jpg",
+          "title": "Macintosh Portable",
+          "caption": "Rama, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Macintosh Portable introduction (September 1989)",

@@ -22,7 +22,14 @@
         "programming-language"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ansi-c-standard.svg",
+          "title": "The C Programming Language logo with Helvetica LT Black and CG Times Bold",
+          "caption": "Cobaiahackers, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "ANSI Blog — ANSI X3.159-1989 ratified December 14, 1989",
@@ -63,7 +70,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/aids-trojan-ransomware.png",
+          "title": "AIDS (Trojan horse)",
+          "caption": "Joseph L. Popp, AIDS Information Trojan author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — AIDS (Trojan horse) (December 1989)",

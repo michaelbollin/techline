@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "michael-stonebraker-postgres-research",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/michael-stonebraker-postgres-research.jpg",
+          "title": "Michael Stonebraker",
+          "caption": "David.Monniaux, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "postgresql-6-released",
         "oracle-2-released"

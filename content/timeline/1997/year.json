@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "eric-raymond-cathedral-bazaar",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eric-raymond-cathedral-bazaar.jpg",
+          "title": "Eric S. Raymond",
+          "caption": "Erc_S_Raymond_and_company.jpg: jerone2 derivative work: Bilby (talk), CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "mozilla-source-released",
         "open-source-initiative-founded"

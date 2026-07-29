@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "andy-tanenbaum-minix-created",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/andy-tanenbaum-minix-created.jpg",
+          "title": "Computer History - Minix",
+          "caption": "gabrielsaldana, CC BY 2.0, via flickr"
+        }
+      ],
       "relatedIds": [
         "linux-kernel-announced"
       ],
@@ -68,7 +75,14 @@
       "people": [],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fairlight-cracking-group-founded.png",
+          "title": "FairLight",
+          "caption": "Fairlight, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Fairlight (warez group) (founded 1987)",

@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/zeromq-released.jpg",
+          "title": "Ben Martin: ZeroMQ and Real Time Collaborative Font Design.",
+          "caption": "Medialab Prado, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — ZeroMQ (project started May 2007)",
@@ -88,7 +95,14 @@
         "linux-kernel-announced"
       ],
       "slug": "schwartz-innovate-not-litigate",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/schwartz-innovate-not-litigate.jpg",
+          "title": "Jonathan Schwartz",
+          "caption": "James Duncan Davidson/O'Reilly Media, Inc., CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

@@ -22,7 +22,14 @@
         "danger"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sidekick-released.jpg",
+          "title": "T-Mobile Sidekick",
+          "caption": "nomad7674, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Sidekick (October 2002 T-Mobile launch)",

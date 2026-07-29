@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dot-com-nasdaq-peak.svg",
+          "title": "Dot-com bubble",
+          "caption": "Lalala666 at English Wikipedia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NASDAQ — Historical index data (March 10, 2000 close 5,048.62)",

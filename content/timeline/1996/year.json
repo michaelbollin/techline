@@ -30,7 +30,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sun-enterprise-10000-released.jpg",
+          "title": "Sun Enterprise",
+          "caption": "DoomWarrior, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Sun Enterprise (Starfire, 1996)",
@@ -93,7 +100,14 @@
         "gpl-version-1-released"
       ],
       "slug": "stallman-free-speech-not-beer",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/stallman-free-speech-not-beer.jpg",
+          "title": "Richard Stallman",
+          "caption": "Patafisik, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

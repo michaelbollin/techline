@@ -20,7 +20,14 @@
         "embedded"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lua-5-1-released.svg",
+          "title": "Lua",
+          "caption": "Alexandre Nakonechnyj (Graphic design) and Lua team (PostScript code), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Lua.org — Lua 5.1.0 released (February 21, 2006)",

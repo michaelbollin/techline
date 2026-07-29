@@ -31,7 +31,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/clang-open-sourced.webp",
+          "title": "Clang",
+          "caption": "Software: LLVM Developer GroupScreenshot: VulcanSphere, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "LLVMdev — New LLVM C front-end: clang (July 11, 2007)",

@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/macintosh-128k-released.jpg",
+          "title": "Macintosh 128K",
+          "caption": "Sailko, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Introduces Macintosh (January 24, 1984)",
@@ -77,7 +84,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/2600-magazine-founded.jpg",
+          "title": "2600: The Hacker Quarterly",
+          "caption": "Rbr4n, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "2600 — About 2600 Magazine (founded 1984)",

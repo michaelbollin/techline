@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "leslie-lamport-paxos-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/leslie-lamport-paxos-published.jpg",
+          "title": "Leslie Lamport",
+          "caption": "Leslie Lamport, Copyrighted free use, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css2-w3c-recommendation.svg",
+          "title": "CSS",
+          "caption": "Javi Aguilar and The CSS-Next Community Group, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — CSS2 Recommendation press release (May 12, 1998)",

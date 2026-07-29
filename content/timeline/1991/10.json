@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpp-templates-cfront-3.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stroustrup — Evolving C++ 1991–2006 (Cfront 3.0 templates, Oct 1991)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-powerbook-released.jpg",
+          "title": "PowerBook",
+          "caption": "redjar (Jared C. Benedict), also active as en:User:redjar and User:redjar, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — PowerBook introduction (October 1991)",

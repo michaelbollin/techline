@@ -30,7 +30,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/delphi-1-0-launched.jpg",
+          "title": "Anders Hejlsberg",
+          "caption": "DBegley, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Embarcadero — Celebrating Delphi 1.0 launch (February 14, 1995)",
@@ -72,7 +79,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ada-95-standard.svg",
+          "title": "Ada (programming language)",
+          "caption": "Captain-Haddock17, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO — ISO/IEC 8652:1995 Ada 95 (February 1995)",
@@ -112,7 +126,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kevin-mitnick-arrested.jpg",
+          "title": "Kevin Mitnick",
+          "caption": "Campus Party México, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Kevin Mitnick (arrested February 15, 1995)",

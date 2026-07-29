@@ -22,7 +22,14 @@
         "web"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lighttpd-released.png",
+          "title": "File:Bench result.png",
+          "caption": "Sgelix, CC0 1.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Lighttpd (initial release March 2003)",

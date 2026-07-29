@@ -21,7 +21,14 @@
         "orm"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/django-open-sourced.svg",
+          "title": "Django (web framework)",
+          "caption": "Django, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Django Project — Happy 10th Birthday Django (first public commit July 13, 2005)",

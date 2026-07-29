@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/morris-worm.jpg",
+          "title": "Robert Tappan Morris",
+          "caption": "Trevor Blackwell, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Morris worm (November 2, 1988)",

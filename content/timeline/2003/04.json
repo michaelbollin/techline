@@ -22,7 +22,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lua-5-0-released.svg",
+          "title": "Lua",
+          "caption": "Alexandre Nakonechnyj (Graphic design) and Lua team (PostScript code), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Lua.org — Lua 5.0 reference manual (April 2003)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/amd64-x86-64-announced.svg",
+          "title": "Opteron",
+          "caption": "AMD, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AMD — Announces world's first 64-bit processor for servers (April 22, 2003)",

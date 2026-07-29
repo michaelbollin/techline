@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jira-launched.svg",
+          "title": "Jira (software)",
+          "caption": "Atlassian, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Atlassian — Jira history (first release March 2002)",

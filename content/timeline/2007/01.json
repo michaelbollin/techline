@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/groovy-1-0-released.svg",
+          "title": "Apache Groovy",
+          "caption": "The Apache Software Foundation, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Groovy project — Groovy 1.0 is there (January 5, 2007)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/steve-jobs-iphone-introduced.jpg",
+          "title": "Steve Jobs",
+          "caption": "Matthew Yohe, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iPhone introduction keynote (January 9, 2007)",
@@ -141,7 +155,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/reed-hastings-netflix-streaming.jpg",
+          "title": "Reed Hastings",
+          "caption": "re:publica from Germany, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Netflix — Streaming service launched (January 16, 2007)",

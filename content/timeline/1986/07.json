@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nsfnet-backbone-activated.png",
+          "title": "NSFNET-backbone-T3",
+          "caption": "Merit Network, Inc., CC BY-SA 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — NSFNET (operational 1986)",

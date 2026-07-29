@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/martin-fowler-refactoring-published.jpg",
+          "title": "Martin Fowler (software engineer)",
+          "caption": "Webysther Nunes, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "martinfowler.com — Refactoring book (1999)",
@@ -72,7 +79,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kent-beck-extreme-programming.jpg",
+          "title": "Kent Beck",
+          "caption": "Improve It, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Kent Beck — Extreme Programming Explained (1999)",
@@ -130,7 +144,14 @@
         "martin-fowler-refactoring-published"
       ],
       "slug": "fowler-refactoring-definition",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fowler-refactoring-definition.jpg",
+          "title": "Martin Fowler (software engineer)",
+          "caption": "Webysther Nunes, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

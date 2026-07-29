@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/patriot-act-signed.svg",
+          "title": "Patriot Act",
+          "caption": "U.S. Government, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Congress.gov — USA PATRIOT Act (signed October 26, 2001)",

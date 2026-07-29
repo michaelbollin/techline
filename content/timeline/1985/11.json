@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phrack-first-issue.jpg",
+          "title": "Jason Scott",
+          "caption": "cellanr, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Phrack — Issue 1 (November 17, 1985)",

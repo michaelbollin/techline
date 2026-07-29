@@ -34,7 +34,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eclipse-open-sourced.png",
+          "title": "Eclipse (software)",
+          "caption": "Software: Eclipse Foundation Screenshot: VulcanSphere, EPL-2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Eclipse Foundation — Eclipse Project 1.0.0 (November 7, 2001)",

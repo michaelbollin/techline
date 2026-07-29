@@ -22,7 +22,14 @@
         "torvalds"
       ],
       "importance": 0,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/git-created.svg",
+          "title": "Git",
+          "caption": "Jason Long, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "git.git — Initial revision commit e83c516 (April 7, 2005)",
@@ -64,7 +71,14 @@
         "open-source"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mercurial-released.svg",
+          "title": "Mercurial",
+          "caption": "™ Cali Mastny and Matt Mackall, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Linux Kernel Mailing List — Mercurial v0.1 announced (April 19, 2005)",

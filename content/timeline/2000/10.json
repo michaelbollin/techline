@@ -19,7 +19,14 @@
         "programming-language"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/python-2-0-released.svg",
+          "title": "Python (programming language)",
+          "caption": "www.python.org, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Python 2.0 release (October 16, 2000)",
@@ -60,7 +67,14 @@
         "webkit"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/konqueror-khtml-released.svg",
+          "title": "Konqueror",
+          "caption": "Copyright (C) 2014 Uri Herrera and others, KDE Visual Design Group;, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "KDE — KDE 2.0 announcement (December 2000)",

@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-framework-3-5-released.svg",
+          "title": ".NET Framework",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — .NET Framework 3.5 released (November 19, 2007)",
@@ -73,7 +80,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/couchdb-released.svg",
+          "title": "Apache CouchDB",
+          "caption": "Apache Software Foundation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CouchDB — 0.7.0 release announcement (November 16, 2007)",
@@ -123,7 +137,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/android-announced.svg",
+          "title": "Android (operating system)",
+          "caption": "Google LLC, vectorised by CMetalCore and optimised by VulcanSphere, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Blog — Introducing Android (November 5, 2007)",
@@ -169,7 +190,14 @@
       "people": [],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/olpc-xo-laptop-released.jpg",
+          "title": "OLPC XO",
+          "caption": "Photo credit: \"Mike McGregor\"; upload to OLPC-Wiki: OLPC user \"Walter\", CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "One Laptop per Child — XO-1 Give One Get One (November 2007)",

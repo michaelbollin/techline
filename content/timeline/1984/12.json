@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/matlab-1-0-debut.png",
+          "title": "MATLAB",
+          "caption": "Jarekt, LukeTriton, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Cleve Moler — MATLAB History, PC-MATLAB Version 1.0 (December 1984)",

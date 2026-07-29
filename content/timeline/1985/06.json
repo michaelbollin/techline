@@ -23,7 +23,14 @@
         "microcomputer"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/atari-st-released.jpg",
+          "title": "Atari ST",
+          "caption": "© Bill Bertram, 2006, CC BY-SA 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Atari ST (released June 1985)",

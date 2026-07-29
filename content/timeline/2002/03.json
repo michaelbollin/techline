@@ -22,7 +22,14 @@
         "email"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-5810-released.jpg",
+          "title": "BlackBerry",
+          "caption": "個人, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — BlackBerry (5810, March 2002)",

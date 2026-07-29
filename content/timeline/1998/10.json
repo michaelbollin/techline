@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dmca-signed.svg",
+          "title": "Digital Millennium Copyright Act",
+          "caption": "U.S. Government, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. Copyright Office — Digital Millennium Copyright Act (signed October 28, 1998)",

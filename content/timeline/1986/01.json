@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-macintosh-plus-released.jpg",
+          "title": "Macintosh Plus",
+          "caption": "Felix Winkelnkemper, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Macintosh Plus (released January 16, 1986)",
@@ -70,7 +77,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/brain-pc-virus.jpg",
+          "title": "Brain (computer virus)",
+          "caption": "Avinash Meetoo - avinash@noulakaz.net - http://www.noulakaz.net/ - Avinashm at en.wikipedia, CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Brain (computer virus) (January 1986)",

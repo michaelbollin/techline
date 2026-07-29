@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mozilla-1-0-released.png",
+          "title": "Mozilla Application Suite",
+          "caption": "Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Mozilla 1.0 (June 5, 2002)",

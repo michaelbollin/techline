@@ -29,7 +29,14 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/guido-van-rossum-psf-founded.jpg",
+          "title": "Guido van Rossum",
+          "caption": "Kushal Das, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python Software Foundation — Incorporated (March 6, 2001)",
@@ -88,7 +95,14 @@
       ],
       "relatedIds": [],
       "slug": "kurzweil-law-accelerating-returns",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kurzweil-law-accelerating-returns.jpg",
+          "title": "Ray Kurzweil",
+          "caption": "nrkbeta, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

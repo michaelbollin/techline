@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-chrome-released.svg",
+          "title": "Google Chrome",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Blog — A fresh take on the browser (September 1, 2008)",
@@ -71,7 +78,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lehman-brothers-bankruptcy.jpg",
+          "title": "Lehman Brothers",
+          "caption": "David Shankbone, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "SEC — Lehman Brothers Holdings Inc. Chapter 11 filing (September 15, 2008)",
@@ -113,7 +127,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/stackoverflow-launched.svg",
+          "title": "Stack Overflow",
+          "caption": "Stack Overflow, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stack Overflow Blog — Stack Overflow launches (September 15, 2008)",

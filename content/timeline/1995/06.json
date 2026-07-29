@@ -22,7 +22,14 @@
         "programming-language"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/php-tools-1-0-released.svg",
+          "title": "PHP",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Lerdorf — Announce: Personal Home Page Tools (PHP Tools) v1.0 (Jun 8, 1995)",

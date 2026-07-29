@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-simon-released.png",
+          "title": "IBM Simon",
+          "caption": "IBM, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — IBM Simon (1994)",

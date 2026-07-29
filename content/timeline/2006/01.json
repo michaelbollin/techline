@@ -28,7 +28,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/scala-2-0-released.svg",
+          "title": "Scala (programming language)",
+          "caption": "Lightbend, Inc., CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Scala (first released 2004, Scala 2.0 January 2006)",

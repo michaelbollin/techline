@@ -1,8 +1,5 @@
 import {
   MOBILE_LABEL_BOX_HEIGHT,
-  MOBILE_LABEL_ICON_GAP,
-  MOBILE_LABEL_ICON_SIZE,
-  MOBILE_LABEL_PADDING_X,
   MOBILE_LABEL_RADIUS,
 } from "@/lib/timeline/vertical/label-metrics";
 import { labelLeftLocalX, type VerticalLabelLayout } from "@/lib/timeline/vertical/label-layout";
@@ -56,15 +53,10 @@ export function MobileTimelineNodeLabel({
         className="fill-black stroke-black stroke-1"
       />
       <TimelineLabelContent
-        title={event.title}
-        themeId={event.themeId}
+        title={event.bubbleTitle}
         width={labelWidth}
         height={MOBILE_LABEL_BOX_HEIGHT}
-        paddingX={MOBILE_LABEL_PADDING_X}
-        iconSize={MOBILE_LABEL_ICON_SIZE}
-        iconGap={MOBILE_LABEL_ICON_GAP}
         textClassName="pointer-events-none text-xs font-medium tracking-wide fill-white"
-        iconClassName="text-white"
       />
     </g>
   );

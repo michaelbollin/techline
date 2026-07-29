@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/autoconf-released.svg",
+          "title": "GDB Archer Fish by Andreas Arnez",
+          "caption": "Original: Jamie Guinan Vectorization: Andreas Arnez, CC BY-SA 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "GNU Autoconf — Genesis (June 1991)",
@@ -76,7 +83,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phil-zimmermann-pgp-released.jpg",
+          "title": "Phil Zimmermann",
+          "caption": "PRZ_closeup.jpg: User Matt Crypto on en.wikipedia derivative work: Beao, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Phil Zimmermann — PGP 10th anniversary (released June 5, 1991)",

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netscape-navigator-1-0.jpg",
+          "title": "Computer History - Netscape Navigator",
+          "caption": "gabrielsaldana, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Netscape Navigator (1.0 release December 15, 1994)",

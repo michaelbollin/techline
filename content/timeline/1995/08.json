@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netscape-ipo.jpg",
+          "title": "Computer History - Netscape Navigator",
+          "caption": "gabrielsaldana, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "SEC — Netscape Communications Corporation S-1 (August 9, 1995 IPO)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-1-0.jpg",
+          "title": "Yasha Levine on Pirate TV",
+          "caption": "Ed Mays, CC BY 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer history (IE 1.0, August 16, 1995)",
@@ -122,7 +136,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/windows-95-released.svg",
+          "title": "Windows 95",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Windows 95 (retail release August 24, 1995)",

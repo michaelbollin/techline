@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/microsoft-antitrust-ruling.png",
+          "title": "United States v. Microsoft Corp.",
+          "caption": "Aleutian island, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. DOJ — U.S. v. Microsoft findings of fact and conclusions of law (April 3, 2000)",

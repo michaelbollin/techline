@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/github-launched.png",
+          "title": "GitHub",
+          "caption": "Contributors of github/docs, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub Blog — We Launched (April 10, 2008)",
@@ -88,7 +95,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gradle-released.svg",
+          "title": "Gradle (software)",
+          "caption": "Gradle, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Gradle (first release April 21, 2008)",
@@ -140,7 +154,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phusion-passenger-released.svg",
+          "title": "Ruby on Rails",
+          "caption": "Jamie Dihiansan http://weblog.rubyonrails.org/2016/1/19/new-rails-identity/2, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ruby on Rails — Passenger (mod_rails for Apache) launches (April 11, 2008)",
@@ -192,7 +213,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intel-atom-announced.svg",
+          "title": "Intel Atom",
+          "caption": "Intel Corporation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — Atom processor family announced (April 2008)",
@@ -239,7 +267,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-app-engine-preview.svg",
+          "title": "Google Cloud Platform",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Press — Previewing Google App Engine (April 7, 2008)",

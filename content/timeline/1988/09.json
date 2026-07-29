@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/posix-1-standardized.png",
+          "title": "Unix",
+          "caption": "Rwoodsmall, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NIST FIPS PUB 151-1 — IEEE Std 1003.1-1988 (September 1988)",

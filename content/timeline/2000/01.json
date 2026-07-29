@@ -33,7 +33,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bill-gates-steps-down-microsoft-ceo.jpg",
+          "title": "Bill Gates",
+          "caption": "Bogdan Hoyaux / European Union, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Gates steps down as CEO (January 13, 2000)",
@@ -84,7 +91,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/steve-ballmer-named-microsoft-ceo.jpg",
+          "title": "Steve Ballmer",
+          "caption": "Steve_ballmer_2007_outdoors2.jpg: Martin Olsson (username 'mnemo' on en/sv wikipedia and commons, martin@minimum.se). derivative work: Off2riorob (talk), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Ballmer promoted to CEO (January 13, 2000)",

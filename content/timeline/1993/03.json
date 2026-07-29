@@ -30,7 +30,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intel-pentium-introduced.svg",
+          "title": "Pentium",
+          "caption": "Intel Corporation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — Pentium processor announced (March 22, 1993)",
@@ -70,7 +77,14 @@
         "accessibility"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lynx-2-released.png",
+          "title": "Lynx (web browser)",
+          "caption": "Screenshot created by User:Aoidh. For attribution of the Lynx software, see https://lynx.invisible-island.net and for the attribution of the Wikipedia article, see the page history of https://en.wikipedia.org/wiki/Wolf, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Lynx revision history — Lynx 2.0 WWW support (March 1993)",

@@ -30,7 +30,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jetty-released.png",
+          "title": "Jetty (web server)",
+          "caption": "Jetty (web server), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Eclipse Jetty (initial release 1995)",

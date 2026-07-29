@@ -42,7 +42,14 @@
       ],
       "relatedIds": [],
       "slug": "gabriel-worse-is-better",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gabriel-worse-is-better.jpg",
+          "title": "Richard P. Gabriel",
+          "caption": "Administrative Office of the United States Courts, Public domain, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

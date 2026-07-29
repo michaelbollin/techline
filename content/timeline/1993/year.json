@@ -26,7 +26,14 @@
       "people": [],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hp-proliant-era.jpeg",
+          "title": "ProLiant",
+          "caption": "Servershop24, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "HP — ProLiant server history (1993)",
@@ -87,7 +94,14 @@
       ],
       "relatedIds": [],
       "slug": "greenspun-tenth-rule",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/greenspun-tenth-rule.jpg",
+          "title": "Philip Greenspun",
+          "caption": "Elsa Dorfman, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

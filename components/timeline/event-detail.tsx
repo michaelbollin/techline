@@ -1,4 +1,5 @@
 import { EventDetailSection } from "@/components/timeline/event-detail-section";
+import { EventInlineImage } from "@/components/timeline/event-inline-image";
 import { NarrativeBlock } from "@/components/timeline/narrative-block";
 import { MediaList } from "@/components/timeline/media-list";
 import { cn } from "@/lib/cn";
@@ -52,14 +53,16 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
       <div className="space-y-8">
         <EventDetailSection title="What it is">
           <div className="space-y-3">
-            {whatItIs.map((paragraph) => (
+            {whatItIs.map((paragraph, index) => (
               <p
                 key={paragraph}
                 className={cn(
                   "text-sm leading-relaxed text-foreground",
                   paragraph === impactLine && "font-semibold",
+                  index === 0 && "overflow-hidden",
                 )}
               >
+                {index === 0 && <EventInlineImage media={event.media} size="sm" />}
                 {paragraph}
               </p>
             ))}
@@ -97,7 +100,10 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
           <h2 className="mb-2 text-sm font-medium tracking-wide text-accent uppercase">
             What it was for
           </h2>
-          <p className="leading-relaxed text-foreground/90">{event.about}</p>
+          <p className="overflow-hidden leading-relaxed text-foreground/90">
+            <EventInlineImage media={event.media} />
+            {event.about}
+          </p>
         </section>
 
         {event.people.length > 0 && (

@@ -23,7 +23,14 @@
         "namespaces"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lxc-released.jpg",
+          "title": "List Docker Containers",
+          "caption": "xmodulo, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "lxc/lxc — initial commit (August 6, 2008)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-bold-9000-released.png",
+          "title": "BlackBerry",
+          "caption": "RIM, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BlackBerry Bold 9000 released — launch",

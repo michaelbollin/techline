@@ -22,9 +22,10 @@
       "importance": 1,
       "media": [
         {
-          "type": "link",
-          "url": "https://gvanrossum.github.io/python-history/a-brief-timeline-of-python.html",
-          "title": "Guido — A Brief Timeline of Python"
+          "type": "image",
+          "url": "/media/timeline/python-0-9-0-released.svg",
+          "title": "Python (programming language)",
+          "caption": "www.python.org, GPL, via Wikimedia Commons"
         }
       ],
       "sources": [

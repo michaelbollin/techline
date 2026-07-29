@@ -48,7 +48,14 @@
         "kent-beck-extreme-programming"
       ],
       "slug": "hunt-thomas-dry",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hunt-thomas-dry.jpg",
+          "title": "Andy Hunt (author)",
+          "caption": "Photographer: Kittie Rue - Model: Andy Hunt, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     },
@@ -76,7 +83,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/de-css-released.svg",
+          "title": "DeCSS",
+          "caption": "Quadell, vectorized by Scaler, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — DeCSS (published October 1999)",

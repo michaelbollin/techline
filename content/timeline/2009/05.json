@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-first-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Node.js (initial release May 27, 2009)",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/homebrew-released.svg",
+          "title": "Homebrew (package manager)",
+          "caption": "Vítor Galvão (creator); MikeMcQuaid, Synoli (committers), BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Homebrew (package manager) (initial release May 20, 2009)",

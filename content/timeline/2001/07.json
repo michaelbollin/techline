@@ -34,7 +34,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/miguel-de-icaza-mono-announced.jpg",
+          "title": "Miguel de Icaza",
+          "caption": "Scottmada, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mono project — Announcement (June 2001)",
@@ -82,7 +89,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bittorrent-released.svg",
+          "title": "Bram Cohen",
+          "caption": "Rainberry ,Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — BitTorrent (first client July 2, 2001)",
@@ -130,7 +144,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/code-red-worm.png",
+          "title": "Code Red (computer worm)",
+          "caption": "Unknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CERT — Code Red worm (July 19, 2001)",

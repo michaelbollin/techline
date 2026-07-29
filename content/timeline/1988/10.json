@@ -29,7 +29,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/next-computer-released.jpg",
+          "title": "NeXTstation",
+          "caption": "Rama &amp; Musée Bolo, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — NeXT Computer (released October 12, 1988)",

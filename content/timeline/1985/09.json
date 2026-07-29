@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "radia-perlman-spanning-tree",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/radia-perlman-spanning-tree.jpg",
+          "title": "Radia Perlman",
+          "caption": "Scientist-100 at English Wikipedia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

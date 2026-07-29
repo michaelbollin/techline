@@ -40,7 +40,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/salesforce-launched.svg",
+          "title": "Salesforce",
+          "caption": "™/®Salesforce.com, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Salesforce — The History of Salesforce (February 7, 2000 launch)",

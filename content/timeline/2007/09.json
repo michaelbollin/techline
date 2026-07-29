@@ -35,7 +35,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/salesforce-force-com-launched.svg",
+          "title": "Salesforce",
+          "caption": "™/®Salesforce.com, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ZDNet — Dreamforce 07: Salesforce rolls out Visualforce (September 17, 2007)",

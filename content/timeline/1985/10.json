@@ -25,9 +25,10 @@
       "importance": 2,
       "media": [
         {
-          "type": "link",
-          "url": "https://softwarepreservation.computerhistory.org/c_plus_plus/",
-          "title": "Computer History Museum — C++ archive"
+          "type": "image",
+          "url": "/media/timeline/cpp-cfront-1-0.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
         }
       ],
       "sources": [
@@ -76,7 +77,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ftp-standardized.jpg",
+          "title": "File Transfer Protocol",
+          "caption": "Jason Scott, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 959 — File Transfer Protocol (October 1985)",
@@ -122,7 +130,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bjarne-stroustrup-cpp-released.jpg",
+          "title": "Bjarne Stroustrup",
+          "caption": "ICPCNews, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stroustrup — A History of C++ (first commercial release 1985)",
@@ -168,7 +183,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intel-80386-introduced.jpg",
+          "title": "I386",
+          "caption": "Konstantin Lanzet (with permission), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — History of the Intel 386 (October 1985)",
@@ -214,7 +236,14 @@
       "people": [],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/razor-1911-founded.svg",
+          "title": "Warez scene",
+          "caption": "Frap, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Razor 1911 (founded 1985)",
@@ -267,7 +296,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/richard-stallman-fsf-founded.jpg",
+          "title": "Richard Stallman",
+          "caption": "Patafisik, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FSF — Founded October 4, 1985",

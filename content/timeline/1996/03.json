@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netscape-navigator-2-0.jpg",
+          "title": "Computer History - Netscape Navigator",
+          "caption": "gabrielsaldana, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Netscape Navigator 2 (March 18, 1996)",
@@ -71,7 +78,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/palm-pilot-1000-released.jpg",
+          "title": "PalmPilot",
+          "caption": "Rama &amp; Musée Bolo, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — PalmPilot (March 1996 release)",

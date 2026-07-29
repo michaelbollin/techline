@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/objective-c-created.jpg",
+          "title": "Objective C (9686763629)",
+          "caption": "Exey Panteleev from Moscow, Russia, CC BY 2.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "HOPL IV — The Origins of Objective-C at PPI/Stepstone",
@@ -82,7 +89,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/susan-kare-macintosh-icons.jpg",
+          "title": "Susan Kare",
+          "caption": "Cooper Hewitt, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Macintosh introduction (1984; Kare iconography 1983–84)",
@@ -120,7 +134,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cd-rom-introduced.svg",
+          "title": "CD-ROM",
+          "caption": "Sony and Phillips, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — CD-ROM (introduced 1984)",

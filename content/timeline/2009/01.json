@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bitcoin-genesis-block-mined.svg",
+          "title": "Bitcoin",
+          "caption": "Grayliptrot, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Bitcoin (genesis block mined January 3, 2009)",

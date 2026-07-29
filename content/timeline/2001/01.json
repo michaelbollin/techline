@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/itunes-released.png",
+          "title": "ITunes",
+          "caption": "Apple Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — iTunes (first release January 9, 2001)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intellij-idea-released.png",
+          "title": "IntelliJ IDEA",
+          "caption": "Software: JetBrains Screenshot: VulcanSphere, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — IntelliJ IDEA (first release January 2001)",
@@ -136,7 +150,14 @@
       ],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wikipedia-launched.jpg",
+          "title": "AN USQ-20",
+          "caption": "No machine-readable author provided. Digital-fallout assumed (based on copyright claims)., CC BY-SA 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Wikipedia launched (January 15, 2001)",
@@ -180,7 +201,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/drupal-1-0-released.png",
+          "title": "Drupal",
+          "caption": "Unknown authorUnknown author, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Drupal.org — Legacy Drupal release history (1.0.0, January 15, 2001)",

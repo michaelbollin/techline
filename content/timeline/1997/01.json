@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/http-1-1-standardized.svg",
+          "title": "HTTP",
+          "caption": "IETF HTTP Working Group (HTTPbis), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 2068 — HTTP/1.1 (January 1997)",
@@ -79,7 +86,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/postgresql-6-released.svg",
+          "title": "PostgreSQL",
+          "caption": "Daniel Lundin, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PostgreSQL — Release 6.0 notes (January 29, 1997)",

@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/def-con-founded.jpg",
+          "title": "DEF CON",
+          "caption": "Samsonswiki, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "DEF CON — About DEF CON (first event June 9, 1993)",

@@ -35,7 +35,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/morris-chang-tsmc-founded.jpg",
+          "title": "Morris Chang",
+          "caption": "總統府, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TSMC — Company founded (February 21, 1987)",

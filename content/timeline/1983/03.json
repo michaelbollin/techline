@@ -29,7 +29,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-pc-xt-released.svg",
+          "title": "IBM Personal Computer XT",
+          "caption": "Own work (based on graphics by International Business Machines Corporation), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — Personal Computer history (PC XT, March 1983)",
@@ -74,7 +81,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/compaq-portable-released.jpg",
+          "title": "Compaq Portable",
+          "caption": "Tiziano Garuti (1000Bit, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Compaq Portable (released March 1983)",

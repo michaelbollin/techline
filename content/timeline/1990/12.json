@@ -28,7 +28,14 @@
         }
       ],
       "importance": 0,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/worldwideweb-browser.png",
+          "title": "WorldWideWeb",
+          "caption": "This file was made by User:Sven Translation If this image contains text, it can be translated easily into your language. If you need help, contact me Flexible licenses If you want to use this picture with another license than stated below, contact me Contact the author If you need a really fast answer, mail me. If you need only a fast answer, write me here., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CERN — The birth of the web (1990)",

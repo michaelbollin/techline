@@ -21,7 +21,14 @@
         "components"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/symfony-released.png",
+          "title": "Symfony",
+          "caption": "Javier.eguiluz, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Symfony (initial release Oct 22, 2005)",
@@ -62,7 +69,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sony-bmg-rootkit-scandal.svg",
+          "title": "Extended Copy Protection",
+          "caption": "Sony BMG Music Entertainment, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mark Russinovich — Sony, Rootkits and Digital Rights Management Gone Too Far (October 31, 2005)",

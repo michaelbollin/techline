@@ -23,7 +23,14 @@
         "ssh"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/capistrano-released.svg",
+          "title": "Capistrano (software)",
+          "caption": "Tom Clements, Lee Hambley, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Jamis Buck — Capistrano 1.1 released (March 6, 2006)",
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/amazon-s3-launched.svg",
+          "title": "Amazon Web Services",
+          "caption": "Amazon.com Inc., Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AWS — Amazon S3 (launched March 14, 2006)",
@@ -123,7 +137,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/twitter-launched.svg",
+          "title": "X (social network)",
+          "caption": "X Corp., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Twitter (launched March 21, 2006)",

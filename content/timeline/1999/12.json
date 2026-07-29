@@ -22,7 +22,14 @@
       ],
       "people": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-3-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Andrejus Ševcovas, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ECMA-262 3rd edition — adopted December 1999",
@@ -63,7 +70,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/y2k-rollover.jpg",
+          "title": "Year 2000 problem",
+          "caption": "Bug de l'an 2000, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. GAO — Year 2000 computing crisis: lessons learned (2000)",
@@ -82,7 +96,14 @@
     },
     {
       "slug": "openssh-first-released",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openssh-first-released.jpg",
+          "title": "Theo de Raadt",
+          "caption": "FAndrey, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "theo-de-raadt-openbsd-forked"
       ],

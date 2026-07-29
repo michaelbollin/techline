@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bram-moolenaar-vim-released.jpg",
+          "title": "Bram Moolenaar",
+          "caption": "Sebastian Bergmann from Siegburg, Germany, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Vim — History (1991)",

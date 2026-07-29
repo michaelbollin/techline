@@ -34,9 +34,10 @@
       "importance": 5,
       "media": [
         {
-          "type": "link",
-          "url": "https://web.archive.org/web/20070916144913/http:/wp.netscape.com/newsref/pr/newsrelease67.html",
-          "title": "Netscape press release — JavaScript (Dec 4, 1995)"
+          "type": "image",
+          "url": "/media/timeline/javascript-name-announced.svg",
+          "title": "JavaScript",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
         }
       ],
       "sources": [
@@ -79,7 +80,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ruby-0-95-released.svg",
+          "title": "Ruby (programming language)",
+          "caption": "Yukihiro Matsumoto, Ruby Visual Identity Team, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Ruby (first public release Dec 21, 1995)",

@@ -27,7 +27,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/java-1-0-shipped.jpg",
+          "title": "James Gosling",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Sun press release — JavaSoft ships Java 1.0 (Jan 23, 1996)",

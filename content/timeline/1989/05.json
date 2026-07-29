@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sparcstation-1-released.jpg",
+          "title": "SPARCstation 1",
+          "caption": "Fourdee at English Wikipedia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — SPARCstation (released May 1989)",

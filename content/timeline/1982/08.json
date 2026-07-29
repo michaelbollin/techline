@@ -22,7 +22,14 @@
         "microcomputer"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/commodore-64-released.jpg",
+          "title": "Commodore 64",
+          "caption": "Evan-Amos, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Commodore.ca — Commodore 64 history (August 1982 release)",

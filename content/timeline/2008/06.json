@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/firefox-3-released.jpg",
+          "title": "Firefox Extensions",
+          "caption": "Pentadact, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Firefox 3 released (June 17, 2008)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bitbucket-launched.svg",
+          "title": "Bitbucket",
+          "caption": "https://www.atlassian.com/company/contact, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Bitbucket (launched June 24, 2008)",

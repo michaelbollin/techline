@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-7-released.jpg",
+          "title": "Clearance Books I bought at Half Price Books",
+          "caption": "brewbooks, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer history (IE 7.0, October 18, 2006)",

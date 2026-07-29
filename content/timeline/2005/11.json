@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-framework-2-0-released.svg",
+          "title": ".NET Framework",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — .NET Framework 2.0 released (November 7, 2005)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/firefox-1-5-released.jpg",
+          "title": "Firefox Extensions",
+          "caption": "Pentadact, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Firefox 1.5 release notes (November 29, 2005)",

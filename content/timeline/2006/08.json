@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/amazon-ec2-launched.svg",
+          "title": "Amazon Elastic Compute Cloud",
+          "caption": "Amazon Web Services LLC, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AWS — Amazon EC2 (beta announced August 25, 2006)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jquery-1-0-released.svg",
+          "title": "jQuery",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "jQuery Blog — jQuery 1.0 (August 26, 2006)",

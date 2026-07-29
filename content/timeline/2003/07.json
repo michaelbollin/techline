@@ -34,7 +34,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mozilla-foundation-created.svg",
+          "title": "Mozilla Firefox logo 2013",
+          "caption": "Sean Martell for Mozilla [2][3], CC BY 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Mozilla Foundation established (July 15, 2003)",

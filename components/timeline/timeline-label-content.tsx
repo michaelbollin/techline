@@ -1,43 +1,71 @@
-import { ThemeIconGraphic } from "@/components/timeline/theme-icon";
-import type { ThemeId } from "@/lib/timeline/event-theme";
+import { LABEL_PADDING_X } from "@/lib/timeline/measure-label";
+
+export const LABEL_HOVER_IMAGE_SIZE = 26;
+export const LABEL_HOVER_IMAGE_GAP = 8;
+export const LABEL_HOVER_IMAGE_SLOT = LABEL_HOVER_IMAGE_SIZE + LABEL_HOVER_IMAGE_GAP;
 
 type TimelineLabelContentProps = {
   title: string;
-  themeId: ThemeId;
   width: number;
   height: number;
-  paddingX: number;
-  iconSize: number;
-  iconGap: number;
+  paddingX?: number;
   textClassName: string;
-  iconClassName: string;
+  imageUrl?: string | null;
+  showImage?: boolean;
+  imageClipId?: string;
 };
+
+export function timelineLabelHoverWidth(baseWidth: number, hasImage: boolean): number {
+  if (!hasImage) {
+    return baseWidth;
+  }
+
+  return baseWidth + LABEL_HOVER_IMAGE_SLOT;
+}
 
 export function TimelineLabelContent({
   title,
-  themeId,
   width,
   height,
-  paddingX,
-  iconSize,
-  iconGap,
+  paddingX = LABEL_PADDING_X,
   textClassName,
-  iconClassName,
+  imageUrl,
+  showImage = false,
+  imageClipId,
 }: TimelineLabelContentProps) {
-  const contentLeft = paddingX;
-  const iconScale = iconSize / 24;
-  const iconY = (height - iconSize) / 2;
-  const textX = contentLeft + iconSize + iconGap;
+  const hasImage = Boolean(showImage && imageUrl);
+  const imageY = (height - LABEL_HOVER_IMAGE_SIZE) / 2;
+  const textX = hasImage ? paddingX + LABEL_HOVER_IMAGE_SLOT : paddingX;
   const textWidth = Math.max(width - textX - paddingX, 0);
 
   return (
     <>
-      <g
-        className={iconClassName}
-        transform={`translate(${contentLeft}, ${iconY}) scale(${iconScale})`}
-      >
-        <ThemeIconGraphic themeId={themeId} />
-      </g>
+      {hasImage && imageUrl && imageClipId && (
+        <>
+          <defs>
+            <clipPath id={imageClipId}>
+              <rect
+                x={paddingX}
+                y={imageY}
+                width={LABEL_HOVER_IMAGE_SIZE}
+                height={LABEL_HOVER_IMAGE_SIZE}
+                rx={4}
+                ry={4}
+              />
+            </clipPath>
+          </defs>
+          <image
+            href={imageUrl}
+            x={paddingX}
+            y={imageY}
+            width={LABEL_HOVER_IMAGE_SIZE}
+            height={LABEL_HOVER_IMAGE_SIZE}
+            preserveAspectRatio="xMidYMid slice"
+            clipPath={`url(#${imageClipId})`}
+            className="pointer-events-none"
+          />
+        </>
+      )}
       <text
         x={textX + textWidth / 2}
         y={height / 2}

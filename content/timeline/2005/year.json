@@ -23,7 +23,14 @@
         "standard"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/json-rpc-1-0-published.svg",
+          "title": "Douglas Crockford",
+          "caption": "Douglas Crockford, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JSON-RPC.org — Version 1.0 specification (2005)",

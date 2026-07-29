@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "linux-kernel-announced",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/linux-kernel-announced.svg",
+          "title": "Linux",
+          "caption": "Larry Ewing, Simon Budig, Garrett LeSage, CC0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "git-created"
       ],

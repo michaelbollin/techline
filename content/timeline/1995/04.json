@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apache-http-server-released.svg",
+          "title": "Apache HTTP Server",
+          "caption": "The Apache Software Foundation, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Brian Behlendorf — Apache Server Announcement (April 21, 1995)",
@@ -75,7 +82,14 @@
       "people": [],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bebox-released.jpg",
+          "title": "BeBox",
+          "caption": "Mazzmn, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — BeBox (released April 1995)",

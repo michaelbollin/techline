@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/javascript-mocha-prototype.svg",
+          "title": "JavaScript",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Eich & Wirfs-Brock — JavaScript (HOPL III)",
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/java-announced.jpg",
+          "title": "James Gosling",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Sun — Java Technology: The Early Years (May 23, 1995)",
@@ -115,7 +129,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mysql-first-released.png",
+          "title": "MySQL",
+          "caption": "Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MySQL — History of MySQL (first version May 23, 1995)",
@@ -181,7 +202,14 @@
         "internet-explorer-1-0"
       ],
       "slug": "gates-internet-tidal-wave-memo",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gates-internet-tidal-wave-memo.jpg",
+          "title": "Bill Gates",
+          "caption": "Bogdan Hoyaux / European Union, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-pearl-released.jpg",
+          "title": "BlackBerry Pearl",
+          "caption": "Enrique Dans from Madrid, Spain, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BlackBerry Pearl released — launch",

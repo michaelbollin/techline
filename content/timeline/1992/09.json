@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "rob-pike-utf8-paper",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rob-pike-utf8-paper.jpg",
+          "title": "Rob Pike",
+          "caption": "Kevin Shockey, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "go-open-sourced"
       ],
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/odbc-1-0-released.png",
+          "title": "Database",
+          "caption": "BernardoSulzbach, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Open Database Connectivity (released 1992)",

@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/joomla-1-0-released.png",
+          "title": "Joomla",
+          "caption": "Franz.wohlkoenig, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Joomla (1.0 release September 17, 2005)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/salesforce-appexchange-launched.svg",
+          "title": "AppExchange",
+          "caption": "™/®Salesforce.com, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Salesforce — The History of Salesforce (AppExchange, September 2005)",
@@ -110,7 +124,14 @@
         "open-source"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/arduino-released.jpg",
+          "title": "Arduino",
+          "caption": "SparkFun Electronics from Boulder, USA, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Arduino — Guide / Introduction (first boards 2005)",

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-n95-released.jpg",
+          "title": "Nokia N95",
+          "caption": "Asim18, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia N95 released — launch",

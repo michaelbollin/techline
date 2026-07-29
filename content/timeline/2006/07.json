@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "graydon-hoare-rust-started",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/graydon-hoare-rust-started.svg",
+          "title": "Rust (programming language)",
+          "caption": "™/®Rust Foundation, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "rust-1-0-released"
       ],

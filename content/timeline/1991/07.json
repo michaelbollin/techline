@@ -21,7 +21,14 @@
         "scientific-computing"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fortran-90-standard.svg",
+          "title": "Fortran",
+          "caption": "Fortran-lang community, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO/IEC 1539:1991 — Fortran (first edition 1991-07-01)",
@@ -62,7 +69,14 @@
         "unix"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sgi-indigo-released.jpg",
+          "title": "SGI Indigo",
+          "caption": "James O'Gorman, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — SGI Indigo (released July 1991)",

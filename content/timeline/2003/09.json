@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/the-pirate-bay-founded.svg",
+          "title": "The Pirate Bay",
+          "caption": "The Pirate Bay, Copyrighted free use, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — The Pirate Bay (founded September 15, 2003)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/xcode-1-0-released.svg",
+          "title": "Apple Inc.",
+          "caption": "Original: Rob Janoff, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Xcode (first released September 28, 2003)",

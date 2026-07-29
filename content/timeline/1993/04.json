@@ -34,7 +34,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/berners-lee-web-public-domain.jpg",
+          "title": "Tim Berners-Lee",
+          "caption": "Summit, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CERN — Web release into public domain (April 30, 1993)",
@@ -96,7 +103,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jensen-huang-nvidia-founded.jpg",
+          "title": "Jensen Huang",
+          "caption": "The White House, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NVIDIA — Company founded (April 5, 1993)",
@@ -132,7 +146,14 @@
         "ncsa"
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mosaic-1-0-released.png",
+          "title": "NCSA Mosaic",
+          "caption": "Charles Severance, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NCSA Mosaic — What is Mosaic? (release history)",

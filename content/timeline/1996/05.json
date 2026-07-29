@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ocaml-1-00-released.svg",
+          "title": "OCaml",
+          "caption": "OCaml.org project, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Xavier Leroy — Objective Caml 1.00 announcement (May 9, 1996)",

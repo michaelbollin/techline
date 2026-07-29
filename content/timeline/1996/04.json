@@ -27,7 +27,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/opera-2-released.svg",
+          "title": "Opera (web browser)",
+          "caption": "Opera, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Opera — 30 years of innovation (company history)",

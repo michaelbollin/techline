@@ -22,7 +22,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tcl-created.svg",
+          "title": "Tcl",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ousterhout — History of Tcl (implemented spring 1988)",

@@ -44,7 +44,14 @@
         "javascript-name-announced"
       ],
       "slug": "crockford-javascript-good-parts",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/crockford-javascript-good-parts.jpg",
+          "title": "Douglas Crockford",
+          "caption": "Robert Claypool, CC0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     },
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-app-engine-open-signups.svg",
+          "title": "Google Cloud Platform",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Press — App Engine open sign-ups at Google I/O (May 27, 2008)",

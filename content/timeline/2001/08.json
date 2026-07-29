@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-6-released.jpg",
+          "title": "Clearance Books I bought at Half Price Books",
+          "caption": "brewbooks, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer history (IE 6.0, August 27, 2001)",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eric-schmidt-google-ceo.jpg",
+          "title": "Eric Schmidt",
+          "caption": "Guillaume Paumier, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google — Eric Schmidt CEO era (August 2001)",

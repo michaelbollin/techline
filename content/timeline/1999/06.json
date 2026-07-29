@@ -28,7 +28,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/flash-4-scripting.svg",
+          "title": "Adobe Flash",
+          "caption": "Adobe, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MacTech — Macromedia Ships Flash 4 (June 15, 1999)",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apache-tomcat-released.svg",
+          "title": "Apache Tomcat",
+          "caption": "Original: ™/®The Apache Software Foundation Vector: VulcanSphere and ReneeWrites, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apache Tomcat — Heritage (first Apache release 3.0, 1999)",
@@ -125,7 +139,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/napster-launched.jpg",
+          "title": "Shawn Fanning",
+          "caption": "Joi Ito, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Napster (launched June 1999)",

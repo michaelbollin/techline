@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/visual-basic-net-released.svg",
+          "title": "Visual Basic (.NET)",
+          "caption": "Jason Groce, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Visual Studio .NET and .NET Framework launch (Feb 13, 2002)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/aspnet-1-0-released.png",
+          "title": "ASP.NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Visual Studio .NET launch includes ASP.NET (Feb 13, 2002)",

@@ -29,7 +29,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fei-fei-li-imagenet-dataset-launched.jpg",
+          "title": "Fei-Fei Li",
+          "caption": "ITU Pictures, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ImageNet — Dataset introduced (2009)",
@@ -88,7 +95,14 @@
       ],
       "relatedIds": [],
       "slug": "zuckerberg-move-fast-break-things",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/zuckerberg-move-fast-break-things.jpg",
+          "title": "Mark Zuckerberg",
+          "caption": "The White House, Public domain, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

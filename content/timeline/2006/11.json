@@ -30,7 +30,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/powershell-1-0-released.svg",
+          "title": "PowerShell",
+          "caption": "Microsoft Corporation, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PowerShell Team — Windows PowerShell 1.0 Released (November 14, 2006)",
@@ -83,7 +90,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jensen-huang-cuda-announced.jpg",
+          "title": "Jensen Huang",
+          "caption": "The White House, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NVIDIA — CUDA announced (November 8, 2006)",
@@ -136,7 +150,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sass-released.svg",
+          "title": "Sass (style sheet language)",
+          "caption": "http://sass-lang.com/, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Sass (initial release November 28, 2006)",

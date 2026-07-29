@@ -39,7 +39,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/marc-andreessen-netscape-founded.jpg",
+          "title": "Marc Andreessen",
+          "caption": "JD Lasica, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — Andreessen founds Netscape (April 4, 1994)",

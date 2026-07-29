@@ -25,7 +25,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/xmpp-jabber-released.svg",
+          "title": "XMPP",
+          "caption": "Original Author: Raja SANDHU for XMPP Standards Foundation.Edited by Ludovic BOCQUET: A first time in September 2017, a second time in September 2019 and a third time in December 2025 (to add \"Automatic text color in dark/light mode\" feature)., MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "XMPP Foundation — Jabber.org 1999 status report",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tls-1-0-standardized.svg",
+          "title": "HTTPS",
+          "caption": "IETF HTTP Working Group (HTTPbis), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 2246 — TLS 1.0 (January 1999)",

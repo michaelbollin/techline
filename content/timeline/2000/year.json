@@ -23,7 +23,14 @@
       ],
       "people": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rest-architectural-style-defined.jpg",
+          "title": "Roy Fielding",
+          "caption": "Phil Whitehouse, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Fielding — Architectural Styles and the Design of Network-based Software Architectures (2000)",
@@ -47,7 +54,14 @@
     },
     {
       "slug": "fabrice-bellard-ffmpeg-created",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fabrice-bellard-ffmpeg-created.webp",
+          "title": "FFmpeg",
+          "caption": "Software: FFmpeg and Google LLCScreenshot: VulcanSphere, GPL, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {
@@ -114,7 +128,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jetbrains-founded.svg",
+          "title": "JetBrains",
+          "caption": "JetBrains (\"JetBrains s.r.o.\"), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — JetBrains (founded 2000)",

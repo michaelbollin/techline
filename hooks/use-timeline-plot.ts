@@ -91,7 +91,7 @@ export function useTimelinePlot({
   const labelWidths = useMemo(() => {
     const widths = new Map<string, number>();
     for (const event of plotted) {
-      widths.set(event.id, measureTimelineLabelWidth(event.title));
+      widths.set(event.id, measureTimelineLabelWidth(event.bubbleTitle));
     }
     return widths;
   }, [fontEpoch, plotted]);
@@ -104,7 +104,7 @@ export function useTimelinePlot({
         maxImportance,
         width,
         maxLanes,
-        (event) => labelWidths.get(event.id) ?? measureTimelineLabelWidth(event.title),
+        (event) => labelWidths.get(event.id) ?? measureTimelineLabelWidth(event.bubbleTitle),
         visibleSpanMs,
       ),
     [labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, xScale],

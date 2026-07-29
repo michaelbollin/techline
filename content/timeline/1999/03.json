@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/xmlhttprequest-introduced.svg",
+          "title": "XMLHttpRequest",
+          "caption": "IETF HTTP Working Group (HTTPbis), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — XMLHttpRequest (introduced in IE5, March 1999)",
@@ -70,7 +77,14 @@
         "publish-subscribe"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mqtt-invented.jpg",
+          "title": "IBM",
+          "caption": "Treesmittenex, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MQIsdp versions — MQTT v1 first release (March 26, 1999)",
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/melissa-virus.jpg",
+          "title": "Computer virus",
+          "caption": "Avinash Meetoo - avinash@noulakaz.net - http://www.noulakaz.net/ - Avinashm at en.wikipedia, CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FBI — Melissa virus investigation (March 1999)",

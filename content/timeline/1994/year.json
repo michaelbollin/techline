@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/anita-borg-grace-hopper-conference.jpg",
+          "title": "Anita Borg",
+          "caption": "Hillary, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AnitaB.org — Grace Hopper Celebration history (1994)",
@@ -72,7 +79,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/alexander-stepanov-stl-published.jpg",
+          "title": "Alexander Stepanov",
+          "caption": "Paul R. McJones, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "HP Labs — STL first release (1994)",
@@ -118,7 +132,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bruce-schneier-applied-cryptography.jpg",
+          "title": "Bruce Schneier",
+          "caption": "Rama, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Schneier on Security — Applied Cryptography (1994)",
@@ -174,7 +195,14 @@
       ],
       "relatedIds": [],
       "slug": "joy-most-smart-people-elsewhere",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/joy-most-smart-people-elsewhere.jpg",
+          "title": "Bill Joy",
+          "caption": "The original uploader was SqueakBox at English Wikipedia., CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

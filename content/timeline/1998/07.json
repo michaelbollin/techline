@@ -23,7 +23,14 @@
         "protocol"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/xml-rpc-specified.jpg",
+          "title": "Dave Winer",
+          "caption": "Joi Ito from Inbamura, Japan, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Dave Winer — XML-RPC for Geeks (July 19, 1998)",

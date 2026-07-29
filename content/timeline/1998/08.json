@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/imac-g3-released.png",
+          "title": "IMac G3",
+          "caption": "Alterations by David Fuchs; original by Rama, licensed CC-by-SA, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iMac introduced (August 15, 1998)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bugzilla-released.svg",
+          "title": "Bugzilla",
+          "caption": "Dave Shea, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Bugzilla 1.0 release announcement (August 26, 1998)",

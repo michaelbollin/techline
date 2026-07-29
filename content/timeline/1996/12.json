@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "yukihiro-matsumoto-ruby-1-released",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/yukihiro-matsumoto-ruby-1-released.jpg",
+          "title": "Yukihiro Matsumoto",
+          "caption": "Christopher Adams, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "ruby-0-95-released"
       ],
@@ -84,7 +91,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css1-w3c-recommendation.svg",
+          "title": "CSS",
+          "caption": "Javi Aguilar and The CSS-Next Community Group, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — Cascading Style Sheets Recommendation (December 17, 1996)",

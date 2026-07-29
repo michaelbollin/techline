@@ -22,7 +22,14 @@
         "x86"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/vmware-workstation-released.svg",
+          "title": "VMware Workstation",
+          "caption": "MVTTXW$, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "VMware — Company history (Workstation 1.0, May 15, 1999)",
@@ -63,7 +70,14 @@
         "web"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/opencart-released.png",
+          "title": "OpenCart",
+          "caption": "Higimo, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenCart — About (first public release May 11, 1999)",

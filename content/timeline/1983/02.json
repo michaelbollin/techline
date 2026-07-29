@@ -22,7 +22,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ada-83-standard.svg",
+          "title": "Ada (programming language)",
+          "caption": "Captain-Haddock17, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FIPS PUB 119 — ANSI/MIL-STD-1815A approved February 17, 1983",

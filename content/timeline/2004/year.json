@@ -28,7 +28,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-7290-released.jpg",
+          "title": "BlackBerry",
+          "caption": "個人, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BlackBerry 7290 released — launch",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/selenium-released.svg",
+          "title": "Selenium (software)",
+          "caption": "Selenium, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Selenium — History (2004 at ThoughtWorks)",
@@ -117,7 +131,14 @@
         "web"
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopware-released.png",
+          "title": "Shopware",
+          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Shopware (version 1, 2004)",

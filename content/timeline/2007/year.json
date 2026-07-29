@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "mary-lou-jepsen-olpc-displays",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mary-lou-jepsen-olpc-displays.jpg",
+          "title": "Mary Lou Jepsen",
+          "caption": "Steve Jurvetson, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

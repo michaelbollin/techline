@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dns-standardized.png",
+          "title": "DomainNameSystem",
+          "caption": "Sakari A. Maaranen, CC BY 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 882 — Domain Names: Concepts and Facilities (November 1983)",
@@ -82,7 +89,14 @@
       ],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ritchie-thompson-turing-award.jpg",
+          "title": "Dennis Ritchie",
+          "caption": "Denise Panyik-Dale, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ACM — 1983 Turing Award (Ritchie & Thompson)",
@@ -125,7 +139,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/anders-hejlsberg-turbo-pascal-shipped.jpg",
+          "title": "Anders Hejlsberg",
+          "caption": "DBegley, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Borland — Turbo Pascal history (1983)",

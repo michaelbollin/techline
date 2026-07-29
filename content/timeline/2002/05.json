@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openoffice-1-0-released.png",
+          "title": "Apache OpenOffice",
+          "caption": "Software: Apache Software Foundation and contributors Screenshot: VulcanSphere, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — OpenOffice.org (1.0 released May 1, 2002)",

@@ -24,7 +24,14 @@
       ],
       "people": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mips-r2000-introduced.svg",
+          "title": "MIPS Technologies",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — MIPS architecture (R2000, 1985)",
@@ -45,7 +52,14 @@
     },
     {
       "slug": "goldwasser-micali-zero-knowledge-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/goldwasser-micali-zero-knowledge-published.jpg",
+          "title": "Shafi Goldwasser",
+          "caption": "Weizmann Institute of Science, Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "shafi-goldwasser-turing-award"
       ],
@@ -95,7 +109,14 @@
     },
     {
       "slug": "grace-hopper-nanoseconds-lecture",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/grace-hopper-nanoseconds-lecture.jpg",
+          "title": "Grace Hopper",
+          "caption": "James S. Davis, Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "cobol-specifications-submitted"
       ],

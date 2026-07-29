@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/enron-bankruptcy.svg",
+          "title": "Enron",
+          "caption": "Paul Rand, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "SEC — Enron Corp. bankruptcy filing (December 2, 2001)",

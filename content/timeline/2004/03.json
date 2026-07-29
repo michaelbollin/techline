@@ -28,7 +28,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/spring-framework-1-0-released.svg",
+          "title": "Spring Framework",
+          "caption": "Pivotal Software, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Spring Blog — Spring Framework 1.0 Final Released (March 24, 2004)",
@@ -69,7 +76,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rubygems-released.svg",
+          "title": "Ruby (programming language)",
+          "caption": "Yukihiro Matsumoto, Ruby Visual Identity Team, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — RubyGems (released March 14, 2004)",
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/confluence-launched.svg",
+          "title": "Confluence (software)",
+          "caption": "www.atlassian.com, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Atlassian — Confluence history (March 25, 2004)",

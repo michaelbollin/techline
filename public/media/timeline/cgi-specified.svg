@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="80" height="64" viewBox="0 0 80 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.683567,3.18146,-3.18146,-0.683567,66.8409,34.2955)"><stop offset="0" style="stop-color:#00c1cd;stop-opacity:1"/><stop offset="0.23" style="stop-color:#0073ff;stop-opacity:1"/><stop offset="0.47" style="stop-color:#7353ff;stop-opacity:1"/><stop offset="0.75" style="stop-color:#7d00ff;stop-opacity:1"/><stop offset="1" style="stop-color:#9000cb;stop-opacity:1"/></linearGradient>
+    <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.66957,3.80952,-3.80952,-0.66957,65.6542,25.741)"><stop offset="0" style="stop-color:#f00;stop-opacity:1"/><stop offset="1" style="stop-color:#ffc300;stop-opacity:1"/></linearGradient>
+    <linearGradient id="grad3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.656216,3.58832,-3.58832,-0.656216,65.3815,29.8719)"><stop offset="0" style="stop-color:#ffc300;stop-opacity:1"/><stop offset="0.19" style="stop-color:#fef300;stop-opacity:1"/><stop offset="0.59" style="stop-color:#0f0;stop-opacity:1"/><stop offset="0.83" style="stop-color:#00dae3;stop-opacity:1"/><stop offset="1" style="stop-color:#00c2cd;stop-opacity:1"/></linearGradient>
+    <linearGradient id="grad4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.24261e-16,3.32322,-2.02934,2.03488e-16,37.7583,53.5436)"><stop offset="0" style="stop-color:#000;stop-opacity:1"/><stop offset="1" style="stop-color:#fff;stop-opacity:1"/></linearGradient>
+    <linearGradient id="grad5" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-2.87799,-1.66161,1.01467,-1.75746,29.8104,30.2799)"><stop offset="0" style="stop-color:#000;stop-opacity:1"/><stop offset="1" style="stop-color:#fff;stop-opacity:1"/></linearGradient>
+    <linearGradient id="grad6" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(2.87799,-1.66161,1.01467,1.75746,53.9313,35.0287)"><stop offset="0" style="stop-color:#000;stop-opacity:1"/><stop offset="1" style="stop-color:#fff;stop-opacity:1"/></linearGradient>
+    <linearGradient id="grad7" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(10.3541,-2.9247,2.9247,10.3541,29.2914,32.3387)"><stop offset="0" style="stop-color:#fff;stop-opacity:1"/><stop offset="1" style="stop-color:#000;stop-opacity:1"/></linearGradient>
+</defs>
+<rect id="background" x="0" y="0" width="80" height="64"/>
+<g id="spectrum">
+    <path d="M55.105,30.86L80,35.452L80,40.856L58.034,35.934L55.105,30.86Z" style="fill:url(#grad1);"/>
+    <path d="M53.956,28.872L51.127,23.971L80,27.789L80,33.202L53.956,28.872Z" style="fill:url(#grad2);"/>
+    <path d="M80,32.026L80,36.65L55.807,32.077L53.407,27.92L80,32.026Z" style="fill:url(#grad3);"/>
+</g>
+<g id="CGI">
+    <path d="M35.844,47.464C35.393,48.453 34.908,49.188 34.39,49.668C33.727,50.282 32.921,50.589 31.971,50.589C31.155,50.589 30.401,50.33 29.71,49.812C29.076,49.341 28.577,48.712 28.212,47.925C27.876,47.205 27.708,46.356 27.708,45.376C27.708,43.792 28.015,42.492 28.63,41.474C29.379,40.236 30.492,39.616 31.971,39.616C32.412,39.616 32.825,39.679 33.209,39.804C33.593,39.928 33.833,39.991 33.929,39.991C34.169,39.991 34.471,39.88 34.836,39.66L35.556,42.194L35.196,42.352C34.803,41.584 34.395,41.037 33.972,40.711C33.473,40.327 32.83,40.135 32.043,40.135C31.38,40.135 30.78,40.38 30.243,40.869C29.311,41.724 28.846,43.149 28.846,45.146C28.846,46.394 29.134,47.436 29.71,48.271C30.372,49.231 31.299,49.711 32.489,49.711C33.593,49.711 34.606,48.924 35.527,47.349L35.844,47.464Z" style="fill:#fff;fill-rule:nonzero;"/>
+    <path d="M46.889,46.269C46.515,46.269 46.265,46.298 46.14,46.356C45.939,46.452 45.838,46.658 45.838,46.975L45.838,49.941C45.031,49.97 44.422,50.066 44.009,50.229C43.366,50.479 42.852,50.604 42.468,50.604C41.019,50.604 39.847,50.109 38.955,49.12C38.081,48.17 37.644,46.965 37.644,45.506C37.644,41.58 39.233,39.616 42.411,39.616C42.708,39.616 43.083,39.679 43.534,39.804C43.985,39.928 44.302,39.991 44.484,39.991C44.743,39.991 45.041,39.88 45.377,39.66L46.284,42.194L45.881,42.396C45.334,41.628 44.854,41.085 44.441,40.768C43.875,40.346 43.198,40.135 42.411,40.135C41.652,40.135 40.999,40.341 40.452,40.754C39.751,41.282 39.276,41.997 39.027,42.9C38.863,43.504 38.782,44.373 38.782,45.506C38.782,46.754 39.084,47.8 39.689,48.645C40.371,49.605 41.316,50.085 42.526,50.085C43.083,50.085 43.572,49.927 43.995,49.61C44.475,49.264 44.715,48.828 44.715,48.3L44.715,46.975C44.715,46.61 44.513,46.384 44.11,46.298C43.995,46.279 43.644,46.269 43.059,46.269L43.059,45.823L46.889,45.823L46.889,46.269Z" style="fill:#fff;fill-rule:nonzero;"/>
+    <path d="M52.289,50.244L48.689,50.244L48.689,49.812C49.092,49.802 49.38,49.754 49.553,49.668C49.803,49.533 49.927,49.288 49.927,48.933L49.927,40.941C49.927,40.605 49.798,40.389 49.539,40.293C49.414,40.255 49.131,40.236 48.689,40.236L48.689,39.789L52.289,39.789L52.289,40.236C51.857,40.236 51.579,40.26 51.454,40.308C51.185,40.394 51.051,40.605 51.051,40.941L51.051,48.933C51.051,49.298 51.171,49.543 51.411,49.668C51.583,49.754 51.876,49.802 52.289,49.812L52.289,50.244Z" style="fill:#fff;fill-rule:nonzero;"/>
+</g>
+<g id="prism">
+    <path d="M65.852,53.544L70.377,56.867L10.623,56.867L15.393,53.544L65.852,53.544Z" style="fill:url(#grad4);"/>
+    <path d="M16.379,53.544L10.623,56.867L40.5,5.119L41.052,10.809L16.379,53.544Z" style="fill:url(#grad5);"/>
+    <path d="M40.5,11.765L40.5,5.119L70.377,56.867L64.621,53.544L40.5,11.765Z" style="fill:url(#grad6);"/>
+</g>
+<path id="beam_in" d="M0,37.218L26.325,29.67L26.363,30.242L25.654,30.833L0,38.189L0,37.218Z" style="fill:#fff;fill-rule:nonzero;"/>
+<path id="refraction" d="M26.325,29.67L40.718,25.707L43.055,33.679L25.654,30.833L26.325,29.67Z" style="fill:url(#grad7);"/>
+</svg>

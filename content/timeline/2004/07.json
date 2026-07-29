@@ -25,9 +25,10 @@
       "importance": 2,
       "media": [
         {
-          "type": "link",
-          "url": "https://signalvnoise.com/archives/000766",
-          "title": "DHH — Rails: the infrastructure behind Basecamp"
+          "type": "image",
+          "url": "/media/timeline/rails-open-sourced.svg",
+          "title": "Ruby on Rails",
+          "caption": "Jamie Dihiansan http://weblog.rubyonrails.org/2016/1/19/new-rails-identity/2, CC0, via Wikimedia Commons"
         }
       ],
       "sources": [
@@ -71,7 +72,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/php-5-0-released.svg",
+          "title": "PHP",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PHP.net — PHP 5.0.0 released (July 13, 2004)",
@@ -123,7 +131,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/maven-1-0-released.svg",
+          "title": "Apache Maven",
+          "caption": "Apache Software Foundation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apache Maven — Maven 1.0 release (July 13, 2004)",

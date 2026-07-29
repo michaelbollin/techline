@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dynamo-paper-published.png",
+          "title": "Amazon DynamoDB",
+          "caption": "AWS, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Amazon — Dynamo: Amazon's Highly Available Key-value Store (SOSP 2007)",
@@ -83,7 +90,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rich-hickey-clojure-released.jpg",
+          "title": "Rich Hickey",
+          "caption": "Tapestry Dude, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Clojure — Public release (October 16, 2007)",
@@ -122,7 +136,14 @@
       ],
       "people": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/oauth-1-0-published.svg",
+          "title": "OAuth",
+          "caption": "Chris Messina, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OAuth Core 1.0 finalized (October 24, 2007)",

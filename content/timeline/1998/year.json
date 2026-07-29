@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "jim-gray-turing-award",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jim-gray-turing-award.jpg",
+          "title": "Jim Gray (computer scientist)",
+          "caption": "Microsoft Research, CC BY-SA 3.0 us, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "michael-stonebraker-postgres-research"
       ],
@@ -47,7 +54,14 @@
     },
     {
       "slug": "rich-sutton-rl-textbook",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rich-sutton-rl-textbook.jpg",
+          "title": "Richard S. Sutton",
+          "caption": "Xuthoria, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "demis-hassabis-alphago-victory"
       ],

@@ -19,7 +19,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ruby-1-8-released.svg",
+          "title": "Ruby (programming language)",
+          "caption": "Yukihiro Matsumoto, Ruby Visual Identity Team, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ruby-lang.org — Ruby 1.8.0 released (August 4, 2003)",

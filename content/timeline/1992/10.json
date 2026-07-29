@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-thinkpad-700c-released.svg",
+          "title": "ThinkPad Laptops Graph V1",
+          "caption": "ThisIsNotABetter, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — ThinkPad history (700C, October 1992)",

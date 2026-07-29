@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "barbara-liskov-turing-award",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/barbara-liskov-turing-award.jpg",
+          "title": "Barbara Liskov",
+          "caption": "Kenneth C. Zirkel, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

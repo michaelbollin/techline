@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "open-source-initiative-founded",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/open-source-initiative-founded.svg",
+          "title": "Open Source Initiative",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "mozilla-source-released"
       ],

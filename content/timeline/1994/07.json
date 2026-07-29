@@ -22,7 +22,14 @@
       ],
       "people": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lua-1-1-public-release.svg",
+          "title": "Lua",
+          "caption": "Alexandre Nakonechnyj (Graphic design) and Lua team (PostScript code), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Lua.org — history (first public release July 1994)",

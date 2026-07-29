@@ -40,7 +40,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bert-bos-joins-css-project.jpg",
+          "title": "Bert Bos",
+          "caption": "Martin Alvarez Espinar from Langreo, Asturias, Spain, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — CSS1 press release: Bert Bos joined July 1995 (December 17, 1996)",

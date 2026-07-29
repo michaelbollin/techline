@@ -35,7 +35,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/junit-released.jpg",
+          "title": "Kent Beck",
+          "caption": "Improve It, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — JUnit (first released 1997)",

@@ -30,7 +30,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gcc-1-0-released.png",
+          "title": "GCC 10.2 GNU Compiler Collection self-compilation",
+          "caption": "Isacdaavid, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "GCC Wiki — History (first beta release March 22, 1987)",

@@ -28,7 +28,8 @@ describe("toPlottedEvents", () => {
     expect(plotted.map((event) => event.id)).toEqual(["earlier", "later"]);
     expect(plotted[0]).toMatchObject({
       dateLabel: "January 1, 1999",
-      themeId: expect.any(String),
+      bubbleTitle: expect.any(String),
+      imageUrl: null,
     });
   });
 });

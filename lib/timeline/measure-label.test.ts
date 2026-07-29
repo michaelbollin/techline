@@ -13,7 +13,7 @@ describe("measureLabelWidth", () => {
 });
 
 describe("measureTimelineLabelWidth", () => {
-  it("includes icon slot for timeline labels", () => {
-    expect(measureTimelineLabelWidth("React")).toBeGreaterThan(measureLabelWidth("React"));
+  it("matches measureLabelWidth for timeline labels", () => {
+    expect(measureTimelineLabelWidth("React")).toBe(measureLabelWidth("React"));
   });
 });

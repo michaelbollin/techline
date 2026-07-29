@@ -41,9 +41,10 @@
       ],
       "media": [
         {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=XxbJw8PrIkc",
-          "title": "Steve Ballmer — Developers chant (.NET presentation)"
+          "type": "image",
+          "url": "/media/timeline/ballmer-developers-chant.jpg",
+          "title": "Steve Ballmer",
+          "caption": "Steve_ballmer_2007_outdoors2.jpg: Martin Olsson (username 'mnemo' on en/sv wikipedia and commons, martin@minimum.se). derivative work: Off2riorob (talk), CC BY-SA 3.0, via Wikimedia Commons"
         }
       ],
       "relatedIds": [

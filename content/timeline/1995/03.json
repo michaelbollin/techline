@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ldap-standardized.jpg",
+          "title": "Lightweight Directory Access Protocol",
+          "caption": "Rferrero, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 1777 — Lightweight Directory Access Protocol (March 1995)",
@@ -77,7 +84,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ward-cunningham-wiki-invented.jpg",
+          "title": "Wiki",
+          "caption": "Carrigg Photography for the Wikimedia Foundation, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Cunningham & Cunningham — Wiki history (March 1995)",

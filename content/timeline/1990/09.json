@@ -29,7 +29,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nextstation-released.jpg",
+          "title": "NeXTstation",
+          "caption": "Rama &amp; Musée Bolo, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — NeXTstation (released September 1990)",
@@ -78,7 +85,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/archie-search-launched.png",
+          "title": "Archie (search engine)",
+          "caption": "The-Dubnob, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Archie (search engine) (1990)",

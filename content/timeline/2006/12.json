@@ -29,7 +29,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecma-office-open-xml-standard.svg",
+          "title": "Office Open XML",
+          "caption": "Unknown authorUnknown author, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ECMA — Office Open XML (ECMA-376, December 7, 2006)",

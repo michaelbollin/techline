@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Title: G Pages: 1 -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" height="332pt" viewBox="0.00 0.00 170.00 332.00" width="170pt" xmlns:cc="http://creativecommons.org/ns#" version="1.1">
+ <g class="node" transform="translate(4,328)">
+  <title>Release groups</title>
+  <ellipse cx="81" cy="-306" d="m 162.3398,-306 c 0,9.94113 -36.41707,18 -81.3398,18 -44.92273,0 -81.33979797,-8.05887 -81.33979797,-18 0,-9.94113 36.41706797,-18 81.33979797,-18 44.92273,0 81.3398,8.05887 81.3398,18 z" stroke="#000" ry="18" rx="81.34" fill="#efefef"/>
+  <text font-size="14px" font-family="Verdana" x="81" y="-302.29999" style="text-anchor:middle">Release groups</text>
+ </g>
+ <g class="node" transform="translate(4,328)">
+  <title>Topsites</title>
+  <ellipse cx="81" cy="-234" d="m 131.0684,-234 c 0,9.94113 -22.41639,18 -50.0684,18 -27.652015,0 -50.068401,-8.05887 -50.068401,-18 0,-9.94113 22.416386,-18 50.068401,-18 27.65201,0 50.0684,8.05887 50.0684,18 z" stroke="#000" ry="18" rx="50.068" fill="#efefef"/>
+  <text font-size="14px" font-family="Verdana" x="81" y="-230.3" style="text-anchor:middle">Topsites</text>
+ </g>
+ <g class="edge" transform="translate(4,328)">
+  <title>Release groups-&gt;Topsites</title>
+  <path d="m81-287.7v25.585" stroke="#000" fill="none"/>
+  <polygon stroke="#000" points="77.5 -262.1 84.5 -262.1 84.5 -262.1 81 -252.1"/>
+ </g>
+ <g class="node" transform="translate(4,328)">
+  <title>Couriers</title>
+  <ellipse cx="81" cy="-162" d="m 131.0684,-162 c 0,9.94113 -22.41639,18 -50.0684,18 -27.652015,0 -50.068401,-8.05887 -50.068401,-18 0,-9.94113 22.416386,-18 50.068401,-18 27.65201,0 50.0684,8.05887 50.0684,18 z" stroke="#000" ry="18" rx="50.068" fill="#efefef"/>
+  <text font-size="14px" font-family="Verdana" x="81" y="-158.3" style="text-anchor:middle">Couriers</text>
+ </g>
+ <g class="edge" transform="translate(4,328)">
+  <title>Topsites-&gt;Couriers</title>
+  <path d="m81-215.7v25.585" stroke="#000" fill="none"/>
+  <polygon stroke="#000" points="77.5 -190.1 84.5 -190.1 84.5 -190.1 81 -180.1"/>
+ </g>
+ <g class="node" transform="translate(4,328)">
+  <title>Sites</title>
+  <ellipse cx="81" cy="-90" d="m 114.1991,-90 c 0,9.941125 -14.863743,18 -33.1991,18 -18.335357,0 -33.1991,-8.058875 -33.1991,-18 0,-9.941125 14.863743,-18 33.1991,-18 18.335357,0 33.1991,8.058875 33.1991,18 z" stroke="#000" ry="18" rx="33.199" fill="#efefef"/>
+  <text font-size="14px" font-family="Verdana" x="81" y="-86.300003" style="text-anchor:middle">Sites</text>
+ </g>
+ <g class="edge" transform="translate(4,328)">
+  <title>Couriers-&gt;Sites</title>
+  <path d="m81-143.7v25.585" stroke="#000" fill="none"/>
+  <polygon stroke="#000" points="77.5 -118.1 84.5 -118.1 84.5 -118.1 81 -108.1"/>
+ </g>
+ <g class="node" transform="translate(4,328)">
+  <title>Leechers</title>
+  <ellipse cx="81" cy="-18" d="M 132.4931,-18 C 132.4931,-8.0588745 109.43885,0 81,0 52.561147,0 29.506901,-8.0588745 29.506901,-18 c 0,-9.941125 23.054246,-18 51.493099,-18 28.43885,0 51.4931,8.058875 51.4931,18 z" stroke="#000" ry="18" rx="51.493" fill="#efefef"/>
+  <text font-size="14px" font-family="Verdana" x="81" y="-14.3" style="text-anchor:middle">Leechers</text>
+ </g>
+ <g class="edge" transform="translate(4,328)">
+  <title>Sites-&gt;Leechers</title>
+  <path d="m81-71.697v25.584" stroke="#000" fill="none"/>
+  <polygon stroke="#000" points="77.5 -46.104 84.5 -46.104 84.5 -46.104 81 -36.104"/>
+ </g>
+</svg>

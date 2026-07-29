@@ -33,7 +33,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mozilla-source-released.jpg",
+          "title": "Foxkeh calendar",
+          "caption": "codepo8, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Project Mozilla launched (March 31, 1998)",
@@ -80,7 +87,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/daniel-stenberg-curl-released.jpg",
+          "title": "Daniel Stenberg",
+          "caption": "Daniel Stenberg casually green.jpg: Deniel Stenberg derivative work: Akishima Yuka, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "curl — Project history (March 1998)",

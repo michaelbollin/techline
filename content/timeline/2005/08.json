@@ -28,7 +28,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/opera-mini-launched.svg",
+          "title": "Opera Mini",
+          "caption": "Opera, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Opera — Opera Mini product history",
@@ -68,7 +75,14 @@
         "open-source"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/puppet-released.svg",
+          "title": "Puppet (software)",
+          "caption": "Perforce Software, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AOSA — Puppet: History (August 2005 public release)",

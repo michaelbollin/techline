@@ -2,9 +2,6 @@ export const LABEL_FONT_SIZE_PX = 14;
 export const LABEL_FONT_WEIGHT = 500;
 /** Horizontal inset on each side of the label pill (must match rendered SVG text). */
 export const LABEL_PADDING_X = 20;
-export const LABEL_ICON_SIZE = 14;
-export const LABEL_ICON_GAP = 8;
-export const LABEL_ICON_SLOT = LABEL_ICON_SIZE + LABEL_ICON_GAP;
 export const LABEL_HORIZONTAL_PADDING = LABEL_PADDING_X * 2;
 /** Matches timeline node label `text-sm tracking-wide`. */
 export const LABEL_LETTER_SPACING_EM = 0.025;
@@ -43,12 +40,10 @@ export function measureLabelWidth(
   options?: {
     fontSizePx?: number;
     paddingX?: number;
-    iconSlotPx?: number;
   },
 ): number {
   const fontSizePx = options?.fontSizePx ?? LABEL_FONT_SIZE_PX;
   const paddingX = options?.paddingX ?? LABEL_PADDING_X;
-  const iconSlotPx = options?.iconSlotPx ?? 0;
   const horizontalPadding = paddingX * 2;
   const letterSpacingPx = fontSizePx * LABEL_LETTER_SPACING_EM;
   const letterSpacingWidth = Math.max(0, title.length - 1) * letterSpacingPx;
@@ -57,17 +52,20 @@ export function measureLabelWidth(
   if (context) {
     context.font = `${LABEL_FONT_WEIGHT} ${fontSizePx}px ${getTimelineLabelFontFamily()}`;
     const textWidth = context.measureText(title).width + letterSpacingWidth;
-    return Math.ceil(textWidth) + horizontalPadding + iconSlotPx + LABEL_MEASURE_SAFETY_PX;
+    const emojiExtra = /^\p{Extended_Pictographic}/u.test(title) ? fontSizePx * 1.1 : 0;
+    return Math.ceil(textWidth) + emojiExtra + horizontalPadding + LABEL_MEASURE_SAFETY_PX;
   }
+
+  const emojiExtra = /^\p{Extended_Pictographic}/u.test(title) ? fontSizePx * 1.1 : 0;
 
   return (
     Math.max(64, Math.ceil(title.length * (fontSizePx * 0.52) + letterSpacingWidth)) +
+    emojiExtra +
     horizontalPadding +
-    iconSlotPx +
     LABEL_MEASURE_SAFETY_PX
   );
 }
 
 export function measureTimelineLabelWidth(title: string): number {
-  return measureLabelWidth(title, { iconSlotPx: LABEL_ICON_SLOT });
+  return measureLabelWidth(title);
 }

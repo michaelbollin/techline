@@ -23,7 +23,14 @@
         "open-source"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rabbitmq-released.svg",
+          "title": "RabbitMQ",
+          "caption": "RabbitMQ, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RabbitMQ — Launch press release (February 8, 2007)",

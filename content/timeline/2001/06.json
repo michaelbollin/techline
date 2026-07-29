@@ -25,7 +25,14 @@
       "people": [],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blade-server-era.jpg",
+          "title": "Blade server",
+          "caption": "Dmitry Nosachev, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Blade server (RLX, June 2001)",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-9210-communicator-released.svg",
+          "title": "Nokia 9210 Communicator",
+          "caption": "Nokia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia 9210 Communicator released — launch",
@@ -139,7 +153,14 @@
         "linux-kernel-announced"
       ],
       "slug": "ballmer-linux-cancer",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ballmer-linux-cancer.jpg",
+          "title": "Steve Ballmer",
+          "caption": "Steve_ballmer_2007_outdoors2.jpg: Martin Olsson (username 'mnemo' on en/sv wikipedia and commons, martin@minimum.se). derivative work: Off2riorob (talk), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

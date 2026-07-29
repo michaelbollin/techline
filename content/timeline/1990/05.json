@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/windows-3-0-released.svg",
+          "title": "Windows 3.1x",
+          "caption": "Original work: Microsoft Corporation Windows 11 logo.svg: Multiple editors; see image description page This work: Jelican9, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Windows 3.0 (released May 22, 1990)",

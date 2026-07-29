@@ -1,18 +1,21 @@
 import { formatEventDate } from "./format";
-import { resolveEventTheme, type ThemeId } from "./event-theme";
+import { getEventCoverImageUrl } from "./event-image";
+import { bubbleTitle } from "./label-emoji";
 import type { Importance } from "./importance";
-import type { TimelineEvent } from "./schema";
+import type { TimelineCategory, TimelineEvent } from "./schema";
 import { TIMELINE_EXTENT } from "./constants";
 
 export type PlottedEvent = {
   id: string;
   slug: string;
   title: string;
+  bubbleTitle: string;
+  category: TimelineCategory;
   summary: string;
   importance: Importance;
   timestamp: number;
   dateLabel: string;
-  themeId: ThemeId;
+  imageUrl: string | null;
 };
 
 function eventToIsoDate(date: string, precision: TimelineEvent["datePrecision"]): string {
@@ -43,11 +46,13 @@ export function toPlottedEvents(events: TimelineEvent[]): PlottedEvent[] {
       id: event.id,
       slug: event.slug,
       title: event.title,
+      bubbleTitle: bubbleTitle(event.title, event.category),
+      category: event.category,
       summary: event.summary,
       importance: event.importance,
       timestamp: eventToTimestamp(event.date, event.datePrecision),
       dateLabel: formatEventDate(event.date, event.datePrecision),
-      themeId: resolveEventTheme(event),
+      imageUrl: getEventCoverImageUrl(event.media),
     }))
     .sort((a, b) => a.timestamp - b.timestamp);
 }

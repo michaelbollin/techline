@@ -34,7 +34,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apache-cassandra-open-sourced.svg",
+          "title": "Apache Cassandra",
+          "caption": "Apache Software Foundation, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TechCrunch — Facebook releases Cassandra as open source (July 14, 2008)",
@@ -84,7 +91,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-app-store-opens.svg",
+          "title": "App Store (Apple)",
+          "caption": "Apple, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — App Store downloads top 10 million in first weekend (July 10, 2008)",
@@ -135,7 +149,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-3g-released.png",
+          "title": "IPhone 3G",
+          "caption": "JoBot164, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iPhone 3G available July 11, 2008",

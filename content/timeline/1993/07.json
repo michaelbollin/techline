@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "patrick-volkerding-slackware-released",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/patrick-volkerding-slackware-released.jpg",
+          "title": "Patrick Volkerding",
+          "caption": "Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "linux-kernel-announced"
       ],
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/windows-nt-3-1-released.svg",
+          "title": "Windows NT 4.0",
+          "caption": "Original work: Microsoft Corporation Windows 11 logo.svg: Multiple editors; see image description page This work: Jelican9, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Windows NT 3.1 (released July 27, 1993)",

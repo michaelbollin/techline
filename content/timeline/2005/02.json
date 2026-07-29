@@ -30,7 +30,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hudson-ci-released.png",
+          "title": "Hudson (software)",
+          "caption": "The original uploader was Faisal.akeel at English Wikipedia., CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Hudson (software) (initial release February 7, 2005)",
@@ -80,7 +87,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ajax-term-coined.jpg",
+          "title": "Jesse James Garrett",
+          "caption": "Christine Claypoole, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Adaptive Path — Ajax: A New Approach to Web Applications (February 18, 2005)",

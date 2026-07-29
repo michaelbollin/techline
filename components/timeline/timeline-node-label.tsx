@@ -6,13 +6,12 @@ import {
   type LabelLayout,
 } from "@/lib/timeline/label-layout";
 import { TIMELINE_LABEL_EDGE_INSET } from "@/lib/timeline/constants";
-import {
-  LABEL_ICON_GAP,
-  LABEL_ICON_SIZE,
-  LABEL_PADDING_X,
-} from "@/lib/timeline/measure-label";
+import { LABEL_PADDING_X } from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
-import { TimelineLabelContent } from "@/components/timeline/timeline-label-content";
+import {
+  TimelineLabelContent,
+  timelineLabelHoverWidth,
+} from "@/components/timeline/timeline-label-content";
 
 type TimelineNodeLabelProps = {
   event: PlottedEvent;
@@ -39,7 +38,8 @@ export function TimelineNodeLabel({
   onClick,
 }: TimelineNodeLabelProps) {
   const x = xScale(event.timestamp);
-  const labelWidth = layout.width;
+  const showImage = isHovered && Boolean(event.imageUrl);
+  const labelWidth = timelineLabelHoverWidth(layout.width, showImage);
   const labelY = getAxisY(x) + labelTopLocalY(layout.lane);
   const labelLeft = Math.min(
     Math.max(x - labelWidth / 2, TIMELINE_LABEL_EDGE_INSET),
@@ -77,24 +77,20 @@ export function TimelineNodeLabel({
           )}
         />
         <TimelineLabelContent
-          title={event.title}
-          themeId={event.themeId}
+          title={event.bubbleTitle}
           width={labelWidth}
           height={LABEL_BOX_HEIGHT}
           paddingX={LABEL_PADDING_X}
-          iconSize={LABEL_ICON_SIZE}
-          iconGap={LABEL_ICON_GAP}
           textClassName={cn(
             labelTransition,
             "pointer-events-none text-sm font-medium tracking-wide",
             isHovered ? "fill-black" : "fill-white",
           )}
-          iconClassName={cn(
-            labelTransition,
-            isHovered ? "text-black" : "text-white",
-          )}
+          imageUrl={event.imageUrl}
+          showImage={showImage}
+          imageClipId={`label-image-${event.id}`}
         />
-        {isHovered && (
+        {isHovered && !showImage && (
           <line
             x1={LABEL_PADDING_X}
             x2={labelWidth - LABEL_PADDING_X}

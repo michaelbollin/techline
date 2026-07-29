@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bash-1-0-released.gif",
+          "title": "File:Animated GNU Bash Unix Shell Prompt.gif",
+          "caption": "Kxxvii, CC0 1.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "GNU Bash manual — original release June 8, 1989",

@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/pip-released.png",
+          "title": "Pip (package manager)",
+          "caption": "Cedar101, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ian Bicking — pyinstall is dead, long live pip! (October 28, 2008)",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/t-mobile-g1-released.jpeg",
+          "title": "HTC Dream",
+          "caption": "Akela NDE, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Android blog — Android Market and first phone (October 22, 2008)",
@@ -118,7 +132,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bitcoin-whitepaper-published.svg",
+          "title": "Bitcoin",
+          "caption": "Grayliptrot, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Bitcoin.org — Bitcoin whitepaper (October 31, 2008)",

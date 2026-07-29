@@ -5,6 +5,14 @@ export const REUSABLE_LICENSE_PREFIXES = [
   "CC BY-SA",
   "Attribution",
   "PDM",
+  "GPL",
+  "Apache",
+  "BSD",
+  "MIT",
+  "LGPL",
+  "EPL",
+  "EPL-2.0",
+  "Copyrighted free use",
 ];
 
 export const OPENVERSE_LICENSES = ["cc0", "pdm", "by", "by-sa"] as const;

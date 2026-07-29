@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-3-0.jpg",
+          "title": "Clearance Books I bought at Half Price Books",
+          "caption": "brewbooks, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer history (IE 3.0, August 13, 1996)",
@@ -73,7 +80,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-9000-communicator-released.jpg",
+          "title": "Nokia 9000 Communicator",
+          "caption": "textlad, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Nokia 9000 Communicator (August 1996)",
@@ -122,7 +136,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/amaya-browser-released.png",
+          "title": "Amaya (web editor)",
+          "caption": "W3C and Inria, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — Amaya project history",

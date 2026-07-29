@@ -22,9 +22,10 @@
       "importance": 3,
       "media": [
         {
-          "type": "link",
-          "url": "https://rubyonrails.org/2005/12/13/rails-1-0-party-like-its-one-oh-oh",
-          "title": "Rails 1.0 announcement"
+          "type": "image",
+          "url": "/media/timeline/rails-1-0-released.svg",
+          "title": "Ruby on Rails",
+          "caption": "Jamie Dihiansan http://weblog.rubyonrails.org/2016/1/19/new-rails-identity/2, CC0, via Wikimedia Commons"
         }
       ],
       "sources": [

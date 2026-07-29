@@ -23,7 +23,14 @@
         "8-bit"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/amiga-1000-released.jpg",
+          "title": "Amiga 1000",
+          "caption": "Original photo by Kaiiv (de.wikipedia), Editing by Pixel8, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Amiga 1000 (released July 1985)",

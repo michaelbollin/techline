@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sarbanes-oxley-enacted.svg",
+          "title": "Sarbanes–Oxley Act",
+          "caption": "U.S. Government, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Congress.gov — Sarbanes-Oxley Act of 2002 (signed July 30, 2002)",
@@ -67,7 +74,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/worldcom-bankruptcy.svg",
+          "title": "MCI Inc.",
+          "caption": "MCI Communications, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "SEC — WorldCom bankruptcy and fraud charges (July 2002)",

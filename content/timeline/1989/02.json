@@ -34,7 +34,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpl-version-1-released.svg",
+          "title": "GNU General Public License",
+          "caption": "Free Software Foundation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GNU — GPL version 1 (February 1989)",

@@ -30,7 +30,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/telnet-standardized.jpg",
+          "title": "Telnet",
+          "caption": "Jason Scott, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 854 — Telnet Protocol Specification (May 1983)",

@@ -33,7 +33,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/steve-jobs-returns-to-apple.jpg",
+          "title": "Steve Jobs",
+          "caption": "Matthew Yohe, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Apple buys NeXT, Jobs returns (December 1997 context; advisor role July 1997)",

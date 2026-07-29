@@ -32,7 +32,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netscape-browser-discontinued.svg",
+          "title": "Netscape (web browser)",
+          "caption": "Netscape Corporation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AOL — Netscape browser support ends (March 1, 2008)",
@@ -75,7 +82,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/magento-1-0-released.svg",
+          "title": "Magento",
+          "caption": "© 2019 Magento., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Magento (first release March 31, 2008)",
@@ -125,9 +139,10 @@
       "importance": 6,
       "media": [
         {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=8pdkEJ0nFBg",
-          "title": "Steve Ballmer — Web developers chant (MIX08)"
+          "type": "image",
+          "url": "/media/timeline/ballmer-web-developers-chant.jpg",
+          "title": "Steve Ballmer",
+          "caption": "Steve_ballmer_2007_outdoors2.jpg: Martin Olsson (username 'mnemo' on en/sv wikipedia and commons, martin@minimum.se). derivative work: Off2riorob (talk), CC BY-SA 3.0, via Wikimedia Commons"
         }
       ],
       "sources": [

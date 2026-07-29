@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-as400-released.jpg",
+          "title": "IBM AS/400",
+          "caption": "Arnaud 25, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — AS/400 announcement (June 21, 1988)",

@@ -34,7 +34,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ant-released.svg",
+          "title": "Apache Ant",
+          "caption": "The Apache Ant Project Team, designed by Nick King, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apache Ant — Release 1.1 (July 19, 2000)",

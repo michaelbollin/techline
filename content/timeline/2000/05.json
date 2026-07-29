@@ -23,7 +23,14 @@
         "standard"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/soap-1-1-published.svg",
+          "title": "SOAP",
+          "caption": "Silver Spoon, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — Simple Object Access Protocol (SOAP) 1.1 Note (May 8, 2000)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iloveyou-virus.png",
+          "title": "ILOVEYOU",
+          "caption": "Mario23, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BBC — ILOVEYOU virus overwhelms computers (May 4, 2000)",

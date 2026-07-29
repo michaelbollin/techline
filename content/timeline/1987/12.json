@@ -22,7 +22,14 @@
       ],
       "people": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/perl-1-0-released.svg",
+          "title": "Perl",
+          "caption": "Created for us by Zach Roszczewski and commissioned by Neil Bowers., CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "perlhist — Perl 1.000 released 1987-Dec-18",
@@ -41,7 +48,14 @@
     },
     {
       "slug": "larry-wall-perl-1-released",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/larry-wall-perl-1-released.jpg",
+          "title": "Larry Wall",
+          "caption": "Randal Schwartz from Portland, OR, USA, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "perl-5-0-released",
         "perl-6-christmas-released"

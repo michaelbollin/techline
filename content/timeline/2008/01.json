@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-macbook-air-released.jpg",
+          "title": "MacBook Air",
+          "caption": "User:KKPCW, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — MacBook Air introduced (January 29, 2008)",
@@ -72,7 +79,14 @@
         "open-source"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/joomla-1-5-released.png",
+          "title": "Joomla",
+          "caption": "Franz.wohlkoenig, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Joomla Documentation — Joomla 1.5 (January 22, 2008)",
@@ -113,7 +127,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sublime-text-1-released.png",
+          "title": "Sublime Text",
+          "caption": "Jikeybear, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Sublime Text Blog — 1.0 release (January 18, 2008)",

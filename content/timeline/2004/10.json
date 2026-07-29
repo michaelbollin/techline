@@ -29,7 +29,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nginx-released.svg",
+          "title": "Nginx",
+          "caption": "Igor Sysoev, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "nginx/nginx — nginx-0.1.0-RELEASE import (October 4, 2004)",

@@ -35,7 +35,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/werner-vogels-amazon-cto.jpg",
+          "title": "Werner Vogels",
+          "caption": "Raysonho @ Open Grid Scheduler / Grid Engine, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Amazon — Werner Vogels appointed CTO (January 2005)",

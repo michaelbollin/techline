@@ -21,7 +21,14 @@
         "scientific-computing"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fortran-95-standard.svg",
+          "title": "Fortran",
+          "caption": "Fortran-lang community, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO/IEC 1539-1:1997 — Fortran Part 1 (published December 1997)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/macromedia-dreamweaver-released.svg",
+          "title": "Adobe Dreamweaver",
+          "caption": "™/®Adobe Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MacTech — Macromedia ships Dreamweaver (December 8, 1997)",

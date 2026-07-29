@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/microsoft-access-1-0-released.svg",
+          "title": "Microsoft Access",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Microsoft Access (version 1.0, November 16, 1992)",

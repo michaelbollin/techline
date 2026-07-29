@@ -22,7 +22,14 @@
         "web"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/squarespace-launched.jpg",
+          "title": "Squarespace",
+          "caption": "Ajay Suresh from New York, NY, USA, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Squarespace (launched January 2004)",
@@ -75,7 +82,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/scala-first-release.svg",
+          "title": "Scala (programming language)",
+          "caption": "Lightbend, Inc., CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Scala (first released January 20, 2004)",

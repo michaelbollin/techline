@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/memcached-released.jpg",
+          "title": "Brad Fitzpatrick",
+          "caption": "Brad Fitzpatrick, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "LiveJournal changelog — memcached.pl committed (May 22, 2003)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wordpress-released.png",
+          "title": "WordPress",
+          "caption": "WordPress Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "WordPress News — WordPress Now Available (May 27, 2003)",
@@ -126,7 +140,14 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css-zen-garden-launched.jpg",
+          "title": "CSS Zen Garden",
+          "caption": "Carlos Varela, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "CSS Zen Garden — About (launched May 2003)",

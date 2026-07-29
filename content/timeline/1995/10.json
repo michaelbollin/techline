@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "theo-de-raadt-openbsd-forked",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/theo-de-raadt-openbsd-forked.jpg",
+          "title": "Theo de Raadt",
+          "caption": "FAndrey, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/prestashop-released.svg",
+          "title": "PrestaShop",
+          "caption": "PrestaShop SA, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PrestaShop Help Center — PrestaShop 1.0 (August 2007)",

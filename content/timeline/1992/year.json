@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "lynx-browser-created",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lynx-browser-created.png",
+          "title": "Lynx (web browser)",
+          "caption": "Screenshot created by User:Aoidh. For attribution of the Lynx software, see https://lynx.invisible-island.net and for the attribution of the Wikipedia article, see the page history of https://en.wikipedia.org/wiki/Wolf, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "worldwideweb-browser",
         "lynx-2-released"

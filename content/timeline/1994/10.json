@@ -35,7 +35,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/http-cookies-introduced.svg",
+          "title": "HTTP cookie",
+          "caption": "IETF HTTP Working Group (HTTPbis), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — HTTP cookie (introduced 1994)",
@@ -88,7 +95,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tim-berners-lee-w3c-founded.svg",
+          "title": "World Wide Web Consortium",
+          "caption": "World Wide Web Consortium, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — Consortium founded (October 1, 1994)",
@@ -140,7 +154,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/haakon-lie-css-proposed.jpg",
+          "title": "Håkon Wium Lie",
+          "caption": "Kmosman, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C www-talk — Cascading HTML style sheets proposal (October 10, 1994)",
@@ -181,7 +202,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/perl-5-0-released.svg",
+          "title": "Perl",
+          "caption": "Created for us by Zach Roszczewski and commissioned by Neil Bowers., CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PerlMonks — Perl 5.000 announcement (October 17, 1994)",
