@@ -1,0 +1,65 @@
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { describe, expect, it, vi } from "vitest";
+
+import { axisYAt } from "@/lib/timeline/axis-path";
+import { makePlottedEvent } from "@/test/fixtures/plotted-event";
+import { TimelineNodeDot } from "./timeline-node-dot";
+
+describe("TimelineNodeDot", () => {
+  const event = makePlottedEvent({ title: "Ada Lovelace", dateLabel: "1843" });
+  const xScale = () => 200;
+  const getAxisY = (x: number) => axisYAt(x, 320);
+
+  it("exposes accessible label and handles interaction", async () => {
+    const user = userEvent.setup();
+    const onHover = vi.fn();
+    const onClick = vi.fn();
+
+    render(
+      <svg>
+        <TimelineNodeDot
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          showLabel={false}
+          isHovered={false}
+          onHover={onHover}
+          onClick={onClick}
+        />
+      </svg>,
+    );
+
+    const button = screen.getByRole("button", { name: "Ada Lovelace, 1843" });
+    await user.click(button);
+    await user.hover(button);
+
+    expect(onClick).toHaveBeenCalledTimes(1);
+    expect(onHover).toHaveBeenCalledWith(event);
+  });
+
+  it("clears hover on mouse leave", async () => {
+    const user = userEvent.setup();
+    const onHover = vi.fn();
+
+    render(
+      <svg>
+        <TimelineNodeDot
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          showLabel
+          isHovered={false}
+          onHover={onHover}
+          onClick={() => {}}
+        />
+      </svg>,
+    );
+
+    const button = screen.getByRole("button", { name: "Ada Lovelace, 1843" });
+    await user.hover(button);
+    await user.unhover(button);
+
+    expect(onHover).toHaveBeenLastCalledWith(null);
+  });
+});

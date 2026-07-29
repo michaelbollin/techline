@@ -20,6 +20,34 @@ describe("maxLanesForZoom", () => {
       maxLanesForZoom(MS_PER_DAY * 20, MS_PER_YEAR * 20),
     );
   });
+
+  it("returns expected lane budgets across zoom levels", () => {
+    expect(maxLanesForZoom(MS_PER_DAY, MS_PER_YEAR * 0.1)).toBe(6);
+    expect(maxLanesForZoom(MS_PER_DAY, MS_PER_YEAR * 0.3)).toBe(5);
+    expect(maxLanesForZoom(MS_PER_DAY, MS_PER_YEAR * 0.8)).toBe(4);
+    expect(maxLanesForZoom(MS_PER_DAY, MS_PER_YEAR * 2)).toBe(4);
+    expect(maxLanesForZoom(MS_PER_DAY, MS_PER_YEAR * 5)).toBe(3);
+    expect(maxLanesForZoom(MS_PER_DAY * 20, MS_PER_YEAR * 20)).toBe(2);
+  });
+});
+
+describe("maxImportanceForZoom span caps", () => {
+  it("caps importance when viewing multi-year spans", () => {
+    expect(maxImportanceForZoom(MS_PER_DAY / 100, MS_PER_YEAR * 10)).toBeLessThanOrEqual(1);
+    expect(maxImportanceForZoom(MS_PER_DAY / 100, MS_PER_YEAR * 5)).toBeLessThanOrEqual(3);
+    expect(maxImportanceForZoom(MS_PER_DAY / 100, MS_PER_YEAR * 2)).toBeLessThanOrEqual(6);
+  });
+
+  it("walks through intermediate ms-per-pixel tiers", () => {
+    expect(maxImportanceForZoom(MS_PER_DAY * 30, MS_PER_YEAR)).toBe(1);
+    expect(maxImportanceForZoom(MS_PER_DAY * 10, MS_PER_YEAR)).toBe(2);
+    expect(maxImportanceForZoom(MS_PER_DAY * 5, MS_PER_YEAR)).toBe(3);
+    expect(maxImportanceForZoom(MS_PER_DAY * 3, MS_PER_YEAR)).toBe(4);
+    expect(maxImportanceForZoom(MS_PER_DAY * 1.5, MS_PER_YEAR)).toBe(5);
+    expect(maxImportanceForZoom(MS_PER_DAY * 0.8, MS_PER_YEAR)).toBe(6);
+    expect(maxImportanceForZoom(MS_PER_DAY / 8, MS_PER_YEAR)).toBe(7);
+    expect(maxImportanceForZoom(MS_PER_DAY / 24, MS_PER_YEAR)).toBe(8);
+  });
 });
 
 describe("maxLanesForViewport", () => {
