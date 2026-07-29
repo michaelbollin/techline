@@ -30,7 +30,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/websocket-protocol-standardized.svg",
+          "title": "WebSocket",
+          "caption": "Unknown authorUnknown author, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 6455 — The WebSocket Protocol (December 2011)",

@@ -20,7 +20,14 @@
         "web-framework"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/laravel-8-released.svg",
+          "title": "Laravel",
+          "caption": "Laravel, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Laravel News — Laravel 8 released (September 8, 2020)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-z-fold-2-released.png",
+          "title": "Samsung Galaxy Z Fold 2",
+          "caption": "Louis PL, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Z Fold 2 released — launch",
@@ -111,7 +125,14 @@
         "web-framework"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/vue-3-released.svg",
+          "title": "Vue.js",
+          "caption": "Evan You, https://github.com/yyx990803, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Vue.js — Vue 3.0 One Piece (September 18, 2020)",

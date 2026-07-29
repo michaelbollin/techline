@@ -22,7 +22,14 @@
         "retail"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bigcommerce-ipo.jpg",
+          "title": "Switching webpage to #Neto from the greedy disaster that is #bigcommerce as soon as possible! www.neto.com.au",
+          "caption": "Uncarved Block Climbing Holds, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "BigCommerce — IPO pricing announcement (August 4, 2020)",
@@ -71,7 +78,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-20-released.png",
+          "title": "Samsung Galaxy Note 20",
+          "caption": "Marcusph, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note 20 released — launch",

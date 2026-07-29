@@ -23,7 +23,14 @@
         "open-source"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/strapi-open-sourced.png",
+          "title": "Strapi",
+          "caption": "Princess0fC0d3, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Strapi Handbook — Strapi Story (October 2015 GitHub publication)",

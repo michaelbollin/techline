@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css-custom-properties-shipped.svg",
+          "title": "Cascading Style Sheets",
+          "caption": "daPhyre (File:CSS3 and HTML5 logos and wordmarks.svg) Elfi (File:CSS3 logo and wordmark.svg) ExE Boss, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Chrome Developers — CSS Variables in Chrome 49 (March 2, 2016)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s7-released.png",
+          "title": "Samsung Galaxy S7",
+          "caption": "GadgetsGuy (collage by GalaxyOptimus), CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S7 released — launch",
@@ -133,7 +147,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/demis-hassabis-alphago-victory.jpg",
+          "title": "Demis Hassabis",
+          "caption": "John Sears, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — AlphaGo versus Lee Sedol (March 9–15, 2016)",
@@ -179,7 +200,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-se-released.png",
+          "title": "IPhone SE (1st generation)",
+          "caption": "Micaman45., CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone SE (1st gen) released — launch",

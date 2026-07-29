@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-6-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 6 (November 8, 2021)",
@@ -75,7 +82,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/csharp-10-released.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 6 (November 8, 2021)",
@@ -118,7 +132,14 @@
       "people": [],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ghc-9-2-released.svg",
+          "title": "Glasgow Haskell Compiler",
+          "caption": "Darrin A Thompson; Jeffrey Wheeler, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Haskell.org — GHC 9.2.1 released (November 6, 2021)",
@@ -160,7 +181,14 @@
         "open-source"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/directus-9-released.svg",
+          "title": "GraphQL",
+          "caption": "Facebook, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Directus — Directus 9 GA announcement (November 30, 2021)",

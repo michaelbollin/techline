@@ -21,7 +21,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ruby-2-0-released.svg",
+          "title": "Ruby (programming language)",
+          "caption": "Yukihiro Matsumoto, Ruby Visual Identity Team, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ruby-lang.org — Ruby 2.0.0 released (February 24, 2013)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/microsoft-surface-pro-released.png",
+          "title": "Surface Pro",
+          "caption": "AnVuong1222004, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Surface Pro available February 9, 2013",

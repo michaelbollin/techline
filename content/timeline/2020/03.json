@@ -30,7 +30,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s20-released.png",
+          "title": "Samsung Galaxy S20",
+          "caption": "GadgetsGuy, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S20 released — launch",
@@ -76,7 +83,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/solana-mainnet-launched.svg",
+          "title": "Solana (blockchain platform)",
+          "caption": "Clearus, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CoinTelegraph — Solana mainnet beta launches (March 16, 2020)",
@@ -118,7 +132,14 @@
       "people": [],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/covid-19-pandemic-declared.jpg",
+          "title": "COVID-19 pandemic",
+          "caption": "Gustavo Basso, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "WHO — WHO Director-General's opening remarks (March 11, 2020)",

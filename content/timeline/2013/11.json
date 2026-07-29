@@ -30,7 +30,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/postcss-released.svg",
+          "title": "PostCSS",
+          "caption": "Alexander Kurganov, Roman Shamin, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "npm — postcss 0.1.0 published (November 4, 2013)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wix-ipo.svg",
+          "title": "Wix.com",
+          "caption": "Wix.com, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NASDAQ — Wix begins trading November 6, 2013",
@@ -124,7 +138,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-lumia-1520-released.png",
+          "title": "Nokia Lumia 1520",
+          "caption": "AnVuong1222004 (2), CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia Lumia 1520 released — launch",
@@ -175,7 +196,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ethereum-whitepaper-published.svg",
+          "title": "Ethereum",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ethereum.org — Ethereum whitepaper (published November 27, 2013)",

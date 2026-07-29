@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dart-3-released.svg",
+          "title": "Dart (programming language)",
+          "caption": "Google, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Dart Blog — Announcing Dart 3 (May 10, 2023)",
@@ -69,7 +76,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/erlang-otp-26-released.svg",
+          "title": "Erlang (programming language)",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Erlang.org — OTP 26.0 released (May 19, 2023)",
@@ -122,7 +136,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/geoffrey-hinton-google-departure.jpg",
+          "title": "Geoffrey Hinton",
+          "caption": "Cmichel67, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "The New York Times — Geoffrey Hinton leaves Google (May 1, 2023)",
@@ -170,9 +191,10 @@
       "importance": 3,
       "media": [
         {
-          "type": "youtube",
-          "url": "https://www.youtube.com/watch?v=fP5YdyjTfG0",
-          "title": "Sam Altman Senate testimony on AI oversight (May 16, 2023)"
+          "type": "image",
+          "url": "/media/timeline/altman-ai-goes-wrong.jpg",
+          "title": "Sam Altman",
+          "caption": "首相官邸ホームページ, CC BY 4.0, via Wikimedia Commons"
         }
       ],
       "sources": [

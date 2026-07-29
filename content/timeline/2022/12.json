@@ -21,7 +21,14 @@
         "web-framework"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sveltekit-1-released.svg",
+          "title": "Svelte",
+          "caption": "Rich Harris, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Svelte Blog — Announcing SvelteKit 1.0 (December 14, 2022)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/drupal-10-released.png",
+          "title": "Drupal",
+          "caption": "Unknown authorUnknown author, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Drupal.org — Drupal 10.0.0 released (December 15, 2022)",

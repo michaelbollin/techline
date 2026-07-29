@@ -33,7 +33,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kotlin-android-official.svg",
+          "title": "Kotlin (programming language)",
+          "caption": "JetBrains, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google I/O 2017 — Kotlin on Android announcement (May 17, 2017)",
@@ -77,7 +84,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-8-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v8.0.0 (May 30, 2017)",
@@ -125,7 +139,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wannacry-ransomware.svg",
+          "title": "WannaCry ransomware attack",
+          "caption": "This SVG version is by TheAwesomeHwyh, original PNG version by User:Roke, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Customer guidance for WannaCrypt attacks (May 12, 2017)",

@@ -27,7 +27,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-10-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 10 (November 11, 2025)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-5-1-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — GPT-5.1: A smarter, more conversational ChatGPT (November 12, 2025)",
@@ -125,7 +139,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-gemini-3-pro-released.svg",
+          "title": "Gemini (language model)",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google — Gemini 3: Introducing the latest Gemini AI model (November 18, 2025)",
@@ -174,7 +195,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-antigravity-released.svg",
+          "title": "Google",
+          "caption": "Google LLC, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Developers Blog — Build with Google Antigravity (November 20, 2025)",
@@ -223,7 +251,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-opus-4-5-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Opus 4.5 (November 24, 2025)",

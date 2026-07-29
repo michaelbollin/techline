@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mariadb-released.png",
+          "title": "MariaDB",
+          "caption": "Software: MariaDB developersScreenshot: VulcanSphere, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — MariaDB (first release October 29, 2009)",

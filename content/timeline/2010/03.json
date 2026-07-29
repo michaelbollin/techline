@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/vagrant-released.png",
+          "title": "Vagrant (software)",
+          "caption": "Fco.plj, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "hashicorp/vagrant — Version 0.1.0 release (March 7, 2010)",

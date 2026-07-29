@@ -28,7 +28,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/react-open-sourced.svg",
+          "title": "React (software)",
+          "caption": "Meta Platforms, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Meta Engineering — React launched at JSConf (May 2013)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/android-studio-announced.svg",
+          "title": "Android Studio",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "The Verge — Google announces Android Studio (May 15, 2013)",

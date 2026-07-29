@@ -28,7 +28,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/pytorch-released.svg",
+          "title": "PyTorch",
+          "caption": "PyTorch, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PyTorch Blog — Accelerating research with PyTorch beta (January 18, 2017)",

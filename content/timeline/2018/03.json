@@ -22,7 +22,14 @@
         "microservices"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/spring-boot-2-0-released.svg",
+          "title": "Spring Boot",
+          "caption": "Pivotal Software, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Spring Blog — Spring Boot 2.0 Goes GA (March 1, 2018)",
@@ -71,7 +78,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s9-released.png",
+          "title": "Samsung Galaxy S9",
+          "caption": "GadgetsGuy (collage by GalaxyOptimus), CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S9 released — launch",
@@ -122,7 +136,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cambridge-analytica-scandal.svg",
+          "title": "Facebook–Cambridge Analytica data scandal",
+          "caption": "Original file: FallingGravity, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Facebook Newsroom — Suspending Cambridge Analytica and SCL Group (March 16–17, 2018)",

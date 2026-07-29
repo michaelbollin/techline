@@ -65,12 +65,42 @@ export function resolveVerticalLabelLayout(
     const top = centerY - MOBILE_LABEL_BOX_HEIGHT / 2;
     const bottom = centerY + MOBILE_LABEL_BOX_HEIGHT / 2;
 
-    if (event.importance > maxImportance) {
+    const tryPlace = (): boolean => {
+      for (let lane = 0; lane < maxLanes; lane++) {
+        const left = axisX + labelLeftLocalX(lane);
+        const right = left + labelWidth;
+
+        if (right > viewportWidth - MOBILE_TIMELINE_EDGE_MARGIN) {
+          continue;
+        }
+
+        if (overlapsVerticallyInLane(placed, lane, top, bottom, minGapPx)) {
+          continue;
+        }
+
+        placed.push({ lane, top, bottom });
+        placements.set(event.id, { showLabel: true, lane, width: labelWidth });
+        return true;
+      }
+
       placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
+      return false;
+    };
+
+    if (event.importance <= maxImportance) {
+      tryPlace();
+    }
+  }
+
+  for (const event of sorted) {
+    if (event.importance <= maxImportance || placements.get(event.id)?.showLabel) {
       continue;
     }
 
-    let placedLabel = false;
+    const centerY = y(event.timestamp);
+    const labelWidth = labelWidthFor(event);
+    const top = centerY - MOBILE_LABEL_BOX_HEIGHT / 2;
+    const bottom = centerY + MOBILE_LABEL_BOX_HEIGHT / 2;
 
     for (let lane = 0; lane < maxLanes; lane++) {
       const left = axisX + labelLeftLocalX(lane);
@@ -86,12 +116,21 @@ export function resolveVerticalLabelLayout(
 
       placed.push({ lane, top, bottom });
       placements.set(event.id, { showLabel: true, lane, width: labelWidth });
-      placedLabel = true;
       break;
     }
 
-    if (!placedLabel) {
+    if (!placements.has(event.id)) {
       placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
+    }
+  }
+
+  for (const event of sorted) {
+    if (!placements.has(event.id)) {
+      placements.set(event.id, {
+        showLabel: false,
+        lane: 0,
+        width: labelWidthFor(event),
+      });
     }
   }
 

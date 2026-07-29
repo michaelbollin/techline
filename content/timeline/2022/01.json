@@ -22,7 +22,14 @@
         "discontinued"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-os-eol.png",
+          "title": "BlackBerry",
+          "caption": "RIM, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BlackBerry — End of Life for BlackBerry OS and BlackBerry 10 (January 4, 2022)",

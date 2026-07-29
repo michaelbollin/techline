@@ -30,7 +30,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s8-released.png",
+          "title": "Samsung Galaxy S8",
+          "caption": "DoerNoc, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S8 released — launch",

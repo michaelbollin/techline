@@ -29,7 +29,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-core-1-0-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET Core 1.0 (June 27, 2016)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/language-server-protocol-announced.svg",
+          "title": "Visual Studio Code",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Red Hat — Language Server Protocol announcement (June 27, 2016)",
@@ -125,7 +139,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/asp-net-core-1-0-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": ".NET Blog — Announcing ASP.NET Core 1.0 (June 27, 2016)",
@@ -165,7 +186,14 @@
         "web"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jquery-3-0-released.svg",
+          "title": "jQuery",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "jQuery Blog — jQuery 3.0 Final Released (June 9, 2016)",
@@ -208,7 +236,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/the-dao-hacked.svg",
+          "title": "The DAO (organization)",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — The DAO (organization) (hack June 17, 2016)",
@@ -251,7 +286,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/brexit-referendum.svg",
+          "title": "2016 United Kingdom European Union membership referendum",
+          "caption": "Dgp4004, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "UK Electoral Commission — EU referendum results (June 23, 2016)",

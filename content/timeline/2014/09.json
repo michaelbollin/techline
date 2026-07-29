@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elixir-1-0-released.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Elixir Blog — Announcing Elixir 1.0 (September 18, 2014)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-6-plus-released.svg",
+          "title": "IPhone 6",
+          "caption": "https://icon-park.com/author/kos/, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 6 Plus released — launch",
@@ -121,7 +135,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-6-released.svg",
+          "title": "IPhone 6",
+          "caption": "https://icon-park.com/author/kos/, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 6 released — launch",
@@ -166,7 +187,14 @@
         "open-source"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/babel-released.svg",
+          "title": "Babel (transcompiler)",
+          "caption": "Henry Zhu, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "babel/babel — first commit as 6to5 (September 28, 2014)",

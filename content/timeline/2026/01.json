@@ -31,7 +31,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kimi-k2-5-released.svg",
+          "title": "Moonshot AI",
+          "caption": "Zeng Liansong, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Moonshot AI — Kimi K2.5 model on Hugging Face (January 2026)",

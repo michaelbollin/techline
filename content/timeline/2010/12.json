@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chromebook-cr-48-pilot.jpg",
+          "title": "Chromebook",
+          "caption": "Pmsyyz, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Blog — Chrome OS pilot program (December 2010)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nexus-s-released.png",
+          "title": "Nexus S",
+          "caption": "Nexus_S.jpg: Luckyz derivative work: Beao, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nexus S released — launch",

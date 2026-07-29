@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/astro-released.svg",
+          "title": "Vite (software)",
+          "caption": "Evan You, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Astro Blog — Introducing Astro (June 8, 2021)",

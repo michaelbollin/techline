@@ -34,7 +34,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ryan-dahl-deno-announced.jpg",
+          "title": "Ryan Dahl",
+          "caption": "David Calhoun, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JSConf EU — Ryan Dahl: Deno (May 30, 2018)",
@@ -83,7 +90,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/adobe-acquires-magento.jpg",
+          "title": "Adobe Inc.",
+          "caption": "Coolcaesar, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Adobe News — Adobe to acquire Magento Commerce (May 21, 2018)",
@@ -126,7 +140,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gdpr-effective.svg",
+          "title": "General Data Protection Regulation",
+          "caption": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "EUR-Lex — Regulation (EU) 2016/679 (GDPR, applicable May 25, 2018)",

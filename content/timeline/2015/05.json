@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rust-1-0-released.svg",
+          "title": "Rust (programming language)",
+          "caption": "™/®Rust Foundation, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Rust Blog — Announcing Rust 1.0 (May 15, 2015)",
@@ -64,7 +71,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cargo-released.svg",
+          "title": "Rust (programming language)",
+          "caption": "™/®Rust Foundation, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Rust Blog — Announcing Rust 1.0 (Cargo 1.0, May 15, 2015)",
@@ -113,7 +127,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/http-2-standardized.svg",
+          "title": "S&P500, 7p5, 4p0, 2018 December",
+          "caption": "Richardhy, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 7540 — HTTP/2 (May 14, 2015)",
@@ -163,7 +184,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jwt-standardized.svg",
+          "title": "JSON Web Token",
+          "caption": "Douglas Crockford, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 7519 — JSON Web Token (JWT) (May 2015)",
@@ -208,7 +236,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rollup-released.svg",
+          "title": "Rollup (software)",
+          "caption": "CoreUI, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "rollup/rollup — 0.3.0 release commit (May 21, 2015)",
@@ -255,7 +290,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopify-ipo.svg",
+          "title": "Shopify",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Shopify News — Shopify files for IPO (May 21, 2015)",
@@ -297,7 +339,14 @@
         "open-source"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gatsby-open-sourced.jpg",
+          "title": "Gatsby (software)",
+          "caption": "Photographer: Aline Sagrabelny, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub — gatsbyjs/gatsby initial commit (May 21, 2015)",
@@ -340,7 +389,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/discord-launched.svg",
+          "title": "Discord",
+          "caption": "™/®Discord Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Discord — Our story (launched May 13, 2015)",

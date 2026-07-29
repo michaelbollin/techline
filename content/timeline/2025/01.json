@@ -23,7 +23,14 @@
         "machine-learning"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/deepseek-r1-released.svg",
+          "title": "DeepSeek",
+          "caption": "DeepSeek, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "DeepSeek — DeepSeek-R1 release (January 20, 2025)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tailwind-css-4-released.svg",
+          "title": "Tailwind CSS",
+          "caption": "Tailwind CSS, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Tailwind CSS Blog — Tailwind CSS v4.0 (January 22, 2025)",
@@ -121,7 +135,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openai-o3-mini-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — OpenAI o3-mini (January 31, 2025)",

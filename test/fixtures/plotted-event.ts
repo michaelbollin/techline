@@ -14,6 +14,7 @@ export function makePlottedEvent(overrides: Partial<PlottedEvent> = {}): Plotted
     timestamp: Date.parse("2000-01-15T12:00:00Z"),
     dateLabel: "January 15, 2000",
     imageUrl: null,
+    imageCaption: null,
     ...overrides,
   };
 }

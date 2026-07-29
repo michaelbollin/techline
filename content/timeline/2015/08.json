@@ -33,7 +33,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sundar-pichai-google-ceo.jpg",
+          "title": "Sundar Pichai",
+          "caption": "Photographer: Lukasz Kobus (European Commission), CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google — Sundar Pichai CEO (August 10, 2015)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-5-released.png",
+          "title": "Samsung Galaxy Note 5",
+          "caption": "GadgetsGuy, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note 5 released — launch",
@@ -126,7 +140,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phoenix-1-0-released.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Phoenix Framework — v1.0.0 release (August 28, 2015)",
@@ -168,7 +189,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ashley-madison-data-breach.jpg",
+          "title": "Ashley Madison data breach",
+          "caption": "DVSROSS, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Krebs on Security — Ashley Madison hackers release stolen data (August 18, 2015)",

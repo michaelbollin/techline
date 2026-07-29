@@ -5,7 +5,7 @@ import { describe, expect, it, vi } from "vitest";
 
 import { axisYAt } from "@/lib/timeline/axis-path";
 import { TIMELINE_EXTENT } from "@/lib/timeline/constants";
-import { makeBaseScale, computeFitTransform } from "@/lib/timeline/zoom";
+import { computeFitTransform, computeZoomToDecade, computeZoomToYear, makeBaseScale } from "@/lib/timeline/zoom";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 
 describe("TimelineAxisGrid", () => {
@@ -23,6 +23,7 @@ describe("TimelineAxisGrid", () => {
           width={width}
           getAxisY={getAxisY}
           onYearClick={() => {}}
+          onDecadeClick={() => {}}
         />
       </svg>,
     );
@@ -45,16 +46,41 @@ describe("TimelineAxisGrid", () => {
           width={width}
           getAxisY={getAxisY}
           onYearClick={onYearClick}
+          onDecadeClick={() => {}}
         />
       </svg>,
     );
 
-    const hitTarget = container.querySelector("rect.cursor-pointer");
+    const hitTarget = container.querySelector("rect.peer.cursor-pointer");
     expect(hitTarget).toBeTruthy();
     await user.click(hitTarget!);
 
     expect(onYearClick).toHaveBeenCalledOnce();
     expect(onYearClick.mock.calls[0]?.[0]).toBeGreaterThanOrEqual(1998);
     expect(onYearClick.mock.calls[0]?.[0]).toBeLessThanOrEqual(2002);
+  });
+
+  it("calls onDecadeClick for decade bands when zoomed out", async () => {
+    const user = userEvent.setup();
+    const onDecadeClick = vi.fn();
+
+    const { container } = render(
+      <svg width={width} height={400}>
+        <TimelineAxisGrid
+          xScale={xScale}
+          width={width}
+          getAxisY={getAxisY}
+          onYearClick={() => {}}
+          onDecadeClick={onDecadeClick}
+        />
+      </svg>,
+    );
+
+    const decadeBand = container.querySelector("path.timeline-decade-band");
+    expect(decadeBand).toBeTruthy();
+    await user.click(decadeBand!);
+
+    expect(onDecadeClick).toHaveBeenCalledOnce();
+    expect(onDecadeClick.mock.calls[0]?.[0] % 10).toBe(0);
   });
 });

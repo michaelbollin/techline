@@ -84,7 +84,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/b-language-created.jpg",
+          "title": "Ken Thompson",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ritchie — The Development of the C Language (B created 1969–70)",

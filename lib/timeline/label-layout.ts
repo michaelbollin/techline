@@ -76,7 +76,7 @@ export function resolveLabelLayout(
     return a.timestamp - b.timestamp;
   });
 
-  for (const event of sorted) {
+  const tryPlace = (event: PlottedEvent): boolean => {
     const centerX = x(event.timestamp);
     const labelWidth = labelWidthFor(event);
     const left = centerX - labelWidth / 2;
@@ -84,15 +84,8 @@ export function resolveLabelLayout(
 
     if (left < TIMELINE_EDGE_MARGIN || right > viewportWidth - TIMELINE_EDGE_MARGIN) {
       placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
-      continue;
+      return false;
     }
-
-    if (event.importance > maxImportance) {
-      placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
-      continue;
-    }
-
-    let placedLabel = false;
 
     for (let lane = 0; lane < maxLanes; lane++) {
       if (overlapsHorizontallyInLane(placed, lane, left, right, minGapPx)) {
@@ -101,11 +94,32 @@ export function resolveLabelLayout(
 
       placed.push({ lane, left, right });
       placements.set(event.id, { showLabel: true, lane, width: labelWidth });
-      placedLabel = true;
-      break;
+      return true;
     }
 
-    if (!placedLabel) {
+    placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
+    return false;
+  };
+
+  for (const event of sorted) {
+    if (event.importance > maxImportance) {
+      continue;
+    }
+
+    tryPlace(event);
+  }
+
+  for (const event of sorted) {
+    if (event.importance <= maxImportance || placements.get(event.id)?.showLabel) {
+      continue;
+    }
+
+    tryPlace(event);
+  }
+
+  for (const event of sorted) {
+    if (!placements.has(event.id)) {
+      const labelWidth = labelWidthFor(event);
       placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
     }
   }

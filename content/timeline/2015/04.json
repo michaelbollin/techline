@@ -23,7 +23,14 @@
         "web"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netlify-launched.svg",
+          "title": "Netlify",
+          "caption": "Netlify, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Netlify (public launch April 7, 2015)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s6-released.png",
+          "title": "Samsung Galaxy S6",
+          "caption": "GadgetsGuy and GalaxyOptimus collage., CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S6 released — launch",
@@ -124,7 +138,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-watch-released.jpg",
+          "title": "Apple Watch",
+          "caption": "KK IN HK, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Apple Watch available April 24, 2015",
@@ -174,7 +195,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/caddy-released.svg",
+          "title": "File:Caddy Logo.svg",
+          "caption": "Matthew Holt, CC BY 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "caddyserver/caddy — v0.5.0 first public release (April 28, 2015)",
@@ -222,7 +250,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/visual-studio-code-preview.svg",
+          "title": "Visual Studio Code",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing Visual Studio Code Preview (April 29, 2015)",

@@ -45,6 +45,19 @@
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 0% 100%;
   }
+
+  .timeline-detail-revealed {
+    border-left: 1px solid #000000;
+  }
+
+  .timeline-decade-band {
+    fill: url(#timeline-decade-band-fill);
+    transition: fill 0.15s ease;
+  }
+
+  .timeline-decade-band:hover {
+    fill: url(#timeline-decade-band-fill-hover);
+  }
 }
 
 @keyframes timeline-detail-reveal {

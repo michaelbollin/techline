@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "deep-learning-turing-trio-2018",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/deep-learning-turing-trio-2018.jpg",
+          "title": "Geoffrey Hinton",
+          "caption": "Cmichel67, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "hinton-alexnet-imagenet-breakthrough",
         "yann-lecun-lenet-published"
@@ -78,7 +85,14 @@
         "saas"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/contentstack-founded.png",
+          "title": "Contentstack",
+          "caption": "Contenful, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TechCrunch — Contentstack founded 2018",
@@ -119,7 +133,14 @@
         "commerce"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/builder-io-founded.svg",
+          "title": "Builder.io",
+          "caption": "Webflow, Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CB Insights — Builder.io company profile (founded 2018)",

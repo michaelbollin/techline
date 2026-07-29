@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-opus-4-6-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Opus 4.6 (February 5, 2026)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-5-3-codex-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-5.3-Codex (February 5, 2026)",

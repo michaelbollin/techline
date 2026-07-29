@@ -1,0 +1,1 @@
+# One event id per line — flagged as having the wrong cover image.

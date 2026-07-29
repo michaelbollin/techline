@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sora-shutdown.svg",
+          "title": "Sora (text-to-video model)",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Sora 2 is here (shutdown notice, April 26, 2026)",

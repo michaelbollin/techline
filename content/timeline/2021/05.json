@@ -28,7 +28,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/scala-3-released.svg",
+          "title": "Scala (programming language)",
+          "caption": "Lightbend, Inc., CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Scala-lang.org — Scala 3.0.0 released (May 4, 2021)",
@@ -71,7 +78,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/erlang-otp-24-released.svg",
+          "title": "Erlang (programming language)",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Erlang.org — OTP 24.0 released (May 12, 2021)",
@@ -111,7 +125,14 @@
         "web"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bootstrap-5-released.svg",
+          "title": "Bootstrap (front-end framework)",
+          "caption": "Bootstrap, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Bootstrap Blog — Bootstrap 5 (May 5, 2021)",
@@ -152,7 +173,14 @@
         "retail"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/squarespace-ipo.jpg",
+          "title": "Squarespace",
+          "caption": "Ajay Suresh from New York, NY, USA, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Squarespace Newsroom — NYSE trading begins May 19, 2021",
@@ -195,7 +223,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/colonial-pipeline-ransomware.jpg",
+          "title": "Colonial Pipeline ransomware attack",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Colonial Pipeline — Statement on system shutdown (May 7, 2021)",

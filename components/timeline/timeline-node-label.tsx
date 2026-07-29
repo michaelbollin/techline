@@ -8,10 +8,7 @@ import {
 import { TIMELINE_LABEL_EDGE_INSET } from "@/lib/timeline/constants";
 import { LABEL_PADDING_X } from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
-import {
-  TimelineLabelContent,
-  timelineLabelHoverWidth,
-} from "@/components/timeline/timeline-label-content";
+import { TimelineLabelContent } from "@/components/timeline/timeline-label-content";
 
 type TimelineNodeLabelProps = {
   event: PlottedEvent;
@@ -38,8 +35,7 @@ export function TimelineNodeLabel({
   onClick,
 }: TimelineNodeLabelProps) {
   const x = xScale(event.timestamp);
-  const showImage = isHovered && Boolean(event.imageUrl);
-  const labelWidth = timelineLabelHoverWidth(layout.width, showImage);
+  const labelWidth = layout.width;
   const labelY = getAxisY(x) + labelTopLocalY(layout.lane);
   const labelLeft = Math.min(
     Math.max(x - labelWidth / 2, TIMELINE_LABEL_EDGE_INSET),
@@ -80,17 +76,13 @@ export function TimelineNodeLabel({
           title={event.bubbleTitle}
           width={labelWidth}
           height={LABEL_BOX_HEIGHT}
-          paddingX={LABEL_PADDING_X}
           textClassName={cn(
             labelTransition,
             "pointer-events-none text-sm font-medium tracking-wide",
             isHovered ? "fill-black" : "fill-white",
           )}
-          imageUrl={event.imageUrl}
-          showImage={showImage}
-          imageClipId={`label-image-${event.id}`}
         />
-        {isHovered && !showImage && (
+        {isHovered && (
           <line
             x1={LABEL_PADDING_X}
             x2={labelWidth - LABEL_PADDING_X}

@@ -33,7 +33,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/angular-2-released.png",
+          "title": "Angular (web framework)",
+          "caption": "Emma Twersky, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Open Source Blog — Angular 2 final release (September 14, 2016)",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-7-released.svg",
+          "title": "IPhone 7",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 7 released — launch",
@@ -132,7 +146,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/safari-10-released.svg",
+          "title": "Safari (web browser)",
+          "caption": "Apple, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — macOS Sierra available today (September 20, 2016)",
@@ -174,7 +195,14 @@
         "open-source"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/netlify-cms-released.svg",
+          "title": "Netlify",
+          "caption": "Netlify, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "npm — netlify-cms first published (September 21, 2016)",

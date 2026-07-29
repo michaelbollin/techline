@@ -30,7 +30,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nexus-6-released.png",
+          "title": "Nexus 6",
+          "caption": "developers.android.com, CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nexus 6 released — launch",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/aws-lambda-launched.svg",
+          "title": "AWS Lambda",
+          "caption": "Original: Amazon.com, Inc. Vector: DraftSaturn15, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AWS — AWS Lambda (announced November 13, 2014)",
@@ -123,7 +137,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sony-pictures-hack.jpg",
+          "title": "2014 Sony Pictures hack",
+          "caption": "Coolcaesar at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FBI — Update on Sony investigation (December 19, 2014)",

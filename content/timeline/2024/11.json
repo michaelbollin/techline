@@ -21,7 +21,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/php-8-4-released.svg",
+          "title": "PHP",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PHP.net — PHP 8.4.0 released (November 21, 2024)",
@@ -65,7 +72,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-9-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 9 (November 12, 2024)",
@@ -112,7 +126,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/csharp-13-released.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 9 (November 12, 2024)",
@@ -160,7 +181,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mcp-announced.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Introducing the Model Context Protocol (November 25, 2024)",

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { EventDetail } from "@/components/timeline/event-detail";
+import { EventModalAsideImage } from "@/components/timeline/event-modal-aside-image";
 import { eventPath, formatEventDate } from "@/lib/timeline/format";
 import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import type { TimelineEvent } from "@/lib/timeline/schema";
@@ -34,6 +35,8 @@ export function EventPageContent({
           </h1>
           <p className="text-base leading-relaxed text-foreground">{event.summary}</p>
         </header>
+
+        <EventModalAsideImage media={event.media} className="mb-8 sm:hidden" />
 
         <EventDetail event={event} variant="modal" />
       </>

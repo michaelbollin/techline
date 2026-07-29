@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/raspberry-pi-2-released.png",
+          "title": "Raspberry Pi Through History (29408544840)",
+          "caption": "Gareth Halfacree from Bradford, UK, CC BY-SA 2.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Raspberry Pi — Pi 2 on sale (February 2, 2015)",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/grpc-open-sourced.svg",
+          "title": "Google Cloud Platform",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Open Source Blog — gRPC open-sourced (February 26, 2015)",
@@ -114,7 +128,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/laravel-5-released.svg",
+          "title": "Laravel",
+          "caption": "Laravel, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Laravel News — Laravel 5.0 released (February 4, 2015)",
@@ -156,7 +177,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fcc-net-neutrality-rules-adopted.svg",
+          "title": "Federal Communications Commission",
+          "caption": "Umasankar Arumugam, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FCC — FCC adopts strong net neutrality rules (February 26, 2015)",

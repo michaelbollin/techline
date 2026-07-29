@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-5-4-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-5.4 (March 5, 2026)",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-17e-released.svg",
+          "title": "IPhone",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Apple introduces iPhone 17e (March 2, 2026)",

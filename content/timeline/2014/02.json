@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/vue-js-released.svg",
+          "title": "Vue.js",
+          "caption": "Evan You, https://github.com/yyx990803, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Vue.js (first public release February 2014)",
@@ -65,7 +72,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openid-connect-1-0-published.svg",
+          "title": "OpenID",
+          "caption": "Randy Reddig (ydnar) [2], Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenID Connect Core 1.0 final specification (February 25, 2014)",
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/satya-nadella-microsoft-ceo.jpg",
+          "title": "Satya Nadella",
+          "caption": "Brian Smale and Microsoft, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Satya Nadella CEO announcement (February 4, 2014)",
@@ -165,7 +186,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopify-plus-launched.svg",
+          "title": "Shopify",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Shopify News — Shopify Plus launched (February 4, 2014)",
@@ -214,7 +242,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/atom-editor-released.svg",
+          "title": "Atom (text editor)",
+          "caption": "GitHub, Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Atom (text editor) (initial release February 26, 2014)",
@@ -262,7 +297,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/slack-launched.svg",
+          "title": "Slack (software)",
+          "caption": "Slack Technologies, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Slack — Slack launches publicly (February 12, 2014)",
@@ -305,7 +347,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/monday-com-launched.png",
+          "title": "File:Monday.com Logo.png",
+          "caption": "monday.com Labs Ltd, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Monday.com (launched 2014)",

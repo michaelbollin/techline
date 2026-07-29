@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fastapi-released.svg",
+          "title": "FastAPI",
+          "caption": "Sebastián Ramírez, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — FastAPI (released December 5, 2018)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/flutter-1-0-released.svg",
+          "title": "Flutter (software)",
+          "caption": "RaddP, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Developers — Flutter 1.0 released (December 4, 2018)",
@@ -114,7 +128,14 @@
         "web"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wordpress-5-0-released.png",
+          "title": "WordPress",
+          "caption": "WordPress Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "WordPress News — WordPress 5.0 Bebo (December 6, 2018)",
@@ -161,7 +182,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/pytorch-1-0-released.svg",
+          "title": "PyTorch",
+          "caption": "PyTorch, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PyTorch Blog — PyTorch 1.0 stable release (December 7, 2018)",

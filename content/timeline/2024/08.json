@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/drupal-11-released.png",
+          "title": "Drupal",
+          "caption": "Unknown authorUnknown author, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Drupal.org — Drupal 11.0.0 released (August 2, 2024)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-pixel-9-released.svg",
+          "title": "Google Pixel",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Pixel 9 released — launch",

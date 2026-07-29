@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/motorola-droid-released.jpg",
+          "title": "Droid (smartphone)",
+          "caption": "23haveblue, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Motorola Droid released — launch",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/go-open-sourced.svg",
+          "title": "Go (programming language)",
+          "caption": "The Go Authors, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Open Source Blog — Hey! Ho! Let's Go! (November 10, 2009)",

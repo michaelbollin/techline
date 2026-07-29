@@ -33,7 +33,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chris-wanstrath-github-ceo-steps-down.jpg",
+          "title": "Chris Wanstrath",
+          "caption": "Idawholou, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CNBC — Wanstrath stepping down as CEO (August 17, 2017)",

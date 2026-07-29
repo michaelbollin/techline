@@ -53,14 +53,9 @@ export const BATCH_11_WIKI_TITLES: Record<string, string> = {
 };
 
 export const BATCH_11_OPENVERSE_QUERIES: Record<string, string> = {
-  "asana-launched": "Asana project management logo",
-  "bigcommerce-launched": "BigCommerce ecommerce logo",
-  "uwsgi-released": "uWSGI python web server",
-  "gunicorn-released": "Gunicorn python web server logo",
-  "express-released": "Express.js node logo",
-  "vagrant-released": "Vagrant hashicorp logo",
-  "flask-released": "Flask python web framework logo",
-  "less-1-0-released": "Less CSS preprocessor logo",
+  "bigcommerce-launched": "bigcommerce",
+  "uwsgi-released": "uwsgi",
+  "stuxnet-discovered": "stuxnet worm",
 };
 
 export const BATCH_11_COMMONS_OVERRIDES: Record<string, string> = {
@@ -75,11 +70,18 @@ export const BATCH_11_COMMONS_OVERRIDES: Record<string, string> = {
   "python-3-0-released": "Python-logo-notext.svg",
   "python-2-7-released": "Python-logo-notext.svg",
   "elasticsearch-released": "Elasticsearch logo.svg",
-  "haskell-2010-standard": "Haskell Logo.svg",
+  "haskell-2010-standard": "Haskell-Logo.svg",
   "ecmascript-5-adopted": "JavaScript unofficial logo.svg",
   "safari-4-released": "WebKit logo.svg",
   "safari-5-released": "WebKit logo.svg",
   "homebrew-released": "Homebrew.svg",
   "mariadb-released": "MariaDB server logo.svg",
   "wordpress-3-0-released": "Wordpress Logo.svg",
+  "asana-launched": "Asana logo.svg",
+  "chef-released": "Chef logo.svg",
+  "express-released": "Expressjs.png",
+  "phpstorm-1-released": "PhpStorm logo.svg",
+  "webstorm-1-released": "WebStorm logo.svg",
+  "internet-explorer-8-released": "Windows_Internet_Explorer_8.png",
+  "motorola-droid-released": "Motorola_Droid_Pro.jpg",
 };

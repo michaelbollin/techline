@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "audrey-tang-g0v-launched",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/audrey-tang-g0v-launched.jpg",
+          "title": "Audrey Tang",
+          "caption": "Camille McOuat, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "audrey-tang-digital-minister"
       ],

@@ -10,6 +10,7 @@ import {
   computePanTransform,
   computeTransformForTimeRange,
   computeZoomToEvents,
+  computeZoomToDecade,
   computeZoomToYear,
   makeBaseScale,
   visibleInnerTimeRange,
@@ -48,6 +49,15 @@ describe("computeZoomToYear", () => {
     expect(t0).toBeGreaterThanOrEqual(TIMELINE_EXTENT[0]);
     expect(t1).toBeLessThanOrEqual(TIMELINE_EXTENT[1]);
     expect(t1 - t0).toBeLessThan(Date.parse("2001-01-01T00:00:00Z") - Date.parse("2000-01-01T00:00:00Z"));
+  });
+});
+
+describe("computeZoomToDecade", () => {
+  it("zooms to a calendar decade", () => {
+    const transform = computeZoomToDecade(1200, TIMELINE_EXTENT, 1990);
+    const [t0, t1] = visibleInnerTimeRange(transform, 1200, TIMELINE_EXTENT);
+    expect(t0).toBeGreaterThanOrEqual(Date.parse("1990-01-01T00:00:00Z"));
+    expect(t1).toBeLessThanOrEqual(Date.parse("1999-12-31T23:59:59.999Z"));
   });
 });
 

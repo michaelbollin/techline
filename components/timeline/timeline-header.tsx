@@ -1,3 +1,5 @@
+import type { MouseEventHandler } from "react";
+
 import { SiteBrand } from "@/components/layout/site-brand";
 import { cn } from "@/lib/cn";
 
@@ -7,9 +9,10 @@ type TimelineHeaderProps = {
   isOpen: boolean;
   activeCount: number;
   onToggle: () => void;
+  onLogoClick?: MouseEventHandler<HTMLAnchorElement>;
 };
 
-export function TimelineHeader({ isOpen, activeCount, onToggle }: TimelineHeaderProps) {
+export function TimelineHeader({ isOpen, activeCount, onToggle, onLogoClick }: TimelineHeaderProps) {
   return (
     <header
       className={cn(
@@ -17,7 +20,7 @@ export function TimelineHeader({ isOpen, activeCount, onToggle }: TimelineHeader
         isOpen && "relative z-50 bg-white",
       )}
     >
-      <SiteBrand className="min-w-0 shrink" />
+      <SiteBrand className="min-w-0 shrink" onClick={onLogoClick} />
       <TimelineFilterTrigger isOpen={isOpen} activeCount={activeCount} onToggle={onToggle} />
     </header>
   );

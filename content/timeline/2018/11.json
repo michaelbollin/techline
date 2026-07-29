@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/graphql-foundation-announced.svg",
+          "title": "GraphQL",
+          "caption": "Facebook, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Linux Foundation — Intent to form GraphQL Foundation (November 6, 2018)",
@@ -76,7 +83,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/uniswap-v1-released.png",
+          "title": "Uniswap Foundation Logo",
+          "caption": "Szenon, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Uniswap (v1 launched November 2, 2018)",

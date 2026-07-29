@@ -1,5 +1,6 @@
 import { cn } from "@/lib/cn";
 import { TIMELINE_INK } from "@/lib/timeline/constants";
+import { desktopDotRadius, desktopHitRadius } from "@/lib/timeline/dot-metrics";
 import { visualImportanceTier } from "@/lib/timeline/importance";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
@@ -12,46 +13,6 @@ type TimelineNodeDotProps = {
   onHover: (event: PlottedEvent | null) => void;
   onClick: () => void;
 };
-
-function hitRadius(importance: PlottedEvent["importance"]): number {
-  const tier = visualImportanceTier(importance);
-
-  if (tier === 0) {
-    return 7.5;
-  }
-
-  if (tier === 1) {
-    return 6;
-  }
-
-  return 4.5;
-}
-
-function dotRadius(importance: PlottedEvent["importance"], filled: boolean): number {
-  const tier = visualImportanceTier(importance);
-
-  if (filled) {
-    if (tier === 0) {
-      return 7.5;
-    }
-
-    if (tier === 1) {
-      return 6;
-    }
-
-    return 4.5;
-  }
-
-  if (tier === 0) {
-    return 3.75;
-  }
-
-  if (tier === 1) {
-    return 3;
-  }
-
-  return 2.25;
-}
 
 const dotTransition =
   "transition-[transform,fill] duration-[220ms] ease-[cubic-bezier(0.22,1,0.36,1)]";
@@ -68,8 +29,8 @@ export function TimelineNodeDot({
   const x = xScale(event.timestamp);
   const filled = showLabel || isHovered;
   const tier = visualImportanceTier(event.importance);
-  const dotR = dotRadius(event.importance, filled);
-  const hitR = hitRadius(event.importance);
+  const dotR = desktopDotRadius(event.importance, filled);
+  const hitR = desktopHitRadius(event.importance);
 
   return (
     <g transform={`translate(${x}, ${getAxisY(x)})`}>

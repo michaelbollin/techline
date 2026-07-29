@@ -29,7 +29,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/leveldb-open-sourced.jpg",
+          "title": "Google",
+          "caption": "Asoundd, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Open Source Blog — LevelDB (July 28, 2011)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kotlin-unveiled.svg",
+          "title": "Kotlin (programming language)",
+          "caption": "JetBrains, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JetBrains — Kotlin announced at JVM Language Summit (July 19, 2011)",

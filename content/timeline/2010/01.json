@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/express-released.png",
+          "title": "Express.js",
+          "caption": "expressjs developers, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "expressjs/express — History.md 0.0.1 (2010-01-03)",
@@ -64,7 +71,14 @@
         "flask"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gunicorn-released.svg",
+          "title": "Gunicorn logo 2010",
+          "caption": "Benoit Chesneau?, Xavier Grangier, CC BY 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Gunicorn (initial release January 3, 2010)",
@@ -115,7 +129,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nexus-one-released.png",
+          "title": "Nexus One",
+          "caption": "Zach Vega, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nexus One released — launch",
@@ -158,7 +179,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/npm-first-released.svg",
+          "title": "Npm",
+          "caption": "Boboss74, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — npm (first version January 12, 2010)",
@@ -214,7 +242,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-a4-introduced.jpg",
+          "title": "Apple A4",
+          "caption": "Caspertheghost at English Wikipedia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iPad introduced with A4 chip (January 27, 2010)",
@@ -263,7 +298,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ipad-introduced.png",
+          "title": "IPad",
+          "caption": "KA KIT, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iPad introduced (January 27, 2010)",

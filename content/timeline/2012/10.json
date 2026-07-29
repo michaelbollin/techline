@@ -29,7 +29,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/typescript-preview-released.svg",
+          "title": "TypeScript",
+          "caption": "™/®Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — TypeScript preview release (October 1, 2012)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-10-released.png",
+          "title": "Internet Explorer 10",
+          "caption": "Screenshot: de:Benutzer:Das Schäfchen / Programm: Microsoft, CC BY-SA 3.0 de, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Windows 8 and Internet Explorer 10 launch (October 26, 2012)",
@@ -128,7 +142,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/oauth-2-0-standardized.svg",
+          "title": "OAuth",
+          "caption": "Chris Messina, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 6749 — The OAuth 2.0 Authorization Framework (October 2012)",
@@ -174,7 +195,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/postman-launched.png",
+          "title": "Postman (software)",
+          "caption": "Postman, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Postman — Company timeline (launched October 2012)",

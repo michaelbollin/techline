@@ -25,7 +25,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/meson-released.png",
+          "title": "Meson (software)",
+          "caption": "Software: Jussi Pakkanen and mesonbuild developers Screenshot: VulcanSphere, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Meson (initial release March 2, 2013)",
@@ -66,7 +73,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-0-10-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v0.10.0 (Stable) (March 11, 2013)",
@@ -113,7 +127,14 @@
       ],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/autoprefixer-released.svg",
+          "title": "PostCSS",
+          "caption": "Alexander Kurganov, Roman Shamin, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub — postcss/autoprefixer initial commit (March 14, 2013)",
@@ -161,7 +182,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/docker-open-sourced.svg",
+          "title": "Docker (software)",
+          "caption": "dotCloud, Inc., Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Docker — Nine Years Young (open-sourced March 2013)",
@@ -217,7 +245,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/htc-one-m7-released.png",
+          "title": "HTC One (M7)",
+          "caption": "M0rphzone, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "HTC One (M7) released — launch",

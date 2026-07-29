@@ -30,6 +30,7 @@ describe("toPlottedEvents", () => {
       dateLabel: "January 1, 1999",
       bubbleTitle: expect.any(String),
       imageUrl: null,
+      imageCaption: null,
     });
   });
 });

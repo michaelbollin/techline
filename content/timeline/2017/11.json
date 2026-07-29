@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tailwind-css-released.svg",
+          "title": "Tailwind CSS",
+          "caption": "Tailwind CSS, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub — tailwindlabs/tailwindcss v0.1.0 (November 1, 2017)",
@@ -77,7 +84,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-x-released.svg",
+          "title": "IPhone X",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone X released — launch",
@@ -128,7 +142,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/firefox-57-quantum.svg",
+          "title": "Firefox",
+          "caption": "Mozilla Corporation, MPL 2, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla Blog — Firefox Quantum launched (November 14, 2017)",
@@ -170,7 +191,14 @@
         "saas"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sanity-launched.png",
+          "title": "Sanity (company)",
+          "caption": "Contenful, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Sanity Blog — Post launch post (November 14, 2017)",
@@ -211,7 +239,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/symfony-4-released.png",
+          "title": "Symfony",
+          "caption": "Javier.eguiluz, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Symfony Blog — Symfony 4.0.0 released (November 30, 2017)",
@@ -254,7 +289,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cryptokitties-launched.svg",
+          "title": "CryptoKitties",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — CryptoKitties (launched November 28, 2017)",

@@ -25,7 +25,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/vite-2-released.svg",
+          "title": "Vite (software)",
+          "caption": "Evan You, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Vite — Announcing Vite 2.0 (February 16, 2021)",
@@ -68,7 +75,14 @@
       "people": [],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ghc-9-0-released.svg",
+          "title": "Glasgow Haskell Compiler",
+          "caption": "Darrin A Thompson; Jeffrey Wheeler, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Haskell.org — GHC 9.0.1 released (February 4, 2021)",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/pat-gelsinger-intel-ceo.jpg",
+          "title": "Pat Gelsinger",
+          "caption": "TechCrunch, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — Pat Gelsinger appointed CEO (February 15, 2021)",

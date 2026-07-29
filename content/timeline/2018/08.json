@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-9-released.png",
+          "title": "Samsung Galaxy Note 9",
+          "caption": "TheWikiContributor, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note 9 released — launch",

@@ -22,7 +22,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/php-8-0-released.svg",
+          "title": "PHP",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PHP.net — PHP 8.0.0 released (November 26, 2020)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/safari-14-big-sur.svg",
+          "title": "Safari (web browser)",
+          "caption": "Apple, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — macOS Big Sur and Safari 14 (November 2020)",
@@ -115,7 +129,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-5-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 5.0 (November 10, 2020)",
@@ -161,7 +182,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/csharp-9-released.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 5.0 (November 10, 2020)",
@@ -210,7 +238,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-m1-announced.jpg",
+          "title": "Apple M1",
+          "caption": "Sonic8400, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — MacBook Air and MacBook Pro with M1 (November 10, 2020)",
@@ -260,7 +295,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apple-m1-mac-shipped.jpg",
+          "title": "Apple M1",
+          "caption": "Sonic8400, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — M1 MacBook Air and Pro available (November 17, 2020)",

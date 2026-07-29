@@ -30,7 +30,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-gemini-released.svg",
+          "title": "Gemini (language model)",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google — Introducing Gemini (December 6, 2023)",

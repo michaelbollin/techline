@@ -8,6 +8,7 @@ import { cn } from "@/lib/cn";
 
 type EventModalProps = {
   children: ReactNode;
+  returnHref?: string;
   className?: string;
 };
 
@@ -24,12 +25,12 @@ function CloseIcon() {
   );
 }
 
-export function EventModal({ children, className }: EventModalProps) {
+export function EventModal({ children, returnHref = "/", className }: EventModalProps) {
   const router = useRouter();
 
   const onClose = useCallback(() => {
-    router.back();
-  }, [router]);
+    router.push(returnHref, { scroll: false });
+  }, [router, returnHref]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {

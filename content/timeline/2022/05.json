@@ -22,7 +22,14 @@
         "elixir"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/erlang-otp-25-released.svg",
+          "title": "Erlang (programming language)",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Erlang.org — OTP 25.0 released (May 17, 2022)",
@@ -64,7 +71,14 @@
         "web"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wordpress-6-0-released.svg",
+          "title": "WordPress",
+          "caption": "WordPress, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "WordPress News — WordPress 6.0 Arturo (May 24, 2022)",
@@ -107,7 +121,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/terra-luna-collapse.svg",
+          "title": "Terra (blockchain)",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CoinDesk — TerraUSD loses peg (May 9, 2022)",

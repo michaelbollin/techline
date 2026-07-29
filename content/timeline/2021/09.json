@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/safari-15-ios-web-extensions.svg",
+          "title": "Safari (web browser)",
+          "caption": "Apple, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iOS 15 features (September 2021)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/java-17-released.jpg",
+          "title": "Java (programming language)",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenJDK — JDK 17 General Availability (September 14, 2021)",
@@ -124,7 +138,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/swift-5-5-async-await.svg",
+          "title": "Swift (programming language)",
+          "caption": "Apple Inc, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Xcode 13 released (September 20, 2021)",
@@ -172,7 +193,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-13-released.svg",
+          "title": "IPhone 13",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple Newsroom — Apple introduces iPhone 13 and iPhone 13 mini (September 14, 2021)",
@@ -223,7 +251,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/epic-v-apple-trial-verdict.svg",
+          "title": "Epic Games v. Apple",
+          "caption": "Great Seal of the United States (obverse).svg: U.S. Government US DC NorCal.gif: United States District Court for the Northern District of California NikNaks - gallery - wikipedia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. District Court — Epic Games v. Apple judgment (September 10, 2021)",

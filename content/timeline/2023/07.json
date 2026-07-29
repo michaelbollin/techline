@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-2-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Claude 2 (July 11, 2023)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/llama-2-released.svg",
+          "title": "LLaMA",
+          "caption": "Meta Platforms, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Meta AI — Introducing Llama 2 (July 18, 2023)",

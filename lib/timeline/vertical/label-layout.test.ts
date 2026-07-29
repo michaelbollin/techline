@@ -18,9 +18,9 @@ describe("resolveVerticalLabelLayout", () => {
     expect(layout.get("a")?.showLabel).toBe(true);
   });
 
-  it("hides labels above importance threshold", () => {
+  it("shows lower-importance labels when there is axis room", () => {
     const events = [makePlottedEvent({ id: "minor", importance: 9, timestamp: 500_000_000 })];
     const layout = resolveVerticalLabelLayout(events, y, 80, 3, 800, 3, () => 100);
-    expect(layout.get("minor")?.showLabel).toBe(false);
+    expect(layout.get("minor")?.showLabel).toBe(true);
   });
 });

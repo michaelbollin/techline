@@ -21,7 +21,14 @@
         "hotwire"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rails-7-released.svg",
+          "title": "Ruby on Rails",
+          "caption": "KSEltar, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ruby on Rails — Rails 7.0 released (December 15, 2021)",
@@ -60,7 +67,14 @@
         "web-framework"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/django-4-released.svg",
+          "title": "Django (web framework)",
+          "caption": "Django, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Django Project — Django 4.0 released (December 7, 2021)",
@@ -103,7 +117,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/log4shell-disclosed.png",
+          "title": "Log4j - Time based triggered files - 2017-09-27",
+          "caption": "WorkAgain, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Apache — Log4j security vulnerabilities (CVE-2021-44228, December 9, 2021)",

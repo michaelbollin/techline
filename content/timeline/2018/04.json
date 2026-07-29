@@ -21,7 +21,14 @@
         "lts"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-10-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v10.0.0 (April 24, 2018)",

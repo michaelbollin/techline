@@ -28,7 +28,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/arc-browser-released.svg",
+          "title": "Arc (web browser)",
+          "caption": "Arc (browser), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Arc (web browser) (April 19, 2022 initial release)",
@@ -69,7 +76,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-18-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v18.0.0 (April 19, 2022)",

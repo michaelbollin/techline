@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/notion-launched.svg",
+          "title": "Notion (productivity software)",
+          "caption": "Notion Labs, Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Notion (productivity software) (launched 2016)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/windows-subsystem-linux-released.png",
+          "title": "Windows Subsystem for Linux",
+          "caption": "Canonical, Ltd., Microsoft, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Bash on Ubuntu on Windows (August 2, 2016)",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/powershell-core-open-sourced.svg",
+          "title": "PowerShell",
+          "caption": "Microsoft Corporation, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — PowerShell open source (August 18, 2016)",
@@ -168,7 +189,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-7-released.png",
+          "title": "Samsung Galaxy Note 7",
+          "caption": "DoerNoc, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note 7 released — launch",

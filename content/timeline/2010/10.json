@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/angularjs-released.svg",
+          "title": "AngularJS",
+          "caption": "AngularJS, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — AngularJS (released October 20, 2010)",
@@ -75,7 +82,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nuget-released.svg",
+          "title": "NuGet",
+          "caption": "NuGet project team, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NuGet Docs — NuGet 1.0 release (October 5, 2010)",
@@ -117,7 +131,14 @@
         "web"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopware-community-edition-released.png",
+          "title": "Shopware",
+          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Shopware — Our Story (Community Edition, autumn 2010)",
@@ -165,7 +186,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/pycharm-1-released.svg",
+          "title": "PyCharm",
+          "caption": "JetBrains, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JetBrains — PyCharm 1.0 released (October 13, 2010)",

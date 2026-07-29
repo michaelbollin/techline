@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/graphql-open-sourced.svg",
+          "title": "GraphQL",
+          "caption": "Facebook, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "graphql/graphql-js — first public commit (July 1, 2015)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/microsoft-edge-released.svg",
+          "title": "Microsoft Edge",
+          "caption": "Microsoft Corporation, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Windows 10 and Microsoft Edge (July 29, 2015)",
@@ -125,7 +139,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/csharp-6-roslyn-released.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Visual Studio 2015 released (July 20, 2015)",
@@ -166,7 +187,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ethereum-mainnet-launched.svg",
+          "title": "Ethereum",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Ethereum (Frontier launch July 30, 2015)",

@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sentry-launched.jpg",
+          "title": "razor wire on fence - silent sentry",
+          "caption": "woodleywonderworks, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub — getsentry/sentry repository (created August 30, 2010)",
@@ -71,7 +78,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-torch-released.jpg",
+          "title": "BlackBerry Torch",
+          "caption": "edans / Enrique Dans, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BlackBerry Torch released — launch",

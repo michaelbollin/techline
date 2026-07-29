@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/docker-19-03-released.svg",
+          "title": "Docker (software)",
+          "caption": "dotCloud, Inc., Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Docker Blog — Docker 19.03 (July 22, 2019)",

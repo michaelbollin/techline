@@ -28,7 +28,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-lumia-920-released.jpg",
+          "title": "Nokia Lumia 920",
+          "caption": "N i c o l a, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia Lumia 920 released — launch",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nexus-4-released.png",
+          "title": "Nexus 4",
+          "caption": "developer.android.com, CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nexus 4 released — launch",

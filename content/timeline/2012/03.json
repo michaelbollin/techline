@@ -27,7 +27,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/go-1-0-released.svg",
+          "title": "Go (programming language)",
+          "caption": "The Go Authors, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Go Blog — Go version 1 is released (March 28, 2012)",
@@ -69,7 +76,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/webpack-released.svg",
+          "title": "Webpack",
+          "caption": "OpenJS Foundation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "webpack — Initial commit (March 10, 2012)",
@@ -114,7 +128,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/composer-released.png",
+          "title": "Composer (software)",
+          "caption": "WizardCat, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Composer — 1.0.0-alpha1 changelog (March 1, 2012)",

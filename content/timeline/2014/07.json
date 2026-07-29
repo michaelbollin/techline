@@ -30,7 +30,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/terraform-released.svg",
+          "title": "Terraform (software)",
+          "caption": "HashiCorp, MPL 2, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "HashiCorp — Terraform announcement (July 28, 2014)",

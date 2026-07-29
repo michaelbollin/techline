@@ -23,7 +23,14 @@
         "federation"
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hygraph-rebranded.svg",
+          "title": "GraphQL",
+          "caption": "Facebook, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PR Newswire — Hygraph federated content platform (July 12, 2022)",
@@ -66,7 +73,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eu-digital-services-act-adopted.svg",
+          "title": "Digital Services Act",
+          "caption": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "European Council — Digital Services Act adopted (July 5, 2022)",

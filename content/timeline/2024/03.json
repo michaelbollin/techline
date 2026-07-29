@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ios-eu-browser-choice.svg",
+          "title": "European Union",
+          "caption": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — DMA compliance in the EU (January 2024 announcement, March rollout)",
@@ -71,7 +78,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eu-ai-act-adopted.svg",
+          "title": "Artificial Intelligence Act",
+          "caption": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "European Parliament — AI Act adopted (March 13, 2024)",
@@ -119,7 +133,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-3-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Introducing the next generation of Claude (March 4, 2024)",
@@ -174,7 +195,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nvidia-blackwell-announced.svg",
+          "title": "Nvidia",
+          "caption": "Nvidia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NVIDIA — Blackwell platform announced at GTC (March 18, 2024)",
@@ -245,7 +273,14 @@
         "jensen-huang-cuda-announced"
       ],
       "slug": "huang-generative-ai-era-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/huang-generative-ai-era-quote.jpg",
+          "title": "Jensen Huang",
+          "caption": "The White House, Public domain, via Wikimedia Commons"
+        }
+      ],
       "category": "quote"
     }
   ]

@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "judea-pearl-turing-award",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/judea-pearl-turing-award.jpg",
+          "title": "Judea Pearl",
+          "caption": "Better Than Bacon, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

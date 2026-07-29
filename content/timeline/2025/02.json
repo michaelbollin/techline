@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s25-released.png",
+          "title": "Samsung Galaxy S25",
+          "caption": "可恩Ke En, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S25 released — launch",
@@ -72,7 +79,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rust-2024-edition.svg",
+          "title": "Rust (programming language)",
+          "caption": "™/®Rust Foundation, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Rust Blog — Rust 1.85.0 and the 2024 edition (February 20, 2025)",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-3-7-sonnet-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Claude 3.7 Sonnet (February 24, 2025)",
@@ -168,7 +189,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-4-5-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-4.5 (February 27, 2025)",
@@ -217,7 +245,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/grok-3-released.svg",
+          "title": "Grok (chatbot)",
+          "caption": "X Corp., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TechCrunch — xAI releases Grok 3 (February 17, 2025)",

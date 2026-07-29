@@ -30,7 +30,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openai-o1-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing OpenAI o1-preview (September 12, 2024)",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/swift-6-released.svg",
+          "title": "Swift (programming language)",
+          "caption": "Apple Inc, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iOS 18 available today (September 16, 2024)",
@@ -121,7 +135,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elixir-1-17-released.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Elixir Blog — Announcing Elixir v1.17 (September 19, 2024)",
@@ -169,7 +190,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-16-released.svg",
+          "title": "IPhone 16",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 16 released — launch",

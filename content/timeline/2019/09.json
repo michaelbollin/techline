@@ -30,7 +30,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-fold-released.png",
+          "title": "Samsung Galaxy Fold",
+          "caption": "Louis PL, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Fold released — launch",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-11-released.svg",
+          "title": "IPhone 11",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 11 released — launch",
@@ -128,7 +142,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-core-3-0-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET Core 3.0 (September 23, 2019)",
@@ -175,7 +196,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tensorflow-2-0-released.svg",
+          "title": "TensorFlow",
+          "caption": "Google LLC, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TensorFlow Blog — TensorFlow 2.0 is now available (September 30, 2019)",

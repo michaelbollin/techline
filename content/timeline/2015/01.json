@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "andrej-karpathy-cs231n",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/andrej-karpathy-cs231n.png",
+          "title": "Andrej Karpathy",
+          "caption": "Gladwin Analytics, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "fei-fei-li-imagenet-dataset-launched",
         "hinton-alexnet-imagenet-breakthrough"

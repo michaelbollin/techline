@@ -31,7 +31,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-fable-5-mythos-5-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5 and Claude Mythos 5 (June 9, 2026)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-fable-mythos-access-suspended.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Statement on US government directive (June 12, 2026)",
@@ -146,7 +160,14 @@
         "claude-fable-mythos-access-suspended"
       ],
       "slug": "anthropic-fable-serious-damage-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/anthropic-fable-serious-damage-quote.jpg",
+          "title": "Dario Amodei",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "people": [],
       "category": "quote"
     },
@@ -197,7 +218,14 @@
         "anthropic-fable-serious-damage-quote"
       ],
       "slug": "anthropic-fable-abruptly-disable-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/anthropic-fable-abruptly-disable-quote.jpg",
+          "title": "Dario Amodei",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "people": [],
       "category": "quote"
     },
@@ -246,7 +274,14 @@
         "anthropic-fable-abruptly-disable-quote"
       ],
       "slug": "anthropic-fable-halt-deployments-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/anthropic-fable-halt-deployments-quote.jpg",
+          "title": "Dario Amodei",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "people": [],
       "category": "quote"
     },
@@ -280,7 +315,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-sonnet-5-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Sonnet 5 (June 30, 2026)",

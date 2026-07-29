@@ -10,7 +10,7 @@ type UseTimelineFilterZoomOptions = {
   plotted: PlottedEvent[];
   activeFilterIds: Set<string>;
   fulltextQuery: string;
-  animateTo: (transform: ReturnType<typeof computeFitTransform>) => void;
+  animateTo: (transform: ReturnType<typeof computeFitTransform>, source?: string) => void;
 };
 
 export function useTimelineFilterZoom({
@@ -20,7 +20,10 @@ export function useTimelineFilterZoom({
   fulltextQuery,
   animateTo,
 }: UseTimelineFilterZoomOptions) {
-  const hasInitialized = useRef(false);
+  const animateToRef = useRef(animateTo);
+  animateToRef.current = animateTo;
+
+  const previousFilterKeyRef = useRef<string | undefined>(undefined);
   const filterKey = useMemo(
     () => filterSignature(activeFilterIds, fulltextQuery),
     [activeFilterIds, fulltextQuery],
@@ -31,27 +34,32 @@ export function useTimelineFilterZoom({
       return;
     }
 
-    if (hasActiveFilters(activeFilterIds, fulltextQuery)) {
+    const previousKey = previousFilterKeyRef.current;
+    const filterKeyChanged = previousKey !== undefined && previousKey !== filterKey;
+    previousFilterKeyRef.current = filterKey;
+
+    const filtered = hasActiveFilters(activeFilterIds, fulltextQuery);
+
+    if (filtered) {
       if (plotted.length === 0) {
         return;
       }
 
-      animateTo(computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }));
-      hasInitialized.current = true;
-      return;
-    }
-
-    if (!hasInitialized.current) {
-      if (plotted.length > 0) {
-        hasInitialized.current = true;
+      if (previousKey === undefined || filterKeyChanged) {
+        animateToRef.current(
+          computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }),
+          "filter-zoom",
+        );
       }
       return;
     }
 
-    if (plotted.length === 0) {
+    if (previousKey === undefined) {
       return;
     }
 
-    animateTo(computeFitTransform(width, TIMELINE_EXTENT));
-  }, [activeFilterIds, animateTo, filterKey, fulltextQuery, plotted, width]);
+    if (filterKeyChanged && plotted.length > 0) {
+      animateToRef.current(computeFitTransform(width, TIMELINE_EXTENT), "filter-clear");
+    }
+  }, [activeFilterIds, filterKey, fulltextQuery, plotted, width]);
 }

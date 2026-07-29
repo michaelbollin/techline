@@ -29,7 +29,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/safari-5-released.svg",
+          "title": "Safari (web browser)",
+          "caption": "Apple, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Apple releases Safari 5 (June 7, 2010)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-4-released.png",
+          "title": "IPhone 4",
+          "caption": "Justin14, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — iPhone 4 available June 24, 2010",
@@ -135,7 +149,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s-released.jpg",
+          "title": "Samsung Galaxy S series",
+          "caption": "เวียร์, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung — Galaxy S launched (June 2010)",
@@ -176,7 +197,14 @@
         "web"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wordpress-3-0-released.png",
+          "title": "WordPress",
+          "caption": "WordPress Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "WordPress News — WordPress 3.0 Thelonious (June 17, 2010)",
@@ -219,7 +247,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/stuxnet-discovered.jpg",
+          "title": "Cyber WMD (5571923679)",
+          "caption": "Steve Jurvetson from Los Altos, USA, CC BY 2.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wired — Stuxnet first identified (June 17, 2010)",

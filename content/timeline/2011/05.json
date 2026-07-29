@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s2-released.png",
+          "title": "Samsung Galaxy S II",
+          "caption": "GalaxyOptimus, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S II released — launch",

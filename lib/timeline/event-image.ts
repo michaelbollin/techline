@@ -8,3 +8,7 @@ export function getEventCoverImage(media: MediaItem[]): MediaItem | null {
 export function getEventCoverImageUrl(media: MediaItem[]): string | null {
   return getEventCoverImage(media)?.url ?? null;
 }
+
+export function getEventCoverImageCaption(media: MediaItem[]): string | null {
+  return getEventCoverImage(media)?.caption ?? null;
+}

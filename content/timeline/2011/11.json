@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-lumia-800-released.jpg",
+          "title": "Nokia Lumia 800",
+          "caption": "Petar Milošević, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia Lumia 800 released — launch",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/galaxy-nexus-released.png",
+          "title": "Galaxy Nexus",
+          "caption": "WilliamTheaker, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Galaxy Nexus released — launch",

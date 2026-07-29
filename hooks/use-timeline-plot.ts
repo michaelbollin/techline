@@ -3,9 +3,11 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { axisYAt } from "@/lib/timeline/axis-path";
 
-import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EXTENT } from "@/lib/timeline/constants";
+import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT } from "@/lib/timeline/constants";
 import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
+import { resolveDotLayout } from "@/lib/timeline/dot-layout";
+import { desktopDotRadius } from "@/lib/timeline/dot-metrics";
 import { resolveLabelLayout } from "@/lib/timeline/label-layout";
 import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
 import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
@@ -110,6 +112,33 @@ export function useTimelinePlot({
     [labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, xScale],
   );
 
+  const forceVisibleDotIds = useMemo(() => {
+    const ids = new Set<string>();
+    if (hovered) {
+      ids.add(hovered.id);
+    }
+    for (const event of plotted) {
+      if (labelLayout.get(event.id)?.showLabel) {
+        ids.add(event.id);
+      }
+    }
+    return ids;
+  }, [hovered, labelLayout, plotted]);
+
+  const dotLayout = useMemo(
+    () =>
+      resolveDotLayout(
+        plotted,
+        (timestamp) => xScale(timestamp),
+        maxImportance,
+        TIMELINE_EDGE_MARGIN,
+        width - TIMELINE_EDGE_MARGIN,
+        (event) => desktopDotRadius(event.importance, false),
+        { forceVisibleIds: forceVisibleDotIds },
+      ),
+    [forceVisibleDotIds, maxImportance, plotted, width, xScale],
+  );
+
   const stemStartY = useMemo(
     () => computeStemStarts(plotted, labelLayout, (timestamp) => xScale(timestamp)),
     [labelLayout, plotted, xScale],
@@ -127,6 +156,7 @@ export function useTimelinePlot({
     getAxisY,
     xScale,
     labelLayout,
+    dotLayout,
     stemStartY,
     labelNodes,
   };

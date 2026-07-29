@@ -20,7 +20,14 @@
         "portability"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cobol-first-program-run.jpg",
+          "title": "COBOL",
+          "caption": "James S. Davis, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — CODASYL (first COBOL run, Aug 17 1960)",

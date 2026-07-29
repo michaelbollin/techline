@@ -22,7 +22,14 @@
         "microservices"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/spring-boot-1-0-released.svg",
+          "title": "Spring Boot",
+          "caption": "Pivotal Software, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Spring Blog — Spring Boot 1.0 GA Released (April 1, 2014)",
@@ -69,7 +76,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/typescript-1-0-released.svg",
+          "title": "TypeScript",
+          "caption": "™/®Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — TypeScript 1.0 released (April 2, 2014)",
@@ -122,7 +136,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/brendan-eich-mozilla-ceo-resigns.jpg",
+          "title": "Brendan Eich",
+          "caption": "Darcy Padilla, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Brendan Eich steps down (April 3, 2014)",
@@ -162,7 +183,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/express-4-released.png",
+          "title": "Express.js",
+          "caption": "expressjs developers, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Express — Migrating to Express 4 (April 28, 2014)",
@@ -211,7 +239,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s5-released.svg",
+          "title": "Samsung Galaxy S5",
+          "caption": "Samsung, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S5 released — launch",
@@ -266,7 +301,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tom-preston-werner-github-resigns.jpg",
+          "title": "Tom Preston-Werner",
+          "caption": "Norman Posselt, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "The Verge — Preston-Werner resigns (April 21, 2014)",
@@ -312,7 +354,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/oneplus-one-released.png",
+          "title": "OnePlus One",
+          "caption": "danishprakash (http://danishprakash.deviantart.com/), CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OnePlus One released — launch",
@@ -360,7 +409,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/web3-term-coined.jpg",
+          "title": "Gavin Wood",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Web3 (term coined by Gavin Wood, 2014)",
@@ -403,7 +459,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/heartbleed-disclosed.svg",
+          "title": "Heartbleed",
+          "caption": "Leena Kurjenniska / Codenomicon 2014, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Heartbleed.com — CVE-2014-0160 disclosed (April 7, 2014)",

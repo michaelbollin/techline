@@ -71,7 +71,14 @@
         "open-source"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chef-released.svg",
+          "title": "Chef (software)",
+          "caption": "Chef Software, Inc., Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Chef Blog — Announcing Chef (January 15, 2009)",

@@ -21,7 +21,14 @@
         "international-standard"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/algol-58-published.jpg",
+          "title": "ALGOL",
+          "caption": "Zvezdica2816, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ACM Digital Library — Preliminary report (Dec 1, 1958)",

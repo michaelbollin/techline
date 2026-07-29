@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elixir-1-14-released.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Elixir Blog — Announcing Elixir v1.14 (September 19, 2023)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/java-21-released.jpg",
+          "title": "Java (programming language)",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenJDK — JDK 21 General Availability (September 19, 2023)",
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-15-released.svg",
+          "title": "IPhone 15",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 15 released — launch",
@@ -164,7 +185,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mistral-7b-released.svg",
+          "title": "Mistral AI",
+          "caption": "Original: Mistral AI Vector: Pantarch, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mistral AI — Announcing Mistral 7B (September 27, 2023)",
@@ -220,7 +248,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eu-digital-markets-act-gatekeepers.svg",
+          "title": "Digital Markets Act",
+          "caption": "User:Verdy p, User:-xfi-, User:Paddu, User:Nightstallion, User:Funakoshi, User:Jeltz, User:Dbenbenn, User:Zscout370, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "European Commission — Gatekeepers designated under DMA (September 6, 2023)",

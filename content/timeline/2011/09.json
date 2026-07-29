@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpp11-standard.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO/IEC 14882:2011 — published September 1, 2011",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/circleci-launched.svg",
+          "title": "CircleCI",
+          "caption": "FelicianoTech, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — CircleCI (founded September 1, 2011)",
@@ -115,7 +129,14 @@
         "open-source"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/woocommerce-released.png",
+          "title": "Woocommerce logo",
+          "caption": "WooThemes, CC BY 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "WooCommerce — WooCommerce Has Arrived (September 27, 2011)",
@@ -163,7 +184,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css-selectors-level-3-recommendation.svg",
+          "title": "Cascading Style Sheets",
+          "caption": "daPhyre (File:CSS3 and HTML5 logos and wordmarks.svg) Elfi (File:CSS3 logo and wordmark.svg) ExE Boss, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C CSS WG Blog — Selectors Level 3 REC (September 29, 2011)",
@@ -211,7 +239,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/trello-launched.png",
+          "title": "Trello",
+          "caption": "trello.com, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TechCrunch — Trello launches at Disrupt (September 13, 2011)",

@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-pixel-4-released.svg",
+          "title": "Google Pixel",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Pixel 4 released — launch",
@@ -75,7 +82,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/linear-launched.svg",
+          "title": "Linear (software)",
+          "caption": "Linear Assicurazioni, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Linear — Changelog (public launch 2019)",

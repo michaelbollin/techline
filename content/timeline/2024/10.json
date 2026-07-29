@@ -21,7 +21,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/python-3-13-released.svg",
+          "title": "Python (programming language)",
+          "caption": "™/®Python Software Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Python 3.13.0 released (October 7, 2024)",
@@ -60,7 +67,14 @@
         "programming-language"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpp23-standard.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO — ISO/IEC 14882:2024 published (October 19, 2024)",
@@ -107,7 +121,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-3-5-haiku-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Claude 3.5 Haiku (October 22, 2024)",

@@ -21,7 +21,14 @@
         "lts"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-12-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v12.0.0 (April 23, 2019)",

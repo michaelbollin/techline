@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-2015-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Andrejus Ševcovas, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ecma International — ECMAScript 2015 adopted (June 17, 2015)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/swift-2-announced.svg",
+          "title": "Swift (programming language)",
+          "caption": "Apple Inc, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — What's new in Swift (WWDC 2015, June 8, 2015)",
@@ -119,7 +133,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/open-container-initiative-launched.svg",
+          "title": "Docker (software)",
+          "caption": "Kopiersperre (talk), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Open Container Initiative — Overview (June 22, 2015 launch)",
@@ -162,7 +183,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cockroachdb-open-sourced.svg",
+          "title": "CockroachDB",
+          "caption": "dotCloud, Inc., Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Cockroach Labs — Hello, world (June 4, 2015)",

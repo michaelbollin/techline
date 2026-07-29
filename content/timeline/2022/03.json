@@ -28,7 +28,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/go-1-18-generics.svg",
+          "title": "Go (programming language)",
+          "caption": "The Go Authors, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Go Blog — Go 1.18 is available (March 15, 2022)",

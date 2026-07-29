@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-2022-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Plest, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ecma International — ECMAScript 2022 adopted (June 2022)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-11-retired.svg",
+          "title": "Internet Explorer",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer 11 has retired (June 15, 2022)",
@@ -119,7 +133,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/http-3-standardized.svg",
+          "title": "HTTP/3",
+          "caption": "IETF HTTP Working Group (HTTPbis), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 9114 — HTTP/3 (June 2022)",
@@ -171,7 +192,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/github-copilot-ga.svg",
+          "title": "GitHub Copilot",
+          "caption": "GitHub, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub Blog — GitHub Copilot is generally available (June 21, 2022)",

@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/flask-released.svg",
+          "title": "Flask (web framework)",
+          "caption": "Armin Ronacher, Copyrighted free use, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ronacher — April 1st Post Mortem (Flask release, April 1, 2010)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fsharp-2-released.svg",
+          "title": "F Sharp (programming language)",
+          "caption": "The F# Software Foundation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft Research — The early history of F# (productization 2007–10, F# 2.0)",
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-framework-4-0-released.svg",
+          "title": ".NET Framework",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — .NET Framework 4 and Visual Studio 2010 (April 12, 2010)",
@@ -173,7 +194,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/james-gosling-leaves-oracle.jpg",
+          "title": "James Gosling",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Gosling — blog on leaving Oracle (April 2010)",
@@ -233,7 +261,14 @@
       ],
       "relatedIds": [],
       "slug": "jobs-flash-closed-system",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jobs-flash-closed-system.jpg",
+          "title": "Steve Jobs",
+          "caption": "Matthew Yohe, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

@@ -22,7 +22,14 @@
         "web"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/framer-founded.svg",
+          "title": "Sketch (software)",
+          "caption": "Bohemian Coding, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TechCrunch — Framer Series B (founded 2014)",

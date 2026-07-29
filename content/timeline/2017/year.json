@@ -22,7 +22,14 @@
         "saas"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/storyblok-founded.svg",
+          "title": "Storyblok",
+          "caption": "Dominikangerer, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Storyblok — About (founded 2017)",
@@ -64,7 +71,14 @@
         "api"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/graphcms-founded.svg",
+          "title": "GraphQL",
+          "caption": "Facebook, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CMS Critic — GraphCMS launched 2017 (overview)",

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-8-released.png",
+          "title": "Internet Explorer 8",
+          "caption": "Programm: Microsoft Letzte Version des Screenshots: Das Schäfchen Dargestellte Internetseite: Der Wikipedia-Artikel Internet Explorer 8 (Version des Artikels: http://de.wikipedia.org/w/index.php?title=Internet_Explorer_8&amp;oldid=102784619) (Version von de:Benutzer:Das Schäfchen) Im dargestellten Artikel verwendete Bilder: de:File:Windows Internet Explorer 8-Logo.svg (Version vom 27. Januar 2010), CC BY-SA 3.0 de, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer history (IE 8.0, March 19, 2009)",

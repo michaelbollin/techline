@@ -18,4 +18,19 @@ describe("TimelineEventDetail", () => {
     expect(screen.getByText("React released")).toBeInTheDocument();
     expect(screen.getByText("Open-sourced at JSConf.")).toBeInTheDocument();
   });
+
+  it("shows cover image between border and title when available", () => {
+    const event = makePlottedEvent({
+      title: "Amazon EC2 beta launched",
+      imageUrl: "/media/timeline/amazon-ec2-launched.svg",
+      imageCaption: "Amazon Web Services LLC, Public domain, via Wikimedia Commons",
+    });
+
+    render(<TimelineEventDetail event={event} top={120} />);
+
+    expect(screen.getByRole("img")).toHaveAttribute("src", "/media/timeline/amazon-ec2-launched.svg");
+    expect(
+      screen.getByText("Amazon Web Services LLC, Public domain, via Wikimedia Commons"),
+    ).toBeInTheDocument();
+  });
 });

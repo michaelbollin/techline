@@ -33,7 +33,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/opera-gx-released.svg",
+          "title": "Opera (web browser)",
+          "caption": "Opera, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Opera — Opera GX gaming browser now available (June 11, 2019)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kubernetes-1-15-released.svg",
+          "title": "Kubernetes",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Kubernetes Blog — Kubernetes 1.15 released (June 19, 2019)",

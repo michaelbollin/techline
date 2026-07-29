@@ -25,7 +25,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gitlab-released.svg",
+          "title": "GitLab",
+          "caption": "GitLab B.V., MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitLab Handbook — Start of GitLab (October 8, 2011 first commit)",
@@ -48,7 +55,14 @@
     },
     {
       "slug": "andrew-ng-stanford-ml-course",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/andrew-ng-stanford-ml-course.jpg",
+          "title": "Andrew Ng",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {
@@ -117,7 +131,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dart-unveiled.svg",
+          "title": "Dart (programming language)",
+          "caption": "Google, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Developers Blog — Dart preview (October 10, 2011)",
@@ -165,7 +186,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-4s-released.png",
+          "title": "IPhone 4s",
+          "caption": "Zach Vega, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 4S released — launch",
@@ -217,7 +245,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-released.png",
+          "title": "Samsung Galaxy Note",
+          "caption": "Marcusph, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note released — launch",

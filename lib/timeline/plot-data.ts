@@ -1,5 +1,5 @@
 import { formatEventDate } from "./format";
-import { getEventCoverImageUrl } from "./event-image";
+import { getEventCoverImageCaption, getEventCoverImageUrl } from "./event-image";
 import { bubbleTitle } from "./label-emoji";
 import type { Importance } from "./importance";
 import type { TimelineCategory, TimelineEvent } from "./schema";
@@ -16,6 +16,7 @@ export type PlottedEvent = {
   timestamp: number;
   dateLabel: string;
   imageUrl: string | null;
+  imageCaption: string | null;
 };
 
 function eventToIsoDate(date: string, precision: TimelineEvent["datePrecision"]): string {
@@ -53,6 +54,7 @@ export function toPlottedEvents(events: TimelineEvent[]): PlottedEvent[] {
       timestamp: eventToTimestamp(event.date, event.datePrecision),
       dateLabel: formatEventDate(event.date, event.datePrecision),
       imageUrl: getEventCoverImageUrl(event.media),
+      imageCaption: getEventCoverImageCaption(event.media),
     }))
     .sort((a, b) => a.timestamp - b.timestamp);
 }

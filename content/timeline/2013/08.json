@@ -22,7 +22,14 @@
         "responsive"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bootstrap-3-released.svg",
+          "title": "Bootstrap (front-end framework)",
+          "caption": "Bootstrap, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Bootstrap Blog — Bootstrap 3 released (August 19, 2013)",
@@ -64,7 +71,14 @@
         "design"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/webflow-launched.svg",
+          "title": "Webflow",
+          "caption": "Webflow, Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TechCrunch — Webflow launches out of closed beta (August 5, 2013)",
@@ -111,7 +125,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopify-payments-launched.svg",
+          "title": "Shopify",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Shopify News — Shopify Payments launched (August 12, 2013)",

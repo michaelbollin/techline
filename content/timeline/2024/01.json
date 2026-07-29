@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bitcoin-spot-etf-approved.svg",
+          "title": "Bitcoin",
+          "caption": "Bitboy, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "SEC — Release 34-99306 spot Bitcoin ETP approval (January 10, 2024)",
@@ -63,7 +70,14 @@
         "programming-language"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elixir-1-16-released.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Elixir Blog — Announcing Elixir v1.16 (January 28, 2024)",
@@ -112,7 +126,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s24-released.jpg",
+          "title": "Samsung Galaxy S24",
+          "caption": "C.Stadler/Bwag, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S24 released — launch",

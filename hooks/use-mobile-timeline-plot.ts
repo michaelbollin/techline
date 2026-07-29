@@ -4,6 +4,8 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { axisXAt } from "@/lib/timeline/vertical/axis-path";
 import { MOBILE_TIMELINE_AXIS_X } from "@/lib/timeline/vertical/constants";
 import { resolveVerticalLabelLayout } from "@/lib/timeline/vertical/label-layout";
+import { resolveDotLayout } from "@/lib/timeline/dot-layout";
+import { mobileDotRadius } from "@/lib/timeline/dot-metrics";
 import { computeVerticalStemStarts } from "@/lib/timeline/vertical/stem-layout";
 import {
   maxImportanceForZoom,
@@ -116,6 +118,33 @@ export function useMobileTimelinePlot({
     [axisX, labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, yScale],
   );
 
+  const forceVisibleDotIds = useMemo(() => {
+    const ids = new Set<string>();
+    if (hovered) {
+      ids.add(hovered.id);
+    }
+    for (const event of plotted) {
+      if (labelLayout.get(event.id)?.showLabel) {
+        ids.add(event.id);
+      }
+    }
+    return ids;
+  }, [hovered, labelLayout, plotted]);
+
+  const dotLayout = useMemo(
+    () =>
+      resolveDotLayout(
+        plotted,
+        (timestamp) => yScale(new Date(timestamp)),
+        maxImportance,
+        0,
+        height,
+        (event) => mobileDotRadius(event.importance, false),
+        { forceVisibleIds: forceVisibleDotIds },
+      ),
+    [forceVisibleDotIds, height, maxImportance, plotted, yScale],
+  );
+
   const stemStartX = useMemo(
     () => computeVerticalStemStarts(plotted, labelLayout, (timestamp) => yScale(new Date(timestamp))),
     [labelLayout, plotted, yScale],
@@ -135,6 +164,7 @@ export function useMobileTimelinePlot({
     getAxisX,
     yScale,
     labelLayout,
+    dotLayout,
     stemStartX,
     labelNodes,
   };

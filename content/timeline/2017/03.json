@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/csharp-7-released.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Visual Studio 2017 released (March 7, 2017)",
@@ -83,7 +90,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lisa-su-amd-zen-launched.jpg",
+          "title": "Lisa Su",
+          "caption": "Fuzheado, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "AMD — Ryzen launch on Zen (March 2, 2017)",
@@ -129,7 +143,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css-grid-layout-shipped.svg",
+          "title": "Cascading Style Sheets",
+          "caption": "daPhyre (File:CSS3 and HTML5 logos and wordmarks.svg) Elfi (File:CSS3 logo and wordmark.svg) ExE Boss, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Firefox 52 Release Notes — CSS Grid Layout enabled (March 7, 2017)",
@@ -177,7 +198,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/microsoft-teams-launched.svg",
+          "title": "Microsoft Teams",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Teams now available worldwide (March 14, 2017)",

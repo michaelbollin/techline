@@ -12,6 +12,8 @@ export const REUSABLE_LICENSE_PREFIXES = [
   "LGPL",
   "EPL",
   "EPL-2.0",
+  "Artistic",
+  "MPL",
   "Copyrighted free use",
 ];
 

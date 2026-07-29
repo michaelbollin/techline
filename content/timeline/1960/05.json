@@ -21,7 +21,14 @@
         "formal-specification"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/algol-60-published.jpg",
+          "title": "ALGOL",
+          "caption": "Zvezdica2816, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Communications of the ACM — ALGOL 60 report (May 1, 1960)",

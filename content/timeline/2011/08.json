@@ -28,7 +28,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/firefox-6-released.jpg",
+          "title": "Firefox Extensions",
+          "caption": "Pentadact, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Firefox 6 released (August 16, 2011)",
@@ -72,7 +79,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/swagger-1-0-released.png",
+          "title": "Openapi-spec-url-result",
+          "caption": "Kwaku benny, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "swagger-api/swagger-core — v1.0 changelog (August 10, 2011)",
@@ -135,7 +149,14 @@
         "marc-andreessen-netscape-founded"
       ],
       "slug": "andreessen-software-eating-world",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/andreessen-software-eating-world.jpg",
+          "title": "Marc Andreessen",
+          "caption": "JD Lasica, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     },
@@ -179,7 +200,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bootstrap-released.svg",
+          "title": "Bootstrap (front-end framework)",
+          "caption": "Bootstrap, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Twitter Developer Blog — Bootstrap from Twitter (August 19, 2011)",

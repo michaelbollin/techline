@@ -28,7 +28,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blackberry-z10-released.jpg",
+          "title": "BlackBerry Z10",
+          "caption": "Enrique Dans, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "BlackBerry Z10 released — launch",

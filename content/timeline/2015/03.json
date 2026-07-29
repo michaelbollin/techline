@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/airtable-launched.svg",
+          "title": "Airtable",
+          "caption": "Airtable, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Airtable (launched 2015)",
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nvidia-jetson-released.png",
+          "title": "Nvidia Jetson",
+          "caption": "Gareth Halfacree from Bradford, UK, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "NVIDIA — Jetson TK1 announced (March 17, 2015)",
@@ -123,7 +137,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bazel-open-sourced.svg",
+          "title": "Bazel (software)",
+          "caption": "Bazel software, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Kristina Chodorow — Hello, Bazel (March 25, 2015)",

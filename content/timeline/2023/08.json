@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-z-fold-5-released.jpg",
+          "title": "Samsung Galaxy Z Fold 5",
+          "caption": "Vasonesiku, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Z Fold 5 released — launch",

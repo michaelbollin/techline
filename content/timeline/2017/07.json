@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/windows-phone-eol.jpg",
+          "title": "Caledos Runner 1.0.0 - ND0_3621",
+          "caption": "Nicola since 1972, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Windows Phone 8.1 end of support (July 11, 2017)",
@@ -78,7 +85,14 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/yoshua-bengio-mila-founded.jpg",
+          "title": "Yoshua Bengio",
+          "caption": "Xuthoria, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mila — About (founded 2017)",

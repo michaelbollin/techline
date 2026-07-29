@@ -43,7 +43,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dartmouth-ai-proposal.jpg",
+          "title": "Marvin Minsky",
+          "caption": "Sethwoodworth at English Wikipedia, taken by Bcjordan, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stanford — Dartmouth AI proposal (August 31, 1955)",
@@ -91,7 +98,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dartmouth-ai-conjecture-quote.jpg",
+          "title": "John McCarthy",
+          "caption": "\"null0\", CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stanford — Dartmouth AI proposal (August 31, 1955)",

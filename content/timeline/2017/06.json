@@ -23,7 +23,14 @@
         "monorepo"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/pnpm-released.svg",
+          "title": "Pnpm",
+          "caption": "Zoltan Kochan and other contributors, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "pnpm — pnpm version 1 is out (June 28, 2017)",
@@ -66,7 +73,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/notpetya-cyberattack.png",
+          "title": "Petya (malware family)",
+          "caption": "Unknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wired — NotPetya spreads globally (June 27, 2017)",

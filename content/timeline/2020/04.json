@@ -21,7 +21,14 @@
         "lts"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-14-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v14.0.0 (April 21, 2020)",
@@ -76,7 +83,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/vercel-rebranded.svg",
+          "title": "Vercel",
+          "caption": "Vercel, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Vercel Blog — ZEIT is now Vercel (April 21, 2020)",

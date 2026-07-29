@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "shafi-goldwasser-turing-award",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shafi-goldwasser-turing-award.jpg",
+          "title": "Shafi Goldwasser",
+          "caption": "Weizmann Institute of Science, Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

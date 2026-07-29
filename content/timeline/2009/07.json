@@ -30,7 +30,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/uwsgi-released.svg",
+          "title": "File:Ores.uwsgi memory usage over time.rss.svg",
+          "caption": "EpochFail, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "uWSGI documentation — project history (since 2009)",

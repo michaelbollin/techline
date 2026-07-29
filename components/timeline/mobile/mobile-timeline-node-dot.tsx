@@ -1,5 +1,5 @@
-import { cn } from "@/lib/cn";
 import { TIMELINE_INK } from "@/lib/timeline/constants";
+import { mobileDotRadius, mobileHitRadius } from "@/lib/timeline/dot-metrics";
 import { visualImportanceTier } from "@/lib/timeline/importance";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
@@ -10,46 +10,6 @@ type MobileTimelineNodeDotProps = {
   showLabel: boolean;
   onClick: () => void;
 };
-
-function hitRadius(importance: PlottedEvent["importance"]): number {
-  const tier = visualImportanceTier(importance);
-
-  if (tier === 0) {
-    return 10;
-  }
-
-  if (tier === 1) {
-    return 8;
-  }
-
-  return 6;
-}
-
-function dotRadius(importance: PlottedEvent["importance"], filled: boolean): number {
-  const tier = visualImportanceTier(importance);
-
-  if (filled) {
-    if (tier === 0) {
-      return 7;
-    }
-
-    if (tier === 1) {
-      return 5.5;
-    }
-
-    return 4;
-  }
-
-  if (tier === 0) {
-    return 3.5;
-  }
-
-  if (tier === 1) {
-    return 3;
-  }
-
-  return 2.25;
-}
 
 export function MobileTimelineNodeDot({
   event,
@@ -62,8 +22,8 @@ export function MobileTimelineNodeDot({
   const x = getAxisX(y);
   const filled = showLabel;
   const tier = visualImportanceTier(event.importance);
-  const dotR = dotRadius(event.importance, filled);
-  const hitR = hitRadius(event.importance);
+  const dotR = mobileDotRadius(event.importance, filled);
+  const hitR = mobileHitRadius(event.importance);
 
   return (
     <g transform={`translate(${x}, ${y})`}>

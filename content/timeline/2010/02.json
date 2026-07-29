@@ -23,7 +23,14 @@
         "open-source"
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elasticsearch-released.svg",
+          "title": "Elasticsearch",
+          "caption": "™/®Elasticsearch, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "elastic/elasticsearch — first commit (February 8, 2010)",

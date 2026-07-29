@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chrome-manifest-v3.svg",
+          "title": "Google Chrome",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Chrome Developers — Manifest V3 rollout (January 2021)",
@@ -70,7 +77,14 @@
         "open-source"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/payload-cms-released.svg",
+          "title": "Payload CMS",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Payload CMS — Introducing Payload (January 13, 2021)",
@@ -123,7 +137,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dario-amodei-anthropic-founded.jpg",
+          "title": "Dario Amodei",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Company (founded 2021)",
@@ -171,7 +192,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s21-released.png",
+          "title": "Samsung Galaxy S21",
+          "caption": "Marcusph, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S21 released — launch",

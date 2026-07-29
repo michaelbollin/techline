@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-2024-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Plest, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ecma International — ECMAScript 2024 adopted (June 2024)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-3-5-sonnet-released.svg",
+          "title": "Anthropic",
+          "caption": "Anthropic, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Anthropic — Introducing Claude 3.5 Sonnet (June 20, 2024)",
@@ -140,7 +154,14 @@
         "jensen-huang-cuda-announced"
       ],
       "slug": "huang-ceo-math-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/huang-ceo-math-quote.jpg",
+          "title": "Jensen Huang",
+          "caption": "The White House, Public domain, via Wikimedia Commons"
+        }
+      ],
       "category": "quote"
     }
   ]

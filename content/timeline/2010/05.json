@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "moxie-marlinspike-textsecure-released",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/moxie-marlinspike-textsecure-released.jpg",
+          "title": "Moxie Marlinspike",
+          "caption": "Christopher Michel, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {
@@ -75,7 +82,14 @@
       ],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/scss-syntax-released.svg",
+          "title": "Sass (style sheet language)",
+          "caption": "http://sass-lang.com/, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "InfoQ — Sass 3 Delivers CSS Compatibility (May 10, 2010)",
@@ -123,7 +137,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phpstorm-1-released.svg",
+          "title": "PhpStorm",
+          "caption": "JetBrains, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JetBrains — PhpStorm 1.0 and WebStorm 1.0 released (May 27, 2010)",
@@ -173,7 +194,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/webstorm-1-released.svg",
+          "title": "WebStorm",
+          "caption": "JetBrains, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JetBrains — PhpStorm 1.0 and WebStorm 1.0 released (May 27, 2010)",
@@ -214,7 +242,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bitcoin-pizza-transaction.svg",
+          "title": "Bitcoin",
+          "caption": "Grayliptrot, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Bitcoin Pizza Day (May 22, 2010)",

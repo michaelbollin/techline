@@ -22,7 +22,14 @@
         "saas"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/contentful-founded.png",
+          "title": "Contentful",
+          "caption": "Contenful, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Contentful — About us (founded 2013)",
@@ -63,7 +70,14 @@
         "saas"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/prismic-founded.png",
+          "title": "Prismic",
+          "caption": "Cron18, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CB Insights — Prismic founded 2013",

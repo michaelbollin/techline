@@ -24,7 +24,14 @@
       ],
       "people": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/apache-kafka-open-sourced.svg",
+          "title": "Apache Kafka",
+          "caption": "™/®Apache Software Foundation, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "LinkedIn Engineering — Open-sourcing Kafka (January 11, 2011)",
@@ -46,7 +53,14 @@
     },
     {
       "slug": "kohsuke-kawaguchi-jenkins-renamed",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kohsuke-kawaguchi-jenkins-renamed.svg",
+          "title": "Kohsuke Kawaguchi",
+          "caption": "The Jenkins project (http://jenkins-ci.org/), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "hudson-ci-released"
       ],
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/drupal-7-released.png",
+          "title": "Drupal",
+          "caption": "Unknown authorUnknown author, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Drupal.org — Drupal 7.0 is released (January 5, 2011)",

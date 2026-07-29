@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ansible-released.jpeg",
+          "title": "Red Hat",
+          "caption": "Josh Hunter, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Ansible (software) (initial release February 20, 2012)",
@@ -66,7 +73,14 @@
         "education"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/raspberry-pi-model-b-released.png",
+          "title": "Raspberry Pi Through History (29408544840)",
+          "caption": "Gareth Halfacree from Bradford, UK, CC BY-SA 2.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Raspberry Pi — News (Model B launch February 2012)",

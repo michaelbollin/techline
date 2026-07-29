@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpp14-standard.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO — ISO/IEC 14882:2014 published (December 2014)",

@@ -30,7 +30,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chrome-for-android-released.svg",
+          "title": "Google Chrome",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Chrome Blog — Chrome for Android (June 27, 2012)",
@@ -85,7 +92,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/coinbase-founded.jpg",
+          "title": "Boss politics antitrust",
+          "caption": "gruntzooki, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Coinbase (founded June 2012)",

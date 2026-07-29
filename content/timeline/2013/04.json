@@ -30,7 +30,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/blink-engine-announced.svg",
+          "title": "Blink (browser engine)",
+          "caption": "AG projects, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Chromium Blog — Blink: A rendering engine for the Chromium project (April 3, 2013)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s4-released.svg",
+          "title": "Samsung Galaxy S4",
+          "caption": "Samsung Electronics, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S4 released — launch",

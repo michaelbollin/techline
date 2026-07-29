@@ -30,7 +30,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-4-1-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-4.1 (April 14, 2025)",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openai-o3-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing o3 and o4-mini (April 16, 2025)",
@@ -130,7 +144,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/llama-4-released.svg",
+          "title": "LLaMA",
+          "caption": "Meta Platforms, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Meta — The Llama 4 herd (April 5, 2025)",
@@ -180,7 +201,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/qwen-3-released.svg",
+          "title": "Alibaba Group",
+          "caption": "Zeng Liansong, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Qwen — Qwen3: Think Deeper, Act Faster (April 28, 2025)",

@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cobol-specifications-submitted.jpg",
+          "title": "COBOL",
+          "caption": "James S. Davis, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CODASYL — COBOL Report (April 1960, specs dated Dec 1959)",

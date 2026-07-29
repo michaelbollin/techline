@@ -1,5 +1,6 @@
 import { EventDetailSection } from "@/components/timeline/event-detail-section";
 import { EventInlineImage } from "@/components/timeline/event-inline-image";
+import { EventModalAsideImage } from "@/components/timeline/event-modal-aside-image";
 import { NarrativeBlock } from "@/components/timeline/narrative-block";
 import { MediaList } from "@/components/timeline/media-list";
 import { cn } from "@/lib/cn";
@@ -50,34 +51,36 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
     const impactLine = normalizeParagraph(event.narrative.whyImportant);
 
     return (
-      <div className="space-y-8">
-        <EventDetailSection title="What it is">
-          <div className="space-y-3">
-            {whatItIs.map((paragraph, index) => (
-              <p
-                key={paragraph}
-                className={cn(
-                  "text-sm leading-relaxed text-foreground",
-                  paragraph === impactLine && "font-semibold",
-                  index === 0 && "overflow-hidden",
-                )}
-              >
-                {index === 0 && <EventInlineImage media={event.media} size="sm" />}
-                {paragraph}
-              </p>
-            ))}
-          </div>
-        </EventDetailSection>
+      <div className="flex flex-col gap-8 sm:flex-row sm:items-start">
+        <div className="min-w-0 flex-1 space-y-8">
+          <EventDetailSection title="What it is">
+            <div className="space-y-3">
+              {whatItIs.map((paragraph) => (
+                <p
+                  key={paragraph}
+                  className={cn(
+                    "text-sm leading-relaxed text-foreground",
+                    paragraph === impactLine && "font-semibold",
+                  )}
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </EventDetailSection>
 
-        <EventDetailSection title="What it solved">
-          <p className="text-sm leading-relaxed text-foreground">{whatItSolved}</p>
-        </EventDetailSection>
+          <EventDetailSection title="What it solved">
+            <p className="text-sm leading-relaxed text-foreground">{whatItSolved}</p>
+          </EventDetailSection>
 
-        {references.length > 0 && (
-          <div className="border-t border-black/10 pt-4">
-            <SourceLinks sources={references} />
-          </div>
-        )}
+          {references.length > 0 && (
+            <div className="border-t border-black/10 pt-4">
+              <SourceLinks sources={references} />
+            </div>
+          )}
+        </div>
+
+        <EventModalAsideImage media={event.media} className="hidden sm:block" />
       </div>
     );
   }

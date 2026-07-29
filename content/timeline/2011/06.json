@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chromebook-retail-launched.jpg",
+          "title": "Chromebook",
+          "caption": "Pmsyyz, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Blog — Chromebooks for everyone (June 2011)",
@@ -71,7 +78,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/laravel-first-beta.svg",
+          "title": "Laravel",
+          "caption": "Laravel, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Laravel (initial release June 2011)",
@@ -118,7 +132,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/firefox-5-released.jpg",
+          "title": "Firefox Extensions",
+          "caption": "Pentadact, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla Blog — Firefox 5 released (June 21, 2011)",
@@ -175,7 +196,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/css-2-1-w3c-recommendation.svg",
+          "title": "Cascading Style Sheets",
+          "caption": "daPhyre (File:CSS3 and HTML5 logos and wordmarks.svg) Elfi (File:CSS3 logo and wordmark.svg) ExE Boss, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "W3C — CSS 2.1 Recommendation press release (June 7, 2011)",

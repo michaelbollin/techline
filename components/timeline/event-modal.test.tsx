@@ -4,10 +4,10 @@ import { describe, expect, it, vi } from "vitest";
 
 import { EventModal } from "./event-modal";
 
-const back = vi.fn();
+const push = vi.fn();
 
 vi.mock("next/navigation", () => ({
-  useRouter: () => ({ back }),
+  useRouter: () => ({ push }),
 }));
 
 describe("EventModal", () => {
@@ -24,25 +24,25 @@ describe("EventModal", () => {
     expect(screen.getByText("Event body")).toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "Close event details" }));
-    expect(back).toHaveBeenCalledTimes(1);
+    expect(push).toHaveBeenCalledWith("/", { scroll: false });
   });
 
   it("closes on Escape and via close button", async () => {
     const user = userEvent.setup();
-    back.mockClear();
+    push.mockClear();
 
     render(
-      <EventModal>
+      <EventModal returnHref="/javascript">
         <p>Details</p>
       </EventModal>,
     );
 
     await user.click(screen.getByRole("button", { name: "Close" }));
-    expect(back).toHaveBeenCalledTimes(1);
+    expect(push).toHaveBeenCalledWith("/javascript", { scroll: false });
 
-    back.mockClear();
+    push.mockClear();
     await user.keyboard("{Escape}");
-    expect(back).toHaveBeenCalledTimes(1);
+    expect(push).toHaveBeenCalledWith("/javascript", { scroll: false });
   });
 
   it("locks body scroll while open", () => {

@@ -14,3 +14,10 @@ export function getEventBySlug(
 ): TimelineEvent | undefined {
   return events.find((event) => event.slug === slug);
 }
+
+export function getEventById(
+  events: readonly TimelineEvent[],
+  id: string,
+): TimelineEvent | undefined {
+  return events.find((event) => event.id === id);
+}

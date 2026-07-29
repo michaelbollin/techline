@@ -23,7 +23,14 @@
         "microcontroller"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/esp8266-released.jpg",
+          "title": "ESP8266",
+          "caption": "Laserlicht, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Espressif — ESP8266 documentation (module availability 2014)",

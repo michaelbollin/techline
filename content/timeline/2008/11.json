@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/asana-launched.svg",
+          "title": "Asana (software)",
+          "caption": "Asana, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Asana (software) (founded November 2008)",

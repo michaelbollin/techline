@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/metamask-released.svg",
+          "title": "MetaMask",
+          "caption": "MetaMask, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — MetaMask (released 2016)",

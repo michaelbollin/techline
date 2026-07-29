@@ -30,7 +30,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/deepseek-v3-released.svg",
+          "title": "DeepSeek",
+          "caption": "DeepSeek, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "DeepSeek — DeepSeek-V3 release (December 26, 2024)",
@@ -79,7 +86,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-gemini-2-0-released.svg",
+          "title": "Gemini (language model)",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google — Introducing Gemini 2.0 (December 11, 2024)",
@@ -128,7 +142,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/openai-o3-announced.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Early access for safety testing: o3 and o3-mini (December 20, 2024)",
@@ -176,7 +197,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/react-19-released.svg",
+          "title": "React (software)",
+          "caption": "Meta Platforms, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "React — React v19 (December 5, 2024)",
@@ -223,7 +251,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sora-released.svg",
+          "title": "Sora (text-to-video model)",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Sora is here (December 9, 2024)",

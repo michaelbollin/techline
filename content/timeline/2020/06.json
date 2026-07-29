@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-2020-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Plest, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ecma International — ECMAScript 2020 adopted (June 2020)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-3-api-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — OpenAI API (June 11, 2020)",
@@ -122,7 +136,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sanfilippo-redis-maintainer-steps-down.png",
+          "title": "Salvatore Sanfilippo",
+          "caption": "dotconferences, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "antirez — Stepping down (June 30, 2020)",
@@ -169,7 +190,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/drupal-9-released.png",
+          "title": "Drupal",
+          "caption": "Unknown authorUnknown author, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Drupal.org — Drupal 9.0.0 released (June 3, 2020)",
@@ -212,7 +240,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/compound-governance-token-launched.svg",
+          "title": "Compound (company)",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Compound Digest — COMP distribution begins (June 15, 2020)",

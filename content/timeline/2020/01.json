@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ccpa-effective.svg",
+          "title": "California Consumer Privacy Act",
+          "caption": "Original uploader was Zscout370 at en.wikipedia, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "California Attorney General — CCPA effective January 1, 2020",
@@ -63,7 +70,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/python-2-end-of-life.svg",
+          "title": "Python (programming language)",
+          "caption": "™/®Python Software Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Sunsetting Python 2 (January 1, 2020)",
@@ -115,7 +129,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/edge-chromium-released.svg",
+          "title": "Microsoft Edge",
+          "caption": "Microsoft Corporation, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — New year, new browser (January 15, 2020)",
@@ -156,7 +177,14 @@
         "headless"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopware-6-1-released.png",
+          "title": "Shopware",
+          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Shopware — 6.1.0 changelog (January 15, 2020)",
@@ -204,7 +232,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/playwright-announced.svg",
+          "title": "Playwright (software)",
+          "caption": "Microsoft, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "InfoQ — Playwright browser automation (January 31, 2020)",
@@ -251,7 +286,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/playwright-released.svg",
+          "title": "Playwright (software)",
+          "caption": "Microsoft, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Playwright (initial release January 31, 2020)",

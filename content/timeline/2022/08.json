@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-z-fold-4-released.jpg",
+          "title": "Samsung Galaxy Z Fold 4",
+          "caption": "Hajoon0102, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Z Fold 4 released — launch",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chips-and-science-act-signed.svg",
+          "title": "CHIPS and Science Act",
+          "caption": "Uploaded by Dbenbenn; edited by users such as Zscout370, Jacobolus, Indolences, and Technion., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Congress.gov — CHIPS and Science Act of 2022 (signed August 9, 2022)",

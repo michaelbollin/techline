@@ -28,7 +28,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nestjs-announced.svg",
+          "title": "NestJS",
+          "caption": "Kamil Mysliwiec, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — NestJS (initial release Feb 26, 2017)",
@@ -70,7 +77,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/webassembly-mvp-finished.svg",
+          "title": "WebAssembly",
+          "caption": "Carlos Baraza, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — WebAssembly MVP finished March 2017",

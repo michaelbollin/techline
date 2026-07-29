@@ -34,7 +34,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/yann-lecun-meta-chief-ai.jpg",
+          "title": "Yann LeCun",
+          "caption": "Jérémy Barande, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "The Verge — LeCun becomes chief AI scientist (January 23, 2018)",
@@ -74,7 +81,14 @@
         "flexbox"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bootstrap-4-released.svg",
+          "title": "Bootstrap (front-end framework)",
+          "caption": "Bootstrap, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Bootstrap Blog — Bootstrap 4 (January 18, 2018)",

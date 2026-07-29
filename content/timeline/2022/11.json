@@ -28,7 +28,14 @@
         }
       ],
       "importance": 0,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/chatgpt-released.svg",
+          "title": "ChatGPT",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing ChatGPT (November 30, 2022)",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-7-released.svg",
+          "title": ".NET",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 7 (November 8, 2022)",
@@ -119,7 +133,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/csharp-11-released.svg",
+          "title": "C Sharp (programming language)",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET 7 (November 8, 2022)",
@@ -160,7 +181,14 @@
         "jakarta"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/spring-boot-3-0-released.svg",
+          "title": "Spring Boot",
+          "caption": "Pivotal Software, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub — spring-projects/spring-boot v3.0.0 (November 24, 2022)",
@@ -203,7 +231,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ftx-bankruptcy-filed.jpg",
+          "title": "Cryptocurrency Apps screenshot",
+          "caption": "joncutrer, CC0 1.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. Bankruptcy Court — FTX Trading Ltd. Chapter 11 filing (November 11, 2022)",

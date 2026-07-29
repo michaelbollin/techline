@@ -23,9 +23,10 @@
       "importance": 5,
       "media": [
         {
-          "type": "link",
-          "url": "https://www-formal.stanford.edu/jmc/history/lisp/node3.html",
-          "title": "McCarthy — The implementation of LISP"
+          "type": "image",
+          "url": "/media/timeline/lisp-first-interpreter.jpg",
+          "title": "Lisp (programming language)",
+          "caption": "\"null0\", CC BY-SA 2.0, via Wikimedia Commons"
         }
       ],
       "sources": [

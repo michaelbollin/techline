@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nodejs-22-released.svg",
+          "title": "Node.js",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Node.js — Node v22.0.0 (April 24, 2024)",
@@ -72,7 +79,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/llama-3-released.svg",
+          "title": "LLaMA",
+          "caption": "Meta Platforms, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Meta AI — Introducing Meta Llama 3 (April 18, 2024)",

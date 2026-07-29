@@ -21,7 +21,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ruby-3-0-released.svg",
+          "title": "Ruby (programming language)",
+          "caption": "Yukihiro Matsumoto, Ruby Visual Identity Team, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ruby-lang.org — Ruby 3.0.0 released (December 25, 2020)",
@@ -62,7 +69,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpp20-standard.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO — ISO/IEC 14882:2020 published (December 2020)",
@@ -109,7 +123,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/flash-player-discontinued.svg",
+          "title": "Adobe Flash",
+          "caption": "Adobe, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Adobe — Flash Player End of Life (December 31, 2020)",
@@ -156,7 +177,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ftc-sues-meta-antitrust.svg",
+          "title": "Federal Trade Commission",
+          "caption": "Tiffany &amp; Co., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FTC — FTC sues Facebook to unwind Instagram and WhatsApp acquisitions (December 9, 2020)",
@@ -199,7 +227,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/solarwinds-hack-disclosed.jpg",
+          "title": "Screensaver Solarwinds",
+          "caption": "Screensaver author, screenshot by me, CC BY-SA 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "FireEye — Highly Evasive Attacker Leverages SolarWinds Supply Chain (December 13, 2020)",

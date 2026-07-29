@@ -52,6 +52,57 @@ export function computeZoomToYear(
   );
 }
 
+export function decadeTimeRange(decadeStart: number): [number, number] {
+  const clampedStart = Math.min(
+    Math.max(decadeStart, Math.floor(TIMELINE_YEAR_MIN / 10) * 10),
+    Math.floor(TIMELINE_YEAR_MAX / 10) * 10,
+  );
+  const start = Date.parse(`${clampedStart}-01-01T00:00:00Z`);
+  const end = Date.parse(`${clampedStart + 10}-01-01T00:00:00Z`) - 1;
+  const [tMin, tMax] = TIMELINE_EXTENT;
+
+  return [Math.max(start, tMin), Math.min(end, tMax)];
+}
+
+export function computeZoomToDecade(
+  width: number,
+  extent: [number, number],
+  decadeStart: number,
+): d3.ZoomTransform {
+  const range = decadeTimeRange(decadeStart);
+  const unclamped = computeTransformForTimeRange(width, extent, range);
+  const clamped = clampZoomTransform(unclamped, width, extent);
+  const clampChanged =
+    Math.abs(clamped.k - unclamped.k) > 1e-6 || Math.abs(clamped.x - unclamped.x) > 0.5;
+
+  // #region agent log
+  fetch("http://127.0.0.1:7352/ingest/5bfcc10a-fce2-49b9-8546-76ee58c2e162", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "db8903" },
+    body: JSON.stringify({
+      sessionId: "db8903",
+      runId: "post-fix",
+      hypothesisId: "B-D",
+      location: "zoom.ts:computeZoomToDecade",
+      message: "computed decade transform",
+      data: {
+        decadeStart,
+        range,
+        width,
+        unclampedK: unclamped.k,
+        unclampedX: unclamped.x,
+        clampedK: clamped.k,
+        clampedX: clamped.x,
+        clampChanged,
+      },
+      timestamp: Date.now(),
+    }),
+  }).catch(() => {});
+  // #endregion
+
+  return clamped;
+}
+
 export function visibleInnerTimeRange(
   transform: d3.ZoomTransform,
   width: number,

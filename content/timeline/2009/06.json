@@ -30,7 +30,14 @@
       ],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/less-1-0-released.svg",
+          "title": "Less (style sheet language)",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Usability Post — Introducing LESS: a Better CSS (June 16, 2009)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-3gs-released.png",
+          "title": "IPhone 3GS",
+          "caption": "JoBot164, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 3GS released — launch",
@@ -127,7 +141,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-n97-released.png",
+          "title": "Nokia N97",
+          "caption": "Nokia_n97_mobile_phone_.JPG: 3dh3m derivative work: TheAdam0s (talk), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia N97 released — launch",
@@ -168,7 +189,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/php-5-3-released.svg",
+          "title": "PHP",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "PHP.net — PHP 5.3.0 released (June 30, 2009)",

@@ -19,7 +19,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/python-3-12-released.svg",
+          "title": "Python (programming language)",
+          "caption": "™/®Python Software Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Python 3.12.0 released (October 2, 2023)",
@@ -67,7 +74,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-pixel-8-released.svg",
+          "title": "Google Pixel",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Pixel 8 released — launch",

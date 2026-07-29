@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-z-fold-6-released.png",
+          "title": "Samsung Galaxy Z Fold 6",
+          "caption": "Mandy Harper, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Z Fold 6 released — launch",

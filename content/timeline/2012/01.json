@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/joomla-2-5-released.png",
+          "title": "Joomla",
+          "caption": "Franz.wohlkoenig, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Joomla Downloads — Joomla 2.5.0 (January 24, 2012)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sopa-pipa-internet-blackout.svg",
+          "title": "Stop Online Piracy Act",
+          "caption": "U.S. Government, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — SOPA initiative (January 18, 2012 blackout)",

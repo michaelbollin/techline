@@ -21,7 +21,14 @@
         "browser"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-2023-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Plest, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ecma International — ECMAScript 2023 adopted (June 2023)",

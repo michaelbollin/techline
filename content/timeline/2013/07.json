@@ -32,7 +32,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/opera-chromium-switch.svg",
+          "title": "Opera (web browser)",
+          "caption": "Opera, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Opera — Opera 15 with Chromium (May 2013)",
@@ -73,7 +80,14 @@
         "open-source"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eslint-released.svg",
+          "title": "ESLint",
+          "caption": "Nicholas C. Zakas. The original uploader was Golopotw at English Wikipedia.. Later version(s) were uploaded by Begoon at en.wikipedia., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nicholas Zakas — Introducing ESLint (July 16, 2013)",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 9,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nokia-lumia-1020-released.jpg",
+          "title": "Nokia Lumia 1020",
+          "caption": "Cryonic07, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nokia Lumia 1020 released — launch",

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/java-8-released.jpg",
+          "title": "James Gosling",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenJDK — JDK 8 General Availability (March 18, 2014)",

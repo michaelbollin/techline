@@ -22,7 +22,14 @@
         "build-tool"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/webpack-5-released.svg",
+          "title": "Webpack",
+          "caption": "OpenJS Foundation, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Webpack — Webpack 5 release (October 10, 2020)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-pixel-5-released.svg",
+          "title": "Google Pixel",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Pixel 5 released — launch",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-12-released.svg",
+          "title": "IPhone 12",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 12 released — launch",

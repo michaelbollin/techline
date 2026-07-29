@@ -31,7 +31,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-gemini-2-5-pro-released.svg",
+          "title": "Gemini (language model)",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google — Gemini 2.5: our newest Gemini model with thinking (March 25, 2025)",

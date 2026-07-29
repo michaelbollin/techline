@@ -28,7 +28,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/swift-announced.svg",
+          "title": "Swift (programming language)",
+          "caption": "Apple Inc, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Swift (announced June 2, 2014 at WWDC)",
@@ -68,7 +75,14 @@
       "people": [],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/crystal-0-1-0-released.svg",
+          "title": "Crystal (programming language)",
+          "caption": "Manas Technology Solutions, Apache License 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Crystal Lang — Crystal 0.1.0 released (June 19, 2014)",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kubernetes-open-sourced.svg",
+          "title": "Kubernetes",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Kubernetes Blog — 10 Years of Kubernetes (announced June 10, 2014)",
@@ -169,7 +190,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ian-goodfellow-gan-invented.jpg",
+          "title": "Ian Goodfellow",
+          "caption": "Ian Goodfellow, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "arXiv — Generative Adversarial Networks (June 2014)",

@@ -30,7 +30,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-17-released.svg",
+          "title": "IPhone",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Apple debuts iPhone 17 (September 9, 2025)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sora-2-released.svg",
+          "title": "Sora (text-to-video model)",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Sora 2 is here (September 30, 2025)",

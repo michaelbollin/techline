@@ -20,7 +20,14 @@
         "web-framework"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/symfony-3-released.png",
+          "title": "Symfony",
+          "caption": "Javier.eguiluz, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Symfony Blog — Symfony 3.0.0 released (November 30, 2015)",
@@ -62,7 +69,14 @@
         "iot"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/raspberry-pi-zero-released.png",
+          "title": "Raspberry Pi Through History (29408544840)",
+          "caption": "Gareth Halfacree from Bradford, UK, CC BY-SA 2.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Raspberry Pi — Pi Zero launch (November 26, 2015)",
@@ -109,7 +123,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tensorflow-open-sourced.svg",
+          "title": "TensorFlow",
+          "caption": "Google LLC, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Research — TensorFlow open sourced (November 9, 2015)",
@@ -157,7 +178,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/drupal-8-released.png",
+          "title": "Drupal",
+          "caption": "Unknown authorUnknown author, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Drupal.org — Drupal 8.0.0 released (November 19, 2015)",
@@ -197,7 +225,14 @@
         "web"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/magento-2-0-released.svg",
+          "title": "Magento",
+          "caption": "© 2019 Magento., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GitHub — magento/magento2 v2.0.0 (November 17, 2015)",
@@ -238,7 +273,14 @@
         "cdn"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jamstack-term-coined.svg",
+          "title": "Netlify",
+          "caption": "Netlify, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Netlify Blog — What is the JAMstack? (November 16, 2015)",
@@ -281,7 +323,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/erc-20-token-standard-finalized.svg",
+          "title": "Ethereum",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "EIPs — EIP-20: Token Standard (final November 19, 2015)",

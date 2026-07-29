@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "richard-hamming-error-correcting-codes",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/richard-hamming-error-correcting-codes.jpg",
+          "title": "Bell Labs",
+          "caption": "derivative work: MBisanz talk Bell_Labs_Holmdel,_The_Oval2.png: *derivative work: MBisanz talk Bell_Labs_Holmdel,_The_Oval.jpg: Lee Beaumont, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

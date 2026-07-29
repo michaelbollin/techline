@@ -23,7 +23,10 @@ export function useTimelineFilterZoomVertical({
   fulltextQuery,
   animateTo,
 }: UseTimelineFilterZoomVerticalOptions) {
-  const hasInitialized = useRef(false);
+  const animateToRef = useRef(animateTo);
+  animateToRef.current = animateTo;
+
+  const previousFilterKeyRef = useRef<string | undefined>(undefined);
   const filterKey = useMemo(
     () => filterSignature(activeFilterIds, fulltextQuery),
     [activeFilterIds, fulltextQuery],
@@ -34,27 +37,31 @@ export function useTimelineFilterZoomVertical({
       return;
     }
 
-    if (hasActiveFilters(activeFilterIds, fulltextQuery)) {
+    const previousKey = previousFilterKeyRef.current;
+    const filterKeyChanged = previousKey !== undefined && previousKey !== filterKey;
+    previousFilterKeyRef.current = filterKey;
+
+    const filtered = hasActiveFilters(activeFilterIds, fulltextQuery);
+
+    if (filtered) {
       if (plotted.length === 0) {
         return;
       }
 
-      animateTo(computeZoomToEventsVertical(height, TIMELINE_EXTENT, plotted, { tight: true }));
-      hasInitialized.current = true;
-      return;
-    }
-
-    if (!hasInitialized.current) {
-      if (plotted.length > 0) {
-        hasInitialized.current = true;
+      if (previousKey === undefined || filterKeyChanged) {
+        animateToRef.current(
+          computeZoomToEventsVertical(height, TIMELINE_EXTENT, plotted, { tight: true }),
+        );
       }
       return;
     }
 
-    if (plotted.length === 0) {
+    if (previousKey === undefined) {
       return;
     }
 
-    animateTo(computeFitTransformVertical(height, TIMELINE_EXTENT));
-  }, [activeFilterIds, animateTo, filterKey, fulltextQuery, height, plotted]);
+    if (filterKeyChanged && plotted.length > 0) {
+      animateToRef.current(computeFitTransformVertical(height, TIMELINE_EXTENT));
+    }
+  }, [activeFilterIds, filterKey, fulltextQuery, plotted, height]);
 }

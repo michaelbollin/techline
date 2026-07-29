@@ -30,7 +30,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s10-released.png",
+          "title": "Samsung Galaxy S10",
+          "caption": "FarihF10, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S10 released — launch",
@@ -54,7 +61,14 @@
     },
     {
       "slug": "fei-fei-li-stanford-hai",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fei-fei-li-stanford-hai.jpg",
+          "title": "Fei-Fei Li",
+          "caption": "ITU Pictures, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "fei-fei-li-imagenet-dataset-launched"
       ],

@@ -19,7 +19,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/python-3-10-released.svg",
+          "title": "Python (programming language)",
+          "caption": "™/®Python Software Foundation, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Python 3.10.0 released (October 4, 2021)",
@@ -56,7 +63,14 @@
         "programming-language"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rust-2021-edition.svg",
+          "title": "Rust (programming language)",
+          "caption": "™/®Rust Foundation, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Rust Blog — Rust 2021 edition guide (October 21, 2021)",
@@ -104,7 +118,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-pixel-6-released.svg",
+          "title": "Google Pixel",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Pixel 6 released — launch",

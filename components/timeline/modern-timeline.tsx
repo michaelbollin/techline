@@ -1,7 +1,7 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
@@ -10,6 +10,7 @@ import { useTimelinePlot } from "@/hooks/use-timeline-plot";
 import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
 import {
+  TIMELINE_AXIS_STROKE_WIDTH,
   TIMELINE_EVENT_DETAIL_OFFSET,
   TIMELINE_INK,
 } from "@/lib/timeline/constants";
@@ -39,6 +40,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const svgRef = useRef<SVGSVGElement>(null);
   const { width, height } = useContainerSize(containerRef);
   const router = useRouter();
+  const pathname = usePathname();
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
@@ -67,7 +69,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     hovered,
   });
 
-  const { filteredEvents, plotted, axisY, getAxisY, xScale, labelLayout, stemStartY, labelNodes } =
+  const { filteredEvents, plotted, axisY, getAxisY, xScale, labelLayout, dotLayout, stemStartY, labelNodes } =
     plot;
 
   useTimelineFilterZoom({
@@ -78,7 +80,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     animateTo,
   });
 
-  const { resetView, zoomToYear, panEarlier, panLater, showPanEarlier, showPanLater } =
+  const { resetView, zoomToYear, zoomToDecade, panEarlier, panLater, showPanEarlier, showPanLater } =
     useTimelineViewActions({
       width,
       transform,
@@ -101,12 +103,24 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     router.push(eventPath(event.slug, { filterPathKey }), { scroll: false });
   };
 
+  const handleLogoClick = useCallback(
+    (event: MouseEvent<HTMLAnchorElement>) => {
+      event.preventDefault();
+      resetView();
+      setHovered(null);
+      if (pathname !== "/") {
+        router.push("/", { scroll: false });
+      }
+    },
+    [pathname, resetView, router],
+  );
+
   return (
     <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
       <div className="flex min-h-0 flex-1">
         <div className="flex min-h-0 min-w-0 flex-1 flex-col">
           <header className="flex min-h-10 shrink-0 items-center py-5 pr-[3.75rem] pb-4 pl-6 sm:pl-8 sm:pr-[4.25rem]">
-            <SiteBrand className="shrink-0" />
+            <SiteBrand className="shrink-0" onClick={handleLogoClick} />
           </header>
 
           <div ref={containerRef} className="relative min-h-0 flex-1">
@@ -132,9 +146,15 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                     width={width}
                     getAxisY={getAxisY}
                     onYearClick={zoomToYear}
+                    onDecadeClick={zoomToDecade}
                   />
 
-                  <path d={axisPath} fill="none" stroke={TIMELINE_INK} strokeWidth={1.5} />
+                  <path
+                    d={axisPath}
+                    fill="none"
+                    stroke={TIMELINE_INK}
+                    strokeWidth={TIMELINE_AXIS_STROKE_WIDTH}
+                  />
 
                   <g className="timeline-stems" pointerEvents="none">
                     {labelNodes.map((event) => {
@@ -154,18 +174,24 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                   </g>
 
                   <g className="timeline-dots">
-                    {plotted.map((event) => (
-                      <TimelineNodeDot
-                        key={`dot-${event.id}`}
-                        event={event}
-                        xScale={xScale}
-                        getAxisY={getAxisY}
-                        showLabel={labelLayout.get(event.id)?.showLabel ?? false}
-                        isHovered={hovered?.id === event.id}
-                        onHover={setHovered}
-                        onClick={() => openEvent(event)}
-                      />
-                    ))}
+                    {plotted.map((event) => {
+                      if (!dotLayout.get(event.id)?.showDot) {
+                        return null;
+                      }
+
+                      return (
+                        <TimelineNodeDot
+                          key={`dot-${event.id}`}
+                          event={event}
+                          xScale={xScale}
+                          getAxisY={getAxisY}
+                          showLabel={labelLayout.get(event.id)?.showLabel ?? false}
+                          isHovered={hovered?.id === event.id}
+                          onHover={setHovered}
+                          onClick={() => openEvent(event)}
+                        />
+                      );
+                    })}
                   </g>
 
                   <g className="timeline-labels">
@@ -188,7 +214,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
             )}
 
             {hovered && width > 0 && (
-              <TimelineEventDetail event={hovered} top={detailTop} />
+              <TimelineEventDetail key={hovered.id} event={hovered} top={detailTop} />
             )}
 
             <TimelinePanArrows

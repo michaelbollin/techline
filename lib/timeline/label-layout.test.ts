@@ -24,9 +24,19 @@ describe("resolveLabelLayout", () => {
     expect(layout.get("edge")?.showLabel).toBe(false);
   });
 
-  it("hides labels above importance threshold", () => {
+  it("shows lower-importance labels when there is axis room", () => {
     const events = [makePlottedEvent({ id: "minor", importance: 9, timestamp: 500_000_000 })];
     const layout = resolveLabelLayout(events, x, 3, 1000, 3, widthFor);
+    expect(layout.get("minor")?.showLabel).toBe(true);
+  });
+
+  it("still hides lower-importance labels when they would overlap", () => {
+    const events = [
+      makePlottedEvent({ id: "major", importance: 1, timestamp: 500_000_000 }),
+      makePlottedEvent({ id: "minor", importance: 9, timestamp: 500_010_000 }),
+    ];
+    const layout = resolveLabelLayout(events, x, 3, 2000, 1, () => 200);
+    expect(layout.get("major")?.showLabel).toBe(true);
     expect(layout.get("minor")?.showLabel).toBe(false);
   });
 

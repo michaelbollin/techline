@@ -32,7 +32,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/kotlin-2-0-released.svg",
+          "title": "Kotlin (programming language)",
+          "caption": "JetBrains, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "JetBrains — Kotlin 2.0.0 released (May 21, 2024)",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-4o-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-4o (May 13, 2024)",
@@ -124,7 +138,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/erlang-otp-27-released.svg",
+          "title": "Erlang (programming language)",
+          "caption": "Unknown authorUnknown author, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Erlang.org — OTP 27.0 released (May 20, 2024)",

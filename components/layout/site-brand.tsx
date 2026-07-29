@@ -1,16 +1,19 @@
 import Link from "next/link";
+import type { MouseEventHandler } from "react";
 
 import { cn } from "@/lib/cn";
 import { SITE_TAGLINE, SITE_WORDMARK } from "@/lib/site";
 
 type SiteBrandProps = {
   className?: string;
+  onClick?: MouseEventHandler<HTMLAnchorElement>;
 };
 
-export function SiteBrand({ className }: SiteBrandProps) {
+export function SiteBrand({ className, onClick }: SiteBrandProps) {
   return (
     <Link
       href="/"
+      onClick={onClick}
       className={cn(
         "flex items-center gap-5 text-inherit no-underline sm:gap-6 md:gap-7",
         className,

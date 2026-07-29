@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "hinton-alexnet-imagenet-breakthrough",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hinton-alexnet-imagenet-breakthrough.svg",
+          "title": "AlexNet",
+          "caption": "Zhang, Aston and Lipton, Zachary C. and Li, Mu and Smola, Alexander J., CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "fei-fei-li-imagenet-dataset-launched"
       ],
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-5-released.svg",
+          "title": "IPhone 5",
+          "caption": "Dega180, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 5 released — launch",
@@ -126,7 +140,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-2-released.png",
+          "title": "Samsung Galaxy Note II",
+          "caption": "GadgetsGuy, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note II released — launch",
@@ -169,7 +190,14 @@
         "open-source"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/joomla-3-0-released.png",
+          "title": "Joomla",
+          "caption": "Franz.wohlkoenig, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Joomla Downloads — Joomla 3.0.0 (September 27, 2012)",
@@ -212,7 +240,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/zoom-launched.png",
+          "title": "Zoom (software)",
+          "caption": "English: Andrew Krizhanovsky Русский: Андрей Крижановский, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Zoom Video Communications (software launch September 10, 2012)",

@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/typescript-5-0-released.svg",
+          "title": "TypeScript",
+          "caption": "™/®Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing TypeScript 5.0 (March 20, 2023)",
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-4-released.svg",
+          "title": "GPT-4",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — GPT-4 (March 14, 2023)",
@@ -121,7 +135,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gpt-3-5-turbo-released.svg",
+          "title": "OpenAI",
+          "caption": "OpenAI, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenAI — Introducing ChatGPT and Whisper APIs (March 1, 2023)",
@@ -164,7 +185,14 @@
       "people": [],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ghc-9-6-released.svg",
+          "title": "Glasgow Haskell Compiler",
+          "caption": "Darrin A Thompson; Jeffrey Wheeler, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Haskell.org — GHC 9.6.1 released (March 21, 2023)",
@@ -212,7 +240,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cursor-released.svg",
+          "title": "Visual Studio Code",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Cursor — Changelog v0.0.37 public release (March 14, 2023)",
@@ -255,7 +290,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/silicon-valley-bank-collapse.jpg",
+          "title": "Silicon Valley Bank",
+          "caption": "Minh Nguyen, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FDIC — Silicon Valley Bank closed (March 10, 2023)",

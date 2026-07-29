@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ghost-released.svg",
+          "title": "Ghost (blogging platform)",
+          "caption": "Ryan Dahl, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ghost Blog — Ghost launches to the public (October 14, 2013)",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-11-released.png",
+          "title": "Internet Explorer 11",
+          "caption": "Enterprise B, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer 11 for Windows 7 available (November 7, 2013; Windows 8.1 launch October 17, 2013)",
@@ -120,7 +134,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/safari-7-released.svg",
+          "title": "Safari (web browser)",
+          "caption": "Apple, LGPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — OS X Mavericks available today (October 22, 2013)",
@@ -169,7 +190,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nexus-5-released.png",
+          "title": "Nexus 5",
+          "caption": "Google Android, CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Nexus 5 released — launch",

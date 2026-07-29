@@ -30,7 +30,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/beeple-everydays-nft-sale.png",
+          "title": "Mike Winkelmann",
+          "caption": "Winkelmann, Mike., CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Christie's — Everydays: The First 5000 Days sale record (March 11, 2021)",

@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dotnet-framework-4-5-released.svg",
+          "title": ".NET Framework",
+          "caption": "Microsoft, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Announcing .NET Framework 4.5 (August 15, 2012)",
@@ -70,7 +77,14 @@
         "web"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/shopware-open-sourced.png",
+          "title": "Shopware",
+          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Shopware (AGPL with version 4.0, August 28, 2012)",

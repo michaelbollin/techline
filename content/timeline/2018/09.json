@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phoenix-liveview-released.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Elixir Blog — Phoenix LiveView announcement (September 4, 2018)",
@@ -65,7 +72,14 @@
         "open-source"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cypress-out-of-beta.png",
+          "title": "Cypress (software)",
+          "caption": "Cypress.io, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Cypress Blog — Cypress is officially out of beta (September 20, 2018)",
@@ -113,7 +127,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-xs-released.svg",
+          "title": "IPhone XS",
+          "caption": "Rafael Fernandez, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone XS released — launch",
@@ -163,7 +184,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/java-11-released.jpg",
+          "title": "Java (programming language)",
+          "caption": "Peter Campbell, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "OpenJDK — JDK 11 General Availability (September 25, 2018)",

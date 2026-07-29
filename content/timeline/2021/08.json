@@ -22,7 +22,14 @@
         "open-source"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/joomla-4-released.png",
+          "title": "Joomla",
+          "caption": "Franz.wohlkoenig, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Joomla.org — Joomla 4.0 and 3.10 are here (August 17, 2021)",
@@ -71,7 +78,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-z-fold-3-released.jpg",
+          "title": "Samsung Galaxy Z Fold 3",
+          "caption": "Ka Kit Pang, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Z Fold 3 released — launch",

@@ -29,7 +29,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cypress-open-sourced.png",
+          "title": "Cypress (software)",
+          "caption": "Cypress.io, MIT, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Cypress Blog — Cypress is now public beta (October 10, 2017)",
@@ -78,7 +85,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/google-pixel-2-released.svg",
+          "title": "Google Pixel",
+          "caption": "Google, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Google Pixel 2 released — launch",

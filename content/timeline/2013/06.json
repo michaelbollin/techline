@@ -22,7 +22,14 @@
         "twig"
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/craft-cms-released.svg",
+          "title": "PHP",
+          "caption": "Colin Viebrock, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "CraftEntries — Craft CMS 1.0 (June 4, 2013)",
@@ -73,7 +80,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/snowden-nsa-revelations.jpg",
+          "title": "Edward Snowden",
+          "caption": "https://www.youtube.com/user/TheWikiLeaksChannel, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "The Guardian — NSA collecting phone records of millions (June 5, 2013)",

@@ -25,7 +25,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/browserify-released.jpg",
+          "title": "Jake giving a talk on browserify at #WAPRO #LBtech #nodejs #welabs #longbeach",
+          "caption": "danboarder, CC BY 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "npm — browserify 0.0.1 published (February 3, 2011)",
@@ -74,7 +81,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/travis-ci-launched.png",
+          "title": "Travis CI",
+          "caption": "YungFlamingo, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Sven Fuchs — Introducing Travis (February 5, 2011)",
@@ -126,7 +140,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ninja-released.png",
+          "title": "Ninja (build system)",
+          "caption": "Software: VideoLAN, dav1d authors, and developers Screenshot: VulcanSphere, BSD, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ninja-build/ninja — repository created (February 6, 2011)",

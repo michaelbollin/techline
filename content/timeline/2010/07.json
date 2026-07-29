@@ -19,7 +19,14 @@
         "programming-language"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/python-2-7-released.svg",
+          "title": "Python (programming language)",
+          "caption": "www.python.org, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Python 2.7.0 released (July 3, 2010)",
@@ -59,7 +66,14 @@
         "programming-language"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/haskell-2010-standard.svg",
+          "title": "Haskell (programming language)",
+          "caption": "Darrin A Thompson; Jeffrey Wheeler, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Haskell.org — Haskell 2010 report (July 2010)",

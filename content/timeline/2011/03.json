@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elixir-first-release.png",
+          "title": "Elixir (programming language)",
+          "caption": "José Valim, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Elixir timeline — v0.1.0 released March 2, 2011",
@@ -70,7 +77,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/internet-explorer-9-released.png",
+          "title": "Internet Explorer 9",
+          "caption": "Bedienoberfläche des Browsers: Microsoft Corporation Dargestellte Internetseite: Hauptseite der deutschsprachigen Wikipedia, Urheber; für Artikel des Tages: Cymothoa exigua und Engie bzw. siehe hier Bilder auf dieser Internetseite: de:File:Halver-Nicolaikirche1-Asio.JPG, Urheber: Asio otus, Lizenzen: GFDL und CC-by-sa 1.0, 2.0, 2.5 und 3.0, CC BY-SA 3.0 de, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer 9 available to the world (March 14, 2011)",
@@ -117,7 +131,14 @@
         }
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/firefox-4-released.jpg",
+          "title": "Firefox Extensions",
+          "caption": "Pentadact, CC BY-SA 2.0, via flickr"
+        }
+      ],
       "sources": [
         {
           "title": "Mozilla — Firefox 4 is here! (March 22, 2011)",

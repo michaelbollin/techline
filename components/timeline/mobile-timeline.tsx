@@ -1,7 +1,7 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useCallback, useMemo, useRef, useState, type MouseEvent } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useMobileTimelinePlot } from "@/hooks/use-mobile-timeline-plot";
@@ -9,7 +9,7 @@ import { useTimelineFilterZoomVertical } from "@/hooks/use-timeline-filter-zoom-
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
 import { useTimelineViewActionsVertical } from "@/hooks/use-timeline-view-actions-vertical";
 import { useTimelineZoomVertical } from "@/hooks/use-timeline-zoom-vertical";
-import { TIMELINE_INK } from "@/lib/timeline/constants";
+import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_INK } from "@/lib/timeline/constants";
 import { eventPath } from "@/lib/timeline/format";
 import { buildVerticalAxisPath } from "@/lib/timeline/vertical/axis-path";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
@@ -33,6 +33,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
   const svgRef = useRef<SVGSVGElement>(null);
   const { width, height } = useContainerSize(containerRef);
   const router = useRouter();
+  const pathname = usePathname();
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [fulltextQuery, setFulltextQuery] = useState("");
@@ -60,7 +61,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
     hovered: null,
   });
 
-  const { plotted, axisX, getAxisX, yScale, labelLayout, stemStartX, labelNodes } = plot;
+  const { plotted, axisX, getAxisX, yScale, labelLayout, dotLayout, stemStartX, labelNodes } = plot;
 
   const yPosition = useCallback((timestamp: number) => yScale(new Date(timestamp)), [yScale]);
 
@@ -88,12 +89,24 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
     router.push(eventPath(event.slug, { filterPathKey }), { scroll: false });
   };
 
+  const handleLogoClick = useCallback(
+    (event: MouseEvent<HTMLAnchorElement>) => {
+      event.preventDefault();
+      resetView();
+      if (pathname !== "/") {
+        router.push("/", { scroll: false });
+      }
+    },
+    [pathname, resetView, router],
+  );
+
   return (
     <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
       <TimelineHeader
         isOpen={filtersOpen}
         activeCount={activeFilterCount}
         onToggle={() => setFiltersOpen((open) => !open)}
+        onLogoClick={handleLogoClick}
       />
 
       <div ref={containerRef} className="relative min-h-0 flex-1">
@@ -120,7 +133,12 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
                 onYearClick={zoomToYear}
               />
 
-              <path d={axisPath} fill="none" stroke={TIMELINE_INK} strokeWidth={1.5} />
+              <path
+                d={axisPath}
+                fill="none"
+                stroke={TIMELINE_INK}
+                strokeWidth={TIMELINE_AXIS_STROKE_WIDTH}
+              />
 
               <g className="timeline-stems" pointerEvents="none">
                 {labelNodes.map((event) => {
@@ -140,16 +158,22 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
               </g>
 
               <g className="timeline-dots">
-                {plotted.map((event) => (
-                  <MobileTimelineNodeDot
-                    key={`dot-${event.id}`}
-                    event={event}
-                    yScale={yPosition}
-                    getAxisX={getAxisX}
-                    showLabel={labelLayout.get(event.id)?.showLabel ?? false}
-                    onClick={() => openEvent(event)}
-                  />
-                ))}
+                {plotted.map((event) => {
+                  if (!dotLayout.get(event.id)?.showDot) {
+                    return null;
+                  }
+
+                  return (
+                    <MobileTimelineNodeDot
+                      key={`dot-${event.id}`}
+                      event={event}
+                      yScale={yPosition}
+                      getAxisX={getAxisX}
+                      showLabel={labelLayout.get(event.id)?.showLabel ?? false}
+                      onClick={() => openEvent(event)}
+                    />
+                  );
+                })}
               </g>
 
               <g className="timeline-labels">

@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpp17-standard.svg",
+          "title": "C++",
+          "caption": "Jeremy Kratz, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISO — ISO/IEC 14882:2017 published (December 2017)",
@@ -65,7 +72,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/makerdao-dai-launched.svg",
+          "title": "MakerDAO",
+          "caption": "GitR0n1n, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Dai (cryptocurrency) (launched December 18, 2017)",
@@ -107,7 +121,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fcc-net-neutrality-repealed.svg",
+          "title": "Federal Communications Commission",
+          "caption": "Umasankar Arumugam, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FCC — Restoring Internet Freedom Order adopted (December 14, 2017)",

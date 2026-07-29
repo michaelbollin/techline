@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { axisWaveOffset, axisYAt, buildAxisPath } from "./axis-path";
+import { axisWaveOffset, axisYAt, buildAxisPath, buildDecadeBandPath } from "./axis-path";
 
 describe("axisWaveOffset", () => {
   it("returns zero at wave origin", () => {
@@ -26,5 +26,17 @@ describe("buildAxisPath", () => {
     const path = buildAxisPath(120, 200);
     expect(path.startsWith("M 0 ")).toBe(true);
     expect(path).toContain("L 120 ");
+  });
+});
+
+describe("buildDecadeBandPath", () => {
+  it("builds a closed path with a flat bottom and curvy top", () => {
+    const getAxisY = (x: number) => axisYAt(x, 200);
+    const path = buildDecadeBandPath(40, 160, 302, getAxisY);
+
+    expect(path.startsWith("M 40 302")).toBe(true);
+    expect(path).toContain("L 40 200");
+    expect(path).toContain("L 160 ");
+    expect(path.endsWith("302 Z")).toBe(true);
   });
 });

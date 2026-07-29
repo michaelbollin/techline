@@ -248,9 +248,7 @@ export async function loadTimeline(contentDir = CONTENT_DIR): Promise<LoadedTime
   };
 }
 
-export function getEventById(events: TimelineEvent[], id: string): TimelineEvent | undefined {
-  return events.find((event) => event.id === id);
-}
+export { getEventById } from "./routing";
 
 export function getEventsByCategory(
   events: TimelineEvent[],

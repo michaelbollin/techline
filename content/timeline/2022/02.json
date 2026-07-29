@@ -30,7 +30,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-s22-released.png",
+          "title": "Samsung Galaxy S22",
+          "caption": "C4UNTRYB4LL193, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy S22 released — launch",
@@ -81,7 +88,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/meta-stock-crash.svg",
+          "title": "Meta Platforms",
+          "caption": "Meta Platforms, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Meta — Q4 2021 earnings release (February 2, 2022)",

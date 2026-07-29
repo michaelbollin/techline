@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-5s-released.svg",
+          "title": "IPhone 5s",
+          "caption": "Rafael Fernandez, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 5S released — launch",
@@ -80,7 +87,14 @@
         }
       ],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/iphone-5c-released.svg",
+          "title": "IPhone 5c",
+          "caption": "Rafael Fernandez, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "iPhone 5C released — launch",
@@ -132,7 +146,14 @@
         }
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/samsung-galaxy-note-3-released.png",
+          "title": "Samsung Galaxy Note 3",
+          "caption": "GadgetsGuy, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Samsung Galaxy Note 3 released — launch",

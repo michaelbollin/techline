@@ -21,7 +21,14 @@
         "standard"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ecmascript-5-adopted.svg",
+          "title": "ECMAScript",
+          "caption": "Andrejus Ševcovas, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ecma International — ECMAScript 5 approved December 3, 2009",

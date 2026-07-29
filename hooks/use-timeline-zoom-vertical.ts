@@ -57,16 +57,21 @@ export function useTimelineZoomVertical({ width, height, svgRef }: UseTimelineZo
       ])
       .wheelDelta((event) => -event.deltaY * (event.deltaMode === 1 ? 0.05 : 0.002))
       .on("zoom", (event) => {
+        if (!event.sourceEvent) {
+          setTransform(verticalZoomTransform(event.transform));
+          return;
+        }
+
         const clamped = clampZoomTransformVertical(
           verticalZoomTransform(event.transform),
           height,
           TIMELINE_EXTENT,
         );
-
-        if (
+        const needsRedirect =
           Math.abs(clamped.y - event.transform.y) > 0.5 ||
-          Math.abs(clamped.k - event.transform.k) > 1e-6
-        ) {
+          Math.abs(clamped.k - event.transform.k) > 1e-6;
+
+        if (needsRedirect) {
           svg.call(zoom.transform, clamped);
           return;
         }
