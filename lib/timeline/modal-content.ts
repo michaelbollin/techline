@@ -1,6 +1,6 @@
 import type { Source, TimelineEvent } from "./schema";
 
-function normalizeParagraph(value: string): string {
+export function normalizeParagraph(value: string): string {
   return value.trim().replace(/\s+/g, " ");
 }
 

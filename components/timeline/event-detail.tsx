@@ -1,7 +1,12 @@
 import { EventDetailSection } from "@/components/timeline/event-detail-section";
 import { NarrativeBlock } from "@/components/timeline/narrative-block";
 import { MediaList } from "@/components/timeline/media-list";
-import { buildModalSections, referenceSourcesForModal } from "@/lib/timeline/modal-content";
+import { cn } from "@/lib/cn";
+import {
+  buildModalSections,
+  normalizeParagraph,
+  referenceSourcesForModal,
+} from "@/lib/timeline/modal-content";
 import type { Source, TimelineEvent } from "@/lib/timeline/schema";
 
 type EventDetailProps = {
@@ -41,13 +46,20 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
   if (variant === "modal") {
     const { whatItIs, whatItSolved } = buildModalSections(event);
     const references = referenceSourcesForModal(event.sources);
+    const impactLine = normalizeParagraph(event.narrative.whyImportant);
 
     return (
       <div className="space-y-8">
         <EventDetailSection title="What it is">
           <div className="space-y-3">
             {whatItIs.map((paragraph) => (
-              <p key={paragraph} className="text-sm leading-relaxed text-foreground">
+              <p
+                key={paragraph}
+                className={cn(
+                  "text-sm leading-relaxed text-foreground",
+                  paragraph === impactLine && "font-semibold",
+                )}
+              >
                 {paragraph}
               </p>
             ))}

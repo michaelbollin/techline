@@ -1,4 +1,5 @@
 import { EventDetailSection } from "@/components/timeline/event-detail-section";
+import { cn } from "@/lib/cn";
 import type { Narrative } from "@/lib/timeline/schema";
 
 type NarrativeBlockProps = {
@@ -12,13 +13,24 @@ const sections: { key: keyof Narrative; label: string }[] = [
   { key: "problemSolved", label: "What it solved" },
 ];
 
+function narrativeParagraphClass(key: keyof Narrative, variant: "page" | "modal") {
+  return cn(
+    variant === "modal"
+      ? "text-sm leading-relaxed text-foreground"
+      : "leading-relaxed text-foreground/90",
+    key === "whyImportant" && "font-semibold text-foreground",
+  );
+}
+
 export function NarrativeBlock({ narrative, variant = "page" }: NarrativeBlockProps) {
   if (variant === "modal") {
     return (
       <div className="space-y-8">
         {sections.map((section) => (
           <EventDetailSection key={section.key} title={section.label}>
-            <p className="text-sm leading-relaxed text-foreground">{narrative[section.key]}</p>
+            <p className={narrativeParagraphClass(section.key, "modal")}>
+              {narrative[section.key]}
+            </p>
           </EventDetailSection>
         ))}
       </div>
@@ -35,7 +47,7 @@ export function NarrativeBlock({ narrative, variant = "page" }: NarrativeBlockPr
           <h2 className="mb-2 text-sm font-medium tracking-wide text-muted uppercase">
             {section.label}
           </h2>
-          <p className="leading-relaxed text-foreground/90">{narrative[section.key]}</p>
+          <p className={narrativeParagraphClass(section.key, "page")}>{narrative[section.key]}</p>
         </article>
       ))}
     </section>
