@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/edsger-dijkstra.jpg",
+          "title": "Edsger W. Dijkstra",
+          "caption": "Hamilton Richards, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Communications of the ACM — Dijkstra letter (March 1968)",
@@ -86,7 +93,14 @@
         "dijkstra-go-to-considered-harmful"
       ],
       "slug": "dijkstra-goto-letter-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/edsger-dijkstra.jpg",
+          "title": "Edsger W. Dijkstra",
+          "caption": "Hamilton Richards, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

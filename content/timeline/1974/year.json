@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cpm-created.png",
+          "title": "CP/M",
+          "caption": "Digital Research, Inc., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — CP/M (first appeared 1974)",

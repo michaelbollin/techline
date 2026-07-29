@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/grace-hopper-a0-compiler.jpg",
+          "title": "Grace Hopper",
+          "caption": "James S. Davis, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IEEE ETHW — A-0 Compiler and Initial Development of Automatic Programming (1951–1952)",

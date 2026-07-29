@@ -22,7 +22,14 @@
         "server"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dec-vax-11-780-released.jpg",
+          "title": "VAX-11",
+          "caption": "Emiliano Russo, Associazione Culturale VerdeBinario, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "VAX history — VAX-11/780 (October 1977)",

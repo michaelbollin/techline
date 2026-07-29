@@ -29,7 +29,14 @@
       ],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/church-lambda-calculus-unsolvable.png",
+          "title": "Church numerals and related concepts",
+          "caption": "Physis, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "American Journal of Mathematics — An Unsolvable Problem of Elementary Number Theory (April 1936)",

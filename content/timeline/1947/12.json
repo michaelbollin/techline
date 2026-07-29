@@ -39,7 +39,14 @@
       ],
       "companies": [],
       "importance": 0,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bell-labs-transistor-invented.jpg",
+          "title": "First transistor (1947)",
+          "caption": "Windell Oskay, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — Bardeen and Brattain demonstrate the transistor (December 23, 1947)",

@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/basic-first-run.png",
+          "title": "BASIC program listing",
+          "caption": "Belbury, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Dartmouth — BASIC at 50 (May 1, 1964, 4 a.m.)",

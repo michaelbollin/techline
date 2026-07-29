@@ -28,7 +28,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/make-created.jpg",
+          "title": "Stuart Feldman",
+          "caption": "Christian Wirth, Wirthi, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Make (software) (first appeared April 1976)",
@@ -89,7 +96,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/steve-wozniak-apple-founded.jpg",
+          "title": "Steve Wozniak",
+          "caption": "Gage Skidmore, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Apple — Company history (founded April 1, 1976)",

@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/colossus-operational.jpg",
+          "title": "Colossus at Bletchley Park",
+          "caption": "Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Colossus computer (first operational February 5, 1944)",

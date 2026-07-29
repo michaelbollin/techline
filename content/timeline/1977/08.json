@@ -23,7 +23,14 @@
         "microcomputer"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/trs-80-model-i-released.jpg",
+          "title": "TRS-80",
+          "caption": "Rama &amp; Musée Bolo, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "TRS-80.org — Model I history (August 1977 release)",

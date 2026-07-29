@@ -29,7 +29,14 @@
         }
       ],
       "importance": 0,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-pc-5150-released.svg",
+          "title": "IBM Personal Computer",
+          "caption": "Own work (based on graphics by International Business Machines Corporation), Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — The IBM Personal Computer (August 12, 1981)",
@@ -90,7 +97,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ms-dos-released.png",
+          "title": "MS-DOS",
+          "caption": "The original uploader was Andrewpmk at English Wikipedia., Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — MS-DOS (version 1.0, August 12, 1981)",

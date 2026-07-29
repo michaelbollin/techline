@@ -22,7 +22,14 @@
         "mits"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/altair-8800-released.jpg",
+          "title": "Altair 8800",
+          "caption": "Swtpc6800 en:User:Swtpc6800 Michael Holley, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Popular Electronics — Altair 8800 cover (January 1975)",

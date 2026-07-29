@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "frank-rosenblatt-perceptron",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/frank-rosenblatt-perceptron.jpg",
+          "title": "Frank Rosenblatt",
+          "caption": "Heinz Nixdorf MuseumsForum, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "marvin-minsky-dartmouth-workshop"
       ],

@@ -29,7 +29,14 @@
       ],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-shannon.jpg",
+          "title": "Claude Shannon",
+          "caption": "Tekniska museet, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MIT DSpace — A symbolic analysis of relay and switching circuits (thesis signed August 10, 1937)",

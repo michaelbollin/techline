@@ -30,9 +30,10 @@
       "importance": 1,
       "media": [
         {
-          "type": "link",
-          "url": "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html",
-          "title": "Ritchie — The Development of the C Language"
+          "type": "image",
+          "url": "/media/timeline/c-language-created.svg",
+          "title": "C (programming language)",
+          "caption": "Cobaiahackers, CC BY-SA 4.0, via Wikimedia Commons"
         }
       ],
       "sources": [
@@ -79,7 +80,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/prolog-first-implementation.jpg",
+          "title": "Alain Colmerauer",
+          "caption": "Alaindavid2, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — Preliminary Prolog, fall 1972",
@@ -125,7 +133,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/karen-sparck-jones-idf.jpg",
+          "title": "Karen Spärck Jones",
+          "caption": "en:user:Markus Kuhn, CC BY 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Journal of Documentation — Spärck Jones, 1972",
@@ -169,7 +184,14 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jon-postel-iana-stewardship.jpg",
+          "title": "Jon Postel",
+          "caption": "Carl Malamud, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ISI/USC — Postel IANA history (1970s)",

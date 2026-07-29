@@ -22,7 +22,14 @@
         "computer"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dec-pdp-8-shipped.jpg",
+          "title": "DEC PDP-8",
+          "caption": "Kris Arnold, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — PDP-8 (1965)",

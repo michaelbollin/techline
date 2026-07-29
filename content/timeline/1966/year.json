@@ -22,7 +22,14 @@
         "server"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dec-pdp-10-released.jpg",
+          "title": "DEC PDP-10",
+          "caption": "Gah4, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — PDP-10 (1966)",
@@ -70,7 +77,14 @@
       ],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eliza-created.jpg",
+          "title": "ELIZA conversation",
+          "caption": "Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — ELIZA (created 1966)",

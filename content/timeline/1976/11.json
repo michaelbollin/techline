@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "diffie-hellman-paper-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/diffie-hellman-paper-published.png",
+          "title": "Diffie–Hellman key exchange",
+          "caption": "Epachamo, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

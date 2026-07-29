@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "john-mccarthy-lisp-invented",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/john-mccarthy-lisp-invented.jpg",
+          "title": "John McCarthy",
+          "caption": "null0, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

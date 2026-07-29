@@ -29,7 +29,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/harvard-mark-1-completed.jpg",
+          "title": "Harvard Mark I input/output",
+          "caption": "Daderot, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Harvard Archives — ASCC presentation records (August 7, 1944)",

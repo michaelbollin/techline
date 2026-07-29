@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/wiener-cybernetics-published.png",
+          "title": "Norbert Wiener (1963)",
+          "caption": "Garry Olsh, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MIT Press — Cybernetics or Control and Communication in the Animal and the Machine (1948)",

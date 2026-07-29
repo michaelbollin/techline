@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "donald-knuth-tex-development",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/donald-knuth-tex-development.svg",
+          "title": "TeX",
+          "caption": "Alejo2083, Public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "knuth-taocp-volume-1-published"
       ],

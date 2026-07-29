@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "alan-turing-computable-numbers",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/alan-turing-computable-numbers.jpg",
+          "title": "Alan Turing",
+          "caption": "Elliott & Fry, public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

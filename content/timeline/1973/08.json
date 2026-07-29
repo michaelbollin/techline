@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ftp-protocol-rfc-542-published.jpg",
+          "title": "File Transfer Protocol",
+          "caption": "Jason Scott, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "RFC 542 — File Transfer Protocol (August 12, 1973)",

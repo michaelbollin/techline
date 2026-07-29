@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/manchester-baby-first-program.jpg",
+          "title": "Manchester Baby replica",
+          "caption": "Logg Tandy, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Manchester Baby (first program June 21, 1948)",

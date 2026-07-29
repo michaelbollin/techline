@@ -28,7 +28,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/oracle-2-released.jpg",
+          "title": "Oracle Corporation",
+          "caption": "DronePhotographer, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Oracle — Company timeline (Oracle Version 2, 1979)",
@@ -75,7 +82,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/lynn-conway-vlsi-course.jpg",
+          "title": "Lynn Conway",
+          "caption": "Charles Rogers, CC BY-SA 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Mead & Conway — Introduction to VLSI Systems (1979)",
@@ -131,7 +145,14 @@
       ],
       "relatedIds": [],
       "slug": "hofstadter-law",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hofstadter-law.jpg",
+          "title": "Douglas Hofstadter",
+          "caption": "\"null0\", CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

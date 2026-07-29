@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/eniac-dedicated.jpg",
+          "title": "ENIAC at the University of Pennsylvania",
+          "caption": "TexasDex / Paul W. Shaffer, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — ENIAC (formally dedicated February 15, 1946)",

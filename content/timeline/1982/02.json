@@ -28,7 +28,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sun-microsystems-founded.jpg",
+          "title": "Sun Microsystems",
+          "caption": "User:Finlay McWalter, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Sun Microsystems (founded February 24, 1982)",

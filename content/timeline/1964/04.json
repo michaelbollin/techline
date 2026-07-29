@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-system-360-announced.jpg",
+          "title": "IBM System/360 Model 30",
+          "caption": "ArnoldReinhold, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IBM — System/360 history (announced April 7, 1964)",

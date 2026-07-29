@@ -28,7 +28,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intel-4004-introduced.jpg",
+          "title": "Intel 4004 microprocessor",
+          "caption": "LucaDetomi, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Intel 4004 (introduced November 15, 1971)",

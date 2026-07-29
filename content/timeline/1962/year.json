@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "jean-sammet-formac-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/jean-sammet-formac-published.jpg",
+          "title": "Jean Sammet (1979)",
+          "caption": "Ben Shneiderman, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "fortran-formally-published"
       ],

@@ -38,7 +38,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/microsoft-founded.jpg",
+          "title": "Microsoft",
+          "caption": "Jelson25, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Microsoft — Our history (founded April 4, 1975)",

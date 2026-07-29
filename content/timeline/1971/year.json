@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "stephen-cook-np-completeness",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/stephen-cook-np-completeness.jpg",
+          "title": "Stephen Cook",
+          "caption": "Jiří Janíček, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

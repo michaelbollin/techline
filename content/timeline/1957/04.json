@@ -27,7 +27,14 @@
         }
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fortran-logo.svg",
+          "title": "FORTRAN logo",
+          "caption": "Fortran-lang community, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Fortran Specialist Group — The Origins of FORTRAN",

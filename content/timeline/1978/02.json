@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/c-k-and-r-published.svg",
+          "title": "The C Programming Language",
+          "caption": "Julesmazur, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — The C Programming Language (1st ed. Feb 22, 1978)",

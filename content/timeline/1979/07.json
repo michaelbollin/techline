@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intel-8088-introduced.jpg",
+          "title": "Intel 8088",
+          "caption": "Konstantin Lanzet, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — 8086/8088 microprocessor history (1979)",

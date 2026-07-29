@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "margaret-hamilton-apollo-software",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/margaret-hamilton-apollo-software.jpg",
+          "title": "Margaret Hamilton with Apollo guidance software",
+          "caption": "Adam Cuerden (restoration), public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

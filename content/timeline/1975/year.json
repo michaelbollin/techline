@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fred-brooks-mythical-man-month.jpg",
+          "title": "Fred Brooks",
+          "caption": "Copyright owned by SD&amp;M (www.sdm.de), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "University of North Carolina — Brooks bibliography (1975)",
@@ -86,7 +93,14 @@
         "fred-brooks-mythical-man-month"
       ],
       "slug": "brooks-add-manpower-makes-later",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/brooks-add-manpower-makes-later.jpg",
+          "title": "Fred Brooks",
+          "caption": "Copyright owned by SD&amp;M (www.sdm.de), CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     },
@@ -131,7 +145,14 @@
       ],
       "relatedIds": [],
       "slug": "amara-law",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/amara-law.jpg",
+          "title": "Roy Amara",
+          "caption": "Rochester Institute of Technology, Public domain, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

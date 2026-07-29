@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "marvin-minsky-dartmouth-workshop",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/marvin-minsky-dartmouth-workshop.jpg",
+          "title": "Marvin Minsky",
+          "caption": "Sethwoodworth, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "john-mccarthy-lisp-invented"
       ],

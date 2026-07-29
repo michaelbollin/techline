@@ -28,7 +28,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ibm-ramac-305-announced.jpg",
+          "title": "IBM 305 RAMAC",
+          "caption": "Norsk Teknisk Museum, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — IBM 305 RAMAC (announced September 14, 1956)",

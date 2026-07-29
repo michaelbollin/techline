@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "tony-hoare-quicksort-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tony-hoare-quicksort-published.jpg",
+          "title": "Tony Hoare",
+          "caption": "Rama, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

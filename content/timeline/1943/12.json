@@ -33,7 +33,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/mcculloch-pitts-neurons.png",
+          "title": "McCulloch–Pitts neuron model",
+          "caption": "McCulloch, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Bulletin of Mathematical Biophysics — A logical calculus of the ideas immanent in nervous activity (December 1943)",

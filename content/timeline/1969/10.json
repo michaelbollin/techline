@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/arpanet-first-message.png",
+          "title": "ARPANET logical map (1977)",
+          "caption": "ARPANET / Computer History Museum, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — ARPANET (first message, October 29, 1969)",

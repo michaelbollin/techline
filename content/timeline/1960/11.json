@@ -24,7 +24,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/dec-pdp-1-introduced.jpg",
+          "title": "DEC PDP-1 at the Computer History Museum",
+          "caption": "Alexey Komarov, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — PDP-1 (first delivery November 1960)",

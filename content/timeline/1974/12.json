@@ -43,7 +43,14 @@
         "knuth-taocp-volume-1-published"
       ],
       "slug": "knuth-premature-optimization",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/knuth-premature-optimization.jpg",
+          "title": "Donald Knuth",
+          "caption": "Alex Handy, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

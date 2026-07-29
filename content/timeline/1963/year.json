@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ascii-standard-published.svg",
+          "title": "ASCII character table",
+          "caption": "ZZT32 / Yufeng Huang, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — ASCII (ANSI X3.4-1963)",
@@ -71,7 +78,14 @@
       ],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sketchpad-created.jpg",
+          "title": "Ivan Sutherland operating Sketchpad",
+          "caption": "Ivan Sutherland / Kerry Rodden scan, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Sketchpad (1963)",

@@ -22,7 +22,14 @@
         "microcomputer"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/commodore-pet-2001-released.jpg",
+          "title": "Commodore PET",
+          "caption": "Rama &amp; Musée Bolo, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Commodore.ca — PET 2001 museum (January 1977 introduction)",

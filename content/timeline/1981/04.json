@@ -22,7 +22,14 @@
         "cp-m"
       ],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/osborne-1-released.jpg",
+          "title": "Osborne 1",
+          "caption": "Bilby, CC BY 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Osborne 1 (released April 1981)",

@@ -51,6 +51,22 @@ describe("timelineEventSchema", () => {
     expect(parsed.quoteText).toBe("Hello, world.");
   });
 
+  it("accepts local media paths", () => {
+    const parsed = timelineEventSchema.parse({
+      ...validEvent,
+      media: [
+        {
+          type: "image",
+          url: "/media/timeline/example.jpg",
+          title: "Example",
+          caption: "Artist, CC BY 2.0",
+        },
+      ],
+    });
+
+    expect(parsed.media[0]?.url).toBe("/media/timeline/example.jpg");
+  });
+
   it("rejects invalid importance values", () => {
     expect(() =>
       timelineEventSchema.parse({ ...validEvent, importance: 10 }),

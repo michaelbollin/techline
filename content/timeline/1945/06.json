@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "john-von-neumann-architecture",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/john-von-neumann-architecture.gif",
+          "title": "John von Neumann at Los Alamos",
+          "caption": "Los Alamos National Laboratory, attribution required, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

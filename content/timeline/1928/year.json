@@ -33,7 +33,14 @@
       ],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/hilbert-entscheidungsproblem.jpg",
+          "title": "David Hilbert",
+          "caption": "Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Springer — Grundzüge der theoretischen Logik (1928)",

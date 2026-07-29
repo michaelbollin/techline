@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "seymour-cray-cdc-6600",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/seymour-cray-cdc-6600.png",
+          "title": "CDC 6600 overview",
+          "caption": "FlyAkwa, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "tony-hoare-csp-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/tony-hoare-csp-published.jpg",
+          "title": "Tony Hoare",
+          "caption": "Rama, CC BY-SA 2.0 fr, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "tony-hoare-quicksort-published"
       ],

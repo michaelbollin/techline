@@ -21,7 +21,14 @@
         "programming-language"
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/simula-67-presented.svg",
+          "title": "Simula logo",
+          "caption": "Norwegian Computing Center, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Dahl — The Birth of Object Orientation: the Simula Languages (IFIP May 1967)",

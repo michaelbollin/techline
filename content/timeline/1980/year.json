@@ -29,7 +29,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/adele-goldberg-smalltalk-80.jpg",
+          "title": "Adele Goldberg (computer scientist)",
+          "caption": "Terry Hancock, CC BY-SA 2.5, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Xerox PARC — Smalltalk-80 (1980)",
@@ -89,7 +96,14 @@
         "ethernet-invented"
       ],
       "slug": "metcalfe-metcalfe-law",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/metcalfe-metcalfe-law.jpg",
+          "title": "Robert Metcalfe",
+          "caption": "Andreu Veà, WiWiW.org, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     },
@@ -116,7 +130,14 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/usenet-established.jpg",
+          "title": "Usenet-total-storage",
+          "caption": "FlippyFlink, CC BY-SA 3.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Usenet (established 1980)",

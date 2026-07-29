@@ -22,7 +22,14 @@
         "programming-language"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/niklaus-wirth.jpg",
+          "title": "Niklaus Wirth",
+          "caption": "Tyomitch, copyrighted free use, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wirth — The Programming Language Pascal (ETH report, November 1970)",

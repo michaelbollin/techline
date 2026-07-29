@@ -38,7 +38,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/moore-school-lectures-1946.jpg",
+          "title": "Moore School of Electrical Engineering",
+          "caption": "Swordsman1, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "University of Manchester — Moore School lectures 1946 (July 8–August 31)",

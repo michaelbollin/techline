@@ -29,7 +29,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sequel-paper-published.png",
+          "title": "Prestel videotex service database - cartwheel structure",
+          "caption": "Protalina, CC BY-SA 4.0, via wikimedia"
+        }
+      ],
       "sources": [
         {
           "title": "ACM — SEQUEL: A Structured English Query Language (May 1, 1974)",
@@ -83,7 +90,14 @@
       ],
       "companies": [],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/cerf-kahn-tcp-ip-paper-published.jpg",
+          "title": "Vint Cerf",
+          "caption": "Duncan.Hull, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "IEEE — A Protocol for Packet Network Intercommunication (May 1974)",
@@ -128,7 +142,14 @@
       ],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/elizabeth-feinler-nic-director.jpg",
+          "title": "Elizabeth J. Feinler",
+          "caption": "Elizabeth Feinler, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stanford — Feinler NIC history (1974–1989)",

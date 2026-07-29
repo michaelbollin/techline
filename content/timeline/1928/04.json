@@ -28,7 +28,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/nyquist-sampling-theory.gif",
+          "title": "Nyquist sampling illustration",
+          "caption": "Jacopo Bertolotti, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Transactions of the AIEE — Certain Topics in Telegraph Transmission Theory (April 1928)",

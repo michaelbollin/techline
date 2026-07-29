@@ -29,7 +29,14 @@
       ],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gordon-moore.jpg",
+          "title": "Gordon Moore",
+          "caption": "Intel Free Press, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Electronics — Cramming more components onto integrated circuits (April 19, 1965)",
@@ -89,7 +96,14 @@
         "gordon-moore-moores-law"
       ],
       "slug": "moore-components-doubling-quote",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/gordon-moore.jpg",
+          "title": "Gordon Moore",
+          "caption": "Intel Free Press, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

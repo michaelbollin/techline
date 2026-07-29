@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "clifford-cocks-public-key",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/clifford-cocks-public-key.jpg",
+          "title": "Clifford Cocks",
+          "caption": "Royal Society uploader, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "rsa-algorithm-published"
       ],
@@ -69,7 +76,14 @@
       ],
       "people": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/xerox-alto-operational.jpg",
+          "title": "Xerox Alto",
+          "caption": "Bc4040, CC BY 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computer History Museum — Xerox Alto (1973)",
@@ -112,7 +126,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ethernet-invented.webp",
+          "title": "Ethernet",
+          "caption": "Wikideas1, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — Ethernet (developed 1973 at Xerox PARC)",

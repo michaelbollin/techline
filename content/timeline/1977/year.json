@@ -29,7 +29,14 @@
         }
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/awk-created.svg",
+          "title": "AWK",
+          "caption": "Alfred Aho, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "GNU Awk Manual — original awk written in 1977 at Bell Labs",
@@ -75,7 +82,14 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/brian-kernighan-awk-coauthored.jpg",
+          "title": "Brian Kernighan",
+          "caption": "Jw12321, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Bell Labs — AWK (1977)",
@@ -129,7 +143,14 @@
       ],
       "companies": [],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/rsa-algorithm-published.jpg",
+          "title": "Ron Rivest",
+          "caption": "Ronald L. Rivest, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "MIT — RSA algorithm invented (1977)",
@@ -176,7 +197,14 @@
       ],
       "companies": [],
       "importance": 8,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/john-backus-turing-award.jpg",
+          "title": "John Backus",
+          "caption": "PIerre.Lescanne, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ACM — 1977 Turing Award (John Backus)",

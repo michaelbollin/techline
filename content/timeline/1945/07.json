@@ -44,7 +44,14 @@
         "html-invented"
       ],
       "slug": "bush-as-we-may-think-memex",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/bush-as-we-may-think-memex.jpg",
+          "title": "Vannevar Bush (1938)",
+          "caption": "Harris & Ewing, public domain, via Wikimedia Commons"
+        }
+      ],
       "companies": [],
       "category": "quote"
     }

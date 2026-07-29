@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "ada-lovelace-analytical-engine-notes",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ada-lovelace-analytical-engine-notes.png",
+          "title": "Ada Lovelace daguerreotype (1843)",
+          "caption": "Antoine Claudet, public domain, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "ada-95-standard"
       ],

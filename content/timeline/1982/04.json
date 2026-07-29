@@ -22,7 +22,14 @@
         "x86"
       ],
       "importance": 7,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/grid-compass-released.jpg",
+          "title": "Grid Compass",
+          "caption": "jmdo, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — GRiD Compass (released April 1982)",

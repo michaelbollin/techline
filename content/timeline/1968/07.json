@@ -39,7 +39,14 @@
         }
       ],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/moore-noyce-intel-founded.png",
+          "title": "Gordon Moore and Robert Noyce at Intel (1970)",
+          "caption": "Intel Free Press, CC BY-SA 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — Company founded (July 18, 1968)",

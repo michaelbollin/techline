@@ -22,7 +22,14 @@
         "commercial"
       ],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/univac-i-delivered.jpg",
+          "title": "UNIVAC I at the U.S. Census Bureau",
+          "caption": "U.S. Census Bureau, public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "U.S. Census Bureau — UNIVAC I (delivered June 14, 1951)",

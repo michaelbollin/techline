@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "claude-shannon-information-theory",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/claude-shannon.jpg",
+          "title": "Claude Shannon",
+          "caption": "Tekniska museet, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [],
       "people": [
         {

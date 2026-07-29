@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/phone-phreaking-esquire-article.jpg",
+          "title": "Blue box at the Computer History Museum",
+          "caption": "RaD man / David Remahl, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Ron Rosenbaum — Secrets of the Little Blue Box (Esquire, October 1971)",

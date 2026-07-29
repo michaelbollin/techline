@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/sinclair-zx80-released.jpg",
+          "title": "ZX80",
+          "caption": "Daniel Ryde, Skövde, CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computing History — Sinclair launches the ZX80 (January 29, 1980)",

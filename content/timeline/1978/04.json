@@ -21,7 +21,14 @@
         "scientific-computing"
       ],
       "importance": 5,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fortran-77-standard.svg",
+          "title": "Fortran",
+          "caption": "Fortran-lang community, Public domain, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "ANSI X3.9-1978 — Programming Language FORTRAN (approved April 3, 1978)",

@@ -17,9 +17,14 @@ export const timelineCategorySchema = z.enum([
 
 export const mediaTypeSchema = z.enum(["youtube", "link", "meme", "image"]);
 
+const mediaUrlSchema = z.union([
+  z.string().url(),
+  z.string().regex(/^\/[a-zA-Z0-9/_.-]+$/),
+]);
+
 export const mediaItemSchema = z.object({
   type: mediaTypeSchema,
-  url: z.string().url(),
+  url: mediaUrlSchema,
   title: z.string().min(1).optional(),
   caption: z.string().min(1).optional(),
 });

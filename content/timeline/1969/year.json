@@ -28,7 +28,14 @@
         }
       ],
       "importance": 1,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/unix-created.svg",
+          "title": "Unix family tree",
+          "caption": "Eraserhead1 et al., CC BY-SA 3.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Wikipedia — History of Unix (development began 1969)",

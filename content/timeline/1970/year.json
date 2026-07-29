@@ -2,7 +2,14 @@
   "events": [
     {
       "slug": "niklaus-wirth-pascal-published",
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/niklaus-wirth.jpg",
+          "title": "Niklaus Wirth",
+          "caption": "Tyomitch, copyrighted free use, via Wikimedia Commons"
+        }
+      ],
       "relatedIds": [
         "pascal-report-published"
       ],

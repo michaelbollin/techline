@@ -23,7 +23,14 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/edsac-first-programs.jpg",
+          "title": "EDSAC at Cambridge (1948)",
+          "caption": "Computer Laboratory, University of Cambridge. Reproduced by permission. CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Computing History — EDSAC runs its first program (May 6, 1949)",
@@ -64,7 +71,14 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/edsac-initial-orders.jpg",
+          "title": "EDSAC at Cambridge (1948)",
+          "caption": "Computer Laboratory, University of Cambridge. Reproduced by permission. CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Royal Society — Wheeler, Programme organization and initial orders for the EDSAC (1950)",

@@ -30,9 +30,10 @@
       "importance": 1,
       "media": [
         {
-          "type": "link",
-          "url": "https://www.computinghistory.org.uk/det/5492/FORTRAN-1-is-formally-published/",
-          "title": "Computing History Museum — FORTRAN-1 published"
+          "type": "image",
+          "url": "/media/timeline/fortran-logo.svg",
+          "title": "FORTRAN logo",
+          "caption": "Fortran-lang community, public domain, via Wikimedia Commons"
         }
       ],
       "sources": [

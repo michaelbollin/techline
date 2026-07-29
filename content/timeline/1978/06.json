@@ -29,7 +29,14 @@
         }
       ],
       "importance": 2,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/intel-8086-introduced.jpg",
+          "title": "Intel 8086",
+          "caption": "Thomas Nguyen, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Intel — 8086 microprocessor history (June 1978)",
