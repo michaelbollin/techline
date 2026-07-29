@@ -40,15 +40,15 @@ describe("useMobileTimelinePlot", () => {
 
   it("promotes hovered label to the front", () => {
     const events = [
-      makeTimelineEvent({ id: "first", importance: 9 }),
-      makeTimelineEvent({ id: "second", date: "2000-02-01", importance: 9 }),
+      makeTimelineEvent({ id: "first", tags: ["web"], importance: 0 }),
+      makeTimelineEvent({ id: "second", date: "2005-06-01", tags: ["web"], importance: 0 }),
     ];
     const hovered = makePlottedEvent({ id: "second" });
 
     const { result } = renderHook(() =>
       useMobileTimelinePlot({
         events,
-        activeFilterIds: new Set(),
+        activeFilterIds: new Set(["web"]),
         fulltextQuery: "",
         transform,
         width,
@@ -57,6 +57,7 @@ describe("useMobileTimelinePlot", () => {
       }),
     );
 
+    expect(result.current.labelNodes.length).toBeGreaterThan(0);
     expect(result.current.labelNodes.at(-1)?.id).toBe("second");
   });
 });

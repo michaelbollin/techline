@@ -18,6 +18,13 @@ afterEach(() => {
   cleanup();
 });
 
+Object.defineProperty(document, "fonts", {
+  value: {
+    ready: Promise.resolve(),
+  },
+  configurable: true,
+});
+
 Object.defineProperty(window, "matchMedia", {
   writable: true,
   value: (query: string) => ({

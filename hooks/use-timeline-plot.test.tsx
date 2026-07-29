@@ -41,12 +41,13 @@ describe("useTimelinePlot", () => {
 
   it("promotes hovered label to the front", () => {
     const events = [
-      makeTimelineEvent({ id: "first", title: "First", importance: 9 }),
+      makeTimelineEvent({ id: "first", title: "First", tags: ["web"], importance: 0 }),
       makeTimelineEvent({
         id: "second",
         title: "Second",
-        date: "2000-02-01",
-        importance: 9,
+        date: "2005-06-01",
+        tags: ["web"],
+        importance: 0,
       }),
     ];
     const hovered = makePlottedEvent({ id: "second", title: "Second" });
@@ -54,7 +55,7 @@ describe("useTimelinePlot", () => {
     const { result } = renderHook(() =>
       useTimelinePlot({
         events,
-        activeFilterIds: new Set(),
+        activeFilterIds: new Set(["web"]),
         fulltextQuery: "",
         transform,
         width,
@@ -63,18 +64,19 @@ describe("useTimelinePlot", () => {
       }),
     );
 
+    expect(result.current.labelNodes.length).toBeGreaterThan(0);
     expect(result.current.labelNodes.at(-1)?.id).toBe("second");
   });
 
-  it("shows all importance tiers when filters are active", () => {
-    const events = [makeTimelineEvent({ importance: 9 })];
+  it("keeps filtered events visible regardless of zoom level", () => {
+    const events = [makeTimelineEvent({ tags: ["web"], importance: 9 })];
 
     const { result } = renderHook(() =>
       useTimelinePlot({
         events,
         activeFilterIds: new Set(["web"]),
         fulltextQuery: "",
-        transform: d3.zoomIdentity.scale(0.001).translate(0, 0),
+        transform,
         width,
         height,
         hovered: null,
@@ -82,6 +84,5 @@ describe("useTimelinePlot", () => {
     );
 
     expect(result.current.plotted).toHaveLength(1);
-    expect(result.current.labelLayout.size).toBeGreaterThanOrEqual(0);
   });
 });

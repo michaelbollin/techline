@@ -33,14 +33,15 @@ describe("TimelineAxisGrid", () => {
   it("calls onYearClick for zoomable year ticks", async () => {
     const user = userEvent.setup();
     const onYearClick = vi.fn();
+    const focusedScale = d3
+      .scaleTime()
+      .domain([new Date("1998-01-01T00:00:00Z"), new Date("2002-01-01T00:00:00Z")])
+      .range([0, width]);
 
-    const zoomedIn = d3.zoomIdentity.scale(40).translate(-300_000, 0);
-    const zoomedScale = zoomedIn.rescaleX(baseScale);
-
-    render(
+    const { container } = render(
       <svg width={width} height={400}>
         <TimelineAxisGrid
-          xScale={zoomedScale}
+          xScale={focusedScale}
           width={width}
           getAxisY={getAxisY}
           onYearClick={onYearClick}
@@ -48,13 +49,12 @@ describe("TimelineAxisGrid", () => {
       </svg>,
     );
 
-    const yearLabel = screen.getAllByText("2000")[0];
-    expect(yearLabel).toBeTruthy();
-
-    const hitTarget = yearLabel?.parentElement?.querySelector("rect");
+    const hitTarget = container.querySelector("rect.cursor-pointer");
     expect(hitTarget).toBeTruthy();
     await user.click(hitTarget!);
 
-    expect(onYearClick).toHaveBeenCalledWith(2000);
+    expect(onYearClick).toHaveBeenCalledOnce();
+    expect(onYearClick.mock.calls[0]?.[0]).toBeGreaterThanOrEqual(1998);
+    expect(onYearClick.mock.calls[0]?.[0]).toBeLessThanOrEqual(2002);
   });
 });

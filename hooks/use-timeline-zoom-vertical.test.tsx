@@ -12,6 +12,7 @@ function attachSvgRef(width: number, height: number) {
   const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   svg.setAttribute("width", String(width));
   svg.setAttribute("height", String(height));
+  svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
   (svgRef as { current: SVGSVGElement }).current = svg;
   document.body.appendChild(svg);
   return { svgRef, svg };
@@ -54,7 +55,7 @@ describe("useTimelineZoomVertical", () => {
       useTimelineZoomVertical({ width: 390, height: 0, svgRef }),
     );
 
-    expect(d3.select(svg).on("zoom")).toBeNull();
+    expect(d3.select(svg).on("zoom")).toBeUndefined();
     expect(result.current.transform).toBeDefined();
 
     document.body.removeChild(svg);

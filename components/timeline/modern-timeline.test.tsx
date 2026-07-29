@@ -1,3 +1,4 @@
+import * as d3 from "d3";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
@@ -7,6 +8,13 @@ import { ModernTimeline } from "./modern-timeline";
 
 vi.mock("@/hooks/use-container-size", () => ({
   useContainerSize: () => ({ width: 1200, height: 800 }),
+}));
+
+vi.mock("@/hooks/use-timeline-zoom", () => ({
+  useTimelineZoom: () => ({
+    transform: d3.zoomIdentity,
+    animateTo: vi.fn(),
+  }),
 }));
 
 const push = vi.fn();
@@ -25,10 +33,10 @@ describe("ModernTimeline", () => {
     render(<ModernTimeline events={events} />);
 
     expect(screen.getByRole("region", { name: "Interactive timeline" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "First event, January 15, 2000" })).toBeInTheDocument();
+    expect(screen.getAllByRole("button", { name: "First event, January 15, 2000" }).length).toBeGreaterThan(0);
 
-    await user.click(screen.getByRole("button", { name: /open filters/i }));
-    expect(screen.getByRole("dialog", { name: /filters/i })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Filters" }));
+    expect(screen.getByRole("region", { name: "Filter timeline events" })).toBeInTheDocument();
   });
 
   it("shows empty state when filters exclude all events", async () => {
@@ -39,7 +47,7 @@ describe("ModernTimeline", () => {
 
     expect(screen.getByText("No events match the selected filters.")).toBeInTheDocument();
 
-    await user.click(screen.getByRole("button", { name: /open filters/i }));
-    expect(screen.getByRole("dialog", { name: /filters/i })).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Filters, 1 active" }));
+    expect(screen.getByRole("region", { name: "Filter timeline events" })).toBeInTheDocument();
   });
 });
