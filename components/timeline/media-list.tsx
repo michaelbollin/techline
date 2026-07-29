@@ -1,3 +1,4 @@
+import { youtubeEmbedUrl } from "@/lib/timeline/youtube-embed";
 import type { MediaItem } from "@/lib/timeline/schema";
 
 type MediaListProps = {
@@ -11,27 +12,6 @@ const typeLabels: Record<MediaItem["type"], string> = {
   meme: "Meme",
   image: "Image",
 };
-
-function youtubeEmbedUrl(url: string): string | null {
-  try {
-    const parsed = new URL(url);
-    const host = parsed.hostname.replace(/^www\./, "");
-
-    if (host === "youtu.be") {
-      const id = parsed.pathname.slice(1);
-      return id ? `https://www.youtube.com/embed/${id}` : null;
-    }
-
-    if (host === "youtube.com" || host === "m.youtube.com") {
-      const id = parsed.searchParams.get("v");
-      return id ? `https://www.youtube.com/embed/${id}` : null;
-    }
-  } catch {
-    return null;
-  }
-
-  return null;
-}
 
 export function MediaList({ media, variant = "page" }: MediaListProps) {
   return (

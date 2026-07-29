@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "fixture-year-event",
+      "slug": "fixture-year-event",
+      "date": "1999",
+      "datePrecision": "year",
+      "title": "Fixture Year Event",
+      "summary": "A year-precision fixture event.",
+      "about": "Used by loadTimeline integration tests.",
+      "narrative": {
+        "whyChosen": "Fixture data.",
+        "whyImportant": "Tests year buckets.",
+        "problemSolved": "Validates year.json paths."
+      },
+      "category": "culture",
+      "tags": ["fixture"],
+      "importance": 6,
+      "sources": [
+        {
+          "title": "Fixture source",
+          "url": "https://example.com/fixture-year",
+          "role": "date"
+        }
+      ]
+    }
+  ]
+}

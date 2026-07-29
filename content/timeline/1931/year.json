@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "id": "godel-incompleteness-theorems",
+      "slug": "godel-incompleteness-theorems",
+      "date": "1931",
+      "datePrecision": "year",
+      "title": "Gödel publishes incompleteness theorems",
+      "summary": "Kurt Gödel's 1931 paper in Monatshefte für Mathematik und Physik proved that any consistent formal system rich enough for arithmetic must contain true statements it cannot prove.",
+      "about": "Gödel's theorems ended Hilbert's program of complete axiomatic foundations for mathematics and set limits on what algorithms can ever decide. The proof technique — encoding statements about proofs as numbers — foreshadowed how computers represent logic and data.",
+      "narrative": {
+        "whyChosen": "Incompleteness is one of the deepest results linking mathematics, logic, and computation.",
+        "whyImportant": "It showed formal systems have inherent limits — a backdrop for Turing and Church's work on decidability.",
+        "problemSolved": "Mathematicians wanted to know whether every true statement could be proved from a fixed set of axioms."
+      },
+      "category": "invention",
+      "tags": [
+        "mathematics",
+        "logic",
+        "research",
+        "computer-science"
+      ],
+      "people": [
+        {
+          "id": "kurt-godel",
+          "name": "Kurt Gödel",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 0,
+      "media": [],
+      "sources": [
+        {
+          "title": "Monatshefte für Mathematik und Physik — Über formal unentscheidbare Sätze (1931)",
+          "url": "https://doi.org/10.1007/BF01700692",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Gödel's incompleteness theorems (overview)",
+          "url": "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "church-lambda-calculus-unsolvable",
+        "alan-turing-computable-numbers"
+      ]
+    }
+  ]
+}

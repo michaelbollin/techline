@@ -49,55 +49,6 @@
       "category": "quote"
     },
     {
-      "id": "blackberry-bold-9000-released",
-      "slug": "blackberry-bold-9000-released",
-      "date": "2008-05-12",
-      "datePrecision": "day",
-      "title": "BlackBerry Bold 9000 released",
-      "summary": "BlackBerry released the BlackBerry Bold 9000 — premium QWERTY BlackBerry that defined the late-2000s enterprise icon.",
-      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Premium qwerty blackberry that defined the late-2000s enterprise icon. BES-connected apps and push email defined mobile workflows for years.",
-      "narrative": {
-        "whyChosen": "The BlackBerry Bold 9000 was a key BlackBerry hardware milestone.",
-        "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
-        "problemSolved": "Business users needed secure mobile email before modern smartphone platforms."
-      },
-      "category": "hardware",
-      "tags": [
-        "hardware",
-        "mobile",
-        "smartphone",
-        "blackberry"
-      ],
-      "people": [],
-      "companies": [
-        {
-          "id": "blackberry",
-          "name": "BlackBerry"
-        }
-      ],
-      "importance": 7,
-      "media": [],
-      "sources": [
-        {
-          "title": "BlackBerry Bold 9000 released — launch",
-          "url": "https://en.wikipedia.org/wiki/BlackBerry_Bold",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — BlackBerry Bold 9000 (overview)",
-          "url": "https://en.wikipedia.org/wiki/BlackBerry_Bold",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "blackberry-5810-released",
-        "blackberry-pearl-released",
-        "blackberry-torch-released",
-        "iphone-goes-on-sale",
-        "blackberry-os-eol"
-      ]
-    },
-    {
       "id": "google-app-engine-open-signups",
       "slug": "google-app-engine-open-signups",
       "date": "2008-05-28",

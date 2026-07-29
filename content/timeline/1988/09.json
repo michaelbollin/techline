@@ -26,8 +26,8 @@
       "media": [],
       "sources": [
         {
-          "title": "IEEE — POSIX.1-1988 standard (September 1988)",
-          "url": "https://en.wikipedia.org/wiki/POSIX",
+          "title": "NIST FIPS PUB 151-1 — IEEE Std 1003.1-1988 (September 1988)",
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub151-1.pdf",
           "role": "date"
         },
         {

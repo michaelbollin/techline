@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "nyquist-sampling-theory",
+      "slug": "nyquist-sampling-theory",
+      "date": "1928-04",
+      "datePrecision": "month",
+      "title": "Nyquist establishes digital sampling limits",
+      "summary": "Harry Nyquist's April 1928 AIEE paper showed that telegraph bandwidth must scale with signaling speed — the foundation of the Nyquist rate used in every analog-to-digital converter.",
+      "about": "Nyquist proved you need at least twice the highest signal frequency to represent a waveform without ambiguity — the rule behind audio CDs, digital radio, and Shannon's later information theory. Every microphone, modem, and scope samples because of this 1928 result.",
+      "narrative": {
+        "whyChosen": "The Nyquist rate is the bridge between continuous physics and discrete bits.",
+        "whyImportant": "It set the minimum sample rate engineers must obey when digitizing any signal.",
+        "problemSolved": "Telegraph and telephone engineers had no rigorous link between channel bandwidth and maximum signaling speed."
+      },
+      "category": "invention",
+      "tags": [
+        "information-theory",
+        "signal-processing",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "harry-nyquist",
+          "name": "Harry Nyquist",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Transactions of the AIEE — Certain Topics in Telegraph Transmission Theory (April 1928)",
+          "url": "https://doi.org/10.1109/t-aiee.1928.5055024",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Nyquist–Shannon sampling theorem (overview)",
+          "url": "https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "claude-shannon-information-theory"
+      ]
+    }
+  ]
+}

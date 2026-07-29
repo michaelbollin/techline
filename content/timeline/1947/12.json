@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "id": "bell-labs-transistor-invented",
+      "slug": "bell-labs-transistor-invented",
+      "date": "1947-12-23",
+      "datePrecision": "day",
+      "title": "Bell Labs demonstrates the transistor",
+      "summary": "John Bardeen and Walter Brattain demonstrated the first point-contact transistor at Bell Labs on December 23, 1947 — amplifying a voice through a germanium slab and gold contacts.",
+      "about": "The transistor replaced fragile vacuum tubes with solid-state switches small enough to pack by the billion. Microprocessors, RAM, flash storage, and every pocket device trace to this December demo directed by William Shockley, who later designed the junction transistor.",
+      "narrative": {
+        "whyChosen": "The transistor is the hardware breakthrough that made modern electronics possible.",
+        "whyImportant": "It enabled miniaturization, reliability, and the semiconductor industry.",
+        "problemSolved": "Vacuum tubes were bulky, hot, and burned out — telephony and computing needed a smaller amplifier and switch."
+      },
+      "category": "hardware",
+      "tags": [
+        "semiconductor",
+        "transistor",
+        "hardware",
+        "invention"
+      ],
+      "people": [
+        {
+          "id": "john-bardeen",
+          "name": "John Bardeen",
+          "role": "researcher"
+        },
+        {
+          "id": "walter-brattain",
+          "name": "Walter Brattain",
+          "role": "researcher"
+        },
+        {
+          "id": "william-shockley",
+          "name": "William Shockley",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 0,
+      "media": [],
+      "sources": [
+        {
+          "title": "Computer History Museum — Bardeen and Brattain demonstrate the transistor (December 23, 1947)",
+          "url": "https://www.computerhistory.org/tdih/december/23/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Transistor (overview)",
+          "url": "https://en.wikipedia.org/wiki/Transistor",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "shannon-boolean-circuit-thesis",
+        "gordon-moore-moores-law"
+      ]
+    }
+  ]
+}

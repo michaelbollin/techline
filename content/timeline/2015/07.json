@@ -185,48 +185,6 @@
         "the-dao-hacked",
         "ethereum-merge-completed"
       ]
-    },
-    {
-      "id": "ashley-madison-data-breach",
-      "slug": "ashley-madison-data-breach",
-      "date": "2015-07-20",
-      "datePrecision": "day",
-      "title": "Ashley Madison user data leaked",
-      "summary": "Hackers published Ashley Madison customer data on July 20, 2015 — exposing millions of accounts from the extramarital dating site and demanding the service shut down.",
-      "about": "The Impact Team breach dumped emails, credit cards, and internal source code — demonstrating that even adult sites storing secrets face extortion and reputational ruin. It accelerated debates over data retention, bcrypt versus weak hashing, and whether security teams owe duty of care to users engaging in sensitive behavior.",
-      "narrative": {
-        "whyChosen": "Ashley Madison was the hack that proved no niche site was too embarrassing to target.",
-        "whyImportant": "It highlighted weak password storage and destructive hacktivist motives.",
-        "problemSolved": "Nothing for users — it exposed that 'discreet' marketing did not mean secure engineering."
-      },
-      "category": "culture",
-      "tags": [
-        "hack",
-        "breach",
-        "security",
-        "privacy"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 5,
-      "media": [],
-      "sources": [
-        {
-          "title": "Wikipedia — Ashley Madison data breach (July 2015)",
-          "url": "https://en.wikipedia.org/wiki/Ashley_Madison_data_breach",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Ashley Madison data breach (overview)",
-          "url": "https://en.wikipedia.org/wiki/Ashley_Madison_data_breach",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "cambridge-analytica-scandal",
-        "equifax-data-breach",
-        "gdpr-effective"
-      ]
     }
   ]
 }

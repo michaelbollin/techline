@@ -1,6 +1,7 @@
 import { EventDetailSection } from "@/components/timeline/event-detail-section";
 import { NarrativeBlock } from "@/components/timeline/narrative-block";
 import { MediaList } from "@/components/timeline/media-list";
+import { buildModalSections, referenceSourcesForModal } from "@/lib/timeline/modal-content";
 import type { Source, TimelineEvent } from "@/lib/timeline/schema";
 
 type EventDetailProps = {
@@ -10,7 +11,7 @@ type EventDetailProps = {
 
 function sourcesByRole(sources: Source[]) {
   const overview = sources.filter((source) => source.role === "overview");
-  const other = sources.filter((source) => !source.role);
+  const other = sources.filter((source) => source.role !== "overview" && source.role !== "date");
 
   return { overview, other };
 }
@@ -38,63 +39,29 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
   const { overview, other } = sourcesByRole(event.sources);
 
   if (variant === "modal") {
+    const { whatItIs, whatItSolved } = buildModalSections(event);
+    const references = referenceSourcesForModal(event.sources);
+
     return (
       <div className="space-y-8">
-        {event.quoteText && (
-          <EventDetailSection title="Quote">
-            <blockquote className="text-base leading-relaxed font-medium text-foreground italic">
-              &ldquo;{event.quoteText}&rdquo;
-            </blockquote>
-          </EventDetailSection>
-        )}
-
-        <EventDetailSection title="What it was for">
-          <p className="text-sm leading-relaxed text-foreground">{event.about}</p>
+        <EventDetailSection title="What it is">
+          <div className="space-y-3">
+            {whatItIs.map((paragraph) => (
+              <p key={paragraph} className="text-sm leading-relaxed text-foreground">
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </EventDetailSection>
 
-        {event.people.length > 0 && (
-          <EventDetailSection title="People">
-            <ul className="space-y-2">
-              {event.people.map((person) => (
-                <li key={person.id} className="text-sm text-foreground">
-                  <span className="font-medium">{person.name}</span>
-                  <span className="text-muted"> — {person.role.replace("-", " ")}</span>
-                </li>
-              ))}
-            </ul>
-          </EventDetailSection>
-        )}
+        <EventDetailSection title="What it solved">
+          <p className="text-sm leading-relaxed text-foreground">{whatItSolved}</p>
+        </EventDetailSection>
 
-        {event.companies.length > 0 && (
-          <EventDetailSection title="Companies">
-            <ul className="space-y-2">
-              {event.companies.map((company) => (
-                <li key={company.id} className="text-sm text-foreground">
-                  {company.name}
-                </li>
-              ))}
-            </ul>
-          </EventDetailSection>
-        )}
-
-        <NarrativeBlock narrative={event.narrative} variant="modal" />
-
-        {event.media.length > 0 && (
-          <EventDetailSection title="Media">
-            <MediaList media={event.media} variant="modal" />
-          </EventDetailSection>
-        )}
-
-        {overview.length > 0 && (
-          <EventDetailSection title="Overview">
-            <SourceLinks sources={overview} />
-          </EventDetailSection>
-        )}
-
-        {other.length > 0 && (
-          <EventDetailSection title="Sources">
-            <SourceLinks sources={other} />
-          </EventDetailSection>
+        {references.length > 0 && (
+          <div className="border-t border-black/10 pt-4">
+            <SourceLinks sources={references} />
+          </div>
         )}
       </div>
     );

@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "hilbert-entscheidungsproblem",
+      "slug": "hilbert-entscheidungsproblem",
+      "date": "1928",
+      "datePrecision": "year",
+      "title": "Hilbert and Ackermann pose the Entscheidungsproblem",
+      "summary": "David Hilbert and Wilhelm Ackermann's 1928 textbook Grundzüge der theoretischen Logik gave the canonical statement of the Entscheidungsproblem — whether an algorithm can decide if any logical formula is universally valid.",
+      "about": "The decision problem asked whether truth in first-order logic could be mechanized. Church and Turing answered no in 1936; Gödel had already shown completeness of first-order logic in 1929. This 1928 text is the challenge statement that launched computability theory.",
+      "narrative": {
+        "whyChosen": "The Entscheidungsproblem is the explicit question Church and Turing proved unanswerable.",
+        "whyImportant": "It turned philosophy-of-mathematics into a concrete problem about algorithms.",
+        "problemSolved": "Logicians lacked a precise target for what 'mechanical proof' should mean."
+      },
+      "category": "invention",
+      "tags": [
+        "mathematics",
+        "logic",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "david-hilbert",
+          "name": "David Hilbert",
+          "role": "researcher"
+        },
+        {
+          "id": "wilhelm-ackermann",
+          "name": "Wilhelm Ackermann",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Springer — Grundzüge der theoretischen Logik (1928)",
+          "url": "https://link.springer.com/book/10.1007/978-3-662-00049-6",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Entscheidungsproblem (overview)",
+          "url": "https://en.wikipedia.org/wiki/Decision_problem",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "godel-incompleteness-theorems",
+        "church-lambda-calculus-unsolvable",
+        "alan-turing-computable-numbers"
+      ]
+    }
+  ]
+}

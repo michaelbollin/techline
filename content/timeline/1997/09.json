@@ -46,60 +46,6 @@
         "internet-explorer-6-released",
         "netscape-communicator-4-0"
       ]
-    },
-    {
-      "id": "junit-released",
-      "slug": "junit-released",
-      "date": "1997-09",
-      "datePrecision": "month",
-      "title": "JUnit released",
-      "summary": "Kent Beck and Erich Gamma released JUnit in September 1997 — a unit testing framework that popularized automated test methods in Java.",
-      "about": "JUnit's `@Test` annotations and assertion methods spawned xUnit ports in every language — pytest, RSpec, NUnit, Go testing. Test-driven development and CI pipelines assume the patterns JUnit established.",
-      "narrative": {
-        "whyChosen": "JUnit defined the xUnit family of testing frameworks.",
-        "whyImportant": "It made automated unit tests a standard part of professional development.",
-        "problemSolved": "Developers ran ad-hoc test mains; there was no lightweight test runner convention."
-      },
-      "category": "software",
-      "tags": [
-        "junit",
-        "testing",
-        "java",
-        "xunit",
-        "tdd"
-      ],
-      "people": [
-        {
-          "id": "kent-beck",
-          "name": "Kent Beck",
-          "role": "co-creator"
-        },
-        {
-          "id": "erich-gamma",
-          "name": "Erich Gamma",
-          "role": "co-creator"
-        }
-      ],
-      "companies": [],
-      "importance": 4,
-      "media": [],
-      "sources": [
-        {
-          "title": "Wikipedia — JUnit (first released 1997)",
-          "url": "https://en.wikipedia.org/wiki/JUnit",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — JUnit (overview)",
-          "url": "https://en.wikipedia.org/wiki/JUnit",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "java-1-0-shipped",
-        "kent-beck-extreme-programming",
-        "hudson-ci-released"
-      ]
     }
   ]
 }

@@ -1,51 +1,51 @@
 {
   "events": [
     {
-      "id": "apache-kafka-2-0-released",
-      "slug": "apache-kafka-2-0-released",
+      "id": "vue-2-6-released",
+      "slug": "vue-2-6-released",
       "date": "2019-02-04",
       "datePrecision": "day",
-      "title": "Apache Kafka 2.0 released",
-      "summary": "The Apache Kafka project released version 2.0 on February 4, 2019 — adding self-balancing clusters and improved Java client APIs.",
-      "about": "Kafka 2.0 matured the event-streaming platform microservices rely on — producers, consumers, and Kafka Streams for real-time pipelines. It cemented Kafka as the default log backbone between services.",
+      "title": "Vue 2.6 released",
+      "summary": "Evan You released Vue.js 2.6 on February 4, 2019 — adding scoped slots APIs and improved TypeScript support before Vue 3.",
+      "about": "Vue 2.6 refined the composition patterns teams used in production — slot syntax and `v-slot` cleaned up component APIs. It was the stable baseline millions of apps ran on while Vue 3 was developed.",
       "narrative": {
-        "whyChosen": "Kafka 2.0 marked the platform's transition to enterprise-grade streaming infrastructure.",
-        "whyImportant": "It expanded Kafka beyond a message queue into a full event streaming system.",
-        "problemSolved": "Teams needed durable, replayable event logs between distributed services."
+        "whyChosen": "Vue 2.6 was the last major Vue 2 release before the Vue 3 migration.",
+        "whyImportant": "It matured the component API surface used across the Vue ecosystem.",
+        "problemSolved": "Teams needed clearer slot APIs and better TypeScript ergonomics on Vue 2."
       },
       "category": "software",
       "tags": [
-        "kafka",
-        "messaging",
-        "streaming",
-        "apache",
-        "distributed-systems"
+        "vue",
+        "javascript",
+        "frontend",
+        "web"
       ],
-      "people": [],
-      "companies": [
+      "people": [
         {
-          "id": "apache-software-foundation",
-          "name": "Apache Software Foundation"
+          "id": "evan-you",
+          "name": "Evan You",
+          "role": "creator"
         }
       ],
-      "importance": 5,
+      "companies": [],
+      "importance": 6,
       "media": [],
       "sources": [
         {
-          "title": "Apache Kafka — 2.0.0 release (February 4, 2019)",
-          "url": "https://kafka.apache.org/21/documentation.html",
+          "title": "Vue.js Blog — Vue 2.6 released (February 4, 2019)",
+          "url": "https://blog.vuejs.org/posts/vue-2-6-released.html",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Apache Kafka (overview)",
-          "url": "https://en.wikipedia.org/wiki/Apache_Kafka",
+          "title": "Wikipedia — Vue.js (overview)",
+          "url": "https://en.wikipedia.org/wiki/Vue.js",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "apache-kafka-open-sourced",
-        "rabbitmq-released",
-        "mqtt-invented"
+        "vue-js-released",
+        "vue-3-released",
+        "webpack-released"
       ]
     }
   ]

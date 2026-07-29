@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "mcculloch-pitts-neurons",
+      "slug": "mcculloch-pitts-neurons",
+      "date": "1943-12",
+      "datePrecision": "month",
+      "title": "McCulloch and Pitts model artificial neurons",
+      "summary": "Warren McCulloch and Walter Pitts published their 1943 paper modeling neurons as logic gates — the mathematical foundation of artificial neural networks.",
+      "about": "Their McCulloch–Pitts neuron sums weighted inputs and fires above a threshold, implementing AND, OR, and NOT. Modern deep learning stacks billions of descendants of this 1943 abstraction, even though biological neurons are far messier.",
+      "narrative": {
+        "whyChosen": "This paper is the origin story of neural networks and computational neuroscience.",
+        "whyImportant": "It showed brains and circuits could be described with the same Boolean logic Shannon applied to hardware.",
+        "problemSolved": "There was no rigorous model connecting nervous-system activity to computable logic."
+      },
+      "category": "ai",
+      "tags": [
+        "neural-networks",
+        "ai-history",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "warren-mcculloch",
+          "name": "Warren McCulloch",
+          "role": "researcher"
+        },
+        {
+          "id": "walter-pitts",
+          "name": "Walter Pitts",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Bulletin of Mathematical Biophysics — A logical calculus of the ideas immanent in nervous activity (December 1943)",
+          "url": "https://doi.org/10.1007/BF02478259",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Artificial neuron (overview)",
+          "url": "https://en.wikipedia.org/wiki/Artificial_neuron",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "marvin-minsky-dartmouth-workshop",
+        "claude-shannon-information-theory"
+      ]
+    }
+  ]
+}

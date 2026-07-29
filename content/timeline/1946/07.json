@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "id": "moore-school-lectures-1946",
+      "slug": "moore-school-lectures-1946",
+      "date": "1946-07-08",
+      "datePrecision": "day",
+      "title": "Moore School lectures on electronic computers begin",
+      "summary": "The Moore School's summer course on electronic digital computers opened July 8, 1946 — the first taught curriculum spreading ENIAC and EDVAC stored-program ideas worldwide.",
+      "about": "Forty-eight lectures by Eckert, Mauchly, Goldstine, von Neumann, and others trained the generation that built Manchester Baby, EDSAC, and early commercial machines. Attendees carried blueprints and lecture notes back to the UK, US labs, and industry — bootstrapping the computer age.",
+      "narrative": {
+        "whyChosen": "The Moore School course was computing's first formal knowledge transfer event.",
+        "whyImportant": "It turned a wartime secret project into an international research movement.",
+        "problemSolved": "Stored-program computer know-how was trapped inside a handful of classified projects."
+      },
+      "category": "culture",
+      "tags": [
+        "education",
+        "computer-history",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "john-von-neumann",
+          "name": "John von Neumann",
+          "role": "researcher"
+        },
+        {
+          "id": "j-presper-eckert",
+          "name": "J. Presper Eckert",
+          "role": "researcher"
+        },
+        {
+          "id": "john-mauchly",
+          "name": "John Mauchly",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "University of Manchester — Moore School lectures 1946 (July 8–August 31)",
+          "url": "https://en.wikipedia.org/wiki/Moore_School_Lectures",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Moore School Lectures (overview)",
+          "url": "https://en.wikipedia.org/wiki/Moore_School_Lectures",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "john-von-neumann-architecture",
+        "eniac-dedicated",
+        "manchester-baby-first-program"
+      ]
+    }
+  ]
+}

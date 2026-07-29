@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "fixture-day-event",
+      "slug": "fixture-day-event",
+      "date": "2000-01-15",
+      "datePrecision": "day",
+      "title": "Fixture Day Event",
+      "summary": "A day-precision fixture event.",
+      "about": "Used by loadTimeline integration tests.",
+      "narrative": {
+        "whyChosen": "Fixture data.",
+        "whyImportant": "Tests bucket loading.",
+        "problemSolved": "Validates month buckets."
+      },
+      "category": "software",
+      "tags": ["fixture"],
+      "importance": 5,
+      "sources": [
+        {
+          "title": "Fixture source",
+          "url": "https://example.com/fixture-day",
+          "role": "date"
+        }
+      ]
+    }
+  ]
+}

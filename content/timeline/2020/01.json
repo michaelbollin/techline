@@ -1,6 +1,88 @@
 {
   "events": [
     {
+      "id": "ccpa-effective",
+      "slug": "ccpa-effective",
+      "date": "2020-01-01",
+      "datePrecision": "day",
+      "title": "California Consumer Privacy Act takes effect",
+      "summary": "The California Consumer Privacy Act became operative on January 1, 2020 — granting California residents rights to know, delete, and opt out of sale of their personal information, with Attorney General enforcement beginning July 1, 2020.",
+      "about": "CCPA was the first comprehensive U.S. state privacy law — forcing national brands to add 'Do Not Sell My Personal Information' links, data-deletion workflows, and vendor contracts mirroring GDPR. It inspired Virginia's VCDPA, Colorado's CPA, and the eventual American Privacy Rights Act debates. Privacy engineering teams doubled down on consent management platforms and data-inventory tooling.",
+      "narrative": {
+        "whyChosen": "CCPA brought GDPR-style privacy rights to the largest U.S. state economy.",
+        "whyImportant": "It made California-specific privacy UX mandatory for any national consumer app.",
+        "problemSolved": "U.S. users lacked statutory rights to access or delete personal data held by tech companies."
+      },
+      "category": "culture",
+      "tags": [
+        "law",
+        "privacy",
+        "ccpa",
+        "california",
+        "policy"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "California Attorney General — CCPA effective January 1, 2020",
+          "url": "https://oag.ca.gov/privacy/ccpa",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — California Consumer Privacy Act (overview)",
+          "url": "https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "gdpr-effective",
+        "cambridge-analytica-scandal"
+      ]
+    },
+    {
+      "id": "python-2-end-of-life",
+      "slug": "python-2-end-of-life",
+      "date": "2020-01-01",
+      "datePrecision": "day",
+      "title": "Python 2 reaches end of life",
+      "summary": "The Python Software Foundation ended support for Python 2 on January 1, 2020 — closing twenty years of the 2.x line and forcing the ecosystem onto Python 3.",
+      "about": "After January 1, 2020, no bug fixes or security patches came from the core team for Python 2 — even for critical vulnerabilities. Enterprises running legacy Django apps, scientific code, and ops scripts had to port, freeze, or pay vendors for extended support. The migration had been announced since 2008 and extended once; this was the hard deadline.",
+      "narrative": {
+        "whyChosen": "Python 2's sunset was one of the largest coordinated language migrations in open-source history.",
+        "whyImportant": "It ended ambiguity about which Python to teach, ship, and depend on — Python 3 became the only supported line.",
+        "problemSolved": "Maintaining two incompatible Python dialects split library authors and slowed language evolution."
+      },
+      "category": "software",
+      "tags": [
+        "python",
+        "programming-language"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "Python.org — Sunsetting Python 2 (January 1, 2020)",
+          "url": "https://www.python.org/doc/sunset-python-2/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Python (programming language) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "python-2-7-released",
+        "python-2-0-released",
+        "python-3-0-released"
+      ]
+    },
+    {
       "id": "edge-chromium-released",
       "slug": "edge-chromium-released",
       "date": "2020-01-15",
@@ -52,43 +134,92 @@
       ]
     },
     {
-      "id": "python-2-end-of-life",
-      "slug": "python-2-end-of-life",
-      "date": "2020-01-01",
+      "id": "shopware-6-1-released",
+      "slug": "shopware-6-1-released",
+      "date": "2020-01-15",
       "datePrecision": "day",
-      "title": "Python 2 reaches end of life",
-      "summary": "The Python Software Foundation ended support for Python 2 on January 1, 2020 — closing twenty years of the 2.x line and forcing the ecosystem onto Python 3.",
-      "about": "After January 1, 2020, no bug fixes or security patches came from the core team for Python 2 — even for critical vulnerabilities. Enterprises running legacy Django apps, scientific code, and ops scripts had to port, freeze, or pay vendors for extended support. The migration had been announced since 2008 and extended once; this was the hard deadline.",
+      "title": "Shopware 6.1 released",
+      "summary": "Shopware released version 6.1.0 on January 15, 2020 — the first stable production release of Shopware 6's Symfony and Vue.js rewrite.",
+      "about": "Shopware 6 split storefront, administration, and core into headless APIs — a complete rewrite from Shopware 5's monolith. Version 6.1 marked the platform as ready for merchant migrations after months of release candidates.",
       "narrative": {
-        "whyChosen": "Python 2's sunset was one of the largest coordinated language migrations in open-source history.",
-        "whyImportant": "It ended ambiguity about which Python to teach, ship, and depend on — Python 3 became the only supported line.",
-        "problemSolved": "Maintaining two incompatible Python dialects split library authors and slowed language evolution."
+        "whyChosen": "Shopware 6.1 validated the headless commerce rewrite for production merchants.",
+        "whyImportant": "Symfony and Vue.js aligned Shopware with modern PHP and frontend stacks.",
+        "problemSolved": "Shopware 5's monolithic architecture could not support API-first omnichannel commerce."
       },
       "category": "software",
       "tags": [
-        "python",
-        "programming-language"
+        "shopware",
+        "ecommerce",
+        "php",
+        "symfony",
+        "vue",
+        "headless"
       ],
-      "people": [],
-      "companies": [],
-      "importance": 2,
+      "importance": 8,
       "media": [],
       "sources": [
         {
-          "title": "Python.org — Sunsetting Python 2 (January 1, 2020)",
-          "url": "https://www.python.org/doc/sunset-python-2/",
+          "title": "Shopware — 6.1.0 changelog (January 15, 2020)",
+          "url": "https://www.shopware.com/en/changelog/#6-1-0",
           "role": "date"
         },
         {
-          "title": "Wikipedia — Python (programming language) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "title": "Wikipedia — Shopware (overview)",
+          "url": "https://en.wikipedia.org/wiki/Shopware",
           "role": "overview"
         }
       ],
       "relatedIds": [
-        "python-2-7-released",
-        "python-2-0-released",
-        "python-3-0-released"
+        "shopware-open-sourced",
+        "magento-2-0-released",
+        "symfony-4-released"
+      ]
+    },
+    {
+      "id": "playwright-announced",
+      "slug": "playwright-announced",
+      "date": "2020-01-31",
+      "datePrecision": "day",
+      "title": "Playwright announced by Microsoft",
+      "summary": "Microsoft announced Playwright on January 31, 2020 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
+      "about": "Playwright (`page.goto`, auto-waiting, tracing) became the modern alternative to Selenium for E2E tests — one API driving Chrome, Safari, and Firefox with reliable selectors. It powers CI suites at Microsoft, Vercel, and thousands of open-source projects.",
+      "narrative": {
+        "whyChosen": "Playwright modernized browser automation for the multi-engine web.",
+        "whyImportant": "It made reliable cross-browser E2E tests practical in CI pipelines.",
+        "problemSolved": "Selenium tests were flaky and struggled with modern SPA timing."
+      },
+      "category": "software",
+      "tags": [
+        "playwright",
+        "testing",
+        "e2e",
+        "microsoft",
+        "browser"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "importance": 5,
+      "media": [],
+      "sources": [
+        {
+          "title": "InfoQ — Playwright browser automation (January 31, 2020)",
+          "url": "https://www.infoq.com/news/2020/01/playwright-browser-automation/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Playwright (software) (overview)",
+          "url": "https://en.wikipedia.org/wiki/Playwright_(software)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "selenium-released",
+        "cypress-open-sourced"
       ]
     },
     {
@@ -137,90 +268,6 @@
         "visual-studio-code-preview",
         "google-chrome-released",
         "nodejs-first-released"
-      ]
-    },
-    {
-      "id": "shopware-6-1-released",
-      "slug": "shopware-6-1-released",
-      "date": "2020-01-15",
-      "datePrecision": "day",
-      "title": "Shopware 6.1 released",
-      "summary": "Shopware released version 6.1.0 on January 15, 2020 — the first stable production release of Shopware 6's Symfony and Vue.js rewrite.",
-      "about": "Shopware 6 split storefront, administration, and core into headless APIs — a complete rewrite from Shopware 5's monolith. Version 6.1 marked the platform as ready for merchant migrations after months of release candidates.",
-      "narrative": {
-        "whyChosen": "Shopware 6.1 validated the headless commerce rewrite for production merchants.",
-        "whyImportant": "Symfony and Vue.js aligned Shopware with modern PHP and frontend stacks.",
-        "problemSolved": "Shopware 5's monolithic architecture could not support API-first omnichannel commerce."
-      },
-      "category": "software",
-      "tags": [
-        "shopware",
-        "ecommerce",
-        "php",
-        "symfony",
-        "vue",
-        "headless"
-      ],
-      "importance": 8,
-      "media": [],
-      "sources": [
-        {
-          "title": "Shopware — 6.1.0 changelog (January 15, 2020)",
-          "url": "https://www.shopware.com/en/changelog/#6-1-0",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Shopware (overview)",
-          "url": "https://en.wikipedia.org/wiki/Shopware",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "shopware-open-sourced",
-        "magento-2-0-released",
-        "symfony-4-released"
-      ]
-    },
-    {
-      "id": "ccpa-effective",
-      "slug": "ccpa-effective",
-      "date": "2020-01-01",
-      "datePrecision": "day",
-      "title": "California Consumer Privacy Act takes effect",
-      "summary": "The California Consumer Privacy Act became enforceable on January 1, 2020 — granting California residents rights to know, delete, and opt out of sale of their personal information.",
-      "about": "CCPA was the first comprehensive U.S. state privacy law — forcing national brands to add 'Do Not Sell My Personal Information' links, data-deletion workflows, and vendor contracts mirroring GDPR. It inspired Virginia's VCDPA, Colorado's CPA, and the eventual American Privacy Rights Act debates. Privacy engineering teams doubled down on consent management platforms and data-inventory tooling.",
-      "narrative": {
-        "whyChosen": "CCPA brought GDPR-style privacy rights to the largest U.S. state economy.",
-        "whyImportant": "It made California-specific privacy UX mandatory for any national consumer app.",
-        "problemSolved": "U.S. users lacked statutory rights to access or delete personal data held by tech companies."
-      },
-      "category": "culture",
-      "tags": [
-        "law",
-        "privacy",
-        "ccpa",
-        "california",
-        "policy"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 4,
-      "media": [],
-      "sources": [
-        {
-          "title": "California Attorney General — CCPA effective January 1, 2020",
-          "url": "https://oag.ca.gov/privacy/ccpa",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — California Consumer Privacy Act (overview)",
-          "url": "https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "gdpr-effective",
-        "cambridge-analytica-scandal"
       ]
     }
   ]

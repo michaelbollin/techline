@@ -1,12 +1,12 @@
 {
   "events": [
     {
-      "id": "ftp-protocol-rfc-675-published",
-      "slug": "ftp-protocol-rfc-675-published",
-      "date": "1973-11",
-      "datePrecision": "month",
-      "title": "FTP protocol specified in RFC 675",
-      "summary": "RFC 675 published the File Transfer Protocol in November 1973 — defining how hosts exchange files across the ARPANET.",
+      "id": "ftp-protocol-rfc-542-published",
+      "slug": "ftp-protocol-rfc-542-published",
+      "date": "1973-08-12",
+      "datePrecision": "day",
+      "title": "FTP protocol specified in RFC 542",
+      "summary": "RFC 542 published the File Transfer Protocol on August 12, 1973 — defining how ARPANET hosts exchange files with login, list, put, and get commands.",
       "about": "FTP predated the web by decades: login, list directories, put and get files over TCP. Every hosting panel, CI artifact upload, and legacy deployment script still echoes its command vocabulary — even as SFTP and object storage replaced it for new systems.",
       "narrative": {
         "whyChosen": "FTP was the first standard file-transfer protocol for the ARPANET.",
@@ -31,8 +31,8 @@
       "media": [],
       "sources": [
         {
-          "title": "RFC 675 — File Transfer Protocol (November 1973)",
-          "url": "https://www.rfc-editor.org/rfc/rfc675",
+          "title": "RFC 542 — File Transfer Protocol (August 12, 1973)",
+          "url": "https://www.rfc-editor.org/rfc/rfc542",
           "role": "date"
         },
         {

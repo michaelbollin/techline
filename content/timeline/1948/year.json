@@ -1,0 +1,51 @@
+{
+  "events": [
+    {
+      "id": "wiener-cybernetics-published",
+      "slug": "wiener-cybernetics-published",
+      "date": "1948",
+      "datePrecision": "year",
+      "title": "Wiener publishes Cybernetics",
+      "summary": "Norbert Wiener's 1948 book Cybernetics coined the field of feedback, control, and communication — in machines and living systems alike.",
+      "about": "Wiener unified servomechanisms, neuroscience, and computing under one vocabulary of signals, noise, and homeostasis. Terms like cybernetics and cyberspace descend from this work; control theory in robotics, thermostats, and autopilots still uses its framework.",
+      "narrative": {
+        "whyChosen": "Cybernetics named the study of feedback loops that underpin both biology and engineering.",
+        "whyImportant": "It bridged wartime control systems research with postwar computing and AI ambitions.",
+        "problemSolved": "Engineers and biologists lacked shared language for self-regulating systems."
+      },
+      "category": "invention",
+      "tags": [
+        "cybernetics",
+        "control-theory",
+        "research"
+      ],
+      "people": [
+        {
+          "id": "norbert-wiener",
+          "name": "Norbert Wiener",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 2,
+      "media": [],
+      "sources": [
+        {
+          "title": "MIT Press — Cybernetics or Control and Communication in the Animal and the Machine (1948)",
+          "url": "https://mitpress.mit.edu/9780262537841/cybernetics-or-control-and-communication-in-the-animal-and-the-machine/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Cybernetics (overview)",
+          "url": "https://en.wikipedia.org/wiki/Cybernetics",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "claude-shannon-information-theory",
+        "mcculloch-pitts-neurons",
+        "marvin-minsky-dartmouth-workshop"
+      ]
+    }
+  ]
+}

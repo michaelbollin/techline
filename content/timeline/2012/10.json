@@ -192,49 +192,6 @@
         "graphql-open-sourced",
         "swagger-1-0-released"
       ]
-    },
-    {
-      "id": "sentry-launched",
-      "slug": "sentry-launched",
-      "date": "2012-10",
-      "datePrecision": "month",
-      "title": "Sentry error monitoring open-sourced",
-      "summary": "David Cramer open-sourced Sentry in October 2012 — an error-tracking service that aggregates exceptions with stack traces and release context.",
-      "about": "Sentry SDKs for Python, JavaScript, Ruby, and dozens of languages piped production errors to a searchable dashboard — grouping duplicates, assigning owners, and linking deploys. It became as standard as Postman for APIs: `SENTRY_DSN` in every startup's environment variables alongside logging and APM.",
-      "narrative": {
-        "whyChosen": "Sentry made production exception tracking a default part of the dev stack.",
-        "whyImportant": "Grouped stack traces and release tracking cut mean time to diagnose crashes.",
-        "problemSolved": "Teams grepped log files manually to find recurring production exceptions."
-      },
-      "category": "software",
-      "tags": [
-        "sentry",
-        "error-monitoring",
-        "observability",
-        "developer-tools",
-        "open-source"
-      ],
-      "people": [],
-      "companies": [],
-      "importance": 4,
-      "media": [],
-      "sources": [
-        {
-          "title": "Sentry — About (founded 2012)",
-          "url": "https://sentry.io/about/",
-          "role": "date"
-        },
-        {
-          "title": "Wikipedia — Sentry (software) (overview)",
-          "url": "https://en.wikipedia.org/wiki/Sentry_(software)",
-          "role": "overview"
-        }
-      ],
-      "relatedIds": [
-        "postman-launched",
-        "github-launched",
-        "hudson-ci-released"
-      ]
     }
   ]
 }

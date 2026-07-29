@@ -1,0 +1,97 @@
+{
+  "events": [
+    {
+      "id": "turing-computing-machinery-intelligence",
+      "slug": "turing-computing-machinery-intelligence",
+      "date": "1950-10",
+      "datePrecision": "month",
+      "title": "Turing publishes Computing Machinery and Intelligence",
+      "summary": "Alan Turing's October 1950 Mind paper asked whether machines can think and proposed the imitation game — now called the Turing test.",
+      "about": "Turing reframed intelligence as behavior observable over a teletype conversation, not inner experience. The paper anticipated machine learning objections, consciousness debates, and every chatbot benchmark that followed — from ELIZA to modern LLM evals.",
+      "narrative": {
+        "whyChosen": "This is the founding document of philosophy-of-AI and practical machine intelligence testing.",
+        "whyImportant": "It gave researchers a concrete experiment instead of endless definitions of 'thinking.'",
+        "problemSolved": "There was no operational way to discuss machine intelligence without metaphysics."
+      },
+      "category": "ai",
+      "tags": [
+        "ai-history",
+        "research",
+        "turing-test"
+      ],
+      "people": [
+        {
+          "id": "alan-turing",
+          "name": "Alan Turing",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 1,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mind — Computing Machinery and Intelligence (October 1950)",
+          "url": "https://doi.org/10.1093/mind/LIX.236.433",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Turing test (overview)",
+          "url": "https://en.wikipedia.org/wiki/Turing_test",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "turing-can-machines-think-quote",
+        "alan-turing-computable-numbers",
+        "marvin-minsky-dartmouth-workshop"
+      ]
+    },
+    {
+      "id": "turing-can-machines-think-quote",
+      "slug": "turing-can-machines-think-quote",
+      "date": "1950-10",
+      "datePrecision": "month",
+      "title": "Turing: \"Can machines think?\"",
+      "quoteText": "I propose to consider the question, 'Can machines think?'",
+      "summary": "Turing opens his 1950 Mind paper by reframing the question of machine intelligence — leading to the imitation game thought experiment.",
+      "about": "Instead of defining 'think,' Turing proposed a conversational test: if a machine's answers are indistinguishable from a human's, the question of thinking becomes less important than observable capability. The opening line launched seventy years of AI debate.",
+      "narrative": {
+        "whyChosen": "The opening sentence of the most cited paper in AI philosophy.",
+        "whyImportant": "It shifted the debate from consciousness to measurable behavior.",
+        "problemSolved": "Philosophers could not agree what 'thinking' meant for humans, let alone machines."
+      },
+      "category": "quote",
+      "tags": [
+        "quote",
+        "insight",
+        "ai-history"
+      ],
+      "people": [
+        {
+          "id": "alan-turing",
+          "name": "Alan Turing",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
+      "importance": 3,
+      "media": [],
+      "sources": [
+        {
+          "title": "Mind — Computing Machinery and Intelligence (October 1950)",
+          "url": "https://doi.org/10.1093/mind/LIX.236.433",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Computing Machinery and Intelligence (overview)",
+          "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "turing-computing-machinery-intelligence"
+      ]
+    }
+  ]
+}

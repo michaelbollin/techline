@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import { EventDetail } from "@/components/timeline/event-detail";
-import { EventDetailSection } from "@/components/timeline/event-detail-section";
 import { eventPath, formatEventDate } from "@/lib/timeline/format";
 import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import type { TimelineEvent } from "@/lib/timeline/schema";
@@ -37,26 +36,6 @@ export function EventPageContent({
         </header>
 
         <EventDetail event={event} variant="modal" />
-
-        {related.length > 0 && (
-          <EventDetailSection title="Related" className="mt-8">
-            <ul className="space-y-2">
-              {related.map((item) => (
-                <li key={item.id} className="text-sm">
-                  <Link
-                    href={eventPath(item.slug, { filterPathKey })}
-                    className="text-foreground underline decoration-black/15 underline-offset-4 hover:decoration-black/40"
-                  >
-                    {item.title}
-                  </Link>
-                  <span className="ml-2 text-muted">
-                    {formatEventDate(item.date, item.datePrecision)}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </EventDetailSection>
-        )}
       </>
     );
   }

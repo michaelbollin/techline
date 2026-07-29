@@ -195,6 +195,9 @@ async function collectJsonFiles(dir: string, baseDir: string): Promise<string[]>
     const absolutePath = path.join(dir, entry.name);
 
     if (entry.isDirectory()) {
+      if (entry.name.startsWith(".")) {
+        continue;
+      }
       files.push(...(await collectJsonFiles(absolutePath, baseDir)));
       continue;
     }
