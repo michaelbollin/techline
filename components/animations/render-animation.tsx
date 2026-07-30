@@ -8,6 +8,7 @@ import { GitBranchesAnimation } from "./git-branches";
 import { InternetTidalWaveAnimation } from "./internet-tidal-wave";
 import { QuicksortAnimation } from "./quicksort";
 import { TransistorAnimation } from "./transistor";
+import { Y2kRolloverAnimation } from "./y2k-rollover";
 
 type RenderAnimationProps = {
   animationId: AnimationId;
@@ -28,6 +29,8 @@ export function RenderAnimation({ animationId, className }: RenderAnimationProps
       return <BallmerDevelopersAnimation className={className} />;
     case "internet-tidal-wave":
       return <InternetTidalWaveAnimation className={className} />;
+    case "y2k-rollover":
+      return <Y2kRolloverAnimation className={className} />;
     default:
       return null;
   }

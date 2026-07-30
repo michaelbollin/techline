@@ -27,6 +27,10 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("gates-internet-tidal-wave-memo")).toBe("internet-tidal-wave");
   });
 
+  it("returns the Y2K rollover animation for the millennium rollover", () => {
+    expect(getAnimationIdForEvent("y2k-rollover")).toBe("y2k-rollover");
+  });
+
   it("returns null for events without an animation", () => {
     expect(getAnimationIdForEvent("javascript-released")).toBeNull();
   });

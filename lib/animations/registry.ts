@@ -6,6 +6,7 @@ export const EVENT_ANIMATION_IDS = {
   "bell-labs-transistor-invented": "transistor",
   "ballmer-developers-chant": "ballmer-developers",
   "gates-internet-tidal-wave-memo": "internet-tidal-wave",
+  "y2k-rollover": "y2k-rollover",
 } as const;
 
 export type AnimationId = (typeof EVENT_ANIMATION_IDS)[keyof typeof EVENT_ANIMATION_IDS];
