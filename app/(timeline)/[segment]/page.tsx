@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { filterLabels, parseFilterSegment } from "@/lib/timeline/filter-url";
+import { getEventCoverImageUrl } from "@/lib/timeline/event-image";
 import { getTimeline } from "@/lib/timeline/get-timeline";
 import { getEventBySlug, isEventSlug } from "@/lib/timeline/routing";
-import { SITE_NAME } from "@/lib/site";
+import { absoluteSiteUrl, buildPageMetadata } from "@/lib/site-metadata";
+import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
 type SegmentPageProps = {
   params: Promise<{ segment: string }>;
@@ -21,28 +23,31 @@ export async function generateMetadata({ params }: SegmentPageProps): Promise<Me
 
   if (isEventSlug(segment, events)) {
     const event = getEventBySlug(events, segment)!;
+    const coverUrl = getEventCoverImageUrl(event.media);
 
-    return {
+    return buildPageMetadata({
       title: event.title,
       description: event.summary,
-      openGraph: {
-        title: event.title,
-        description: event.summary,
-        type: "article",
-      },
-    };
+      path: `/${segment}`,
+      type: "article",
+      image: coverUrl ? absoluteSiteUrl(coverUrl) : undefined,
+    });
   }
 
   const activeFilterIds = parseFilterSegment(segment);
   const labels = filterLabels(activeFilterIds, events);
 
   if (labels.length === 0) {
-    return { title: SITE_NAME };
+    return buildPageMetadata({ title: SITE_NAME });
   }
 
-  return {
-    title: labels.join(", "),
-  };
+  const filterTitle = labels.join(", ");
+
+  return buildPageMetadata({
+    title: filterTitle,
+    description: `Timeline events filtered by ${filterTitle}. ${SITE_DESCRIPTION}`,
+    path: `/${segment}`,
+  });
 }
 
 export default async function SegmentPage({ params }: SegmentPageProps) {

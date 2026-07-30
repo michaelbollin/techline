@@ -39,6 +39,14 @@ export function useTimelineFilters(filterPathKey: string) {
     filterIdsFromPathKey(filterPathKey),
   );
 
+  // Defer setState to avoid synchronous effect updates (react-hooks/set-state-in-effect).
+  useEffect(() => {
+    const fromUrl = filterIdsFromPathKey(filterPathKey);
+    queueMicrotask(() => {
+      setActiveFilterIds((prev) => (setsEqual(prev, fromUrl) ? prev : fromUrl));
+    });
+  }, [filterPathKey]);
+
   const flushPendingUrl = useCallback(() => {
     if (pendingPathRef.current !== null) {
       router.replace(pendingPathRef.current, { scroll: false });
@@ -55,11 +63,6 @@ export function useTimelineFilters(filterPathKey: string) {
     },
     [flushPendingUrl],
   );
-
-  useEffect(() => {
-    const fromUrl = filterIdsFromPathKey(filterPathKey);
-    setActiveFilterIds((prev) => (setsEqual(prev, fromUrl) ? prev : fromUrl));
-  }, [filterPathKey]);
 
   const updateFilters = useCallback(
     (updater: FilterUpdater) => {

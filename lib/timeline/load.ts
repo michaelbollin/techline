@@ -287,13 +287,6 @@ export function getEventsByTag(events: TimelineEvent[], tag: string): TimelineEv
   return events.filter((event) => event.tags.includes(tag));
 }
 
-export function getBucketForEvent(
-  buckets: TimelineBucket[],
-  eventId: string,
-): TimelineBucket | undefined {
-  return buckets.find((bucket) => bucket.events.some((event) => event.id === eventId));
-}
-
 /** Where to create a file for a new event. */
 export function bucketPathForEvent(event: Pick<TimelineEvent, "date" | "datePrecision">): string {
   if (event.datePrecision === "decade") {

@@ -6,6 +6,9 @@ export const TIMELINE_EVENT_DETAIL_TOP_GAP = 16;
 /** Minimum vertical band before attempting to show hover detail (px). */
 export const TIMELINE_EVENT_DETAIL_MIN_HEIGHT = 80;
 
+/** Header inset when comparing space above the axis (px). */
+const TIMELINE_DETAIL_ABOVE_INSET = 96;
+
 export type TimelineEventDetailLayout = {
   top: number;
   maxHeight: number;
@@ -18,7 +21,22 @@ export function timelineEventDetailLayout(
   viewportHeight: number,
   footerReservedHeight: number,
 ): TimelineEventDetailLayout {
-  const top = decadeBandBottomY(axisY) + TIMELINE_EVENT_DETAIL_TOP_GAP;
+  const bandBottom = decadeBandBottomY(axisY);
+  const minTop = bandBottom + TIMELINE_EVENT_DETAIL_TOP_GAP;
+  const belowBandSpace = viewportHeight - bandBottom - footerReservedHeight;
+  const aboveSpace = axisY - TIMELINE_DETAIL_ABOVE_INSET;
+
+  let top = minTop;
+
+  if (
+    belowBandSpace > aboveSpace &&
+    belowBandSpace >= TIMELINE_EVENT_DETAIL_MIN_HEIGHT
+  ) {
+    const spare = belowBandSpace - TIMELINE_EVENT_DETAIL_MIN_HEIGHT;
+    const push = Math.min(spare, (belowBandSpace - aboveSpace) * 0.45);
+    top = minTop + push;
+  }
+
   const maxHeight = viewportHeight - top - footerReservedHeight;
 
   return {

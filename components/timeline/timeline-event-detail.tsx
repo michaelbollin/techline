@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/cn";
 import { TIMELINE_EDGE_MARGIN } from "@/lib/timeline/constants";
@@ -14,18 +14,22 @@ type TimelineEventDetailProps = {
   maxHeight?: number;
 };
 
-function useMeasuredHeight<T extends HTMLElement>(dependencyKey: string) {
-  const ref = useRef<T>(null);
-  const [height, setHeight] = useState(0);
+export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDetailProps) {
+  const textRef = useRef<HTMLDivElement>(null);
+  const [textHeight, setTextHeight] = useState(0);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const [revealedForId, setRevealedForId] = useState<string | null>(null);
+  const revealed = revealedForId === event.id;
+  const textMeasureKey = `${event.id}:${event.title}:${event.summary}`;
 
   useLayoutEffect(() => {
-    const element = ref.current;
+    const element = textRef.current;
     if (!element) {
       return;
     }
 
     const updateHeight = () => {
-      setHeight(element.offsetHeight);
+      setTextHeight(element.offsetHeight);
     };
 
     updateHeight();
@@ -34,24 +38,9 @@ function useMeasuredHeight<T extends HTMLElement>(dependencyKey: string) {
     observer.observe(element);
 
     return () => observer.disconnect();
-  }, [dependencyKey]);
+  }, [textMeasureKey]);
 
-  return { ref, height };
-}
-
-export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDetailProps) {
-  const textBlock = useMeasuredHeight<HTMLDivElement>(`${event.id}:${event.title}:${event.summary}`);
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [revealed, setRevealed] = useState(false);
-  const [fits, setFits] = useState<boolean | null>(maxHeight === undefined ? true : null);
-
-  useEffect(() => {
-    setRevealed(false);
-  }, [event.id]);
-
-  useEffect(() => {
-    setFits(maxHeight === undefined ? true : null);
-  }, [event.id, maxHeight]);
+  const [fits, setFits] = useState<boolean | null>(() => (maxHeight === undefined ? true : null));
 
   useLayoutEffect(() => {
     const element = contentRef.current;
@@ -70,7 +59,7 @@ export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDeta
     observer.observe(element);
 
     return () => observer.disconnect();
-  }, [event.id, event.imageUrl, event.summary, event.title, maxHeight, textBlock.height]);
+  }, [event.id, event.imageUrl, event.summary, event.title, maxHeight, textHeight]);
 
   if (maxHeight !== undefined && fits === false) {
     return null;
@@ -100,24 +89,24 @@ export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDeta
           "max-w-2xl pl-4",
           revealed ? "timeline-detail-revealed" : "animate-timeline-detail-reveal",
         )}
-        onAnimationEnd={() => setRevealed(true)}
+        onAnimationEnd={() => setRevealedForId(event.id)}
       >
         <p className="m-0 text-xs font-medium tracking-widest uppercase">{event.dateLabel}</p>
 
         <div className="mt-1.5 flex items-start gap-4">
-          {event.imageUrl && textBlock.height > 0 && (
+          {event.imageUrl && textHeight > 0 && (
             <Image
               src={event.imageUrl}
               alt=""
               width={320}
               height={240}
               className="max-w-[200px] w-auto object-contain"
-              style={{ maxHeight: textBlock.height, height: "auto" }}
+              style={{ maxHeight: textHeight, height: "auto" }}
               unoptimized={event.imageUrl.endsWith(".svg")}
             />
           )}
 
-          <div ref={textBlock.ref} className="min-w-0">
+          <div ref={textRef} className="min-w-0">
             <p className="text-xl leading-tight font-semibold tracking-tight">{event.title}</p>
             <p className="mt-2 max-w-xl text-base leading-normal">{event.summary}</p>
           </div>

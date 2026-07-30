@@ -6,9 +6,9 @@ import { parseIdListFile } from "./id-list-file";
 import { OUT_OF_SCOPE_EVENT_ID_SET } from "./out-of-scope-events";
 import type { TimelineEvent } from "./schema";
 
-export const DEFERRED_EVENTS_PATH = path.join(process.cwd(), "scripts/deferred-events.txt");
+const DEFERRED_EVENTS_PATH = path.join(process.cwd(), "scripts/deferred-events.txt");
 
-export async function readManualDeferredEventIds(): Promise<Set<string>> {
+async function readManualDeferredEventIds(): Promise<Set<string>> {
   try {
     const content = await readFile(DEFERRED_EVENTS_PATH, "utf8");
     return parseIdListFile(content);
@@ -21,8 +21,4 @@ export async function readDeferredEventIds(events: TimelineEvent[]): Promise<Set
   const manual = await readManualDeferredEventIds();
   const automatic = deferredIdsFromThinCohorts(events);
   return new Set([...manual, ...automatic, ...OUT_OF_SCOPE_EVENT_ID_SET]);
-}
-
-export function isDeferredEvent(eventId: string, deferredIds: ReadonlySet<string>): boolean {
-  return deferredIds.has(eventId);
 }

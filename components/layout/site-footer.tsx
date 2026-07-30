@@ -6,7 +6,6 @@ import {
   SITE_AUTHOR_EMAIL,
   SITE_AUTHOR_NAME,
   SITE_AUTHOR_URL,
-  SITE_FOOTER_RESERVED_HEIGHT,
 } from "@/lib/site";
 
 type SiteFooterProps = {
@@ -25,24 +24,29 @@ export function SiteFooter({ fixed = false, className }: SiteFooterProps) {
         className,
       )}
     >
-      <p
+      <div
         className={cn(
-          "flex flex-wrap items-center gap-x-1 px-6 py-3 sm:px-8",
-          fixed &&
-            "pointer-events-auto justify-center max-md:py-0 md:justify-end",
+          "flex px-6 py-3 sm:px-8",
+          "max-md:flex-col max-md:items-center max-md:gap-1.5 max-md:py-3",
+          "md:flex-row md:flex-wrap md:items-center md:justify-end md:gap-x-1",
+          fixed && "pointer-events-auto md:min-h-[56px]",
         )}
-        style={fixed ? { minHeight: SITE_FOOTER_RESERVED_HEIGHT } : undefined}
       >
-        <BuyMeACoffeeButton />
-        <span aria-hidden="true"> · </span>
-        <span className="inline-flex translate-y-[5px] items-center gap-x-1">
+        <span className="inline-flex items-center gap-x-1 md:translate-y-[8px]">
+          <BuyMeACoffeeButton className="md:relative md:-top-[5px]" />
+          <span aria-hidden="true"> · </span>
           <Link
             href={SITE_AUTHOR_URL}
             className="text-black/70 underline-offset-2 hover:text-black hover:underline"
           >
             {SITE_AUTHOR_NAME}
           </Link>
-          <span aria-hidden="true"> · </span>
+        </span>
+
+        <span className="inline-flex items-center gap-x-1 max-md:text-center md:translate-y-[8px]">
+          <span aria-hidden="true" className="max-md:hidden">
+            {" · "}
+          </span>
           <span>Missing event? Send it to: </span>
           <a
             href={`mailto:${SITE_AUTHOR_EMAIL}`}
@@ -51,7 +55,7 @@ export function SiteFooter({ fixed = false, className }: SiteFooterProps) {
             {SITE_AUTHOR_EMAIL}
           </a>
         </span>
-      </p>
+      </div>
     </footer>
   );
 }

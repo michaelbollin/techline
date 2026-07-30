@@ -10,6 +10,7 @@ import {
   SITE_NAME,
   SITE_SUBTITLE,
   SITE_TAGLINE,
+  SITE_URL,
   SITE_WORDMARK,
 } from "./site";
 
@@ -22,11 +23,12 @@ describe("site constants", () => {
     expect(SITE_DESCRIPTION).toBe(`${SITE_TAGLINE}. ${SITE_SUBTITLE}`);
   });
 
-  it("exports author and footer layout constants", () => {
+  it("exports author, URL, and layout constants", () => {
     expect(SITE_AUTHOR_NAME).toBe("Michael Bollin");
     expect(SITE_AUTHOR_EMAIL).toBe("michael@bollin.dev");
     expect(SITE_AUTHOR_URL).toBe("https://bollin.dev");
     expect(SITE_FOOTER_RESERVED_HEIGHT).toBe(56);
     expect(SITE_BMC_USERNAME).toBe("michaelbollin");
+    expect(SITE_URL).toBe("https://historyof.dev");
   });
 });

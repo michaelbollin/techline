@@ -1,3 +1,4 @@
+import type { ScaleTime } from "d3-scale";
 import { MS_PER_YEAR } from "./axis-ticks";
 import { TIMELINE_YEAR_LABEL_OFFSET, TIMELINE_YEAR_MAX, TIMELINE_YEAR_MIN } from "./constants";
 
@@ -47,7 +48,7 @@ export function decadeStartsInRange(minYear: number, maxYear: number): number[] 
 }
 
 export function visibleDecadeStarts(
-  xScale: (date: Date) => number,
+  xScale: ScaleTime<number, number>,
   width: number,
   extentMinYear = TIMELINE_YEAR_MIN,
   extentMaxYear = TIMELINE_YEAR_MAX,

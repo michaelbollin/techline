@@ -1,3 +1,7 @@
+/** Canonical site URL for metadata and absolute asset links. */
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ?? "https://historyof.dev";
+
 export const SITE_NAME = "History of Dev";
 
 /** Uppercase wordmark shown in the header. */

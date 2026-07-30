@@ -45,12 +45,15 @@ describe("useTimelineFilters", () => {
     });
   });
 
-  it("updates when filter path key changes externally", () => {
+  it("updates when filter path key changes externally", async () => {
     const { result, rerender } = renderHook(({ key }) => useTimelineFilters(key), {
       initialProps: { key: "" },
     });
 
     rerender({ key: "javascript" });
-    expect([...result.current.activeFilterIds]).toEqual(["lang-javascript"]);
+
+    await waitFor(() => {
+      expect([...result.current.activeFilterIds]).toEqual(["lang-javascript"]);
+    });
   });
 });

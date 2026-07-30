@@ -14,14 +14,10 @@ export function isValidEventId(eventId: string): boolean {
   return EVENT_ID_PATTERN.test(eventId);
 }
 
-export function parseWrongEventImageIds(content: string): Set<string> {
-  return parseIdListFile(content);
-}
-
 export async function readWrongEventImageIds(): Promise<Set<string>> {
   try {
     const content = await readFile(WRONG_EVENT_IMAGES_PATH, "utf8");
-    return parseWrongEventImageIds(content);
+    return parseIdListFile(content);
   } catch {
     return new Set();
   }

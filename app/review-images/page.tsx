@@ -1,17 +1,19 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { EventImageReviewList } from "@/components/review/event-image-review-list";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { isDevEnvironment } from "@/lib/dev";
+import { buildPageMetadata } from "@/lib/site-metadata";
 import { loadTimeline } from "@/lib/timeline/load";
 import { readWrongEventImageIds, WRONG_EVENT_IMAGES_PATH } from "@/lib/timeline/wrong-images";
 
-export const metadata: Metadata = {
+export const metadata = buildPageMetadata({
   title: "Review images",
-  robots: { index: false, follow: false },
-};
+  description: "Internal dev tool for reviewing event cover images.",
+  path: "/review-images",
+  noIndex: true,
+});
 
 export default async function ReviewImagesPage() {
   if (!isDevEnvironment()) {

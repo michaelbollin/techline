@@ -10,7 +10,7 @@ type UseTimelineFilterZoomOptions = {
   plotted: PlottedEvent[];
   activeFilterIds: Set<string>;
   fulltextQuery: string;
-  animateTo: (transform: ReturnType<typeof computeFitTransform>, source?: string) => void;
+  animateTo: (transform: ReturnType<typeof computeFitTransform>) => void;
 };
 
 export function useTimelineFilterZoom({
@@ -21,7 +21,10 @@ export function useTimelineFilterZoom({
   animateTo,
 }: UseTimelineFilterZoomOptions) {
   const animateToRef = useRef(animateTo);
-  animateToRef.current = animateTo;
+
+  useEffect(() => {
+    animateToRef.current = animateTo;
+  }, [animateTo]);
 
   const previousFilterKeyRef = useRef<string | undefined>(undefined);
   const filterKey = useMemo(
@@ -48,7 +51,6 @@ export function useTimelineFilterZoom({
       if (previousKey === undefined || filterKeyChanged) {
         animateToRef.current(
           computeZoomToEvents(width, TIMELINE_EXTENT, plotted, { tight: true }),
-          "filter-zoom",
         );
       }
       return;
@@ -59,7 +61,7 @@ export function useTimelineFilterZoom({
     }
 
     if (filterKeyChanged && plotted.length > 0) {
-      animateToRef.current(computeFitTransform(width, TIMELINE_EXTENT), "filter-clear");
+      animateToRef.current(computeFitTransform(width, TIMELINE_EXTENT));
     }
   }, [activeFilterIds, filterKey, fulltextQuery, plotted, width]);
 }

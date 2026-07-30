@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import { BuyMeACoffeeScript } from "@/components/layout/buy-me-a-coffee";
-import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
+import { rootSiteMetadata } from "@/lib/site-metadata";
 
 import "./globals.css";
 
@@ -16,13 +16,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
 });
 
-export const metadata: Metadata = {
-  title: {
-    default: SITE_NAME,
-    template: `%s · ${SITE_NAME}`,
-  },
-  description: SITE_DESCRIPTION,
-};
+export const metadata: Metadata = rootSiteMetadata;
 
 export default function RootLayout({
   children,

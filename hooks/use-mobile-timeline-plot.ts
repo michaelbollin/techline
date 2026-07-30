@@ -96,6 +96,7 @@ export function useMobileTimelinePlot({
   }, [msPerPixel, visibleSpanMs, width]);
 
   const labelWidths = useMemo(() => {
+    void fontEpoch;
     const widths = new Map<string, number>();
     for (const event of plotted) {
       widths.set(event.id, measureMobileLabelWidth(event.bubbleTitle));

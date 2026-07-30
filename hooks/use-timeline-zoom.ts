@@ -22,44 +22,14 @@ export function useTimelineZoom({ width, height, svgRef }: UseTimelineZoomOption
   );
 
   const transformRef = useRef(transform);
-  transformRef.current = transform;
+
+  useEffect(() => {
+    transformRef.current = transform;
+  }, [transform]);
 
   const animateTo = useCallback(
-    (next: d3.ZoomTransform, source = "unknown") => {
+    (next: d3.ZoomTransform) => {
       const clamped = clampZoomTransform(next, width, TIMELINE_EXTENT);
-      const minScale = computeFitTransform(width, TIMELINE_EXTENT).k;
-      const scaleClampedByMin = clamped.k <= minScale + 1e-6 && next.k < minScale - 1e-6;
-      const scaleClampedByMax = clamped.k >= TIMELINE_ZOOM_MAX_SCALE - 1e-6 && next.k > TIMELINE_ZOOM_MAX_SCALE + 1e-6;
-      const current = transformRef.current;
-
-      // #region agent log
-      fetch("http://127.0.0.1:7352/ingest/5bfcc10a-fce2-49b9-8546-76ee58c2e162", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "db8903" },
-        body: JSON.stringify({
-          sessionId: "db8903",
-          runId: "post-fix-4",
-          hypothesisId: "F-G",
-          location: "use-timeline-zoom.ts:animateTo",
-          message: "animateTo called",
-          data: {
-            source,
-            nextK: next.k,
-            nextX: next.x,
-            clampedK: clamped.k,
-            clampedX: clamped.x,
-            minScale,
-            maxScale: TIMELINE_ZOOM_MAX_SCALE,
-            scaleClampedByMin,
-            scaleClampedByMax,
-            kDelta: clamped.k - current.k,
-            xDelta: clamped.x - current.x,
-            hasZoomBehavior: Boolean(svgRef.current && zoomRef.current),
-          },
-          timestamp: Date.now(),
-        }),
-      }).catch(() => {});
-      // #endregion
 
       const svg = svgRef.current;
       const zoom = zoomRef.current;
@@ -139,28 +109,6 @@ export function useTimelineZoom({ width, height, svgRef }: UseTimelineZoomOption
     svg.call(zoom.transform, applied);
     setTransform(applied);
     hasInitialized.current = true;
-
-    // #region agent log
-    fetch("http://127.0.0.1:7352/ingest/5bfcc10a-fce2-49b9-8546-76ee58c2e162", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "db8903" },
-      body: JSON.stringify({
-        sessionId: "db8903",
-        runId: "post-fix-4",
-        hypothesisId: "F",
-        location: "use-timeline-zoom.ts:bindZoom",
-        message: "zoom behavior rebound",
-        data: {
-          width,
-          height,
-          appliedK: applied.k,
-          appliedX: applied.x,
-          preserved,
-        },
-        timestamp: Date.now(),
-      }),
-    }).catch(() => {});
-    // #endregion
 
     return () => {
       svg.on(".zoom", null);

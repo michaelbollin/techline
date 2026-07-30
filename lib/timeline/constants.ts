@@ -26,6 +26,7 @@ export const TIMELINE_TRANSITION_MS = 400;
 export const TIMELINE_YEAR_LABEL_OFFSET = 80;
 
 export const TIMELINE_ZOOM_MAX_SCALE = 180;
+/** Step factor for programmatic zoom in/out (keyboard, buttons). */
 export const TIMELINE_ZOOM_STEP = 1.35;
 
 /** Clamp label pills inside the viewport. */

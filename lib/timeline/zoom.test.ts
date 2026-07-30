@@ -8,6 +8,7 @@ import {
   clampZoomTransform,
   computeFitTransform,
   computePanTransform,
+  computeZoomStep,
   computeTransformForTimeRange,
   computeZoomToEvents,
   computeZoomToDecade,
@@ -78,6 +79,15 @@ describe("pan helpers", () => {
     const earlier = computePanTransform(zoomed, 1200, TIMELINE_EXTENT, "earlier");
     const [after0] = visibleInnerTimeRange(earlier, 1200, TIMELINE_EXTENT);
     expect(after0).toBeLessThan(before0);
+  });
+
+  it("steps zoom in and out around the viewport center", () => {
+    const zoomed = computeZoomToYear(1200, TIMELINE_EXTENT, 2000);
+    const zoomedIn = computeZoomStep(zoomed, 1200, TIMELINE_EXTENT, "in");
+    const zoomedOut = computeZoomStep(zoomedIn, 1200, TIMELINE_EXTENT, "out");
+
+    expect(zoomedIn.k).toBeGreaterThan(zoomed.k);
+    expect(zoomedOut.k).toBeCloseTo(zoomed.k, 5);
   });
 });
 

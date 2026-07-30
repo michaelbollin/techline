@@ -24,7 +24,10 @@ export function useTimelineFilterZoomVertical({
   animateTo,
 }: UseTimelineFilterZoomVerticalOptions) {
   const animateToRef = useRef(animateTo);
-  animateToRef.current = animateTo;
+
+  useEffect(() => {
+    animateToRef.current = animateTo;
+  }, [animateTo]);
 
   const previousFilterKeyRef = useRef<string | undefined>(undefined);
   const filterKey = useMemo(

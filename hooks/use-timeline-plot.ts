@@ -91,6 +91,7 @@ export function useTimelinePlot({
   }, [height, msPerPixel, visibleSpanMs]);
 
   const labelWidths = useMemo(() => {
+    void fontEpoch;
     const widths = new Map<string, number>();
     for (const event of plotted) {
       widths.set(event.id, measureTimelineLabelWidth(event.bubbleTitle));

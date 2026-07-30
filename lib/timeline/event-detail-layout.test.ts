@@ -14,11 +14,19 @@ describe("timelineEventDetailLayout", () => {
   const labelBandBottom = axisY + TIMELINE_DECADE_BAND_HEIGHT;
   const detailTop = labelBandBottom + TIMELINE_EVENT_DETAIL_TOP_GAP;
 
-  it("places detail just below the year/decade label band", () => {
-    const layout = timelineEventDetailLayout(axisY, 900, SITE_FOOTER_RESERVED_HEIGHT);
+  it("places detail just below the year/decade label band by default", () => {
+    const viewportHeight = detailTop + SITE_FOOTER_RESERVED_HEIGHT + TIMELINE_EVENT_DETAIL_MIN_HEIGHT;
+    const layout = timelineEventDetailLayout(axisY, viewportHeight, SITE_FOOTER_RESERVED_HEIGHT);
 
     expect(layout.top).toBe(detailTop);
-    expect(layout.maxHeight).toBe(900 - detailTop - SITE_FOOTER_RESERVED_HEIGHT);
+    expect(layout.maxHeight).toBe(TIMELINE_EVENT_DETAIL_MIN_HEIGHT);
+    expect(layout.show).toBe(true);
+  });
+
+  it("pushes hover detail lower when more space exists below the band than above", () => {
+    const layout = timelineEventDetailLayout(axisY, 900, SITE_FOOTER_RESERVED_HEIGHT);
+
+    expect(layout.top).toBeGreaterThan(detailTop);
     expect(layout.show).toBe(true);
   });
 

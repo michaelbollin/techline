@@ -1,6 +1,13 @@
 import * as d3 from "d3";
 
-import { TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT, TIMELINE_YEAR_MAX, TIMELINE_YEAR_MIN } from "./constants";
+import {
+  TIMELINE_EDGE_MARGIN,
+  TIMELINE_EXTENT,
+  TIMELINE_YEAR_MAX,
+  TIMELINE_YEAR_MIN,
+  TIMELINE_ZOOM_MAX_SCALE,
+  TIMELINE_ZOOM_STEP,
+} from "./constants";
 import type { PlottedEvent } from "./plot-data";
 
 export function makeBaseScale(width: number, extent: [number, number]) {
@@ -72,33 +79,6 @@ export function computeZoomToDecade(
   const range = decadeTimeRange(decadeStart);
   const unclamped = computeTransformForTimeRange(width, extent, range);
   const clamped = clampZoomTransform(unclamped, width, extent);
-  const clampChanged =
-    Math.abs(clamped.k - unclamped.k) > 1e-6 || Math.abs(clamped.x - unclamped.x) > 0.5;
-
-  // #region agent log
-  fetch("http://127.0.0.1:7352/ingest/5bfcc10a-fce2-49b9-8546-76ee58c2e162", {
-    method: "POST",
-    headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "db8903" },
-    body: JSON.stringify({
-      sessionId: "db8903",
-      runId: "post-fix",
-      hypothesisId: "B-D",
-      location: "zoom.ts:computeZoomToDecade",
-      message: "computed decade transform",
-      data: {
-        decadeStart,
-        range,
-        width,
-        unclampedK: unclamped.k,
-        unclampedX: unclamped.x,
-        clampedK: clamped.k,
-        clampedX: clamped.x,
-        clampChanged,
-      },
-      timestamp: Date.now(),
-    }),
-  }).catch(() => {});
-  // #endregion
 
   return clamped;
 }
@@ -163,6 +143,35 @@ export function computePanTransform(
     width,
     extent,
   );
+}
+
+export function computeZoomStep(
+  transform: d3.ZoomTransform,
+  width: number,
+  extent: [number, number],
+  direction: "in" | "out",
+): d3.ZoomTransform {
+  if (width <= 0) {
+    return transform;
+  }
+
+  const margin = TIMELINE_EDGE_MARGIN;
+  const innerWidth = Math.max(width - margin * 2, 1);
+  const centerX = margin + innerWidth / 2;
+  const fit = computeFitTransform(width, extent);
+  const factor = direction === "in" ? TIMELINE_ZOOM_STEP : 1 / TIMELINE_ZOOM_STEP;
+  const targetK = Math.min(
+    TIMELINE_ZOOM_MAX_SCALE,
+    Math.max(fit.k, transform.k * factor),
+  );
+  const actualFactor = targetK / transform.k;
+
+  if (Math.abs(actualFactor - 1) < 1e-6) {
+    return transform;
+  }
+
+  const next = transform.translate(centerX, 0).scale(actualFactor).translate(-centerX, 0);
+  return clampZoomTransform(next, width, extent);
 }
 
 export function clampZoomTransform(

@@ -1,9 +1,10 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
+import { useCallback, useMemo, useRef, useState, type MouseEvent } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
+import { useTimelineKeyboardNavigation } from "@/hooks/use-timeline-keyboard-navigation";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
 import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
@@ -67,8 +68,17 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     hovered,
   });
 
-  const { filteredEvents, plotted, axisY, getAxisY, xScale, labelLayout, dotLayout, stemStartY, labelNodes } =
-    plot;
+  const {
+    filteredEvents,
+    plotted,
+    axisY,
+    getAxisY,
+    xScale,
+    labelLayout,
+    dotLayout,
+    stemStartY,
+    labelNodes,
+  } = plot;
 
   useTimelineFilterZoom({
     width,
@@ -78,8 +88,17 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     animateTo,
   });
 
-  const { resetView, zoomToYear, zoomToDecade, panEarlier, panLater, showPanEarlier, showPanLater } =
-    useTimelineViewActions({
+  const {
+    resetView,
+    zoomToYear,
+    zoomToDecade,
+    panEarlier,
+    panLater,
+    zoomIn,
+    zoomOut,
+    showPanEarlier,
+    showPanLater,
+  } = useTimelineViewActions({
       width,
       transform,
       plottedCount: plotted.length,
@@ -88,16 +107,28 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
       onResetFilters: clearLocalFilters,
     });
 
+  useTimelineKeyboardNavigation({
+    enabled: plotted.length > 0,
+    zoomIn,
+    zoomOut,
+    panEarlier,
+    panLater,
+    canPanEarlier: showPanEarlier,
+    canPanLater: showPanLater,
+  });
+
   const axisPath = useMemo(() => buildAxisPath(width, axisY), [axisY, width]);
   const detailLayout = useMemo(
     () => timelineEventDetailLayout(axisY, height, SITE_FOOTER_RESERVED_HEIGHT),
     [axisY, height],
   );
 
-  useEffect(() => {
-    if (hovered && !filteredEvents.some((event) => event.id === hovered.id)) {
-      setHovered(null);
+  const displayedHovered = useMemo(() => {
+    if (!hovered) {
+      return null;
     }
+
+    return filteredEvents.some((item) => item.id === hovered.id) ? hovered : null;
   }, [filteredEvents, hovered]);
 
   const openEvent = (event: PlottedEvent) => {
@@ -214,10 +245,10 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               </svg>
             )}
 
-            {hovered && width > 0 && detailLayout.show && (
+            {displayedHovered && width > 0 && detailLayout.show && (
               <TimelineEventDetail
-                key={hovered.id}
-                event={hovered}
+                key={`${displayedHovered.id}:${detailLayout.maxHeight}`}
+                event={displayedHovered}
                 top={detailLayout.top}
                 maxHeight={detailLayout.maxHeight}
               />

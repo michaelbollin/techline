@@ -114,35 +114,6 @@ export function TimelineAxisGrid({
               mask="url(#timeline-decade-band-mask)"
               onClick={(event) => {
                 event.stopPropagation();
-                const visibleStartYear = xScale.invert(0).getUTCFullYear();
-                const visibleEndYear = xScale.invert(width).getUTCFullYear();
-                // #region agent log
-                fetch("http://127.0.0.1:7352/ingest/5bfcc10a-fce2-49b9-8546-76ee58c2e162", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json", "X-Debug-Session-Id": "db8903" },
-                  body: JSON.stringify({
-                    sessionId: "db8903",
-                    runId: "post-fix",
-                    hypothesisId: "A-D",
-                    location: "timeline-axis-grid.tsx:decadeClick",
-                    message: "decade band clicked",
-                    data: {
-                      decadeStart,
-                      spanMs,
-                      spanYears: spanMs / (365.25 * 86_400_000),
-                      visibleStartYear,
-                      visibleEndYear,
-                      bandLeft: left,
-                      bandRight: right,
-                      decadeLeft,
-                      decadeRight,
-                      isFirstBand,
-                      isLastBand,
-                    },
-                    timestamp: Date.now(),
-                  }),
-                }).catch(() => {});
-                // #endregion
                 onDecadeClick(decadeStart);
               }}
             />
