@@ -35,12 +35,12 @@
       "date": "2018",
       "datePrecision": "year",
       "title": "Hinton, Bengio, and LeCun share Turing Award",
-      "summary": "Yoshua Bengio, Geoffrey Hinton, and Yann LeCun won the 2018 ACM Turing Award for deep learning breakthroughs.",
-      "about": "The trio spent decades on backpropagation, CNNs, and representation learning before industry adoption. Their award recognized neural networks as foundational computer science, not a abandoned fad.",
+      "summary": "Yoshua Bengio, Geoffrey Hinton, and Yann LeCun won the 2018 ACM Turing Award for [deep learning] breakthroughs.",
+      "about": "The trio spent decades on backpropagation, CNNs, and representation learning before industry adoption. Their award recognized [neural network]s as foundational computer science, not a abandoned fad.",
       "narrative": {
-        "whyChosen": "The 2018 Turing Award canonized deep learning's founding researchers.",
-        "whyImportant": "It validated decades of neural network research after multiple AI winters.",
-        "problemSolved": "Neural network research lacked mainstream recognition despite practical success."
+        "whyChosen": "The 2018 Turing Award canonized [deep learning]'s founding researchers.",
+        "whyImportant": "It validated decades of [neural network] research after multiple AI winters.",
+        "problemSolved": "[Neural network] research lacked mainstream recognition despite practical success."
       },
       "category": "ai",
       "tags": [
@@ -69,7 +69,7 @@
       "datePrecision": "year",
       "title": "Contentstack founded",
       "summary": "Neha Sampat, Nishant Patel, and Matthew Baier founded Contentstack in 2018 — an enterprise headless CMS spun out from Raw Engineering.",
-      "about": "Contentstack targets Fortune 500 omnichannel content — API-first, MACH Alliance founding member, with workflows for global marketing teams. It competes with Contentful and Adobe Experience Manager for enterprise DXP budgets.",
+      "about": "Contentstack targets Fortune 500 omnichannel content — [API]-first, MACH Alliance founding member, with workflows for global marketing teams. It competes with Contentful and Adobe Experience Manager for enterprise DXP budgets.",
       "narrative": {
         "whyChosen": "Contentstack became a leading enterprise headless CMS for omnichannel content.",
         "whyImportant": "It validated headless CMS as an enterprise DXP category, not just a developer tool.",
@@ -110,7 +110,7 @@
       "date": "2018",
       "datePrecision": "year",
       "title": "Builder.io founded",
-      "summary": "Steve Sewell and Brent Locks founded Builder.io in 2018 — a visual headless CMS that connects drag-and-drop editing to any frontend stack.",
+      "summary": "Steve Sewell and Brent Locks founded Builder.io in 2018 — a visual headless [CMS] that connects drag-and-drop editing to any frontend stack.",
       "about": "Builder.io lets marketers compose pages from developer-defined React components without code — A/B testing, personalization, and visual editing on top of headless architecture. Customers include Allbirds, Harry's, and Warby Parker.",
       "narrative": {
         "whyChosen": "Builder.io brought visual page building to headless commerce without sacrificing developer control.",

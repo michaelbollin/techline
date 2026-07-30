@@ -6,8 +6,8 @@
       "date": "2008-09-02",
       "datePrecision": "day",
       "title": "Google Chrome beta released",
-      "summary": "Google launched Chrome in beta on September 2, 2008 — a minimalist browser built on WebKit with a multi-process architecture and the new V8 JavaScript engine.",
-      "about": "Chrome treated each tab as a separate process for stability, shipped a blazing-fast JS VM (V8), and popularized the omnibox address bar. It quickly overtook Firefox and IE, drove the shift to evergreen auto-updates, and later forked WebKit into Blink — defining how modern browsers are built.",
+      "summary": "Google launched Chrome in beta on September 2, 2008 — a minimalist browser built on [WebKit] with a multi-process architecture and the new V8 JavaScript engine.",
+      "about": "Chrome treated each tab as a separate process for stability, shipped a blazing-fast JS VM (V8), and popularized the omnibox address bar. It quickly overtook Firefox and IE, drove the shift to evergreen auto-updates, and later forked [WebKit] into [Blink] — defining how modern browsers are built.",
       "narrative": {
         "whyChosen": "Chrome reset performance expectations and became the world's most-used browser.",
         "whyImportant": "V8, multi-process tabs, and rapid releases became the template every competitor followed.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "Lehman Brothers bankruptcy triggers global financial crisis",
       "summary": "Lehman Brothers filed for Chapter 11 bankruptcy on September 15, 2008 — the largest failure in U.S. history and the shock that froze credit markets worldwide.",
-      "about": "Venture funding dried up, ad budgets collapsed, and enterprise IT projects were cut. Startups that had raised in 2007 suddenly faced down rounds or shutdowns; survivors like Airbnb and Uber later credited the crisis with forcing leaner product focus. Cloud adoption accelerated as CFOs demanded opex over capex — a tailwind for AWS and SaaS.",
+      "about": "Venture funding dried up, ad budgets collapsed, and enterprise [IT] projects were cut. Startups that had raised in 2007 suddenly faced down rounds or shutdowns; survivors like Airbnb and Uber later credited the crisis with forcing leaner product focus. Cloud adoption accelerated as CFOs demanded opex over capex — a tailwind for AWS and SaaS.",
       "narrative": {
         "whyChosen": "Lehman Monday is the date developers cite when startup funding and enterprise sales froze overnight.",
         "whyImportant": "The crisis reshaped startup survival strategies and accelerated the shift to cloud opex models.",

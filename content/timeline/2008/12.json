@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Python 3.0 released",
       "summary": "Python 3.0 shipped as an intentionally backward-incompatible cleanup of the language and standard library.",
-      "about": "Same roles as Python 2 — scripting, web, data, automation — but with breaking fixes: proper Unicode strings, cleaner syntax (`print()` as function), and removed old APIs. Migration took years; today Python 3 is the only supported line for new work.",
+      "about": "Same roles as Python 2 — scripting, web, data, [automation] — but with breaking fixes: proper [Unicode] strings, cleaner syntax (`print()` as function), and removed old APIs. Migration took years; today Python 3 is the only supported line for new work.",
       "narrative": {
         "whyChosen": "The Python 2→3 transition was one of the biggest ecosystem migrations in open-source history.",
         "whyImportant": "It fixed long-standing design warts (unicode strings, print as function, removed old APIs) at the cost of breakage.",

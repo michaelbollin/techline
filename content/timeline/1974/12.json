@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "The most repeated performance advice in software engineering, often without context.",
         "whyImportant": "It reframed optimization as a measured second step, not a design default.",
-        "problemSolved": "Teams wasted effort tuning code paths before knowing what was slow."
+        "problemSolved": "[Teams] wasted effort tuning code paths before knowing what was slow."
       },
       "tags": [
         "quote",

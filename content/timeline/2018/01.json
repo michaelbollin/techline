@@ -10,7 +10,7 @@
       "about": "LeCun kept shaping convolutional networks and self-supervised learning at industrial scale. The role let him advocate publicly for open research while Facebook integrated AI across News Feed, moderation, and AR products.",
       "narrative": {
         "whyChosen": "LeCun defined how a Turing laureate could steer corporate AI research strategy.",
-        "whyImportant": "It separated FAIR's exploratory research from product-integrated machine learning.",
+        "whyImportant": "It separated FAIR's exploratory research from product-integrated [machine learning].",
         "problemSolved": "Fast-growing social platforms needed both product ML leadership and fundamental research."
       },
       "category": "ai",
@@ -69,7 +69,7 @@
       "about": "Bootstrap 4 replaced floats with flexbox utilities, simplified cards and navbars, and removed jQuery as a hard dependency path toward v5. It was the last major version many Bootstrap 3 sites migrated to before Tailwind gained share.",
       "narrative": {
         "whyChosen": "Bootstrap 4 modernized the framework for flexbox-era layouts.",
-        "whyImportant": "Flexbox grids and rebuilt components kept Bootstrap the default admin UI kit.",
+        "whyImportant": "Flexbox grids and rebuilt components kept Bootstrap the default admin [UI] kit.",
         "problemSolved": "Float-based grids were fragile; teams needed flexbox-native responsive patterns."
       },
       "category": "software",

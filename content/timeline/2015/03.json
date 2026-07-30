@@ -6,11 +6,11 @@
       "date": "2015-03",
       "datePrecision": "month",
       "title": "Airtable spreadsheet-database launched",
-      "summary": "Airtable launched in February 2015 — a spreadsheet interface with relational databases, views, and API access for lightweight ops and content workflows.",
-      "about": "Airtable let non-engineers build mini-apps — kanban, calendars, and forms on top of linked tables — while developers used its REST API for glue scripts. Startups tracked hiring pipelines, content calendars, and bug triage without standing up Postgres; it influenced Notion databases and the no-code movement.",
+      "summary": "Airtable launched in February 2015 — a spreadsheet interface with [relational database]s, views, and [API] access for lightweight ops and content workflows.",
+      "about": "Airtable let non-engineers build mini-apps — kanban, calendars, and forms on top of linked tables — while developers used its REST [API] for glue scripts. Startups tracked hiring pipelines, content calendars, and bug triage without standing up Postgres; it influenced Notion databases and the no-code movement.",
       "narrative": {
-        "whyChosen": "Airtable made databases approachable for PMs and ops teams without SQL.",
-        "whyImportant": "Its API let developers integrate spreadsheet UX with custom automation.",
+        "whyChosen": "Airtable made databases approachable for PMs and ops teams without [SQL].",
+        "whyImportant": "Its [API] let developers integrate spreadsheet UX with custom automation.",
         "problemSolved": "Teams hacked together Google Sheets for relational data that needed structure and permissions."
       },
       "category": "software",
@@ -56,12 +56,12 @@
       "date": "2015-03-17",
       "datePrecision": "day",
       "title": "NVIDIA Jetson TK1 released",
-      "summary": "NVIDIA announced the Jetson TK1 on March 17, 2015 — a Tegra K1 developer board for CUDA-powered edge AI and computer vision.",
-      "about": "Jetson brought GPU compute to embedded robots, drones, and IoT gateways — developers ran TensorFlow and OpenCV on a $192 board with 192 CUDA cores. Later Jetson Nano, Xavier, and Orin modules powered production edge ML. It paired NVIDIA's CUDA ecosystem with maker-style single-board hardware.",
+      "summary": "NVIDIA announced the Jetson TK1 on March 17, 2015 — a Tegra K1 developer board for CUDA-powered edge AI and [computer vision].",
+      "about": "Jetson brought [GPU] compute to embedded robots, drones, and [IoT] gateways — developers ran TensorFlow and OpenCV on a $192 board with 192 CUDA cores. Later Jetson Nano, Xavier, and Orin modules powered production edge ML. It paired NVIDIA's CUDA ecosystem with maker-style single-board hardware.",
       "narrative": {
         "whyChosen": "Jetson TK1 was NVIDIA's first CUDA-capable embedded developer board.",
-        "whyImportant": "It made GPU-accelerated inference practical on edge devices outside datacenters.",
-        "problemSolved": "Edge projects needed local neural-network inference without cloud latency or a full desktop GPU."
+        "whyImportant": "It made [GPU]-accelerated inference practical on edge devices outside datacenters.",
+        "problemSolved": "Edge projects needed local neural-network inference without cloud latency or a full desktop [GPU]."
       },
       "category": "hardware",
       "tags": [
@@ -114,7 +114,7 @@
       "datePrecision": "day",
       "title": "Bazel open-sourced",
       "summary": "Google open-sourced Bazel on March 24, 2015 — a fast, hermetic build system derived from Google's internal Blaze tool.",
-      "about": "Bazel builds C++, Java, Go, and more from declarative BUILD files with aggressive caching and reproducibility — one command rebuilds only what changed. Monorepos at Google scale inspired its design; TensorFlow, Angular, and many open-source projects adopted it. Example: `bazel build //myapp:server` produces identical artifacts locally and in CI.",
+      "about": "Bazel builds C++, Java, [Go], and more from declarative BUILD files with aggressive caching and reproducibility — one command rebuilds only what changed. Monorepos at Google scale inspired its design; TensorFlow, Angular, and many open-source projects adopted it. Example: `bazel build //myapp:server` produces identical artifacts locally and in CI.",
       "narrative": {
         "whyChosen": "Bazel brought Google's monorepo build model to the open-source world.",
         "whyImportant": "It proved hermetic, cacheable builds could work outside Google's walls for large polyglot codebases.",

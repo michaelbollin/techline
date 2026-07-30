@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Chrome Manifest V3 extension uploads enabled",
       "summary": "Chrome 88 stable enabled Manifest V3 extension uploads to the Web Store in January 2021 — replacing persistent background pages with service workers; mandatory Manifest V2 deprecation came years later.",
-      "about": "Manifest V3 changed how ad blockers, password managers, and dev tools hook into Chrome: extensions became more sandboxed and declarative. The shift sparked years of debate between Google (security, performance) and extension authors (filtering power), and other Chromium browsers inherited the model.",
+      "about": "Manifest V3 changed how ad blockers, password managers, and dev tools hook into Chrome: extensions became more sandboxed and declarative. The shift sparked years of debate between Google (security, performance) and extension authors (filtering power), and other [Chromium] browsers inherited the model.",
       "narrative": {
         "whyChosen": "MV3 redefined what browser extensions could do in the world's most-used browser.",
         "whyImportant": "It forced every extension developer to rewrite for service workers and new permission models.",
@@ -61,10 +61,10 @@
       "datePrecision": "day",
       "title": "Payload CMS released",
       "summary": "James Mikrut, Dan Ribbens, and Elliot DeNolf released Payload CMS on January 13, 2021 — a self-hosted Node.js and React headless CMS.",
-      "about": "Payload gives developers a TypeScript-configured admin UI and auto-generated REST/GraphQL APIs — self-hosted with no SaaS lock-in. It later became Next.js-native, installing directly into the `/app` folder as a full-stack framework.",
+      "about": "Payload gives developers a TypeScript-configured admin [UI] and auto-generated REST/GraphQL APIs — self-hosted with no SaaS lock-in. It later became Next.js-native, installing directly into the `/app` folder as a full-stack framework.",
       "narrative": {
         "whyChosen": "Payload brought a code-first, self-hosted CMS to the JavaScript ecosystem.",
-        "whyImportant": "TypeScript schemas and React admin UI set a new bar for developer-centric CMS design.",
+        "whyImportant": "TypeScript schemas and React admin [UI] set a new bar for developer-centric CMS design.",
         "problemSolved": "JavaScript teams wanted headless CMS power without SaaS restrictions or PHP baggage."
       },
       "category": "software",
@@ -110,7 +110,7 @@
       "datePrecision": "day",
       "title": "Dario Amodei co-founds Anthropic",
       "summary": "Dario Amodei co-founded Anthropic on January 26, 2021 with Daniela Amodei and other ex-OpenAI researchers — the company stayed in stealth until its public launch and $124M funding announcement in May 2021.",
-      "about": "Anthropic became OpenAI's primary rival in frontier chat and API models — Claude 2, 3, and 3.5. Amodei's team emphasized constitutional AI and long-context products for enterprise developers.",
+      "about": "Anthropic became OpenAI's primary rival in frontier chat and [API] models — Claude 2, 3, and 3.5. Amodei's team emphasized constitutional AI and long-context products for enterprise developers.",
       "narrative": {
         "whyChosen": "Anthropic diversified the frontier LLM market beyond OpenAI.",
         "whyImportant": "Competition accelerated safety research and developer choice.",
@@ -169,11 +169,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S21 released",
       "summary": "Samsung began selling the Samsung Galaxy S21 — Snapdragon 888/Exynos 2100 and Contour Cut camera housing.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Snapdragon 888/exynos 2100 and contour cut camera housing. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Snapdragon 888/exynos 2100 and contour cut camera housing. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S21 continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S21 continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [

@@ -6,8 +6,8 @@
       "date": "2018-09-04",
       "datePrecision": "day",
       "title": "Phoenix LiveView announced",
-      "summary": "José Valim announced Phoenix LiveView on September 4, 2018 at ElixirConf US — real-time server-rendered UI over WebSockets without writing JavaScript.",
-      "about": "LiveView let Elixir developers build interactive dashboards, forms, and chats with server-side state — sending HTML diffs over the wire. It influenced Rails Hotwire and HTMX by showing that SPAs were not the only path to rich UIs.",
+      "summary": "José Valim announced Phoenix LiveView on September 4, 2018 at ElixirConf US — real-time server-rendered [UI] over WebSockets without writing JavaScript.",
+      "about": "LiveView let Elixir developers build interactive dashboards, forms, and chats with server-side state — sending [HTML] diffs over the wire. It influenced Rails Hotwire and HTMX by showing that SPAs were not the only path to rich UIs.",
       "narrative": {
         "whyChosen": "LiveView pioneered server-driven reactive UIs in a mainstream web framework.",
         "whyImportant": "It reduced frontend complexity for teams that wanted interactivity without React.",
@@ -162,8 +162,8 @@
       "date": "2018-09-25",
       "datePrecision": "day",
       "title": "Java 11 LTS released",
-      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in HTTP client and removed Java EE modules.",
-      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in Java 10), added a built-in HTTP client, and single-file `java` launch scripts modernized everyday Java development.",
+      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in [HTTP] client and removed Java EE modules.",
+      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in Java 10), added a built-in [HTTP] client, and single-file `java` launch scripts modernized everyday Java development.",
       "narrative": {
         "whyChosen": "Java 11 was the bridge LTS between the Java 8 era and modern 17/21 releases.",
         "whyImportant": "It established the six-month feature release + LTS every three years model.",

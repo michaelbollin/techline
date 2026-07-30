@@ -6,7 +6,7 @@
       "date": "1995-03",
       "datePrecision": "month",
       "title": "LDAP standardized",
-      "summary": "RFC 1777 defined the Lightweight Directory Access Protocol in March 1995 — a TCP-based standard for querying and updating directory services.",
+      "summary": "RFC 1777 defined the Lightweight Directory Access Protocol in March 1995 — a [TCP]-based standard for querying and updating directory services.",
       "about": "LDAP models organizations as a tree of entries (users, groups, printers) with attributes like `cn`, `mail`, and `memberOf`. It replaced heavier X.500 DAP for most deployments and became the backbone of Active Directory, OpenLDAP, and corporate SSO. Every 'sign in with your company account' flow still traces back to directory lookups LDAP made universal.",
       "narrative": {
         "whyChosen": "LDAP turned enterprise directories into a simple, interoperable network protocol.",
@@ -62,10 +62,10 @@
       "date": "1995-03",
       "datePrecision": "month",
       "title": "Ward Cunningham creates the wiki",
-      "summary": "Ward Cunningham launched the first wiki in March 1995 — quick collaborative editing that inspired Wikipedia and countless internal dev docs.",
-      "about": "Wiki syntax and culture ('edit this page') shaped how engineering teams document runbooks, RFCs, and postmortems. Cunningham's pattern language work also influenced agile and software design thinking.",
+      "summary": "Ward Cunningham launched the first [wiki] in March 1995 — quick collaborative editing that inspired [Wikipedia] and countless internal dev docs.",
+      "about": "[Wiki] syntax and culture ('edit this page') shaped how engineering teams document runbooks, RFCs, and postmortems. Cunningham's pattern language work also influenced agile and software design thinking.",
       "narrative": {
-        "whyChosen": "The wiki invented lightweight collaborative documentation.",
+        "whyChosen": "The [wiki] invented lightweight collaborative documentation.",
         "whyImportant": "It lowered the barrier to contributing knowledge compared to formal CMS tools.",
         "problemSolved": "Team knowledge was trapped in email and individual files without shared editing."
       },

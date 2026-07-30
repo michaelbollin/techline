@@ -6,8 +6,8 @@
       "date": "1982-08",
       "datePrecision": "month",
       "title": "Commodore 64 released",
-      "summary": "Commodore released the C64 in August 1982 — an 8-bit home computer that became the best-selling single computer model of all time.",
-      "about": "The C64 packed 64 KB RAM, sprite graphics, and a SID sound chip into a sub-$600 package. Millions learned BASIC and 6502 assembly; demo scene coders pushed hardware limits; game developers shipped on cartridge and disk. Its install base made it a first platform for bedroom programmers before the IBM PC dominated.",
+      "summary": "Commodore released the C64 in August 1982 — an 8-bit [home computer] that became the best-selling single computer model of all time.",
+      "about": "The C64 packed 64 KB [RAM], sprite graphics, and a SID sound chip into a sub-$600 package. Millions learned [BASIC] and 6502 assembly; demo scene coders pushed hardware limits; game developers shipped on cartridge and disk. Its install base made it a first platform for bedroom programmers before the [IBM] [PC] dominated.",
       "narrative": {
         "whyChosen": "The Commodore 64 put programmable computers in tens of millions of homes worldwide.",
         "whyImportant": "It created a generation of developers who learned on real hardware before university or the web.",

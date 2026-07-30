@@ -10,7 +10,7 @@
       "about": "Templates let you write one piece of code that works with many types — a single `sort()` for integers and strings, or one `vector` class instead of separate `IntVector` and `StringVector` copies. This idea became the foundation for C++'s standard library (`vector`, `map`, `sort`).",
       "narrative": {
         "whyChosen": "Before templates, C++ libraries were either copy-pasted for every data type or written with unsafe void pointers. Templates made reusable, type-safe libraries practical.",
-        "whyImportant": "Developers could ship one generic container or algorithm and reuse it across their whole codebase — with no runtime performance penalty.",
+        "whyImportant": "Developers could ship one generic [container] or algorithm and reuse it across their whole codebase — with no runtime performance penalty.",
         "problemSolved": "Every time you needed a list of a new type, you rewrote the same linked-list or sort logic from scratch. Templates let you write it once and instantiate it for any type."
       },
       "category": "software",
@@ -55,9 +55,9 @@
       "datePrecision": "month",
       "title": "Apple PowerBook released",
       "summary": "Apple introduced the PowerBook line in October 1991 — laptops with the keyboard pushed toward the screen hinge and a built-in trackball.",
-      "about": "The PowerBook 100, 140, and 170 set the template for modern laptop ergonomics — palm rest, centered pointing device, and compact footprint. Mobile developers and writers carried Mac OS on the road; the line stayed Apple's portable platform until the MacBook era. Its industrial design influenced every laptop that followed.",
+      "about": "The PowerBook 100, 140, and 170 set the template for modern laptop ergonomics — palm rest, centered pointing device, and compact footprint. Mobile developers and writers carried Mac [OS] on the road; the line stayed Apple's portable platform until the MacBook era. Its industrial design influenced every laptop that followed.",
       "narrative": {
-        "whyChosen": "The PowerBook defined the modern laptop layout that PC makers copied throughout the 1990s.",
+        "whyChosen": "The PowerBook defined the modern laptop layout that [PC] makers copied throughout the 1990s.",
         "whyImportant": "It made Macintosh development and publishing portable for creative professionals.",
         "problemSolved": "Early portables placed keyboards awkwardly; users needed a usable pointing device without external mice."
       },

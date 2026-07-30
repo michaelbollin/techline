@@ -6,8 +6,8 @@
       "date": "1990-09",
       "datePrecision": "month",
       "title": "NeXTstation released",
-      "summary": "NeXT began shipping the NeXTstation in September 1990 — a more affordable Motorola 68040 workstation running NeXTSTEP.",
-      "about": "The NeXTstation dropped the cube's magneto-optical drive for a conventional SCSI hard disk and color display — putting NeXTSTEP in more university labs and startups. Developers still used Objective-C and Interface Builder; Tim Berners-Lee's WWW work continued on NeXT hardware. Apple later acquired NeXT and ported NeXTSTEP to become macOS.",
+      "summary": "NeXT began shipping the NeXTstation in September 1990 — a more affordable Motorola 68040 [workstation] running NeXTSTEP.",
+      "about": "The NeXTstation dropped the cube's magneto-optical drive for a conventional SCSI [hard disk] and color display — putting NeXTSTEP in more university labs and startups. Developers still used [Objective-C] and Interface Builder; Tim Berners-Lee's [WWW] work continued on NeXT hardware. Apple later acquired NeXT and ported NeXTSTEP to become macOS.",
       "narrative": {
         "whyChosen": "The NeXTstation made NeXTSTEP workstations accessible beyond the original cube's price point.",
         "whyImportant": "It spread the development environment that became the foundation of modern macOS and iOS tooling.",
@@ -62,12 +62,12 @@
       "date": "1990-09",
       "datePrecision": "month",
       "title": "Archie search engine launched",
-      "summary": "Alan Emtage launched Archie in September 1990 at McGill University — the first tool for indexing FTP archives across the internet.",
-      "about": "Archie crawled anonymous FTP servers and let users search filenames before the web existed — a direct ancestor of Yahoo, Google, and every search box. It proved the internet needed discovery layers on top of raw protocols.",
+      "summary": "Alan Emtage launched Archie in September 1990 at McGill University — the first tool for indexing [FTP] archives across the internet.",
+      "about": "Archie crawled anonymous [FTP] servers and let users search filenames before the web existed — a direct ancestor of Yahoo, Google, and every search box. It proved the internet needed discovery layers on top of raw protocols.",
       "narrative": {
         "whyChosen": "Archie was the first internet search engine.",
         "whyImportant": "It showed indexed discovery was essential as networked files exploded.",
-        "problemSolved": "FTP servers multiplied; users could not manually find files across hosts."
+        "problemSolved": "[FTP] servers multiplied; users could not manually find files across hosts."
       },
       "category": "software",
       "tags": [

@@ -6,11 +6,11 @@
       "date": "2009",
       "datePrecision": "year",
       "title": "Fei-Fei Li launches ImageNet dataset",
-      "summary": "Fei-Fei Li and collaborators launched ImageNet in 2009 — millions of labeled images that enabled supervised deep learning benchmarks.",
+      "summary": "Fei-Fei Li and collaborators launched ImageNet in 2009 — millions of labeled images that enabled supervised [deep learning] benchmarks.",
       "about": "ImageNet's annual classification challenge became the scoreboard that AlexNet conquered. Li's dataset work turned data scale into a first-class ingredient alongside algorithms and compute.",
       "narrative": {
-        "whyChosen": "ImageNet provided the labeled data deep learning needed to prove itself.",
-        "whyImportant": "It standardized computer vision benchmarks for a decade.",
+        "whyChosen": "ImageNet provided the labeled data [deep learning] needed to prove itself.",
+        "whyImportant": "It standardized [computer vision] benchmarks for a decade.",
         "problemSolved": "Vision researchers lacked large, consistent labeled datasets for fair comparison."
       },
       "category": "ai",

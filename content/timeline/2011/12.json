@@ -6,12 +6,12 @@
       "date": "2011-12",
       "datePrecision": "month",
       "title": "WebSocket protocol standardized",
-      "summary": "RFC 6455 defined the WebSocket Protocol in December 2011 — full-duplex communication over a single TCP connection after an HTTP upgrade handshake.",
+      "summary": "RFC 6455 defined the WebSocket Protocol in December 2011 — full-duplex communication over a single [TCP] connection after an [HTTP] upgrade handshake.",
       "about": "WebSockets let browsers and servers push messages both ways without polling — chat apps, live dashboards, collaborative editors, and game servers. A client sends `Upgrade: websocket`; after the handshake, framed messages flow in both directions. Libraries like Socket.IO and native `WebSocket` in browsers build on this.",
       "narrative": {
         "whyChosen": "WebSocket ended the long-polling era for real-time web applications.",
         "whyImportant": "It became the standard transport for live UIs and event-driven backends in the browser.",
-        "problemSolved": "HTTP request/response was too heavy for low-latency, server-pushed updates at scale."
+        "problemSolved": "[HTTP] request/response was too heavy for low-latency, server-pushed updates at scale."
       },
       "category": "protocol",
       "tags": [

@@ -6,12 +6,12 @@
       "date": "2010-12",
       "datePrecision": "month",
       "title": "Chromebook CR-48 pilot begins",
-      "summary": "Google began shipping CR-48 Chromebook prototypes to beta testers in December 2010 — the first Chrome OS laptops.",
-      "about": "The CR-48 had no caps-lock key (replaced with Search), booted to the browser in seconds, and stored everything in the cloud. Developers tested web apps on a laptop that assumed always-on connectivity — foreshadowing Chromebooks in schools and enterprises. Chrome OS later added Android and Linux app support, but the CR-48 proved a browser could be the whole OS.",
+      "summary": "Google began shipping CR-48 Chromebook prototypes to beta testers in December 2010 — the first Chrome [OS] laptops.",
+      "about": "The CR-48 had no caps-lock key (replaced with Search), booted to the browser in seconds, and stored everything in the cloud. Developers tested web apps on a laptop that assumed always-on connectivity — foreshadowing Chromebooks in schools and enterprises. Chrome [OS] later added Android and Linux app support, but the CR-48 proved a browser could be the whole [OS].",
       "narrative": {
-        "whyChosen": "The CR-48 pilot launched the Chromebook category and Chrome OS as a laptop platform.",
+        "whyChosen": "The CR-48 pilot launched the Chromebook category and Chrome [OS] as a laptop platform.",
         "whyImportant": "It validated cloud-first computing for mainstream hardware beyond netbooks.",
-        "problemSolved": "Traditional laptops carried slow boot times, heavy local software, and complex IT management."
+        "problemSolved": "Traditional laptops carried slow boot times, heavy local software, and complex [IT] management."
       },
       "category": "hardware",
       "tags": [
@@ -61,12 +61,12 @@
       "date": "2010-12-16",
       "datePrecision": "day",
       "title": "Nexus S released",
-      "summary": "Google began selling the Nexus S — Samsung-built Nexus with NFC and curved glass.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Samsung-built nexus with nfc and curved glass. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the [Nexus] S — Samsung-built [Nexus] with NFC and curved glass.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Samsung-built nexus with nfc and curved glass. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Nexus S was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The [Nexus] S was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

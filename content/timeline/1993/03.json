@@ -6,10 +6,10 @@
       "date": "1993-03-22",
       "datePrecision": "day",
       "title": "Intel Pentium introduced",
-      "summary": "Intel announced the Pentium processor on March 22, 1993 — the first x86 CPU marketed by brand name instead of model number.",
-      "about": "The Pentium doubled performance over 486 chips with superscalar execution — Windows NT, Linux, and early 3D games demanded the extra headroom. The infamous FDIV bug made headlines, but Pentium became synonymous with PC CPUs through the 1990s. Developers optimizing for desktop performance targeted Pentium pipelines for years.",
+      "summary": "Intel announced the Pentium processor on March 22, 1993 — the first x86 [CPU] marketed by brand name instead of model number.",
+      "about": "The Pentium doubled performance over 486 chips with superscalar execution — Windows NT, Linux, and early 3D games demanded the extra headroom. The infamous FDIV bug made headlines, but Pentium became synonymous with [PC] CPUs through the 1990s. Developers optimizing for desktop performance targeted Pentium pipelines for years.",
       "narrative": {
-        "whyChosen": "Pentium was Intel's defining consumer CPU brand of the 1990s PC boom.",
+        "whyChosen": "Pentium was Intel's defining consumer [CPU] brand of the 1990s [PC] boom.",
         "whyImportant": "It brought superscalar x86 performance to mainstream desktops and workstations.",
         "problemSolved": "486-class CPUs could not keep pace with multimedia, GUIs, and server workloads of the early 1990s."
       },
@@ -62,12 +62,12 @@
       "date": "1993-03",
       "datePrecision": "month",
       "title": "Lynx 2.0 gains World Wide Web support",
-      "summary": "Lynx 2.0 shipped in March 1993 with World Wide Web support — turning the University of Kansas text browser into a terminal client for HTML pages.",
+      "summary": "Lynx 2.0 shipped in March 1993 with World Wide Web support — turning the University of Kansas text browser into a terminal client for [HTML] pages.",
       "about": "Lynx rendered pages as plain text in a terminal: links listed by number, no images, no JavaScript. It stayed essential on slow connections, blind-accessible browsing, and server-side automation for decades — and still runs today for scripting and accessibility testing.",
       "narrative": {
-        "whyChosen": "Lynx 2.0 brought the early web to text terminals before Mosaic popularized graphics.",
+        "whyChosen": "Lynx 2.0 brought the early web to text terminals before [Mosaic] popularized graphics.",
         "whyImportant": "It made the web usable on Unix shells and influenced accessibility and command-line tooling.",
-        "problemSolved": "Researchers and students on Unix shells needed a keyboard-driven way to read HTML documents."
+        "problemSolved": "Researchers and students on Unix shells needed a keyboard-driven way to read [HTML] documents."
       },
       "category": "software",
       "tags": [

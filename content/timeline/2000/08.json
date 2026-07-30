@@ -6,12 +6,12 @@
       "date": "2000-08-24",
       "datePrecision": "day",
       "title": "ActionScript 1.0 debuts with Flash 5",
-      "summary": "Macromedia Flash 5 launched with ActionScript 1.0 — a JavaScript-like ECMAScript-based language for rich web media.",
-      "about": "ActionScript was the programming language inside Flash — build browser games, video players, interactive ads, and animated sites. Famous era: Newgrounds flash games, early YouTube-era players, and corporate sites with splash intros. Syntax resembled JavaScript; code lived inside `.fla` authoring files.",
+      "summary": "Macromedia [Flash] 5 launched with ActionScript 1.0 — a JavaScript-like ECMAScript-based language for rich web media.",
+      "about": "ActionScript was the programming language inside [Flash] — build browser games, video players, interactive ads, and animated sites. Famous era: Newgrounds flash games, early YouTube-era players, and corporate sites with splash intros. Syntax resembled JavaScript; code lived inside `.fla` authoring files.",
       "narrative": {
         "whyChosen": "ActionScript powered a decade of browser games, video players, and interactive sites before HTML5.",
         "whyImportant": "It was the first fully implemented, ECMAScript-based scripting layer in a mass-market authoring tool.",
-        "problemSolved": "Flash 4 scripting was limited; Flash 5 needed a real language for complex client-side logic."
+        "problemSolved": "[Flash] 4 scripting was limited; [Flash] 5 needed a real language for complex client-side logic."
       },
       "category": "software",
       "tags": [
@@ -59,10 +59,10 @@
       "date": "2000-08-17",
       "datePrecision": "day",
       "title": "SQLite 1.0 released",
-      "summary": "Richard Hipp released SQLite 1.0 on August 17, 2000 — a self-contained, serverless SQL database engine in a single C library.",
+      "summary": "Richard Hipp released SQLite 1.0 on August 17, 2000 — a self-contained, serverless [SQL] database engine in a single C library.",
       "about": "SQLite embeds in apps, browsers, and phones — no separate server process. iOS, Android, Firefox, and countless desktop apps store data in `.sqlite` files. Teams use it for local caches, mobile offline sync, and tests. Example: a mobile app persisting user settings with `SELECT` and transactions without running Postgres.",
       "narrative": {
-        "whyChosen": "SQLite made SQL available everywhere a C library could link — not just on database servers.",
+        "whyChosen": "SQLite made [SQL] available everywhere a C library could link — not just on database servers.",
         "whyImportant": "It is likely the most widely deployed database engine on earth, hidden inside applications.",
         "problemSolved": "Embedded apps needed relational storage without the complexity of client/server database administration."
       },
@@ -114,7 +114,7 @@
       "narrative": {
         "whyChosen": "CMake solved cross-platform native builds when autotools and Visual Studio projects diverged.",
         "whyImportant": "It became the de facto build meta-system for open-source C/C++ and influenced Conan and vcpkg workflows.",
-        "problemSolved": "Maintaining separate build files per OS was unmaintainable for large C++ codebases like medical imaging toolkits."
+        "problemSolved": "Maintaining separate build files per [OS] was unmaintainable for large C++ codebases like medical imaging toolkits."
       },
       "category": "software",
       "tags": [
@@ -161,7 +161,7 @@
       "datePrecision": "day",
       "title": "Torvalds: Talk is cheap",
       "quoteText": "Talk is cheap. Show me the code.",
-      "summary": "Linus Torvalds dismisses architecture debates on the Linux kernel mailing list — ship patches, not opinions.",
+      "summary": "Linus Torvalds dismisses architecture debates on the Linux [kernel] mailing list — ship patches, not opinions.",
       "about": "The line became open-source culture in eight words. It appears on stickers, README files, and every thread where design docs pile up without a pull request.",
       "narrative": {
         "whyChosen": "The motto of meritocratic open-source contribution.",
@@ -217,7 +217,7 @@
       "title": "Joel Spolsky publishes the Joel Test",
       "quoteText": "Do you use source control? Can you make a build in one step? Do you make daily builds? Do you have a bug database?",
       "summary": "Joel Spolsky's blog post The Joel Test lists twelve yes-or-no questions that separate great software teams from dysfunctional ones.",
-      "about": "The Joel Test was never scientific — Joel admitted as much — but it spread because it was memorable and actionable. Teams still score themselves out of 12 in onboarding docs and engineering blog posts.",
+      "about": "The Joel Test was never scientific — Joel admitted as much — but it spread because it was memorable and actionable. [Teams] still score themselves out of 12 in onboarding docs and engineering blog posts.",
       "narrative": {
         "whyChosen": "The most shared team-health checklist of the blog era.",
         "whyImportant": "It gave non-engineers a simple rubric for software organization quality.",

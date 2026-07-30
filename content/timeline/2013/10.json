@@ -9,9 +9,9 @@
       "summary": "John O'Nolan and Hannah Wolfe released Ghost 0.3.2 on October 14, 2013 — an open-source Node.js publishing platform focused on blogging.",
       "about": "Ghost shipped a Markdown editor, clean themes, and a Node.js stack — a deliberate alternative to WordPress bloat. Funded by a record-breaking Kickstarter, it became the default open-source choice for developers who wanted a fast, content-first blog engine.",
       "narrative": {
-        "whyChosen": "Ghost proved a modern JavaScript CMS could compete with WordPress for publishing.",
-        "whyImportant": "It championed simplicity and speed when CMS platforms were growing ever more complex.",
-        "problemSolved": "Bloggers wanted a focused writing tool, not a general-purpose CMS with thousands of plugins."
+        "whyChosen": "Ghost proved a modern JavaScript [CMS] could compete with WordPress for publishing.",
+        "whyImportant": "It championed simplicity and speed when [CMS] platforms were growing ever more complex.",
+        "problemSolved": "Bloggers wanted a focused writing tool, not a general-purpose [CMS] with thousands of plugins."
       },
       "category": "software",
       "tags": [
@@ -110,7 +110,7 @@
       "date": "2013-10-22",
       "datePrecision": "day",
       "title": "Safari 7 released",
-      "summary": "Apple released Safari 7 on October 22, 2013 with OS X Mavericks — adding Shared Links, Power Saver, and improved JavaScript performance.",
+      "summary": "Apple released Safari 7 on October 22, 2013 with [OS] X Mavericks — adding Shared Links, Power Saver, and improved JavaScript performance.",
       "about": "Safari 7 focused on battery life and reading: Power Saver reduced plugin activity; Shared Links surfaced Twitter and LinkedIn in the sidebar. It kept Safari the default Mac browser as Chrome crossed 50% market share globally.",
       "narrative": {
         "whyChosen": "Safari 7 emphasized power efficiency as laptops became the primary Mac form factor.",
@@ -166,12 +166,12 @@
       "date": "2013-10-31",
       "datePrecision": "day",
       "title": "Nexus 5 released",
-      "summary": "Google began selling the Nexus 5 — LG Nexus with KitKat — popular developer reference phone.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Lg nexus with kitkat — popular developer reference phone. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the [Nexus] 5 — LG [Nexus] with KitKat — popular developer reference phone.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Lg nexus with kitkat — popular developer reference phone. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Nexus 5 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The [Nexus] 5 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

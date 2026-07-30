@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Squarespace launched",
       "summary": "Anthony Casalena launched Squarespace in January 2004 from his University of Maryland dorm room — an all-in-one website builder and hosting platform.",
-      "about": "Squarespace combined blogging, galleries, and styled templates without requiring HTML knowledge — a design-first alternative to WordPress and Blogger. Casalena was the sole developer until revenue hit $1 million in 2006; Squarespace later IPO'd on the NYSE in 2021.",
+      "about": "Squarespace combined blogging, galleries, and styled templates without requiring [HTML] knowledge — a design-first alternative to WordPress and Blogger. Casalena was the sole developer until revenue hit $1 million in 2006; Squarespace later IPO'd on the NYSE in 2021.",
       "narrative": {
         "whyChosen": "Squarespace pioneered polished, template-driven site building for non-developers.",
         "whyImportant": "It proved design quality could be a product differentiator in website builders.",
@@ -54,10 +54,10 @@
       "date": "2004-01-20",
       "datePrecision": "day",
       "title": "Scala first public release",
-      "summary": "Martin Odersky released Scala publicly on January 20, 2004 — a language combining object-oriented and functional programming on the JVM.",
+      "summary": "Martin Odersky released Scala publicly on January 20, 2004 — a language combining object-oriented and [functional programming] on the JVM.",
       "about": "Scala brought pattern matching, implicits, and actor-friendly concurrency to the Java ecosystem — later powering Twitter, Spark, and Akka. Scala 2.0 in 2006 stabilized the language for production use.",
       "narrative": {
-        "whyChosen": "Scala introduced functional programming to mainstream JVM development.",
+        "whyChosen": "Scala introduced [functional programming] to mainstream JVM development.",
         "whyImportant": "It influenced Kotlin, Swift, and modern language design on managed runtimes.",
         "problemSolved": "JVM developers wanted expressive functional abstractions without abandoning Java interop."
       },

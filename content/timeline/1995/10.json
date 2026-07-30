@@ -25,7 +25,7 @@
       "summary": "Theo de Raadt forked OpenBSD from NetBSD in October 1995 — pioneering proactive security auditing and code correctness.",
       "about": "OpenBSD's 'only two remote holes in the default install' slogan and innovations like OpenSSH, LibreSSL, and W^X memory protection influenced secure systems design across the industry.",
       "narrative": {
-        "whyChosen": "OpenBSD set the standard for security-first Unix development.",
+        "whyChosen": "OpenBSD set the standard for security-first [Unix] development.",
         "whyImportant": "OpenSSH alone secured remote administration for the entire internet.",
         "problemSolved": "General-purpose BSDs did not prioritize continuous security review."
       },

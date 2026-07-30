@@ -65,7 +65,7 @@
       "summary": "Wix began trading on NASDAQ on November 6, 2013 under ticker WIX — raising $127 million at $16.50 per share.",
       "about": "The IPO validated freemium website builders as a public-market category alongside Twitter's debut that same week. Wix had grown to 40 million registered users with a drag-and-drop editor that let small businesses publish without developers.",
       "narrative": {
-        "whyChosen": "Wix's IPO marked website builders as a scalable public SaaS business.",
+        "whyChosen": "Wix's IPO marked website builders as a scalable public [SaaS] business.",
         "whyImportant": "Public capital funded international expansion and product development for no-code publishing.",
         "problemSolved": "Freemium builders needed growth capital beyond venture rounds to compete at scale."
       },
@@ -120,8 +120,8 @@
       "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. 6-inch phablet windows phone with 1080p display.",
       "narrative": {
         "whyChosen": "The Nokia Lumia 1520 was a flagship Nokia smartphone milestone.",
-        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
-        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+        "whyImportant": "Nokia devices defined mobile platforms from [Symbian] through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/[Android] era matured."
       },
       "category": "hardware",
       "tags": [
@@ -173,7 +173,7 @@
       "datePrecision": "day",
       "title": "Ethereum whitepaper published",
       "summary": "Vitalik Buterin published the Ethereum whitepaper on November 27, 2013 — proposing a blockchain with a built-in Turing-complete programming language for smart contracts.",
-      "about": "Ethereum extended Bitcoin's ledger with accounts, gas, and bytecode execution — letting developers deploy unstoppable programs instead of just moving coins. ICOs, DeFi, NFTs, and DAOs all trace to this design: one shared state machine anyone can call.",
+      "about": "Ethereum extended Bitcoin's ledger with accounts, gas, and [bytecode] execution — letting developers deploy unstoppable programs instead of just moving coins. ICOs, DeFi, NFTs, and DAOs all trace to this design: one shared state machine anyone can call.",
       "narrative": {
         "whyChosen": "Ethereum introduced programmable blockchains to mainstream developer discourse.",
         "whyImportant": "Smart contracts turned blockchains from ledgers into general-purpose distributed runtimes.",

@@ -26,11 +26,11 @@
       "datePrecision": "year",
       "title": "Michael Stonebraker leads the Postgres project",
       "summary": "Michael Stonebraker led the Postgres database project at UC Berkeley in 1986 — extending Ingres with object-relational ideas that became PostgreSQL.",
-      "about": "Stonebraker's Ingres (1970s) and Postgres pioneered relational databases in academia before commercial Oracle and DB2 dominated. PostgreSQL is now the default open-source RDBMS for startups and enterprises.",
+      "about": "Stonebraker's Ingres (1970s) and Postgres pioneered [relational database]s in academia before commercial Oracle and DB2 dominated. PostgreSQL is now the default open-source RDBMS for startups and enterprises.",
       "narrative": {
-        "whyChosen": "Stonebraker's Berkeley projects spawned PostgreSQL and modern open-source SQL.",
-        "whyImportant": "Postgres extended relational databases with extensibility and advanced types.",
-        "problemSolved": "Relational systems needed richer data models without abandoning SQL."
+        "whyChosen": "Stonebraker's Berkeley projects spawned PostgreSQL and modern open-source [SQL].",
+        "whyImportant": "Postgres extended [relational database]s with extensibility and advanced types.",
+        "problemSolved": "Relational systems needed richer data models without abandoning [SQL]."
       },
       "category": "software",
       "tags": [

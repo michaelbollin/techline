@@ -6,12 +6,12 @@
       "date": "2014-09-18",
       "datePrecision": "day",
       "title": "Elixir 1.0 released",
-      "summary": "José Valim released Elixir 1.0 on September 18, 2014 — the first stable version on the Erlang BEAM VM with macros, protocols, and Mix tooling.",
-      "about": "Elixir 1.0 committed to stability for production: Phoenix web framework, OTP supervision trees, and pipelines for data transformation. Discord, Pinterest, and Bleacher Report adopted it for real-time, fault-tolerant backends.",
+      "summary": "José Valim released [Elixir] 1.0 on September 18, 2014 — the first stable version on the [Erlang] [BEAM] VM with macros, protocols, and Mix tooling.",
+      "about": "[Elixir] 1.0 committed to stability for production: Phoenix web framework, [OTP] supervision trees, and pipelines for data transformation. Discord, Pinterest, and Bleacher Report adopted it for real-time, fault-tolerant backends.",
       "narrative": {
-        "whyChosen": "Elixir 1.0 was the milestone that let teams ship BEAM-based systems beyond experiments.",
-        "whyImportant": "Stable tooling and semantics unlocked Elixir for production web and telecom workloads.",
-        "problemSolved": "Pre-1.0 Elixir changed too fast for companies to standardize on it."
+        "whyChosen": "[Elixir] 1.0 was the milestone that let teams ship [BEAM]-based systems beyond experiments.",
+        "whyImportant": "Stable tooling and semantics unlocked [Elixir] for production web and telecom workloads.",
+        "problemSolved": "Pre-1.0 [Elixir] changed too fast for companies to standardize on it."
       },
       "category": "software",
       "tags": [
@@ -58,7 +58,7 @@
       "about": "The Plus legitimized phablets for Western markets and gave developers a 'regular' vs 'plus' size class split that persists in iOS layout APIs. Landscape apps and split views became viable on a phone form factor.",
       "narrative": {
         "whyChosen": "The 6 Plus made phablets a first-class iOS form factor, not an Android oddity.",
-        "whyImportant": "Two iPhone size classes became a permanent constraint for iOS UI design.",
+        "whyImportant": "Two iPhone size classes became a permanent constraint for iOS [UI] design.",
         "problemSolved": "Large-screen power users chose Android phablets because Apple offered no equivalent."
       },
       "category": "hardware",
@@ -113,7 +113,7 @@
       "datePrecision": "day",
       "title": "iPhone 6 released",
       "summary": "Apple began selling the iPhone 6 on September 19, 2014 — jumping to 4.7-inch and 5.5-inch screens after years of 4-inch phones.",
-      "about": "Larger iPhones forced responsive layouts and adaptive UI across iOS apps. Reachability, size classes, and split-screen iPad multitasking later built on the bigger canvas the iPhone 6 normalized for mainstream users.",
+      "about": "Larger iPhones forced responsive layouts and adaptive [UI] across iOS apps. Reachability, size classes, and split-screen iPad multitasking later built on the bigger canvas the iPhone 6 normalized for mainstream users.",
       "narrative": {
         "whyChosen": "The iPhone 6 ended Apple's small-phone era and mainstreamed large-screen mobile design.",
         "whyImportant": "Bigger screens changed touch targets, typography, and how developers layout iOS interfaces.",

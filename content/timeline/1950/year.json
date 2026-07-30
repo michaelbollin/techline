@@ -16,7 +16,7 @@
       "datePrecision": "year",
       "title": "Richard Hamming publishes error-correcting codes",
       "summary": "Richard Hamming published error-detecting and error-correcting codes in 1950 — including the Hamming code used in memory and storage.",
-      "about": "Hamming codes let systems detect and fix single-bit errors — foundational for reliable RAM, CDs, and telecommunications. The story goes Hamming invented them out of frustration when a computer dropped his weekend runs.",
+      "about": "Hamming codes let systems detect and fix single-bit errors — foundational for reliable [RAM], CDs, and telecommunications. The story goes Hamming invented them out of frustration when a computer dropped his weekend runs.",
       "narrative": {
         "whyChosen": "Hamming codes are the entry point to error correction in computing curricula.",
         "whyImportant": "They made unreliable hardware usable for critical computation.",

@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "ZeroMQ project started",
       "summary": "Pieter Hintjens and Martin Sustrik started ZeroMQ in May 2007 — a brokerless messaging library with socket-style APIs.",
-      "about": "ZeroMQ (ØMQ) wraps TCP, IPC, and in-process transports behind familiar socket patterns — pub/sub, push/pull, req/rep — without a central message broker. High-frequency trading, distributed systems, and language bindings (Python, C++, Go) use it for fast, lightweight messaging. Example: a PUB socket broadcasts market ticks; SUB sockets filter by topic prefix.",
+      "about": "ZeroMQ (ØMQ) wraps [TCP], IPC, and in-process transports behind familiar socket patterns — pub/sub, push/pull, req/rep — without a central message broker. High-frequency trading, distributed systems, and language bindings (Python, C++, Go) use it for fast, lightweight messaging. Example: a PUB socket broadcasts market ticks; SUB sockets filter by topic prefix.",
       "narrative": {
         "whyChosen": "ZeroMQ brought brokerless, pattern-based messaging to systems that outgrew single-queue brokers.",
         "whyImportant": "It influenced modern distributed architectures and proved messaging could live in a library, not only a server.",

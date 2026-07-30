@@ -6,11 +6,11 @@
       "date": "1974-05-01",
       "datePrecision": "day",
       "title": "SQL database language invented",
-      "summary": "In May 1974, Donald Chamberlin and Raymond Boyce published SEQUEL — the query language that became SQL for asking questions of relational databases.",
-      "about": "SQL (originally spelled SEQUEL) is how apps read and update structured data — `SELECT`, `INSERT`, `JOIN`, and `GROUP BY`. Every web app, bank, and analytics pipeline ultimately talks SQL or a close variant (PostgreSQL, MySQL, SQLite, SQL Server).",
+      "summary": "In May 1974, Donald Chamberlin and Raymond Boyce published SEQUEL — the query language that became [SQL] for asking questions of [relational database]s.",
+      "about": "[SQL] (originally spelled SEQUEL) is how apps read and update structured data — `SELECT`, `INSERT`, `JOIN`, and `GROUP BY`. Every web app, bank, and analytics pipeline ultimately talks [SQL] or a close variant (PostgreSQL, MySQL, SQLite, [SQL] Server).",
       "narrative": {
-        "whyChosen": "This paper turned the relational database idea into a practical language anyone could learn to fetch and combine data.",
-        "whyImportant": "SQL became the universal way to talk to databases — still the dominant interface to structured data fifty years later.",
+        "whyChosen": "This paper turned the [relational database] idea into a practical language anyone could learn to fetch and combine data.",
+        "whyImportant": "[SQL] became the universal way to talk to databases — still the dominant interface to structured data fifty years later.",
         "problemSolved": "Old database APIs forced programmers to describe step-by-step paths through records; SEQUEL let them simply say what data they wanted."
       },
       "category": "software",
@@ -55,8 +55,8 @@
       "date": "1974-05",
       "datePrecision": "month",
       "title": "Vint Cerf and Bob Kahn publish TCP/IP design",
-      "summary": "Vint Cerf and Bob Kahn published A Protocol for Packet Network Intercommunication in May 1974 — defining the TCP design that became the internet's foundation.",
-      "about": "The paper described how heterogeneous packet networks could interconnect with reliable end-to-end communication — later split into TCP and IP. Every HTTP request still rides protocols descended from this work.",
+      "summary": "Vint Cerf and Bob Kahn published A Protocol for Packet Network Intercommunication in May 1974 — defining the [TCP] design that became the internet's foundation.",
+      "about": "The paper described how heterogeneous packet networks could interconnect with reliable end-to-end communication — later split into [TCP] and [IP]. Every [HTTP] request still rides protocols descended from this work.",
       "narrative": {
         "whyChosen": "The Cerf–Kahn paper is the architectural birth certificate of the internet protocol suite.",
         "whyImportant": "It enabled internetworking beyond any single vendor or network technology.",
@@ -113,11 +113,11 @@
       "date": "1974-05",
       "datePrecision": "month",
       "title": "Elizabeth Feinler leads the ARPANET NIC",
-      "summary": "Elizabeth Feinler became principal investigator of the ARPANET Network Information Center in 1974 — maintaining the hosts file and directory services that preceded DNS.",
-      "about": "Feinler's team published the directory of every machine on the early internet — precursor to DNS and WHOIS. She had joined Doug Engelbart's group in 1972 and wrote the ARPANET Resource Handbook for the 1972 ICCC demo before taking over NIC operations.",
+      "summary": "Elizabeth Feinler became principal investigator of the [ARPANET] Network Information Center in 1974 — maintaining the hosts file and directory services that preceded [DNS].",
+      "about": "Feinler's team published the directory of every machine on the early internet — precursor to [DNS] and WHOIS. She had joined Doug Engelbart's group in 1972 and wrote the [ARPANET] Resource Handbook for the 1972 ICCC demo before taking over NIC operations.",
       "narrative": {
-        "whyChosen": "Feinler operated the human-powered directory of the pre-DNS internet.",
-        "whyImportant": "She scaled NIC directory services as ARPANET grew beyond memorized host lists.",
+        "whyChosen": "Feinler operated the human-powered directory of the pre-[DNS] internet.",
+        "whyImportant": "She scaled NIC directory services as [ARPANET] grew beyond memorized host lists.",
         "problemSolved": "There was no automated naming when thousands of hosts joined the network."
       },
       "category": "culture",

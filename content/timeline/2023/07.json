@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Anthropic Claude 2 released",
       "summary": "Anthropic released Claude 2 on July 11, 2023 with a 100K-token context window, improved coding, and a public beta chat interface.",
-      "about": "Claude 2 competed directly with ChatGPT and GPT-4 on reasoning and long documents — analyzing entire books or codebases in one prompt. It expanded Anthropic's API and consumer chat products before the Claude 3 family arrived.",
+      "about": "Claude 2 competed directly with ChatGPT and GPT-4 on reasoning and long documents — analyzing entire books or codebases in one prompt. It expanded Anthropic's [API] and consumer chat products before the Claude 3 family arrived.",
       "narrative": {
         "whyChosen": "Claude 2 made long-context LLMs a mainstream product feature.",
         "whyImportant": "It validated 100K-token windows for legal, research, and code review workflows.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "Meta Llama 2 open weights released",
       "summary": "Meta released Llama 2 on July 18, 2023 — open-weight large language models (7B, 13B, 70B) free for research and commercial use.",
-      "about": "Llama 2 let startups and researchers run capable LLMs on their own hardware without OpenAI API bills. It spawned fine-tuning ecosystems (Hugging Face, Ollama, vLLM) and proved open weights could approach closed-model quality.",
+      "about": "Llama 2 let startups and researchers run capable LLMs on their own hardware without OpenAI [API] bills. It spawned fine-tuning ecosystems (Hugging Face, Ollama, vLLM) and proved open weights could approach closed-model quality.",
       "narrative": {
         "whyChosen": "Llama 2 was the open-weights inflection point for self-hosted AI.",
         "whyImportant": "Commercial licensing of strong open models changed who could ship LLM products.",

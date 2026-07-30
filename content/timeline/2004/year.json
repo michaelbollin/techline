@@ -7,7 +7,7 @@
       "datePrecision": "year",
       "title": "BlackBerry 7290 released",
       "summary": "BlackBerry released the BlackBerry 7290 — Bluetooth and color screen enterprise BlackBerry.",
-      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Bluetooth and color screen enterprise blackberry. BES-connected apps and push email defined mobile workflows for years.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and [Android]. Bluetooth and color screen enterprise blackberry. BES-connected apps and push email defined mobile workflows for years.",
       "narrative": {
         "whyChosen": "The BlackBerry 7290 was a key BlackBerry hardware milestone.",
         "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
@@ -55,7 +55,7 @@
       "datePrecision": "year",
       "title": "Selenium released",
       "summary": "Jason Huggins open sourced Selenium at ThoughtWorks in 2004 — a JavaScript-based framework for automating browser tests.",
-      "about": "Selenium drove browsers from HTML tables of commands — click, type, assert — before dedicated WebDriver binaries existed. It became the default way QA teams regression-tested web apps and later merged with WebDriver into Selenium 2. Cypress and Playwright are spiritual successors with modern APIs.",
+      "about": "Selenium drove browsers from [HTML] tables of commands — click, type, assert — before dedicated WebDriver binaries existed. It became the default way QA teams regression-tested web apps and later merged with WebDriver into Selenium 2. Cypress and Playwright are spiritual successors with modern APIs.",
       "narrative": {
         "whyChosen": "Selenium pioneered open-source browser test automation for the web era.",
         "whyImportant": "It established keyword-driven testing patterns used across the industry for a decade.",
@@ -109,7 +109,7 @@
       "datePrecision": "year",
       "title": "Shopware first released",
       "summary": "Stefan and Sebastian Hamann released Shopware version 1 in 2004 — a modular PHP e-commerce platform developed in Germany.",
-      "about": "Shopware grew from Hamann-Media's agency work into a standalone product — templates, checkout, and catalog management for European merchants. It later open-sourced its Community Edition and rebuilt as Shopware 6 on Symfony and Vue.js.",
+      "about": "Shopware grew from Hamann-Media's agency work into a standalone product — templates, checkout, and catalog management for European merchants. It later open-sourced its Community Edition and rebuilt as Shopware 6 on [Symfony] and Vue.js.",
       "narrative": {
         "whyChosen": "Shopware became Europe's leading open-source e-commerce platform.",
         "whyImportant": "It gave DACH-region merchants a PHP alternative to Magento and proprietary carts.",

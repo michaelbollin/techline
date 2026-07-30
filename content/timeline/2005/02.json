@@ -6,10 +6,10 @@
       "date": "2005-02-07",
       "datePrecision": "day",
       "title": "Hudson CI first released",
-      "summary": "Kohsuke Kawaguchi released Hudson 1.0 on February 7, 2005 — a Java continuous integration server that automated builds on every commit.",
-      "about": "Hudson polled SCM repos, ran Ant/Maven/shell builds, and reported pass/fail — the ancestor of Jenkins. It made 'build on every push' normal for Java teams at Sun and beyond. After a 2011 fork, the community renamed the project Jenkins; Hudson was retired, but the plugin model and pipeline pattern defined modern CI.",
+      "summary": "Kohsuke Kawaguchi released [Hudson] 1.0 on February 7, 2005 — a [Java] continuous integration server that automated builds on every commit.",
+      "about": "[Hudson] polled SCM repos, ran Ant/[Maven]/shell builds, and reported pass/fail — the ancestor of Jenkins. It made 'build on every push' normal for [Java] teams at Sun and beyond. After a 2011 fork, the community renamed the project Jenkins; [Hudson] was retired, but the plugin model and pipeline pattern defined modern CI.",
       "narrative": {
-        "whyChosen": "Hudson was the first widely adopted open-source CI server for everyday development teams.",
+        "whyChosen": "[Hudson] was the first widely adopted open-source CI server for everyday development teams.",
         "whyImportant": "It established automated builds, test gates, and deploy hooks as standard practice before GitHub Actions.",
         "problemSolved": "Manual integration builds broke constantly; teams needed a always-on server to catch failures immediately."
       },
@@ -64,11 +64,11 @@
       "date": "2005-02-18",
       "datePrecision": "day",
       "title": "Jesse James Garrett coins AJAX",
-      "summary": "Jesse James Garrett coined \"Ajax\" on February 18, 2005 — naming asynchronous JavaScript and XML techniques powering Gmail and Google Maps.",
+      "summary": "Jesse James Garrett coined \"Ajax\" on February 18, 2005 — naming asynchronous JavaScript and [XML] techniques powering Gmail and Google Maps.",
       "about": "Garrett's essay gave developers vocabulary for partial page updates — XHR, DOM scripting, and JSON APIs without full reloads. The label launched a decade of Web 2.0 apps before React reframed the same ideas as components.",
       "narrative": {
         "whyChosen": "The AJAX label unified emerging rich-web techniques under one name.",
-        "whyImportant": "It accelerated adoption of API-driven, interactive browser applications.",
+        "whyImportant": "It accelerated adoption of [API]-driven, interactive browser applications.",
         "problemSolved": "Teams were reinventing partial-update UIs without shared patterns or terminology."
       },
       "category": "culture",

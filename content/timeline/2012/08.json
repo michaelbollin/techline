@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": ".NET 4.5 and C# 5.0 with async/await released",
       "summary": "Microsoft shipped .NET Framework 4.5 on August 15, 2012 with C# 5.0 `async` and `await` — bringing asynchronous programming into mainstream .NET.",
-      "about": "C# 5's async model let UI and server code read linearly while awaiting I/O: `await client.GetAsync(url)` without callback pyramids. It shaped ASP.NET Web API, WPF apps, and later patterns across the .NET ecosystem before minimal APIs and channels.",
+      "about": "C# 5's async model let [UI] and server code read linearly while awaiting I/O: `await client.GetAsync(url)` without callback pyramids. It shaped ASP.NET Web [API], WPF apps, and later patterns across the .NET ecosystem before minimal APIs and channels.",
       "narrative": {
         "whyChosen": "Async/await in C# 5 changed how .NET developers wrote responsive servers and desktop apps.",
         "whyImportant": "The compiler transformed async methods into state machines — a model later copied across languages.",

@@ -6,12 +6,12 @@
       "date": "2025-11-11",
       "datePrecision": "day",
       "title": ".NET 10 LTS released",
-      "summary": "Microsoft shipped .NET 10 on November 11, 2025 — an LTS release with AI building blocks, performance gains, and C# 14 through November 2028 support.",
-      "about": ".NET 10 added Microsoft.Extensions.AI abstractions for unified chat clients across OpenAI, Azure, and Ollama — signaling .NET's bet on agentic apps. As the even-year LTS after .NET 9 STS, it became the recommended production baseline for enterprises needing three years of patches.",
+      "summary": "Microsoft shipped .NET 10 on November 11, 2025 — an [LTS] release with AI building blocks, performance gains, and C# 14 through November 2028 support.",
+      "about": ".NET 10 added Microsoft.Extensions.AI abstractions for unified chat clients across OpenAI, Azure, and Ollama — signaling .NET's bet on agentic apps. As the even-year [LTS] after .NET 9 STS, it became the recommended production baseline for enterprises needing three years of patches.",
       "narrative": {
-        "whyChosen": ".NET 10 paired LTS stability with first-class AI service abstractions.",
+        "whyChosen": ".NET 10 paired [LTS] stability with first-class AI service abstractions.",
         "whyImportant": "IChatClient and vector data APIs made multi-provider AI a platform primitive.",
-        "problemSolved": "Teams on .NET 8 LTS needed modern AI APIs without jumping to short-term STS releases."
+        "problemSolved": "Teams on .NET 8 [LTS] needed modern AI APIs without jumping to short-term STS releases."
       },
       "category": "software",
       "tags": [
@@ -59,7 +59,7 @@
       "datePrecision": "day",
       "title": "OpenAI GPT-5.1 released",
       "summary": "OpenAI released GPT-5.1 on November 12, 2025 — splitting ChatGPT into warmer Instant and adaptive Thinking tiers with improved instruction-following.",
-      "about": "GPT-5.1 refined the unified GPT-5 stack with personality tuning and faster simple-task routing in Thinking mode. Codex-Mini and Codex-Max variants followed within a week — keeping OpenAI competitive as Google prepared Gemini 3 and Anthropic readied Opus 4.5.",
+      "about": "GPT-5.1 refined the unified GPT-5 stack with personality tuning and faster simple-task routing in Thinking mode. Codex-Mini and Codex-Max variants followed within a week — keeping OpenAI competitive as Google prepared [Gemini] 3 and [Anthropic] readied Opus 4.5.",
       "narrative": {
         "whyChosen": "GPT-5.1 was OpenAI's first major GPT-5 refresh with distinct Instant and Thinking modes.",
         "whyImportant": "Adaptive reasoning effort made frontier models feel more conversational by default.",
@@ -115,11 +115,11 @@
       "date": "2025-11-18",
       "datePrecision": "day",
       "title": "Google Gemini 3 Pro released",
-      "summary": "Google released Gemini 3 Pro on November 18, 2025 — state-of-the-art reasoning, generative UI, and a Gemini Agent for multi-step tasks in Search and the Gemini app.",
+      "summary": "Google released Gemini 3 Pro on November 18, 2025 — state-of-the-art reasoning, generative [UI], and a Gemini Agent for multi-step tasks in Search and the Gemini app.",
       "about": "Gemini 3 Pro shipped day-one in Google Search AI Mode and developer tools — Google's answer to GPT-5.1 and the prelude to Antigravity. Generative Interfaces and the Gemini Agent previewed agentic UX inside Google's consumer products, not just APIs.",
       "narrative": {
         "whyChosen": "Gemini 3 Pro launched Google's agentic era in Search and the Gemini app simultaneously.",
-        "whyImportant": "Generative UI and in-Search deployment raised the stakes for consumer AI distribution.",
+        "whyImportant": "Generative [UI] and in-Search deployment raised the stakes for consumer AI distribution.",
         "problemSolved": "Google needed a frontier model that could reason, code, and orchestrate tools in one stack."
       },
       "category": "software",
@@ -172,11 +172,11 @@
       "date": "2025-11-20",
       "datePrecision": "day",
       "title": "Google Antigravity released",
-      "summary": "Google released Antigravity on November 20, 2025 — an agentic development platform with an AI IDE, autonomous agents across editor, terminal, and browser.",
-      "about": "Antigravity elevated agents to a first-class surface: they plan, execute, and verify tasks while developers steer mid-flight. Built on Gemini 3 Pro with support for Claude Sonnet 4.5 and open models, it competed directly with Cursor, Copilot, and Claude Code for the agentic IDE market.",
+      "summary": "Google released Antigravity on November 20, 2025 — an agentic development platform with an AI [IDE], autonomous agents across editor, terminal, and browser.",
+      "about": "Antigravity elevated agents to a first-class surface: they plan, execute, and verify tasks while developers steer mid-flight. Built on Gemini 3 Pro with support for Claude Sonnet 4.5 and open models, it competed directly with Cursor, Copilot, and Claude Code for the agentic [IDE] market.",
       "narrative": {
         "whyChosen": "Antigravity made Google a direct player in agent-first developer tooling.",
-        "whyImportant": "Browser-and-terminal agents changed IDE design from autocomplete to task orchestration.",
+        "whyImportant": "Browser-and-terminal agents changed [IDE] design from autocomplete to task orchestration.",
         "problemSolved": "Developers needed AI that could run multi-step engineering work, not just suggest lines."
       },
       "category": "software",
@@ -228,9 +228,9 @@
       "datePrecision": "day",
       "title": "Anthropic Claude Opus 4.5 released",
       "summary": "Anthropic released Claude Opus 4.5 on November 24, 2025 — leading SWE-bench Verified coding scores with Excel, Chrome, and desktop integrations at $5/$25 per million tokens.",
-      "about": "Opus 4.5 closed Anthropic's 2025 with the highest public coding benchmark scores and automatic context summarization for long chats. Claude for Excel and Chrome expanded beyond terminals — positioning Anthropic for knowledge-work agents competing with GPT-5.1 and Gemini 3.",
+      "about": "Opus 4.5 closed Anthropic's 2025 with the highest public coding [benchmark] scores and automatic context summarization for long chats. Claude for Excel and Chrome expanded beyond terminals — positioning Anthropic for knowledge-work agents competing with GPT-5.1 and Gemini 3.",
       "narrative": {
-        "whyChosen": "Opus 4.5 set the year's top public coding benchmark for frontier models.",
+        "whyChosen": "Opus 4.5 set the year's top public coding [benchmark] for frontier models.",
         "whyImportant": "Spreadsheet and browser integrations pushed Claude into everyday office workflows.",
         "problemSolved": "Enterprise teams needed frontier coding and computer-use in one model at Opus-tier pricing."
       },

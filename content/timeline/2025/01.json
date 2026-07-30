@@ -10,8 +10,8 @@
       "about": "DeepSeek R1 shook the AI industry: strong math and coding results with open weights and transparent training details. It triggered a market reaction over inference economics and proved Chinese labs could ship frontier reasoning models competitively.",
       "narrative": {
         "whyChosen": "DeepSeek R1 disrupted assumptions about who could build frontier reasoning models.",
-        "whyImportant": "Open reasoning weights challenged closed API dominance and pricing models.",
-        "problemSolved": "Teams wanted o1-class reasoning without proprietary API lock-in or extreme costs."
+        "whyImportant": "Open reasoning weights challenged closed [API] dominance and pricing models.",
+        "problemSolved": "Teams wanted o1-class reasoning without proprietary [API] lock-in or extreme costs."
       },
       "category": "software",
       "tags": [
@@ -56,7 +56,7 @@
       "date": "2025-01-22",
       "datePrecision": "day",
       "title": "Tailwind CSS 4.0 released",
-      "summary": "Adam Wathan released Tailwind CSS 4.0 on January 22, 2025 — a ground-up rewrite with a Rust-powered engine and CSS-first configuration.",
+      "summary": "Adam Wathan released Tailwind CSS 4.0 on January 22, 2025 — a ground-up rewrite with a [Rust]-powered engine and CSS-first configuration.",
       "about": "Tailwind 4 replaced PostCSS config files with `@import \"tailwindcss\"` in CSS — automatic content detection, native cascade layers, and builds up to 100x faster on incremental compiles. It redefined utility-first CSS for the modern platform.",
       "narrative": {
         "whyChosen": "Tailwind 4's Oxide engine made utility-first CSS dramatically faster to build.",

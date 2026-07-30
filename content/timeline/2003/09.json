@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "The Pirate Bay BitTorrent tracker founded",
       "summary": "Gottfrid Svartholm, Fredrik Neij, and Peter Sunde launched The Pirate Bay on September 15, 2003 — a BitTorrent indexer that became the world's most famous piracy site.",
-      "about": "TPB hosted .torrent files and magnet links for movies, games, and software — the successor to Napster and warez FTP topsites in the BitTorrent era. Raids, domain seizures, and prison sentences for its founders made it a symbol of copyright resistance; developers studied its resilience tactics for censorship-resistant systems (and rights holders studied takedown law).",
+      "about": "TPB hosted .torrent files and magnet links for movies, games, and software — the successor to Napster and warez [FTP] topsites in the BitTorrent era. Raids, domain seizures, and prison sentences for its founders made it a symbol of copyright resistance; developers studied its resilience tactics for censorship-resistant systems (and rights holders studied takedown law).",
       "narrative": {
         "whyChosen": "The Pirate Bay was the flagship of post-Napster BitTorrent piracy.",
         "whyImportant": "It kept public attention on P2P enforcement and inspired decentralization experiments.",
@@ -56,7 +56,7 @@
       "date": "2003-09-28",
       "datePrecision": "day",
       "title": "Xcode 1.0 released",
-      "summary": "Apple shipped Xcode 1.0 on September 28, 2003 — integrating Project Builder into a modern Mac IDE ahead of Mac OS X Panther.",
+      "summary": "Apple shipped Xcode 1.0 on September 28, 2003 — integrating Project Builder into a modern Mac IDE ahead of Mac [OS] X Panther.",
       "about": "Xcode became the mandatory toolchain for iOS and macOS development — Interface Builder, Instruments, lldb, and Swift support all live here. Every App Store binary is built with Xcode's compiler and signing pipeline.",
       "narrative": {
         "whyChosen": "Xcode is Apple's primary IDE for native platform development.",

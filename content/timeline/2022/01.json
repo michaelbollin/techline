@@ -6,10 +6,10 @@
       "date": "2022-01-04",
       "datePrecision": "day",
       "title": "BlackBerry OS end of life",
-      "summary": "BlackBerry ended support for BlackBerry OS and BlackBerry 10 on January 4, 2022 — terminating service for legacy enterprise phones.",
+      "summary": "BlackBerry ended support for BlackBerry [OS] and BlackBerry 10 on January 4, 2022 — terminating service for legacy enterprise phones.",
       "about": "After this date BlackBerry decommissioned infrastructure that legacy devices needed for data, email, and BBM. Companies that had standardized on BlackBerry hardware through the 2000s had long since migrated to iOS and Android with MDM suites. The EOL closed the chapter on RIM's proprietary mobile stack.",
       "narrative": {
-        "whyChosen": "BlackBerry OS EOL was the final shutdown of a once-dominant enterprise mobile platform.",
+        "whyChosen": "BlackBerry [OS] EOL was the final shutdown of a once-dominant enterprise mobile platform.",
         "whyImportant": "It ended reliance on RIM's NOC and BBM for corporate mobile messaging.",
         "problemSolved": "BlackBerry could no longer justify operating legacy infrastructure for dwindling device fleets."
       },

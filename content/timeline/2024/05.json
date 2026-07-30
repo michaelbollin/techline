@@ -6,11 +6,11 @@
       "date": "2024-05-21",
       "datePrecision": "day",
       "title": "Kotlin 2.0 released",
-      "summary": "JetBrains shipped Kotlin 2.0 on May 21, 2024 with the K2 compiler — faster builds, better multiplatform support, and improved Java interop.",
-      "about": "The K2 compiler rewrote Kotlin's frontend for speed and consistency across JVM, JS, Native, and Wasm targets. Kotlin 2 unified Compose Multiplatform and server-side Kotlin under one toolchain — important for Android teams sharing code with iOS and backend services.",
+      "summary": "JetBrains shipped [Kotlin] 2.0 on May 21, 2024 with the K2 compiler — faster builds, better multiplatform support, and improved Java interop.",
+      "about": "The K2 compiler rewrote [Kotlin]'s frontend for speed and consistency across JVM, JS, Native, and Wasm targets. [Kotlin] 2 unified Compose Multiplatform and server-side [Kotlin] under one toolchain — important for [Android] teams sharing code with iOS and backend services.",
       "narrative": {
-        "whyChosen": "Kotlin 2 was a compiler reboot, not just another feature release.",
-        "whyImportant": "Faster analysis and multiplatform parity kept Kotlin competitive with Swift and TypeScript.",
+        "whyChosen": "[Kotlin] 2 was a compiler reboot, not just another feature release.",
+        "whyImportant": "Faster analysis and multiplatform parity kept [Kotlin] competitive with [Swift] and [TypeScript].",
         "problemSolved": "The old compiler struggled with large Gradle projects and divergent platform backends."
       },
       "category": "software",
@@ -120,11 +120,11 @@
       "date": "2024-05-20",
       "datePrecision": "day",
       "title": "Erlang/OTP 27 released",
-      "summary": "The Erlang/OTP team released OTP 27 on May 20, 2024 with native json module improvements, sigterm handling, and JIT enhancements.",
-      "about": "OTP 27 refined the stdlib JSON module and improved signal handling for containerized BEAM deployments. Elixir 1.16 and Phoenix apps benefited from continued VM performance without breaking changes.",
+      "summary": "The Erlang/OTP team released OTP 27 on May 20, 2024 with native json module improvements, sigterm handling, and [JIT] enhancements.",
+      "about": "OTP 27 refined the stdlib [JSON] module and improved signal handling for containerized BEAM deployments. Elixir 1.16 and Phoenix apps benefited from continued VM performance without breaking changes.",
       "narrative": {
         "whyChosen": "OTP 27 continued incremental BEAM improvements for production Elixir/Erlang.",
-        "whyImportant": "Better JSON and process signals matter for cloud-native BEAM services.",
+        "whyImportant": "Better [JSON] and process signals matter for cloud-native BEAM services.",
         "problemSolved": "Container orchestration exposed edge cases in signal handling and stdlib gaps."
       },
       "category": "software",

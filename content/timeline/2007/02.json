@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "RabbitMQ was the first production-grade open-source AMQP broker.",
         "whyImportant": "It made message queues mainstream before Kafka and cloud pub/sub services.",
-        "problemSolved": "Applications coupled via direct HTTP calls could not absorb traffic spikes or retry failed work reliably."
+        "problemSolved": "Applications coupled via direct [HTTP] calls could not absorb traffic spikes or retry failed work reliably."
       },
       "category": "software",
       "tags": [

@@ -6,11 +6,11 @@
       "date": "1968-07-18",
       "datePrecision": "day",
       "title": "Gordon Moore and Robert Noyce found Intel",
-      "summary": "Gordon Moore and Robert Noyce founded Intel Corporation on July 18, 1968 — focused on semiconductor memory before dominating CPUs.",
-      "about": "Intel's 4004 microprocessor and x86 architecture became the backbone of personal computing and data centers. Moore and Noyce's Fairchild alumni network seeded much of Silicon Valley's chip industry.",
+      "summary": "Gordon Moore and Robert Noyce founded Intel Corporation on July 18, 1968 — focused on [semiconductor] memory before dominating CPUs.",
+      "about": "Intel's 4004 [microprocessor] and x86 architecture became the backbone of personal computing and data centers. Moore and Noyce's Fairchild alumni network seeded much of Silicon Valley's chip industry.",
       "narrative": {
-        "whyChosen": "Intel became the defining microprocessor company of the PC era.",
-        "whyImportant": "It commercialized Moore's Law through memory and CPU products at scale.",
+        "whyChosen": "Intel became the defining [microprocessor] company of the [PC] era.",
+        "whyImportant": "It commercialized [Moore's Law] through memory and [CPU] products at scale.",
         "problemSolved": "The industry needed a focused company to push MOS memory and logic chips forward."
       },
       "category": "company",

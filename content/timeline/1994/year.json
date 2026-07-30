@@ -7,9 +7,9 @@
       "datePrecision": "year",
       "title": "Anita Borg founds Grace Hopper Celebration",
       "summary": "Anita Borg co-founded the Grace Hopper Celebration in 1994 — the largest gathering of women technologists.",
-      "about": "GHC became the flagship conference for women in computing — influencing hiring pipelines and community building across industry and academia. Borg also created Systers, an early online forum for women in tech.",
+      "about": "[GHC] became the flagship conference for women in computing — influencing hiring pipelines and community building across industry and academia. Borg also created Systers, an early online forum for women in tech.",
       "narrative": {
-        "whyChosen": "GHC shaped diversity efforts in software engineering hiring and retention.",
+        "whyChosen": "[GHC] shaped diversity efforts in software engineering hiring and retention.",
         "whyImportant": "It created visible community for underrepresented developers at scale.",
         "problemSolved": "Women in computing lacked institutional networks and conference representation."
       },
@@ -54,7 +54,7 @@
       "narrative": {
         "whyChosen": "The STL defined generic programming for industrial C++.",
         "whyImportant": "It separated algorithms from data structures via iterators.",
-        "problemSolved": "C++ lacked reusable container and algorithm libraries without copy-paste."
+        "problemSolved": "C++ lacked reusable [container] and algorithm libraries without copy-paste."
       },
       "category": "software",
       "tags": [
@@ -103,7 +103,7 @@
       "datePrecision": "year",
       "title": "Bruce Schneier publishes Applied Cryptography",
       "summary": "Bruce Schneier published Applied Cryptography in 1994 — the practical handbook that taught a generation of developers how crypto works.",
-      "about": "Schneier's book explained block ciphers, hashes, protocols, and implementation pitfalls in plain language — before crypto was baked into every web framework. It shaped how engineers reason about TLS, passwords, and threat models.",
+      "about": "Schneier's book explained block ciphers, hashes, protocols, and implementation pitfalls in plain language — before crypto was baked into every web framework. It shaped how engineers reason about [TLS], passwords, and threat models.",
       "narrative": {
         "whyChosen": "Applied Cryptography became the standard developer introduction to real-world crypto.",
         "whyImportant": "It bridged academic cryptography and software engineering practice.",

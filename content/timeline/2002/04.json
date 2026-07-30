@@ -6,12 +6,12 @@
       "date": "2002-04",
       "datePrecision": "month",
       "title": "Atlassian Jira 1.0 released",
-      "summary": "Atlassian shipped Jira 1.0 in April 2002 — a bug tracker and project-management tool that became the default issue system for software teams worldwide.",
-      "about": "Jira's workflow engine, custom fields, and JQL query language turned ticket tracking into a platform — sprints, backlogs, and release trains for agile teams. It paired with Confluence wikis and Bitbucket repos to anchor Atlassian's dev-tool stack; millions of engineers still live in Jira filters and board columns daily.",
+      "summary": "Atlassian shipped [Jira] 1.0 in April 2002 — a bug tracker and project-management tool that became the default issue system for software teams worldwide.",
+      "about": "[Jira]'s workflow engine, custom fields, and JQL query language turned ticket tracking into a platform — sprints, backlogs, and release trains for [agile] teams. It paired with Confluence wikis and [Bitbucket] repos to anchor Atlassian's dev-tool stack; millions of engineers still live in [Jira] filters and board columns daily.",
       "narrative": {
-        "whyChosen": "Jira became the lingua franca of software issue tracking in enterprises.",
-        "whyImportant": "It standardized agile boards, workflows, and audit trails across engineering orgs.",
-        "problemSolved": "Teams outgrew email and spreadsheets for tracking bugs and feature work."
+        "whyChosen": "[Jira] became the lingua franca of software issue tracking in enterprises.",
+        "whyImportant": "It standardized [agile] boards, workflows, and audit trails across engineering orgs.",
+        "problemSolved": "[Teams] outgrew email and spreadsheets for tracking bugs and feature work."
       },
       "category": "software",
       "tags": [

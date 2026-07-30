@@ -10,7 +10,7 @@
       "about": "Safari 5 added Reader for distraction-free articles, extensions, and Bing as a search option. Nitro made JavaScript faster on Mac and Windows — keeping Safari relevant as Chrome gained share and developers tested HTML5 features.",
       "narrative": {
         "whyChosen": "Safari 5 bundled the HTML5 and Reader features that defined Apple's desktop browser era.",
-        "whyImportant": "Extensions and Nitro JS kept WebKit competitive during the browser wars.",
+        "whyImportant": "Extensions and Nitro JS kept [WebKit] competitive during the browser wars.",
         "problemSolved": "Safari 4 lacked extensions and felt behind Chrome's rapid feature releases."
       },
       "category": "software",
@@ -121,12 +121,12 @@
       "date": "2010-06-04",
       "datePrecision": "day",
       "title": "Samsung Galaxy S released",
-      "summary": "Samsung put the Galaxy S on sale on June 4, 2010 in Singapore — the first flagship Android phone in a line that would dominate smartphone shipments.",
-      "about": "The Galaxy S ran Android 2.1 with Samsung's TouchWiz skin and a 4-inch Super AMOLED display — establishing Samsung as Apple's primary Android hardware rival. Developers targeting Android tested on Galaxy devices as the default non-Nexus reference hardware for years.",
+      "summary": "Samsung put the Galaxy S on sale on June 4, 2010 in Singapore — the first flagship [Android] phone in a line that would dominate smartphone shipments.",
+      "about": "The Galaxy S ran [Android] 2.1 with Samsung's TouchWiz skin and a 4-inch Super AMOLED display — establishing Samsung as Apple's primary [Android] hardware rival. Developers targeting [Android] tested on Galaxy devices as the default non-[Nexus] reference hardware for years.",
       "narrative": {
-        "whyChosen": "The Galaxy S launched Samsung's flagship Android line that defined the iOS alternative.",
-        "whyImportant": "It proved Android OEMs could ship premium hardware that competed with the iPhone at scale.",
-        "problemSolved": "Android needed a flagship reference device beyond the G1 for mainstream consumers."
+        "whyChosen": "The Galaxy S launched Samsung's flagship [Android] line that defined the iOS alternative.",
+        "whyImportant": "It proved [Android] OEMs could ship premium hardware that competed with the iPhone at scale.",
+        "problemSolved": "[Android] needed a flagship reference device beyond the G1 for mainstream consumers."
       },
       "category": "hardware",
       "tags": [
@@ -183,9 +183,9 @@
       "datePrecision": "day",
       "title": "WordPress 3.0 released",
       "summary": "WordPress 3.0 \"Thelonious\" shipped on June 17, 2010 — merging WordPress MU into core and adding custom post types.",
-      "about": "WordPress 3.0 turned blogging software into a general CMS — custom post types, nav menus, and Multisite for running many sites from one install. The Twenty Ten default theme launched the annual theme tradition; agencies could finally build portfolios and directories without fighting the post-only model.",
+      "about": "WordPress 3.0 turned blogging software into a general [CMS] — custom post types, nav menus, and Multisite for running many sites from one install. The Twenty Ten default theme launched the annual theme tradition; agencies could finally build portfolios and directories without fighting the post-only model.",
       "narrative": {
-        "whyChosen": "WordPress 3.0 was the release that made WordPress a true CMS, not just a blog.",
+        "whyChosen": "WordPress 3.0 was the release that made WordPress a true [CMS], not just a blog.",
         "whyImportant": "Custom post types and Multisite unlocked enterprise and agency use cases at massive scale.",
         "problemSolved": "Separate WordPress MU installs were awkward; publishers needed structured content beyond posts and pages."
       },
@@ -230,9 +230,9 @@
       "datePrecision": "day",
       "title": "Stuxnet worm discovered targeting industrial systems",
       "summary": "Belarusian security firm VirusBlokAda identified the Stuxnet worm on June 17, 2010 — malware that exploited multiple Windows zero-days to sabotage Iranian nuclear centrifuges via Siemens PLCs.",
-      "about": "Stuxnet was the first known cyberweapon to cause physical destruction — USB propagation, stolen code-signing certificates, and PLC ladder-logic manipulation in one package. It launched the era of nation-state APT research, ICS security teams, and air-gapped network paranoia. Developers securing SCADA and IoT still reference Stuxnet as the proof point.",
+      "about": "Stuxnet was the first known cyberweapon to cause physical destruction — [USB] propagation, stolen code-signing certificates, and PLC ladder-logic manipulation in one package. It launched the era of nation-state APT research, ICS security teams, and air-gapped network paranoia. Developers securing SCADA and IoT still reference Stuxnet as the proof point.",
       "narrative": {
-        "whyChosen": "Stuxnet was the first malware proven to cross from IT networks into physical plant damage.",
+        "whyChosen": "Stuxnet was the first malware proven to cross from [IT] networks into physical plant damage.",
         "whyImportant": "It created the ICS/OT security industry and nation-state cyber doctrine.",
         "problemSolved": "Nothing for defenders initially — it showed industrial control systems were as vulnerable as office PCs."
       },

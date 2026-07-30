@@ -66,7 +66,7 @@
       "datePrecision": "month",
       "title": "DeCSS DVD decryption code published",
       "summary": "In October 1999, programmers including Jon Lech Johansen published DeCSS — software that decrypted DVDs by breaking the Content Scramble System (CSS).",
-      "about": "DeCSS turned DVD ripping from hardware hack into copy-paste code — posted to mailing lists and T-shirts, then litigated under the DMCA. The prosecution of Dmitry Sklyarov at DEF CON 2001 made exporting reverse-engineering a felony debate. It was the warez scene's crossover into mainstream civil-liberties fights over fair use and interoperability.",
+      "about": "DeCSS turned [DVD] ripping from hardware hack into copy-paste code — posted to mailing lists and T-shirts, then litigated under the DMCA. The prosecution of Dmitry Sklyarov at DEF CON 2001 made exporting reverse-engineering a felony debate. It was the warez scene's crossover into mainstream civil-liberties fights over fair use and interoperability.",
       "narrative": {
         "whyChosen": "DeCSS was the first high-profile DMCA battle over code-as-speech.",
         "whyImportant": "It established that breaking DRM could be criminal even for interoperability research.",

@@ -6,12 +6,12 @@
       "date": "2019-06-11",
       "datePrecision": "day",
       "title": "Opera GX browser released",
-      "summary": "Opera launched Opera GX on June 11, 2019 — a Chromium browser for gamers with CPU, RAM, and network limiters plus RGB-themed UI.",
+      "summary": "Opera launched Opera GX on June 11, 2019 — a Chromium browser for gamers with [CPU], [RAM], and network limiters plus RGB-themed [UI].",
       "about": "Opera GX let users cap browser resource usage so games and streams stayed smooth — a niche that grew into millions of installs. It showed Chromium forks could differentiate on UX and vertical features, not just engine speed.",
       "narrative": {
         "whyChosen": "Opera GX carved out a distinct gamer audience in the Chromium browser market.",
         "whyImportant": "Resource limiters influenced how power users think about browser overhead.",
-        "problemSolved": "Gamers and streamers needed a browser that would not hog RAM and CPU during sessions."
+        "problemSolved": "Gamers and streamers needed a browser that would not hog [RAM] and [CPU] during sessions."
       },
       "category": "software",
       "tags": [
@@ -65,11 +65,11 @@
       "date": "2019-06-19",
       "datePrecision": "day",
       "title": "Kubernetes 1.15 released",
-      "summary": "The Kubernetes project released version 1.15 on June 19, 2019 — with CRD pruning, improved scheduling, and continued CSI maturation.",
-      "about": "Kubernetes 1.15 refined the extension points operators use — custom resources, admission webhooks, and volume plugins. Each release tightened the control plane teams run in production GKE, EKS, and self-hosted clusters.",
+      "summary": "The [Kubernetes] project released version 1.15 on June 19, 2019 — with CRD pruning, improved scheduling, and continued CSI maturation.",
+      "about": "[Kubernetes] 1.15 refined the extension points operators use — custom resources, admission webhooks, and volume plugins. Each release tightened the control plane teams run in production GKE, EKS, and self-hosted clusters.",
       "narrative": {
-        "whyChosen": "Kubernetes 1.15 advanced the CRD and scheduling features platform teams depend on.",
-        "whyImportant": "It showed Kubernetes evolving from hype to stable infrastructure APIs.",
+        "whyChosen": "[Kubernetes] 1.15 advanced the CRD and scheduling features platform teams depend on.",
+        "whyImportant": "It showed [Kubernetes] evolving from hype to stable infrastructure APIs.",
         "problemSolved": "Cluster operators needed safer upgrades and richer extension mechanisms."
       },
       "category": "software",

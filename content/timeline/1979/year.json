@@ -6,12 +6,12 @@
       "date": "1979",
       "datePrecision": "year",
       "title": "Oracle Database 2 shipped",
-      "summary": "Relational Software Inc. released Oracle Version 2 in 1979 — the first commercially available SQL relational database.",
-      "about": "Oracle brought SQL to the commercial market before IBM's DB2 — banks, governments, and enterprises ran it on minicomputers for OLTP and reporting. It grew into the dominant enterprise RDBMS with PL/SQL, RAC clustering, and cloud Autonomous Database. Example: a billing system storing customers, invoices, and payments with ACID transactions and indexed lookups.",
+      "summary": "Relational Software Inc. released Oracle Version 2 in 1979 — the first commercially available [SQL] [relational database].",
+      "about": "Oracle brought [SQL] to the commercial market before [IBM]'s DB2 — banks, governments, and enterprises ran it on minicomputers for OLTP and reporting. It grew into the dominant enterprise RDBMS with PL/[SQL], RAC clustering, and cloud Autonomous Database. Example: a billing system storing customers, invoices, and payments with ACID transactions and indexed lookups.",
       "narrative": {
-        "whyChosen": "Oracle 2 proved SQL databases could be sold as products, not just research demos.",
-        "whyImportant": "It launched the commercial relational database industry alongside IBM and later Microsoft SQL Server.",
-        "problemSolved": "Organizations needed a proven SQL engine they could buy, deploy, and bet their business on."
+        "whyChosen": "Oracle 2 proved [SQL] databases could be sold as products, not just research demos.",
+        "whyImportant": "It launched the commercial [relational database] industry alongside [IBM] and later Microsoft [SQL] Server.",
+        "problemSolved": "Organizations needed a proven [SQL] engine they could buy, deploy, and bet their business on."
       },
       "category": "software",
       "tags": [
@@ -64,7 +64,7 @@
       "about": "The Mead–Conway revolution let universities fabricate student-designed chips via MOSIS — training a generation of hardware engineers. Conway's advocacy also advanced transgender visibility in tech.",
       "narrative": {
         "whyChosen": "Mead–Conway made custom silicon accessible beyond a few chip companies.",
-        "whyImportant": "It accelerated VLSI education and startup semiconductor design.",
+        "whyImportant": "It accelerated VLSI education and startup [semiconductor] design.",
         "problemSolved": "Chip layout knowledge was locked inside proprietary vendor design manuals."
       },
       "category": "invention",
@@ -110,7 +110,7 @@
       "datePrecision": "year",
       "title": "Douglas Hofstadter coins Hofstadter's Law",
       "quoteText": "It always takes longer than you expect, even when you take into account Hofstadter's Law.",
-      "summary": "In Gödel, Escher, Bach, Douglas Hofstadter states the recursive scheduling joke that became a staple of software estimation.",
+      "summary": "In [Gödel], Escher, Bach, Douglas Hofstadter states the recursive scheduling joke that became a staple of software estimation.",
       "about": "Hofstadter's Law is self-referential on purpose — you pad the schedule, then pad the padding, and still slip. Every sprint retrospective and waterfall postmortem cites it, usually while missing the next deadline.",
       "narrative": {
         "whyChosen": "The funniest accurate model of software project timelines.",

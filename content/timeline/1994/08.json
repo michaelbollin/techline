@@ -6,10 +6,10 @@
       "date": "1994-08",
       "datePrecision": "month",
       "title": "IBM Simon Personal Communicator released",
-      "summary": "BellSouth began selling the IBM Simon in August 1994 — a touchscreen phone with email, calendar, and third-party apps years before the iPhone.",
+      "summary": "BellSouth began selling the [IBM] Simon in August 1994 — a touchscreen phone with email, calendar, and third-party apps years before the iPhone.",
       "about": "The Simon combined a cellular phone with a PDA — users tapped a stylus on a monochrome LCD for fax, email, and address book apps. It was bulky and expensive, but proved the smartphone concept before Palm and BlackBerry refined mobile messaging. Mobile developers today trace a lineage through these early converged devices.",
       "narrative": {
-        "whyChosen": "The IBM Simon was the first phone sold with PDA features and downloadable applications.",
+        "whyChosen": "The [IBM] Simon was the first phone sold with PDA features and downloadable applications.",
         "whyImportant": "It demonstrated demand for pocket computers that also made calls — a decade before smartphones went mainstream.",
         "problemSolved": "Business travelers carried separate phones and organizers; convergence needed a single touchscreen device."
       },

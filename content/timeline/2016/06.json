@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": ".NET Core 1.0 released",
       "summary": "Microsoft released .NET Core 1.0 on June 27, 2016 — a cross-platform, open-source fork of .NET for Windows, Linux, and macOS.",
-      "about": ".NET Core broke .NET free from Windows-only deployment: ASP.NET APIs on Linux containers, microservices on macOS dev machines, and MIT-licensed runtime code. It evolved into modern .NET 5+ and replaced .NET Framework for new cloud and cross-platform projects.",
+      "about": ".NET Core broke .NET free from Windows-only deployment: ASP.NET APIs on Linux containers, microservices on macOS dev machines, and [MIT]-licensed runtime code. It evolved into modern .NET 5+ and replaced .NET Framework for new cloud and cross-platform projects.",
       "narrative": {
         "whyChosen": ".NET Core was Microsoft's pivot to open, cross-platform server development.",
         "whyImportant": "Linux and Docker support made C# viable outside the Windows data center.",
@@ -61,12 +61,12 @@
       "date": "2016-06-27",
       "datePrecision": "day",
       "title": "Language Server Protocol announced",
-      "summary": "Microsoft, Red Hat, and Codenvy announced the Language Server Protocol on June 27, 2016 — a JSON-RPC standard for editor language features.",
+      "summary": "Microsoft, Red Hat, and Codenvy announced the Language Server Protocol on June 27, 2016 — a [JSON]-RPC standard for editor language features.",
       "about": "LSP separates language intelligence (completion, go-to-definition, diagnostics) from the editor — one language server works in VS Code, Vim, Emacs, and Eclipse. TypeScript, Python, Rust, and Go teams ship servers once instead of N editor plugins. Example: the Rust analyzer provides hover docs and error squiggles to any LSP-compatible client.",
       "narrative": {
         "whyChosen": "LSP emerged from integrating OmniSharp and TypeScript servers into VS Code twice.",
         "whyImportant": "It ended the era of every editor reimplementing language support from scratch.",
-        "problemSolved": "Each IDE duplicated parsers and analyzers; language authors could not afford to support every tool."
+        "problemSolved": "Each [IDE] duplicated parsers and analyzers; language authors could not afford to support every tool."
       },
       "category": "protocol",
       "tags": [
@@ -118,10 +118,10 @@
       "datePrecision": "day",
       "title": "ASP.NET Core 1.0 released",
       "summary": "Microsoft shipped ASP.NET Core 1.0 on June 27, 2016 — a cross-platform, modular rewrite of ASP.NET alongside .NET Core.",
-      "about": "ASP.NET Core runs on Linux and macOS with Kestrel, middleware pipelines, and dependency injection built in — `dotnet new webapi` scaffolds APIs without IIS. It unified MVC and Web API, enabling microservices and containerized .NET deployments outside Windows Server.",
+      "about": "ASP.NET Core runs on Linux and macOS with Kestrel, [middleware] pipelines, and dependency injection built in — `dotnet new webapi` scaffolds APIs without IIS. It unified MVC and Web [API], enabling microservices and containerized .NET deployments outside Windows Server.",
       "narrative": {
         "whyChosen": "ASP.NET Core broke .NET web development out of Windows-only IIS deployments.",
-        "whyImportant": "Cross-platform Kestrel and middleware pipelines defined modern .NET web architecture.",
+        "whyImportant": "Cross-platform Kestrel and [middleware] pipelines defined modern .NET web architecture.",
         "problemSolved": "ASP.NET Framework was tied to Windows and monolithic System.Web abstractions."
       },
       "category": "software",
@@ -218,7 +218,7 @@
       "date": "2016-06-17",
       "datePrecision": "day",
       "title": "The DAO exploited on Ethereum",
-      "summary": "An attacker drained roughly $60 million from The DAO on June 17, 2016 — exploiting a recursive-call bug in the largest Ethereum smart contract crowdfunding project to date.",
+      "summary": "An attacker drained roughly $60 million from The DAO on June 17, 2016 — exploiting a recursive-call bug in the largest Ethereum [smart contract] crowdfunding project to date.",
       "about": "The DAO had raised ether through a novel on-chain venture fund; the hack forced a contentious hard fork that split Ethereum and Ethereum Classic. Audits, formal verification, and multisig treasuries became standard after developers saw immutable code fail in production.",
       "narrative": {
         "whyChosen": "The DAO hack was smart-contract security's Lehman moment.",
@@ -268,11 +268,11 @@
       "date": "2016-06-23",
       "datePrecision": "day",
       "title": "UK votes to leave the European Union",
-      "summary": "The United Kingdom voted 52% to 48% on June 23, 2016 to leave the European Union — triggering years of negotiation over data flows, trade, and regulatory divergence from GDPR-era EU law.",
-      "about": "Brexit forced tech companies to split UK and EU legal entities, rethink data-transfer agreements, and staff separate compliance teams. London's fintech and startup hub faced uncertainty while Dublin, Amsterdam, and Paris courted relocations. Developers building for 'Europe' had to treat the UK as a third country for GDPR purposes after transition.",
+      "summary": "The United Kingdom voted 52% to 48% on June 23, 2016 to leave the European Union — triggering years of negotiation over data flows, trade, and regulatory divergence from [GDPR]-era EU law.",
+      "about": "Brexit forced tech companies to split UK and EU legal entities, rethink data-transfer agreements, and staff separate [compliance] teams. London's fintech and startup hub faced uncertainty while Dublin, Amsterdam, and Paris courted relocations. Developers building for 'Europe' had to treat the UK as a third country for [GDPR] purposes after transition.",
       "narrative": {
         "whyChosen": "Brexit split the UK's data-protection regime from the EU and reshaped where tech firms headquartered in Europe.",
-        "whyImportant": "It made data residency and legal-entity structure a routine engineering and compliance concern.",
+        "whyImportant": "It made data residency and legal-entity structure a routine engineering and [compliance] concern.",
         "problemSolved": "This was a political rupture — companies needed clarity on whether UK user data could flow freely to EU servers."
       },
       "category": "culture",

@@ -10,7 +10,7 @@
       "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. First mainstream foldable smartphone — 7.3-inch unfolded tablet phone.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Fold pushed foldable Android hardware into the mainstream.",
-        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "whyImportant": "Foldable form factors require adaptive [UI] patterns beyond fixed phone screens.",
         "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
       },
       "category": "hardware",
@@ -174,7 +174,7 @@
       "date": "2019-09-30",
       "datePrecision": "day",
       "title": "TensorFlow 2.0 released",
-      "summary": "Google released TensorFlow 2.0 on September 30, 2019 — making Keras the default API and eager execution the default mode.",
+      "summary": "Google released TensorFlow 2.0 on September 30, 2019 — making Keras the default [API] and eager execution the default mode.",
       "about": "TensorFlow 2.0 dropped the 1.x graph/session model for imperative `tf.function` training — simpler notebooks and production pipelines. It unified the fragmented TF ecosystem and responded to PyTorch's research dominance with a more approachable developer experience.",
       "narrative": {
         "whyChosen": "TensorFlow 2.0 was Google's answer to usability complaints that drove researchers to PyTorch.",

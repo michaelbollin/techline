@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Ruby on Rails 7.0 released",
       "summary": "Rails 7.0 shipped on December 15, 2021 with import maps, Hotwire (Turbo + Stimulus), and encrypted attributes by default.",
-      "about": "Rails 7 answered the JavaScript framework question: ship modern interactivity without Node bundlers via import maps and Turbo Drive. Encrypted columns and async query loading kept Rails competitive for SaaS APIs and monoliths that wanted React-level UX with Ruby ergonomics.",
+      "about": "Rails 7 answered the JavaScript framework question: ship modern interactivity without Node bundlers via import maps and Turbo Drive. Encrypted columns and async query loading kept Rails competitive for [SaaS] APIs and monoliths that wanted React-level UX with Ruby ergonomics.",
       "narrative": {
         "whyChosen": "Rails 7 defined the no-Node-default path for full-stack Ruby web apps.",
         "whyImportant": "Import maps and Hotwire reduced JavaScript toolchain complexity for Rails teams.",
@@ -54,7 +54,7 @@
       "datePrecision": "day",
       "title": "Django 4.0 released",
       "summary": "The Django team released Django 4.0 on December 7, 2021 with `zoneinfo` timezone support, `scrypt` password hashing, and Redis cache backend.",
-      "about": "Django 4 dropped Python 3.6 support and modernized defaults: stdlib timezones replaced pytz; scrypt strengthened password storage; Redis became a built-in cache option. It powered admin panels, REST APIs, and CMS backends through the early 2020s.",
+      "about": "Django 4 dropped Python 3.6 support and modernized defaults: stdlib timezones replaced pytz; scrypt strengthened password storage; Redis became a built-in cache option. It powered admin panels, [REST] APIs, and CMS backends through the early 2020s.",
       "narrative": {
         "whyChosen": "Django 4 was the Python 3-only cleanup that aligned with modern deployment practices.",
         "whyImportant": "Built-in Redis caching and zoneinfo simplified production Django stacks.",
@@ -100,7 +100,7 @@
       "datePrecision": "day",
       "title": "Log4Shell vulnerability disclosed",
       "summary": "Apache disclosed CVE-2021-44228 on December 9, 2021 — Log4Shell, a critical remote code execution flaw in the ubiquitous Log4j logging library.",
-      "about": "A crafted JNDI lookup string in log messages could execute arbitrary code on millions of Java servers — Minecraft, enterprise apps, and cloud services scrambled to patch over the holidays. Log4Shell became the benchmark for dependency-scanning, runtime WAF rules, and the phrase 'it's always logging' in security memes.",
+      "about": "A crafted JNDI lookup string in log messages could execute arbitrary code on millions of Java servers — Minecraft, enterprise apps, and cloud services scrambled to patch over the holidays. Log4Shell became the [benchmark] for dependency-scanning, runtime WAF rules, and the phrase 'it's always logging' in security memes.",
       "narrative": {
         "whyChosen": "Log4Shell was the most severe open-source supply-chain bug since Heartbleed.",
         "whyImportant": "It made software composition analysis and emergency patching mandatory for Java shops.",

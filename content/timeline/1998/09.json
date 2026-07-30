@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Before 1998, each compiler vendor (Microsoft, Borland, GNU) had its own twist on C++. This was the moment everyone agreed on one official version — with a shared standard library bundled in.",
         "whyImportant": "Developers could share libraries and tutorials without guessing which compiler their audience used. Instead of every team reinventing linked lists and hash tables, everyone got the same ready-made containers in `#include <vector>` and `#include <map>`.",
-        "problemSolved": "Your C++ code might compile perfectly in Visual Studio and fail in GCC — or vice versa — because the language wasn't fixed. Big projects (games, banks, browsers) needed one definition they could trust across machines and vendors."
+        "problemSolved": "Your C++ code might compile perfectly in Visual Studio and fail in [GCC] — or vice versa — because the language wasn't fixed. Big projects (games, banks, browsers) needed one definition they could trust across machines and vendors."
       },
       "category": "software",
       "tags": [
@@ -57,7 +57,7 @@
       "datePrecision": "day",
       "title": "Larry Page and Sergey Brin incorporate Google",
       "summary": "Larry Page and Sergey Brin incorporated Google on September 4, 1998 — turning their PageRank research into a company.",
-      "about": "Google began as a search engine and became the organizing layer of the web — ads, Gmail, Maps, Android, Chrome, and cloud infrastructure. Page and Brin's focus on ranking and scale influenced how every later internet company thought about data and algorithms.",
+      "about": "Google began as a search engine and became the organizing layer of the web — ads, Gmail, Maps, [Android], Chrome, and cloud infrastructure. Page and Brin's focus on ranking and scale influenced how every later internet company thought about data and algorithms.",
       "narrative": {
         "whyChosen": "Google defined the search-and-ads economy that funds much of the modern web.",
         "whyImportant": "PageRank changed information retrieval from directories to algorithmic relevance.",

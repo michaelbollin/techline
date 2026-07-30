@@ -6,7 +6,7 @@
       "date": "2006-01",
       "datePrecision": "month",
       "title": "Scala 2.0 released",
-      "summary": "Martin Odersky released Scala 2.0 in January 2006 — the stable version that combined object-oriented and functional programming on the JVM.",
+      "summary": "Martin Odersky released Scala 2.0 in January 2006 — the stable version that combined object-oriented and [functional programming] on the JVM.",
       "about": "Scala 2 powered Twitter's early backend, Apache Spark, and Akka actor systems. Pattern matching, implicits, and case classes influenced Kotlin and Swift — proving the JVM could host languages beyond Java.",
       "narrative": {
         "whyChosen": "Scala 2 was the version that made Scala a production JVM language, not a research experiment.",

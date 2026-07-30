@@ -6,11 +6,11 @@
       "date": "1981-04",
       "datePrecision": "month",
       "title": "Osborne 1 released",
-      "summary": "Osborne Computer Corporation began shipping the Osborne 1 in April 1981 — the first commercially successful portable computer.",
-      "about": "The Osborne 1 weighed 24 pounds with a 5-inch screen and dual floppy drives — users carried a complete CP/M system between home and office. Its bundled software bundle pioneered the \"killer app\" sales model. Though short-lived as a company, Osborne proved demand for luggable computers before the IBM PC dominated portables.",
+      "summary": "Osborne Computer Corporation began shipping the Osborne 1 in April 1981 — the first commercially successful [portable computer].",
+      "about": "The Osborne 1 weighed 24 pounds with a 5-inch screen and dual floppy drives — users carried a complete [CP/M] system between home and office. Its bundled software bundle pioneered the \"killer app\" sales model. Though short-lived as a company, Osborne proved demand for luggable computers before the [IBM] [PC] dominated portables.",
       "narrative": {
-        "whyChosen": "The Osborne 1 was the first mass-market portable microcomputer sold to businesses.",
-        "whyImportant": "It established the portable form factor and software-bundle strategy for early PC vendors.",
+        "whyChosen": "The Osborne 1 was the first mass-market portable [microcomputer] sold to businesses.",
+        "whyImportant": "It established the portable form factor and software-bundle strategy for early [PC] vendors.",
         "problemSolved": "Professionals needed to run business software away from the office without access to a desktop machine."
       },
       "category": "hardware",

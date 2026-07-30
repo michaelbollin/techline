@@ -6,11 +6,11 @@
       "date": "2018-05-30",
       "datePrecision": "day",
       "title": "Ryan Dahl announces Deno",
-      "summary": "Ryan Dahl unveiled Deno on May 30, 2018 — a secure TypeScript/JavaScript runtime addressing Node.js design regrets.",
-      "about": "Dahl's '10 things I regret about Node.js' talk reframed server JS around permissions, native TypeScript, and explicit security. Deno influenced conversations about runtime design even for teams staying on Node.",
+      "summary": "Ryan Dahl unveiled Deno on May 30, 2018 — a secure [TypeScript]/JavaScript runtime addressing Node.js design regrets.",
+      "about": "Dahl's '10 things I regret about Node.js' talk reframed server JS around permissions, native [TypeScript], and explicit security. Deno influenced conversations about runtime design even for teams staying on Node.",
       "narrative": {
         "whyChosen": "Dahl's Deno talk was a rare public redesign of one's own massively successful project.",
-        "whyImportant": "It pushed secure-by-default and TypeScript-first runtimes into mainstream discussion.",
+        "whyImportant": "It pushed secure-by-default and [TypeScript]-first runtimes into mainstream discussion.",
         "problemSolved": "Node's module and security model created footguns Dahl wanted to fix from scratch."
       },
       "category": "software",
@@ -65,7 +65,7 @@
       "datePrecision": "day",
       "title": "Adobe acquires Magento",
       "summary": "Adobe announced on May 21, 2018 that it would acquire Magento Commerce for $1.68 billion — folding open-source e-commerce into its Experience Cloud.",
-      "about": "Magento brought Adobe a PHP e-commerce platform with enterprise B2B features, while Adobe brought Magento CDN, analytics, and marketing automation. The deal signaled that digital experience platforms needed native commerce — not just CMS and DAM.",
+      "about": "Magento brought Adobe a PHP e-commerce platform with enterprise B2B features, while Adobe brought Magento CDN, analytics, and marketing [automation]. The deal signaled that digital experience platforms needed native commerce — not just CMS and DAM.",
       "narrative": {
         "whyChosen": "Adobe's Magento acquisition merged enterprise CMS and e-commerce under one vendor.",
         "whyImportant": "It accelerated Adobe Commerce Cloud as a Shopify Enterprise competitor.",
@@ -123,7 +123,7 @@
       "datePrecision": "day",
       "title": "EU General Data Protection Regulation takes effect",
       "summary": "The EU General Data Protection Regulation became enforceable on May 25, 2018 — setting global standards for consent, data portability, breach notification, and fines up to 4% of worldwide revenue.",
-      "about": "GDPR forced every SaaS vendor with EU users to rebuild privacy settings, cookie banners, data-export APIs, and deletion workflows. It inspired California's CCPA, Brazil's LGPD, and made 'data protection officer' a standard hire — changing how engineers log, retain, and anonymize personal data by default.",
+      "about": "GDPR forced every [SaaS] vendor with EU users to rebuild privacy settings, cookie banners, data-export APIs, and deletion workflows. It inspired California's CCPA, Brazil's LGPD, and made 'data protection officer' a standard hire — changing how engineers log, retain, and anonymize personal data by default.",
       "narrative": {
         "whyChosen": "GDPR is the privacy law every developer has implemented against since 2018.",
         "whyImportant": "It made privacy-by-design and lawful-basis tracking routine in product roadmaps.",

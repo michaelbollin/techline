@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Elixir 0.1.0 released",
       "summary": "José Valim released Elixir v0.1.0 on March 2, 2011 — a Ruby-inspired language on the Erlang BEAM VM.",
-      "about": "Elixir runs on Erlang's OTP with metaprogramming, pipelines (`|>`), and Phoenix for web. Powers Discord's real-time infrastructure, Pinterest backends, and IoT systems needing millions of connections. You get Erlang's fault tolerance with syntax closer to Ruby and modern tooling.",
+      "about": "Elixir runs on Erlang's OTP with metaprogramming, pipelines (`|>`), and Phoenix for web. Powers Discord's real-time infrastructure, Pinterest backends, and [IoT] systems needing millions of connections. You get Erlang's fault tolerance with syntax closer to Ruby and modern tooling.",
       "narrative": {
         "whyChosen": "Elixir made the BEAM VM accessible to developers who found Erlang syntax daunting.",
         "whyImportant": "It revived interest in actor-model concurrency for web and real-time systems in the 2010s.",
@@ -55,7 +55,7 @@
       "date": "2011-03-14",
       "datePrecision": "day",
       "title": "Internet Explorer 9 released",
-      "summary": "Microsoft released Internet Explorer 9 on March 14, 2011 with hardware-accelerated graphics, a cleaner UI, and improved HTML5 and CSS3 support.",
+      "summary": "Microsoft released Internet Explorer 9 on March 14, 2011 with hardware-accelerated graphics, a cleaner [UI], and improved HTML5 and CSS3 support.",
       "about": "IE 9 was Microsoft's answer to Chrome: a GPU-accelerated rendering pipeline, pinned sites, and a focus on web standards. It was the last IE version many enterprises standardized on before Windows 10 and Edge.",
       "narrative": {
         "whyChosen": "IE 9 was Microsoft's most standards-focused Internet Explorer release.",
@@ -109,8 +109,8 @@
       "date": "2011-03-22",
       "datePrecision": "day",
       "title": "Firefox 4 released",
-      "summary": "Mozilla released Firefox 4 on March 22, 2011 with a new UI, hardware acceleration, and faster JavaScript — downloaded over 7 million times on launch day.",
-      "about": "Firefox 4 was Mozilla's big refresh: Panorama tab groups, sync, WebGL, and a Chrome-like single-field URL bar. The record launch day showed Firefox still had mass appeal before Chrome became dominant.",
+      "summary": "Mozilla released Firefox 4 on March 22, 2011 with a new [UI], hardware acceleration, and faster JavaScript — downloaded over 7 million times on launch day.",
+      "about": "Firefox 4 was Mozilla's big refresh: Panorama tab groups, sync, WebGL, and a Chrome-like single-field [URL] bar. The record launch day showed Firefox still had mass appeal before Chrome became dominant.",
       "narrative": {
         "whyChosen": "Firefox 4 was Mozilla's flagship response to Chrome's rapid rise.",
         "whyImportant": "Hardware acceleration and WebGL kept Firefox in the graphics-heavy web race.",

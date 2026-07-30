@@ -105,7 +105,7 @@
       "datePrecision": "day",
       "title": "Satya Nadella named Microsoft CEO",
       "summary": "Microsoft's board appointed Satya Nadella CEO on February 4, 2014 — starting the cloud-first, open-source era.",
-      "about": "Nadella accelerated Azure, open-sourced .NET, acquired GitHub, and championed VS Code and TypeScript. For developers, Microsoft transformed from Windows-only vendor to cross-platform tools company.",
+      "about": "Nadella accelerated Azure, open-sourced .NET, acquired GitHub, and championed VS Code and [TypeScript]. For developers, Microsoft transformed from Windows-only vendor to cross-platform tools company.",
       "narrative": {
         "whyChosen": "Nadella's appointment reversed Microsoft's developer reputation.",
         "whyImportant": "It legitimized open source inside the company that once fought Linux.",
@@ -164,7 +164,7 @@
       "date": "2014-02-04",
       "datePrecision": "day",
       "title": "Shopify Plus launched",
-      "summary": "Shopify announced Shopify Plus on February 4, 2014 — an enterprise e-commerce tier with dedicated support, higher API limits, and white-glove onboarding.",
+      "summary": "Shopify announced Shopify Plus on February 4, 2014 — an enterprise e-commerce tier with dedicated support, higher [API] limits, and white-glove onboarding.",
       "about": "Shopify Plus extended the platform to high-volume merchants like Tesla, Budweiser, and the LA Lakers — competing with Magento Enterprise and Salesforce Commerce Cloud. It became Shopify's fastest-growing revenue segment.",
       "narrative": {
         "whyChosen": "Shopify Plus moved Shopify from SMB into enterprise e-commerce.",
@@ -219,7 +219,7 @@
       "datePrecision": "day",
       "title": "GitHub Atom editor released",
       "summary": "GitHub released the Atom text editor preview on February 26, 2014 — a hackable editor built on the Electron framework.",
-      "about": "Atom brought web technologies to desktop editing: HTML, CSS, and JavaScript for themes and packages, plus built-in Git integration. It powered GitHub's own hackable-editor pitch before VS Code won the category — and Electron became the stack for Slack, Discord, and VS Code itself.",
+      "about": "Atom brought web technologies to desktop editing: [HTML], CSS, and JavaScript for themes and packages, plus built-in Git integration. It powered GitHub's own hackable-editor pitch before VS Code won the category — and Electron became the stack for Slack, Discord, and VS Code itself.",
       "narrative": {
         "whyChosen": "Atom proved Electron could ship polished developer tools, not just chat apps.",
         "whyImportant": "It pushed the 'hackable editor' idea into mainstream open source before Microsoft's response.",

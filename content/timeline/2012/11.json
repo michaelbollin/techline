@@ -10,8 +10,8 @@
       "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. Wireless charging and pureview camera on windows phone 8.",
       "narrative": {
         "whyChosen": "The Nokia Lumia 920 was a flagship Nokia smartphone milestone.",
-        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
-        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+        "whyImportant": "Nokia devices defined mobile platforms from [Symbian] through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the iPhone/[Android] era matured."
       },
       "category": "hardware",
       "tags": [
@@ -63,12 +63,12 @@
       "date": "2012-11-13",
       "datePrecision": "day",
       "title": "Nexus 4 released",
-      "summary": "Google began selling the Nexus 4 — LG-built affordable flagship with wireless charging.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Lg-built affordable flagship with wireless charging. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the [Nexus] 4 — LG-built affordable flagship with wireless charging.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Lg-built affordable flagship with wireless charging. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Nexus 4 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The [Nexus] 4 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

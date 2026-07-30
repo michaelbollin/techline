@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "California Consumer Privacy Act takes effect",
       "summary": "The California Consumer Privacy Act became operative on January 1, 2020 — granting California residents rights to know, delete, and opt out of sale of their personal information, with Attorney General enforcement beginning July 1, 2020.",
-      "about": "CCPA was the first comprehensive U.S. state privacy law — forcing national brands to add 'Do Not Sell My Personal Information' links, data-deletion workflows, and vendor contracts mirroring GDPR. It inspired Virginia's VCDPA, Colorado's CPA, and the eventual American Privacy Rights Act debates. Privacy engineering teams doubled down on consent management platforms and data-inventory tooling.",
+      "about": "[CCPA] was the first comprehensive U.S. state privacy law — forcing national brands to add 'Do Not Sell My Personal Information' links, data-deletion workflows, and vendor contracts mirroring [GDPR]. It inspired Virginia's VCDPA, Colorado's CPA, and the eventual American Privacy Rights Act debates. Privacy engineering teams doubled down on consent management platforms and data-inventory tooling.",
       "narrative": {
-        "whyChosen": "CCPA brought GDPR-style privacy rights to the largest U.S. state economy.",
+        "whyChosen": "[CCPA] brought [GDPR]-style privacy rights to the largest U.S. state economy.",
         "whyImportant": "It made California-specific privacy UX mandatory for any national consumer app.",
         "problemSolved": "U.S. users lacked statutory rights to access or delete personal data held by tech companies."
       },
@@ -55,12 +55,12 @@
       "date": "2020-01-01",
       "datePrecision": "day",
       "title": "Python 2 reaches end of life",
-      "summary": "The Python Software Foundation ended support for Python 2 on January 1, 2020 — closing twenty years of the 2.x line and forcing the ecosystem onto Python 3.",
-      "about": "After January 1, 2020, no bug fixes or security patches came from the core team for Python 2 — even for critical vulnerabilities. Enterprises running legacy Django apps, scientific code, and ops scripts had to port, freeze, or pay vendors for extended support. The migration had been announced since 2008 and extended once; this was the hard deadline.",
+      "summary": "The [Python] Software Foundation ended support for [Python] 2 on January 1, 2020 — closing twenty years of the 2.x line and forcing the ecosystem onto [Python] 3.",
+      "about": "After January 1, 2020, no bug fixes or security patches came from the core team for [Python] 2 — even for critical vulnerabilities. Enterprises running legacy Django apps, scientific code, and ops scripts had to port, freeze, or pay vendors for extended support. The migration had been announced since 2008 and extended once; this was the hard deadline.",
       "narrative": {
-        "whyChosen": "Python 2's sunset was one of the largest coordinated language migrations in open-source history.",
-        "whyImportant": "It ended ambiguity about which Python to teach, ship, and depend on — Python 3 became the only supported line.",
-        "problemSolved": "Maintaining two incompatible Python dialects split library authors and slowed language evolution."
+        "whyChosen": "[Python] 2's sunset was one of the largest coordinated language migrations in open-source history.",
+        "whyImportant": "It ended ambiguity about which [Python] to teach, ship, and depend on — [Python] 3 became the only supported line.",
+        "problemSolved": "Maintaining two incompatible [Python] dialects split library authors and slowed language evolution."
       },
       "category": "software",
       "tags": [
@@ -102,10 +102,10 @@
       "date": "2020-01-15",
       "datePrecision": "day",
       "title": "Chromium-based Microsoft Edge released",
-      "summary": "Microsoft shipped the Chromium-based Edge on January 15, 2020 — abandoning EdgeHTML for the same engine that powers Chrome.",
-      "about": "The new Edge traded engine independence for compatibility: sites built for Chrome worked out of the box, and Microsoft contributed back to Chromium. It ended the era of three competing engine families (Gecko, WebKit/Blink, EdgeHTML) and consolidated the web platform around Blink for most users.",
+      "summary": "Microsoft shipped the [Chromium]-based Edge on January 15, 2020 — abandoning EdgeHTML for the same engine that powers Chrome.",
+      "about": "The new Edge traded engine independence for compatibility: sites built for Chrome worked out of the box, and Microsoft contributed back to [Chromium]. It ended the era of three competing engine families (Gecko, [WebKit]/[Blink], EdgeHTML) and consolidated the web platform around [Blink] for most users.",
       "narrative": {
-        "whyChosen": "Microsoft joining Chromium was a watershed moment in browser engine consolidation.",
+        "whyChosen": "Microsoft joining [Chromium] was a watershed moment in browser engine consolidation.",
         "whyImportant": "It acknowledged developer reality — Chrome compatibility mattered more than a proprietary engine.",
         "problemSolved": "EdgeHTML could not keep pace with Chrome's site compatibility and release cadence."
       },
@@ -165,7 +165,7 @@
       "narrative": {
         "whyChosen": "Shopware 6.1 validated the headless commerce rewrite for production merchants.",
         "whyImportant": "Symfony and Vue.js aligned Shopware with modern PHP and frontend stacks.",
-        "problemSolved": "Shopware 5's monolithic architecture could not support API-first omnichannel commerce."
+        "problemSolved": "Shopware 5's monolithic architecture could not support [API]-first omnichannel commerce."
       },
       "category": "software",
       "tags": [
@@ -203,7 +203,7 @@
       "datePrecision": "day",
       "title": "Playwright announced by Microsoft",
       "summary": "Microsoft announced Playwright on January 31, 2020 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
-      "about": "Playwright (`page.goto`, auto-waiting, tracing) became the modern alternative to Selenium for E2E tests — one API driving Chrome, Safari, and Firefox with reliable selectors. It powers CI suites at Microsoft, Vercel, and thousands of open-source projects.",
+      "about": "Playwright (`page.goto`, auto-waiting, tracing) became the modern alternative to Selenium for E2E tests — one [API] driving Chrome, Safari, and Firefox with reliable selectors. It powers CI suites at Microsoft, Vercel, and thousands of open-source projects.",
       "narrative": {
         "whyChosen": "Playwright modernized browser automation for the multi-engine web.",
         "whyImportant": "It made reliable cross-browser E2E tests practical in CI pipelines.",
@@ -257,7 +257,7 @@
       "datePrecision": "day",
       "title": "Playwright released",
       "summary": "Microsoft open sourced Playwright on January 31, 2020 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
-      "about": "Playwright (`page.click`, auto-waiting, tracing) unified end-to-end testing across browsers with one API — succeeding Puppeteer's Chromium-only model. Teams at Microsoft, Shopify, and open-source projects adopted it for reliable CI tests that Selenium struggled to keep fast.",
+      "about": "Playwright (`page.click`, auto-waiting, tracing) unified end-to-end testing across browsers with one [API] — succeeding Puppeteer's Chromium-only model. Teams at Microsoft, Shopify, and open-source projects adopted it for reliable CI tests that Selenium struggled to keep fast.",
       "narrative": {
         "whyChosen": "Playwright became the modern default for cross-browser E2E testing.",
         "whyImportant": "Auto-wait and multi-engine support reduced flaky tests and browser-specific hacks.",

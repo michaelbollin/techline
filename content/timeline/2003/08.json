@@ -6,12 +6,12 @@
       "date": "2003-08-04",
       "datePrecision": "day",
       "title": "Ruby 1.8 released",
-      "summary": "Matz released Ruby 1.8.0 on August 4, 2003 — the stable branch that powered the first Rails era and defined Ruby for years.",
-      "about": "Ruby 1.8 was the dialect developers used when Rails exploded: blocks, mixins, and `require` gems via RubyGems. Though Ruby 0.95 launched the language, 1.8 was the production baseline before 1.9 and the Ruby 2/3 performance work.",
+      "summary": "Matz released [Ruby] 1.8.0 on August 4, 2003 — the stable branch that powered the first Rails era and defined [Ruby] for years.",
+      "about": "[Ruby] 1.8 was the dialect developers used when Rails exploded: blocks, mixins, and `require` gems via RubyGems. Though [Ruby] 0.95 launched the language, 1.8 was the production baseline before 1.9 and the [Ruby] 2/3 performance work.",
       "narrative": {
-        "whyChosen": "Ruby 1.8 was the version underneath the first decade of Rails startups.",
-        "whyImportant": "Stability and gem ecosystem maturity made Ruby a credible web language.",
-        "problemSolved": "Earlier Ruby branches changed too quickly for frameworks and hosting providers to standardize."
+        "whyChosen": "[Ruby] 1.8 was the version underneath the first decade of Rails startups.",
+        "whyImportant": "Stability and gem ecosystem maturity made [Ruby] a credible web language.",
+        "problemSolved": "Earlier [Ruby] branches changed too quickly for frameworks and hosting providers to standardize."
       },
       "category": "software",
       "tags": [

@@ -6,12 +6,12 @@
       "date": "1974",
       "datePrecision": "year",
       "title": "Gary Kildall creates CP/M",
-      "summary": "Gary Kildall created CP/M in 1974 — the first widely used disk operating system for microcomputers, running on Intel 8080 and Z80 machines.",
-      "about": "CP/M gave early S-100 bus computers a standard command line, file system, and BIOS interface. IBM chose Microsoft's PC DOS over CP/M for the 1981 PC — but CP/M's design influenced DOS and proved micros needed real operating systems, not just monitor ROMs.",
+      "summary": "Gary Kildall created [CP/M] in 1974 — the first widely used disk operating system for microcomputers, running on Intel 8080 and Z80 machines.",
+      "about": "[CP/M] gave early S-100 bus computers a standard command line, file system, and BIOS interface. [IBM] chose Microsoft's [PC] [DOS] over [CP/M] for the 1981 [PC] — but [CP/M]'s design influenced [DOS] and proved micros needed real operating systems, not just monitor ROMs.",
       "narrative": {
-        "whyChosen": "CP/M was the de facto OS for 8-bit microcomputers before the IBM PC.",
-        "whyImportant": "It separated hardware BIOS from portable OS code — a model DOS and later systems copied.",
-        "problemSolved": "Microcomputer owners needed disk file management and a consistent program environment."
+        "whyChosen": "[CP/M] was the de facto [OS] for 8-bit microcomputers before the [IBM] [PC].",
+        "whyImportant": "It separated hardware BIOS from portable [OS] code — a model [DOS] and later systems copied.",
+        "problemSolved": "[Microcomputer] owners needed disk file management and a consistent program environment."
       },
       "category": "software",
       "tags": [

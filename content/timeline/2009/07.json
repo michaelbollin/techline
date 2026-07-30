@@ -6,12 +6,12 @@
       "date": "2009-07",
       "datePrecision": "month",
       "title": "uWSGI released",
-      "summary": "Unbit released uWSGI in 2009 — a high-performance application server for Python WSGI apps behind nginx or Apache.",
-      "about": "uWSGI runs Django, Flask, and other Python frameworks with worker processes, preforking, and a rich plugin system for Perl, Ruby, and Go. Its `socket` protocol between nginx and app workers became a production default. Emperor mode, harakiri timeouts, and stats sockets gave operators fine-grained control — at the cost of famously complex configuration files.",
+      "summary": "Unbit released uWSGI in 2009 — a high-performance application server for [Python] WSGI apps behind nginx or Apache.",
+      "about": "uWSGI runs Django, Flask, and other [Python] frameworks with worker processes, preforking, and a rich plugin system for [Perl], [Ruby], and [Go]. Its `socket` protocol between nginx and app workers became a production default. Emperor mode, harakiri timeouts, and stats sockets gave operators fine-grained control — at the cost of famously complex configuration files.",
       "narrative": {
-        "whyChosen": "uWSGI became a production staple for serving Python web apps at scale behind reverse proxies.",
-        "whyImportant": "It separated web server concerns from application runtime in the Python ecosystem.",
-        "problemSolved": "Python web frameworks needed a robust, performant process manager between nginx and WSGI apps."
+        "whyChosen": "uWSGI became a production staple for serving [Python] web apps at scale behind reverse proxies.",
+        "whyImportant": "It separated web server concerns from application runtime in the [Python] ecosystem.",
+        "problemSolved": "[Python] web frameworks needed a robust, performant process manager between nginx and WSGI apps."
       },
       "category": "software",
       "tags": [

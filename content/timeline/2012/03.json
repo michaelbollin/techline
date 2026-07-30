@@ -10,7 +10,7 @@
       "about": "Go 1.0 committed to the Go 1 compatibility promise: code written for 1.0 should compile on future 1.x releases. It powered Docker, Kubernetes, Terraform, and countless microservices with goroutines, static binaries, and fast compiles.",
       "narrative": {
         "whyChosen": "Go 1.0 was the stability milestone that let companies bet on Go for infrastructure.",
-        "whyImportant": "The compatibility guarantee made Go viable for long-lived server and DevOps tooling.",
+        "whyImportant": "The compatibility guarantee made Go viable for long-lived server and [DevOps] tooling.",
         "problemSolved": "Early Go changed rapidly; production teams needed a frozen language spec and standard library."
       },
       "category": "software",
@@ -115,7 +115,7 @@
       "about": "Composer reads `composer.json`, resolves versions from Packagist, and installs packages into `vendor/` with an autoloader — `composer require symfony/http-foundation` adds a library and its dependencies. It modernized PHP the way npm modernized Node. Example: declare PSR-4 autoloading and run `composer install` in CI for reproducible deploys.",
       "narrative": {
         "whyChosen": "Composer brought semver dependency management to PHP after years of PEAR and manual includes.",
-        "whyImportant": "It enabled a modern PHP ecosystem with Laravel, Symfony, and thousands of reusable packages.",
+        "whyImportant": "It enabled a modern PHP ecosystem with Laravel, [Symfony], and thousands of reusable packages.",
         "problemSolved": "PHP projects copied vendor code by hand or used brittle global PEAR installs."
       },
       "category": "software",

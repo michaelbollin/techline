@@ -6,7 +6,7 @@
       "date": "2000-10-16",
       "datePrecision": "day",
       "title": "Python 2.0 released",
-      "summary": "Guido van Rossum released Python 2.0 on October 16, 2000 with list comprehensions, garbage collection, and Unicode support — defining Python for the next decade.",
+      "summary": "Guido van Rossum released Python 2.0 on October 16, 2000 with list comprehensions, [garbage collection], and Unicode support — defining Python for the next decade.",
       "about": "Python 2.0 added list comprehensions, `//` floor division, and a cycle-detecting GC — the dialect that powered YouTube's early stack, scientific computing, and countless scripts. Its long life eventually forced the painful Python 3 migration.",
       "narrative": {
         "whyChosen": "Python 2 defined the language for fifteen years before the Python 3 break.",
@@ -55,7 +55,7 @@
       "about": "KHTML became one of the most influential browser engines ever: Apple forked it into WebKit for Safari, which later powered Chrome via Blink. Konqueror itself was the default browser on Linux desktops and proved a small open-source team could ship a competitive engine.",
       "narrative": {
         "whyChosen": "KHTML is the ancestor of WebKit and Blink — engines that power most browsers today.",
-        "whyImportant": "It broke the IE–Netscape duopoly at the engine level and gave Apple and Google a head start.",
+        "whyImportant": "It broke the IE–[Netscape] duopoly at the engine level and gave Apple and Google a head start.",
         "problemSolved": "The Linux desktop needed an integrated browser and file manager that did not depend on proprietary code."
       },
       "category": "software",

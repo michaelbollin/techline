@@ -6,10 +6,10 @@
       "date": "1983-02-17",
       "datePrecision": "day",
       "title": "Ada language standardized",
-      "summary": "On February 17, 1983, ANSI approved Ada — a language the U.S. Defense Department required for safety-critical software like aircraft and weapons systems.",
-      "about": "Ada was built for large, high-reliability projects — avionics, defense, and embedded control. It enforced strict typing, organized code into modules, and supported running multiple tasks safely in parallel. Boeing, Airbus, and military contractors still maintain millions of lines of Ada where failure is not an option.",
+      "summary": "On February 17, 1983, ANSI approved [Ada] — a language the U.S. Defense Department required for safety-critical software like aircraft and weapons systems.",
+      "about": "[Ada] was built for large, high-reliability projects — avionics, defense, and embedded control. It enforced strict typing, organized code into modules, and supported running multiple tasks safely in parallel. Boeing, Airbus, and military contractors still maintain millions of lines of [Ada] where failure is not an option.",
       "narrative": {
-        "whyChosen": "Ada was the first programming language standardized under a strict government procurement mandate — reliability was the goal, not speed of hacking.",
+        "whyChosen": "[Ada] was the first programming language standardized under a strict government procurement mandate — reliability was the goal, not speed of hacking.",
         "whyImportant": "It proved that a language could be designed upfront for safety and long-term maintenance on huge government-scale projects.",
         "problemSolved": "Defense projects used hundreds of incompatible languages and tools; the Pentagon wanted one portable standard every contractor could be required to use."
       },

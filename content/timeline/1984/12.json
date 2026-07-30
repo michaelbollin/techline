@@ -6,12 +6,12 @@
       "date": "1984-12",
       "datePrecision": "month",
       "title": "MATLAB debuts",
-      "summary": "MathWorks launched the first commercial MATLAB in December 1984 — an interactive tool for engineers to crunch matrices and plot results on a PC.",
+      "summary": "MathWorks launched the first commercial MATLAB in December 1984 — an interactive tool for engineers to crunch matrices and plot results on a [PC].",
       "about": "MATLAB is built around matrices and vectors — engineers run simulations, plot data, and prototype control systems without writing low-level loops. Used in aerospace, automotive, finance, and academia. Simulink extends it for model-based design.",
       "narrative": {
-        "whyChosen": "PC-MATLAB turned Cleve Moler's matrix hobby into the dominant numerical computing environment for engineers.",
+        "whyChosen": "[PC]-MATLAB turned Cleve Moler's matrix hobby into the dominant numerical computing environment for engineers.",
         "whyImportant": "It proved interactive matrix math could ship on personal computers and sustain a commercial tools company.",
-        "problemSolved": "Fortran-era engineers needed fast matrix operations and plotting without recompiling for every experiment."
+        "problemSolved": "[Fortran]-era engineers needed fast matrix operations and plotting without recompiling for every experiment."
       },
       "category": "software",
       "tags": [

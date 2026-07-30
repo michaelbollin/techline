@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "UNIVAC I delivered",
       "summary": "Remington Rand delivered the first UNIVAC I to the U.S. Census Bureau on June 14, 1951 — the first commercial computer produced in the United States.",
-      "about": "UNIVAC I used mercury delay-line memory and vacuum tubes to process business and government data — payroll, statistics, and election-night predictions. It proved computers could be sold as products, not one-off lab machines. Mainframe batch processing and COBOL-era enterprise computing trace their commercial roots here.",
+      "about": "UNIVAC I used mercury delay-line memory and [vacuum tube]s to process business and government data — payroll, statistics, and election-night predictions. It proved computers could be sold as products, not one-off lab machines. [Mainframe] [batch processing] and [COBOL]-era enterprise computing trace their commercial roots here.",
       "narrative": {
         "whyChosen": "UNIVAC I was the first commercially produced computer in the U.S.",
         "whyImportant": "It established the computer industry as a business — not just government and university research.",
-        "problemSolved": "Organizations needed reliable electronic data processing beyond hand-tabulated punch cards."
+        "problemSolved": "Organizations needed reliable electronic data processing beyond hand-tabulated [punch card]s."
       },
       "category": "hardware",
       "tags": [

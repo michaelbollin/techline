@@ -7,10 +7,10 @@
       "datePrecision": "month",
       "title": "BlackBerry 5810 released",
       "summary": "Research In Motion began selling the BlackBerry 5810 in March 2002 — the first BlackBerry with integrated phone and always-on email.",
-      "about": "The 5810 paired a thumb keyboard with push email over GPRS — lawyers, bankers, and IT departments standardized on 'CrackBerry' devices. Developers built enterprise mobile apps and BES-connected services before iOS and Android opened consumer app stores. Mobile email addiction started here for many professionals.",
+      "about": "The 5810 paired a thumb keyboard with push email over GPRS — lawyers, bankers, and [IT] departments standardized on 'CrackBerry' devices. Developers built enterprise mobile apps and BES-connected services before iOS and Android opened consumer app stores. Mobile email addiction started here for many professionals.",
       "narrative": {
         "whyChosen": "The 5810 was RIM's first phone-plus-email BlackBerry — the form factor that dominated enterprise mobile.",
-        "whyImportant": "It made push email and mobile messaging mandatory for corporate IT before the iPhone.",
+        "whyImportant": "It made push email and mobile messaging mandatory for corporate [IT] before the iPhone.",
         "problemSolved": "Professionals needed reliable mobile email without constantly dialing into desktop clients."
       },
       "category": "hardware",

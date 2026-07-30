@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "BigCommerce IPO",
       "summary": "BigCommerce began trading on NASDAQ on August 5, 2020 under ticker BIGC — raising capital at $24 per share in its initial public offering.",
-      "about": "The IPO came during the pandemic e-commerce boom — BigCommerce positioned as open SaaS commerce competing with Shopify Plus and Adobe Commerce. Public funding accelerated enterprise sales and partner ecosystem growth.",
+      "about": "The IPO came during the pandemic e-commerce boom — BigCommerce positioned as open [SaaS] commerce competing with Shopify Plus and Adobe Commerce. Public funding accelerated enterprise sales and partner ecosystem growth.",
       "narrative": {
-        "whyChosen": "BigCommerce's IPO validated open SaaS e-commerce as a public-market category.",
+        "whyChosen": "BigCommerce's IPO validated open [SaaS] e-commerce as a public-market category.",
         "whyImportant": "It funded expansion into headless and enterprise commerce features.",
         "problemSolved": "Fast-growing commerce platforms needed public capital to compete with Shopify's scale."
       },
@@ -48,11 +48,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy Note 20 released",
       "summary": "Samsung released the Samsung Galaxy Note 20 — final Galaxy Note generation before Ultra absorbed the stylus line.",
-      "about": "The Galaxy Note targeted stylus power users on Android. Final galaxy note generation before ultra absorbed the stylus line. Note apps and split-screen Android development often targeted this hardware class.",
+      "about": "The Galaxy Note targeted stylus power users on [Android]. Final galaxy note generation before ultra absorbed the stylus line. Note apps and split-screen [Android] development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note 20 advanced Samsung's stylus phablet line.",
-        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
-        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+        "whyImportant": "Galaxy Note hardware defined large-screen [Android] productivity for years.",
+        "problemSolved": "[Android] lacked a premium large-screen stylus flagship for note-taking workflows."
       },
       "category": "hardware",
       "tags": [

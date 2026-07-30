@@ -52,11 +52,11 @@
       "datePrecision": "day",
       "title": "Travis CI launched",
       "summary": "Sven Fuchs introduced Travis CI on February 5, 2011 — a hosted continuous integration service built for the Ruby and open-source community.",
-      "about": "Travis connected GitHub repos to build workers — push a commit, see green or red in minutes. A `.travis.yml` defined language, test commands, and matrix builds. It made CI badges on READMEs normal and inspired CircleCI, GitHub Actions, and the SaaS CI wave.",
+      "about": "Travis connected GitHub repos to build workers — push a commit, see green or red in minutes. A `.travis.yml` defined language, test commands, and matrix builds. It made CI badges on READMEs normal and inspired CircleCI, GitHub Actions, and the [SaaS] CI wave.",
       "narrative": {
         "whyChosen": "Travis CI brought push-button hosted CI to open-source projects on GitHub.",
         "whyImportant": "It proved developers would trust cloud CI for every commit, not just release builds.",
-        "problemSolved": "Self-hosted Jenkins was heavy for small teams; OSS needed free, Git-native automation."
+        "problemSolved": "Self-hosted Jenkins was heavy for small teams; OSS needed free, Git-native [automation]."
       },
       "category": "software",
       "tags": [
@@ -113,7 +113,7 @@
       "narrative": {
         "whyChosen": "Ninja became the low-level backend that made large C++ projects rebuild in seconds.",
         "whyImportant": "It separated build configuration (CMake/Meson) from execution, setting the pattern for modern native builds.",
-        "problemSolved": "Make-based incremental builds were too slow for million-line codebases like Chromium."
+        "problemSolved": "Make-based incremental builds were too slow for million-line codebases like [Chromium]."
       },
       "category": "software",
       "tags": [

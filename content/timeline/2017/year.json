@@ -7,7 +7,7 @@
       "datePrecision": "year",
       "title": "Storyblok founded",
       "summary": "Dominik Angerer and Alexander Feiglstorfer founded Storyblok in Linz, Austria in 2017 — a headless CMS with a visual editor for marketers and component APIs for developers.",
-      "about": "Storyblok's block-based visual editor let content teams compose pages from developer-defined components — bridging the marketer-developer gap that pure API CMSs left open. It became a leading European headless CMS for enterprises like Adidas and Pizza Hut.",
+      "about": "Storyblok's block-based visual editor let content teams compose pages from developer-defined components — bridging the marketer-developer gap that pure [API] CMSs left open. It became a leading European headless CMS for enterprises like Adidas and Pizza Hut.",
       "narrative": {
         "whyChosen": "Storyblok pioneered visual editing in a headless CMS without sacrificing developer control.",
         "whyImportant": "Component-based content blocks influenced how headless CMSs serve both marketers and engineers.",
@@ -55,9 +55,9 @@
       "datePrecision": "year",
       "title": "GraphCMS founded",
       "summary": "Michael Lukaszczyk and Daniel Winter founded GraphCMS in Germany in 2017 (GmbH registered June 2017) — the first GraphQL-native headless CMS, later rebranded Hygraph.",
-      "about": "GraphCMS built its content API on GraphQL from day one — typed schemas, nested queries, and federation for omnichannel content. It competed with REST-first headless CMSs and later rebranded to Hygraph in 2022 as the platform expanded beyond pure CMS.",
+      "about": "GraphCMS built its content [API] on GraphQL from day one — typed schemas, nested queries, and federation for omnichannel content. It competed with REST-first headless CMSs and later rebranded to Hygraph in 2022 as the platform expanded beyond pure CMS.",
       "narrative": {
-        "whyChosen": "GraphCMS made GraphQL the native API for headless content management.",
+        "whyChosen": "GraphCMS made GraphQL the native [API] for headless content management.",
         "whyImportant": "It validated GraphQL as the query layer for structured content at enterprise scale.",
         "problemSolved": "REST CMS APIs required multiple round-trips for nested content relationships."
       },

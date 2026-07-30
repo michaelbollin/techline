@@ -6,12 +6,12 @@
       "date": "2009-11-06",
       "datePrecision": "day",
       "title": "Motorola Droid released",
-      "summary": "Motorola released the Motorola Droid — Verizon Android flagship that popularized Android 2.0 in the US.",
-      "about": "The phone expanded Android's flagship landscape beyond Samsung and Google. Verizon android flagship that popularized android 2.0 in the us.",
+      "summary": "Motorola released the Motorola Droid — Verizon [Android] flagship that popularized [Android] 2.0 in the US.",
+      "about": "The phone expanded [Android]'s flagship landscape beyond Samsung and Google. Verizon android flagship that popularized android 2.0 in the us.",
       "narrative": {
-        "whyChosen": "The Motorola Droid was a significant Android flagship.",
-        "whyImportant": "Diverse Android flagships gave developers multiple hardware targets beyond Galaxy and Pixel.",
-        "problemSolved": "Android needed credible flagship alternatives to Samsung and carrier-skinned phones."
+        "whyChosen": "The Motorola Droid was a significant [Android] flagship.",
+        "whyImportant": "Diverse [Android] flagships gave developers multiple hardware targets beyond Galaxy and [Pixel].",
+        "problemSolved": "[Android] needed credible flagship alternatives to Samsung and carrier-skinned phones."
       },
       "category": "hardware",
       "tags": [
@@ -61,10 +61,10 @@
       "date": "2009-11-10",
       "datePrecision": "day",
       "title": "Go programming language open-sourced",
-      "summary": "Google open-sourced Go on November 10, 2009 — a systems language from Pike, Thompson, and Griesemer with built-in concurrency.",
-      "about": "Go targets cloud infrastructure: Docker, Kubernetes, Terraform, and countless microservices compile to single static binaries with goroutines for concurrency. It trades generics-era complexity (added later in Go 1.18) for fast compiles, a small language spec, and batteries-included networking in the standard library.",
+      "summary": "Google open-sourced [Go] on November 10, 2009 — a systems language from Pike, Thompson, and Griesemer with built-in concurrency.",
+      "about": "[Go] targets cloud infrastructure: [Docker], [Kubernetes], Terraform, and countless [microservices] compile to single static binaries with goroutines for concurrency. It trades generics-era complexity (added later in [Go] 1.18) for fast compiles, a small language spec, and batteries-included networking in the standard library.",
       "narrative": {
-        "whyChosen": "Go became the default language for cloud-native tooling and replaced C++ in many Google-scale services.",
+        "whyChosen": "[Go] became the default language for cloud-native tooling and replaced C++ in many Google-scale services.",
         "whyImportant": "Goroutines and channels made concurrent servers approachable; fast builds changed how teams ship backend code.",
         "problemSolved": "C++ build times and complexity slowed Google infrastructure teams; they needed C-like speed with simpler concurrency."
       },

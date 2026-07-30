@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Hibernate proved lightweight ORM could replace heavyweight Java EE persistence.",
         "whyImportant": "Its patterns became the basis for JPA and shaped how Java backends model databases.",
-        "problemSolved": "EJB2 entity beans were verbose, container-dependent, and painful for typical web applications."
+        "problemSolved": "EJB2 entity beans were verbose, [container]-dependent, and painful for typical web applications."
       },
       "category": "software",
       "tags": [

@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Angular 2.0 final released",
       "summary": "Google shipped Angular 2.0 on September 14, 2016 — a TypeScript rewrite with components, ahead-of-time compilation, and mobile support.",
-      "about": "Angular (2+) replaced AngularJS with TypeScript, RxJS, and a CLI for enterprise SPAs. Used for large banking portals, admin dashboards, and Ionic mobile apps. Breaking from 1.x was painful, but AOT compilation, lazy loading, and structured modules suited big teams.",
+      "about": "Angular (2+) replaced AngularJS with TypeScript, RxJS, and a [CLI] for enterprise SPAs. Used for large banking portals, admin dashboards, and Ionic mobile apps. Breaking from 1.x was painful, but AOT compilation, lazy loading, and structured modules suited big teams.",
       "narrative": {
         "whyChosen": "Angular 2 reset the framework for TypeScript, performance, and long-term enterprise maintenance.",
         "whyImportant": "It kept Google in the enterprise SPA race alongside React and showed when a full rewrite can be justified.",
@@ -179,7 +179,7 @@
       "datePrecision": "day",
       "title": "Netlify CMS released",
       "summary": "Netlify published Netlify CMS on September 21, 2016 — an open-source, Git-based content editor for static sites and the Jamstack.",
-      "about": "Netlify CMS wraps the GitHub API in a React admin UI — content editors write Markdown while developers keep static site generators. It later rebranded as Decap CMS in 2023 but defined Git-based CMS for the Jamstack era.",
+      "about": "Netlify CMS wraps the GitHub [API] in a React admin [UI] — content editors write Markdown while developers keep static site generators. It later rebranded as Decap CMS in 2023 but defined Git-based CMS for the Jamstack era.",
       "narrative": {
         "whyChosen": "Netlify CMS brought WordPress-like editing to static site workflows.",
         "whyImportant": "Git-based CMS became the standard content layer for Jamstack sites.",

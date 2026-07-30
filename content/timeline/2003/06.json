@@ -6,12 +6,12 @@
       "date": "2003-06-24",
       "datePrecision": "day",
       "title": "SOAP 1.2 became a W3C Recommendation",
-      "summary": "The W3C elevated SOAP to a full Recommendation on June 24, 2003 — making XML web services a formal web standard after the SOAP 1.1 Note.",
-      "about": "SOAP 1.2 cleaned up XML Infoset usage, split the spec into messaging framework and adjuncts, and dropped the 'Simple Object Access Protocol' acronym. Enterprise Java (JAX-WS), .NET WCF, and B2B integrations standardized on it before REST+JSON dominated public APIs.",
+      "summary": "The [W3C] elevated SOAP to a full Recommendation on June 24, 2003 — making [XML] web services a formal web standard after the SOAP 1.1 Note.",
+      "about": "SOAP 1.2 cleaned up [XML] Infoset usage, split the spec into messaging framework and adjuncts, and dropped the 'Simple Object Access Protocol' acronym. Enterprise Java (JAX-WS), .NET WCF, and B2B integrations standardized on it before REST+JSON dominated public APIs.",
       "narrative": {
-        "whyChosen": "SOAP 1.2 was the peak formal standardization of XML-RPC-style enterprise web services.",
+        "whyChosen": "SOAP 1.2 was the peak formal standardization of [XML]-RPC-style enterprise web services.",
         "whyImportant": "It gave vendors a normative target for interoperable SOAP stacks in government and banking.",
-        "problemSolved": "SOAP 1.1 was only a W3C Note; large integrators needed a full Recommendation with test suites."
+        "problemSolved": "SOAP 1.1 was only a [W3C] Note; large integrators needed a full Recommendation with test suites."
       },
       "category": "protocol",
       "tags": [

@@ -24,10 +24,10 @@
       "date": "1957",
       "datePrecision": "year",
       "title": "Frank Rosenblatt builds the Perceptron",
-      "summary": "Frank Rosenblatt built the Perceptron in 1957 — an early trainable neural network that launched the first wave of connectionist AI.",
-      "about": "The Perceptron could learn linearly separable patterns from examples — inspiring decades of neural network research and the famous Minsky–Papert critique that sparked AI winters and revivals.",
+      "summary": "Frank Rosenblatt built the [Perceptron] in 1957 — an early trainable [neural network] that launched the first wave of connectionist AI.",
+      "about": "The [Perceptron] could learn linearly separable patterns from examples — inspiring decades of [neural network] research and the famous Minsky–Papert critique that sparked AI winters and revivals.",
       "narrative": {
-        "whyChosen": "The Perceptron was the first hardware neural learning machine.",
+        "whyChosen": "The [Perceptron] was the first hardware neural learning machine.",
         "whyImportant": "It introduced trainable weights as an approach to pattern recognition.",
         "problemSolved": "Pattern recognition required hand-coded rules instead of learning from data."
       },

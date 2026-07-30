@@ -6,12 +6,12 @@
       "date": "2024-08-02",
       "datePrecision": "day",
       "title": "Drupal 11 released",
-      "summary": "Drupal 11.0 shipped on August 2, 2024 — upgrading to Symfony 7, modern PHP 8.3 requirements, and a refined admin experience.",
-      "about": "Drupal 11 removed legacy compatibility shims from Drupal 10 — requiring PHP 8.3 and updated dependencies. It launched alongside Drupal 10.3 as the supported path forward before Drupal 10 end-of-life in 2026.",
+      "summary": "[Drupal] 11.0 shipped on August 2, 2024 — upgrading to [Symfony] 7, modern PHP 8.3 requirements, and a refined admin experience.",
+      "about": "[Drupal] 11 removed legacy compatibility shims from [Drupal] 10 — requiring PHP 8.3 and updated dependencies. It launched alongside [Drupal] 10.3 as the supported path forward before [Drupal] 10 end-of-life in 2026.",
       "narrative": {
-        "whyChosen": "Drupal 11 keeps the platform on supported Symfony and PHP releases.",
-        "whyImportant": "It maintains Drupal's enterprise CMS position through the mid-2020s stack.",
-        "problemSolved": "Drupal 10 sites needed a migration path before Symfony 6 and PHP 8.1 reached end-of-life."
+        "whyChosen": "[Drupal] 11 keeps the platform on supported [Symfony] and PHP releases.",
+        "whyImportant": "It maintains [Drupal]'s enterprise [CMS] position through the mid-2020s stack.",
+        "problemSolved": "[Drupal] 10 sites needed a migration path before [Symfony] 6 and PHP 8.1 reached end-of-life."
       },
       "category": "software",
       "tags": [
@@ -62,12 +62,12 @@
       "date": "2024-08-22",
       "datePrecision": "day",
       "title": "Google Pixel 9 released",
-      "summary": "Google began selling the Google Pixel 9 — Tensor G4 and Gemini Nano on-device AI features.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g4 and gemini nano on-device ai features. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 9 — Tensor G4 and [Gemini] Nano on-device AI features.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Tensor g4 and gemini nano on-device ai features. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 9 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 9 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

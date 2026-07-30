@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "iPhone 5S released",
       "summary": "Apple released the iPhone 5S on September 20, 2013 — debuting Touch ID fingerprint authentication and the 64-bit A7 chip.",
-      "about": "Touch ID enabled secure app login and Apple Pay foundations; the A7 made 64-bit ARM mainstream and pushed Android OEMs to match. Developers gained LocalAuthentication APIs and a performance ceiling for AR and graphics-heavy apps years earlier than expected.",
+      "about": "Touch ID enabled secure app login and Apple Pay foundations; the A7 made 64-bit ARM mainstream and pushed [Android] OEMs to match. Developers gained LocalAuthentication APIs and a performance ceiling for AR and graphics-heavy apps years earlier than expected.",
       "narrative": {
         "whyChosen": "The 5S made biometrics and 64-bit mobile CPUs standard expectations.",
         "whyImportant": "Fingerprint auth and 64-bit chips changed security and performance baselines for mobile dev.",
@@ -122,7 +122,7 @@
       "date": "2013-09-25",
       "datePrecision": "day",
       "title": "Samsung Galaxy Note 3 released",
-      "summary": "Samsung released the Samsung Galaxy Note 3 — 1080p display and USB 3.0 — productivity-focused phablet peak.",
+      "summary": "Samsung released the Samsung Galaxy Note 3 — 1080p display and [USB] 3.0 — productivity-focused phablet peak.",
       "about": "The Galaxy Note targeted stylus power users on Android. 1080p display and usb 3.0 — productivity-focused phablet peak. Note apps and split-screen Android development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note 3 advanced Samsung's stylus phablet line.",

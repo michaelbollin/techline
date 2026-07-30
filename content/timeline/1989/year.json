@@ -24,10 +24,10 @@
       "date": "1989",
       "datePrecision": "year",
       "title": "LeNet convolutional networks",
-      "summary": "Yann LeCun applied convolutional neural networks to handwritten digit recognition in 1989 — the LeNet architecture that foreshadowed AlexNet.",
+      "summary": "Yann LeCun applied convolutional [neural network]s to handwritten digit recognition in 1989 — the LeNet architecture that foreshadowed AlexNet.",
       "about": "LeNet ran on bank check readers for years before GPUs made deep CNNs mainstream. LeCun's work at AT&T Bell Labs proved convnets worked in production — not just theory.",
       "narrative": {
-        "whyChosen": "LeNet was the first widely deployed convolutional neural network.",
+        "whyChosen": "LeNet was the first widely deployed convolutional [neural network].",
         "whyImportant": "It established CNNs as the architecture for spatial pattern recognition.",
         "problemSolved": "Handwritten character recognition needed shift-invariant feature learning."
       },

@@ -25,11 +25,11 @@
       "date": "2018-07-12",
       "datePrecision": "day",
       "title": "Guido van Rossum steps down as Python BDFL",
-      "summary": "Guido van Rossum stepped down as Python's Benevolent Dictator For Life on July 12, 2018 — ending his central governance role.",
-      "about": "Van Rossum created Python in 1991 and guided it through 2/3 migration and community growth. His resignation pushed Python toward a formal steering council governance model.",
+      "summary": "Guido van Rossum stepped down as [Python]'s Benevolent Dictator For Life on July 12, 2018 — ending his central governance role.",
+      "about": "Van Rossum created [Python] in 1991 and guided it through 2/3 migration and community growth. His resignation pushed [Python] toward a formal steering council governance model.",
       "narrative": {
         "whyChosen": "The BDFL step-down changed how one of the world's largest languages is governed.",
-        "whyImportant": "It forced Python to institutionalize decision-making beyond a single founder.",
+        "whyImportant": "It forced [Python] to institutionalize decision-making beyond a single founder.",
         "problemSolved": "Burnout and mailing-list conflicts showed BDFL model does not scale forever."
       },
       "category": "culture",
@@ -58,8 +58,8 @@
       "date": "2018-07-13",
       "datePrecision": "day",
       "title": "BlackBerry Key2 released",
-      "summary": "BlackBerry released the BlackBerry Key2 — Android-powered QWERTY phone from TCL — final BB keyboard flagship.",
-      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Android-powered qwerty phone from tcl — final bb keyboard flagship. BES-connected apps and push email defined mobile workflows for years.",
+      "summary": "BlackBerry released the BlackBerry Key2 — [Android]-powered QWERTY phone from TCL — final BB keyboard flagship.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and [Android]. [Android]-powered qwerty phone from tcl — final bb keyboard flagship. BES-connected apps and push email defined mobile workflows for years.",
       "narrative": {
         "whyChosen": "The BlackBerry Key2 was a key BlackBerry hardware milestone.",
         "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
@@ -114,7 +114,7 @@
       "datePrecision": "day",
       "title": "Apache Kafka 2.0 released",
       "summary": "The Apache Kafka project released version 2.0 on July 28, 2018 — adding OAuth2 authentication, prefixed ACLs, and improved Kafka Streams windowed aggregations.",
-      "about": "Kafka 2.0 matured the event-streaming platform microservices rely on — producers, consumers, and Kafka Streams for real-time pipelines. It cemented Kafka as the default log backbone between services.",
+      "about": "Kafka 2.0 matured the event-streaming platform [microservices] rely on — producers, consumers, and Kafka Streams for real-time pipelines. It cemented Kafka as the default log backbone between services.",
       "narrative": {
         "whyChosen": "Kafka 2.0 marked the platform's transition to enterprise-grade streaming infrastructure.",
         "whyImportant": "It expanded Kafka beyond a message queue into a full event streaming system.",

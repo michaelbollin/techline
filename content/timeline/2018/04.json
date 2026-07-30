@@ -6,11 +6,11 @@
       "date": "2018-04-24",
       "datePrecision": "day",
       "title": "Node.js 10 released",
-      "summary": "Node.js 10.0.0 shipped on April 24, 2018 with improved N-API stability, HTTP/2 support, and V8 6.6.",
-      "about": "Node 10 became LTS in October 2018 — the runtime behind npm's peak growth era. N-API gave native addon authors a stable ABI across Node versions; HTTP/2 enabled faster multiplexed servers without external modules.",
+      "summary": "Node.js 10.0.0 shipped on April 24, 2018 with improved N-[API] stability, [HTTP]/2 support, and V8 6.6.",
+      "about": "Node 10 became LTS in October 2018 — the runtime behind npm's peak growth era. N-[API] gave native addon authors a stable ABI across Node versions; [HTTP]/2 enabled faster multiplexed servers without external modules.",
       "narrative": {
         "whyChosen": "Node 10 LTS powered the JavaScript backend boom of the late 2010s.",
-        "whyImportant": "Stable N-API reduced breakage for native modules on every Node upgrade.",
+        "whyImportant": "Stable N-[API] reduced breakage for native modules on every Node upgrade.",
         "problemSolved": "Native addons broke on each V8 bump, blocking enterprise Node adoption."
       },
       "category": "software",

@@ -6,12 +6,12 @@
       "date": "1997-01",
       "datePrecision": "month",
       "title": "HTTP/1.1 standardized",
-      "summary": "RFC 2068 defined HTTP/1.1 in January 1997 — adding persistent connections, chunked transfer, and better caching than HTTP/1.0.",
-      "about": "HTTP/1.1 is how browsers and APIs talk to servers — GET/POST requests, status codes, headers. Persistent connections cut latency; virtual hosts let one IP serve many domains. Every REST API, CDN, and `fetch()` call still rides on HTTP semantics defined here and refined in later RFCs.",
+      "summary": "RFC 2068 defined [HTTP]/1.1 in January 1997 — adding persistent connections, chunked transfer, and better caching than [HTTP]/1.0.",
+      "about": "[HTTP]/1.1 is how browsers and APIs talk to servers — GET/POST requests, status codes, headers. Persistent connections cut latency; virtual hosts let one [IP] serve many domains. Every REST [API], CDN, and `fetch()` call still rides on [HTTP] semantics defined here and refined in later RFCs.",
       "narrative": {
-        "whyChosen": "HTTP/1.1 fixed the performance and proxy problems that limited HTTP/1.0 at web scale.",
-        "whyImportant": "It became the wire protocol underpinning the web, APIs, and eventually HTTP/2 and HTTP/3.",
-        "problemSolved": "HTTP/1.0 opened a new TCP connection per request and handled caching inconsistently."
+        "whyChosen": "[HTTP]/1.1 fixed the performance and proxy problems that limited [HTTP]/1.0 at web scale.",
+        "whyImportant": "It became the wire protocol underpinning the web, APIs, and eventually [HTTP]/2 and [HTTP]/3.",
+        "problemSolved": "[HTTP]/1.0 opened a new [TCP] connection per request and handled caching inconsistently."
       },
       "category": "protocol",
       "tags": [
@@ -68,12 +68,12 @@
       "date": "1997-01-29",
       "datePrecision": "day",
       "title": "PostgreSQL 6.0 released",
-      "summary": "PostgreSQL 6.0 shipped on January 29, 1997 — adopting the PostgreSQL name and SQL support atop Berkeley's POSTGRES research codebase.",
-      "about": "PostgreSQL is an open-source relational database with strong SQL, JSON, and extension support — used for SaaS backends, geospatial (PostGIS), and analytics. Teams pick it for ACID guarantees, complex queries, and no vendor lock-in. Example: a Rails or Django app with migrations, foreign keys, and full-text search on one Postgres instance.",
+      "summary": "PostgreSQL 6.0 shipped on January 29, 1997 — adopting the PostgreSQL name and [SQL] support atop Berkeley's POSTGRES research codebase.",
+      "about": "PostgreSQL is an open-source [relational database] with strong [SQL], JSON, and extension support — used for SaaS backends, geospatial (PostGIS), and analytics. Teams pick it for ACID guarantees, complex queries, and no vendor lock-in. Example: a Rails or Django app with migrations, foreign keys, and full-text search on one Postgres instance.",
       "narrative": {
         "whyChosen": "PostgreSQL carried Berkeley POSTGRES into production as a mainstream open-source RDBMS.",
-        "whyImportant": "It became the default 'serious' open-source SQL database for startups and enterprises alike.",
-        "problemSolved": "Postgres95 needed a durable name and version line as SQL features matured beyond research prototypes."
+        "whyImportant": "It became the default 'serious' open-source [SQL] database for startups and enterprises alike.",
+        "problemSolved": "Postgres95 needed a durable name and version line as [SQL] features matured beyond research prototypes."
       },
       "category": "software",
       "tags": [

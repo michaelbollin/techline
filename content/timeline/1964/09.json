@@ -23,10 +23,10 @@
       "datePrecision": "month",
       "title": "CDC 6600 introduced",
       "summary": "Seymour Cray and Jim Thornton introduced the CDC 6600 in September 1964 — the fastest computer of its era and a template for supercomputing.",
-      "about": "The 6600 used parallelism and elegant packaging to outperform IBM mainframes — earning Cray the title 'father of supercomputing.' Cray Research later built machines that defined HPC for decades.",
+      "about": "The 6600 used parallelism and elegant packaging to outperform [IBM] mainframes — earning Cray the title 'father of supercomputing.' Cray Research later built machines that defined HPC for decades.",
       "narrative": {
         "whyChosen": "The CDC 6600 proved specialized architecture could beat bigger vendors.",
-        "whyImportant": "It established the supercomputer as a distinct engineering discipline.",
+        "whyImportant": "It established the [supercomputer] as a distinct engineering discipline.",
         "problemSolved": "Scientific workloads needed far more performance than general-purpose mainframes delivered."
       },
       "category": "hardware",

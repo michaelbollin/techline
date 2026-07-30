@@ -6,8 +6,8 @@
       "date": "2011-06-15",
       "datePrecision": "day",
       "title": "Chromebooks go on sale",
-      "summary": "Samsung and Acer put the first retail Chromebooks on sale on June 15, 2011 — consumer laptops running Chrome OS after Google announced them at I/O on May 11.",
-      "about": "After the CR-48 pilot, retail Chromebooks brought Google's browser-centric OS to schools and budget buyers — automatic updates, Google account sign-in, and web apps only. IT departments adopted them for managed classrooms; developers tested PWAs and Chrome extensions on locked-down hardware. The category grew into a major segment beside Windows and Mac laptops.",
+      "summary": "Samsung and Acer put the first retail Chromebooks on sale on June 15, 2011 — consumer laptops running Chrome [OS] after Google announced them at I/O on May 11.",
+      "about": "After the CR-48 pilot, retail Chromebooks brought Google's browser-centric [OS] to schools and budget buyers — automatic updates, Google account sign-in, and web apps only. [IT] departments adopted them for managed classrooms; developers tested PWAs and Chrome extensions on locked-down hardware. The category grew into a major segment beside Windows and Mac laptops.",
       "narrative": {
         "whyChosen": "Retail Chromebooks turned Google's pilot into a shipping product category.",
         "whyImportant": "They proved cloud-first laptops could sell beyond beta testers and education pilots.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "Laravel first beta released",
       "summary": "Taylor Otwell released the first Laravel beta on June 9, 2011 — a PHP web framework emphasizing elegant syntax and developer ergonomics.",
-      "about": "Laravel brought routing, Eloquent ORM, and Blade templates to PHP with conventions inspired by Ruby on Rails. It grew into the most popular PHP framework for APIs and full-stack apps — artisan CLI, queues, and later Livewire and Forge hosting.",
+      "about": "Laravel brought routing, Eloquent ORM, and Blade templates to PHP with conventions inspired by Ruby on Rails. It grew into the most popular PHP framework for APIs and full-stack apps — artisan [CLI], queues, and later Livewire and Forge hosting.",
       "narrative": {
         "whyChosen": "Laravel redefined modern PHP web development with expressive APIs and strong conventions.",
         "whyImportant": "It made PHP competitive for new web projects when Rails and Django dominated mindshare.",
@@ -163,7 +163,7 @@
       "date": "2011-06-07",
       "datePrecision": "day",
       "title": "CSS 2.1 becomes a W3C Recommendation",
-      "summary": "The W3C published CSS Level 2 Revision 1 as a Recommendation on June 7, 2011 — a corrected, interoperable snapshot of CSS2 after fifteen years of refinement.",
+      "summary": "The [W3C] published CSS Level 2 Revision 1 as a Recommendation on June 7, 2011 — a corrected, interoperable snapshot of CSS2 after fifteen years of refinement.",
       "about": "CSS 2.1 removed unimplementable CSS2 features, fixed specification errors, and reflected what browsers actually supported — backed by tens of thousands of test cases. It became the stable baseline the CSS Working Group built modular Level 3 specs on top of: selectors, flexbox, grid, and animations all trace back to this foundation.",
       "narrative": {
         "whyChosen": "CSS 2.1 ended years of spec drift and gave the web a stable styling baseline.",

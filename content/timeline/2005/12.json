@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Ruby on Rails 1.0 released",
       "summary": "After 15 months of public development, Rails reached 1.0 — the milestone that cemented its startup-era dominance.",
-      "about": "Rails 1.0 told the industry the framework was production-ready — not a demo. Teams used it for the same jobs as earlier Rails releases (SaaS, social apps, admin panels) but with confidence to bet companies on it. It kicked off the \"startup in 10 weeks\" Ruby era.",
+      "about": "Rails 1.0 told the industry the framework was production-ready — not a demo. Teams used it for the same jobs as earlier Rails releases ([SaaS], social apps, admin panels) but with confidence to bet companies on it. It kicked off the \"startup in 10 weeks\" Ruby era.",
       "narrative": {
         "whyChosen": "Rails 1.0 was the moment Ruby left niche status and became a mainstream web stack choice.",
         "whyImportant": "It proved opinionated frameworks could ship faster than hand-rolled Java or PHP architectures.",

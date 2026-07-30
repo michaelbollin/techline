@@ -53,7 +53,7 @@
       "date": "2017-12-18",
       "datePrecision": "day",
       "title": "MakerDAO launches DAI stablecoin",
-      "summary": "MakerDAO launched the DAI stablecoin on December 18, 2017 — a dollar-pegged asset backed by overcollateralized ether locked in smart contracts.",
+      "summary": "MakerDAO launched the DAI stablecoin on December 18, 2017 — a dollar-pegged asset backed by overcollateralized ether locked in [smart contract]s.",
       "about": "Users deposited ETH into Maker vaults and minted DAI against it — no bank account required. DAI became DeFi's unit of account for lending, trading, and payroll before centralized stablecoins dominated volume. It showed algorithmic collateral could hold a peg — until black swans tested the design.",
       "narrative": {
         "whyChosen": "DAI was the first widely used decentralized stablecoin on Ethereum.",
@@ -108,7 +108,7 @@
       "about": "Chairman Ajit Pai's Restoring Internet Freedom Order let ISPs theoretically block, throttle, or prioritize traffic again — though major providers largely pledged not to. States like California passed their own net neutrality laws; startups worried about paid peering deals affecting latency-sensitive apps. The repeal remained politically contested through subsequent FCC administrations.",
       "narrative": {
         "whyChosen": "The 2017 repeal reversed the strongest federal net neutrality protections U.S. developers had.",
-        "whyImportant": "It shifted broadband regulation to state-by-state patchwork and renewed ISP lobbying battles.",
+        "whyImportant": "It shifted broadband regulation to state-by-state patchwork and renewed [ISP] lobbying battles.",
         "problemSolved": "ISPs argued Title II rules discouraged infrastructure investment; advocates feared fast-lane discrimination."
       },
       "category": "culture",

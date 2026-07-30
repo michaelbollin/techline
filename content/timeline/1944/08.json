@@ -6,11 +6,11 @@
       "date": "1944-08-07",
       "datePrecision": "day",
       "title": "Harvard Mark I completed",
-      "summary": "The Harvard Mark I (Automatic Sequence Controlled Calculator) was formally presented at Harvard on August 7, 1944 — a room-sized electromechanical computer built by IBM for the U.S. Navy.",
+      "summary": "The Harvard Mark I (Automatic Sequence Controlled Calculator) was formally presented at Harvard on August 7, 1944 — a room-sized electromechanical computer built by [IBM] for the U.S. Navy.",
       "about": "The Mark I read instructions from punched paper tape and used relays and rotating shafts for arithmetic. Grace Hopper programmed it for naval ballistics — the machine that later inspired her work on compilers and the term \"debugging.\"",
       "narrative": {
         "whyChosen": "The Mark I was the first large-scale automatic digital computer in the United States.",
-        "whyImportant": "It linked university research, IBM manufacturing, and military computation at scale.",
+        "whyImportant": "It linked university research, [IBM] manufacturing, and military computation at scale.",
         "problemSolved": "The Navy needed automated solution of differential equations for gunnery and design tables."
       },
       "category": "invention",

@@ -6,8 +6,8 @@
       "date": "1957-04",
       "datePrecision": "month",
       "title": "First FORTRAN compiler delivered",
-      "summary": "The first documented commercial FORTRAN compiler shipped to Westinghouse-Bettis for reactor design on the IBM 704.",
-      "about": "Same language as the FORTRAN announcement — used by engineers and scientists who needed numeric simulation without hand-writing assembly. Early adopters ran reactor design and other heavy calculation jobs on IBM 704-class machines.",
+      "summary": "The first documented commercial FORTRAN compiler shipped to Westinghouse-Bettis for reactor design on the [IBM] 704.",
+      "about": "Same language as the FORTRAN announcement — used by engineers and scientists who needed numeric simulation without hand-writing assembly. Early adopters ran reactor design and other heavy calculation jobs on [IBM] 704-class machines.",
       "narrative": {
         "whyChosen": "Announcement at a conference is one moment; delivery is when the language became usable in the wild.",
         "whyImportant": "It moved FORTRAN from research demo to production tool for engineering workloads.",

@@ -6,10 +6,10 @@
       "date": "2024-02-15",
       "datePrecision": "day",
       "title": "Google Gemini 1.5 announced",
-      "summary": "Google announced Gemini 1.5 on February 15, 2024 with a 1M-token context window and Mixture-of-Experts architecture.",
-      "about": "Gemini 1.5 Pro's million-token context let developers pass entire codebases, books, or video in one prompt — a leap beyond 128K competitors. MoE architecture improved efficiency; the release kept Google competitive with GPT-4 Turbo and Claude 3.",
+      "summary": "Google announced [Gemini] 1.5 on February 15, 2024 with a 1M-token context window and Mixture-of-Experts architecture.",
+      "about": "[Gemini] 1.5 Pro's million-token context let developers pass entire codebases, books, or video in one prompt — a leap beyond 128K competitors. MoE architecture improved efficiency; the release kept Google competitive with GPT-4 Turbo and Claude 3.",
       "narrative": {
-        "whyChosen": "Gemini 1.5's 1M context reset expectations for long-document AI workflows.",
+        "whyChosen": "[Gemini] 1.5's 1M context reset expectations for long-document AI workflows.",
         "whyImportant": "Million-token windows enabled whole-repo analysis without chunking hacks.",
         "problemSolved": "Large inputs had to be split and stitched, losing cross-document context."
       },

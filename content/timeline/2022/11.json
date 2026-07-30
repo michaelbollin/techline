@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "ChatGPT launched",
       "summary": "OpenAI released ChatGPT as a research preview on November 30, 2022 — a conversational interface to GPT-3.5 that quickly became the fastest-growing consumer app in history.",
-      "about": "ChatGPT put large language models in a chat window anyone could use: writing, coding help, tutoring, and brainstorming without API keys. Analyst estimates of 100 million users within two months (reported February 2023) made it the consumer moment that triggered an industry-wide rush into copilots, search redesigns, and enterprise AI.",
+      "about": "ChatGPT put large language models in a chat window anyone could use: writing, coding help, tutoring, and brainstorming without [API] keys. Analyst estimates of 100 million users within two months (reported February 2023) made it the consumer moment that triggered an industry-wide rush into copilots, search redesigns, and enterprise AI.",
       "narrative": {
         "whyChosen": "ChatGPT was the consumer moment that made LLMs impossible to ignore.",
         "whyImportant": "It shifted software from 'AI as feature' to 'AI as interface' across every product category.",
@@ -63,7 +63,7 @@
       "about": ".NET 7 continued the annual release cadence between LTS versions: faster JSON serialization, improved cloud-native tooling, and C# 11 features like raw string literals. Teams on .NET 6 used it for bleeding-edge performance before committing to .NET 8 LTS.",
       "narrative": {
         "whyChosen": ".NET 7 kept the unified platform moving between .NET 6 and 8 LTS releases.",
-        "whyImportant": "Performance and AOT work made .NET viable for CLI tools and containerized microservices.",
+        "whyImportant": "Performance and AOT work made .NET viable for [CLI] tools and containerized microservices.",
         "problemSolved": "Developers wanted yearly innovation without waiting for the next LTS cycle."
       },
       "category": "software",
@@ -112,7 +112,7 @@
       "datePrecision": "day",
       "title": "C# 11 released with .NET 7",
       "summary": "C# 11 shipped with .NET 7 on November 8, 2022 — adding raw string literals, required members, and generic math support.",
-      "about": "C# 11's raw strings (`\"\"\"...\"\"\"`) made JSON and SQL in code readable without escape hell; `required` properties enforced initialization at compile time; static abstract interface members enabled generic math on numeric types.",
+      "about": "C# 11's raw strings (`\"\"\"...\"\"\"`) made JSON and [SQL] in code readable without escape hell; `required` properties enforced initialization at compile time; static abstract interface members enabled generic math on numeric types.",
       "narrative": {
         "whyChosen": "C# 11 raw strings solved a daily pain point for config-heavy .NET apps.",
         "whyImportant": "Required members caught incomplete object initialization before runtime.",
@@ -166,7 +166,7 @@
       "datePrecision": "day",
       "title": "Spring Boot 3.0 released",
       "summary": "The Spring team released Spring Boot 3.0 on November 24, 2022 — requiring Java 17 and migrating to Jakarta EE namespaces.",
-      "about": "Spring Boot 3.0 aligned with Spring Framework 6: native image hints via GraalVM, observability improvements, and `jakarta.*` packages instead of `javax.*`. It forced enterprises off Java 8 and marked the modern baseline for new Java microservices.",
+      "about": "Spring Boot 3.0 aligned with Spring Framework 6: native image hints via GraalVM, observability improvements, and `jakarta.*` packages instead of `javax.*`. It forced enterprises off Java 8 and marked the modern baseline for new Java [microservices].",
       "narrative": {
         "whyChosen": "Spring Boot 3.0 set Java 17 and Jakarta EE as the new enterprise default.",
         "whyImportant": "GraalVM native support and Jakarta migration defined the next decade of Java cloud apps.",
@@ -213,7 +213,7 @@
       "date": "2022-11-11",
       "datePrecision": "day",
       "title": "FTX files for bankruptcy after liquidity collapse",
-      "summary": "Cryptocurrency exchange FTX and over 130 affiliated entities filed for Chapter 11 bankruptcy on November 11, 2022 — wiping out billions in customer deposits and triggering a crypto industry reckoning.",
+      "summary": "[Cryptocurrency] exchange FTX and over 130 affiliated entities filed for Chapter 11 bankruptcy on November 11, 2022 — wiping out billions in customer deposits and triggering a crypto industry reckoning.",
       "about": "FTX had been a top-tier exchange and venture investor; its collapse froze developer grants, killed sponsorship deals, and spurred global calls for exchange custody rules. The fallout accelerated regulatory scrutiny of stablecoins, proof-of-reserves audits, and decentralized exchange design — ending the era of lightly regulated crypto banking.",
       "narrative": {
         "whyChosen": "FTX's failure was the defining crypto scandal of the 2022 bear market.",

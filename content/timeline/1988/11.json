@@ -6,10 +6,10 @@
       "date": "1988-11-02",
       "datePrecision": "day",
       "title": "Morris worm spreads on the internet",
-      "summary": "The Morris worm began spreading on November 2, 1988 — the first worm to gain mainstream attention, infecting thousands of Unix systems on the early internet.",
-      "about": "Robert Tappan Morris's worm exploited sendmail, finger, and rsh flaws — clogging networks when it re-infected machines too aggressively. The incident created the CERT coordination center, hardened Unix admin practices, and the first felony conviction under the Computer Fraud and Abuse Act.",
+      "summary": "The Morris [worm] began spreading on November 2, 1988 — the first [worm] to gain mainstream attention, infecting thousands of [Unix] systems on the early internet.",
+      "about": "Robert Tappan Morris's [worm] exploited sendmail, finger, and rsh flaws — clogging networks when it re-infected machines too aggressively. The incident created the CERT coordination center, hardened [Unix] admin practices, and the first felony conviction under the Computer Fraud and Abuse Act.",
       "narrative": {
-        "whyChosen": "The Morris worm was the internet's first major security wake-up call.",
+        "whyChosen": "The Morris [worm] was the internet's first major security wake-up call.",
         "whyImportant": "It proved connected computers needed incident response and patch discipline.",
         "problemSolved": "Nothing yet — it exposed that the growing internet had no coordinated defense against self-replicating code."
       },

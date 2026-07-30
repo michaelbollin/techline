@@ -6,7 +6,7 @@
       "date": "2010-03-07",
       "datePrecision": "day",
       "title": "Vagrant first released",
-      "summary": "Mitchell Hashimoto released Vagrant 0.1.0 on March 7, 2010 — a tool for building reproducible development environments in virtual machines.",
+      "summary": "Mitchell Hashimoto released Vagrant 0.1.0 on March 7, 2010 — a tool for building reproducible development environments in [virtual machine]s.",
       "about": "Vagrant reads a `Vagrantfile` describing a VM image, provisioning scripts, and port forwards — `vagrant up` boots an identical environment on any laptop. It standardized dev/prod parity before Docker dominated and led HashiCorp to Terraform and Consul. Example: a Rails app with Postgres running in VirtualBox after one command.",
       "narrative": {
         "whyChosen": "Vagrant made 'works on my machine' a solvable problem with shareable VM configs.",

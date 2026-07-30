@@ -6,11 +6,11 @@
       "date": "1985",
       "datePrecision": "year",
       "title": "MIPS architecture launched",
-      "summary": "MIPS Computer Systems launched the MIPS I architecture in 1985 — one of the first commercial RISC designs; the R2000 chipset followed in May 1986.",
-      "about": "The R2000 powered early MIPS workstations and embedded systems with a clean load-store RISC design — influencing academic computer architecture and commercial Unix boxes from DEC and SGI. MIPS variants later appeared in PlayStation, routers, and embedded devices. RISC principles from MIPS shaped ARM and every modern mobile CPU.",
+      "summary": "MIPS Computer Systems launched the MIPS I architecture in 1985 — one of the first commercial [RISC] designs; the R2000 chipset followed in May 1986.",
+      "about": "The R2000 powered early MIPS workstations and [embedded system]s with a clean load-store [RISC] design — influencing academic computer architecture and commercial Unix boxes from DEC and SGI. MIPS variants later appeared in PlayStation, routers, and embedded devices. [RISC] principles from MIPS shaped ARM and every modern mobile [CPU].",
       "narrative": {
-        "whyChosen": "The MIPS R2000 was a landmark commercial RISC processor from Stanford research lineage.",
-        "whyImportant": "It proved RISC designs could outperform complex CISC chips in workstations and embedded markets.",
+        "whyChosen": "The MIPS R2000 was a landmark commercial [RISC] processor from Stanford research lineage.",
+        "whyImportant": "It proved [RISC] designs could outperform complex [CISC] chips in workstations and embedded markets.",
         "problemSolved": "Complex instruction sets were becoming harder to optimize for higher clock speeds."
       },
       "category": "hardware",
@@ -80,7 +80,7 @@
       "datePrecision": "year",
       "title": "Zero-knowledge proofs published",
       "summary": "Shafi Goldwasser and Silvio Micali published zero-knowledge interactive proof systems in 1985 — foundational work for modern cryptographic protocols.",
-      "about": "Zero-knowledge proofs let one party prove a statement is true without revealing why — underpinning zk-SNARKs, blockchain privacy, and authentication protocols. Goldwasser and Micali won the Turing Award partly for this line of research.",
+      "about": "Zero-knowledge proofs let one party prove a statement is true without revealing why — underpinning zk-SNARKs, [blockchain] privacy, and authentication protocols. Goldwasser and Micali won the Turing Award partly for this line of research.",
       "narrative": {
         "whyChosen": "Zero-knowledge proofs became a core primitive in modern cryptography and blockchains.",
         "whyImportant": "They formalized how to prove knowledge without leaking secrets.",
@@ -131,8 +131,8 @@
       "date": "1985",
       "datePrecision": "year",
       "title": "Grace Hopper nanosecond lecture",
-      "summary": "Rear Admiral Grace Hopper used 11.8-inch wire pieces in lectures from the late 1960s through the 1980s — including a famous 1985 MIT Lincoln Lab talk — to illustrate why short programs and fast hardware matter.",
-      "about": "Hopper helped standardize COBOL and pushed high-level languages on the military and industry. Her teaching made latency tangible for generations of managers and programmers beyond the 1959 COBOL specification event.",
+      "summary": "Rear Admiral Grace Hopper used 11.8-inch wire pieces in lectures from the late 1960s through the 1980s — including a famous 1985 [MIT] Lincoln Lab talk — to illustrate why short programs and fast hardware matter.",
+      "about": "Hopper helped standardize [COBOL] and pushed [high-level language]s on the military and industry. Her teaching made latency tangible for generations of managers and programmers beyond the 1959 [COBOL] specification event.",
       "narrative": {
         "whyChosen": "Hopper was the most visible advocate for programmer-friendly languages in industry.",
         "whyImportant": "She bridged military procurement and commercial software standardization.",

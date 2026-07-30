@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "ENIAC formally dedicated",
       "summary": "ENIAC was formally dedicated at the University of Pennsylvania on February 15, 1946 — a pioneering large-scale electronic digital computer announced to the public the night before.",
-      "about": "ENIAC filled a room with 17,000 vacuum tubes and computed artillery trajectories thousands of times faster than human calculators. Programmers rewired panels and set switches to change programs — no stored program yet, but it proved electronic computation at scale was possible. The War Department had announced the machine on February 14; the dedication dinner and demonstration followed on February 15.",
+      "about": "ENIAC filled a room with 17,000 [vacuum tube]s and computed artillery trajectories thousands of times faster than human calculators. Programmers rewired panels and set switches to change programs — no [stored program] yet, but it proved electronic computation at scale was possible. The War Department had announced the machine on February 14; the dedication dinner and demonstration followed on February 15.",
       "narrative": {
         "whyChosen": "ENIAC was among the first large-scale electronic computers to operate as a reprogrammable digital machine.",
-        "whyImportant": "It demonstrated that computation could be automated electronically — a foundation for later stored-program designs.",
+        "whyImportant": "It demonstrated that computation could be automated electronically — a foundation for later [stored-program] designs.",
         "problemSolved": "World War II ballistics tables took weeks of human calculation; the Army needed faster, repeatable numerical work."
       },
       "category": "invention",

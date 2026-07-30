@@ -6,12 +6,12 @@
       "date": "1995-05",
       "datePrecision": "month",
       "title": "JavaScript prototyped at Netscape",
-      "summary": "Brendan Eich built the first Mocha prototype in ten days in May 1995 for scriptable web pages in Netscape Navigator.",
+      "summary": "Brendan Eich built the first Mocha prototype in ten days in May 1995 for scriptable web pages in [Netscape] Navigator.",
       "about": "JavaScript runs inside the web browser to make pages interactive — validate a form before submit, swap menu tabs, fetch data without reloading. Today it also powers servers (Node.js), mobile apps (React Native), and most front-end frameworks. In 1995 it was mainly: buttons, alerts, and simple page behavior.",
       "narrative": {
         "whyChosen": "This hack became the language of the browser and eventually one of the most used languages on Earth.",
         "whyImportant": "It made web pages reactive without Java applets or server round-trips for every interaction.",
-        "problemSolved": "HTML alone could not respond to users; Netscape needed an embeddable scripting language fast."
+        "problemSolved": "[HTML] alone could not respond to users; [Netscape] needed an embeddable scripting language fast."
       },
       "category": "software",
       "tags": [
@@ -59,12 +59,12 @@
       "date": "1995-05-23",
       "datePrecision": "day",
       "title": "Java announced at SunWorld",
-      "summary": "Sun Microsystems and Netscape announced Java as a portable language for the web, paired with Navigator integration.",
-      "about": "Java promised \"write once, run anywhere\" via the JVM — same bytecode on Windows, Mac, or Unix. In the 1990s it was famous for browser applets (animations, calculators in web pages) and quickly became the default for enterprise backends, Android apps, and large server systems.",
+      "summary": "Sun Microsystems and [Netscape] announced Java as a portable language for the web, paired with Navigator integration.",
+      "about": "Java promised \"write once, run anywhere\" via the JVM — same [bytecode] on Windows, Mac, or Unix. In the 1990s it was famous for browser applets (animations, calculators in web pages) and quickly became the default for enterprise backends, Android apps, and large server systems.",
       "narrative": {
         "whyChosen": "Java's 'write once, run anywhere' promise reshaped enterprise software and mobile (via Android later).",
-        "whyImportant": "It made the JVM model mainstream and pushed garbage-collected OOP into mainstream industry use.",
-        "problemSolved": "Developers faced fragmented native platforms; Java targeted bytecode portability and sandboxed applets."
+        "whyImportant": "It made the JVM model mainstream and pushed garbage-collected [OOP] into mainstream industry use.",
+        "problemSolved": "Developers faced fragmented native platforms; Java targeted [bytecode] portability and sandboxed applets."
       },
       "category": "software",
       "tags": [
@@ -112,12 +112,12 @@
       "date": "1995-05-23",
       "datePrecision": "day",
       "title": "MySQL first released",
-      "summary": "Michael Widenius and David Axmark made the first MySQL release on May 23, 1995 — an internal mSQL-compatible SQL server; broader public distribution followed.",
-      "about": "MySQL powers LAMP stacks, WordPress, early Facebook, and countless web apps needing a simple relational store. Teams run `SELECT`, `JOIN`, and transactions for CRUD APIs and reporting. It became the default cheap SQL option before PostgreSQL's rise and cloud-managed databases.",
+      "summary": "Michael Widenius and David Axmark made the first MySQL release on May 23, 1995 — an internal mSQL-compatible [SQL] server; broader public distribution followed.",
+      "about": "MySQL powers LAMP stacks, WordPress, early Facebook, and countless web apps needing a simple relational store. Teams run `SELECT`, `JOIN`, and transactions for CRUD APIs and reporting. It became the default cheap [SQL] option before PostgreSQL's rise and cloud-managed databases.",
       "narrative": {
-        "whyChosen": "MySQL made SQL databases accessible to every PHP and web hosting provider on the planet.",
+        "whyChosen": "MySQL made [SQL] databases accessible to every PHP and web hosting provider on the planet.",
         "whyImportant": "Its speed and simple licensing defined the open-source database market for a decade.",
-        "problemSolved": "mSQL was too slow and closed; developers needed a fast SQL engine with a familiar API."
+        "problemSolved": "mSQL was too slow and closed; developers needed a fast [SQL] engine with a familiar [API]."
       },
       "category": "software",
       "tags": [
@@ -168,7 +168,7 @@
       "narrative": {
         "whyChosen": "The moment Microsoft officially bet the company on the web.",
         "whyImportant": "It accelerated browser development and reshaped Windows as a networked platform.",
-        "problemSolved": "Microsoft risked missing the Internet after focusing on desktop CD-ROM products."
+        "problemSolved": "Microsoft risked missing the Internet after focusing on desktop [CD-ROM] products."
       },
       "tags": [
         "quote",

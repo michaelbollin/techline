@@ -7,11 +7,11 @@
       "datePrecision": "year",
       "title": "C programming language takes shape at Bell Labs",
       "summary": "Dennis Ritchie evolved C from B during 1971–73; 1972 was the most creative period for the language and first compiler.",
-      "about": "C is a systems language — close to the machine, but portable. Used to write operating systems (Unix/Linux kernels), databases, embedded firmware, game engines, and anything that needs speed and direct memory control. C still underpins most OS and runtime code today.",
+      "about": "C is a systems language — close to the machine, but portable. Used to write operating systems (Unix/Linux kernels), databases, embedded [firmware], game engines, and anything that needs speed and direct memory control. C still underpins most [OS] and runtime code today.",
       "narrative": {
-        "whyChosen": "C became the systems language of Unix and later the foundation for C++, Objective-C, Go, and much of modern infrastructure.",
-        "whyImportant": "It added a practical type system to B and enabled rewriting Unix in a portable high-level language.",
-        "problemSolved": "B was too limited for the PDP-11 byte architecture and growing Unix kernel needs."
+        "whyChosen": "C became the systems language of Unix and later the foundation for C++, [Objective-C], Go, and much of modern infrastructure.",
+        "whyImportant": "It added a practical type system to B and enabled rewriting Unix in a portable [high-level language].",
+        "problemSolved": "B was too limited for the PDP-11 byte architecture and growing Unix [kernel] needs."
       },
       "category": "software",
       "tags": [
@@ -63,10 +63,10 @@
       "datePrecision": "year",
       "title": "Prolog language created",
       "summary": "In fall 1972, Alain Colmerauer and Philippe Roussel built the first Prolog — a language where you state facts and rules, and the computer searches for answers.",
-      "about": "In Prolog you write what is true ('Bob is a parent of Ann') and what rules follow ('a grandparent is a parent of a parent'), then ask questions ('Who are Ann's grandparents?'). The engine finds answers by searching possibilities. It powered expert systems, language tools, and AI research, and influenced how later languages handle automated reasoning.",
+      "about": "In Prolog you write what is true ('Bob is a parent of Ann') and what rules follow ('a grandparent is a parent of a parent'), then ask questions ('Who are Ann's grandparents?'). The engine finds answers by searching possibilities. It powered [expert system]s, language tools, and AI research, and influenced how later languages handle automated reasoning.",
       "narrative": {
         "whyChosen": "Prolog was the first widely used language where you describe problems as logic instead of step-by-step instructions.",
-        "whyImportant": "It showed that rule-based, declarative programs could run real applications — from language research to industrial expert systems.",
+        "whyImportant": "It showed that rule-based, declarative programs could run real applications — from language research to industrial [expert system]s.",
         "problemSolved": "Colmerauer's team needed one tool for both parsing human language and automated reasoning, without building separate custom engines for each."
       },
       "category": "software",
@@ -162,7 +162,7 @@
       "datePrecision": "year",
       "title": "Jon Postel begins Internet numbering stewardship",
       "summary": "Jon Postel took on socket-number and protocol assignment duties in 1972 — the functions later formalized as IANA, though that name was not used until the 1980s.",
-      "about": "Postel's stewardship kept the internet's naming and numbering coherent as it grew from ARPANET research to a global network. He was the RFC Editor and IANA administrator until his death in 1998.",
+      "about": "Postel's stewardship kept the internet's naming and numbering coherent as it grew from [ARPANET] research to a global network. He was the RFC Editor and IANA administrator until his death in 1998.",
       "narrative": {
         "whyChosen": "Postel's quiet governance made decentralized internet growth possible.",
         "whyImportant": "IANA assignments let independent networks interoperate without a central authority.",

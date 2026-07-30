@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Spot Bitcoin ETFs bridged Wall Street and on-chain BTC for the first time at scale.",
         "whyImportant": "It legitimized bitcoin as an institutional asset class in US markets.",
-        "problemSolved": "Investors wanted BTC exposure without managing private keys or unregulated exchanges."
+        "problemSolved": "Investors wanted BTC exposure without managing [private key]s or unregulated exchanges."
       },
       "category": "culture",
       "tags": [
@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "Elixir 1.16 released",
       "summary": "The Elixir team released Elixir 1.16 on January 28, 2024 with type inference in patterns, `Duration` and `DateTime` improvements, and faster compilation.",
-      "about": "Elixir 1.16 brought gradual typing ergonomics to everyday code — inferring types in function heads and guards. Combined with OTP 26/27 JSON support, it kept the BEAM stack current for Phoenix, LiveView, and Nerves embedded apps.",
+      "about": "Elixir 1.16 brought gradual typing ergonomics to everyday code — inferring types in function heads and guards. Combined with OTP 26/27 [JSON] support, it kept the BEAM stack current for Phoenix, LiveView, and Nerves embedded apps.",
       "narrative": {
         "whyChosen": "Elixir 1.16 advanced type information without a full static type system.",
         "whyImportant": "Inferred types caught bugs earlier while preserving Elixir's dynamic feel.",
@@ -103,11 +103,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S24 released",
       "summary": "Samsung began selling the Samsung Galaxy S24 — Galaxy AI on-device features integrated across the S24 line.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Galaxy ai on-device features integrated across the s24 line. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Galaxy ai on-device features integrated across the s24 line. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S24 continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S24 continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [

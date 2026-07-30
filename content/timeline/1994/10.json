@@ -6,12 +6,12 @@
       "date": "1994-10",
       "datePrecision": "month",
       "title": "HTTP cookies introduced in Netscape",
-      "summary": "Lou Montulli implemented HTTP cookies in Netscape Navigator in October 1994 — letting servers store state in the browser.",
-      "about": "Cookies enabled shopping carts, login sessions, and analytics — every `Set-Cookie` header traces to this Netscape feature. Developers gained stateful web apps on a stateless protocol, though privacy debates followed for decades.",
+      "summary": "Lou Montulli implemented [HTTP] cookies in [Netscape] Navigator in October 1994 — letting servers store state in the browser.",
+      "about": "Cookies enabled shopping carts, login sessions, and analytics — every `Set-Cookie` header traces to this [Netscape] feature. Developers gained stateful web apps on a stateless protocol, though privacy debates followed for decades.",
       "narrative": {
         "whyChosen": "Cookies made session state possible on the early web.",
         "whyImportant": "They enabled e-commerce, authentication, and personalization at scale.",
-        "problemSolved": "HTTP had no memory between requests; servers could not track users."
+        "problemSolved": "[HTTP] had no memory between requests; servers could not track users."
       },
       "category": "protocol",
       "tags": [
@@ -67,10 +67,10 @@
       "date": "1994-10-01",
       "datePrecision": "day",
       "title": "Tim Berners-Lee founds the W3C",
-      "summary": "Tim Berners-Lee founded the World Wide Web Consortium on October 1, 1994 at MIT — stewarding web standards globally.",
-      "about": "W3C standardized HTML, CSS, HTTP, and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
+      "summary": "Tim Berners-Lee founded the World Wide Web Consortium on October 1, 1994 at [MIT] — stewarding web standards globally.",
+      "about": "[W3C] standardized [HTML], CSS, [HTTP], and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
       "narrative": {
-        "whyChosen": "W3C became the neutral forum for web standardization.",
+        "whyChosen": "[W3C] became the neutral forum for web standardization.",
         "whyImportant": "It prevented proprietary fragmentation of the open web.",
         "problemSolved": "Competing vendors needed a shared process to evolve web technologies."
       },
@@ -126,12 +126,12 @@
       "date": "1994-10-10",
       "datePrecision": "day",
       "title": "Håkon Wium Lie proposes CSS",
-      "summary": "Håkon Wium Lie published Cascading HTML Style Sheets — a proposal on October 10, 1994 while at CERN.",
-      "about": "CSS separated presentation from HTML structure — letting authors suggest fonts and layout while users could override styles. Every modern website still depends on the cascading model Lie proposed at CERN.",
+      "summary": "Håkon Wium Lie published Cascading [HTML] Style Sheets — a proposal on October 10, 1994 while at CERN.",
+      "about": "CSS separated presentation from [HTML] structure — letting authors suggest fonts and layout while users could override styles. Every modern website still depends on the cascading model Lie proposed at CERN.",
       "narrative": {
         "whyChosen": "CSS is the presentation layer of the open web.",
-        "whyImportant": "It ended the era of presentational HTML tags and font tags in markup.",
-        "problemSolved": "Authors could not style pages consistently without polluting HTML with layout tags."
+        "whyImportant": "It ended the era of presentational [HTML] tags and font tags in markup.",
+        "problemSolved": "Authors could not style pages consistently without polluting [HTML] with layout tags."
       },
       "category": "protocol",
       "tags": [
@@ -188,7 +188,7 @@
       "summary": "Larry Wall released Perl 5.0 on October 17, 1994 — a complete rewrite adding objects, references, modules, and the CPAN ecosystem foundation.",
       "about": "Perl 5 became the duct tape of the early web: CGI scripts, system administration, bioinformatics, and text munging. The module system and CPAN let developers share libraries decades before npm or PyPI — powering everything from Slashdot to early Amazon glue code.",
       "narrative": {
-        "whyChosen": "Perl 5 defined scripting culture for the 1990s web and Unix automation.",
+        "whyChosen": "Perl 5 defined scripting culture for the 1990s web and [Unix] [automation].",
         "whyImportant": "Objects, references, and CPAN made Perl a platform, not just a language.",
         "problemSolved": "Perl 4 could not scale to complex programs; the web needed a richer scripting language with reusable libraries."
       },

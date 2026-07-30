@@ -10,7 +10,7 @@
       "about": "Vue 2.6 refined the composition patterns teams used in production — slot syntax and `v-slot` cleaned up component APIs. It was the stable baseline millions of apps ran on while Vue 3 was developed.",
       "narrative": {
         "whyChosen": "Vue 2.6 was the last major Vue 2 release before the Vue 3 migration.",
-        "whyImportant": "It matured the component API surface used across the Vue ecosystem.",
+        "whyImportant": "It matured the component [API] surface used across the Vue ecosystem.",
         "problemSolved": "Teams needed clearer slot APIs and better TypeScript ergonomics on Vue 2."
       },
       "category": "software",

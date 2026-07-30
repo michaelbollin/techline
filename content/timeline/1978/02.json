@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "The C Programming Language book published",
       "summary": "Kernighan and Ritchie's book became the de facto C language definition for over a decade.",
-      "about": "The book taught C as the language of Unix systems programming — writing shells, utilities, drivers, and portable tools. Sample programs in the book (hello world, parsers, small utilities) became how a generation learned to code close to the metal.",
+      "about": "The book taught C as the language of [Unix] systems programming — writing shells, utilities, drivers, and portable tools. Sample programs in the book (hello world, parsers, small utilities) became how a generation learned to code close to the metal.",
       "narrative": {
         "whyChosen": "Before ANSI C, this book was the specification developers actually used worldwide.",
-        "whyImportant": "It codified K&R C and spread Unix systems programming practices beyond Bell Labs.",
+        "whyImportant": "It codified K&R C and spread [Unix] systems programming practices beyond Bell Labs.",
         "problemSolved": "C lacked a formal standard; teams needed a stable, readable reference to write portable code."
       },
       "category": "software",

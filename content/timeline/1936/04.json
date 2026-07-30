@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Church defines effective calculability with lambda calculus",
       "summary": "Alonzo Church's April 1936 paper in the American Journal of Mathematics used lambda calculus to prove the Entscheidungsproblem unsolvable — the same year Turing published his machine model.",
-      "about": "Church's lambda calculus became the theoretical basis for Lisp, functional programming, and type theory. Together with Turing's 1936 work, it established the Church–Turing thesis: anything effectively computable can be computed by these equivalent models.",
+      "about": "Church's lambda calculus became the theoretical basis for Lisp, [functional programming], and type theory. Together with Turing's 1936 work, it established the Church–Turing thesis: anything effectively computable can be computed by these equivalent models.",
       "narrative": {
         "whyChosen": "Lambda calculus is one of two independent 1936 definitions of computation.",
         "whyImportant": "It linked logic to programming language design decades before computers were widespread.",

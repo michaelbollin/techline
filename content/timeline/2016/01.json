@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Brave browser launched",
       "summary": "Brendan Eich's Brave Software released Brave v0.7 on January 20, 2016 — a Chromium-based browser focused on blocking ads and trackers by default.",
-      "about": "Brave shipped with built-in ad and tracker blocking, HTTPS upgrades, and later a BAT micropayments model for publishers. Built on Chromium by the creator of JavaScript, it represented a privacy-first alternative in a market dominated by ad-driven browsers.",
+      "about": "Brave shipped with built-in ad and tracker blocking, [HTTPS] upgrades, and later a BAT micropayments model for publishers. Built on Chromium by the creator of JavaScript, it represented a privacy-first alternative in a market dominated by ad-driven browsers.",
       "narrative": {
         "whyChosen": "Brave popularized default privacy blocking in a mainstream Chromium fork.",
         "whyImportant": "It pushed the industry toward stricter tracking protection and alternative funding models.",

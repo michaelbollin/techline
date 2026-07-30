@@ -24,10 +24,10 @@
       "date": "1958-09-12",
       "datePrecision": "day",
       "title": "Kilby demonstrates first IC",
-      "summary": "Jack Kilby demonstrated the first integrated circuit at Texas Instruments on September 12, 1958 — building an oscillator on a germanium chip.",
-      "about": "Kilby's hybrid IC proved multiple components could share one semiconductor substrate — the foundation of modern microchips. He shared the 2000 Nobel Prize in Physics for the invention.",
+      "summary": "Jack Kilby demonstrated the first [integrated circuit] at Texas Instruments on September 12, 1958 — building an oscillator on a germanium chip.",
+      "about": "Kilby's hybrid IC proved multiple components could share one [semiconductor] substrate — the foundation of modern microchips. He shared the 2000 Nobel Prize in Physics for the invention.",
       "narrative": {
-        "whyChosen": "Kilby's demo was the first working integrated circuit.",
+        "whyChosen": "Kilby's demo was the first working [integrated circuit].",
         "whyImportant": "It launched the path from discrete transistors to single-chip systems.",
         "problemSolved": "Wiring individual components was too large, slow, and unreliable for advanced electronics."
       },

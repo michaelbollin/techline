@@ -6,12 +6,12 @@
       "date": "2022-02-25",
       "datePrecision": "day",
       "title": "Samsung Galaxy S22 released",
-      "summary": "Samsung began selling the Samsung Galaxy S22 — smaller S22 brought flagship specs to a compact Android form factor.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Smaller s22 brought flagship specs to a compact android form factor. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "summary": "Samsung began selling the Samsung Galaxy S22 — smaller S22 brought flagship specs to a compact [Android] form factor.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Smaller s22 brought flagship specs to a compact android form factor. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S22 continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S22 continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [
@@ -65,11 +65,11 @@
       "date": "2022-02-03",
       "datePrecision": "day",
       "title": "Meta loses $230 billion in market value in one day",
-      "summary": "Meta Platforms stock plunged 26% on February 3, 2022 — wiping out roughly $230 billion in market capitalization after a weak earnings report and pivot costs toward the metaverse.",
-      "about": "It was the largest single-day value destruction for any U.S. company. Zuckerberg blamed Apple iOS privacy changes (ATT) for ad-targeting headwinds and doubled down on Reality Labs spending. The crash signaled that ad-dependent social platforms were vulnerable to privacy regulation and that 'metaverse' bets were not convincing public markets.",
+      "summary": "Meta Platforms stock plunged 26% on February 3, 2022 — wiping out roughly $230 billion in market capitalization after a weak earnings report and pivot costs toward the [metaverse].",
+      "about": "It was the largest single-day value destruction for any U.S. company. Zuckerberg blamed Apple iOS privacy changes (ATT) for ad-targeting headwinds and doubled down on Reality Labs spending. The crash signaled that ad-dependent social platforms were vulnerable to privacy [regulation] and that '[metaverse]' bets were not convincing public markets.",
       "narrative": {
         "whyChosen": "Meta's one-day crash was the loudest market signal that privacy changes hurt ad-tech economics.",
-        "whyImportant": "It validated Apple's ATT impact and cooled investor appetite for metaverse spending.",
+        "whyImportant": "It validated Apple's ATT impact and cooled investor appetite for [metaverse] spending.",
         "problemSolved": "Markets repriced social ad businesses after iOS privacy limits reduced targeting precision."
       },
       "category": "culture",

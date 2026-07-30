@@ -6,10 +6,10 @@
       "date": "1943-12",
       "datePrecision": "month",
       "title": "McCulloch and Pitts model artificial neurons",
-      "summary": "Warren McCulloch and Walter Pitts published their 1943 paper modeling neurons as logic gates — the mathematical foundation of artificial neural networks.",
-      "about": "Their McCulloch–Pitts neuron sums weighted inputs and fires above a threshold, implementing AND, OR, and NOT. Modern deep learning stacks billions of descendants of this 1943 abstraction, even though biological neurons are far messier.",
+      "summary": "Warren McCulloch and Walter Pitts published their 1943 paper modeling neurons as logic gates — the mathematical foundation of artificial [neural network]s.",
+      "about": "Their McCulloch–Pitts neuron sums weighted inputs and fires above a threshold, implementing AND, OR, and NOT. Modern [deep learning] stacks billions of descendants of this 1943 abstraction, even though biological neurons are far messier.",
       "narrative": {
-        "whyChosen": "This paper is the origin story of neural networks and computational neuroscience.",
+        "whyChosen": "This paper is the origin story of [neural network]s and computational neuroscience.",
         "whyImportant": "It showed brains and circuits could be described with the same Boolean logic Shannon applied to hardware.",
         "problemSolved": "There was no rigorous model connecting nervous-system activity to computable logic."
       },

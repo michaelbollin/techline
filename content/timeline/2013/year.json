@@ -6,12 +6,12 @@
       "date": "2013",
       "datePrecision": "year",
       "title": "Contentful founded",
-      "summary": "Sascha Konietzke and Paolo Negri founded Contentful in Berlin in 2013 — an API-first headless CMS for delivering content to any channel.",
+      "summary": "Sascha Konietzke and Paolo Negri founded Contentful in Berlin in 2013 — an [API]-first headless CMS for delivering content to any channel.",
       "about": "Contentful stores structured content as JSON via REST and GraphQL APIs — marketers edit in a web app while developers fetch content in React, mobile, or IoT apps. It pioneered the headless CMS category alongside Strapi and Sanity, decoupling content from presentation.",
       "narrative": {
         "whyChosen": "Contentful helped define headless CMS: content as data, not page templates.",
-        "whyImportant": "API-first content delivery enabled omnichannel apps and JAMstack frontends.",
-        "problemSolved": "Traditional CMSs tied content to HTML pages, blocking mobile and multi-platform delivery."
+        "whyImportant": "[API]-first content delivery enabled omnichannel apps and JAMstack frontends.",
+        "problemSolved": "Traditional CMSs tied content to [HTML] pages, blocking mobile and multi-platform delivery."
       },
       "category": "software",
       "tags": [
@@ -54,7 +54,7 @@
       "date": "2013",
       "datePrecision": "year",
       "title": "Prismic founded",
-      "summary": "Sadek Drobi and Guillaume Bort founded Prismic in Paris in 2013 — a SaaS headless CMS with a visual page builder and slice-based content model.",
+      "summary": "Sadek Drobi and Guillaume Bort founded Prismic in Paris in 2013 — a [SaaS] headless CMS with a visual page builder and slice-based content model.",
       "about": "Prismic's Slices let developers define reusable page sections in code while marketers compose layouts visually — integrated with Next.js, Nuxt, and SvelteKit. It became a mainstream headless CMS for marketing sites and landing pages.",
       "narrative": {
         "whyChosen": "Prismic's slice model bridged developer-defined components and marketer-friendly editing.",

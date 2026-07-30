@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy Note 8 released",
       "summary": "Samsung released the Samsung Galaxy Note 8 — dual cameras and S Pen after the Note 7 recall recovery.",
-      "about": "The Galaxy Note targeted stylus power users on Android. Dual cameras and s pen after the note 7 recall recovery. Note apps and split-screen Android development often targeted this hardware class.",
+      "about": "The Galaxy Note targeted stylus power users on [Android]. Dual cameras and s pen after the note 7 recall recovery. Note apps and split-screen [Android] development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note 8 advanced Samsung's stylus phablet line.",
-        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
-        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+        "whyImportant": "Galaxy Note hardware defined large-screen [Android] productivity for years.",
+        "problemSolved": "[Android] lacked a premium large-screen stylus flagship for note-taking workflows."
       },
       "category": "hardware",
       "tags": [
@@ -179,7 +179,7 @@
       "datePrecision": "day",
       "title": "Equifax discloses massive data breach",
       "summary": "Equifax announced on September 7, 2017 that attackers had stolen personal data on 147 million Americans — names, Social Security numbers, and birth dates — via an unpatched Apache Struts flaw.",
-      "about": "The breach exposed credit-bureau data that cannot be rotated like passwords — fueling identity-theft monitoring services and GDPR-style breach-notification debates in the U.S. Developers learned that unpatched Java web frameworks on internet-facing apps could leak half the country's PII; Equifax's CISO and CEO resigned amid congressional hearings.",
+      "about": "The breach exposed credit-bureau data that cannot be rotated like passwords — fueling identity-theft monitoring services and [GDPR]-style breach-notification debates in the U.S. Developers learned that unpatched Java web frameworks on internet-facing apps could leak half the country's PII; Equifax's CISO and CEO resigned amid congressional hearings.",
       "narrative": {
         "whyChosen": "Equifax was the breach that put 147 million SSNs on the dark web.",
         "whyImportant": "It made framework patching and breach disclosure timelines board-level issues.",

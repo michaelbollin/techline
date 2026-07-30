@@ -7,11 +7,11 @@
       "datePrecision": "month",
       "title": "First commercial C++ compiler",
       "summary": "Bjarne Stroustrup shipped Cfront 1.0 in October 1985 — the first commercial C++ compiler translating C++ to C, complementing the language's earlier public definition.",
-      "about": "C++ adds classes and abstraction on top of C while keeping performance. Used for browsers (Chrome), game engines (Unreal), databases, trading systems, and large desktop apps. If you need C speed with OOP, teams still reach for C++.",
+      "about": "C++ adds classes and abstraction on top of C while keeping performance. Used for browsers (Chrome), game engines (Unreal), databases, trading systems, and large desktop apps. If you need C speed with [OOP], teams still reach for C++.",
       "narrative": {
         "whyChosen": "C++ brought object-oriented and systems abstractions to the C ecosystem without breaking its performance model.",
         "whyImportant": "Commercial availability turned 'C with Classes' into a language teams could adopt on real projects.",
-        "problemSolved": "Simula-style OOP existed, but systems programmers needed OOP that compiled down to efficient C."
+        "problemSolved": "[Simula]-style [OOP] existed, but systems programmers needed [OOP] that compiled down to efficient C."
       },
       "category": "software",
       "tags": [
@@ -54,12 +54,12 @@
       "date": "1985-10",
       "datePrecision": "month",
       "title": "FTP standardized",
-      "summary": "RFC 959 defined the File Transfer Protocol in October 1985 — the standard for uploading and downloading files over TCP.",
-      "about": "FTP uses separate control and data connections — clients log in, navigate directories with `CWD` and `LIST`, and transfer files with `RETR`/`STOR`. Though largely replaced by HTTPS and SFTP for security, FTP powered early web hosting, software mirrors, and embedded device updates for decades.",
+      "summary": "RFC 959 defined the File Transfer Protocol in October 1985 — the standard for uploading and downloading files over [TCP].",
+      "about": "FTP uses separate control and data connections — clients log in, navigate directories with `CWD` and `LIST`, and transfer files with `RETR`/`STOR`. Though largely replaced by [HTTPS] and SFTP for security, FTP powered early web hosting, software mirrors, and embedded device updates for decades.",
       "narrative": {
         "whyChosen": "RFC 959 unified decades of ad-hoc file transfer into one interoperable internet protocol.",
         "whyImportant": "FTP was how software, patches, and media moved across the early internet before the web dominated.",
-        "problemSolved": "Every host had incompatible file transfer commands; the internet needed a common client-server file protocol."
+        "problemSolved": "Every host had incompatible file transfer commands; the internet needed a common [client-server] file protocol."
       },
       "category": "protocol",
       "tags": [
@@ -109,10 +109,10 @@
       "datePrecision": "month",
       "title": "Bjarne Stroustrup releases C++",
       "summary": "Bjarne Stroustrup released C++ 1.0 in October 1985 — adding object-oriented features to C for systems programming.",
-      "about": "C++ powers game engines, browsers, databases, and embedded systems — the default when C needs abstraction without garbage collection. Stroustrup's 'C with classes' became one of the most influential language designs ever.",
+      "about": "C++ powers game engines, browsers, databases, and [embedded system]s — the default when C needs abstraction without [garbage collection]. Stroustrup's 'C with classes' became one of the most influential language designs ever.",
       "narrative": {
-        "whyChosen": "C++ defined systems programming with OOP for decades before Rust's rise.",
-        "whyImportant": "It showed zero-cost abstractions could compile to efficient machine code.",
+        "whyChosen": "C++ defined systems programming with [OOP] for decades before Rust's rise.",
+        "whyImportant": "It showed zero-cost abstractions could compile to efficient [machine code].",
         "problemSolved": "C lacked abstraction mechanisms for large simulation and systems codebases at Bell Labs."
       },
       "category": "software",
@@ -160,10 +160,10 @@
       "date": "1985-10",
       "datePrecision": "month",
       "title": "Intel 80386 introduced",
-      "summary": "Intel introduced the 80386 microprocessor in October 1985 — the first 32-bit x86 CPU with protected mode and virtual memory.",
-      "about": "The 386 enabled true multitasking on PCs — Linux and Windows NT targeted it; OS/2 and early Windows 3.x exploited protected mode. Software could address 4 GB of RAM and run multiple programs safely. Every modern x86 desktop and server still carries 386-era architectural DNA in compatibility mode.",
+      "summary": "Intel introduced the 80386 [microprocessor] in October 1985 — the first 32-bit x86 [CPU] with protected mode and virtual memory.",
+      "about": "The 386 enabled true multitasking on PCs — Linux and Windows NT targeted it; [OS]/2 and early Windows 3.x exploited protected mode. Software could address 4 GB of [RAM] and run multiple programs safely. Every modern x86 desktop and server still carries 386-era architectural DNA in compatibility mode.",
       "narrative": {
-        "whyChosen": "The 80386 was the chip that made 32-bit personal computing and modern OS design practical on x86.",
+        "whyChosen": "The 80386 was the chip that made 32-bit personal computing and modern [OS] design practical on x86.",
         "whyImportant": "It unlocked protected-mode operating systems and set the x86 baseline for decades.",
         "problemSolved": "16-bit x86 could not efficiently run multitasking OSes with large address spaces."
       },
@@ -219,9 +219,9 @@
       "datePrecision": "month",
       "title": "Warez scene group Razor 1911 founded",
       "summary": "The software cracking group Razor 1911 formed in October 1985 — one of the oldest and most prolific teams in the warez and demoscene underground.",
-      "about": "Razor 1911 shipped cracked games and applications with branded ASCII art intros and .NFO files — a template every scene release followed. Their competition with groups like Fairlight and CLASS drove faster cracks, tougher DRM battles, and the BBS/FTP topsite infrastructure that preceded BitTorrent piracy.",
+      "about": "Razor 1911 shipped cracked games and applications with branded [ASCII] art intros and .NFO files — a template every scene release followed. Their competition with groups like Fairlight and CLASS drove faster cracks, tougher DRM battles, and the BBS/FTP topsite infrastructure that preceded BitTorrent piracy.",
       "narrative": {
-        "whyChosen": "Razor 1911 is the most storied name in PC warez and game-cracking history.",
+        "whyChosen": "Razor 1911 is the most storied name in [PC] warez and game-cracking history.",
         "whyImportant": "Scene release standards (.NFO, crack intros, topsites) influenced how underground software distribution organized.",
         "problemSolved": "This was illicit distribution — it exposed how copy protection motivated an parallel reverse-engineering economy."
       },
@@ -268,12 +268,12 @@
       "date": "1985-10-04",
       "datePrecision": "day",
       "title": "Richard Stallman founds FSF",
-      "summary": "Richard Stallman founded the Free Software Foundation on October 4, 1985 — the nonprofit behind GNU and the GPL.",
-      "about": "The FSF funded GNU tool development and defended copyleft licenses — anchoring the free software movement legally and institutionally beyond Stallman's manifesto.",
+      "summary": "Richard Stallman founded the [Free Software] Foundation on October 4, 1985 — the nonprofit behind GNU and the [GPL].",
+      "about": "The FSF funded GNU tool development and defended [copyleft] licenses — anchoring the [free software] movement legally and institutionally beyond Stallman's manifesto.",
       "narrative": {
-        "whyChosen": "The FSF gave the free software movement durable organizational backing.",
-        "whyImportant": "It sustained GNU development and GPL enforcement for decades.",
-        "problemSolved": "Individual activists could not maintain large free software projects alone."
+        "whyChosen": "The FSF gave the [free software] movement durable organizational backing.",
+        "whyImportant": "It sustained GNU development and [GPL] enforcement for decades.",
+        "problemSolved": "Individual activists could not maintain large [free software] projects alone."
       },
       "category": "culture",
       "tags": [

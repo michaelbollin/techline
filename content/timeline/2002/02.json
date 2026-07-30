@@ -6,8 +6,8 @@
       "date": "2002-02-13",
       "datePrecision": "day",
       "title": "Visual Basic .NET released with .NET Framework",
-      "summary": "Microsoft launched Visual Basic .NET and the .NET Framework at VSLive! on February 13, 2002 — a full OOP rewrite for the CLR.",
-      "about": "VB.NET kept Basic's readable syntax but compiled to the same Common Language Runtime as C# — garbage collection, generics (later), and full .NET libraries. Enterprise teams migrated millions of VB6 desktop apps to managed Windows and ASP.NET web services. Unity and Xamarin later shared the same CLR ecosystem.",
+      "summary": "Microsoft launched Visual Basic .NET and the .NET Framework at VSLive! on February 13, 2002 — a full [OOP] rewrite for the CLR.",
+      "about": "VB.NET kept Basic's readable syntax but compiled to the same Common Language Runtime as C# — [garbage collection], generics (later), and full .NET libraries. Enterprise teams migrated millions of VB6 desktop apps to managed Windows and ASP.NET web services. Unity and Xamarin later shared the same CLR ecosystem.",
       "narrative": {
         "whyChosen": "VB.NET carried the world's largest RAD developer base into the managed .NET era.",
         "whyImportant": "It proved Microsoft could modernize a beloved language without abandoning its audience — even through a painful VB6 migration.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "ASP.NET 1.0 launched with Visual Studio .NET",
       "summary": "Microsoft launched ASP.NET 1.0 on February 13, 2002 — managed web pages on the .NET Framework, replacing classic ASP.",
-      "about": "ASP.NET brought Web Forms, code-behind, and server controls to Microsoft web development — drag-and-drop UI like VB, compiled C# or VB.NET instead of VBScript. It powered enterprise intranets, line-of-business portals, and early SaaS on Windows Server before MVC and Core reshaped the stack.",
+      "about": "ASP.NET brought Web Forms, code-behind, and server controls to Microsoft web development — drag-and-drop [UI] like VB, compiled C# or VB.NET instead of VBScript. It powered enterprise intranets, line-of-business portals, and early SaaS on Windows Server before MVC and Core reshaped the stack.",
       "narrative": {
         "whyChosen": "ASP.NET was Microsoft's answer to Java servlets/JSP and became the default stack for Windows-hosted web apps.",
         "whyImportant": "It proved managed code could replace COM-based ASP for high-traffic business websites.",

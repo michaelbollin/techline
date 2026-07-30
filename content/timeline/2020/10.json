@@ -53,12 +53,12 @@
       "date": "2020-10-15",
       "datePrecision": "day",
       "title": "Google Pixel 5 released",
-      "summary": "Google began selling the Google Pixel 5 — mid-range pivot with wireless charging in aluminum body.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Mid-range pivot with wireless charging in aluminum body. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 5 — mid-range pivot with wireless charging in aluminum body.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Mid-range pivot with wireless charging in aluminum body. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 5 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 5 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [
@@ -112,7 +112,7 @@
       "datePrecision": "day",
       "title": "iPhone 12 released",
       "summary": "Apple began selling the iPhone 12 on October 23, 2020 — 5G, flat-edge design, and MagSafe accessories.",
-      "about": "5G connectivity changed how developers thought about mobile bandwidth; MagSafe created a new accessory and charging API ecosystem. The flat design returned to a form factor reminiscent of iPhone 4/5 industrial design.",
+      "about": "5G connectivity changed how developers thought about mobile bandwidth; MagSafe created a new accessory and charging [API] ecosystem. The flat design returned to a form factor reminiscent of iPhone 4/5 industrial design.",
       "narrative": {
         "whyChosen": "The iPhone 12 brought 5G and MagSafe to the mainstream iPhone line.",
         "whyImportant": "5G and magnetic accessory attachment opened new mobile hardware interaction patterns.",

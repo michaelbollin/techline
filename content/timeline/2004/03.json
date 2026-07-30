@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Spring Framework 1.0 released",
       "summary": "On March 24, 2004, Rod Johnson's team shipped Spring Framework 1.0 — a lighter way to build Java web and enterprise apps.",
-      "about": "Spring replaced heavy application-server requirements with plain Java classes, automatic wiring of components, and modular configuration. It powers REST APIs, microservices (via Spring Boot), batch jobs, and banking backends. Spring Boot later made running a Java web service as simple as launching a single file.",
+      "about": "Spring replaced heavy application-server requirements with plain Java classes, automatic wiring of components, and modular configuration. It powers [REST] APIs, microservices (via Spring Boot), batch jobs, and banking backends. Spring Boot later made running a Java web service as simple as launching a single file.",
       "narrative": {
         "whyChosen": "Spring became the default Java enterprise stack and influenced how apps are structured across the industry.",
         "whyImportant": "It proved Java apps could be modular and testable without bulky enterprise server containers.",
@@ -58,12 +58,12 @@
       "date": "2004-03-14",
       "datePrecision": "day",
       "title": "RubyGems released",
-      "summary": "Chad Fowler, Jim Weirich, and collaborators released RubyGems on March 14, 2004 — a standard package format and `gem` command for Ruby libraries.",
-      "about": "RubyGems packages code as gems with versioned dependencies — `gem install rails` pulls transitive libraries from rubygems.org. It enabled the Rails ecosystem, Capistrano deploys, and thousands of reusable Ruby libraries. Bundler later layered lockfiles on top, but RubyGems remains the foundation every `Gemfile` resolves against.",
+      "summary": "Chad Fowler, Jim Weirich, and collaborators released RubyGems on March 14, 2004 — a standard package format and `gem` command for [Ruby] libraries.",
+      "about": "RubyGems packages code as gems with versioned dependencies — `gem install rails` pulls transitive libraries from rubygems.org. It enabled the Rails ecosystem, Capistrano deploys, and thousands of reusable [Ruby] libraries. Bundler later layered lockfiles on top, but RubyGems remains the foundation every `Gemfile` resolves against.",
       "narrative": {
-        "whyChosen": "RubyGems gave Ruby a standard package manager years before it shipped with the language.",
+        "whyChosen": "RubyGems gave [Ruby] a standard package manager years before it shipped with the language.",
         "whyImportant": "It unlocked reusable library distribution and made Rails' gem-based ecosystem possible.",
-        "problemSolved": "Ruby developers manually vendored libraries with no central registry or dependency resolution."
+        "problemSolved": "[Ruby] developers manually vendored libraries with no central registry or dependency resolution."
       },
       "category": "software",
       "tags": [
@@ -110,7 +110,7 @@
       "datePrecision": "day",
       "title": "Atlassian Confluence 1.0 released",
       "summary": "Atlassian released Confluence 1.0 on March 25, 2004 — a team wiki for documentation, specs, and runbooks alongside Jira tickets.",
-      "about": "Confluence became where engineering teams wrote RFCs, onboarding docs, and postmortems — linked from Jira issues and Bitbucket PRs. Its WYSIWYG editor and page permissions made internal wikis approachable before Notion; many enterprises still treat Confluence as the system of record for technical knowledge.",
+      "about": "Confluence became where engineering teams wrote RFCs, onboarding docs, and postmortems — linked from Jira issues and Bitbucket PRs. Its [WYSIWYG] editor and page permissions made internal wikis approachable before Notion; many enterprises still treat Confluence as the system of record for technical knowledge.",
       "narrative": {
         "whyChosen": "Confluence paired with Jira to own engineering documentation and ticketing.",
         "whyImportant": "It standardized internal wikis for specs, runbooks, and retrospectives.",

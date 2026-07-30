@@ -6,12 +6,12 @@
       "date": "1997-12-04",
       "datePrecision": "day",
       "title": "Fortran 95 standardized",
-      "summary": "In December 1997, the Fortran 95 standard was published — a refinement of Fortran 90 that made scientific code easier for compilers to optimize.",
-      "about": "Fortran 95 tightened array features and added rules for functions with no side effects — helping compilers run scientific loops faster on supercomputers. Many legacy high-performance codes still target this dialect. Core numerical libraries assume Fortran 95 semantics.",
+      "summary": "In December 1997, the [Fortran] 95 standard was published — a refinement of [Fortran] 90 that made scientific code easier for compilers to optimize.",
+      "about": "[Fortran] 95 tightened array features and added rules for functions with no side effects — helping compilers run scientific loops faster on supercomputers. Many legacy high-performance codes still target this dialect. Core numerical libraries assume [Fortran] 95 semantics.",
       "narrative": {
-        "whyChosen": "Fortran 95 is the stable baseline many compilers and numerical libraries standardized on before later Fortran revisions.",
-        "whyImportant": "Side-effect-free functions and improved array rules let supercomputer compilers squeeze more speed from weather, physics, and engineering simulations.",
-        "problemSolved": "Fortran 90 left gaps that made it hard for compilers to safely optimize large numerical loops."
+        "whyChosen": "[Fortran] 95 is the stable baseline many compilers and numerical libraries standardized on before later [Fortran] revisions.",
+        "whyImportant": "Side-effect-free functions and improved array rules let [supercomputer] compilers squeeze more speed from weather, physics, and engineering simulations.",
+        "problemSolved": "[Fortran] 90 left gaps that made it hard for compilers to safely optimize large numerical loops."
       },
       "category": "software",
       "tags": [
@@ -52,12 +52,12 @@
       "date": "1997-12-08",
       "datePrecision": "day",
       "title": "Macromedia Dreamweaver 1.0 released",
-      "summary": "Macromedia shipped Dreamweaver 1.0 on December 8, 1997 — a visual web authoring tool that combined WYSIWYG layout with direct HTML editing.",
-      "about": "Dreamweaver let designers switch between Design and Code views, manage sites, and preview dynamic HTML — bundled with BBEdit on Mac and HomeSite on Windows. It dominated late-1990s and 2000s web design before WordPress and hand-coded workflows, and later lived on under Adobe after the 2005 acquisition.",
+      "summary": "Macromedia shipped Dreamweaver 1.0 on December 8, 1997 — a visual web authoring tool that combined [WYSIWYG] layout with direct [HTML] editing.",
+      "about": "Dreamweaver let designers switch between Design and Code views, manage sites, and preview dynamic [HTML] — bundled with BBEdit on Mac and HomeSite on Windows. It dominated late-1990s and 2000s web design before WordPress and hand-coded workflows, and later lived on under Adobe after the 2005 acquisition.",
       "narrative": {
         "whyChosen": "Dreamweaver defined professional visual web authoring before modern component frameworks.",
-        "whyImportant": "It proved designers wanted WYSIWYG and source control in one tool, not either/or.",
-        "problemSolved": "Teams building table-layout sites needed visual tools without giving up HTML access."
+        "whyImportant": "It proved designers wanted [WYSIWYG] and source control in one tool, not either/or.",
+        "problemSolved": "Teams building table-layout sites needed visual tools without giving up [HTML] access."
       },
       "category": "software",
       "tags": [

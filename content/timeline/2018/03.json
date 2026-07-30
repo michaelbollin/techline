@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Spring Boot 2.0 released",
       "summary": "Pivotal released Spring Boot 2.0 on March 1, 2018 — adding reactive WebFlux, Java 8 baseline, and Spring Framework 5 support.",
-      "about": "Spring Boot 2.0 brought non-blocking Netty servers, Micrometer metrics, and HTTP/2 defaults — the stack teams used for microservices through the late 2010s. It aligned with Spring 5's reactive programming story while keeping the `java -jar` simplicity that made Boot popular.",
+      "about": "Spring Boot 2.0 brought non-blocking Netty servers, Micrometer metrics, and [HTTP]/2 defaults — the stack teams used for microservices through the late 2010s. It aligned with Spring 5's reactive programming story while keeping the `java -jar` simplicity that made Boot popular.",
       "narrative": {
         "whyChosen": "Spring Boot 2.0 made reactive Java microservices production-viable.",
         "whyImportant": "WebFlux and Micrometer integrated observability and async I/O into the default Boot stack.",
@@ -55,11 +55,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S9 released",
       "summary": "Samsung began selling the Samsung Galaxy S9 — variable aperture camera and AR Emoji — iterative S-line update.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Variable aperture camera and ar emoji — iterative s-line update. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Variable aperture camera and ar emoji — iterative s-line update. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S9 continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S9 continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [
@@ -114,10 +114,10 @@
       "datePrecision": "day",
       "title": "Facebook suspends Cambridge Analytica",
       "summary": "Facebook suspended Cambridge Analytica and its parent on March 17, 2018 — after reports that up to 87 million users' data had been harvested via a personality quiz app and used for political targeting.",
-      "about": "The scandal triggered FTC investigations, congressional hearings, and a $5 billion FTC fine. Developers faced stricter App Review, OAuth scope limits, and platform API lockdowns — the end of the permissive Facebook Platform era. It accelerated GDPR enforcement mindshare and made 'data ethics' a product requirement for any app touching social graphs.",
+      "about": "The scandal triggered FTC investigations, congressional hearings, and a $5 billion FTC fine. Developers faced stricter App Review, OAuth scope limits, and platform [API] lockdowns — the end of the permissive Facebook Platform era. It accelerated GDPR enforcement mindshare and made 'data ethics' a product requirement for any app touching social graphs.",
       "narrative": {
         "whyChosen": "Cambridge Analytica ended the era of permissive social platform APIs.",
-        "whyImportant": "It triggered API lockdowns that reshaped how apps integrate with Facebook and other social graphs.",
+        "whyImportant": "It triggered [API] lockdowns that reshaped how apps integrate with Facebook and other social graphs.",
         "problemSolved": "Users had no visibility into how quiz apps exfiltrated friend-network data to political consultancies."
       },
       "category": "culture",

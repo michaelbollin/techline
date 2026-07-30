@@ -6,10 +6,10 @@
       "date": "2022-05-17",
       "datePrecision": "day",
       "title": "Erlang/OTP 25 released",
-      "summary": "The Erlang/OTP team released OTP 25 on May 17, 2022 with improved JIT performance, SSL updates, and enhanced documentation tooling.",
-      "about": "OTP 25 built on the JIT introduced in OTP 24 — speeding Elixir and Erlang workloads on multi-core servers. Updated crypto libraries and socket APIs kept BEAM applications compliant for messaging, fintech, and telecom systems.",
+      "summary": "The Erlang/OTP team released OTP 25 on May 17, 2022 with improved [JIT] performance, SSL updates, and enhanced documentation tooling.",
+      "about": "OTP 25 built on the [JIT] introduced in OTP 24 — speeding Elixir and Erlang workloads on multi-core servers. Updated crypto libraries and socket APIs kept BEAM applications compliant for messaging, fintech, and telecom systems.",
       "narrative": {
-        "whyChosen": "OTP 25 refined the JIT and tooling that power Elixir's production ecosystem.",
+        "whyChosen": "OTP 25 refined the [JIT] and tooling that power Elixir's production ecosystem.",
         "whyImportant": "Incremental VM gains benefited every Phoenix and RabbitMQ deployment on BEAM.",
         "problemSolved": "Teams on OTP 24 needed security updates and compiler improvements without a breaking migration."
       },
@@ -103,11 +103,11 @@
       "date": "2022-05-09",
       "datePrecision": "day",
       "title": "TerraUSD stablecoin loses dollar peg",
-      "summary": "The algorithmic stablecoin TerraUSD (UST) broke its $1 peg on May 9, 2022 — collapsing the Terra/Luna ecosystem and erasing tens of billions in crypto market value within days.",
-      "about": "UST relied on arbitrage with sister token Luna to maintain its peg; a death spiral wiped out retail savings, venture funds, and the credibility of algorithmic stablecoins. Exchanges delisted Luna, regulators accelerated stablecoin legislation, and DeFi developers refocused on collateralized and fiat-backed designs over reflexive tokenomics.",
+      "summary": "The algorithmic [stablecoin] TerraUSD (UST) broke its $1 peg on May 9, 2022 — collapsing the Terra/Luna ecosystem and erasing tens of billions in crypto market value within days.",
+      "about": "UST relied on arbitrage with sister token Luna to maintain its peg; a death spiral wiped out retail savings, venture funds, and the credibility of algorithmic stablecoins. Exchanges delisted Luna, regulators accelerated [stablecoin] legislation, and [DeFi] developers refocused on collateralized and fiat-backed designs over reflexive tokenomics.",
       "narrative": {
         "whyChosen": "Terra/Luna was the defining crypto blow-up of 2022 before FTX.",
-        "whyImportant": "It ended the algorithmic-stablecoin experiment for mainstream finance and triggered regulatory urgency.",
+        "whyImportant": "It ended the algorithmic-[stablecoin] experiment for mainstream finance and triggered regulatory urgency.",
         "problemSolved": "Markets needed to price the risk that 'stable' tokens without full reserves could depeg catastrophically."
       },
       "category": "culture",

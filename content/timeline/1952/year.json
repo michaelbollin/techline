@@ -6,11 +6,11 @@
       "date": "1952",
       "datePrecision": "year",
       "title": "Grace Hopper's A-0 automatic programming system",
-      "summary": "Grace Hopper's A-0 system at Remington Rand in 1952 linked subroutines into machine code — one of the first programs called a compiler and a step toward high-level languages.",
-      "about": "A-0 let programmers specify a sequence of subroutines and arguments instead of hand-coding every machine instruction. Hopper coined the term compiler for the tool; her 1952 ACM talk 'The Education of a Computer' spread the idea that machines could translate symbolic programs — paving the road to FLOW-MATIC and COBOL.",
+      "summary": "Grace Hopper's A-0 system at Remington Rand in 1952 linked subroutines into [machine code] — one of the first programs called a compiler and a step toward [high-level language]s.",
+      "about": "A-0 let programmers specify a sequence of subroutines and arguments instead of hand-coding every machine instruction. Hopper coined the term compiler for the tool; her 1952 ACM talk 'The Education of a Computer' spread the idea that machines could translate symbolic programs — paving the road to FLOW-MATIC and [COBOL].",
       "narrative": {
         "whyChosen": "Hopper's A-0 system pioneered automatic programming on commercial hardware.",
-        "whyImportant": "It demonstrated that programmers could work above raw machine code.",
+        "whyImportant": "It demonstrated that programmers could work above raw [machine code].",
         "problemSolved": "Every program rewrite required tedious hand translation to machine instructions."
       },
       "category": "software",

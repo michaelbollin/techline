@@ -6,8 +6,8 @@
       "date": "2004-02-23",
       "datePrecision": "day",
       "title": "Subversion 1.0 released",
-      "summary": "CollabNet shipped Subversion 1.0 on February 23, 2004 — a centralized version control system designed to replace CVS.",
-      "about": "Subversion (SVN) tracks file history with atomic commits, cheap branching, and real directory versioning — fixes CVS lacked. It powered thousands of corporate repos and open-source projects through the 2000s before Git won mindshare. Typical workflow: `svn checkout`, edit, `svn commit` to a central server.",
+      "summary": "CollabNet shipped [Subversion] 1.0 on February 23, 2004 — a centralized version control system designed to replace CVS.",
+      "about": "[Subversion] (SVN) tracks file history with atomic commits, cheap branching, and real directory versioning — fixes CVS lacked. It powered thousands of corporate repos and open-source projects through the 2000s before Git won mindshare. Typical workflow: `svn checkout`, edit, `svn commit` to a central server.",
       "narrative": {
         "whyChosen": "SVN was the mainstream upgrade path from CVS for a decade of professional development.",
         "whyImportant": "It proved centralized VCS could be fixed without going fully distributed like Git.",
@@ -54,9 +54,9 @@
       "datePrecision": "day",
       "title": "Basecamp project management launched",
       "summary": "37signals (now Basecamp) launched Basecamp on February 4, 2004 — a web-based project tool with to-do lists, message boards, and milestones.",
-      "about": "Basecamp proved small teams could run projects in the browser without Microsoft Project — and its internals became Ruby on Rails. It influenced a generation of simple, opinionated SaaS: less feature bloat, more async communication. Trello, Asana, and Notion all inherited its 'get work out of email' DNA.",
+      "about": "Basecamp proved small teams could run projects in the browser without Microsoft Project — and its internals became Ruby on Rails. It influenced a generation of simple, opinionated [SaaS]: less feature bloat, more async communication. Trello, Asana, and Notion all inherited its 'get work out of email' DNA.",
       "narrative": {
-        "whyChosen": "Basecamp was the project tool that spawned Rails and shaped modern web SaaS.",
+        "whyChosen": "Basecamp was the project tool that spawned Rails and shaped modern web [SaaS].",
         "whyImportant": "It made lightweight PM normal for remote software teams.",
         "problemSolved": "Email threads and spreadsheets could not coordinate distributed project work."
       },

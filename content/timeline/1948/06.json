@@ -6,11 +6,11 @@
       "date": "1948-06-21",
       "datePrecision": "day",
       "title": "Manchester Baby runs first stored program",
-      "summary": "The Manchester Small-Scale Experimental Machine ran its first program on June 21, 1948 — the first program executed on an electronic stored-program computer.",
+      "summary": "The Manchester Small-Scale Experimental Machine ran its first program on June 21, 1948 — the first program executed on an electronic [stored-program] computer.",
       "about": "Frederic Williams, Tom Kilburn, and Geoff Toothill built the Baby to test Williams tubes — a cathode-ray-tube memory. Kilburn's 17-instruction program proved instructions and data could live in the same electronic store, the model every computer uses today.",
       "narrative": {
         "whyChosen": "The Baby was the first machine to run a program stored in electronic memory.",
-        "whyImportant": "It validated stored-program architecture before EDSAC and commercial computers.",
+        "whyImportant": "It validated [stored-program] architecture before EDSAC and commercial computers.",
         "problemSolved": "Researchers needed proof that electronic memory could hold both code and data for rewritable programs."
       },
       "category": "invention",

@@ -6,12 +6,12 @@
       "date": "2023-10-02",
       "datePrecision": "day",
       "title": "Python 3.12 released",
-      "summary": "Python 3.12 arrived on October 2, 2023 with f-string improvements, per-interpreter GIL work, and faster comprehensions.",
-      "about": "Python 3.12 refined f-string parsing (PEP 701), per-interpreter GIL work, and faster comprehensions. The per-interpreter GIL laid groundwork for better multi-core Python — relevant for AI training scripts and web workers.",
+      "summary": "[Python] 3.12 arrived on October 2, 2023 with f-string improvements, per-interpreter GIL work, and faster comprehensions.",
+      "about": "[Python] 3.12 refined f-string parsing (PEP 701), per-interpreter GIL work, and faster comprehensions. The per-interpreter GIL laid groundwork for better multi-core [Python] — relevant for AI training scripts and web workers.",
       "narrative": {
-        "whyChosen": "3.12 kept Python's annual improvement cadence while prepping multicore evolution.",
-        "whyImportant": "Incremental speed and syntax polish matter at Python's massive scale.",
-        "problemSolved": "Developers wanted safer f-strings and faster startup without waiting for Python 4."
+        "whyChosen": "3.12 kept [Python]'s annual improvement cadence while prepping multicore evolution.",
+        "whyImportant": "Incremental speed and syntax polish matter at [Python]'s massive scale.",
+        "problemSolved": "Developers wanted safer f-strings and faster startup without waiting for [Python] 4."
       },
       "category": "software",
       "tags": [
@@ -50,7 +50,7 @@
       "date": "2023-10-12",
       "datePrecision": "day",
       "title": "Google Pixel 8 released",
-      "summary": "Google began selling the Google Pixel 8 — Tensor G3 with seven years of OS updates promised.",
+      "summary": "Google began selling the Google Pixel 8 — Tensor G3 with seven years of [OS] updates promised.",
       "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g3 with seven years of os updates promised. AOSP builds and CTS testing often used Pixel devices as the baseline.",
       "narrative": {
         "whyChosen": "The Google Pixel 8 was a flagship Google Android reference device.",

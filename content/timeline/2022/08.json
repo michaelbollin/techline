@@ -10,7 +10,7 @@
       "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. Snapdragon 8+ gen 1 and improved multitasking on foldables.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Z Fold 4 pushed foldable Android hardware into the mainstream.",
-        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "whyImportant": "Foldable form factors require adaptive [UI] patterns beyond fixed phone screens.",
         "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
       },
       "category": "hardware",
@@ -64,7 +64,7 @@
       "date": "2022-08-09",
       "datePrecision": "day",
       "title": "U.S. CHIPS and Science Act signed into law",
-      "summary": "President Biden signed the CHIPS and Science Act on August 9, 2022 — allocating $52 billion in subsidies to rebuild domestic semiconductor manufacturing and fund advanced chip R&D.",
+      "summary": "President Biden signed the CHIPS and Science Act on August 9, 2022 — allocating $52 billion in subsidies to rebuild domestic [semiconductor] manufacturing and fund advanced chip R&D.",
       "about": "The act responded to pandemic chip shortages and geopolitical dependence on Asian fabs. Intel, TSMC, and Samsung announced U.S. fab projects; developers felt the impact through supply-chain stability and renewed government investment in quantum, AI, and advanced packaging — reshaping hardware roadmaps for datacenters and edge devices.",
       "narrative": {
         "whyChosen": "CHIPS was the largest U.S. industrial policy bet on semiconductors in a generation.",

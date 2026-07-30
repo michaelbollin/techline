@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Rust 1.0 released",
       "summary": "The Rust core team shipped Rust 1.0 on May 15, 2015 — a systems language with ownership-based memory safety.",
-      "about": "Rust gives C/C++ performance without garbage collection — the borrow checker prevents use-after-free and data races at compile time. Used in Firefox's Servo engine, Linux kernel modules, Cloudflare, Discord, and WASM runtimes. Teams pick Rust when safety and speed both matter and GC is unacceptable.",
+      "about": "Rust gives C/C++ performance without [garbage collection] — the borrow checker prevents use-after-free and data races at compile time. Used in Firefox's Servo engine, Linux [kernel] modules, Cloudflare, Discord, and WASM runtimes. Teams pick Rust when safety and speed both matter and GC is unacceptable.",
       "narrative": {
         "whyChosen": "Rust 1.0 promised stability after years of public iteration — a new option for memory-safe systems code.",
         "whyImportant": "Ownership and borrowing influenced how the industry thinks about safe concurrency without a runtime.",
@@ -53,12 +53,12 @@
       "date": "2015-05-15",
       "datePrecision": "day",
       "title": "Cargo 1.0 released",
-      "summary": "Cargo 1.0 shipped with Rust 1.0 on May 15, 2015 — the official package manager and build tool for the Rust ecosystem.",
-      "about": "Cargo builds projects, resolves dependencies from crates.io, and publishes semver-versioned crates — `cargo new`, `cargo build`, `cargo test`, and `cargo publish` are the Rust workflow. Lockfiles ensure reproducible builds. Example: add `serde = \"1.0\"` to `Cargo.toml` and Cargo fetches compatible releases automatically.",
+      "summary": "Cargo 1.0 shipped with [Rust] 1.0 on May 15, 2015 — the official package manager and build tool for the [Rust] ecosystem.",
+      "about": "Cargo builds projects, resolves dependencies from crates.io, and publishes semver-versioned crates — `cargo new`, `cargo build`, `cargo test`, and `cargo publish` are the [Rust] workflow. Lockfiles ensure reproducible builds. Example: add `serde = \"1.0\"` to `Cargo.toml` and Cargo fetches compatible releases automatically.",
       "narrative": {
-        "whyChosen": "Stable Cargo arrived with Rust 1.0, making the language production-ready end-to-end.",
-        "whyImportant": "It gave Rust a first-class package ecosystem modeled on npm and Bundler but with stronger build integration.",
-        "problemSolved": "Rust needed a unified tool for dependencies, builds, tests, and publishing — not ad-hoc makefiles."
+        "whyChosen": "Stable Cargo arrived with [Rust] 1.0, making the language production-ready end-to-end.",
+        "whyImportant": "It gave [Rust] a first-class package ecosystem modeled on npm and Bundler but with stronger build integration.",
+        "problemSolved": "[Rust] needed a unified tool for dependencies, builds, tests, and publishing — not ad-hoc makefiles."
       },
       "category": "software",
       "tags": [
@@ -103,12 +103,12 @@
       "date": "2015-05-14",
       "datePrecision": "day",
       "title": "HTTP/2 standardized",
-      "summary": "RFC 7540 published HTTP/2 on May 14, 2015 — multiplexed requests, header compression, and server push over a single TCP connection.",
-      "about": "HTTP/2 evolved from Google's SPDY protocol — browsers and CDNs adopted it to cut page load latency. Multiple requests share one connection without head-of-line blocking at the HTTP layer; HPACK compresses headers. gRPC and many APIs run over HTTP/2 today. Example: a page loading dozens of assets in parallel on one TLS connection to the origin.",
+      "summary": "RFC 7540 published [HTTP]/2 on May 14, 2015 — multiplexed requests, header compression, and server push over a single [TCP] connection.",
+      "about": "[HTTP]/2 evolved from Google's SPDY protocol — browsers and CDNs adopted it to cut page load latency. Multiple requests share one connection without head-of-line blocking at the [HTTP] layer; HPACK compresses headers. gRPC and many APIs run over [HTTP]/2 today. Example: a page loading dozens of assets in parallel on one [TLS] connection to the origin.",
       "narrative": {
-        "whyChosen": "HTTP/2 was the first major HTTP revision since 1.1 and addressed real-world web performance bottlenecks.",
-        "whyImportant": "It made multiplexing and header compression standard, paving the way for HTTP/3 over QUIC.",
-        "problemSolved": "HTTP/1.1's one-request-per-connection model caused latency and inefficient use of modern networks."
+        "whyChosen": "[HTTP]/2 was the first major [HTTP] revision since 1.1 and addressed real-world web performance bottlenecks.",
+        "whyImportant": "It made multiplexing and header compression standard, paving the way for [HTTP]/3 over QUIC.",
+        "problemSolved": "[HTTP]/1.1's one-request-per-connection model caused latency and inefficient use of modern networks."
       },
       "category": "protocol",
       "tags": [
@@ -153,12 +153,12 @@
       "date": "2015-05",
       "datePrecision": "month",
       "title": "JWT standardized",
-      "summary": "RFC 7519 defined JSON Web Tokens in May 2015 — a compact, URL-safe format for signed claims between services.",
+      "summary": "RFC 7519 defined JSON Web Tokens in May 2015 — a compact, [URL]-safe format for signed claims between services.",
       "about": "JWTs encode JSON claims in a three-part base64 string: header, payload, signature. APIs issue them after login; clients send `Authorization: Bearer <token>` on later requests. Used with OAuth 2.0, OpenID Connect, and microservice auth — though teams must validate signatures, expiry, and audience carefully.",
       "narrative": {
-        "whyChosen": "JWT became the default wire format for stateless API authentication after OAuth took off.",
+        "whyChosen": "JWT became the default wire format for stateless [API] authentication after OAuth took off.",
         "whyImportant": "It standardized how services pass identity and permissions without server-side sessions.",
-        "problemSolved": "Every API invented its own opaque token format; clients and gateways needed a portable standard."
+        "problemSolved": "Every [API] invented its own opaque token format; clients and gateways needed a portable standard."
       },
       "category": "protocol",
       "tags": [
@@ -262,9 +262,9 @@
       "datePrecision": "day",
       "title": "Shopify IPO",
       "summary": "Shopify went public on the NYSE on May 21, 2015 — raising $131 million and trading under ticker SHOP.",
-      "about": "The IPO validated hosted e-commerce as a massive market — Shopify had grown from a snowboard shop side project to a platform powering hundreds of thousands of merchants. Public capital funded payments, POS, and fulfillment products that extended beyond online storefronts.",
+      "about": "The [IPO] validated hosted e-commerce as a massive market — Shopify had grown from a snowboard shop side project to a platform powering hundreds of thousands of merchants. Public capital funded payments, POS, and fulfillment products that extended beyond online storefronts.",
       "narrative": {
-        "whyChosen": "Shopify's IPO marked hosted e-commerce as a mainstream public-market category.",
+        "whyChosen": "Shopify's [IPO] marked hosted e-commerce as a mainstream public-market category.",
         "whyImportant": "It funded expansion into payments and omnichannel retail infrastructure.",
         "problemSolved": "Merchants needed a scalable platform backed by public capital, not just venture funding."
       },
@@ -361,7 +361,7 @@
       "about": "Discord servers replaced IRC and TeamSpeak for millions of users — bots, webhooks, and stage channels extended it beyond gaming into study groups, crypto communities, and eng-team social rooms. Its Electron client and low-latency voice made it the informal complement to Slack's workplace formality.",
       "narrative": {
         "whyChosen": "Discord became the default community chat layer for developers and gamers alike.",
-        "whyImportant": "Free servers and voice channels scaled grassroots communities without corporate IT.",
+        "whyImportant": "Free servers and voice channels scaled grassroots communities without corporate [IT].",
         "problemSolved": "Open-source projects and friend groups needed persistent chat without enterprise Slack pricing."
       },
       "category": "software",

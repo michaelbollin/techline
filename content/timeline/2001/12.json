@@ -6,7 +6,7 @@
       "date": "2001-12-02",
       "datePrecision": "day",
       "title": "Enron files for bankruptcy",
-      "summary": "Enron filed for Chapter 11 bankruptcy on December 2, 2001 — the largest corporate bankruptcy in U.S. history at the time, after accounting fraud collapsed a company that had traded bandwidth and energy derivatives.",
+      "summary": "Enron filed for Chapter 11 [bankruptcy] on December 2, 2001 — the largest corporate [bankruptcy] in U.S. history at the time, after accounting fraud collapsed a company that had traded bandwidth and energy derivatives.",
       "about": "Enron had been a symbol of the new economy — broadband trading desks, exotic derivatives, and a culture of aggressive growth. Its collapse destroyed auditor Arthur Andersen's reputation, wiped out employee 401(k)s, and directly led to Sarbanes-Oxley. Telecom and energy startups that had modeled themselves on Enron's 'asset-light' playbook lost investor confidence overnight.",
       "narrative": {
         "whyChosen": "Enron's fraud was the accounting scandal that made SOX inevitable for public tech companies.",

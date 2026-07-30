@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "GPT-5 unified OpenAI's fragmented model picker into one flagship system.",
         "whyImportant": "Automatic reasoning routing made frontier intelligence the default, not a power-user toggle.",
-        "problemSolved": "Users faced confusing choices between GPT-4.x, o-series, and API-only models."
+        "problemSolved": "Users faced confusing choices between GPT-4.x, o-series, and [API]-only models."
       },
       "category": "software",
       "tags": [

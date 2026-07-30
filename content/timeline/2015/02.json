@@ -6,11 +6,11 @@
       "date": "2015-02",
       "datePrecision": "month",
       "title": "Raspberry Pi 2 released",
-      "summary": "The Raspberry Pi Foundation released the Pi 2 in February 2015 — a quad-core ARMv7 board with 1 GB RAM for $35.",
+      "summary": "The Raspberry Pi Foundation released the Pi 2 in February 2015 — a quad-core ARMv7 board with 1 GB [RAM] for $35.",
       "about": "The Pi 2 ran Windows 10 IoT Core and full Ubuntu — six times faster than the Model B+ for home servers, retro gaming, and IoT gateways. Makers upgraded Python and Node projects without rewriting GPIO code. It bridged the gap between the original Pi and the Pi 3's built-in Wi-Fi.",
       "narrative": {
         "whyChosen": "The Pi 2 was the first quad-core Raspberry Pi, making it viable as a lightweight server.",
-        "whyImportant": "It kept the $35 price while delivering enough CPU for multi-threaded maker projects.",
+        "whyImportant": "It kept the $35 price while delivering enough [CPU] for multi-threaded maker projects.",
         "problemSolved": "The original Pi was too slow for JavaScript build tools, databases, and multi-user workloads."
       },
       "category": "hardware",
@@ -49,12 +49,12 @@
       "date": "2015-02-26",
       "datePrecision": "day",
       "title": "gRPC open-sourced",
-      "summary": "Google open-sourced gRPC on February 26, 2015 — a high-performance RPC framework using HTTP/2 and Protocol Buffers.",
-      "about": "gRPC generates client and server stubs from `.proto` files — microservices call each other with typed contracts, streaming, and load balancing built in. Kubernetes, etcd, and cloud APIs adopted it beside REST and GraphQL. Example: a Go service exposes `GetUser` over HTTP/2; a Python client calls it with generated stubs.",
+      "summary": "Google open-sourced gRPC on February 26, 2015 — a high-performance RPC framework using [HTTP]/2 and Protocol Buffers.",
+      "about": "gRPC generates client and server stubs from `.proto` files — microservices call each other with typed contracts, streaming, and load balancing built in. Kubernetes, etcd, and cloud APIs adopted it beside REST and GraphQL. Example: a Go service exposes `GetUser` over [HTTP]/2; a Python client calls it with generated stubs.",
       "narrative": {
         "whyChosen": "gRPC became the default RPC layer for cloud-native microservices after Google's release.",
         "whyImportant": "It standardized efficient service-to-service communication with schema-first contracts.",
-        "problemSolved": "REST JSON over HTTP/1.1 was verbose and slow for internal microservice meshes."
+        "problemSolved": "REST JSON over [HTTP]/1.1 was verbose and slow for internal microservice meshes."
       },
       "category": "software",
       "tags": [
@@ -105,11 +105,11 @@
       "date": "2015-02-04",
       "datePrecision": "day",
       "title": "Laravel 5.0 released",
-      "summary": "Taylor Otwell released Laravel 5.0 on February 4, 2015 — a major rewrite with simplified directory structure and middleware.",
-      "about": "Laravel 5 unified request handling with middleware stacks, form requests, and route caching — becoming the default PHP framework for startups and APIs. Forge and Envoyer later paired deployment with the framework's conventions.",
+      "summary": "Taylor Otwell released Laravel 5.0 on February 4, 2015 — a major rewrite with simplified directory structure and [middleware].",
+      "about": "Laravel 5 unified request handling with [middleware] stacks, form requests, and route caching — becoming the default PHP framework for startups and APIs. Forge and Envoyer later paired deployment with the framework's conventions.",
       "narrative": {
         "whyChosen": "Laravel 5 was the mature baseline that defined modern Laravel architecture.",
-        "whyImportant": "Middleware and simplified structure made Laravel the go-to PHP framework for new projects.",
+        "whyImportant": "[Middleware] and simplified structure made Laravel the go-to PHP framework for new projects.",
         "problemSolved": "Laravel 4's structure felt dated compared to Rails and modern PHP PSR standards."
       },
       "category": "software",
@@ -154,7 +154,7 @@
       "datePrecision": "day",
       "title": "FCC adopts Open Internet net neutrality rules",
       "summary": "The U.S. Federal Communications Commission voted 3–2 on February 26, 2015 to classify broadband as a Title II utility — banning paid prioritization, blocking, and throttling of lawful internet traffic.",
-      "about": "The 2015 Open Internet Order treated ISPs like common carriers, protecting startups from having to pay cable companies for fast lanes. Video streaming, VoIP, and cloud SaaS depended on neutral pipes; the rules became a political football repealed in 2017 and debated again through the 2020s.",
+      "about": "The 2015 Open Internet Order treated ISPs like common carriers, protecting startups from having to pay cable companies for fast lanes. Video streaming, VoIP, and cloud [SaaS] depended on neutral pipes; the rules became a political football repealed in 2017 and debated again through the 2020s.",
       "narrative": {
         "whyChosen": "The 2015 rules were the strongest U.S. net neutrality protections developers had seen.",
         "whyImportant": "They prevented ISPs from charging platforms for priority delivery of bits.",

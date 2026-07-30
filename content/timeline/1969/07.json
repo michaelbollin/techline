@@ -22,7 +22,7 @@
       "date": "1969-07",
       "datePrecision": "month",
       "title": "Margaret Hamilton leads Apollo flight software",
-      "summary": "Margaret Hamilton's MIT team shipped the Apollo Guidance Computer software used in the July 1969 Moon landing.",
+      "summary": "Margaret Hamilton's [MIT] team shipped the Apollo Guidance Computer software used in the July 1969 Moon landing.",
       "about": "Hamilton pioneered software engineering as a discipline — priority scheduling, error recovery, and rigorous testing for life-critical code. Her team's work proved large, reliable software could run in embedded real-time systems.",
       "narrative": {
         "whyChosen": "Hamilton coined 'software engineering' and led mission-critical code to the Moon.",

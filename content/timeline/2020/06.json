@@ -54,10 +54,10 @@
       "date": "2020-06-11",
       "datePrecision": "day",
       "title": "OpenAI GPT-3 API announced",
-      "summary": "OpenAI announced API access to GPT-3 on June 11, 2020 — opening large-language-model text generation to developers beyond research previews.",
-      "about": "The GPT-3 API let apps call a 175B-parameter model for completion, summarization, and code generation via HTTP. It launched the LLM API economy — copywriting tools, coding assistants, and chatbots built on a single endpoint before ChatGPT's consumer interface.",
+      "summary": "OpenAI announced [API] access to GPT-3 on June 11, 2020 — opening large-language-model text generation to developers beyond research previews.",
+      "about": "The GPT-3 [API] let apps call a 175B-parameter model for completion, summarization, and code generation via [HTTP]. It launched the LLM [API] economy — copywriting tools, coding assistants, and chatbots built on a single endpoint before ChatGPT's consumer interface.",
       "narrative": {
-        "whyChosen": "The GPT-3 API was the commercial inflection point for LLMs in production software.",
+        "whyChosen": "The GPT-3 [API] was the commercial inflection point for LLMs in production software.",
         "whyImportant": "It proved developers would pay per token for generative AI at scale.",
         "problemSolved": "Teams could not ship LLM features without training and hosting their own massive models."
       },
@@ -166,12 +166,12 @@
       "date": "2020-06-03",
       "datePrecision": "day",
       "title": "Drupal 9 released",
-      "summary": "Drupal 9.0 shipped on June 3, 2020 — a major version that removed deprecated code and updated Symfony and Twig dependencies while keeping the Drupal 8 architecture.",
-      "about": "Drupal 9 was designed as a smooth upgrade from Drupal 8 — same APIs, updated vendor libraries, and no feature rewrites. It gave enterprise sites a supported path before Symfony 4 end-of-life forced migration to Drupal 10.",
+      "summary": "[Drupal] 9.0 shipped on June 3, 2020 — a major version that removed deprecated code and updated [Symfony] and Twig dependencies while keeping the [Drupal] 8 architecture.",
+      "about": "[Drupal] 9 was designed as a smooth upgrade from [Drupal] 8 — same APIs, updated vendor libraries, and no feature rewrites. It gave enterprise sites a supported path before [Symfony] 4 end-of-life forced migration to [Drupal] 10.",
       "narrative": {
-        "whyChosen": "Drupal 9 extended the Symfony-based architecture with a low-friction upgrade from Drupal 8.",
-        "whyImportant": "It kept enterprise Drupal sites on supported dependencies through 2023.",
-        "problemSolved": "Drupal 8 sites faced end-of-life without a clear migration path that preserved custom modules."
+        "whyChosen": "[Drupal] 9 extended the [Symfony]-based architecture with a low-friction upgrade from [Drupal] 8.",
+        "whyImportant": "It kept enterprise [Drupal] sites on supported dependencies through 2023.",
+        "problemSolved": "[Drupal] 8 sites faced end-of-life without a clear migration path that preserved custom modules."
       },
       "category": "software",
       "tags": [
@@ -222,12 +222,12 @@
       "date": "2020-06-15",
       "datePrecision": "day",
       "title": "Compound launches COMP governance token",
-      "summary": "Compound distributed its COMP governance token starting June 15, 2020 — rewarding users who lent and borrowed on the protocol and kicking off \"DeFi Summer.\"",
+      "summary": "Compound distributed its COMP governance token starting June 15, 2020 — rewarding users who lent and borrowed on the protocol and kicking off \"[DeFi] Summer.\"",
       "about": "Yield farming — earning governance tokens for providing liquidity — spread across Aave, Curve, and copycat protocols within weeks. TVL exploded as developers composed money legos: deposit DAI, borrow ETH, stake LP tokens, claim rewards. It rewired how crypto startups bootstrapped usage.",
       "narrative": {
-        "whyChosen": "COMP liquidity mining ignited the 2020 DeFi Summer boom.",
+        "whyChosen": "COMP liquidity mining ignited the 2020 [DeFi] Summer boom.",
         "whyImportant": "Governance tokens became the default growth hack for on-chain protocols.",
-        "problemSolved": "DeFi protocols needed decentralized ownership and incentives without venture-only cap tables."
+        "problemSolved": "[DeFi] protocols needed decentralized ownership and incentives without venture-only cap tables."
       },
       "category": "protocol",
       "tags": [

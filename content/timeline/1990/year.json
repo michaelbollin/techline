@@ -7,7 +7,7 @@
       "title": "Richard Gabriel argues \"worse is better\"",
       "quoteText": "The right thing is frequently a monolithic system design, but the worse-is-better design has better survival characteristics than the right-thing design.",
       "summary": "Richard Gabriel's Lisp conference talk — later the essay The Rise of Worse Is Better — contrasts elegant designs with messy ones that ship and spread.",
-      "about": "Gabriel was half joking, half serious: Unix and C won by being ugly and portable while Lisp machines aimed for perfection. The phrase explains why good-enough tools beat beautiful ones in the market.",
+      "about": "Gabriel was half joking, half serious: [Unix] and C won by being ugly and portable while Lisp machines aimed for perfection. The phrase explains why good-enough tools beat beautiful ones in the market.",
       "narrative": {
         "whyChosen": "Worse is better names a pattern everyone recognizes but rarely admits.",
         "whyImportant": "It framed why pragmatic ecosystems outcompeted theoretically superior designs.",

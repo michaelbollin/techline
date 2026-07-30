@@ -6,7 +6,7 @@
       "date": "2012-06-27",
       "datePrecision": "day",
       "title": "Chrome for Android released",
-      "summary": "Google released Chrome for Android on June 27, 2012 — bringing the WebKit engine and Chrome sync to the world's dominant mobile OS.",
+      "summary": "Google released Chrome for Android on June 27, 2012 — bringing the WebKit engine and Chrome sync to the world's dominant mobile [OS].",
       "about": "Chrome for Android made mobile browsing a first-class Google product: tab sync with desktop, V8 performance, and later dominance on Android phones. It shipped on WebKit (Google forked Blink from WebKit in April 2013) and extended the Chrome ecosystem beyond desktops.",
       "narrative": {
         "whyChosen": "Mobile Chrome put Google's browser on the platform that would define the next decade of web usage.",
@@ -64,7 +64,7 @@
       "date": "2012-06",
       "datePrecision": "month",
       "title": "Coinbase founded",
-      "summary": "Brian Armstrong and Fred Ehrsam founded Coinbase in June 2012 — a regulated on-ramp that let users buy Bitcoin with bank accounts instead of peer-to-peer trades.",
+      "summary": "Brian Armstrong and Fred Ehrsam founded Coinbase in June 2012 — a regulated on-ramp that let users buy Bitcoin with bank accounts instead of [peer-to-peer] trades.",
       "about": "Coinbase wrapped key custody, KYC, and fiat rails in a consumer app — the opposite of cypherpunk self-custody but the path most newcomers took. Its 2021 Nasdaq listing and later spot-ETF custody deals made it the face of mainstream crypto infrastructure in the United States.",
       "narrative": {
         "whyChosen": "Coinbase became the default fiat gateway for US crypto adoption.",

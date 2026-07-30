@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "GCC first public release",
       "summary": "Richard Stallman released the first public GCC on March 22, 1987 — a beta (0.9) C compiler that could bootstrap itself; GCC 1.0 followed around May 1987.",
-      "about": "GCC compiled C (and later C++, Fortran, Ada, and more) for m68k, VAX, and other machines from a single codebase. Its retargetable backend and free license made Unix ports possible without proprietary compilers. Linux, GNU tools, and decades of open-source software were built with GCC before LLVM/Clang offered an alternative.",
+      "about": "GCC compiled C (and later C++, [Fortran], [Ada], and more) for m68k, VAX, and other machines from a single codebase. Its retargetable backend and free license made Unix ports possible without proprietary compilers. Linux, GNU tools, and decades of open-source software were built with GCC before LLVM/Clang offered an alternative.",
       "narrative": {
-        "whyChosen": "GCC was the flagship compiler of the GNU project and free software movement.",
+        "whyChosen": "GCC was the flagship compiler of the GNU project and [free software] movement.",
         "whyImportant": "It proved a community-maintained, multi-platform compiler could match vendor toolchains.",
         "problemSolved": "Proprietary Unix compilers were expensive and tied developers to single vendors and architectures."
       },

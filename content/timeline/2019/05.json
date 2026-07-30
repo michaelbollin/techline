@@ -61,11 +61,11 @@
       "date": "2019-05-23",
       "datePrecision": "day",
       "title": "Shopware 6 developer preview released",
-      "summary": "Shopware unveiled Shopware 6 at the Shopware Community Day on May 23, 2019 — a complete rewrite on Symfony 4, Vue.js admin, and a 100% API-first architecture.",
+      "summary": "Shopware unveiled Shopware 6 at the Shopware Community Day on May 23, 2019 — a complete rewrite on Symfony 4, Vue.js admin, and a 100% [API]-first architecture.",
       "about": "Shopware 6 split storefront, administration, and core into headless services — Twig and Bootstrap 4 for the default storefront, REST APIs for every function. The developer preview let the community test the platform before Shopware 6.1 stable in January 2020.",
       "narrative": {
         "whyChosen": "Shopware 6 preview signaled Europe's leading OSS commerce platform going headless.",
-        "whyImportant": "API-first architecture aligned Shopware with composable commerce trends.",
+        "whyImportant": "[API]-first architecture aligned Shopware with composable commerce trends.",
         "problemSolved": "Shopware 5's monolith could not support omnichannel and headless storefront demands."
       },
       "category": "software",

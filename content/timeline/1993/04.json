@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "CERN releases the web into the public domain",
       "summary": "CERN released the World Wide Web technology into the public domain on April 30, 1993 — no royalties, no licensing fees.",
-      "about": "Berners-Lee and CERN's decision let anyone build browsers and servers without permission — enabling Mosaic, Netscape, Apache, and the commercial internet. It is one of the most consequential open releases in computing history.",
+      "about": "Berners-Lee and CERN's decision let anyone build browsers and servers without permission — enabling [Mosaic], [Netscape], Apache, and the commercial internet. It is one of the most consequential open releases in computing history.",
       "narrative": {
         "whyChosen": "Public-domain release unlocked the web's exponential growth.",
-        "whyImportant": "It prevented proprietary lock-in on hypertext protocols.",
+        "whyImportant": "It prevented proprietary lock-in on [hypertext] protocols.",
         "problemSolved": "Companies could have patented or licensed core web technology."
       },
       "category": "culture",
@@ -65,7 +65,7 @@
       "datePrecision": "day",
       "title": "Jensen Huang co-founds NVIDIA",
       "summary": "Jensen Huang, Chris Malachowsky, and Curtis Priem founded NVIDIA on April 5, 1993 — starting as a graphics chip company that later powered AI.",
-      "about": "NVIDIA's GPUs went from PC gaming to CUDA parallel computing to training virtually every large language model. Huang has been CEO since founding — one of the longest and most consequential runs in semiconductor history.",
+      "about": "NVIDIA's GPUs went from [PC] gaming to CUDA parallel computing to training virtually every large language model. Huang has been CEO since founding — one of the longest and most consequential runs in [semiconductor] history.",
       "narrative": {
         "whyChosen": "NVIDIA became the dominant AI compute platform of the 2020s.",
         "whyImportant": "GPUs shifted from graphics cards to the engine of deep learning and HPC.",
@@ -131,11 +131,11 @@
       "date": "1993-04-21",
       "datePrecision": "day",
       "title": "NCSA Mosaic 1.0 released",
-      "summary": "On April 21, 1993, the National Center for Supercomputing Applications released Mosaic 1.0 — the browser that popularized inline images and made the web mainstream.",
-      "about": "Mosaic showed the web as a visual medium: pictures inside pages, clickable links, and forms on Windows, Mac, and Unix. Marc Andreessen's team at NCSA turned a research network into something ordinary users wanted — and its alumni founded Netscape.",
+      "summary": "On April 21, 1993, the National Center for Supercomputing Applications released [Mosaic] 1.0 — the browser that popularized inline images and made the web mainstream.",
+      "about": "[Mosaic] showed the web as a visual medium: pictures inside pages, clickable links, and forms on Windows, Mac, and Unix. Marc Andreessen's team at NCSA turned a research network into something ordinary users wanted — and its alumni founded [Netscape].",
       "narrative": {
-        "whyChosen": "Mosaic was the tipping point from academic hypertext to mass-market browsing.",
-        "whyImportant": "Inline images and a polished UI made the web understandable to non-specialists and sparked the first web boom.",
+        "whyChosen": "[Mosaic] was the tipping point from academic [hypertext] to mass-market browsing.",
+        "whyImportant": "Inline images and a polished [UI] made the web understandable to non-specialists and sparked the first web boom.",
         "problemSolved": "Earlier browsers were niche research tools; the public needed one friendly program that worked across platforms."
       },
       "category": "software",

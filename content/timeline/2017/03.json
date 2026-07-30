@@ -61,11 +61,11 @@
       "date": "2017-03-02",
       "datePrecision": "day",
       "title": "Lisa Su launches AMD Ryzen on Zen architecture",
-      "summary": "AMD launched Ryzen processors on the Zen architecture on March 2, 2017 — ending years of Intel CPU dominance in desktop performance.",
+      "summary": "AMD launched Ryzen processors on the Zen architecture on March 2, 2017 — ending years of Intel [CPU] dominance in desktop performance.",
       "about": "Under Lisa Su's leadership, Zen delivered competitive IPC and core counts at aggressive prices — reviving AMD in servers with EPYC and in gaming with Ryzen. It reshaped the x86 duopoly.",
       "narrative": {
         "whyChosen": "Zen was AMD's comeback architecture after the Bulldozer era.",
-        "whyImportant": "Competitive CPUs lowered cloud and PC costs and accelerated innovation.",
+        "whyImportant": "Competitive CPUs lowered cloud and [PC] costs and accelerated innovation.",
         "problemSolved": "AMD had fallen behind Intel on performance per watt and market share."
       },
       "category": "hardware",
@@ -125,7 +125,7 @@
       "about": "CSS Grid lets authors define rows, columns, and named areas with `display: grid` and `grid-template-areas` — replacing float hacks and framework grid systems for page-level layout. Chrome 57 followed a week later; by late 2017 every major browser supported Grid, ending a decade of table and flexbox workarounds for two-dimensional designs.",
       "narrative": {
         "whyChosen": "CSS Grid was the biggest layout advance since flexbox — and Firefox shipped it first.",
-        "whyImportant": "It gave the web a native two-dimensional layout system designed for UI and page design.",
+        "whyImportant": "It gave the web a native two-dimensional layout system designed for [UI] and page design.",
         "problemSolved": "Complex page layouts required nested flexbox containers, floats, or JavaScript grid libraries."
       },
       "category": "protocol",
@@ -176,7 +176,7 @@
       "datePrecision": "day",
       "title": "Microsoft Teams launches worldwide",
       "summary": "Microsoft made Teams generally available worldwide on March 14, 2017 — chat, meetings, and Office 365 integrations positioned as Slack's enterprise rival.",
-      "about": "Teams bundled video, channels, and SharePoint tabs into every Office 365 license — winning enterprises already standardized on Microsoft. GitHub, Azure DevOps, and Planner integrations targeted engineering orgs; COVID remote work cemented Teams alongside Zoom as the default corporate communication stack.",
+      "about": "Teams bundled video, channels, and SharePoint tabs into every Office 365 license — winning enterprises already standardized on Microsoft. GitHub, Azure [DevOps], and Planner integrations targeted engineering orgs; COVID remote work cemented Teams alongside Zoom as the default corporate communication stack.",
       "narrative": {
         "whyChosen": "Teams bundled chat into Office 365 and challenged Slack in the enterprise.",
         "whyImportant": "Tight Microsoft integration made it the default for Fortune 500 engineering departments.",

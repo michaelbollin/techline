@@ -6,11 +6,11 @@
       "date": "2012-05-03",
       "datePrecision": "day",
       "title": "Samsung Internet browser launched",
-      "summary": "Samsung shipped its Internet browser on May 3, 2012 with the Galaxy S III — a WebKit-based mobile browser preinstalled on Samsung Android devices.",
-      "about": "Samsung Internet became the default browser on hundreds of millions of Galaxy phones — often the first browser many Android users encounter outside Chrome. It added ad blocking, extensions, and later Chromium alignment while staying tied to Samsung's mobile ecosystem.",
+      "summary": "Samsung shipped its Internet browser on May 3, 2012 with the Galaxy S III — a [WebKit]-based mobile browser preinstalled on Samsung [Android] devices.",
+      "about": "Samsung Internet became the default browser on hundreds of millions of Galaxy phones — often the first browser many [Android] users encounter outside Chrome. It added ad blocking, extensions, and later [Chromium] alignment while staying tied to Samsung's mobile ecosystem.",
       "narrative": {
         "whyChosen": "Samsung Internet is a major mobile browser by install base, not just market-share headlines.",
-        "whyImportant": "It proved OEM browsers could compete with Chrome on Android through device bundling.",
+        "whyImportant": "It proved [OEM] browsers could compete with Chrome on [Android] through device bundling.",
         "problemSolved": "Samsung needed a controllable mobile browser integrated with Galaxy hardware and services."
       },
       "category": "software",
@@ -65,10 +65,10 @@
       "datePrecision": "day",
       "title": "Laravel 3.2 released",
       "summary": "Laravel migrated core request/response handling to Symfony's HttpFoundation component.",
-      "about": "Instead of maintaining its own HTTP layer, Laravel adopted Symfony's battle-tested request/response objects. For developers: handling cookies, headers, and responses works the same way across Symfony, Laravel, and other PHP tools — less duplicated code in the PHP ecosystem.",
+      "about": "Instead of maintaining its own [HTTP] layer, Laravel adopted Symfony's battle-tested request/response objects. For developers: handling cookies, headers, and responses works the same way across Symfony, Laravel, and other PHP tools — less duplicated code in the PHP ecosystem.",
       "narrative": {
-        "whyChosen": "This is the clearest example of Laravel embracing Symfony instead of maintaining parallel HTTP stacks.",
-        "whyImportant": "Shared components meant PHP developers could move between Laravel, Symfony, and Drupal with familiar HTTP primitives.",
+        "whyChosen": "This is the clearest example of Laravel embracing Symfony instead of maintaining parallel [HTTP] stacks.",
+        "whyImportant": "Shared components meant PHP developers could move between Laravel, Symfony, and Drupal with familiar [HTTP] primitives.",
         "problemSolved": "Maintaining custom request/response code duplicated effort across the PHP ecosystem."
       },
       "category": "software",
@@ -112,12 +112,12 @@
       "date": "2012-05-29",
       "datePrecision": "day",
       "title": "Samsung Galaxy S III released",
-      "summary": "Samsung began selling the Samsung Galaxy S III — 4.8-inch HD Super AMOLED and Smart Stay — Samsung's breakout global Android flagship.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. 4.8-inch hd super amoled and smart stay — samsung's breakout global android flagship. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "summary": "Samsung began selling the Samsung Galaxy S III — 4.8-inch HD Super AMOLED and Smart Stay — Samsung's breakout global [Android] flagship.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. 4.8-inch hd super amoled and smart stay — samsung's breakout global android flagship. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S III continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S III continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [

@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Claude Fable 5 and Mythos 5 access restored",
       "summary": "Anthropic redeployed Claude Fable 5 and Mythos 5 on July 1, 2026 — nineteen days after a U.S. export-control order forced a global shutdown.",
-      "about": "Washington lifted the foreign-national access restriction that had pulled Fable and Mythos offline for all users on June 12. Anthropic restored API and product access with updated compliance controls — closing the first export-control recall arc for a deployed frontier model.",
+      "about": "Washington lifted the foreign-national access restriction that had pulled Fable and Mythos offline for all users on June 12. Anthropic restored [API] and product access with updated compliance controls — closing the first export-control recall arc for a deployed frontier model.",
       "narrative": {
         "whyChosen": "Fable's redeployment completed the first government-ordered frontier model recall and restore cycle.",
         "whyImportant": "It showed export controls could block then unblock commercial AI within weeks, not years.",
@@ -123,7 +123,7 @@
       "narrative": {
         "whyChosen": "Helios gave frontier labs a shipping alternative to NVIDIA rack-scale AI systems.",
         "whyImportant": "Multi-gigawatt AMD deals diversified who could supply training and inference at scale.",
-        "problemSolved": "AI labs faced single-vendor dependence on NVIDIA for rack-scale GPU deployments."
+        "problemSolved": "AI labs faced single-vendor dependence on NVIDIA for rack-scale [GPU] deployments."
       },
       "category": "hardware",
       "tags": [
@@ -174,7 +174,7 @@
       "datePrecision": "day",
       "title": "Anthropic Claude Opus 5 released",
       "summary": "Anthropic released Claude Opus 5 on July 24, 2026 — a step-change in deep reasoning and long-horizon agentic tasks at half the price of Claude Fable 5.",
-      "about": "Opus 5 shipped with thinking on by default, 1M-token context, and stronger test-time compute scaling for enterprise agents. It narrowed the gap to Anthropic's top Fable tier while keeping API pricing at $5/$25 per million tokens — continuing the rapid Opus cadence that started with Claude 4.",
+      "about": "Opus 5 shipped with thinking on by default, 1M-token context, and stronger test-time compute scaling for enterprise agents. It narrowed the gap to Anthropic's top Fable tier while keeping [API] pricing at $5/$25 per million tokens — continuing the rapid Opus cadence that started with Claude 4.",
       "narrative": {
         "whyChosen": "Opus 5 brought near-Fable intelligence to Anthropic's standard Opus pricing tier.",
         "whyImportant": "Default extended thinking and agent scaling raised the bar for production coding agents.",

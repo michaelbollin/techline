@@ -6,12 +6,12 @@
       "date": "2014-06-02",
       "datePrecision": "day",
       "title": "Swift programming language announced at WWDC",
-      "summary": "Apple announced Swift at WWDC on June 2, 2014 — a modern replacement for Objective-C on iOS and macOS.",
-      "about": "Swift is Apple's language for iPhone, iPad, Mac, Apple Watch, and Vision Pro apps — safe optionals, value types, protocols, and async/await. It compiles to native code via LLVM and interoperates with Objective-C and C. Most new App Store apps today are Swift or SwiftUI.",
+      "summary": "Apple announced Swift at WWDC on June 2, 2014 — a modern replacement for [Objective-C] on iOS and macOS.",
+      "about": "Swift is Apple's language for iPhone, iPad, Mac, Apple Watch, and Vision Pro apps — safe optionals, value types, protocols, and async/await. It compiles to native code via LLVM and interoperates with [Objective-C] and C. Most new App Store apps today are Swift or SwiftUI.",
       "narrative": {
-        "whyChosen": "Swift replaced Objective-C as the default for Apple platform development within a few years.",
+        "whyChosen": "Swift replaced [Objective-C] as the default for Apple platform development within a few years.",
         "whyImportant": "It brought memory safety and modern syntax to a massive mobile ecosystem without a new runtime.",
-        "problemSolved": "Objective-C's manual retain/release and dated syntax slowed iOS development; Apple needed a safer modern language."
+        "problemSolved": "[Objective-C]'s manual retain/release and dated syntax slowed iOS development; Apple needed a safer modern language."
       },
       "category": "software",
       "tags": [
@@ -59,7 +59,7 @@
       "datePrecision": "day",
       "title": "Crystal 0.1.0 released",
       "summary": "Ary Borenszweig and Juan Wajnerman released Crystal 0.1.0 on June 19, 2014 — a compiled language with Ruby-like syntax and static typing.",
-      "about": "Crystal compiles to efficient native code via LLVM while keeping Ruby's readable syntax — macros, blocks, and `puts` feel familiar but types are checked at compile time. Used for web backends (Lucky, Amber) and CLI tools where Ruby's MRI speed is too slow.",
+      "about": "Crystal compiles to efficient native code via LLVM while keeping Ruby's readable syntax — macros, blocks, and `puts` feel familiar but types are checked at compile time. Used for web backends (Lucky, Amber) and [CLI] tools where Ruby's MRI speed is too slow.",
       "narrative": {
         "whyChosen": "Crystal 0.1.0 was the first packaged release promising Ruby ergonomics with C-like performance.",
         "whyImportant": "It showed a gradual path from dynamic Ruby to statically typed native compilation without a new syntax.",
@@ -107,7 +107,7 @@
       "datePrecision": "day",
       "title": "Kubernetes open-sourced",
       "summary": "Google open-sourced Kubernetes on June 10, 2014 at DockerCon — a container orchestrator for deploying and scaling Docker workloads across clusters.",
-      "about": "Kubernetes schedules containers onto nodes, restarts failed pods, rolls out deployments, and exposes services with load balancers. It runs on every major cloud (GKE, EKS, AKS) and on-prem. Example: `kubectl apply -f deployment.yaml` to run three replicas of an API behind an ingress controller.",
+      "about": "Kubernetes schedules containers onto nodes, restarts failed pods, rolls out deployments, and exposes services with load balancers. It runs on every major cloud (GKE, EKS, AKS) and on-prem. Example: `kubectl apply -f deployment.yaml` to run three replicas of an [API] behind an ingress controller.",
       "narrative": {
         "whyChosen": "Kubernetes won the container orchestration wars and became the operating system of the cloud.",
         "whyImportant": "It standardized how teams run microservices at scale after Docker made containers ubiquitous.",
@@ -169,7 +169,7 @@
       "datePrecision": "month",
       "title": "Ian Goodfellow invents GANs",
       "summary": "Ian Goodfellow proposed Generative Adversarial Networks in June 2014 — two-network training that revolutionized synthetic media.",
-      "about": "GANs enabled photorealistic face generation, style transfer, and data augmentation — spawning StyleGAN, deepfakes discourse, and generative model research that preceded diffusion models.",
+      "about": "GANs enabled photorealistic face generation, style transfer, and data augmentation — spawning StyleGAN, deepfakes discourse, and generative model research that preceded [diffusion model]s.",
       "narrative": {
         "whyChosen": "GANs opened practical generative modeling for images and beyond.",
         "whyImportant": "They introduced adversarial training as a core ML technique.",

@@ -23,7 +23,7 @@
       "datePrecision": "year",
       "title": "Donald Knuth publishes TAOCP Volume 1",
       "summary": "Donald Knuth published Volume 1 of The Art of Computer Programming in 1968 — foundational algorithms text still cited today.",
-      "about": "TAOCP systematized algorithm analysis for generations of computer scientists. Knuth also created TeX and literate programming — tools that shaped how papers and books are typeset in CS.",
+      "about": "TAOCP systematized algorithm analysis for generations of computer scientists. Knuth also created [TeX] and literate programming — tools that shaped how papers and books are typeset in CS.",
       "narrative": {
         "whyChosen": "TAOCP remains the benchmark reference for algorithms and rigorous CS writing.",
         "whyImportant": "It established Big-O analysis and structured algorithm exposition as standard practice.",

@@ -24,12 +24,12 @@
       "date": "1998-06",
       "datePrecision": "month",
       "title": "Rasmus Lerdorf releases PHP 3",
-      "summary": "Rasmus Lerdorf released PHP 3 in June 1998 — the first version called PHP (Hypertext Preprocessor) that powered the early web.",
+      "summary": "Rasmus Lerdorf released PHP 3 in June 1998 — the first version called PHP ([Hypertext] Preprocessor) that powered the early web.",
       "about": "PHP ran on millions of shared-hosting sites — WordPress, Drupal, and early Facebook all built on Lerdorf's Danish-born project. It made dynamic web pages accessible to hobbyist developers worldwide.",
       "narrative": {
         "whyChosen": "PHP 3 was the breakout version that defined server-side web scripting for a decade.",
         "whyImportant": "It democratized dynamic websites before frameworks and cloud platforms.",
-        "problemSolved": "Static HTML could not personalize pages without complex CGI scripts."
+        "problemSolved": "Static [HTML] could not personalize pages without complex CGI scripts."
       },
       "category": "software",
       "tags": [

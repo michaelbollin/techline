@@ -6,8 +6,8 @@
       "date": "1958-12-01",
       "datePrecision": "day",
       "title": "ALGOL 58 language defined",
-      "summary": "Researchers published ALGOL 58 in December 1958 — the first widely shared way to write algorithms so they could be read and reused on different computers.",
-      "about": "Before ALGOL, every computer had its own notation. ALGOL gave scientists and textbook authors one common style for describing programs — the ancestor of how we still write pseudocode and structured code in Pascal, C, and many modern languages.",
+      "summary": "Researchers published [ALGOL] 58 in December 1958 — the first widely shared way to write algorithms so they could be read and reused on different computers.",
+      "about": "Before [ALGOL], every computer had its own notation. [ALGOL] gave scientists and textbook authors one common style for describing programs — the ancestor of how we still write pseudocode and structured code in Pascal, C, and many modern languages.",
       "narrative": {
         "whyChosen": "Scientists were publishing algorithms in incompatible notations — you couldn't easily compare or reuse work across labs and countries.",
         "whyImportant": "It showed that programming ideas could be written in a standard, readable form instead of being tied to one machine's assembly code.",

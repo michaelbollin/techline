@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "U.S. judge rules Microsoft violated antitrust law",
       "summary": "On April 3, 2000, U.S. District Judge Thomas Penfield Jackson ruled that Microsoft had violated antitrust laws by maintaining a monopoly through anti-competitive conduct — during the same month the dot-com bubble began to burst.",
-      "about": "The findings targeted browser bundling and OEM restrictions that had kneecapped Netscape. Jackson later ordered a breakup (later reversed on appeal), but the case forced Microsoft to open APIs, document protocols, and accept oversight — influencing how regulators later treated Google, Apple, and Amazon.",
+      "about": "The findings targeted browser bundling and OEM restrictions that had kneecapped [Netscape]. Jackson later ordered a breakup (later reversed on appeal), but the case forced Microsoft to open APIs, document protocols, and accept oversight — influencing how regulators later treated Google, Apple, and Amazon.",
       "narrative": {
-        "whyChosen": "The ruling was the defining antitrust moment of the PC software era.",
+        "whyChosen": "The ruling was the defining antitrust moment of the [PC] software era.",
         "whyImportant": "It constrained how platform owners could bundle products and exclude rivals.",
-        "problemSolved": "Competitors argued Windows integration made independent browsers and middleware impossible to sell."
+        "problemSolved": "Competitors argued Windows integration made independent browsers and [middleware] impossible to sell."
       },
       "category": "culture",
       "tags": [

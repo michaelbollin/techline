@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Node.js 22 released",
       "summary": "Node.js 22.0.0 shipped on April 24, 2024 with require() of ES modules, WebSocket client, and V8 12.4.",
-      "about": "Node 22 became LTS in October 2024 — experimental `require(esm)` eased migration from CommonJS to modules; built-in WebSocket client reduced dependency on `ws`. Native ESM loading via require() became default in Node 22.12.0 (December 2024).",
+      "about": "Node 22 became [LTS] in October 2024 — experimental `require(esm)` eased migration from CommonJS to modules; built-in WebSocket client reduced dependency on `ws`. Native ESM loading via require() became default in Node 22.12.0 (December 2024).",
       "narrative": {
         "whyChosen": "Node 22 simplified the ESM/CommonJS interop pain that blocked upgrades.",
         "whyImportant": "Native WebSocket and module loading reduced npm surface area for servers.",
@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "Meta Llama 3 released",
       "summary": "Meta released Llama 3 on April 18, 2024 — open-weight 8B and 70B models with improved reasoning, coding, and multilingual support.",
-      "about": "Llama 3 closed much of the gap with closed APIs like GPT-4 and Claude — fueling local inference tools (Ollama, LM Studio) and fine-tuning pipelines. The 405B variant followed later, but the April release reset expectations for open-model quality.",
+      "about": "Llama 3 closed much of the gap with closed APIs like GPT-4 and Claude — fueling local [inference] tools (Ollama, LM Studio) and [fine-tuning] pipelines. The 405B variant followed later, but the April release reset expectations for open-model quality.",
       "narrative": {
         "whyChosen": "Llama 3 made frontier-class open weights the default choice for self-hosted AI.",
         "whyImportant": "Competitive open models reduced vendor lock-in for startups and researchers.",

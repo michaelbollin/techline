@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Apache Cassandra open sourced",
       "summary": "Facebook released Cassandra as open source on July 14, 2008 — a distributed wide-column database inspired by Amazon Dynamo and Google Bigtable.",
-      "about": "Cassandra trades joins for linear scalability: data is partitioned across a ring of nodes with tunable consistency. Facebook built it for inbox search; Netflix, Apple, and Discord later ran it for massive write-heavy workloads. It joined the Apache Incubator in 2009 and graduated as a top-level project in 2010 — a flagship NoSQL option beside MongoDB and Redis.",
+      "about": "Cassandra trades joins for linear scalability: data is partitioned across a ring of nodes with tunable consistency. Facebook built it for inbox search; Netflix, Apple, and Discord later ran it for massive write-heavy workloads. It joined the Apache Incubator in 2009 and graduated as a top-level project in 2010 — a flagship [NoSQL] option beside [MongoDB] and Redis.",
       "narrative": {
         "whyChosen": "Cassandra brought Facebook-scale distributed storage patterns to the open-source world.",
-        "whyImportant": "It proved wide-column NoSQL could run in production at billion-row scale with no single point of failure.",
+        "whyImportant": "It proved wide-column [NoSQL] could run in production at billion-row scale with no single point of failure.",
         "problemSolved": "Web-scale apps needed always-on storage that survived node and datacenter failures without a central master."
       },
       "category": "software",
@@ -68,7 +68,7 @@
       "datePrecision": "day",
       "title": "iPhone App Store opens",
       "summary": "Apple opened the App Store on July 10, 2008 — letting third-party developers sell native iPhone apps to consumers.",
-      "about": "The App Store turned the iPhone from a phone with a browser into a platform — Objective-C and later Swift SDKs, in-app purchases, and review gates. Indie developers and startups built businesses on mobile apps; 'there's an app for that' became the default UX pattern. Android Market (later Google Play) followed the same model.",
+      "about": "The App Store turned the iPhone from a phone with a browser into a platform — [Objective-C] and later Swift SDKs, in-app purchases, and review gates. Indie developers and startups built businesses on mobile apps; 'there's an app for that' became the default UX pattern. Android Market (later Google Play) followed the same model.",
       "narrative": {
         "whyChosen": "The App Store invented mainstream mobile app distribution and monetization.",
         "whyImportant": "It created the native mobile developer career path and app economy alongside the web.",

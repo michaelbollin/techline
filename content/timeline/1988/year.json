@@ -10,7 +10,7 @@
       "about": "Tcl (Tool Command Language) is a small scripting language designed to be embedded inside C applications — routers, EDA tools, and desktop apps expose Tcl as their configuration and automation layer. Tk (1991) paired with Tcl to build cross-platform GUIs. Cisco IOS, EDA tools, and test equipment still ship Tcl interfaces decades later.",
       "narrative": {
         "whyChosen": "Tcl pioneered embeddable scripting — apps ship a language instead of inventing their own config syntax.",
-        "whyImportant": "The Tcl/Tk combo influenced how developers think about glue languages and rapid GUI prototyping.",
+        "whyImportant": "The Tcl/Tk combo influenced how developers think about glue languages and rapid [GUI] prototyping.",
         "problemSolved": "Every interactive application needed a command language; Ousterhout wanted one reusable interpreter libraries could embed."
       },
       "category": "software",

@@ -6,12 +6,12 @@
       "date": "2019-12-09",
       "datePrecision": "day",
       "title": "Kubernetes 1.17 released",
-      "summary": "The Kubernetes project released version 1.17 on December 9, 2019 — stabilizing volume snapshots and deepening cloud provider integrations.",
-      "about": "Kubernetes 1.17 continued the march toward production defaults — CSI volume snapshots, conformance tests, and deprecations that pushed clusters toward supported APIs. It closed out a year when K8s became the assumed orchestration layer.",
+      "summary": "The [Kubernetes] project released version 1.17 on December 9, 2019 — stabilizing volume snapshots and deepening cloud provider integrations.",
+      "about": "[Kubernetes] 1.17 continued the march toward production defaults — CSI volume snapshots, conformance tests, and deprecations that pushed clusters toward supported APIs. It closed out a year when K8s became the assumed orchestration layer.",
       "narrative": {
-        "whyChosen": "Kubernetes 1.17 matured storage snapshots and cloud integrations.",
-        "whyImportant": "It reinforced Kubernetes as the default container orchestration platform.",
-        "problemSolved": "Stateful workloads needed standardized backup and restore on Kubernetes."
+        "whyChosen": "[Kubernetes] 1.17 matured storage snapshots and cloud integrations.",
+        "whyImportant": "It reinforced [Kubernetes] as the default [container] orchestration platform.",
+        "problemSolved": "Stateful workloads needed standardized backup and restore on [Kubernetes]."
       },
       "category": "software",
       "tags": [

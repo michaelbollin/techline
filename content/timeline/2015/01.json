@@ -25,10 +25,10 @@
       "date": "2015-01",
       "datePrecision": "month",
       "title": "Andrej Karpathy launches Stanford CS231n course",
-      "summary": "Andrej Karpathy co-taught CS231n: Convolutional Neural Networks for Visual Recognition at Stanford in winter 2015 — one of the first university deep-learning courses.",
-      "about": "Karpathy's lectures and assignments became a global on-ramp for computer vision practitioners. Enrollment grew from ~150 to 750 students as deep learning went mainstream — the course notes still anchor self-taught ML education.",
+      "summary": "Andrej Karpathy co-taught CS231n: Convolutional [Neural Network]s for Visual Recognition at Stanford in winter 2015 — one of the first university deep-learning courses.",
+      "about": "Karpathy's lectures and assignments became a global on-ramp for [computer vision] practitioners. Enrollment grew from ~150 to 750 students as [deep learning] went mainstream — the course notes still anchor self-taught ML education.",
       "narrative": {
-        "whyChosen": "CS231n democratized deep learning pedagogy beyond research labs.",
+        "whyChosen": "CS231n democratized [deep learning] pedagogy beyond research labs.",
         "whyImportant": "It trained a generation of engineers who built production vision systems.",
         "problemSolved": "Universities lacked a hands-on curriculum bridging AlexNet-era research and practice."
       },

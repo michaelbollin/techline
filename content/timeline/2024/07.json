@@ -10,7 +10,7 @@
       "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. Galaxy ai features on samsung's flagship foldable line.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Z Fold 6 pushed foldable Android hardware into the mainstream.",
-        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "whyImportant": "Foldable form factors require adaptive [UI] patterns beyond fixed phone screens.",
         "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
       },
       "category": "hardware",

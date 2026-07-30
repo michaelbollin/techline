@@ -9,8 +9,8 @@
       "summary": "Martin Richards published the BCPL language manual in July 1967 — a simple systems language that directly inspired C.",
       "about": "BCPL was a stripped-down language for writing compilers and operating system tools — small enough to run on limited hardware. Ken Thompson at Bell Labs studied this manual and used its ideas to build B, then Dennis Ritchie evolved B into C. Most of today's software still traces back through this chain.",
       "narrative": {
-        "whyChosen": "BCPL is the missing link between academic ALGOL-style languages and the C that powers Unix, Linux, and most systems software.",
-        "whyImportant": "Richards showed that a tiny language could be ported to many machines — the approach Thompson and Ritchie followed when building Unix tools.",
+        "whyChosen": "BCPL is the missing link between academic ALGOL-style languages and the C that powers [Unix], Linux, and most systems software.",
+        "whyImportant": "Richards showed that a tiny language could be ported to many machines — the approach Thompson and Ritchie followed when building [Unix] tools.",
         "problemSolved": "Earlier language designs were too heavy to compile on small computers; systems programmers needed something lean for building tools and compilers."
       },
       "category": "software",

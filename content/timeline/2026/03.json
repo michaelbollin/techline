@@ -10,7 +10,7 @@
       "about": "GPT-5.4 unified OpenAI's coding and reasoning lines under one model name in ChatGPT and Codex. It led benchmarks on OSWorld, BrowseComp, and GPQA Diamond while simplifying the model picker for developers who had juggled GPT-5.x, o-series, and Codex variants.",
       "narrative": {
         "whyChosen": "GPT-5.4 merged Codex-grade coding into OpenAI's default reasoning model.",
-        "whyImportant": "One mainline model reduced fragmentation between chat, agents, and IDE tooling.",
+        "whyImportant": "One mainline model reduced fragmentation between chat, agents, and [IDE] tooling.",
         "problemSolved": "Developers needed a single frontier model for coding agents without picking separate SKUs."
       },
       "category": "software",

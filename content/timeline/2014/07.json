@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Terraform first released",
       "summary": "HashiCorp released Terraform 0.1.0 on July 28, 2014 — infrastructure as code for provisioning cloud resources across providers.",
-      "about": "Terraform reads `.tf` files describing AWS, GCP, Azure, and hundreds of other resources, then plans and applies changes with dependency graphs. `terraform plan` shows diffs before `terraform apply` creates or updates infrastructure. It became the lingua franca of multi-cloud DevOps alongside Kubernetes and CI pipelines.",
+      "about": "Terraform reads `.tf` files describing AWS, GCP, Azure, and hundreds of other resources, then plans and applies changes with dependency graphs. `terraform plan` shows diffs before `terraform apply` creates or updates infrastructure. It became the lingua franca of multi-cloud [DevOps] alongside Kubernetes and CI pipelines.",
       "narrative": {
         "whyChosen": "Terraform made multi-cloud infrastructure reproducible, reviewable, and version-controlled.",
         "whyImportant": "It popularized declarative IaC workflows beyond single-vendor cloud templates.",

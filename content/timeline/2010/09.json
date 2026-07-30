@@ -6,7 +6,7 @@
       "date": "2010-09",
       "datePrecision": "month",
       "title": "DeepMind founded",
-      "summary": "Demis Hassabis, Shane Legg, and Mustafa Suleyman co-founded DeepMind in September 2010 — the lab behind AlphaGo, AlphaFold, and large-scale reinforcement learning research.",
+      "summary": "Demis Hassabis, Shane Legg, and Mustafa Suleyman co-founded DeepMind in September 2010 — the lab behind AlphaGo, AlphaFold, and large-scale [reinforcement learning] research.",
       "about": "DeepMind's AlphaFold transformed protein structure prediction; AlphaGo demonstrated RL beating world champions. The three co-founders bridged neuroscience and AI engineering at industrial scale.",
       "narrative": {
         "whyChosen": "DeepMind proved AI research labs could solve grand scientific challenges.",

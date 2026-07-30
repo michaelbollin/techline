@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Vim defined modal text editing for a generation of terminal users.",
         "whyImportant": "It kept powerful keyboard-driven editing viable on constrained systems.",
-        "problemSolved": "vi was inconsistent across Unix variants and lacked extensibility."
+        "problemSolved": "vi was inconsistent across [Unix] variants and lacked extensibility."
       },
       "category": "software",
       "tags": [

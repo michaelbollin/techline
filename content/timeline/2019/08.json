@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy Note 10 released",
       "summary": "Samsung released the Samsung Galaxy Note 10 — center punch-hole and removed headphone jack from the Note line.",
-      "about": "The Galaxy Note targeted stylus power users on Android. Center punch-hole and removed headphone jack from the note line. Note apps and split-screen Android development often targeted this hardware class.",
+      "about": "The Galaxy Note targeted stylus power users on [Android]. Center punch-hole and removed headphone jack from the note line. Note apps and split-screen [Android] development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note 10 advanced Samsung's stylus phablet line.",
-        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
-        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+        "whyImportant": "Galaxy Note hardware defined large-screen [Android] productivity for years.",
+        "problemSolved": "[Android] lacked a premium large-screen stylus flagship for note-taking workflows."
       },
       "category": "hardware",
       "tags": [

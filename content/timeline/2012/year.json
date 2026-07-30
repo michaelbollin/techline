@@ -23,7 +23,7 @@
       "datePrecision": "year",
       "title": "Shafi Goldwasser receives Turing Award",
       "summary": "Shafi Goldwasser won the 2012 ACM Turing Award with Silvio Micali for transformative work in cryptography and complexity theory.",
-      "about": "Goldwasser's zero-knowledge proofs and probabilistic encryption underpin blockchain, TLS, and modern security protocols. Her career advanced rigorous foundations for practical cryptography.",
+      "about": "Goldwasser's zero-knowledge proofs and probabilistic encryption underpin blockchain, [TLS], and modern security protocols. Her career advanced rigorous foundations for practical cryptography.",
       "narrative": {
         "whyChosen": "Goldwasser linked theoretical crypto to protocols developers deploy daily.",
         "whyImportant": "Zero-knowledge proofs enable privacy-preserving verification.",

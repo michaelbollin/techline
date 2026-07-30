@@ -23,7 +23,7 @@
       "datePrecision": "month",
       "title": "Leslie Lamport publishes Paxos",
       "summary": "Leslie Lamport's May 1998 ACM TOCS paper 'The Part-Time Parliament' formally published the Paxos consensus algorithm — building on his 1989 DEC technical report.",
-      "about": "Paxos and Lamport's later work on logical clocks underpin Kafka, etcd, ZooKeeper, and every system that must agree across failures. Programmers encounter his ideas whenever they design replicated state machines.",
+      "about": "Paxos and Lamport's later work on logical clocks underpin [Kafka], etcd, ZooKeeper, and every system that must agree across failures. Programmers encounter his ideas whenever they design replicated state machines.",
       "narrative": {
         "whyChosen": "Paxos is the theoretical backbone of practical distributed consensus.",
         "whyImportant": "It formalized how unreliable nodes can agree on a single value.",
@@ -55,7 +55,7 @@
       "date": "1998-05-12",
       "datePrecision": "day",
       "title": "CSS Level 2 becomes a W3C Recommendation",
-      "summary": "The W3C published Cascading Style Sheets, Level 2 as a Recommendation on May 12, 1998 — adding positioning, media types, and downloadable fonts.",
+      "summary": "The [W3C] published Cascading Style Sheets, Level 2 as a Recommendation on May 12, 1998 — adding positioning, media types, and downloadable fonts.",
       "about": "CSS2 introduced absolute and relative positioning, z-index layering, `@media` rules for print and screen, and table layout controls — while remaining backward compatible with CSS1. It became the prerequisite for the Document Object Model and set the foundation for richer page design through the browser wars era.",
       "narrative": {
         "whyChosen": "CSS2 expanded styling from basic typography to layout, media, and accessibility features.",

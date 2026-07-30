@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Amiga 1000 released",
       "summary": "Commodore began selling the Amiga 1000 in July 1985 — a multimedia computer with custom graphics and sound chips ahead of its time.",
-      "about": "The Amiga's Agnus and Denise chips delivered smooth scrolling, sprites, and stereo audio — demo scene coders and game developers pushed hardware tricks years before PC VGA caught up. AmigaOS multitasked with a message-passing kernel. The platform nurtured a generation of European game and multimedia developers before Commodore's decline.",
+      "about": "The Amiga's Agnus and Denise chips delivered smooth scrolling, sprites, and stereo audio — demo scene coders and game developers pushed hardware tricks years before [PC] VGA caught up. AmigaOS multitasked with a message-passing [kernel]. The platform nurtured a generation of European game and multimedia developers before Commodore's decline.",
       "narrative": {
         "whyChosen": "The Amiga 1000 was the first consumer machine built for real-time graphics and sound.",
         "whyImportant": "It influenced game development, demo culture, and multimedia computing through the late 1980s.",

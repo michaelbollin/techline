@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Make build tool created",
       "summary": "Stuart Feldman wrote Make at Bell Labs in April 1976 — the first tool to rebuild only what changed by tracking file dependencies.",
-      "about": "Make reads a Makefile listing targets and prerequisites — change one `.c` file and only its dependents recompile. Every C/C++ project, Linux kernel build, and countless CI pipelines still use Make or descendants (CMake, Ninja, Gradle). Example: `make` after editing `main.c` re-links the binary without rebuilding untouched objects.",
+      "about": "Make reads a Makefile listing targets and prerequisites — change one `.c` file and only its dependents recompile. Every C/C++ project, Linux [kernel] build, and countless CI pipelines still use Make or descendants (CMake, Ninja, Gradle). Example: `make` after editing `main.c` re-links the binary without rebuilding untouched objects.",
       "narrative": {
         "whyChosen": "Make invented dependency-driven builds — the pattern behind every modern build system.",
         "whyImportant": "It stopped developers from shipping stale binaries because someone forgot to recompile.",
@@ -64,7 +64,7 @@
       "datePrecision": "day",
       "title": "Steve Jobs and Steve Wozniak found Apple",
       "summary": "Steve Jobs and Steve Wozniak formed Apple Computer Company on April 1, 1976 to sell the Apple I kit.",
-      "about": "Apple brought personal computers to consumers with the Apple II and Macintosh — shaping GUI software, developer tools, and the idea that computers belong on every desk.",
+      "about": "Apple brought personal computers to consumers with the Apple II and Macintosh — shaping [GUI] software, developer tools, and the idea that computers belong on every desk.",
       "narrative": {
         "whyChosen": "Apple became one of the defining personal computing companies.",
         "whyImportant": "It proved hobbyist kits could become mass-market consumer products.",

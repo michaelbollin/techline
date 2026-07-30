@@ -6,12 +6,12 @@
       "date": "2019-10-24",
       "datePrecision": "day",
       "title": "Google Pixel 4 released",
-      "summary": "Google began selling the Google Pixel 4 — Soli radar gestures and Astro Photography mode.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Soli radar gestures and astro photography mode. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 4 — Soli radar gestures and Astro Photography mode.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Soli radar gestures and astro photography mode. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 4 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 4 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

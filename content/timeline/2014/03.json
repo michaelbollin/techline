@@ -6,8 +6,8 @@
       "date": "2014-03-18",
       "datePrecision": "day",
       "title": "Java 8 released",
-      "summary": "Oracle shipped Java 8 on March 18, 2014 with lambda expressions, the Stream API, and java.time — the most widely adopted Java release for a decade.",
-      "about": "Java 8 let developers write `list.stream().filter(...).map(...)` instead of verbose loops, and replaced the broken `java.util.Date` with a modern date/time API. It became the default enterprise Java version and delayed migrations until Java 17/21 LTS releases.",
+      "summary": "Oracle shipped Java 8 on March 18, 2014 with lambda expressions, the Stream [API], and java.time — the most widely adopted Java release for a decade.",
+      "about": "Java 8 let developers write `list.stream().filter(...).map(...)` instead of verbose loops, and replaced the broken `java.util.Date` with a modern date/time [API]. It became the default enterprise Java version and delayed migrations until Java 17/21 LTS releases.",
       "narrative": {
         "whyChosen": "Java 8 was the functional-programming turning point for mainstream Java.",
         "whyImportant": "Lambdas and streams changed how millions of developers wrote collection and async code.",

@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Express.js initial release",
       "summary": "TJ Holowaychuk shipped Express 0.0.1 on January 3, 2010 — a minimal Sinatra-style web framework for Node.js.",
-      "about": "Express is the default HTTP layer for Node APIs — routing, middleware, and request/response helpers in a few lines. It sits under NestJS, early Meteor, and countless REST services. Typical use: `app.get('/users', ...)` with JSON middleware, session cookies, and static file serving.",
+      "about": "Express is the default [HTTP] layer for Node APIs — routing, [middleware], and request/response helpers in a few lines. It sits under NestJS, early Meteor, and countless REST services. Typical use: `app.get('/users', ...)` with JSON [middleware], session cookies, and static file serving.",
       "narrative": {
-        "whyChosen": "Express became the de facto Node web framework and defined the middleware pattern for JS servers.",
-        "whyImportant": "It made Node practical for HTTP APIs when the runtime was still new and unproven for production.",
-        "problemSolved": "Raw Node HTTP required boilerplate for every route; teams needed a thin, composable router on top."
+        "whyChosen": "Express became the de facto Node web framework and defined the [middleware] pattern for JS servers.",
+        "whyImportant": "It made Node practical for [HTTP] APIs when the runtime was still new and unproven for production.",
+        "problemSolved": "Raw Node [HTTP] required boilerplate for every route; teams needed a thin, composable router on top."
       },
       "category": "software",
       "tags": [
@@ -54,8 +54,8 @@
       "date": "2010-01-03",
       "datePrecision": "day",
       "title": "Gunicorn first released",
-      "summary": "Benoit Chesneau released Gunicorn on January 3, 2010 — a pre-fork WSGI HTTP server for Python web applications.",
-      "about": "Gunicorn runs Django, Flask, and other WSGI apps behind nginx or a load balancer — worker processes handle requests while a master manages lifecycle. It ported Ruby's Unicorn model to Python with simple configuration. Example: `gunicorn myapp.wsgi:application --workers 4` serves a Django API on port 8000.",
+      "summary": "Benoit Chesneau released Gunicorn on January 3, 2010 — a pre-fork WSGI [HTTP] server for Python web applications.",
+      "about": "Gunicorn runs Django, Flask, and other WSGI apps behind nginx or a load balancer — worker processes handle requests while a master manages lifecycle. It ported Ruby's Unicorn model to Python with simple configuration. Example: `gunicorn myapp.wsgi:application --workers 4` serves a Django [API] on port 8000.",
       "narrative": {
         "whyChosen": "Gunicorn became the default production WSGI server for Python web frameworks.",
         "whyImportant": "It made deploying Python apps behind nginx a standard, well-understood pattern.",
@@ -105,12 +105,12 @@
       "date": "2010-01-05",
       "datePrecision": "day",
       "title": "Nexus One released",
-      "summary": "Google began selling the Nexus One — Google's first Nexus phone with HTC — pure Android reference device.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Google's first nexus phone with htc — pure android reference device. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the [Nexus] One — Google's first [Nexus] phone with HTC — pure [Android] reference device.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Google's first nexus phone with htc — pure android reference device. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Nexus One was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The [Nexus] One was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [
@@ -219,10 +219,10 @@
       "datePrecision": "day",
       "title": "Apple A4 chip introduced",
       "summary": "Apple introduced the A4 system-on-chip on January 27, 2010 alongside the iPad — Apple's first in-house-designed mobile processor.",
-      "about": "The A4 combined an ARM Cortex-A8 CPU with PowerVR graphics in a package Apple designed — not just rebranded Samsung silicon. It shipped in the iPad and iPhone 4, starting Apple's vertical integration of mobile chip design. Every A-series and M-series chip since traces to this SoC strategy.",
+      "about": "The A4 combined an ARM Cortex-A8 [CPU] with PowerVR graphics in a package Apple designed — not just rebranded Samsung silicon. It shipped in the iPad and iPhone 4, starting Apple's vertical integration of mobile chip design. Every A-series and M-series chip since traces to this SoC strategy.",
       "narrative": {
         "whyChosen": "The A4 was Apple's first custom SoC — the start of in-house mobile silicon.",
-        "whyImportant": "It let Apple tune CPU, GPU, and power together for iOS devices instead of relying on off-the-shelf chips.",
+        "whyImportant": "It let Apple tune [CPU], GPU, and power together for iOS devices instead of relying on off-the-shelf chips.",
         "problemSolved": "Apple needed tighter control over performance and battery life than merchant ARM chips provided."
       },
       "category": "hardware",
@@ -276,7 +276,7 @@
       "datePrecision": "day",
       "title": "iPad introduced",
       "summary": "Steve Jobs introduced the iPad on January 27, 2010 — a tablet-sized iOS device between smartphone and laptop.",
-      "about": "The iPad brought touch-first apps to a 10-inch screen — magazines, games, point-of-sale, and field tools. Developers adapted responsive layouts and later split-view multitasking; the 'tablet class' of UX influenced Android tablets and hybrid 2-in-1s. It redefined casual computing for millions who never bought a PC.",
+      "about": "The iPad brought touch-first apps to a 10-inch screen — magazines, games, point-of-sale, and field tools. Developers adapted responsive layouts and later split-view multitasking; the 'tablet class' of UX influenced Android tablets and hybrid 2-in-1s. It redefined casual computing for millions who never bought a [PC].",
       "narrative": {
         "whyChosen": "The iPad created the modern tablet category and a new form factor for app developers.",
         "whyImportant": "It expanded mobile development beyond phones into touch-first tablet experiences.",

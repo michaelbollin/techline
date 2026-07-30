@@ -6,8 +6,8 @@
       "date": "2025-05-21",
       "datePrecision": "day",
       "title": "Erlang/OTP 28 released",
-      "summary": "The Erlang/OTP team released OTP 28 on May 21, 2025 with improved JIT, JSON enhancements, and Erlang shell improvements.",
-      "about": "OTP 28 continued BEAM VM evolution for Elixir and Erlang production systems — faster JIT code paths, stdlib refinements, and better tooling for observability. It supports the growing Elixir adoption in fintech, messaging, and embedded Nerves devices.",
+      "summary": "The Erlang/OTP team released OTP 28 on May 21, 2025 with improved [JIT], [JSON] enhancements, and Erlang shell improvements.",
+      "about": "OTP 28 continued BEAM VM evolution for Elixir and Erlang production systems — faster [JIT] code paths, stdlib refinements, and better tooling for observability. It supports the growing Elixir adoption in fintech, messaging, and embedded Nerves devices.",
       "narrative": {
         "whyChosen": "OTP 28 keeps the BEAM competitive for high-availability distributed systems.",
         "whyImportant": "Incremental VM gains compound across every Phoenix and RabbitMQ deployment.",
@@ -54,8 +54,8 @@
       "date": "2025-05-22",
       "datePrecision": "day",
       "title": "Anthropic Claude 4 Opus and Sonnet released",
-      "summary": "Anthropic released Claude Opus 4 and Sonnet 4 on May 22, 2025 — hybrid reasoning models with extended thinking, parallel tool use, and state-of-the-art coding scores.",
-      "about": "Claude 4 made extended thinking with tool use a default capability and shipped Claude Code to general availability. Opus 4 led SWE-bench and long-running agent tasks; Sonnet 4 balanced cost and capability for everyday coding — intensifying the three-way race with OpenAI o3 and Gemini 2.5.",
+      "summary": "[Anthropic] released Claude Opus 4 and Sonnet 4 on May 22, 2025 — hybrid reasoning models with extended thinking, parallel tool use, and state-of-the-art coding scores.",
+      "about": "Claude 4 made extended thinking with tool use a default capability and shipped Claude Code to general availability. Opus 4 led SWE-bench and long-running agent tasks; Sonnet 4 balanced cost and capability for everyday coding — intensifying the three-way race with OpenAI o3 and [Gemini] 2.5.",
       "narrative": {
         "whyChosen": "Claude 4 paired frontier coding with production-ready agent tooling.",
         "whyImportant": "Parallel tools and memory files pushed agentic coding from demo to daily workflow.",
@@ -112,11 +112,11 @@
       "datePrecision": "day",
       "title": "Node.js 24 released",
       "summary": "Node.js 24.0.0 shipped on May 6, 2025 with V8 13.6, npm 11, global URLPattern, and AsyncContextFrame for AsyncLocalStorage.",
-      "about": "Node 24 became the Current release before LTS in October 2025 — continuing the annual cadence after Node 22. Global URLPattern and AsyncLocalStorage defaults simplified web platform APIs and request tracing in servers and edge runtimes.",
+      "about": "Node 24 became the Current release before [LTS] in October 2025 — continuing the annual cadence after Node 22. Global URLPattern and AsyncLocalStorage defaults simplified web platform APIs and request tracing in servers and edge runtimes.",
       "narrative": {
         "whyChosen": "Node 24 advanced web-platform APIs and async context defaults in the runtime.",
         "whyImportant": "URLPattern and npm 11 reduced polyfills for modern JavaScript servers.",
-        "problemSolved": "Node needed fresher V8 features and cleaner async tracing without breaking LTS users."
+        "problemSolved": "Node needed fresher V8 features and cleaner async tracing without breaking [LTS] users."
       },
       "category": "software",
       "tags": [

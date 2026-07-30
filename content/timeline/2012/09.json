@@ -24,12 +24,12 @@
       "date": "2012-09",
       "datePrecision": "month",
       "title": "AlexNet wins ImageNet",
-      "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton submitted AlexNet to ILSVRC 2012 on September 30, 2012 — winning with 15.3% top-5 error and triggering the deep learning revolution.",
-      "about": "AlexNet's GPU-trained convolutional network crushed traditional computer vision pipelines — convincing Google, Facebook, and industry to bet on neural networks. Hinton had pursued backprop for decades before this breakthrough.",
+      "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton submitted AlexNet to ILSVRC 2012 on September 30, 2012 — winning with 15.3% top-5 error and triggering the [deep learning] revolution.",
+      "about": "AlexNet's [GPU]-trained convolutional network crushed traditional [computer vision] pipelines — convincing Google, Facebook, and industry to bet on [neural network]s. Hinton had pursued backprop for decades before this breakthrough.",
       "narrative": {
-        "whyChosen": "AlexNet was the inflection point for modern deep learning adoption.",
-        "whyImportant": "It proved neural networks could beat hand-engineered vision features at scale.",
-        "problemSolved": "Computer vision relied on brittle handcrafted features that did not generalize."
+        "whyChosen": "AlexNet was the inflection point for modern [deep learning] adoption.",
+        "whyImportant": "It proved [neural network]s could beat hand-engineered vision features at scale.",
+        "problemSolved": "[Computer vision] relied on brittle handcrafted features that did not generalize."
       },
       "category": "ai",
       "tags": [
@@ -116,12 +116,12 @@
       "date": "2012-09-26",
       "datePrecision": "day",
       "title": "Samsung Galaxy Note II released",
-      "summary": "Samsung released the Samsung Galaxy Note II — larger 5.5-inch screen and split-screen multitasking on Android.",
-      "about": "The Galaxy Note targeted stylus power users on Android. Larger 5.5-inch screen and split-screen multitasking on android. Note apps and split-screen Android development often targeted this hardware class.",
+      "summary": "Samsung released the Samsung Galaxy Note II — larger 5.5-inch screen and split-screen multitasking on [Android].",
+      "about": "The Galaxy Note targeted stylus power users on [Android]. Larger 5.5-inch screen and split-screen multitasking on android. Note apps and split-screen [Android] development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note II advanced Samsung's stylus phablet line.",
-        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
-        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+        "whyImportant": "Galaxy Note hardware defined large-screen [Android] productivity for years.",
+        "problemSolved": "[Android] lacked a premium large-screen stylus flagship for note-taking workflows."
       },
       "category": "hardware",
       "tags": [
@@ -174,7 +174,7 @@
       "date": "2012-09-27",
       "datePrecision": "day",
       "title": "Joomla 3.0 released",
-      "summary": "The Joomla project shipped Joomla 3.0 on September 27, 2012 — a Bootstrap-based admin UI and mobile-ready front-end templates.",
+      "summary": "The Joomla project shipped Joomla 3.0 on September 27, 2012 — a Bootstrap-based admin [UI] and mobile-ready front-end templates.",
       "about": "Joomla 3 brought responsive templates, a modernized media manager, and improved ACL — aligning the CMS with mobile-first expectations. It followed the short-term release strategy before Joomla settled on longer support cycles in the 3.x era.",
       "narrative": {
         "whyChosen": "Joomla 3 modernized the admin experience with Bootstrap and responsive design.",
@@ -223,7 +223,7 @@
       "datePrecision": "day",
       "title": "Zoom video conferencing software launches",
       "summary": "Zoom Video Communications released its first software on September 10, 2012 — a cloud video meeting platform built by former WebEx engineers.",
-      "about": "Zoom prioritized one-click joins and reliable screen share over enterprise telepresence complexity. Developers adopted it for standups, pair programming, and remote interviews long before COVID — then usage exploded in 2020 when offices closed. Its API and SDK powered embedded video in education and health apps.",
+      "about": "Zoom prioritized one-click joins and reliable screen share over enterprise telepresence complexity. Developers adopted it for standups, pair programming, and remote interviews long before COVID — then usage exploded in 2020 when offices closed. Its [API] and [SDK] powered embedded video in education and health apps.",
       "narrative": {
         "whyChosen": "Zoom became the default video layer for remote engineering teams.",
         "whyImportant": "Frictionless meetings made distributed standups and interviews routine.",

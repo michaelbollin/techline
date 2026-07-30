@@ -6,8 +6,8 @@
       "date": "2012-07-25",
       "datePrecision": "day",
       "title": "Safari 6 released",
-      "summary": "Apple released Safari 6 on July 25, 2012 with OS X Mountain Lion — featuring a unified URL/search bar, iCloud Tabs, and offline Reading List.",
-      "about": "Safari 6 dropped Windows support and focused on the Mac and iOS ecosystem: iCloud sync let users continue browsing across devices; the combined omnibar matched Chrome's UX. It was the last Safari version many Mac users saw before the annual OS-tied releases.",
+      "summary": "Apple released Safari 6 on July 25, 2012 with [OS] X Mountain Lion — featuring a unified [URL]/search bar, iCloud Tabs, and offline Reading List.",
+      "about": "Safari 6 dropped Windows support and focused on the Mac and iOS ecosystem: iCloud sync let users continue browsing across devices; the combined omnibar matched Chrome's UX. It was the last Safari version many Mac users saw before the annual [OS]-tied releases.",
       "narrative": {
         "whyChosen": "Safari 6 tied browsing tightly to Apple's cloud and device ecosystem.",
         "whyImportant": "iCloud Tabs previewed cross-device continuity that became an Apple platform pillar.",

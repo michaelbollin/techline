@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "iOS EU browser choice screens",
       "summary": "In March 2024, Apple rolled out browser choice screens and alternative engine rules in the EU under the Digital Markets Act — letting users pick default browsers beyond Safari.",
-      "about": "For the first time, iPhone users in the EU could set Chrome, Firefox, or Brave as default and download browsers from outside the App Store's Safari wrapper rules. The DMA forced platform owners to treat browsers as competitive products, not bundled OS features.",
+      "about": "For the first time, iPhone users in the EU could set Chrome, Firefox, or Brave as default and download browsers from outside the App Store's Safari wrapper rules. The DMA forced platform owners to treat browsers as competitive products, not bundled [OS] features.",
       "narrative": {
         "whyChosen": "Regulation reopened mobile browser competition on the world's most locked-down platform.",
         "whyImportant": "It challenged Apple's control over which engines and browsers iOS users can run.",
@@ -60,7 +60,7 @@
       "date": "2024-03-13",
       "datePrecision": "day",
       "title": "European Parliament adopts EU AI Act",
-      "summary": "The European Parliament voted to adopt the EU Artificial Intelligence Act on March 13, 2024 — the world's first comprehensive legal framework for high-risk AI systems, foundation models, and prohibited practices.",
+      "summary": "The European Parliament voted to adopt the EU [Artificial Intelligence] Act on March 13, 2024 — the world's first comprehensive legal framework for high-risk AI systems, foundation models, and prohibited practices.",
       "about": "The AI Act tiers obligations by risk: banned social scoring and real-time biometric surveillance in public spaces (with exceptions), strict documentation for hiring and credit-scoring AI, and transparency rules for general-purpose models like GPT-4. Teams shipping copilots, hiring tools, and medical AI face conformity assessments — influencing how U.S. and UK regulators draft their own AI rules.",
       "narrative": {
         "whyChosen": "The EU AI Act is the first major horizontal law governing foundation models and high-risk AI.",
@@ -115,7 +115,7 @@
       "narrative": {
         "whyChosen": "Claude 3 established Anthropic as a peer to OpenAI in frontier model releases.",
         "whyImportant": "Competition drove faster iteration on safety, context length, and developer APIs.",
-        "problemSolved": "Enterprises wanted alternatives to a single LLM vendor for chat and automation."
+        "problemSolved": "Enterprises wanted alternatives to a single LLM vendor for chat and [automation]."
       },
       "category": "software",
       "tags": [
@@ -166,7 +166,7 @@
       "datePrecision": "day",
       "title": "NVIDIA Blackwell platform announced",
       "summary": "NVIDIA announced the Blackwell GPU platform at GTC on March 18, 2024 — GB200 Grace Blackwell Superchips and B200 accelerators built for trillion-parameter generative AI.",
-      "about": "Blackwell succeeded Hopper as NVIDIA's AI compute generation: second-gen transformer engines, fifth-gen NVLink, and GB200 systems pairing two B200 GPUs with a Grace CPU. Jensen Huang called it a processor for the generative AI era — the hardware layer behind the next wave of frontier model training and inference.",
+      "about": "Blackwell succeeded Hopper as NVIDIA's AI compute generation: second-gen transformer engines, fifth-gen NVLink, and GB200 systems pairing two B200 GPUs with a Grace [CPU]. Jensen Huang called it a processor for the generative AI era — the hardware layer behind the next wave of frontier model training and inference.",
       "narrative": {
         "whyChosen": "Blackwell defined the GPU generation that trained and served 2024–2026 frontier models.",
         "whyImportant": "It raised the ceiling on AI factory scale, efficiency, and real-time trillion-parameter inference.",
@@ -229,7 +229,7 @@
       "title": "Huang: generative AI era",
       "quoteText": "The way we compute is fundamentally different. We created a processor for the generative AI era.",
       "summary": "At GTC 2024, NVIDIA CEO Jensen Huang unveils Blackwell and frames GPUs as the engine of AI factories, not just graphics.",
-      "about": "Huang pulled a Blackwell chip from his pocket beside a Hopper die — the visual shorthand for a platform shift. The line captured how NVIDIA repositioned from gaming GPUs to the default substrate for trillion-parameter models and real-time generative AI.",
+      "about": "Huang pulled a Blackwell chip from his pocket beside a Hopper die — the visual shorthand for a platform shift. The line captured how NVIDIA repositioned from gaming GPUs to the default substrate for trillion-parameter models and real-time [generative AI].",
       "narrative": {
         "whyChosen": "The defining phrase from the Blackwell keynote that named the generative-AI hardware era.",
         "whyImportant": "It reframed data centers as AI factories and cemented NVIDIA's narrative for investors and builders.",

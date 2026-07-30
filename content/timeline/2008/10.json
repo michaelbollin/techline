@@ -6,12 +6,12 @@
       "date": "2008-10-28",
       "datePrecision": "day",
       "title": "pip first released",
-      "summary": "Ian Bicking released pip on October 28, 2008 — the Python package installer that replaced easy_install for most developers.",
-      "about": "pip installs packages from PyPI with `pip install requests`, records versions in `requirements.txt`, and supports virtual environments. It became the standard way Python projects manage dependencies — Django, Flask, data science stacks, and ML pipelines all start with pip. The PyPA now maintains it.",
+      "summary": "Ian Bicking released pip on October 28, 2008 — the [Python] package installer that replaced easy_install for most developers.",
+      "about": "pip installs packages from PyPI with `pip install requests`, records versions in `requirements.txt`, and supports virtual environments. It became the standard way [Python] projects manage dependencies — Django, Flask, data science stacks, and ML pipelines all start with pip. The PyPA now maintains it.",
       "narrative": {
-        "whyChosen": "pip made Python dependency management predictable after the frustrations of easy_install.",
-        "whyImportant": "It established requirements files and PyPI as the default Python packaging workflow.",
-        "problemSolved": "Python lacked a simple, reliable installer that handled uninstalls and version pinning well."
+        "whyChosen": "pip made [Python] dependency management predictable after the frustrations of easy_install.",
+        "whyImportant": "It established requirements files and PyPI as the default [Python] packaging workflow.",
+        "problemSolved": "[Python] lacked a simple, reliable installer that handled uninstalls and version pinning well."
       },
       "category": "software",
       "tags": [
@@ -56,12 +56,12 @@
       "date": "2008-10-22",
       "datePrecision": "day",
       "title": "T-Mobile G1 released",
-      "summary": "T-Mobile began selling the HTC Dream (T-Mobile G1) on October 22, 2008 — the first commercially available Android smartphone.",
-      "about": "The G1 shipped with Android 1.0, a slide-out keyboard, and the Android Market for apps. It proved Google's open handset strategy could reach retail shelves — paving the way for Samsung, Pixel, and billions of Android devices. Developers got a second native mobile platform beside iOS.",
+      "summary": "T-Mobile began selling the HTC Dream (T-Mobile G1) on October 22, 2008 — the first commercially available [Android] smartphone.",
+      "about": "The G1 shipped with [Android] 1.0, a slide-out keyboard, and the [Android] Market for apps. It proved Google's open handset strategy could reach retail shelves — paving the way for Samsung, [Pixel], and billions of [Android] devices. Developers got a second native mobile platform beside iOS.",
       "narrative": {
-        "whyChosen": "The G1 was the first phone to bring Android from announcement to consumers.",
-        "whyImportant": "It validated Android as a real competitor to the iPhone and launched the dual-platform mobile era.",
-        "problemSolved": "Android needed a shipping reference device to attract developers and carrier partners."
+        "whyChosen": "The G1 was the first phone to bring [Android] from announcement to consumers.",
+        "whyImportant": "It validated [Android] as a real competitor to the iPhone and launched the dual-platform mobile era.",
+        "problemSolved": "[Android] needed a shipping reference device to attract developers and carrier partners."
       },
       "category": "hardware",
       "tags": [
@@ -114,7 +114,7 @@
       "date": "2008-10-31",
       "datePrecision": "day",
       "title": "Bitcoin whitepaper published",
-      "summary": "Satoshi Nakamoto published \"Bitcoin: A Peer-to-Peer Electronic Cash System\" on October 31, 2008 — proposing a decentralized ledger secured by proof-of-work.",
+      "summary": "Satoshi Nakamoto published \"Bitcoin: A [Peer-to-Peer] Electronic Cash System\" on October 31, 2008 — proposing a decentralized ledger secured by proof-of-work.",
       "about": "The paper described blocks chained by hashes, a difficulty-adjusted mining race, and incentives for honest nodes — without a central bank. Bitcoin launched open-source software in January 2009 and spawned blockchains, smart contracts, and a decade of debate about energy, regulation, and trustless systems.",
       "narrative": {
         "whyChosen": "The Bitcoin whitepaper introduced blockchain consensus to mainstream technical discourse.",

@@ -6,11 +6,11 @@
       "date": "1977",
       "datePrecision": "year",
       "title": "AWK created at Bell Labs",
-      "summary": "Alfred Aho, Peter Weinberger, and Brian Kernighan created AWK in 1977 — a pattern-action language for text processing on Unix.",
+      "summary": "Alfred Aho, Peter Weinberger, and Brian Kernighan created AWK in 1977 — a pattern-action language for text processing on [Unix].",
       "about": "AWK scans lines of text, matches patterns, and runs actions — ideal for log analysis, column extraction, and quick reports. `awk '{print $1}' access.log` became a daily sysadmin habit. Perl, Lua, and countless one-liners inherited AWK's field-splitting and regex model.",
       "narrative": {
-        "whyChosen": "AWK defined the pattern-action paradigm that shaped Unix scripting and influenced Perl.",
-        "whyImportant": "It made structured text processing a first-class programming style on every Unix system.",
+        "whyChosen": "AWK defined the pattern-action paradigm that shaped [Unix] scripting and influenced Perl.",
+        "whyImportant": "It made structured text processing a first-class programming style on every [Unix] system.",
         "problemSolved": "C programs were overkill for simple columnar reports; sed alone could not express arithmetic and structured control flow."
       },
       "category": "software",
@@ -63,7 +63,7 @@
       "about": "AWK's columnar field model and regex patterns influenced Perl, Ruby, and every log-parsing one-liner. Kernighan's 'The C Programming Language' and 'Software Tools' shaped how programmers learn Unix.",
       "narrative": {
         "whyChosen": "AWK made structured text processing a first-class scripting task.",
-        "whyImportant": "It influenced a generation of scripting languages and CLI culture.",
+        "whyImportant": "It influenced a generation of scripting languages and [CLI] culture.",
         "problemSolved": "Ad-hoc shell pipelines could not easily handle columnar report data."
       },
       "category": "software",

@@ -6,11 +6,11 @@
       "date": "2009-12-03",
       "datePrecision": "day",
       "title": "JavaScript ES5 standardized",
-      "summary": "On December 3, 2009, the ES5 standard was adopted — adding strict mode, built-in JSON support, and safer object handling to JavaScript.",
-      "about": "ES5 was the first major JavaScript update in ten years. Strict mode (`\"use strict\"`) caught common bugs; built-in `JSON.parse` and `JSON.stringify` replaced third-party libraries; getters and setters enabled cleaner APIs. It was what jQuery-era websites ran on before modern JavaScript (ES6) became mainstream.",
+      "summary": "On December 3, 2009, the ES5 standard was adopted — adding strict mode, built-in [JSON] support, and safer object handling to JavaScript.",
+      "about": "ES5 was the first major JavaScript update in ten years. Strict mode (`\"use strict\"`) caught common bugs; built-in `[JSON].parse` and `[JSON].stringify` replaced third-party libraries; getters and setters enabled cleaner APIs. It was what jQuery-era websites ran on before modern JavaScript (ES6) became mainstream.",
       "narrative": {
         "whyChosen": "ES5 was the first meaningful JavaScript update in a decade and fixed real inconsistencies between browsers.",
-        "whyImportant": "Developers could parse JSON natively and write stricter, less buggy code — without waiting years for the bigger ES6 overhaul.",
+        "whyImportant": "Developers could parse [JSON] natively and write stricter, less buggy code — without waiting years for the bigger ES6 overhaul.",
         "problemSolved": "A failed ES4 rewrite had frozen the language; browsers and developers needed practical improvements they could ship now."
       },
       "category": "software",

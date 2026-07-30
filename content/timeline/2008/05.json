@@ -7,7 +7,7 @@
       "title": "JavaScript: The Good Parts",
       "quoteText": "JavaScript: The Good Parts.",
       "summary": "Douglas Crockford's book title became a rallying cry — use the small subset of JavaScript that is reliable and ignore the rest.",
-      "about": "In 2008 many teams treated JS as a toy language. Crockford argued you could write serious software by deliberately avoiding the bad parts — influencing lint rules, style guides, and later TypeScript's stricter subsets.",
+      "about": "In 2008 many teams treated JS as a toy language. Crockford argued you could write serious software by deliberately avoiding the bad parts — influencing lint rules, style guides, and later [TypeScript]'s stricter subsets.",
       "narrative": {
         "whyChosen": "The title that legitimized JavaScript as a professional language.",
         "whyImportant": "It gave teams permission to subset the language instead of using all of it.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "Google App Engine opens to all developers",
       "summary": "Google opened App Engine sign-ups to everyone on May 28, 2008 at Google I/O — ending the invite-only preview that began in April.",
-      "about": "After 150,000 developers joined the waitlist, App Engine became publicly available with pricing tiers and new APIs — Python apps could scale on Google's infrastructure without provisioning servers. It validated PaaS as a category alongside Heroku and set expectations for cloud-native deployment.",
+      "about": "After 150,000 developers joined the waitlist, App Engine became publicly available with pricing tiers and new APIs — [Python] apps could scale on Google's infrastructure without provisioning servers. It validated PaaS as a category alongside Heroku and set expectations for cloud-native deployment.",
       "narrative": {
         "whyChosen": "Opening App Engine proved managed cloud hosting had mass developer demand.",
         "whyImportant": "It moved PaaS from invite-only experiment to a product any developer could try.",

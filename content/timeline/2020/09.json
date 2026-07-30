@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Laravel 8.0 released",
       "summary": "Taylor Otwell released Laravel 8.0 on September 8, 2020 with model factories, job batching, and improved routing and maintenance mode.",
-      "about": "Laravel 8 refined the developer experience before Laravel 9's PHP 8 jump: class-based model factories replaced legacy definitions; job batching coordinated queues; Jetstream offered optional auth scaffolding. It remained the default PHP framework for SaaS and agency work through the early 2020s.",
+      "about": "Laravel 8 refined the developer experience before Laravel 9's PHP 8 jump: class-based model factories replaced legacy definitions; job batching coordinated queues; Jetstream offered optional auth scaffolding. It remained the default PHP framework for [SaaS] and agency work through the early 2020s.",
       "narrative": {
         "whyChosen": "Laravel 8 polished factories and queues for production PHP teams.",
         "whyImportant": "Job batching and modern factories reduced boilerplate in data-heavy apps.",
@@ -56,7 +56,7 @@
       "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. Refined hinge and larger cover display — foldables became more durable.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Z Fold 2 pushed foldable Android hardware into the mainstream.",
-        "whyImportant": "Foldable form factors require adaptive UI patterns beyond fixed phone screens.",
+        "whyImportant": "Foldable form factors require adaptive [UI] patterns beyond fixed phone screens.",
         "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
       },
       "category": "hardware",
@@ -110,12 +110,12 @@
       "date": "2020-09-18",
       "datePrecision": "day",
       "title": "Vue 3.0 released",
-      "summary": "Evan You shipped Vue 3.0 on September 18, 2020 with the Composition API, a faster virtual DOM, and better TypeScript support.",
+      "summary": "Evan You shipped Vue 3.0 on September 18, 2020 with the Composition [API], a faster virtual DOM, and better TypeScript support.",
       "about": "Vue 3 let teams organize component logic with composables instead of sprawling `data`/`methods` blocks — similar ergonomics to React hooks with Vue's reactive system. The rewrite improved performance for large dashboards and became the default for new Laravel, Nuxt, and enterprise frontends.",
       "narrative": {
         "whyChosen": "Vue 3 was a ground-up rewrite that kept Vue's gentle learning curve while scaling to large apps.",
-        "whyImportant": "The Composition API and improved TypeScript story kept Vue competitive with React for new projects.",
-        "problemSolved": "Vue 2's options API did not scale cleanly for complex components shared across big codebases."
+        "whyImportant": "The Composition [API] and improved TypeScript story kept Vue competitive with React for new projects.",
+        "problemSolved": "Vue 2's options [API] did not scale cleanly for complex components shared across big codebases."
       },
       "category": "software",
       "tags": [

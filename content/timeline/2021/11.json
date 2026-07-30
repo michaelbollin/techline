@@ -10,7 +10,7 @@
       "about": ".NET 6 succeeded .NET 5 as the modern default: MAUI for mobile/desktop, Blazor for web, and performance gains across the stack. LTS status through 2024 made it the enterprise migration target after .NET Framework's sunset.",
       "narrative": {
         "whyChosen": ".NET 6 was the first LTS after the unified .NET branding settled.",
-        "whyImportant": "One SDK for cloud, mobile, and desktop reduced platform fragmentation.",
+        "whyImportant": "One [SDK] for cloud, mobile, and desktop reduced platform fragmentation.",
         "problemSolved": "Teams hesitated on .NET 5 without LTS guarantees for production workloads."
       },
       "category": "software",
@@ -114,12 +114,12 @@
       "date": "2021-11-06",
       "datePrecision": "day",
       "title": "GHC 9.2 released",
-      "summary": "The Glasgow Haskell Compiler 9.2.1 shipped on November 6, 2021 with improved compile times, unboxed sums, and better Windows support.",
-      "about": "GHC 9.2 refined the post-9.0 compiler with faster builds for large Haskell codebases and language extensions used in production (Cardano, Jane Street tooling). It bridged teams on GHC 8.10 toward the 9.x line.",
+      "summary": "The Glasgow [Haskell] Compiler 9.2.1 shipped on November 6, 2021 with improved compile times, unboxed sums, and better Windows support.",
+      "about": "[GHC] 9.2 refined the post-9.0 compiler with faster builds for large [Haskell] codebases and language extensions used in production (Cardano, Jane Street tooling). It bridged teams on [GHC] 8.10 toward the 9.x line.",
       "narrative": {
-        "whyChosen": "GHC 9.2 was the stability release that encouraged production upgrades from GHC 8.",
-        "whyImportant": "Compile-time improvements kept Haskell viable for large industrial codebases.",
-        "problemSolved": "Teams hesitated to move off GHC 8.x due to build-time regressions in early 9.0."
+        "whyChosen": "[GHC] 9.2 was the stability release that encouraged production upgrades from [GHC] 8.",
+        "whyImportant": "Compile-time improvements kept [Haskell] viable for large industrial codebases.",
+        "problemSolved": "Teams hesitated to move off [GHC] 8.x due to build-time regressions in early 9.0."
       },
       "category": "software",
       "tags": [
@@ -164,12 +164,12 @@
       "date": "2021-11-30",
       "datePrecision": "day",
       "title": "Directus 9 released",
-      "summary": "Directus 9 reached general availability on November 30, 2021 — a full rewrite in Node.js and Vue 3 as an open data platform over any SQL database.",
-      "about": "Directus 9 wraps existing SQL databases with instant REST and GraphQL APIs plus a no-code admin app — 10x faster than previous versions. It competes with Strapi and Payload as a self-hosted, database-agnostic headless CMS.",
+      "summary": "Directus 9 reached general availability on November 30, 2021 — a full rewrite in Node.js and Vue 3 as an open data platform over any [SQL] database.",
+      "about": "Directus 9 wraps existing [SQL] databases with instant REST and GraphQL APIs plus a no-code admin app — 10x faster than previous versions. It competes with Strapi and Payload as a self-hosted, database-agnostic headless CMS.",
       "narrative": {
         "whyChosen": "Directus 9 modernized the platform as a JavaScript-native open data layer.",
         "whyImportant": "Database-agnostic APIs let teams add a CMS without migrating content stores.",
-        "problemSolved": "Organizations had structured data in SQL but no user-friendly interface or API layer."
+        "problemSolved": "Organizations had structured data in [SQL] but no user-friendly interface or [API] layer."
       },
       "category": "software",
       "tags": [

@@ -6,10 +6,10 @@
       "date": "1982-02-24",
       "datePrecision": "day",
       "title": "Sun Microsystems founded",
-      "summary": "Andy Bechtolsheim, Vinod Khosla, Bill Joy, and Scott McNealy founded Sun Microsystems on February 24, 1982 — to commercialize the Stanford University Network workstation.",
-      "about": "Sun bet on Unix, open networking, and RISC before those were industry defaults. NFS, Java, SPARC, and the slogan \"the network is the computer\" came from this company — shaping how servers, developers, and enterprises built distributed systems through the dot-com era.",
+      "summary": "Andy Bechtolsheim, Vinod Khosla, Bill Joy, and Scott McNealy founded Sun Microsystems on February 24, 1982 — to commercialize the Stanford University Network [workstation].",
+      "about": "Sun bet on Unix, open networking, and [RISC] before those were industry defaults. NFS, Java, SPARC, and the slogan \"the network is the computer\" came from this company — shaping how servers, developers, and enterprises built distributed systems through the dot-com era.",
       "narrative": {
-        "whyChosen": "Sun turned Berkeley Unix and networking research into a workstation empire.",
+        "whyChosen": "Sun turned Berkeley Unix and networking research into a [workstation] empire.",
         "whyImportant": "It proved open protocols and Unix could win in commercial computing.",
         "problemSolved": "Engineers needed affordable networked Unix machines, not locked proprietary minicomputers."
       },

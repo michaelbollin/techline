@@ -9,9 +9,9 @@
       "summary": "On April 3, 1978, ANSI approved FORTRAN 77 — a standard version that added modern control flow to the dominant scientific language.",
       "about": "FORTRAN 77 added if/else branches, clearer loops, and text handling — making large scientific programs easier to read and maintain. It became the baseline for weather models, engineering simulation, and supercomputing for decades. Much legacy scientific code still targets this version.",
       "narrative": {
-        "whyChosen": "FORTRAN 77 is what most people mean by 'classic Fortran' — the version that ran on supercomputers for a generation.",
+        "whyChosen": "FORTRAN 77 is what most people mean by 'classic [Fortran]' — the version that ran on supercomputers for a generation.",
         "whyImportant": "It brought readable program structure to scientific computing without breaking the formula-first style researchers already relied on.",
-        "problemSolved": "Older Fortran lacked modern control structures, and teams needed one stable definition that worked the same on every vendor's compiler."
+        "problemSolved": "Older [Fortran] lacked modern control structures, and teams needed one stable definition that worked the same on every vendor's compiler."
       },
       "category": "software",
       "tags": [

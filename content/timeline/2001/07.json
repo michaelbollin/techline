@@ -6,10 +6,10 @@
       "date": "2001-07-09",
       "datePrecision": "day",
       "title": "Miguel de Icaza announces Mono",
-      "summary": "Ximian unveiled the Mono Project on July 9, 2001 — Miguel de Icaza's open-source .NET implementation, with details presented at O'Reilly OSCON later that month.",
-      "about": "Mono enabled Xamarin mobile development and Unity's C# scripting on macOS and Linux. de Icaza also co-founded GNOME and Ximian — shaping open desktop and cross-platform .NET.",
+      "summary": "Ximian unveiled the [Mono] Project on July 9, 2001 — Miguel de Icaza's open-source .NET implementation, with details presented at O'Reilly OSCON later that month.",
+      "about": "[Mono] enabled Xamarin mobile development and Unity's C# scripting on macOS and Linux. de Icaza also co-founded GNOME and Ximian — shaping open desktop and cross-platform .NET.",
       "narrative": {
-        "whyChosen": "Mono made Microsoft's managed runtime portable before .NET Core existed.",
+        "whyChosen": "[Mono] made Microsoft's managed runtime portable before .NET Core existed.",
         "whyImportant": "It kept C# viable for cross-platform mobile and game development.",
         "problemSolved": ".NET was Windows-only, blocking open-source and mobile adoption."
       },
@@ -58,11 +58,11 @@
       "date": "2001-07-02",
       "datePrecision": "day",
       "title": "BitTorrent client first released",
-      "summary": "Bram Cohen released the first BitTorrent client on July 2, 2001 — a peer-to-peer protocol that splits large files into swarms of cooperating downloaders.",
-      "about": "BitTorrent inverted client-server bandwidth: every downloader also uploads pieces to peers. Linux ISOs, game patches, and legal media used it to survive traffic spikes without giant CDN bills. The protocol influenced how engineers think about distributed file transfer and content-addressed chunks.",
+      "summary": "Bram Cohen released the first BitTorrent client on July 2, 2001 — a [peer-to-peer] protocol that splits large files into swarms of cooperating downloaders.",
+      "about": "BitTorrent inverted [client-server] bandwidth: every downloader also uploads pieces to peers. Linux ISOs, game patches, and legal media used it to survive traffic spikes without giant CDN bills. The protocol influenced how engineers think about distributed file transfer and content-addressed chunks.",
       "narrative": {
         "whyChosen": "BitTorrent pioneered swarm-based large-file distribution on the open internet.",
-        "whyImportant": "It showed peer-to-peer protocols could scale downloads without centralized bandwidth.",
+        "whyImportant": "It showed [peer-to-peer] protocols could scale downloads without centralized bandwidth.",
         "problemSolved": "Popular files overwhelmed single servers; users needed resilient ways to share multi-gigabyte archives."
       },
       "category": "protocol",
@@ -115,7 +115,7 @@
       "datePrecision": "day",
       "title": "Code Red worm targets IIS web servers",
       "summary": "The Code Red worm peaked on July 19, 2001 — exploiting a buffer overflow in Microsoft IIS to deface websites and launch DDoS attacks against the White House.",
-      "about": "Code Red scanned the entire IPv4 space for vulnerable IIS installs — hundreds of thousands of servers compromised in hours. It was named after Mountain Dew flavor at eEye Digital Security and forced emergency patching of Windows NT and 2000 web farms. Developers learned that internet-facing services could be weaponized into botnets overnight.",
+      "about": "Code Red scanned the entire [IPv4] space for vulnerable IIS installs — hundreds of thousands of servers compromised in hours. It was named after Mountain Dew flavor at eEye Digital Security and forced emergency patching of Windows NT and 2000 web farms. Developers learned that internet-facing services could be weaponized into botnets overnight.",
       "narrative": {
         "whyChosen": "Code Red showed how one IIS bug could infect the public web in a single day.",
         "whyImportant": "It accelerated automated patching and incident-response teams for internet services.",

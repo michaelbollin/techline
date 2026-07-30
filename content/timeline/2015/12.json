@@ -9,7 +9,7 @@
       "summary": "The PHP project released PHP 7.0 on December 3, 2015 — roughly doubling performance and adding scalar type hints and the spaceship operator.",
       "about": "PHP 7 revived the language after years on PHP 5: WordPress, Laravel, and Symfony sites ran dramatically faster on the same hardware. Scalar types and return declarations brought optional static discipline without losing PHP's deploy-by-FTP simplicity.",
       "narrative": {
-        "whyChosen": "PHP 7 was the performance reboot that kept PHP relevant against Node and Python.",
+        "whyChosen": "PHP 7 was the performance reboot that kept PHP relevant against Node and [Python].",
         "whyImportant": "A 2× speedup on real workloads changed hosting economics for millions of sites.",
         "problemSolved": "PHP 5.6 was slow and aging; the ecosystem needed a breaking cleanup to modernize internals."
       },
@@ -52,12 +52,12 @@
       "date": "2015-12-03",
       "datePrecision": "day",
       "title": "Swift open-sourced",
-      "summary": "Apple open-sourced Swift on December 3, 2015 under the Apache 2.0 license — releasing the compiler, standard library, and Swift.org governance model.",
-      "about": "Open Swift let the language run on Linux servers, attracted outside contributors, and separated Swift from pure Apple platform lock-in. It enabled server-side Swift experiments and laid groundwork for Swift on Windows and cross-platform tooling.",
+      "summary": "Apple open-sourced [Swift] on December 3, 2015 under the Apache 2.0 license — releasing the compiler, standard library, and [Swift].org governance model.",
+      "about": "Open [Swift] let the language run on Linux servers, attracted outside contributors, and separated [Swift] from pure Apple platform lock-in. It enabled server-side [Swift] experiments and laid groundwork for [Swift] on Windows and cross-platform tooling.",
       "narrative": {
-        "whyChosen": "Open-sourcing Swift was Apple's bid to make it a general-purpose language, not just an iOS detail.",
-        "whyImportant": "Community governance and Linux support expanded where Swift could run.",
-        "problemSolved": "Swift was tied to Xcode; server and open-source adopters needed a portable toolchain."
+        "whyChosen": "Open-sourcing [Swift] was Apple's bid to make it a general-purpose language, not just an iOS detail.",
+        "whyImportant": "Community governance and Linux support expanded where [Swift] could run.",
+        "problemSolved": "[Swift] was tied to Xcode; server and open-source adopters needed a portable toolchain."
       },
       "category": "software",
       "tags": [
@@ -105,12 +105,12 @@
       "date": "2015-12-25",
       "datePrecision": "day",
       "title": "Perl 6.c 'Christmas' released",
-      "summary": "The Perl 6 team shipped the 6.c 'Christmas' language release on December 25, 2015 — the first production-ready Perl 6 after 15 years of design.",
-      "about": "Perl 6 (later renamed Raku) brought grammars, gradual typing, and concurrency primitives to the Perl family. The Christmas release marked the end of 'Perl 6 is coming' jokes and gave the community a compiler (Rakudo) to build on.",
+      "summary": "The [Perl] 6 team shipped the 6.c 'Christmas' language release on December 25, 2015 — the first production-ready [Perl] 6 after 15 years of design.",
+      "about": "[Perl] 6 (later renamed Raku) brought grammars, gradual typing, and concurrency primitives to the [Perl] family. The Christmas release marked the end of '[Perl] 6 is coming' jokes and gave the community a compiler (Rakudo) to build on.",
       "narrative": {
-        "whyChosen": "After a decade and a half, Perl 6 finally shipped as a real language.",
+        "whyChosen": "After a decade and a half, [Perl] 6 finally shipped as a real language.",
         "whyImportant": "It proved long-running language redesigns could reach production, even if adoption stayed niche.",
-        "problemSolved": "Perl 5 could not evolve radically without breaking its massive installed base."
+        "problemSolved": "[Perl] 5 could not evolve radically without breaking its massive installed base."
       },
       "category": "software",
       "tags": [
@@ -144,12 +144,12 @@
       "date": "2015-12-03",
       "datePrecision": "day",
       "title": "Let's Encrypt public beta launched",
-      "summary": "Let's Encrypt entered public beta on December 3, 2015 — offering free, automated TLS certificates via the ACME protocol.",
-      "about": "Let's Encrypt's ACME API lets servers prove domain ownership and receive short-lived certificates without manual paperwork or fees. Certbot and other clients renew certs automatically — HTTPS went from a luxury to the default for blogs, APIs, and static sites. Example: `certbot --nginx` obtains and installs a certificate, then cron renews it before expiry.",
+      "summary": "Let's Encrypt entered public beta on December 3, 2015 — offering free, automated [TLS] certificates via the ACME protocol.",
+      "about": "Let's Encrypt's ACME [API] lets servers prove domain ownership and receive short-lived certificates without manual paperwork or fees. Certbot and other clients renew certs automatically — [HTTPS] went from a luxury to the default for blogs, APIs, and static sites. Example: `certbot --nginx` obtains and installs a certificate, then cron renews it before expiry.",
       "narrative": {
-        "whyChosen": "Let's Encrypt removed cost and friction from deploying HTTPS at scale.",
+        "whyChosen": "Let's Encrypt removed cost and friction from deploying [HTTPS] at scale.",
         "whyImportant": "It drove encrypted-by-default web traffic and standardized automated certificate issuance.",
-        "problemSolved": "TLS certificates were expensive and manual; most small sites stayed on plain HTTP."
+        "problemSolved": "[TLS] certificates were expensive and manual; most small sites stayed on plain [HTTP]."
       },
       "category": "software",
       "tags": [
@@ -198,9 +198,9 @@
       "datePrecision": "month",
       "title": "Sam Altman co-founds OpenAI",
       "summary": "OpenAI launched in December 2015 with Sam Altman as co-chair — a research lab aimed at safe artificial general intelligence.",
-      "about": "OpenAI pivoted from nonprofit research to the API and ChatGPT products that triggered the generative AI boom. Altman became the public face of frontier model deployment and developer-facing LLM APIs.",
+      "about": "OpenAI pivoted from nonprofit research to the [API] and ChatGPT products that triggered the generative AI boom. Altman became the public face of frontier model deployment and developer-facing LLM APIs.",
       "narrative": {
-        "whyChosen": "OpenAI under Altman defined the consumer and API LLM era.",
+        "whyChosen": "OpenAI under Altman defined the consumer and [API] LLM era.",
         "whyImportant": "It moved frontier models from labs into everyday software products.",
         "problemSolved": "Powerful AI was locked in research without safe, accessible deployment paths."
       },
@@ -259,8 +259,8 @@
       "summary": "OpenAI launched on December 11, 2015 with Ilya Sutskever as research director — the AlexNet co-author who would lead GPT and reasoning-model breakthroughs.",
       "about": "Sutskever left Google Brain to co-found OpenAI's research program. He oversaw the scaling laws work behind GPT-3, ChatGPT, and later o1-style reasoning models before leaving to start Safe Superintelligence.",
       "narrative": {
-        "whyChosen": "Sutskever defined OpenAI's research direction from inception through the LLM era.",
-        "whyImportant": "His leadership turned transformer scaling into consumer products.",
+        "whyChosen": "Sutskever defined OpenAI's research direction from inception through the [LLM] era.",
+        "whyImportant": "His leadership turned [transformer] scaling into consumer products.",
         "problemSolved": "Frontier AI needed a research chief who could bridge academic breakthroughs and product deployment."
       },
       "category": "ai",
@@ -315,10 +315,10 @@
       "date": "2015-12-03",
       "datePrecision": "day",
       "title": "Figma collaborative design tool launches",
-      "summary": "Figma announced its invite-only preview release on December 3, 2015 — a browser-based UI design app with real-time multiplayer editing.",
-      "about": "Figma replaced Sketch files emailed between designers and developers — components, variants, and dev-mode specs lived in one shared URL. Design systems, FigJam whiteboards, and plugins made it the default handoff layer between product design and frontend implementation.",
+      "summary": "Figma announced its invite-only preview release on December 3, 2015 — a browser-based [UI] design app with real-time multiplayer editing.",
+      "about": "Figma replaced Sketch files emailed between designers and developers — components, variants, and dev-mode specs lived in one shared [URL]. Design systems, FigJam whiteboards, and plugins made it the default handoff layer between product design and frontend implementation.",
       "narrative": {
-        "whyChosen": "Figma moved UI design from desktop files to multiplayer browser collaboration.",
+        "whyChosen": "Figma moved [UI] design from desktop files to multiplayer browser collaboration.",
         "whyImportant": "Real-time co-editing and shared libraries reshaped design-dev workflows.",
         "problemSolved": "Designers version-controlled PSDs and Sketch files that developers could not easily inspect."
       },

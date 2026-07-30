@@ -6,12 +6,12 @@
       "date": "1953",
       "datePrecision": "year",
       "title": "Whirlwind magnetic core memory operational",
-      "summary": "MIT's Whirlwind computer began using magnetic core memory in 1953 — the first reliable high-speed random-access memory for computers.",
-      "about": "Jay Forrester's core memory array of tiny ferrite rings became the dominant RAM technology until semiconductor memory in the 1970s. Whirlwind itself was a real-time flight simulator for the Navy — core memory made fast, rewriteable storage practical at scale.",
+      "summary": "[MIT]'s Whirlwind computer began using magnetic core memory in 1953 — the first reliable high-speed random-access memory for computers.",
+      "about": "Jay Forrester's core memory array of tiny ferrite rings became the dominant [RAM] technology until [semiconductor] memory in the 1970s. Whirlwind itself was a real-time flight simulator for the Navy — core memory made fast, rewriteable storage practical at scale.",
       "narrative": {
-        "whyChosen": "Magnetic core memory was the first practical high-speed RAM for digital computers.",
-        "whyImportant": "It enabled fast, reliable storage that every mainframe and minicomputer adopted for two decades.",
-        "problemSolved": "Earlier memory (delay lines, CRT stores) was too slow or unreliable for real-time computing."
+        "whyChosen": "Magnetic core memory was the first practical high-speed [RAM] for digital computers.",
+        "whyImportant": "It enabled fast, reliable storage that every [mainframe] and [minicomputer] adopted for two decades.",
+        "problemSolved": "Earlier memory (delay lines, [CRT] stores) was too slow or unreliable for real-time computing."
       },
       "category": "invention",
       "tags": [

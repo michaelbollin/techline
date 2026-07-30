@@ -6,10 +6,10 @@
       "date": "2003-07-15",
       "datePrecision": "day",
       "title": "Mozilla Foundation created",
-      "summary": "The Mozilla Foundation launched on July 15, 2003 to steward Firefox, Thunderbird, and open web standards after AOL scaled back Netscape.",
+      "summary": "The Mozilla Foundation launched on July 15, 2003 to steward Firefox, Thunderbird, and open web standards after AOL scaled back [Netscape].",
       "about": "Mozilla kept a nonprofit home for browser engine development independent of any single vendor — influencing WebKit, Chromium competition, and MDN documentation developers rely on.",
       "narrative": {
-        "whyChosen": "Mozilla Foundation preserved an independent browser voice post-Netscape.",
+        "whyChosen": "Mozilla Foundation preserved an independent browser voice post-[Netscape].",
         "whyImportant": "It sustained open web advocacy when commercial browsers consolidated.",
         "problemSolved": "Browser innovation risked collapsing into IE monopoly without nonprofit stewardship."
       },

@@ -6,12 +6,12 @@
       "date": "2024-10-07",
       "datePrecision": "day",
       "title": "Python 3.13 released",
-      "summary": "Python 3.13 shipped on October 7, 2024 with an experimental free-threaded build, improved REPL, and JIT compiler groundwork.",
-      "about": "Python 3.13's optional nogil mode lets threads run truly in parallel on multi-core CPUs — a historic change for CPU-bound Python. The new interactive REPL and colorized tracebacks improved daily developer experience while the project tested JIT for future releases.",
+      "summary": "Python 3.13 shipped on October 7, 2024 with an experimental free-threaded build, improved [REPL], and JIT compiler groundwork.",
+      "about": "Python 3.13's optional nogil mode lets threads run truly in parallel on multi-core CPUs — a historic change for [CPU]-bound Python. The new interactive [REPL] and colorized tracebacks improved daily developer experience while the project tested JIT for future releases.",
       "narrative": {
         "whyChosen": "3.13's free-threading experiment could unlock multicore Python for the first time.",
         "whyImportant": "The GIL had been Python's biggest architectural limitation for parallel compute.",
-        "problemSolved": "Multi-core machines could not run CPU-heavy Python workloads in parallel threads effectively."
+        "problemSolved": "Multi-core machines could not run [CPU]-heavy Python workloads in parallel threads effectively."
       },
       "category": "software",
       "tags": [
@@ -98,7 +98,7 @@
       "date": "2024-10-22",
       "datePrecision": "day",
       "title": "Anthropic announces Claude 3.5 Haiku",
-      "summary": "Anthropic announced Claude 3.5 Haiku on October 22, 2024 — a fast, low-cost model matching Claude 3 Opus on many coding and chat tasks; API access followed November 4, 2024.",
+      "summary": "Anthropic announced Claude 3.5 Haiku on October 22, 2024 — a fast, low-cost model matching Claude 3 Opus on many coding and chat tasks; [API] access followed November 4, 2024.",
       "about": "Claude 3.5 Haiku targeted high-volume workloads: customer support, classification, and sub-second chat. It let teams route simple queries to a cheap model and reserve Sonnet/Opus for hard tasks — a pattern that became standard in LLM routing.",
       "narrative": {
         "whyChosen": "Haiku made frontier-quality responses economical at scale.",

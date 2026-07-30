@@ -10,7 +10,7 @@
       "about": "ANSI C (C89/C90) was the first official contract for the C language — function prototypes, `const`, and a standard library (`stdio.h`, `stdlib.h`, etc.) that works the same on Unix, Windows, and embedded chips. Every modern C compiler still builds on this baseline.",
       "narrative": {
         "whyChosen": "C had been defined by a book (K&R), not a formal agreement. ANSI C was the first time compiler vendors signed off on one shared definition of the language.",
-        "whyImportant": "A developer could write code on a Sun workstation, ship it to a PC, or flash it onto a microcontroller — and expect `printf`, `malloc`, and function calls to work the same way. That reliability is why C became the default for operating systems and device drivers.",
+        "whyImportant": "A developer could write code on a Sun [workstation], ship it to a [PC], or flash it onto a microcontroller — and expect `printf`, `malloc`, and function calls to work the same way. That reliability is why C became the default for operating systems and device drivers.",
         "problemSolved": "Each vendor had extended C in incompatible ways. Code that compiled on one machine could fail on another, and there was no authority to settle what 'correct C' even meant."
       },
       "category": "software",
@@ -53,7 +53,7 @@
       "date": "1989-12",
       "datePrecision": "month",
       "title": "PC Cyborg AIDS Trojan — first known ransomware",
-      "summary": "In December 1989, thousands of floppy disks mailed to AIDS conference attendees carried the PC Cyborg Trojan — the earliest documented ransomware, encrypting files and demanding payment by mail.",
+      "summary": "In December 1989, thousands of [floppy disk]s mailed to AIDS conference attendees carried the [PC] Cyborg Trojan — the earliest documented ransomware, encrypting files and demanding payment by mail.",
       "about": "The \"AIDS Information Introductory Disk\" hid malware that counted reboots and eventually locked the system, demanding $189 to a Panama mailbox. It predated crypto-ransomware by decades but established the extortion pattern WannaCry and Colonial Pipeline attackers would later automate with Bitcoin and leaked exploits.",
       "narrative": {
         "whyChosen": "The AIDS Trojan is the first recorded ransomware attack in computing history.",

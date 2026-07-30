@@ -6,12 +6,12 @@
       "date": "2004-11-18",
       "datePrecision": "day",
       "title": "Fortran 2003 standardized",
-      "summary": "On November 18, 2004, the Fortran 2003 standard was published — adding object-oriented features and direct calls to C libraries.",
-      "about": "Fortran 2003 let scientific code use objects (like classes in other languages) and call C libraries directly — critical for linking with modern GPU tools and numerical packages without awkward glue code. Mixed Fortran/C/C++ supercomputing projects became much simpler.",
+      "summary": "On November 18, 2004, the [Fortran] 2003 standard was published — adding object-oriented features and direct calls to C libraries.",
+      "about": "[Fortran] 2003 let scientific code use objects (like classes in other languages) and call C libraries directly — critical for linking with modern GPU tools and numerical packages without awkward glue code. Mixed [Fortran]/C/C++ supercomputing projects became much simpler.",
       "narrative": {
-        "whyChosen": "Fortran 2003 brought object-oriented design and C interoperability — what HPC teams needed to integrate with the rest of the software world.",
-        "whyImportant": "Direct C linking and improved memory handling made Fortran viable alongside C and C++ in large supercomputing projects.",
-        "problemSolved": "Fortran 95 couldn't cleanly talk to C libraries or express object-oriented models that researchers expected from other languages."
+        "whyChosen": "[Fortran] 2003 brought object-oriented design and C interoperability — what HPC teams needed to integrate with the rest of the software world.",
+        "whyImportant": "Direct C linking and improved memory handling made [Fortran] viable alongside C and C++ in large supercomputing projects.",
+        "problemSolved": "[Fortran] 95 couldn't cleanly talk to C libraries or express object-oriented models that researchers expected from other languages."
       },
       "category": "software",
       "tags": [
@@ -53,12 +53,12 @@
       "date": "2004-11-09",
       "datePrecision": "day",
       "title": "Firefox 1.0 released",
-      "summary": "The Mozilla Foundation shipped Firefox 1.0 on November 9, 2004 — a fast, tabbed, extension-friendly browser that broke Internet Explorer's monopoly.",
-      "about": "Firefox grew from the Phoenix/Firebird project as the lean alternative to the bloated Mozilla Suite. Extensions (Adblock, Greasemonkey), tabbed browsing, and aggressive standards support made it the browser developers recommended — and proved the web did not have to be IE-only.",
+      "summary": "The [Mozilla] Foundation shipped [Firefox] 1.0 on November 9, 2004 — a fast, tabbed, extension-friendly browser that broke [Internet Explorer]'s monopoly.",
+      "about": "[Firefox] grew from the Phoenix/Firebird project as the lean alternative to the bloated [Mozilla] Suite. Extensions (Adblock, Greasemonkey), tabbed browsing, and aggressive standards support made it the browser developers recommended — and proved the web did not have to be [IE]-only.",
       "narrative": {
-        "whyChosen": "Firefox 1.0 was the first credible open-source challenger to IE's market dominance.",
+        "whyChosen": "[Firefox] 1.0 was the first credible open-source challenger to [IE]'s market dominance.",
         "whyImportant": "It revived competition, pushed web standards, and inspired the extension ecosystem.",
-        "problemSolved": "Users and developers were stuck on IE 6 with no secure, modern alternative backed by a major open project."
+        "problemSolved": "Users and developers were stuck on [IE] 6 with no secure, modern alternative backed by a major open project."
       },
       "category": "software",
       "tags": [

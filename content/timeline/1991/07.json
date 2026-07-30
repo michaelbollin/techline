@@ -6,11 +6,11 @@
       "date": "1991-07-01",
       "datePrecision": "day",
       "title": "Fortran 90 standardized",
-      "summary": "In July 1991, the Fortran 90 standard was published — the first major modernization of Fortran since 1977, with reusable code modules and whole-array math.",
-      "about": "Fortran 90 let scientists write `A = B + C` on entire arrays instead of hand-written loops, and organize code into reusable modules. It kept Fortran dominant on supercomputers while borrowing ideas from newer languages. Modern Fortran (2003, 2008, 2018) builds on this foundation.",
+      "summary": "In July 1991, the [Fortran] 90 standard was published — the first major modernization of [Fortran] since 1977, with reusable code modules and whole-array math.",
+      "about": "[Fortran] 90 let scientists write `A = B + C` on entire arrays instead of hand-written loops, and organize code into reusable modules. It kept [Fortran] dominant on supercomputers while borrowing ideas from newer languages. Modern [Fortran] (2003, 2008, 2018) builds on this foundation.",
       "narrative": {
-        "whyChosen": "Fortran 90 was the first big rewrite in fourteen years — array-style math and modules changed how large scientific programs were organized.",
-        "whyImportant": "It kept Fortran the default on supercomputers while making code shorter and easier to share across research teams.",
+        "whyChosen": "[Fortran] 90 was the first big rewrite in fourteen years — array-style math and modules changed how large scientific programs were organized.",
+        "whyImportant": "It kept [Fortran] the default on supercomputers while making code shorter and easier to share across research teams.",
         "problemSolved": "FORTRAN 77 couldn't express modern numerical algorithms cleanly; researchers needed array-level operations and reusable libraries."
       },
       "category": "software",
@@ -52,12 +52,12 @@
       "date": "1991-07",
       "datePrecision": "month",
       "title": "SGI Indigo released",
-      "summary": "Silicon Graphics began shipping the Indigo workstation in July 1991 — an entry-level 3D graphics machine for technical and creative professionals.",
+      "summary": "Silicon Graphics began shipping the Indigo [workstation] in July 1991 — an entry-level 3D graphics machine for technical and creative professionals.",
       "about": "The Indigo ran IRIX Unix with OpenGL-accelerated 3D — game studios, film VFX houses, and CAD firms used it for modeling and rendering. OpenGL itself came from SGI's GL. Developers learning real-time 3D graphics in the 1990s often started on Indigo and Indy workstations before consumer GPUs caught up.",
       "narrative": {
         "whyChosen": "The Indigo brought SGI's 3D graphics expertise to a wider professional market.",
         "whyImportant": "It helped establish OpenGL and Unix workstations as the standard for 3D content creation.",
-        "problemSolved": "Creative studios needed affordable 3D acceleration without mainframe-class price tags."
+        "problemSolved": "Creative studios needed affordable 3D acceleration without [mainframe]-class price tags."
       },
       "category": "hardware",
       "tags": [

@@ -10,7 +10,7 @@
       "about": "WorldWideWeb ran on NeXT workstations and let researchers open linked pages, edit them, and follow citations — the prototype for every browser that followed. It introduced URLs, clickable links, and the idea that documents on different servers could form one web.",
       "narrative": {
         "whyChosen": "This is the origin point of the web as a browsable medium, not just a file-transfer network.",
-        "whyImportant": "It proved hypertext could work across the internet and gave the web its first user interface.",
+        "whyImportant": "It proved [hypertext] could work across the internet and gave the web its first user interface.",
         "problemSolved": "CERN scientists needed a practical way to navigate and share linked documentation across machines and projects."
       },
       "category": "software",

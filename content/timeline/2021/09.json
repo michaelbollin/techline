@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Safari 15 brought web extensions to iOS",
       "summary": "iOS 15 and Safari 15 in September 2021 allowed WebExtensions on iPhone and iPad for the first time — plus Tab Groups and improved privacy reports.",
-      "about": "Developers could ship password managers, ad blockers, and dev tools to mobile Safari using the same WebExtensions APIs as desktop — within Apple's review rules. It reduced the gap between mobile Safari and Chrome on Android for power users.",
+      "about": "Developers could ship password managers, ad blockers, and dev tools to mobile Safari using the same WebExtensions APIs as desktop — within Apple's review rules. It reduced the gap between mobile Safari and Chrome on [Android] for power users.",
       "narrative": {
         "whyChosen": "Mobile Safari extensions opened a platform that had been locked down since the App Store launched.",
         "whyImportant": "iOS users gained browser customization without jailbreaking or switching ecosystems.",
@@ -62,9 +62,9 @@
       "datePrecision": "day",
       "title": "Java 17 LTS released",
       "summary": "Oracle and the OpenJDK community shipped Java 17 on September 14, 2021 — a long-term support release with sealed classes, pattern matching for switch (preview), and foreign memory APIs.",
-      "about": "Java 17 became the baseline for Spring Boot 3, Android toolchain updates, and enterprise migrations off Java 8/11. Sealed classes and records (from 16) let teams model domain data safely; LTS status meant banks and vendors could standardize on one version for years.",
+      "about": "Java 17 became the baseline for [Spring Boot] 3, [Android] toolchain updates, and enterprise migrations off Java 8/11. Sealed classes and records (from 16) let teams model domain data safely; [LTS] status meant banks and vendors could standardize on one version for years.",
       "narrative": {
-        "whyChosen": "Java 17 is the modern LTS most enterprises target after the Java 8 era.",
+        "whyChosen": "Java 17 is the modern [LTS] most enterprises target after the Java 8 era.",
         "whyImportant": "It bundled years of incremental language improvements into a supported long-term release.",
         "problemSolved": "Organizations on Java 8 needed a supported path to modern syntax without annual upgrade churn."
       },
@@ -116,7 +116,7 @@
       "datePrecision": "day",
       "title": "Swift 5.5 async/await released",
       "summary": "Apple shipped Swift 5.5 on September 20, 2021 with async/await, actors, and structured concurrency — bundled with Xcode 13 and iOS 15.",
-      "about": "Swift concurrency replaced completion-handler pyramids with `async` functions and `await` calls, and actors protected mutable state across tasks. Every new iOS networking and UI codebase adopted the model, paving the way for Swift 6's strict data-race checking.",
+      "about": "Swift concurrency replaced completion-handler pyramids with `async` functions and `await` calls, and actors protected mutable state across tasks. Every new iOS networking and [UI] codebase adopted the model, paving the way for Swift 6's strict data-race checking.",
       "narrative": {
         "whyChosen": "Structured concurrency was Swift's answer to callback hell on Apple platforms.",
         "whyImportant": "Actors and async/await became the default pattern for iOS and server Swift.",
@@ -229,7 +229,7 @@
       "datePrecision": "day",
       "title": "Epic v. Apple antitrust trial verdict",
       "summary": "U.S. District Judge Yvonne Gonzalez Rogers ruled on September 10, 2021 in Epic Games v. Apple — largely siding with Apple but ordering it to allow developers to steer users to external payment links.",
-      "about": "Epic had provoked the fight by bypassing Apple's 30% App Store fee in Fortnite. The verdict kept the App Store model intact but cracked the anti-steering rules — later shaping EU DMA mandates for alternative payments and stores. Mobile game and SaaS developers gained legal language to challenge platform fees worldwide.",
+      "about": "Epic had provoked the fight by bypassing Apple's 30% App Store fee in Fortnite. The verdict kept the App Store model intact but cracked the anti-steering rules — later shaping EU DMA mandates for alternative payments and stores. Mobile game and [SaaS] developers gained legal language to challenge platform fees worldwide.",
       "narrative": {
         "whyChosen": "Epic v. Apple was the highest-profile App Store antitrust trial of the mobile era.",
         "whyImportant": "It forced Apple to allow external payment links and fueled global app-store regulation.",

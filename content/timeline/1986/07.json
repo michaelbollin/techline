@@ -6,12 +6,12 @@
       "date": "1986-07",
       "datePrecision": "month",
       "title": "NSFNET backbone activated",
-      "summary": "The NSFNET backbone became operational in July 1986 — a 56 kbps network linking supercomputer centers and replacing the ARPANET as the US research internet core.",
-      "about": "NSFNET opened TCP/IP networking to universities beyond defense contractors — the pipeline that became the commercial internet. Regional networks plugged into the backbone; traffic exploded until T1 upgrades in 1988 and the eventual privatization of the backbone in the 1990s.",
+      "summary": "The NSFNET backbone became operational in July 1986 — a 56 kbps network linking [supercomputer] centers and replacing the [ARPANET] as the US research internet core.",
+      "about": "NSFNET opened [TCP]/[IP] networking to universities beyond defense contractors — the pipeline that became the commercial internet. Regional networks plugged into the backbone; traffic exploded until T1 upgrades in 1988 and the eventual privatization of the backbone in the 1990s.",
       "narrative": {
         "whyChosen": "NSFNET expanded the internet from defense research to the academic mainstream.",
-        "whyImportant": "It was the bridge between ARPANET and the public internet era.",
-        "problemSolved": "Researchers outside the ARPANET needed a funded, high-speed national network."
+        "whyImportant": "It was the bridge between [ARPANET] and the public internet era.",
+        "problemSolved": "Researchers outside the [ARPANET] needed a funded, high-speed national network."
       },
       "category": "protocol",
       "tags": [

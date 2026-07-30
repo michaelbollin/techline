@@ -10,7 +10,7 @@
       "about": "Bash is the default shell on most Linux distros and macOS terminals — you type commands, pipe output, run scripts, and automate servers. It extended Bourne shell syntax with readline editing, arrays, and brace expansion. DevOps scripts, CI pipelines, and local tooling still depend on it daily.",
       "narrative": {
         "whyChosen": "Bash became the de facto interactive shell for GNU/Linux and much of Unix administration.",
-        "whyImportant": "It gave the free software stack a Bourne-compatible shell with richer scripting before Linux itself took off.",
+        "whyImportant": "It gave the [free software] stack a Bourne-compatible shell with richer scripting before Linux itself took off.",
         "problemSolved": "GNU needed a liberally licensed shell to complete a usable Unix-like userland without proprietary `sh`."
       },
       "category": "software",

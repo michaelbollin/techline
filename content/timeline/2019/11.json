@@ -6,10 +6,10 @@
       "date": "2019-11-05",
       "datePrecision": "day",
       "title": "TypeScript 3.7 released",
-      "summary": "Microsoft released TypeScript 3.7 on November 5, 2019 — adding optional chaining (`?.`) and nullish coalescing (`??`).",
-      "about": "TypeScript 3.7 brought JavaScript's most-requested syntax to typed codebases — optional chaining spread to Babel and ES2020. Millions of React and Node projects adopted `obj?.prop` and `value ?? fallback` overnight.",
+      "summary": "Microsoft released [TypeScript] 3.7 on November 5, 2019 — adding optional chaining (`?.`) and nullish coalescing (`??`).",
+      "about": "[TypeScript] 3.7 brought JavaScript's most-requested syntax to typed codebases — optional chaining spread to Babel and ES2020. Millions of React and Node projects adopted `obj?.prop` and `value ?? fallback` overnight.",
       "narrative": {
-        "whyChosen": "TypeScript 3.7 shipped optional chaining and nullish coalescing before ES2020.",
+        "whyChosen": "[TypeScript] 3.7 shipped optional chaining and nullish coalescing before ES2020.",
         "whyImportant": "It reduced null-pointer bugs with syntax now standard in JavaScript.",
         "problemSolved": "Accessing nested properties required verbose null checks and default-value boilerplate."
       },
@@ -60,10 +60,10 @@
       "date": "2019-11-13",
       "datePrecision": "day",
       "title": "GitHub Actions generally available",
-      "summary": "GitHub announced Actions generally available at Universe on November 13, 2019 — native CI/CD workflows defined in YAML inside repositories.",
+      "summary": "GitHub announced Actions generally available at Universe on November 13, 2019 — native CI/[CD] workflows defined in YAML inside repositories.",
       "about": "GitHub Actions runs jobs on push, pull request, or schedule — build, test, deploy with marketplace actions for AWS, Docker, and npm. Workflows live in `.github/workflows/` beside the code they test. It displaced Travis CI for many open-source projects and integrated CI into the forge developers already used.",
       "narrative": {
-        "whyChosen": "GitHub Actions brought CI/CD into the platform that already hosted the code.",
+        "whyChosen": "GitHub Actions brought CI/[CD] into the platform that already hosted the code.",
         "whyImportant": "It made automated testing and deployment the default for GitHub-hosted projects worldwide.",
         "problemSolved": "Teams juggled separate CI services, webhooks, and permissions outside their git host."
       },

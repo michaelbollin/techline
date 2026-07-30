@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "Ruby on Rails open sourced",
       "summary": "David Heinemeier Hansson released Rails 0.5.0 — MVC infrastructure extracted from Basecamp.",
-      "about": "Ruby on Rails is a web framework for database-backed sites — models, views, controllers out of the box. Used to ship CRUD apps fast: project tools (Basecamp), early Twitter/GitHub/Shopify, and countless startup MVPs. Convention over configuration means less boilerplate than hand-rolled PHP or Java servlets.",
+      "about": "[Ruby] on Rails is a web framework for database-backed sites — models, views, controllers out of the box. Used to ship CRUD apps fast: project tools (Basecamp), early Twitter/GitHub/Shopify, and countless startup MVPs. Convention over configuration means less boilerplate than hand-rolled PHP or Java servlets.",
       "narrative": {
-        "whyChosen": "Rails popularized convention-over-configuration and made Ruby a global language for web startups.",
+        "whyChosen": "Rails popularized convention-over-configuration and made [Ruby] a global language for web startups.",
         "whyImportant": "Active Record and Action Pack became the template for modern full-stack web frameworks.",
         "problemSolved": "Building database-backed web apps required repetitive wiring; Rails packaged opinionated defaults."
       },
@@ -58,7 +58,7 @@
       "datePrecision": "day",
       "title": "PHP 5.0 released",
       "summary": "The PHP project released PHP 5.0 on July 13, 2004 with Zend Engine 2, objects, exceptions, and a redesigned object model.",
-      "about": "PHP 5 turned PHP from a scripting language with classes bolted on into something closer to a real OOP language — constructors, destructors, visibility, interfaces, and exceptions. It powered the WordPress and Drupal boom and set the stage for PHP's dominance on shared hosting through the 2000s.",
+      "about": "PHP 5 turned PHP from a scripting language with classes bolted on into something closer to a real [OOP] language — constructors, destructors, visibility, interfaces, and exceptions. It powered the WordPress and Drupal boom and set the stage for PHP's dominance on shared hosting through the 2000s.",
       "narrative": {
         "whyChosen": "PHP 5 was the object-model rewrite that made PHP viable for frameworks and CMSs.",
         "whyImportant": "Exceptions and a proper object model replaced PHP 4's shallow class syntax.",
@@ -103,12 +103,12 @@
       "date": "2004-07-13",
       "datePrecision": "day",
       "title": "Apache Maven 1.0 released",
-      "summary": "The Apache Maven team released Maven 1.0 on July 13, 2004 — a Java build and project comprehension tool centered on the Project Object Model (POM).",
-      "about": "Maven standardizes Java project layout, dependencies, and lifecycle phases (`compile`, `test`, `package`, `install`). `mvn` downloads jars from repositories, runs plugins, and generates sites and reports. It replaced hand-maintained Ant scripts for thousands of libraries and became the backbone of Maven Central.",
+      "summary": "The Apache [Maven] team released [Maven] 1.0 on July 13, 2004 — a [Java] build and project comprehension tool centered on the Project Object Model (POM).",
+      "about": "[Maven] standardizes [Java] project layout, dependencies, and lifecycle phases (`compile`, `test`, `package`, `install`). `mvn` downloads jars from repositories, runs plugins, and generates sites and reports. It replaced hand-maintained Ant scripts for thousands of libraries and became the backbone of [Maven] Central.",
       "narrative": {
-        "whyChosen": "Maven brought conventions and dependency management that Ant lacked.",
-        "whyImportant": "The POM and Central repository model defined how Java shares libraries to this day.",
-        "problemSolved": "Every Java project reinvented directory structure and jar classpath wiring."
+        "whyChosen": "[Maven] brought conventions and dependency management that Ant lacked.",
+        "whyImportant": "The POM and Central repository model defined how [Java] shares libraries to this day.",
+        "problemSolved": "Every [Java] project reinvented directory structure and jar classpath wiring."
       },
       "category": "software",
       "tags": [

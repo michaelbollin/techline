@@ -6,10 +6,10 @@
       "date": "1983-01-01",
       "datePrecision": "day",
       "title": "ARPANET switches to TCP/IP",
-      "summary": "On January 1, 1983, ARPANET permanently replaced NCP with TCP/IP — the coordinated 'flag day' that became the foundation of the modern internet.",
-      "about": "TCP/IP splits networking into IP (routing packets between hosts) and TCP (reliable byte streams). Every HTTP request, SSH session, and database connection still rides this stack. The flag day meant all ARPANET hosts had to switch at once or lose connectivity — no gradual migration.",
+      "summary": "On January 1, 1983, [ARPANET] permanently replaced NCP with [TCP]/[IP] — the coordinated 'flag day' that became the foundation of the modern internet.",
+      "about": "[TCP]/[IP] splits networking into [IP] (routing packets between hosts) and [TCP] (reliable byte streams). Every [HTTP] request, SSH session, and database connection still rides this stack. The flag day meant all [ARPANET] hosts had to switch at once or lose connectivity — no gradual migration.",
       "narrative": {
-        "whyChosen": "TCP/IP flag day is the birth moment of the interoperable internet protocol suite.",
+        "whyChosen": "[TCP]/[IP] flag day is the birth moment of the interoperable internet protocol suite.",
         "whyImportant": "It let independent networks interconnect and scaled beyond a single research WAN.",
         "problemSolved": "NCP could not support internetworking; the internet needed open, layered protocols every host could speak."
       },
@@ -63,11 +63,11 @@
       "date": "1983-01-19",
       "datePrecision": "day",
       "title": "Apple Lisa released",
-      "summary": "Apple began selling the Lisa on January 19, 1983 — a GUI workstation with a mouse, overlapping windows, and protected multitasking.",
-      "about": "The Lisa ran a document-centric desktop with pull-down menus and a 5 MHz Motorola 68000 — technology Apple refined for the Macintosh a year later. Its high price limited sales, but the Lisa Office System proved graphical computing could replace command lines for knowledge workers. Developers saw the future of desktop UI before the Mac made it affordable.",
+      "summary": "Apple began selling the Lisa on January 19, 1983 — a [GUI] [workstation] with a mouse, overlapping windows, and protected multitasking.",
+      "about": "The Lisa ran a document-centric desktop with pull-down menus and a 5 MHz Motorola 68000 — technology Apple refined for the Macintosh a year later. Its high price limited sales, but the Lisa Office System proved graphical computing could replace command lines for knowledge workers. Developers saw the future of desktop [UI] before the Mac made it affordable.",
       "narrative": {
         "whyChosen": "The Lisa was Apple's first commercial computer with a full graphical user interface and mouse.",
-        "whyImportant": "It validated GUI concepts that the Macintosh would bring to the mass market.",
+        "whyImportant": "It validated [GUI] concepts that the Macintosh would bring to the mass market.",
         "problemSolved": "Business users needed intuitive visual interfaces instead of memorizing command-line syntax."
       },
       "category": "hardware",
@@ -119,11 +119,11 @@
       "date": "1983-01-26",
       "datePrecision": "day",
       "title": "Lotus 1-2-3 released",
-      "summary": "Lotus Development released 1-2-3 on January 26, 1983 — a spreadsheet, graphing, and database program that became the killer app for the IBM PC.",
-      "about": "1-2-3 was written in assembly for the PC's graphics and keyboard, crushing slower VisiCalc clones. It drove corporate PC purchases and made spreadsheet skills a desk-job requirement — the template Excel followed a decade later.",
+      "summary": "[Lotus] Development released 1-2-3 on January 26, 1983 — a spreadsheet, graphing, and database program that became the killer app for the [IBM] [PC].",
+      "about": "1-2-3 was written in assembly for the [PC]'s graphics and keyboard, crushing slower [VisiCalc] clones. It drove corporate [PC] purchases and made spreadsheet skills a desk-job requirement — the template Excel followed a decade later.",
       "narrative": {
-        "whyChosen": "Lotus 1-2-3 was the defining business application of the early IBM PC era.",
-        "whyImportant": "Killer apps justified PC budgets faster than hardware specs alone.",
+        "whyChosen": "[Lotus 1-2-3] was the defining business application of the early [IBM] [PC] era.",
+        "whyImportant": "Killer apps justified [PC] budgets faster than hardware specs alone.",
         "problemSolved": "Business users needed integrated calculation, charting, and simple databases on one machine."
       },
       "category": "software",

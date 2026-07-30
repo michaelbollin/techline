@@ -6,12 +6,12 @@
       "date": "1998-03-31",
       "datePrecision": "day",
       "title": "Mozilla source code open-sourced",
-      "summary": "On March 31, 1998, Netscape released the Mozilla browser suite source code under an open license — the foundation for Firefox, Thunderbird, and modern Gecko engines.",
-      "about": "The Mozilla project turned Netscape's codebase into a community effort after AOL acquired the company. Out of years of rewrite came Gecko, Firefox, and a proof that open-source browsers could compete with billion-dollar platforms.",
+      "summary": "On March 31, 1998, [Netscape] released the Mozilla browser suite source code under an open license — the foundation for Firefox, Thunderbird, and modern Gecko engines.",
+      "about": "The Mozilla project turned [Netscape]'s codebase into a community effort after AOL acquired the company. Out of years of rewrite came Gecko, Firefox, and a proof that open-source browsers could compete with billion-dollar platforms.",
       "narrative": {
         "whyChosen": "Mozilla open source is the direct ancestor of Firefox and the modern open-web browser movement.",
-        "whyImportant": "It kept an independent browser engine alive when Netscape as a product company faded.",
-        "problemSolved": "Netscape needed outside developers to help finish a modern browser rewrite it could not fund alone."
+        "whyImportant": "It kept an independent browser engine alive when [Netscape] as a product company faded.",
+        "problemSolved": "[Netscape] needed outside developers to help finish a modern browser rewrite it could not fund alone."
       },
       "category": "software",
       "tags": [
@@ -57,12 +57,12 @@
       "date": "1998-03",
       "datePrecision": "month",
       "title": "Daniel Stenberg releases curl",
-      "summary": "Daniel Stenberg released curl in March 1998 — the command-line HTTP client embedded in phones, cars, and CI pipelines.",
-      "about": "libcurl ships in billions of devices — every API test script and embedded firmware update likely uses it. Stenberg's single-maintainer stewardship model is a case study in critical infrastructure.",
+      "summary": "Daniel Stenberg released curl in March 1998 — the command-line [HTTP] client embedded in phones, cars, and CI pipelines.",
+      "about": "libcurl ships in billions of devices — every [API] test script and embedded [firmware] update likely uses it. Stenberg's single-maintainer stewardship model is a case study in critical infrastructure.",
       "narrative": {
-        "whyChosen": "curl/libcurl became the universal HTTP transfer library.",
-        "whyImportant": "It standardized how programs speak HTTP across platforms.",
-        "problemSolved": "Each platform had incompatible HTTP client APIs."
+        "whyChosen": "curl/libcurl became the universal [HTTP] transfer library.",
+        "whyImportant": "It standardized how programs speak [HTTP] across platforms.",
+        "problemSolved": "Each platform had incompatible [HTTP] client APIs."
       },
       "category": "software",
       "tags": [

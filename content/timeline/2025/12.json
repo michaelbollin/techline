@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "MCP donated to Linux Foundation",
       "summary": "Anthropic donated MCP to the Agentic AI Foundation under the Linux Foundation on December 9, 2025 — making the AI-tooling standard vendor-neutral alongside OpenAI's AGENTS.md.",
-      "about": "A year after MCP's public launch, Anthropic moved governance to the AAIF with co-founders Block and OpenAI and backing from Google, Microsoft, and AWS. The donation cemented MCP as the default wire format connecting LLMs to databases, IDEs, and SaaS — used by Cursor, Copilot, Claude, and ChatGPT.",
+      "about": "A year after MCP's public launch, Anthropic moved governance to the AAIF with co-founders Block and OpenAI and backing from Google, Microsoft, and AWS. The donation cemented MCP as the default wire format connecting LLMs to databases, IDEs, and [SaaS] — used by Cursor, Copilot, Claude, and ChatGPT.",
       "narrative": {
         "whyChosen": "MCP's Linux Foundation donation turned Anthropic's experiment into industry infrastructure.",
         "whyImportant": "Vendor-neutral governance let enterprises adopt agent tooling without single-vendor lock-in.",
@@ -62,9 +62,9 @@
       "datePrecision": "day",
       "title": "OpenAI GPT-5.2 released",
       "summary": "OpenAI released GPT-5.2 on December 11, 2025 — a December refresh with fewer factual errors, stronger math, and GPT-5.2-Codex for agentic coding.",
-      "about": "GPT-5.2 answered Google's Gemini 3 launch with improved Thinking mode and enterprise knowledge-work benchmarks. It set the baseline that GPT-5.3-Codex and GPT-5.4 would extend in 2026 — closing OpenAI's competitive gap after a busy November for Google and Anthropic.",
+      "about": "GPT-5.2 answered Google's [Gemini] 3 launch with improved Thinking mode and enterprise knowledge-work benchmarks. It set the baseline that GPT-5.3-Codex and GPT-5.4 would extend in 2026 — closing OpenAI's competitive gap after a busy November for Google and [Anthropic].",
       "narrative": {
-        "whyChosen": "GPT-5.2 was OpenAI's year-end response to Gemini 3 and Claude Opus 4.5.",
+        "whyChosen": "GPT-5.2 was OpenAI's year-end response to [Gemini] 3 and Claude Opus 4.5.",
         "whyImportant": "Lower hallucination rates and Codex integration kept OpenAI in the three-way frontier race.",
         "problemSolved": "GPT-5.1 users wanted better factual accuracy and coding without waiting for GPT-6."
       },
@@ -120,10 +120,10 @@
       "datePrecision": "day",
       "title": "Google Gemini 3 Flash released",
       "summary": "Google released Gemini 3 Flash on December 17, 2025 — a fast, low-cost 3-series model that became the default in the Gemini app and Antigravity.",
-      "about": "Gemini 3 Flash matched much of 3 Pro's agentic coding at under a quarter the cost — Google's play for high-volume API and IDE workloads. It replaced Gemini 2.5 Flash as the default consumer model days before OpenAI shipped GPT-5.2.",
+      "about": "Gemini 3 Flash matched much of 3 Pro's agentic coding at under a quarter the cost — Google's play for high-volume [API] and IDE workloads. It replaced Gemini 2.5 Flash as the default consumer model days before OpenAI shipped GPT-5.2.",
       "narrative": {
         "whyChosen": "Gemini 3 Flash made frontier-tier speed the default, not a premium upsell.",
-        "whyImportant": "Cheap fast reasoning shifted API economics toward high-token agent loops.",
+        "whyImportant": "Cheap fast reasoning shifted [API] economics toward high-token agent loops.",
         "problemSolved": "Developers needed 3 Pro-quality agents without 3 Pro pricing on every request."
       },
       "category": "software",

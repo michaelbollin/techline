@@ -6,12 +6,12 @@
       "date": "2014-11-12",
       "datePrecision": "day",
       "title": "Nexus 6 released",
-      "summary": "Google began selling the Nexus 6 — Motorola-built large Nexus with Lollipop.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Motorola-built large nexus with lollipop. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the [Nexus] 6 — Motorola-built large [Nexus] with Lollipop.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Motorola-built large nexus with lollipop. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Nexus 6 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The [Nexus] 6 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [
@@ -65,7 +65,7 @@
       "datePrecision": "day",
       "title": "AWS Lambda launched",
       "summary": "Amazon announced AWS Lambda at re:Invent on November 13, 2014 — event-driven functions billed per invocation without managing servers.",
-      "about": "Lambda (`exports.handler`) launched serverless computing for production — API Gateway, S3 triggers, and cron jobs all invoke functions. Teams stopped patching EC2 for glue code; Vercel, Cloudflare Workers, and Azure Functions followed the same model.",
+      "about": "Lambda (`exports.handler`) launched serverless computing for production — [API] Gateway, S3 triggers, and cron jobs all invoke functions. Teams stopped patching EC2 for glue code; Vercel, Cloudflare Workers, and Azure Functions followed the same model.",
       "narrative": {
         "whyChosen": "Lambda popularized serverless functions as a cloud primitive.",
         "whyImportant": "It changed how teams deploy small services and event handlers.",
@@ -120,7 +120,7 @@
       "datePrecision": "day",
       "title": "Sony Pictures Entertainment hacked",
       "summary": "Attackers destroyed Sony Pictures systems and leaked internal data starting November 24, 2014 — a destructive breach attributed to North Korea over the film The Interview.",
-      "about": "The GOP (Guardians of Peace) group wiped workstations, leaked unreleased films and executive emails, and threatened theaters. Studios hardened incident response, air-gapped critical assets, and treated nation-state ransomware as a business continuity risk — not just an IT problem.",
+      "about": "The GOP (Guardians of Peace) group wiped workstations, leaked unreleased films and executive emails, and threatened theaters. Studios hardened incident response, air-gapped critical assets, and treated nation-state ransomware as a business continuity risk — not just an [IT] problem.",
       "narrative": {
         "whyChosen": "Sony Pictures was the first major studio destroyed by nation-state-style destructive malware.",
         "whyImportant": "It linked geopolitics, entertainment, and wipe-and-leak attacks in the public eye.",

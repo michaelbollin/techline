@@ -10,7 +10,7 @@
       "about": "Pichai steered Google through the mobile-to-AI transition — scaling Android, Chrome, and later Gemini. He represents the product-engineer path to leading the world's largest internet software stack.",
       "narrative": {
         "whyChosen": "Pichai leads the company whose platforms most developers build on or compete with.",
-        "whyImportant": "His tenure spans mobile dominance and the generative AI race.",
+        "whyImportant": "His tenure spans mobile dominance and the [generative AI] race.",
         "problemSolved": "Google needed focused product leadership after the Alphabet split from experimental bets."
       },
       "category": "culture",
@@ -65,11 +65,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy Note 5 released",
       "summary": "Samsung released the Samsung Galaxy Note 5 — glass unibody design — dropped microSD in favor of premium build.",
-      "about": "The Galaxy Note targeted stylus power users on Android. Glass unibody design — dropped microsd in favor of premium build. Note apps and split-screen Android development often targeted this hardware class.",
+      "about": "The Galaxy Note targeted stylus power users on [Android]. Glass unibody design — dropped microsd in favor of premium build. Note apps and split-screen [Android] development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note 5 advanced Samsung's stylus phablet line.",
-        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
-        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+        "whyImportant": "Galaxy Note hardware defined large-screen [Android] productivity for years.",
+        "problemSolved": "[Android] lacked a premium large-screen stylus flagship for note-taking workflows."
       },
       "category": "hardware",
       "tags": [
@@ -122,12 +122,12 @@
       "date": "2015-08-28",
       "datePrecision": "day",
       "title": "Phoenix 1.0 released",
-      "summary": "Chris McCord released Phoenix 1.0 on August 28, 2015 — a productive Elixir web framework with channels for real-time WebSocket apps.",
-      "about": "Phoenix brought Rails-like productivity to Elixir: generators, Ecto for databases, and channels for live updates. It powered Discord-scale chat, dashboards, and APIs where BEAM fault tolerance mattered — proving Elixir was more than a syntax experiment.",
+      "summary": "Chris McCord released Phoenix 1.0 on August 28, 2015 — a productive [Elixir] web framework with channels for real-time WebSocket apps.",
+      "about": "Phoenix brought Rails-like productivity to [Elixir]: generators, Ecto for databases, and channels for live updates. It powered Discord-scale chat, dashboards, and APIs where [BEAM] fault tolerance mattered — proving [Elixir] was more than a syntax experiment.",
       "narrative": {
-        "whyChosen": "Phoenix 1.0 was the web framework that made Elixir production-credible.",
-        "whyImportant": "Channels and OTP supervision brought real-time features without fragile Node clusters.",
-        "problemSolved": "Elixir needed a batteries-included web stack to compete with Rails and Django."
+        "whyChosen": "Phoenix 1.0 was the web framework that made [Elixir] production-credible.",
+        "whyImportant": "Channels and [OTP] supervision brought real-time features without fragile Node clusters.",
+        "problemSolved": "[Elixir] needed a batteries-included web stack to compete with Rails and Django."
       },
       "category": "software",
       "tags": [

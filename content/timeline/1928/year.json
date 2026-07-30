@@ -6,10 +6,10 @@
       "date": "1928",
       "datePrecision": "year",
       "title": "Hilbert and Ackermann pose the Entscheidungsproblem",
-      "summary": "David Hilbert and Wilhelm Ackermann's 1928 textbook Grundzüge der theoretischen Logik gave the canonical statement of the Entscheidungsproblem — whether an algorithm can decide if any logical formula is universally valid.",
-      "about": "The decision problem asked whether truth in first-order logic could be mechanized. Church and Turing answered no in 1936; Gödel had already shown completeness of first-order logic in 1929. This 1928 text is the challenge statement that launched computability theory.",
+      "summary": "David [Hilbert] and Wilhelm Ackermann's 1928 textbook Grundzüge der theoretischen Logik gave the canonical statement of the [Entscheidungsproblem] — whether an algorithm can decide if any logical formula is universally valid.",
+      "about": "The decision problem asked whether truth in first-order logic could be mechanized. Church and Turing answered no in 1936; [Gödel] had already shown completeness of first-order logic in 1929. This 1928 text is the challenge statement that launched computability theory.",
       "narrative": {
-        "whyChosen": "The Entscheidungsproblem is the explicit question Church and Turing proved unanswerable.",
+        "whyChosen": "The [Entscheidungsproblem] is the explicit question Church and Turing proved unanswerable.",
         "whyImportant": "It turned philosophy-of-mathematics into a concrete problem about algorithms.",
         "problemSolved": "Logicians lacked a precise target for what 'mechanical proof' should mean."
       },

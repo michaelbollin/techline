@@ -6,8 +6,8 @@
       "date": "1995-12-04",
       "datePrecision": "day",
       "title": "JavaScript name announced by Netscape and Sun",
-      "summary": "Netscape and Sun issued a joint press release naming LiveScript as JavaScript and positioning it beside Java.",
-      "about": "This was the public naming of the browser scripting language — not Java itself. JavaScript stayed on the page for UI logic; Java applets handled heavier embedded apps. The name caused decades of confusion, but the split stuck: JS for the web document, Java for compiled JVM programs.",
+      "summary": "[Netscape] and Sun issued a joint press release naming LiveScript as JavaScript and positioning it beside Java.",
+      "about": "This was the public naming of the browser scripting language — not Java itself. JavaScript stayed on the page for [UI] logic; Java applets handled heavier embedded apps. The name caused decades of confusion, but the split stuck: JS for the web document, Java for compiled JVM programs.",
       "narrative": {
         "whyChosen": "The naming and marketing moment locked JavaScript into the open web platform story.",
         "whyImportant": "28 vendors endorsed it as an open scripting standard path toward ECMAScript.",
@@ -65,7 +65,7 @@
       "datePrecision": "day",
       "title": "Ruby 0.95 publicly released",
       "summary": "Yukihiro Matsumoto published Ruby 0.95 to Japanese newsgroups — the first public release of the language.",
-      "about": "Ruby is an expressive object-oriented scripting language — everything is an object, blocks are first-class. Used for web apps (especially via Rails), DevOps tools (Chef, Vagrant), and quick scripts. Matz optimized for developer happiness over raw performance.",
+      "about": "Ruby is an expressive object-oriented scripting language — everything is an object, blocks are first-class. Used for web apps (especially via Rails), [DevOps] tools (Chef, Vagrant), and quick scripts. Matz optimized for developer happiness over raw performance.",
       "narrative": {
         "whyChosen": "Ruby prioritized developer happiness and later became the host language for Rails.",
         "whyImportant": "Everything-is-an-object and blocks influenced later languages like Swift and Elixir.",

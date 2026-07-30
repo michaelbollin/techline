@@ -24,11 +24,11 @@
       "date": "1996-12-25",
       "datePrecision": "day",
       "title": "Yukihiro Matsumoto releases Ruby 1.0",
-      "summary": "Yukihiro 'Matz' Matsumoto released Ruby 1.0 on December 25, 1996 — crystallizing a language designed for programmer happiness.",
-      "about": "Ruby's expressiveness influenced Rails, Elixir, and modern scripting language design. Matz built a global community from Japan that proved language innovation need not come from Silicon Valley.",
+      "summary": "Yukihiro 'Matz' Matsumoto released [Ruby] 1.0 on December 25, 1996 — crystallizing a language designed for programmer happiness.",
+      "about": "[Ruby]'s expressiveness influenced Rails, [Elixir], and modern scripting language design. Matz built a global community from Japan that proved language innovation need not come from Silicon Valley.",
       "narrative": {
-        "whyChosen": "Ruby 1.0 marked Matz's language graduating from personal project to production use.",
-        "whyImportant": "It brought an object-oriented scripting alternative to Perl and Python with a distinct philosophy.",
+        "whyChosen": "[Ruby] 1.0 marked Matz's language graduating from personal project to production use.",
+        "whyImportant": "It brought an object-oriented scripting alternative to [Perl] and [Python] with a distinct philosophy.",
         "problemSolved": "Developers wanted a more human-readable language without sacrificing object-oriented power."
       },
       "category": "software",
@@ -58,12 +58,12 @@
       "date": "1996-12-17",
       "datePrecision": "day",
       "title": "CSS Level 1 becomes a W3C Recommendation",
-      "summary": "The W3C published Cascading Style Sheets, Level 1 as an official Recommendation on December 17, 1996 — co-authored by Håkon Wium Lie and Bert Bos.",
-      "about": "CSS1 let authors set fonts, colors, margins, and spacing in a separate stylesheet while readers could override styles through the cascade. A single linked `.css` file could style an entire site — ending the era of `<font>` tags and presentational HTML attributes in professional publishing.",
+      "summary": "The [W3C] published Cascading Style Sheets, Level 1 as an official Recommendation on December 17, 1996 — co-authored by Håkon Wium Lie and Bert Bos.",
+      "about": "CSS1 let authors set fonts, colors, margins, and spacing in a separate stylesheet while readers could override styles through the cascade. A single linked `.css` file could style an entire site — ending the era of `<font>` tags and presentational [HTML] attributes in professional publishing.",
       "narrative": {
         "whyChosen": "CSS1 was the first stable web standard for separating document structure from presentation.",
         "whyImportant": "It gave browsers and authors a shared vocabulary for layout and typography on the open web.",
-        "problemSolved": "HTML had no standard way to style pages consistently without polluting markup with presentation tags."
+        "problemSolved": "[HTML] had no standard way to style pages consistently without polluting markup with presentation tags."
       },
       "category": "protocol",
       "tags": [

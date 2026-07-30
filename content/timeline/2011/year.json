@@ -27,7 +27,7 @@
       "narrative": {
         "whyChosen": "Pearl formalized reasoning under uncertainty for practical AI systems.",
         "whyImportant": "Bayesian networks became standard in probabilistic graphical models.",
-        "problemSolved": "Expert systems could not represent or update beliefs under noisy evidence."
+        "problemSolved": "[Expert system]s could not represent or update beliefs under noisy evidence."
       },
       "category": "ai",
       "tags": [

@@ -6,12 +6,12 @@
       "date": "1996-03-18",
       "datePrecision": "day",
       "title": "Netscape Navigator 2.0 shipped",
-      "summary": "Netscape released Navigator 2.0 on March 18, 1996 — the first mass-market browser with JavaScript and support for Java applets and plug-ins.",
-      "about": "Navigator 2.0 made pages programmable: form validation, image rollovers, and early dynamic UI without reloading. It also embraced third-party plug-ins (QuickTime, Acrobat) and frames — for better or worse, shaping how 1990s sites were built.",
+      "summary": "[Netscape] released Navigator 2.0 on March 18, 1996 — the first mass-market browser with JavaScript and support for Java applets and plug-ins.",
+      "about": "Navigator 2.0 made pages programmable: form validation, image rollovers, and early dynamic [UI] without reloading. It also embraced third-party plug-ins (QuickTime, Acrobat) and frames — for better or worse, shaping how 1990s sites were built.",
       "narrative": {
         "whyChosen": "This was the first browser millions used that could run JavaScript in the wild.",
         "whyImportant": "It turned the browser from a document viewer into an application runtime.",
-        "problemSolved": "Static HTML could not deliver interactive pages; Netscape needed to ship the scripting language it had invented."
+        "problemSolved": "Static [HTML] could not deliver interactive pages; [Netscape] needed to ship the scripting language it had invented."
       },
       "category": "software",
       "tags": [
@@ -61,7 +61,7 @@
       "datePrecision": "month",
       "title": "Palm Pilot 1000 released",
       "summary": "U.S. Robotics' Palm Computing division began selling the Palm Pilot 1000 in March 1996 — a pocket PDA with Graffiti handwriting and HotSync desktop software.",
-      "about": "The Pilot fit in a shirt pocket and synced contacts and calendars to a PC with one button press. Developers wrote Palm OS apps in C; the platform dominated PDAs until smartphones absorbed its use cases. Graffiti input and the app launcher UI influenced early mobile design before touchscreens took over.",
+      "about": "The Pilot fit in a shirt pocket and synced contacts and calendars to a [PC] with one button press. Developers wrote Palm [OS] apps in C; the platform dominated PDAs until smartphones absorbed its use cases. Graffiti input and the app launcher [UI] influenced early mobile design before touchscreens took over.",
       "narrative": {
         "whyChosen": "The Palm Pilot made PDAs mainstream and created a thriving third-party app ecosystem.",
         "whyImportant": "It proved millions would carry a dedicated pocket computer for personal information management.",

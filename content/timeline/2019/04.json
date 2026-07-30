@@ -6,12 +6,12 @@
       "date": "2019-04-23",
       "datePrecision": "day",
       "title": "Node.js 12 released",
-      "summary": "Node.js 12.0.0 shipped on April 23, 2019 with V8 7.4, improved startup performance, and stable HTTP/2.",
+      "summary": "Node.js 12.0.0 shipped on April 23, 2019 with V8 7.4, improved startup performance, and stable [HTTP]/2.",
       "about": "Node 12 became LTS in October 2019 — powering serverless functions, Next.js apps, and npm's largest package era. Faster startup helped cold-start latency on AWS Lambda and Vercel; diagnostic reports improved production debugging.",
       "narrative": {
         "whyChosen": "Node 12 LTS was the default runtime for serverless and JAMstack deployments.",
-        "whyImportant": "Startup speed and HTTP/2 maturity made Node competitive for edge and cloud functions.",
-        "problemSolved": "Cold starts and slow HTTP/1.1 limited Node in serverless and high-throughput APIs."
+        "whyImportant": "Startup speed and [HTTP]/2 maturity made Node competitive for edge and cloud functions.",
+        "problemSolved": "Cold starts and slow [HTTP]/1.1 limited Node in serverless and high-throughput APIs."
       },
       "category": "software",
       "tags": [

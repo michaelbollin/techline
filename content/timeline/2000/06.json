@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "C# programming language announced",
       "summary": "Microsoft announced C# alongside the .NET vision at Forum 2000 as a modern managed language for Windows and web services.",
-      "about": "C# is Microsoft's main language for .NET — garbage-collected, type-safe, C-like syntax. Used for Windows desktop apps (WPF/WinForms), ASP.NET websites and APIs, Unity game development, and enterprise services. Example: a line-of-business app talking to SQL Server, or a cross-platform game in Unity.",
+      "about": "C# is Microsoft's main language for .NET — garbage-collected, type-safe, C-like syntax. Used for Windows desktop apps (WPF/WinForms), ASP.NET websites and APIs, Unity game development, and enterprise services. Example: a line-of-business app talking to [SQL] Server, or a cross-platform game in Unity.",
       "narrative": {
         "whyChosen": "C# became the primary language of .NET and a major enterprise and game-dev (Unity) platform.",
-        "whyImportant": "It combined C++-familiar syntax with garbage collection and a unified type system for the CLR.",
-        "problemSolved": "Microsoft needed a flagship managed language for XML web services and safer Windows development."
+        "whyImportant": "It combined C++-familiar syntax with [garbage collection] and a unified type system for the CLR.",
+        "problemSolved": "Microsoft needed a flagship managed language for [XML] web services and safer Windows development."
       },
       "category": "software",
       "tags": [
@@ -60,7 +60,7 @@
       "datePrecision": "month",
       "title": "NetBeans open-sourced by Sun",
       "summary": "In June 2000, Sun Microsystems launched netbeans.org — open-sourcing the NetBeans Java IDE and plugin platform.",
-      "about": "NetBeans gave Java developers a free, extensible IDE with GUI builders, Ant/Maven integration, and modules for enterprise Java EE. It became Sun's flagship Java tool, later the base for early Android tooling research, and eventually an Apache project after Oracle's acquisition.",
+      "about": "NetBeans gave Java developers a free, extensible IDE with [GUI] builders, Ant/Maven integration, and modules for enterprise Java EE. It became Sun's flagship Java tool, later the base for early Android tooling research, and eventually an Apache project after Oracle's acquisition.",
       "narrative": {
         "whyChosen": "NetBeans was Sun's first sponsored open-source IDE — a model Eclipse soon competed with.",
         "whyImportant": "It kept a full Java IDE free when commercial tools dominated enterprise shops.",

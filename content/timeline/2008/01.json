@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "MacBook Air released",
       "summary": "Steve Jobs introduced the MacBook Air on January 29, 2008 — an ultraportable Mac slim enough to fit in a manila envelope.",
-      "about": "The Air traded optical drives and ports for thinness and solid-state storage options — setting the template for ultrabooks developers carry to coffee shops and conferences. It became the default Mac laptop for mobile engineers before the Retina and M-series revisions. PC makers rushed to match its thin wedge profile.",
+      "about": "The Air traded optical drives and ports for thinness and solid-state storage options — setting the template for ultrabooks developers carry to coffee shops and conferences. It became the default Mac laptop for mobile engineers before the Retina and M-series revisions. [PC] makers rushed to match its thin wedge profile.",
       "narrative": {
         "whyChosen": "The MacBook Air defined the ultraportable laptop category for the late 2000s.",
         "whyImportant": "It shifted developer expectations toward thin, SSD-based laptops as daily driver machines.",
@@ -64,7 +64,7 @@
       "datePrecision": "day",
       "title": "Joomla 1.5 released",
       "summary": "The Joomla project shipped Joomla 1.5 on January 22, 2008 — a major rewrite with a new MVC framework and improved templating.",
-      "about": "Joomla 1.5 introduced the JFramework, native UTF-8 support, and a plugin architecture that powered thousands of community extensions. It cemented Joomla as WordPress's main open-source CMS rival for portals, intranets, and membership sites through the late 2000s.",
+      "about": "Joomla 1.5 introduced the JFramework, native [UTF-8] support, and a plugin architecture that powered thousands of community extensions. It cemented Joomla as WordPress's main open-source CMS rival for portals, intranets, and membership sites through the late 2000s.",
       "narrative": {
         "whyChosen": "Joomla 1.5 was the release that made Joomla a serious enterprise CMS contender.",
         "whyImportant": "Its MVC architecture and extension ecosystem set patterns for PHP CMS development.",
@@ -112,7 +112,7 @@
       "datePrecision": "day",
       "title": "Sublime Text 1.0 released",
       "summary": "Jon Skinner released Sublime Text 1.0 on January 18, 2008 — a fast, minimal code editor for Windows with tabs and side-by-side views.",
-      "about": "Sublime Text became the editor of choice for developers who wanted speed and keyboard-driven editing without IDE bloat — multiple cursors, command palette, and Python plugins via Package Control. It influenced VS Code's UX and remained a cult favorite through the 2010s.",
+      "about": "Sublime Text became the editor of choice for developers who wanted speed and keyboard-driven editing without [IDE] bloat — multiple cursors, command palette, and Python plugins via Package Control. It influenced VS Code's UX and remained a cult favorite through the 2010s.",
       "narrative": {
         "whyChosen": "Sublime Text set the aesthetic and UX bar for modern minimalist code editors.",
         "whyImportant": "Its command palette and multi-cursor editing became standard features everywhere.",

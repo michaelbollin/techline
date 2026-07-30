@@ -6,12 +6,12 @@
       "date": "1985-04",
       "datePrecision": "month",
       "title": "Toshiba T1100 released",
-      "summary": "Toshiba began selling the T1100 in April 1985 — an IBM PC-compatible laptop with an 80C88 CPU and floppy disk drive.",
-      "about": "The T1100 ran MS-DOS 2.11 on a rechargeable battery — one of the first clamshell laptops that could run standard PC software on the road. European and Japanese business users adopted it before US vendors caught up. It proved the IBM PC standard could shrink into a portable form without custom operating systems.",
+      "summary": "Toshiba began selling the T1100 in April 1985 — an [IBM] [PC]-compatible laptop with an 80C88 [CPU] and [floppy disk] drive.",
+      "about": "The T1100 ran [MS-DOS] 2.11 on a rechargeable battery — one of the first clamshell laptops that could run standard [PC] software on the road. European and Japanese business users adopted it before US vendors caught up. It proved the [IBM] [PC] standard could shrink into a portable form without custom operating systems.",
       "narrative": {
-        "whyChosen": "The T1100 was among the first IBM PC-compatible laptops sold internationally.",
-        "whyImportant": "It brought DOS compatibility to mobile form factors before the ThinkPad era.",
-        "problemSolved": "Business travelers needed PC software on the road without luggable 30-pound machines."
+        "whyChosen": "The T1100 was among the first [IBM] [PC]-compatible laptops sold internationally.",
+        "whyImportant": "It brought [DOS] compatibility to mobile form factors before the ThinkPad era.",
+        "problemSolved": "Business travelers needed [PC] software on the road without luggable 30-pound machines."
       },
       "category": "hardware",
       "tags": [

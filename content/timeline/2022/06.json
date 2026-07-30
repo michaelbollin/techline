@@ -59,7 +59,7 @@
       "narrative": {
         "whyChosen": "IE's retirement closed the longest chapter in browser history and the era of building for one dominant engine.",
         "whyImportant": "It forced the last holdouts off a browser with no security updates and shrinking web compatibility.",
-        "problemSolved": "Microsoft could not maintain a separate legacy browser alongside Chromium-based Edge indefinitely."
+        "problemSolved": "Microsoft could not maintain a separate legacy browser alongside [Chromium]-based Edge indefinitely."
       },
       "category": "software",
       "tags": [
@@ -109,12 +109,12 @@
       "date": "2022-06-06",
       "datePrecision": "day",
       "title": "HTTP/3 standardized",
-      "summary": "RFC 9114 published HTTP/3 on June 6, 2022 — HTTP semantics mapped onto the QUIC transport protocol over UDP.",
-      "about": "HTTP/3 keeps HTTP methods and status codes but replaces TCP with QUIC — faster handshakes, per-stream flow control, and no TCP head-of-line blocking. QPACK compresses headers like HPACK did for HTTP/2. Major browsers and CDNs enabled HTTP/3 by default for lower latency on lossy networks.",
+      "summary": "RFC 9114 published [HTTP]/3 on June 6, 2022 — [HTTP] semantics mapped onto the QUIC transport protocol over UDP.",
+      "about": "[HTTP]/3 keeps [HTTP] methods and status codes but replaces [TCP] with QUIC — faster handshakes, per-stream flow control, and no [TCP] head-of-line blocking. QPACK compresses headers like HPACK did for [HTTP]/2. Major browsers and CDNs enabled [HTTP]/3 by default for lower latency on lossy networks.",
       "narrative": {
-        "whyChosen": "HTTP/3 completed the HTTP performance story started by HTTP/2 and Google's QUIC experiments.",
+        "whyChosen": "[HTTP]/3 completed the [HTTP] performance story started by [HTTP]/2 and Google's QUIC experiments.",
         "whyImportant": "It is now the preferred transport for many sites, especially on mobile and high-latency links.",
-        "problemSolved": "TCP's head-of-line blocking still hurt HTTP/2 on unreliable networks; QUIC fixes that at the transport layer."
+        "problemSolved": "[TCP]'s head-of-line blocking still hurt [HTTP]/2 on unreliable networks; QUIC fixes that at the transport layer."
       },
       "category": "protocol",
       "tags": [

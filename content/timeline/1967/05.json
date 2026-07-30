@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Object-oriented programming invented",
       "summary": "In May 1967, Ole-Johan Dahl and Kristen Nygaard presented classes and inheritance at a simulation conference in Oslo — the birth of object-oriented programming.",
-      "about": "Simula 67 bundled data and behavior into reusable 'objects' that could inherit from each other — the ideas behind C++, Java, Python classes, and most modern app design. It was built to model real-world systems like factory queues and traffic, but the object model outlived simulation.",
+      "about": "[Simula] 67 bundled data and behavior into reusable 'objects' that could inherit from each other — the ideas behind C++, Java, Python classes, and most modern app design. It was built to model real-world systems like factory queues and traffic, but the object model outlived simulation.",
       "narrative": {
         "whyChosen": "This is the moment object-oriented programming became a language feature — not just a design pattern in someone's head.",
         "whyImportant": "Classes let developers model real things (accounts, vehicles, users) once and reuse that structure everywhere — every major language copied this.",

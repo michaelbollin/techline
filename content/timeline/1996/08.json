@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Internet Explorer 3.0 released",
       "summary": "Microsoft shipped Internet Explorer 3.0 on August 13, 1996 with CSS, Java applets, ActiveX controls, and its own JavaScript implementation (JScript).",
-      "about": "IE 3 was Microsoft's first browser that could credibly compete with Netscape on features — and it was free for all Windows users. CSS support let sites separate layout from content; ActiveX tied the web tightly to Windows, foreshadowing years of compatibility headaches.",
+      "about": "IE 3 was Microsoft's first browser that could credibly compete with [Netscape] on features — and it was free for all Windows users. CSS support let sites separate layout from content; ActiveX tied the web tightly to Windows, foreshadowing years of compatibility headaches.",
       "narrative": {
         "whyChosen": "IE 3 closed the feature gap and escalated the browser wars into a standards fight.",
         "whyImportant": "It brought CSS and scripting to Microsoft's massive Windows install base.",
-        "problemSolved": "Netscape dominated the web; Microsoft needed a free, capable browser to keep Windows central to the internet."
+        "problemSolved": "[Netscape] dominated the web; Microsoft needed a free, capable browser to keep Windows central to the internet."
       },
       "category": "software",
       "tags": [
@@ -106,12 +106,12 @@
       "date": "1996-08-23",
       "datePrecision": "day",
       "title": "Amaya — W3C browser and editor",
-      "summary": "The W3C released the first public Amaya binary on August 23, 1996 — a testbed browser and editor for emerging web standards like HTML, CSS, and MathML.",
+      "summary": "The [W3C] released the first public Amaya binary on August 23, 1996 — a testbed browser and editor for emerging web standards like [HTML], CSS, and MathML.",
       "about": "Amaya was never meant for mainstream users — it was a reference implementation where standards authors could try new specs in real software. Researchers and spec writers used it to validate CSS layout, structured editing, and semantic markup ideas before they reached commercial browsers.",
       "narrative": {
         "whyChosen": "Amaya shows how standards bodies prototyped the web platform alongside vendors.",
         "whyImportant": "It helped prove CSS and structured editing could work in a real browser, not just on paper.",
-        "problemSolved": "The W3C needed a living laboratory to test specifications without waiting for Netscape or Microsoft."
+        "problemSolved": "The [W3C] needed a living laboratory to test specifications without waiting for [Netscape] or Microsoft."
       },
       "category": "software",
       "tags": [

@@ -6,11 +6,11 @@
       "date": "2020-11-26",
       "datePrecision": "day",
       "title": "PHP 8.0 released",
-      "summary": "The PHP project released PHP 8.0 on November 26, 2020 with JIT compilation, union types, named arguments, and the match expression.",
-      "about": "PHP 8 modernized the language that still powers WordPress, Wikipedia, and Laravel apps: JIT sped hot loops, attributes replaced docblock hacks, and stricter types caught bugs earlier. It was the biggest PHP jump since PHP 7's performance rewrite.",
+      "summary": "The PHP project released PHP 8.0 on November 26, 2020 with [JIT] compilation, union types, named arguments, and the match expression.",
+      "about": "PHP 8 modernized the language that still powers WordPress, [Wikipedia], and Laravel apps: [JIT] sped hot loops, attributes replaced docblock hacks, and stricter types caught bugs earlier. It was the biggest PHP jump since PHP 7's performance rewrite.",
       "narrative": {
         "whyChosen": "PHP 8 proved the web's most-deployed server language could evolve without abandoning its ecosystem.",
-        "whyImportant": "JIT, union types, and match brought PHP closer to modern language expectations.",
+        "whyImportant": "[JIT], union types, and match brought PHP closer to modern language expectations.",
         "problemSolved": "PHP 7.x had plateaued; hosts and frameworks needed a compelling reason to upgrade beyond security patches."
       },
       "category": "software",
@@ -54,7 +54,7 @@
       "datePrecision": "month",
       "title": "Safari 14 shipped with macOS Big Sur",
       "summary": "Apple released Safari 14 with macOS Big Sur on November 12, 2020 — adding WebExtensions on Mac and improved tab design, five days before M1 Mac retail launch on November 17.",
-      "about": "Safari 14 refined Big Sur's visual design with translucent UI and tighter iCloud integration. WebExtensions support brought Chrome extension compatibility to Mac Safari; M1-specific tuning followed with Apple Silicon Macs days later.",
+      "about": "Safari 14 refined Big Sur's visual design with translucent [UI] and tighter iCloud integration. WebExtensions support brought Chrome extension compatibility to Mac Safari; M1-specific tuning followed with Apple Silicon Macs days later.",
       "narrative": {
         "whyChosen": "Safari 14 aligned Apple's browser with the extension ecosystem developers already built for Chromium.",
         "whyImportant": "WebExtensions on Mac reduced the 'Safari is a different platform' tax for extension authors.",
@@ -108,7 +108,7 @@
       "datePrecision": "day",
       "title": ".NET 5 released",
       "summary": "Microsoft shipped .NET 5 on November 10, 2020 — unifying .NET Core and .NET Framework into one cross-platform runtime.",
-      "about": ".NET 5 dropped the \"Core\" branding and became the single modern .NET: one BCL, one SDK, Windows/Linux/macOS targets. It set the path to .NET 6 LTS and the end of fragmented .NET naming that confused developers for years.",
+      "about": ".NET 5 dropped the \"Core\" branding and became the single modern .NET: one BCL, one [SDK], Windows/Linux/macOS targets. It set the path to .NET 6 LTS and the end of fragmented .NET naming that confused developers for years.",
       "narrative": {
         "whyChosen": ".NET 5 was the unification release that simplified Microsoft's platform story.",
         "whyImportant": "One runtime name and cadence replaced the Framework vs Core split.",
@@ -161,9 +161,9 @@
       "datePrecision": "day",
       "title": "C# 9 released with .NET 5",
       "summary": "C# 9 shipped with .NET 5 on November 10, 2020 — adding records, init-only properties, and top-level programs.",
-      "about": "C# 9's `record` types made immutable data classes one-liners; `init` accessors enabled object initializers without public setters; top-level statements removed boilerplate `Main` methods. The features shaped modern .NET API design and minimal hosting templates.",
+      "about": "C# 9's `record` types made immutable data classes one-liners; `init` accessors enabled object initializers without public setters; top-level statements removed boilerplate `Main` methods. The features shaped modern .NET [API] design and minimal hosting templates.",
       "narrative": {
-        "whyChosen": "C# 9 records became the default pattern for DTOs and API models in .NET 5+.",
+        "whyChosen": "C# 9 records became the default pattern for DTOs and [API] models in .NET 5+.",
         "whyImportant": "Init-only properties and records reduced mutable-state bugs in enterprise code.",
         "problemSolved": "Immutable data types required verbose class definitions or external libraries."
       },
@@ -215,7 +215,7 @@
       "datePrecision": "day",
       "title": "Apple M1 announced",
       "summary": "Apple announced the M1 chip on November 10, 2020 — the first Apple silicon SoC for Mac, replacing Intel processors.",
-      "about": "The M1 unified CPU, GPU, and Neural Engine on a 5 nm process — MacBooks booted instantly and compiled Xcode projects faster than many Intel laptops while sipping battery. Developers rebuilt apps for arm64 or ran x86 binaries through Rosetta 2. It ended Apple's 15-year Intel partnership and reshaped local dev machine expectations.",
+      "about": "The M1 unified [CPU], GPU, and Neural Engine on a 5 nm process — MacBooks booted instantly and compiled Xcode projects faster than many Intel laptops while sipping battery. Developers rebuilt apps for arm64 or ran x86 binaries through Rosetta 2. It ended Apple's 15-year Intel partnership and reshaped local dev machine expectations.",
       "narrative": {
         "whyChosen": "The M1 was Apple's break from Intel and the start of the Apple silicon Mac era.",
         "whyImportant": "It forced developers to target arm64 and proved ARM laptops could outperform x86 for daily dev work.",
@@ -272,7 +272,7 @@
       "datePrecision": "day",
       "title": "M1 MacBook Air and Pro ship",
       "summary": "Apple began selling M1 MacBook Air and MacBook Pro models on November 17, 2020 — the first Apple silicon Macs available to customers.",
-      "about": "Developers unboxed fanless Airs that outran prior Intel Pros on native builds — Docker, Node, and Xcode teams rushed to test arm64 CI pipelines. Rosetta 2 ran most x86 Mac apps transparently during the transition. The shipping date turned a keynote chip into the default laptop for millions of software engineers.",
+      "about": "Developers unboxed fanless Airs that outran prior Intel Pros on native builds — Docker, Node, and Xcode teams rushed to test arm64 CI pipelines. Rosetta 2 ran most [x86] Mac apps transparently during the transition. The shipping date turned a keynote chip into the default laptop for millions of software engineers.",
       "narrative": {
         "whyChosen": "The M1 Mac retail launch made Apple silicon the default dev platform for Mac users overnight.",
         "whyImportant": "It accelerated arm64 toolchain support across open-source and commercial developer tools.",

@@ -6,12 +6,12 @@
       "date": "1979-07",
       "datePrecision": "month",
       "title": "Intel 8088 introduced",
-      "summary": "Intel introduced the 8088 microprocessor in July 1979 — a cost-reduced 16-bit x86 variant with an 8-bit external bus.",
-      "about": "IBM chose the 8088 for the original PC because its 8-bit data bus worked with cheaper existing peripheral chips — while software still targeted 16-bit x86 instructions. The 8088 launched the PC clone industry and the entire DOS/Windows software ecosystem on Intel architecture.",
+      "summary": "Intel introduced the 8088 [microprocessor] in July 1979 — a cost-reduced 16-bit x86 variant with an 8-bit external bus.",
+      "about": "[IBM] chose the 8088 for the original [PC] because its 8-bit data bus worked with cheaper existing peripheral chips — while software still targeted 16-bit x86 instructions. The 8088 launched the [PC] clone industry and the entire [DOS]/Windows software ecosystem on Intel architecture.",
       "narrative": {
-        "whyChosen": "The 8088 was the CPU inside the IBM PC 5150 — the seed of the x86 PC standard.",
-        "whyImportant": "IBM's choice made 8088/x86 the default architecture for personal computing.",
-        "problemSolved": "PC designs needed 16-bit computing at a price point 8-bit peripherals could support."
+        "whyChosen": "The 8088 was the [CPU] inside the [IBM] [PC] 5150 — the seed of the x86 [PC] standard.",
+        "whyImportant": "[IBM]'s choice made 8088/x86 the default architecture for personal computing.",
+        "problemSolved": "[PC] designs needed 16-bit computing at a price point 8-bit peripherals could support."
       },
       "category": "hardware",
       "tags": [

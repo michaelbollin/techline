@@ -6,12 +6,12 @@
       "date": "2022-10-13",
       "datePrecision": "day",
       "title": "Google Pixel 7 released",
-      "summary": "Google began selling the Google Pixel 7 — Tensor G2 and refined camera bar design.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g2 and refined camera bar design. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 7 — Tensor G2 and refined camera bar design.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Tensor g2 and refined camera bar design. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 7 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 7 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [
@@ -68,8 +68,8 @@
       "about": "The 'faster CPython' project delivered 10–60% speed gains for many workloads — important for data science, web APIs, and automation at scale. Fine-grained error locations (`^` under the exact token) and `TaskGroup` async primitives made production Python less painful.",
       "narrative": {
         "whyChosen": "3.11 was the performance release that answered critics of Python's speed.",
-        "whyImportant": "Faster bytecode and specialization kept Python competitive for servers and notebooks.",
-        "problemSolved": "CPU-bound Python workloads needed real speedups without rewriting in C or Rust."
+        "whyImportant": "Faster [bytecode] and specialization kept Python competitive for servers and notebooks.",
+        "problemSolved": "[CPU]-bound Python workloads needed real speedups without rewriting in C or Rust."
       },
       "category": "software",
       "tags": [
@@ -111,7 +111,7 @@
       "datePrecision": "day",
       "title": "Next.js 13 introduced the App Router",
       "summary": "Vercel released Next.js 13 on October 25, 2022 with the App Router beta — React Server Components, nested layouts, and streaming by default.",
-      "about": "The App Router moved data fetching and rendering to the server by default: `app/` directories, layout.tsx files, and streaming HTML replaced many `getServerSideProps` patterns. It shipped as beta in 13.0; the Next.js team recommended production use after App Router reached stable in Next.js 13.4 (May 2023).",
+      "about": "The App Router moved data fetching and rendering to the server by default: `app/` directories, layout.tsx files, and streaming [HTML] replaced many `getServerSideProps` patterns. It shipped as beta in 13.0; the Next.js team recommended production use after App Router reached stable in Next.js 13.4 (May 2023).",
       "narrative": {
         "whyChosen": "Next.js 13 redefined how React apps structure routing and server rendering.",
         "whyImportant": "React Server Components went from experiment to mainstream framework default.",

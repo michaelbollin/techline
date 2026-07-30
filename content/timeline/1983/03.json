@@ -6,11 +6,11 @@
       "date": "1983-03",
       "datePrecision": "month",
       "title": "IBM PC XT released",
-      "summary": "IBM announced the Personal Computer XT in March 1983 — the first IBM PC with a built-in hard disk as standard equipment.",
-      "about": "The XT's 10 MB hard drive and 8088 CPU made floppy-swap hell optional for business software. Clone makers copied its expansion slots and BIOS-compatible design, cementing the PC as the platform for DOS apps, early LANs, and eventually Windows. Internal storage became the default expectation for desktop development machines.",
+      "summary": "[IBM] announced the Personal Computer XT in March 1983 — the first [IBM] [PC] with a built-in [hard disk] as standard equipment.",
+      "about": "The XT's 10 MB hard drive and 8088 [CPU] made floppy-swap hell optional for business software. Clone makers copied its expansion slots and BIOS-compatible design, cementing the [PC] as the platform for [DOS] apps, early LANs, and eventually Windows. Internal storage became the default expectation for desktop development machines.",
       "narrative": {
-        "whyChosen": "The PC XT normalized built-in hard disks on IBM-compatible desktops.",
-        "whyImportant": "It extended the open PC architecture that clone vendors and software houses built on.",
+        "whyChosen": "The [PC] XT normalized built-in [hard disk]s on [IBM]-compatible desktops.",
+        "whyImportant": "It extended the open [PC] architecture that clone vendors and software houses built on.",
         "problemSolved": "Floppy-only PCs could not hold large databases, compilers, and multi-file projects comfortably."
       },
       "category": "hardware",
@@ -62,12 +62,12 @@
       "date": "1983-03",
       "datePrecision": "month",
       "title": "Compaq Portable released",
-      "summary": "Compaq Computer Corporation began shipping the Compaq Portable in March 1983 — the first IBM PC-compatible portable computer.",
-      "about": "Compaq legally reverse-engineered the IBM PC BIOS and shipped a luggable 8088 machine that ran unmodified DOS software — proving the PC standard could be cloned. The company grew into a server giant (later HP ProLiant). Every PC-compatible portable and white-box desktop traces legitimacy to this product.",
+      "summary": "Compaq Computer Corporation began shipping the Compaq Portable in March 1983 — the first [IBM] [PC]-compatible [portable computer].",
+      "about": "Compaq legally reverse-engineered the [IBM] [PC] BIOS and shipped a luggable 8088 machine that ran unmodified [DOS] software — proving the [PC] standard could be cloned. The company grew into a server giant (later HP ProLiant). Every [PC]-compatible portable and white-box desktop traces legitimacy to this product.",
       "narrative": {
-        "whyChosen": "The Compaq Portable was the first commercially successful IBM PC clone.",
-        "whyImportant": "It established that PC compatibility could be replicated without IBM's permission — opening the clone market.",
-        "problemSolved": "Businesses wanted portable PCs that ran the same software as their IBM desktops."
+        "whyChosen": "The Compaq Portable was the first commercially successful [IBM] [PC] clone.",
+        "whyImportant": "It established that [PC] compatibility could be replicated without [IBM]'s permission — opening the clone market.",
+        "problemSolved": "Businesses wanted portable PCs that ran the same software as their [IBM] desktops."
       },
       "category": "hardware",
       "tags": [

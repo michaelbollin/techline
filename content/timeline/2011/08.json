@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Firefox 6 released",
       "summary": "Mozilla released Firefox 6 on August 16, 2011 — continuing the rapid-release cycle with faster startup, improved dev tools, and WebSockets support.",
-      "about": "Firefox 6 refined the six-week release model Mozilla started with version 5: incremental security fixes, WebSockets support, and better permissions UI. It kept Firefox competitive while Chrome's market share climbed.",
+      "about": "Firefox 6 refined the six-week release model Mozilla started with version 5: incremental security fixes, WebSockets support, and better permissions [UI]. It kept Firefox competitive while Chrome's market share climbed.",
       "narrative": {
         "whyChosen": "Firefox 6 solidified Mozilla's rapid-release cadence for the 2010s.",
         "whyImportant": "Frequent releases brought security patches and web APIs to users faster.",
@@ -61,10 +61,10 @@
       "datePrecision": "day",
       "title": "Swagger 1.0 released",
       "summary": "Tony Tam released Swagger 1.0 on August 10, 2011 — a machine-readable format for describing REST APIs and generating client SDKs.",
-      "about": "Swagger (later OpenAPI) documents endpoints, parameters, and response schemas in JSON or YAML — powering interactive docs, code generators, and API gateways. Tools like Swagger UI render `try it out` consoles from the same spec. Example: a `GET /users/{id}` path with typed parameters becomes a typed TypeScript client automatically.",
+      "about": "Swagger (later OpenAPI) documents endpoints, parameters, and response schemas in JSON or YAML — powering interactive docs, code generators, and [API] gateways. Tools like Swagger [UI] render `try it out` consoles from the same spec. Example: a `GET /users/{id}` path with typed parameters becomes a typed TypeScript client automatically.",
       "narrative": {
-        "whyChosen": "Swagger 1.0 was the first widely adopted REST API description format.",
-        "whyImportant": "It made API contracts machine-readable and spawned the OpenAPI ecosystem.",
+        "whyChosen": "Swagger 1.0 was the first widely adopted REST [API] description format.",
+        "whyImportant": "It made [API] contracts machine-readable and spawned the OpenAPI ecosystem.",
         "problemSolved": "REST APIs were documented in prose; clients and servers drifted without a shared schema."
       },
       "category": "protocol",
@@ -113,7 +113,7 @@
       "title": "Marc Andreessen: \"Software is eating the world\"",
       "quoteText": "Software is eating the world.",
       "summary": "In a Wall Street Journal essay, Marc Andreessen argues that every industry is becoming a software business.",
-      "about": "Written at the height of the mobile and cloud boom, the line justified VC bets on Uber, Airbnb, and SaaS eating hotels, taxis, and shrink-wrapped software. It aged into a cliché — because it was largely right.",
+      "about": "Written at the height of the mobile and cloud boom, the line justified VC bets on Uber, Airbnb, and [SaaS] eating hotels, taxis, and shrink-wrapped software. It aged into a cliché — because it was largely right.",
       "narrative": {
         "whyChosen": "The thesis statement of the 2010s startup era.",
         "whyImportant": "It reframed non-tech industries as software delivery problems.",
@@ -166,7 +166,7 @@
       "date": "2011-08-19",
       "datePrecision": "day",
       "title": "Bootstrap released",
-      "summary": "Mark Otto and Jacob Thornton open sourced Bootstrap on August 19, 2011 — Twitter's front-end toolkit for responsive grids, typography, and UI components.",
+      "summary": "Mark Otto and Jacob Thornton open sourced Bootstrap on August 19, 2011 — Twitter's front-end toolkit for responsive grids, typography, and [UI] components.",
       "about": "Bootstrap (`btn btn-primary`, 12-column grids, navbar components) standardized how sites looked in the early 2010s — copy a CDN link and ship a polished admin panel or marketing page. It moved responsive design from bespoke CSS hacks to utility classes, influencing Tailwind, Material Design, and every component library that followed.",
       "narrative": {
         "whyChosen": "Bootstrap became the default CSS framework bundled with tutorials, themes, and internal tools.",

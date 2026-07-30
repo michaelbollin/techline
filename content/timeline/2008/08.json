@@ -6,12 +6,12 @@
       "date": "2008-08-06",
       "datePrecision": "day",
       "title": "LXC released",
-      "summary": "Daniel Lezcano published the first LXC commit on August 6, 2008 — Linux Containers using cgroups and namespaces for lightweight OS virtualization.",
-      "about": "LXC wraps kernel isolation primitives into `lxc-create`, `lxc-start`, and templates for minimal root filesystems. It predated Docker but shared the same insight: package an app with its dependencies in an isolated environment without full hardware VMs. Docker initially built on LXC before switching to libcontainer — and LXC remains the foundation many container runtimes still depend on.",
+      "summary": "Daniel Lezcano published the first LXC commit on August 6, 2008 — Linux Containers using cgroups and namespaces for lightweight [OS] virtualization.",
+      "about": "LXC wraps [kernel] isolation primitives into `lxc-create`, `lxc-start`, and templates for minimal root filesystems. It predated Docker but shared the same insight: package an app with its dependencies in an isolated environment without full hardware VMs. Docker initially built on LXC before switching to libcontainer — and LXC remains the foundation many container runtimes still depend on.",
       "narrative": {
-        "whyChosen": "LXC was the first user-facing toolkit to operationalize Linux kernel containers.",
-        "whyImportant": "It proved OS-level virtualization was practical years before Docker popularized containers for developers.",
-        "problemSolved": "Teams needed denser isolation than chroot jails but lighter overhead than hypervisor VMs."
+        "whyChosen": "LXC was the first user-facing toolkit to operationalize Linux [kernel] containers.",
+        "whyImportant": "It proved [OS]-level virtualization was practical years before Docker popularized containers for developers.",
+        "problemSolved": "Teams needed denser isolation than chroot jails but lighter overhead than [hypervisor] VMs."
       },
       "category": "software",
       "tags": [
@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "BlackBerry Bold 9000 released",
       "summary": "BlackBerry released the BlackBerry Bold 9000 on August 21, 2008 — a premium QWERTY BlackBerry that defined the late-2000s enterprise icon.",
-      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Premium qwerty blackberry that defined the late-2000s enterprise icon. BES-connected apps and push email defined mobile workflows for years.",
+      "about": "BlackBerry dominated enterprise mobile before iPhone and [Android]. Premium qwerty blackberry that defined the late-2000s enterprise icon. BES-connected apps and push email defined mobile workflows for years.",
       "narrative": {
         "whyChosen": "The BlackBerry Bold 9000 was a key BlackBerry hardware milestone.",
         "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",

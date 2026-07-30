@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Meson first released",
       "summary": "Jussi Pakkanen released Meson 0.1 on March 2, 2013 — a fast, readable build system that generates Ninja files.",
-      "about": "Meson uses a Python-like DSL in `meson.build` files — declare executables, libraries, and tests; Meson emits Ninja build files for speed. GTK, systemd, Mesa, and GStreamer adopted it as a modern alternative to Autotools and CMake. Example: `meson setup build && meson compile -C build` configures and compiles a C project cross-platform.",
+      "about": "Meson uses a [Python]-like DSL in `meson.build` files — declare executables, libraries, and tests; Meson emits Ninja build files for speed. GTK, systemd, Mesa, and GStreamer adopted it as a modern alternative to Autotools and CMake. Example: `meson setup build && meson compile -C build` configures and compiles a C project cross-platform.",
       "narrative": {
         "whyChosen": "Meson offered a simpler, faster alternative to Autotools for large open-source C/C++ projects.",
         "whyImportant": "It became the build system of choice for GNOME, freedesktop, and major Linux infrastructure.",
@@ -58,7 +58,7 @@
       "datePrecision": "day",
       "title": "Node.js 0.10 released",
       "summary": "Node.js 0.10 shipped on March 11, 2013 with stable streams, domains for error handling, and the foundation for npm's explosive growth.",
-      "about": "Node 0.10 was the first long-lived stable line for production: the streams2 API made piping data reliable; domains helped catch async errors. It powered the early npm ecosystem — Express, Socket.io, and Grunt all targeted 0.10.",
+      "about": "Node 0.10 was the first long-lived stable line for production: the streams2 [API] made piping data reliable; domains helped catch async errors. It powered the early npm ecosystem — Express, Socket.io, and Grunt all targeted 0.10.",
       "narrative": {
         "whyChosen": "Node 0.10 was the version that made Node.js credible for production servers.",
         "whyImportant": "Stable streams and a predictable release line accelerated npm package adoption.",
@@ -162,7 +162,7 @@
       "summary": "dotCloud open-sourced Docker on March 20, 2013 — packaging apps as portable containers (Solomon Hykes had publicly demoed it at PyCon on March 15).",
       "about": "Docker images bundle an app and its dependencies; `docker run` starts containers identically on laptops, CI, and cloud VMs. It standardized 'build once, run anywhere' for microservices and dev environments. Kubernetes later orchestrated Docker containers at fleet scale.",
       "narrative": {
-        "whyChosen": "Docker made Linux containers usable for everyday developers, not just kernel experts.",
+        "whyChosen": "Docker made Linux containers usable for everyday developers, not just [kernel] experts.",
         "whyImportant": "It launched the cloud-native era — images, registries, and compose files became universal DevOps vocabulary.",
         "problemSolved": "Deploying apps meant fragile snowflake servers; teams needed reproducible, isolated runtime environments."
       },
@@ -222,12 +222,12 @@
       "date": "2013-03-22",
       "datePrecision": "day",
       "title": "HTC One (M7) released",
-      "summary": "HTC released the HTC One (M7) — aluminum unibody and BoomSound — premium Android design reference.",
-      "about": "The phone expanded Android's flagship landscape beyond Samsung and Google. Aluminum unibody and boomsound — premium android design reference.",
+      "summary": "HTC released the HTC One (M7) — aluminum unibody and BoomSound — premium [Android] design reference.",
+      "about": "The phone expanded [Android]'s flagship landscape beyond Samsung and Google. Aluminum unibody and boomsound — premium android design reference.",
       "narrative": {
-        "whyChosen": "The HTC One (M7) was a significant Android flagship.",
-        "whyImportant": "Diverse Android flagships gave developers multiple hardware targets beyond Galaxy and Pixel.",
-        "problemSolved": "Android needed credible flagship alternatives to Samsung and carrier-skinned phones."
+        "whyChosen": "The HTC One (M7) was a significant [Android] flagship.",
+        "whyImportant": "Diverse [Android] flagships gave developers multiple hardware targets beyond Galaxy and [Pixel].",
+        "problemSolved": "[Android] needed credible flagship alternatives to Samsung and carrier-skinned phones."
       },
       "category": "hardware",
       "tags": [

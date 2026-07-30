@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Tailwind CSS first released",
       "summary": "Adam Wathan published Tailwind CSS v0.1.0 on November 1, 2017 — a utility-first CSS framework built on PostCSS.",
-      "about": "Tailwind shipped hundreds of single-purpose classes (`flex`, `mt-4`, `text-gray-700`) instead of pre-built components — developers composed designs in markup. It started as a side project and grew into a commercial ecosystem with Tailwind UI, Headless UI, and Catalyst.",
+      "about": "Tailwind shipped hundreds of single-purpose classes (`flex`, `mt-4`, `text-gray-700`) instead of pre-built components — developers composed designs in markup. It started as a side project and grew into a commercial ecosystem with Tailwind [UI], Headless [UI], and Catalyst.",
       "narrative": {
         "whyChosen": "Tailwind introduced utility-first CSS as a credible alternative to Bootstrap components.",
         "whyImportant": "It changed how front-end teams think about styling — composition over custom CSS files.",
@@ -119,11 +119,11 @@
       "date": "2017-11-14",
       "datePrecision": "day",
       "title": "Firefox 57 Quantum released",
-      "summary": "Mozilla shipped Firefox 57 on November 14, 2017 — branded Firefox Quantum with a new CSS engine (Stylo), Rust components, and multi-process tabs.",
-      "about": "Quantum was Firefox's fight back against Chrome: Servo's parallel styling code merged into Gecko, Rust replaced C++ in hot paths, and Project Quantum made the browser feel fast again. It proved Mozilla could still compete on performance with an independent engine.",
+      "summary": "Mozilla shipped Firefox 57 on November 14, 2017 — branded Firefox Quantum with a new CSS engine (Stylo), [Rust] components, and multi-process tabs.",
+      "about": "Quantum was Firefox's fight back against Chrome: Servo's parallel styling code merged into Gecko, [Rust] replaced C++ in hot paths, and Project Quantum made the browser feel fast again. It proved Mozilla could still compete on performance with an independent engine.",
       "narrative": {
         "whyChosen": "Firefox Quantum was the biggest Firefox rewrite since tabbed browsing.",
-        "whyImportant": "It kept Gecko alive as a credible alternative to Blink with measurable speed gains.",
+        "whyImportant": "It kept Gecko alive as a credible alternative to [Blink] with measurable speed gains.",
         "problemSolved": "Firefox had fallen behind Chrome on speed and memory use, losing users and developer mindshare."
       },
       "category": "software",
@@ -174,8 +174,8 @@
       "date": "2017-11-14",
       "datePrecision": "day",
       "title": "Sanity launched",
-      "summary": "Sanity went live on November 14, 2017 — opening its API-first headless CMS and customizable React-based Studio to the public.",
-      "about": "Sanity stores structured content in a real-time Content Lake queried via GROQ — developers define schemas in code and customize the editing UI in React. It competed with Contentful and Strapi as teams adopted JAMstack and decoupled frontends.",
+      "summary": "Sanity went live on November 14, 2017 — opening its [API]-first headless CMS and customizable React-based Studio to the public.",
+      "about": "Sanity stores structured content in a real-time Content Lake queried via GROQ — developers define schemas in code and customize the editing [UI] in React. It competed with Contentful and Strapi as teams adopted JAMstack and decoupled frontends.",
       "narrative": {
         "whyChosen": "Sanity brought real-time structured content and a customizable open-source Studio.",
         "whyImportant": "GROQ and Portable Text set patterns for developer-centric headless CMS design.",
@@ -216,7 +216,7 @@
       "date": "2017-11-30",
       "datePrecision": "day",
       "title": "Symfony 4.0 released",
-      "summary": "Symfony 4.0 shipped on November 30, 2017 — embracing PHP 7.1+, autowiring, and a micro-kernel for smaller apps.",
+      "summary": "Symfony 4.0 shipped on November 30, 2017 — embracing PHP 7.1+, autowiring, and a micro-[kernel] for smaller apps.",
       "about": "Symfony 4 made dependency injection automatic and shrunk the framework footprint — `symfony/skeleton` became the starting point for APIs and microservices. Flex composer plugin streamlined installs; the release kept Symfony central to Laravel components and Drupal.",
       "narrative": {
         "whyChosen": "Symfony 4's autowiring and Flex modernized PHP framework bootstrapping.",
@@ -264,10 +264,10 @@
       "date": "2017-11-28",
       "datePrecision": "day",
       "title": "CryptoKitties launches on Ethereum",
-      "summary": "Dapper Labs launched CryptoKitties on November 28, 2017 — collectible NFT cats that congested Ethereum with breeding and trading transactions.",
+      "summary": "Dapper Labs launched CryptoKitties on November 28, 2017 — collectible [NFT] cats that congested Ethereum with breeding and trading transactions.",
       "about": "Each kitty was an ERC-721-style unique token; viral demand spiked gas prices and made mainstream news. The game showed blockchains could carry consumer collectibles — and that scaling layer-1 for games required sidechains or rollups.",
       "narrative": {
-        "whyChosen": "CryptoKitties was the first NFT craze to hit the mainstream press.",
+        "whyChosen": "CryptoKitties was the first [NFT] craze to hit the mainstream press.",
         "whyImportant": "It proved unique on-chain assets could drive consumer demand and network congestion.",
         "problemSolved": "Developers needed a template for non-fungible digital goods beyond ERC-20 coins."
       },

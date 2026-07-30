@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "PHP made server-side web programming accessible on cheap shared hosting — upload a file, it runs.",
         "whyImportant": "It democratized dynamic websites the way JavaScript later democratized front-end interactivity.",
-        "problemSolved": "Static HTML could not handle forms, logs, or counters; Lerdorf needed simple CGI tools without Perl or Tcl on his host."
+        "problemSolved": "Static [HTML] could not handle forms, logs, or counters; Lerdorf needed simple CGI tools without Perl or Tcl on his host."
       },
       "category": "software",
       "tags": [

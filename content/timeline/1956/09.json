@@ -6,10 +6,10 @@
       "date": "1956-09-14",
       "datePrecision": "day",
       "title": "IBM RAMAC 305 announced",
-      "summary": "IBM announced the RAMAC 305 on September 14, 1956 — the first commercial computer with a hard disk drive, storing 5 million characters on 50 platters.",
-      "about": "The RAMAC's 350 disk storage unit replaced punched cards and magnetic tape for online random access to data. Random-access disk storage became the foundation of every database, file system, and server farm — from mainframes to cloud SSDs.",
+      "summary": "[IBM] announced the RAMAC 305 on September 14, 1956 — the first commercial computer with a [hard disk] drive, storing 5 million characters on 50 platters.",
+      "about": "The RAMAC's 350 disk storage unit replaced [punched card]s and [magnetic tape] for online random access to data. Random-access disk storage became the foundation of every database, file system, and server farm — from mainframes to cloud SSDs.",
       "narrative": {
-        "whyChosen": "RAMAC introduced the hard disk drive as a commercial product.",
+        "whyChosen": "RAMAC introduced the [hard disk] drive as a commercial product.",
         "whyImportant": "Random-access magnetic storage changed how computers kept and retrieved data online.",
         "problemSolved": "Batch systems needed faster access to records than sequential tape could provide."
       },

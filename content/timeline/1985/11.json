@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Phrack hacker zine first published",
       "summary": "The first issue of Phrack was published on November 17, 1985 — an electronic magazine that became the technical bible of the 1980s–1990s hacker underground.",
-      "about": "Phrack published exploit techniques, Unix internals, and legal commentary — including the Hacker Manifesto and early CERT advisories. Its editors (Taran King, Knight Lightning, and later Erik Bloodaxe) shaped how security researchers shared knowledge before blogs and CVE databases existed.",
+      "about": "Phrack published exploit techniques, [Unix] internals, and legal commentary — including the Hacker Manifesto and early CERT advisories. Its editors (Taran King, Knight Lightning, and later Erik Bloodaxe) shaped how security researchers shared knowledge before blogs and CVE databases existed.",
       "narrative": {
         "whyChosen": "Phrack was the definitive technical zine of the pre-web hacker era.",
         "whyImportant": "It documented vulnerabilities and culture in one archive researchers still cite.",

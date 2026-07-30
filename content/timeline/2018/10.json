@@ -64,12 +64,12 @@
       "date": "2018-10-18",
       "datePrecision": "day",
       "title": "Google Pixel 3 released",
-      "summary": "Google began selling the Google Pixel 3 — Night Sight and dual front cameras on Google's flagship.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Night sight and dual front cameras on google's flagship. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 3 — Night Sight and dual front cameras on Google's flagship.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Night sight and dual front cameras on google's flagship. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 3 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 3 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

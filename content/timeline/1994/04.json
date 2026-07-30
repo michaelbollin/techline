@@ -6,10 +6,10 @@
       "date": "1994-04-04",
       "datePrecision": "day",
       "title": "Marc Andreessen and Jim Clark found Netscape",
-      "summary": "Marc Andreessen and Jim Clark founded Mosaic Communications Corporation on April 4, 1994 — later renamed Netscape Communications.",
-      "about": "Netscape Navigator became the dominant browser of the mid-1990s and drove the first dot-com wave. Andreessen brought Mosaic experience from NCSA; Clark brought Silicon Graphics credibility and venture backing.",
+      "summary": "Marc Andreessen and Jim Clark founded [Mosaic] Communications Corporation on April 4, 1994 — later renamed [Netscape] Communications.",
+      "about": "[Netscape] Navigator became the dominant browser of the mid-1990s and drove the first dot-com wave. Andreessen brought [Mosaic] experience from NCSA; Clark brought Silicon Graphics credibility and venture backing.",
       "narrative": {
-        "whyChosen": "Netscape turned the web from research curiosity into a commercial platform.",
+        "whyChosen": "[Netscape] turned the web from research curiosity into a commercial platform.",
         "whyImportant": "It proved browsers could be venture-backed products and set the first browser wars.",
         "problemSolved": "The web needed a polished, fast browser company to scale beyond academia."
       },

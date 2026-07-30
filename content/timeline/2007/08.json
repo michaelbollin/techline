@@ -6,11 +6,11 @@
       "date": "2007-08",
       "datePrecision": "month",
       "title": "PrestaShop released",
-      "summary": "Bruno Lévêque and Igor Schlumberger launched the PrestaShop platform in August 2007 — a free PHP e-commerce project that reached version 1.0 in July 2008.",
-      "about": "PrestaShop offers catalog, cart, checkout, and back-office tools for merchants who want self-hosted commerce without Magento's complexity. Popular in Europe and Latin America, it competes with WooCommerce and OpenCart on shared hosting and VPS deployments.",
+      "summary": "Bruno Lévêque and Igor Schlumberger launched the [PrestaShop] platform in August 2007 — a free PHP e-commerce project that reached version 1.0 in July 2008.",
+      "about": "[PrestaShop] offers catalog, cart, checkout, and back-office tools for merchants who want self-hosted commerce without [Magento]'s complexity. Popular in Europe and Latin America, it competes with WooCommerce and OpenCart on shared hosting and VPS deployments.",
       "narrative": {
-        "whyChosen": "PrestaShop brought accessible open-source e-commerce to European SMB merchants.",
-        "whyImportant": "It expanded the PHP commerce ecosystem beyond osCommerce and early Magento.",
+        "whyChosen": "[PrestaShop] brought accessible open-source e-commerce to European SMB merchants.",
+        "whyImportant": "It expanded the PHP commerce ecosystem beyond osCommerce and early [Magento].",
         "problemSolved": "Small retailers needed affordable store software without enterprise licensing fees."
       },
       "category": "software",

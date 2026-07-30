@@ -21,6 +21,7 @@ import { SiteBrand } from "@/components/layout/site-brand";
 import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
 
 import { TimelineFilterSidebar, TimelineFilterTrigger } from "./timeline-filters";
+import { TimelineHoverEffectsLayer } from "./hover-effects/timeline-hover-effects-layer";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelinePanArrows } from "./timeline-pan-arrows";
@@ -253,6 +254,8 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                 maxHeight={detailLayout.maxHeight}
               />
             )}
+
+            <TimelineHoverEffectsLayer eventId={displayedHovered?.id ?? null} />
 
             <TimelinePanArrows
               canPanEarlier={showPanEarlier}

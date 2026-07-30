@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Notion all-in-one workspace launches",
       "summary": "Notion released its first public tools in June 2016 — blending notes, wikis, databases, and task boards in one block-based editor.",
-      "about": "Notion let startups replace Confluence, Trello, and Google Docs with linked pages and relational databases — `/code` blocks, templates, and team wikis in a single app. It became the default knowledge base for indie hackers and product teams who wanted flexible docs without Atlassian licensing.",
+      "about": "Notion let startups replace Confluence, Trello, and Google Docs with linked pages and [relational database]s — `/code` blocks, templates, and team wikis in a single app. It became the default knowledge base for indie hackers and product teams who wanted flexible docs without Atlassian licensing.",
       "narrative": {
         "whyChosen": "Notion unified docs, tasks, and lightweight databases for modern teams.",
         "whyImportant": "Block-based pages made internal wikis approachable for non-engineers.",
@@ -57,7 +57,7 @@
       "datePrecision": "day",
       "title": "Windows Subsystem for Linux released",
       "summary": "Microsoft shipped Windows Subsystem for Linux (WSL) in the Windows 10 Anniversary Update on August 2, 2016 — running Linux ELF binaries on Windows without a VM.",
-      "about": "WSL let developers run bash, apt, and Node tooling on Windows laptops — `wsl` became standard in full-stack setup guides. WSL 2 later added a real Linux kernel, blurring the line between Windows and Linux dev environments.",
+      "about": "WSL let developers run bash, apt, and Node tooling on Windows laptops — `wsl` became standard in full-stack setup guides. WSL 2 later added a real Linux [kernel], blurring the line between Windows and Linux dev environments.",
       "narrative": {
         "whyChosen": "WSL brought native Linux tooling to Windows developers.",
         "whyImportant": "It reduced friction for cross-platform and open-source workflows on Windows.",
@@ -115,7 +115,7 @@
       "about": "PowerShell Core replaced Windows-only shell scripting for DevOps teams running heterogeneous clouds: same cmdlets for Azure, AWS, and on-prem Windows/Linux. It became the backbone of modern Windows automation alongside Bash on Linux servers.",
       "narrative": {
         "whyChosen": "Open PowerShell was Microsoft's bid to own cross-platform automation, not just Windows admin.",
-        "whyImportant": "It let operators use one object pipeline language across OS boundaries.",
+        "whyImportant": "It let operators use one object pipeline language across [OS] boundaries.",
         "problemSolved": "Cloud-era teams managed Linux and Windows hosts but lacked a unified automation shell."
       },
       "category": "software",
@@ -166,11 +166,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy Note 7 released",
       "summary": "Samsung released the Samsung Galaxy Note 7 — iris scanner and curved display — recalled worldwide for battery defects.",
-      "about": "The Galaxy Note targeted stylus power users on Android. Iris scanner and curved display — recalled worldwide for battery defects. Note apps and split-screen Android development often targeted this hardware class.",
+      "about": "The Galaxy Note targeted stylus power users on [Android]. Iris scanner and curved display — recalled worldwide for battery defects. Note apps and split-screen [Android] development often targeted this hardware class.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy Note 7 advanced Samsung's stylus phablet line.",
-        "whyImportant": "Galaxy Note hardware defined large-screen Android productivity for years.",
-        "problemSolved": "Android lacked a premium large-screen stylus flagship for note-taking workflows."
+        "whyImportant": "Galaxy Note hardware defined large-screen [Android] productivity for years.",
+        "problemSolved": "[Android] lacked a premium large-screen stylus flagship for note-taking workflows."
       },
       "category": "hardware",
       "tags": [

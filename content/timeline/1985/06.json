@@ -9,9 +9,9 @@
       "summary": "Atari began shipping the ST line in June 1985 — a Motorola 68000 computer with MIDI ports and GEM desktop environment.",
       "about": "The Atari ST became the platform of choice for MIDI musicians and European demo coders — built-in MIDI DIN ports connected synthesizers without extra hardware. Developers used 68000 assembly and C; games and music software pushed its custom chips. It competed with the Amiga for the 16-bit home creative market.",
       "narrative": {
-        "whyChosen": "The Atari ST was the dominant home computer for MIDI music production in the 1980s.",
+        "whyChosen": "The Atari ST was the dominant [home computer] for MIDI music production in the 1980s.",
         "whyImportant": "It brought affordable 16-bit computing and built-in MIDI to musicians and hobbyist developers.",
-        "problemSolved": "Musicians needed a computer with native MIDI I/O and decent graphics without workstation prices."
+        "problemSolved": "Musicians needed a computer with native MIDI I/O and decent graphics without [workstation] prices."
       },
       "category": "hardware",
       "tags": [

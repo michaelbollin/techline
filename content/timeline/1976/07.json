@@ -6,12 +6,12 @@
       "date": "1976-07",
       "datePrecision": "month",
       "title": "Apple I goes on sale",
-      "summary": "Steve Jobs and Steve Wozniak began selling the Apple I computer kit in July 1976 — a single-board machine with 4 KB RAM and MOS 6502 CPU.",
+      "summary": "Steve Jobs and Steve Wozniak began selling the Apple I computer kit in July 1976 — a single-board machine with 4 KB [RAM] and MOS 6502 [CPU].",
       "about": "The Apple I was a fully assembled motherboard — buyers added a keyboard, power supply, and case. The Byte Shop ordered 50 units, proving a market existed between Altair kits and finished systems. Wozniak's elegant design foreshadowed the Apple II; hobbyists got a working computer without weeks of soldering.",
       "narrative": {
         "whyChosen": "The Apple I was Apple's first product and bridge from hobby kits to the Apple II.",
-        "whyImportant": "It validated that a polished microcomputer design could sell through retail channels.",
-        "problemSolved": "Hobbyists wanted a working CPU board without building from scratch like the Altair."
+        "whyImportant": "It validated that a polished [microcomputer] design could sell through retail channels.",
+        "problemSolved": "Hobbyists wanted a working [CPU] board without building from scratch like the Altair."
       },
       "category": "hardware",
       "tags": [

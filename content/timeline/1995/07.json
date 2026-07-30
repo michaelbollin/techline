@@ -10,7 +10,7 @@
       "about": "Bos had been building Argo, a browser with style sheet support, when he responded to Lie's October 1994 proposal on www-talk. The two met at WWW3 in Darmstadt that April and spent the summer at INRIA hammering out the cascading model that became CSS1. Bos is credited as co-creator alongside Lie.",
       "narrative": {
         "whyChosen": "CSS needed a second architect to turn a CERN proposal into a implementable standard.",
-        "whyImportant": "Bos brought browser implementation experience and helped unify competing style sheet proposals at the W3C.",
+        "whyImportant": "Bos brought browser implementation experience and helped unify competing style sheet proposals at the [W3C].",
         "problemSolved": "Multiple incompatible style sheet languages threatened to fragment how the web handled presentation."
       },
       "category": "protocol",

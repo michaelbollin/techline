@@ -61,12 +61,12 @@
       "date": "2017-10-19",
       "datePrecision": "day",
       "title": "Google Pixel 2 released",
-      "summary": "Google began selling the Google Pixel 2 — computational photography with Portrait Mode and Active Edge.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Computational photography with portrait mode and active edge. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 2 — computational photography with Portrait Mode and Active Edge.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Computational photography with portrait mode and active edge. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 2 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 2 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

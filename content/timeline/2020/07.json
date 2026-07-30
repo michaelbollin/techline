@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "EU Court invalidates EU–U.S. Privacy Shield",
       "summary": "The Court of Justice of the European Union ruled on July 16, 2020 in Schrems II that the EU–U.S. Privacy Shield framework was invalid — forcing companies to rethink transatlantic data transfers.",
-      "about": "The decision struck down the legal basis thousands of SaaS vendors used to store EU user data on U.S. servers. Legal teams adopted Standard Contractual Clauses, EU data residency, and encryption strategies; engineers built regional shards and data-localization features that GDPR alone had not fully mandated.",
+      "about": "The decision struck down the legal basis thousands of [SaaS] vendors used to store EU user data on U.S. servers. Legal teams adopted Standard Contractual Clauses, EU data residency, and encryption strategies; engineers built regional shards and data-localization features that GDPR alone had not fully mandated.",
       "narrative": {
         "whyChosen": "Schrems II was the biggest shock to cross-border cloud architecture since GDPR.",
         "whyImportant": "It made data-transfer impact assessments a routine engineering and legal deliverable.",
@@ -52,7 +52,7 @@
       "narrative": {
         "whyChosen": "The Twitter hack was the highest-profile social-engineering breach of a platform's god mode.",
         "whyImportant": "It showed insider admin tools are the crown jewels for account-takeover attacks.",
-        "problemSolved": "Nothing until hardened — attackers needed only employee credentials, not a TLS bug."
+        "problemSolved": "Nothing until hardened — attackers needed only employee credentials, not a [TLS] bug."
       },
       "category": "culture",
       "tags": [

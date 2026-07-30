@@ -10,7 +10,7 @@
       "about": "The foundation stewards the GraphQL spec, reference implementations, and community governance outside any single company. Airbnb, Apollo, GitHub, Shopify, and others joined as members. It marked GraphQL's shift from a Facebook project to industry infrastructure alongside REST and gRPC.",
       "narrative": {
         "whyChosen": "Neutral governance was the milestone that let enterprises bet on GraphQL long-term.",
-        "whyImportant": "It separated the query language from Meta and aligned it with other Linux Foundation open standards.",
+        "whyImportant": "It separated the query language from Meta and aligned it with other Linux Foundation [open standard]s.",
         "problemSolved": "A single-vendor spec slowed adoption; the community needed open, versioned stewardship."
       },
       "category": "software",
@@ -60,7 +60,7 @@
       "datePrecision": "day",
       "title": "Uniswap v1 released",
       "summary": "Hayden Adams deployed Uniswap v1 on November 2, 2018 — an automated market maker that swapped ERC-20 tokens with x*y=k liquidity pools.",
-      "about": "Uniswap replaced order books with constant-product pools anyone could fund. Liquidity providers earned fees; traders swapped atomically on-chain. V2 and V3 scaled the model into the backbone of DeFi — composable with flash loans, yield farms, and aggregators.",
+      "about": "Uniswap replaced order books with constant-product pools anyone could fund. Liquidity providers earned fees; traders swapped atomically on-chain. V2 and V3 scaled the model into the backbone of [DeFi] — composable with flash loans, yield farms, and aggregators.",
       "narrative": {
         "whyChosen": "Uniswap pioneered on-chain AMM trading for Ethereum tokens.",
         "whyImportant": "Permissionless pools made every ERC-20 instantly tradable without listing fees.",

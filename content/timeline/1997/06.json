@@ -6,11 +6,11 @@
       "date": "1997-06",
       "datePrecision": "month",
       "title": "JavaScript standardized",
-      "summary": "In June 1997, Ecma adopted the first official standard for JavaScript — giving Netscape JavaScript and Microsoft JScript one shared rulebook.",
-      "about": "ECMAScript is the official name for the language inside every browser. This first standard meant web developers could write scripts expecting the same syntax in Netscape and Internet Explorer — the foundation for every modern web app, from form validation to single-page applications.",
+      "summary": "In June 1997, Ecma adopted the first official standard for JavaScript — giving [Netscape] JavaScript and Microsoft JScript one shared rulebook.",
+      "about": "ECMAScript is the official name for the language inside every browser. This first standard meant web developers could write scripts expecting the same syntax in [Netscape] and Internet Explorer — the foundation for every modern web app, from form validation to single-page applications.",
       "narrative": {
         "whyChosen": "Standardization turned a browser-company invention into a written contract that any browser maker could implement.",
-        "whyImportant": "It let JavaScript survive beyond Netscape and become the open web's programming language.",
+        "whyImportant": "It let JavaScript survive beyond [Netscape] and become the open web's programming language.",
         "problemSolved": "Without a standard, each browser vendor could change the language and break websites — the open web needed a stable definition."
       },
       "category": "software",
@@ -59,12 +59,12 @@
       "date": "1997-06-11",
       "datePrecision": "day",
       "title": "Netscape Communicator 4.0 released",
-      "summary": "Netscape shipped Communicator 4.0 on June 11, 1997 — a full internet suite with browser, email, news, and HTML editor bundled together.",
-      "about": "Communicator tried to own the whole desktop internet experience, not just browsing. It pushed Dynamic HTML, improved JavaScript, and Netcaster push channels — but its bloated suite model struggled against Microsoft's tighter IE integration in Windows.",
+      "summary": "[Netscape] shipped Communicator 4.0 on June 11, 1997 — a full internet suite with browser, email, news, and [HTML] editor bundled together.",
+      "about": "Communicator tried to own the whole desktop internet experience, not just browsing. It pushed Dynamic [HTML], improved JavaScript, and Netcaster push channels — but its bloated suite model struggled against Microsoft's tighter IE integration in Windows.",
       "narrative": {
-        "whyChosen": "Communicator 4 was Netscape's flagship before the open-source Mozilla pivot.",
+        "whyChosen": "Communicator 4 was [Netscape]'s flagship before the open-source Mozilla pivot.",
         "whyImportant": "It pushed DHTML and richer client-side pages while showing the limits of monolithic browser suites.",
-        "problemSolved": "Users wanted one program for web, mail, and authoring — Netscape packaged the entire workflow."
+        "problemSolved": "Users wanted one program for web, mail, and authoring — [Netscape] packaged the entire workflow."
       },
       "category": "software",
       "tags": [

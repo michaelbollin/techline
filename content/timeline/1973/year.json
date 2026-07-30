@@ -24,11 +24,11 @@
       "date": "1973",
       "datePrecision": "year",
       "title": "Cocks invents RSA at GCHQ",
-      "summary": "Clifford Cocks invented a public-key encryption scheme equivalent to RSA at GCHQ in 1973 — years before the public RSA announcement.",
+      "summary": "Clifford Cocks invented a public-key encryption scheme equivalent to [RSA] at GCHQ in 1973 — years before the public [RSA] announcement.",
       "about": "Cocks' classified work remained secret until 1997 — revealing that British intelligence had discovered public-key cryptography independently. His story illustrates how security research often happened in parallel inside government labs.",
       "narrative": {
         "whyChosen": "Cocks' work proved public-key encryption was discoverable before the academic breakthrough.",
-        "whyImportant": "It showed the ideas behind RSA were not a single-lab accident but a natural next step.",
+        "whyImportant": "It showed the ideas behind [RSA] were not a single-lab accident but a natural next step.",
         "problemSolved": "Secure government communications needed key distribution without exposing secrets."
       },
       "category": "invention",

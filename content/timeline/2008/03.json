@@ -6,11 +6,11 @@
       "date": "2008-03-01",
       "datePrecision": "day",
       "title": "Netscape browser discontinued",
-      "summary": "AOL ended development of the Netscape browser on March 1, 2008 — closing the chapter on the company that once dominated the web.",
-      "about": "Netscape's demise marked the end of the browser that launched the commercial web and the browser wars. Mozilla Firefox carried its codebase forward, but the Netscape brand — once synonymous with the internet — faded as IE and later Chrome took over.",
+      "summary": "AOL ended development of the [Netscape] browser on March 1, 2008 — closing the chapter on the company that once dominated the web.",
+      "about": "[Netscape]'s demise marked the end of the browser that launched the commercial web and the browser wars. Mozilla Firefox carried its codebase forward, but the [Netscape] brand — once synonymous with the internet — faded as IE and later Chrome took over.",
       "narrative": {
-        "whyChosen": "Netscape's shutdown bookended the first era of the browser wars.",
-        "whyImportant": "It cemented Firefox/Mozilla as the heir to Netscape's open-web mission.",
+        "whyChosen": "[Netscape]'s shutdown bookended the first era of the browser wars.",
+        "whyImportant": "It cemented Firefox/Mozilla as the heir to [Netscape]'s open-web mission.",
         "problemSolved": "AOL could not sustain a competing browser; users needed a clear migration path to supported software."
       },
       "category": "software",
@@ -64,10 +64,10 @@
       "date": "2008-03-31",
       "datePrecision": "day",
       "title": "Magento 1.0 released",
-      "summary": "Varien released Magento Community Edition 1.0 on March 31, 2008 — an open-source PHP e-commerce platform built on Zend Framework.",
-      "about": "Magento powers mid-market and enterprise online stores — catalog rules, multi-store views, checkout flows, and a module ecosystem for B2B and B2C. Adobe acquired it in 2018; before that it was the go-to self-hosted alternative to proprietary suites, with extension marketplaces and agency specialization worldwide.",
+      "summary": "Varien released [Magento] Community Edition 1.0 on March 31, 2008 — an open-source PHP e-commerce platform built on Zend Framework.",
+      "about": "[Magento] powers mid-market and enterprise online stores — catalog rules, multi-store views, checkout flows, and a module ecosystem for B2B and B2C. Adobe acquired it in 2018; before that it was the go-to self-hosted alternative to proprietary suites, with extension marketplaces and agency specialization worldwide.",
       "narrative": {
-        "whyChosen": "Magento brought enterprise-grade e-commerce features to open-source PHP.",
+        "whyChosen": "[Magento] brought enterprise-grade e-commerce features to open-source PHP.",
         "whyImportant": "Its modular architecture and extension marketplace defined how PHP shops scaled online retail.",
         "problemSolved": "Merchants outgrew osCommerce but could not afford six-figure proprietary commerce platforms."
       },
@@ -119,7 +119,7 @@
       "about": "Ballmer was interviewing with Guy Kawasaki when a developer in the crowd requested the ritual. The moment tied Microsoft's Silverlight and web platform push to the same sweaty enthusiasm as the 2000 original.",
       "narrative": {
         "whyChosen": "The sequel meme — developers chant updated for the web era.",
-        "whyImportant": "It signaled Microsoft's courtship of web developers during the Flash/Silverlight wars.",
+        "whyImportant": "It signaled Microsoft's courtship of web developers during the [Flash]/Silverlight wars.",
         "problemSolved": "MIX needed a viral moment to rally the web community around Microsoft's stack."
       },
       "tags": [

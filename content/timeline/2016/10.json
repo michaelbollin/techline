@@ -116,12 +116,12 @@
       "date": "2016-10-20",
       "datePrecision": "day",
       "title": "Google Pixel released",
-      "summary": "Google began selling the Google Pixel — first Google-only phone — Assistant, best-in-class Android camera.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. First google-only phone — assistant, best-in-class android camera. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] — first Google-only phone — Assistant, best-in-class [Android] camera.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. First google-only phone — assistant, best-in-class android camera. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [
@@ -173,7 +173,7 @@
       "datePrecision": "day",
       "title": "Next.js open sourced",
       "summary": "Vercel (then ZEIT) released Next.js — a React framework for server-rendered universal JavaScript apps.",
-      "about": "Next.js wraps React with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive UI. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on Vercel. Example: a blog that pre-renders HTML at build time but hydrates React on the client.",
+      "about": "Next.js wraps React with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive [UI]. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on Vercel. Example: a blog that pre-renders [HTML] at build time but hydrates React on the client.",
       "narrative": {
         "whyChosen": "Next.js became the default way to ship React with SSR, routing, and static generation in one toolchain.",
         "whyImportant": "It bridged SPA ergonomics with SEO-friendly server rendering before React Server Components.",

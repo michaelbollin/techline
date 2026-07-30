@@ -6,12 +6,12 @@
       "date": "2025-10",
       "datePrecision": "month",
       "title": "Python 3.14 released",
-      "summary": "Python 3.14 shipped in October 2025 with further free-threading improvements, template string literals (t-strings), and deferred evaluation of annotations.",
-      "about": "Python 3.14 continued the nogil path toward default free-threading in a future release, added t-strings for safer string templating, and simplified typing with lazy annotation evaluation. It keeps Python's annual release train moving for web, data, and AI workloads.",
+      "summary": "[Python] 3.14 shipped in October 2025 with further free-threading improvements, template string literals (t-strings), and deferred evaluation of annotations.",
+      "about": "[Python] 3.14 continued the nogil path toward default free-threading in a future release, added t-strings for safer string templating, and simplified typing with lazy annotation evaluation. It keeps [Python]'s annual release train moving for web, data, and AI workloads.",
       "narrative": {
-        "whyChosen": "3.14 advanced the biggest architectural shift in Python since the 2→3 migration.",
+        "whyChosen": "3.14 advanced the biggest architectural shift in [Python] since the 2→3 migration.",
         "whyImportant": "Free-threading and t-strings address parallel compute and injection risks in modern apps.",
-        "problemSolved": "Python needed safer string interpolation and continued progress removing the GIL bottleneck."
+        "problemSolved": "[Python] needed safer string interpolation and continued progress removing the GIL bottleneck."
       },
       "category": "software",
       "tags": [
@@ -49,12 +49,12 @@
       "date": "2025-10-14",
       "datePrecision": "day",
       "title": "Windows 10 end of support",
-      "summary": "Microsoft ended free security updates for Windows 10 on October 14, 2025 — closing a decade-long OS generation still used on hundreds of millions of PCs.",
-      "about": "Windows 10 EOL forced enterprises and consumers toward Windows 11 or paid Extended Security Updates. For developers it marked the end of targeting IE-mode legacy and an aging kernel baseline — one of the largest forced migration events in desktop computing since Windows XP.",
+      "summary": "Microsoft ended free security updates for Windows 10 on October 14, 2025 — closing a decade-long [OS] generation still used on hundreds of millions of PCs.",
+      "about": "Windows 10 EOL forced enterprises and consumers toward Windows 11 or paid Extended Security Updates. For developers it marked the end of targeting IE-mode legacy and an aging [kernel] baseline — one of the largest forced migration events in desktop computing since Windows XP.",
       "narrative": {
         "whyChosen": "Windows 10's EOL ended the longest-supported consumer Windows generation in years.",
         "whyImportant": "Hundreds of millions of machines needed migration or paid security patches.",
-        "problemSolved": "Microsoft needed to sunset an OS generation to focus security engineering on Windows 11."
+        "problemSolved": "Microsoft needed to sunset an [OS] generation to focus security engineering on Windows 11."
       },
       "category": "culture",
       "tags": [

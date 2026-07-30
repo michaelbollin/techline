@@ -6,10 +6,10 @@
       "date": "2017-08-17",
       "datePrecision": "day",
       "title": "Chris Wanstrath steps down as CEO",
-      "summary": "Chris Wanstrath announced on August 17, 2017 that he would step down as GitHub CEO — paving the way for Microsoft's acquisition and Nat Friedman's leadership.",
-      "about": "Wanstrath had returned as CEO after Preston-Werner's 2014 resignation and grew GitHub past 20 million developers. His planned departure preceded Microsoft's $7.5B acquisition and GitHub's next chapter under Microsoft.",
+      "summary": "Chris Wanstrath announced on August 17, 2017 that he would step down as GitHub CEO — paving the way for Microsoft's [acquisition] and Nat Friedman's leadership.",
+      "about": "Wanstrath had returned as CEO after Preston-Werner's 2014 resignation and grew GitHub past 20 million developers. His planned departure preceded Microsoft's $7.5B [acquisition] and GitHub's next chapter under Microsoft.",
       "narrative": {
-        "whyChosen": "Wanstrath's succession plan set up GitHub's Microsoft acquisition transition.",
+        "whyChosen": "Wanstrath's succession plan set up GitHub's Microsoft [acquisition] transition.",
         "whyImportant": "It marked leadership change at the central hub of open-source collaboration.",
         "problemSolved": "GitHub needed a succession path as it scaled beyond founder-led management."
       },

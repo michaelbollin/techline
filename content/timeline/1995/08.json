@@ -6,10 +6,10 @@
       "date": "1995-08-09",
       "datePrecision": "day",
       "title": "Netscape IPO ignites the dot-com gold rush",
-      "summary": "Netscape Communications went public on August 9, 1995 — its stock more than doubled on the first day of trading, signaling that internet companies could command blockbuster valuations.",
+      "summary": "[Netscape] Communications went public on August 9, 1995 — its stock more than doubled on the first day of trading, signaling that internet companies could command blockbuster valuations.",
       "about": "The IPO turned Andreessen and Clark's browser startup into a Wall Street sensation and proved venture-backed software could mint billionaires overnight. It kicked off a decade of internet IPO mania, telecom overbuild, and the hiring boom that crashed when NASDAQ peaked in March 2000.",
       "narrative": {
-        "whyChosen": "Netscape's IPO is the moment Wall Street fell in love with the internet.",
+        "whyChosen": "[Netscape]'s IPO is the moment Wall Street fell in love with the internet.",
         "whyImportant": "It validated the browser as a platform and made 'internet company' a fundable category.",
         "problemSolved": "Investors needed proof that web software could generate public-market returns, not just hype."
       },
@@ -61,12 +61,12 @@
       "date": "1995-08-16",
       "datePrecision": "day",
       "title": "Internet Explorer 1.0 released",
-      "summary": "Microsoft shipped Internet Explorer 1.0 on August 16, 1995 in the Windows 95 Plus! pack — its first browser and the opening move in the browser wars with Netscape.",
-      "about": "IE 1.0 was a licensed Mosaic derivative that brought the web to Windows users inside Microsoft's ecosystem. It was slow and basic at first, but it came bundled with Windows — a distribution advantage that eventually reshaped the entire software industry.",
+      "summary": "Microsoft shipped Internet Explorer 1.0 on August 16, 1995 in the Windows 95 Plus! pack — its first browser and the opening move in the browser wars with [Netscape].",
+      "about": "IE 1.0 was a licensed [Mosaic] derivative that brought the web to Windows users inside Microsoft's ecosystem. It was slow and basic at first, but it came bundled with Windows — a distribution advantage that eventually reshaped the entire software industry.",
       "narrative": {
         "whyChosen": "Microsoft's browser entry turned the web into a platform battle between two software giants.",
-        "whyImportant": "Bundling and OS integration made IE the default for hundreds of millions of PCs.",
-        "problemSolved": "Windows users needed a built-in way to browse the web without buying a separate Netscape install."
+        "whyImportant": "Bundling and [OS] integration made IE the default for hundreds of millions of PCs.",
+        "problemSolved": "Windows users needed a built-in way to browse the web without buying a separate [Netscape] install."
       },
       "category": "software",
       "tags": [
@@ -108,12 +108,12 @@
       "date": "1995-08-24",
       "datePrecision": "day",
       "title": "Microsoft Windows 95 released",
-      "summary": "Microsoft released Windows 95 to retail on August 24, 1995 — merging MS-DOS and Windows into a 32-bit OS with the Start menu, taskbar, and Plug and Play.",
-      "about": "Windows 95 sold over a million copies in four days and made the GUI PC mainstream. Its $300 million launch campaign and bundled MS-DOS kernel defined the PC software stack for a decade — the platform most developers targeted until the web and mobile shifted the center of gravity.",
+      "summary": "Microsoft released Windows 95 to retail on August 24, 1995 — merging [MS-DOS] and Windows into a 32-bit [OS] with the Start menu, taskbar, and Plug and Play.",
+      "about": "Windows 95 sold over a million copies in four days and made the [GUI] [PC] mainstream. Its $300 million launch campaign and bundled [MS-DOS] [kernel] defined the [PC] software stack for a decade — the platform most developers targeted until the web and mobile shifted the center of gravity.",
       "narrative": {
-        "whyChosen": "Windows 95 unified DOS and Windows and set the desktop UI patterns billions still recognize.",
+        "whyChosen": "Windows 95 unified [DOS] and Windows and set the desktop [UI] patterns billions still recognize.",
         "whyImportant": "Preemptive multitasking and Plug and Play made PCs approachable for home and office users at scale.",
-        "problemSolved": "Windows 3.x ran on top of DOS with cooperative multitasking; users needed one integrated 32-bit system."
+        "problemSolved": "Windows 3.x ran on top of [DOS] with cooperative multitasking; users needed one integrated 32-bit system."
       },
       "category": "software",
       "tags": [

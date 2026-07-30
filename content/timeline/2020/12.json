@@ -6,12 +6,12 @@
       "date": "2020-12-25",
       "datePrecision": "day",
       "title": "Ruby 3.0 released",
-      "summary": "Matz released Ruby 3.0 on December 25, 2020 — promising 3× faster performance versus Ruby 2.0 and introducing RBS static typing and fiber schedulers.",
-      "about": "Ruby 3 aimed to keep Rails developers happy while answering speed criticism: YJIT (later), improved GC, and concurrent fibers for async I/O. RBS files let teams document types without changing Ruby's dynamic feel — a compromise before gradual typing in 3.x.",
+      "summary": "Matz released [Ruby] 3.0 on December 25, 2020 — promising 3× faster performance versus [Ruby] 2.0 and introducing RBS static typing and fiber schedulers.",
+      "about": "[Ruby] 3 aimed to keep Rails developers happy while answering speed criticism: YJIT (later), improved GC, and concurrent fibers for async I/O. RBS files let teams document types without changing [Ruby]'s dynamic feel — a compromise before gradual typing in 3.x.",
       "narrative": {
-        "whyChosen": "Ruby 3 was the language's answer to 'Ruby is too slow' after years of 2.x maintenance.",
-        "whyImportant": "Performance work and RBS kept Ruby viable for Shopify-scale Rails deployments.",
-        "problemSolved": "Ruby 2.7 warned the community that 3.0 would break compatibility unless they modernized gems and patterns."
+        "whyChosen": "[Ruby] 3 was the language's answer to '[Ruby] is too slow' after years of 2.x maintenance.",
+        "whyImportant": "Performance work and RBS kept [Ruby] viable for Shopify-scale Rails deployments.",
+        "problemSolved": "[Ruby] 2.7 warned the community that 3.0 would break compatibility unless they modernized gems and patterns."
       },
       "category": "software",
       "tags": [
@@ -56,7 +56,7 @@
       "about": "C++20 let compilers reject bad templates at the constraint level (concepts), write async code with coroutines, and chain range transformations fluently. It was the biggest standard since C++11 and influenced how modern C++ tutorials and codebases are written.",
       "narrative": {
         "whyChosen": "C++20 brought concepts and coroutines — features the standards committee had pursued for years.",
-        "whyImportant": "Concepts improved template error messages and API design across the STL.",
+        "whyImportant": "Concepts improved template error messages and [API] design across the STL.",
         "problemSolved": "Template metaprogramming was powerful but unreadable; C++ needed safer, clearer abstractions."
       },
       "category": "software",
@@ -105,7 +105,7 @@
       "narrative": {
         "whyChosen": "Flash Player's shutdown closed the ActionScript era and marked HTML5's victory for in-browser media.",
         "whyImportant": "It broke millions of legacy games, training modules, and corporate sites that still depended on the plugin.",
-        "problemSolved": "Flash's security record and plugin model no longer fit a web platform moving to open standards."
+        "problemSolved": "Flash's security record and plugin model no longer fit a web platform moving to [open standard]s."
       },
       "category": "software",
       "tags": [
@@ -154,10 +154,10 @@
       "date": "2020-12-09",
       "datePrecision": "day",
       "title": "FTC sues Facebook for anticompetitive conduct",
-      "summary": "The U.S. Federal Trade Commission filed an antitrust lawsuit against Facebook on December 9, 2020 — alleging illegal monopolization through acquisitions of Instagram and WhatsApp and anticompetitive platform policies.",
-      "about": "The suit sought divestitures of Instagram and WhatsApp — unprecedented for a social platform. It ran parallel to state AG cases and EU DMA designations, signaling a new era of antitrust aimed at network-effect moats rather than just price fixing. Developers watched for mandates to open social graphs, interoperability APIs, and reduced platform self-preferencing.",
+      "summary": "The U.S. Federal Trade Commission filed an [antitrust] lawsuit against Facebook on December 9, 2020 — alleging illegal monopolization through acquisitions of Instagram and WhatsApp and anticompetitive platform policies.",
+      "about": "The suit sought divestitures of Instagram and WhatsApp — unprecedented for a social platform. It ran parallel to state AG cases and EU DMA designations, signaling a new era of [antitrust] aimed at network-effect moats rather than just price fixing. Developers watched for mandates to open social graphs, interoperability APIs, and reduced platform self-preferencing.",
       "narrative": {
-        "whyChosen": "The FTC suit was the boldest U.S. antitrust challenge to a social platform since Microsoft.",
+        "whyChosen": "The FTC suit was the boldest U.S. [antitrust] challenge to a social platform since Microsoft.",
         "whyImportant": "It threatened breakups of Instagram and WhatsApp and reshaped M&A calculus for big tech.",
         "problemSolved": "Regulators argued Facebook bought rivals to maintain monopoly power in social networking."
       },
@@ -210,7 +210,7 @@
       "datePrecision": "day",
       "title": "SolarWinds supply-chain hack disclosed",
       "summary": "FireEye disclosed on December 13, 2020 that nation-state actors had compromised SolarWinds Orion software — inserting backdoor code into updates trusted by thousands of organizations.",
-      "about": "The SUNBURST trojan rode signed Orion builds into U.S. government agencies, Microsoft, and Fortune 500 networks — the definitive supply-chain breach. DevOps teams accelerated SBOM adoption, build-pipeline signing, and least-privilege for CI/CD — treating dependency and vendor updates as attack surfaces, not chores.",
+      "about": "The SUNBURST trojan rode signed Orion builds into U.S. government agencies, Microsoft, and Fortune 500 networks — the definitive supply-chain breach. DevOps teams accelerated SBOM adoption, build-pipeline signing, and least-privilege for CI/[CD] — treating dependency and vendor updates as attack surfaces, not chores.",
       "narrative": {
         "whyChosen": "SolarWinds was the supply-chain compromise that made every vendor update suspect.",
         "whyImportant": "It forced SBOMs, signed builds, and zero-trust into mainstream DevSecOps.",

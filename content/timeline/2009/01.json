@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "Chef first released",
       "summary": "Adam Jacob announced Chef on January 15, 2009 — a Ruby-based configuration management tool for converging servers to a desired state.",
-      "about": "Chef describes infrastructure as cookbooks and recipes — install packages, template config files, restart services — with agents pulling from a central server. It competed with Puppet and later Ansible in the DevOps wave. Example: a `webserver` cookbook ensures nginx is installed, `/etc/nginx/nginx.conf` is templated, and the service is running on every app node.",
+      "about": "Chef describes infrastructure as cookbooks and recipes — install packages, template config files, restart services — with agents pulling from a central server. It competed with Puppet and later Ansible in the [DevOps] wave. Example: a `webserver` cookbook ensures nginx is installed, `/etc/nginx/nginx.conf` is templated, and the service is running on every app node.",
       "narrative": {
         "whyChosen": "Chef brought idempotent, code-driven server configuration to production fleets.",
         "whyImportant": "It helped define infrastructure-as-code alongside Puppet and paved the way for Ansible and Terraform.",

@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Jabber (XMPP) first released",
       "summary": "Jeremie Miller released the first jabberd server on January 4, 1999 — the open-source instant messaging system that became XMPP.",
-      "about": "Jabber used XML streams for federated chat — users on one server could message users on another, unlike closed AOL or MSN networks. The protocols were standardized as XMPP (RFC 6120/6121) and power WhatsApp-era ideas of open messaging. Google Talk, Slack's federation experiments, and Matrix inherit its DNA.",
+      "about": "Jabber used [XML] streams for federated chat — users on one server could message users on another, unlike closed AOL or MSN networks. The protocols were standardized as XMPP (RFC 6120/6121) and power WhatsApp-era ideas of open messaging. Google Talk, Slack's federation experiments, and Matrix inherit its DNA.",
       "narrative": {
         "whyChosen": "Jabber was the first widely deployed open, federated instant messaging protocol.",
-        "whyImportant": "It proved real-time presence and chat could work across independent servers with open standards.",
+        "whyImportant": "It proved real-time presence and chat could work across independent servers with [open standard]s.",
         "problemSolved": "Proprietary IM networks trapped users in walled gardens with no interoperability."
       },
       "category": "protocol",
@@ -56,11 +56,11 @@
       "date": "1999-01",
       "datePrecision": "month",
       "title": "TLS 1.0 standardized",
-      "summary": "RFC 2246 defined TLS 1.0 in January 1999 — the IETF standard that succeeded SSL for encrypted web and application traffic.",
-      "about": "TLS wraps TCP connections with encryption and identity verification — the padlock in your browser, `https://` APIs, and secure database links. Handshakes negotiate ciphers; certificates prove server identity. Every modern site, mobile app backend, and microservice mesh depends on TLS or its successors.",
+      "summary": "RFC 2246 defined [TLS] 1.0 in January 1999 — the IETF standard that succeeded SSL for encrypted web and application traffic.",
+      "about": "[TLS] wraps [TCP] connections with encryption and identity verification — the padlock in your browser, `https://` APIs, and secure database links. Handshakes negotiate ciphers; certificates prove server identity. Every modern site, mobile app backend, and microservice mesh depends on [TLS] or its successors.",
       "narrative": {
-        "whyChosen": "TLS 1.0 gave the internet a vendor-neutral standard for transport security after proprietary SSL wars.",
-        "whyImportant": "It made encrypted HTTP practical at scale and underpins e-commerce and API security today.",
+        "whyChosen": "[TLS] 1.0 gave the internet a vendor-neutral standard for transport security after proprietary SSL wars.",
+        "whyImportant": "It made encrypted [HTTP] practical at scale and underpins e-commerce and [API] security today.",
         "problemSolved": "Proprietary SSL implementations fragmented; the web needed one auditable protocol for privacy on the wire."
       },
       "category": "protocol",

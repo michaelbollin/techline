@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "CSS custom properties ship in Chrome 49",
       "summary": "Google shipped CSS custom properties in Chrome 49 on March 2, 2016 — native `--variable` syntax with the `var()` function for runtime theming.",
-      "about": "CSS custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike Sass variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. Chrome 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
+      "about": "CSS custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike [Sass] variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. Chrome 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
       "narrative": {
         "whyChosen": "Native CSS variables closed the biggest gap between preprocessors and the platform.",
         "whyImportant": "Runtime-updatable variables enabled theming, design tokens, and responsive design without JavaScript frameworks.",
@@ -61,11 +61,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S7 released",
       "summary": "Samsung began selling the Samsung Galaxy S7 — refined waterproof design and microSD return — solid iterative flagship.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Refined waterproof design and microsd return — solid iterative flagship. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Refined waterproof design and microsd return — solid iterative flagship. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S7 continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S7 continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [
@@ -120,7 +120,7 @@
       "datePrecision": "day",
       "title": "Demis Hassabis's AlphaGo defeats Lee Sedol 4–1",
       "summary": "DeepMind's AlphaGo beat Go champion Lee Sedol four games to one in Seoul on March 15, 2016 — a watershed moment for reinforcement learning watched by 200 million people.",
-      "about": "Hassabis's team proved neural networks plus Monte Carlo tree search could master a game experts thought was a decade away from machine mastery. The victory reframed AI ambition from chess-scale search to intuition-like pattern recognition.",
+      "about": "Hassabis's team proved [neural network]s plus Monte Carlo tree search could master a game experts thought was a decade away from machine mastery. The victory reframed AI ambition from chess-scale search to intuition-like pattern recognition.",
       "narrative": {
         "whyChosen": "AlphaGo was the first AI victory that shocked both experts and the general public.",
         "whyImportant": "It proved deep RL could exceed human intuition in complex domains.",

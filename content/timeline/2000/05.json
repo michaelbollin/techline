@@ -6,12 +6,12 @@
       "date": "2000-05-08",
       "datePrecision": "day",
       "title": "SOAP 1.1 published",
-      "summary": "The W3C published SOAP 1.1 as a Note on May 8, 2000 — an XML envelope format for remote procedure calls over HTTP.",
-      "about": "SOAP wrapped method calls in XML envelopes with headers and bodies — the backbone of early .NET ASMX services, Java JAX-WS, and enterprise B2B integrations. WSDL described endpoints; the WS-* stack added security and reliability. Teams used it when schemas, tooling, and corporate standards mattered more than JSON simplicity.",
+      "summary": "The [W3C] published SOAP 1.1 as a Note on May 8, 2000 — an [XML] envelope format for remote procedure calls over [HTTP].",
+      "about": "SOAP wrapped method calls in [XML] envelopes with headers and bodies — the backbone of early .NET ASMX services, Java JAX-WS, and enterprise B2B integrations. WSDL described endpoints; the WS-* stack added security and reliability. Teams used it when schemas, tooling, and corporate standards mattered more than JSON simplicity.",
       "narrative": {
-        "whyChosen": "SOAP standardized XML web services for a decade of enterprise and government integrations.",
+        "whyChosen": "SOAP standardized [XML] web services for a decade of enterprise and government integrations.",
         "whyImportant": "It let Java and .NET systems interoperate through contract-first WSDL tooling.",
-        "problemSolved": "Ad-hoc XML RPC needed a common envelope, encoding rules, and HTTP binding for multi-vendor systems."
+        "problemSolved": "Ad-hoc [XML] RPC needed a common envelope, encoding rules, and [HTTP] binding for multi-vendor systems."
       },
       "category": "protocol",
       "tags": [
@@ -56,10 +56,10 @@
       "date": "2000-05-04",
       "datePrecision": "day",
       "title": "ILOVEYOU worm infects millions of PCs",
-      "summary": "The ILOVEYOU worm spread globally on May 4, 2000 — a Visual Basic Script attachment named LOVE-LETTER-FOR-YOU that overwrote files and mailed itself via Outlook.",
+      "summary": "The ILOVEYOU [worm] spread globally on May 4, 2000 — a Visual Basic Script attachment named LOVE-LETTER-FOR-YOU that overwrote files and mailed itself via Outlook.",
       "about": "ILOVEYOU caused an estimated $10 billion in damage — parliaments and corporations shut down email systems. It followed Melissa's playbook with nastier payloads and proved users would open romantic subject lines without hesitation. Microsoft later hardened default script execution, but social engineering remained undefeated.",
       "narrative": {
-        "whyChosen": "ILOVEYOU was the most destructive email worm of the early internet era.",
+        "whyChosen": "ILOVEYOU was the most destructive email [worm] of the early internet era.",
         "whyImportant": "It made email attachment policies and user training non-optional for enterprises.",
         "problemSolved": "Nothing initially — it exploited trust and default Windows scripting with devastating speed."
       },

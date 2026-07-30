@@ -6,10 +6,10 @@
       "date": "2001-08-27",
       "datePrecision": "day",
       "title": "Internet Explorer 6.0 released",
-      "summary": "Microsoft released Internet Explorer 6.0 on August 27, 2001 — the version that dominated the web for years and became infamous among developers.",
-      "about": "IE 6 shipped with Windows XP and became the browser most of the world used — and most sites were built for. Its slow update cycle, security holes, and CSS quirks forced an entire industry of hacks, conditional comments, and later campaigns like \"IE6 must die.\"",
+      "summary": "Microsoft released [Internet Explorer] 6.0 on August 27, 2001 — the version that dominated the web for years and became infamous among developers.",
+      "about": "[IE] 6 shipped with Windows XP and became the browser most of the world used — and most sites were built for. Its slow update cycle, security holes, and [CSS] quirks forced an entire industry of hacks, conditional comments, and later campaigns like \"IE6 must die.\"",
       "narrative": {
-        "whyChosen": "IE 6's long reign shaped web development pain points and motivated Firefox and Chrome.",
+        "whyChosen": "[IE] 6's long reign shaped web development pain points and motivated [Firefox] and Chrome.",
         "whyImportant": "Market dominance plus stagnation made cross-browser compatibility a full-time job for a decade.",
         "problemSolved": "Microsoft bundled a capable-enough browser with XP, giving users immediate web access on new PCs."
       },
@@ -54,11 +54,11 @@
       "datePrecision": "month",
       "title": "Eric Schmidt named Google CEO",
       "summary": "Google hired Eric Schmidt as CEO in August 2001, pairing adult supervision with founders Page and Brin during hypergrowth.",
-      "about": "Schmidt's era scaled Google's ad business, IPO, and Android acquisition — turning a search startup into a diversified platform company. The 'adult supervision' model influenced how VC-backed startups structure founder/CEO roles.",
+      "about": "Schmidt's era scaled Google's ad business, [IPO], and Android [acquisition] — turning a search startup into a diversified platform company. The 'adult supervision' model influenced how VC-backed startups structure founder/CEO roles.",
       "narrative": {
         "whyChosen": "Schmidt guided Google from startup to public platform giant.",
         "whyImportant": "He professionalized operations while founders kept product vision.",
-        "problemSolved": "Young technical founders needed experienced leadership for scaling and IPO readiness."
+        "problemSolved": "Young technical founders needed experienced leadership for scaling and [IPO] readiness."
       },
       "category": "culture",
       "tags": [

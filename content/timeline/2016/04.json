@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "Vivaldi browser launched",
       "summary": "Vivaldi 1.0 shipped on April 12, 2016 — a feature-rich browser from former Opera CEO Jon von Tetzchner, built for power users who missed classic Opera.",
-      "about": "Vivaldi packed tab stacking, built-in notes, split-screen views, and deep customization into a Chromium shell. It targeted the niche of users who wanted a browser as a productivity tool, not a minimal chrome bar — continuing Opera's power-user legacy after Opera switched to Blink.",
+      "about": "Vivaldi packed tab stacking, built-in notes, split-screen views, and deep customization into a [Chromium] shell. It targeted the niche of users who wanted a browser as a productivity tool, not a minimal chrome bar — continuing Opera's power-user legacy after Opera switched to [Blink].",
       "narrative": {
-        "whyChosen": "Vivaldi kept the spirit of classic Opera alive after its pivot to Chromium.",
+        "whyChosen": "Vivaldi kept the spirit of classic Opera alive after its pivot to [Chromium].",
         "whyImportant": "It proved there was still room for boutique browsers with extreme customization.",
         "problemSolved": "Opera veterans wanted a browser with tabs, mail, and widgets without giving up modern engine compatibility."
       },
@@ -65,7 +65,7 @@
       "date": "2016-04-26",
       "datePrecision": "day",
       "title": "Node.js 6 released",
-      "summary": "Node.js 6.0.0 shipped on April 26, 2016 as a 'Current' release with V8 5.0 and an improved Buffer API; it became Active LTS in October 2016.",
+      "summary": "Node.js 6.0.0 shipped on April 26, 2016 as a 'Current' release with V8 5.0 and an improved Buffer [API]; it became Active LTS in October 2016.",
       "about": "Node 6 became LTS in October 2016 — the stable line for Express, React SSR, and early webpack ecosystems. Long-term support commitments gave enterprises confidence to standardize on Node for APIs and build tooling.",
       "narrative": {
         "whyChosen": "Node 6 established the even-numbered LTS pattern teams still follow today.",

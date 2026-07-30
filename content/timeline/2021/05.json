@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Scala 3.0 released",
       "summary": "The Scala team released Scala 3.0 on May 4, 2021 — a major redesign with optional braces, union types, and a new compiler (Dotty).",
-      "about": "Scala 3 simplified syntax (`if x then y`), added powerful type-level features, and improved Java interop. It aimed to keep Scala relevant for data engineering (Spark) and typed functional programming without the boilerplate critics blamed on Scala 2.",
+      "about": "Scala 3 simplified syntax (`if x then y`), added powerful type-level features, and improved Java interop. It aimed to keep Scala relevant for data engineering (Spark) and typed [functional programming] without the boilerplate critics blamed on Scala 2.",
       "narrative": {
         "whyChosen": "Scala 3 was a once-per-decade language revision for a major JVM language.",
         "whyImportant": "It reset Scala's design after years of complexity complaints from teams.",
@@ -60,12 +60,12 @@
       "date": "2021-05-12",
       "datePrecision": "day",
       "title": "Erlang/OTP 24 released",
-      "summary": "The Erlang/OTP team released OTP 24 on May 12, 2021 with JIT compilation, improved SSL/TLS, and enhanced observer tools.",
+      "summary": "The Erlang/OTP team released OTP 24 on May 12, 2021 with JIT compilation, improved SSL/[TLS], and enhanced observer tools.",
       "about": "OTP 24's JIT sped hot Erlang and Elixir code paths without changing semantics — a boost for Phoenix and RabbitMQ workloads. Updated crypto and socket APIs kept BEAM applications current for telecom, messaging, and fintech backends.",
       "narrative": {
         "whyChosen": "OTP 24's JIT was the biggest BEAM performance leap in years.",
         "whyImportant": "Faster Erlang benefited the entire Elixir ecosystem built on the same VM.",
-        "problemSolved": "BEAM bytecode interpretation lagged behind JIT-equipped runtimes for CPU-heavy tasks."
+        "problemSolved": "BEAM [bytecode] interpretation lagged behind JIT-equipped runtimes for [CPU]-heavy tasks."
       },
       "category": "software",
       "tags": [
@@ -111,7 +111,7 @@
       "datePrecision": "day",
       "title": "Bootstrap 5 released",
       "summary": "Bootstrap 5.0 shipped on May 5, 2021 — dropping jQuery, adding RTL support, and refreshing components for the utility-first era.",
-      "about": "Bootstrap 5 removed jQuery entirely, added offcanvas and updated forms, and improved dark-mode hooks — staying relevant as Tailwind grew. It remains the fastest path to a polished admin UI without designing from scratch.",
+      "about": "Bootstrap 5 removed jQuery entirely, added offcanvas and updated forms, and improved dark-mode hooks — staying relevant as Tailwind grew. It remains the fastest path to a polished admin [UI] without designing from scratch.",
       "narrative": {
         "whyChosen": "Bootstrap 5 kept the framework current by shedding jQuery and adding modern layout features.",
         "whyImportant": "Vanilla JS and RTL support aligned Bootstrap with contemporary front-end practices.",
@@ -158,11 +158,11 @@
       "datePrecision": "day",
       "title": "Squarespace direct listing",
       "summary": "Squarespace began trading on the NYSE on May 19, 2021 under ticker SQSP — a direct listing at a $50 reference price valuing the company at roughly $6.5 billion.",
-      "about": "Unlike a traditional IPO, Squarespace's direct listing let existing shareholders sell without issuing new shares — following Spotify and Slack's playbook. The debut validated website builders as a mature public SaaS category.",
+      "about": "Unlike a traditional IPO, Squarespace's direct listing let existing shareholders sell without issuing new shares — following Spotify and Slack's playbook. The debut validated website builders as a mature public [SaaS] category.",
       "narrative": {
         "whyChosen": "Squarespace's NYSE debut marked website builders as public-market businesses.",
-        "whyImportant": "Direct listings offered an alternative path to public markets for SaaS companies.",
-        "problemSolved": "Mature SaaS companies wanted public liquidity without dilutive IPO share issuance."
+        "whyImportant": "Direct listings offered an alternative path to public markets for [SaaS] companies.",
+        "problemSolved": "Mature [SaaS] companies wanted public liquidity without dilutive IPO share issuance."
       },
       "category": "company",
       "tags": [
@@ -206,7 +206,7 @@
       "datePrecision": "day",
       "title": "Colonial Pipeline shut down by ransomware",
       "summary": "Colonial Pipeline halted fuel deliveries on May 7, 2021 after a DarkSide ransomware attack — causing gas shortages across the U.S. East Coast and a $4.4 million Bitcoin ransom payment.",
-      "about": "A single compromised VPN password without MFA took down critical energy infrastructure. The Biden administration responded with executive orders on cybersecurity; insurers raised ransomware premiums; and developers in OT-adjacent SaaS faced new customer security questionnaires about MFA, segmentation, and backup isolation.",
+      "about": "A single compromised [VPN] password without MFA took down critical energy infrastructure. The Biden administration responded with executive orders on cybersecurity; insurers raised ransomware premiums; and developers in OT-adjacent SaaS faced new customer security questionnaires about MFA, segmentation, and backup isolation.",
       "narrative": {
         "whyChosen": "Colonial Pipeline proved ransomware could affect physical-world fuel supplies, not just data.",
         "whyImportant": "It triggered U.S. government action and corporate MFA mandates at scale.",

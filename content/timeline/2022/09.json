@@ -6,12 +6,12 @@
       "date": "2022-09-16",
       "datePrecision": "day",
       "title": "iPhone 14 released",
-      "summary": "Apple began selling the iPhone 14 on September 16, 2022 — satellite emergency SOS and crash detection on Pro models, USB standards pressure building.",
-      "about": "The 14 Pro introduced Dynamic Island — a live activity surface developers could target for persistent status UI. Emergency satellite features showed phones as safety devices beyond apps.",
+      "summary": "Apple began selling the iPhone 14 on September 16, 2022 — satellite emergency SOS and crash detection on Pro models, [USB] standards pressure building.",
+      "about": "The 14 Pro introduced Dynamic Island — a live activity surface developers could target for persistent status [UI]. Emergency satellite features showed phones as safety devices beyond apps.",
       "narrative": {
-        "whyChosen": "The iPhone 14 Pro's Dynamic Island created a new live UI surface for developers.",
+        "whyChosen": "The iPhone 14 Pro's Dynamic Island created a new live [UI] surface for developers.",
         "whyImportant": "Dynamic Island APIs extended how apps show ongoing status around the camera cutout.",
-        "problemSolved": "Persistent status UI was trapped in notifications or in-app chrome."
+        "problemSolved": "Persistent status [UI] was trapped in notifications or in-app chrome."
       },
       "category": "hardware",
       "tags": [
@@ -65,7 +65,7 @@
       "datePrecision": "day",
       "title": "Ethereum Merge completes",
       "summary": "Ethereum transitioned to proof-of-stake on September 15, 2022 — the Merge replaced energy-intensive mining with validator staking overnight.",
-      "about": "The Bellatrix and Paris upgrades chained execution and consensus clients at block 15537393. ETH issuance dropped sharply and GPU miners pivoted elsewhere. Rollups still handled scale, but the base layer shed its largest environmental criticism — a template other chains watched closely.",
+      "about": "The Bellatrix and Paris upgrades chained execution and consensus clients at block 15537393. ETH issuance dropped sharply and [GPU] miners pivoted elsewhere. Rollups still handled scale, but the base layer shed its largest environmental criticism — a template other chains watched closely.",
       "narrative": {
         "whyChosen": "The Merge was the largest live consensus upgrade in blockchain history.",
         "whyImportant": "It cut Ethereum's energy use and shifted security economics to stakers.",

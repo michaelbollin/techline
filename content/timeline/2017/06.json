@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "NotPetya destructive malware hits global firms",
       "summary": "NotPetya began spreading on June 27, 2017 — malware disguised as ransomware that permanently wiped data, paralyzing Maersk, Merck, and Ukrainian infrastructure.",
-      "about": "NotPetya entered networks via compromised Ukrainian tax software and reused EternalBlue — but recovery was impossible because encryption keys were fake. Attributed to Russian military intelligence, it caused over $10 billion in damage and redefined 'ransomware' as a cover story for wiper attacks. Supply-chain and shipping IT teams still cite it in disaster-recovery planning.",
+      "about": "NotPetya entered networks via compromised Ukrainian tax software and reused EternalBlue — but recovery was impossible because encryption keys were fake. Attributed to Russian military intelligence, it caused over $10 billion in damage and redefined 'ransomware' as a cover story for wiper attacks. Supply-chain and shipping [IT] teams still cite it in disaster-recovery planning.",
       "narrative": {
         "whyChosen": "NotPetya was the costliest cyberattack in history at the time of its release.",
         "whyImportant": "It blurred the line between ransomware and nation-state data destruction.",

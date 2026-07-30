@@ -55,7 +55,7 @@
       "datePrecision": "day",
       "title": "CircleCI founded",
       "summary": "Paul Biggar and Allen Rohner founded CircleCI on September 1, 2011 — a hosted continuous integration platform for fast, parallel test runs.",
-      "about": "CircleCI connects to GitHub repos and runs builds in Docker containers — parallelizing test suites and caching dependencies for speed. It competed with Travis CI and later GitHub Actions for SaaS CI market share. Example: every push to `main` runs lint, unit tests, and deploy previews automatically.",
+      "about": "CircleCI connects to GitHub repos and runs builds in Docker containers — parallelizing test suites and caching dependencies for speed. It competed with Travis CI and later GitHub Actions for [SaaS] CI market share. Example: every push to `main` runs lint, unit tests, and deploy previews automatically.",
       "narrative": {
         "whyChosen": "CircleCI brought container-based, parallel CI to teams that outgrew single-worker Travis builds.",
         "whyImportant": "It helped normalize Docker in CI pipelines before Kubernetes took over production.",
@@ -117,7 +117,7 @@
       "narrative": {
         "whyChosen": "WooCommerce made WordPress a commerce platform without leaving the CMS ecosystem.",
         "whyImportant": "It proved plugin-based e-commerce could outscale dedicated carts for SMB merchants.",
-        "problemSolved": "WordPress site owners needed selling tools without migrating to Magento or hosted SaaS."
+        "problemSolved": "WordPress site owners needed selling tools without migrating to Magento or hosted [SaaS]."
       },
       "category": "software",
       "tags": [
@@ -162,8 +162,8 @@
       "date": "2011-09-29",
       "datePrecision": "day",
       "title": "CSS Selectors Level 3 standard",
-      "summary": "The W3C published Selectors Level 3 as a Recommendation on September 29, 2011 — standardizing `:nth-child`, `:not`, attribute selectors, and pseudo-elements.",
-      "about": "Selectors Level 3 was the first major CSS module to reach Recommendation status after CSS 2.1 — adding structural pseudo-classes, UI state selectors (`:checked`, `:disabled`), and combinators that jQuery had popularized in JavaScript. Every modern stylesheet uses its patterns for targeting DOM nodes without extra markup.",
+      "summary": "The [W3C] published Selectors Level 3 as a Recommendation on September 29, 2011 — standardizing `:nth-child`, `:not`, attribute selectors, and pseudo-elements.",
+      "about": "Selectors Level 3 was the first major CSS module to reach Recommendation status after CSS 2.1 — adding structural pseudo-classes, [UI] state selectors (`:checked`, `:disabled`), and combinators that jQuery had popularized in JavaScript. Every modern stylesheet uses its patterns for targeting DOM nodes without extra markup.",
       "narrative": {
         "whyChosen": "Selectors Level 3 was the first CSS3 module to ship as a finished standard.",
         "whyImportant": "It gave authors precise DOM targeting primitives that powered responsive and component-based CSS.",
@@ -220,7 +220,7 @@
       "about": "Trello's boards, lists, and cards spread from side projects to entire startups — lighter than Jira, more visual than Basecamp. Atlassian acquired it in 2017, but millions of dev teams still run sprint boards and bug triage columns on Trello before graduating to heavier tools.",
       "narrative": {
         "whyChosen": "Trello popularized kanban PM for developers who hated enterprise issue trackers.",
-        "whyImportant": "Its card UI became the template for lightweight agile boards everywhere.",
+        "whyImportant": "Its card [UI] became the template for lightweight agile boards everywhere.",
         "problemSolved": "Jira was overkill for small teams that just needed visible work-in-progress."
       },
       "category": "software",

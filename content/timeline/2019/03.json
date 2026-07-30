@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S10 released",
       "summary": "Samsung began selling the Samsung Galaxy S10 — hole-punch display, ultrasonic fingerprint, and three-model lineup including S10e.",
-      "about": "The Galaxy S series remained Android's volume flagship counterweight to iPhone. Hole-punch display, ultrasonic fingerprint, and three-model lineup including s10e. Developers testing Android builds routinely validated on Galaxy S hardware as the default non-Pixel reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Hole-punch display, ultrasonic fingerprint, and three-model lineup including s10e. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy S10 continued Samsung's annual Android flagship cadence.",
-        "whyImportant": "Galaxy S devices set the hardware bar millions of Android users and developers encounter.",
-        "problemSolved": "Android needed consistent premium hardware for testing flagship features each year."
+        "whyChosen": "The Samsung Galaxy S10 continued Samsung's annual [Android] flagship cadence.",
+        "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
+        "problemSolved": "[Android] needed consistent premium hardware for testing flagship features each year."
       },
       "category": "hardware",
       "tags": [
@@ -83,7 +83,7 @@
       "date": "2019-03-18",
       "datePrecision": "day",
       "title": "Fei-Fei Li co-directs Stanford HAI launch",
-      "summary": "Stanford launched the Institute for Human-Centered Artificial Intelligence on March 18, 2019 with Fei-Fei Li as co-director — bridging CS, humanities, and policy.",
+      "summary": "Stanford launched the Institute for Human-Centered [Artificial Intelligence] on March 18, 2019 with Fei-Fei Li as co-director — bridging CS, humanities, and policy.",
       "about": "HAI united ~200 faculty across disciplines to study AI's societal impact, not just algorithms. Li's leadership positioned human-centered design and ethics alongside technical breakthroughs at a top research university.",
       "narrative": {
         "whyChosen": "HAI institutionalized interdisciplinary AI governance at Stanford scale.",

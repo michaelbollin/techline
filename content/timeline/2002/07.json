@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Sarbanes-Oxley Act signed into U.S. law",
       "summary": "President Bush signed the Sarbanes-Oxley Act on July 30, 2002 — imposing strict financial reporting and internal-control requirements on U.S. public companies after Enron and WorldCom scandals.",
-      "about": "SOX made going public more expensive: Section 404 internal-control audits, CEO/CFO certifications, and heavier compliance teams. Many tech startups delayed IPOs or stayed private longer; public SaaS companies built audit trails into engineering and finance systems that private firms later copied voluntarily.",
+      "about": "SOX made going public more expensive: Section 404 internal-control audits, CEO/CFO certifications, and heavier compliance teams. Many tech startups delayed IPOs or stayed private longer; public [SaaS] companies built audit trails into engineering and finance systems that private firms later copied voluntarily.",
       "narrative": {
         "whyChosen": "SOX reshaped how public tech companies govern code, data, and financial systems.",
         "whyImportant": "Compliance overhead changed the calculus of IPO timing for venture-backed startups.",
@@ -56,7 +56,7 @@
       "date": "2002-07-21",
       "datePrecision": "day",
       "title": "WorldCom files for bankruptcy",
-      "summary": "WorldCom filed for Chapter 11 bankruptcy on July 21, 2002 — after revealing $3.8 billion in accounting fraud, becoming the largest bankruptcy in U.S. history and capping the telecom overbuild that followed the dot-com bubble.",
+      "summary": "WorldCom filed for Chapter 11 [bankruptcy] on July 21, 2002 — after revealing $3.8 billion in accounting fraud, becoming the largest [bankruptcy] in U.S. history and capping the telecom overbuild that followed the dot-com bubble.",
       "about": "WorldCom had laid millions of miles of fiber during the dot-com boom; when demand failed to materialize, executives inflated earnings to keep stock prices up. The collapse stranded excess datacenter and backbone capacity — cheap bandwidth that later benefited cloud providers — while destroying shareholder value and accelerating telecom industry consolidation.",
       "narrative": {
         "whyChosen": "WorldCom's fraud was the telecom capstone to Enron-era accounting scandals.",

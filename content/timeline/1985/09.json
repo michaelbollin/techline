@@ -22,11 +22,11 @@
       "date": "1985-09",
       "datePrecision": "month",
       "title": "Radia Perlman publishes spanning tree protocol",
-      "summary": "Radia Perlman's spanning tree protocol was published in September 1985 in ACM SIGCOMM Computer Communication Review — keeping Ethernet networks loop-free and becoming the basis for IEEE 802.1D.",
+      "summary": "Radia Perlman's spanning tree protocol was published in September 1985 in ACM SIGCOMM Computer Communication Review — keeping [Ethernet] networks loop-free and becoming the basis for [IEEE] 802.1D.",
       "about": "STP runs in virtually every enterprise switch and datacenter — invisible infrastructure developers depend on when deploying services. Perlman is often called the 'mother of the internet' for bridging and routing contributions.",
       "narrative": {
-        "whyChosen": "Spanning tree is foundational networking math behind every LAN.",
-        "whyImportant": "It prevented broadcast storms in redundant Ethernet topologies.",
+        "whyChosen": "Spanning tree is foundational networking math behind every [LAN].",
+        "whyImportant": "It prevented broadcast storms in redundant [Ethernet] topologies.",
         "problemSolved": "Redundant network links caused loops without an automatic disabling algorithm."
       },
       "category": "invention",

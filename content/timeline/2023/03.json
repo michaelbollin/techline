@@ -6,10 +6,10 @@
       "date": "2023-03-20",
       "datePrecision": "day",
       "title": "TypeScript 5.0 released",
-      "summary": "Microsoft shipped TypeScript 5.0 on March 20, 2023 with decorators, `const` type parameters, and multiple config file support.",
-      "about": "TypeScript 5 aligned with ECMAScript decorators for frameworks like Angular and NestJS, and sped up the compiler for monorepos shipping millions of lines. It cemented TypeScript as the default for new JavaScript projects — frontends, backends, and infrastructure code.",
+      "summary": "Microsoft shipped [TypeScript] 5.0 on March 20, 2023 with decorators, `const` type parameters, and multiple config file support.",
+      "about": "[TypeScript] 5 aligned with ECMAScript decorators for frameworks like Angular and NestJS, and sped up the compiler for monorepos shipping millions of lines. It cemented [TypeScript] as the default for new JavaScript projects — frontends, backends, and infrastructure code.",
       "narrative": {
-        "whyChosen": "TypeScript 5 standardized decorators and kept the compiler fast enough for huge repos.",
+        "whyChosen": "[TypeScript] 5 standardized decorators and kept the compiler fast enough for huge repos.",
         "whyImportant": "Decorators unlocked cleaner framework APIs without experimental flags.",
         "problemSolved": "Large codebases needed faster builds and stable decorator support for Angular-style DI."
       },
@@ -60,7 +60,7 @@
       "datePrecision": "day",
       "title": "GPT-4 released",
       "summary": "OpenAI released GPT-4 on March 14, 2023 — a multimodal large language model powering ChatGPT Plus, Copilot integrations, and a wave of AI products.",
-      "about": "GPT-4 improved reasoning, coding, and instruction-following over GPT-3.5 — and accepted image inputs in the API. It shifted AI from chat novelty to embedded feature in search, IDEs, office suites, and enterprise workflows within months.",
+      "about": "GPT-4 improved reasoning, coding, and instruction-following over GPT-3.5 — and accepted image inputs in the [API]. It shifted AI from chat novelty to embedded feature in search, IDEs, office suites, and enterprise workflows within months.",
       "narrative": {
         "whyChosen": "GPT-4 was the capability jump that made LLMs credible for production coding and analysis.",
         "whyImportant": "Multimodal input and reliability gains triggered the 2023–2024 AI product explosion.",
@@ -111,8 +111,8 @@
       "date": "2023-03-01",
       "datePrecision": "day",
       "title": "GPT-3.5 Turbo API released",
-      "summary": "OpenAI released the GPT-3.5 Turbo API on March 1, 2023 — a faster, cheaper model that powered ChatGPT and thousands of production apps.",
-      "about": "GPT-3.5 Turbo cut API costs dramatically while improving instruction-following over base GPT-3. It became the default model for early copilots, chatbots, and RAG pipelines before GPT-4 pricing dropped — democratizing LLM features in SaaS products.",
+      "summary": "OpenAI released the GPT-3.5 Turbo [API] on March 1, 2023 — a faster, cheaper model that powered ChatGPT and thousands of production apps.",
+      "about": "GPT-3.5 Turbo cut [API] costs dramatically while improving instruction-following over base GPT-3. It became the default model for early copilots, chatbots, and RAG pipelines before GPT-4 pricing dropped — democratizing LLM features in SaaS products.",
       "narrative": {
         "whyChosen": "GPT-3.5 Turbo made LLM APIs affordable enough for mainstream SaaS features.",
         "whyImportant": "Cost per token dropped enough that startups could ship AI features profitably.",
@@ -167,12 +167,12 @@
       "date": "2023-03-21",
       "datePrecision": "day",
       "title": "GHC 9.6 released",
-      "summary": "The Glasgow Haskell Compiler 9.6.1 shipped on March 21, 2023 with improved error messages, OR patterns, and lifted language extensions.",
-      "about": "GHC 9.6 polished the Haskell developer experience: clearer type errors, `MultiWayIf` improvements, and performance work for GHCi. It became the recommended compiler for new Haskell projects before GHC 9.8 followed.",
+      "summary": "The Glasgow [Haskell] Compiler 9.6.1 shipped on March 21, 2023 with improved error messages, OR patterns, and lifted language extensions.",
+      "about": "[GHC] 9.6 polished the [Haskell] developer experience: clearer type errors, `MultiWayIf` improvements, and performance work for GHCi. It became the recommended compiler for new [Haskell] projects before [GHC] 9.8 followed.",
       "narrative": {
-        "whyChosen": "GHC 9.6 improved error quality — a top pain point for Haskell adoption.",
-        "whyImportant": "Better diagnostics lowered the barrier for teams evaluating Haskell.",
-        "problemSolved": "Cryptic GHC type errors frustrated newcomers and slowed refactors."
+        "whyChosen": "[GHC] 9.6 improved error quality — a top pain point for [Haskell] adoption.",
+        "whyImportant": "Better diagnostics lowered the barrier for teams evaluating [Haskell].",
+        "problemSolved": "Cryptic [GHC] type errors frustrated newcomers and slowed refactors."
       },
       "category": "software",
       "tags": [
@@ -218,10 +218,10 @@
       "datePrecision": "day",
       "title": "Cursor AI code editor released",
       "summary": "Anysphere publicly released Cursor on March 14, 2023 — an AI-first code editor built for pair-programming with large language models.",
-      "about": "Cursor started as a Codemirror app, then forked VSCodium to reuse VS Code's editing stack while adding inline chat, codebase-aware completions, and multi-file edits. It kicked off the AI-native IDE wave — developers could ask questions about a repo, apply diffs, and run terminal commands from natural language.",
+      "about": "Cursor started as a Codemirror app, then forked VSCodium to reuse VS Code's editing stack while adding inline chat, codebase-aware completions, and multi-file edits. It kicked off the AI-native [IDE] wave — developers could ask questions about a repo, apply diffs, and run terminal commands from natural language.",
       "narrative": {
         "whyChosen": "Cursor proved developers would switch editors for deeply integrated AI, not just a chat sidebar.",
-        "whyImportant": "It reframed the IDE as an agent workspace, not just a text editor with plugins.",
+        "whyImportant": "It reframed the [IDE] as an agent workspace, not just a text editor with plugins.",
         "problemSolved": "Copilot-style completions were not enough; teams wanted whole-repo context and editable AI suggestions."
       },
       "category": "software",

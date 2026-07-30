@@ -10,7 +10,7 @@
       "about": "Groovy scripts Gradle build files, Jenkins pipelines, and Grails web apps — you call Java libraries directly while writing less boilerplate. Closures, builders, and optional typing made it popular for testing (Spock) and DSLs before Kotlin rose on Android.",
       "narrative": {
         "whyChosen": "Groovy 1.0 was the first stable dynamic language designed to run on the JVM beside Java.",
-        "whyImportant": "It proved JVM bytecode could host scripting languages and later powered Gradle, the default Android/Java build tool.",
+        "whyImportant": "It proved JVM [bytecode] could host scripting languages and later powered Gradle, the default Android/Java build tool.",
         "problemSolved": "Java was verbose for scripting and DSLs; developers wanted Ruby-like ergonomics without leaving the Java ecosystem."
       },
       "category": "software",
@@ -63,7 +63,7 @@
       "summary": "Steve Jobs unveiled the iPhone at Macworld on January 9, 2007 — combining a phone, iPod, and internet communicator.",
       "about": "The iPhone shifted mobile computing from feature phones and BlackBerry keyboards to touch-first smartphones — spawning the App Store economy and mobile-first web development.",
       "narrative": {
-        "whyChosen": "The iPhone redefined personal computing around mobile apps and touch UI.",
+        "whyChosen": "The iPhone redefined personal computing around mobile apps and touch [UI].",
         "whyImportant": "It made mobile web and native apps central to how software is built and consumed.",
         "problemSolved": "Phones were clumsy for browsing and lacked a unified pocket computer experience."
       },
@@ -122,7 +122,7 @@
       "date": "2007-01-16",
       "datePrecision": "day",
       "title": "Reed Hastings launches Netflix streaming",
-      "summary": "Netflix launched its Watch Now streaming service on January 16, 2007 — pivoting from DVD-by-mail to internet video.",
+      "summary": "Netflix launched its Watch Now streaming service on January 16, 2007 — pivoting from [DVD]-by-mail to internet video.",
       "about": "Hastings and Marc Randolph built Netflix into the default streaming platform — changing how developers build CDNs, encode video, and serve global audiences. The shift from discs to bytes redefined entertainment technology.",
       "narrative": {
         "whyChosen": "Netflix streaming launched the mainstream era of over-the-top video.",

@@ -6,12 +6,12 @@
       "date": "1997-09",
       "datePrecision": "month",
       "title": "Internet Explorer 4.0 released",
-      "summary": "Microsoft released Internet Explorer 4.0 in September 1997 with deeper Windows integration, Dynamic HTML, and the Trident rendering engine.",
+      "summary": "Microsoft released Internet Explorer 4.0 in September 1997 with deeper Windows integration, Dynamic [HTML], and the Trident rendering engine.",
       "about": "IE 4 turned the browser into part of the Windows shell — the desktop could show web folders and Active Desktop widgets. Trident became the engine behind IE for fifteen years and influenced how millions of intranet apps were built.",
       "narrative": {
         "whyChosen": "IE 4 marked Microsoft's boldest push to make the web indistinguishable from Windows.",
         "whyImportant": "Trident and DHTML gave developers rich client pages — but also years of IE-only site designs.",
-        "problemSolved": "Microsoft needed a browser tightly woven into Windows to counter Netscape's cross-platform dominance."
+        "problemSolved": "Microsoft needed a browser tightly woven into Windows to counter [Netscape]'s cross-platform dominance."
       },
       "category": "software",
       "tags": [

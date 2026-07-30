@@ -6,12 +6,12 @@
       "datePrecision": "day",
       "title": "Andrew Tanenbaum posts \"Linux is obsolete\"",
       "quoteText": "LINUX is obsolete. I think I know a bit about where operating systems are going in the next decade or two. Multithreaded programs are the way things are going to be in the near future.",
-      "summary": "Andrew Tanenbaum tells comp.os.minix that Linux's monolithic kernel is a step backward compared to microkernels like Minix.",
-      "about": "Linus Torvalds replied the same day — the thread became legend. Tanenbaum was wrong about market outcome but right that the debate would run for decades (monolith vs microkernel, Linux vs HURD).",
+      "summary": "Andrew Tanenbaum tells comp.os.minix that Linux's monolithic [kernel] is a step backward compared to microkernels like Minix.",
+      "about": "Linus Torvalds replied the same day — the thread became legend. Tanenbaum was wrong about market outcome but right that the debate would run for decades (monolith vs [microkernel], Linux vs HURD).",
       "narrative": {
         "whyChosen": "One of the most famous flamewars in operating-system history.",
         "whyImportant": "It crystalized the architectural divide Linux chose and never really left.",
-        "problemSolved": "Minix users were debating whether a hobby kernel could be taken seriously."
+        "problemSolved": "Minix users were debating whether a hobby [kernel] could be taken seriously."
       },
       "tags": [
         "quote",
@@ -62,11 +62,11 @@
       "title": "Torvalds: Linux more portable than Minix",
       "quoteText": "The fact is that linux is more portable than minix.",
       "summary": "Linus Torvalds fires back on comp.os.minix the same day Andrew Tanenbaum declared Linux obsolete — conceding microkernels are nicer in theory while defending Linux's pragmatic portability.",
-      "about": "Torvalds admitted Linux was monolithic and that he 'over-reacted' — but stood by shipping a working kernel over academic purity. The thread is still cited in every monolith-vs-microservices debate.",
+      "about": "Torvalds admitted Linux was monolithic and that he 'over-reacted' — but stood by shipping a working [kernel] over academic purity. The thread is still cited in every monolith-vs-microservices debate.",
       "narrative": {
-        "whyChosen": "The counterpunch that ended the most famous kernel flamewar.",
+        "whyChosen": "The counterpunch that ended the most famous [kernel] flamewar.",
         "whyImportant": "It defended pragmatic shipping over theoretical elegance in systems design.",
-        "problemSolved": "Hobby OS authors needed a reply when academics dismissed their architecture choices."
+        "problemSolved": "Hobby [OS] authors needed a reply when academics dismissed their architecture choices."
       },
       "tags": [
         "quote",

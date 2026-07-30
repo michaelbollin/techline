@@ -6,12 +6,12 @@
       "date": "1955-08-31",
       "datePrecision": "day",
       "title": "Dartmouth AI summer research proposal",
-      "summary": "John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon submitted their Dartmouth proposal on August 31, 1955 — the document that coined the term artificial intelligence.",
-      "about": "The four-page proposal requested funding for a 1956 summer study on making machines learn, use language, and solve human-level problems. McCarthy invented the phrase 'artificial intelligence' for the grant application; the workshop it launched became the field's founding event.",
+      "summary": "John McCarthy, Marvin Minsky, Nathaniel Rochester, and Claude Shannon submitted their Dartmouth proposal on August 31, 1955 — the document that coined the term [artificial intelligence].",
+      "about": "The four-page proposal requested funding for a 1956 summer study on making machines learn, use language, and solve human-level problems. McCarthy invented the phrase '[artificial intelligence]' for the grant application; the workshop it launched became the field's founding event.",
       "narrative": {
         "whyChosen": "This proposal named the field and framed AI as an engineering summer project.",
         "whyImportant": "It united logic, neuroscience, and computing under one research agenda.",
-        "problemSolved": "Machine learning and reasoning research lacked a shared name, goal, and funding pitch."
+        "problemSolved": "[Machine learning] and reasoning research lacked a shared name, goal, and funding pitch."
       },
       "category": "ai",
       "tags": [
@@ -77,9 +77,9 @@
       "title": "Dartmouth proposal: simulate every feature of intelligence",
       "quoteText": "The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it.",
       "summary": "The 1955 Dartmouth grant proposal states the founding conjecture of AI — that intelligence can be precisely described enough for machines to simulate it.",
-      "about": "This sentence is the mission statement behind decades of AI research, from symbolic expert systems to deep learning. It assumes intelligence is describable in rules and representations — a bet the field is still testing.",
+      "about": "This sentence is the mission statement behind decades of AI research, from symbolic [expert system]s to [deep learning]. It assumes intelligence is describable in rules and representations — a bet the field is still testing.",
       "narrative": {
-        "whyChosen": "The conjecture that launched artificial intelligence as a named discipline.",
+        "whyChosen": "The conjecture that launched [artificial intelligence] as a named discipline.",
         "whyImportant": "It reframed cognition as an engineering specification problem.",
         "problemSolved": "Researchers in logic, psychology, and computing had no shared hypothesis to organize collaborative work."
       },

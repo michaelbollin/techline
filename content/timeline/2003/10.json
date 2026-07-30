@@ -6,10 +6,10 @@
       "date": "2003-10-24",
       "datePrecision": "day",
       "title": "LLVM 1.0 released",
-      "summary": "Chris Lattner released LLVM 1.0 on October 24, 2003 — an open compiler infrastructure with a reusable intermediate representation.",
-      "about": "LLVM separates compilation into front ends (Clang, Rust), a portable IR, and back ends targeting x86, ARM, and more. Optimizations run on IR at compile, link, or even runtime. Swift, Rust, Julia, and Xcode all build on LLVM — teams add languages without rewriting code generation.",
+      "summary": "Chris Lattner released [LLVM] 1.0 on October 24, 2003 — an open compiler infrastructure with a reusable intermediate representation.",
+      "about": "[LLVM] separates compilation into front ends (Clang, Rust), a portable IR, and back ends targeting [x86], ARM, and more. Optimizations run on IR at compile, link, or even runtime. Swift, Rust, Julia, and Xcode all build on [LLVM] — teams add languages without rewriting code generation.",
       "narrative": {
-        "whyChosen": "LLVM turned compilers into reusable libraries instead of monolithic GCC forks.",
+        "whyChosen": "[LLVM] turned compilers into reusable libraries instead of monolithic [GCC] forks.",
         "whyImportant": "Its IR became the foundation for Clang, Swift, Rust, and modern language tooling.",
         "problemSolved": "Each new language or target meant forking a whole compiler; researchers needed modular optimization."
       },

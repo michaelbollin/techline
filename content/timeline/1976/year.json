@@ -6,10 +6,10 @@
       "date": "1976",
       "datePrecision": "year",
       "title": "Cray-1 supercomputer delivered",
-      "summary": "Cray Research delivered the first Cray-1 supercomputer in 1976 — a vector processor that defined high-performance scientific computing.",
+      "summary": "Cray Research delivered the first Cray-1 [supercomputer] in 1976 — a vector processor that defined high-performance scientific computing.",
       "about": "The Cray-1's distinctive bench-seat cooling design housed hand-wired logic running at 80 MHz — blazing for its era. Weather models, nuclear simulations, and CFD jobs that took weeks on lesser machines finished in hours. It set expectations for HPC that clusters and GPUs still chase today.",
       "narrative": {
-        "whyChosen": "The Cray-1 was the iconic supercomputer of the 1970s and benchmark for scientific computing.",
+        "whyChosen": "The Cray-1 was the iconic [supercomputer] of the 1970s and benchmark for scientific computing.",
         "whyImportant": "It proved specialized vector hardware could dominate numerically intensive workloads.",
         "problemSolved": "Scientists needed far more floating-point throughput than general-purpose mainframes could provide."
       },

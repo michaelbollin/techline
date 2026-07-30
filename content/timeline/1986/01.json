@@ -6,11 +6,11 @@
       "date": "1986-01-16",
       "datePrecision": "day",
       "title": "Macintosh Plus released",
-      "summary": "Apple released the Macintosh Plus on January 16, 1986 — the first Mac with 1 MB RAM, a SCSI port, and the extended keyboard.",
-      "about": "The Plus was the Mac developers actually used for desktop publishing and HyperCard stacks — enough memory to run MultiFinder and SCSI hard drives. It extended the Macintosh platform through the late 1980s before the SE and II arrived.",
+      "summary": "Apple released the Macintosh Plus on January 16, 1986 — the first Mac with 1 MB [RAM], a SCSI port, and the extended keyboard.",
+      "about": "The Plus was the Mac developers actually used for desktop publishing and [HyperCard] stacks — enough memory to run MultiFinder and SCSI hard drives. It extended the Macintosh platform through the late 1980s before the SE and II arrived.",
       "narrative": {
         "whyChosen": "The Mac Plus made the original Macintosh platform practical for daily professional work.",
-        "whyImportant": "SCSI and expanded RAM turned the Mac from a demo machine into a production tool.",
+        "whyImportant": "SCSI and expanded [RAM] turned the Mac from a demo machine into a production tool.",
         "problemSolved": "Original Macs lacked memory and storage expansion for serious applications."
       },
       "category": "hardware",
@@ -60,11 +60,11 @@
       "date": "1986-01",
       "datePrecision": "month",
       "title": "Brain boot-sector virus spreads on PCs",
-      "summary": "The Brain virus appeared in January 1986 on IBM PC floppy disks from Pakistan — widely considered the first PC virus to spread in the wild.",
-      "about": "Brain infected the boot sector of 360 KB floppies and displayed a copyright message from its authors, Basit and Amjad Farooq Alvi. It launched the antivirus industry, boot-sector scanning, and decades of copy-protection versus malware debates — the PC equivalent of what Morris would do to Unix networks two years later.",
+      "summary": "The Brain virus appeared in January 1986 on [IBM] [PC] [floppy disk]s from Pakistan — widely considered the first [PC] virus to spread in the wild.",
+      "about": "Brain infected the boot sector of 360 KB floppies and displayed a copyright message from its authors, Basit and Amjad Farooq Alvi. It launched the antivirus industry, boot-sector scanning, and decades of copy-protection versus malware debates — the [PC] equivalent of what Morris would do to Unix networks two years later.",
       "narrative": {
-        "whyChosen": "Brain is the canonical first IBM PC virus developers cite in security history.",
-        "whyImportant": "It proved removable media could propagate malicious code across the growing PC installed base.",
+        "whyChosen": "Brain is the canonical first [IBM] [PC] virus developers cite in security history.",
+        "whyImportant": "It proved removable media could propagate malicious code across the growing [PC] installed base.",
         "problemSolved": "Nothing was solved — it exposed that PCs had no integrity checks on boot sectors or floppy images."
       },
       "category": "culture",

@@ -24,8 +24,8 @@
       "date": "1987",
       "datePrecision": "year",
       "title": "Andrew Tanenbaum creates MINIX",
-      "summary": "Andrew Tanenbaum created MINIX in 1987 — a teaching microkernel OS that inspired Linus Torvalds to build Linux.",
-      "about": "Tanenbaum's textbooks and MINIX shaped OS education worldwide. The famous Tanenbaum–Torvalds microkernel debate defined architectural trade-offs developers still argue about.",
+      "summary": "Andrew Tanenbaum created MINIX in 1987 — a teaching [microkernel] [OS] that inspired Linus Torvalds to build Linux.",
+      "about": "Tanenbaum's textbooks and MINIX shaped [OS] education worldwide. The famous Tanenbaum–Torvalds [microkernel] debate defined architectural trade-offs developers still argue about.",
       "narrative": {
         "whyChosen": "MINIX was the direct inspiration for Linux's initial design.",
         "whyImportant": "It made operating system source code accessible to students.",
@@ -57,7 +57,7 @@
       "date": "1987",
       "datePrecision": "year",
       "title": "Game cracking group Fairlight (FLT) founded",
-      "summary": "The warez group Fairlight — known by the tag FLT — formed in 1987 and became legendary for cracking PC and Amiga games with cinematic intro demos.",
+      "summary": "The warez group Fairlight — known by the tag FLT — formed in 1987 and became legendary for cracking [PC] and Amiga games with cinematic intro demos.",
       "about": "Fairlight's cracktros paired reverse-engineering skill with demoscene aesthetics — trainers, keygens, and removed copy protection shipped hours after retail releases. Groups like FLT, SKIDROW, and RELOADED kept pace with SecuROM, Denuvo, and online DRM — an arms race that pushed anti-tamper technology and shaped how game publishers think about authentication.",
       "narrative": {
         "whyChosen": "Fairlight's FLT tag is iconic in game-cracking and demoscene crossover culture.",

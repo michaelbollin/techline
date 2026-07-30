@@ -6,12 +6,12 @@
       "date": "2016-02-15",
       "datePrecision": "day",
       "title": "Kotlin 1.0 released",
-      "summary": "JetBrains released Kotlin 1.0 on February 15, 2016 — the first stable version of the pragmatic JVM and Android language.",
-      "about": "Kotlin 1.0 committed to backward compatibility for the language and standard library — safe for production Android and server code. Google later made Kotlin the preferred Android language. Null-safe types, data classes, and coroutines reduced boilerplate versus Java.",
+      "summary": "JetBrains released [Kotlin] 1.0 on February 15, 2016 — the first stable version of the pragmatic JVM and [Android] language.",
+      "about": "[Kotlin] 1.0 committed to backward compatibility for the language and standard library — safe for production [Android] and server code. Google later made [Kotlin] the preferred [Android] language. Null-safe types, data classes, and coroutines reduced boilerplate versus Java.",
       "narrative": {
-        "whyChosen": "Kotlin 1.0 was the stability milestone that let enterprises bet on Kotlin beyond experiments.",
-        "whyImportant": "It unlocked Google's Android pivot and proved JetBrains could ship a mainstream JVM language.",
-        "problemSolved": "Preview Kotlin changed frequently; teams needed a stable 1.0 with long-term compatibility guarantees."
+        "whyChosen": "[Kotlin] 1.0 was the stability milestone that let enterprises bet on [Kotlin] beyond experiments.",
+        "whyImportant": "It unlocked Google's [Android] pivot and proved JetBrains could ship a mainstream JVM language.",
+        "problemSolved": "Preview [Kotlin] changed frequently; teams needed a stable 1.0 with long-term compatibility guarantees."
       },
       "category": "software",
       "tags": [
@@ -73,7 +73,7 @@
       "narrative": {
         "whyChosen": "Zig reframed systems programming around explicit memory, simple builds, and easy C library integration.",
         "whyImportant": "It renewed interest in small systems languages and influenced how newer toolchains handle builds and cross-compilation.",
-        "problemSolved": "Kelley hit friction integrating C libraries in Go, memory bugs in C++, and Rust's learning curve while building audio software."
+        "problemSolved": "Kelley hit friction integrating C libraries in [Go], memory bugs in C++, and Rust's learning curve while building audio software."
       },
       "category": "software",
       "tags": [
@@ -120,7 +120,7 @@
       "summary": "A federal magistrate ordered Apple on February 16, 2016 to assist the FBI in bypassing security on an iPhone used by a San Bernardino shooter — sparking a national debate over encryption backdoors.",
       "about": "Apple refused to build a custom iOS version that would weaken passcode protections for all users. Tim Cook framed it as a civil-liberties line in the sand; the FBI eventually unlocked the phone with a third-party exploit. The fight shaped how platforms market device encryption, law-enforcement access requests, and the 'going dark' debate that still influences E2E messaging design.",
       "narrative": {
-        "whyChosen": "The Apple–FBI fight defined the encryption backdoor debate for a generation of security engineers.",
+        "whyChosen": "The Apple–FBI fight defined the encryption [backdoor] debate for a generation of security engineers.",
         "whyImportant": "It cemented on-device encryption as a product differentiator platforms would not casually compromise.",
         "problemSolved": "Law enforcement wanted access to locked devices; Apple argued a master key would endanger every user."
       },
