@@ -11,6 +11,16 @@ vi.mock("next/navigation", () => ({
 }));
 
 describe("EventModal", () => {
+  it("renders a modal animation layer when animationId is provided", () => {
+    const { container } = render(
+      <EventModal animationId="cd-rom">
+        <p>Event body</p>
+      </EventModal>,
+    );
+
+    expect(container.querySelector(".cd-rom-prismatic-sweep, canvas")).toBeTruthy();
+  });
+
   it("renders children and closes on backdrop click", async () => {
     const user = userEvent.setup();
 

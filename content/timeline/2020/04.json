@@ -53,10 +53,10 @@
       "date": "2020-04-21",
       "datePrecision": "day",
       "title": "ZEIT rebranded as Vercel",
-      "summary": "Guillermo Rauch rebranded ZEIT to Vercel on April 21, 2020 — alongside a $21M Series A focused on the develop-preview-ship workflow for Jamstack sites.",
-      "about": "Vercel unified the company's identity with its hosting platform and Next.js — preview deployments for every Git push, edge functions, and serverless SSR. The rebrand signaled ambition beyond deployment tooling to owning the frontend cloud.",
+      "summary": "Guillermo Rauch rebranded ZEIT to [Vercel] on April 21, 2020 — alongside a $21M Series A focused on the develop-preview-ship workflow for [Jamstack] sites.",
+      "about": "[Vercel] unified the company's identity with its hosting platform and Next.js — preview deployments for every Git push, edge functions, and serverless [SSR]. The rebrand signaled ambition beyond deployment tooling to owning the frontend cloud.",
       "narrative": {
-        "whyChosen": "Vercel became the default frontend cloud for Next.js and Jamstack teams.",
+        "whyChosen": "[Vercel] became the default frontend cloud for Next.js and [Jamstack] teams.",
         "whyImportant": "Preview deployments per PR changed how teams ship frontend code.",
         "problemSolved": "Frontend teams lacked integrated develop-preview-deploy workflows tied to Git."
       },

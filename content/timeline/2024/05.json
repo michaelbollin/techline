@@ -64,10 +64,10 @@
       "date": "2024-05-13",
       "datePrecision": "day",
       "title": "OpenAI GPT-4o released",
-      "summary": "OpenAI released GPT-4o on May 13, 2024 — a faster, cheaper multimodal model with native audio, vision, and text in one model.",
-      "about": "GPT-4o ('o' for omni) unified text, image, and voice in a single endpoint — powering ChatGPT's voice mode and real-time translation demos. It matched GPT-4 Turbo quality at half the latency, resetting expectations for interactive AI apps.",
+      "summary": "[OpenAI] released [GPT]-4o on May 13, 2024 — a faster, cheaper [multimodal] model with native audio, vision, and text in one model.",
+      "about": "[GPT]-4o ('o' for omni) unified text, image, and voice in a single endpoint — powering [ChatGPT]'s voice mode and real-time translation demos. It matched [GPT]-4 Turbo quality at half the latency, resetting expectations for interactive AI apps.",
       "narrative": {
-        "whyChosen": "GPT-4o made multimodal, low-latency AI the default consumer experience.",
+        "whyChosen": "[GPT]-4o made [multimodal], low-latency AI the default consumer experience.",
         "whyImportant": "Native audio and vision in one model simplified product architecture for AI apps.",
         "problemSolved": "Separate models for text, vision, and speech added latency, cost, and integration complexity."
       },

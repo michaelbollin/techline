@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "JavaScript ES6 standardized",
       "summary": "On June 17, 2015, the ES6 standard was adopted — adding classes, modules, arrow functions, promises, and block-scoped variables to JavaScript.",
-      "about": "ES6 (also called ES2015) modernized JavaScript for large apps: `import`/`export` for splitting code into files, `class` syntax, arrow functions, promises for async work, and `let`/`const` instead of leaky `var`. It made building React-scale frontends and Node.js services feel like a modern language instead of a hack.",
+      "about": "ES6 (also called ES2015) modernized JavaScript for large apps: `import`/`export` for splitting code into files, `class` syntax, arrow functions, promises for async work, and `let`/`const` instead of leaky `var`. It made building [React]-scale frontends and [Node.js] services feel like a modern language instead of a hack.",
       "narrative": {
         "whyChosen": "ES6 was the biggest JavaScript update since 1999 — the release that made modern frontend frameworks possible.",
         "whyImportant": "Developers finally got modules, classes, and proper scoping that other languages had had for years — without giving up JavaScript's ubiquity in the browser.",

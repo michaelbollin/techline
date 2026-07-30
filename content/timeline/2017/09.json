@@ -64,7 +64,7 @@
       "date": "2017-09-19",
       "datePrecision": "day",
       "title": "Safari 11 released",
-      "summary": "Apple released Safari 11 on September 19, 2017 with macOS High Sierra — adding Intelligent Tracking Prevention, autoplay blocking, and WebRTC improvements.",
+      "summary": "Apple released Safari 11 on September 19, 2017 with macOS High Sierra — adding Intelligent Tracking Prevention, autoplay blocking, and [WebRTC] improvements.",
       "about": "Safari 11's Intelligent Tracking Prevention (ITP) limited cross-site cookies — reshaping ad tech and analytics. Autoplay blocking and reader mode refinements kept Safari focused on privacy and battery life as Chrome grew on desktop.",
       "narrative": {
         "whyChosen": "Safari 11's ITP was a watershed moment for web privacy and ad tracking.",
@@ -124,7 +124,7 @@
       "about": "The iPhone 8 refined the classic home-button iPhone while Apple bet the design future on iPhone X. Developers still targeted iPhone 8 class hardware as the conservative baseline through 2018.",
       "narrative": {
         "whyChosen": "The iPhone 8 was the last iteration of the classic Touch ID iPhone form.",
-        "whyImportant": "Wireless charging and A11 performance kept a familiar target for iOS developers during the X transition.",
+        "whyImportant": "Wireless charging and A11 performance kept a familiar target for [iOS] developers during the X transition.",
         "problemSolved": "Users wanted wireless charging without giving up the established home-button UX."
       },
       "category": "hardware",

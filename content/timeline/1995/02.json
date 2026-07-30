@@ -110,7 +110,7 @@
       "datePrecision": "day",
       "title": "Kevin Mitnick arrested after nationwide manhunt",
       "summary": "FBI agents arrested Kevin Mitnick in Raleigh, North Carolina on February 15, 1995 — ending a two-year fugitive hunt for the era's most famous phone and computer hacker.",
-      "about": "Mitnick had broken into Motorola, Nokia, and Sun systems — social-engineering passwords more often than writing exotic exploits. His prosecution became a symbol of harsh computer-crime sentencing; he later reinvented himself as a security consultant. The case showed how law enforcement struggled to distinguish curious intruders from serious threats.",
+      "about": "Mitnick had broken into Motorola, Nokia, and [Sun] systems — social-engineering passwords more often than writing exotic exploits. His prosecution became a symbol of harsh computer-crime sentencing; he later reinvented himself as a security consultant. The case showed how law enforcement struggled to distinguish curious intruders from serious threats.",
       "narrative": {
         "whyChosen": "Mitnick's arrest was the tabloid moment that brought hacker culture to mainstream TV.",
         "whyImportant": "It shaped public perception of hacking and later debates over white-hat research.",

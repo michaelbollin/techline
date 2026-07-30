@@ -6,10 +6,10 @@
       "date": "2021-02-16",
       "datePrecision": "day",
       "title": "Vite 2.0 released",
-      "summary": "Evan You released Vite 2.0 on February 16, 2021 — the first stable Vite release with an ESM-native dev server, instant hot reload, and Rollup-powered production builds.",
-      "about": "Vite replaced webpack's slow dev startup with native ES modules — `npm run dev` in milliseconds instead of minutes for large Vue and React apps. It became the default for Vue 3, SvelteKit, and many React starters, shifting frontend tooling toward esbuild and native ESM.",
+      "summary": "Evan You released [Vite] 2.0 on February 16, 2021 — the first stable [Vite] release with an ESM-native dev server, instant hot reload, and [Rollup]-powered production builds.",
+      "about": "[Vite] replaced webpack's slow dev startup with native ES modules — `npm run dev` in milliseconds instead of minutes for large Vue and [React] apps. It became the default for Vue 3, SvelteKit, and many [React] starters, shifting frontend tooling toward esbuild and native ESM.",
       "narrative": {
-        "whyChosen": "Vite made dev-server speed a competitive requirement for JS build tools.",
+        "whyChosen": "[Vite] made dev-server speed a competitive requirement for JS build tools.",
         "whyImportant": "Native ESM dev mode eliminated bundling during development for most apps.",
         "problemSolved": "Webpack dev servers were painfully slow on large SPAs, hurting developer productivity."
       },

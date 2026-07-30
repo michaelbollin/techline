@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Webpack 5 released",
       "summary": "Webpack 5.0 shipped on October 10, 2020 with persistent caching, module federation, and improved tree-shaking.",
-      "about": "Webpack 5's module federation let micro-frontends share dependencies at runtime — a pattern adopted by large enterprises. Persistent caching sped CI builds; better tree-shaking reduced bundle sizes for React and Vue apps still on webpack before Vite's rise.",
+      "about": "Webpack 5's module federation let micro-frontends share dependencies at runtime — a pattern adopted by large enterprises. Persistent caching sped CI builds; better tree-shaking reduced bundle sizes for [React] and Vue apps still on webpack before [Vite]'s rise.",
       "narrative": {
         "whyChosen": "Webpack 5 module federation changed how teams composed large frontends.",
         "whyImportant": "Runtime sharing of modules enabled independent deployable micro-frontends.",

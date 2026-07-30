@@ -54,10 +54,10 @@
       "date": "2013-10-17",
       "datePrecision": "day",
       "title": "Internet Explorer 11 released",
-      "summary": "Microsoft released Internet Explorer 11 on October 17, 2013 with Windows 8.1 — the final major Internet Explorer version before Edge.",
-      "about": "IE 11 improved WebGL, SPDY, and developer tools while supporting legacy ActiveX and enterprise intranet sites. It remained the Windows default until Edge in 2015 and lingered as IE mode inside Edge for years.",
+      "summary": "Microsoft released [Internet Explorer] 11 on October 17, 2013 with Windows 8.1 — the final major [Internet Explorer] version before Edge.",
+      "about": "[IE] 11 improved WebGL, SPDY, and developer tools while supporting legacy ActiveX and enterprise intranet sites. It remained the Windows default until Edge in 2015 and lingered as [IE] mode inside Edge for years.",
       "narrative": {
-        "whyChosen": "IE 11 was the last Internet Explorer most enterprises ever standardized on.",
+        "whyChosen": "[IE] 11 was the last [Internet Explorer] most enterprises ever standardized on.",
         "whyImportant": "Its compatibility modes kept intranet apps running while the web moved to modern engines.",
         "problemSolved": "Windows users needed one browser that handled both modern sites and decade-old line-of-business apps."
       },

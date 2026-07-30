@@ -23,9 +23,9 @@
       "datePrecision": "year",
       "title": "Mary Lou Jepsen leads OLPC display engineering",
       "summary": "Mary Lou Jepsen engineered the low-power display for One Laptop per Child (2007) — cutting cost and power for education laptops.",
-      "about": "OLPC's $100 laptop mission pushed developers to target constrained hardware. Jepsen's display work made sunlight-readable, low-watt screens viable for mass education deployments.",
+      "about": "[OLPC]'s $100 laptop mission pushed developers to target constrained hardware. Jepsen's display work made sunlight-readable, low-watt screens viable for mass education deployments.",
       "narrative": {
-        "whyChosen": "OLPC displays proved affordable laptops could reach developing-world classrooms.",
+        "whyChosen": "[OLPC] displays proved affordable laptops could reach developing-world classrooms.",
         "whyImportant": "Hardware cost barriers shape which populations learn to program.",
         "problemSolved": "Laptop displays consumed too much power and cost for education markets."
       },

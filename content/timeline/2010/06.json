@@ -65,7 +65,7 @@
       "about": "The Retina screen doubled pixel density to 326 ppi — designers and web developers started shipping @2x assets and `-webkit-device-pixel-ratio` media queries. FaceTime and the gyroscope expanded mobile app possibilities. The iPhone 4 cemented Apple's hardware lead and pushed mobile web design toward high-DPI layouts.",
       "narrative": {
         "whyChosen": "The iPhone 4's Retina display forced the mobile web and app ecosystems to adopt high-DPI assets.",
-        "whyImportant": "It set the pixel-density bar every smartphone and responsive CSS workflow followed.",
+        "whyImportant": "It set the pixel-density bar every smartphone and responsive [CSS] workflow followed.",
         "problemSolved": "Mobile screens looked pixelated next to print; users expected sharper text and images on phones."
       },
       "category": "hardware",

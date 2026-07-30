@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Audrey Tang appointed Taiwan digital minister",
       "summary": "Audrey Tang was appointed minister without portfolio for digital affairs in Taiwan on October 1, 2016 — the youngest and first transgender cabinet minister.",
-      "about": "Tang promoted radical government transparency, open data, and participatory budgeting — exporting Taiwan's civic tech model during COVID contact tracing and beyond.",
+      "about": "Tang promoted radical government transparency, [open data], and participatory budgeting — exporting Taiwan's civic tech model during COVID contact tracing and beyond.",
       "narrative": {
         "whyChosen": "Tang brought open-source values into national government at cabinet level.",
         "whyImportant": "It demonstrated hackers could reform public institutions from inside government.",
@@ -59,10 +59,10 @@
       "date": "2016-10-11",
       "datePrecision": "day",
       "title": "Yarn released",
-      "summary": "Facebook, Google, Exponent, and Tilde released Yarn 0.1.0 on October 11, 2016 — a fast, deterministic npm-compatible package manager with lockfile support.",
-      "about": "Yarn introduced lockfiles (`yarn.lock`), parallel installs, and checksum verification when npm still struggled with reproducible builds. Teams switched overnight for faster CI and consistent `node_modules` trees. Yarn 2+ later pushed Plug'n'Play; npm caught up with `package-lock.json` — but Yarn forced the ecosystem to treat dependency resolution as infrastructure, not an afterthought.",
+      "summary": "Facebook, Google, Exponent, and Tilde released [Yarn] 0.1.0 on October 11, 2016 — a fast, deterministic npm-compatible package manager with lockfile support.",
+      "about": "[Yarn] introduced lockfiles (`yarn.lock`), parallel installs, and checksum verification when npm still struggled with reproducible builds. [Teams] switched overnight for faster CI and consistent `node_modules` trees. [Yarn] 2+ later pushed Plug'n'Play; npm caught up with `package-lock.json` — but [Yarn] forced the ecosystem to treat dependency resolution as infrastructure, not an afterthought.",
       "narrative": {
-        "whyChosen": "Yarn addressed npm's speed and determinism gaps with a drop-in alternative backed by major platforms.",
+        "whyChosen": "[Yarn] addressed npm's speed and determinism gaps with a drop-in alternative backed by major platforms.",
         "whyImportant": "It popularized lockfiles and pushed npm to improve — raising the bar for JavaScript supply-chain hygiene.",
         "problemSolved": "JavaScript projects needed reproducible installs and faster CI when npm's client was slow and non-deterministic."
       },

@@ -6,8 +6,8 @@
       "date": "2011-02-03",
       "datePrecision": "day",
       "title": "Browserify first released",
-      "summary": "James Halliday published Browserify on February 3, 2011 — a bundler that let browsers use Node-style `require()` for npm modules.",
-      "about": "Browserify walks `require()` dependencies and packs them into one file for the browser — the first mainstream way to compose npm packages on the client. It paved the way for webpack, Rollup, and the modern frontend toolchain. Example: `browserify main.js -o bundle.js` ships lodash and your app code to static hosting.",
+      "summary": "James Halliday published Browserify on February 3, 2011 — a bundler that let browsers use [Node]-style `require()` for npm modules.",
+      "about": "Browserify walks `require()` dependencies and packs them into one file for the browser — the first mainstream way to compose npm packages on the client. It paved the way for webpack, [Rollup], and the modern frontend toolchain. Example: `browserify main.js -o bundle.js` ships lodash and your app code to static hosting.",
       "narrative": {
         "whyChosen": "Browserify proved npm modules could run in browsers, not just on servers.",
         "whyImportant": "It launched the module-bundler era that reshaped how JavaScript apps are built and deployed.",

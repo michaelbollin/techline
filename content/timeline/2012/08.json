@@ -62,10 +62,10 @@
       "datePrecision": "day",
       "title": "Shopware 4 open sourced",
       "summary": "Shopware released version 4.0 on August 28, 2012 under the AGPL license — making the e-commerce platform officially open source.",
-      "about": "Shopware 4 disclosed its full PHP codebase — themes under Apache 2.0 — after years of a paid Community Edition preview. The move accelerated adoption across Europe and established Shopware as Magento's main open-source rival in the DACH market.",
+      "about": "Shopware 4 disclosed its full PHP codebase — themes under Apache 2.0 — after years of a paid Community Edition preview. The move accelerated adoption across Europe and established Shopware as [Magento]'s main open-source rival in the DACH market.",
       "narrative": {
         "whyChosen": "Shopware 4's AGPL release committed the platform to open-source e-commerce.",
-        "whyImportant": "It expanded the European open-source commerce ecosystem beyond Magento.",
+        "whyImportant": "It expanded the European open-source commerce ecosystem beyond [Magento].",
         "problemSolved": "Merchants wanted inspectable, extensible cart software without proprietary lock-in."
       },
       "category": "software",

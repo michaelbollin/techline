@@ -1,0 +1,14 @@
+/** Maps timeline event IDs to reusable animation IDs. */
+export const EVENT_ANIMATION_IDS = {
+  "cd-rom-introduced": "cd-rom",
+} as const;
+
+export type AnimationId = (typeof EVENT_ANIMATION_IDS)[keyof typeof EVENT_ANIMATION_IDS];
+
+export function getAnimationIdForEvent(eventId: string): AnimationId | null {
+  if (eventId in EVENT_ANIMATION_IDS) {
+    return EVENT_ANIMATION_IDS[eventId as keyof typeof EVENT_ANIMATION_IDS];
+  }
+
+  return null;
+}

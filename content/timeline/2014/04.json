@@ -108,12 +108,12 @@
       "date": "2014-04-03",
       "datePrecision": "day",
       "title": "Brendan Eich resigns as Mozilla CEO",
-      "summary": "Brendan Eich resigned as Mozilla CEO on April 3, 2014 after only days in the role — controversy over a political donation.",
-      "about": "Eich created JavaScript in ten days in 1995 and later co-founded Brave. His brief Mozilla tenure and exit showed how founder-legends intersect with modern corporate governance and community politics.",
+      "summary": "Brendan Eich resigned as [Mozilla] CEO on April 3, 2014 after only days in the role — controversy over a political donation.",
+      "about": "Eich created JavaScript in ten days in 1995 and later co-founded Brave. His brief [Mozilla] tenure and exit showed how founder-legends intersect with modern corporate governance and community politics.",
       "narrative": {
         "whyChosen": "Eich embodies JavaScript's creation and a dramatic open-source leadership moment.",
         "whyImportant": "It raised questions about separating creators' personal views from their technical legacy.",
-        "problemSolved": "Mozilla faced community trust crisis immediately after appointing a co-founder as CEO."
+        "problemSolved": "[Mozilla] faced community trust crisis immediately after appointing a co-founder as CEO."
       },
       "category": "culture",
       "tags": [
@@ -274,11 +274,11 @@
       "date": "2014-04-21",
       "datePrecision": "day",
       "title": "Tom Preston-Werner resigns from GitHub",
-      "summary": "GitHub co-founder Tom Preston-Werner resigned on April 21, 2014 after an internal investigation into workplace conduct.",
-      "about": "Preston-Werner co-created GitHub, Jekyll, and Semantic Versioning — but his departure forced GitHub to add formal management after years of a flat structure. The episode marked a turning point in Silicon Valley workplace culture discourse.",
+      "summary": "[GitHub] co-founder Tom Preston-Werner resigned on April 21, 2014 after an internal investigation into workplace conduct.",
+      "about": "Preston-Werner co-created [GitHub], Jekyll, and Semantic Versioning — but his departure forced [GitHub] to add formal management after years of a flat structure. The episode marked a turning point in Silicon Valley workplace culture discourse.",
       "narrative": {
-        "whyChosen": "Preston-Werner's exit ended GitHub's founder-led flat organization era.",
-        "whyImportant": "It prompted GitHub to institutionalize management and HR processes at scale.",
+        "whyChosen": "Preston-Werner's exit ended [GitHub]'s founder-led flat organization era.",
+        "whyImportant": "It prompted [GitHub] to institutionalize management and HR processes at scale.",
         "problemSolved": "A bossless culture lacked accountability mechanisms when internal conflicts escalated."
       },
       "category": "company",

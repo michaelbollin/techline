@@ -65,11 +65,11 @@
       "datePrecision": "day",
       "title": "iPhone 5C released",
       "summary": "Apple shipped the colorful iPhone 5C alongside the 5S on September 20, 2013 — a plastic-bodied model targeting mid-tier buyers.",
-      "about": "The 5C expanded iOS reach with a lower price point while running the same iOS 7 stack developers already targeted. It showed Apple would segment hardware without fragmenting the software platform.",
+      "about": "The 5C expanded [iOS] reach with a lower price point while running the same [iOS] 7 stack developers already targeted. It showed Apple would segment hardware without fragmenting the software platform.",
       "narrative": {
         "whyChosen": "The 5C tested whether Apple could sell a colorful mid-range iPhone without splitting the developer stack.",
-        "whyImportant": "One iOS target across premium and mid-tier hardware simplified mobile development.",
-        "problemSolved": "Premium-only iPhones limited iOS audience growth in price-sensitive markets."
+        "whyImportant": "One [iOS] target across premium and mid-tier hardware simplified mobile development.",
+        "problemSolved": "Premium-only iPhones limited [iOS] audience growth in price-sensitive markets."
       },
       "category": "hardware",
       "tags": [

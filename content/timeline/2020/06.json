@@ -6,7 +6,7 @@
       "date": "2020-06",
       "datePrecision": "month",
       "title": "ECMAScript 2020 standardized",
-      "summary": "Ecma adopted ECMAScript 2020 in June 2020 — adding optional chaining, nullish coalescing, `BigInt`, and `Promise.allSettled`.",
+      "summary": "Ecma adopted [ECMAScript] 2020 in June 2020 — adding optional chaining, nullish coalescing, `BigInt`, and `Promise.allSettled`.",
       "about": "ES2020 features became everyday JavaScript: `obj?.prop` and `value ?? fallback` reduced null-pointer bugs; `BigInt` handled large integers; dynamic `import()` improved code splitting. Every modern bundler and browser targets these additions.",
       "narrative": {
         "whyChosen": "ES2020 delivered some of the most-used syntax sugar in modern JavaScript.",
@@ -108,12 +108,12 @@
       "date": "2020-06-30",
       "datePrecision": "day",
       "title": "Sanfilippo steps down from Redis",
-      "summary": "Salvatore Sanfilippo (antirez) stepped down as Redis maintainer on June 30, 2020, handing the project to a community team.",
-      "about": "Sanfilippo built Redis alone from 2009 into infrastructure powering caches, queues, and real-time systems worldwide. His departure sparked discussion about maintainer burnout and corporate sponsorship of open source.",
+      "summary": "Salvatore Sanfilippo (antirez) stepped down as [Redis] maintainer on June 30, 2020, handing the project to a community team.",
+      "about": "Sanfilippo built [Redis] alone from 2009 into infrastructure powering caches, queues, and real-time systems worldwide. His departure sparked discussion about maintainer burnout and corporate sponsorship of open source.",
       "narrative": {
         "whyChosen": "antirez stepping down was a landmark maintainer transition in open source.",
         "whyImportant": "It highlighted sustainability issues for solo-authored critical infrastructure.",
-        "problemSolved": "Redis needed governance beyond one developer as adoption reached hyperscale."
+        "problemSolved": "[Redis] needed governance beyond one developer as adoption reached hyperscale."
       },
       "category": "culture",
       "tags": [

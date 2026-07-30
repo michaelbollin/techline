@@ -6,7 +6,7 @@
       "date": "2023-06",
       "datePrecision": "month",
       "title": "ECMAScript 2023 standardized",
-      "summary": "Ecma adopted ECMAScript 2023 in June 2023 — adding `Array.prototype.findLast`, Hashbang grammar, symbols as WeakMap keys, and `Array.fromAsync`.",
+      "summary": "Ecma adopted [ECMAScript] 2023 in June 2023 — adding `Array.prototype.findLast`, Hashbang grammar, symbols as WeakMap keys, and `Array.fromAsync`.",
       "about": "ES2023 filled array and module ergonomics gaps: finding the last matching element without reversing arrays, supporting `#!` in scripts, and async iteration helpers. Annual releases kept browsers aligned on incremental, shippable JavaScript improvements.",
       "narrative": {
         "whyChosen": "ES2023 added practical array methods developers had polyfilled for years.",

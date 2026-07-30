@@ -115,10 +115,10 @@
       "date": "2010-10",
       "datePrecision": "month",
       "title": "Shopware Community Edition released",
-      "summary": "Shopware released its free Community Edition in autumn 2010 — open-sourcing the core e-commerce platform on the same technical base as paid editions.",
-      "about": "The Community Edition let developers download and extend Shopware without licensing fees — download records broke company targets overnight. It paved the way for the full AGPL open-source release in Shopware 4 two years later.",
+      "summary": "[Shopware] released its free Community Edition in autumn 2010 — open-sourcing the core e-commerce platform on the same technical base as paid editions.",
+      "about": "The Community Edition let developers download and extend [Shopware] without licensing fees — download records broke company targets overnight. It paved the way for the full AGPL open-source release in [Shopware] 4 two years later.",
       "narrative": {
-        "whyChosen": "Shopware's Community Edition brought enterprise e-commerce features to the open-source crowd.",
+        "whyChosen": "[Shopware]'s Community Edition brought enterprise e-commerce features to the open-source crowd.",
         "whyImportant": "It proved a commercial vendor could grow through community-driven development.",
         "problemSolved": "European developers lacked a free, full-featured alternative to paid cart software."
       },

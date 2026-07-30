@@ -257,12 +257,12 @@
       "date": "2015-11-16",
       "datePrecision": "day",
       "title": "Jamstack term coined",
-      "summary": "Matt Biilmann published \"What is the JAMstack?\" on November 16, 2015 — naming the JavaScript, APIs, and Markup architecture Netlify had been enabling.",
-      "about": "Jamstack described pre-rendered sites served from CDNs with serverless APIs — decoupling the frontend from monolithic backends. The term gave a vocabulary to static site generators, headless CMSs, and Git-based deploy workflows that defined modern web development.",
+      "summary": "Matt Biilmann published \"What is the JAMstack?\" on November 16, 2015 — naming the JavaScript, APIs, and Markup architecture [Netlify] had been enabling.",
+      "about": "[Jamstack] described pre-rendered sites served from CDNs with serverless APIs — decoupling the frontend from monolithic backends. The term gave a vocabulary to static site generators, headless CMSs, and Git-based deploy workflows that defined modern web development.",
       "narrative": {
-        "whyChosen": "Jamstack named the architectural shift from LAMP monoliths to composable frontends.",
+        "whyChosen": "[Jamstack] named the architectural shift from LAMP monoliths to composable frontends.",
         "whyImportant": "It unified static generators, headless CMSs, and CDN deploys under one movement.",
-        "problemSolved": "Teams building decoupled sites lacked a shared term to describe their approach."
+        "problemSolved": "[Teams] building decoupled sites lacked a shared term to describe their approach."
       },
       "category": "software",
       "tags": [

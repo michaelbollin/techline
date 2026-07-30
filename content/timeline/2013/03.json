@@ -103,12 +103,12 @@
       "date": "2013-03-14",
       "datePrecision": "day",
       "title": "Autoprefixer released",
-      "summary": "Andrey Sitnik released Autoprefixer on March 14, 2013 — a tool that adds vendor prefixes to CSS based on Can I Use browser data.",
-      "about": "Autoprefixer reads plain CSS and inserts `-webkit-`, `-moz-`, and `-ms-` prefixes where needed — freeing developers from memorizing which browsers needed prefixed flexbox or gradients. It started as rework-vendors, became Autoprefixer within weeks, and later migrated to PostCSS — becoming one of the most-used CSS build tools in history.",
+      "summary": "Andrey Sitnik released [Autoprefixer] on March 14, 2013 — a tool that adds vendor prefixes to [CSS] based on Can I Use browser data.",
+      "about": "[Autoprefixer] reads plain [CSS] and inserts `-webkit-`, `-moz-`, and `-ms-` prefixes where needed — freeing developers from memorizing which browsers needed prefixed flexbox or gradients. It started as rework-vendors, became [Autoprefixer] within weeks, and later migrated to PostCSS — becoming one of the most-used [CSS] build tools in history.",
       "narrative": {
-        "whyChosen": "Autoprefixer automated the most tedious part of writing cross-browser CSS.",
+        "whyChosen": "[Autoprefixer] automated the most tedious part of writing cross-browser [CSS].",
         "whyImportant": "It let authors write spec syntax and let tooling handle vendor-prefix churn.",
-        "problemSolved": "Developers copied prefixed and unprefixed rules by hand for every new CSS feature."
+        "problemSolved": "Developers copied prefixed and unprefixed rules by hand for every new [CSS] feature."
       },
       "category": "software",
       "tags": [

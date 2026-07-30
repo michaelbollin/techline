@@ -111,11 +111,11 @@
       "date": "2025-01-31",
       "datePrecision": "day",
       "title": "OpenAI o3-mini released",
-      "summary": "OpenAI released o3-mini on January 31, 2025 — a cost-efficient reasoning model with adjustable effort levels, available to all ChatGPT users including free tier.",
-      "about": "o3-mini delivered o3-class STEM reasoning at o1-mini pricing — tripling Plus rate limits and answering DeepSeek R1's open-weight challenge weeks after R1's launch. It shipped with function calling, structured outputs, and web search before full o3 arrived in April.",
+      "summary": "[OpenAI] released o3-mini on January 31, 2025 — a cost-efficient [reasoning] model with adjustable effort levels, available to all [ChatGPT] users including free tier.",
+      "about": "o3-mini delivered o3-class STEM [reasoning] at o1-mini pricing — tripling Plus rate limits and answering DeepSeek R1's open-weight challenge weeks after R1's launch. It shipped with function calling, structured outputs, and web search before full o3 arrived in April.",
       "narrative": {
-        "whyChosen": "o3-mini brought frontier reasoning to free ChatGPT users at mini-model cost.",
-        "whyImportant": "Adjustable reasoning effort made test-time compute tunable per task.",
+        "whyChosen": "o3-mini brought frontier [reasoning] to free [ChatGPT] users at mini-model cost.",
+        "whyImportant": "Adjustable [reasoning] effort made test-time compute tunable per task.",
         "problemSolved": "Developers wanted o3-class math and coding without full o3 latency and price."
       },
       "category": "software",

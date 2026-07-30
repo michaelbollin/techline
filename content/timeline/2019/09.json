@@ -62,10 +62,10 @@
       "date": "2019-09-20",
       "datePrecision": "day",
       "title": "iPhone 11 released",
-      "summary": "Apple released the iPhone 11 line on September 20, 2019 — dual cameras on the base model and Night mode computational photography.",
-      "about": "Night mode and ultra-wide lenses made multi-camera assumptions standard even on non-Pro iPhones. Developers building AR and vision features could expect depth and wide-angle hardware on the mainstream model.",
+      "summary": "Apple released the iPhone 11 line on September 20, 2019 — dual cameras on the base model and Night mode [computational photography].",
+      "about": "Night mode and ultra-wide lenses made multi-camera assumptions standard even on non-Pro iPhones. Developers building [AR] and vision features could expect depth and wide-angle hardware on the mainstream model.",
       "narrative": {
-        "whyChosen": "The iPhone 11 made multi-camera computational photography the default iOS baseline.",
+        "whyChosen": "The iPhone 11 made multi-camera [computational photography] the default [iOS] baseline.",
         "whyImportant": "Night mode and ultra-wide sensors expanded what camera apps could assume on base iPhones.",
         "problemSolved": "Low-light mobile photography required third-party hacks or Pro-tier hardware."
       },
@@ -124,7 +124,7 @@
       "about": "C# 8's nullable annotations (`string?`) caught null bugs at compile time; `IAsyncEnumerable` enabled streaming async data; index/range syntax (`^1`, `..`) simplified slicing. .NET Core 3.0 also brought WPF and WinForms to .NET Core on Windows.",
       "narrative": {
         "whyChosen": "C# 8 nullable types changed how .NET teams handle null safety at scale.",
-        "whyImportant": "Desktop support on Core let Windows apps migrate off .NET Framework.",
+        "whyImportant": "Desktop support on Core let Windows apps migrate off [.NET Framework].",
         "problemSolved": "NullReferenceException was the #1 .NET runtime bug; Framework-only desktop apps could not move to Core."
       },
       "category": "software",

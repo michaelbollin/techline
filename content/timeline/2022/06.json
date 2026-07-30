@@ -6,8 +6,8 @@
       "date": "2022-06",
       "datePrecision": "month",
       "title": "ECMAScript 2022 standardized",
-      "summary": "Ecma adopted ECMAScript 2022 in June 2022 — adding class fields, top-level `await`, `Array.at()`, and `Object.hasOwn()`.",
-      "about": "ES2022 let modules use top-level await for cleaner async bootstrapping, and class fields removed constructor boilerplate for React/Vue class components and Node services. `at(-1)` finally gave arrays a readable 'last element' accessor.",
+      "summary": "Ecma adopted [ECMAScript] 2022 in June 2022 — adding class fields, top-level `await`, `Array.at()`, and `Object.hasOwn()`.",
+      "about": "ES2022 let modules use top-level await for cleaner async bootstrapping, and class fields removed constructor boilerplate for [React]/Vue class components and [Node] services. `at(-1)` finally gave arrays a readable 'last element' accessor.",
       "narrative": {
         "whyChosen": "ES2022 delivered top-level await and class fields that frameworks and bundlers had polyfilled for years.",
         "whyImportant": "Module-level async initialization became standard without IIFE wrappers.",
@@ -165,10 +165,10 @@
       "date": "2022-06-21",
       "datePrecision": "day",
       "title": "GitHub Copilot generally available",
-      "summary": "GitHub made Copilot generally available on June 21, 2022 — an AI pair programmer in VS Code and JetBrains IDEs for $10/month.",
-      "about": "Copilot turned OpenAI Codex into the first mass-market in-editor autocomplete product — tab-to-accept whole functions from natural language comments. It launched the AI-coding era that Cursor, Codeium, and Copilot Workspace extended, and made GitHub the default distribution channel for developer LLMs.",
+      "summary": "[GitHub] made [Copilot] generally available on June 21, 2022 — an AI pair programmer in VS Code and JetBrains IDEs for $10/month.",
+      "about": "[Copilot] turned OpenAI Codex into the first mass-market in-editor autocomplete product — tab-to-accept whole functions from natural language comments. It launched the AI-coding era that Cursor, Codeium, and [Copilot] Workspace extended, and made [GitHub] the default distribution channel for developer LLMs.",
       "narrative": {
-        "whyChosen": "Copilot was the first widely sold AI pair programmer inside mainstream IDEs.",
+        "whyChosen": "[Copilot] was the first widely sold AI pair programmer inside mainstream IDEs.",
         "whyImportant": "Inline code generation became a paid developer tool category overnight.",
         "problemSolved": "Developers spent hours on boilerplate that LLMs could draft from context and comments."
       },

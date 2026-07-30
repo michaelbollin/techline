@@ -58,8 +58,8 @@
       "date": "2012-03-10",
       "datePrecision": "day",
       "title": "webpack first released",
-      "summary": "Tobias Koppers published webpack 0.1.0 on March 10, 2012 — a module bundler that assembles JavaScript, CSS, and assets for the browser.",
-      "about": "webpack traces `import` dependencies into a dependency graph and emits optimized bundles — with code splitting, loaders, and plugins. It powered the React, Vue, and Angular build pipelines of the 2010s before Vite and esbuild. Example: split vendor and app chunks, tree-shake dead code, and hot-reload during development.",
+      "summary": "Tobias Koppers published webpack 0.1.0 on March 10, 2012 — a module bundler that assembles JavaScript, [CSS], and assets for the browser.",
+      "about": "webpack traces `import` dependencies into a dependency graph and emits optimized bundles — with code splitting, loaders, and plugins. It powered the [React], Vue, and Angular build pipelines of the 2010s before [Vite] and esbuild. Example: split vendor and app chunks, tree-shake dead code, and hot-reload during development.",
       "narrative": {
         "whyChosen": "webpack defined how frontend teams shipped modular JavaScript before native ES modules dominated.",
         "whyImportant": "It made npm packages composable in the browser and set expectations for dev servers and production builds.",

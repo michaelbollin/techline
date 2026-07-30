@@ -64,12 +64,12 @@
       "date": "2019-10",
       "datePrecision": "month",
       "title": "Linear issue tracker launches",
-      "summary": "Linear launched in October 2019 — a fast, keyboard-driven issue tracker built for software teams frustrated with Jira's sluggish UX.",
+      "summary": "Linear launched in October 2019 — a fast, keyboard-driven issue tracker built for software teams frustrated with [Jira]'s sluggish UX.",
       "about": "Linear optimized for speed: instant search, cycles, and GitHub/GitLab sync without admin-heavy configuration. It became the default for YC startups and design-conscious eng teams — proving issue tracking could feel as snappy as a native app while still supporting roadmaps and triage workflows.",
       "narrative": {
-        "whyChosen": "Linear proved Jira alternatives could win on speed and developer experience alone.",
+        "whyChosen": "Linear proved [Jira] alternatives could win on speed and developer experience alone.",
         "whyImportant": "It set a new bar for responsive, keyboard-first project tooling.",
-        "problemSolved": "Jira felt slow and bloated for teams that just wanted fast issue capture and sprints."
+        "problemSolved": "[Jira] felt slow and bloated for teams that just wanted fast issue capture and sprints."
       },
       "category": "software",
       "tags": [

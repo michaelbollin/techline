@@ -3,12 +3,15 @@
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, type ReactNode } from "react";
 
+import { AnimationLayer } from "@/components/animations/animation-layer";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/cn";
+import type { AnimationId } from "@/lib/animations/registry";
 
 type EventModalProps = {
   children: ReactNode;
   returnHref?: string;
+  animationId?: AnimationId | null;
   className?: string;
 };
 
@@ -25,7 +28,12 @@ function CloseIcon() {
   );
 }
 
-export function EventModal({ children, returnHref = "/", className }: EventModalProps) {
+export function EventModal({
+  children,
+  returnHref = "/",
+  animationId = null,
+  className,
+}: EventModalProps) {
   const router = useRouter();
 
   const onClose = useCallback(() => {
@@ -62,12 +70,17 @@ export function EventModal({ children, returnHref = "/", className }: EventModal
     >
       <button
         type="button"
-        className="absolute inset-0 bg-black/40"
+        className={cn(
+          "absolute inset-0 z-0",
+          animationId ? "bg-black/25" : "bg-black/40",
+        )}
         aria-label="Close event details"
         onClick={onClose}
       />
 
-      <div className="relative flex max-h-[calc(100dvh-2rem)] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black bg-white sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl">
+      {animationId && <AnimationLayer animationId={animationId} className="z-[1]" />}
+
+      <div className="relative z-[2] flex h-[60dvh] max-h-[60dvh] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black bg-white sm:h-auto sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl">
         <div className="flex shrink-0 justify-end px-4 pt-4">
           <Button variant="icon" aria-label="Close" onClick={onClose}>
             <CloseIcon />

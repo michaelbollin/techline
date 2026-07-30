@@ -6,10 +6,10 @@
       "date": "1999-12",
       "datePrecision": "month",
       "title": "JavaScript ES3 standardized",
-      "summary": "In December 1999, the ES3 standard was adopted — adding regular expressions, try/catch errors, and better string handling to JavaScript.",
-      "about": "ES3 is the JavaScript the web ran on for a decade — the version every browser agreed on before ES5 and ES2015. It added regular expressions, try/catch exceptions, and clearer error rules, which made complex client-side apps (Gmail-era web apps, early Google Maps) possible.",
+      "summary": "In December 1999, the [ES3] standard was adopted — adding regular expressions, try/catch errors, and better string handling to JavaScript.",
+      "about": "[ES3] is the JavaScript the web ran on for a decade — the version every browser agreed on before ES5 and ES2015. It added regular expressions, try/catch exceptions, and clearer error rules, which made complex client-side apps (Gmail-era web apps, early Google Maps) possible.",
       "narrative": {
-        "whyChosen": "ES3 was the stable JavaScript version the entire web learned and shipped for ten years.",
+        "whyChosen": "[ES3] was the stable JavaScript version the entire web learned and shipped for ten years.",
         "whyImportant": "Developers could finally validate text with regex and catch errors with try/catch — essential for Gmail-era web apps and early Google Maps.",
         "problemSolved": "Early JavaScript was too limited for complex client-side apps; websites needed better string tools and error handling without breaking old pages."
       },

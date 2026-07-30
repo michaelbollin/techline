@@ -56,12 +56,12 @@
       "date": "2018-09-20",
       "datePrecision": "day",
       "title": "Cypress leaves beta",
-      "summary": "Cypress officially left beta on September 20, 2018 — marking 1.0 stability after years of development and millions of npm downloads.",
-      "about": "The GA release signaled Cypress was production-ready for front-end E2E testing — time-travel debugging, automatic waiting, and real browser execution. Teams migrated from flaky Selenium suites to `cy.visit` and `cy.get` for React and Vue apps.",
+      "summary": "[Cypress] officially left beta on September 20, 2018 — marking 1.0 stability after years of development and millions of npm downloads.",
+      "about": "The GA release signaled [Cypress] was production-ready for front-end E2E testing — time-travel debugging, automatic waiting, and real browser execution. [Teams] migrated from flaky Selenium suites to `cy.visit` and `cy.get` for [React] and Vue apps.",
       "narrative": {
-        "whyChosen": "Cypress GA validated in-browser E2E testing as an enterprise-ready practice.",
+        "whyChosen": "[Cypress] GA validated in-browser E2E testing as an enterprise-ready practice.",
         "whyImportant": "It set the reliability bar that Playwright later extended to multi-browser testing.",
-        "problemSolved": "Teams hesitated to adopt Cypress in CI while the framework was still labeled beta."
+        "problemSolved": "[Teams] hesitated to adopt [Cypress] in CI while the framework was still labeled beta."
       },
       "category": "software",
       "tags": [
@@ -105,10 +105,10 @@
       "datePrecision": "day",
       "title": "iPhone XS released",
       "summary": "Apple began selling the iPhone XS on September 21, 2018 — refining the iPhone X with the A12 Bionic and improved cameras.",
-      "about": "The XS established the annual 'pro' tier cadence with better neural engine performance for Core ML and computational photography APIs developers could leverage in camera and AR apps.",
+      "about": "The XS established the annual 'pro' tier cadence with better neural engine performance for Core ML and [computational photography] APIs developers could leverage in camera and [AR] apps.",
       "narrative": {
         "whyChosen": "The XS iterated the premium iPhone template with a much faster neural engine.",
-        "whyImportant": "On-device ML performance became a realistic baseline for iOS camera and AR apps.",
+        "whyImportant": "On-device ML performance became a realistic baseline for [iOS] camera and [AR] apps.",
         "problemSolved": "Premium iPhones needed better ML silicon for real-time vision workloads."
       },
       "category": "hardware",

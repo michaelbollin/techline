@@ -125,10 +125,10 @@
       "date": "2008-07-11",
       "datePrecision": "day",
       "title": "iPhone 3G released",
-      "summary": "Apple began selling the iPhone 3G on July 11, 2008 — adding 3G cellular data and launching in 22 countries alongside the App Store.",
-      "about": "The iPhone 3G made mobile broadband practical — web apps and native App Store downloads over cellular replaced EDGE trickle speeds. GPS enabled location-based services developers still build on. The simultaneous App Store launch turned the 3G into the first iPhone that was both fast on the network and open to third-party software at scale.",
+      "summary": "Apple began selling the iPhone 3G on July 11, 2008 — adding 3G cellular data and launching in 22 countries alongside the [App Store].",
+      "about": "The iPhone 3G made mobile broadband practical — web apps and native [App Store] downloads over cellular replaced EDGE trickle speeds. GPS enabled location-based services developers still build on. The simultaneous [App Store] launch turned the 3G into the first iPhone that was both fast on the network and open to third-party software at scale.",
       "narrative": {
-        "whyChosen": "The iPhone 3G paired 3G networking with the App Store's global rollout.",
+        "whyChosen": "The iPhone 3G paired 3G networking with the [App Store]'s global rollout.",
         "whyImportant": "It made mobile web and app experiences viable over cellular, not just Wi-Fi.",
         "problemSolved": "The original iPhone's EDGE network was too slow for rich mobile web and app downloads."
       },

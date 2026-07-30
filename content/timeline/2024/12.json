@@ -228,10 +228,10 @@
       "date": "2024-12-09",
       "datePrecision": "day",
       "title": "OpenAI Sora released to ChatGPT users",
-      "summary": "OpenAI released Sora Turbo to ChatGPT Plus and Pro users on December 9, 2024 — the first public access to its text-to-video model at sora.com.",
-      "about": "Sora moved from research preview to a consumer product with a faster Turbo variant — generating short clips from text prompts inside ChatGPT subscriptions. It previewed the video generation race that Sora 2 and social features would escalate in 2025.",
+      "summary": "OpenAI released [Sora] Turbo to ChatGPT Plus and Pro users on December 9, 2024 — the first public access to its text-to-video model at sora.com.",
+      "about": "[Sora] moved from research preview to a consumer product with a faster Turbo variant — generating short clips from text prompts inside ChatGPT subscriptions. It previewed the video generation race that [Sora] 2 and social features would escalate in 2025.",
       "narrative": {
-        "whyChosen": "Sora's public launch made generative video a paid consumer feature, not a lab demo.",
+        "whyChosen": "[Sora]'s public launch made generative video a paid consumer feature, not a lab demo.",
         "whyImportant": "Text-to-video entered the same subscription bundle as chat and image models.",
         "problemSolved": "Creators wanted accessible AI video without waiting lists or separate tools."
       },

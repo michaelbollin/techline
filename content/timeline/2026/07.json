@@ -61,11 +61,11 @@
       "date": "2026-07-09",
       "datePrecision": "day",
       "title": "OpenAI GPT-5.6 released",
-      "summary": "OpenAI released GPT-5.6 on July 9, 2026 — Sol, Terra, and Luna variants plus ChatGPT Work, an agent for documents, spreadsheets, and presentations.",
-      "about": "GPT-5.6 arrived after a limited government preview and regulatory clearance — OpenAI's answer to Claude Cowork and the post-Fable agent wave. Sol targeted frontier reasoning, Terra balanced everyday work, and Luna cut cost — while ChatGPT Work merged Codex into a desktop agent for non-coding office tasks.",
+      "summary": "[OpenAI] released [GPT]-5.6 on July 9, 2026 — Sol, Terra, and Luna variants plus [ChatGPT] Work, an agent for documents, spreadsheets, and presentations.",
+      "about": "[GPT]-5.6 arrived after a limited government preview and regulatory clearance — [OpenAI]'s answer to Claude Cowork and the post-Fable agent wave. Sol targeted frontier [reasoning], Terra balanced everyday work, and Luna cut cost — while [ChatGPT] Work merged Codex into a desktop agent for non-coding office tasks.",
       "narrative": {
-        "whyChosen": "GPT-5.6 paired a three-tier model family with OpenAI's first general workplace agent.",
-        "whyImportant": "ChatGPT Work made Codex-class agents available for clerical work, not just code.",
+        "whyChosen": "[GPT]-5.6 paired a three-tier model family with [OpenAI]'s first general workplace agent.",
+        "whyImportant": "[ChatGPT] Work made Codex-class agents available for clerical work, not just code.",
         "problemSolved": "Knowledge workers needed one agent for docs, slides, and spreadsheets without separate tools."
       },
       "category": "software",

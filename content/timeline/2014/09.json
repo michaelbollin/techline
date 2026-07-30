@@ -171,9 +171,9 @@
       "datePrecision": "day",
       "title": "Babel transpiler first released",
       "summary": "Sebastian McKenzie released 6to5 on September 28, 2014 — a JavaScript transpiler that compiled ES6 syntax to ES5 (later renamed Babel).",
-      "about": "Babel lets developers write modern JavaScript — arrow functions, classes, modules — and ship code browsers understand today via build plugins. It powers React, Vue, and Node toolchains through `@babel/preset-env`. Example: write `const greet = () => 'hi'` and Babel outputs `var greet = function () { return 'hi'; }` for older runtimes.",
+      "about": "Babel lets developers write modern JavaScript — arrow functions, classes, modules — and ship code browsers understand today via build plugins. It powers [React], Vue, and [Node] toolchains through `@babel/preset-env`. Example: write `const greet = () => 'hi'` and Babel outputs `var greet = function () { return 'hi'; }` for older runtimes.",
       "narrative": {
-        "whyChosen": "Babel let the ecosystem adopt new ECMAScript features years before engines caught up.",
+        "whyChosen": "Babel let the ecosystem adopt new [ECMAScript] features years before engines caught up.",
         "whyImportant": "It became the compiler layer behind every major frontend build pipeline of the 2010s.",
         "problemSolved": "Browsers lagged behind the ES6 spec; teams could not ship modern syntax without manual rewrites."
       },

@@ -64,12 +64,12 @@
       "datePrecision": "day",
       "title": "Elon Musk: \"OpenAI should be more open\"",
       "quoteText": "OpenAI should be more open imo",
-      "summary": "Years after leaving OpenAI's board, Elon Musk tweets that the research lab he co-founded is not living up to its name.",
-      "about": "Musk helped launch OpenAI as a nonprofit counterweight to Google, then clashed over direction and funding. The tweet foreshadowed his later attacks on OpenAI's Microsoft partnership and his founding of xAI.",
+      "summary": "Years after leaving [OpenAI]'s board, Elon Musk tweets that the research lab he co-founded is not living up to its name.",
+      "about": "Musk helped launch [OpenAI] as a nonprofit counterweight to Google, then clashed over direction and funding. The tweet foreshadowed his later attacks on [OpenAI]'s Microsoft partnership and his founding of xAI.",
       "narrative": {
-        "whyChosen": "The moment a co-founder publicly broke with OpenAI's openness mission.",
+        "whyChosen": "The moment a co-founder publicly broke with [OpenAI]'s openness mission.",
         "whyImportant": "It framed later debates about closed frontier models and corporate control.",
-        "problemSolved": "Observers needed language for the gap between OpenAI's brand and its practices."
+        "problemSolved": "Observers needed language for the gap between [OpenAI]'s brand and its practices."
       },
       "tags": [
         "quote",

@@ -6,7 +6,7 @@
       "date": "2017-03-07",
       "datePrecision": "day",
       "title": "C# 7 released with Visual Studio 2017",
-      "summary": "Microsoft shipped Visual Studio 2017 on March 7, 2017 with C# 7 — adding pattern matching, tuples, and local functions.",
+      "summary": "Microsoft shipped [Visual Studio] 2017 on March 7, 2017 with C# 7 — adding pattern matching, tuples, and local functions.",
       "about": "C# 7's `is` patterns, `switch` expressions, and value tuples made data-oriented code concise. Out variables and ref returns closed gaps with modern languages — part of C#'s rapid evolution on Roslyn.",
       "narrative": {
         "whyChosen": "C# 7 brought algebraic-style patterns to millions of .NET developers.",

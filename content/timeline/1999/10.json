@@ -6,8 +6,8 @@
       "datePrecision": "month",
       "title": "Hunt & Thomas coin DRY — \"Don't Repeat Yourself\"",
       "quoteText": "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.",
-      "summary": "Andy Hunt and Dave Thomas introduce the DRY principle in The Pragmatic Programmer — later shortened to 'Don't repeat yourself.'",
-      "about": "DRY became a battle cry against copy-paste code and duplicated business rules. It is often misapplied to any repeated line of code — the authors meant duplicated knowledge, not literal character matching.",
+      "summary": "Andy Hunt and Dave Thomas introduce the [DRY] principle in The Pragmatic Programmer — later shortened to 'Don't repeat yourself.'",
+      "about": "[DRY] became a battle cry against copy-paste code and duplicated business rules. It is often misapplied to any repeated line of code — the authors meant duplicated knowledge, not literal character matching.",
       "narrative": {
         "whyChosen": "The principle behind every 'extract shared module' code review comment.",
         "whyImportant": "It gave teams vocabulary for eliminating dangerous duplication of logic.",

@@ -6,12 +6,12 @@
       "date": "2014-12",
       "datePrecision": "month",
       "title": "C++14 standardized",
-      "summary": "ISO published C++14 in December 2014 — a minor but widely used update adding generic lambdas, `std::make_unique`, and digit separators.",
-      "about": "C++14 polished C++11 rather than reinventing it: `auto` lambda parameters, return type deduction for functions, and binary literals made daily code shorter. Compilers shipped C++14 support quickly, making it the practical baseline for new C++ projects after 2015.",
+      "summary": "ISO published [C++]14 in December 2014 — a minor but widely used update adding generic lambdas, `std::make_unique`, and digit separators.",
+      "about": "[C++]14 polished [C++]11 rather than reinventing it: `auto` lambda parameters, return type deduction for functions, and binary literals made daily code shorter. Compilers shipped [C++]14 support quickly, making it the practical baseline for new C++ projects after 2015.",
       "narrative": {
-        "whyChosen": "C++14 fixed rough edges in C++11 that every production codebase hit immediately.",
+        "whyChosen": "[C++]14 fixed rough edges in [C++]11 that every production codebase hit immediately.",
         "whyImportant": "`make_unique` and generic lambdas became idiomatic overnight.",
-        "problemSolved": "C++11 left gaps — no `make_unique`, verbose lambdas — that slowed adoption."
+        "problemSolved": "[C++]11 left gaps — no `make_unique`, verbose lambdas — that slowed adoption."
       },
       "category": "software",
       "tags": [

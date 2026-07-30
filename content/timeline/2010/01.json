@@ -161,12 +161,12 @@
       "date": "2010-01-12",
       "datePrecision": "day",
       "title": "npm first released",
-      "summary": "Isaac Schlueter released npm 1.0 on January 12, 2010 — the default package manager for Node.js (an earlier prototype was committed in September 2009).",
-      "about": "npm installs libraries with `npm install express`, publishes packages to the registry, and locks versions in `package-lock.json`. It shaped how JavaScript shares code — from lodash to React to corporate private registries. Every Node project, frontend bundler, and CI install step depends on it.",
+      "summary": "Isaac Schlueter released npm 1.0 on January 12, 2010 — the default package manager for [Node.js] (an earlier prototype was committed in September 2009).",
+      "about": "npm installs libraries with `npm install express`, publishes packages to the registry, and locks versions in `package-lock.json`. It shaped how JavaScript shares code — from lodash to [React] to corporate private registries. Every [Node] project, frontend bundler, and CI install step depends on it.",
       "narrative": {
-        "whyChosen": "npm turned Node from a runtime into an ecosystem with millions of reusable packages.",
+        "whyChosen": "npm turned [Node] from a runtime into an ecosystem with millions of reusable packages.",
         "whyImportant": "It established semver, dependency trees, and publish workflows for modern JavaScript development.",
-        "problemSolved": "Node had no standard way to discover, version, and install third-party modules."
+        "problemSolved": "[Node] had no standard way to discover, version, and install third-party modules."
       },
       "category": "software",
       "tags": [

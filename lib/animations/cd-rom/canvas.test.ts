@@ -3,14 +3,14 @@ import { describe, expect, it } from "vitest";
 import {
   createCdRomCanvasState,
   stepCdRomCanvasState,
-} from "./cd-rom-canvas";
+} from "./canvas";
 
 describe("cd-rom-canvas", () => {
   it("creates discs and data bits for the viewport", () => {
     const state = createCdRomCanvasState(800, 600);
 
-    expect(state.discs).toHaveLength(7);
-    expect(state.bits).toHaveLength(28);
+    expect(state.discs).toHaveLength(8);
+    expect(state.bits).toHaveLength(36);
     expect(state.laserDirection).toBe(1);
   });
 

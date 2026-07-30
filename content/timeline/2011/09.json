@@ -9,9 +9,9 @@
       "summary": "ISO/IEC 14882:2011 was published on September 1, 2011 — the C++11 standard with auto, lambdas, move semantics, and smart pointers.",
       "about": "C++11 was the first major C++ update in 13 years. It added `auto`, range-for loops, lambdas, threads, and smart pointers (`unique_ptr`, `shared_ptr`) — so everyday code needed less boilerplate and fewer manual `delete` calls. Most C++ written today uses C++11 or later.",
       "narrative": {
-        "whyChosen": "C++ had barely changed since 1998 while Java and C# kept adding modern features. C++11 was the catch-up release that made the language feel current again.",
+        "whyChosen": "C++ had barely changed since 1998 while [Java] and C# kept adding modern features. C++11 was the catch-up release that made the language feel current again.",
         "whyImportant": "Developers spent less time fighting the language: `auto` removed repetitive type names, lambdas made callbacks readable, and smart pointers caught memory bugs at compile time instead of in production crashes.",
-        "problemSolved": "C++98 code felt verbose and error-prone next to newer languages — especially around memory management and threading. Teams wanted modern conveniences without giving up C++'s speed."
+        "problemSolved": "C++98 code felt verbose and error-prone next to newer languages — especially around memory management and threading. [Teams] wanted modern conveniences without giving up C++'s speed."
       },
       "category": "software",
       "tags": [

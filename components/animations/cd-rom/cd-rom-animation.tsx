@@ -8,9 +8,14 @@ import {
   renderCdRomCanvas,
   stepCdRomCanvasState,
   type CdRomCanvasState,
-} from "@/lib/timeline/hover-effects/cd-rom-canvas";
+} from "@/lib/animations/cd-rom";
+import { cn } from "@/lib/cn";
 
-export function CdRomIntroducedEffect() {
+type CdRomAnimationProps = {
+  className?: string;
+};
+
+export function CdRomAnimation({ className }: CdRomAnimationProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const stateRef = useRef<CdRomCanvasState | null>(null);
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -83,15 +88,18 @@ export function CdRomIntroducedEffect() {
   if (prefersReducedMotion) {
     return (
       <div
-        className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(180,220,255,0.18),transparent_55%),radial-gradient(circle_at_70%_80%,rgba(255,180,220,0.14),transparent_50%)]"
+        className={cn(
+          "absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(180,220,255,0.18),transparent_55%),radial-gradient(circle_at_70%_80%,rgba(255,180,220,0.14),transparent_50%)]",
+          className,
+        )}
         aria-hidden
       />
     );
   }
 
   return (
-    <div className="absolute inset-0" aria-hidden>
-      <div className="timeline-hover-prismatic-sweep absolute inset-0" />
+    <div className={cn("absolute inset-0", className)} aria-hidden>
+      <div className="cd-rom-prismatic-sweep absolute inset-0" />
       <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" />
     </div>
   );

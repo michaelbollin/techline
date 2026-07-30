@@ -61,8 +61,8 @@
       "datePrecision": "month",
       "title": "Turing: \"Can machines think?\"",
       "quoteText": "I propose to consider the question, 'Can machines think?'",
-      "summary": "Turing opens his 1950 Mind paper by reframing the question of machine intelligence — leading to the imitation game thought experiment.",
-      "about": "Instead of defining 'think,' Turing proposed a conversational test: if a machine's answers are indistinguishable from a human's, the question of thinking becomes less important than observable capability. The opening line launched seventy years of AI debate.",
+      "summary": "[Turing] opens his 1950 Mind paper by reframing the question of [machine intelligence] — leading to the [imitation game] thought experiment.",
+      "about": "Instead of defining 'think,' [Turing] proposed a conversational test: if a machine's answers are indistinguishable from a human's, the question of thinking becomes less important than observable capability. The opening line launched seventy years of AI debate.",
       "narrative": {
         "whyChosen": "The opening sentence of the most cited paper in AI philosophy.",
         "whyImportant": "It shifted the debate from consciousness to measurable behavior.",

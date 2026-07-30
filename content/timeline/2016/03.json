@@ -178,10 +178,10 @@
       "datePrecision": "day",
       "title": "iPhone SE (1st gen) released",
       "summary": "Apple began selling the first iPhone SE on March 31, 2016 — packing iPhone 6S internals into the compact iPhone 5 body.",
-      "about": "The SE kept a 4-inch screen alive for developers who still tested small-size-class layouts. It also offered a lower entry price for markets and users who wanted modern iOS without phablet dimensions.",
+      "about": "The SE kept a 4-inch screen alive for developers who still tested small-size-class layouts. It also offered a lower entry price for markets and users who wanted modern [iOS] without phablet dimensions.",
       "narrative": {
         "whyChosen": "The SE proved Apple would ship a modern small iPhone for holdouts and budget buyers.",
-        "whyImportant": "A compact iOS device kept small-screen layout testing relevant for developers.",
+        "whyImportant": "A compact [iOS] device kept small-screen layout testing relevant for developers.",
         "problemSolved": "Users who wanted a small phone had to buy aging hardware or switch platforms."
       },
       "category": "hardware",

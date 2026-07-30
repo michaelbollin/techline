@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { useCallback, useMemo, useRef, useState, type MouseEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useTimelineKeyboardNavigation } from "@/hooks/use-timeline-keyboard-navigation";
@@ -20,8 +20,8 @@ import type { TimelineEvent } from "@/lib/timeline/schema";
 import { SiteBrand } from "@/components/layout/site-brand";
 import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
 
+import { useTimelineHoverEvent } from "./hover-effects/timeline-hover-effect-context";
 import { TimelineFilterSidebar, TimelineFilterTrigger } from "./timeline-filters";
-import { TimelineHoverEffectsLayer } from "./hover-effects/timeline-hover-effects-layer";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelinePanArrows } from "./timeline-pan-arrows";
@@ -41,6 +41,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const { width, height } = useContainerSize(containerRef);
   const router = useRouter();
   const pathname = usePathname();
+  const { setHoveredEventId } = useTimelineHoverEvent();
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
@@ -132,6 +133,16 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     return filteredEvents.some((item) => item.id === hovered.id) ? hovered : null;
   }, [filteredEvents, hovered]);
 
+  useEffect(() => {
+    setHoveredEventId(displayedHovered?.id ?? null);
+  }, [displayedHovered?.id, setHoveredEventId]);
+
+  useEffect(() => {
+    return () => {
+      setHoveredEventId(null);
+    };
+  }, [setHoveredEventId]);
+
   const openEvent = (event: PlottedEvent) => {
     router.push(eventPath(event.slug, { filterPathKey }), { scroll: false });
   };
@@ -152,7 +163,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
       <div className="flex min-h-0 flex-1">
         <div className="flex min-h-0 min-w-0 flex-1 flex-col">
-          <header className="flex min-h-10 shrink-0 items-center py-5 pr-[3.75rem] pb-4 pl-6 sm:pl-8 sm:pr-[4.25rem]">
+          <header className="relative z-20 flex min-h-10 shrink-0 items-center py-5 pr-[3.75rem] pb-4 pl-6 sm:pl-8 sm:pr-[4.25rem]">
             <SiteBrand className="shrink-0" onClick={handleLogoClick} />
           </header>
 
@@ -255,8 +266,6 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               />
             )}
 
-            <TimelineHoverEffectsLayer eventId={displayedHovered?.id ?? null} />
-
             <TimelinePanArrows
               canPanEarlier={showPanEarlier}
               canPanLater={showPanLater}
@@ -279,7 +288,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
         />
       </div>
 
-      <div className="absolute top-5 right-6 z-20 flex h-10 items-center overflow-visible sm:right-8">
+      <div className="absolute top-5 right-6 z-30 flex h-10 items-center overflow-visible sm:right-8">
         <TimelineFilterTrigger
           isOpen={filtersOpen}
           activeCount={activeFilterCount}

@@ -111,10 +111,10 @@
       "date": "1972",
       "datePrecision": "year",
       "title": "Karen Spärck Jones publishes IDF",
-      "summary": "Karen Spärck Jones introduced inverse document frequency (IDF) in 1972 — a cornerstone of search ranking and information retrieval.",
-      "about": "IDF weights rare terms higher in search — the 'idf' in tf-idf used by Elasticsearch, Lucene, and early Google. Her work predates the web but powers every search engine developers integrate with.",
+      "summary": "Karen Spärck Jones introduced inverse document frequency ([IDF]) in 1972 — a cornerstone of search ranking and information retrieval.",
+      "about": "[IDF] weights rare terms higher in search — the 'idf' in tf-idf used by Elasticsearch, Lucene, and early Google. Her work predates the web but powers every search engine developers integrate with.",
       "narrative": {
-        "whyChosen": "IDF is foundational math behind modern search ranking.",
+        "whyChosen": "[IDF] is foundational math behind modern search ranking.",
         "whyImportant": "It quantified term importance across document collections.",
         "problemSolved": "Keyword matching alone ranked common words as important as distinctive ones."
       },

@@ -166,12 +166,12 @@
       "date": "2025-02-27",
       "datePrecision": "day",
       "title": "OpenAI GPT-4.5 released",
-      "summary": "OpenAI released GPT-4.5 on February 27, 2025 — a larger chat model with improved writing, world knowledge, and emotional intelligence before GPT-5.",
-      "about": "GPT-4.5 was OpenAI's last major GPT-4.x chat model: warmer tone, better factual recall, and strong creative writing. It bridged GPT-4o and the unified GPT-5 system — and briefly served as the top ChatGPT tier for users who wanted scale without o-series reasoning latency.",
+      "summary": "[OpenAI] released [GPT]-4.5 on February 27, 2025 — a larger chat model with improved writing, world knowledge, and emotional intelligence before [GPT]-5.",
+      "about": "[GPT]-4.5 was [OpenAI]'s last major [GPT]-4.x chat model: warmer tone, better factual recall, and strong creative writing. It bridged [GPT]-4o and the unified [GPT]-5 system — and briefly served as the top [ChatGPT] tier for users who wanted scale without o-series [reasoning] latency.",
       "narrative": {
-        "whyChosen": "GPT-4.5 was OpenAI's final large chat-model release before the GPT-5 generation.",
+        "whyChosen": "[GPT]-4.5 was [OpenAI]'s final large chat-model release before the [GPT]-5 generation.",
         "whyImportant": "It showed incremental scaling still mattered for conversational quality and knowledge work.",
-        "problemSolved": "Users wanted a more capable general chat model without switching to slower reasoning modes."
+        "problemSolved": "Users wanted a more capable general chat model without switching to slower [reasoning] modes."
       },
       "category": "software",
       "tags": [

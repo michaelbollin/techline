@@ -4,7 +4,16 @@ import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
 
 import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
+import { TimelineHoverEffectProvider } from "./hover-effects/timeline-hover-effect-context";
 import { ModernTimeline } from "./modern-timeline";
+
+function renderModernTimeline(events: Parameters<typeof ModernTimeline>[0]["events"], filterPathKey = "") {
+  return render(
+    <TimelineHoverEffectProvider>
+      <ModernTimeline events={events} filterPathKey={filterPathKey} />
+    </TimelineHoverEffectProvider>,
+  );
+}
 
 vi.mock("@/hooks/use-container-size", () => ({
   useContainerSize: () => ({ width: 1200, height: 800 }),
@@ -31,7 +40,7 @@ describe("ModernTimeline", () => {
       makeTimelineEvent({ id: "evt-1", slug: "first-event", title: "First event", importance: 0 }),
     ];
 
-    render(<ModernTimeline events={events} />);
+    renderModernTimeline(events);
 
     expect(screen.getByRole("region", { name: "Interactive timeline" })).toBeInTheDocument();
     expect(screen.getAllByRole("button", { name: "First event, January 15, 2000" }).length).toBeGreaterThan(0);
@@ -44,7 +53,7 @@ describe("ModernTimeline", () => {
     const user = userEvent.setup();
     const events = [makeTimelineEvent({ tags: ["ai"] })];
 
-    render(<ModernTimeline events={events} filterPathKey="web" />);
+    renderModernTimeline(events, "web");
 
     expect(screen.getByText("No events match the selected filters.")).toBeInTheDocument();
 

@@ -5,8 +5,10 @@ import { useMemo, type CSSProperties } from "react";
 
 import { EventModal } from "@/components/timeline/event-modal";
 import { EventPageContent } from "@/components/timeline/event-page-content";
+import { TimelineHoverEffectProvider } from "@/components/timeline/hover-effects/timeline-hover-effect-context";
 import { ResponsiveTimeline } from "@/components/timeline/responsive-timeline";
 import { SiteFooter } from "@/components/layout/site-footer";
+import { getAnimationIdForEvent } from "@/lib/animations/registry";
 import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
 import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import { getEventById, getEventBySlug } from "@/lib/timeline/routing";
@@ -40,8 +42,10 @@ export function TimelineShell({ events }: TimelineShellProps) {
       .filter((item): item is TimelineEvent => Boolean(item));
   }, [event, events]);
 
+  const modalAnimationId = event ? getAnimationIdForEvent(event.id) : null;
+
   return (
-    <>
+    <TimelineHoverEffectProvider modalEventId={event?.id ?? null}>
       <div
         className="flex h-[100dvh] flex-col overflow-hidden bg-white"
         style={
@@ -57,7 +61,7 @@ export function TimelineShell({ events }: TimelineShellProps) {
       </div>
 
       {event && (
-        <EventModal returnHref={returnHref}>
+        <EventModal returnHref={returnHref} animationId={modalAnimationId}>
           <EventPageContent
             event={event}
             related={related}
@@ -67,6 +71,6 @@ export function TimelineShell({ events }: TimelineShellProps) {
           />
         </EventModal>
       )}
-    </>
+    </TimelineHoverEffectProvider>
   );
 }

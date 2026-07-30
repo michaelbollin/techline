@@ -6,12 +6,12 @@
       "date": "2013-11-04",
       "datePrecision": "day",
       "title": "PostCSS released",
-      "summary": "Andrey Sitnik released PostCSS 0.1.0 on November 4, 2013 — a framework for transforming CSS with JavaScript plugins.",
-      "about": "PostCSS parses CSS into an AST, runs plugins (Autoprefixer, cssnano, Tailwind), and outputs transformed styles — a postprocessor pipeline that works with any preprocessor or plain CSS. It became the backbone of modern front-end builds, powering millions of weekly npm downloads through webpack, Vite, and Create React App.",
+      "summary": "Andrey Sitnik released PostCSS 0.1.0 on November 4, 2013 — a framework for transforming [CSS] with JavaScript plugins.",
+      "about": "PostCSS parses [CSS] into an AST, runs plugins ([Autoprefixer], cssnano, [Tailwind]), and outputs transformed styles — a postprocessor pipeline that works with any preprocessor or plain [CSS]. It became the backbone of modern front-end builds, powering millions of weekly npm downloads through webpack, [Vite], and Create [React] App.",
       "narrative": {
-        "whyChosen": "PostCSS created an extensible plugin ecosystem for CSS transformation.",
-        "whyImportant": "It separated CSS authoring from build-time transforms like prefixing, minification, and future syntax.",
-        "problemSolved": "Each CSS tool reinvented parsing and transformation instead of sharing a common pipeline."
+        "whyChosen": "PostCSS created an extensible plugin ecosystem for [CSS] transformation.",
+        "whyImportant": "It separated [CSS] authoring from build-time transforms like prefixing, minification, and future syntax.",
+        "problemSolved": "Each [CSS] tool reinvented parsing and transformation instead of sharing a common pipeline."
       },
       "category": "software",
       "tags": [

@@ -6,12 +6,12 @@
       "date": "2009-03-19",
       "datePrecision": "day",
       "title": "Internet Explorer 8 released",
-      "summary": "Microsoft released Internet Explorer 8 on March 19, 2009 with accelerators, Web Slices, InPrivate browsing, and improved standards support.",
-      "about": "IE 8 was Microsoft's last major pre-Chrome browser push — adding developer tools, better CSS 2.1 support, and compatibility modes for IE 7/6 sites. It held majority market share while Firefox and Chrome gained ground.",
+      "summary": "Microsoft released [Internet Explorer] 8 on March 19, 2009 with accelerators, Web Slices, InPrivate browsing, and improved standards support.",
+      "about": "[IE] 8 was Microsoft's last major pre-Chrome browser push — adding developer tools, better [CSS] 2.1 support, and compatibility modes for [IE] 7/6 sites. It held majority market share while [Firefox] and Chrome gained ground.",
       "narrative": {
-        "whyChosen": "IE 8 was the final dominant Internet Explorer before Chrome reshaped the market.",
+        "whyChosen": "[IE] 8 was the final dominant [Internet Explorer] before Chrome reshaped the market.",
         "whyImportant": "InPrivate and accelerators influenced privacy and browser extension patterns.",
-        "problemSolved": "IE 7 lagged on standards and privacy features as competitors innovated faster."
+        "problemSolved": "[IE] 7 lagged on standards and privacy features as competitors innovated faster."
       },
       "category": "software",
       "tags": [

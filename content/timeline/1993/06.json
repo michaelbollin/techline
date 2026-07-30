@@ -6,10 +6,10 @@
       "date": "1993-06-09",
       "datePrecision": "day",
       "title": "DEF CON hacker conference begins",
-      "summary": "The first DEF CON opened on June 9, 1993 in Las Vegas — a party for hackers that grew into the world's largest underground security conference.",
-      "about": "Jeff Moss (Dark Tangent) invited phone phreaks and BBS sysops to the Sands Hotel; thirty years later DEF CON hosts tens of thousands of researchers, CTF competitors, and vendor booths. Talks on ATM jackpotting, car hacking, and election security start here before they hit mainstream news — the cultural bridge between warez kids and professional red teams.",
+      "summary": "The first [DEF CON] opened on June 9, 1993 in Las Vegas — a party for hackers that grew into the world's largest underground security conference.",
+      "about": "Jeff Moss (Dark Tangent) invited phone phreaks and BBS sysops to the Sands Hotel; thirty years later [DEF CON] hosts tens of thousands of researchers, CTF competitors, and vendor booths. Talks on ATM jackpotting, car hacking, and election security start here before they hit mainstream news — the cultural bridge between warez kids and professional red teams.",
       "narrative": {
-        "whyChosen": "DEF CON became the annual reunion of hacker culture turned security industry.",
+        "whyChosen": "[DEF CON] became the annual reunion of hacker culture turned security industry.",
         "whyImportant": "It normalized responsible disclosure and recruited talent into corporate security roles.",
         "problemSolved": "Hackers lacked a legitimate venue to meet, compete, and share research without prosecution."
       },

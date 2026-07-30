@@ -60,7 +60,7 @@
       "date": "2021-11-08",
       "datePrecision": "day",
       "title": "C# 10 released with .NET 6",
-      "summary": "C# 10 shipped with .NET 6 on November 8, 2021 — adding file-scoped namespaces, record structs, global usings, and `InterpolatedStringHandler`.",
+      "summary": "C# 10 shipped with [.NET 6] on November 8, 2021 — adding file-scoped namespaces, record structs, global usings, and `InterpolatedStringHandler`.",
       "about": "C# 10 reduced boilerplate: `namespace X;` replaced brace blocks; `global using` cleaned up imports; record structs brought value semantics to small types. Interpolated string handlers enabled zero-allocation formatting in hot paths.",
       "narrative": {
         "whyChosen": "C# 10's file-scoped namespaces and global usings cleaned up everyday .NET code.",

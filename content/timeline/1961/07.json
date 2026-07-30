@@ -22,10 +22,10 @@
       "date": "1961-07",
       "datePrecision": "month",
       "title": "Tony Hoare publishes Quicksort",
-      "summary": "Tony Hoare published the Quicksort algorithm in July 1961 — a divide-and-conquer sorting method still taught in every algorithms course.",
-      "about": "Quicksort became the default in-memory sort in standard libraries and a interview staple — average O(n log n) with elegant recursion. Hoare conceived it while working on machine translation sorting at Moscow State University.",
+      "summary": "Tony Hoare published the [Quicksort] algorithm in July 1961 — a divide-and-conquer sorting method still taught in every algorithms course.",
+      "about": "[Quicksort] became the default in-memory sort in standard libraries and a interview staple — average O(n log n) with elegant recursion. Hoare conceived it while working on machine translation sorting at Moscow State University.",
       "narrative": {
-        "whyChosen": "Quicksort is among the most influential algorithms in computer science education and practice.",
+        "whyChosen": "[Quicksort] is among the most influential algorithms in computer science education and practice.",
         "whyImportant": "It demonstrated divide-and-conquer sorting with in-place performance.",
         "problemSolved": "Sorting large datasets on tape and memory required faster than O(n²) methods."
       },

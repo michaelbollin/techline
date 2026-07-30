@@ -6,12 +6,12 @@
       "date": "2015-04-07",
       "datePrecision": "day",
       "title": "Netlify launched",
-      "summary": "Mathias Biilmann and Christian Bach publicly launched Netlify on April 7, 2015 — a Git-based platform for deploying static sites and JAMstack apps to a global CDN.",
-      "about": "Netlify connected Git pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before Vercel dominated React SSR.",
+      "summary": "Mathias Biilmann and Christian Bach publicly launched [Netlify] on April 7, 2015 — a Git-based platform for deploying static sites and JAMstack apps to a global CDN.",
+      "about": "[Netlify] connected Git pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before [Vercel] dominated [React] [SSR].",
       "narrative": {
-        "whyChosen": "Netlify pioneered Git-to-CDN deploys for static and JAMstack sites.",
+        "whyChosen": "[Netlify] pioneered Git-to-CDN deploys for static and JAMstack sites.",
         "whyImportant": "It made frontend deploys as simple as `git push` for thousands of developers.",
-        "problemSolved": "Teams manually FTP'd build artifacts or managed nginx configs for every static site."
+        "problemSolved": "[Teams] manually [FTP]'d build artifacts or managed [nginx] configs for every static site."
       },
       "category": "software",
       "tags": [

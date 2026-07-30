@@ -58,11 +58,11 @@
       "date": "2012-09-21",
       "datePrecision": "day",
       "title": "iPhone 5 released",
-      "summary": "Apple began selling the iPhone 5 on September 21, 2012 — taller 4-inch display, LTE, and the Lightning connector.",
-      "about": "Lightning replaced the 30-pin dock connector — forcing accessory and hardware accessory developers to redesign. The taller screen broke the fixed 320×480 pt layout assumptions early iOS apps relied on, pushing Auto Layout adoption.",
+      "summary": "Apple began selling the iPhone 5 on September 21, 2012 — taller 4-inch display, [LTE], and the [Lightning] connector.",
+      "about": "[Lightning] replaced the 30-pin dock connector — forcing accessory and hardware accessory developers to redesign. The taller screen broke the fixed 320×480 pt layout assumptions early iOS apps relied on, pushing Auto Layout adoption.",
       "narrative": {
         "whyChosen": "The iPhone 5 changed the iOS screen shape and connector standard overnight.",
-        "whyImportant": "LTE and a new aspect ratio reshaped mobile layout and peripheral ecosystems.",
+        "whyImportant": "[LTE] and a new aspect ratio reshaped mobile layout and peripheral ecosystems.",
         "problemSolved": "Developers designed for a square-ish 3.5-inch canvas and a decade-old dock standard."
       },
       "category": "hardware",

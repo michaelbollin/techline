@@ -171,7 +171,7 @@
       "datePrecision": "day",
       "title": "iPhone 13 released",
       "summary": "Apple released the iPhone 13 on September 24, 2021 — improved battery life, smaller notch, and Cinematic mode video.",
-      "about": "Incremental gains in battery and video APIs kept iOS as the reference for mobile cinematography apps. The smaller notch slightly adjusted safe-area metrics developers had to handle.",
+      "about": "Incremental gains in battery and video APIs kept [iOS] as the reference for mobile cinematography apps. The smaller notch slightly adjusted safe-area metrics developers had to handle.",
       "narrative": {
         "whyChosen": "The iPhone 13 refined the 5G iPhone with major battery and video upgrades.",
         "whyImportant": "Cinematic mode showed computational video could be a default camera feature.",

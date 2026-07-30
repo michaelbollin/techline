@@ -6,12 +6,12 @@
       "date": "2022-12-14",
       "datePrecision": "day",
       "title": "SvelteKit 1.0 released",
-      "summary": "The Svelte team shipped SvelteKit 1.0 on December 14, 2022 — a full-stack framework with file-based routing, SSR, and compile-time optimizations.",
-      "about": "SvelteKit pairs Svelte's compile-away framework with adapters for Vercel, Netlify, and Node — shipping less JavaScript to the browser than many React SPAs. It became the go-to for teams wanting React-like productivity with smaller bundles and simpler mental models.",
+      "summary": "The Svelte team shipped SvelteKit 1.0 on December 14, 2022 — a full-stack framework with file-based routing, [SSR], and compile-time optimizations.",
+      "about": "SvelteKit pairs Svelte's compile-away framework with adapters for [Vercel], [Netlify], and [Node] — shipping less JavaScript to the browser than many [React] SPAs. It became the go-to for teams wanting [React]-like productivity with smaller bundles and simpler mental models.",
       "narrative": {
         "whyChosen": "SvelteKit 1.0 gave the 'disappearing framework' a production-ready app shell.",
         "whyImportant": "It validated compile-time frameworks as an alternative to virtual-DOM giants.",
-        "problemSolved": "Svelte needed routing, SSR, and deployment adapters before teams could build real products on it."
+        "problemSolved": "Svelte needed routing, [SSR], and deployment adapters before teams could build real products on it."
       },
       "category": "software",
       "tags": [

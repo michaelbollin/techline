@@ -115,11 +115,11 @@
       "datePrecision": "month",
       "title": "Andy Jassy named AWS CEO",
       "summary": "Amazon named Andy Jassy CEO of Amazon Web Services in April 2016 — formalizing his leadership of the cloud division he built since 2003.",
-      "about": "Jassy grew AWS from an internal infrastructure experiment into the template for modern cloud computing — EC2, S3, and managed services changed how startups and enterprises deploy software.",
+      "about": "Jassy grew [AWS] from an internal infrastructure experiment into the template for modern cloud computing — EC2, S3, and managed services changed how startups and enterprises deploy software.",
       "narrative": {
         "whyChosen": "Jassy led the business that defined public cloud infrastructure.",
-        "whyImportant": "AWS made on-demand compute and storage the default deployment model for new software.",
-        "problemSolved": "Teams bought servers months in advance instead of scaling elastically with demand."
+        "whyImportant": "[AWS] made on-demand compute and storage the default deployment model for new software.",
+        "problemSolved": "[Teams] bought servers months in advance instead of scaling elastically with demand."
       },
       "category": "company",
       "tags": [

@@ -9,7 +9,7 @@
       "summary": "Ross Ihaka and Robert Gentleman posted R to StatLib and announced it on the s-news mailing list in August 1993.",
       "about": "R is the open-source environment for statistics and data visualization — data frames, linear models, ggplot2 charts, and CRAN's package ecosystem. Data scientists, epidemiologists, and quant researchers use it for exploratory analysis, publishing reproducible research, and building Shiny web apps.",
       "narrative": {
-        "whyChosen": "R became the lingua franca of academic and open statistical computing, rivaling commercial S-PLUS.",
+        "whyChosen": "R became the lingua franca of academic and open [statistical computing], rivaling commercial S-PLUS.",
         "whyImportant": "It proved a free, extensible stats language could outgrow its university origins and power industry data science.",
         "problemSolved": "Statisticians needed affordable, programmable software for teaching and research — commercial packages were expensive."
       },

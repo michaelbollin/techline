@@ -210,10 +210,10 @@
       "date": "2015-05-21",
       "datePrecision": "day",
       "title": "Rollup first released",
-      "summary": "Rich Harris published Rollup 0.3.0 on May 21, 2015 — the first meaningful public ES module bundler release with tree-shaking (earlier 0.1.x tags were experiments).",
-      "about": "Rollup analyzes static `import`/`export` graphs and eliminates dead code — producing smaller bundles than Browserify or early webpack for library authors. It powers Vue, React tooling, and many npm packages shipped as ES modules. Example: importing one function from lodash-es ships only that function, not the entire library.",
+      "summary": "Rich Harris published [Rollup] 0.3.0 on May 21, 2015 — the first meaningful public ES module bundler release with tree-shaking (earlier 0.1.x tags were experiments).",
+      "about": "[Rollup] analyzes static `import`/`export` graphs and eliminates dead code — producing smaller bundles than Browserify or early webpack for library authors. It powers Vue, [React] tooling, and many npm packages shipped as ES modules. Example: importing one function from lodash-es ships only that function, not the entire library.",
       "narrative": {
-        "whyChosen": "Rollup pioneered tree-shaking for ES modules at a time when webpack optimized CommonJS bundles.",
+        "whyChosen": "[Rollup] pioneered tree-shaking for ES modules at a time when webpack optimized CommonJS bundles.",
         "whyImportant": "It influenced webpack 2+ and proved ES module semantics enable smaller production builds.",
         "problemSolved": "Bundlers shipped entire dependency trees even when apps used a fraction of each library."
       },
@@ -315,12 +315,12 @@
       "date": "2015-05-21",
       "datePrecision": "day",
       "title": "Gatsby open sourced",
-      "summary": "Kyle Mathews open sourced Gatsby on May 21, 2015 — a React-based static site generator with GraphQL data layer.",
-      "about": "Gatsby pre-renders React pages at build time and pulls data via GraphQL from Markdown, CMSs, and APIs — blazing fast sites with component ergonomics. It powered the Jamstack movement alongside Netlify before Next.js static generation absorbed much of the market.",
+      "summary": "Kyle Mathews open sourced Gatsby on May 21, 2015 — a [React]-based static site generator with GraphQL data layer.",
+      "about": "Gatsby pre-renders [React] pages at build time and pulls data via GraphQL from Markdown, CMSs, and APIs — blazing fast sites with component ergonomics. It powered the [Jamstack] movement alongside [Netlify] before Next.js static generation absorbed much of the market.",
       "narrative": {
-        "whyChosen": "Gatsby made React static sites production-ready with a unified data layer.",
-        "whyImportant": "It proved static generation and React components could coexist at scale.",
-        "problemSolved": "React SPAs were slow to load; teams needed SSR/SSG without abandoning components."
+        "whyChosen": "Gatsby made [React] static sites production-ready with a unified data layer.",
+        "whyImportant": "It proved static generation and [React] components could coexist at scale.",
+        "problemSolved": "[React] SPAs were slow to load; teams needed [SSR]/SSG without abandoning components."
       },
       "category": "software",
       "tags": [

@@ -61,10 +61,10 @@
       "date": "2017-11-03",
       "datePrecision": "day",
       "title": "iPhone X released",
-      "summary": "Apple began selling the iPhone X on November 3, 2017 — Face ID, an edge-to-edge OLED display, and the notch.",
-      "about": "The X eliminated the home button and introduced safe areas — every iOS app had to adapt layouts for the notch and gesture navigation. Face ID APIs replaced Touch ID for secure auth in a generation of flagship apps.",
+      "summary": "Apple began selling the iPhone X on November 3, 2017 — [Face ID], an edge-to-edge [OLED] display, and the notch.",
+      "about": "The X eliminated the home button and introduced safe areas — every iOS app had to adapt layouts for the notch and gesture navigation. [Face ID] APIs replaced Touch ID for secure auth in a generation of flagship apps.",
       "narrative": {
-        "whyChosen": "The iPhone X redefined iOS layout with the notch, gestures, and Face ID.",
+        "whyChosen": "The iPhone X redefined iOS layout with the notch, gestures, and [Face ID].",
         "whyImportant": "Safe-area insets and facial authentication became mandatory considerations for iOS developers.",
         "problemSolved": "Bezels and home buttons dominated phone design; secure face unlock was not mainstream."
       },

@@ -6,12 +6,12 @@
       "date": "2019-05-13",
       "datePrecision": "day",
       "title": "Tailwind CSS 1.0 released",
-      "summary": "Adam Wathan released Tailwind CSS 1.0 on May 13, 2019 — the first stable version of the utility-first CSS framework.",
-      "about": "Tailwind 1.0 (`flex`, `pt-4`, `text-lg`) let developers style UIs by composing utility classes instead of writing custom CSS — paired with PurgeCSS for production bundles. It challenged Bootstrap's component model and became the default stack with React, Next.js, and Laravel.",
+      "summary": "Adam Wathan released [Tailwind] [CSS] 1.0 on May 13, 2019 — the first stable version of the utility-first [CSS] framework.",
+      "about": "[Tailwind] 1.0 (`flex`, `pt-4`, `text-lg`) let developers style UIs by composing utility classes instead of writing custom [CSS] — paired with PurgeCSS for production bundles. It challenged Bootstrap's component model and became the default stack with [React], Next.js, and Laravel.",
       "narrative": {
-        "whyChosen": "Tailwind 1.0 validated utility-first CSS as a mainstream styling approach.",
+        "whyChosen": "[Tailwind] 1.0 validated utility-first [CSS] as a mainstream styling approach.",
         "whyImportant": "Composable utilities replaced hand-written stylesheets for thousands of design systems.",
-        "problemSolved": "Naming CSS classes and fighting specificity wars slowed front-end iteration."
+        "problemSolved": "Naming [CSS] classes and fighting specificity wars slowed front-end iteration."
       },
       "category": "software",
       "tags": [

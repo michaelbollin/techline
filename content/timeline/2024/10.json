@@ -52,10 +52,10 @@
       "date": "2024-10",
       "datePrecision": "month",
       "title": "C++23 standardized",
-      "summary": "ISO published C++23 as ISO/IEC 14882:2024 in October 2024 — adding `std::expected`, `if consteval`, `std::print`, and multidimensional subscript operators.",
-      "about": "C++23 brought error handling without exceptions (`expected`), compile-time reflection hooks, and formatted printing in the standard library. Technical work finished in 2023; ISO publication followed in 2024 after administrative processing.",
+      "summary": "ISO published [C++]23 as ISO/IEC 14882:2024 in October 2024 — adding `std::expected`, `if consteval`, `std::print`, and multidimensional subscript operators.",
+      "about": "[C++]23 brought error handling without exceptions (`expected`), compile-time reflection hooks, and formatted printing in the standard library. Technical work finished in 2023; ISO publication followed in 2024 after administrative processing.",
       "narrative": {
-        "whyChosen": "C++23 added error and printing primitives long requested by systems programmers.",
+        "whyChosen": "[C++]23 added error and printing primitives long requested by systems programmers.",
         "whyImportant": "`std::expected` and `print` reduce dependency on third-party libraries for common patterns.",
         "problemSolved": "C++ lacked standard error-return types and simple formatted output without iostreams boilerplate."
       },

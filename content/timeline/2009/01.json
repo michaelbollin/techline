@@ -6,10 +6,10 @@
       "date": "2009-01-03",
       "datePrecision": "day",
       "title": "Bitcoin genesis block mined",
-      "summary": "Satoshi Nakamoto mined the Bitcoin genesis block on January 3, 2009 — launching the first block in a proof-of-work chain that still runs today.",
+      "summary": "Satoshi Nakamoto mined the [Bitcoin] genesis block on January 3, 2009 — launching the first block in a [proof-of-work] chain that still runs today.",
       "about": "Block 0 embedded a Times headline about bank bailouts and began the 50 BTC subsidy schedule halving every four years. Running `bitcoind` meant joining a peer network with no company, no CEO, and no pre-mine — a template every altcoin and smart-contract chain later copied or reacted against.",
       "narrative": {
-        "whyChosen": "The genesis block turned the Bitcoin whitepaper into running software.",
+        "whyChosen": "The genesis block turned the [Bitcoin] whitepaper into running software.",
         "whyImportant": "It proved a decentralized ledger could launch without a trusted issuer.",
         "problemSolved": "Digital cash needed a live network, not just a theoretical design."
       },

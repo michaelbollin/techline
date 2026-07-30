@@ -56,12 +56,12 @@
       "datePrecision": "day",
       "title": "Jonathan Schwartz: \"innovate, not litigate\"",
       "quoteText": "We decided to innovate, not litigate.",
-      "summary": "Sun CEO Jonathan Schwartz responds to Microsoft's patent threats against Linux — offering Sun's patent portfolio to defend open source instead of suing.",
-      "about": "Press dubbed Microsoft's campaign 'patent terrorism'; Schwartz framed Sun's choice as building better products rather than lawyering rivals. The blog post became a rallying cry during the open-source wars of the 2000s.",
+      "summary": "Sun CEO Jonathan Schwartz responds to Microsoft's [patent] threats against Linux — offering Sun's [patent] portfolio to defend [open source] instead of suing.",
+      "about": "Press dubbed Microsoft's campaign '[patent] terrorism'; Schwartz framed Sun's choice as building better products rather than lawyering rivals. The blog post became a rallying cry during the open-source wars of the 2000s.",
       "narrative": {
         "whyChosen": "Sun's public line when Microsoft threatened Linux with unspecified patents.",
         "whyImportant": "It contrasted litigation strategy with open-source ecosystem building.",
-        "problemSolved": "The Linux community needed corporate allies willing to counter patent FUD."
+        "problemSolved": "The Linux community needed corporate allies willing to counter [patent] FUD."
       },
       "tags": [
         "quote",

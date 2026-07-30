@@ -7,9 +7,9 @@
       "datePrecision": "month",
       "title": "Vue.js publicly released",
       "summary": "Evan You released Vue.js in February 2014 — a progressive framework extracting Angular's data binding without the weight.",
-      "about": "Vue offers reactive data binding, single-file components, and optional routing/state (Vue Router, Pinia) — adopt incrementally on existing pages or build full SPAs. Popular in Laravel stacks, Chinese tech ecosystems, and teams wanting React-like ergonomics with gentler learning curve.",
+      "about": "Vue offers reactive data binding, single-file components, and optional routing/state (Vue Router, Pinia) — adopt incrementally on existing pages or build full SPAs. Popular in Laravel stacks, Chinese tech ecosystems, and teams wanting [React]-like ergonomics with gentler learning curve.",
       "narrative": {
-        "whyChosen": "Vue became the third pillar of modern frontends alongside React and Angular.",
+        "whyChosen": "Vue became the third pillar of modern frontends alongside [React] and Angular.",
         "whyImportant": "It proved a progressive, incrementally adoptable framework could compete with all-in SPA platforms.",
         "problemSolved": "AngularJS felt heavy for quick prototypes; You wanted reactive templates and components in a small package."
       },
@@ -53,12 +53,12 @@
       "date": "2014-02-25",
       "datePrecision": "day",
       "title": "OpenID Connect 1.0 published",
-      "summary": "The OpenID Foundation published OpenID Connect Core 1.0 on February 25, 2014 — an identity layer on top of OAuth 2.0 for login and profile sharing.",
-      "about": "OpenID Connect adds ID tokens (JWTs), a UserInfo endpoint, and standardized scopes to OAuth — `Sign in with Google` flows use it under the hood. Relying parties verify issuer, audience, and signature instead of inventing login protocols. Example: exchange an authorization code for an ID token containing `sub`, `email`, and `name` claims.",
+      "summary": "The OpenID Foundation published [OpenID Connect] Core 1.0 on February 25, 2014 — an identity layer on top of [OAuth] 2.0 for login and profile sharing.",
+      "about": "[OpenID Connect] adds ID tokens (JWTs), a UserInfo endpoint, and standardized scopes to [OAuth] — `Sign in with Google` flows use it under the hood. Relying parties verify issuer, audience, and signature instead of inventing login protocols. Example: exchange an authorization code for an ID token containing `sub`, `email`, and `name` claims.",
       "narrative": {
-        "whyChosen": "OpenID Connect standardized federated login on the OAuth 2.0 foundation.",
+        "whyChosen": "[OpenID Connect] standardized federated login on the [OAuth] 2.0 foundation.",
         "whyImportant": "It replaced proprietary social-login hacks with interoperable identity tokens across providers.",
-        "problemSolved": "OAuth 2.0 alone did not define how to authenticate users or share profile data securely."
+        "problemSolved": "[OAuth] 2.0 alone did not define how to authenticate users or share profile data securely."
       },
       "category": "protocol",
       "tags": [
@@ -274,10 +274,10 @@
       "date": "2014-02-12",
       "datePrecision": "day",
       "title": "Slack team messaging launches",
-      "summary": "Stewart Butterfield's Slack launched publicly on February 12, 2014 — a channel-based chat app born from a failed game startup that replaced email for engineering teams.",
-      "about": "Slack integrated GitHub commits, Jira tickets, PagerDuty alerts, and `/giphy` into searchable channels — IRC for enterprises with OAuth bots and threads. It normalized async work chat alongside Zoom standups; Salesforce acquired it for $27.7B in 2021. Developers still joke about notification overload, but Slack became the town square of modern software orgs.",
+      "summary": "Stewart Butterfield's [Slack] launched publicly on February 12, 2014 — a channel-based chat app born from a failed game startup that replaced email for engineering teams.",
+      "about": "[Slack] integrated GitHub commits, [Jira] tickets, PagerDuty alerts, and `/giphy` into searchable channels — IRC for enterprises with OAuth bots and threads. It normalized async work chat alongside Zoom standups; Salesforce acquired it for $27.7B in 2021. Developers still joke about notification overload, but [Slack] became the town square of modern software orgs.",
       "narrative": {
-        "whyChosen": "Slack replaced internal email and IRC for millions of software teams.",
+        "whyChosen": "[Slack] replaced internal email and IRC for millions of software teams.",
         "whyImportant": "Integrations turned chat into the notification hub for CI, deploys, and incidents.",
         "problemSolved": "Email and ad-hoc IM could not keep distributed engineering teams aligned in real time."
       },
@@ -331,11 +331,11 @@
       "datePrecision": "month",
       "title": "Monday.com work OS launched",
       "summary": "dapulse rebranded and launched Monday.com in February 2014 — a colorful spreadsheet-kanban hybrid for tracking projects, sprints, and marketing work.",
-      "about": "Monday.com targeted teams that found Jira intimidating and Trello too simple — customizable boards with automations and integrations. It spread from startups to non-technical departments, competing with Asana and Notion for visibility into who is doing what.",
+      "about": "Monday.com targeted teams that found [Jira] intimidating and Trello too simple — customizable boards with automations and integrations. It spread from startups to non-technical departments, competing with Asana and Notion for visibility into who is doing what.",
       "narrative": {
         "whyChosen": "Monday.com made visual work tracking mainstream outside pure engineering teams.",
         "whyImportant": "Its template boards lowered the bar for cross-functional project visibility.",
-        "problemSolved": "Managers needed shared status views without learning Jira query language."
+        "problemSolved": "Managers needed shared status views without learning [Jira] query language."
       },
       "category": "software",
       "tags": [

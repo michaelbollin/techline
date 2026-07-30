@@ -110,12 +110,12 @@
       "date": "2011-06-21",
       "datePrecision": "day",
       "title": "Firefox 5 released",
-      "summary": "Mozilla released Firefox 5 on June 21, 2011 — the first version on the rapid release schedule with faster update cadence.",
-      "about": "Firefox 5 shipped Do Not Track headers and CSS animation improvements as Mozilla moved to six-week release cycles like Chrome. Web developers tested against fresher browser versions but faced faster breaking changes in vendor prefixes and APIs.",
+      "summary": "[Mozilla] released [Firefox] 5 on June 21, 2011 — the first version on the rapid release schedule with faster update cadence.",
+      "about": "[Firefox] 5 shipped Do Not Track headers and [CSS] animation improvements as [Mozilla] moved to six-week release cycles like Chrome. Web developers tested against fresher browser versions but faced faster breaking changes in vendor prefixes and APIs.",
       "narrative": {
-        "whyChosen": "Firefox 5 kicked off Mozilla's rapid release model matching Chrome's pace.",
+        "whyChosen": "[Firefox] 5 kicked off [Mozilla]'s rapid release model matching Chrome's pace.",
         "whyImportant": "It accelerated how quickly web platform features reached users — for better and worse.",
-        "problemSolved": "Year-long Firefox releases left users waiting for security fixes and new web APIs."
+        "problemSolved": "Year-long [Firefox] releases left users waiting for security fixes and new web APIs."
       },
       "category": "software",
       "tags": [

@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Google open-sources LevelDB",
       "summary": "Google open-sourced LevelDB on July 28, 2011 — a fast key-value storage library written by Jeff Dean and Sanjay Ghemawat that underpinned early Bitcoin and Chrome indexing.",
-      "about": "LevelDB offered ordered key-value storage with LSM-tree performance on a single machine — simpler than Berkeley DB, faster than SQLite for append-heavy workloads. Bitcoin Core adopted it for chain state; Node ecosystems wrapped it in `level` and `rocksdb` inspired its design. It became a building block for embedded databases in distributed systems courses.",
+      "about": "LevelDB offered ordered key-value storage with LSM-tree performance on a single machine — simpler than Berkeley DB, faster than SQLite for append-heavy workloads. Bitcoin Core adopted it for chain state; [Node] ecosystems wrapped it in `level` and `rocksdb` inspired its design. It became a building block for embedded databases in distributed systems courses.",
       "narrative": {
         "whyChosen": "LevelDB was Google's gift of production-grade embedded storage to open source.",
         "whyImportant": "It powered Bitcoin's UTXO set and influenced RocksDB and modern LSM stores.",
