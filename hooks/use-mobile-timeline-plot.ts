@@ -17,6 +17,7 @@ import { TIMELINE_EXTENT } from "@/lib/timeline/constants";
 import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
 import { measureMobileLabelWidth } from "@/lib/timeline/vertical/label-metrics";
+import { clearTimelineLabelWidthCache } from "@/lib/timeline/measure-label";
 import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
 import { IMPORTANCE_MAX } from "@/lib/timeline/importance";
@@ -57,14 +58,26 @@ export function useMobileTimelinePlot({
 
     let cancelled = false;
 
-    void document.fonts.ready.then(() => {
-      if (!cancelled) {
-        setFontEpoch((epoch) => epoch + 1);
-      }
-    });
+    const bumpAfterFonts = () => {
+      void document.fonts.ready.then(() => {
+        if (!cancelled) {
+          clearTimelineLabelWidthCache();
+          setFontEpoch((epoch) => epoch + 1);
+        }
+      });
+    };
+
+    const idleId = window.requestIdleCallback?.(() => bumpAfterFonts(), { timeout: 2500 });
+    const timeoutId = idleId === undefined ? window.setTimeout(bumpAfterFonts, 1) : undefined;
 
     return () => {
       cancelled = true;
+      if (idleId !== undefined) {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) {
+        window.clearTimeout(timeoutId);
+      }
     };
   }, []);
 
@@ -95,14 +108,13 @@ export function useMobileTimelinePlot({
     return Math.min(byZoom, byViewport);
   }, [msPerPixel, visibleSpanMs, width]);
 
-  const labelWidths = useMemo(() => {
-    void fontEpoch;
-    const widths = new Map<string, number>();
-    for (const event of plotted) {
-      widths.set(event.id, measureMobileLabelWidth(event.bubbleTitle));
-    }
-    return widths;
-  }, [fontEpoch, plotted]);
+  const labelWidthFor = useCallback(
+    (event: PlottedEvent) => {
+      void fontEpoch;
+      return measureMobileLabelWidth(event.bubbleTitle);
+    },
+    [fontEpoch],
+  );
 
   const labelLayout = useMemo(
     () =>
@@ -113,10 +125,10 @@ export function useMobileTimelinePlot({
         maxImportance,
         width,
         maxLanes,
-        (event) => labelWidths.get(event.id) ?? measureMobileLabelWidth(event.bubbleTitle),
+        labelWidthFor,
         visibleSpanMs,
       ),
-    [axisX, labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, yScale],
+    [axisX, labelWidthFor, maxImportance, maxLanes, plotted, visibleSpanMs, width, yScale],
   );
 
   const forceVisibleDotIds = useMemo(() => {

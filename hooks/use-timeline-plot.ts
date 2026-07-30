@@ -9,7 +9,7 @@ import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
 import { resolveDotLayout } from "@/lib/timeline/dot-layout";
 import { desktopDotRadius } from "@/lib/timeline/dot-metrics";
 import { resolveLabelLayout } from "@/lib/timeline/label-layout";
-import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
+import { measureTimelineLabelWidth, clearTimelineLabelWidthCache } from "@/lib/timeline/measure-label";
 import { reorderLabelsForHover, sortVisibleLabelNodes } from "@/lib/timeline/plot-labels";
 import { filterEventsInTimelineRange, toPlottedEvents, type PlottedEvent } from "@/lib/timeline/plot-data";
 import { IMPORTANCE_MAX } from "@/lib/timeline/importance";
@@ -53,14 +53,26 @@ export function useTimelinePlot({
 
     let cancelled = false;
 
-    void document.fonts.ready.then(() => {
-      if (!cancelled) {
-        setFontEpoch((epoch) => epoch + 1);
-      }
-    });
+    const bumpAfterFonts = () => {
+      void document.fonts.ready.then(() => {
+        if (!cancelled) {
+          clearTimelineLabelWidthCache();
+          setFontEpoch((epoch) => epoch + 1);
+        }
+      });
+    };
+
+    const idleId = window.requestIdleCallback?.(() => bumpAfterFonts(), { timeout: 2500 });
+    const timeoutId = idleId === undefined ? window.setTimeout(bumpAfterFonts, 1) : undefined;
 
     return () => {
       cancelled = true;
+      if (idleId !== undefined) {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) {
+        window.clearTimeout(timeoutId);
+      }
     };
   }, []);
 
@@ -90,14 +102,13 @@ export function useTimelinePlot({
     return Math.min(byZoom, byViewport);
   }, [height, msPerPixel, visibleSpanMs]);
 
-  const labelWidths = useMemo(() => {
-    void fontEpoch;
-    const widths = new Map<string, number>();
-    for (const event of plotted) {
-      widths.set(event.id, measureTimelineLabelWidth(event.bubbleTitle));
-    }
-    return widths;
-  }, [fontEpoch, plotted]);
+  const labelWidthFor = useCallback(
+    (event: PlottedEvent) => {
+      void fontEpoch;
+      return measureTimelineLabelWidth(event.bubbleTitle);
+    },
+    [fontEpoch],
+  );
 
   const labelLayout = useMemo(
     () =>
@@ -107,10 +118,10 @@ export function useTimelinePlot({
         maxImportance,
         width,
         maxLanes,
-        (event) => labelWidths.get(event.id) ?? measureTimelineLabelWidth(event.bubbleTitle),
+        labelWidthFor,
         visibleSpanMs,
       ),
-    [labelWidths, maxImportance, maxLanes, plotted, visibleSpanMs, width, xScale],
+    [labelWidthFor, maxImportance, maxLanes, plotted, visibleSpanMs, width, xScale],
   );
 
   const forceVisibleDotIds = useMemo(() => {

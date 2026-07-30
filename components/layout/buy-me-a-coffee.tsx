@@ -30,20 +30,34 @@ export function BuyMeACoffeeScript() {
 
     bmcLoadStarted = true;
 
-    const script = document.createElement("script");
-    script.src = BMC_SRC;
-    script.setAttribute("data-name", "BMC-Widget");
-    script.setAttribute("data-cfasync", "false");
-    script.setAttribute("data-id", SITE_BMC_USERNAME);
-    script.setAttribute("data-description", "Support me on Buy me a coffee!");
-    script.setAttribute("data-message", "");
-    script.setAttribute("data-color", "#BD5FFF");
-    script.setAttribute("data-position", "Right");
-    script.setAttribute("data-x_margin", "18");
-    script.setAttribute("data-y_margin", "18");
+    const loadScript = () => {
+      const script = document.createElement("script");
+      script.src = BMC_SRC;
+      script.setAttribute("data-name", "BMC-Widget");
+      script.setAttribute("data-cfasync", "false");
+      script.setAttribute("data-id", SITE_BMC_USERNAME);
+      script.setAttribute("data-description", "Support me on Buy me a coffee!");
+      script.setAttribute("data-message", "");
+      script.setAttribute("data-color", "#BD5FFF");
+      script.setAttribute("data-position", "Right");
+      script.setAttribute("data-x_margin", "18");
+      script.setAttribute("data-y_margin", "18");
 
-    script.addEventListener("load", triggerBmcInit);
-    document.body.appendChild(script);
+      script.addEventListener("load", triggerBmcInit);
+      document.body.appendChild(script);
+    };
+
+    const idleId = window.requestIdleCallback?.(() => loadScript(), { timeout: 5000 });
+    const timeoutId = idleId === undefined ? window.setTimeout(loadScript, 3000) : undefined;
+
+    return () => {
+      if (idleId !== undefined) {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) {
+        window.clearTimeout(timeoutId);
+      }
+    };
   }, []);
 
   return null;

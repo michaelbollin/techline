@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter } from "next/navigation";
-import { useCallback, useMemo, useRef, useState, type MouseEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useMobileTimelinePlot } from "@/hooks/use-mobile-timeline-plot";
@@ -38,6 +38,12 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [fulltextQuery, setFulltextQuery] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [chartReady, setChartReady] = useState(false);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setChartReady(true));
+    return () => cancelAnimationFrame(frame);
+  }, []);
 
   const activeFilterCount = activeFilterIds.size + (fulltextQuery ? 1 : 0);
 
@@ -118,7 +124,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
           </div>
         )}
 
-        {width > 0 && height > 0 && (
+        {chartReady && width > 0 && height > 0 && (
           <svg
             ref={svgRef}
             width={width}

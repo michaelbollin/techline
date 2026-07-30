@@ -9,6 +9,7 @@ export const LABEL_LETTER_SPACING_EM = 0.025;
 export const LABEL_MEASURE_SAFETY_PX = 10;
 
 let measureContext: CanvasRenderingContext2D | null = null;
+const labelWidthCache = new Map<string, number>();
 
 function getTimelineLabelFontFamily(): string {
   if (typeof document === "undefined") {
@@ -44,6 +45,13 @@ export function measureLabelWidth(
 ): number {
   const fontSizePx = options?.fontSizePx ?? LABEL_FONT_SIZE_PX;
   const paddingX = options?.paddingX ?? LABEL_PADDING_X;
+  const cacheKey = `${fontSizePx}:${paddingX}:${title}`;
+  const cached = labelWidthCache.get(cacheKey);
+
+  if (cached !== undefined) {
+    return cached;
+  }
+
   const horizontalPadding = paddingX * 2;
   const letterSpacingPx = fontSizePx * LABEL_LETTER_SPACING_EM;
   const letterSpacingWidth = Math.max(0, title.length - 1) * letterSpacingPx;
@@ -53,19 +61,28 @@ export function measureLabelWidth(
     context.font = `${LABEL_FONT_WEIGHT} ${fontSizePx}px ${getTimelineLabelFontFamily()}`;
     const textWidth = context.measureText(title).width + letterSpacingWidth;
     const emojiExtra = /^\p{Extended_Pictographic}/u.test(title) ? fontSizePx * 1.1 : 0;
-    return Math.ceil(textWidth) + emojiExtra + horizontalPadding + LABEL_MEASURE_SAFETY_PX;
+    const width =
+      Math.ceil(textWidth) + emojiExtra + horizontalPadding + LABEL_MEASURE_SAFETY_PX;
+    labelWidthCache.set(cacheKey, width);
+    return width;
   }
 
   const emojiExtra = /^\p{Extended_Pictographic}/u.test(title) ? fontSizePx * 1.1 : 0;
 
-  return (
+  const width =
     Math.max(64, Math.ceil(title.length * (fontSizePx * 0.52) + letterSpacingWidth)) +
     emojiExtra +
     horizontalPadding +
-    LABEL_MEASURE_SAFETY_PX
-  );
+    LABEL_MEASURE_SAFETY_PX;
+  labelWidthCache.set(cacheKey, width);
+  return width;
 }
 
 export function measureTimelineLabelWidth(title: string): number {
   return measureLabelWidth(title);
+}
+
+/** Clear cached canvas measurements after webfonts finish loading. */
+export function clearTimelineLabelWidthCache(): void {
+  labelWidthCache.clear();
 }

@@ -1,10 +1,21 @@
 "use client";
 
+import dynamic from "next/dynamic";
+
 import { TIMELINE_DESKTOP_MEDIA_QUERY, useMediaQuery } from "@/hooks/use-media-query";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
-import { MobileTimeline } from "./mobile-timeline";
-import { ModernTimeline } from "./modern-timeline";
+import { TimelineChartSkeleton, TimelineLoadingShell } from "./timeline-loading-shell";
+
+const ModernTimeline = dynamic(
+  () => import("./modern-timeline").then((mod) => ({ default: mod.ModernTimeline })),
+  { loading: () => <TimelineChartSkeleton /> },
+);
+
+const MobileTimeline = dynamic(
+  () => import("./mobile-timeline").then((mod) => ({ default: mod.MobileTimeline })),
+  { loading: () => <TimelineChartSkeleton /> },
+);
 
 type ResponsiveTimelineProps = {
   events: TimelineEvent[];

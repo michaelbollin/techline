@@ -47,6 +47,12 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
   const [fulltextQuery, setFulltextQuery] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [chartReady, setChartReady] = useState(false);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setChartReady(true));
+    return () => cancelAnimationFrame(frame);
+  }, []);
 
   const activeFilterCount = activeFilterIds.size + (fulltextQuery ? 1 : 0);
 
@@ -176,7 +182,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               </div>
             )}
 
-            {width > 0 && height > 0 && (
+            {chartReady && width > 0 && height > 0 && (
               <svg
                 ref={svgRef}
                 width={width}

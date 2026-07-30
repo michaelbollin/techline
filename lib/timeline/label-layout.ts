@@ -119,8 +119,7 @@ export function resolveLabelLayout(
 
   for (const event of sorted) {
     if (!placements.has(event.id)) {
-      const labelWidth = labelWidthFor(event);
-      placements.set(event.id, { showLabel: false, lane: 0, width: labelWidth });
+      placements.set(event.id, { showLabel: false, lane: 0, width: 0 });
     }
   }
 

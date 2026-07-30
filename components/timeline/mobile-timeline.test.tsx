@@ -32,7 +32,9 @@ describe("MobileTimeline", () => {
     render(<MobileTimeline events={events} />);
 
     expect(screen.getByRole("region", { name: "Interactive timeline" })).toBeInTheDocument();
-    expect(screen.getAllByRole("button", { name: "Mobile event, January 15, 2000" }).length).toBeGreaterThan(0);
+    expect(
+      (await screen.findAllByRole("button", { name: "Mobile event, January 15, 2000" })).length,
+    ).toBeGreaterThan(0);
 
     await user.click(screen.getByRole("button", { name: "Filters" }));
     expect(screen.getByRole("region", { name: "Filter timeline events" })).toBeInTheDocument();

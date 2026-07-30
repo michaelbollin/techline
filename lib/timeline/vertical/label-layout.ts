@@ -60,6 +60,10 @@ export function resolveVerticalLabelLayout(
   });
 
   for (const event of sorted) {
+    if (event.importance > maxImportance) {
+      continue;
+    }
+
     const centerY = y(event.timestamp);
     const labelWidth = labelWidthFor(event);
     const top = centerY - MOBILE_LABEL_BOX_HEIGHT / 2;
@@ -87,9 +91,7 @@ export function resolveVerticalLabelLayout(
       return false;
     };
 
-    if (event.importance <= maxImportance) {
-      tryPlace();
-    }
+    tryPlace();
   }
 
   for (const event of sorted) {
@@ -129,7 +131,7 @@ export function resolveVerticalLabelLayout(
       placements.set(event.id, {
         showLabel: false,
         lane: 0,
-        width: labelWidthFor(event),
+        width: 0,
       });
     }
   }

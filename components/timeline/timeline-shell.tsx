@@ -1,12 +1,13 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useMemo, type CSSProperties } from "react";
 
 import { EventModal } from "@/components/timeline/event-modal";
 import { EventPageContent } from "@/components/timeline/event-page-content";
 import { TimelineHoverEffectProvider } from "@/components/timeline/hover-effects/timeline-hover-effect-context";
-import { ResponsiveTimeline } from "@/components/timeline/responsive-timeline";
+import { TimelineChartSkeleton } from "@/components/timeline/timeline-loading-shell";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { getAnimationIdForEvent } from "@/lib/animations/registry";
 import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
@@ -14,6 +15,14 @@ import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import { getEventById, getEventBySlug } from "@/lib/timeline/routing";
 import { parseTimelineRoute } from "@/lib/timeline/timeline-route";
 import type { TimelineEvent } from "@/lib/timeline/schema";
+
+const ResponsiveTimeline = dynamic(
+  () =>
+    import("@/components/timeline/responsive-timeline").then((mod) => ({
+      default: mod.ResponsiveTimeline,
+    })),
+  { loading: () => <TimelineChartSkeleton /> },
+);
 
 type TimelineShellProps = {
   events: TimelineEvent[];
