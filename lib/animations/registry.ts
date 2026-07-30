@@ -1,6 +1,8 @@
 /** Maps timeline event IDs to reusable animation IDs. */
 export const EVENT_ANIMATION_IDS = {
   "cd-rom-introduced": "cd-rom",
+  "tony-hoare-quicksort-published": "quicksort",
+  "git-created": "git-branches",
 } as const;
 
 export type AnimationId = (typeof EVENT_ANIMATION_IDS)[keyof typeof EVENT_ANIMATION_IDS];
