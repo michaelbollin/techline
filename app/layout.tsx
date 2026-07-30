@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
+import { BuyMeACoffeeScript } from "@/components/layout/buy-me-a-coffee";
 import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
 import "./globals.css";
@@ -34,6 +35,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-white text-black`}
       >
         {children}
+        <BuyMeACoffeeScript />
       </body>
     </html>
   );

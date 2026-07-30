@@ -12,3 +12,12 @@ export const SITE_SUBTITLE =
 
 /** Default meta description (tagline + subtitle). */
 export const SITE_DESCRIPTION = `${SITE_TAGLINE}. ${SITE_SUBTITLE}`;
+
+export const SITE_AUTHOR_NAME = "Michael Bollin";
+export const SITE_AUTHOR_EMAIL = "michael@bollin.dev";
+export const SITE_AUTHOR_URL = "https://bollin.dev";
+
+/** Min height of the fixed footer row (px) — shared with timeline hover-detail layout. */
+export const SITE_FOOTER_RESERVED_HEIGHT = 56;
+
+export const SITE_BMC_USERNAME = "michaelbollin";

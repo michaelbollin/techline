@@ -9,17 +9,15 @@ import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
 import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
-import {
-  TIMELINE_AXIS_STROKE_WIDTH,
-  timelineEventDetailTop,
-  TIMELINE_INK,
-} from "@/lib/timeline/constants";
+import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_INK } from "@/lib/timeline/constants";
+import { timelineEventDetailLayout } from "@/lib/timeline/event-detail-layout";
 import { buildAxisPath } from "@/lib/timeline/axis-path";
 import { eventPath } from "@/lib/timeline/format";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 import { SiteBrand } from "@/components/layout/site-brand";
+import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
 
 import { TimelineFilterSidebar, TimelineFilterTrigger } from "./timeline-filters";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
@@ -91,7 +89,10 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     });
 
   const axisPath = useMemo(() => buildAxisPath(width, axisY), [axisY, width]);
-  const detailTop = timelineEventDetailTop(axisY, height);
+  const detailLayout = useMemo(
+    () => timelineEventDetailLayout(axisY, height, SITE_FOOTER_RESERVED_HEIGHT),
+    [axisY, height],
+  );
 
   useEffect(() => {
     if (hovered && !filteredEvents.some((event) => event.id === hovered.id)) {
@@ -213,8 +214,13 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
               </svg>
             )}
 
-            {hovered && width > 0 && (
-              <TimelineEventDetail key={hovered.id} event={hovered} top={detailTop} />
+            {hovered && width > 0 && detailLayout.show && (
+              <TimelineEventDetail
+                key={hovered.id}
+                event={hovered}
+                top={detailLayout.top}
+                maxHeight={detailLayout.maxHeight}
+              />
             )}
 
             <TimelinePanArrows

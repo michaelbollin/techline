@@ -1,6 +1,8 @@
 import { appendFile, readFile } from "node:fs/promises";
 import path from "node:path";
 
+import { parseIdListFile } from "./id-list-file";
+
 export const WRONG_EVENT_IMAGES_PATH = path.join(
   process.cwd(),
   "scripts/wrong-event-images.txt",
@@ -13,12 +15,7 @@ export function isValidEventId(eventId: string): boolean {
 }
 
 export function parseWrongEventImageIds(content: string): Set<string> {
-  return new Set(
-    content
-      .split("\n")
-      .map((line) => line.trim())
-      .filter((line) => line && !line.startsWith("#")),
-  );
+  return parseIdListFile(content);
 }
 
 export async function readWrongEventImageIds(): Promise<Set<string>> {

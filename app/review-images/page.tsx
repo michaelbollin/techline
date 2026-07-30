@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 import { EventImageReviewList } from "@/components/review/event-image-review-list";
+import { SiteFooter } from "@/components/layout/site-footer";
+import { isDevEnvironment } from "@/lib/dev";
 import { loadTimeline } from "@/lib/timeline/load";
 import { readWrongEventImageIds, WRONG_EVENT_IMAGES_PATH } from "@/lib/timeline/wrong-images";
 
@@ -11,6 +14,10 @@ export const metadata: Metadata = {
 };
 
 export default async function ReviewImagesPage() {
+  if (!isDevEnvironment()) {
+    notFound();
+  }
+
   const { events } = await loadTimeline(undefined, { includeDeferred: true });
   const wrongImageIds = [...(await readWrongEventImageIds())];
 
@@ -37,6 +44,8 @@ export default async function ReviewImagesPage() {
       </header>
 
       <EventImageReviewList events={events} wrongImageIds={wrongImageIds} />
+
+      <SiteFooter className="mt-12 border-t border-black/10" />
     </main>
   );
 }

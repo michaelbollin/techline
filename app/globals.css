@@ -71,3 +71,15 @@
     -webkit-mask-size: 100% 100%;
   }
 }
+
+/* BMC floating button is opened from the footer icon instead. */
+#bmc-wbtn {
+  position: fixed !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+}

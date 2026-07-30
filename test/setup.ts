@@ -3,6 +3,19 @@ import { cleanup } from "@testing-library/react";
 import { createElement } from "react";
 import { afterEach, vi } from "vitest";
 
+vi.mock("next/image", () => ({
+  default: ({
+    src,
+    alt,
+    unoptimized: _unoptimized,
+    ...props
+  }: {
+    src: string;
+    alt?: string;
+    unoptimized?: boolean;
+  }) => createElement("img", { src, alt, ...props }),
+}));
+
 vi.mock("next/link", () => ({
   default: ({
     href,
@@ -39,8 +52,22 @@ Object.defineProperty(window, "matchMedia", {
   }),
 });
 
+/** Toggle in tests that need ResizeObserver to fire on observe. */
+export const testResizeObserver = { fireOnObserve: false };
+
 class ResizeObserverMock {
-  observe() {}
+  private callback: ResizeObserverCallback;
+
+  constructor(callback: ResizeObserverCallback) {
+    this.callback = callback;
+  }
+
+  observe(target: Element) {
+    if (testResizeObserver.fireOnObserve) {
+      this.callback([{ target } as ResizeObserverEntry], this);
+    }
+  }
+
   unobserve() {}
   disconnect() {}
 }

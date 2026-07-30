@@ -1,8 +1,13 @@
 import { NextResponse } from "next/server";
 
+import { isDevEnvironment } from "@/lib/dev";
 import { appendWrongEventImageId, isValidEventId } from "@/lib/timeline/wrong-images";
 
 export async function POST(request: Request) {
+  if (!isDevEnvironment()) {
+    return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
+
   let body: unknown;
 
   try {

@@ -10,6 +10,8 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type TimelineEventDetailProps = {
   event: PlottedEvent;
   top: number;
+  /** Max height in px — content taller than this is not shown. */
+  maxHeight?: number;
 };
 
 function useMeasuredHeight<T extends HTMLElement>(dependencyKey: string) {
@@ -37,21 +39,62 @@ function useMeasuredHeight<T extends HTMLElement>(dependencyKey: string) {
   return { ref, height };
 }
 
-export function TimelineEventDetail({ event, top }: TimelineEventDetailProps) {
+export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDetailProps) {
   const textBlock = useMeasuredHeight<HTMLDivElement>(`${event.id}:${event.title}:${event.summary}`);
+  const contentRef = useRef<HTMLDivElement>(null);
   const [revealed, setRevealed] = useState(false);
+  const [fits, setFits] = useState<boolean | null>(maxHeight === undefined ? true : null);
 
   useEffect(() => {
     setRevealed(false);
   }, [event.id]);
 
+  useEffect(() => {
+    setFits(maxHeight === undefined ? true : null);
+  }, [event.id, maxHeight]);
+
+  useLayoutEffect(() => {
+    const element = contentRef.current;
+    if (!element || maxHeight === undefined) {
+      return;
+    }
+
+    const updateFit = () => {
+      const height = element.offsetHeight;
+      setFits(height > 0 && height <= maxHeight);
+    };
+
+    updateFit();
+
+    const observer = new ResizeObserver(updateFit);
+    observer.observe(element);
+
+    return () => observer.disconnect();
+  }, [event.id, event.imageUrl, event.summary, event.title, maxHeight, textBlock.height]);
+
+  if (maxHeight !== undefined && fits === false) {
+    return null;
+  }
+
+  const isMeasuring = maxHeight !== undefined && fits === null;
+
   return (
     <div
-      className="pointer-events-none absolute inset-x-0 z-10 text-left text-black"
-      style={{ top, paddingLeft: TIMELINE_EDGE_MARGIN, paddingRight: TIMELINE_EDGE_MARGIN }}
-      aria-live="polite"
+      className={cn(
+        "pointer-events-none absolute inset-x-0 z-10 text-left text-black",
+        isMeasuring && "invisible",
+      )}
+      style={{
+        top,
+        maxHeight: isMeasuring ? undefined : maxHeight,
+        paddingLeft: TIMELINE_EDGE_MARGIN,
+        paddingRight: TIMELINE_EDGE_MARGIN,
+      }}
+      aria-hidden={isMeasuring}
+      aria-live={isMeasuring ? undefined : "polite"}
     >
       <div
+        ref={contentRef}
         key={event.id}
         className={cn(
           "max-w-2xl pl-4",

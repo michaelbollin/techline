@@ -34,6 +34,7 @@ describe("EventDetail", () => {
         {
           type: "image",
           url: "/media/timeline/amazon-ec2-launched.svg",
+          title: "Amazon EC2",
           caption: "Amazon Web Services LLC",
         },
       ],
@@ -41,7 +42,7 @@ describe("EventDetail", () => {
 
     const { container } = render(<EventDetail event={event} variant="modal" />);
 
-    expect(screen.getByRole("img")).toHaveAttribute("src", "/media/timeline/amazon-ec2-launched.svg");
+    expect(container.querySelector("img")).toHaveAttribute("src", "/media/timeline/amazon-ec2-launched.svg");
     expect(screen.getByText("Amazon Web Services LLC")).toBeInTheDocument();
     expect(container.querySelector("aside")).toBeInTheDocument();
   });

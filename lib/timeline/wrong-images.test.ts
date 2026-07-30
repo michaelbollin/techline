@@ -9,7 +9,7 @@ describe("wrong-images", () => {
     expect(isValidEventId("")).toBe(false);
   });
 
-  it("parses ids and ignores comments and blanks", () => {
-    expect([...parseWrongEventImageIds("# flagged\nlinux-created\n\n")]).toEqual(["linux-created"]);
+  it("parseWrongEventImageIds uses shared id-list format", () => {
+    expect([...parseWrongEventImageIds("rust-released\n")]).toEqual(["rust-released"]);
   });
 });

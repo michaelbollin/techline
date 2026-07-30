@@ -6,6 +6,7 @@ import { useMemo } from "react";
 import { EventModal } from "@/components/timeline/event-modal";
 import { EventPageContent } from "@/components/timeline/event-page-content";
 import { ResponsiveTimeline } from "@/components/timeline/responsive-timeline";
+import { SiteFooter } from "@/components/layout/site-footer";
 import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import { getEventById, getEventBySlug } from "@/lib/timeline/routing";
 import { parseTimelineRoute } from "@/lib/timeline/timeline-route";
@@ -40,8 +41,11 @@ export function TimelineShell({ events }: TimelineShellProps) {
 
   return (
     <>
-      <div className="h-[100dvh] overflow-hidden bg-white">
-        <ResponsiveTimeline events={events} filterPathKey={route.filterPathKey} />
+      <div className="flex h-[100dvh] flex-col overflow-hidden bg-white">
+        <div className="min-h-0 flex-1">
+          <ResponsiveTimeline events={events} filterPathKey={route.filterPathKey} />
+        </div>
+        <SiteFooter fixed />
       </div>
 
       {event && (
