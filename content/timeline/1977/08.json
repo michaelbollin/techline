@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "TRS-80 Model I released",
       "summary": "Radio Shack began selling the TRS-80 Model I in August 1977 — bringing personal computing to its nationwide retail chain.",
-      "about": "The 'Trash-80' ran Level I BASIC on a Z80 with cassette storage and optional floppy drives. Radio Shack's store footprint put PCs in suburban malls — not just computer fairs. Developers wrote business software, games, and magazine type-in programs; the platform trained hobbyists who later moved to IBM compatibles.",
+      "about": "The 'Trash-80' ran Level I [BASIC] on a Z80 with cassette storage and optional [floppy disk] drives. Radio Shack's store footprint put [PC]s in suburban malls — not just computer fairs. Developers wrote business software, games, and magazine type-in programs; the platform trained hobbyists who later moved to [IBM] compatibles.",
       "narrative": {
         "whyChosen": "The TRS-80 was the first mass-retail personal computer sold through a national electronics chain.",
         "whyImportant": "It proved consumer electronics stores could move complete computer systems at scale.",

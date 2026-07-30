@@ -6,8 +6,8 @@
       "date": "1937-08-10",
       "datePrecision": "day",
       "title": "Shannon applies Boolean algebra to switching circuits",
-      "summary": "Claude Shannon submitted his MIT master's thesis on August 10, 1937 — showing that Boolean algebra can systematically design relay and switching circuits.",
-      "about": "Shannon proved circuit design is isomorphic to logic: AND, OR, and NOT maps directly to switches and relays. Every digital chip, from 1940s telephone exchanges to modern CPUs, inherits this insight that hardware is executable Boolean algebra.",
+      "summary": "Claude Shannon submitted his [MIT] master's thesis on August 10, 1937 — showing that [Boolean algebra] can systematically design [relay] and [switching circuits].",
+      "about": "Shannon proved circuit design is [isomorphic] to logic: AND, OR, and NOT maps directly to switches and relays. Every digital chip, from 1940s [telephone exchange]s to modern [CPU]s, inherits this insight that hardware is executable [Boolean algebra].",
       "narrative": {
         "whyChosen": "This thesis is often called the most important master's thesis of the 20th century.",
         "whyImportant": "It turned circuit design from craft into symbolic manipulation — the ancestor of hardware description languages.",

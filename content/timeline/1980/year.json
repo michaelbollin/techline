@@ -6,12 +6,12 @@
       "date": "1980",
       "datePrecision": "year",
       "title": "Adele Goldberg co-releases Smalltalk-80",
-      "summary": "Adele Goldberg and the Xerox PARC team released Smalltalk-80 in 1980 — pioneering GUIs, OOP, and live programming environments.",
-      "about": "Smalltalk influenced Objective-C, Java, Ruby, and every IDE with a REPL or object browser. Goldberg famously showed Steve Jobs the Xerox GUI concepts that shaped the Macintosh.",
+      "summary": "Adele Goldberg and the Xerox PARC team released Smalltalk-80 in 1980 — pioneering [GUI]s, [OOP], and live programming environments.",
+      "about": "Smalltalk influenced [Objective-C], Java, Ruby, and every IDE with a [REPL] or object browser. Goldberg famously showed Steve Jobs the Xerox [GUI] concepts that shaped the Macintosh.",
       "narrative": {
-        "whyChosen": "Smalltalk-80 defined modern OOP and interactive development environments.",
-        "whyImportant": "It proved objects and GUIs belonged together on personal computers.",
-        "problemSolved": "Programming was batch-oriented without visual feedback or object metaphors."
+        "whyChosen": "Smalltalk-80 defined modern [OOP] and interactive development environments.",
+        "whyImportant": "It proved objects and [GUI]s belonged together on personal computers.",
+        "problemSolved": "Programming was [batch processing]-oriented without visual feedback or object metaphors."
       },
       "category": "software",
       "tags": [
@@ -59,7 +59,7 @@
       "datePrecision": "year",
       "title": "Robert Metcalfe states Metcalfe's Law",
       "quoteText": "The value of a telecommunications network is proportional to the square of the number of connected users of the system.",
-      "summary": "Ethernet inventor Robert Metcalfe articulates why network effects compound — each new user makes the network more valuable for everyone else.",
+      "summary": "[Ethernet] inventor Robert Metcalfe articulates why network effects compound — each new user makes the network more valuable for everyone else.",
       "about": "Metcalfe's Law became the mental model behind social networks, marketplaces, and platform economics. Critics note n² oversimplifies real networks, but the core insight — connectivity has nonlinear returns — still shapes startup pitch decks.",
       "narrative": {
         "whyChosen": "The formula behind 'network effects' before the phrase existed.",
@@ -116,9 +116,9 @@
       "summary": "Tom Truscott and Jim Ellis established Usenet in 1980 at Duke University — a distributed discussion system that became the internet's first social network.",
       "about": "Usenet newsgroups carried technical debates, source code, and culture across UUCP links before the web existed. NNTP, moderation, and threaded conversations influenced forums, Reddit, and every threaded comment system developers use today.",
       "narrative": {
-        "whyChosen": "Usenet pioneered distributed online communities before the World Wide Web.",
+        "whyChosen": "Usenet pioneered distributed online communities before the [WWW].",
         "whyImportant": "It proved people would collaborate and argue productively over networked text.",
-        "problemSolved": "ARPANET researchers lacked a general-purpose platform for public group discussion."
+        "problemSolved": "[ARPANET] researchers lacked a general-purpose platform for public group discussion."
       },
       "category": "culture",
       "tags": [

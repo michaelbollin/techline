@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Apple II introduced",
       "summary": "Apple introduced the Apple II at the West Coast Computer Faire on April 16, 1977 — one of the first successful mass-market personal computers.",
-      "about": "The Apple II's color graphics, expansion slots, and VisiCalc spreadsheet made PCs useful for businesses and schools — not just hobbyists. It validated the personal computer as a product category.",
+      "about": "The Apple II's color graphics, expansion slots, and [VisiCalc] spreadsheet made [PC]s useful for businesses and schools — not just hobbyists. It validated the personal computer as a product category.",
       "narrative": {
         "whyChosen": "The Apple II was the first blockbuster personal computer.",
         "whyImportant": "It proved home and small-business users would buy complete computer systems.",
-        "problemSolved": "Early PCs were kits for hobbyists without software ecosystems or polish."
+        "problemSolved": "Early [PC]s were kits for hobbyists without software ecosystems or polish."
       },
       "category": "hardware",
       "tags": [

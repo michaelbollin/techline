@@ -1,4 +1,5 @@
 import { EventDetailSection } from "@/components/timeline/event-detail-section";
+import { TextWithAbbreviationTooltips } from "@/components/ui/text-with-abbreviation-tooltips";
 import { cn } from "@/lib/cn";
 import type { Narrative } from "@/lib/timeline/schema";
 
@@ -29,7 +30,7 @@ export function NarrativeBlock({ narrative, variant = "page" }: NarrativeBlockPr
         {sections.map((section) => (
           <EventDetailSection key={section.key} title={section.label}>
             <p className={narrativeParagraphClass(section.key, "modal")}>
-              {narrative[section.key]}
+              <TextWithAbbreviationTooltips text={narrative[section.key]} />
             </p>
           </EventDetailSection>
         ))}
@@ -47,7 +48,9 @@ export function NarrativeBlock({ narrative, variant = "page" }: NarrativeBlockPr
           <h2 className="mb-2 text-sm font-medium tracking-wide text-muted uppercase">
             {section.label}
           </h2>
-          <p className={narrativeParagraphClass(section.key, "page")}>{narrative[section.key]}</p>
+          <p className={narrativeParagraphClass(section.key, "page")}>
+            <TextWithAbbreviationTooltips text={narrative[section.key]} />
+          </p>
         </article>
       ))}
     </section>

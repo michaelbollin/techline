@@ -1,3 +1,5 @@
+import { splitTextWithGlossary } from "@/lib/glossary";
+
 type TimelineLabelContentProps = {
   title: string;
   width: number;
@@ -11,6 +13,8 @@ export function TimelineLabelContent({
   height,
   textClassName,
 }: TimelineLabelContentProps) {
+  const parts = splitTextWithGlossary(title);
+
   return (
     <text
       x={width / 2}
@@ -19,7 +23,18 @@ export function TimelineLabelContent({
       dominantBaseline="central"
       className={textClassName}
     >
-      {title}
+      {parts.map((part, index) => {
+        if (part.type === "text") {
+          return <tspan key={index}>{part.value}</tspan>;
+        }
+
+        return (
+          <tspan key={index} className="cursor-help">
+            <title>{part.explanation}</title>
+            {part.value}
+          </tspan>
+        );
+      })}
     </text>
   );
 }

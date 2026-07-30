@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useLayoutEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/cn";
+import { TextWithAbbreviationTooltips } from "@/components/ui/text-with-abbreviation-tooltips";
 import { TIMELINE_EDGE_MARGIN } from "@/lib/timeline/constants";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
@@ -107,8 +108,12 @@ export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDeta
           )}
 
           <div ref={textRef} className="min-w-0">
-            <p className="text-xl leading-tight font-semibold tracking-tight">{event.title}</p>
-            <p className="mt-2 max-w-xl text-base leading-normal">{event.summary}</p>
+            <p className="text-xl leading-tight font-semibold tracking-tight">
+              <TextWithAbbreviationTooltips text={event.title} interactive />
+            </p>
+            <p className="mt-2 max-w-xl text-base leading-normal">
+              <TextWithAbbreviationTooltips text={event.summary} interactive />
+            </p>
           </div>
         </div>
 

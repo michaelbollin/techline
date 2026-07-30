@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { EventDetail } from "@/components/timeline/event-detail";
 import { EventModalAsideImage } from "@/components/timeline/event-modal-aside-image";
+import { TextWithAbbreviationTooltips } from "@/components/ui/text-with-abbreviation-tooltips";
 import { eventPath, formatEventDate } from "@/lib/timeline/format";
 import { timelinePathFromFilterSegment } from "@/lib/timeline/filter-url";
 import type { TimelineEvent } from "@/lib/timeline/schema";
@@ -31,9 +32,11 @@ export function EventPageContent({
             {formatEventDate(event.date, event.datePrecision)}
           </p>
           <h1 className="border-b border-black/15 pb-3 text-2xl font-semibold tracking-tight sm:text-3xl">
-            {event.title}
+            <TextWithAbbreviationTooltips text={event.title} />
           </h1>
-          <p className="text-base leading-relaxed text-foreground">{event.summary}</p>
+          <p className="text-base leading-relaxed text-foreground">
+            <TextWithAbbreviationTooltips text={event.summary} />
+          </p>
         </header>
 
         <EventModalAsideImage media={event.media} className="mb-8 sm:hidden" />
@@ -58,8 +61,12 @@ export function EventPageContent({
         <p className="font-mono text-sm text-foreground">
           {formatEventDate(event.date, event.datePrecision)}
         </p>
-        <h1 className="max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">{event.title}</h1>
-        <p className="max-w-2xl text-lg leading-relaxed text-muted">{event.summary}</p>
+        <h1 className="max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
+          <TextWithAbbreviationTooltips text={event.title} />
+        </h1>
+        <p className="max-w-2xl text-lg leading-relaxed text-muted">
+          <TextWithAbbreviationTooltips text={event.summary} />
+        </p>
       </header>
 
       <EventDetail event={event} />

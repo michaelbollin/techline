@@ -3,6 +3,7 @@ import { EventInlineImage } from "@/components/timeline/event-inline-image";
 import { EventModalAsideImage } from "@/components/timeline/event-modal-aside-image";
 import { NarrativeBlock } from "@/components/timeline/narrative-block";
 import { MediaList } from "@/components/timeline/media-list";
+import { TextWithAbbreviationTooltips } from "@/components/ui/text-with-abbreviation-tooltips";
 import { cn } from "@/lib/cn";
 import {
   buildModalSections,
@@ -63,14 +64,16 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
                     paragraph === impactLine && "font-semibold",
                   )}
                 >
-                  {paragraph}
+            <TextWithAbbreviationTooltips text={paragraph} />
                 </p>
               ))}
             </div>
           </EventDetailSection>
 
           <EventDetailSection title="What it solved">
-            <p className="text-sm leading-relaxed text-foreground">{whatItSolved}</p>
+            <p className="text-sm leading-relaxed text-foreground">
+              <TextWithAbbreviationTooltips text={whatItSolved} />
+            </p>
           </EventDetailSection>
 
           {references.length > 0 && (
@@ -105,7 +108,7 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
           </h2>
           <p className="overflow-hidden leading-relaxed text-foreground/90">
             <EventInlineImage media={event.media} />
-            {event.about}
+            <TextWithAbbreviationTooltips text={event.about} />
           </p>
         </section>
 

@@ -6,10 +6,10 @@
       "date": "1981-08-12",
       "datePrecision": "day",
       "title": "IBM PC 5150 released",
-      "summary": "IBM announced the Personal Computer model 5150 on August 12, 1981 — an open-architecture x86 machine that defined the IBM PC compatible standard.",
-      "about": "The IBM PC used off-the-shelf parts (Intel 8088, DOS from Microsoft) and published expansion specs — clones from Compaq and others followed. Developers wrote business software once and sold it to an entire industry. The \"PC\" in \"PC programmer\" means this machine and its descendants.",
+      "summary": "[IBM] announced the Personal Computer model 5150 on August 12, 1981 — an open-architecture x86 machine that defined the [IBM] [PC] compatible standard.",
+      "about": "The [IBM] [PC] used off-the-shelf parts (Intel 8088, [DOS] from [MS]) and published expansion specs — clones from Compaq and others followed. Developers wrote business software once and sold it to an entire industry. The \"[PC]\" in \"[PC] programmer\" means this machine and its descendants.",
       "narrative": {
-        "whyChosen": "The IBM PC made the x86 + DOS platform the default for business and home computing worldwide.",
+        "whyChosen": "The [IBM] [PC] made the x86 + [DOS] platform the default for business and home computing worldwide.",
         "whyImportant": "Open expansion and clone compatibility created the largest software market in computing history.",
         "problemSolved": "Businesses wanted a trusted brand for desktops but needed a machine third parties could extend with cards and software."
       },
@@ -70,12 +70,12 @@
       "date": "1981-08-12",
       "datePrecision": "day",
       "title": "MS-DOS 1.0 released with IBM PC",
-      "summary": "Microsoft shipped MS-DOS 1.0 on August 12, 1981 alongside the IBM PC — branded PC DOS by IBM but licensed to clone makers as MS-DOS.",
-      "about": "DOS gave the IBM PC a command-line file system, batch files, and a BIOS interface that clone manufacturers could license. The x86 + DOS stack became the default business platform for a decade — until Windows 95 finally hid the prompt for most users.",
+      "summary": "[MS] shipped [MS-DOS] 1.0 on August 12, 1981 alongside the [IBM] [PC] — branded PC DOS by [IBM] but licensed to clone makers as [MS-DOS].",
+      "about": "[DOS] gave the [IBM] [PC] a command-line file system, batch files, and a BIOS interface that clone manufacturers could license. The x86 + [DOS] stack became the default business platform for a decade — until Windows 95 finally hid the prompt for most users.",
       "narrative": {
-        "whyChosen": "MS-DOS was the operating system layer that made IBM PC compatibles a unified software market.",
-        "whyImportant": "One OS binary ran on IBM's machine and every clone — the largest PC software ecosystem in history.",
-        "problemSolved": "PC buyers needed disk management and a consistent program environment, not just bare metal."
+        "whyChosen": "[MS-DOS] was the operating system layer that made [IBM] [PC] compatibles a unified software market.",
+        "whyImportant": "One [OS] binary ran on [IBM]'s machine and every clone — the largest [PC] software ecosystem in history.",
+        "problemSolved": "[PC] buyers needed disk management and a consistent program environment, not just bare metal."
       },
       "category": "software",
       "tags": [

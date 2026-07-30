@@ -6,12 +6,12 @@
       "date": "1984",
       "datePrecision": "year",
       "title": "Objective-C created at Stepstone",
-      "summary": "Brad Cox and Tom Love developed Objective-C circa 1984 — C with Smalltalk-style messaging and object-oriented extensions.",
-      "about": "Objective-C adds `[object message:arg]` syntax on top of C — the language behind NeXTSTEP, macOS, and iOS until Swift. Cocoa/UIKit APIs are Objective-C (or bridged to Swift). Developers used it for iPhone apps, Mac desktop software, and NeXT workstations through Apple's 2010s transition.",
+      "summary": "Brad Cox and Tom Love developed [Objective-C] circa 1984 — C with [Smalltalk]-style messaging and object-oriented extensions.",
+      "about": "[Objective-C] adds object message:arg syntax on top of C — the language behind NeXTSTEP, macOS, and iOS until Swift. Cocoa/UIKit APIs are [Objective-C] (or bridged to Swift). Developers used it for iPhone apps, Mac desktop software, and NeXT workstations through Apple's 2010s transition.",
       "narrative": {
-        "whyChosen": "Objective-C powered Apple's platform for two decades and bridged C systems code with OOP.",
-        "whyImportant": "It showed how to layer dynamic object messaging on C without a new runtime VM — a model Swift later refined.",
-        "problemSolved": "C had no objects; Smalltalk was not portable to Unix/C environments that enterprises already ran."
+        "whyChosen": "[Objective-C] powered Apple's platform for two decades and bridged C systems code with [OOP].",
+        "whyImportant": "It showed how to layer dynamic object messaging on C without a new runtime [virtual machine] — a model Swift later refined.",
+        "problemSolved": "C had no objects; [Smalltalk] was not portable to Unix/C environments that enterprises already ran."
       },
       "category": "software",
       "tags": [
@@ -54,12 +54,12 @@
       "date": "1984",
       "datePrecision": "year",
       "title": "Susan Kare designs Macintosh icons",
-      "summary": "Susan Kare designed the original Macintosh icons, fonts, and UI elements in 1983–1984 — defining visual language for GUI computing.",
+      "summary": "Susan Kare designed the original Macintosh icons, fonts, and UI elements in 1983–1984 — defining visual language for [GUI] computing.",
       "about": "Kare's Chicago font, trash can, and happy Mac icon made graphical interfaces legible to non-programmers. Her work influenced every desktop and mobile icon system developers design for today.",
       "narrative": {
-        "whyChosen": "Kare's icons made GUIs approachable for mainstream users.",
+        "whyChosen": "Kare's icons made [GUI]s approachable for mainstream users.",
         "whyImportant": "Visual metaphors became as important as code in human-computer interaction.",
-        "problemSolved": "Early GUIs lacked consistent, memorable iconography."
+        "problemSolved": "Early [GUI]s lacked consistent, memorable iconography."
       },
       "category": "culture",
       "tags": [
@@ -110,12 +110,12 @@
       "date": "1984",
       "datePrecision": "year",
       "title": "CD-ROM format introduced",
-      "summary": "Philips and Sony introduced the CD-ROM read-only optical disc format in 1984 — extending audio CD technology to store hundreds of megabytes of computer data.",
-      "about": "CD-ROMs shipped encyclopedias, games, and software in the 1980s–90s before broadband made downloads practical. The format bridged physical media and hypertext — much early web content was ported straight from CD-ROM titles.",
+      "summary": "Philips and Sony introduced the [CD-ROM] read-only optical disc format in 1984 — extending audio [CD] technology to store hundreds of megabytes of computer data.",
+      "about": "[CD-ROM]s shipped encyclopedias, games, and software in the 1980s–90s before broadband made downloads practical. The format bridged physical media and [hypertext] — much early web content was ported straight from [CD-ROM] titles.",
       "narrative": {
-        "whyChosen": "CD-ROM brought cheap, high-capacity read-only storage to personal computers.",
+        "whyChosen": "[CD-ROM] brought cheap, high-capacity read-only storage to personal computers.",
         "whyImportant": "It enabled multimedia software distribution before the web could carry large binaries.",
-        "problemSolved": "Floppy disks could not hold encyclopedias, operating systems, or rich media collections."
+        "problemSolved": "[floppy disk]s could not hold encyclopedias, operating systems, or rich media collections."
       },
       "category": "hardware",
       "tags": [

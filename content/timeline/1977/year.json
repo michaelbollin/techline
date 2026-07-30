@@ -110,11 +110,11 @@
       "date": "1977",
       "datePrecision": "year",
       "title": "Rivest, Shamir, and Adleman invent RSA",
-      "summary": "Ron Rivest, Adi Shamir, and Leonard Adleman invented the RSA public-key algorithm at MIT in 1977 — enabling encryption and digital signatures at scale.",
-      "about": "RSA turned public-key theory into a practical algorithm used in TLS certificates, SSH host keys, and code signing for decades. Their 1978 Communications of the ACM paper spread RSA beyond academia into commercial security products.",
+      "summary": "Ron Rivest, Adi Shamir, and Leonard Adleman invented the [RSA] public-key algorithm at [MIT] in 1977 — enabling encryption and [digital signature]s at scale.",
+      "about": "[RSA] turned public-key theory into a practical algorithm used in [TLS] certificates, SSH host keys, and code signing for decades. Their 1978 Communications of the ACM paper spread [RSA] beyond academia into commercial security products.",
       "narrative": {
-        "whyChosen": "RSA became the most widely deployed public-key algorithm of the pre-quantum era.",
-        "whyImportant": "It made digital signatures and encrypted key transport practical for software systems.",
+        "whyChosen": "[RSA] became the most widely deployed public-key algorithm of the pre-quantum era.",
+        "whyImportant": "It made [digital signature]s and encrypted key transport practical for software systems.",
         "problemSolved": "Public-key cryptography needed a concrete algorithm implementable on 1970s hardware."
       },
       "category": "invention",
@@ -174,12 +174,12 @@
       "date": "1977",
       "datePrecision": "year",
       "title": "John Backus receives Turing Award",
-      "summary": "John Backus won the 1977 ACM Turing Award for contributions to Fortran and functional programming — including the Backus–Naur Form.",
-      "about": "Backus led the IBM team that created Fortran and later argued for functional programming in his Turing lecture. BNF became the standard notation for describing programming language syntax.",
+      "summary": "John Backus won the 1977 ACM Turing Award for contributions to [Fortran] and [functional programming] — including the Backus–Naur Form.",
+      "about": "Backus led the [IBM] team that created [Fortran] and later argued for [functional programming] in his Turing lecture. BNF became the standard notation for describing programming language syntax.",
       "narrative": {
         "whyChosen": "Backus shaped both practical compilers and formal language specification.",
-        "whyImportant": "Fortran proved high-level languages could match hand-coded assembly performance.",
-        "problemSolved": "Scientists needed faster ways to program computers than machine code."
+        "whyImportant": "[Fortran] proved [high-level language]s could match hand-coded [assembly language] performance.",
+        "problemSolved": "Scientists needed faster ways to program computers than [machine code]."
       },
       "category": "culture",
       "tags": [

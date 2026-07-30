@@ -25,11 +25,11 @@
       "datePrecision": "year",
       "title": "Niklaus Wirth designs Pascal",
       "summary": "Niklaus Wirth designed Pascal between 1968 and 1970 as a teaching language emphasizing structured programming and clarity — distinct from the November 1970 language report.",
-      "about": "Pascal trained generations through Turbo Pascal and Delphi before yielding to C++ and Java. Wirth also created Modula-2 and Oberon — advocating simplicity with his quote 'Pascal is my favorite language after Pascal.'",
+      "about": "Pascal trained generations through [Turbo Pascal] and Delphi before yielding to C++ and Java. Wirth also created Modula-2 and Oberon — advocating simplicity with his quote 'Pascal is my favorite language after Pascal.'",
       "narrative": {
         "whyChosen": "Pascal was the default intro language for a decade of CS education.",
         "whyImportant": "It spread structured programming discipline to millions of students.",
-        "problemSolved": "FORTRAN and BASIC taught bad habits; Wirth wanted a small, clear teaching language."
+        "problemSolved": "[Fortran] and [BASIC] taught bad habits; Wirth wanted a small, clear teaching language."
       },
       "category": "software",
       "tags": [
