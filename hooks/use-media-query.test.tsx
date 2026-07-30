@@ -6,7 +6,7 @@ import { useMediaQuery } from "./use-media-query";
 describe("useMediaQuery", () => {
   it("returns current matchMedia result", () => {
     window.matchMedia = vi.fn().mockImplementation((query: string) => ({
-      matches: query === "(min-width: 1024px)",
+      matches: query === "(min-width: 768px)",
       media: query,
       onchange: null,
       addListener: vi.fn(),
@@ -16,7 +16,7 @@ describe("useMediaQuery", () => {
       dispatchEvent: vi.fn(),
     }));
 
-    const { result } = renderHook(() => useMediaQuery("(min-width: 1024px)"));
+    const { result } = renderHook(() => useMediaQuery("(min-width: 768px)"));
     expect(result.current).toBe(true);
   });
 
@@ -32,7 +32,7 @@ describe("useMediaQuery", () => {
       dispatchEvent: vi.fn(),
     }));
 
-    const { result } = renderHook(() => useMediaQuery("(min-width: 1024px)"));
+    const { result } = renderHook(() => useMediaQuery("(min-width: 768px)"));
     expect(result.current).toBe(false);
   });
 });

@@ -24,5 +24,5 @@ export function useMediaQuery(query: string): boolean {
   );
 }
 
-/** Tailwind `lg` — desktop horizontal chart at this width and above. */
-export const TIMELINE_DESKTOP_MEDIA_QUERY = "(min-width: 1024px)";
+/** Tailwind `md` — desktop horizontal chart at this width and above. */
+export const TIMELINE_DESKTOP_MEDIA_QUERY = "(min-width: 768px)";

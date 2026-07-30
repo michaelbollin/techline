@@ -4,7 +4,7 @@ import { describe, expect, it, vi } from "vitest";
 import { ResponsiveTimeline } from "./responsive-timeline";
 
 vi.mock("@/hooks/use-media-query", () => ({
-  TIMELINE_DESKTOP_MEDIA_QUERY: "(min-width: 1024px)",
+  TIMELINE_DESKTOP_MEDIA_QUERY: "(min-width: 768px)",
   useMediaQuery: vi.fn(),
 }));
 

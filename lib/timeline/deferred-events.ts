@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { deferredIdsFromThinCohorts } from "./deferred-cohorts";
+import { OUT_OF_SCOPE_EVENT_ID_SET } from "./out-of-scope-events";
 import type { TimelineEvent } from "./schema";
 import { isValidEventId, parseWrongEventImageIds } from "./wrong-images";
 
@@ -25,7 +26,7 @@ export async function readManualDeferredEventIds(): Promise<Set<string>> {
 export async function readDeferredEventIds(events: TimelineEvent[]): Promise<Set<string>> {
   const manual = await readManualDeferredEventIds();
   const automatic = deferredIdsFromThinCohorts(events);
-  return new Set([...manual, ...automatic]);
+  return new Set([...manual, ...automatic, ...OUT_OF_SCOPE_EVENT_ID_SET]);
 }
 
 export function isDeferredEvent(eventId: string, deferredIds: ReadonlySet<string>): boolean {
