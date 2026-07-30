@@ -19,6 +19,18 @@ describe("EventModal", () => {
     );
 
     expect(container.querySelector(".cd-rom-prismatic-sweep, canvas")).toBeTruthy();
+    expect(container.querySelector(".bg-white\\/90")).toBeTruthy();
+  });
+
+  it("uses a solid white panel when no animation is active", () => {
+    const { container } = render(
+      <EventModal>
+        <p>Event body</p>
+      </EventModal>,
+    );
+
+    expect(container.querySelector(".bg-white\\/90")).toBeNull();
+    expect(container.querySelector(".bg-white")).toBeTruthy();
   });
 
   it("renders children and closes on backdrop click", async () => {

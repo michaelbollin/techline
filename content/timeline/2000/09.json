@@ -41,6 +41,11 @@
       ],
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=XxbJw8PrIkc",
+          "title": "Steve Ballmer — Developers chant (.NET presentation)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/ballmer-developers-chant.jpg",
           "title": "Steve Ballmer",

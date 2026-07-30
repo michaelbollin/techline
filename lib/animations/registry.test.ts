@@ -15,6 +15,18 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("git-created")).toBe("git-branches");
   });
 
+  it("returns the transistor animation for Bell Labs transistor invented", () => {
+    expect(getAnimationIdForEvent("bell-labs-transistor-invented")).toBe("transistor");
+  });
+
+  it("returns the Ballmer developers animation for the developers chant", () => {
+    expect(getAnimationIdForEvent("ballmer-developers-chant")).toBe("ballmer-developers");
+  });
+
+  it("returns the internet tidal wave animation for Gates memo", () => {
+    expect(getAnimationIdForEvent("gates-internet-tidal-wave-memo")).toBe("internet-tidal-wave");
+  });
+
   it("returns null for events without an animation", () => {
     expect(getAnimationIdForEvent("javascript-released")).toBeNull();
   });

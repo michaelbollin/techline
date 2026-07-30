@@ -50,6 +50,7 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
     const { whatItIs, whatItSolved } = buildModalSections(event);
     const references = referenceSourcesForModal(event.sources);
     const impactLine = normalizeParagraph(event.narrative.whyImportant);
+    const embeddableMedia = event.media.filter((item) => item.type === "youtube");
 
     return (
       <div className="flex flex-col gap-8 sm:flex-row sm:items-start">
@@ -75,6 +76,8 @@ export function EventDetail({ event, variant = "page" }: EventDetailProps) {
               <TextWithAbbreviationTooltips text={whatItSolved} />
             </p>
           </EventDetailSection>
+
+          {embeddableMedia.length > 0 && <MediaList media={embeddableMedia} variant="modal" />}
 
           {references.length > 0 && (
             <div className="border-t border-black/10 pt-4">

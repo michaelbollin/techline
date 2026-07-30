@@ -47,6 +47,30 @@ describe("EventDetail", () => {
     expect(container.querySelector("aside")).toBeInTheDocument();
   });
 
+  it("renders youtube media in the modal body", () => {
+    const event = makeTimelineEvent({
+      media: [
+        {
+          type: "youtube",
+          url: "https://www.youtube.com/watch?v=XxbJw8PrIkc",
+          title: "Steve Ballmer — Developers chant",
+        },
+        {
+          type: "image",
+          url: "/media/timeline/ballmer-developers-chant.jpg",
+          title: "Steve Ballmer",
+        },
+      ],
+    });
+
+    render(<EventDetail event={event} variant="modal" />);
+
+    expect(screen.getByTitle("Steve Ballmer — Developers chant")).toHaveAttribute(
+      "src",
+      "https://www.youtube.com/embed/XxbJw8PrIkc",
+    );
+  });
+
   it("renders quote block on page variant", () => {
     const event = makeTimelineEvent({
       category: "quote",

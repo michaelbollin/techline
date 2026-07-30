@@ -381,6 +381,13 @@ export const QUOTES: TimelineEvent[] = [
         role: "overview",
       },
     ],
+    media: [
+      {
+        type: "youtube",
+        url: "https://www.youtube.com/watch?v=fs-YpQj88ew",
+        title: "Bill Gates explains the Internet to David Letterman (1995)",
+      },
+    ],
     relatedIds: ["microsoft-founded", "internet-explorer-1-0"],
   }),
   q({

@@ -72,15 +72,22 @@ export function EventModal({
         type="button"
         className={cn(
           "absolute inset-0 z-0",
-          animationId ? "bg-black/25" : "bg-black/40",
+          animationId ? "bg-white/20" : "bg-black/40",
         )}
         aria-label="Close event details"
         onClick={onClose}
       />
 
-      {animationId && <AnimationLayer animationId={animationId} className="z-[1]" />}
+      {animationId && (
+        <AnimationLayer animationId={animationId} variant="contained" className="z-[1]" />
+      )}
 
-      <div className="relative z-[2] flex h-[60dvh] max-h-[60dvh] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black bg-white sm:h-auto sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl">
+      <div
+        className={cn(
+          "relative z-[2] flex h-[60dvh] max-h-[60dvh] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black sm:h-auto sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl",
+          animationId ? "bg-white/90" : "bg-white",
+        )}
+      >
         <div className="flex shrink-0 justify-end px-4 pt-4">
           <Button variant="icon" aria-label="Close" onClick={onClose}>
             <CloseIcon />

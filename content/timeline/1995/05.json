@@ -204,6 +204,11 @@
       "slug": "gates-internet-tidal-wave-memo",
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=fs-YpQj88ew",
+          "title": "Bill Gates explains the Internet to David Letterman (1995)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/gates-internet-tidal-wave-memo.jpg",
           "title": "Bill Gates",

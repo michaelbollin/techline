@@ -101,6 +101,7 @@ npm run validate
 |----------|-------|
 | `ballmer-developers-chant` | [Developers chant (.NET presentation)](https://www.youtube.com/watch?v=XxbJw8PrIkc) |
 | `ballmer-web-developers-chant` | [Web developers chant (MIX08)](https://www.youtube.com/watch?v=8pdkEJ0nFBg) |
+| `gates-internet-tidal-wave-memo` | [Gates explains the Internet to Letterman (1995)](https://www.youtube.com/watch?v=fs-YpQj88ew) |
 | `altman-ai-goes-wrong` | [Senate AI oversight hearing](https://www.youtube.com/watch?v=fP5YdyjTfG0) |
 
 ---
