@@ -2,7 +2,7 @@ import { loadTimeline } from "../lib/timeline/load";
 import { COMPANY_ATTRIBUTIONS } from "../lib/timeline/company-attributions";
 import { PEOPLE_ATTRIBUTIONS } from "../lib/timeline/people-attributions";
 
-const { events, buckets } = await loadTimeline();
+const { events, buckets } = await loadTimeline(undefined, { includeDeferred: true });
 
 console.log(`Validated ${events.length} events across ${buckets.length} monthly/yearly buckets.`);
 

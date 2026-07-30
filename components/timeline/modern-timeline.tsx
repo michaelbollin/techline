@@ -11,7 +11,7 @@ import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
 import {
   TIMELINE_AXIS_STROKE_WIDTH,
-  TIMELINE_EVENT_DETAIL_OFFSET,
+  timelineEventDetailTop,
   TIMELINE_INK,
 } from "@/lib/timeline/constants";
 import { buildAxisPath } from "@/lib/timeline/axis-path";
@@ -91,7 +91,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     });
 
   const axisPath = useMemo(() => buildAxisPath(width, axisY), [axisY, width]);
-  const detailTop = axisY + TIMELINE_EVENT_DETAIL_OFFSET;
+  const detailTop = timelineEventDetailTop(axisY, height);
 
   useEffect(() => {
     if (hovered && !filteredEvents.some((event) => event.id === hovered.id)) {

@@ -1,0 +1,21 @@
+# Duplicate analysis for timeline events
+
+## Exact titles: 0 duplicate groups
+
+(none)
+
+## Case-insensitive titles: 0 duplicate groups
+
+(none)
+
+## Normalized titles: 0 duplicate groups
+
+(none)
+
+## Event ids: 0 duplicate groups
+
+(none)
+
+## Slugs: 0 duplicate groups
+
+(none)

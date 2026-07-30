@@ -83,14 +83,7 @@
         }
       ],
       "importance": 3,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/internet-explorer-1-0.jpg",
-          "title": "Yasha Levine on Pirate TV",
-          "caption": "Ed Mays, CC BY 3.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Microsoft — Internet Explorer history (IE 1.0, August 16, 1995)",

@@ -127,14 +127,7 @@
         }
       ],
       "importance": 2,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/http-2-standardized.svg",
-          "title": "S&P500, 7p5, 4p0, 2018 December",
-          "caption": "Richardhy, CC BY-SA 4.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "RFC 7540 — HTTP/2 (May 14, 2015)",
@@ -339,14 +332,7 @@
         "open-source"
       ],
       "importance": 5,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/gatsby-open-sourced.jpg",
-          "title": "Gatsby (software)",
-          "caption": "Photographer: Aline Sagrabelny, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "GitHub — gatsbyjs/gatsby initial commit (May 21, 2015)",

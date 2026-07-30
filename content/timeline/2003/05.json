@@ -140,14 +140,7 @@
       ],
       "companies": [],
       "importance": 7,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/css-zen-garden-launched.jpg",
-          "title": "CSS Zen Garden",
-          "caption": "Carlos Varela, CC BY 2.0, via flickr"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "CSS Zen Garden — About (launched May 2003)",

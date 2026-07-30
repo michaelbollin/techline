@@ -131,14 +131,7 @@
         "web"
       ],
       "importance": 8,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/shopware-community-edition-released.png",
-          "title": "Shopware",
-          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Shopware — Our Story (Community Edition, autumn 2010)",

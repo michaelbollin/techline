@@ -191,14 +191,7 @@
         "saas"
       ],
       "importance": 7,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/sanity-launched.png",
-          "title": "Sanity (company)",
-          "caption": "Contenful, CC BY-SA 4.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Sanity Blog — Post launch post (November 14, 2017)",

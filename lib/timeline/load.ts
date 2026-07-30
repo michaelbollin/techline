@@ -7,9 +7,15 @@ import {
   type TimelineBucket,
   type TimelineEvent,
 } from "./schema";
+import { readDeferredEventIds } from "./deferred-events";
 import { enrichEventWithPeople } from "./people-attributions";
 
 export const CONTENT_DIR = path.join(process.cwd(), "content/timeline");
+
+export type LoadTimelineOptions = {
+  /** Include events hidden by thin-cohort / manual defer rules. Default false. */
+  includeDeferred?: boolean;
+};
 
 export type LoadedTimeline = {
   buckets: TimelineBucket[];
@@ -210,7 +216,11 @@ async function collectJsonFiles(dir: string, baseDir: string): Promise<string[]>
   return files.sort();
 }
 
-export async function loadTimeline(contentDir = CONTENT_DIR): Promise<LoadedTimeline> {
+export async function loadTimeline(
+  contentDir = CONTENT_DIR,
+  options: LoadTimelineOptions = {},
+): Promise<LoadedTimeline> {
+  const includeDeferred = options.includeDeferred ?? false;
   const jsonFiles = await collectJsonFiles(contentDir, contentDir);
   const buckets: TimelineBucket[] = [];
   const events: TimelineEvent[] = [];
@@ -242,9 +252,25 @@ export async function loadTimeline(contentDir = CONTENT_DIR): Promise<LoadedTime
     events: bucket.events.map(enrichEventWithPeople),
   }));
 
+  if (includeDeferred) {
+    return {
+      buckets: enrichedBuckets,
+      events: sortEvents(enrichedEvents),
+    };
+  }
+
+  const deferredIds = await readDeferredEventIds(enrichedEvents);
+  const visibleEvents = enrichedEvents.filter((event) => !deferredIds.has(event.id));
+  const visibleBuckets = enrichedBuckets
+    .map((bucket) => ({
+      ...bucket,
+      events: bucket.events.filter((event) => !deferredIds.has(event.id)),
+    }))
+    .filter((bucket) => bucket.events.length > 0);
+
   return {
-    buckets: enrichedBuckets,
-    events: sortEvents(enrichedEvents),
+    buckets: visibleBuckets,
+    events: sortEvents(visibleEvents),
   };
 }
 

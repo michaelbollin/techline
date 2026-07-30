@@ -34,7 +34,7 @@ describe("useTimelinePlot", () => {
     expect(result.current.filteredEvents).toHaveLength(1);
     expect(result.current.filteredEvents[0]?.id).toBe("a");
     expect(result.current.plotted).toHaveLength(1);
-    expect(result.current.axisY).toBe(height * 0.4);
+    expect(result.current.axisY).toBe(height * 0.3);
     expect(result.current.xScale(Date.parse("2000-01-15T12:00:00Z"))).toBeTypeOf("number");
     expect(result.current.labelLayout.get("a")?.showLabel).toBeTypeOf("boolean");
   });

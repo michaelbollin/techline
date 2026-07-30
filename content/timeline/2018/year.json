@@ -85,14 +85,7 @@
         "saas"
       ],
       "importance": 8,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/contentstack-founded.png",
-          "title": "Contentstack",
-          "caption": "Contenful, CC BY-SA 4.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "TechCrunch — Contentstack founded 2018",
@@ -133,14 +126,7 @@
         "commerce"
       ],
       "importance": 7,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/builder-io-founded.svg",
-          "title": "Builder.io",
-          "caption": "Webflow, Inc., Public domain, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "CB Insights — Builder.io company profile (founded 2018)",

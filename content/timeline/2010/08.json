@@ -24,14 +24,7 @@
       "people": [],
       "companies": [],
       "importance": 4,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/sentry-launched.jpg",
-          "title": "razor wire on fence - silent sentry",
-          "caption": "woodleywonderworks, CC BY 2.0, via flickr"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "GitHub — getsentry/sentry repository (created August 30, 2010)",

@@ -34,14 +34,7 @@
         }
       ],
       "importance": 5,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/miguel-de-icaza-mono-announced.jpg",
-          "title": "Miguel de Icaza",
-          "caption": "Scottmada, CC0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Mono project — Announcement (June 2001)",

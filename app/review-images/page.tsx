@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { EventImageReviewList } from "@/components/review/event-image-review-list";
-import { getTimeline } from "@/lib/timeline/get-timeline";
+import { loadTimeline } from "@/lib/timeline/load";
 import { readWrongEventImageIds, WRONG_EVENT_IMAGES_PATH } from "@/lib/timeline/wrong-images";
 
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default async function ReviewImagesPage() {
-  const { events } = await getTimeline();
+  const { events } = await loadTimeline(undefined, { includeDeferred: true });
   const wrongImageIds = [...(await readWrongEventImageIds())];
 
   return (

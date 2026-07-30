@@ -28,14 +28,7 @@
         }
       ],
       "importance": 8,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/blackberry-7290-released.jpg",
-          "title": "BlackBerry",
-          "caption": "個人, Public domain, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "BlackBerry 7290 released — launch",
@@ -131,14 +124,7 @@
         "web"
       ],
       "importance": 9,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/shopware-released.png",
-          "title": "Shopware",
-          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Wikipedia — Shopware (version 1, 2004)",

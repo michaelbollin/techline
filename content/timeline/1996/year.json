@@ -30,14 +30,7 @@
         }
       ],
       "importance": 7,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/sun-enterprise-10000-released.jpg",
-          "title": "Sun Enterprise",
-          "caption": "DoomWarrior, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Wikipedia — Sun Enterprise (Starfire, 1996)",

@@ -1,0 +1,2 @@
+# Optional manual deferrals — one event id per line.
+# Most deferrals are automatic via lib/timeline/deferred-cohorts.ts (thin product cohorts).

@@ -29,14 +29,7 @@
         }
       ],
       "importance": 1,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/html-invented.svg",
-          "title": "HTML",
-          "caption": "W3C, CC BY 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "CERN — The birth of the web (HTML invented 1991)",

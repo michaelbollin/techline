@@ -29,14 +29,7 @@
         }
       ],
       "importance": 5,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/autoconf-released.svg",
-          "title": "GDB Archer Fish by Andreas Arnez",
-          "caption": "Original: Jamie Guinan Vectorization: Andreas Arnez, CC BY-SA 3.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "GNU Autoconf — Genesis (June 1991)",

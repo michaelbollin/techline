@@ -77,14 +77,7 @@
         "web"
       ],
       "importance": 8,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/shopware-open-sourced.png",
-          "title": "Shopware",
-          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Wikipedia — Shopware (AGPL with version 4.0, August 28, 2012)",

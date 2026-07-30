@@ -79,14 +79,7 @@
         "api"
       ],
       "importance": 8,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/shopware-6-preview-released.png",
-          "title": "Shopware",
-          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "IT-Business — Shopware Community Day 2019 (May 23, 2019)",

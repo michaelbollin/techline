@@ -247,14 +247,7 @@
       "people": [],
       "companies": [],
       "importance": 3,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/stuxnet-discovered.jpg",
-          "title": "Cyber WMD (5571923679)",
-          "caption": "Steve Jurvetson from Los Altos, USA, CC BY 2.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Wired — Stuxnet first identified (June 17, 2010)",

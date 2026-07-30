@@ -177,14 +177,7 @@
         "headless"
       ],
       "importance": 8,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/shopware-6-1-released.png",
-          "title": "Shopware",
-          "caption": "shopware AG, CC BY-SA 3.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Shopware — 6.1.0 changelog (January 15, 2020)",

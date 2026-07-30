@@ -1,0 +1,1033 @@
+Ada Lovelace Analytical Engine notes
+Hilbert and Ackermann pose the Entscheidungsproblem
+Nyquist establishes digital sampling limits
+Gödel publishes incompleteness theorems
+Alan Turing defines the Turing machine
+Church defines effective calculability with lambda calculus
+Shannon applies Boolean algebra to switching circuits
+Konrad Zuse completes the Z3
+McCulloch and Pitts model artificial neurons
+Colossus computer operational at Bletchley Park
+Harvard Mark I completed
+von Neumann stored-program architecture
+Vannevar Bush envisions the "memex"
+ENIAC formally dedicated
+Moore School lectures on electronic computers begin
+Bell Labs demonstrates the transistor
+Wiener publishes Cybernetics
+Manchester Baby runs first stored program
+Claude Shannon publishes information theory
+EDSAC Initial Orders assembler
+EDSAC runs its first programs
+Richard Hamming publishes error-correcting codes
+Turing publishes Computing Machinery and Intelligence
+Turing: "Can machines think?"
+UNIVAC I delivered
+Grace Hopper's A-0 automatic programming system
+Whirlwind magnetic core memory operational
+Dartmouth AI summer research proposal
+Dartmouth proposal: simulate every feature of intelligence
+Marvin Minsky co-organizes Dartmouth AI workshop
+IBM RAMAC 305 announced
+Frank Rosenblatt builds the Perceptron
+FORTRAN formally published
+First FORTRAN compiler delivered
+John McCarthy invents Lisp
+Kilby demonstrates first IC
+ALGOL 58 language defined
+Noyce invents planar IC
+First working Lisp interpreter
+COBOL language finalized
+ALGOL 60 language defined
+First COBOL program executed
+DEC PDP-1 introduced
+Tony Hoare publishes Quicksort
+Jean Sammet develops FORMAC
+ASCII standard published
+Ivan Sutherland creates Sketchpad
+IBM System/360 announced
+BASIC runs for the first time at Dartmouth
+CDC 6600 introduced
+DEC PDP-8 unveiled
+Gordon Moore publishes Moore's Law
+Moore: chip density doubles yearly
+DEC PDP-10 released
+Joseph Weizenbaum creates ELIZA
+Object-oriented programming invented
+Early language that led to C documented
+Donald Knuth publishes TAOCP Volume 1
+Dijkstra publishes 'Go To Considered Harmful'
+Dijkstra: Go To considered harmful
+Gordon Moore and Robert Noyce found Intel
+Unix language before C created
+Unix operating system created
+Margaret Hamilton leads Apollo flight software
+First ARPANET host-to-host message
+Niklaus Wirth designs Pascal
+Pascal language report published
+Stephen Cook proves NP-completeness
+Esquire publishes "Secrets of the Little Blue Box"
+Intel 4004 microprocessor introduced
+C programming language takes shape at Bell Labs
+Jon Postel begins Internet numbering stewardship
+Karen Spärck Jones publishes IDF
+Prolog language created
+Cocks invents RSA at GCHQ
+Ethernet invented at Xerox PARC
+Xerox Alto operational
+FTP protocol specified in RFC 542
+Gary Kildall creates CP/M
+Elizabeth Feinler leads the ARPANET NIC
+Vint Cerf and Bob Kahn publish TCP/IP design
+SQL database language invented
+Knuth: premature optimization
+Brooks: adding people delays projects
+Fred Brooks publishes The Mythical Man-Month
+Roy Amara warns we misjudge technology timelines
+Altair 8800 released
+Bill Gates and Paul Allen found Microsoft
+Cray-1 supercomputer delivered
+Make build tool created
+Steve Jobs and Steve Wozniak found Apple
+Apple I goes on sale
+Diffie–Hellman cryptography paper
+AWK created at Bell Labs
+Brian Kernighan co-creates AWK
+John Backus receives Turing Award
+Rivest, Shamir, and Adleman invent RSA
+Commodore PET 2001 released
+Apple II introduced
+Larry Ellison co-founds Oracle
+TRS-80 Model I released
+DEC VAX-11/780 announced
+Donald Knuth begins developing TeX
+The C Programming Language book published
+FORTRAN 77 standardized
+Intel 8086 introduced
+Hoare publishes CSP
+Douglas Hofstadter coins Hofstadter's Law
+Mead–Conway VLSI methodology
+Oracle Database 2 shipped
+Intel 8088 introduced
+Adele Goldberg co-releases Smalltalk-80
+Robert Metcalfe states Metcalfe's Law
+Usenet established
+Sinclair ZX80 released
+Osborne 1 released
+IBM PC 5150 released
+MS-DOS 1.0 released with IBM PC
+Sun Microsystems founded
+GRiD Compass released
+Sun-1 workstation released
+Commodore 64 released
+ARPANET switches to TCP/IP
+Apple Lisa released
+Lotus 1-2-3 released
+Ada language standardized
+Compaq Portable released
+IBM PC XT released
+Telnet standardized
+Anders Hejlsberg ships Turbo Pascal
+DNS standardized
+Ritchie and Thompson receive Turing Award
+CD-ROM format introduced
+Objective-C created at Stepstone
+Susan Kare designs Macintosh icons
+2600: The Hacker Quarterly first published
+Macintosh 128K released
+IBM PC AT released
+NFS first implemented
+MATLAB debuts
+Grace Hopper nanosecond lecture
+MIPS architecture launched
+Zero-knowledge proofs published
+Richard Stallman publishes the GNU Manifesto
+Toshiba T1100 released
+Atari ST released
+Amiga 1000 released
+Radia Perlman publishes spanning tree protocol
+Bjarne Stroustrup releases C++
+First commercial C++ compiler
+FTP standardized
+Intel 80386 introduced
+Warez scene group Razor 1911 founded
+Richard Stallman founds FSF
+Phrack hacker zine first published
+Michael Stonebraker leads the Postgres project
+Brain boot-sector virus spreads on PCs
+Macintosh Plus released
+NSFNET backbone activated
+Andrew Tanenbaum creates MINIX
+Game cracking group Fairlight (FLT) founded
+Morris Chang founds TSMC
+GCC first public release
+IBM PC 5150 discontinued
+Acorn Archimedes released
+Andy Grove named Intel CEO
+Larry Wall releases Perl 1.0
+Perl 1.0 released
+Tcl embeddable command language created
+IBM AS/400 announced
+POSIX.1 standardized
+NeXT Computer unveiled
+Morris worm spreads on the internet
+LeNet convolutional networks
+GPL version 1 published
+SPARCstation 1 released
+Bash 1.0 released for the GNU Project
+Macintosh Portable released
+PC Cyborg AIDS Trojan — first known ransomware
+C language standardized
+Richard Gabriel argues "worse is better"
+Haskell language published
+Windows 3.0 released
+Archie search engine launched
+NeXTstation released
+WorldWideWeb — first web browser
+HTML invented
+Python 0.9.0 released
+Visual Basic 1.0 released
+Autoconf created
+Phil Zimmermann releases PGP
+SGI Indigo released
+Fortran 90 standardized
+Linus Torvalds announces Linux
+Apple PowerBook released
+C++ gains templates
+Bram Moolenaar releases Vim
+University of Kansas team creates Lynx
+Andrew Tanenbaum posts "Linux is obsolete"
+Torvalds: Linux more portable than Minix
+ODBC 1.0 released
+Rob Pike and Ken Thompson design UTF-8
+IBM ThinkPad 700C released
+Microsoft Access 1.0 released
+Compaq ProLiant servers launched
+Philip Greenspun states his tenth rule
+Lynx 2.0 gains World Wide Web support
+Intel Pentium introduced
+Jensen Huang co-founds NVIDIA
+NCSA Mosaic 1.0 released
+CERN releases the web into the public domain
+DEF CON hacker conference begins
+Patrick Volkerding releases Slackware Linux
+Windows NT 3.1 released
+Apple Newton MessagePad released
+R first publicly announced
+CGI specified
+Alexander Stepanov publishes the STL
+Anita Borg founds Grace Hopper Celebration
+Bill Joy: smartest people elsewhere
+Bruce Schneier publishes Applied Cryptography
+Marc Andreessen and Jim Clark found Netscape
+URI syntax standardized
+Lua 1.1 first public release
+IBM Simon Personal Communicator released
+HTTP cookies introduced in Netscape
+Tim Berners-Lee founds the W3C
+Håkon Wium Lie proposes CSS
+Perl 5.0 released
+Netscape Navigator 1.0 shipped
+Jetty released
+Ada 95 standardized
+Borland Delphi 1.0 launched
+Kevin Mitnick arrested after nationwide manhunt
+LDAP standardized
+Ward Cunningham creates the wiki
+BeBox released
+Apache HTTP Server first public release
+JavaScript prototyped at Netscape
+Java announced at SunWorld
+MySQL first released
+Bill Gates declares the "Internet tidal wave"
+PHP Tools 1.0 announced
+Bert Bos joins CSS development
+Netscape IPO ignites the dot-com gold rush
+Internet Explorer 1.0 released
+Microsoft Windows 95 released
+Larry Ellison calls the PC "a ridiculous device"
+Theo de Raadt forks OpenBSD
+JavaScript name announced by Netscape and Sun
+Ruby 0.95 publicly released
+Richard Stallman: "free as in speech, not beer"
+Sun Enterprise 10000 released
+Java 1.0 shipped
+Section 230 of the Communications Decency Act enacted
+Palm Pilot 1000 released
+Netscape Navigator 2.0 shipped
+Opera 2.0 publicly released
+OCaml language released
+Nokia 9000 Communicator released
+Internet Explorer 3.0 released
+Amaya — W3C browser and editor
+CSS Level 1 becomes a W3C Recommendation
+Yukihiro Matsumoto releases Ruby 1.0
+The Cathedral and the Bazaar
+HTTP/1.1 standardized
+PostgreSQL 6.0 released
+JavaScript standardized
+Netscape Communicator 4.0 released
+Steve Jobs returns to Apple as advisor
+Internet Explorer 4.0 released
+JUnit released
+Fortran 95 standardized
+Macromedia Dreamweaver 1.0 released
+Jim Gray receives Turing Award
+Sutton RL textbook published
+Open Source Initiative founded
+Daniel Stenberg releases curl
+Mozilla source code open-sourced
+Leslie Lamport publishes Paxos
+CSS Level 2 becomes a W3C Recommendation
+Rasmus Lerdorf releases PHP 3
+XML-RPC protocol specified
+iMac G3 released
+Bugzilla 1.0 released
+C++98 standardized
+Larry Page and Sergey Brin incorporate Google
+Digital Millennium Copyright Act signed into U.S. law
+Erlang/OTP released as open source
+Extreme Programming Explained
+Martin Fowler defines refactoring
+Martin Fowler publishes Refactoring
+TLS 1.0 standardized
+Jabber (XMPP) first released
+XMLHttpRequest introduced in IE5
+Melissa macro virus spreads via email
+MQTT invented
+OpenCart first released
+VMware 1.0 released
+Apache Tomcat released
+Napster peer-to-peer music sharing launches
+Flash 4 ships with a real scripting language
+DeCSS DVD decryption code published
+Hunt & Thomas coin DRY — "Don't Repeat Yourself"
+JavaScript ES3 standardized
+OpenBSD team releases OpenSSH
+Y2K millennium rollover passes with minimal failures
+Fabrice Bellard creates FFmpeg
+JetBrains founded
+REST architectural style defined
+Bill Gates steps down as Microsoft CEO
+Steve Ballmer named Microsoft CEO
+Salesforce.com launched
+NASDAQ peaks at the height of the dot-com bubble
+U.S. judge rules Microsoft violated antitrust law
+ILOVEYOU worm infects millions of PCs
+SOAP 1.1 published
+NetBeans open-sourced by Sun
+C# programming language announced
+Apache Ant first released
+Joel Spolsky publishes the Joel Test
+SQLite 1.0 released
+ActionScript 1.0 debuts with Flash 5
+Torvalds: Talk is cheap
+CMake released
+Ballmer: "Developers!" chant
+Python 2.0 released
+Konqueror and KHTML shipped with KDE 2
+IntelliJ IDEA released
+iTunes 1.0 released
+Drupal 1.0 released
+Wikipedia launched
+Python Software Foundation founded
+Kurzweil: accelerating returns
+Hibernate ORM released
+First commercial blade servers ship
+Nokia 9210 Communicator released
+Steve Ballmer calls Linux "a cancer"
+BitTorrent client first released
+Miguel de Icaza announces Mono
+Code Red worm targets IIS web servers
+Eric Schmidt named Google CEO
+Internet Explorer 6.0 released
+USA PATRIOT Act signed into law
+Eclipse IDE open-sourced
+Enron files for bankruptcy
+.NET Framework 1.0 released
+ASP.NET 1.0 launched with Visual Studio .NET
+Visual Basic .NET released with .NET Framework
+BlackBerry 5810 released
+Atlassian Jira 1.0 released
+OpenOffice.org 1.0 released
+Mozilla 1.0 released
+WorldCom files for bankruptcy
+Sarbanes-Oxley Act signed into U.S. law
+T-Mobile Sidekick released
+Safari announced at Macworld
+SQL Slammer worm doubles internet traffic
+lighttpd first released
+Lua 5.0 released
+AMD Opteron — first x86-64 CPU — launched
+CSS Zen Garden launched
+Memcached released
+WordPress released
+SOAP 1.2 became a W3C Recommendation
+Mozilla Foundation created
+Ruby 1.8 released
+The Pirate Bay BitTorrent tracker founded
+Xcode 1.0 released
+LLVM 1.0 released
+BlackBerry 7290 released
+Selenium released
+Shopware first released
+Squarespace launched
+Scala first public release
+Basecamp project management launched
+Subversion 1.0 released
+RubyGems released
+Spring Framework 1.0 released
+Atlassian Confluence 1.0 released
+Apache Maven 1.0 released
+PHP 5.0 released
+Ruby on Rails open sourced
+Java 5 (Tiger) released
+nginx first public release
+Firefox 1.0 released
+Fortran 2003 standardized
+JSON-RPC 1.0 published
+Werner Vogels named Amazon CTO
+Hudson CI first released
+Jesse James Garrett coins AJAX
+Git created
+Mercurial released
+WebKit open-sourced by Apple
+Django open-sourced
+Opera Mini pilot launched
+Puppet first released
+Arduino boards first shipped
+Joomla 1.0 released
+Salesforce AppExchange unveiled
+Symfony framework released
+Sony BMG rootkit DRM exposed
+.NET Framework 2.0 and C# 2.0 released
+Firefox 1.5 released
+Ruby on Rails 1.0 released
+Douglas Crockford popularizes JSON
+Frances Allen receives Turing Award
+Wix founded
+Scala 2.0 released
+Lua 5.1 released
+Capistrano released
+Amazon S3 launched
+Twitter launches
+Google Calendar launched
+Shopify launched
+Graydon Hoare begins Rust
+Amazon EC2 beta launched
+jQuery 1.0 released
+BlackBerry Pearl released
+Internet Explorer 7 released
+Jensen Huang announces CUDA
+Windows PowerShell 1.0 released
+Sass released
+ECMA publishes Office Open XML standard
+Mary Lou Jepsen leads OLPC display engineering
+Groovy 1.0 released
+Steve Jobs introduces the iPhone
+Reed Hastings launches Netflix streaming
+RabbitMQ launched
+Nokia N95 released
+ZeroMQ project started
+Jonathan Schwartz: "innovate, not litigate"
+Dropbox founded
+Heroku founded
+Safari 3 for Windows public beta released
+iPhone goes on sale
+Clang open-sourced
+PrestaShop released
+Salesforce Force.com launched
+Amazon Dynamo paper published
+Rich Hickey releases Clojure
+OAuth 1.0 published
+OLPC Give One Get One program launched
+Android announced
+CouchDB 0.7.0 released
+.NET 3.5 and C# 3.0 with LINQ released
+Barbara Liskov receives Turing Award
+Sublime Text 1.0 released
+Joomla 1.5 released
+MacBook Air released
+Netscape browser discontinued
+Ballmer: "Web developers!" chant
+Magento 1.0 released
+Intel Atom announced
+Google App Engine preview released
+GitHub launched
+Phusion Passenger released
+Gradle first released
+JavaScript: The Good Parts
+Google App Engine opens to all developers
+Firefox 3.0 released
+Bitbucket launched
+iPhone App Store opens
+iPhone 3G released
+Apache Cassandra open sourced
+LXC released
+BlackBerry Bold 9000 released
+Google Chrome beta released
+Lehman Brothers bankruptcy triggers global financial crisis
+Stack Overflow public beta launches
+T-Mobile G1 released
+pip first released
+Bitcoin whitepaper published
+Asana founded
+Python 3.0 released
+Facebook motto: "Move fast and break things"
+Fei-Fei Li launches ImageNet dataset
+Bitcoin genesis block mined
+Chef first released
+MongoDB first released
+Safari 4 beta released
+Redis first released
+Internet Explorer 8 released
+Homebrew first released
+Node.js first released
+Less CSS preprocessor introduced
+iPhone 3GS released
+Nokia N97 released
+PHP 5.3 released
+uWSGI released
+BigCommerce launched
+MariaDB first released
+Motorola Droid released
+Go programming language open-sourced
+JavaScript ES5 standardized
+Express.js initial release
+Gunicorn first released
+Nexus One released
+npm first released
+Apple A4 chip introduced
+iPad introduced
+Elasticsearch released
+Vagrant first released
+Flask web framework released
+James Gosling leaves Oracle
+.NET 4.0 and C# 4.0 released
+F# 2.0 shipped with Visual Studio 2010
+Steve Jobs: "Flash is a closed system"
+Sass 3.0 adds SCSS syntax
+First real-world Bitcoin purchase
+Moxie Marlinspike releases TextSecure
+JetBrains PhpStorm 1.0 released
+JetBrains WebStorm 1.0 released
+Samsung Galaxy S released
+Safari 5 released
+Stuxnet worm discovered targeting industrial systems
+WordPress 3.0 released
+iPhone 4 released
+Haskell 2010 language standard published
+Python 2.7 released
+Sentry error monitoring open-sourced
+BlackBerry Torch released
+DeepMind founded
+Shopware Community Edition released
+NuGet released
+JetBrains PyCharm 1.0 released
+AngularJS 0.9.0 open-sourced
+Chromebook CR-48 pilot begins
+Nexus S released
+Judea Pearl receives Turing Award
+Drupal 7 released
+Apache Kafka open-sourced
+Kohsuke Kawaguchi renames Hudson to Jenkins
+Browserify first released
+Travis CI launched
+Ninja build system open-sourced
+Elixir 0.1.0 released
+Internet Explorer 9 released
+Firefox 4 released
+Samsung Galaxy S II released
+CSS 2.1 becomes a W3C Recommendation
+Laravel first beta released
+Chromebooks go on sale
+Firefox 5 released
+Kotlin programming language announced
+Google open-sources LevelDB
+Swagger 1.0 released
+Firefox 6 released
+Bootstrap released
+Marc Andreessen: "Software is eating the world"
+C++11 standardized
+CircleCI founded
+Trello kanban boards launched
+WooCommerce released
+CSS Selectors Level 3 standard
+GitLab first released
+Andrew Ng's Stanford ML course goes online
+Dart language unveiled at GOTO
+iPhone 4S released
+Samsung Galaxy Note released
+Nokia Lumia 800 released
+Galaxy Nexus released
+WebSocket protocol standardized
+Shafi Goldwasser receives Turing Award
+SOPA/PIPA protest blackout mobilizes the web
+Joomla 2.5 released
+Ansible first released
+Raspberry Pi Model B released
+Composer first released
+webpack first released
+Go 1.0 released
+Samsung Internet browser launched
+Laravel 3.2 released
+Samsung Galaxy S III released
+Coinbase founded
+Chrome for Android released
+Safari 6 released
+.NET 4.5 and C# 5.0 with async/await released
+Shopware 4 open sourced
+AlexNet wins ImageNet
+Zoom video conferencing software launches
+iPhone 5 released
+Samsung Galaxy Note II released
+Joomla 3.0 released
+OAuth 2.0 standardized
+Postman API client launched
+TypeScript preview released
+Internet Explorer 10 released
+Nokia Lumia 920 released
+Nexus 4 released
+g0v civic hacking movement begins
+Contentful founded
+Prismic founded
+BlackBerry Z10 released
+Surface Pro released
+Ruby 2.0 released
+Meson first released
+Node.js 0.10 released
+Autoprefixer released
+Docker open-sourced
+HTC One (M7) released
+Google announced Blink rendering engine
+Samsung Galaxy S4 released
+Android Studio announced
+React open-sourced at JSConf US
+Craft CMS 1.0 released
+Snowden NSA surveillance programs revealed
+Opera 15 on Chromium released
+ESLint first released
+Nokia Lumia 1020 released
+Webflow launched
+Shopify Payments launched
+Bootstrap 3 released
+iPhone 5C released
+iPhone 5S released
+Samsung Galaxy Note 3 released
+Ghost publicly released
+Internet Explorer 11 released
+Safari 7 released
+Nexus 5 released
+PostCSS released
+Wix IPO
+Nokia Lumia 1520 released
+Ethereum whitepaper published
+Framer founded
+Monday.com work OS launched
+Vue.js publicly released
+Satya Nadella named Microsoft CEO
+Shopify Plus launched
+Slack team messaging launches
+OpenID Connect 1.0 published
+GitHub Atom editor released
+Java 8 released
+Gavin Wood coins the term Web3
+Spring Boot 1.0 released
+TypeScript 1.0 released
+Brendan Eich resigns as Mozilla CEO
+Heartbleed OpenSSL vulnerability disclosed
+Express 4.0 released
+Samsung Galaxy S5 released
+Tom Preston-Werner resigns from GitHub
+OnePlus One released
+Ian Goodfellow invents GANs
+Swift programming language announced at WWDC
+Kubernetes open-sourced
+Crystal 0.1.0 released
+Terraform first released
+ESP8266 Wi-Fi module popularized
+Elixir 1.0 released
+iPhone 6 Plus released
+iPhone 6 released
+Babel transpiler first released
+Lisa Su named AMD CEO
+Safari 8 released
+Samsung Galaxy Note 4 released
+Nexus 6 released
+AWS Lambda launched
+Sony Pictures Entertainment hacked
+C++14 standardized
+Andrej Karpathy launches Stanford CS231n course
+Raspberry Pi 2 released
+Laravel 5.0 released
+FCC adopts Open Internet net neutrality rules
+gRPC open-sourced
+Airtable spreadsheet-database launched
+NVIDIA Jetson TK1 released
+Bazel open-sourced
+Netlify launched
+Samsung Galaxy S6 released
+Apple Watch released
+Caddy first released
+Visual Studio Code preview released
+JWT standardized
+Discord chat for gamers launches
+HTTP/2 standardized
+Cargo 1.0 released
+Rust 1.0 released
+Gatsby open sourced
+Rollup first released
+Shopify IPO
+CockroachDB open sourced
+Swift 2 announced at WWDC
+JavaScript ES6 standardized
+Open Container Initiative launched
+GraphQL technical preview open-sourced
+C# 6 and Roslyn compiler released
+Microsoft Edge released with Windows 10
+Ethereum mainnet launches
+Sundar Pichai named Google CEO
+Ashley Madison user data leaked
+Samsung Galaxy Note 5 released
+Phoenix 1.0 released
+Node.js 4.0 released
+iPhone 6S released
+Nexus 6P released
+Safari 9 released
+Strapi open sourced
+TensorFlow open sourced
+Jamstack term coined
+Magento 2.0 released
+Drupal 8 released
+ERC-20 token standard finalized
+Raspberry Pi Zero released
+Symfony 3.0 released
+Sam Altman co-founds OpenAI
+Figma collaborative design tool launches
+Let's Encrypt public beta launched
+PHP 7.0 released
+Swift open-sourced
+Ilya Sutskever named OpenAI research director
+Perl 6.c 'Christmas' released
+Brave browser launched
+Zig programming language announced
+Kotlin 1.0 released
+Apple ordered to help FBI unlock San Bernardino iPhone
+CSS custom properties ship in Chrome 49
+Samsung Galaxy S7 released
+Demis Hassabis's AlphaGo defeats Lee Sedol 4–1
+iPhone SE (1st gen) released
+Andy Jassy named AWS CEO
+Vivaldi browser launched
+Node.js 6 released
+Electron 1.0 released
+jQuery 3.0 released
+The DAO exploited on Ethereum
+UK votes to leave the European Union
+.NET Core 1.0 released
+ASP.NET Core 1.0 released
+Language Server Protocol announced
+MetaMask browser wallet released
+Notion all-in-one workspace launches
+Windows Subsystem for Linux released
+PowerShell open-sourced on GitHub
+Samsung Galaxy Note 7 released
+Angular 2.0 final released
+iPhone 7 released
+Safari 10 released
+Netlify CMS released
+Audrey Tang appointed Taiwan digital minister
+Yarn released
+Google Pixel released
+Next.js open sourced
+Helm 2.0 released
+GraphCMS founded
+Storyblok founded
+PyTorch public beta released
+NestJS introduced
+WebAssembly MVP design finished
+Lisa Su launches AMD Ryzen on Zen architecture
+C# 7 released with Visual Studio 2017
+CSS Grid Layout ships in Firefox 52
+Microsoft Teams launches worldwide
+Samsung Galaxy S8 released
+WannaCry ransomware spreads worldwide
+Kotlin made official for Android
+Node.js 8 released
+NotPetya destructive malware hits global firms
+pnpm 1.0 released
+Windows Phone 8.1 support ended
+Mila AI institute incorporated
+Chris Wanstrath steps down as CEO
+Equifax discloses massive data breach
+Samsung Galaxy Note 8 released
+Safari 11 released
+iPhone 8 released
+Cypress open sourced
+Google Pixel 2 released
+Tailwind CSS first released
+iPhone X released
+Firefox 57 Quantum released
+Sanity launched
+CryptoKitties launches on Ethereum
+Symfony 4.0 released
+C++17 standardized
+FCC votes to repeal net neutrality rules
+MakerDAO launches DAI stablecoin
+Builder.io founded
+Contentstack founded
+Hinton, Bengio, and LeCun share Turing Award
+Bootstrap 4 released
+Yann LeCun named Facebook chief AI scientist
+Spring Boot 2.0 released
+Facebook suspends Cambridge Analytica
+Samsung Galaxy S9 released
+Node.js 10 released
+Adobe acquires Magento
+EU General Data Protection Regulation takes effect
+Ryan Dahl announces Deno
+Guido van Rossum steps down as Python BDFL
+BlackBerry Key2 released
+Apache Kafka 2.0 released
+Samsung Galaxy Note 9 released
+Phoenix LiveView announced
+Cypress leaves beta
+iPhone XS released
+Java 11 LTS released
+Google Pixel 3 released
+iPhone XR released
+Uniswap v1 released
+GraphQL Foundation announced
+Flutter 1.0 released
+FastAPI first released
+WordPress 5.0 released
+PyTorch 1.0 released
+Vue 2.6 released
+Samsung Galaxy S10 released
+Fei-Fei Li co-directs Stanford HAI launch
+Node.js 12 released
+Tailwind CSS 1.0 released
+Shopware 6 developer preview released
+Opera GX browser released
+Kubernetes 1.15 released
+Docker 19.03 released
+Samsung Galaxy Note 10 released
+Samsung Galaxy Fold released
+iPhone 11 released
+.NET Core 3.0 and C# 8 released
+TensorFlow 2.0 released
+Linear issue tracker launches
+Google Pixel 4 released
+TypeScript 3.7 released
+GitHub Actions generally available
+Kubernetes 1.17 released
+California Consumer Privacy Act takes effect
+Python 2 reaches end of life
+Chromium-based Microsoft Edge released
+Shopware 6.1 released
+Playwright announced by Microsoft
+Playwright released
+Samsung Galaxy Z Flip released
+Elon Musk: "OpenAI should be more open"
+Samsung Galaxy S20 released
+WHO declares COVID-19 a global pandemic
+Solana mainnet beta launches
+Node.js 14 released
+ZEIT rebranded as Vercel
+ECMAScript 2020 standardized
+Drupal 9 released
+OpenAI GPT-3 API announced
+Compound launches COMP governance token
+Sanfilippo steps down from Redis
+Twitter internal tools hijacked in Bitcoin scam
+EU Court invalidates EU–U.S. Privacy Shield
+BigCommerce IPO
+Samsung Galaxy Note 20 released
+Laravel 8.0 released
+Samsung Galaxy Z Fold 2 released
+Vue 3.0 released
+Webpack 5 released
+Google Pixel 5 released
+iPhone 12 released
+Safari 14 shipped with macOS Big Sur
+.NET 5 released
+Apple M1 announced
+C# 9 released with .NET 5
+M1 MacBook Air and Pro ship
+PHP 8.0 released
+C++20 standardized
+FTC sues Facebook for anticompetitive conduct
+SolarWinds supply-chain hack disclosed
+Ruby 3.0 released
+Adobe Flash Player discontinued
+Chrome Manifest V3 extension uploads enabled
+Payload CMS released
+Dario Amodei co-founds Anthropic
+Samsung Galaxy S21 released
+GHC 9.0 released
+Pat Gelsinger returns as Intel CEO
+Vite 2.0 released
+Beeple NFT sells for $69 million at Christie's
+Node.js 16 released
+Scala 3.0 released
+Bootstrap 5 released
+Colonial Pipeline shut down by ransomware
+Erlang/OTP 24 released
+Squarespace direct listing
+Astro public beta released
+Joomla 4.0 released
+Samsung Galaxy Z Fold 3 released
+Safari 15 brought web extensions to iOS
+Epic v. Apple antitrust trial verdict
+Java 17 LTS released
+Swift 5.5 async/await released
+iPhone 13 released
+Python 3.10 released
+Rust 2021 edition released
+Google Pixel 6 released
+GHC 9.2 released
+.NET 6 LTS released
+C# 10 released with .NET 6
+Directus 9 released
+Django 4.0 released
+Log4Shell vulnerability disclosed
+Ruby on Rails 7.0 released
+BlackBerry OS end of life
+Meta loses $230 billion in market value in one day
+Samsung Galaxy S22 released
+Go 1.18 added generics
+Arc browser launched
+Node.js 18 released
+TerraUSD stablecoin loses dollar peg
+Erlang/OTP 25 released
+WordPress 6.0 released
+ECMAScript 2022 standardized
+HTTP/3 standardized
+Internet Explorer 11 retired
+GitHub Copilot generally available
+EU Digital Services Act adopted
+GraphCMS rebranded as Hygraph
+U.S. CHIPS and Science Act signed into law
+Samsung Galaxy Z Fold 4 released
+Ethereum Merge completes
+iPhone 14 released
+Google Pixel 7 released
+Python 3.11 released
+Next.js 13 introduced the App Router
+.NET 7 released
+C# 11 released with .NET 7
+FTX files for bankruptcy after liquidity collapse
+Spring Boot 3.0 released
+ChatGPT launched
+SvelteKit 1.0 released
+Drupal 10 released
+Samsung Galaxy S23 released
+GPT-3.5 Turbo API released
+Silicon Valley Bank seized by regulators
+Cursor AI code editor released
+GPT-4 released
+TypeScript 5.0 released
+GHC 9.6 released
+Node.js 20 released
+Hinton leaves Google over AI risk
+Dart 3 released
+Altman: AI can go quite wrong
+Erlang/OTP 26 released
+ECMAScript 2023 standardized
+Anthropic Claude 2 released
+Meta Llama 2 open weights released
+Samsung Galaxy Z Fold 5 released
+EU designates Big Tech gatekeepers under Digital Markets Act
+Elixir 1.14 released
+Java 21 LTS released
+iPhone 15 released
+Mistral 7B released
+Python 3.12 released
+Google Pixel 8 released
+GPT-4 Turbo announced
+.NET 8 LTS released
+C# 12 released with .NET 8
+Google Gemini announced
+SEC approves spot Bitcoin ETFs
+Elixir 1.16 released
+Samsung Galaxy S24 released
+Google Gemini 1.5 announced
+iOS EU browser choice screens
+Anthropic Claude 3 released
+European Parliament adopts EU AI Act
+Huang: generative AI era
+NVIDIA Blackwell platform announced
+Meta Llama 3 released
+Node.js 22 released
+OpenAI GPT-4o released
+Erlang/OTP 27 released
+Kotlin 2.0 released
+ECMAScript 2024 standardized
+Huang: more you buy, more you save
+Anthropic Claude 3.5 Sonnet released
+Samsung Galaxy Z Fold 6 released
+Drupal 11 released
+Google Pixel 9 released
+OpenAI o1 reasoning models released
+Swift 6 released
+Elixir 1.17 released
+iPhone 16 released
+C++23 standardized
+Python 3.13 released
+Anthropic announces Claude 3.5 Haiku
+.NET 9 released
+C# 13 released with .NET 9
+PHP 8.4 released
+Model Context Protocol announced
+React 19 released
+OpenAI Sora released to ChatGPT users
+Google Gemini 2.0 Flash released
+OpenAI o3 reasoning models announced
+DeepSeek V3 released
+DeepSeek R1 released
+Tailwind CSS 4.0 released
+OpenAI o3-mini released
+Samsung Galaxy S25 released
+xAI Grok 3 released
+Rust 2024 edition released
+Anthropic Claude 3.7 Sonnet released
+OpenAI GPT-4.5 released
+Google Gemini 2.5 Pro released
+Meta Llama 4 Scout and Maverick released
+OpenAI GPT-4.1 released
+OpenAI o3 and o4-mini released
+Alibaba Qwen3 released
+Node.js 24 released
+Erlang/OTP 28 released
+Anthropic Claude 4 Opus and Sonnet released
+ECMAScript 2025 standardized
+Moonshot Kimi K2 released
+OpenAI GPT-5 released
+iPhone 17 released
+OpenAI Sora 2 released
+Python 3.14 released
+Windows 10 end of support
+.NET 10 LTS released
+OpenAI GPT-5.1 released
+Google Gemini 3 Pro released
+Google Antigravity released
+Anthropic Claude Opus 4.5 released
+MCP donated to Linux Foundation
+OpenAI GPT-5.2 released
+Google Gemini 3 Flash released
+Moonshot Kimi K2.5 released
+Anthropic Claude Opus 4.6 released
+OpenAI GPT-5.3-Codex released
+OpenAI GPT-5.4 released
+iPhone 17e released
+OpenAI Sora consumer app shut down
+Anthropic Claude Fable 5 and Mythos 5 released
+Anthropic: Fable 5 misuse risk
+Anthropic disables Fable 5 and Mythos 5
+Anthropic: halt model deployments
+Claude Fable 5 and Mythos 5 access suspended
+Anthropic Claude Sonnet 5 released
+Claude Fable 5 and Mythos 5 access restored
+OpenAI GPT-5.6 released
+AMD MI400 and Helios announced
+Anthropic Claude Opus 5 released

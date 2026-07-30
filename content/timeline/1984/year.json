@@ -29,14 +29,7 @@
         }
       ],
       "importance": 4,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/objective-c-created.jpg",
-          "title": "Objective C (9686763629)",
-          "caption": "Exey Panteleev from Moscow, Russia, CC BY 2.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "HOPL IV — The Origins of Objective-C at PPI/Stepstone",

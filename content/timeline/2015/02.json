@@ -24,14 +24,7 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/raspberry-pi-2-released.png",
-          "title": "Raspberry Pi Through History (29408544840)",
-          "caption": "Gareth Halfacree from Bradford, UK, CC BY-SA 2.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Raspberry Pi — Pi 2 on sale (February 2, 2015)",

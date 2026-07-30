@@ -29,14 +29,7 @@
         }
       ],
       "importance": 1,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/sequel-paper-published.png",
-          "title": "Prestel videotex service database - cartwheel structure",
-          "caption": "Protalina, CC BY-SA 4.0, via wikimedia"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "ACM — SEQUEL: A Structured English Query Language (May 1, 1974)",

@@ -29,14 +29,7 @@
         }
       ],
       "importance": 4,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/hibernate-released.jpg",
-          "title": "Gavin King",
-          "caption": "Richard dse, CC BY-SA 4.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Wikipedia — Hibernate (initial release May 23, 2001)",

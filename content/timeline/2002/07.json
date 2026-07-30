@@ -74,14 +74,7 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/worldcom-bankruptcy.svg",
-          "title": "MCI Inc.",
-          "caption": "MCI Communications, Public domain, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "SEC — WorldCom bankruptcy and fraud charges (July 2002)",

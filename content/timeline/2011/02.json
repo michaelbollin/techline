@@ -25,14 +25,7 @@
       "people": [],
       "companies": [],
       "importance": 5,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/browserify-released.jpg",
-          "title": "Jake giving a talk on browserify at #WAPRO #LBtech #nodejs #welabs #longbeach",
-          "caption": "danboarder, CC BY 2.0, via flickr"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "npm — browserify 0.0.1 published (February 3, 2011)",

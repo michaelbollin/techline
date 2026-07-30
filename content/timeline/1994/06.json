@@ -30,14 +30,7 @@
         }
       ],
       "importance": 3,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/uri-standardized.jpg",
-          "title": "Tim Berners-Lee",
-          "caption": "Summit, CC BY 4.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "RFC 1630 — Universal Resource Identifiers in WWW (June 1994)",

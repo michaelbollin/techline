@@ -121,14 +121,7 @@
       "people": [],
       "companies": [],
       "importance": 6,
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/perl-6-christmas-released.svg",
-          "title": "Raku (programming language)",
-          "caption": "Larry Wall, Artistic 2.0, via Wikimedia Commons"
-        }
-      ],
+      "media": [],
       "sources": [
         {
           "title": "Perl 6 Advent Calendar — Christmas is here (December 25, 2015)",
