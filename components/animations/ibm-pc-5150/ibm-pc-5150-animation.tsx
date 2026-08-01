@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import {
   IBM_PC_5150_POSTER_SRC,
@@ -17,10 +19,12 @@ export function IbmPc5150Animation({ className }: IbmPc5150AnimationProps) {
   if (prefersReducedMotion) {
     return (
       <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
-        <img
+        <Image
           src={IBM_PC_5150_POSTER_SRC}
           alt=""
-          className="h-full w-full object-cover opacity-50"
+          fill
+          className="object-cover opacity-50"
+          sizes="100vw"
         />
       </div>
     );
