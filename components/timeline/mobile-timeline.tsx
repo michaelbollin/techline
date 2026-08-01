@@ -19,7 +19,7 @@ import { MobileTimelineAxisGrid } from "./mobile/mobile-timeline-axis-grid";
 import { MobileTimelineNodeDot } from "./mobile/mobile-timeline-node-dot";
 import { MobileTimelineNodeLabel } from "./mobile/mobile-timeline-node-label";
 import { MobileTimelineNodeStem } from "./mobile/mobile-timeline-node-stem";
-import { MobileTimelinePanArrows } from "./mobile/mobile-timeline-pan-arrows";
+import { MobileTimelinePinchHint } from "./mobile/mobile-timeline-pinch-hint";
 import { TimelineFilterSidebar } from "./timeline-filters";
 import { TimelineHeader } from "./timeline-header";
 
@@ -80,15 +80,14 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
     animateTo,
   });
 
-  const { resetView, zoomToYear, panEarlier, panLater, showPanEarlier, showPanLater } =
-    useTimelineViewActionsVertical({
-      height,
-      transform,
-      plottedCount: plotted.length,
-      animateTo,
-      updateFilters,
-      onResetFilters: clearLocalFilters,
-    });
+  const { resetView, zoomToYear } = useTimelineViewActionsVertical({
+    height,
+    transform,
+    plottedCount: plotted.length,
+    animateTo,
+    updateFilters,
+    onResetFilters: clearLocalFilters,
+  });
 
   const axisPath = useMemo(() => buildVerticalAxisPath(height, axisX), [axisX, height]);
 
@@ -203,12 +202,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
           </svg>
         )}
 
-        <MobileTimelinePanArrows
-          canPanEarlier={showPanEarlier}
-          canPanLater={showPanLater}
-          onPanEarlier={panEarlier}
-          onPanLater={panLater}
-        />
+        <MobileTimelinePinchHint svgRef={svgRef} chartReady={chartReady} />
       </div>
 
       <TimelineFilterSidebar

@@ -58,6 +58,18 @@
   .timeline-decade-band:hover {
     fill: url(#timeline-decade-band-fill-hover);
   }
+
+  .animate-timeline-pinch-hint-enter {
+    animation: timeline-pinch-hint-enter 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-timeline-pinch-left {
+    animation: timeline-pinch-left 1.6s ease-in-out infinite;
+  }
+
+  .animate-timeline-pinch-right {
+    animation: timeline-pinch-right 1.6s ease-in-out infinite;
+  }
 }
 
 @keyframes timeline-detail-reveal {
@@ -76,6 +88,40 @@
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
+}
+
+@keyframes timeline-pinch-hint-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes timeline-pinch-left {
+  0%,
+  100% {
+    transform: translateX(4px);
+  }
+
+  50% {
+    transform: translateX(-4px);
+  }
+}
+
+@keyframes timeline-pinch-right {
+  0%,
+  100% {
+    transform: translateX(-4px);
+  }
+
+  50% {
+    transform: translateX(4px);
+  }
 }
 
 @keyframes timeline-prismatic-sweep {
