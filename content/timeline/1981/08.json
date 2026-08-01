@@ -31,6 +31,11 @@
       "importance": 0,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=fbS5j9mTGpg&t=33",
+          "title": "IBM Personal Computer — \"Modern Times\" TV ad"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/ibm-pc-5150-released.svg",
           "title": "IBM Personal Computer",

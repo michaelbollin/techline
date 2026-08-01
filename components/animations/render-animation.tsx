@@ -5,7 +5,9 @@ import type { AnimationId } from "@/lib/animations/registry";
 import { BallmerDevelopersAnimation } from "./ballmer-developers";
 import { CdRomAnimation } from "./cd-rom";
 import { GitBranchesAnimation } from "./git-branches";
+import { IntegratedCircuitAnimation } from "./integrated-circuit";
 import { InternetTidalWaveAnimation } from "./internet-tidal-wave";
+import { IbmPc5150Animation } from "./ibm-pc-5150";
 import { LinuxKernelAnimation } from "./linux-kernel";
 import { QuicksortAnimation } from "./quicksort";
 import { TransistorAnimation } from "./transistor";
@@ -37,6 +39,10 @@ export function RenderAnimation({ animationId, className }: RenderAnimationProps
       return <WorldWideWebAnimation className={className} />;
     case "linux-kernel":
       return <LinuxKernelAnimation className={className} />;
+    case "ibm-pc-5150":
+      return <IbmPc5150Animation className={className} />;
+    case "integrated-circuit":
+      return <IntegratedCircuitAnimation className={className} />;
     default:
       return null;
   }

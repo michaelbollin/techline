@@ -9,6 +9,8 @@ export const EVENT_ANIMATION_IDS = {
   "y2k-rollover": "y2k-rollover",
   "worldwideweb-browser": "world-wide-web",
   "linux-kernel-announced": "linux-kernel",
+  "ibm-pc-5150-released": "ibm-pc-5150",
+  "jack-kilby-integrated-circuit": "integrated-circuit",
 } as const;
 
 export type AnimationId = (typeof EVENT_ANIMATION_IDS)[keyof typeof EVENT_ANIMATION_IDS];

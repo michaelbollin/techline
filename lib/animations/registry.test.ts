@@ -39,6 +39,14 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("linux-kernel-announced")).toBe("linux-kernel");
   });
 
+  it("returns the IBM PC animation for the 5150 release", () => {
+    expect(getAnimationIdForEvent("ibm-pc-5150-released")).toBe("ibm-pc-5150");
+  });
+
+  it("returns the integrated circuit animation for Kilby's first IC", () => {
+    expect(getAnimationIdForEvent("jack-kilby-integrated-circuit")).toBe("integrated-circuit");
+  });
+
   it("returns null for events without an animation", () => {
     expect(getAnimationIdForEvent("javascript-released")).toBeNull();
   });

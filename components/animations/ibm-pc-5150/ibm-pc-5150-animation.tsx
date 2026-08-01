@@ -1,30 +1,26 @@
 "use client";
 
-import Image from "next/image";
-
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import {
-  BALLMER_DEVELOPERS_POSTER_SRC,
-  BALLMER_DEVELOPERS_VIDEO_SRC,
-} from "@/lib/animations/ballmer-developers";
+  IBM_PC_5150_POSTER_SRC,
+  IBM_PC_5150_VIDEO_SRC,
+} from "@/lib/animations/ibm-pc-5150";
 import { cn } from "@/lib/cn";
 
-type BallmerDevelopersAnimationProps = {
+type IbmPc5150AnimationProps = {
   className?: string;
 };
 
-export function BallmerDevelopersAnimation({ className }: BallmerDevelopersAnimationProps) {
+export function IbmPc5150Animation({ className }: IbmPc5150AnimationProps) {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   if (prefersReducedMotion) {
     return (
       <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
-        <Image
-          src={BALLMER_DEVELOPERS_POSTER_SRC}
+        <img
+          src={IBM_PC_5150_POSTER_SRC}
           alt=""
-          fill
-          className="object-cover opacity-50"
-          sizes="100vw"
+          className="h-full w-full object-cover opacity-50"
         />
       </div>
     );
@@ -33,12 +29,12 @@ export function BallmerDevelopersAnimation({ className }: BallmerDevelopersAnima
   return (
     <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
       <video
-        src={BALLMER_DEVELOPERS_VIDEO_SRC}
+        src={IBM_PC_5150_VIDEO_SRC}
         autoPlay
         loop
         muted
         playsInline
-        poster={BALLMER_DEVELOPERS_POSTER_SRC}
+        poster={IBM_PC_5150_POSTER_SRC}
         className="h-full w-full object-cover opacity-80"
       />
     </div>
