@@ -205,7 +205,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   );
 
   return (
-    <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
+    <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col">
       <div className="flex min-h-0 flex-1">
         <div className="flex min-h-0 min-w-0 flex-1 flex-col">
           <header className="relative z-20 flex min-h-10 shrink-0 items-center py-5 pr-[3.75rem] pb-4 pl-6 sm:pl-8 sm:pr-[4.25rem]">
@@ -226,7 +226,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                 ref={svgRef}
                 width={width}
                 height={height}
-                className="block touch-none select-none bg-white"
+                className="block touch-none select-none"
                 onPointerLeave={() => handleHover(null)}
               >
                 <g>

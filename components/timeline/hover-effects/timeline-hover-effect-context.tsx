@@ -48,8 +48,8 @@ export function TimelineHoverEffectProvider({
 
   return (
     <TimelineHoverEffectContext.Provider value={value}>
-      {children}
       <AnimationLayer animationId={globalAnimationId} variant="fullscreen" />
+      {children}
     </TimelineHoverEffectContext.Provider>
   );
 }

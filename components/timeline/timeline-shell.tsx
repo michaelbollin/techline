@@ -56,7 +56,7 @@ export function TimelineShell({ events }: TimelineShellProps) {
   return (
     <TimelineHoverEffectProvider modalEventId={event?.id ?? null}>
       <div
-        className="flex h-[100dvh] flex-col overflow-hidden bg-white"
+        className="relative z-10 flex h-[100dvh] flex-col overflow-hidden"
         style={
           {
             "--site-footer-reserved-height": `${SITE_FOOTER_RESERVED_HEIGHT}px`,

@@ -107,7 +107,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
   );
 
   return (
-    <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col bg-white">
+    <section aria-label="Interactive timeline" className="relative flex h-full w-full flex-col">
       <TimelineHeader
         isOpen={filtersOpen}
         activeCount={activeFilterCount}
@@ -131,7 +131,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
             ref={svgRef}
             width={width}
             height={height}
-            className="block touch-none select-none bg-white"
+            className="block touch-none select-none"
           >
             <g>
               <MobileTimelineAxisGrid

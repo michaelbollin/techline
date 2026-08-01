@@ -53,7 +53,7 @@ export function AnimationLayer({
     <div
       className={cn(
         "pointer-events-none overflow-hidden transition-opacity duration-500 ease-out",
-        variant === "fullscreen" && "fixed inset-0 z-[5]",
+        variant === "fullscreen" && "fixed inset-0 z-0",
         variant === "contained" && "absolute inset-0",
         isVisible ? "opacity-100" : "opacity-0",
         className,

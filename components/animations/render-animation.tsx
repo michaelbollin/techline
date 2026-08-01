@@ -6,8 +6,10 @@ import { BallmerDevelopersAnimation } from "./ballmer-developers";
 import { CdRomAnimation } from "./cd-rom";
 import { GitBranchesAnimation } from "./git-branches";
 import { InternetTidalWaveAnimation } from "./internet-tidal-wave";
+import { LinuxKernelAnimation } from "./linux-kernel";
 import { QuicksortAnimation } from "./quicksort";
 import { TransistorAnimation } from "./transistor";
+import { WorldWideWebAnimation } from "./world-wide-web";
 import { Y2kRolloverAnimation } from "./y2k-rollover";
 
 type RenderAnimationProps = {
@@ -31,6 +33,10 @@ export function RenderAnimation({ animationId, className }: RenderAnimationProps
       return <InternetTidalWaveAnimation className={className} />;
     case "y2k-rollover":
       return <Y2kRolloverAnimation className={className} />;
+    case "world-wide-web":
+      return <WorldWideWebAnimation className={className} />;
+    case "linux-kernel":
+      return <LinuxKernelAnimation className={className} />;
     default:
       return null;
   }

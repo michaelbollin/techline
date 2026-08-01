@@ -31,6 +31,14 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("y2k-rollover")).toBe("y2k-rollover");
   });
 
+  it("returns the WorldWideWeb animation for the first web browser", () => {
+    expect(getAnimationIdForEvent("worldwideweb-browser")).toBe("world-wide-web");
+  });
+
+  it("returns the Linux kernel animation for Linux announced", () => {
+    expect(getAnimationIdForEvent("linux-kernel-announced")).toBe("linux-kernel");
+  });
+
   it("returns null for events without an animation", () => {
     expect(getAnimationIdForEvent("javascript-released")).toBeNull();
   });
