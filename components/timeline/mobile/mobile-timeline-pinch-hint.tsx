@@ -1,6 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useState, type RefObject } from "react";
+import Image from "next/image";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/cn";
 import {
@@ -8,37 +9,18 @@ import {
   markTimelinePinchHintSeen,
 } from "@/lib/timeline/pinch-hint-storage";
 
-const AUTO_DISMISS_MS = 5000;
-
 type MobileTimelinePinchHintProps = {
-  svgRef: RefObject<SVGSVGElement | null>;
   chartReady: boolean;
+  zoomScale: number;
 };
 
-function PinchIcon() {
-  return (
-    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" aria-hidden className="mx-auto">
-      <circle cx="20" cy="28" r="5" fill="currentColor" className="origin-center animate-timeline-pinch-left" />
-      <circle cx="36" cy="28" r="5" fill="currentColor" className="origin-center animate-timeline-pinch-right" />
-      <path
-        d="M12 20c2-4 6-6 8-6M44 20c-2-4-6-6-8-6M12 36c2 4 6 6 8 6M44 36c-2 4-6 6-8 6"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        className="opacity-40"
-      />
-    </svg>
-  );
-}
-
-export function MobileTimelinePinchHint({ svgRef, chartReady }: MobileTimelinePinchHintProps) {
+export function MobileTimelinePinchHint({ chartReady, zoomScale }: MobileTimelinePinchHintProps) {
   const [visible, setVisible] = useState(false);
-  const [fading, setFading] = useState(false);
+  const initialScaleRef = useRef<number | null>(null);
 
   const dismiss = useCallback(() => {
     markTimelinePinchHintSeen();
-    setFading(true);
-    window.setTimeout(() => setVisible(false), 220);
+    setVisible(false);
   }, []);
 
   useEffect(() => {
@@ -47,30 +29,24 @@ export function MobileTimelinePinchHint({ svgRef, chartReady }: MobileTimelinePi
     }
 
     const frame = requestAnimationFrame(() => setVisible(true));
-    const timeout = window.setTimeout(dismiss, AUTO_DISMISS_MS);
-
-    return () => {
-      cancelAnimationFrame(frame);
-      window.clearTimeout(timeout);
-    };
-  }, [chartReady, dismiss]);
+    return () => cancelAnimationFrame(frame);
+  }, [chartReady]);
 
   useEffect(() => {
-    const svg = svgRef.current;
-    if (!svg || !visible) {
+    if (!visible) {
+      initialScaleRef.current = null;
       return;
     }
 
-    const onPinchStart = (event: TouchEvent) => {
-      if (event.touches.length >= 2) {
-        dismiss();
-      }
-    };
+    if (initialScaleRef.current === null) {
+      initialScaleRef.current = zoomScale;
+      return;
+    }
 
-    svg.addEventListener("touchstart", onPinchStart, { passive: true });
-
-    return () => svg.removeEventListener("touchstart", onPinchStart);
-  }, [dismiss, svgRef, visible]);
+    if (Math.abs(zoomScale - initialScaleRef.current) > 0.01) {
+      dismiss();
+    }
+  }, [dismiss, visible, zoomScale]);
 
   if (!visible) {
     return null;
@@ -79,23 +55,29 @@ export function MobileTimelinePinchHint({ svgRef, chartReady }: MobileTimelinePi
   return (
     <div
       className={cn(
-        "pointer-events-none absolute inset-0 z-20 flex items-center justify-center px-6",
-        fading && "opacity-0 transition-opacity duration-200",
+        "absolute top-[calc(3.75rem+20px)] right-6 z-20 flex max-w-[calc(100vw-3rem)] items-center gap-3",
+        "rounded-2xl bg-neutral-100 py-2.5 pr-2 pl-3 shadow-[0_4px_14px_rgba(0,0,0,0.06)]",
+        "animate-timeline-pinch-hint-enter",
       )}
+      role="status"
       aria-live="polite"
     >
+      <Image
+        src="/icons/pinch-zoom.png"
+        alt=""
+        width={36}
+        height={36}
+        className="h-9 w-9 shrink-0"
+        aria-hidden
+      />
+      <span className="text-sm leading-none font-medium tracking-tight text-black">Pinch to zoom</span>
       <button
         type="button"
         onClick={dismiss}
-        className={cn(
-          "pointer-events-auto flex max-w-xs flex-col items-center gap-3 rounded-2xl border border-black",
-          "bg-white/95 px-6 py-5 text-center shadow-[0_10px_30px_rgba(0,0,0,0.12)]",
-          "animate-timeline-pinch-hint-enter",
-        )}
-        aria-label="Dismiss pinch to zoom hint"
+        className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-lg leading-none text-black/60 hover:bg-black/5 hover:text-black"
+        aria-label="Close pinch hint"
       >
-        <PinchIcon />
-        <p className="m-0 text-sm font-medium tracking-tight text-black">Pinch to zoom the timeline</p>
+        ×
       </button>
     </div>
   );

@@ -115,6 +115,8 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
         onLogoClick={handleLogoClick}
       />
 
+      <MobileTimelinePinchHint chartReady={chartReady} zoomScale={transform.k} />
+
       <div ref={containerRef} className="relative min-h-0 flex-1">
         {plotted.length === 0 && (
           <div className="pointer-events-none absolute inset-0 z-10 flex items-center justify-center px-6">
@@ -202,7 +204,6 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
           </svg>
         )}
 
-        <MobileTimelinePinchHint svgRef={svgRef} chartReady={chartReady} />
       </div>
 
       <TimelineFilterSidebar

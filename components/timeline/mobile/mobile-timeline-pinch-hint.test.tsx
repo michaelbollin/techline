@@ -1,4 +1,3 @@
-import { createRef } from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
@@ -22,39 +21,46 @@ describe("MobileTimelinePinchHint", () => {
 
   afterEach(() => {
     vi.unstubAllGlobals();
-    vi.useRealTimers();
   });
 
   it("shows on first visit when the chart is ready", async () => {
-    const svgRef = createRef<SVGSVGElement>();
-
-    render(<MobileTimelinePinchHint svgRef={svgRef} chartReady />);
+    render(<MobileTimelinePinchHint chartReady zoomScale={1} />);
 
     await waitFor(() => {
-      expect(screen.getByText("Pinch to zoom the timeline")).toBeInTheDocument();
+      expect(screen.getByText("Pinch to zoom")).toBeInTheDocument();
     });
   });
 
   it("does not show when the hint was already dismissed", () => {
     localStorage.setItem(TIMELINE_PINCH_HINT_STORAGE_KEY, "1");
-    const svgRef = createRef<SVGSVGElement>();
 
-    render(<MobileTimelinePinchHint svgRef={svgRef} chartReady />);
+    render(<MobileTimelinePinchHint chartReady zoomScale={1} />);
 
-    expect(screen.queryByText("Pinch to zoom the timeline")).not.toBeInTheDocument();
+    expect(screen.queryByText("Pinch to zoom")).not.toBeInTheDocument();
   });
 
-  it("dismisses when the button is tapped", async () => {
+  it("dismisses when the close button is tapped", async () => {
     const user = userEvent.setup();
-    const svgRef = createRef<SVGSVGElement>();
 
-    render(<MobileTimelinePinchHint svgRef={svgRef} chartReady />);
+    render(<MobileTimelinePinchHint chartReady zoomScale={1} />);
 
-    await user.click(await screen.findByRole("button", { name: "Dismiss pinch to zoom hint" }));
+    await user.click(await screen.findByRole("button", { name: "Close pinch hint" }));
 
     expect(localStorage.getItem(TIMELINE_PINCH_HINT_STORAGE_KEY)).toBe("1");
     await waitFor(() => {
-      expect(screen.queryByText("Pinch to zoom the timeline")).not.toBeInTheDocument();
+      expect(screen.queryByText("Pinch to zoom")).not.toBeInTheDocument();
     });
+  });
+
+  it("dismisses when the user zooms", async () => {
+    const { rerender } = render(<MobileTimelinePinchHint chartReady zoomScale={1} />);
+
+    await screen.findByText("Pinch to zoom");
+    rerender(<MobileTimelinePinchHint chartReady zoomScale={1.4} />);
+
+    await waitFor(() => {
+      expect(screen.queryByText("Pinch to zoom")).not.toBeInTheDocument();
+    });
+    expect(localStorage.getItem(TIMELINE_PINCH_HINT_STORAGE_KEY)).toBe("1");
   });
 });
