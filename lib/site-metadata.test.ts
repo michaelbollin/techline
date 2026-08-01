@@ -17,11 +17,14 @@ describe("site metadata", () => {
       type: "article",
     });
 
+    const openGraph = metadata.openGraph;
+    const twitter = metadata.twitter;
+
     expect(metadata.title).toBe("React released");
     expect(metadata.description).toBe("Open-sourced at JSConf.");
-    expect(metadata.openGraph?.title).toBe("React released");
-    expect(metadata.openGraph?.type).toBe("article");
-    expect(metadata.twitter?.card).toBe("summary_large_image");
+    expect(openGraph && "title" in openGraph ? openGraph.title : undefined).toBe("React released");
+    expect(openGraph && "type" in openGraph ? openGraph.type : undefined).toBe("article");
+    expect(twitter && "card" in twitter ? twitter.card : undefined).toBe("summary_large_image");
     expect(metadata.alternates?.canonical).toBe(`${SITE_URL}/react-released`);
   });
 

@@ -22,8 +22,8 @@ export function AnimationLayer({
 
   useEffect(() => {
     if (animationId) {
-      setVisibleAnimationId(animationId);
       const frame = window.requestAnimationFrame(() => {
+        setVisibleAnimationId(animationId);
         setIsVisible(true);
       });
 
@@ -32,12 +32,15 @@ export function AnimationLayer({
       };
     }
 
-    setIsVisible(false);
+    const hideFrame = window.requestAnimationFrame(() => {
+      setIsVisible(false);
+    });
     const timeout = window.setTimeout(() => {
       setVisibleAnimationId(null);
     }, 450);
 
     return () => {
+      window.cancelAnimationFrame(hideFrame);
       window.clearTimeout(timeout);
     };
   }, [animationId]);

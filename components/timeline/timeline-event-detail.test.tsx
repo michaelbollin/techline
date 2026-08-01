@@ -20,7 +20,7 @@ function restoreOffsetHeight() {
     return;
   }
 
-  delete (HTMLElement.prototype as Partial<HTMLElement>).offsetHeight;
+  Reflect.deleteProperty(HTMLElement.prototype, "offsetHeight");
   offsetHeightMocked = false;
 }
 
