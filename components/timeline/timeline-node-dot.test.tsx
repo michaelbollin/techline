@@ -37,29 +37,4 @@ describe("TimelineNodeDot", () => {
     expect(onClick).toHaveBeenCalledTimes(1);
     expect(onHover).toHaveBeenCalledWith(event);
   });
-
-  it("clears hover on mouse leave", async () => {
-    const user = userEvent.setup();
-    const onHover = vi.fn();
-
-    render(
-      <svg>
-        <TimelineNodeDot
-          event={event}
-          xScale={xScale}
-          getAxisY={getAxisY}
-          showLabel
-          isHovered={false}
-          onHover={onHover}
-          onClick={() => {}}
-        />
-      </svg>,
-    );
-
-    const button = screen.getByRole("button", { name: "Ada Lovelace, 1843" });
-    await user.hover(button);
-    await user.unhover(button);
-
-    expect(onHover).toHaveBeenLastCalledWith(null);
-  });
 });

@@ -1,3 +1,4 @@
+import { type ComponentProps, useState } from "react";
 import { render, screen } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 
@@ -24,6 +25,20 @@ function restoreOffsetHeight() {
   offsetHeightMocked = false;
 }
 
+function renderWithFitState(
+  props: Omit<ComponentProps<typeof TimelineEventDetail>, "fits" | "onFitsChange">,
+) {
+  function Wrapper() {
+    const [fits, setFits] = useState<boolean | null>(
+      props.maxHeight === undefined ? true : null,
+    );
+
+    return <TimelineEventDetail {...props} fits={fits} onFitsChange={setFits} />;
+  }
+
+  return render(<Wrapper />);
+}
+
 describe("TimelineEventDetail", () => {
   afterEach(() => {
     testResizeObserver.fireOnObserve = false;
@@ -37,7 +52,7 @@ describe("TimelineEventDetail", () => {
       dateLabel: "May 2013",
     });
 
-    render(<TimelineEventDetail event={event} top={120} />);
+    renderWithFitState({ event, top: 120 });
 
     expect(screen.getByText("May 2013")).toBeInTheDocument();
     expect(screen.getByText("React released")).toBeInTheDocument();
@@ -53,7 +68,7 @@ describe("TimelineEventDetail", () => {
       imageCaption: "Amazon Web Services LLC, Public domain, via Wikimedia Commons",
     });
 
-    const { container } = render(<TimelineEventDetail event={event} top={120} />);
+    const { container } = renderWithFitState({ event, top: 120 });
 
     expect(container.querySelector("img")).toHaveAttribute("src", "/media/timeline/amazon-ec2-launched.svg");
     expect(
@@ -70,7 +85,7 @@ describe("TimelineEventDetail", () => {
       summary: "Summary that would need more vertical space than allowed.",
     });
 
-    const { container } = render(<TimelineEventDetail event={event} top={120} maxHeight={50} />);
+    const { container } = renderWithFitState({ event, top: 120, maxHeight: 50 });
 
     expect(container).toBeEmptyDOMElement();
   });
@@ -85,7 +100,7 @@ describe("TimelineEventDetail", () => {
       dateLabel: "Jan 2000",
     });
 
-    render(<TimelineEventDetail event={event} top={120} maxHeight={120} />);
+    renderWithFitState({ event, top: 120, maxHeight: 120 });
 
     expect(screen.getByText("Jan 2000")).toBeInTheDocument();
     expect(screen.getByText("Short")).toBeInTheDocument();

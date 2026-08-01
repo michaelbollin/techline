@@ -14,6 +14,7 @@ import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_INK } from "@/lib/timeline/constan
 import { timelineEventDetailLayout } from "@/lib/timeline/event-detail-layout";
 import { buildAxisPath } from "@/lib/timeline/axis-path";
 import { eventPath } from "@/lib/timeline/format";
+import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
@@ -45,6 +46,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
+  const [detailFits, setDetailFits] = useState<boolean | null>(null);
   const [fulltextQuery, setFulltextQuery] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [chartReady, setChartReady] = useState(false);
@@ -140,6 +142,42 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     return filteredEvents.some((item) => item.id === hovered.id) ? hovered : null;
   }, [filteredEvents, hovered]);
 
+  const shouldMeasureDetail = Boolean(displayedHovered && detailLayout.show);
+  const showDetailPanel = shouldMeasureDetail && detailFits !== false;
+  const useExpandedLabel = Boolean(displayedHovered && !showDetailPanel);
+
+  const hoveredIdRef = useRef<string | null>(null);
+
+  const handleHover = useCallback((event: PlottedEvent | null) => {
+    const nextId = event?.id ?? null;
+    if (hoveredIdRef.current !== nextId) {
+      hoveredIdRef.current = nextId;
+      setDetailFits(null);
+    }
+    setHovered(event);
+  }, []);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setDetailFits(null));
+    return () => cancelAnimationFrame(frame);
+  }, [detailLayout.maxHeight]);
+
+  const hoverOnlyLabel = useMemo(() => {
+    if (!displayedHovered || !useExpandedLabel) {
+      return null;
+    }
+
+    if (labelLayout.get(displayedHovered.id)?.showLabel) {
+      return null;
+    }
+
+    if (!dotLayout.get(displayedHovered.id)?.showDot) {
+      return null;
+    }
+
+    return displayedHovered;
+  }, [displayedHovered, dotLayout, labelLayout, useExpandedLabel]);
+
   useEffect(() => {
     setHoveredEventId(displayedHovered?.id ?? null);
   }, [displayedHovered?.id, setHoveredEventId]);
@@ -158,12 +196,12 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     (event: MouseEvent<HTMLAnchorElement>) => {
       event.preventDefault();
       resetView();
-      setHovered(null);
+      handleHover(null);
       if (pathname !== "/") {
         router.push("/", { scroll: false });
       }
     },
-    [pathname, resetView, router],
+    [pathname, resetView, router, handleHover],
   );
 
   return (
@@ -189,7 +227,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                 width={width}
                 height={height}
                 className="block touch-none select-none bg-white"
-                onPointerLeave={() => setHovered(null)}
+                onPointerLeave={() => handleHover(null)}
               >
                 <g>
                   <TimelineAxisGrid
@@ -240,7 +278,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                           getAxisY={getAxisY}
                           showLabel={labelLayout.get(event.id)?.showLabel ?? false}
                           isHovered={hovered?.id === event.id}
-                          onHover={setHovered}
+                          onHover={handleHover}
                           onClick={() => openEvent(event)}
                         />
                       );
@@ -258,21 +296,43 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                         layout={labelLayout.get(event.id)!}
                         viewportWidth={width}
                         isHovered={hovered?.id === event.id}
-                        onHover={setHovered}
+                        expanded={useExpandedLabel && hovered?.id === event.id}
+                        onHover={handleHover}
                         onClick={() => openEvent(event)}
                       />
                     ))}
+                    {hoverOnlyLabel && (
+                      <TimelineNodeLabel
+                        key={`label-hover-${hoverOnlyLabel.id}`}
+                        event={hoverOnlyLabel}
+                        xScale={xScale}
+                        axisOffset={dotLayout.get(hoverOnlyLabel.id)?.axisOffset ?? 0}
+                        getAxisY={getAxisY}
+                        layout={{
+                          showLabel: true,
+                          lane: 0,
+                          width: measureTimelineLabelWidth(hoverOnlyLabel.bubbleTitle),
+                        }}
+                        viewportWidth={width}
+                        isHovered
+                        expanded
+                        onHover={handleHover}
+                        onClick={() => openEvent(hoverOnlyLabel)}
+                      />
+                    )}
                   </g>
                 </g>
               </svg>
             )}
 
-            {displayedHovered && width > 0 && detailLayout.show && (
+            {shouldMeasureDetail && displayedHovered && (
               <TimelineEventDetail
                 key={`${displayedHovered.id}:${detailLayout.maxHeight}`}
                 event={displayedHovered}
                 top={detailLayout.top}
                 maxHeight={detailLayout.maxHeight}
+                fits={detailFits}
+                onFitsChange={setDetailFits}
               />
             )}
 

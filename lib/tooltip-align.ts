@@ -3,6 +3,10 @@ export type TooltipAlign = "center" | "start" | "end";
 const TOOLTIP_BOUNDARY_PADDING = 12;
 
 export function findTooltipBoundary(element: HTMLElement): HTMLElement {
+  if (typeof window !== "undefined" && window.matchMedia("(max-width: 640px)").matches) {
+    return document.documentElement;
+  }
+
   const dialog = element.closest("[role=\"dialog\"]");
   if (dialog instanceof HTMLElement) {
     const scrollRegion = dialog.querySelector(".overflow-y-auto");

@@ -13,9 +13,18 @@ type TimelineEventDetailProps = {
   top: number;
   /** Max height in px — content taller than this is not shown. */
   maxHeight?: number;
+  /** Parent-owned fit state; null while measuring. */
+  fits: boolean | null;
+  onFitsChange: (fits: boolean) => void;
 };
 
-export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDetailProps) {
+export function TimelineEventDetail({
+  event,
+  top,
+  maxHeight,
+  fits,
+  onFitsChange,
+}: TimelineEventDetailProps) {
   const textRef = useRef<HTMLDivElement>(null);
   const [textHeight, setTextHeight] = useState(0);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -24,43 +33,37 @@ export function TimelineEventDetail({ event, top, maxHeight }: TimelineEventDeta
   const textMeasureKey = `${event.id}:${event.title}:${event.summary}`;
 
   useLayoutEffect(() => {
-    const element = textRef.current;
+    const element = contentRef.current;
     if (!element) {
       return;
     }
 
-    const updateHeight = () => {
-      setTextHeight(element.offsetHeight);
+    const updateMeasurements = () => {
+      const textElement = textRef.current;
+      if (textElement) {
+        setTextHeight(textElement.offsetHeight);
+      }
+
+      if (maxHeight !== undefined) {
+        const height = element.offsetHeight;
+        const nextFits = height > 0 && height <= maxHeight;
+
+        if (nextFits !== fits) {
+          onFitsChange(nextFits);
+        }
+      }
     };
 
-    updateHeight();
+    updateMeasurements();
 
-    const observer = new ResizeObserver(updateHeight);
+    const observer = new ResizeObserver(updateMeasurements);
     observer.observe(element);
-
-    return () => observer.disconnect();
-  }, [textMeasureKey]);
-
-  const [fits, setFits] = useState<boolean | null>(() => (maxHeight === undefined ? true : null));
-
-  useLayoutEffect(() => {
-    const element = contentRef.current;
-    if (!element || maxHeight === undefined) {
-      return;
+    if (textRef.current) {
+      observer.observe(textRef.current);
     }
 
-    const updateFit = () => {
-      const height = element.offsetHeight;
-      setFits(height > 0 && height <= maxHeight);
-    };
-
-    updateFit();
-
-    const observer = new ResizeObserver(updateFit);
-    observer.observe(element);
-
     return () => observer.disconnect();
-  }, [event.id, event.imageUrl, event.summary, event.title, maxHeight, textHeight]);
+  }, [event.id, event.imageUrl, event.summary, event.title, fits, maxHeight, onFitsChange, textMeasureKey]);
 
   if (maxHeight !== undefined && fits === false) {
     return null;

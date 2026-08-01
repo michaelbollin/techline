@@ -2,7 +2,7 @@ import * as d3 from "d3";
 import { renderHook } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 
-import { TIMELINE_EXTENT } from "@/lib/timeline/constants";
+import { TIMELINE_EXTENT, timelineAxisYRatio } from "@/lib/timeline/constants";
 import { computeFitTransform } from "@/lib/timeline/zoom";
 import { makePlottedEvent } from "@/test/fixtures/plotted-event";
 import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
@@ -34,7 +34,7 @@ describe("useTimelinePlot", () => {
     expect(result.current.filteredEvents).toHaveLength(1);
     expect(result.current.filteredEvents[0]?.id).toBe("a");
     expect(result.current.plotted).toHaveLength(1);
-    expect(result.current.axisY).toBe(height * 0.3);
+    expect(result.current.axisY).toBe(height * timelineAxisYRatio(height));
     expect(result.current.xScale(Date.parse("2000-01-15T12:00:00Z"))).toBeTypeOf("number");
     expect(result.current.labelLayout.get("a")?.showLabel).toBeTypeOf("boolean");
   });

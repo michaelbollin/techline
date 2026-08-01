@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { axisYAt } from "@/lib/timeline/axis-path";
 
-import { TIMELINE_AXIS_Y_RATIO, TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT } from "@/lib/timeline/constants";
+import { TIMELINE_EDGE_MARGIN, TIMELINE_EXTENT, timelineAxisYRatio } from "@/lib/timeline/constants";
 import { visibleTimeSpanMs } from "@/lib/timeline/axis-ticks";
 import { filterTimelineEvents, hasActiveFilters } from "@/lib/timeline/filters";
 import { resolveDotLayout } from "@/lib/timeline/dot-layout";
@@ -76,7 +76,8 @@ export function useTimelinePlot({
     };
   }, []);
 
-  const axisY = height * TIMELINE_AXIS_Y_RATIO;
+  const axisYRatio = timelineAxisYRatio(height);
+  const axisY = height * axisYRatio;
 
   const getAxisY = useCallback((x: number) => axisYAt(x, axisY), [axisY]);
 
@@ -97,10 +98,10 @@ export function useTimelinePlot({
 
   const maxLanes = useMemo(() => {
     const byZoom = maxLanesForZoom(msPerPixel, visibleSpanMs);
-    const byViewport = maxLanesForViewport(height, TIMELINE_AXIS_Y_RATIO);
+    const byViewport = maxLanesForViewport(height, axisYRatio);
 
     return Math.min(byZoom, byViewport);
-  }, [height, msPerPixel, visibleSpanMs]);
+  }, [height, msPerPixel, visibleSpanMs, axisYRatio]);
 
   const labelWidthFor = useCallback(
     (event: PlottedEvent) => {

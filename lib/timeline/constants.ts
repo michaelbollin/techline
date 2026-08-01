@@ -19,6 +19,23 @@ export const TIMELINE_AXIS_STROKE_WIDTH = 2.5;
 /** Vertical position of the axis as a fraction of viewport height. */
 export const TIMELINE_AXIS_Y_RATIO = 0.3;
 
+/** Push the axis lower on short viewports so labels and expanded bubbles fit above. */
+export function timelineAxisYRatio(viewportHeight: number): number {
+  if (viewportHeight < 520) {
+    return 0.5;
+  }
+
+  if (viewportHeight < 680) {
+    return 0.42;
+  }
+
+  if (viewportHeight < 860) {
+    return 0.36;
+  }
+
+  return TIMELINE_AXIS_Y_RATIO;
+}
+
 /** Animated zoom/pan duration in ms. */
 export const TIMELINE_TRANSITION_MS = 400;
 

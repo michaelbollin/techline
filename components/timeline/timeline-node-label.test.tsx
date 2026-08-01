@@ -36,7 +36,7 @@ describe("TimelineNodeLabel", () => {
     expect(screen.getByText("Python 2.0")).toBeInTheDocument();
   });
 
-  it("shows underline decoration when hovered", () => {
+  it("shows underline decoration when hovered without expanded content", () => {
     const { container } = render(
       <svg>
         <TimelineNodeLabel
@@ -53,5 +53,26 @@ describe("TimelineNodeLabel", () => {
     );
 
     expect(container.querySelector("line")).toBeTruthy();
+  });
+
+  it("grows the pill in place when expanded on hover", () => {
+    const { container } = render(
+      <svg>
+        <TimelineNodeLabel
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          layout={layout}
+          viewportWidth={1200}
+          isHovered
+          expanded
+          onHover={() => {}}
+          onClick={() => {}}
+        />
+      </svg>,
+    );
+
+    expect(container.querySelector("foreignObject")).toBeTruthy();
+    expect(container.querySelector("line")).toBeNull();
   });
 });

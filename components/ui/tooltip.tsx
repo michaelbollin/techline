@@ -1,11 +1,26 @@
 "use client";
 
-import { cloneElement, isValidElement, useCallback, useId, useRef, useState, type ReactElement } from "react";
+import {
+  cloneElement,
+  isValidElement,
+  useCallback,
+  useId,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type ReactElement,
+} from "react";
+import { createPortal } from "react-dom";
 
 import { cn } from "@/lib/cn";
 import { resolveTooltipAlignForElement, type TooltipAlign } from "@/lib/tooltip-align";
-
-type TooltipSide = "top" | "bottom";
+import {
+  needsFixedTooltipPosition,
+  resolveTooltipFixedLeft,
+  resolveTooltipFixedTop,
+  tooltipMaxWidth,
+  type TooltipSide,
+} from "@/lib/tooltip-position";
 
 type TooltipProps = {
   label: string;
@@ -35,6 +50,15 @@ const panelPosition: Record<TooltipAlign, Record<TooltipSide, string>> = {
   },
 };
 
+const panelClassName =
+  "pointer-events-none border border-black bg-white text-xs font-medium tracking-tight text-black shadow-[0_6px_20px_rgba(0,0,0,0.1)] max-w-[min(22rem,calc(100vw-1.5rem))]";
+
+type FixedCoords = {
+  top: number;
+  left: number;
+  maxWidth: number;
+};
+
 export function Tooltip({
   label,
   side = "top",
@@ -46,9 +70,12 @@ export function Tooltip({
   const id = useId();
   const triggerRef = useRef<HTMLSpanElement>(null);
   const tooltipRef = useRef<HTMLSpanElement>(null);
+  const fixedActiveRef = useRef(false);
   const [resolvedAlign, setResolvedAlign] = useState<TooltipAlign>("center");
+  const [fixedOpen, setFixedOpen] = useState(false);
+  const [fixedCoords, setFixedCoords] = useState<FixedCoords | null>(null);
 
-  const updateAlign = useCallback(() => {
+  const updateInlineAlign = useCallback(() => {
     if (align !== "auto") {
       return;
     }
@@ -62,39 +89,133 @@ export function Tooltip({
     setResolvedAlign(resolveTooltipAlignForElement(trigger, tooltip));
   }, [align]);
 
+  const updateFixedPosition = useCallback(() => {
+    const trigger = triggerRef.current;
+    const tooltip = tooltipRef.current;
+    if (!trigger || !tooltip) {
+      return;
+    }
+
+    const maxWidth = tooltipMaxWidth(window.innerWidth);
+    tooltip.style.maxWidth = `${maxWidth}px`;
+
+    const triggerRect = trigger.getBoundingClientRect();
+    const tooltipRect = tooltip.getBoundingClientRect();
+    const left = resolveTooltipFixedLeft(triggerRect, tooltipRect.width, window.innerWidth);
+    const top = resolveTooltipFixedTop(triggerRect, tooltipRect.height, side);
+
+    setFixedCoords({ top, left, maxWidth });
+  }, [side]);
+
+  const handleShow = useCallback(() => {
+    const trigger = triggerRef.current;
+    if (!trigger) {
+      return;
+    }
+
+    if (needsFixedTooltipPosition(trigger)) {
+      fixedActiveRef.current = true;
+      setFixedOpen(true);
+      return;
+    }
+
+    fixedActiveRef.current = false;
+    updateInlineAlign();
+  }, [updateInlineAlign]);
+
+  const handleHide = useCallback(() => {
+    if (!fixedActiveRef.current) {
+      return;
+    }
+
+    fixedActiveRef.current = false;
+    setFixedOpen(false);
+    setFixedCoords(null);
+  }, []);
+
+  useLayoutEffect(() => {
+    if (!fixedOpen) {
+      return;
+    }
+
+    updateFixedPosition();
+
+    const onLayoutChange = () => updateFixedPosition();
+    window.addEventListener("scroll", onLayoutChange, true);
+    window.addEventListener("resize", onLayoutChange);
+
+    return () => {
+      window.removeEventListener("scroll", onLayoutChange, true);
+      window.removeEventListener("resize", onLayoutChange);
+    };
+  }, [fixedOpen, label, wrap, updateFixedPosition]);
+
   if (!isValidElement(children)) {
     return children;
   }
 
   const activeAlign = align === "auto" ? resolvedAlign : align;
+  const tooltipBodyClassName = cn(
+    panelClassName,
+    wrap
+      ? "block w-max min-w-[12rem] rounded-xl px-3 py-2 text-left leading-snug whitespace-normal"
+      : "rounded-full px-3 py-1.5 whitespace-nowrap sm:whitespace-nowrap max-sm:whitespace-normal",
+  );
+
+  const fixedTooltip =
+    fixedOpen && typeof document !== "undefined"
+      ? createPortal(
+          <span
+            id={id}
+            ref={tooltipRef}
+            role="tooltip"
+            className={cn(
+              tooltipBodyClassName,
+              "fixed z-[100] transition-opacity duration-200 ease-[cubic-bezier(0.22,1,0.36,1)]",
+              fixedCoords ? "opacity-100" : "opacity-0",
+            )}
+            style={{
+              top: fixedCoords?.top ?? 0,
+              left: fixedCoords?.left ?? 0,
+              maxWidth: fixedCoords?.maxWidth ?? tooltipMaxWidth(window.innerWidth),
+            }}
+          >
+            {label}
+          </span>,
+          document.body,
+        )
+      : null;
 
   return (
     <span
       className={cn("group/tooltip relative inline-flex", className)}
-      onMouseEnter={align === "auto" ? updateAlign : undefined}
-      onFocus={align === "auto" ? updateAlign : undefined}
+      onMouseEnter={handleShow}
+      onMouseLeave={handleHide}
+      onFocus={handleShow}
+      onBlur={handleHide}
     >
       <span ref={triggerRef} className="inline-flex">
         {cloneElement(children, {
           "aria-describedby": id,
         })}
       </span>
-      <span
-        id={id}
-        ref={tooltipRef}
-        role="tooltip"
-        className={cn(
-          "pointer-events-none absolute z-50 border border-black bg-white text-xs font-medium tracking-tight text-black shadow-[0_6px_20px_rgba(0,0,0,0.1)]",
-          wrap
-            ? "block w-max min-w-[12rem] max-w-[22rem] rounded-xl px-3 py-2 text-left leading-snug whitespace-normal"
-            : "rounded-full px-3 py-1.5 whitespace-nowrap",
-          "opacity-0 transition-[opacity,transform] duration-200 ease-[cubic-bezier(0.22,1,0.36,1)]",
-          "group-hover/tooltip:opacity-100 group-focus-within/tooltip:opacity-100",
-          panelPosition[activeAlign][side],
-        )}
-      >
-        {label}
-      </span>
+      {!fixedOpen && (
+        <span
+          id={id}
+          ref={tooltipRef}
+          role="tooltip"
+          className={cn(
+            tooltipBodyClassName,
+            "absolute z-50",
+            "opacity-0 transition-[opacity,transform] duration-200 ease-[cubic-bezier(0.22,1,0.36,1)]",
+            "group-hover/tooltip:opacity-100 group-focus-within/tooltip:opacity-100",
+            panelPosition[activeAlign][side],
+          )}
+        >
+          {label}
+        </span>
+      )}
+      {fixedTooltip}
     </span>
   );
 }

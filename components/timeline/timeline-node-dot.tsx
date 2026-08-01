@@ -44,9 +44,7 @@ export function TimelineNodeDot({
         fill="transparent"
         onClick={onClick}
         onMouseEnter={() => onHover(event)}
-        onMouseLeave={() => onHover(null)}
         onFocus={() => onHover(event)}
-        onBlur={() => onHover(null)}
         tabIndex={0}
         role="button"
         aria-label={`${event.title}, ${event.dateLabel}`}
