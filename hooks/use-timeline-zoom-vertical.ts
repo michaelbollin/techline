@@ -12,9 +12,10 @@ type UseTimelineZoomVerticalOptions = {
   width: number;
   height: number;
   svgRef: React.RefObject<SVGSVGElement | null>;
+  svgReady?: boolean;
 };
 
-export function useTimelineZoomVertical({ width, height, svgRef }: UseTimelineZoomVerticalOptions) {
+export function useTimelineZoomVertical({ width, height, svgRef, svgReady = true }: UseTimelineZoomVerticalOptions) {
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const hasInitialized = useRef(false);
 
@@ -42,7 +43,7 @@ export function useTimelineZoomVertical({ width, height, svgRef }: UseTimelineZo
   );
 
   useEffect(() => {
-    if (height <= 0 || !svgRef.current) {
+    if (height <= 0 || !svgReady || !svgRef.current) {
       return;
     }
 
@@ -91,7 +92,7 @@ export function useTimelineZoomVertical({ width, height, svgRef }: UseTimelineZo
       svg.on(".zoom", null);
       zoomRef.current = null;
     };
-  }, [animateTo, height, svgRef, width]);
+  }, [animateTo, height, svgReady, svgRef, width]);
 
   return { transform, animateTo };
 }

@@ -13,6 +13,7 @@ import { TimelineLabelContent } from "@/components/timeline/timeline-label-conte
 type TimelineNodeLabelProps = {
   event: PlottedEvent;
   xScale: (timestamp: number) => number;
+  axisOffset?: number;
   getAxisY: (x: number) => number;
   layout: LabelLayout;
   viewportWidth: number;
@@ -27,6 +28,7 @@ const labelTransition =
 export function TimelineNodeLabel({
   event,
   xScale,
+  axisOffset = 0,
   getAxisY,
   layout,
   viewportWidth,
@@ -34,7 +36,7 @@ export function TimelineNodeLabel({
   onHover,
   onClick,
 }: TimelineNodeLabelProps) {
-  const x = xScale(event.timestamp);
+  const x = xScale(event.timestamp) + axisOffset;
   const labelWidth = layout.width;
   const labelY = getAxisY(x) + labelTopLocalY(layout.lane);
   const labelLeft = Math.min(

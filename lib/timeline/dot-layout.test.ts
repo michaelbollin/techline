@@ -28,6 +28,18 @@ describe("resolveDotLayout", () => {
     expect(layout.get("minor")?.showDot).toBe(false);
   });
 
+  it("shows both colocated events when they share a timestamp", () => {
+    const events = [
+      makePlottedEvent({ id: "objective-c", importance: 4, timestamp: 500_000_000 }),
+      makePlottedEvent({ id: "cd-rom", importance: 5, timestamp: 500_000_000 }),
+    ];
+    const layout = resolveDotLayout(events, x, 9, 0, 1_000, () => 5);
+
+    expect(layout.get("objective-c")?.showDot).toBe(true);
+    expect(layout.get("cd-rom")?.showDot).toBe(true);
+    expect(layout.get("objective-c")?.axisOffset).not.toBe(layout.get("cd-rom")?.axisOffset);
+  });
+
   it("forces visibility for pinned ids", () => {
     const events = [
       makePlottedEvent({ id: "major", importance: 1, timestamp: 500_000_000 }),

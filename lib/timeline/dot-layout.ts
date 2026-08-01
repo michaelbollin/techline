@@ -4,7 +4,44 @@ import { DOT_COLLISION_GAP } from "./dot-metrics";
 
 export type DotLayout = {
   showDot: boolean;
+  /** Pixel offset along the timeline axis for colocated events (same timestamp). */
+  axisOffset: number;
 };
+
+/** Minimum center-to-center spacing between colocated dots on the axis. */
+const COLOCATED_DOT_STEP = 14;
+
+function colocatedAxisOffsets(events: PlottedEvent[]): Map<string, number> {
+  const offsets = new Map<string, number>();
+  const byTimestamp = new Map<number, PlottedEvent[]>();
+
+  for (const event of events) {
+    const group = byTimestamp.get(event.timestamp) ?? [];
+    group.push(event);
+    byTimestamp.set(event.timestamp, group);
+  }
+
+  for (const group of byTimestamp.values()) {
+    if (group.length <= 1) {
+      continue;
+    }
+
+    const sorted = [...group].sort((a, b) => {
+      if (a.importance !== b.importance) {
+        return a.importance - b.importance;
+      }
+
+      return a.id.localeCompare(b.id);
+    });
+
+    const mid = (sorted.length - 1) / 2;
+    sorted.forEach((event, index) => {
+      offsets.set(event.id, (index - mid) * COLOCATED_DOT_STEP);
+    });
+  }
+
+  return offsets;
+}
 
 type PlacedDot = {
   center: number;
@@ -51,13 +88,19 @@ export function resolveDotLayout(
   const gap = options?.gap ?? DOT_COLLISION_GAP;
   const forceVisibleIds = options?.forceVisibleIds;
   const sorted = sortByImportance(events);
+  const axisOffsets = colocatedAxisOffsets(events);
+
+  const layoutFor = (event: PlottedEvent, showDot: boolean): DotLayout => ({
+    showDot,
+    axisOffset: axisOffsets.get(event.id) ?? 0,
+  });
 
   const tryPlace = (event: PlottedEvent, forced: boolean): void => {
-    const center = position(event.timestamp);
+    const center = position(event.timestamp) + (axisOffsets.get(event.id) ?? 0);
     const radius = radiusFor(event);
 
     if (center - radius < viewportMin || center + radius > viewportMax) {
-      placements.set(event.id, { showDot: forced });
+      placements.set(event.id, layoutFor(event, forced));
       if (forced) {
         placed.push({ center, radius });
       }
@@ -65,12 +108,12 @@ export function resolveDotLayout(
     }
 
     if (!forced && overlapsOnAxis(placed, center, radius, gap)) {
-      placements.set(event.id, { showDot: false });
+      placements.set(event.id, layoutFor(event, false));
       return;
     }
 
     placed.push({ center, radius });
-    placements.set(event.id, { showDot: true });
+    placements.set(event.id, layoutFor(event, true));
   };
 
   for (const event of sorted) {
@@ -105,7 +148,7 @@ export function resolveDotLayout(
 
   for (const event of sorted) {
     if (!placements.has(event.id)) {
-      placements.set(event.id, { showDot: false });
+      placements.set(event.id, layoutFor(event, false));
     }
   }
 

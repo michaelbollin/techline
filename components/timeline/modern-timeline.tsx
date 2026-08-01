@@ -64,6 +64,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     width,
     height,
     svgRef,
+    svgReady: chartReady,
   });
 
   const plot = useTimelinePlot({
@@ -215,6 +216,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                           key={`stem-${event.id}`}
                           event={event}
                           xScale={xScale}
+                          axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                           getAxisY={getAxisY}
                           layout={layout}
                           stemStartY={stemStartY.get(event.id) ?? 0}
@@ -234,6 +236,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                           key={`dot-${event.id}`}
                           event={event}
                           xScale={xScale}
+                          axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                           getAxisY={getAxisY}
                           showLabel={labelLayout.get(event.id)?.showLabel ?? false}
                           isHovered={hovered?.id === event.id}
@@ -250,6 +253,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
                         key={`label-${event.id}`}
                         event={event}
                         xScale={xScale}
+                        axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                         getAxisY={getAxisY}
                         layout={labelLayout.get(event.id)!}
                         viewportWidth={width}

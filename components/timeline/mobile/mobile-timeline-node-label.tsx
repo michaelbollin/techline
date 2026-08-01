@@ -10,6 +10,7 @@ import { TimelineLabelContent } from "@/components/timeline/timeline-label-conte
 type MobileTimelineNodeLabelProps = {
   event: PlottedEvent;
   yScale: (timestamp: number) => number;
+  axisOffset?: number;
   getAxisX: (y: number) => number;
   layout: VerticalLabelLayout;
   viewportWidth: number;
@@ -19,12 +20,13 @@ type MobileTimelineNodeLabelProps = {
 export function MobileTimelineNodeLabel({
   event,
   yScale,
+  axisOffset = 0,
   getAxisX,
   layout,
   viewportWidth,
   onClick,
 }: MobileTimelineNodeLabelProps) {
-  const y = yScale(event.timestamp);
+  const y = yScale(event.timestamp) + axisOffset;
   const axisX = getAxisX(y);
   const labelWidth = layout.width;
   const labelLeft = Math.min(

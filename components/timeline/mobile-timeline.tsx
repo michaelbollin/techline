@@ -55,6 +55,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
     width,
     height,
     svgRef,
+    svgReady: chartReady,
   });
 
   const plot = useMobileTimelinePlot({
@@ -155,6 +156,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
                       key={`stem-${event.id}`}
                       event={event}
                       yScale={yPosition}
+                      axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                       getAxisX={getAxisX}
                       layout={layout}
                       stemStartX={stemStartX.get(event.id) ?? 0}
@@ -174,6 +176,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
                       key={`dot-${event.id}`}
                       event={event}
                       yScale={yPosition}
+                      axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                       getAxisX={getAxisX}
                       showLabel={labelLayout.get(event.id)?.showLabel ?? false}
                       onClick={() => openEvent(event)}
@@ -188,6 +191,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
                     key={`label-${event.id}`}
                     event={event}
                     yScale={yPosition}
+                    axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                     getAxisX={getAxisX}
                     layout={labelLayout.get(event.id)!}
                     viewportWidth={width}

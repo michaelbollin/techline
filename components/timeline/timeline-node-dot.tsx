@@ -7,6 +7,7 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type TimelineNodeDotProps = {
   event: PlottedEvent;
   xScale: (timestamp: number) => number;
+  axisOffset?: number;
   getAxisY: (x: number) => number;
   showLabel: boolean;
   isHovered: boolean;
@@ -20,13 +21,14 @@ const dotTransition =
 export function TimelineNodeDot({
   event,
   xScale,
+  axisOffset = 0,
   getAxisY,
   showLabel,
   isHovered,
   onHover,
   onClick,
 }: TimelineNodeDotProps) {
-  const x = xScale(event.timestamp);
+  const x = xScale(event.timestamp) + axisOffset;
   const filled = showLabel || isHovered;
   const tier = visualImportanceTier(event.importance);
   const dotR = desktopDotRadius(event.importance, filled);

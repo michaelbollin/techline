@@ -5,6 +5,7 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type MobileTimelineNodeStemProps = {
   event: PlottedEvent;
   yScale: (timestamp: number) => number;
+  axisOffset?: number;
   getAxisX: (y: number) => number;
   layout: VerticalLabelLayout;
   stemStartX: number;
@@ -13,11 +14,12 @@ type MobileTimelineNodeStemProps = {
 export function MobileTimelineNodeStem({
   event,
   yScale,
+  axisOffset = 0,
   getAxisX,
   layout,
   stemStartX,
 }: MobileTimelineNodeStemProps) {
-  const y = yScale(event.timestamp);
+  const y = yScale(event.timestamp) + axisOffset;
   const axisX = getAxisX(y);
   const stemEndX = labelLeftLocalX(layout.lane);
 

@@ -11,9 +11,11 @@ type UseTimelineZoomOptions = {
   width: number;
   height: number;
   svgRef: React.RefObject<SVGSVGElement | null>;
+  /** When false, the SVG is not mounted yet (e.g. deferred first paint). */
+  svgReady?: boolean;
 };
 
-export function useTimelineZoom({ width, height, svgRef }: UseTimelineZoomOptions) {
+export function useTimelineZoom({ width, height, svgRef, svgReady = true }: UseTimelineZoomOptions) {
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const hasInitialized = useRef(false);
 
@@ -65,7 +67,7 @@ export function useTimelineZoom({ width, height, svgRef }: UseTimelineZoomOption
   );
 
   useEffect(() => {
-    if (width <= 0 || !svgRef.current) {
+    if (width <= 0 || !svgReady || !svgRef.current) {
       return;
     }
 
@@ -114,7 +116,7 @@ export function useTimelineZoom({ width, height, svgRef }: UseTimelineZoomOption
       svg.on(".zoom", null);
       zoomRef.current = null;
     };
-  }, [height, svgRef, width]);
+  }, [height, svgReady, svgRef, width]);
 
   return { transform, animateTo };
 }

@@ -6,6 +6,7 @@ import type { PlottedEvent } from "@/lib/timeline/plot-data";
 type MobileTimelineNodeDotProps = {
   event: PlottedEvent;
   yScale: (timestamp: number) => number;
+  axisOffset?: number;
   getAxisX: (y: number) => number;
   showLabel: boolean;
   onClick: () => void;
@@ -14,11 +15,12 @@ type MobileTimelineNodeDotProps = {
 export function MobileTimelineNodeDot({
   event,
   yScale,
+  axisOffset = 0,
   getAxisX,
   showLabel,
   onClick,
 }: MobileTimelineNodeDotProps) {
-  const y = yScale(event.timestamp);
+  const y = yScale(event.timestamp) + axisOffset;
   const x = getAxisX(y);
   const filled = showLabel;
   const tier = visualImportanceTier(event.importance);
