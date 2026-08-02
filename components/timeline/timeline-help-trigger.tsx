@@ -24,18 +24,20 @@ export function TimelineHelpTrigger({ suppressed = false }: TimelineHelpTriggerP
   const isDesktop = useMediaQuery(TIMELINE_DESKTOP_MEDIA_QUERY);
   const tips = getTimelineHelpTips(isDesktop);
   const [open, setOpen] = useState(false);
+  const [prevSuppressed, setPrevSuppressed] = useState(suppressed);
   const panelId = useId();
   const rootRef = useRef<HTMLDivElement>(null);
+
+  if (suppressed !== prevSuppressed) {
+    setPrevSuppressed(suppressed);
+    if (suppressed) {
+      setOpen(false);
+    }
+  }
 
   const close = useCallback(() => {
     setOpen(false);
   }, []);
-
-  useEffect(() => {
-    if (suppressed) {
-      setOpen(false);
-    }
-  }, [suppressed]);
 
   useEffect(() => {
     if (!open) {
@@ -78,7 +80,11 @@ export function TimelineHelpTrigger({ suppressed = false }: TimelineHelpTriggerP
         aria-expanded={open}
         aria-controls={panelId}
         aria-label="How to use the timeline"
-        onClick={() => setOpen((value) => !value)}
+        onClick={() => {
+          if (!suppressed) {
+            setOpen((value) => !value);
+          }
+        }}
       >
         <HelpIcon />
       </Button>

@@ -31,17 +31,25 @@ function useFilterPanelMotion(isOpen: boolean) {
 
   useEffect(() => {
     if (isOpen) {
-      setMounted(true);
-      const frame = requestAnimationFrame(() => {
-        requestAnimationFrame(() => setVisible(true));
+      let innerFrame = 0;
+      const outerFrame = requestAnimationFrame(() => {
+        setMounted(true);
+        innerFrame = requestAnimationFrame(() => setVisible(true));
       });
 
-      return () => cancelAnimationFrame(frame);
+      return () => {
+        cancelAnimationFrame(outerFrame);
+        cancelAnimationFrame(innerFrame);
+      };
     }
 
-    setVisible(false);
+    let visibleFrame = 0;
+    visibleFrame = requestAnimationFrame(() => setVisible(false));
     const timeout = window.setTimeout(() => setMounted(false), FILTER_SIDEBAR_TRANSITION_MS);
-    return () => clearTimeout(timeout);
+    return () => {
+      cancelAnimationFrame(visibleFrame);
+      clearTimeout(timeout);
+    };
   }, [isOpen]);
 
   return { mounted, visible };
