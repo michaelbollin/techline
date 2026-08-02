@@ -10,8 +10,12 @@ import {
   drawGermaniumChip,
   getOrderedWires,
   PALETTE,
+  parseWireGroupId,
   STROKE,
+  wireGroupClass,
   wirePathForPhase,
+  type IcWire,
+  type SvgGroupSelection,
 } from "@/lib/animations/integrated-circuit";
 import { cn } from "@/lib/cn";
 
@@ -27,11 +31,8 @@ const CHIP_FADE_MS = 320;
 const HOLD_MS = 1000;
 const LOOP_PAUSE_MS = 700;
 
-function appendCartoonWire(
-  group: d3.Selection<SVGGElement, unknown, null, undefined>,
-  wire: { id: string; d: string; strokeWidth: number },
-) {
-  const wireGroup = group.append("g").attr("class", `wire-${wire.id}`);
+function appendCartoonWire(group: SvgGroupSelection, wire: IcWire & { d: string }) {
+  const wireGroup = group.append("g").attr("class", wireGroupClass(wire.id));
 
   wireGroup
     .append("path")
@@ -52,6 +53,35 @@ function appendCartoonWire(
     .attr("stroke-linejoin", "round")
     .attr("stroke-width", wire.strokeWidth)
     .attr("d", wire.d);
+}
+
+function prepareWireDash(path: SVGPathElement) {
+  const length = path.getTotalLength();
+  d3.select(path).attr("stroke-dasharray", `${length} ${length}`).attr("stroke-dashoffset", length);
+  path.parentElement
+    ?.querySelector<SVGPathElement>(".wire-outline")
+    ?.setAttribute("stroke-dasharray", `${length} ${length}`);
+  path.parentElement
+    ?.querySelector<SVGPathElement>(".wire-outline")
+    ?.setAttribute("stroke-dashoffset", String(length));
+}
+
+function resetWireGroup(group: SVGGElement, orderedWires: IcWire[], components: ReturnType<typeof buildIcScene>["components"]) {
+  const wireId = parseWireGroupId(group.getAttribute("class"));
+  const wire = orderedWires.find((item) => item.id === wireId);
+  if (!wire) {
+    return;
+  }
+
+  const pathD = wirePathForPhase(wire, components, "spread");
+  const outline = group.querySelector<SVGPathElement>(".wire-outline");
+  const inner = group.querySelector<SVGPathElement>(".wire");
+  outline?.setAttribute("d", pathD);
+  inner?.setAttribute("d", pathD);
+
+  if (inner) {
+    prepareWireDash(inner);
+  }
 }
 
 export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnimationProps) {
@@ -116,21 +146,13 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
 
     for (const wire of orderedWires) {
       appendCartoonWire(wiresGroup, {
-        id: wire.id,
+        ...wire,
         d: wirePathForPhase(wire, scene.components, "spread"),
-        strokeWidth: wire.strokeWidth,
       });
     }
 
-    wiresGroup.selectAll<SVGPathElement, unknown>("path.wire").each(function prepareDash() {
-      const length = this.getTotalLength();
-      d3.select(this).attr("stroke-dasharray", `${length} ${length}`).attr("stroke-dashoffset", length);
-      this.parentElement
-        ?.querySelector<SVGPathElement>(".wire-outline")
-        ?.setAttribute("stroke-dasharray", `${length} ${length}`);
-      this.parentElement
-        ?.querySelector<SVGPathElement>(".wire-outline")
-        ?.setAttribute("stroke-dashoffset", String(length));
+    wiresGroup.selectAll<SVGPathElement, unknown>("path.wire").each(function prepareDash(this: SVGPathElement) {
+      prepareWireDash(this);
     });
 
     const stopAll = () => {
@@ -150,26 +172,8 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
         );
 
       wiresGroup.attr("opacity", 1);
-      wiresGroup.selectAll<SVGGElement, unknown>("g").each(function resetWireGroup(this: SVGGElement) {
-        const wireId = this.getAttribute("class")?.replace("wire-", "") ?? "";
-        const wire = orderedWires.find((item) => item.id === wireId);
-        if (!wire) {
-          return;
-        }
-
-        const pathD = wirePathForPhase(wire, scene.components, "spread");
-        const outline = this.querySelector<SVGPathElement>(".wire-outline");
-        const inner = this.querySelector<SVGPathElement>(".wire");
-        outline?.setAttribute("d", pathD);
-        inner?.setAttribute("d", pathD);
-
-        if (inner) {
-          const length = inner.getTotalLength();
-          inner.setAttribute("stroke-dasharray", `${length} ${length}`);
-          inner.setAttribute("stroke-dashoffset", String(length));
-          outline?.setAttribute("stroke-dasharray", `${length} ${length}`);
-          outline?.setAttribute("stroke-dashoffset", String(length));
-        }
+      wiresGroup.selectAll<SVGGElement, unknown>("g").each(function resetGroup(this: SVGGElement) {
+        resetWireGroup(this, orderedWires, scene.components);
       });
 
       chipGroup.attr("opacity", 0);
@@ -191,7 +195,7 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
         }
 
         const wire = orderedWires[wireIndex]!;
-        const wireGroup = wiresGroup.select(`g.wire-${wire.id}`);
+        const wireGroup = wiresGroup.select<SVGGElement>(`g.${wireGroupClass(wire.id)}`);
         const inner = wireGroup.select<SVGPathElement>("path.wire");
 
         inner
@@ -228,7 +232,7 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
         );
 
       for (const wire of orderedWires) {
-        const wireGroup = wiresGroup.select(`g.wire-${wire.id}`);
+        const wireGroup = wiresGroup.select<SVGGElement>(`g.${wireGroupClass(wire.id)}`);
         const spreadPath = wirePathForPhase(wire, scene.components, "spread");
         const nestedPath = wirePathForPhase(wire, scene.components, "nested");
         const outline = wireGroup.select<SVGPathElement>("path.wire-outline");

@@ -3,20 +3,13 @@ import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { TIMELINE_PINCH_HINT_STORAGE_KEY } from "@/lib/timeline/pinch-hint-storage";
+import { stubLocalStorage } from "@/test/mock-local-storage";
 
 import { MobileTimelinePinchHint } from "./mobile-timeline-pinch-hint";
 
 describe("MobileTimelinePinchHint", () => {
   beforeEach(() => {
-    const store: Record<string, string> = {};
-    vi.stubGlobal("localStorage", {
-      getItem(key: string) {
-        return store[key] ?? null;
-      },
-      setItem(key: string, value: string) {
-        store[key] = value;
-      },
-    });
+    stubLocalStorage();
   });
 
   afterEach(() => {

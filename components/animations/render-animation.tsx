@@ -43,7 +43,9 @@ export function RenderAnimation({ animationId, className }: RenderAnimationProps
       return <IbmPc5150Animation className={className} />;
     case "integrated-circuit":
       return <IntegratedCircuitAnimation className={className} />;
-    default:
-      return null;
+    default: {
+      const unhandledAnimationId: never = animationId;
+      throw new Error(`Unhandled animation id: ${unhandledAnimationId}`);
+    }
   }
 }

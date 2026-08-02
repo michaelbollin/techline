@@ -1,5 +1,7 @@
 import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 
+import { stubLocalStorage } from "@/test/mock-local-storage";
+
 import {
   hasSeenTimelinePinchHint,
   markTimelinePinchHintSeen,
@@ -8,15 +10,7 @@ import {
 
 describe("pinch-hint-storage", () => {
   beforeEach(() => {
-    const store: Record<string, string> = {};
-    vi.stubGlobal("localStorage", {
-      getItem(key: string) {
-        return store[key] ?? null;
-      },
-      setItem(key: string, value: string) {
-        store[key] = value;
-      },
-    });
+    stubLocalStorage();
   });
 
   afterEach(() => {
