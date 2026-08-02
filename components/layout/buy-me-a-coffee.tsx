@@ -4,7 +4,8 @@ import { useEffect } from "react";
 
 import { cn } from "@/lib/cn";
 import { Tooltip } from "@/components/ui/tooltip";
-import { SITE_BMC_USERNAME } from "@/lib/site";
+import { TIMELINE_DESKTOP_MEDIA_QUERY, useMediaQuery } from "@/hooks/use-media-query";
+import { SITE_BMC_USERNAME, SITE_BMC_URL } from "@/lib/site";
 
 const BMC_SRC = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js";
 const BMC_SCRIPT_SELECTOR = 'script[data-name="BMC-Widget"]';
@@ -42,44 +43,34 @@ function triggerBmcInit() {
   waitForBmcWidget();
 }
 
+function loadBmcScript() {
+  if (document.querySelector(BMC_SCRIPT_SELECTOR) || bmcLoadStarted) {
+    triggerBmcInit();
+    return;
+  }
+
+  bmcLoadStarted = true;
+
+  const script = document.createElement("script");
+  script.src = BMC_SRC;
+  script.setAttribute("data-name", "BMC-Widget");
+  script.setAttribute("data-cfasync", "false");
+  script.setAttribute("data-id", SITE_BMC_USERNAME);
+  script.setAttribute("data-description", "Support me on Buy me a coffee!");
+  script.setAttribute("data-message", "");
+  script.setAttribute("data-color", "#BD5FFF");
+  script.setAttribute("data-position", "Right");
+  script.setAttribute("data-x_margin", "18");
+  script.setAttribute("data-y_margin", "18");
+
+  script.addEventListener("load", triggerBmcInit);
+  document.body.appendChild(script);
+}
+
 /** Loads the BMC overlay widget and keeps its floating button hidden (footer icon opens it). */
 export function BuyMeACoffeeScript() {
   useEffect(() => {
-    if (document.querySelector(BMC_SCRIPT_SELECTOR) || bmcLoadStarted) {
-      triggerBmcInit();
-      return;
-    }
-
-    bmcLoadStarted = true;
-
-    const loadScript = () => {
-      const script = document.createElement("script");
-      script.src = BMC_SRC;
-      script.setAttribute("data-name", "BMC-Widget");
-      script.setAttribute("data-cfasync", "false");
-      script.setAttribute("data-id", SITE_BMC_USERNAME);
-      script.setAttribute("data-description", "Support me on Buy me a coffee!");
-      script.setAttribute("data-message", "");
-      script.setAttribute("data-color", "#BD5FFF");
-      script.setAttribute("data-position", "Right");
-      script.setAttribute("data-x_margin", "18");
-      script.setAttribute("data-y_margin", "18");
-
-      script.addEventListener("load", triggerBmcInit);
-      document.body.appendChild(script);
-    };
-
-    const idleId = window.requestIdleCallback?.(() => loadScript(), { timeout: 5000 });
-    const timeoutId = idleId === undefined ? window.setTimeout(loadScript, 3000) : undefined;
-
-    return () => {
-      if (idleId !== undefined) {
-        window.cancelIdleCallback(idleId);
-      }
-      if (timeoutId !== undefined) {
-        window.clearTimeout(timeoutId);
-      }
-    };
+    loadBmcScript();
   }, []);
 
   return null;
@@ -103,23 +94,46 @@ function BuyMeACoffeeIcon({ className }: { className?: string }) {
 }
 
 function openBuyMeACoffeeWidget() {
-  document.getElementById("bmc-wbtn")?.click();
+  const bmcButton = document.getElementById("bmc-wbtn");
+  if (bmcButton) {
+    bmcButton.click();
+    return;
+  }
+
+  loadBmcScript();
+  window.open(SITE_BMC_URL, "_blank", "noopener,noreferrer");
 }
+
+const buttonClassName =
+  "inline-flex shrink-0 cursor-pointer items-center justify-center border-0 bg-transparent p-2 text-black hover:text-black/70";
 
 type BuyMeACoffeeButtonProps = {
   className?: string;
 };
 
 export function BuyMeACoffeeButton({ className }: BuyMeACoffeeButtonProps) {
+  const isDesktop = useMediaQuery(TIMELINE_DESKTOP_MEDIA_QUERY);
+
+  if (!isDesktop) {
+    return (
+      <a
+        href={SITE_BMC_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cn(buttonClassName, className)}
+        aria-label="Buy me a coffee!"
+      >
+        <BuyMeACoffeeIcon className="h-[2.1rem] w-[2.1rem]" />
+      </a>
+    );
+  }
+
   return (
     <Tooltip label="Buy me a coffee!" side="top">
       <button
         type="button"
         onClick={openBuyMeACoffeeWidget}
-        className={cn(
-          "inline-flex shrink-0 cursor-pointer items-center justify-center border-0 bg-transparent p-0 text-black hover:text-black/70",
-          className,
-        )}
+        className={cn(buttonClassName, className)}
         aria-label="Buy me a coffee!"
       >
         <BuyMeACoffeeIcon className="h-[2.1rem] w-[2.1rem]" />

@@ -26,7 +26,7 @@ export function SiteFooter({ fixed = false, className }: SiteFooterProps) {
       className={cn(
         "text-xs leading-relaxed text-black/45",
         fixed &&
-          "z-20 shrink-0 border-t border-black bg-white max-md:relative md:pointer-events-none md:fixed md:inset-x-0 md:bottom-0 md:border-t-0 md:bg-transparent",
+          "z-20 shrink-0 border-t border-black bg-white max-md:relative max-md:z-30 max-md:pb-[env(safe-area-inset-bottom)] md:pointer-events-none md:fixed md:inset-x-0 md:bottom-0 md:border-t-0 md:bg-transparent",
         fixed &&
           "md:transition-transform md:duration-[220ms] md:ease-[cubic-bezier(0.22,1,0.36,1)]",
         fixed && filtersOpen && "md:-translate-x-[var(--filter-sidebar-width)]",

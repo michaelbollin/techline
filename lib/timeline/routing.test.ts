@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
-import { getEventBySlug, isEventSlug } from "./routing";
+import { getEventBySlug, getRelatedEvents, isEventSlug } from "./routing";
 
 describe("isEventSlug", () => {
   const events = [
@@ -31,5 +31,20 @@ describe("getEventBySlug", () => {
 
   it("returns undefined when missing", () => {
     expect(getEventBySlug(events, "missing")).toBeUndefined();
+  });
+});
+
+describe("getRelatedEvents", () => {
+  const events = [
+    makeTimelineEvent({ id: "a", slug: "event-a", title: "A" }),
+    makeTimelineEvent({ id: "b", slug: "event-b", title: "B" }),
+    makeTimelineEvent({ id: "c", slug: "event-c", title: "C", relatedIds: ["a", "missing", "b"] }),
+  ];
+
+  it("resolves related ids in order and skips unknown ids", () => {
+    expect(getRelatedEvents(events, events[2]).map((event) => event.slug)).toEqual([
+      "event-a",
+      "event-b",
+    ]);
   });
 });

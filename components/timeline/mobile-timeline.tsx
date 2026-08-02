@@ -5,15 +5,14 @@ import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } fr
 
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useMobileTimelinePlot } from "@/hooks/use-mobile-timeline-plot";
+import { useTimelineEventOpen } from "@/hooks/use-timeline-event-open";
 import { useTimelineFilterZoomVertical } from "@/hooks/use-timeline-filter-zoom-vertical";
 import { useTimelineFulltext } from "@/hooks/use-timeline-fulltext";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
 import { useTimelineViewActionsVertical } from "@/hooks/use-timeline-view-actions-vertical";
 import { useTimelineZoomVertical } from "@/hooks/use-timeline-zoom-vertical";
 import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_INK } from "@/lib/timeline/constants";
-import { eventPath } from "@/lib/timeline/format";
 import { buildVerticalAxisPath } from "@/lib/timeline/vertical/axis-path";
-import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 import { MobileTimelineAxisGrid } from "./mobile/mobile-timeline-axis-grid";
@@ -94,9 +93,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
 
   const axisPath = useMemo(() => buildVerticalAxisPath(height, axisX), [axisX, height]);
 
-  const openEvent = (event: PlottedEvent) => {
-    router.push(eventPath(event.slug, { filterPathKey }), { scroll: false });
-  };
+  const { openEvent, isEventOpening } = useTimelineEventOpen(filterPathKey);
 
   const handleLogoClick = useCallback(
     (event: MouseEvent<HTMLAnchorElement>) => {
@@ -183,6 +180,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
                       axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
                       getAxisX={getAxisX}
                       showLabel={labelLayout.get(event.id)?.showLabel ?? false}
+                      isOpening={isEventOpening(event)}
                       onClick={() => openEvent(event)}
                     />
                   );

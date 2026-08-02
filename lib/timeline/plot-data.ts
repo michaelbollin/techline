@@ -19,7 +19,7 @@ export type PlottedEvent = {
   imageCaption: string | null;
 };
 
-function eventToIsoDate(date: string, precision: TimelineEvent["datePrecision"]): string {
+export function eventToIsoDate(date: string, precision: TimelineEvent["datePrecision"]): string {
   if (precision === "decade") {
     const decade = Number.parseInt(date.replace(/\D/g, ""), 10);
     return `${decade + 5}-01-01`;

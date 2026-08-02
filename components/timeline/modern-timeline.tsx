@@ -7,6 +7,7 @@ import { useContainerSize } from "@/hooks/use-container-size";
 import { useTimelineFulltext } from "@/hooks/use-timeline-fulltext";
 import { useTimelineKeyboardNavigation } from "@/hooks/use-timeline-keyboard-navigation";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
+import { useTimelineEventOpen } from "@/hooks/use-timeline-event-open";
 import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
 import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
@@ -17,10 +18,8 @@ import {
   timelineEventDetailLayout,
 } from "@/lib/timeline/event-detail-layout";
 import { buildAxisPath } from "@/lib/timeline/axis-path";
-import { eventPath } from "@/lib/timeline/format";
 import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
 import { useTimelineNodeHover } from "@/lib/timeline/timeline-node-hover";
-import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 import { SiteBrand } from "@/components/layout/site-brand";
@@ -228,9 +227,7 @@ export function ModernTimeline({
     };
   }, [setHoveredEventId]);
 
-  const openEvent = (event: PlottedEvent) => {
-    router.push(eventPath(event.slug, { filterPathKey }), { scroll: false });
-  };
+  const { openEvent, isEventOpening } = useTimelineEventOpen(filterPathKey);
 
   const handleLogoClick = useCallback(
     (event: MouseEvent<HTMLAnchorElement>) => {
@@ -323,6 +320,7 @@ export function ModernTimeline({
                           getAxisY={getAxisY}
                           showLabel={labelLayout.get(event.id)?.showLabel ?? false}
                           isHovered={hovered?.id === event.id}
+                          isOpening={isEventOpening(event)}
                           onHoverEnter={handleHoverEnter}
                           onHoverLeave={handleHoverLeave}
                           onClick={() => openEvent(event)}
@@ -379,6 +377,7 @@ export function ModernTimeline({
                         getAxisY={getAxisY}
                         showLabel={labelLayout.get(displayedHovered.id)?.showLabel ?? false}
                         isHovered
+                        isOpening={isEventOpening(displayedHovered)}
                         onHoverEnter={handleHoverEnter}
                         onHoverLeave={handleHoverLeave}
                         onClick={() => openEvent(displayedHovered)}

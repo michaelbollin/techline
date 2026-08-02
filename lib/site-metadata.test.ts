@@ -33,9 +33,35 @@ describe("site metadata", () => {
     expect(metadata.robots).toEqual({ index: false, follow: false });
   });
 
-  it("defaults to site name and description", () => {
+  it("defaults to site name and description without explicit OG images", () => {
     const metadata = buildPageMetadata();
     expect(metadata.title).toBe(SITE_NAME);
     expect(metadata.description).toContain("timeline");
+    expect(metadata.openGraph && "images" in metadata.openGraph ? metadata.openGraph.images : undefined).toBeUndefined();
+  });
+
+  it("strips glossary markup from titles and descriptions", () => {
+    const metadata = buildPageMetadata({
+      title: "The [iPhone] arrives",
+      description: "Steve unveiled the [iPhone] at Macworld.",
+      path: "/steve-jobs-iphone-introduced",
+    });
+
+    expect(metadata.title).toBe("The iPhone arrives");
+    expect(metadata.description).toBe("Steve unveiled the iPhone at Macworld.");
+  });
+
+  it("includes the default OG image when omitImage is false", () => {
+    const metadata = buildPageMetadata({ omitImage: false });
+    const images = metadata.openGraph && "images" in metadata.openGraph ? metadata.openGraph.images : undefined;
+
+    expect(images).toEqual([
+      {
+        url: `${SITE_URL}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: SITE_NAME,
+      },
+    ]);
   });
 });

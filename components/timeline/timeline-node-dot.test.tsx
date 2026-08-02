@@ -58,4 +58,25 @@ describe("TimelineNodeDot", () => {
 
     expect(container.querySelector(".animate-timeline-dot-pulse")).toBeTruthy();
   });
+
+  it("shows a spinning ring while opening", () => {
+    const { container } = render(
+      <svg>
+        <TimelineNodeDot
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          showLabel={false}
+          isHovered
+          isOpening
+          onHoverEnter={() => {}}
+          onHoverLeave={() => {}}
+          onClick={() => {}}
+        />
+      </svg>,
+    );
+
+    expect(container.querySelector(".animate-timeline-dot-spin")).toBeTruthy();
+    expect(container.querySelector(".animate-timeline-dot-pulse")).toBeFalsy();
+  });
 });

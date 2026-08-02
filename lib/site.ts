@@ -26,4 +26,6 @@ export const SITE_FOOTER_RESERVED_HEIGHT = 56;
 
 export const SITE_BMC_USERNAME = "michaelbollin";
 
+export const SITE_BMC_URL = `https://buymeacoffee.com/${SITE_BMC_USERNAME}`;
+
 export const SITE_GA_MEASUREMENT_ID = "G-E382VH8430";

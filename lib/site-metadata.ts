@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { stripGlossaryMarkup } from "./glossary";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "./site";
 
 export const DEFAULT_OG_IMAGE_PATH = "/opengraph-image";
@@ -11,7 +12,7 @@ type BuildPageMetadataOptions = {
   path?: string;
   /** Absolute or site-relative image URL for Open Graph / Twitter. */
   image?: string;
-  /** When false, omit OG/Twitter images so route `opengraph-image` files apply. */
+  /** When false, use the default site OG image path instead of route `opengraph-image` files. */
   omitImage?: boolean;
   type?: "website" | "article";
   noIndex?: boolean;
@@ -23,11 +24,12 @@ export function absoluteSiteUrl(path = "/"): string {
 }
 
 export function buildPageMetadata(options: BuildPageMetadataOptions = {}): Metadata {
-  const title = options.title ?? SITE_NAME;
-  const description = options.description ?? SITE_DESCRIPTION;
+  const title = stripGlossaryMarkup(options.title ?? SITE_NAME);
+  const description = stripGlossaryMarkup(options.description ?? SITE_DESCRIPTION);
   const path = options.path ?? "/";
   const url = absoluteSiteUrl(path);
-  const imagePath = options.image ?? (options.omitImage ? undefined : DEFAULT_OG_IMAGE_PATH);
+  const imagePath =
+    options.image ?? (options.omitImage === false ? DEFAULT_OG_IMAGE_PATH : undefined);
   const imageUrl =
     imagePath === undefined
       ? undefined
@@ -76,7 +78,7 @@ export function buildPageMetadata(options: BuildPageMetadataOptions = {}): Metad
   return metadata;
 }
 
-const defaultOpenGraph = buildPageMetadata();
+const defaultOpenGraph = buildPageMetadata({ omitImage: false });
 
 export const rootSiteMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),

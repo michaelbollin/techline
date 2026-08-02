@@ -21,3 +21,12 @@ export function getEventById(
 ): TimelineEvent | undefined {
   return events.find((event) => event.id === id);
 }
+
+export function getRelatedEvents(
+  events: readonly TimelineEvent[],
+  event: Pick<TimelineEvent, "relatedIds">,
+): TimelineEvent[] {
+  return event.relatedIds
+    .map((id) => getEventById(events, id))
+    .filter((item): item is TimelineEvent => Boolean(item));
+}

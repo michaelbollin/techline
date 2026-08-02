@@ -16,6 +16,7 @@ type TimelineNodeDotProps = {
   getAxisY: (x: number) => number;
   showLabel: boolean;
   isHovered: boolean;
+  isOpening?: boolean;
   onHoverEnter: (event: PlottedEvent) => void;
   onHoverLeave: (event: PlottedEvent) => void;
   onClick: () => void;
@@ -31,6 +32,7 @@ export function TimelineNodeDot({
   getAxisY,
   showLabel,
   isHovered,
+  isOpening = false,
   onHoverEnter,
   onHoverLeave,
   onClick,
@@ -40,6 +42,9 @@ export function TimelineNodeDot({
   const tier = visualImportanceTier(event.importance);
   const dotR = desktopDotRadius(event.importance, filled);
   const hitR = desktopHitRadius(event.importance);
+  const spinR = dotR * 1.45;
+  const spinCircumference = 2 * Math.PI * spinR;
+  const spinStrokeWidth = tier === 0 ? 1.5 : 1.25;
 
   return (
     <g transform={`translate(${x}, ${getAxisY(x)})`}>
@@ -57,7 +62,21 @@ export function TimelineNodeDot({
         role="button"
         aria-label={`${event.title}, ${event.dateLabel}`}
       />
-      {isHovered && (
+      {isOpening && (
+        <circle
+          className="animate-timeline-dot-spin"
+          cx={0}
+          cy={0}
+          r={spinR}
+          fill="none"
+          stroke={TIMELINE_INK}
+          strokeWidth={spinStrokeWidth}
+          strokeLinecap="round"
+          strokeDasharray={`${spinCircumference * 0.22} ${spinCircumference * 0.78}`}
+          pointerEvents="none"
+        />
+      )}
+      {isHovered && !isOpening && (
         <circle
           className="animate-timeline-dot-pulse"
           cx={0}
@@ -65,7 +84,7 @@ export function TimelineNodeDot({
           r={dotR}
           fill="none"
           stroke={TIMELINE_INK}
-          strokeWidth={tier === 0 ? 1.5 : 1.25}
+          strokeWidth={spinStrokeWidth}
           pointerEvents="none"
         />
       )}

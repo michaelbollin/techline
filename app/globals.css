@@ -76,6 +76,12 @@
     transform-box: fill-box;
     transform-origin: center;
   }
+
+  .animate-timeline-dot-spin {
+    animation: timeline-dot-spin 0.75s linear infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
 }
 
 @keyframes timeline-detail-reveal {
@@ -143,10 +149,21 @@
   }
 }
 
+@keyframes timeline-dot-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-timeline-dot-pulse {
     animation: none;
     opacity: 0;
+  }
+
+  .animate-timeline-dot-spin {
+    animation: none;
+    opacity: 0.6;
   }
 }
 

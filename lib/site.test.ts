@@ -29,6 +29,7 @@ describe("site constants", () => {
     expect(SITE_AUTHOR_URL).toBe("https://bollin.dev");
     expect(SITE_FOOTER_RESERVED_HEIGHT).toBe(56);
     expect(SITE_BMC_USERNAME).toBe("michaelbollin");
+    expect(SITE_BMC_URL).toBe("https://buymeacoffee.com/michaelbollin");
     expect(SITE_URL).toBe("https://historyof.dev");
   });
 });

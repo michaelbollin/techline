@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
 import {
   SITE_AUTHOR_EMAIL,
@@ -8,6 +8,11 @@ import {
 } from "@/lib/site";
 
 import { SiteFooter } from "./site-footer";
+
+vi.mock("@/hooks/use-media-query", () => ({
+  TIMELINE_DESKTOP_MEDIA_QUERY: "(min-width: 768px)",
+  useMediaQuery: vi.fn(() => true),
+}));
 
 describe("SiteFooter", () => {
   it("renders author name, email, and site link", () => {
