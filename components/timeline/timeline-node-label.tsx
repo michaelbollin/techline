@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type RefObject } from "react";
 
 import { cn } from "@/lib/cn";
 import { TextWithAbbreviationTooltips } from "@/components/ui/text-with-abbreviation-tooltips";
@@ -24,7 +24,8 @@ type TimelineNodeLabelProps = {
   isHovered: boolean;
   /** Grow the pill in place and show summary when the header detail panel is hidden. */
   expanded?: boolean;
-  onHover: (event: PlottedEvent | null) => void;
+  onHoverEnter: (event: PlottedEvent) => void;
+  onHoverLeave: (event: PlottedEvent) => void;
   onClick: () => void;
 };
 
@@ -36,7 +37,9 @@ const EXPANDED_MIN_WIDTH = 320;
 const EXPAND_ANIMATION_MS = 320;
 const BUBBLE_PADDING_TOP = 16;
 const BUBBLE_PADDING_X = LABEL_PADDING_X;
-const BUBBLE_PADDING_BOTTOM = 24;
+const BUBBLE_PADDING_BOTTOM = 32;
+/** Extra height below measured content (underline offset, rounding). */
+const BUBBLE_MEASURE_SLACK = 12;
 
 function expandedBoxWidth(layoutWidth: number, viewportWidth: number): number {
   return Math.min(
@@ -110,53 +113,53 @@ function useAnimatedBubbleSize(
 
 function ExpandedBubbleBody({
   event,
-  scrollable = false,
   onReadMore,
+  measureRef,
 }: {
   event: PlottedEvent;
-  scrollable?: boolean;
   onReadMore: () => void;
+  measureRef?: RefObject<HTMLDivElement | null>;
 }) {
   return (
     <div
-      className={cn(
-        "box-border flex flex-row items-start gap-4 text-left text-white",
-        scrollable && "h-full overflow-y-auto",
-      )}
+      ref={measureRef}
+      className="box-border text-left text-white"
       style={{
         padding: `${BUBBLE_PADDING_TOP}px ${BUBBLE_PADDING_X}px ${BUBBLE_PADDING_BOTTOM}px`,
       }}
     >
-      {event.imageUrl && (
-        // eslint-disable-next-line @next/next/no-img-element -- foreignObject cannot host next/image
-        <img
-          src={event.imageUrl}
-          alt=""
-          className="mt-0.5 h-16 w-16 shrink-0 rounded-md object-contain"
-        />
-      )}
+      <p className="m-0 text-[10px] font-medium tracking-widest uppercase text-white/70">
+        {event.dateLabel}
+      </p>
+      <p className="mt-1.5 text-sm leading-snug font-semibold tracking-tight">
+        <TextWithAbbreviationTooltips text={event.title} interactive />
+      </p>
 
-      <div className="min-w-0 flex-1">
-        <p className="m-0 text-[10px] font-medium tracking-widest uppercase text-white/70">
-          {event.dateLabel}
-        </p>
-        <p className="mt-1.5 text-sm leading-snug font-semibold tracking-tight">
-          <TextWithAbbreviationTooltips text={event.title} interactive />
-        </p>
-        <p className="mt-2.5 text-sm leading-relaxed text-white/90">
+      <div className="mt-2.5 flex flex-row items-start gap-4">
+        {event.imageUrl && (
+          // eslint-disable-next-line @next/next/no-img-element -- foreignObject cannot host next/image
+          <img
+            src={event.imageUrl}
+            alt=""
+            className="h-16 w-16 shrink-0 rounded-md object-contain"
+          />
+        )}
+
+        <p className="m-0 min-w-0 flex-1 text-sm leading-relaxed text-white/90">
           <TextWithAbbreviationTooltips text={event.summary} interactive />
         </p>
-        <button
-          type="button"
-          className="mt-3 inline-block bg-transparent p-0 text-left text-sm font-medium text-white underline decoration-white/35 underline-offset-4 hover:decoration-white"
-          onClick={(pointerEvent) => {
-            pointerEvent.stopPropagation();
-            onReadMore();
-          }}
-        >
-          Read more
-        </button>
       </div>
+
+      <button
+        type="button"
+        className="mt-3 inline-block bg-transparent p-0 text-left text-sm font-medium text-white underline decoration-white/35 underline-offset-4 hover:decoration-white"
+        onClick={(pointerEvent) => {
+          pointerEvent.stopPropagation();
+          onReadMore();
+        }}
+      >
+        Read more
+      </button>
     </div>
   );
 }
@@ -170,7 +173,8 @@ export function TimelineNodeLabel({
   viewportWidth,
   isHovered,
   expanded = false,
-  onHover,
+  onHoverEnter,
+  onHoverLeave,
   onClick,
 }: TimelineNodeLabelProps) {
   const x = xScale(event.timestamp) + axisOffset;
@@ -188,15 +192,24 @@ export function TimelineNodeLabel({
       return;
     }
 
-    setMeasuredContentHeight(measureRef.current.scrollHeight);
+    const element = measureRef.current;
+    const updateHeight = () => {
+      setMeasuredContentHeight(element.scrollHeight);
+    };
+
+    updateHeight();
+
+    const observer = new ResizeObserver(updateHeight);
+    observer.observe(element);
+
+    return () => observer.disconnect();
   }, [showExpanded, targetWidth, event.id, event.summary, event.title, event.imageUrl]);
 
   const uncappedTargetHeight = Math.max(
     LABEL_BOX_HEIGHT + 28,
-    measuredContentHeight + BUBBLE_PADDING_TOP + BUBBLE_PADDING_BOTTOM,
+    measuredContentHeight + BUBBLE_MEASURE_SLACK,
   );
   const targetHeight = clampExpandedBubbleHeight(anchorBottom, uncappedTargetHeight);
-  const isHeightClamped = targetHeight < uncappedTargetHeight - 0.5;
   const animationOpen = showExpanded && measuredContentHeight > 0;
   const { width: boxWidth, height: boxHeight, reveal } = useAnimatedBubbleSize(
     animationOpen,
@@ -214,9 +227,9 @@ export function TimelineNodeLabel({
         className="cursor-pointer outline-none"
         transform={`translate(${boxLeft}, ${collapsedTop})`}
         onClick={onClick}
-        onPointerEnter={() => onHover(event)}
-        onPointerLeave={() => onHover(null)}
-        onFocus={() => onHover(event)}
+        onPointerEnter={() => onHoverEnter(event)}
+        onPointerLeave={() => onHoverLeave(event)}
+        onFocus={() => onHoverEnter(event)}
         tabIndex={0}
         role="button"
         aria-label={`${event.title}, ${event.dateLabel}`}
@@ -268,14 +281,33 @@ export function TimelineNodeLabel({
   const showDetail = reveal > 0.2;
   const showCollapsedTitle = reveal < 0.85;
 
+  const bubbleForeignObject = (
+    <foreignObject
+      x={0}
+      y={0}
+      width={boxWidth}
+      height={boxHeight}
+      className={cn(!showDetail && "pointer-events-none opacity-0")}
+      style={{ opacity: reveal }}
+    >
+      <div
+        xmlns="http://www.w3.org/1999/xhtml"
+        className="box-border overflow-x-hidden overflow-y-auto"
+        style={{ height: boxHeight, width: boxWidth }}
+      >
+        <ExpandedBubbleBody event={event} onReadMore={onClick} />
+      </div>
+    </foreignObject>
+  );
+
   return (
     <g
       className="cursor-pointer outline-none"
       transform={`translate(${anchorX}, ${anchorBottom})`}
       onClick={onClick}
-      onPointerEnter={() => onHover(event)}
-      onPointerLeave={() => onHover(null)}
-      onFocus={() => onHover(event)}
+      onPointerEnter={() => onHoverEnter(event)}
+      onPointerLeave={() => onHoverLeave(event)}
+      onFocus={() => onHoverEnter(event)}
       tabIndex={0}
       role="button"
       aria-label={`${event.title}, ${event.dateLabel}`}
@@ -289,12 +321,8 @@ export function TimelineNodeLabel({
           className="pointer-events-none opacity-0"
           aria-hidden
         >
-          <div ref={measureRef} style={{ width: targetWidth }}>
-            <ExpandedBubbleBody
-              event={event}
-              scrollable={isHeightClamped}
-              onReadMore={onClick}
-            />
+          <div style={{ width: targetWidth }}>
+            <ExpandedBubbleBody event={event} onReadMore={onClick} measureRef={measureRef} />
           </div>
         </foreignObject>
       )}
@@ -308,20 +336,7 @@ export function TimelineNodeLabel({
           className="fill-black stroke-black stroke-1"
         />
 
-        <foreignObject
-          x={0}
-          y={0}
-          width={boxWidth}
-          height={boxHeight}
-          className={cn(!showDetail && "pointer-events-none opacity-0")}
-          style={{ opacity: reveal }}
-        >
-          <ExpandedBubbleBody
-            event={event}
-            scrollable={isHeightClamped}
-            onReadMore={onClick}
-          />
-        </foreignObject>
+        {bubbleForeignObject}
 
         {showCollapsedTitle && (
           <TimelineLabelContent

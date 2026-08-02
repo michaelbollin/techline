@@ -4,6 +4,11 @@ import { desktopDotRadius, desktopHitRadius } from "@/lib/timeline/dot-metrics";
 import { visualImportanceTier } from "@/lib/timeline/importance";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
+export type TimelineNodeHoverHandlers = {
+  onHoverEnter: (event: PlottedEvent) => void;
+  onHoverLeave: (event: PlottedEvent) => void;
+};
+
 type TimelineNodeDotProps = {
   event: PlottedEvent;
   xScale: (timestamp: number) => number;
@@ -11,7 +16,8 @@ type TimelineNodeDotProps = {
   getAxisY: (x: number) => number;
   showLabel: boolean;
   isHovered: boolean;
-  onHover: (event: PlottedEvent | null) => void;
+  onHoverEnter: (event: PlottedEvent) => void;
+  onHoverLeave: (event: PlottedEvent) => void;
   onClick: () => void;
 };
 
@@ -25,7 +31,8 @@ export function TimelineNodeDot({
   getAxisY,
   showLabel,
   isHovered,
-  onHover,
+  onHoverEnter,
+  onHoverLeave,
   onClick,
 }: TimelineNodeDotProps) {
   const x = xScale(event.timestamp) + axisOffset;
@@ -43,15 +50,27 @@ export function TimelineNodeDot({
         r={hitR}
         fill="transparent"
         onClick={onClick}
-        onPointerEnter={() => onHover(event)}
-        onPointerLeave={() => onHover(null)}
-        onFocus={() => onHover(event)}
+        onPointerEnter={() => onHoverEnter(event)}
+        onPointerLeave={() => onHoverLeave(event)}
+        onFocus={() => onHoverEnter(event)}
         tabIndex={0}
         role="button"
         aria-label={`${event.title}, ${event.dateLabel}`}
       />
+      {isHovered && (
+        <circle
+          className="animate-timeline-dot-pulse"
+          cx={0}
+          cy={0}
+          r={dotR}
+          fill="none"
+          stroke={TIMELINE_INK}
+          strokeWidth={tier === 0 ? 1.5 : 1.25}
+          pointerEvents="none"
+        />
+      )}
       <circle
-        className={cn(dotTransition, isHovered && "scale-[1.2]")}
+        className={cn(dotTransition, isHovered && "origin-center scale-[1.2] [transform-box:fill-box]")}
         cx={0}
         cy={0}
         r={dotR}

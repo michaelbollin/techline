@@ -13,7 +13,8 @@ type TimelineNodeStemHitProps = {
   getAxisY: (x: number) => number;
   layout: LabelLayout;
   stemStartY: number;
-  onHover: (event: PlottedEvent | null) => void;
+  onHoverEnter: (event: PlottedEvent) => void;
+  onHoverLeave: (event: PlottedEvent) => void;
 };
 
 /** Invisible wide stem column so pointer can travel from dot to expanded bubble. */
@@ -24,7 +25,8 @@ export function TimelineNodeStemHit({
   getAxisY,
   layout,
   stemStartY,
-  onHover,
+  onHoverEnter,
+  onHoverLeave,
 }: TimelineNodeStemHitProps) {
   const x = xScale(event.timestamp) + axisOffset;
   const axisY = getAxisY(x);
@@ -41,8 +43,8 @@ export function TimelineNodeStemHit({
       stroke="transparent"
       strokeWidth={STEM_HIT_STROKE_WIDTH}
       style={{ pointerEvents: "stroke" }}
-      onPointerEnter={() => onHover(event)}
-      onPointerLeave={() => onHover(null)}
+      onPointerEnter={() => onHoverEnter(event)}
+      onPointerLeave={() => onHoverLeave(event)}
       aria-hidden
     />
   );

@@ -11,7 +11,7 @@ import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
 import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
-import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_HOVER_CLEAR_DELAY_MS, TIMELINE_INK } from "@/lib/timeline/constants";
+import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_INK } from "@/lib/timeline/constants";
 import {
   TIMELINE_USE_HOVER_DETAIL_PANEL,
   timelineEventDetailLayout,
@@ -19,6 +19,7 @@ import {
 import { buildAxisPath } from "@/lib/timeline/axis-path";
 import { eventPath } from "@/lib/timeline/format";
 import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
+import { useTimelineNodeHover } from "@/lib/timeline/timeline-node-hover";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
@@ -59,9 +60,22 @@ export function ModernTimeline({
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const { fulltextQuery, setFulltextQuery, clearFulltext } = useTimelineFulltext();
   const { filtersOpen, setFiltersOpen } = useTimelineChrome();
-  const [hovered, setHovered] = useState<PlottedEvent | null>(null);
   const [detailFits, setDetailFits] = useState<boolean | null>(null);
   const [chartReady, setChartReady] = useState(false);
+
+  const handleHoverIdChange = useCallback(() => {
+    if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
+      setDetailFits(null);
+    }
+  }, []);
+
+  const {
+    hovered,
+    handleHoverEnter,
+    handleHoverLeave,
+    clearHoverImmediate,
+    cancelScheduledHoverClear,
+  } = useTimelineNodeHover({ onHoverIdChange: handleHoverIdChange });
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => setChartReady(true));
@@ -159,55 +173,6 @@ export function ModernTimeline({
     TIMELINE_USE_HOVER_DETAIL_PANEL && shouldMeasureDetail && detailFits !== false;
   const useExpandedLabel = Boolean(displayedHovered && !showDetailPanel);
 
-  const hoveredIdRef = useRef<string | null>(null);
-  const clearHoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  const cancelScheduledHoverClear = useCallback(() => {
-    if (clearHoverTimeoutRef.current !== null) {
-      clearTimeout(clearHoverTimeoutRef.current);
-      clearHoverTimeoutRef.current = null;
-    }
-  }, []);
-
-  const clearHoverImmediate = useCallback(() => {
-    cancelScheduledHoverClear();
-    if (hoveredIdRef.current !== null) {
-      hoveredIdRef.current = null;
-      if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
-        setDetailFits(null);
-      }
-    }
-    setHovered(null);
-  }, [cancelScheduledHoverClear]);
-
-  const handleHover = useCallback(
-    (event: PlottedEvent | null) => {
-      cancelScheduledHoverClear();
-
-      if (event) {
-        const nextId = event.id;
-        if (hoveredIdRef.current !== nextId) {
-          hoveredIdRef.current = nextId;
-          if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
-            setDetailFits(null);
-          }
-        }
-        setHovered(event);
-        return;
-      }
-
-      clearHoverTimeoutRef.current = setTimeout(() => {
-        clearHoverTimeoutRef.current = null;
-        hoveredIdRef.current = null;
-        if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
-          setDetailFits(null);
-        }
-        setHovered(null);
-      }, TIMELINE_HOVER_CLEAR_DELAY_MS);
-    },
-    [cancelScheduledHoverClear],
-  );
-
   useEffect(() => {
     return () => cancelScheduledHoverClear();
   }, [cancelScheduledHoverClear]);
@@ -249,6 +214,9 @@ export function ModernTimeline({
       width: measureTimelineLabelWidth(displayedHovered.bubbleTitle),
     };
   }, [displayedHovered, labelLayout, useExpandedLabel]);
+
+  const showExpandedLayer = Boolean(useExpandedLabel && displayedHovered);
+  const activeHoveredId = displayedHovered?.id ?? null;
 
   useEffect(() => {
     setHoveredEventId(displayedHovered?.id ?? null);
@@ -336,21 +304,13 @@ export function ModernTimeline({
                     })}
                   </g>
 
-                  {displayedHovered && hoveredStemLayout && (
-                    <TimelineNodeStemHit
-                      event={displayedHovered}
-                      xScale={xScale}
-                      axisOffset={dotLayout.get(displayedHovered.id)?.axisOffset ?? 0}
-                      getAxisY={getAxisY}
-                      layout={hoveredStemLayout}
-                      stemStartY={stemStartY.get(displayedHovered.id) ?? 0}
-                      onHover={handleHover}
-                    />
-                  )}
-
                   <g className="timeline-dots">
                     {plotted.map((event) => {
                       if (!dotLayout.get(event.id)?.showDot) {
+                        return null;
+                      }
+
+                      if (showExpandedLayer && event.id === activeHoveredId) {
                         return null;
                       }
 
@@ -363,7 +323,8 @@ export function ModernTimeline({
                           getAxisY={getAxisY}
                           showLabel={labelLayout.get(event.id)?.showLabel ?? false}
                           isHovered={hovered?.id === event.id}
-                          onHover={handleHover}
+                          onHoverEnter={handleHoverEnter}
+                          onHoverLeave={handleHoverLeave}
                           onClick={() => openEvent(event)}
                         />
                       );
@@ -371,21 +332,84 @@ export function ModernTimeline({
                   </g>
 
                   <g className="timeline-labels">
-                    {labelNodes.map((event) => (
-                      <TimelineNodeLabel
-                        key={`label-${event.id}`}
-                        event={event}
+                    {labelNodes.map((event) => {
+                      if (showExpandedLayer && event.id === activeHoveredId) {
+                        return null;
+                      }
+
+                      return (
+                        <TimelineNodeLabel
+                          key={`label-${event.id}`}
+                          event={event}
+                          xScale={xScale}
+                          axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
+                          getAxisY={getAxisY}
+                          layout={labelLayout.get(event.id)!}
+                          viewportWidth={width}
+                          isHovered={hovered?.id === event.id}
+                          expanded={useExpandedLabel && hovered?.id === event.id}
+                          onHoverEnter={handleHoverEnter}
+                          onHoverLeave={handleHoverLeave}
+                          onClick={() => openEvent(event)}
+                        />
+                      );
+                    })}
+                  </g>
+
+                  {showExpandedLayer && displayedHovered && hoveredStemLayout && (
+                    <TimelineNodeStemHit
+                      event={displayedHovered}
+                      xScale={xScale}
+                      axisOffset={dotLayout.get(displayedHovered.id)?.axisOffset ?? 0}
+                      getAxisY={getAxisY}
+                      layout={hoveredStemLayout}
+                      stemStartY={stemStartY.get(displayedHovered.id) ?? 0}
+                      onHoverEnter={handleHoverEnter}
+                      onHoverLeave={handleHoverLeave}
+                    />
+                  )}
+
+                  {showExpandedLayer && displayedHovered && dotLayout.get(displayedHovered.id)?.showDot && (
+                    <g className="timeline-dots-active">
+                      <TimelineNodeDot
+                        key={`dot-active-${displayedHovered.id}`}
+                        event={displayedHovered}
                         xScale={xScale}
-                        axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
+                        axisOffset={dotLayout.get(displayedHovered.id)?.axisOffset ?? 0}
                         getAxisY={getAxisY}
-                        layout={labelLayout.get(event.id)!}
-                        viewportWidth={width}
-                        isHovered={hovered?.id === event.id}
-                        expanded={useExpandedLabel && hovered?.id === event.id}
-                        onHover={handleHover}
-                        onClick={() => openEvent(event)}
+                        showLabel={labelLayout.get(displayedHovered.id)?.showLabel ?? false}
+                        isHovered
+                        onHoverEnter={handleHoverEnter}
+                        onHoverLeave={handleHoverLeave}
+                        onClick={() => openEvent(displayedHovered)}
                       />
-                    ))}
+                    </g>
+                  )}
+
+                  <g className="timeline-labels-active">
+                    {showExpandedLayer &&
+                      labelNodes.map((event) => {
+                        if (event.id !== activeHoveredId) {
+                          return null;
+                        }
+
+                        return (
+                          <TimelineNodeLabel
+                            key={`label-active-${event.id}`}
+                            event={event}
+                            xScale={xScale}
+                            axisOffset={dotLayout.get(event.id)?.axisOffset ?? 0}
+                            getAxisY={getAxisY}
+                            layout={labelLayout.get(event.id)!}
+                            viewportWidth={width}
+                            isHovered
+                            expanded
+                            onHoverEnter={handleHoverEnter}
+                            onHoverLeave={handleHoverLeave}
+                            onClick={() => openEvent(event)}
+                          />
+                        );
+                      })}
                     {hoverOnlyLabel && (
                       <TimelineNodeLabel
                         key={`label-hover-${hoverOnlyLabel.id}`}
@@ -401,7 +425,8 @@ export function ModernTimeline({
                         viewportWidth={width}
                         isHovered
                         expanded
-                        onHover={handleHover}
+                        onHoverEnter={handleHoverEnter}
+                        onHoverLeave={handleHoverLeave}
                         onClick={() => openEvent(hoverOnlyLabel)}
                       />
                     )}

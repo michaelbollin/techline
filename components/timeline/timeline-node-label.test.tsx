@@ -25,7 +25,8 @@ describe("TimelineNodeLabel", () => {
           layout={layout}
           viewportWidth={1200}
           isHovered={false}
-          onHover={() => {}}
+          onHoverEnter={() => {}}
+          onHoverLeave={() => {}}
           onClick={onClick}
         />
       </svg>,
@@ -46,7 +47,8 @@ describe("TimelineNodeLabel", () => {
           layout={layout}
           viewportWidth={1200}
           isHovered
-          onHover={() => {}}
+          onHoverEnter={() => {}}
+          onHoverLeave={() => {}}
           onClick={() => {}}
         />
       </svg>,
@@ -66,7 +68,8 @@ describe("TimelineNodeLabel", () => {
           viewportWidth={1200}
           isHovered
           expanded
-          onHover={() => {}}
+          onHoverEnter={() => {}}
+          onHoverLeave={() => {}}
           onClick={() => {}}
         />
       </svg>,
@@ -91,7 +94,8 @@ describe("TimelineNodeLabel", () => {
           viewportWidth={1200}
           isHovered
           expanded
-          onHover={() => {}}
+          onHoverEnter={() => {}}
+          onHoverLeave={() => {}}
           onClick={onClick}
         />
       </svg>,
@@ -101,9 +105,10 @@ describe("TimelineNodeLabel", () => {
     expect(onClick).toHaveBeenCalledTimes(1);
   });
 
-  it("clears hover when pointer leaves expanded bubble", async () => {
+  it("signals hover leave when pointer leaves expanded bubble", async () => {
     const user = userEvent.setup();
-    const onHover = vi.fn();
+    const onHoverEnter = vi.fn();
+    const onHoverLeave = vi.fn();
 
     render(
       <svg>
@@ -115,7 +120,8 @@ describe("TimelineNodeLabel", () => {
           viewportWidth={1200}
           isHovered
           expanded
-          onHover={onHover}
+          onHoverEnter={onHoverEnter}
+          onHoverLeave={onHoverLeave}
           onClick={() => {}}
         />
       </svg>,
@@ -123,9 +129,9 @@ describe("TimelineNodeLabel", () => {
 
     const label = screen.getByRole("button", { name: "Python 2.0, October 16, 2000" });
     await user.hover(label);
-    expect(onHover).toHaveBeenCalledWith(event);
+    expect(onHoverEnter).toHaveBeenCalledWith(event);
 
     await user.unhover(label);
-    expect(onHover).toHaveBeenCalledWith(null);
+    expect(onHoverLeave).toHaveBeenCalledWith(event);
   });
 });

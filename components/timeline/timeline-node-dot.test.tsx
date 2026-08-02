@@ -13,7 +13,8 @@ describe("TimelineNodeDot", () => {
 
   it("exposes accessible label and handles interaction", async () => {
     const user = userEvent.setup();
-    const onHover = vi.fn();
+    const onHoverEnter = vi.fn();
+    const onHoverLeave = vi.fn();
     const onClick = vi.fn();
 
     render(
@@ -24,7 +25,8 @@ describe("TimelineNodeDot", () => {
           getAxisY={getAxisY}
           showLabel={false}
           isHovered={false}
-          onHover={onHover}
+          onHoverEnter={onHoverEnter}
+          onHoverLeave={onHoverLeave}
           onClick={onClick}
         />
       </svg>,
@@ -35,6 +37,25 @@ describe("TimelineNodeDot", () => {
     await user.hover(button);
 
     expect(onClick).toHaveBeenCalledTimes(1);
-    expect(onHover).toHaveBeenCalledWith(event);
+    expect(onHoverEnter).toHaveBeenCalledWith(event);
+  });
+
+  it("shows a pulse ring while hovered", () => {
+    const { container } = render(
+      <svg>
+        <TimelineNodeDot
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          showLabel={false}
+          isHovered
+          onHoverEnter={() => {}}
+          onHoverLeave={() => {}}
+          onClick={() => {}}
+        />
+      </svg>,
+    );
+
+    expect(container.querySelector(".animate-timeline-dot-pulse")).toBeTruthy();
   });
 });
