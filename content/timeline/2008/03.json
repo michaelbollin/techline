@@ -139,6 +139,11 @@
       "importance": 6,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=9-F139UX94A&t=3399",
+          "title": "Guy Kawasaki and Steve Ballmer at MIX08 (March 6, 2008)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/ballmer-web-developers-chant.jpg",
           "title": "Steve Ballmer",

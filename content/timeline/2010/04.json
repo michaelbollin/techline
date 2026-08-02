@@ -263,6 +263,11 @@
       "slug": "jobs-flash-closed-system",
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=aSkaVyWaGeA",
+          "title": "Bloomberg — Steve Jobs on Adobe Flash and mobile"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/jobs-flash-closed-system.jpg",
           "title": "Steve Jobs",

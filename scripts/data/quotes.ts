@@ -780,6 +780,13 @@ export const QUOTES: TimelineEvent[] = [
       },
     ],
     relatedIds: [],
+    media: [
+      {
+        type: "youtube",
+        url: "https://www.youtube.com/watch?v=aSkaVyWaGeA",
+        title: "Bloomberg — Steve Jobs on Adobe Flash and mobile",
+      },
+    ],
   }),
   q({
     id: "musk-openai-more-open",
@@ -835,8 +842,8 @@ export const QUOTES: TimelineEvent[] = [
     media: [
       {
         type: "youtube",
-        url: "https://www.youtube.com/watch?v=fP5YdyjTfG0",
-        title: "Altman: AI can go quite wrong",
+        url: "https://www.youtube.com/watch?v=fP5YdyjTfG0&t=2709",
+        title: "CNBC — OpenAI CEO Sam Altman Senate AI oversight testimony (May 16, 2023)",
       },
     ],
     sources: [
@@ -1046,8 +1053,8 @@ export const QUOTES: TimelineEvent[] = [
     media: [
       {
         type: "youtube",
-        url: "https://www.youtube.com/watch?v=8pdkEJ0nFBg",
-        title: "Ballmer: \"Web developers!\" chant",
+        url: "https://www.youtube.com/watch?v=9-F139UX94A&t=3399",
+        title: "Guy Kawasaki and Steve Ballmer at MIX08 (March 6, 2008)",
       },
     ],
     sources: [

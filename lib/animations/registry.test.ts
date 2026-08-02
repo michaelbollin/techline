@@ -47,6 +47,13 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("jack-kilby-integrated-circuit")).toBe("integrated-circuit");
   });
 
+  it("returns quote clip animations for quote events with video backgrounds", () => {
+    expect(getAnimationIdForEvent("ballmer-web-developers-chant")).toBe("ballmer-web-developers");
+    expect(getAnimationIdForEvent("altman-ai-goes-wrong")).toBe("altman-senate");
+    expect(getAnimationIdForEvent("jobs-flash-closed-system")).toBe("jobs-flash");
+    expect(getAnimationIdForEvent("ballmer-linux-cancer")).toBe("ballmer-linux-cancer");
+  });
+
   it("returns null for events without an animation", () => {
     expect(getAnimationIdForEvent("javascript-released")).toBeNull();
   });

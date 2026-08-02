@@ -191,6 +191,11 @@
       "importance": 3,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=fP5YdyjTfG0&t=2709",
+          "title": "CNBC — OpenAI CEO Sam Altman Senate AI oversight testimony (May 16, 2023)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/altman-ai-goes-wrong.jpg",
           "title": "Sam Altman",

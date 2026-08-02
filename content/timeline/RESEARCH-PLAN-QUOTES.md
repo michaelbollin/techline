@@ -100,9 +100,10 @@ npm run validate
 | Event id | Video |
 |----------|-------|
 | `ballmer-developers-chant` | [Developers chant (.NET presentation)](https://www.youtube.com/watch?v=XxbJw8PrIkc) |
-| `ballmer-web-developers-chant` | [Web developers chant (MIX08)](https://www.youtube.com/watch?v=8pdkEJ0nFBg) |
+| `ballmer-web-developers-chant` | [Guy Kawasaki and Steve Ballmer at MIX08](https://www.youtube.com/watch?v=9-F139UX94A&t=3399) |
 | `gates-internet-tidal-wave-memo` | [Gates explains the Internet to Letterman (1995)](https://www.youtube.com/watch?v=fs-YpQj88ew) |
-| `altman-ai-goes-wrong` | [Senate AI oversight hearing](https://www.youtube.com/watch?v=fP5YdyjTfG0) |
+| `altman-ai-goes-wrong` | [CNBC — Senate AI oversight hearing](https://www.youtube.com/watch?v=fP5YdyjTfG0&t=2709) |
+| `jobs-flash-closed-system` | [Bloomberg — Jobs on Adobe Flash](https://www.youtube.com/watch?v=aSkaVyWaGeA) |
 
 ---
 

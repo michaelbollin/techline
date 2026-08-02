@@ -83,10 +83,7 @@ export function EventModal({
       )}
 
       <div
-        className={cn(
-          "relative z-[2] flex h-[60dvh] max-h-[60dvh] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black sm:h-auto sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl",
-          animationId ? "bg-white/90" : "bg-white",
-        )}
+        className="relative z-[2] flex h-[60dvh] max-h-[60dvh] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black bg-white sm:h-auto sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl"
       >
         <div className="flex shrink-0 justify-end px-4 pt-4">
           <Button variant="icon" aria-label="Close" onClick={onClose}>

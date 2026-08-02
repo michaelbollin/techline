@@ -1,5 +1,9 @@
 "use client";
 
+import {
+  getQuoteClipConfig,
+  isQuoteClipAnimationId,
+} from "@/lib/animations/quote-clip";
 import type { AnimationId } from "@/lib/animations/registry";
 
 import { BallmerDevelopersAnimation } from "./ballmer-developers";
@@ -12,6 +16,7 @@ import { LinuxKernelAnimation } from "./linux-kernel";
 import { QuicksortAnimation } from "./quicksort";
 import { TransistorAnimation } from "./transistor";
 import { WorldWideWebAnimation } from "./world-wide-web";
+import { QuoteClipAnimation } from "./quote-clip";
 import { Y2kRolloverAnimation } from "./y2k-rollover";
 
 type RenderAnimationProps = {
@@ -20,6 +25,15 @@ type RenderAnimationProps = {
 };
 
 export function RenderAnimation({ animationId, className }: RenderAnimationProps) {
+  if (isQuoteClipAnimationId(animationId)) {
+    return (
+      <QuoteClipAnimation
+        config={getQuoteClipConfig(animationId)}
+        className={className}
+      />
+    );
+  }
+
   switch (animationId) {
     case "cd-rom":
       return <CdRomAnimation className={className} />;

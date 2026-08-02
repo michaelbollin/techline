@@ -19,7 +19,8 @@ describe("EventModal", () => {
     );
 
     expect(container.querySelector(".cd-rom-prismatic-sweep, canvas")).toBeTruthy();
-    expect(container.querySelector(".bg-white\\/90")).toBeTruthy();
+    expect(container.querySelector(".bg-white\\/90")).toBeNull();
+    expect(container.querySelector(".bg-white")).toBeTruthy();
   });
 
   it("uses a solid white panel when no animation is active", () => {
