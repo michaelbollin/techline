@@ -150,7 +150,7 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
         );
 
       wiresGroup.attr("opacity", 1);
-      wiresGroup.selectAll("g").each(function resetWireGroup() {
+      wiresGroup.selectAll<SVGGElement, unknown>("g").each(function resetWireGroup(this: SVGGElement) {
         const wireId = this.getAttribute("class")?.replace("wire-", "") ?? "";
         const wire = orderedWires.find((item) => item.id === wireId);
         if (!wire) {

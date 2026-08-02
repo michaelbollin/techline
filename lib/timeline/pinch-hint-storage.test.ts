@@ -8,13 +8,13 @@ import {
 
 describe("pinch-hint-storage", () => {
   beforeEach(() => {
+    const store: Record<string, string> = {};
     vi.stubGlobal("localStorage", {
-      store: {} as Record<string, string>,
       getItem(key: string) {
-        return this.store[key] ?? null;
+        return store[key] ?? null;
       },
       setItem(key: string, value: string) {
-        this.store[key] = value;
+        store[key] = value;
       },
     });
   });
