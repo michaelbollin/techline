@@ -291,7 +291,6 @@ export function TimelineNodeLabel({
       style={{ opacity: reveal }}
     >
       <div
-        xmlns="http://www.w3.org/1999/xhtml"
         className="box-border overflow-x-hidden overflow-y-auto"
         style={{ height: boxHeight, width: boxWidth }}
       >
