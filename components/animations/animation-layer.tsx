@@ -60,7 +60,7 @@ export function AnimationLayer({
       )}
       aria-hidden
     >
-      <RenderAnimation animationId={visibleAnimationId} />
+      <RenderAnimation key={visibleAnimationId} animationId={visibleAnimationId} />
     </div>
   );
 }

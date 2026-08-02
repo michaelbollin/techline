@@ -15,6 +15,9 @@ export const EVENT_ANIMATION_IDS = {
   "linux-kernel-announced": "linux-kernel",
   "ibm-pc-5150-released": "ibm-pc-5150",
   "jack-kilby-integrated-circuit": "integrated-circuit",
+  "gpt-3-api-released": "gpt-3-api",
+  "arpanet-first-message": "arpanet",
+  "tcp-ip-flag-day": "tcp-ip",
   "altman-ai-goes-wrong": "altman-senate",
   "jobs-flash-closed-system": "jobs-flash",
 } as const;

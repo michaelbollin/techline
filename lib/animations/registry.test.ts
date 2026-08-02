@@ -47,6 +47,15 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("jack-kilby-integrated-circuit")).toBe("integrated-circuit");
   });
 
+  it("returns the GPT-3 API animation for the first GPT API release", () => {
+    expect(getAnimationIdForEvent("gpt-3-api-released")).toBe("gpt-3-api");
+  });
+
+  it("returns packet-network animations for ARPANET and TCP/IP milestones", () => {
+    expect(getAnimationIdForEvent("arpanet-first-message")).toBe("arpanet");
+    expect(getAnimationIdForEvent("tcp-ip-flag-day")).toBe("tcp-ip");
+  });
+
   it("returns quote clip animations for quote events with video backgrounds", () => {
     expect(getAnimationIdForEvent("ballmer-web-developers-chant")).toBe("ballmer-web-developers");
     expect(getAnimationIdForEvent("altman-ai-goes-wrong")).toBe("altman-senate");
