@@ -21,12 +21,7 @@
         "standards"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        }
-      ],
+      "companies": [],
       "importance": 5,
       "media": [
         {
@@ -78,6 +73,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"

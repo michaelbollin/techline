@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 
+import { VideoLoop } from "@/components/animations/video-loop";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import {
   BALLMER_DEVELOPERS_POSTER_SRC,
@@ -32,15 +33,7 @@ export function BallmerDevelopersAnimation({ className }: BallmerDevelopersAnima
 
   return (
     <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
-      <video
-        src={BALLMER_DEVELOPERS_VIDEO_SRC}
-        autoPlay
-        loop
-        muted
-        playsInline
-        poster={BALLMER_DEVELOPERS_POSTER_SRC}
-        className="h-full w-full object-cover opacity-80"
-      />
+      <VideoLoop src={BALLMER_DEVELOPERS_VIDEO_SRC} poster={BALLMER_DEVELOPERS_POSTER_SRC} />
     </div>
   );
 }

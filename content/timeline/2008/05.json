@@ -2,10 +2,10 @@
   "events": [
     {
       "id": "crockford-javascript-good-parts",
+      "slug": "crockford-javascript-good-parts",
       "date": "2008-05",
       "datePrecision": "month",
       "title": "JavaScript: The Good Parts",
-      "quoteText": "JavaScript: The Good Parts.",
       "summary": "Douglas Crockford's book title became a rallying cry — use the small subset of JavaScript that is reliable and ignore the rest.",
       "about": "In 2008 many teams treated JS as a toy language. Crockford argued you could write serious software by deliberately avoiding the bad parts — influencing lint rules, style guides, and later [TypeScript]'s stricter subsets.",
       "narrative": {
@@ -13,6 +13,7 @@
         "whyImportant": "It gave teams permission to subset the language instead of using all of it.",
         "problemSolved": "Developers lacked a shared guide for which JS features were safe in production."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "insight",
@@ -26,7 +27,17 @@
           "role": "author"
         }
       ],
+      "companies": [],
+      "quoteText": "JavaScript: The Good Parts.",
       "importance": 6,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/crockford-javascript-good-parts.jpg",
+          "title": "Douglas Crockford",
+          "caption": "Robert Claypool, CC0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "O'Reilly — JavaScript: The Good Parts (May 2008)",
@@ -42,18 +53,7 @@
       "relatedIds": [
         "douglas-crockford-json-spec",
         "javascript-name-announced"
-      ],
-      "slug": "crockford-javascript-good-parts",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/crockford-javascript-good-parts.jpg",
-          "title": "Douglas Crockford",
-          "caption": "Robert Claypool, CC0, via Wikimedia Commons"
-        }
-      ],
-      "companies": [],
-      "category": "quote"
+      ]
     },
     {
       "id": "google-app-engine-open-signups",
@@ -77,12 +77,7 @@
         "web"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        }
-      ],
+      "companies": [],
       "importance": 5,
       "media": [
         {

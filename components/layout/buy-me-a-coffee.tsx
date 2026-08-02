@@ -10,14 +10,36 @@ const BMC_SRC = "https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js";
 const BMC_SCRIPT_SELECTOR = 'script[data-name="BMC-Widget"]';
 
 let bmcLoadStarted = false;
+let bmcInitRetried = false;
+
+function waitForBmcWidget(deadlineMs = 3000) {
+  const started = Date.now();
+
+  const poll = () => {
+    if (document.getElementById("bmc-wbtn")) {
+      return;
+    }
+
+    if (Date.now() - started >= deadlineMs) {
+      if (!bmcInitRetried && document.readyState !== "loading") {
+        bmcInitRetried = true;
+        document.dispatchEvent(new Event("DOMContentLoaded"));
+      }
+      return;
+    }
+
+    window.requestAnimationFrame(poll);
+  };
+
+  poll();
+}
 
 function triggerBmcInit() {
   if (document.readyState === "loading") {
     return;
   }
 
-  // BMC widget only initializes on DOMContentLoaded; re-dispatch after late script load.
-  window.dispatchEvent(new Event("DOMContentLoaded", { bubbles: true, cancelable: true }));
+  waitForBmcWidget();
 }
 
 /** Loads the BMC overlay widget and keeps its floating button hidden (footer icon opens it). */

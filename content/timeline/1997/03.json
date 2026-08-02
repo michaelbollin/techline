@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "docsis-1-specification-released",
+      "date": "1997-03",
+      "datePrecision": "month",
+      "title": "DOCSIS 1.0 cable modem standard released",
+      "summary": "Cable operators and vendors finalized DOCSIS 1.0 in March 1997 — a common RF interface so cable modems and head-end gear from different vendors interoperate.",
+      "about": "DOCSIS (Data Over Cable Service Interface Specification) let Comcast, Time Warner, and others deploy millions of compatible cable modems instead of proprietary pairs. It is why you can buy a Surfboard or Netgear modem and expect it to work on many cable ISPs — and why developers could count on tens of megabits downstream to homes.",
+      "narrative": {
+        "whyChosen": "DOCSIS standardized the cable modem layer that @Home and regional cable ISPs scaled globally.",
+        "whyImportant": "Interoperable modems turned cable plant into a competitive broadband access market.",
+        "problemSolved": "Early cable internet used incompatible modem/CMTS pairs that blocked mass deployment."
+      },
+      "category": "protocol",
+      "tags": [
+        "protocol",
+        "cable",
+        "broadband",
+        "modem",
+        "standard",
+        "networking"
+      ],
+      "importance": 4,
+      "sources": [
+        {
+          "title": "CableLabs — DOCSIS RF specification finalized (March 16, 1997)",
+          "url": "https://www.cablevision.co.cr/review/1997/0316.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — DOCSIS (overview)",
+          "url": "https://en.wikipedia.org/wiki/DOCSIS",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "at-home-cable-internet-launched"
+      ],
+      "slug": "docsis-1-specification-released",
+      "media": [],
+      "people": [],
+      "companies": []
+    }
+  ]
+}

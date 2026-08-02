@@ -1,4 +1,4 @@
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { filterIdsToPath, parseFilterSegment } from "@/lib/timeline/filter-url";
@@ -33,6 +33,7 @@ function resolveFilterUpdater(prev: Set<string>, updater: FilterUpdater): Set<st
 
 export function useTimelineFilters(filterPathKey: string) {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const deferUrlSyncRef = useRef(false);
   const pendingPathRef = useRef<string | null>(null);
   const [activeFilterIds, setActiveFilterIds] = useState<Set<string>>(() =>
@@ -69,15 +70,17 @@ export function useTimelineFilters(filterPathKey: string) {
       setActiveFilterIds((prev) => {
         const next = resolveFilterUpdater(prev, updater);
         const path = filterIdsToPath(next);
+        const qs = searchParams.toString();
+        const url = qs ? `${path}?${qs}` : path;
         if (deferUrlSyncRef.current) {
-          pendingPathRef.current = path;
+          pendingPathRef.current = url;
         } else {
-          router.replace(path, { scroll: false });
+          router.replace(url, { scroll: false });
         }
         return next;
       });
     },
-    [router],
+    [router, searchParams],
   );
 
   return { activeFilterIds, updateFilters, setDeferUrlSync };

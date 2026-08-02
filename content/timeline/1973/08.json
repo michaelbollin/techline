@@ -21,12 +21,7 @@
         "internet"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "ietf",
-          "name": "IETF"
-        }
-      ],
+      "companies": [],
       "importance": 5,
       "media": [],
       "sources": [

@@ -28,4 +28,11 @@ describe("parseTimelineRoute", () => {
       eventSlug: "bittorrent-released",
     });
   });
+
+  it("falls back to raw segment when path decoding fails", () => {
+    expect(parseTimelineRoute("/%E0%A4%A", null, events)).toEqual({
+      filterPathKey: "%E0%A4%A",
+      eventSlug: null,
+    });
+  });
 });

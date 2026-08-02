@@ -76,6 +76,13 @@
         "typescript",
         "open-source"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
       "importance": 7,
       "media": [
         {
@@ -186,6 +193,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"

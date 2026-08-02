@@ -22,6 +22,8 @@
         "cgroups",
         "namespaces"
       ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {
@@ -70,12 +72,7 @@
         "blackberry"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "blackberry",
-          "name": "BlackBerry"
-        }
-      ],
+      "companies": [],
       "importance": 7,
       "media": [
         {

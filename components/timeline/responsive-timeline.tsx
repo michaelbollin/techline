@@ -1,11 +1,12 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import { useSyncExternalStore } from "react";
 
 import { TIMELINE_DESKTOP_MEDIA_QUERY, useMediaQuery } from "@/hooks/use-media-query";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
-import { TimelineChartSkeleton, TimelineLoadingShell } from "./timeline-loading-shell";
+import { TimelineChartSkeleton } from "./timeline-loading-shell";
 
 const ModernTimeline = dynamic(
   () => import("./modern-timeline").then((mod) => ({ default: mod.ModernTimeline })),
@@ -20,14 +21,40 @@ const MobileTimeline = dynamic(
 type ResponsiveTimelineProps = {
   events: TimelineEvent[];
   filterPathKey?: string;
+  keyboardNavEnabled?: boolean;
 };
 
-export function ResponsiveTimeline({ events, filterPathKey = "" }: ResponsiveTimelineProps) {
+export function ResponsiveTimeline({
+  events,
+  filterPathKey = "",
+  keyboardNavEnabled = true,
+}: ResponsiveTimelineProps) {
+  const mounted = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
   const isDesktop = useMediaQuery(TIMELINE_DESKTOP_MEDIA_QUERY);
 
-  if (isDesktop) {
-    return <ModernTimeline events={events} filterPathKey={filterPathKey} />;
+  if (!mounted) {
+    return <TimelineChartSkeleton />;
   }
 
-  return <MobileTimeline events={events} filterPathKey={filterPathKey} />;
+  if (isDesktop) {
+    return (
+      <ModernTimeline
+        events={events}
+        filterPathKey={filterPathKey}
+        keyboardNavEnabled={keyboardNavEnabled}
+      />
+    );
+  }
+
+  return (
+    <MobileTimeline
+      events={events}
+      filterPathKey={filterPathKey}
+      keyboardNavEnabled={keyboardNavEnabled}
+    />
+  );
 }

@@ -76,6 +76,8 @@
         "protocol",
         "publish-subscribe"
       ],
+      "people": [],
+      "companies": [],
       "importance": 4,
       "media": [
         {
@@ -125,12 +127,7 @@
         "security"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
+      "companies": [],
       "importance": 5,
       "media": [
         {

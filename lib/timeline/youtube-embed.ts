@@ -21,6 +21,12 @@ function parseYoutubeStart(value: string): number | null {
   return total > 0 ? total : null;
 }
 
+const YOUTUBE_EMBED_ID_PATTERN = /^[\w-]{11}$/;
+
+function isValidYoutubeEmbedId(embedId: string): boolean {
+  return YOUTUBE_EMBED_ID_PATTERN.test(embedId);
+}
+
 /** Convert a YouTube watch/share URL to an embed URL, or null if unsupported. */
 export function youtubeEmbedUrl(url: string): string | null {
   try {
@@ -34,7 +40,7 @@ export function youtubeEmbedUrl(url: string): string | null {
           ? parsed.searchParams.get("v")
           : null;
 
-    if (!embedId) {
+    if (!embedId || !isValidYoutubeEmbedId(embedId)) {
       return null;
     }
 

@@ -260,12 +260,8 @@
         "python",
         "web"
       ],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 2,
       "media": [
         {

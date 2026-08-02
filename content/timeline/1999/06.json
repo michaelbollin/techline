@@ -25,6 +25,10 @@
         {
           "id": "adobe",
           "name": "Adobe"
+        },
+        {
+          "id": "macromedia",
+          "name": "Macromedia"
         }
       ],
       "importance": 3,
@@ -163,6 +167,50 @@
         "bittorrent-released",
         "itunes-released",
         "dmca-signed"
+      ]
+    },
+    {
+      "id": "adsl-g992-standard-approved",
+      "slug": "adsl-g992-standard-approved",
+      "date": "1999-06-22",
+      "datePrecision": "day",
+      "title": "ITU G.992.1 ADSL standard approved",
+      "summary": "ITU-T approved Recommendation G.992.1 on June 22, 1999 — the asymmetric digital subscriber line (ADSL) transceiver standard for megabit speeds over copper phone pairs.",
+      "about": "ADSL let telcos reuse existing twisted-pair plant to compete with cable — always-on downstream-heavy links for web browsing and early video. G.992.1 (G.dmt) defined how modems split voice and data on one line, enabling mass consumer DSL services and remote work outside cable-franchise cities.",
+      "narrative": {
+        "whyChosen": "G.992.1 standardized the DSL technology that brought broadband to millions of phone-line-only homes.",
+        "whyImportant": "It gave developers a second mass-market always-on access path beside cable DOCSIS.",
+        "problemSolved": "Telephone incumbents needed a standards-based way to offer internet without replacing every copper loop."
+      },
+      "category": "protocol",
+      "tags": [
+        "adsl",
+        "dsl",
+        "broadband",
+        "protocol",
+        "standard",
+        "networking",
+        "telecom"
+      ],
+      "people": [],
+      "companies": [],
+      "importance": 4,
+      "media": [],
+      "sources": [
+        {
+          "title": "ITU-T — Recommendation G.992.1 (approved June 22, 1999)",
+          "url": "https://www.itu.int/rec/T-REC-G.992.1-199907-I",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Asymmetric digital subscriber line (overview)",
+          "url": "https://en.wikipedia.org/wiki/Asymmetric_digital_subscriber_line",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "docsis-1-specification-released",
+        "at-home-cable-internet-launched"
       ]
     }
   ]

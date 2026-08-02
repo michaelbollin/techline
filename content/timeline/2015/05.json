@@ -276,12 +276,8 @@
         "saas",
         "retail"
       ],
-      "companies": [
-        {
-          "id": "shopify",
-          "name": "Shopify"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {
@@ -330,6 +326,13 @@
         "static-site",
         "jamstack",
         "open-source"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
       ],
       "importance": 5,
       "media": [],

@@ -80,6 +80,10 @@
         {
           "id": "jetbrains",
           "name": "JetBrains"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
         }
       ],
       "importance": 4,

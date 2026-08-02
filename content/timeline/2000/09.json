@@ -2,17 +2,18 @@
   "events": [
     {
       "id": "ballmer-developers-chant",
+      "slug": "ballmer-developers-chant",
       "date": "2000-09",
       "datePrecision": "month",
       "title": "Ballmer: \"Developers!\" chant",
-      "quoteText": "Developers! Developers! Developers! Developers!",
-      "summary": "At [Microsoft]'s 25th anniversary event, CEO Steve Ballmer screams the word developers on stage — sweat, volume, and pure hype.",
+      "summary": "At a Microsoft developer event, CEO Steve Ballmer screams the word developers on stage — sweat, volume, and pure hype.",
       "about": "The clip became one of tech's earliest viral videos — parodied, remixed, and cited whenever a platform needs third-party apps. Ballmer later reprised it as 'web developers' in 2008.",
       "narrative": {
         "whyChosen": "Peak CEO energy — a meme before memes had a name.",
         "whyImportant": "It symbolized [Microsoft]'s platform bet on ISVs and the Windows ecosystem.",
         "problemSolved": "[Microsoft] needed to rally partners around building on its stack."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "meme",
@@ -26,19 +27,14 @@
           "role": "ceo"
         }
       ],
-      "importance": 3,
-      "sources": [
+      "companies": [
         {
-          "title": "Know Your Meme — Steve Ballmer Monkey Dance (September 2000 event)",
-          "url": "https://knowyourmeme.com/memes/steve-ballmer-monkey-dance",
-          "role": "date"
-        },
-        {
-          "title": "Barry Popik — Developers, developers, developers (overview)",
-          "url": "https://www.barrypopik.com/blog/developers_developers_developers",
-          "role": "overview"
+          "id": "microsoft",
+          "name": "Microsoft"
         }
       ],
+      "quoteText": "Developers! Developers! Developers! Developers!",
+      "importance": 3,
       "media": [
         {
           "type": "youtube",
@@ -52,12 +48,21 @@
           "caption": "Steve_ballmer_2007_outdoors2.jpg: Martin Olsson (username 'mnemo' on en/sv wikipedia and commons, martin@minimum.se). derivative work: Off2riorob (talk), CC BY-SA 3.0, via Wikimedia Commons"
         }
       ],
+      "sources": [
+        {
+          "title": "Know Your Meme — Steve Ballmer Developers chant (2000)",
+          "url": "https://knowyourmeme.com/memes/steve-ballmer-monkey-dance",
+          "role": "date"
+        },
+        {
+          "title": "Barry Popik — Developers, developers, developers (overview)",
+          "url": "https://www.barrypopik.com/blog/developers_developers_developers",
+          "role": "overview"
+        }
+      ],
       "relatedIds": [
         "steve-ballmer-named-microsoft-ceo"
-      ],
-      "slug": "ballmer-developers-chant",
-      "companies": [],
-      "category": "quote"
+      ]
     }
   ]
 }

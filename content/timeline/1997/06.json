@@ -106,6 +106,49 @@
         "internet-explorer-4-0",
         "mozilla-source-released"
       ]
+    },
+    {
+      "id": "ieee-802-11-wifi-standard-approved",
+      "date": "1997-06-26",
+      "datePrecision": "day",
+      "title": "IEEE 802.11 Wi-Fi standard approved",
+      "summary": "The IEEE Standards Board approved IEEE 802.11-1997 on June 26, 1997 — the first wireless LAN MAC and PHY standard for 2.4 GHz radio LANs.",
+      "about": "802.11 defined how laptops, phones, and access points share airtime without cables — CSMA/CA, association, and wired-equivalent privacy hooks. Wi-Fi Alliance certification followed, and developers built mobile web, home IoT, and coffee-shop coding on cheap radio chips. Office Ethernet remained wired, but Wi-Fi became the default client access layer.",
+      "narrative": {
+        "whyChosen": "802.11 created the interoperable wireless LAN market that every laptop and phone depends on.",
+        "whyImportant": "It untethered computing from desk Ethernet — essential for mobile development and IoT.",
+        "problemSolved": "Portable computers needed LAN speeds without pulling new cable through every wall and ceiling."
+      },
+      "category": "protocol",
+      "tags": [
+        "wifi",
+        "wireless",
+        "protocol",
+        "standard",
+        "networking",
+        "ieee"
+      ],
+      "importance": 2,
+      "sources": [
+        {
+          "title": "IEEE SA — 802.11-1997 (board approval June 26, 1997)",
+          "url": "https://standards.ieee.org/ieee/802.11/1163/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — IEEE 802.11 (overview)",
+          "url": "https://en.wikipedia.org/wiki/IEEE_802.11",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "ethernet-invented",
+        "esp8266-released"
+      ],
+      "slug": "ieee-802-11-wifi-standard-approved",
+      "media": [],
+      "people": [],
+      "companies": []
     }
   ]
 }

@@ -79,6 +79,8 @@
         "static-analysis",
         "open-source"
       ],
+      "people": [],
+      "companies": [],
       "importance": 4,
       "media": [
         {
@@ -127,12 +129,7 @@
         "nokia"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "nokia",
-          "name": "Nokia"
-        }
-      ],
+      "companies": [],
       "importance": 9,
       "media": [
         {

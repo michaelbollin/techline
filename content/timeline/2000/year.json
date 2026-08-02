@@ -22,6 +22,7 @@
         "architecture"
       ],
       "people": [],
+      "companies": [],
       "importance": 2,
       "media": [
         {
@@ -53,24 +54,8 @@
       ]
     },
     {
-      "slug": "fabrice-bellard-ffmpeg-created",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/fabrice-bellard-ffmpeg-created.webp",
-          "title": "FFmpeg",
-          "caption": "Software: FFmpeg and Google LLCScreenshot: VulcanSphere, GPL, via Wikimedia Commons"
-        }
-      ],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "fabrice-bellard",
-          "name": "Fabrice Bellard",
-          "role": "creator"
-        }
-      ],
       "id": "fabrice-bellard-ffmpeg-created",
+      "slug": "fabrice-bellard-ffmpeg-created",
       "date": "2000",
       "datePrecision": "year",
       "title": "Fabrice Bellard creates FFmpeg",
@@ -87,7 +72,23 @@
         "multimedia",
         "open-source"
       ],
+      "people": [
+        {
+          "id": "fabrice-bellard",
+          "name": "Fabrice Bellard",
+          "role": "creator"
+        }
+      ],
+      "companies": [],
       "importance": 4,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fabrice-bellard-ffmpeg-created.webp",
+          "title": "FFmpeg",
+          "caption": "Software: FFmpeg and Google LLCScreenshot: VulcanSphere, GPL, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "FFmpeg — Project history (2000)",
@@ -99,7 +100,8 @@
           "url": "https://en.wikipedia.org/wiki/FFmpeg",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     },
     {
       "id": "jetbrains-founded",
@@ -125,6 +127,10 @@
         {
           "id": "jetbrains",
           "name": "JetBrains"
+        },
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
         }
       ],
       "importance": 5,

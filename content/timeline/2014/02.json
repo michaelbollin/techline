@@ -179,12 +179,8 @@
         "saas",
         "retail"
       ],
-      "companies": [
-        {
-          "id": "shopify",
-          "name": "Shopify"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 6,
       "media": [
         {
@@ -290,12 +286,7 @@
         "remote-work"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "salesforce",
-          "name": "Salesforce"
-        }
-      ],
+      "companies": [],
       "importance": 2,
       "media": [
         {

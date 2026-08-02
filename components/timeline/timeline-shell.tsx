@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useMemo, type CSSProperties } from "react";
+import { useId, useMemo, type CSSProperties } from "react";
 
 import { EventModal } from "@/components/timeline/event-modal";
 import { EventPageContent } from "@/components/timeline/event-page-content";
@@ -52,11 +52,13 @@ export function TimelineShell({ events }: TimelineShellProps) {
   }, [event, events]);
 
   const modalAnimationId = event ? getAnimationIdForEvent(event.id) : null;
+  const modalTitleId = useId();
 
   return (
     <TimelineHoverEffectProvider modalEventId={event?.id ?? null}>
       <div
         className="relative z-10 flex h-[100dvh] flex-col overflow-hidden"
+        inert={event ? true : undefined}
         style={
           {
             "--site-footer-reserved-height": `${SITE_FOOTER_RESERVED_HEIGHT}px`,
@@ -64,19 +66,24 @@ export function TimelineShell({ events }: TimelineShellProps) {
         }
       >
         <div className="min-h-0 flex-1 md:pb-[var(--site-footer-reserved-height)]">
-          <ResponsiveTimeline events={events} filterPathKey={route.filterPathKey} />
+          <ResponsiveTimeline
+            events={events}
+            filterPathKey={route.filterPathKey}
+            keyboardNavEnabled={!route.eventSlug}
+          />
         </div>
         <SiteFooter fixed />
       </div>
 
       {event && (
-        <EventModal returnHref={returnHref} animationId={modalAnimationId}>
+        <EventModal returnHref={returnHref} animationId={modalAnimationId} titleId={modalTitleId}>
           <EventPageContent
             event={event}
             related={related}
             filterPathKey={route.filterPathKey}
             showBackLink={false}
             variant="modal"
+            headingId={modalTitleId}
           />
         </EventModal>
       )}

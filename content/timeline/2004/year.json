@@ -21,12 +21,7 @@
         "blackberry"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "blackberry",
-          "name": "BlackBerry"
-        }
-      ],
+      "companies": [],
       "importance": 8,
       "media": [],
       "sources": [
@@ -76,6 +71,7 @@
           "role": "creator"
         }
       ],
+      "companies": [],
       "importance": 4,
       "media": [
         {
@@ -123,6 +119,8 @@
         "open-source",
         "web"
       ],
+      "people": [],
+      "companies": [],
       "importance": 9,
       "media": [],
       "sources": [

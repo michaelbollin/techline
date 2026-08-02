@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } fr
 import { useContainerSize } from "@/hooks/use-container-size";
 import { useMobileTimelinePlot } from "@/hooks/use-mobile-timeline-plot";
 import { useTimelineFilterZoomVertical } from "@/hooks/use-timeline-filter-zoom-vertical";
+import { useTimelineFulltext } from "@/hooks/use-timeline-fulltext";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
 import { useTimelineViewActionsVertical } from "@/hooks/use-timeline-view-actions-vertical";
 import { useTimelineZoomVertical } from "@/hooks/use-timeline-zoom-vertical";
@@ -26,6 +27,7 @@ import { TimelineHeader } from "./timeline-header";
 type MobileTimelineProps = {
   events: TimelineEvent[];
   filterPathKey?: string;
+  keyboardNavEnabled?: boolean;
 };
 
 export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelineProps) {
@@ -36,7 +38,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
   const pathname = usePathname();
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
-  const [fulltextQuery, setFulltextQuery] = useState("");
+  const { fulltextQuery, setFulltextQuery, clearFulltext } = useTimelineFulltext();
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [chartReady, setChartReady] = useState(false);
 
@@ -48,8 +50,8 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
   const activeFilterCount = activeFilterIds.size + (fulltextQuery ? 1 : 0);
 
   const clearLocalFilters = useCallback(() => {
-    setFulltextQuery("");
-  }, []);
+    clearFulltext();
+  }, [clearFulltext]);
 
   const { transform, animateTo } = useTimelineZoomVertical({
     width,

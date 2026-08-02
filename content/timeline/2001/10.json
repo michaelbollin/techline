@@ -47,6 +47,49 @@
         "section-230-enacted",
         "snowden-nsa-revelations"
       ]
+    },
+    {
+      "id": "umts-3g-commercial-launched",
+      "date": "2001-10-01",
+      "datePrecision": "day",
+      "title": "NTT DoCoMo launches commercial 3G (FOMA)",
+      "summary": "NTT DoCoMo launched commercial FOMA 3G service in Tokyo on October 1, 2001 — the world's first wide-scale W-CDMA mobile data network.",
+      "about": "FOMA delivered packet data at hundreds of kilobits per second — enough for mobile email, early video calls, and i-mode-style apps on the move. It set the template for 3GPP UMTS networks worldwide and pushed handset vendors to build data-first radios. Mobile developers could finally target cellular bandwidth beyond GSM trickle speeds.",
+      "narrative": {
+        "whyChosen": "FOMA was the first commercial third-generation mobile network at scale.",
+        "whyImportant": "It proved cellular could carry multimedia data, paving the way for smartphone app ecosystems.",
+        "problemSolved": "2G networks were voice-centric; mobile services needed dedicated wideband packet capacity."
+      },
+      "category": "protocol",
+      "tags": [
+        "3g",
+        "cellular",
+        "mobile",
+        "networking",
+        "wireless",
+        "telecom"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "NTT DOCOMO — History (FOMA commercial launch October 2001)",
+          "url": "https://www.docomo.ne.jp/english/corporate/about/outline/history/",
+          "role": "date"
+        },
+        {
+          "title": "ITU News — NTT DoCoMo FOMA commercial launch (overview)",
+          "url": "https://www.itu.int/itunews/issue/2001/08/licensing3g.html",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "iphone-goes-on-sale",
+        "lte-commercial-launched"
+      ],
+      "slug": "umts-3g-commercial-launched",
+      "media": [],
+      "people": [],
+      "companies": []
     }
   ]
 }

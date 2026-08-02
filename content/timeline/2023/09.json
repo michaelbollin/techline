@@ -233,20 +233,7 @@
         "platforms"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "apple",
-          "name": "Apple"
-        },
-        {
-          "id": "google",
-          "name": "Google"
-        },
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
+      "companies": [],
       "importance": 3,
       "media": [
         {

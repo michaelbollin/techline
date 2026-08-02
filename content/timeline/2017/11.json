@@ -28,6 +28,7 @@
           "role": "creator"
         }
       ],
+      "companies": [],
       "importance": 3,
       "media": [
         {
@@ -189,6 +190,13 @@
         "api",
         "react",
         "saas"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
       ],
       "importance": 7,
       "media": [],

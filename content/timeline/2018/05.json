@@ -79,14 +79,11 @@
         "acquisition",
         "saas"
       ],
+      "people": [],
       "companies": [
         {
           "id": "adobe",
           "name": "Adobe"
-        },
-        {
-          "id": "magento",
-          "name": "Magento"
         }
       ],
       "importance": 5,

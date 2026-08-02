@@ -134,12 +134,7 @@
         "nokia"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "nokia",
-          "name": "Nokia"
-        }
-      ],
+      "companies": [],
       "importance": 8,
       "media": [
         {
@@ -188,6 +183,8 @@
         "php",
         "programming-language"
       ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {

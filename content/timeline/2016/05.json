@@ -21,12 +21,8 @@
         "nodejs",
         "open-source"
       ],
-      "companies": [
-        {
-          "id": "github",
-          "name": "GitHub"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 3,
       "media": [
         {

@@ -193,6 +193,20 @@ export function assertUniqueIds(events: TimelineEvent[]): void {
   }
 }
 
+export function assertUniqueSlugs(events: TimelineEvent[]): void {
+  const seen = new Map<string, string>();
+
+  for (const event of events) {
+    if (seen.has(event.slug)) {
+      throw new Error(
+        `Duplicate event slug "${event.slug}" (${seen.get(event.slug)} and ${event.title})`,
+      );
+    }
+
+    seen.set(event.slug, event.title);
+  }
+}
+
 async function collectJsonFiles(dir: string, baseDir: string): Promise<string[]> {
   const entries = await readdir(dir, { withFileTypes: true });
   const files: string[] = [];
@@ -245,6 +259,7 @@ export async function loadTimeline(
   }
 
   assertUniqueIds(events);
+  assertUniqueSlugs(events);
 
   const enrichedEvents = events.map(enrichEventWithPeople);
   const enrichedBuckets = buckets.map((bucket) => ({

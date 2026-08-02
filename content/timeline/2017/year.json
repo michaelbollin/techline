@@ -21,6 +21,8 @@
         "api",
         "saas"
       ],
+      "people": [],
+      "companies": [],
       "importance": 8,
       "media": [
         {
@@ -69,6 +71,13 @@
         "headless",
         "graphql",
         "api"
+      ],
+      "people": [],
+      "companies": [
+        {
+          "id": "meta",
+          "name": "Meta"
+        }
       ],
       "importance": 8,
       "media": [

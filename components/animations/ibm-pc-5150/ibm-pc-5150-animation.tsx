@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 
+import { VideoLoop } from "@/components/animations/video-loop";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import {
   IBM_PC_5150_POSTER_SRC,
@@ -32,15 +33,7 @@ export function IbmPc5150Animation({ className }: IbmPc5150AnimationProps) {
 
   return (
     <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
-      <video
-        src={IBM_PC_5150_VIDEO_SRC}
-        autoPlay
-        loop
-        muted
-        playsInline
-        poster={IBM_PC_5150_POSTER_SRC}
-        className="h-full w-full object-cover opacity-80"
-      />
+      <VideoLoop src={IBM_PC_5150_VIDEO_SRC} poster={IBM_PC_5150_POSTER_SRC} />
     </div>
   );
 }

@@ -25,4 +25,9 @@ describe("youtubeEmbedUrl", () => {
     expect(youtubeEmbedUrl("https://example.com/video")).toBeNull();
     expect(youtubeEmbedUrl("not-a-url")).toBeNull();
   });
+
+  it("returns null for malformed youtube video ids", () => {
+    expect(youtubeEmbedUrl("https://www.youtube.com/watch?v=short")).toBeNull();
+    expect(youtubeEmbedUrl("https://youtu.be/evil/id")).toBeNull();
+  });
 });

@@ -4,6 +4,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 
 import { useContainerSize } from "@/hooks/use-container-size";
+import { useTimelineFulltext } from "@/hooks/use-timeline-fulltext";
 import { useTimelineKeyboardNavigation } from "@/hooks/use-timeline-keyboard-navigation";
 import { useTimelineFilters } from "@/hooks/use-timeline-filters";
 import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
@@ -34,9 +35,14 @@ type ModernTimelineProps = {
   events: TimelineEvent[];
   /** URL filter segment, e.g. `javascript,web` — empty on `/`. */
   filterPathKey?: string;
+  keyboardNavEnabled?: boolean;
 };
 
-export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelineProps) {
+export function ModernTimeline({
+  events,
+  filterPathKey = "",
+  keyboardNavEnabled = true,
+}: ModernTimelineProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const { width, height } = useContainerSize(containerRef);
@@ -45,9 +51,9 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const { setHoveredEventId } = useTimelineHoverEvent();
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
+  const { fulltextQuery, setFulltextQuery, clearFulltext } = useTimelineFulltext();
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
   const [detailFits, setDetailFits] = useState<boolean | null>(null);
-  const [fulltextQuery, setFulltextQuery] = useState("");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [chartReady, setChartReady] = useState(false);
 
@@ -59,8 +65,8 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
   const activeFilterCount = activeFilterIds.size + (fulltextQuery ? 1 : 0);
 
   const clearLocalFilters = useCallback(() => {
-    setFulltextQuery("");
-  }, []);
+    clearFulltext();
+  }, [clearFulltext]);
 
   const { transform, animateTo } = useTimelineZoom({
     width,
@@ -119,7 +125,7 @@ export function ModernTimeline({ events, filterPathKey = "" }: ModernTimelinePro
     });
 
   useTimelineKeyboardNavigation({
-    enabled: plotted.length > 0,
+    enabled: keyboardNavEnabled && plotted.length > 0,
     zoomIn,
     zoomOut,
     panEarlier,

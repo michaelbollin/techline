@@ -62,12 +62,7 @@
         "twitter"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "twitter",
-          "name": "Twitter"
-        }
-      ],
+      "companies": [],
       "importance": 4,
       "media": [
         {

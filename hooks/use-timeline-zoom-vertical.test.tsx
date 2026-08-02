@@ -60,4 +60,28 @@ describe("useTimelineZoomVertical", () => {
 
     document.body.removeChild(svg);
   });
+
+  it("preserves transform when height changes after initialization", async () => {
+    const { svgRef, svg } = attachSvgRef(390, 800);
+
+    const { result, rerender } = renderHook(
+      ({ height }) => useTimelineZoomVertical({ width: 390, height, svgRef, svgReady: true }),
+      { initialProps: { height: 800 } },
+    );
+
+    await waitFor(() => {
+      expect(result.current.transform.k).toBeGreaterThan(0);
+    });
+
+    const beforeResize = result.current.transform;
+
+    rerender({ height: 700 });
+
+    await waitFor(() => {
+      expect(result.current.transform.k).toBeCloseTo(beforeResize.k, 4);
+      expect(result.current.transform.y).toBeCloseTo(beforeResize.y, 1);
+    });
+
+    document.body.removeChild(svg);
+  });
 });

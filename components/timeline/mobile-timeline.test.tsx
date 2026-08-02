@@ -20,6 +20,7 @@ vi.mock("@/hooks/use-timeline-zoom-vertical", () => ({
 vi.mock("next/navigation", () => ({
   useRouter: () => ({ push: vi.fn(), replace: vi.fn(), back: vi.fn() }),
   usePathname: () => "/",
+  useSearchParams: () => new URLSearchParams(),
 }));
 
 describe("MobileTimeline", () => {

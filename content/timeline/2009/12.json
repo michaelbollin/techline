@@ -20,6 +20,8 @@
         "es5",
         "standard"
       ],
+      "people": [],
+      "companies": [],
       "importance": 4,
       "media": [
         {
@@ -50,6 +52,49 @@
         "ecmascript-3-adopted",
         "ecmascript-2015-adopted"
       ]
+    },
+    {
+      "id": "lte-commercial-launched",
+      "date": "2009-12-14",
+      "datePrecision": "day",
+      "title": "First commercial LTE networks launch",
+      "summary": "TeliaSonera turned on commercial LTE service in Stockholm and Oslo on December 14, 2009 — the first operator deployment marketed as 4G mobile broadband.",
+      "about": "LTE replaced circuit-switched voice assumptions with an all-IP radio optimized for data — tens of megabits to phones and LTE dongles. Developers built streaming video, real-time maps, and push notifications assuming LTE-class latency and throughput. Verizon and others followed within months, making mobile APIs practical for everyday apps.",
+      "narrative": {
+        "whyChosen": "TeliaSonera's LTE launch was the first commercial 4G data network operators could sell to the public.",
+        "whyImportant": "LTE made mobile broadband fast enough to treat phones as primary internet devices.",
+        "problemSolved": "3G capacity and latency could not support HD video and always-on cloud sync at scale."
+      },
+      "category": "protocol",
+      "tags": [
+        "lte",
+        "4g",
+        "cellular",
+        "mobile",
+        "networking",
+        "wireless"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "Telia Company — First commercial 4G/LTE services (December 14, 2009)",
+          "url": "https://www.teliacompany.com/en/press-releases/teliasonera-first-in-world-with-4g-services-2009-12-14-06-30-00",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — LTE (overview)",
+          "url": "https://en.wikipedia.org/wiki/LTE_(telecommunication)",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "umts-3g-commercial-launched",
+        "5g-nr-commercial-launched"
+      ],
+      "slug": "lte-commercial-launched",
+      "media": [],
+      "people": [],
+      "companies": []
     }
   ]
 }

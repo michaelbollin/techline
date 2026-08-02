@@ -21,6 +21,8 @@
         "web",
         "responsive"
       ],
+      "people": [],
+      "companies": [],
       "importance": 6,
       "media": [
         {
@@ -70,6 +72,8 @@
         "web",
         "design"
       ],
+      "people": [],
+      "companies": [],
       "importance": 6,
       "media": [
         {
@@ -118,12 +122,8 @@
         "saas",
         "fintech"
       ],
-      "companies": [
-        {
-          "id": "shopify",
-          "name": "Shopify"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {

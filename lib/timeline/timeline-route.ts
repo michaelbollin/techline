@@ -6,15 +6,26 @@ export type TimelineRoute = {
   eventSlug: string | null;
 };
 
+function decodePathSegment(pathname: string): string | null {
+  if (pathname === "/" || pathname === "") {
+    return null;
+  }
+
+  const raw = pathname.replace(/^\//, "");
+
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
+}
+
 export function parseTimelineRoute(
   pathname: string,
   fromQuery: string | null | undefined,
   events: readonly TimelineEvent[],
 ): TimelineRoute {
-  const segment =
-    pathname === "/" || pathname === ""
-      ? null
-      : decodeURIComponent(pathname.replace(/^\//, ""));
+  const segment = decodePathSegment(pathname);
 
   if (segment && isEventSlug(segment, events)) {
     return {

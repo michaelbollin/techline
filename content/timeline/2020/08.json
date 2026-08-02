@@ -21,6 +21,8 @@
         "saas",
         "retail"
       ],
+      "people": [],
+      "companies": [],
       "importance": 8,
       "media": [],
       "sources": [
@@ -65,6 +67,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"

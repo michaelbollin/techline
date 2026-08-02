@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "tat-8-transatlantic-fiber-operational",
+      "date": "1988-12-14",
+      "datePrecision": "day",
+      "title": "TAT-8: first transatlantic fiber-optic cable",
+      "summary": "TAT-8 entered service on December 14, 1988 — the first fiber-optic submarine cable linking North America to Europe, carrying 280 Mbit/s on optical repeaters.",
+      "about": "TAT-8 replaced copper coax for transatlantic voice and data, dramatically lowering per-bit cost on the backbone. It landed in New Jersey, Cornwall, and Brittany — capacity that later carried internet traffic as dial-up and leased-line users multiplied. Datacenter and CDN builders still depend on submarine fiber for cross-ocean latency and bandwidth.",
+      "narrative": {
+        "whyChosen": "TAT-8 proved fiber could cross an ocean at scale — the template for every modern submarine internet cable.",
+        "whyImportant": "It multiplied transatlantic capacity and helped make global internet routing economically viable.",
+        "problemSolved": "Copper submarine cables could not scale with exploding international telecom and data demand."
+      },
+      "category": "invention",
+      "tags": [
+        "fiber",
+        "networking",
+        "internet",
+        "infrastructure",
+        "telecom"
+      ],
+      "importance": 4,
+      "sources": [
+        {
+          "title": "ETHW Milestone — TAT-8 transatlantic fiber-optic cable (December 14, 1988)",
+          "url": "https://ethw.org/Milestones:Trans-Atlantic_Telephone_Fiber-Optic_Submarine_Cable_(TAT-8),_1988",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — TAT-8 (overview)",
+          "url": "https://en.wikipedia.org/wiki/TAT-8",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "arpanet-first-message",
+        "tcp-ip-flag-day"
+      ],
+      "slug": "tat-8-transatlantic-fiber-operational",
+      "media": [],
+      "people": [],
+      "companies": []
+    }
+  ]
+}

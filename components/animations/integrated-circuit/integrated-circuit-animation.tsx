@@ -197,21 +197,35 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
         const wire = orderedWires[wireIndex]!;
         const wireGroup = wiresGroup.select<SVGGElement>(`g.${wireGroupClass(wire.id)}`);
         const inner = wireGroup.select<SVGPathElement>("path.wire");
+        const innerNode = inner.node();
+
+        if (!innerNode) {
+          wireIndex += 1;
+          timer = window.setTimeout(drawNext, WIRE_GAP_MS);
+          return;
+        }
+
+        let wireFinished = false;
+        const finishWire = () => {
+          if (wireFinished || cancelled) {
+            return;
+          }
+
+          wireFinished = true;
+          window.clearTimeout(wireTimeout);
+          wireGroup.select("path.wire-outline").attr("stroke-dashoffset", 0);
+          wireIndex += 1;
+          timer = window.setTimeout(drawNext, WIRE_GAP_MS);
+        };
+
+        const wireTimeout = window.setTimeout(finishWire, WIRE_DURATION_MS + 120);
 
         inner
           .transition()
           .duration(WIRE_DURATION_MS)
           .ease(d3.easeLinear)
           .attr("stroke-dashoffset", 0)
-          .on("end", () => {
-            wireGroup.select("path.wire-outline").attr("stroke-dashoffset", 0);
-            if (cancelled) {
-              return;
-            }
-
-            wireIndex += 1;
-            timer = window.setTimeout(drawNext, WIRE_GAP_MS);
-          });
+          .on("end", finishWire);
       };
 
       drawNext();
@@ -342,22 +356,13 @@ export function IntegratedCircuitAnimation({ className }: IntegratedCircuitAnima
     };
   }, [prefersReducedMotion, size.width, size.height]);
 
-  if (prefersReducedMotion) {
-    return (
-      <div
-        ref={containerRef}
-        className={cn(
-          "absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.06),transparent_55%)]",
-          className,
-        )}
-        aria-hidden
-      />
-    );
-  }
-
   return (
     <div ref={containerRef} className={cn("absolute inset-0", className)} aria-hidden>
-      <svg ref={svgRef} className="h-full w-full" width={size.width} height={size.height} />
+      {prefersReducedMotion ? (
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(251,191,36,0.06),transparent_55%)]" />
+      ) : (
+        <svg ref={svgRef} className="h-full w-full" width={size.width} height={size.height} />
+      )}
     </div>
   );
 }

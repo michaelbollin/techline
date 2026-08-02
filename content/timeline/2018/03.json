@@ -21,6 +21,13 @@
         "web-framework",
         "microservices"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 4,
       "media": [
         {
@@ -72,6 +79,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"

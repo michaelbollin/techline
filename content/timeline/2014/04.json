@@ -21,6 +21,13 @@
         "web-framework",
         "microservices"
       ],
+      "people": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 3,
       "media": [
         {
@@ -193,7 +200,7 @@
       ],
       "sources": [
         {
-          "title": "Express — Migrating to Express 4 (April 28, 2014)",
+          "title": "Express — Migrating to Express 4 (April 9, 2014)",
           "url": "https://expressjs.com/en/guide/migrating-4.html",
           "role": "date"
         },
@@ -233,6 +240,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"
@@ -349,8 +360,8 @@
       "people": [],
       "companies": [
         {
-          "id": "oneplus",
-          "name": "OnePlus"
+          "id": "google",
+          "name": "Google"
         }
       ],
       "importance": 5,

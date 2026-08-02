@@ -13,6 +13,7 @@ type EventPageContentProps = {
   filterPathKey?: string;
   showBackLink?: boolean;
   variant?: "page" | "modal";
+  headingId?: string;
 };
 
 export function EventPageContent({
@@ -21,6 +22,7 @@ export function EventPageContent({
   filterPathKey,
   showBackLink = true,
   variant = "page",
+  headingId,
 }: EventPageContentProps) {
   const timelineHref = timelinePathFromFilterSegment(filterPathKey);
 
@@ -31,7 +33,10 @@ export function EventPageContent({
           <p className="font-mono text-sm text-muted">
             {formatEventDate(event.date, event.datePrecision)}
           </p>
-          <h1 className="border-b border-black/15 pb-3 text-2xl font-semibold tracking-tight sm:text-3xl">
+          <h1
+            id={headingId}
+            className="border-b border-black/15 pb-3 text-2xl font-semibold tracking-tight sm:text-3xl"
+          >
             <TextWithAbbreviationTooltips text={event.title} />
           </h1>
           <p className="text-base leading-relaxed text-foreground">

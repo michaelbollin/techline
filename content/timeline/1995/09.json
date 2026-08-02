@@ -2,10 +2,10 @@
   "events": [
     {
       "id": "ellison-pc-ridiculous",
+      "slug": "ellison-pc-ridiculous",
       "date": "1995-09",
       "datePrecision": "month",
       "title": "Larry Ellison calls the PC \"a ridiculous device\"",
-      "quoteText": "The personal computer is a ridiculous device.",
       "summary": "Oracle CEO Larry Ellison pitches network computers — thin clients that get software from servers — and dismisses overpowered desktop PCs.",
       "about": "Ellison's NC vision failed in the market as PCs got cheaper, but the quote captures 1990s thin-client thinking that resurfaced with Chromebooks and cloud desktops. He was wrong on timing, right that most users never needed a tower under the desk.",
       "narrative": {
@@ -13,6 +13,7 @@
         "whyImportant": "It framed the thin-client vs fat-client debate that never fully died.",
         "problemSolved": "Enterprise [IT] wanted cheaper, manageable endpoints for casual users."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "controversy",
@@ -27,7 +28,22 @@
           "role": "ceo"
         }
       ],
+      "companies": [
+        {
+          "id": "oracle",
+          "name": "Oracle"
+        }
+      ],
+      "quoteText": "The personal computer is a ridiculous device.",
       "importance": 6,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/ellison-pc-ridiculous.png",
+          "title": "Larry Ellison",
+          "caption": "Oracle PR Hartmann Studios, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Los Angeles Times — Is the PC becoming passé? (September 28, 1995)",
@@ -42,18 +58,7 @@
       ],
       "relatedIds": [
         "larry-ellison-oracle-founded"
-      ],
-      "slug": "ellison-pc-ridiculous",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/ellison-pc-ridiculous.png",
-          "title": "Larry Ellison",
-          "caption": "Oracle PR Hartmann Studios, CC BY 2.0, via Wikimedia Commons"
-        }
-      ],
-      "companies": [],
-      "category": "quote"
+      ]
     }
   ]
 }

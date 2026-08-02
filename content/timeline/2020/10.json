@@ -21,6 +21,8 @@
         "frontend",
         "build-tool"
       ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {
@@ -162,6 +164,49 @@
         "t-mobile-g1-released",
         "samsung-galaxy-s-released"
       ]
+    },
+    {
+      "id": "starlink-public-beta-launched",
+      "date": "2020-10-26",
+      "datePrecision": "day",
+      "title": "Starlink opens public beta",
+      "summary": "SpaceX invited early subscribers to its \"Better Than Nothing Beta\" on October 26, 2020 — the first public consumer satellite broadband service using a LEO constellation.",
+      "about": "Starlink ships a user terminal and Wi-Fi router that talks to hundreds of low-Earth-orbit satellites — targeting rural and mobile users where fiber and LTE are weak. Developers testing offline-tolerant apps, high-latency links, and global field deployments gained a new real-world network profile beyond terrestrial ISPs.",
+      "narrative": {
+        "whyChosen": "Starlink's public beta made consumer satellite internet a shipping product, not a defense-only niche.",
+        "whyImportant": "It added a third access architecture (LEO satellite) beside cable, DSL, and terrestrial cellular.",
+        "problemSolved": "Rural homes and mobile workers lacked affordable broadband with usable latency for modern web apps."
+      },
+      "category": "software",
+      "tags": [
+        "satellite",
+        "starlink",
+        "broadband",
+        "internet",
+        "networking",
+        "spacex"
+      ],
+      "importance": 4,
+      "sources": [
+        {
+          "title": "CNBC — Starlink Better Than Nothing Beta begins (October 27, 2020)",
+          "url": "https://www.cnbc.com/2020/10/27/spacex-starlink-service-priced-at-99-a-month-public-beta-test-begins.html",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Starlink (overview)",
+          "url": "https://en.wikipedia.org/wiki/Starlink",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "lte-commercial-launched",
+        "mqtt-invented"
+      ],
+      "slug": "starlink-public-beta-launched",
+      "media": [],
+      "people": [],
+      "companies": []
     }
   ]
 }

@@ -20,6 +20,8 @@
         "web-framework",
         "hotwire"
       ],
+      "people": [],
+      "companies": [],
       "importance": 4,
       "media": [
         {
@@ -66,6 +68,8 @@
         "python",
         "web-framework"
       ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {
@@ -115,7 +119,12 @@
         "supply-chain"
       ],
       "people": [],
-      "companies": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 2,
       "media": [
         {

@@ -127,6 +127,8 @@
         "frontend",
         "web"
       ],
+      "people": [],
+      "companies": [],
       "importance": 5,
       "media": [
         {
@@ -175,12 +177,8 @@
         "python",
         "open-source"
       ],
-      "companies": [
-        {
-          "id": "meta",
-          "name": "Meta"
-        }
-      ],
+      "people": [],
+      "companies": [],
       "importance": 4,
       "media": [
         {

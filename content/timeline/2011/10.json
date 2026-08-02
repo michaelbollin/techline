@@ -54,24 +54,8 @@
       ]
     },
     {
-      "slug": "andrew-ng-stanford-ml-course",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/andrew-ng-stanford-ml-course.jpg",
-          "title": "Andrew Ng",
-          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
-        }
-      ],
-      "relatedIds": [],
-      "people": [
-        {
-          "id": "andrew-ng",
-          "name": "Andrew Ng",
-          "role": "author"
-        }
-      ],
       "id": "andrew-ng-stanford-ml-course",
+      "slug": "andrew-ng-stanford-ml-course",
       "date": "2011-10-10",
       "datePrecision": "day",
       "title": "Andrew Ng's Stanford ML course goes online",
@@ -88,7 +72,23 @@
         "education",
         "machine-learning"
       ],
+      "people": [
+        {
+          "id": "andrew-ng",
+          "name": "Andrew Ng",
+          "role": "author"
+        }
+      ],
+      "companies": [],
       "importance": 3,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/andrew-ng-stanford-ml-course.jpg",
+          "title": "Andrew Ng",
+          "caption": "TechCrunch, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Coursera — Machine Learning course (2011)",
@@ -100,7 +100,8 @@
           "url": "https://en.wikipedia.org/wiki/Andrew_Ng",
           "role": "overview"
         }
-      ]
+      ],
+      "relatedIds": []
     },
     {
       "id": "dart-unveiled",
@@ -239,6 +240,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"

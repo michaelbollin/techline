@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": "at-home-cable-internet-launched",
+      "date": "1996-09",
+      "datePrecision": "month",
+      "title": "@Home launches residential cable internet",
+      "summary": "The @Home Network began selling always-on cable modem internet to households in Fremont, California in September 1996 — the first commercial cable ISP rollout.",
+      "about": "@Home paired cable TV plant with Ethernet CPE and a national backbone tuned for IP — speeds far above dial-up modems. Developers could host home servers, download large SDKs, and browse the growing web without tying up a phone line. Cable operators worldwide copied the model after DOCSIS standardized modems.",
+      "narrative": {
+        "whyChosen": "@Home was the first mass-market always-on broadband service in the United States.",
+        "whyImportant": "It proved cable TV coax could carry consumer internet and set expectations for megabit home access.",
+        "problemSolved": "Dial-up could not deliver always-on, fast enough links for the multimedia web taking shape in the mid-1990s."
+      },
+      "category": "software",
+      "tags": [
+        "broadband",
+        "cable",
+        "internet",
+        "networking",
+        "isp"
+      ],
+      "importance": 4,
+      "sources": [
+        {
+          "title": "CNET — @Home and TCI confirm cable internet rollout (September 5, 1996)",
+          "url": "https://www.cnet.com/tech/mobile/cable-service-hits-home/",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — @Home Network (overview)",
+          "url": "https://en.wikipedia.org/wiki/@Home_Network",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "docsis-1-specification-released",
+        "worldwideweb-browser"
+      ],
+      "slug": "at-home-cable-internet-launched",
+      "media": [],
+      "people": [],
+      "companies": []
+    }
+  ]
+}

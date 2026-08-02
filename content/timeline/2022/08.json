@@ -25,6 +25,10 @@
       "people": [],
       "companies": [
         {
+          "id": "google",
+          "name": "Google"
+        },
+        {
           "id": "samsung",
           "name": "Samsung"
         }
@@ -80,12 +84,7 @@
         "manufacturing"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "intel",
-          "name": "Intel"
-        }
-      ],
+      "companies": [],
       "importance": 4,
       "media": [
         {

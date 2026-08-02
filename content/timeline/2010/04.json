@@ -220,10 +220,10 @@
     },
     {
       "id": "jobs-flash-closed-system",
+      "slug": "jobs-flash-closed-system",
       "date": "2010-04-29",
       "datePrecision": "day",
       "title": "Steve Jobs: \"Flash is a closed system\"",
-      "quoteText": "By almost any definition, Flash is a closed system.",
       "summary": "In his open letter Thoughts on [Flash], Steve Jobs explains why iPhone and iPad would never ship Adobe [Flash] — citing openness, battery life, touch, and security.",
       "about": "Jobs argued [Flash] was built for mice and PCs, not touch mobile. The letter accelerated HTML5 video adoption and became the epitaph for [Flash] on phones — even as critics called Apple hypocritical about its own walled garden.",
       "narrative": {
@@ -231,6 +231,7 @@
         "whyImportant": "It pushed the web toward H.264, HTML5, and native apps on iOS.",
         "problemSolved": "Mobile devices needed a stance on plugin-heavy desktop web content."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "controversy",
@@ -246,21 +247,18 @@
           "role": "ceo"
         }
       ],
-      "importance": 3,
-      "sources": [
+      "companies": [
         {
-          "title": "Apple — Thoughts on Flash (April 29, 2010)",
-          "url": "https://en.wikipedia.org/wiki/Thoughts_on_Flash",
-          "role": "date"
+          "id": "adobe",
+          "name": "Adobe"
         },
         {
-          "title": "BBC — Jobs explains Flash ban (overview)",
-          "url": "https://www.bbc.co.uk/news/10092298",
-          "role": "overview"
+          "id": "apple",
+          "name": "Apple"
         }
       ],
-      "relatedIds": [],
-      "slug": "jobs-flash-closed-system",
+      "quoteText": "By almost any definition, Flash is a closed system.",
+      "importance": 3,
       "media": [
         {
           "type": "youtube",
@@ -274,8 +272,19 @@
           "caption": "Matthew Yohe, CC BY-SA 3.0, via Wikimedia Commons"
         }
       ],
-      "companies": [],
-      "category": "quote"
+      "sources": [
+        {
+          "title": "Apple — Thoughts on Flash (April 29, 2010)",
+          "url": "https://en.wikipedia.org/wiki/Thoughts_on_Flash",
+          "role": "date"
+        },
+        {
+          "title": "BBC — Jobs explains Flash ban (overview)",
+          "url": "https://www.bbc.co.uk/news/10092298",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": []
     }
   ]
 }

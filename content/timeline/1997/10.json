@@ -33,7 +33,12 @@
           "role": "co-creator"
         }
       ],
-      "companies": [],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
       "importance": 4,
       "media": [
         {

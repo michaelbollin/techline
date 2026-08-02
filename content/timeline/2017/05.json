@@ -132,12 +132,7 @@
         "nation-state"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
+      "companies": [],
       "importance": 3,
       "media": [
         {

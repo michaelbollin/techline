@@ -21,6 +21,8 @@
         "web",
         "twig"
       ],
+      "people": [],
+      "companies": [],
       "importance": 8,
       "media": [
         {
@@ -69,16 +71,7 @@
         "policy"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        },
-        {
-          "id": "microsoft",
-          "name": "Microsoft"
-        }
-      ],
+      "companies": [],
       "importance": 2,
       "media": [
         {

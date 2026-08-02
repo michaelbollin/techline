@@ -111,10 +111,10 @@
     },
     {
       "id": "ballmer-web-developers-chant",
+      "slug": "ballmer-web-developers-chant",
       "date": "2008-03-06",
       "datePrecision": "day",
       "title": "Ballmer: \"Web developers!\" chant",
-      "quoteText": "Web developers! Web developers! Web developers!",
       "summary": "At MIX08 in Las Vegas, Ballmer reprised his famous developers chant after an audience member asked for love for the web dev community.",
       "about": "Ballmer was interviewing with Guy Kawasaki when a developer in the crowd requested the ritual. The moment tied Microsoft's Silverlight and web platform push to the same sweaty enthusiasm as the 2000 original.",
       "narrative": {
@@ -122,6 +122,7 @@
         "whyImportant": "It signaled Microsoft's courtship of web developers during the [Flash]/Silverlight wars.",
         "problemSolved": "MIX needed a viral moment to rally the web community around Microsoft's stack."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "meme",
@@ -136,6 +137,13 @@
           "role": "ceo"
         }
       ],
+      "companies": [
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
+        }
+      ],
+      "quoteText": "Web developers! Web developers! Web developers!",
       "importance": 6,
       "media": [
         {
@@ -165,10 +173,7 @@
       "relatedIds": [
         "ballmer-developers-chant",
         "steve-ballmer-named-microsoft-ceo"
-      ],
-      "slug": "ballmer-web-developers-chant",
-      "companies": [],
-      "category": "quote"
+      ]
     }
   ]
 }

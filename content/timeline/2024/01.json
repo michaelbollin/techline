@@ -69,6 +69,8 @@
         "beam",
         "programming-language"
       ],
+      "people": [],
+      "companies": [],
       "importance": 6,
       "media": [
         {
@@ -120,6 +122,10 @@
       ],
       "people": [],
       "companies": [
+        {
+          "id": "google",
+          "name": "Google"
+        },
         {
           "id": "samsung",
           "name": "Samsung"

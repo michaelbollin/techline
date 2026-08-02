@@ -1,27 +1,8 @@
 {
   "events": [
     {
-      "slug": "guido-van-rossum-bdfl-step-down",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/guido-van-rossum-bdfl-step-down.jpg",
-          "title": "Guido van Rossum",
-          "caption": "Kushal Das, CC BY-SA 4.0, via Wikimedia Commons"
-        }
-      ],
-      "relatedIds": [
-        "python-0-9-0-released",
-        "python-3-0-released"
-      ],
-      "people": [
-        {
-          "id": "guido-van-rossum",
-          "name": "Guido van Rossum",
-          "role": "maintainer"
-        }
-      ],
       "id": "guido-van-rossum-bdfl-step-down",
+      "slug": "guido-van-rossum-bdfl-step-down",
       "date": "2018-07-12",
       "datePrecision": "day",
       "title": "Guido van Rossum steps down as Python BDFL",
@@ -38,7 +19,23 @@
         "python",
         "maintainer"
       ],
+      "people": [
+        {
+          "id": "guido-van-rossum",
+          "name": "Guido van Rossum",
+          "role": "maintainer"
+        }
+      ],
+      "companies": [],
       "importance": 4,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/guido-van-rossum-bdfl-step-down.jpg",
+          "title": "Guido van Rossum",
+          "caption": "Kushal Das, CC BY-SA 4.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Python.org — Transfer of power (July 12, 2018)",
@@ -50,6 +47,10 @@
           "url": "https://en.wikipedia.org/wiki/Guido_van_Rossum",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "python-0-9-0-released",
+        "python-3-0-released"
       ]
     },
     {
@@ -73,12 +74,7 @@
         "blackberry"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "blackberry",
-          "name": "BlackBerry"
-        }
-      ],
+      "companies": [],
       "importance": 9,
       "media": [
         {

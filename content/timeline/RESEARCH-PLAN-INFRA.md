@@ -427,6 +427,32 @@ How developers expose and consume backend logic over the network. These are **ar
 
 ---
 
+## Batch T — Physical & access networking `[x]` done
+
+Dev-relevant milestones for how bits reach devices — modems, broadband, Wi-Fi, cellular, satellite. Not every cable SKU; tier-1 paradigm shifts only.
+
+| Event id | Topic | Date | Status |
+|----------|-------|------|--------|
+| `hayes-smartmodem-introduced` | Hayes Smartmodem (PC-controlled dial-up) | 1981-04 | `[x]` |
+| `tat-8-transatlantic-fiber-operational` | First transatlantic fiber (TAT-8) | 1988-12-14 | `[x]` |
+| `the-world-commercial-isp-launched` | The World — first commercial dial-up ISP | 1989-11 | `[x]` |
+| `at-home-cable-internet-launched` | @Home residential cable internet | 1996-09 | `[x]` |
+| `docsis-1-specification-released` | DOCSIS 1.0 cable modem standard | 1997-03 | `[x]` |
+| `ieee-802-11-wifi-standard-approved` | IEEE 802.11 Wi-Fi standard | 1997-06-26 | `[x]` |
+| `adsl-g992-standard-approved` | ITU G.992.1 ADSL standard | 1999-06-22 | `[x]` |
+| `umts-3g-commercial-launched` | NTT DoCoMo FOMA 3G commercial | 2001-10-01 | `[x]` |
+| `lte-commercial-launched` | TeliaSonera first commercial LTE | 2009-12-14 | `[x]` |
+| `5g-nr-commercial-launched` | South Korea commercial 5G NR | 2019-04-05 | `[x]` |
+| `starlink-public-beta-launched` | Starlink public beta | 2020-10-26 | `[x]` |
+
+```bash
+# After editing scripts/data/connectivity-milestones.ts:
+npm run seed:connectivity
+npm run validate
+```
+
+---
+
 ## Suggested research order
 
 1. **Batch S** — REST (Fielding 2000), SOAP 1.1 (2000), GraphQL Foundation (2018) — completes the API trilogy

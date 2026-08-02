@@ -23,6 +23,12 @@ export function useTimelineZoomVertical({ width, height, svgRef, svgReady = true
     computeFitTransformVertical(800, TIMELINE_EXTENT),
   );
 
+  const transformRef = useRef(transform);
+
+  useEffect(() => {
+    transformRef.current = transform;
+  }, [transform]);
+
   const animateTo = useCallback(
     (next: d3.ZoomTransform) => {
       const clamped = clampZoomTransformVertical(verticalZoomTransform(next), height, TIMELINE_EXTENT);
@@ -34,10 +40,31 @@ export function useTimelineZoomVertical({ width, height, svgRef, svgReady = true
       }
 
       d3.select(svg)
+        .interrupt()
         .transition()
         .duration(TIMELINE_TRANSITION_MS)
         .ease(d3.easeCubicOut)
-        .call(zoom.transform, clamped);
+        .call(zoom.transform, clamped)
+        .on("end", () => {
+          const node = svgRef.current;
+          const activeZoom = zoomRef.current;
+          if (!node || !activeZoom) {
+            return;
+          }
+
+          const final = clampZoomTransformVertical(
+            verticalZoomTransform(d3.zoomTransform(node)),
+            height,
+            TIMELINE_EXTENT,
+          );
+          setTransform(final);
+          if (
+            Math.abs(final.k - d3.zoomTransform(node).k) > 1e-6 ||
+            Math.abs(final.y - d3.zoomTransform(node).y) > 0.5
+          ) {
+            d3.select(node).call(activeZoom.transform, final);
+          }
+        });
     },
     [height, svgRef],
   );
@@ -83,10 +110,14 @@ export function useTimelineZoomVertical({ width, height, svgRef, svgReady = true
     zoomRef.current = zoom;
     svg.call(zoom);
 
-    if (!hasInitialized.current) {
-      animateTo(computeFitTransformVertical(height, TIMELINE_EXTENT));
-      hasInitialized.current = true;
-    }
+    const preserved = hasInitialized.current;
+    const target = preserved
+      ? transformRef.current
+      : computeFitTransformVertical(height, TIMELINE_EXTENT);
+    const applied = clampZoomTransformVertical(verticalZoomTransform(target), height, TIMELINE_EXTENT);
+    svg.call(zoom.transform, applied);
+    setTransform(applied);
+    hasInitialized.current = true;
 
     return () => {
       svg.on(".zoom", null);

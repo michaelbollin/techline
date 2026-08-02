@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 
+import { VideoLoop } from "@/components/animations/video-loop";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import type { QuoteClipConfig } from "@/lib/animations/quote-clip";
 import { cn } from "@/lib/cn";
@@ -30,15 +31,7 @@ export function QuoteClipAnimation({ config, className }: QuoteClipAnimationProp
 
   return (
     <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
-      <video
-        src={config.videoSrc}
-        autoPlay
-        loop
-        muted
-        playsInline
-        poster={config.posterSrc}
-        className="h-full w-full object-cover opacity-80"
-      />
+      <VideoLoop src={config.videoSrc} poster={config.posterSrc} />
     </div>
   );
 }

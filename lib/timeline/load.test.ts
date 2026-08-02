@@ -6,6 +6,7 @@ import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
 import {
   assertEventMatchesBucket,
   assertUniqueIds,
+  assertUniqueSlugs,
   bucketPathForEvent,
   getEventById,
   getEventsByCategory,
@@ -77,6 +78,17 @@ describe("assertUniqueIds", () => {
     ];
 
     expect(() => assertUniqueIds(events)).toThrow(/Duplicate event id/);
+  });
+});
+
+describe("assertUniqueSlugs", () => {
+  it("throws on duplicate slugs", () => {
+    const events = [
+      makeTimelineEvent({ id: "one", slug: "same-slug", title: "One" }),
+      makeTimelineEvent({ id: "two", slug: "same-slug", title: "Two" }),
+    ];
+
+    expect(() => assertUniqueSlugs(events)).toThrow(/Duplicate event slug/);
   });
 });
 

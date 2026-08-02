@@ -21,6 +21,8 @@
         "web",
         "open-source"
       ],
+      "people": [],
+      "companies": [],
       "importance": 8,
       "media": [
         {
@@ -70,12 +72,7 @@
         "policy"
       ],
       "people": [],
-      "companies": [
-        {
-          "id": "google",
-          "name": "Google"
-        }
-      ],
+      "companies": [],
       "importance": 4,
       "media": [
         {

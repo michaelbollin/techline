@@ -1,4 +1,12 @@
 import { TIMELINE_FILTER_GROUPS } from "./filter-definitions";
+
+export const FULLTEXT_QUERY_PARAM = "q";
+
+export function parseFulltextQuery(
+  searchParams: Pick<URLSearchParams, "get">,
+): string {
+  return searchParams.get(FULLTEXT_QUERY_PARAM)?.trim() ?? "";
+}
 import { buildFilterRegistry } from "./filters";
 import { filterIdLabel, isCompanyFilterId, isPersonFilterId } from "./filter-options";
 import type { TimelineEvent } from "./schema";

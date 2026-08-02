@@ -13,7 +13,7 @@ vi.mock("next/navigation", () => ({
 describe("EventModal", () => {
   it("renders a modal animation layer when animationId is provided", () => {
     const { container } = render(
-      <EventModal animationId="cd-rom">
+      <EventModal animationId="cd-rom" titleId="event-title">
         <p>Event body</p>
       </EventModal>,
     );
@@ -25,7 +25,7 @@ describe("EventModal", () => {
 
   it("uses a solid white panel when no animation is active", () => {
     const { container } = render(
-      <EventModal>
+      <EventModal titleId="event-title">
         <p>Event body</p>
       </EventModal>,
     );
@@ -38,7 +38,7 @@ describe("EventModal", () => {
     const user = userEvent.setup();
 
     render(
-      <EventModal>
+      <EventModal titleId="event-title">
         <p>Event body</p>
       </EventModal>,
     );
@@ -55,7 +55,7 @@ describe("EventModal", () => {
     push.mockClear();
 
     render(
-      <EventModal returnHref="/javascript">
+      <EventModal returnHref="/javascript" titleId="event-title">
         <p>Details</p>
       </EventModal>,
     );
@@ -72,7 +72,7 @@ describe("EventModal", () => {
     document.body.style.overflow = "auto";
 
     const { unmount } = render(
-      <EventModal>
+      <EventModal titleId="event-title">
         <p>Details</p>
       </EventModal>,
     );

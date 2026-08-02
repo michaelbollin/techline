@@ -1,15 +1,17 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, type ReactNode } from "react";
 
 import { AnimationLayer } from "@/components/animations/animation-layer";
 import { Button } from "@/components/ui/button";
+import { useFocusTrap } from "@/hooks/use-focus-trap";
 import { cn } from "@/lib/cn";
 import type { AnimationId } from "@/lib/animations/registry";
 
 type EventModalProps = {
   children: ReactNode;
+  titleId: string;
   returnHref?: string;
   animationId?: AnimationId | null;
   className?: string;
@@ -30,11 +32,15 @@ function CloseIcon() {
 
 export function EventModal({
   children,
+  titleId,
   returnHref = "/",
   animationId = null,
   className,
 }: EventModalProps) {
   const router = useRouter();
+  const panelRef = useRef<HTMLDivElement>(null);
+
+  useFocusTrap(panelRef, true);
 
   const onClose = useCallback(() => {
     router.push(returnHref, { scroll: false });
@@ -43,12 +49,14 @@ export function EventModal({
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
+        event.preventDefault();
+        event.stopPropagation();
         onClose();
       }
     };
 
-    document.addEventListener("keydown", onKeyDown);
-    return () => document.removeEventListener("keydown", onKeyDown);
+    document.addEventListener("keydown", onKeyDown, true);
+    return () => document.removeEventListener("keydown", onKeyDown, true);
   }, [onClose]);
 
   useEffect(() => {
@@ -67,6 +75,7 @@ export function EventModal({
       )}
       role="dialog"
       aria-modal="true"
+      aria-labelledby={titleId}
     >
       <button
         type="button"
@@ -83,6 +92,7 @@ export function EventModal({
       )}
 
       <div
+        ref={panelRef}
         className="relative z-[2] flex h-[60dvh] max-h-[60dvh] w-full max-w-full flex-col overflow-hidden rounded-2xl border border-black bg-white sm:h-auto sm:max-h-[min(88dvh,56rem)] sm:max-w-4xl"
       >
         <div className="flex shrink-0 justify-end px-4 pt-4">

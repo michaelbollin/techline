@@ -11,6 +11,7 @@
     "generate:company-map": "tsx scripts/generate-company-map.ts",
     "seed:people": "tsx scripts/seed-people-milestones.ts",
     "seed:quotes": "tsx scripts/seed-quotes.ts",
+    "seed:connectivity": "tsx scripts/seed-connectivity.ts",
     "seed:companies": "tsx scripts/seed-companies.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest",

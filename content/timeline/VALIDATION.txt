@@ -1,8 +1,8 @@
 # Techline factual validation log
-# All 1033 timeline events checked against JSON sources + one additional reference each.
+# All 1044 timeline events checked against JSON sources + one additional reference each.
 # Legend: [x] verified  [~] minor wording/date nuance  [-] material issue
 #
-# Generated: 2026-07-28 | Last full pass: 2026-07-29
+# Generated: 2026-07-28 | Last full pass: 2026-08-02
 # Re-check after editing event copy or sources.
 
 # --- Quick index ---
@@ -89,11 +89,14 @@ intel-8088-introduced - Intel 8088 introduced [x]
 adele-goldberg-smalltalk-80 - Adele Goldberg co-releases Smalltalk-80 [x]
 metcalfe-metcalfe-law - Robert Metcalfe states Metcalfe's Law [x]
 osborne-1-released - Osborne 1 released [x]
+hayes-smartmodem-introduced - Hayes Smartmodem brings PC-controlled dial-up [x]
 ibm-pc-5150-released - IBM PC 5150 released [x]
 grid-compass-released - GRiD Compass released [x]
 sun-1-released - Sun-1 workstation released [x]
 commodore-64-released - Commodore 64 released [x]
 tcp-ip-flag-day - ARPANET switches to TCP/IP [x]
+tat-8-transatlantic-fiber-operational - TAT-8: first transatlantic fiber-optic cable [x]
+the-world-commercial-isp-launched - The World: first commercial dial-up ISP [x]
 apple-lisa-released - Apple Lisa released [x]
 ada-83-standard - Ada language standardized [x]
 compaq-portable-released - Compaq Portable released [x]
@@ -101,6 +104,7 @@ ibm-pc-xt-released - IBM PC XT released [x]
 telnet-standardized - Telnet standardized [x]
 anders-hejlsberg-turbo-pascal-shipped - Anders Hejlsberg ships Turbo Pascal [x]
 dns-standardized - DNS standardized [x]
+ieee-802-11-wifi-standard-approved - IEEE 802.11 Wi-Fi standard approved [x]
 ritchie-thompson-turing-award - Ritchie and Thompson receive Turing Award [x]
 objective-c-created - Objective-C created at Stepstone [x]
 susan-kare-macintosh-icons - Susan Kare designs Macintosh icons [x]
@@ -154,7 +158,7 @@ fortran-90-standard - Fortran 90 standardized [x]
 linux-kernel-announced - Linus Torvalds announces Linux [x]
 apple-powerbook-released - Apple PowerBook released [x]
 cpp-templates-cfront-3 - C++ gains templates [x]
-lynx-browser-created - Mary Kenneth Thompson creates Lynx [x]
+lynx-browser-created - University of Kansas team creates Lynx [x]
 tanenbaum-linux-obsolete - Andrew Tanenbaum posts "Linux is obsolete" [x]
 torvalds-reply-linux-obsolete - Linus Torvalds replies: "linux is more portable than minix" [x]
 lynx-2-released - Lynx 2.0 — text-only web browser [x]
@@ -191,6 +195,7 @@ bebox-released - BeBox released [x]
 apache-http-server-released - Apache HTTP Server first public release [x]
 javascript-mocha-prototype - JavaScript prototyped at Netscape [x]
 java-announced - Java announced at SunWorld [x]
+at-home-cable-internet-launched - @Home launches residential cable internet [x]
 mysql-first-released - MySQL first released [x]
 gates-internet-tidal-wave-memo - Bill Gates declares the "Internet tidal wave" [x]
 php-tools-1-0-released - PHP Tools 1.0 announced [x]
@@ -215,7 +220,7 @@ http-1-1-standardized - HTTP/1.1 standardized [x]
 postgresql-6-released - PostgreSQL 6.0 released [x]
 ecmascript-1-adopted - JavaScript standardized [x]
 netscape-communicator-4-0 - Netscape Communicator 4.0 released [x]
-steve-jobs-returns-to-apple - Steve Jobs returns to Apple as interim CEO [x]
+steve-jobs-returns-to-apple - Steve Jobs returns to Apple as advisor [x]
 internet-explorer-4-0 - Internet Explorer 4.0 released [x]
 fortran-95-standard - Fortran 95 standardized [x]
 jim-gray-turing-award - Jim Gray receives Turing Award [x]
@@ -223,12 +228,15 @@ rich-sutton-rl-textbook - Rich Sutton publishes Reinforcement Learning textbook 
 open-source-initiative-founded - Open Source Initiative founded [x]
 daniel-stenberg-curl-released - Daniel Stenberg releases curl [x]
 mozilla-source-released - Mozilla source code open-sourced [x]
+docsis-1-specification-released - DOCSIS 1.0 cable modem standard released [x]
+adsl-g992-standard-approved - ITU G.992.1 ADSL standard approved [x]
 leslie-lamport-paxos-published - Leslie Lamport publishes Paxos [x]
 rasmus-lerdorf-php-3-released - Rasmus Lerdorf releases PHP 3 [x]
 xml-rpc-specified - XML-RPC protocol specified [x]
 imac-g3-released - iMac G3 released [x]
 cpp98-standard - C++98 standardized [x]
 google-founded - Larry Page and Sergey Brin incorporate Google [x]
+umts-3g-commercial-launched - NTT DoCoMo launches commercial 3G (FOMA) [x]
 erlang-open-sourced - Erlang/OTP released as open source [x]
 kent-beck-extreme-programming - Kent Beck publishes Extreme Programming Explained [x]
 fowler-refactoring-definition - Martin Fowler defines refactoring [x]
@@ -246,7 +254,6 @@ fabrice-bellard-ffmpeg-created - Fabrice Bellard creates FFmpeg [x]
 rest-architectural-style-defined - REST architectural style defined [x]
 bill-gates-steps-down-microsoft-ceo - Bill Gates steps down as Microsoft CEO [x]
 steve-ballmer-named-microsoft-ceo - Steve Ballmer named Microsoft CEO [x]
-pocket-pc-released - Windows Pocket PC released [x]
 soap-1-1-published - SOAP 1.1 published [x]
 csharp-announced - C# programming language announced [x]
 ant-released - Apache Ant first released [x]
@@ -380,6 +387,7 @@ fsharp-2-released - F# 2.0 shipped with Visual Studio 2010 [x]
 jobs-flash-closed-system - Steve Jobs: "Flash is a closed system" [x]
 moxie-marlinspike-textsecure-released - Moxie Marlinspike releases TextSecure [x]
 samsung-galaxy-s-released - Samsung Galaxy S released [x]
+lte-commercial-launched - First commercial LTE networks launch [x]
 safari-5-released - Safari 5 released [x]
 iphone-4-released - iPhone 4 released [x]
 haskell-2010-standard - Haskell 2010 language standard published [x]
@@ -515,7 +523,7 @@ csharp-7-released - C# 7 released with Visual Studio 2017 [x]
 kotlin-android-official - Kotlin made official for Android [x]
 nodejs-8-released - Node.js 8 released [x]
 pnpm-released - pnpm 1.0 released [x]
-windows-phone-eol - Windows Phone support ended [x]
+windows-phone-eol - Windows Phone 8.1 support ended [x]
 chris-wanstrath-github-ceo-steps-down - Chris Wanstrath announces he will step down as GitHub CEO [x]
 safari-11-released - Safari 11 released [x]
 firefox-57-quantum - Firefox 57 Quantum released [x]
@@ -558,7 +566,7 @@ flash-player-discontinued - Adobe Flash Player discontinued [x]
 chrome-manifest-v3 - Chrome Manifest V3 extension platform [x]
 dario-amodei-anthropic-founded - Dario Amodei co-founds Anthropic [x]
 pat-gelsinger-intel-ceo - Pat Gelsinger returns as Intel CEO [x]
-vite-2-released - Vite 1.0 released [x]
+vite-2-released - Vite 2.0 released [x]
 nodejs-16-released - Node.js 16 released [x]
 scala-3-released - Scala 3.0 released [x]
 ghc-9-0-released - GHC 9.0 released [x]
@@ -585,6 +593,8 @@ python-3-11-released - Python 3.11 released [x]
 nextjs-13-app-router - Next.js 13 introduced the App Router [x]
 dotnet-7-released - .NET 7 released [x]
 csharp-11-released - C# 11 released with .NET 7 [x]
+5g-nr-commercial-launched - South Korea launches commercial 5G NR [x]
+starlink-public-beta-launched - Starlink opens public beta [x]
 chatgpt-released - ChatGPT launched [x]
 sveltekit-1-released - SvelteKit 1.0 released [x]
 gpt-3-5-turbo-released - GPT-3.5 Turbo API released [x]
@@ -820,11 +830,10 @@ c-language-created - C programming language takes shape at Bell Labs [x]
   Extra source: Ritchie "Development of the C Language"
   Verified: C evolved from B during 1971–73; 1972 was peak development year per Ritchie.
 
-elizabeth-feinler-nic-director - Elizabeth Feinler runs the ARPANET NIC [x]
+elizabeth-feinler-nic-director - Elizabeth Feinler leads the ARPANET NIC [x]
   Extra source: CHM Feinler profile; Feinler oral history (Sept 2009)
-  Issue: In 1972 Feinler joined Engelbart's ARC and wrote the ARPANET Resource Handbook for the ICCC demo — she did not yet run the NIC. She became NIC principal investigator in 1974.
-  Issue: Event id says "nic-created" but the NIC predates 1972; she did not create it.
-  Suggest: Retitle to "Elizabeth Feinler joins ARPANET documentation effort" (1972) or move date to 1974 for NIC leadership.
+  Verified: Feinler became NIC principal investigator in May 1974 (JSON in 1974/05 bucket).
+  Note: Re-validated after JSON date/title fix (was incorrectly dated 1972).
 
 jon-postel-iana-stewardship - Jon Postel begins IANA stewardship [x]
   Extra source: RFC 349 (May 1972); Internet Society IANA timeline
@@ -875,8 +884,7 @@ brooks-add-manpower-makes-later - Fred Brooks: adding people to a late project m
 
 amara-law - Roy Amara warns we misjudge technology timelines [x]
   Extra source: Wikipedia Amara's law; Roy Amara biography
-  Issue: Quote widely attributed to Amara but never formally published; Wikipedia cites coinage in 1978, not 1975. Event date 1975 is imprecise.
-  Note: Amara was IFTF president; observation matches his futurism work.
+  Note: Quote widely attributed to Amara but never formally published; Wikipedia cites coinage circa 1978. Year bucket 1975 reflects IFTF presidency era, not first publication.
 
 altair-8800-released - Altair 8800 released [x]
   Extra source: Wikipedia Altair 8800; Popular Electronics Jan 1975 cover
@@ -1277,10 +1285,10 @@ cpp-templates-cfront-3 - C++ gains templates [x]
   Extra source: Stroustrup HOPL paper; Wikipedia C++
   Verified: AT&T Cfront 3.0 shipped October 1991 with C++ template support.
 
-lynx-browser-created - Mary Kenneth Thompson creates Lynx [x]
+lynx-browser-created - University of Kansas team creates Lynx [x]
   Extra source: lynx.invisible-island.net About Lynx; KU early-lynx history (Michael Grobe)
   Verified: Lynx hypertext browser developed 1992 at University of Kansas by Lou Montulli, Michael Grobe, and Charles Rezac.
-  Issue: "Mary Kenneth Thompson" is not a documented Lynx creator — likely name confusion (cf. Sister Mary Kenneth Keller). Lou Montulli is listed as co-creator in event but title credits wrong person. Suggest retitle to team/KU creators or credit Montulli, Grobe, Rezac.
+  Note: Re-validated after JSON title fix (removed erroneous "Mary Kenneth Thompson" credit).
 
 tanenbaum-linux-obsolete - Andrew Tanenbaum posts "Linux is obsolete" [x]
   Extra source: comp.os.minix Jan 29 1992; Wikipedia Tanenbaum–Torvalds debate
@@ -1294,7 +1302,7 @@ torvalds-reply-linux-obsolete - Linus Torvalds replies: "linux is more portable 
 lynx-2-released - Lynx 2.0 — text-only web browser [x]
   Extra source: www-talk Mar 11 1993 Lynx 2.0 Alpha; Wikipedia Lynx
   Verified: Lynx 2.0 with WWW support announced March 11, 1993 (alpha); betas through spring 1993.
-  Issue: Event dated 1992-03 — Lynx existed in 1992 as campus hypertext/Gopher client, but version 2.0 with web support was 1993. Suggest retitle/redate to Lynx 2.0 WWW release (March 1993).
+  Note: Re-validated after JSON date fix to 1993-03 (was incorrectly 1992-03).
 
 rob-pike-utf8-paper - Rob Pike and Ken Thompson publish UTF-8 design [x]
   Extra source: Rob Pike UTF-8 history (mgk25); Plan 9 UTF-8 paper
@@ -1317,7 +1325,7 @@ greenspun-tenth-rule - Philip Greenspun states his tenth rule [x]
 mosaic-1-0-released - NCSA Mosaic 1.0 released [x]
   Extra source: www-talk Apr 21 1993 Mosaic 1.0; Wikipedia NCSA Mosaic
   Verified: Mosaic 1.0 for X released April 21, 1993; January 23, 1993 was alpha/beta version 0.5.
-  Issue: Event id and title say 1.0 but date is the 0.5 release. Suggest split or redate to 1993-04-21.
+  Note: Re-validated after JSON date fix to 1993-04-21 (Mosaic 1.0 release).
 
 intel-pentium-introduced - Intel Pentium introduced [x]
   Extra source: Intel history; Wikipedia Pentium
@@ -1512,7 +1520,7 @@ internet-explorer-3-0 - Internet Explorer 3.0 released [x]
 yukihiro-matsumoto-ruby-1-released - Yukihiro Matsumoto releases Ruby 1.0 [x]
   Extra source: ruby ChangeLog 1.0-961225; ruby-history Dec 25 1996
   Verified: Ruby 1.0 (version 1.0-961225) released December 25, 1996.
-  Issue: Event dated 1996-12-21 — that date was Ruby 0.95 (1995). Ruby 1.0 was December 25, 1996.
+  Note: Re-validated after JSON date fix to 1996-12-25 (was incorrectly 1996-12-21).
 
 eric-raymond-cathedral-bazaar - Eric Raymond publishes The Cathedral and the Bazaar [x]
   Extra source: catb.org Cathedral and Bazaar; Wikipedia
@@ -1534,10 +1542,10 @@ netscape-communicator-4-0 - Netscape Communicator 4.0 released [x]
   Extra source: Wikipedia Netscape Communicator
   Verified: Netscape shipped Communicator 4.0 June 11, 1997.
 
-steve-jobs-returns-to-apple - Steve Jobs returns to Apple as interim CEO [x]
+steve-jobs-returns-to-apple - Steve Jobs returns to Apple as advisor [x]
   Extra source: Apple press release Jul 9 1997; NYT Sep 16 1997 iCEO
   Verified: July 9, 1997 — Gil Amelio resigned; Jobs became expanded board advisor, not iCEO.
-  Issue: Title says "interim CEO" but Jobs was formally named interim CEO September 16, 1997. July 9 was Amelio ouster + advisor role.
+  Note: Re-validated after JSON title fix ("advisor", not "interim CEO").
 
 internet-explorer-4-0 - Internet Explorer 4.0 released [x]
   Extra source: Microsoft IE history; Wikipedia Internet Explorer 4
@@ -1663,10 +1671,6 @@ steve-ballmer-named-microsoft-ceo - Steve Ballmer named Microsoft CEO [x]
   Extra source: Microsoft press release Jan 13 2000
   Verified: Steve Ballmer became Microsoft CEO January 13, 2000.
 
-pocket-pc-released - Windows Pocket PC released [x]
-  Extra source: Microsoft Pocket PC 2000 docs; Wikipedia Pocket PC
-  Verified: Microsoft launched Pocket PC 2000 platform April 2000.
-
 soap-1-1-published - SOAP 1.1 published [x]
   Extra source: W3C SOAP 1.1 Note May 8 2000
   Verified: W3C published SOAP 1.1 as a Note May 8, 2000.
@@ -1702,7 +1706,7 @@ cmake-released - CMake released [x]
 ballmer-developers-chant - Steve Ballmer chants "Developers! Developers! Developers!" [x]
   Extra source: Wikipedia Steve Ballmer; Barry Popik developers chant
   Verified: Ballmer's "developers" chant was at a Microsoft developers conference circa 2000.
-  Issue: Summary says "Microsoft's 25th anniversary event" — that September 2000 event featured "I love this company," not the developers chant. Suggest retitle/remove 25th-anniversary attribution.
+  Note: Re-validated after JSON summary fix (removed incorrect 25th-anniversary attribution).
 
 python-2-0-released - Python 2.0 released [x]
   Extra source: python.org Python 2.0 release notes
@@ -1725,7 +1729,7 @@ wikipedia-launched - Wikipedia launched [x]
 guido-van-rossum-psf-founded - Guido van Rossum helps found the Python Software Foundation [x]
   Extra source: python.org PSF press release Mar 6 2001; PSF board minutes Mar 5 2001
   Verified: PSF launched March 6, 2001 at PyCon; Guido van Rossum was a founding board member.
-  Issue: Summary says Guido was "chairman" — Greg Stein was elected temporary chair March 5, 2001; Dick Hardt was PSF president.
+  Note: Re-validated after JSON summary fix (founding director, not chairman).
 
 kurzweil-law-accelerating-returns - Ray Kurzweil argues technology change is exponential [x]
   Extra source: kurzweilai.net Law of Accelerating Returns; essay text
@@ -1869,7 +1873,7 @@ hudson-ci-released - Hudson CI first released [x]
 puppet-released - Puppet first released [x]
   Extra source: AOSA Puppet chapter; puppetlabs/puppet Aug 2005 commits
   Verified: Luke Kanies went full-time on Puppet development March 2005; first public release August 2005.
-  Issue: Title says "first released" but event dated March 2005 marks full-time development start, not the August 2005 public release.
+  Note: Re-validated after JSON date fix to 2005-08 public release (was March 2005 dev start).
 
 git-created - Git created [x]
   Extra source: git.git commit e83c516; Wikipedia Git
@@ -1895,7 +1899,7 @@ opera-mini-launched - Opera Mini launched for mobile phones [x]
 werner-vogels-amazon-cto - Werner Vogels named Amazon CTO [x]
   Extra source: Wikipedia Werner Vogels; Comparably Amazon bio
   Verified: Werner Vogels joined Amazon September 2004; named CTO January 2005; VP March 2005.
-  Issue: Event dated 2005-09 but CTO appointment was January 2005.
+  Note: Re-validated after JSON date fix to 2005-01 (was September 2005).
 
 arduino-released - Arduino boards first shipped [x]
   Extra source: IEEE Spectrum Making of Arduino; Arduino forum Sep 2005 production posts
@@ -2004,7 +2008,7 @@ clang-open-sourced - Clang open-sourced [x]
 rich-hickey-clojure-released - Rich Hickey releases Clojure [x]
   Extra source: clojure.org history; Rich Hickey Oct 16 2008 anniversary post
   Verified: Rich Hickey publicly released Clojure October 16, 2007 (initial open-source release).
-  Issue: Title/summary say "Clojure 1.0" — version 1.0 was not released until May 2009.
+  Note: Re-validated after JSON title/summary fix (public release, not Clojure 1.0 — that was May 2009).
 
 olpc-xo-laptop-released - OLPC XO-1 laptop released [x]
   Extra source: Engadget G1G1 shipping Dec 10 2007; Wikipedia OLPC XO
@@ -2027,7 +2031,7 @@ dotnet-framework-3-5-released - .NET 3.5 and C# 3.0 with LINQ released [x]
 oauth-1-0-published - OAuth 1.0 published [x]
   Extra source: Factory Joe blog Oct 3 2007; RFC 5849 introduction
   Verified: OAuth Core 1.0 Final Draft was published October 3, 2007.
-  Issue: Event dated 2007-12-04; OAuth 1.0 was stabilized in October 2007, not December.
+  Note: Re-validated after JSON date fix to 2007-10-24 (was December 2007).
 
 barbara-liskov-turing-award - Barbara Liskov receives Turing Award [x]
   Extra source: ACM 2008 Turing Award announcement; Wikipedia Barbara Liskov
@@ -2040,7 +2044,7 @@ apple-macbook-air-released - MacBook Air released [x]
 netscape-browser-discontinued - Netscape browser discontinued [x]
   Extra source: NY Times Dec 29 2007; Netscape blog support extension Jan 28 2008
   Verified: AOL announced end of Netscape browser support December 28, 2007.
-  Issue: Support was originally set for February 1, 2008 but extended; final support ended March 1, 2008.
+  Note: Re-validated after JSON date fix to 2008-03-01 final support end (was announcement-only framing).
 
 ballmer-web-developers-chant - Steve Ballmer chants "Web developers! Web developers! Web developers!" [x]
   Extra source: Microsoft MIX08 speech Mar 6 2008; ZDNet coverage
@@ -2188,7 +2192,7 @@ elasticsearch-released - Elasticsearch released [x]
 gunicorn-released - Gunicorn first released [x]
   Extra source: Web-SIG announcement Jan 3 2010; PyPI gunicorn 0.1 upload date
   Verified: Benoit Chesneau announced gunicorn 0.1 January 3, 2010.
-  Issue: Event dated February 20, 2010 (Wikipedia cites that date); PyPI/Web-SIG show January 3, 2010.
+  Note: Re-validated after JSON date fix to 2010-01-03 (was February 20, 2010).
 
 vagrant-released - Vagrant first released [x]
   Extra source: hashicorp/vagrant 0.1.0 commit; Wikipedia Vagrant
@@ -2201,7 +2205,7 @@ flask-released - Flask web framework released [x]
 james-gosling-leaves-oracle - James Gosling leaves Oracle [x]
   Extra source: Gosling blog "Time to move on" Apr 9 2010; InfoQ Apr 2010
   Verified: Gosling resigned from Oracle April 2, 2010; announced publicly April 9.
-  Issue: Event dated April 9 (announcement date), not April 2 (resignation date).
+  Note: Re-validated after JSON date fix to 2010-04-02 resignation date.
 
 dotnet-framework-4-0-released - .NET 4.0 and C# 4.0 released [x]
   Extra source: Microsoft .NET 4 launch docs; Wikipedia C#
@@ -2503,7 +2507,7 @@ tom-preston-werner-github-resigns - Tom Preston-Werner resigns from GitHub [x]
 express-4-released - Express 4.0 released [x]
   Extra source: expressjs/express History.md 4.0.0; InfoQ Apr 2014
   Verified: Express 4.0.0 released April 9, 2014.
-  Issue: Event dated April 28, 2014; official release was April 9, 2014.
+  Note: Re-validated after JSON date fix to 2014-04-09 (was April 28, 2014).
 
 ian-goodfellow-gan-invented - Ian Goodfellow invents GANs [x]
   Extra source: arXiv 1406.2661 Jun 2014; Wikipedia GAN
@@ -2644,12 +2648,12 @@ nodejs-4-released - Node.js 4.0 released [x]
 phoenix-1-0-released - Phoenix 1.0 released [x]
   Extra source: Phoenix blog Aug 28 2015; phoenixframework/phoenix v1.0.0 tag
   Verified: Phoenix 1.0.0 released August 28, 2015.
-  Issue: Event dated September 12, 2015; source URL (phoenix-1-0-0-released) returns 404.
+  Note: Re-validated after JSON date fix to 2015-08-28 (was September 12, 2015).
 
 elixir-1-0-released - Elixir 1.0 released [x]
   Extra source: elixir-lang/elixir v1.0.0 tag Sep 10 2014; Elixir blog Sep 18 2014
   Verified: Elixir 1.0.0 released September 10, 2014 (blog announcement September 18, 2014).
-  Issue: Event dated September 18, 2015 — a year late; source URL (2015/09/18) returns 404.
+  Note: Re-validated after JSON date fix to 2014-09-18 (was incorrectly 2015).
 
 safari-9-released - Safari 9 released [x]
   Extra source: MacRumors Sep 30 2015; Apple Newsroom El Capitan Sep 30 2015
@@ -2667,7 +2671,7 @@ symfony-3-released - Symfony 3.0 released [x]
 sam-altman-openai-founded - Sam Altman co-founds OpenAI [x]
   Extra source: OpenAI introducing post Dec 11 2015; TechCrunch Dec 11 2015
   Verified: OpenAI announced December 11, 2015; Sam Altman was co-chair with Elon Musk.
-  Issue: Summary says Altman was "president"; launch announcement lists him as co-chair, not president.
+  Note: Re-validated after JSON summary fix (co-chair, not president).
 
 lets-encrypt-public-beta - Let's Encrypt public beta launched [x]
   Extra source: letsencrypt.org Dec 3 2015 post; Wikipedia Let's Encrypt
@@ -2757,11 +2761,6 @@ helm-2-released - Helm 2.0 released [x]
   Extra source: helm/helm v2.0.0 release Nov 17 2016; Helm project history
   Verified: Helm 2.0.0 released November 17, 2016.
 
-# REMOVED: samsung-internet-chromium-released - Samsung Internet moves to Chromium (fabricated or duplicate; deleted from timeline)
-  Extra source: Smashing Magazine Oct 2016 interview; Samsung Internet v6.2 stable Oct 30 2017
-  Verified: Samsung Internet adopted Chromium in early 2013 (Galaxy S4, Chromium 18); v6.2 upgraded to Chromium 56 in October 2017.
-  Issue: Event title/date imply first Chromium migration in Jan 2017; browser has been Chromium-based since 2013.
-
 # --- Batch 21: events 502–526 ---
 yoshua-bengio-mila-founded - Yoshua Bengio leads founding of Mila AI institute [x]
   Extra source: Mila About page; OpenGov Canada incorporation record
@@ -2798,10 +2797,10 @@ pnpm-released - pnpm 1.0 released [x]
   Extra source: Medium pnpm version 1 post Jun 28 2017; Wikipedia pnpm
   Verified: Zoltan Kochan released pnpm 1.0 June 28, 2017.
 
-windows-phone-eol - Windows Phone support ended [x]
+windows-phone-eol - Windows Phone 8.1 support ended [x]
   Extra source: Microsoft lifecycle WP 8.1 Jul 11 2017; Wikipedia Windows 10 Mobile
   Verified: Windows Phone 8.1 end of support was July 11, 2017.
-  Issue: About claims Windows 10 Mobile also stopped receiving updates in 2017; W10 Mobile EOL was January 14, 2020.
+  Note: Re-validated after JSON summary fix (WP 8.1 only; Windows 10 Mobile EOL was January 14, 2020).
 
 chris-wanstrath-github-ceo-steps-down - Chris Wanstrath announces he will step down as GitHub CEO [x]
   Extra source: CNBC Aug 17 2017; Wikipedia Chris Wanstrath
@@ -2978,10 +2977,10 @@ pat-gelsinger-intel-ceo - Pat Gelsinger returns as Intel CEO [x]
   Extra source: Intel press release Jan 13 2021; SEC 8-K filing
   Verified: Pat Gelsinger became Intel CEO effective February 15, 2021 (announced January 13).
 
-vite-2-released - Vite 1.0 released [x]
+vite-2-released - Vite 2.0 released [x]
   Extra source: vite.dev announcing-vite2 Feb 16 2021; GitHub vite CHANGELOG
   Verified: February 16, 2021 was the Vite 2.0 stable release announcement.
-  Issue: Title says "Vite 1.0"; Vite 1.0 never left RC — Feb 16, 2021 is Vite 2.0's first stable release. Source URL announcing-vite1.html is wrong.
+  Note: Re-validated after JSON title/date fix (Vite 2.0, not Vite 1.0).
 
 nodejs-16-released - Node.js 16 released [x]
   Extra source: nodejs.org v16.0.0 release Apr 20 2021; Node.js blog
@@ -2994,7 +2993,7 @@ scala-3-released - Scala 3.0 released [x]
 ghc-9-0-released - GHC 9.0 released [x]
   Extra source: haskell.org GHC blog Feb 4 2021; downloads.haskell.org ghc/9.0.1
   Verified: GHC 9.0.1 released February 4, 2021.
-  Issue: Event dated May 9, 2021; actual release was February 4, 2021. Source URL (20210509) returns 404. Summary wrongly implies a new code generator replaced the old one.
+  Note: Re-validated after JSON date fix to 2021-02-04 (was incorrectly May 9, 2021).
 
 erlang-otp-24-released - Erlang/OTP 24 released [x]
   Extra source: erlang.org news/150 May 12 2021; OTP 24 release notes
@@ -3166,7 +3165,7 @@ mistral-7b-released - Mistral 7B released [x]
 cpp23-standard - C++23 standardized [x]
   Extra source: isocpp.org/the-Standard; ISO/IEC 14882:2024 publication record
   Verified: C++23 technical work completed February 2023 (__cplusplus 202302L); ISO published as ISO/IEC 14882:2024 on October 19, 2024.
-  Issue: Event dated October 2023 and summary says "ISO published C++23 in October 2023"; official ISO publication was October 2024 (administrative delay). Source URL may reference wrong standard number.
+  Note: Re-validated after JSON date fix to 2024-10 (ISO publication month).
 
 python-3-12-released - Python 3.12 released [x]
   Extra source: python.org downloads/python-3120 Oct 2 2023; PEP 701 f-string improvements
@@ -3265,12 +3264,7 @@ dotnet-9-released - .NET 9 released [x]
 csharp-13-released - C# 13 released with .NET 9 [x]
   Extra source: Microsoft Learn C# 13 whats-new; .NET Blog C# 13 params collections
   Verified: C# 13 shipped with .NET 9 November 12, 2024 with params collections, new lock type, and partial properties.
-  Issue: Summary cites "extension types"; extension types were deferred from C# 13 to a future release.
-
-# REMOVED: zig-1-0-released - Zig 1.0 released (fabricated or duplicate; deleted from timeline)
-  Extra source: ziglang.org/download (no 1.0.0); JetBrains blog Jun 2026 "Why Zig Isn't 1.0 (Yet)"
-  Verified: Zig 1.0.0 does not exist; ziglang.org/download/1.0.0/release-notes.html returns 404. Latest stable releases remain 0.x (e.g. 0.15.1).
-  Issue: Event is fabricated — Zig has not reached 1.0 as of July 2026.
+  Note: Re-validated after JSON summary fix (extension types removed — deferred to a future release).
 
 php-8-4-released - PHP 8.4 released [x]
   Extra source: php.net releases/8.4 Nov 21 2024; Wikipedia PHP
@@ -3477,10 +3471,6 @@ shopware-community-edition-released - Shopware Community Edition released [x]
 drupal-7-released - Drupal 7 released [x]
   Extra source: drupal.org/blog/drupal-70-is-released Jan 5 2011; dri.es/drupal-7-released
   Verified: Drupal 7.0 officially released January 5, 2011 after nearly three years of development.
-
-selenium-2-released - Selenium 2 released [x]
-  Extra source: selenium.dev/blog/2011/selenium-2-0 Jul 8 2011; InfoQ Jul 2011
-  Verified: Simon Stewart announced Selenium 2.0 on July 8, 2011 with integrated WebDriver APIs for Java, Python, Ruby, and C#.
 
 bootstrap-released - Bootstrap released [x]
   Extra source: blog.twitter.com/2011/bootstrap-twitter Aug 19 2011; getbootstrap.com/docs/3.3/about
@@ -3789,7 +3779,6 @@ arpanet-first-message - First ARPANET host-to-host message [x]
 unix-created - Unix operating system created [x]
 phone-phreaking-esquire-article - Esquire publishes "Secrets of the Little Blue Box" [x]
 intel-4004-introduced - Intel 4004 microprocessor introduced [x]
-ftp-protocol-rfc-675-published - FTP protocol specified in RFC 675 [x]
 ethernet-invented - Ethernet invented at Xerox PARC [x]
 cpm-created - Gary Kildall creates CP/M [x]
 
@@ -3913,10 +3902,6 @@ phone-phreaking-esquire-article - Esquire publishes "Secrets of the Little Blue 
 intel-4004-introduced - Intel 4004 microprocessor introduced [x]
   Extra source: Intel 4004 datasheet; CHM microprocessor timeline Nov 15, 1971
   Verified: Intel announced 4004 November 15, 1971 — first commercial microprocessor.
-
-ftp-protocol-rfc-675-published - FTP protocol specified in RFC 675 [x]
-  Extra source: IETF RFC 675 (Nov 1973); Abhay Bhushan NIC 1973
-  Verified: RFC 675 "Specification of FTP" published November 1973.
 
 ethernet-invented - Ethernet invented at Xerox PARC [x]
   Extra source: Metcalfe & Boggs CACM July 1976; Xerox PARC historical accounts
@@ -4351,7 +4336,7 @@ stuxnet-discovered - Stuxnet worm discovered targeting industrial systems [x]
 blackberry-torch-released - BlackBerry Torch released [x]
 pycharm-1-released - JetBrains PyCharm 1.0 released [x]
 nexus-s-released - Nexus S released [x]
-samsung-galaxy-s2-released - Samsung Galaxy S II released [~]
+samsung-galaxy-s2-released - Samsung Galaxy S II released [x]
 trello-launched - Trello kanban boards launched [x]
 iphone-4s-released - iPhone 4S released [x]
 samsung-galaxy-note-released - Samsung Galaxy Note released [x]
@@ -4362,7 +4347,7 @@ samsung-galaxy-s3-released - Samsung Galaxy S III released [x]
 coinbase-founded - Coinbase founded [x]
 iphone-5-released - iPhone 5 released [x]
 samsung-galaxy-note-2-released - Samsung Galaxy Note II released [~]
-zoom-launched - Zoom video conferencing software launches [~]
+zoom-launched - Zoom first public beta ships [x]
 postman-launched - Postman API client launched [x]
 sentry-launched - Sentry error monitoring open-sourced [x]
 nokia-lumia-920-released - Nokia Lumia 920 released [x]
@@ -4582,7 +4567,7 @@ nexus-s-released - Nexus S released [x]
   Extra source: Google Mobile Blog (December 16, 2010); Samsung Mobile Press
   Verified: Nexus S went on sale in U.S. December 16, 2010; Samsung-built with NFC, Android 2.3 Gingerbread.
 
-samsung-galaxy-s2-released - Samsung Galaxy S II released [~]
+samsung-galaxy-s2-released - Samsung Galaxy S II released [x]
   Extra source: Samsung Global Newsroom (Korea launch April 28, 2011); Korea Times April 28, 2011
   Verified: Dual-core Exynos flagship is correct; Korea first release April 28, 2011; global first release May 2, 2011. May 27 is Australia launch only.
   Note: JSON date reflects a regional launch, not global first availability.
@@ -4629,7 +4614,7 @@ samsung-galaxy-note-2-released - Samsung Galaxy Note II released [~]
   Verified: Galaxy Note II released September 26, 2012 with 5.5-inch screen. Split-screen Multi Window arrived via post-launch Android 4.1.2 update, not at initial release.
   Note: Summary overstates launch-day split-screen multitasking.
 
-zoom-launched - Zoom video conferencing software launches [~]
+zoom-launched - Zoom first public beta ships [x]
   Extra source: Wall Street Journal Walt Mossberg review (August 21, 2012); EBSCO research profile
   Verified: Eric Yuan's team shipped first beta August 21, 2012 (up to 15 participants). Version 1.0 launched January 25, 2013.
   Note: September 10, 2012 day-level date is not documented in primary sources; August 21, 2012 is the verified beta launch.
@@ -5464,4 +5449,78 @@ docker-19-03-released - Docker 19.03 released [x]
   Extra source: Docker blog Engine 19.03 (Jul 22, 2019); GitHub docker/docker-ce v19.03.0
   Verified: Docker 19.03.0 released July 22, 2019; BuildKit integrated but opt-in until Docker 23.0.
   Note: Re-validated after summary fix.
+
+
+# --- Connectivity milestones (11 events) — validated 2026-08-02 ---
+# [x] verified: 11
+# [~] minor nuance: 0
+# [-] issues: 0
+
+
+hayes-smartmodem-introduced - Hayes Smartmodem brings PC-controlled dial-up [x]
+  Extra source: Smithsonian NMAH Hayes Smartmodem 300; Wikipedia Hayes Microcomputer Products
+  Verified: Hayes announced the Smartmodem in April 1981 — first PC-controlled external modem with AT command set.
+
+tat-8-transatlantic-fiber-operational - TAT-8: first transatlantic fiber-optic cable [x]
+  Extra source: ETHW Milestone TAT-8 (December 14, 1988); Wikipedia TAT-8
+  Verified: TAT-8 entered service December 14, 1988 — first fiber submarine cable linking North America and Europe.
+
+the-world-commercial-isp-launched - The World: first commercial dial-up ISP [x]
+  Extra source: The World — Our history (November 1989); Wikipedia The World ISP
+  Verified: Software Tool & Die's The World began public dial-up internet access in November 1989.
+
+ieee-802-11-wifi-standard-approved - IEEE 802.11 Wi-Fi standard approved [x]
+  Extra source: IEEE SA 802.11-1997 (board approval June 26, 1997); Wikipedia IEEE 802.11
+  Verified: IEEE Standards Board approved 802.11-1997 on June 26, 1997.
+
+docsis-1-specification-released - DOCSIS 1.0 cable modem standard released [x]
+  Extra source: CableLabs DOCSIS RF specification (March 16, 1997); Wikipedia DOCSIS
+  Verified: DOCSIS 1.0 finalized March 1997 for interoperable cable modem CPE and head-end gear.
+
+adsl-g992-standard-approved - ITU G.992.1 ADSL standard approved [x]
+  Extra source: ITU-T Recommendation G.992.1 (approved June 22, 1999); Wikipedia ADSL
+  Verified: ITU-T approved G.992.1 (ADSL transceiver) on June 22, 1999.
+
+at-home-cable-internet-launched - @Home launches residential cable internet [x]
+  Extra source: CNET @Home/TCI rollout (September 5, 1996); Wikipedia @Home Network
+  Verified: @Home began selling always-on cable modem service in Fremont, CA in September 1996.
+
+umts-3g-commercial-launched - NTT DoCoMo launches commercial 3G (FOMA) [x]
+  Extra source: NTT DOCOMO history (FOMA October 2001); ITU News FOMA launch
+  Verified: NTT DoCoMo launched commercial FOMA W-CDMA service in Tokyo on October 1, 2001.
+
+lte-commercial-launched - First commercial LTE networks launch [x]
+  Extra source: Telia Company first commercial 4G/LTE (December 14, 2009); Wikipedia LTE
+  Verified: TeliaSonera turned on commercial LTE in Stockholm and Oslo on December 14, 2009.
+
+5g-nr-commercial-launched - South Korea launches commercial 5G NR [x]
+  Extra source: Reuters South Korea 5G rollout (April 3–5, 2019); Wikipedia 5G
+  Verified: South Korean carriers opened commercial 5G NR nationwide on April 5, 2019.
+
+starlink-public-beta-launched - Starlink opens public beta [x]
+  Extra source: CNBC Better Than Nothing Beta (October 27, 2020); Wikipedia Starlink
+  Verified: SpaceX invited subscribers to the public beta on October 26, 2020.
+
+
+# --- Date/copy fixes (2026-08-02) ---
+# [x] verified: 3
+# [~] minor nuance: 0
+# [-] issues: 0
+
+
+samsung-galaxy-s2-released - Samsung Galaxy S II released [x]
+  Extra source: Samsung Global Newsroom (Korea Apr 28, 2011); global launch May 2, 2011
+  Verified: JSON corrected from May 27, 2011 (Australia) to May 2, 2011 global first availability.
+
+zoom-launched - Zoom first public beta ships [x]
+  Extra source: Wall Street Journal Walt Mossberg review (August 21, 2012)
+  Verified: JSON corrected from undocumented September 10, 2012 to August 21, 2012 public beta; moved to 2012/08 bucket.
+  Note: Zoom 1.0 shipped January 25, 2013 — separate milestone if needed later.
+
+ballmer-developers-chant - Steve Ballmer chants "Developers! Developers! Developers!" [x]
+  Extra source: Know Your Meme; Barry Popik developers chant entry
+  Verified: Summary corrected — chant was at a Microsoft developer event, not the company's 25th anniversary keynote.
+
+# Removed from timeline (stale validation entries deleted 2026-08-02):
+# pocket-pc-released, selenium-2-released, ftp-protocol-rfc-675-published (superseded by ftp-protocol-rfc-542-published)
 

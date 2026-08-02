@@ -21,6 +21,8 @@
         "hosting",
         "web"
       ],
+      "people": [],
+      "companies": [],
       "importance": 6,
       "media": [
         {
@@ -77,8 +79,8 @@
       ],
       "companies": [
         {
-          "id": "epfl",
-          "name": "EPFL"
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
         }
       ],
       "importance": 3,

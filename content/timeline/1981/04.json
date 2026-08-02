@@ -21,6 +21,8 @@
         "osborne",
         "cp-m"
       ],
+      "people": [],
+      "companies": [],
       "importance": 6,
       "media": [
         {
@@ -47,6 +49,47 @@
         "compaq-portable-released",
         "grid-compass-released"
       ]
+    },
+    {
+      "id": "hayes-smartmodem-introduced",
+      "date": "1981-04",
+      "datePrecision": "month",
+      "title": "Hayes Smartmodem brings PC-controlled dial-up",
+      "summary": "Hayes Microcomputer Products announced the Smartmodem in April 1981 — the first modem a PC could control in software via an RS-232 port and Hayes command set.",
+      "about": "Before the Smartmodem, hobbyists used acoustic couplers or machine-specific modem cards. Hayes put a phone jack and microprocessor on an external box so any computer with a serial port could dial BBSes, UUCP nodes, and early online services. The Hayes AT command language became the de facto standard for dial-up modems through the 56K era.",
+      "narrative": {
+        "whyChosen": "The Smartmodem made dial-up networking a plug-in peripheral instead of a custom hardware project.",
+        "whyImportant": "It enabled the BBS, dial-up ISP, and remote-admin culture that preceded always-on broadband.",
+        "problemSolved": "Microcomputer owners needed a modem that worked across brands without per-machine hardware designs."
+      },
+      "category": "hardware",
+      "tags": [
+        "hardware",
+        "modem",
+        "dial-up",
+        "pc",
+        "networking"
+      ],
+      "importance": 3,
+      "sources": [
+        {
+          "title": "Smithsonian National Museum of American History — Hayes Smartmodem 300",
+          "url": "https://americanhistory.si.edu/collections/object/nmah_1303193",
+          "role": "date"
+        },
+        {
+          "title": "Wikipedia — Hayes Microcomputer Products (overview)",
+          "url": "https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products",
+          "role": "overview"
+        }
+      ],
+      "relatedIds": [
+        "the-world-commercial-isp-launched"
+      ],
+      "slug": "hayes-smartmodem-introduced",
+      "media": [],
+      "people": [],
+      "companies": []
     }
   ]
 }

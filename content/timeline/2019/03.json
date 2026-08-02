@@ -25,6 +25,10 @@
       "people": [],
       "companies": [
         {
+          "id": "google",
+          "name": "Google"
+        },
+        {
           "id": "samsung",
           "name": "Samsung"
         }
@@ -60,26 +64,8 @@
       ]
     },
     {
-      "slug": "fei-fei-li-stanford-hai",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/fei-fei-li-stanford-hai.jpg",
-          "title": "Fei-Fei Li",
-          "caption": "ITU Pictures, CC BY 2.0, via Wikimedia Commons"
-        }
-      ],
-      "relatedIds": [
-        "fei-fei-li-imagenet-dataset-launched"
-      ],
-      "people": [
-        {
-          "id": "fei-fei-li",
-          "name": "Fei-Fei Li",
-          "role": "researcher"
-        }
-      ],
       "id": "fei-fei-li-stanford-hai",
+      "slug": "fei-fei-li-stanford-hai",
       "date": "2019-03-18",
       "datePrecision": "day",
       "title": "Fei-Fei Li co-directs Stanford HAI launch",
@@ -97,7 +83,23 @@
         "education",
         "stanford"
       ],
+      "people": [
+        {
+          "id": "fei-fei-li",
+          "name": "Fei-Fei Li",
+          "role": "researcher"
+        }
+      ],
+      "companies": [],
       "importance": 7,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/fei-fei-li-stanford-hai.jpg",
+          "title": "Fei-Fei Li",
+          "caption": "ITU Pictures, CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Stanford Report — HAI launch (March 18, 2019)",
@@ -109,6 +111,9 @@
           "url": "https://hai.stanford.edu/",
           "role": "overview"
         }
+      ],
+      "relatedIds": [
+        "fei-fei-li-imagenet-dataset-launched"
       ]
     }
   ]

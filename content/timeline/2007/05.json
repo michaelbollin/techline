@@ -52,10 +52,10 @@
     },
     {
       "id": "schwartz-innovate-not-litigate",
+      "slug": "schwartz-innovate-not-litigate",
       "date": "2007-05-15",
       "datePrecision": "day",
       "title": "Jonathan Schwartz: \"innovate, not litigate\"",
-      "quoteText": "We decided to innovate, not litigate.",
       "summary": "Sun CEO Jonathan Schwartz responds to Microsoft's [patent] threats against Linux — offering Sun's [patent] portfolio to defend [open source] instead of suing.",
       "about": "Press dubbed Microsoft's campaign '[patent] terrorism'; Schwartz framed Sun's choice as building better products rather than lawyering rivals. The blog post became a rallying cry during the open-source wars of the 2000s.",
       "narrative": {
@@ -63,6 +63,7 @@
         "whyImportant": "It contrasted litigation strategy with open-source ecosystem building.",
         "problemSolved": "The Linux community needed corporate allies willing to counter [patent] FUD."
       },
+      "category": "quote",
       "tags": [
         "quote",
         "controversy",
@@ -77,7 +78,22 @@
           "role": "ceo"
         }
       ],
+      "companies": [
+        {
+          "id": "sun-microsystems",
+          "name": "Sun Microsystems"
+        }
+      ],
+      "quoteText": "We decided to innovate, not litigate.",
       "importance": 6,
+      "media": [
+        {
+          "type": "image",
+          "url": "/media/timeline/schwartz-innovate-not-litigate.jpg",
+          "title": "Jonathan Schwartz",
+          "caption": "James Duncan Davidson/O'Reilly Media, Inc., CC BY 2.0, via Wikimedia Commons"
+        }
+      ],
       "sources": [
         {
           "title": "Jonathan Schwartz blog — innovate, not litigate (May 15, 2007)",
@@ -93,18 +109,7 @@
       "relatedIds": [
         "ballmer-linux-cancer",
         "linux-kernel-announced"
-      ],
-      "slug": "schwartz-innovate-not-litigate",
-      "media": [
-        {
-          "type": "image",
-          "url": "/media/timeline/schwartz-innovate-not-litigate.jpg",
-          "title": "Jonathan Schwartz",
-          "caption": "James Duncan Davidson/O'Reilly Media, Inc., CC BY 2.0, via Wikimedia Commons"
-        }
-      ],
-      "companies": [],
-      "category": "quote"
+      ]
     }
   ]
 }

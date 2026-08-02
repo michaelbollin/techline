@@ -96,6 +96,10 @@ export function TimelineFilterSidebar({
 
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
+        if (document.querySelector('[role="dialog"][aria-modal="true"]')) {
+          return;
+        }
+
         onClose();
       }
     };

@@ -93,12 +93,12 @@
       "people": [],
       "companies": [
         {
-          "id": "microsoft",
-          "name": "Microsoft"
-        },
-        {
           "id": "ibm",
           "name": "IBM"
+        },
+        {
+          "id": "microsoft",
+          "name": "Microsoft"
         }
       ],
       "importance": 4,
