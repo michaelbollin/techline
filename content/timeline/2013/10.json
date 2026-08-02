@@ -6,10 +6,10 @@
       "date": "2013-10-14",
       "datePrecision": "day",
       "title": "Ghost publicly released",
-      "summary": "John O'Nolan and Hannah Wolfe released Ghost 0.3.2 on October 14, 2013 — an open-source Node.js publishing platform focused on blogging.",
-      "about": "Ghost shipped a Markdown editor, clean themes, and a Node.js stack — a deliberate alternative to WordPress bloat. Funded by a record-breaking Kickstarter, it became the default open-source choice for developers who wanted a fast, content-first blog engine.",
+      "summary": "John O'Nolan and Hannah Wolfe released Ghost 0.3.2 on October 14, 2013 — an open-source [Node.js] publishing platform focused on blogging.",
+      "about": "Ghost shipped a Markdown editor, clean themes, and a [Node.js] stack — a deliberate alternative to [WordPress] bloat. Funded by a record-breaking Kickstarter, it became the default open-source choice for developers who wanted a fast, content-first blog engine.",
       "narrative": {
-        "whyChosen": "Ghost proved a modern JavaScript [CMS] could compete with WordPress for publishing.",
+        "whyChosen": "Ghost proved a modern JavaScript [CMS] could compete with [WordPress] for publishing.",
         "whyImportant": "It championed simplicity and speed when [CMS] platforms were growing ever more complex.",
         "problemSolved": "Bloggers wanted a focused writing tool, not a general-purpose [CMS] with thousands of plugins."
       },
@@ -54,8 +54,8 @@
       "date": "2013-10-17",
       "datePrecision": "day",
       "title": "Internet Explorer 11 released",
-      "summary": "Microsoft released [Internet Explorer] 11 on October 17, 2013 with Windows 8.1 — the final major [Internet Explorer] version before Edge.",
-      "about": "[IE] 11 improved WebGL, SPDY, and developer tools while supporting legacy ActiveX and enterprise intranet sites. It remained the Windows default until Edge in 2015 and lingered as [IE] mode inside Edge for years.",
+      "summary": "[Microsoft] released [Internet Explorer] 11 on October 17, 2013 with Windows 8.1 — the final major [Internet Explorer] version before [Edge].",
+      "about": "[IE] 11 improved WebGL, SPDY, and developer tools while supporting legacy ActiveX and enterprise intranet sites. It remained the Windows default until [Edge] in 2015 and lingered as [IE] mode inside [Edge] for years.",
       "narrative": {
         "whyChosen": "[IE] 11 was the last [Internet Explorer] most enterprises ever standardized on.",
         "whyImportant": "Its compatibility modes kept intranet apps running while the web moved to modern engines.",
@@ -110,12 +110,12 @@
       "date": "2013-10-22",
       "datePrecision": "day",
       "title": "Safari 7 released",
-      "summary": "Apple released Safari 7 on October 22, 2013 with [OS] X Mavericks — adding Shared Links, Power Saver, and improved JavaScript performance.",
-      "about": "Safari 7 focused on battery life and reading: Power Saver reduced plugin activity; Shared Links surfaced Twitter and LinkedIn in the sidebar. It kept Safari the default Mac browser as Chrome crossed 50% market share globally.",
+      "summary": "Apple released [Safari] 7 on October 22, 2013 with [OS] X Mavericks — adding Shared Links, Power Saver, and improved JavaScript performance.",
+      "about": "[Safari] 7 focused on battery life and reading: Power Saver reduced plugin activity; Shared Links surfaced Twitter and LinkedIn in the sidebar. It kept [Safari] the default Mac browser as [Chrome] crossed 50% market share globally.",
       "narrative": {
-        "whyChosen": "Safari 7 emphasized power efficiency as laptops became the primary Mac form factor.",
+        "whyChosen": "[Safari] 7 emphasized power efficiency as laptops became the primary Mac form factor.",
         "whyImportant": "Power Saver foreshadowed Apple's focus on battery-aware browsing.",
-        "problemSolved": "Flash and heavy plugins drained laptop batteries during everyday browsing."
+        "problemSolved": "[Flash] and heavy plugins drained laptop batteries during everyday browsing."
       },
       "category": "software",
       "tags": [

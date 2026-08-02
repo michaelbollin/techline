@@ -58,11 +58,11 @@
       "date": "2009-12-14",
       "datePrecision": "day",
       "title": "First commercial LTE networks launch",
-      "summary": "TeliaSonera turned on commercial LTE service in Stockholm and Oslo on December 14, 2009 — the first operator deployment marketed as 4G mobile broadband.",
-      "about": "LTE replaced circuit-switched voice assumptions with an all-IP radio optimized for data — tens of megabits to phones and LTE dongles. Developers built streaming video, real-time maps, and push notifications assuming LTE-class latency and throughput. Verizon and others followed within months, making mobile APIs practical for everyday apps.",
+      "summary": "TeliaSonera turned on commercial [LTE] service in Stockholm and Oslo on December 14, 2009 — the first operator deployment marketed as 4G mobile broadband.",
+      "about": "[LTE] replaced circuit-switched voice assumptions with an all-[IP] radio optimized for data — tens of megabits to phones and [LTE] dongles. Developers built streaming video, real-time maps, and push notifications assuming [LTE]-class latency and throughput. Verizon and others followed within months, making mobile APIs practical for everyday apps.",
       "narrative": {
-        "whyChosen": "TeliaSonera's LTE launch was the first commercial 4G data network operators could sell to the public.",
-        "whyImportant": "LTE made mobile broadband fast enough to treat phones as primary internet devices.",
+        "whyChosen": "TeliaSonera's [LTE] launch was the first commercial 4G data network operators could sell to the public.",
+        "whyImportant": "[LTE] made mobile broadband fast enough to treat phones as primary internet devices.",
         "problemSolved": "3G capacity and latency could not support HD video and always-on cloud sync at scale."
       },
       "category": "protocol",

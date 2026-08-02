@@ -6,12 +6,12 @@
       "date": "2013-05-29",
       "datePrecision": "day",
       "title": "React open-sourced at JSConf US",
-      "summary": "Facebook open-sourced React at JSConf US on May 29, 2013 — a declarative [UI] library with a virtual DOM.",
-      "about": "React models [UI] as a function of state — components re-render when data changes, React diffs a virtual DOM and updates the real one efficiently. Powers Facebook, Instagram, Netflix frontends, Next.js, React Native mobile apps, and most modern SPAs. JSX mixes markup with JavaScript (controversial at launch, standard now).",
+      "summary": "[Facebook] open-sourced [React] at JSConf US on May 29, 2013 — a declarative [UI] library with a virtual DOM.",
+      "about": "[React] models [UI] as a function of state — components re-render when data changes, [React] diffs a virtual DOM and updates the real one efficiently. Powers [Facebook], Instagram, Netflix frontends, Next.js, [React] Native mobile apps, and most modern SPAs. JSX mixes markup with JavaScript (controversial at launch, standard now).",
       "narrative": {
-        "whyChosen": "React became the dominant frontend library and shifted the industry to component-based declarative [UI].",
+        "whyChosen": "[React] became the dominant frontend library and shifted the industry to component-based declarative [UI].",
         "whyImportant": "The virtual DOM and one-way data flow influenced Vue, Svelte, and every major [UI] toolkit that followed.",
-        "problemSolved": "Large Facebook UIs were hard to keep consistent; manual DOM sync did not scale with growing feature sets."
+        "problemSolved": "Large [Facebook] UIs were hard to keep consistent; manual DOM sync did not scale with growing feature sets."
       },
       "category": "software",
       "tags": [
@@ -59,12 +59,12 @@
       "date": "2013-05-15",
       "datePrecision": "day",
       "title": "Android Studio announced",
-      "summary": "Google announced Android Studio at Google I/O on May 15, 2013 — a dedicated Android [IDE] built on the IntelliJ Platform.",
-      "about": "Android Studio replaced Eclipse ADT with Gradle builds, layout editors, emulators, and Kotlin-first tooling. It became the only officially supported Android [IDE] by 2015 — where millions of mobile developers write Java, Kotlin, and Jetpack Compose apps.",
+      "summary": "Google announced [Android] Studio at [Google I/O] on May 15, 2013 — a dedicated [Android] [IDE] built on the IntelliJ Platform.",
+      "about": "[Android] Studio replaced Eclipse ADT with [Gradle] builds, layout editors, emulators, and [Kotlin]-first tooling. It became the only officially supported [Android] [IDE] by 2015 — where millions of mobile developers write [Java], [Kotlin], and Jetpack Compose apps.",
       "narrative": {
-        "whyChosen": "Android Studio consolidated Android development onto JetBrains' [IDE] platform under Google.",
-        "whyImportant": "It ended the fragmented Eclipse plugin era for mobile Android teams.",
-        "problemSolved": "Android developers juggled Eclipse plugins, Ant builds, and inconsistent emulator workflows."
+        "whyChosen": "[Android] Studio consolidated [Android] development onto JetBrains' [IDE] platform under Google.",
+        "whyImportant": "It ended the fragmented Eclipse plugin era for mobile [Android] teams.",
+        "problemSolved": "[Android] developers juggled Eclipse plugins, Ant builds, and inconsistent emulator workflows."
       },
       "category": "software",
       "tags": [

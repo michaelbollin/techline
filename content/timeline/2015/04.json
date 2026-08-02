@@ -6,10 +6,10 @@
       "date": "2015-04-07",
       "datePrecision": "day",
       "title": "Netlify launched",
-      "summary": "Mathias Biilmann and Christian Bach publicly launched [Netlify] on April 7, 2015 — a Git-based platform for deploying static sites and JAMstack apps to a global CDN.",
-      "about": "[Netlify] connected Git pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before [Vercel] dominated [React] [SSR].",
+      "summary": "Mathias Biilmann and Christian Bach publicly launched [Netlify] on April 7, 2015 — a [Git]-based platform for deploying static sites and JAMstack apps to a global CDN.",
+      "about": "[Netlify] connected [Git] pushes to automatic builds and CDN deploys — no server configuration. It coined the JAMstack term and became the default hosting layer for Gatsby, Hugo, and later Next.js static exports before [Vercel] dominated [React] [SSR].",
       "narrative": {
-        "whyChosen": "[Netlify] pioneered Git-to-CDN deploys for static and JAMstack sites.",
+        "whyChosen": "[Netlify] pioneered [Git]-to-CDN deploys for static and JAMstack sites.",
         "whyImportant": "It made frontend deploys as simple as `git push` for thousands of developers.",
         "problemSolved": "[Teams] manually [FTP]'d build artifacts or managed [nginx] configs for every static site."
       },
@@ -63,7 +63,7 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S6 released",
       "summary": "Samsung began selling the Samsung Galaxy S6 — glass-and-metal redesign dropped removable battery for premium build quality.",
-      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Glass-and-metal redesign dropped removable battery for premium build quality. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to [iPhone]. Glass-and-metal redesign dropped removable battery for premium build quality. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy S6 continued Samsung's annual [Android] flagship cadence.",
         "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
@@ -126,7 +126,7 @@
       "datePrecision": "day",
       "title": "Apple Watch released",
       "summary": "Apple began selling the Apple Watch on April 24, 2015 — a smartwatch running watchOS with a new app [SDK] and Digital Crown input.",
-      "about": "watchOS brought Swift/UIKit extensions to the wrist — complications, health sensors, and glanceable notifications. Developers built companion apps paired with iPhone backends; Apple later added cellular models and native App Store distribution on-watch. It opened wearable computing as a mainstream platform beyond fitness bands.",
+      "about": "watchOS brought [Swift]/UIKit extensions to the wrist — complications, health sensors, and glanceable notifications. Developers built companion apps paired with [iPhone] backends; Apple later added cellular models and native [App Store] distribution on-watch. It opened wearable computing as a mainstream platform beyond fitness bands.",
       "narrative": {
         "whyChosen": "The Apple Watch launched watchOS as a first-class Apple developer platform.",
         "whyImportant": "It created a new form factor for companion apps, health APIs, and glanceable [UI] patterns.",
@@ -182,12 +182,12 @@
       "date": "2015-04-28",
       "datePrecision": "day",
       "title": "Caddy first released",
-      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a Go web server with [HTTP]/2 support and a simple configuration format.",
-      "about": "Caddy later added automatic Let's Encrypt [HTTPS] (from v0.8 in December 2015) — `caddy reverse-proxy` could terminate [TLS] without manual certbot steps. Its Caddyfile config and JSON [API] made it popular for dev proxies, static sites, and [API] gateways.",
+      "summary": "Matt Holt released Caddy v0.5.0 on April 28, 2015 — a [Go] web server with [HTTP]/2 support and a simple configuration format.",
+      "about": "Caddy later added automatic Let's Encrypt [HTTPS] (from v0.8 in December 2015) — `caddy reverse-proxy` could terminate [TLS] without manual certbot steps. Its Caddyfile config and [JSON] [API] made it popular for dev proxies, static sites, and [API] gateways.",
       "narrative": {
         "whyChosen": "Caddy made automatic [HTTPS] a default feature, not an afterthought.",
-        "whyImportant": "It showed a modern web server could be simple, secure, and written in Go.",
-        "problemSolved": "Configuring [TLS] certificates and [HTTP]/2 on nginx or Apache remained painful for small teams."
+        "whyImportant": "It showed a modern web server could be simple, secure, and written in [Go].",
+        "problemSolved": "Configuring [TLS] certificates and [HTTP]/2 on [nginx] or Apache remained painful for small teams."
       },
       "category": "software",
       "tags": [
@@ -238,12 +238,12 @@
       "date": "2015-04-29",
       "datePrecision": "day",
       "title": "Visual Studio Code preview released",
-      "summary": "Microsoft released the Visual Studio Code preview on April 29, 2015 — a free, cross-platform editor with IntelliSense, debugging, and Git integration.",
-      "about": "VS Code is the default editor for millions of developers — TypeScript/JavaScript, Python, Go, Rust, and more via extensions. It is Electron-based but keyboard-centric: multi-cursor editing, integrated terminal, [debugger], and Git diff view. It displaced Atom and challenged JetBrains for everyday editing.",
+      "summary": "[Microsoft] released the [Visual Studio] Code preview on April 29, 2015 — a free, cross-platform editor with IntelliSense, debugging, and [Git] integration.",
+      "about": "VS Code is the default editor for millions of developers — [TypeScript]/JavaScript, [Python], [Go], [Rust], and more via extensions. It is Electron-based but keyboard-centric: multi-cursor editing, integrated terminal, [debugger], and [Git] diff view. It displaced Atom and challenged JetBrains for everyday editing.",
       "narrative": {
-        "whyChosen": "VS Code proved Microsoft could win developer mindshare with a free, cross-platform editor.",
+        "whyChosen": "VS Code proved [Microsoft] could win developer mindshare with a free, cross-platform editor.",
         "whyImportant": "It became the hub for LSP-based language support and the most popular dev tool in surveys.",
-        "problemSolved": "Developers on Mac and Linux lacked a lightweight Microsoft-grade editor with solid debugging and Git."
+        "problemSolved": "Developers on Mac and Linux lacked a lightweight [Microsoft]-grade editor with solid debugging and [Git]."
       },
       "category": "software",
       "tags": [

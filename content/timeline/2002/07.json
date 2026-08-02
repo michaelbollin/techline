@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Sarbanes-Oxley Act signed into U.S. law",
       "summary": "President Bush signed the Sarbanes-Oxley Act on July 30, 2002 — imposing strict financial reporting and internal-control requirements on U.S. public companies after Enron and WorldCom scandals.",
-      "about": "SOX made going public more expensive: Section 404 internal-control audits, CEO/CFO certifications, and heavier compliance teams. Many tech startups delayed IPOs or stayed private longer; public [SaaS] companies built audit trails into engineering and finance systems that private firms later copied voluntarily.",
+      "about": "SOX made going public more expensive: Section 404 internal-control audits, CEO/CFO certifications, and heavier [compliance] teams. Many tech startups delayed IPOs or stayed private longer; public [SaaS] companies built audit trails into engineering and finance systems that private firms later copied voluntarily.",
       "narrative": {
         "whyChosen": "SOX reshaped how public tech companies govern code, data, and financial systems.",
-        "whyImportant": "Compliance overhead changed the calculus of IPO timing for venture-backed startups.",
+        "whyImportant": "[compliance] overhead changed the calculus of [IPO] timing for venture-backed startups.",
         "problemSolved": "Investors had lost trust after accounting fraud at major corporations; markets needed enforceable transparency rules."
       },
       "category": "culture",

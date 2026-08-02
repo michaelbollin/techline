@@ -6,12 +6,12 @@
       "date": "1950-10",
       "datePrecision": "month",
       "title": "Turing publishes Computing Machinery and Intelligence",
-      "summary": "Alan Turing's October 1950 Mind paper asked whether machines can think and proposed the imitation game — now called the Turing test.",
-      "about": "Turing reframed intelligence as behavior observable over a [teletype] conversation, not inner experience. The paper anticipated machine learning objections, consciousness debates, and every chatbot benchmark that followed — from ELIZA to modern LLM evals.",
+      "summary": "Alan [Turing]'s October 1950 Mind paper asked whether machines can think and proposed the [imitation game] — now called the [Turing test].",
+      "about": "[Turing] reframed intelligence as behavior observable over a [teletype] conversation, not inner experience. The paper anticipated [machine learning] objections, consciousness debates, and every chatbot [benchmark] that followed — from ELIZA to modern [LLM] evals.",
       "narrative": {
-        "whyChosen": "This is the founding document of philosophy-of-AI and practical machine intelligence testing.",
+        "whyChosen": "This is the founding document of philosophy-of-AI and practical [machine intelligence] testing.",
         "whyImportant": "It gave researchers a concrete experiment instead of endless definitions of 'thinking.'",
-        "problemSolved": "There was no operational way to discuss machine intelligence without metaphysics."
+        "problemSolved": "There was no operational way to discuss [machine intelligence] without metaphysics."
       },
       "category": "ai",
       "tags": [

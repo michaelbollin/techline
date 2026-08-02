@@ -6,10 +6,10 @@
       "date": "2016-11-17",
       "datePrecision": "day",
       "title": "Helm 2.0 released",
-      "summary": "The [Kubernetes] Helm project shipped Helm 2.0.0 on November 17, 2016 — a package manager for [Kubernetes] applications using versioned charts.",
-      "about": "Helm packages [Kubernetes] manifests into charts — `helm install myapp ./chart` deploys Deployments, Services, and ConfigMaps with templated values. Tiller (the in-cluster server in Helm 2) managed releases and rollbacks. It became how teams ship databases, ingress controllers, and microservice stacks on [Kubernetes].",
+      "summary": "The [Kubernetes] [Helm] project shipped [Helm] 2.0.0 on November 17, 2016 — a package manager for [Kubernetes] applications using versioned charts.",
+      "about": "[Helm] packages [Kubernetes] manifests into charts — `helm install myapp ./chart` deploys Deployments, Services, and ConfigMaps with templated values. Tiller (the in-cluster server in [Helm] 2) managed releases and rollbacks. It became how teams ship databases, ingress controllers, and microservice stacks on [Kubernetes].",
       "narrative": {
-        "whyChosen": "Helm 2 merged Deis Helm Classic and Google's Deployment Manager into [Kubernetes]'s package manager.",
+        "whyChosen": "[Helm] 2 merged Deis [Helm] Classic and Google's Deployment Manager into [Kubernetes]'s package manager.",
         "whyImportant": "Charts made repeatable, shareable [Kubernetes] deployments as routine as `apt install`.",
         "problemSolved": "Raw YAML sprawl made it hard to version, share, and roll back complex [Kubernetes] applications."
       },

@@ -25,7 +25,7 @@
       "datePrecision": "day",
       "title": "Patrick Volkerding releases Slackware Linux",
       "summary": "Patrick Volkerding released Slackware 1.0 on July 17, 1993 — one of the earliest maintained Linux distributions.",
-      "about": "Slackware prioritized simplicity and Unix-like purity — influencing how early Linux users installed servers and desktops. Volkerding has maintained it for decades as one of the longest-running distro projects.",
+      "about": "Slackware prioritized simplicity and [Unix]-like purity — influencing how early Linux users installed servers and desktops. Volkerding has maintained it for decades as one of the longest-running distro projects.",
       "narrative": {
         "whyChosen": "Slackware is the oldest surviving Linux distribution still maintained by its founder.",
         "whyImportant": "It helped standardize early Linux packaging and installation practices.",
@@ -58,10 +58,10 @@
       "date": "1993-07-27",
       "datePrecision": "day",
       "title": "Windows NT 3.1 released",
-      "summary": "Microsoft released Windows NT 3.1 on July 27, 1993 — a 32-bit operating system with the NT [kernel], [POSIX] subsystem, and Win32 [API].",
-      "about": "NT brought preemptive multitasking, security ACLs, and Unicode to Windows — the lineage behind Windows XP, Server, and Azure hosts. Developers got a stable Win32 platform for servers and workstations separate from the [DOS]-based Windows 3.x line.",
+      "summary": "[Microsoft] released Windows NT 3.1 on July 27, 1993 — a 32-bit operating system with the NT [kernel], [POSIX] subsystem, and Win32 [API].",
+      "about": "NT brought preemptive multitasking, security ACLs, and [Unicode] to Windows — the lineage behind Windows XP, Server, and [Azure] hosts. Developers got a stable Win32 platform for servers and workstations separate from the [DOS]-based Windows 3.x line.",
       "narrative": {
-        "whyChosen": "Windows NT was Microsoft's clean-slate 32-bit [OS] for servers and professionals.",
+        "whyChosen": "Windows NT was [Microsoft]'s clean-slate 32-bit [OS] for servers and professionals.",
         "whyImportant": "The NT [kernel] still underpins modern Windows and enterprise deployments.",
         "problemSolved": "[DOS]-based Windows could not scale to servers, security, or heavy multitasking."
       },

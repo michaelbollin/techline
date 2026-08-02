@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "DEC PDP-8 unveiled",
       "summary": "Digital Equipment Corporation unveiled the PDP-8 on March 22, 1965 — the first commercially successful [minicomputer], with shipments beginning in April 1965.",
-      "about": "The PDP-8 was small enough and cheap enough ($18,000) for labs, factories, and universities to own their own computer. Teams programmed in assembly and [BASIC] on teletypes; DEC's [minicomputer] line trained a generation of systems programmers before PCs arrived. Unix and C were developed on PDP machines at Bell Labs.",
+      "about": "The PDP-8 was small enough and cheap enough ($18,000) for labs, factories, and universities to own their own computer. [Teams] programmed in assembly and [BASIC] on teletypes; DEC's [minicomputer] line trained a generation of systems programmers before PCs arrived. [Unix] and C were developed on PDP machines at Bell Labs.",
       "narrative": {
         "whyChosen": "The PDP-8 created the [minicomputer] category and democratized access beyond [mainframe] datacenters.",
         "whyImportant": "It put interactive computing in departments that could never afford [IBM] mainframes.",

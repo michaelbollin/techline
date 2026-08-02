@@ -6,10 +6,10 @@
       "date": "2018-12-05",
       "datePrecision": "day",
       "title": "FastAPI first released",
-      "summary": "Sebastián Ramírez released FastAPI on December 5, 2018 — an async Python [API] framework with automatic OpenAPI docs.",
-      "about": "FastAPI uses Python type hints and Pydantic for validation, Starlette for async I/O, and auto-generates Swagger [UI] docs. Used for ML inference APIs, microservices, and high-throughput backends. Example: `async def read_item(item_id: int)` with request/response schemas enforced at runtime and documented for free.",
+      "summary": "Sebastián Ramírez released FastAPI on December 5, 2018 — an async [Python] [API] framework with automatic OpenAPI docs.",
+      "about": "FastAPI uses [Python] type hints and Pydantic for validation, Starlette for async I/O, and auto-generates Swagger [UI] docs. Used for ML [inference] APIs, [microservices], and high-throughput backends. Example: `async def read_item(item_id: int)` with request/response schemas enforced at runtime and documented for free.",
       "narrative": {
-        "whyChosen": "FastAPI became the default for new Python APIs when async and OpenAPI docs mattered.",
+        "whyChosen": "FastAPI became the default for new [Python] APIs when async and OpenAPI docs mattered.",
         "whyImportant": "It showed type hints could drive validation, serialization, and documentation in one cohesive framework.",
         "problemSolved": "Flask lacked native async and automatic [API] schemas; teams bolted on Marshmallow and manual Swagger."
       },
@@ -57,11 +57,11 @@
       "datePrecision": "day",
       "title": "Flutter 1.0 released",
       "summary": "Google released Flutter 1.0 on December 4, 2018 at Flutter Live — a [UI] toolkit for building native apps from a single Dart codebase.",
-      "about": "Flutter compiles to native ARM code on iOS and Android with a custom rendering engine (Skia) — hot reload, Material/Cupertino widgets, and one codebase for mobile, web, and desktop. It became the main alternative to React Native for cross-platform mobile apps.",
+      "about": "Flutter compiles to native [ARM] code on [iOS] and [Android] with a custom rendering engine (Skia) — hot reload, Material/Cupertino widgets, and one codebase for mobile, web, and desktop. It became the main alternative to [React] Native for cross-platform mobile apps.",
       "narrative": {
         "whyChosen": "Flutter 1.0 made cross-platform native [UI] a Google-backed product, not an experiment.",
         "whyImportant": "It proved custom rendering could beat WebView bridges for mobile performance.",
-        "problemSolved": "Teams maintained separate iOS and Android UIs or accepted hybrid WebView limitations."
+        "problemSolved": "[Teams] maintained separate [iOS] and [Android] UIs or accepted hybrid WebView limitations."
       },
       "category": "software",
       "tags": [
@@ -111,11 +111,11 @@
       "date": "2018-12-06",
       "datePrecision": "day",
       "title": "WordPress 5.0 released",
-      "summary": "WordPress 5.0 \"Bebo\" shipped on December 6, 2018 with Gutenberg — a block-based editor replacing the classic writing experience.",
-      "about": "Gutenberg splits content into blocks (paragraphs, images, columns) edited in a React-powered [UI] — the biggest UX change in WordPress history. Themes and plugins adapted to block patterns; controversy drove the Classic Editor plugin, but blocks became the platform's future.",
+      "summary": "[WordPress] 5.0 \"Bebo\" shipped on December 6, 2018 with Gutenberg — a block-based editor replacing the classic writing experience.",
+      "about": "Gutenberg splits content into blocks (paragraphs, images, columns) edited in a [React]-powered [UI] — the biggest UX change in [WordPress] history. Themes and plugins adapted to block patterns; controversy drove the Classic Editor plugin, but blocks became the platform's future.",
       "narrative": {
-        "whyChosen": "WordPress 5.0's Gutenberg editor redefined how millions publish content.",
-        "whyImportant": "Block editing aligned WordPress with modern page builders and component-based UIs.",
+        "whyChosen": "[WordPress] 5.0's Gutenberg editor redefined how millions publish content.",
+        "whyImportant": "Block editing aligned [WordPress] with modern page builders and component-based UIs.",
         "problemSolved": "The classic TinyMCE editor could not compete with visual builders or structured content needs."
       },
       "category": "software",
@@ -162,8 +162,8 @@
       "date": "2018-12-07",
       "datePrecision": "day",
       "title": "PyTorch 1.0 released",
-      "summary": "Facebook AI Research released PyTorch 1.0 on December 7, 2018 at NeurIPS — adding production deployment via TorchScript and a stable [API].",
-      "about": "PyTorch 1.0 bridged research and production: `torch.jit.script` compiled models for C++ inference, and the Caffe2 backend merged into PyTorch for mobile deployment. It marked the framework's transition from academic toy to infrastructure for Meta, Tesla, and OpenAI training runs.",
+      "summary": "[Facebook] AI Research released PyTorch 1.0 on December 7, 2018 at NeurIPS — adding production deployment via TorchScript and a stable [API].",
+      "about": "PyTorch 1.0 bridged research and production: `torch.jit.script` compiled models for C++ [inference], and the Caffe2 backend merged into PyTorch for mobile deployment. It marked the framework's transition from academic toy to infrastructure for Meta, Tesla, and [OpenAI] training runs.",
       "narrative": {
         "whyChosen": "PyTorch 1.0 made the framework production-ready without sacrificing research ergonomics.",
         "whyImportant": "TorchScript and stable APIs let teams ship models trained in notebooks to serving infrastructure.",

@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "iTunes 1.0 released",
       "summary": "Apple released [iTunes] 1.0 on January 9, 2001 at Macworld — a jukebox app for ripping, organizing, and playing digital music on the Mac.",
-      "about": "[iTunes] became the hub for the iPod, the [iTunes] Store, and iPhone sync — shaping how developers thought about media libraries and [DRM]. Its playlist model and AAC encoding influenced streaming apps that replaced it, but for a decade it was the default way users managed music on Apple devices.",
+      "about": "[iTunes] became the hub for the iPod, the [iTunes] Store, and [iPhone] sync — shaping how developers thought about media libraries and [DRM]. Its playlist model and AAC encoding influenced streaming apps that replaced it, but for a decade it was the default way users managed music on Apple devices.",
       "narrative": {
         "whyChosen": "[iTunes] was Apple's software foundation for the iPod and digital music era.",
         "whyImportant": "It proved desktop sync software could drive hardware sales and later app ecosystems.",
@@ -61,12 +61,12 @@
       "date": "2001-01",
       "datePrecision": "month",
       "title": "IntelliJ IDEA released",
-      "summary": "JetBrains shipped IntelliJ IDEA in January 2001 — a Java [IDE] with deep code navigation, refactoring, and static analysis built in.",
-      "about": "IntelliJ IDEA popularized smart autocomplete, safe rename, and extract-method refactors in Java before competitors caught up. It grew into a platform for Kotlin, Android Studio, and plugin ecosystems spanning Python, Go, and Rust. Teams still benchmark other IDEs against its refactoring and find-usages accuracy.",
+      "summary": "JetBrains shipped IntelliJ IDEA in January 2001 — a [Java] [IDE] with deep code navigation, [refactoring], and static analysis built in.",
+      "about": "IntelliJ IDEA popularized smart autocomplete, safe rename, and extract-method refactors in [Java] before competitors caught up. It grew into a platform for [Kotlin], [Android] Studio, and plugin ecosystems spanning [Python], [Go], and [Rust]. [Teams] still [benchmark] other IDEs against its [refactoring] and find-usages accuracy.",
       "narrative": {
         "whyChosen": "IntelliJ IDEA set the bar for [IDE] intelligence and influenced every major editor since.",
         "whyImportant": "It proved developers would pay for tooling that understands code structure, not just text.",
-        "problemSolved": "Early Java IDEs were glorified text editors; large codebases needed automated navigation and safe refactors."
+        "problemSolved": "Early [Java] IDEs were glorified text editors; large codebases needed automated navigation and safe refactors."
       },
       "category": "software",
       "tags": [

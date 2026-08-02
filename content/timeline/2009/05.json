@@ -6,11 +6,11 @@
       "date": "2009-05-27",
       "datePrecision": "day",
       "title": "Node.js first released",
-      "summary": "Ryan Dahl released Node.js on May 27, 2009 — server-side JavaScript on Google's V8 with an event loop.",
-      "about": "Node.js runs JavaScript outside the browser for APIs, CLIs, and real-time servers. Its non-blocking I/O model powers npm's ecosystem — Express, NestJS, webpack, and millions of packages. Example: a chat server handling thousands of WebSocket connections on one thread via callbacks and later async/await.",
+      "summary": "Ryan Dahl released [Node.js] on May 27, 2009 — server-side JavaScript on Google's [V8] with an event loop.",
+      "about": "[Node.js] runs JavaScript outside the browser for APIs, CLIs, and real-time servers. Its non-blocking I/O model powers [npm]'s ecosystem — Express, NestJS, webpack, and millions of packages. Example: a chat server handling thousands of WebSocket connections on one thread via callbacks and later async/await.",
       "narrative": {
-        "whyChosen": "Node made JavaScript a full-stack language and reshaped how teams build web backends.",
-        "whyImportant": "V8 plus an event loop proved JS could handle I/O-bound servers at scale, not just browser [UI].",
+        "whyChosen": "[Node] made JavaScript a full-stack language and reshaped how teams build web backends.",
+        "whyImportant": "[V8] plus an event loop proved JS could handle I/O-bound servers at scale, not just browser [UI].",
         "problemSolved": "Server frameworks blocked on each request; Dahl wanted C10k-style concurrency with a language front-end devs already knew."
       },
       "category": "software",
@@ -57,12 +57,12 @@
       "date": "2009-05-20",
       "datePrecision": "day",
       "title": "Homebrew first released",
-      "summary": "Max Howell released [Homebrew] on May 20, 2009 — a macOS package manager that installs command-line tools into `/usr/local` without sudo for most packages.",
-      "about": "[Homebrew] uses Ruby formulas to fetch, compile, and link [CLI] tools — `brew install wget`, `brew install node`, thousands of packages. It replaced MacPorts and Fink for many developers and later added Linux and WSL support. Example: install `git`, `ripgrep`, and `ffmpeg` with one package manager on a fresh Mac.",
+      "summary": "Max Howell released [Homebrew] on May 20, 2009 — a [macOS] package manager that installs command-line tools into `/usr/local` without sudo for most packages.",
+      "about": "[Homebrew] uses [Ruby] formulas to fetch, compile, and link [CLI] tools — `brew install wget`, `brew install node`, thousands of packages. It replaced MacPorts and Fink for many developers and later added Linux and WSL support. Example: install `git`, `ripgrep`, and `ffmpeg` with one package manager on a fresh Mac.",
       "narrative": {
-        "whyChosen": "[Homebrew] made installing developer tools on macOS as easy as apt on Linux.",
+        "whyChosen": "[Homebrew] made installing developer tools on [macOS] as easy as apt on Linux.",
         "whyImportant": "It became the default way Mac developers bootstrap their command-line environment.",
-        "problemSolved": "macOS shipped without a friendly package manager for open-source [CLI] utilities."
+        "problemSolved": "[macOS] shipped without a friendly package manager for open-source [CLI] utilities."
       },
       "category": "software",
       "tags": [

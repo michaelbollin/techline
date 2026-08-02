@@ -176,9 +176,9 @@
       "date": "2026-06-12",
       "datePrecision": "day",
       "title": "Anthropic disables Fable 5 and Mythos 5",
-      "quoteText": "The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.",
-      "summary": "Three days after launch, a U.S. export-control directive forces Anthropic to pull its frontier models offline worldwide.",
-      "about": "Commerce ordered Anthropic to block foreign nationals from using Fable and Mythos — including employees in the U.S. Because the [API] could not verify citizenship in real time, Anthropic shut both models off for everyone. The first time Washington used export controls on a deployed commercial frontier model, not just training chips.",
+      "quoteText": "The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure [compliance].",
+      "summary": "Three days after launch, a U.S. export-control directive forces [Anthropic] to pull its frontier models offline worldwide.",
+      "about": "Commerce ordered [Anthropic] to block foreign nationals from using Fable and Mythos — including employees in the U.S. Because the [API] could not verify citizenship in real time, [Anthropic] shut both models off for everyone. The first time Washington used export controls on a deployed commercial frontier model, not just training chips.",
       "narrative": {
         "whyChosen": "The sentence that turned AI safety rhetoric into a global product blackout.",
         "whyImportant": "It showed governments could recall frontier models days after launch over jailbreak fears.",
@@ -291,12 +291,12 @@
       "date": "2026-06-30",
       "datePrecision": "day",
       "title": "Anthropic Claude Sonnet 5 released",
-      "summary": "[Anthropic] released Claude Sonnet 5 on June 30, 2026 — the most agentic Sonnet yet, with near-Opus performance at $2/$10 per million tokens introductory pricing.",
+      "summary": "[Anthropic] released Claude Sonnet 5 on June 30, 2026 — the most [agentic] Sonnet yet, with near-Opus performance at $2/$10 per million tokens introductory pricing.",
       "about": "Sonnet 5 became the default for free and Pro Claude users — planning, browsing, and terminal tool use that previously required Opus tiers. It shipped weeks before Claude Fable 5's export-control drama and narrowed the gap between mid-tier and frontier pricing.",
       "narrative": {
-        "whyChosen": "Sonnet 5 brought agentic Opus-class behavior to [Anthropic]'s default tier.",
-        "whyImportant": "Introductory pricing undercut GPT-5.x for high-volume agent workloads.",
-        "problemSolved": "Teams wanted long-running agents without paying Opus or Fable rates on every task."
+        "whyChosen": "Sonnet 5 brought [agentic] Opus-class behavior to [Anthropic]'s default tier.",
+        "whyImportant": "Introductory pricing undercut [GPT]-5.x for high-volume agent workloads.",
+        "problemSolved": "[Teams] wanted long-running agents without paying Opus or Fable rates on every task."
       },
       "category": "software",
       "tags": [

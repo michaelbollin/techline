@@ -6,12 +6,12 @@
       "date": "2000-07-19",
       "datePrecision": "day",
       "title": "Apache Ant first released",
-      "summary": "The Apache Jakarta project shipped Ant 1.1 on July 19, 2000 — the first standalone release of the Java [XML] build tool.",
-      "about": "Ant runs builds from `build.xml` files — compile Java, jar artifacts, run tests, copy resources — without Make's platform quirks. It powered Tomcat, early enterprise Java, and later Maven's ecosystem. Example: `<target name=\"compile\"><javac srcdir=\"src\"/></target>` runs the same on Windows, macOS, and Linux.",
+      "summary": "The Apache Jakarta project shipped Ant 1.1 on July 19, 2000 — the first standalone release of the [Java] [XML] build tool.",
+      "about": "Ant runs builds from `build.xml` files — compile [Java], jar artifacts, run tests, copy resources — without Make's platform quirks. It powered Tomcat, early enterprise [Java], and later [Maven]'s ecosystem. Example: `<target name=\"compile\"><javac srcdir=\"src\"/></target>` runs the same on Windows, [macOS], and Linux.",
       "narrative": {
-        "whyChosen": "Ant made cross-platform Java builds practical before IDEs owned the workflow.",
-        "whyImportant": "[XML]-defined builds became the template Maven and Gradle later improved upon.",
-        "problemSolved": "Building Tomcat on many platforms with Make was fragile; Java needed its own portable build tool."
+        "whyChosen": "Ant made cross-platform [Java] builds practical before IDEs owned the workflow.",
+        "whyImportant": "[XML]-defined builds became the template [Maven] and [Gradle] later improved upon.",
+        "problemSolved": "Building Tomcat on many platforms with Make was fragile; [Java] needed its own portable build tool."
       },
       "category": "software",
       "tags": [

@@ -6,12 +6,12 @@
       "date": "1995-01",
       "datePrecision": "month",
       "title": "Jetty released",
-      "summary": "Greg Wilkins created Jetty in 1995 at Mort Bay Consulting — a lightweight Java [HTTP] server and servlet container that could embed inside applications.",
-      "about": "Jetty served Java servlets and JSPs without a full application server — embeddable in IDEs, appliances, and microservices decades before that term existed. It powered Eclipse, Google App Engine, and countless integration tests. While Tomcat became the reference servlet container, Jetty proved Java web stacks could stay small and embeddable.",
+      "summary": "Greg Wilkins created Jetty in 1995 at Mort Bay Consulting — a lightweight [Java] [HTTP] server and servlet [container] that could embed inside applications.",
+      "about": "Jetty served [Java] servlets and JSPs without a full application server — embeddable in IDEs, appliances, and [microservices] decades before that term existed. It powered Eclipse, Google [App Engine], and countless integration tests. While Tomcat became the reference servlet [container], Jetty proved [Java] web stacks could stay small and embeddable.",
       "narrative": {
-        "whyChosen": "Jetty was an early embeddable Java web server that outlived many heavyweight app servers.",
+        "whyChosen": "Jetty was an early embeddable [Java] web server that outlived many heavyweight app servers.",
         "whyImportant": "It showed servlet containers did not require monolithic enterprise [middleware].",
-        "problemSolved": "Java web apps needed [HTTP] and servlet support without deploying to a full J2EE server."
+        "problemSolved": "[Java] web apps needed [HTTP] and servlet support without deploying to a full J2EE server."
       },
       "category": "software",
       "tags": [

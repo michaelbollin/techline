@@ -6,10 +6,10 @@
       "date": "1980",
       "datePrecision": "year",
       "title": "Adele Goldberg co-releases Smalltalk-80",
-      "summary": "Adele Goldberg and the Xerox PARC team released Smalltalk-80 in 1980 — pioneering [GUI]s, [OOP], and live programming environments.",
-      "about": "Smalltalk influenced [Objective-C], Java, Ruby, and every IDE with a [REPL] or object browser. Goldberg famously showed Steve Jobs the Xerox [GUI] concepts that shaped the Macintosh.",
+      "summary": "Adele Goldberg and the Xerox PARC team released [Smalltalk]-80 in 1980 — pioneering [GUI]s, [OOP], and live programming environments.",
+      "about": "[Smalltalk] influenced [Objective-C], [Java], [Ruby], and every [IDE] with a [REPL] or object browser. Goldberg famously showed Steve Jobs the Xerox [GUI] concepts that shaped the Macintosh.",
       "narrative": {
-        "whyChosen": "Smalltalk-80 defined modern [OOP] and interactive development environments.",
+        "whyChosen": "[Smalltalk]-80 defined modern [OOP] and interactive development environments.",
         "whyImportant": "It proved objects and [GUI]s belonged together on personal computers.",
         "problemSolved": "Programming was [batch processing]-oriented without visual feedback or object metaphors."
       },

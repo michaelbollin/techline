@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "ARPANET switches to TCP/IP",
       "summary": "On January 1, 1983, [ARPANET] permanently replaced NCP with [TCP]/[IP] — the coordinated 'flag day' that became the foundation of the modern internet.",
-      "about": "[TCP]/[IP] splits networking into [IP] (routing packets between hosts) and [TCP] (reliable byte streams). Every [HTTP] request, SSH session, and database connection still rides this stack. The flag day meant all [ARPANET] hosts had to switch at once or lose connectivity — no gradual migration.",
+      "about": "[TCP]/[IP] splits networking into [IP] (routing packets between hosts) and [TCP] (reliable byte streams). Every [HTTP] request, [SSH] session, and database connection still rides this stack. The flag day meant all [ARPANET] hosts had to switch at once or lose connectivity — no gradual migration.",
       "narrative": {
         "whyChosen": "[TCP]/[IP] flag day is the birth moment of the interoperable internet protocol suite.",
         "whyImportant": "It let independent networks interconnect and scaled beyond a single research WAN.",

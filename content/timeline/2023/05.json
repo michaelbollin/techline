@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Dart 3 released",
       "summary": "Google released Dart 3 on May 10, 2023 with sound null safety as the only mode, records, patterns, and class modifiers.",
-      "about": "Dart 3 completed the null-safety migration for Flutter apps — fewer runtime null crashes on mobile. Records and patterns brought modern data modeling to Flutter widgets and server-side Dart, keeping one language for iOS, [Android], web, and desktop UIs.",
+      "about": "Dart 3 completed the null-safety migration for Flutter apps — fewer runtime null crashes on mobile. Records and patterns brought modern data modeling to Flutter widgets and server-side Dart, keeping one language for [iOS], [Android], web, and desktop UIs.",
       "narrative": {
         "whyChosen": "Dart 3 was the breaking cleanup Flutter needed for safer mobile apps.",
         "whyImportant": "Sound null safety by default reduced a whole class of production crashes.",
@@ -58,12 +58,12 @@
       "date": "2023-05-19",
       "datePrecision": "day",
       "title": "Erlang/OTP 26 released",
-      "summary": "The Erlang/OTP team released OTP 26 on May 19, 2023 with improved error messages, [JSON] support in the stdlib, and [JIT] enhancements.",
-      "about": "OTP 26 brought native [JSON] encoding/decoding to Erlang and Elixir without external libraries — simplifying APIs and config handling. Clearer crash reports and dialyzer improvements helped teams debug distributed systems faster.",
+      "summary": "The [Erlang]/[OTP] team released [OTP] 26 on May 19, 2023 with improved error messages, [JSON] support in the stdlib, and [JIT] enhancements.",
+      "about": "[OTP] 26 brought native [JSON] encoding/decoding to [Erlang] and [Elixir] without external libraries — simplifying APIs and config handling. Clearer crash reports and dialyzer improvements helped teams debug distributed systems faster.",
       "narrative": {
-        "whyChosen": "OTP 26 added stdlib [JSON] — a daily need for every BEAM web service.",
-        "whyImportant": "Built-in [JSON] reduced dependencies in Elixir and Erlang microservices.",
-        "problemSolved": "Teams relied on third-party [JSON] libraries with inconsistent APIs and performance."
+        "whyChosen": "[OTP] 26 added stdlib [JSON] — a daily need for every [BEAM] web service.",
+        "whyImportant": "Built-in [JSON] reduced dependencies in [Elixir] and [Erlang] [microservices].",
+        "problemSolved": "[Teams] relied on third-party [JSON] libraries with inconsistent APIs and performance."
       },
       "category": "software",
       "tags": [
@@ -109,7 +109,7 @@
       "datePrecision": "day",
       "title": "Hinton leaves Google over AI risk",
       "summary": "Geoffrey Hinton resigned from Google on May 1, 2023 to speak freely about existential risks from rapidly advancing AI — the godfather of [deep learning] sounding an alarm.",
-      "about": "Hinton had spent a decade at Google after AlexNet, but said he regretted his life's work as models scaled. His departure amplified global debate on AI safety, regulation, and the pace of deployment beyond academic circles.",
+      "about": "Hinton had spent a decade at Google after AlexNet, but said he regretted his life's work as models scaled. His departure amplified global debate on AI safety, [regulation], and the pace of deployment beyond academic circles.",
       "narrative": {
         "whyChosen": "Hinton's exit turned a research pioneer into the public face of AI-risk concern.",
         "whyImportant": "It lent credibility to safety advocacy from inside the [deep learning] establishment.",
@@ -167,11 +167,11 @@
       "date": "2023-05-16",
       "datePrecision": "day",
       "title": "Altman: AI can go quite wrong",
-      "summary": "OpenAI CEO Sam Altman tells the Senate Judiciary Committee that frontier AI needs government oversight — while arguing for licensing and safety testing.",
-      "about": "Altman walked a tightrope: urging [regulation] that could entrench incumbents while presenting OpenAI as the responsible actor. The line became the sound bite from the first major congressional hearing on [generative AI].",
+      "summary": "[OpenAI] CEO Sam Altman tells the Senate Judiciary Committee that frontier AI needs government oversight — while arguing for licensing and safety testing.",
+      "about": "Altman walked a tightrope: urging [regulation] that could entrench incumbents while presenting [OpenAI] as the responsible actor. The line became the sound bite from the first major congressional hearing on [generative AI].",
       "narrative": {
-        "whyChosen": "The defining quote from Congress's first ChatGPT-era AI hearing.",
-        "whyImportant": "It mainstreamed AI risk talk in Washington months after ChatGPT's launch.",
+        "whyChosen": "The defining quote from Congress's first [ChatGPT]-era AI hearing.",
+        "whyImportant": "It mainstreamed AI risk talk in Washington months after [ChatGPT]'s launch.",
         "problemSolved": "Lawmakers needed a vocabulary for catastrophic AI failure from industry itself."
       },
       "category": "quote",

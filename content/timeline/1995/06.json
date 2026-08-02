@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "PHP Tools 1.0 announced",
       "summary": "Rasmus Lerdorf announced Personal Home Page Tools (PHP Tools) 1.0 on Usenet — the first release bearing the name PHP.",
-      "about": "PHP started as C CGI binaries for dynamic personal home pages — guestbooks, hit counters, and form handling before databases were standard on the web. It grew into the server-side language behind WordPress, Wikipedia (MediaWiki), Facebook's early stack, and millions of `.php` sites. Today it still powers a large share of the web via Laravel, Symfony, and WordPress.",
+      "about": "PHP started as C CGI binaries for dynamic personal home pages — guestbooks, hit counters, and form handling before databases were standard on the web. It grew into the server-side language behind [WordPress], [Wikipedia] (MediaWiki), [Facebook]'s early stack, and millions of `.php` sites. Today it still powers a large share of the web via Laravel, [Symfony], and [WordPress].",
       "narrative": {
         "whyChosen": "PHP made server-side web programming accessible on cheap shared hosting — upload a file, it runs.",
         "whyImportant": "It democratized dynamic websites the way JavaScript later democratized front-end interactivity.",
-        "problemSolved": "Static [HTML] could not handle forms, logs, or counters; Lerdorf needed simple CGI tools without Perl or Tcl on his host."
+        "problemSolved": "Static [HTML] could not handle forms, logs, or counters; Lerdorf needed simple CGI tools without [Perl] or Tcl on his host."
       },
       "category": "software",
       "tags": [

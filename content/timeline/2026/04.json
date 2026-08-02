@@ -6,12 +6,12 @@
       "date": "2026-04-26",
       "datePrecision": "day",
       "title": "OpenAI Sora consumer app shut down",
-      "summary": "OpenAI discontinued the Sora consumer app on April 26, 2026 — ending the social video product launched with Sora 2 in September 2025.",
-      "about": "Seven months after Sora 2's TikTok-style launch, OpenAI pulled the standalone app while keeping [API] access for a transition period. The shutdown marked a retreat from consumer social video toward enterprise and [API] video generation — a rare reversal after a high-profile consumer AI bet.",
+      "summary": "[OpenAI] discontinued the [Sora] consumer app on April 26, 2026 — ending the social video product launched with [Sora] 2 in September 2025.",
+      "about": "Seven months after [Sora] 2's TikTok-style launch, [OpenAI] pulled the standalone app while keeping [API] access for a transition period. The shutdown marked a retreat from consumer social video toward enterprise and [API] video generation — a rare reversal after a high-profile consumer AI bet.",
       "narrative": {
-        "whyChosen": "Sora's shutdown closed one of the shortest-lived major consumer AI product experiments.",
+        "whyChosen": "[Sora]'s shutdown closed one of the shortest-lived major consumer AI product experiments.",
         "whyImportant": "It showed even frontier labs could not sustain social video apps against compute costs and moderation risk.",
-        "problemSolved": "OpenAI refocused video generation on [API] and partner integrations rather than a standalone feed."
+        "problemSolved": "[OpenAI] refocused video generation on [API] and partner integrations rather than a standalone feed."
       },
       "category": "culture",
       "tags": [

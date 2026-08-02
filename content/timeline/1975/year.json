@@ -7,7 +7,7 @@
       "datePrecision": "year",
       "title": "Fred Brooks publishes The Mythical Man-Month",
       "summary": "Fred Brooks published The Mythical Man-Month in 1975 — essays on software project management including 'adding manpower to a late project makes it later.'",
-      "about": "Brooks managed [IBM]'s OS/360 and distilled lessons every engineering manager still cites. The book shaped how the industry talks about estimation, communication overhead, and the tar pit of large systems.",
+      "about": "Brooks managed [IBM]'s [OS]/360 and distilled lessons every engineering manager still cites. The book shaped how the industry talks about estimation, communication overhead, and the tar pit of large systems.",
       "narrative": {
         "whyChosen": "Brooks's law is still quoted in sprint planning and postmortems.",
         "whyImportant": "It connected human organization to software schedule failure modes.",
@@ -57,9 +57,9 @@
       "title": "Brooks: adding people delays projects",
       "quoteText": "Adding manpower to a late software project makes it later.",
       "summary": "Fred Brooks states Brooks's Law in The Mythical Man-Month — the book's most quoted line.",
-      "about": "Brooks drew on [IBM] OS/360 experience: onboarding and communication overhead eat the calendar. The line is still cited in sprint planning, reorgs, and every thread about 'we just need more engineers.'",
+      "about": "Brooks drew on [IBM] [OS]/360 experience: onboarding and communication overhead eat the calendar. The line is still cited in sprint planning, reorgs, and every thread about 'we just need more engineers.'",
       "narrative": {
-        "whyChosen": "Brooks's Law outlived the OS/360 project it described.",
+        "whyChosen": "Brooks's Law outlived the [OS]/360 project it described.",
         "whyImportant": "It gave managers vocabulary for why throwing bodies at schedule risk backfires.",
         "problemSolved": "Late projects triggered instinctive staffing increases that worsened delivery."
       },
@@ -115,7 +115,7 @@
       "narrative": {
         "whyChosen": "The best one-sentence antidote to tech hype and despair.",
         "whyImportant": "It reframed how futurists and policymakers talk about adoption curves.",
-        "problemSolved": "Teams swung between panic and euphoria without a model for delayed impact."
+        "problemSolved": "[Teams] swung between panic and euphoria without a model for delayed impact."
       },
       "tags": [
         "quote",

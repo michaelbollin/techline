@@ -6,12 +6,12 @@
       "date": "2007-06-11",
       "datePrecision": "day",
       "title": "Safari 3 for Windows public beta released",
-      "summary": "Apple released a Safari 3 public beta for Windows on June 11, 2007 at WWDC — bringing WebKit to [PC] users; the final Windows release shipped in October 2007.",
-      "about": "Safari on Windows let web developers test WebKit rendering without a Mac and briefly gave Windows users an Apple browser option. It spread WebKit's engine beyond macOS — a precursor to Chrome adopting WebKit and later forking Blink.",
+      "summary": "Apple released a [Safari] 3 public beta for Windows on June 11, 2007 at [WWDC] — bringing [WebKit] to [PC] users; the final Windows release shipped in October 2007.",
+      "about": "[Safari] on Windows let web developers test [WebKit] rendering without a Mac and briefly gave Windows users an Apple browser option. It spread [WebKit]'s engine beyond [macOS] — a precursor to [Chrome] adopting [WebKit] and later forking [Blink].",
       "narrative": {
-        "whyChosen": "Safari for Windows exported Apple's engine to the [PC] ecosystem.",
-        "whyImportant": "WebKit on Windows influenced cross-browser testing and engine adoption before Chrome.",
-        "problemSolved": "Developers on Windows could not easily test Safari/WebKit behavior for their sites."
+        "whyChosen": "[Safari] for Windows exported Apple's engine to the [PC] ecosystem.",
+        "whyImportant": "[WebKit] on Windows influenced cross-browser testing and engine adoption before [Chrome].",
+        "problemSolved": "Developers on Windows could not easily test [Safari]/[WebKit] behavior for their sites."
       },
       "category": "software",
       "tags": [
@@ -66,10 +66,10 @@
       "date": "2007-06",
       "datePrecision": "month",
       "title": "Heroku founded",
-      "summary": "Adam Wiggins, James Lindenbaum, and Orion Henry founded Heroku in June 2007 — a platform-as-a-service for deploying [Ruby] apps with git push.",
-      "about": "Heroku abstracted servers behind `git push heroku master`: dynos, buildpacks, and add-ons for Postgres, Redis, and logging. Developers stopped provisioning VMs and focused on code. The model influenced Cloud Foundry, Render, Fly.io, and how teams think about twelve-factor apps — even after Salesforce acquired Heroku in 2010.",
+      "summary": "Adam Wiggins, James Lindenbaum, and Orion Henry founded [Heroku] in June 2007 — a platform-as-a-service for deploying [Ruby] apps with git push.",
+      "about": "[Heroku] abstracted servers behind `git push heroku master`: dynos, buildpacks, and add-ons for Postgres, [Redis], and logging. Developers stopped provisioning VMs and focused on code. The model influenced Cloud Foundry, Render, Fly.io, and how teams think about twelve-factor apps — even after Salesforce acquired [Heroku] in 2010.",
       "narrative": {
-        "whyChosen": "Heroku pioneered developer-friendly PaaS with git-based deploys and managed runtimes.",
+        "whyChosen": "[Heroku] pioneered developer-friendly PaaS with git-based deploys and managed runtimes.",
         "whyImportant": "It proved many teams would trade server control for faster shipping on a managed platform.",
         "problemSolved": "Small teams could not afford dedicated ops staff but still needed reliable production hosting."
       },
@@ -125,7 +125,7 @@
       "datePrecision": "month",
       "title": "Dropbox founded",
       "summary": "Drew Houston and Arash Ferdowsi founded Dropbox in June 2007 — a cloud sync service that made files follow users across devices.",
-      "about": "Dropbox's demo video and Y Combinator launch popularized \"it just works\" file sync — drag a folder, find it everywhere. Developers copied the model for notes, passwords, and IDE settings. The company normalized cloud storage APIs and consumer freemium SaaS before Google Drive and iCloud caught up.",
+      "about": "Dropbox's demo video and Y Combinator launch popularized \"it just works\" file sync — drag a folder, find it everywhere. Developers copied the model for notes, passwords, and [IDE] settings. The company normalized cloud storage APIs and consumer freemium [SaaS] before Google Drive and iCloud caught up.",
       "narrative": {
         "whyChosen": "Dropbox made personal cloud sync mainstream for developers and knowledge workers.",
         "whyImportant": "It shifted expectations from emailing attachments to always-available shared files.",
@@ -178,10 +178,10 @@
       "date": "2007-06-29",
       "datePrecision": "day",
       "title": "iPhone goes on sale",
-      "summary": "Apple began selling the iPhone in the United States on June 29, 2007 — six months after its Macworld introduction.",
-      "about": "The iPhone put a capacitive touchscreen, mobile Safari, and eventually the App Store in millions of pockets. Developers pivoted to mobile-first web design, native iOS SDKs, and responsive CSS. Mobile traffic overtook desktop on many sites — all tracing to this product reaching consumers.",
+      "summary": "Apple began selling the [iPhone] in the United States on June 29, 2007 — six months after its Macworld introduction.",
+      "about": "The [iPhone] put a capacitive touchscreen, mobile [Safari], and eventually the [App Store] in millions of pockets. Developers pivoted to mobile-first web design, native [iOS] SDKs, and responsive [CSS]. Mobile traffic overtook desktop on many sites — all tracing to this product reaching consumers.",
       "narrative": {
-        "whyChosen": "The iPhone's retail launch turned a keynote demo into the defining smartphone platform for developers.",
+        "whyChosen": "The [iPhone]'s retail launch turned a keynote demo into the defining smartphone platform for developers.",
         "whyImportant": "It made mobile web and native app development mandatory skills for mainstream software teams.",
         "problemSolved": "Phones offered poor mobile browsing; users needed a pocket computer with a real web browser and touch [UI]."
       },

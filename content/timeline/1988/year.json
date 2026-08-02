@@ -7,7 +7,7 @@
       "datePrecision": "year",
       "title": "Tcl embeddable command language created",
       "summary": "John Ousterhout implemented Tcl at UC Berkeley in 1988 and first used it in a graphical text editor that spring.",
-      "about": "Tcl (Tool Command Language) is a small scripting language designed to be embedded inside C applications — routers, EDA tools, and desktop apps expose Tcl as their configuration and automation layer. Tk (1991) paired with Tcl to build cross-platform GUIs. Cisco IOS, EDA tools, and test equipment still ship Tcl interfaces decades later.",
+      "about": "Tcl (Tool Command Language) is a small scripting language designed to be embedded inside C applications — routers, EDA tools, and desktop apps expose Tcl as their configuration and [automation] layer. Tk (1991) paired with Tcl to build cross-platform GUIs. Cisco IOS, EDA tools, and test equipment still ship Tcl interfaces decades later.",
       "narrative": {
         "whyChosen": "Tcl pioneered embeddable scripting — apps ship a language instead of inventing their own config syntax.",
         "whyImportant": "The Tcl/Tk combo influenced how developers think about glue languages and rapid [GUI] prototyping.",

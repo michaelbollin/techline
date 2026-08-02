@@ -58,12 +58,12 @@
       "date": "1973",
       "datePrecision": "year",
       "title": "Xerox Alto operational",
-      "summary": "Xerox PARC's Alto workstation became operational in 1973 — the first computer designed around a bitmap [GUI], mouse, and [Ethernet] networking.",
-      "about": "The Alto ran [Bravo] word processing and [Smalltalk] — Steve Jobs saw it and pushed the Macintosh toward [GUI] computing. [Ethernet], [WYSIWYG] editing, and overlapping windows were prototyped here years before they reached consumer [PC]s. Developers study Alto as the ancestor of every desktop and laptop UI.",
+      "summary": "Xerox PARC's Alto [workstation] became operational in 1973 — the first computer designed around a bitmap [GUI], mouse, and [Ethernet] networking.",
+      "about": "The Alto ran [Bravo] word processing and [Smalltalk] — Steve Jobs saw it and pushed the Macintosh toward [GUI] computing. [Ethernet], [WYSIWYG] editing, and overlapping windows were prototyped here years before they reached consumer [PC]s. Developers study Alto as the ancestor of every desktop and laptop [UI].",
       "narrative": {
-        "whyChosen": "The Alto was the first personal workstation built for graphical computing from the ground up.",
+        "whyChosen": "The Alto was the first personal [workstation] built for graphical computing from the ground up.",
         "whyImportant": "It proved [GUI]s, networking, and laser printing belonged on every desk — not just lab demos.",
-        "problemSolved": "Researchers needed an interactive machine for document preparation and [distributed computing], not batch punch cards."
+        "problemSolved": "Researchers needed an interactive machine for document preparation and [distributed computing], not batch [punch card]s."
       },
       "category": "invention",
       "tags": [
@@ -110,9 +110,9 @@
       "datePrecision": "year",
       "title": "Ethernet invented at Xerox PARC",
       "summary": "Robert Metcalfe and colleagues developed [Ethernet] at Xerox PARC in 1973 — a [packet switching] [LAN] for connecting Alto workstations.",
-      "about": "Ethernet's CSMA/CD design let many machines share a coax cable cheaply — a pattern DEC, Intel, and Xerox standardized in 1980 and that still underlies wired office and datacenter networking today (now switched, not shared bus).",
+      "about": "[ethernet]'s CSMA/[CD] design let many machines share a coax cable cheaply — a pattern DEC, Intel, and Xerox standardized in 1980 and that still underlies wired office and datacenter networking today (now switched, not shared bus).",
       "narrative": {
-        "whyChosen": "[Ethernet] became the dominant LAN technology for four decades.",
+        "whyChosen": "[Ethernet] became the dominant [LAN] technology for four decades.",
         "whyImportant": "It made networking [PC]s and workstations affordable before Wi-Fi existed.",
         "problemSolved": "Labs needed to link computers, printers, and file servers without point-to-point serial links."
       },

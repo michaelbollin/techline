@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Make build tool created",
       "summary": "Stuart Feldman wrote Make at Bell Labs in April 1976 — the first tool to rebuild only what changed by tracking file dependencies.",
-      "about": "Make reads a Makefile listing targets and prerequisites — change one `.c` file and only its dependents recompile. Every C/C++ project, Linux [kernel] build, and countless CI pipelines still use Make or descendants (CMake, Ninja, Gradle). Example: `make` after editing `main.c` re-links the binary without rebuilding untouched objects.",
+      "about": "Make reads a Makefile listing targets and prerequisites — change one `.c` file and only its dependents recompile. Every C/C++ project, Linux [kernel] build, and countless CI pipelines still use Make or descendants (CMake, Ninja, [Gradle]). Example: `make` after editing `main.c` re-links the binary without rebuilding untouched objects.",
       "narrative": {
         "whyChosen": "Make invented dependency-driven builds — the pattern behind every modern build system.",
         "whyImportant": "It stopped developers from shipping stale binaries because someone forgot to recompile.",

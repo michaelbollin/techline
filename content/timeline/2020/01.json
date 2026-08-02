@@ -102,12 +102,12 @@
       "date": "2020-01-15",
       "datePrecision": "day",
       "title": "Chromium-based Microsoft Edge released",
-      "summary": "Microsoft shipped the [Chromium]-based Edge on January 15, 2020 — abandoning EdgeHTML for the same engine that powers Chrome.",
-      "about": "The new Edge traded engine independence for compatibility: sites built for Chrome worked out of the box, and Microsoft contributed back to [Chromium]. It ended the era of three competing engine families (Gecko, [WebKit]/[Blink], EdgeHTML) and consolidated the web platform around [Blink] for most users.",
+      "summary": "[Microsoft] shipped the [Chromium]-based [Edge] on January 15, 2020 — abandoning EdgeHTML for the same engine that powers [Chrome].",
+      "about": "The new [Edge] traded engine independence for compatibility: sites built for [Chrome] worked out of the box, and [Microsoft] contributed back to [Chromium]. It ended the era of three competing engine families (Gecko, [WebKit]/[Blink], EdgeHTML) and consolidated the web platform around [Blink] for most users.",
       "narrative": {
-        "whyChosen": "Microsoft joining [Chromium] was a watershed moment in browser engine consolidation.",
-        "whyImportant": "It acknowledged developer reality — Chrome compatibility mattered more than a proprietary engine.",
-        "problemSolved": "EdgeHTML could not keep pace with Chrome's site compatibility and release cadence."
+        "whyChosen": "[Microsoft] joining [Chromium] was a watershed moment in browser engine consolidation.",
+        "whyImportant": "It acknowledged developer reality — [Chrome] compatibility mattered more than a proprietary engine.",
+        "problemSolved": "EdgeHTML could not keep pace with [Chrome]'s site compatibility and release cadence."
       },
       "category": "software",
       "tags": [
@@ -160,12 +160,12 @@
       "date": "2020-01-15",
       "datePrecision": "day",
       "title": "Shopware 6.1 released",
-      "summary": "Shopware released version 6.1.0 on January 15, 2020 — the first stable production release of Shopware 6's Symfony and Vue.js rewrite.",
-      "about": "Shopware 6 split storefront, administration, and core into headless APIs — a complete rewrite from Shopware 5's monolith. Version 6.1 marked the platform as ready for merchant migrations after months of release candidates.",
+      "summary": "[Shopware] released version 6.1.0 on January 15, 2020 — the first stable production release of [Shopware] 6's [Symfony] and Vue.js rewrite.",
+      "about": "[Shopware] 6 split storefront, administration, and core into headless APIs — a complete rewrite from [Shopware] 5's monolith. Version 6.1 marked the platform as ready for merchant migrations after months of release candidates.",
       "narrative": {
-        "whyChosen": "Shopware 6.1 validated the headless commerce rewrite for production merchants.",
-        "whyImportant": "Symfony and Vue.js aligned Shopware with modern PHP and frontend stacks.",
-        "problemSolved": "Shopware 5's monolithic architecture could not support [API]-first omnichannel commerce."
+        "whyChosen": "[Shopware] 6.1 validated the headless commerce rewrite for production merchants.",
+        "whyImportant": "[Symfony] and Vue.js aligned [Shopware] with modern PHP and frontend stacks.",
+        "problemSolved": "[Shopware] 5's monolithic architecture could not support [API]-first omnichannel commerce."
       },
       "category": "software",
       "tags": [
@@ -202,10 +202,10 @@
       "date": "2020-01-31",
       "datePrecision": "day",
       "title": "Playwright announced by Microsoft",
-      "summary": "Microsoft announced Playwright on January 31, 2020 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
-      "about": "Playwright (`page.goto`, auto-waiting, tracing) became the modern alternative to Selenium for E2E tests — one [API] driving Chrome, Safari, and Firefox with reliable selectors. It powers CI suites at Microsoft, Vercel, and thousands of open-source projects.",
+      "summary": "[Microsoft] announced Playwright on January 31, 2020 — a cross-browser [automation] library for [Chromium], [Firefox], and [WebKit].",
+      "about": "Playwright (`page.goto`, auto-waiting, tracing) became the modern alternative to Selenium for E2E tests — one [API] driving [Chrome], [Safari], and [Firefox] with reliable selectors. It powers CI suites at [Microsoft], [Vercel], and thousands of open-source projects.",
       "narrative": {
-        "whyChosen": "Playwright modernized browser automation for the multi-engine web.",
+        "whyChosen": "Playwright modernized browser [automation] for the multi-engine web.",
         "whyImportant": "It made reliable cross-browser E2E tests practical in CI pipelines.",
         "problemSolved": "Selenium tests were flaky and struggled with modern SPA timing."
       },
@@ -256,8 +256,8 @@
       "date": "2020-01-31",
       "datePrecision": "day",
       "title": "Playwright released",
-      "summary": "Microsoft open sourced Playwright on January 31, 2020 — a cross-browser automation library for Chromium, Firefox, and WebKit.",
-      "about": "Playwright (`page.click`, auto-waiting, tracing) unified end-to-end testing across browsers with one [API] — succeeding Puppeteer's Chromium-only model. Teams at Microsoft, Shopify, and open-source projects adopted it for reliable CI tests that Selenium struggled to keep fast.",
+      "summary": "[Microsoft] [open source]d Playwright on January 31, 2020 — a cross-browser [automation] library for [Chromium], [Firefox], and [WebKit].",
+      "about": "Playwright (`page.click`, auto-waiting, tracing) unified end-to-end testing across browsers with one [API] — succeeding Puppeteer's [Chromium]-only model. [Teams] at [Microsoft], Shopify, and open-source projects adopted it for reliable CI tests that Selenium struggled to keep fast.",
       "narrative": {
         "whyChosen": "Playwright became the modern default for cross-browser E2E testing.",
         "whyImportant": "Auto-wait and multi-engine support reduced flaky tests and browser-specific hacks.",

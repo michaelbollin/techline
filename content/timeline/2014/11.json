@@ -64,8 +64,8 @@
       "date": "2014-11-13",
       "datePrecision": "day",
       "title": "AWS Lambda launched",
-      "summary": "Amazon announced AWS Lambda at re:Invent on November 13, 2014 — event-driven functions billed per invocation without managing servers.",
-      "about": "Lambda (`exports.handler`) launched serverless computing for production — [API] Gateway, S3 triggers, and cron jobs all invoke functions. Teams stopped patching EC2 for glue code; Vercel, Cloudflare Workers, and Azure Functions followed the same model.",
+      "summary": "Amazon announced [AWS Lambda] at [re:Invent] on November 13, 2014 — event-driven functions billed per invocation without managing servers.",
+      "about": "Lambda (`exports.handler`) launched serverless computing for production — [API] Gateway, S3 triggers, and cron jobs all invoke functions. [Teams] stopped patching EC2 for glue code; [Vercel], Cloudflare Workers, and [Azure] Functions followed the same model.",
       "narrative": {
         "whyChosen": "Lambda popularized serverless functions as a cloud primitive.",
         "whyImportant": "It changed how teams deploy small services and event handlers.",
@@ -120,9 +120,9 @@
       "datePrecision": "day",
       "title": "Sony Pictures Entertainment hacked",
       "summary": "Attackers destroyed Sony Pictures systems and leaked internal data starting November 24, 2014 — a destructive breach attributed to North Korea over the film The Interview.",
-      "about": "The GOP (Guardians of Peace) group wiped workstations, leaked unreleased films and executive emails, and threatened theaters. Studios hardened incident response, air-gapped critical assets, and treated nation-state ransomware as a business continuity risk — not just an [IT] problem.",
+      "about": "The GOP (Guardians of Peace) group wiped workstations, leaked unreleased films and executive emails, and threatened theaters. Studios hardened incident response, air-gapped critical assets, and treated nation-state [ransomware] as a business continuity risk — not just an [IT] problem.",
       "narrative": {
-        "whyChosen": "Sony Pictures was the first major studio destroyed by nation-state-style destructive malware.",
+        "whyChosen": "Sony Pictures was the first major studio destroyed by nation-state-style destructive [malware].",
         "whyImportant": "It linked geopolitics, entertainment, and wipe-and-leak attacks in the public eye.",
         "problemSolved": "Nothing initially — it showed creative-industry networks were strategic targets."
       },

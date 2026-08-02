@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Haskell language published",
       "summary": "On April 1, 1990, the [Haskell] Committee published version 1.0 — a standard functional language built around mathematical-style programming.",
-      "about": "[Haskell] treats programs as expressions rather than step-by-step mutations — popular in academia, quantitative finance, and as a testbed for language ideas that later appeared in Rust, Scala, and Swift. Its main compiler, [GHC], became the reference for research and production [Haskell].",
+      "about": "[Haskell] treats programs as expressions rather than step-by-step mutations — popular in academia, quantitative finance, and as a testbed for language ideas that later appeared in [Rust], Scala, and [Swift]. Its main compiler, [GHC], became the reference for research and production [Haskell].",
       "narrative": {
         "whyChosen": "[Haskell] unified many competing research languages into one teachable, widely studied design.",
         "whyImportant": "It popularized powerful type and abstraction ideas that later spread into mainstream languages.",

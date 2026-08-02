@@ -25,8 +25,8 @@
       "date": "1997",
       "datePrecision": "year",
       "title": "The Cathedral and the Bazaar",
-      "summary": "Eric Raymond's essay The Cathedral and the Bazaar (1997) argued open, distributed development beats closed planning — influencing [Netscape]'s Mozilla release.",
-      "about": "Raymond's 'given enough eyeballs, all bugs are shallow' became open-source folklore. The essay gave executives a narrative for releasing proprietary code — directly preceding the 1998 Mozilla source dump.",
+      "summary": "Eric Raymond's essay The Cathedral and the Bazaar (1997) argued open, distributed development beats closed planning — influencing [Netscape]'s [Mozilla] release.",
+      "about": "Raymond's 'given enough eyeballs, all bugs are shallow' became open-source folklore. The essay gave executives a narrative for releasing proprietary code — directly preceding the 1998 [Mozilla] source dump.",
       "narrative": {
         "whyChosen": "The essay bridged hacker culture and corporate open-source strategy.",
         "whyImportant": "It gave language for why [Netscape] and others should open their codebases.",

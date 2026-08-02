@@ -6,11 +6,11 @@
       "date": "2024-09-12",
       "datePrecision": "day",
       "title": "OpenAI o1 reasoning models released",
-      "summary": "OpenAI released the o1-preview and o1-mini models on September 12, 2024 — trained for chain-of-thought reasoning on math, coding, and science tasks.",
-      "about": "o1 models spend extra compute on internal reasoning before answering — improving performance on Olympiad math, competitive programming, and multi-step analysis. They marked a shift from pure scale to inference-time reasoning in frontier AI products.",
+      "summary": "[OpenAI] released the o1-preview and o1-mini models on September 12, 2024 — trained for chain-of-thought [reasoning] on math, coding, and science tasks.",
+      "about": "o1 models spend extra compute on internal [reasoning] before answering — improving performance on Olympiad math, competitive programming, and multi-step analysis. They marked a shift from pure scale to [inference]-time [reasoning] in frontier AI products.",
       "narrative": {
-        "whyChosen": "o1 introduced dedicated reasoning models to OpenAI's consumer and [API] lineup.",
-        "whyImportant": "Inference-time reasoning changed how teams approach hard STEM and coding problems.",
+        "whyChosen": "o1 introduced dedicated [reasoning] models to [OpenAI]'s consumer and [API] lineup.",
+        "whyImportant": "[inference]-time [reasoning] changed how teams approach hard STEM and coding problems.",
         "problemSolved": "Standard LLMs struggled with multi-step logic despite larger context windows."
       },
       "category": "software",
@@ -64,11 +64,11 @@
       "date": "2024-09-17",
       "datePrecision": "day",
       "title": "Swift 6 released",
-      "summary": "Apple shipped Swift 6 on September 17, 2024 with compile-time data-race safety available via an opt-in language mode.",
-      "about": "Swift 6 turns data races into compile-time errors when projects enable the Swift 6 language mode — critical for iOS apps mixing async networking and [UI] updates. It completes Apple's push toward safer concurrent Swift after years of incremental concurrency features since Swift 5.5.",
+      "summary": "Apple shipped [Swift] 6 on September 17, 2024 with compile-time data-race safety available via an opt-in language mode.",
+      "about": "[Swift] 6 turns data races into compile-time errors when projects enable the [Swift] 6 language mode — critical for [iOS] apps mixing async networking and [UI] updates. It completes Apple's push toward safer concurrent [Swift] after years of incremental concurrency features since [Swift] 5.5.",
       "narrative": {
-        "whyChosen": "Swift 6 is Apple's biggest language safety upgrade since optionals.",
-        "whyImportant": "Compile-time data-race detection raises the bar for concurrent mobile and server Swift.",
+        "whyChosen": "[Swift] 6 is Apple's biggest language safety upgrade since optionals.",
+        "whyImportant": "Compile-time data-race detection raises the bar for concurrent mobile and server [Swift].",
         "problemSolved": "Async/await adoption exposed subtle threading bugs that only crashed in production."
       },
       "category": "software",
@@ -167,10 +167,10 @@
       "date": "2024-09-20",
       "datePrecision": "day",
       "title": "iPhone 16 released",
-      "summary": "Apple began selling the iPhone 16 on September 20, 2024 — Camera Control button and Apple Intelligence integration.",
-      "about": "The Camera Control button added a dedicated hardware input for camera and future app actions. Apple Intelligence brought on-device [LLM] features that iOS developers began integrating through new system APIs.",
+      "summary": "Apple began selling the [iPhone] 16 on September 20, 2024 — Camera Control button and Apple Intelligence integration.",
+      "about": "The Camera Control button added a dedicated hardware input for camera and future app actions. Apple Intelligence brought on-device [LLM] features that [iOS] developers began integrating through new system APIs.",
       "narrative": {
-        "whyChosen": "The iPhone 16 paired a new hardware button with Apple's on-device AI push.",
+        "whyChosen": "The [iPhone] 16 paired a new hardware button with Apple's on-device AI push.",
         "whyImportant": "Camera Control and Apple Intelligence APIs expanded how apps integrate with system AI and capture.",
         "problemSolved": "Mobile AI features were mostly cloud-dependent; camera access lacked dedicated hardware."
       },

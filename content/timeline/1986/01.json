@@ -61,7 +61,7 @@
       "datePrecision": "month",
       "title": "Brain boot-sector virus spreads on PCs",
       "summary": "The Brain virus appeared in January 1986 on [IBM] [PC] [floppy disk]s from Pakistan — widely considered the first [PC] virus to spread in the wild.",
-      "about": "Brain infected the boot sector of 360 KB floppies and displayed a copyright message from its authors, Basit and Amjad Farooq Alvi. It launched the antivirus industry, boot-sector scanning, and decades of copy-protection versus malware debates — the [PC] equivalent of what Morris would do to Unix networks two years later.",
+      "about": "Brain infected the boot sector of 360 KB floppies and displayed a copyright message from its authors, Basit and Amjad Farooq Alvi. It launched the antivirus industry, boot-sector scanning, and decades of copy-protection versus [malware] debates — the [PC] equivalent of what Morris would do to [Unix] networks two years later.",
       "narrative": {
         "whyChosen": "Brain is the canonical first [IBM] [PC] virus developers cite in security history.",
         "whyImportant": "It proved removable media could propagate malicious code across the growing [PC] installed base.",

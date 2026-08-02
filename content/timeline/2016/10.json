@@ -59,12 +59,12 @@
       "date": "2016-10-11",
       "datePrecision": "day",
       "title": "Yarn released",
-      "summary": "Facebook, Google, Exponent, and Tilde released [Yarn] 0.1.0 on October 11, 2016 — a fast, deterministic npm-compatible package manager with lockfile support.",
-      "about": "[Yarn] introduced lockfiles (`yarn.lock`), parallel installs, and checksum verification when npm still struggled with reproducible builds. [Teams] switched overnight for faster CI and consistent `node_modules` trees. [Yarn] 2+ later pushed Plug'n'Play; npm caught up with `package-lock.json` — but [Yarn] forced the ecosystem to treat dependency resolution as infrastructure, not an afterthought.",
+      "summary": "[Facebook], Google, Exponent, and Tilde released [Yarn] 0.1.0 on October 11, 2016 — a fast, deterministic [npm]-compatible package manager with lockfile support.",
+      "about": "[Yarn] introduced lockfiles (`yarn.lock`), parallel installs, and checksum verification when [npm] still struggled with reproducible builds. [Teams] switched overnight for faster CI and consistent `node_modules` trees. [Yarn] 2+ later pushed Plug'n'Play; [npm] caught up with `package-lock.json` — but [Yarn] forced the ecosystem to treat dependency resolution as infrastructure, not an afterthought.",
       "narrative": {
-        "whyChosen": "[Yarn] addressed npm's speed and determinism gaps with a drop-in alternative backed by major platforms.",
-        "whyImportant": "It popularized lockfiles and pushed npm to improve — raising the bar for JavaScript supply-chain hygiene.",
-        "problemSolved": "JavaScript projects needed reproducible installs and faster CI when npm's client was slow and non-deterministic."
+        "whyChosen": "[Yarn] addressed [npm]'s speed and determinism gaps with a drop-in alternative backed by major platforms.",
+        "whyImportant": "It popularized lockfiles and pushed [npm] to improve — raising the bar for JavaScript supply-chain hygiene.",
+        "problemSolved": "JavaScript projects needed reproducible installs and faster CI when [npm]'s client was slow and non-deterministic."
       },
       "category": "software",
       "tags": [
@@ -172,12 +172,12 @@
       "date": "2016-10-25",
       "datePrecision": "day",
       "title": "Next.js open sourced",
-      "summary": "Vercel (then ZEIT) released Next.js — a React framework for server-rendered universal JavaScript apps.",
-      "about": "Next.js wraps React with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive [UI]. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on Vercel. Example: a blog that pre-renders [HTML] at build time but hydrates React on the client.",
+      "summary": "[Vercel] (then ZEIT) released Next.js — a [React] framework for server-rendered universal JavaScript apps.",
+      "about": "Next.js wraps [React] with file-based routing, server rendering, and static generation — one codebase for SEO-friendly pages and interactive [UI]. Used for marketing sites, docs, e-commerce storefronts, and full-stack apps on [Vercel]. Example: a blog that pre-renders [HTML] at build time but hydrates [React] on the client.",
       "narrative": {
-        "whyChosen": "Next.js became the default way to ship React with SSR, routing, and static generation in one toolchain.",
-        "whyImportant": "It bridged SPA ergonomics with SEO-friendly server rendering before React Server Components.",
-        "problemSolved": "React alone did not solve routing, data loading, or SSR — every team rebuilt the same webpack stack."
+        "whyChosen": "Next.js became the default way to ship [React] with [SSR], routing, and static generation in one toolchain.",
+        "whyImportant": "It bridged SPA ergonomics with SEO-friendly server rendering before [React] Server Components.",
+        "problemSolved": "[React] alone did not solve routing, data loading, or [SSR] — every team rebuilt the same webpack stack."
       },
       "category": "software",
       "tags": [

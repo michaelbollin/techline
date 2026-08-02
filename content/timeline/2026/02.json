@@ -6,10 +6,10 @@
       "date": "2026-02-05",
       "datePrecision": "day",
       "title": "Anthropic Claude Opus 4.6 released",
-      "summary": "[Anthropic] released Claude Opus 4.6 on February 5, 2026 — stronger agentic coding, 1M-token context, and state-of-the-art terminal and knowledge-work benchmarks.",
-      "about": "Opus 4.6 added adaptive thinking, agent teams in Claude Code, and Excel and PowerPoint integrations for knowledge work. It led Terminal-Bench 2.0 and Humanity's Last Exam — [Anthropic]'s answer to GPT-5.2 and [Gemini] 3 Pro in the agentic coding arms race.",
+      "summary": "[Anthropic] released Claude Opus 4.6 on February 5, 2026 — stronger [agentic] coding, 1M-token context, and state-of-the-art terminal and knowledge-work benchmarks.",
+      "about": "Opus 4.6 added adaptive thinking, agent teams in Claude Code, and Excel and PowerPoint integrations for knowledge work. It led Terminal-Bench 2.0 and Humanity's Last Exam — [Anthropic]'s answer to [GPT]-5.2 and [Gemini] 3 Pro in the [agentic] coding arms race.",
       "narrative": {
-        "whyChosen": "Opus 4.6 made million-token agentic coding a production [Anthropic] tier.",
+        "whyChosen": "Opus 4.6 made million-token [agentic] coding a production [Anthropic] tier.",
         "whyImportant": "Parallel agent teams and adaptive thinking pushed multi-hour autonomous work mainstream.",
         "problemSolved": "Enterprise coding agents needed better long-context retrieval and sustained focus on large codebases."
       },
@@ -63,12 +63,12 @@
       "date": "2026-02-05",
       "datePrecision": "day",
       "title": "OpenAI GPT-5.3-Codex released",
-      "summary": "OpenAI released GPT-5.3-Codex on February 5, 2026 — an agentic coding model merging Codex performance with GPT-5.2 reasoning, 25% faster in Codex tools.",
-      "about": "GPT-5.3-Codex handled long-running research, tool use, and complex execution while staying steerable mid-task — OpenAI's answer to Claude Opus 4.6 in the same week. OpenAI said early versions helped build the model itself, and it shipped in Codex app, [CLI], and IDE extensions on GB200 systems.",
+      "summary": "[OpenAI] released [GPT]-5.3-Codex on February 5, 2026 — an [agentic] coding model merging Codex performance with [GPT]-5.2 [reasoning], 25% faster in Codex tools.",
+      "about": "[GPT]-5.3-Codex handled long-running research, tool use, and complex execution while staying steerable mid-task — [OpenAI]'s answer to Claude Opus 4.6 in the same week. [OpenAI] said early versions helped build the model itself, and it shipped in Codex app, [CLI], and [IDE] extensions on GB200 systems.",
       "narrative": {
-        "whyChosen": "GPT-5.3-Codex unified OpenAI's coding and reasoning stacks in one agentic model.",
+        "whyChosen": "[GPT]-5.3-Codex unified [OpenAI]'s coding and [reasoning] stacks in one [agentic] model.",
         "whyImportant": "Interactive steering during long agent runs became a baseline Codex feature.",
-        "problemSolved": "Developers juggled separate Codex and GPT models for coding versus general reasoning."
+        "problemSolved": "Developers juggled separate Codex and [GPT] models for coding versus general [reasoning]."
       },
       "category": "software",
       "tags": [

@@ -54,12 +54,12 @@
       "date": "2020-06-11",
       "datePrecision": "day",
       "title": "OpenAI GPT-3 API announced",
-      "summary": "OpenAI announced [API] access to GPT-3 on June 11, 2020 — opening large-language-model text generation to developers beyond research previews.",
-      "about": "The GPT-3 [API] let apps call a 175B-parameter model for completion, summarization, and code generation via [HTTP]. It launched the LLM [API] economy — copywriting tools, coding assistants, and chatbots built on a single endpoint before ChatGPT's consumer interface.",
+      "summary": "[OpenAI] announced [API] access to [GPT]-3 on June 11, 2020 — opening large-language-model text generation to developers beyond research previews.",
+      "about": "The [GPT]-3 [API] let apps call a 175B-parameter model for completion, summarization, and code generation via [HTTP]. It launched the [LLM] [API] economy — copywriting tools, coding assistants, and chatbots built on a single endpoint before [ChatGPT]'s consumer interface.",
       "narrative": {
-        "whyChosen": "The GPT-3 [API] was the commercial inflection point for LLMs in production software.",
-        "whyImportant": "It proved developers would pay per token for generative AI at scale.",
-        "problemSolved": "Teams could not ship LLM features without training and hosting their own massive models."
+        "whyChosen": "The [GPT]-3 [API] was the commercial inflection point for LLMs in production software.",
+        "whyImportant": "It proved developers would pay per token for [generative AI] at scale.",
+        "problemSolved": "[Teams] could not ship [LLM] features without training and hosting their own massive models."
       },
       "category": "software",
       "tags": [
@@ -109,9 +109,9 @@
       "datePrecision": "day",
       "title": "Sanfilippo steps down from Redis",
       "summary": "Salvatore Sanfilippo (antirez) stepped down as [Redis] maintainer on June 30, 2020, handing the project to a community team.",
-      "about": "Sanfilippo built [Redis] alone from 2009 into infrastructure powering caches, queues, and real-time systems worldwide. His departure sparked discussion about maintainer burnout and corporate sponsorship of open source.",
+      "about": "Sanfilippo built [Redis] alone from 2009 into infrastructure powering caches, queues, and real-time systems worldwide. His departure sparked discussion about maintainer burnout and corporate sponsorship of [open source].",
       "narrative": {
-        "whyChosen": "antirez stepping down was a landmark maintainer transition in open source.",
+        "whyChosen": "antirez stepping down was a landmark maintainer transition in [open source].",
         "whyImportant": "It highlighted sustainability issues for solo-authored critical infrastructure.",
         "problemSolved": "[Redis] needed governance beyond one developer as adoption reached hyperscale."
       },

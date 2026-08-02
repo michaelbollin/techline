@@ -6,12 +6,12 @@
       "date": "1989-05",
       "datePrecision": "month",
       "title": "SPARCstation 1 released",
-      "summary": "Sun Microsystems began shipping the SPARCstation 1 in May 1989 — an affordable [RISC] [workstation] that brought Unix performance to technical desktops.",
-      "about": "The SPARCstation line ran SunOS and Solaris with OpenWindows — Java was developed and launched on these machines. Developers built [client-server] apps, scientific simulations, and early web servers on SPARC before x86 Linux commoditized servers. Sun's NFS and RPC stack made networked Unix the default backend architecture.",
+      "summary": "[Sun] Microsystems began shipping the SPARCstation 1 in May 1989 — an affordable [RISC] [workstation] that brought [Unix] performance to technical desktops.",
+      "about": "The SPARCstation line ran SunOS and Solaris with OpenWindows — [Java] was developed and launched on these machines. Developers built [client-server] apps, scientific simulations, and early web servers on SPARC before [x86] Linux commoditized servers. [Sun]'s NFS and RPC stack made networked [Unix] the default backend architecture.",
       "narrative": {
-        "whyChosen": "The SPARCstation 1 made [RISC] Unix workstations affordable for mainstream technical computing.",
-        "whyImportant": "It was the platform where Java and much of 1990s enterprise Unix software matured.",
-        "problemSolved": "Engineers needed faster floating-point and graphics than Motorola 68000 Sun-1 boxes could deliver."
+        "whyChosen": "The SPARCstation 1 made [RISC] [Unix] workstations affordable for mainstream technical computing.",
+        "whyImportant": "It was the platform where [Java] and much of 1990s enterprise [Unix] software matured.",
+        "problemSolved": "Engineers needed faster floating-point and graphics than Motorola 68000 [Sun]-1 boxes could deliver."
       },
       "category": "hardware",
       "tags": [

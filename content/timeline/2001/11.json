@@ -6,12 +6,12 @@
       "date": "2001-11-07",
       "datePrecision": "day",
       "title": "Eclipse IDE open-sourced",
-      "summary": "[IBM] published the Eclipse platform source code on November 7, 2001 — a Java IDE and plugin framework released under the Common Public License.",
-      "about": "Eclipse is a modular IDE: JDT for Java, PDE for plugins, and an OSGi runtime that hosts thousands of extensions. It became the foundation for Android Studio's ancestor tooling, enterprise Java shops, and the Eclipse Foundation's language IDEs. Teams extend it with plugins instead of forking a monolithic editor.",
+      "summary": "[IBM] published the Eclipse platform source code on November 7, 2001 — a [Java] [IDE] and plugin framework released under the Common Public License.",
+      "about": "Eclipse is a modular [IDE]: JDT for [Java], PDE for plugins, and an OSGi runtime that hosts thousands of extensions. It became the foundation for [Android] Studio's ancestor tooling, enterprise [Java] shops, and the Eclipse Foundation's language IDEs. [Teams] extend it with plugins instead of forking a monolithic editor.",
       "narrative": {
-        "whyChosen": "Eclipse proved a vendor-neutral, extensible IDE platform could rival commercial tools.",
+        "whyChosen": "Eclipse proved a vendor-neutral, extensible [IDE] platform could rival commercial tools.",
         "whyImportant": "Its plugin model influenced VS Code extensions and Language Server Protocol workflows decades later.",
-        "problemSolved": "Java developers needed a free, deeply integrated IDE that vendors could extend without lock-in."
+        "problemSolved": "[Java] developers needed a free, deeply integrated [IDE] that vendors could extend without lock-in."
       },
       "category": "software",
       "tags": [

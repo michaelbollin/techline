@@ -9,7 +9,7 @@
       "summary": "Opera introduced Opera Mini on August 10, 2005 as a TV 2 Norway pilot — a proxy-based mobile browser; worldwide launch followed on January 24, 2006.",
       "about": "Opera Mini brought the web to billions of low-end phones long before smartphones were common: pages were rendered remotely, shrunk, and sent as images or simplified markup. It was how many users in emerging markets first experienced email, news, and search on a phone.",
       "narrative": {
-        "whyChosen": "Opera Mini pioneered mobile web access before the iPhone era.",
+        "whyChosen": "Opera Mini pioneered mobile web access before the [iPhone] era.",
         "whyImportant": "Server-side compression made browsing usable on 2G networks and tiny screens worldwide.",
         "problemSolved": "Feature phones lacked the [CPU] and bandwidth to run full desktop browsers locally."
       },
@@ -60,7 +60,7 @@
       "datePrecision": "month",
       "title": "Puppet first released",
       "summary": "Luke Kanies released Puppet in August 2005 — a declarative configuration management tool for automating server state.",
-      "about": "Puppet describes desired system state in a domain-specific language — installed packages, file permissions, running services — and enforces it on agents. Enterprises used it to manage thousands of nodes before Ansible and cloud-native tooling. Example: declare `nginx` installed and a config file templated from a central catalog.",
+      "about": "Puppet describes desired system state in a domain-specific language — installed packages, file permissions, running services — and enforces it on agents. Enterprises used it to manage thousands of nodes before Ansible and cloud-native tooling. Example: declare `[nginx]` installed and a config file templated from a central catalog.",
       "narrative": {
         "whyChosen": "Puppet pioneered idempotent, model-driven infrastructure [automation] for production fleets.",
         "whyImportant": "It proved declarative config management could scale beyond shell scripts and CFEngine.",

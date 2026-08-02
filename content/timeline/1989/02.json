@@ -6,7 +6,7 @@
       "date": "1989-02",
       "datePrecision": "month",
       "title": "GPL version 1 published",
-      "summary": "The [Free Software] Foundation published [GPL] v1 in February 1989 — the [copyleft] license behind Linux, GCC, and thousands of projects.",
+      "summary": "The [Free Software] Foundation published [GPL] v1 in February 1989 — the [copyleft] license behind Linux, [GCC], and thousands of projects.",
       "about": "[GPL] requires derivatives to stay open — influencing corporate open-source policies and dual-licensing business models. Every developer who ships [GPL] code inherits Stallman's legal framework.",
       "narrative": {
         "whyChosen": "[GPL] is the legal backbone of the [free software] ecosystem.",

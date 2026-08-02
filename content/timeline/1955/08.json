@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "This proposal named the field and framed AI as an engineering summer project.",
         "whyImportant": "It united logic, neuroscience, and computing under one research agenda.",
-        "problemSolved": "[Machine learning] and reasoning research lacked a shared name, goal, and funding pitch."
+        "problemSolved": "[Machine learning] and [reasoning] research lacked a shared name, goal, and funding pitch."
       },
       "category": "ai",
       "tags": [

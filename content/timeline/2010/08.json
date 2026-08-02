@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Sentry made production exception tracking a default part of the dev stack.",
         "whyImportant": "Grouped stack traces and release tracking cut mean time to diagnose crashes.",
-        "problemSolved": "Teams grepped log files manually to find recurring production exceptions."
+        "problemSolved": "[Teams] grepped log files manually to find recurring production exceptions."
       },
       "category": "software",
       "tags": [
@@ -50,7 +50,7 @@
       "datePrecision": "day",
       "title": "BlackBerry Torch released",
       "summary": "BlackBerry released the BlackBerry Torch — slider phone mixing touch and keyboard on BlackBerry [OS] 6.",
-      "about": "BlackBerry dominated enterprise mobile before iPhone and Android. Slider phone mixing touch and keyboard on blackberry os 6. BES-connected apps and push email defined mobile workflows for years.",
+      "about": "BlackBerry dominated enterprise mobile before [iPhone] and [Android]. Slider phone mixing touch and keyboard on blackberry os 6. BES-connected apps and push email defined mobile workflows for years.",
       "narrative": {
         "whyChosen": "The BlackBerry Torch was a key BlackBerry hardware milestone.",
         "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",

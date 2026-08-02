@@ -6,12 +6,12 @@
       "date": "2009-10-29",
       "datePrecision": "day",
       "title": "MariaDB first released",
-      "summary": "Michael Widenius released MariaDB 5.1.38 on October 29, 2009 — a community fork of MySQL after Oracle acquired Sun.",
-      "about": "MariaDB stays wire-compatible with MySQL while adding storage engines (Aria, ColumnStore) and staying [GPL]-licensed. Linux distros (Debian, Fedora, RHEL) replaced default MySQL packages with MariaDB. Teams forked to keep an open, community-governed [SQL] database when Oracle owned MySQL.",
+      "summary": "Michael Widenius released MariaDB 5.1.38 on October 29, 2009 — a community fork of MySQL after Oracle acquired [Sun].",
+      "about": "MariaDB stays wire-compatible with MySQL while adding storage engines (Aria, ColumnStore) and staying [GPL]-licensed. Linux distros (Debian, Fedora, RHEL) replaced default MySQL packages with MariaDB. [Teams] forked to keep an open, community-governed [SQL] database when Oracle owned MySQL.",
       "narrative": {
         "whyChosen": "MariaDB was Monty's answer to fears that Oracle would stall MySQL's open development.",
         "whyImportant": "It preserved a drop-in MySQL alternative adopted by major Linux distributions worldwide.",
-        "problemSolved": "The MySQL community needed a fork they could trust after Sun's acquisition by Oracle."
+        "problemSolved": "The MySQL community needed a fork they could trust after [Sun]'s [acquisition] by Oracle."
       },
       "category": "software",
       "tags": [

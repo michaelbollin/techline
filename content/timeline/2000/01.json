@@ -6,12 +6,12 @@
       "date": "2000-01-13",
       "datePrecision": "day",
       "title": "Bill Gates steps down as Microsoft CEO",
-      "summary": "Bill Gates handed the Microsoft CEO role to Steve Ballmer on January 13, 2000, remaining chief software architect.",
-      "about": "The transition ended Gates's day-to-day operational control during the dot-com era and Windows XP cycle. It marked Microsoft's shift from founder-led startup culture to enterprise-scale corporation.",
+      "summary": "Bill Gates handed the [Microsoft] CEO role to Steve Ballmer on January 13, 2000, remaining chief software architect.",
+      "about": "The transition ended Gates's day-to-day operational control during the dot-com era and Windows XP cycle. It marked [Microsoft]'s shift from founder-led startup culture to enterprise-scale corporation.",
       "narrative": {
         "whyChosen": "Gates's CEO exit was a generational handoff at the world's largest software company.",
         "whyImportant": "It separated founder vision from professional management at scale.",
-        "problemSolved": "Microsoft needed dedicated leadership as [antitrust] scrutiny and product complexity grew."
+        "problemSolved": "[Microsoft] needed dedicated leadership as [antitrust] scrutiny and product complexity grew."
       },
       "category": "culture",
       "tags": [
@@ -64,12 +64,12 @@
       "date": "2000-01-13",
       "datePrecision": "day",
       "title": "Steve Ballmer named Microsoft CEO",
-      "summary": "Steve Ballmer became Microsoft CEO on January 13, 2000, leading the company through the Windows and enterprise server boom.",
-      "about": "Ballmer's tenure emphasized Windows, Office, and datacenter licensing — and famously clashed with open source before Nadella's pivot. Developers remember the 'developers, developers, developers' era and the Longhorn/Vista cycle.",
+      "summary": "Steve Ballmer became [Microsoft] CEO on January 13, 2000, leading the company through the Windows and enterprise server boom.",
+      "about": "Ballmer's tenure emphasized Windows, Office, and datacenter licensing — and famously clashed with [open source] before Nadella's pivot. Developers remember the 'developers, developers, developers' era and the Longhorn/Vista cycle.",
       "narrative": {
-        "whyChosen": "Ballmer led Microsoft through its peak [PC] licensing years and early cloud transition.",
-        "whyImportant": "His era defined Microsoft's enterprise dominance and mobile missteps.",
-        "problemSolved": "Microsoft needed operational leadership as Gates focused on architecture and philanthropy."
+        "whyChosen": "Ballmer led [Microsoft] through its peak [PC] licensing years and early cloud transition.",
+        "whyImportant": "His era defined [Microsoft]'s enterprise dominance and mobile missteps.",
+        "problemSolved": "[Microsoft] needed operational leadership as Gates focused on architecture and philanthropy."
       },
       "category": "culture",
       "tags": [

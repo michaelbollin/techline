@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S20 released",
       "summary": "Samsung began selling the Samsung Galaxy S20 — 120 Hz displays and 5G across the line — COVID-era flagship launch.",
-      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. 120 hz displays and 5g across the line — covid-era flagship launch. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to [iPhone]. 120 hz displays and 5g across the line — covid-era flagship launch. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy S20 continued Samsung's annual [Android] flagship cadence.",
         "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
@@ -69,8 +69,8 @@
       "date": "2020-03-16",
       "datePrecision": "day",
       "title": "Solana mainnet beta launches",
-      "summary": "Solana launched mainnet beta on March 16, 2020 — a high-throughput blockchain using proof-of-history alongside proof-of-stake.",
-      "about": "Solana targeted sub-second finality and thousands of transactions per second for DeFi and NFT mints. Rust [smart contract]s and cheap fees attracted traders during the 2021 bull run — and later outages reminded developers that speed trades off against decentralization narratives.",
+      "summary": "Solana launched mainnet beta on March 16, 2020 — a high-throughput [blockchain] using proof-of-history alongside proof-of-stake.",
+      "about": "Solana targeted sub-second finality and thousands of transactions per second for [DeFi] and [NFT] mints. [Rust] [smart contract]s and cheap fees attracted traders during the 2021 bull run — and later outages reminded developers that speed trades off against decentralization narratives.",
       "narrative": {
         "whyChosen": "Solana became the leading Ethereum-alternative L1 for high-frequency on-chain apps.",
         "whyImportant": "It pushed the industry to compare throughput, fees, and validator counts across chains.",

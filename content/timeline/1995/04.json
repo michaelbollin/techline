@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Apache HTTP Server first public release",
       "summary": "The Apache Group announced Apache 0.6.2 on April 21, 1995 — a patched fork of NCSA httpd that became the dominant web server.",
-      "about": "Apache serves static files, CGI scripts, and later PHP, Perl, and proxy traffic for most of the early web. HotWired, [MIT] AI Lab, and thousands of ISPs ran it instead of unmaintained NCSA httpd. It later powered the LAMP stack (Linux, Apache, MySQL, PHP) and spawned the Apache Software Foundation.",
+      "about": "Apache serves static files, CGI scripts, and later PHP, [Perl], and proxy traffic for most of the early web. HotWired, [MIT] AI Lab, and thousands of ISPs ran it instead of unmaintained NCSA httpd. It later powered the LAMP stack (Linux, Apache, MySQL, PHP) and spawned the Apache Software Foundation.",
       "narrative": {
         "whyChosen": "Apache became the most widely deployed web server and proved open-source could run the public internet.",
         "whyImportant": "It set the pattern for community-maintained infrastructure replacing abandoned university code.",
@@ -64,11 +64,11 @@
       "datePrecision": "month",
       "title": "BeBox released",
       "summary": "Be Inc. began shipping the BeBox in April 1995 — a dual-PowerPC [workstation] running the BeOS multimedia operating system.",
-      "about": "The BeBox featured two PowerPC 603 processors and LED load meters on the front panel — BeOS prioritized real-time audio, video, and preemptive multitasking. Developers who missed NeXT's price point experimented with BeOS APIs before the platform pivoted to x86. Jean-Louis Gassée's machine attracted a cult following among multimedia coders.",
+      "about": "The BeBox featured two PowerPC 603 processors and LED load meters on the front panel — BeOS prioritized real-time audio, video, and preemptive multitasking. Developers who missed NeXT's price point experimented with BeOS APIs before the platform pivoted to [x86]. Jean-Louis Gassée's machine attracted a cult following among multimedia coders.",
       "narrative": {
         "whyChosen": "The BeBox showcased BeOS on custom dual-[CPU] hardware for multimedia developers.",
         "whyImportant": "It demonstrated modern preemptive multitasking and media pipelines on desktop hardware.",
-        "problemSolved": "Multimedia developers needed low-latency audio and video without Unix [kernel] overhead."
+        "problemSolved": "Multimedia developers needed low-latency audio and video without [Unix] [kernel] overhead."
       },
       "category": "hardware",
       "tags": [

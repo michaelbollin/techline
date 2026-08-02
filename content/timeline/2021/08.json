@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Joomla 4.0 released",
       "summary": "The [Joomla] project shipped [Joomla] 4.0 on August 17, 2021 — a nine-year rewrite with Bootstrap 5, improved accessibility, and a modernized admin experience.",
-      "about": "[Joomla] 4 arrived alongside [Joomla] 3.10 as a migration bridge — new media manager, child templates, and workflow publishing. It was the [CMS]'s answer to WordPress Gutenberg and the block-editor era while keeping PHP extension compatibility.",
+      "about": "[Joomla] 4 arrived alongside [Joomla] 3.10 as a migration bridge — new media manager, child templates, and workflow publishing. It was the [CMS]'s answer to [WordPress] Gutenberg and the block-editor era while keeping PHP extension compatibility.",
       "narrative": {
         "whyChosen": "[Joomla] 4 was the major release the project had been building toward since 2012.",
         "whyImportant": "It modernized [Joomla]'s UX and accessibility for a new generation of site builders.",
@@ -57,9 +57,9 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy Z Fold 3 released",
       "summary": "Samsung began selling the Samsung Galaxy Z Fold 3 — S Pen support and IPX8 water resistance on a foldable.",
-      "about": "Foldables forced Android developers to handle resizable and multi-window layouts on flexible displays. S pen support and ipx8 water resistance on a foldable.",
+      "about": "Foldables forced [Android] developers to handle resizable and multi-window layouts on flexible displays. S pen support and ipx8 water resistance on a foldable.",
       "narrative": {
-        "whyChosen": "The Samsung Galaxy Z Fold 3 pushed foldable Android hardware into the mainstream.",
+        "whyChosen": "The Samsung Galaxy Z Fold 3 pushed foldable [Android] hardware into the mainstream.",
         "whyImportant": "Foldable form factors require adaptive [UI] patterns beyond fixed phone screens.",
         "problemSolved": "Phones were locked to a single rigid screen size and aspect ratio."
       },

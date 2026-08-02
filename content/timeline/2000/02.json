@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Salesforce.com launched",
       "summary": "Marc Benioff launched Salesforce.com on February 7, 2000 at the \"End of Software\" event — a browser-based CRM delivered as a subscription service.",
-      "about": "Salesforce brought CRM to the cloud before \"[SaaS]\" was mainstream: accounts, contacts, opportunities, and reports in a browser with no on-prem install. Apex and the AppExchange later turned it into a platform; Heroku, MuleSoft, and Slack acquisitions expanded the ecosystem. It defined how enterprise software could be sold and extended online.",
+      "about": "Salesforce brought CRM to the cloud before \"[SaaS]\" was mainstream: accounts, contacts, opportunities, and reports in a browser with no on-prem install. Apex and the AppExchange later turned it into a platform; [Heroku], MuleSoft, and [Slack] acquisitions expanded the ecosystem. It defined how enterprise software could be sold and extended online.",
       "narrative": {
         "whyChosen": "Salesforce proved large business apps could run entirely in the browser as multi-tenant [SaaS].",
-        "whyImportant": "It pioneered subscription CRM and platform marketplaces that AWS-era startups copied.",
+        "whyImportant": "It pioneered subscription CRM and platform marketplaces that [AWS]-era startups copied.",
         "problemSolved": "On-prem CRM required expensive servers, consultants, and painful upgrade cycles."
       },
       "category": "software",

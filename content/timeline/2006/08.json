@@ -6,7 +6,7 @@
       "date": "2006-08-25",
       "datePrecision": "day",
       "title": "Amazon EC2 beta launched",
-      "summary": "AWS opened the Elastic Compute Cloud (EC2) beta on August 25, 2006 — rent Linux VMs by the hour over an [API].",
+      "summary": "[AWS] opened the Elastic Compute Cloud (EC2) beta on August 25, 2006 — rent Linux VMs by the hour over an [API].",
       "about": "EC2 let developers `ssh` into instances in minutes instead of waiting for hardware — the foundation of modern cloud infrastructure. Auto scaling groups, AMIs, and spot instances followed; every Terraform `aws_instance` resource echoes this launch.",
       "narrative": {
         "whyChosen": "EC2 made virtual servers a utility you could provision with an [API] call.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "jQuery 1.0 released",
       "summary": "John Resig released jQuery 1.0 on August 26, 2006 — a JavaScript library for DOM traversal, events, and AJAX with a chainable [API].",
-      "about": "jQuery (`$(selector).hide().fadeIn()`) hid browser quirks behind one syntax — plugins, animations, and `$.ajax` powered the Web 2.0 era before SPAs took over. WordPress, Bootstrap, and countless themes shipped it by default; it taught a generation of front-end devs to treat the DOM as a queryable object graph.",
+      "about": "jQuery (`$(selector).hide().fadeIn()`) hid browser quirks behind one syntax — plugins, animations, and `$.ajax` powered the Web 2.0 era before SPAs took over. [WordPress], Bootstrap, and countless themes shipped it by default; it taught a generation of front-end devs to treat the DOM as a queryable object graph.",
       "narrative": {
         "whyChosen": "jQuery became the most widely used JavaScript library of the 2000s.",
         "whyImportant": "Its selector engine and plugin ecosystem standardized client-side scripting before component frameworks.",

@@ -6,12 +6,12 @@
       "date": "2021-10-04",
       "datePrecision": "day",
       "title": "Python 3.10 released",
-      "summary": "Python 3.10 arrived on October 4, 2021 with structural pattern matching, parenthesized context managers, and better error messages.",
-      "about": "Python's `match`/`case` brought algebraic-style branching to scripts, notebooks, and data pipelines — especially handy for parsing [JSON] and ASTs. Clearer tracebacks (`SyntaxError` hints) made Python even more beginner-friendly while the language dominated ML and [automation].",
+      "summary": "[Python] 3.10 arrived on October 4, 2021 with structural pattern matching, parenthesized context managers, and better error messages.",
+      "about": "[Python]'s `match`/`case` brought algebraic-style branching to scripts, notebooks, and data pipelines — especially handy for parsing [JSON] and ASTs. Clearer tracebacks (`SyntaxError` hints) made [Python] even more beginner-friendly while the language dominated ML and [automation].",
       "narrative": {
-        "whyChosen": "Pattern matching was the headline language feature Python had lacked for years.",
-        "whyImportant": "It gave Python a concise way to branch on data shapes without nested if/elif chains.",
-        "problemSolved": "Complex conditional logic in Python often devolved into unreadable nested comparisons."
+        "whyChosen": "Pattern matching was the headline language feature [Python] had lacked for years.",
+        "whyImportant": "It gave [Python] a concise way to branch on data shapes without nested if/elif chains.",
+        "problemSolved": "Complex conditional logic in [Python] often devolved into unreadable nested comparisons."
       },
       "category": "software",
       "tags": [
@@ -50,12 +50,12 @@
       "date": "2021-10-21",
       "datePrecision": "day",
       "title": "Rust 2021 edition released",
-      "summary": "Rust 1.56 shipped the 2021 edition on October 21, 2021 — tightening closures, disjoint capture in async code, and panic macros without leaking implementation details.",
-      "about": "Editions let Rust evolve syntax without breaking old crates: `cargo fix --edition` migrated projects automatically. The 2021 edition polished async/await ergonomics and prepared the ecosystem for faster compile times and Linux [kernel] adoption.",
+      "summary": "[Rust] 1.56 shipped the 2021 edition on October 21, 2021 — tightening closures, disjoint capture in async code, and panic macros without leaking implementation details.",
+      "about": "Editions let [Rust] evolve syntax without breaking old crates: `cargo fix --edition` migrated projects automatically. The 2021 edition polished async/await ergonomics and prepared the ecosystem for faster compile times and Linux [kernel] adoption.",
       "narrative": {
-        "whyChosen": "The 2021 edition refined daily Rust ergonomics after the 2018 edition established the model.",
-        "whyImportant": "Disjoint closure capture made async Rust less painful in real codebases.",
-        "problemSolved": "Async closures and panic formatting had rough edges that slowed Rust adoption in production services."
+        "whyChosen": "The 2021 edition refined daily [Rust] ergonomics after the 2018 edition established the model.",
+        "whyImportant": "Disjoint closure capture made async [Rust] less painful in real codebases.",
+        "problemSolved": "Async closures and panic formatting had rough edges that slowed [Rust] adoption in production services."
       },
       "category": "software",
       "tags": [

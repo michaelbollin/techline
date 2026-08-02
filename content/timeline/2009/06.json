@@ -6,12 +6,12 @@
       "date": "2009-06-16",
       "datePrecision": "day",
       "title": "Less CSS preprocessor introduced",
-      "summary": "Alexis Sellier introduced the Less CSS preprocessor on June 16, 2009 via the 'Introducing LESS' blog post — keeping standard CSS syntax while adding variables and mixins.",
-      "about": "Less extended CSS with `@variable` declarations, nested rules, and mixins — all valid CSS with extra features on top. Inspired by [Sass] but written in JavaScript, it lowered the barrier for developers who wanted preprocessor power without learning a new indented syntax. Bootstrap adopted Less before moving to [Sass].",
+      "summary": "Alexis Sellier introduced the Less [CSS] preprocessor on June 16, 2009 via the 'Introducing LESS' blog post — keeping standard [CSS] syntax while adding variables and mixins.",
+      "about": "Less extended [CSS] with `@variable` declarations, nested rules, and mixins — all valid [CSS] with extra features on top. Inspired by [Sass] but written in JavaScript, it lowered the barrier for developers who wanted preprocessor power without learning a new indented syntax. Bootstrap adopted Less before moving to [Sass].",
       "narrative": {
-        "whyChosen": "Less proved preprocessors could feel like CSS with braces, not a separate language.",
+        "whyChosen": "Less proved preprocessors could feel like [CSS] with braces, not a separate language.",
         "whyImportant": "It pushed [Sass] toward SCSS and made preprocessor workflows mainstream in JavaScript toolchains.",
-        "problemSolved": "[Sass]'s indented syntax felt alien to developers used to curly-brace CSS."
+        "problemSolved": "[Sass]'s indented syntax felt alien to developers used to curly-brace [CSS]."
       },
       "category": "software",
       "tags": [
@@ -62,11 +62,11 @@
       "date": "2009-06-19",
       "datePrecision": "day",
       "title": "iPhone 3GS released",
-      "summary": "Apple began selling the iPhone 3GS on June 19, 2009 — adding a faster processor, video recording, and voice control.",
-      "about": "The 3GS refined the iPhone platform with substantially better performance and a 3-megapixel video camera. Developers gained headroom for richer games and media apps while mobile Safari improved with better JavaScript performance.",
+      "summary": "Apple began selling the [iPhone] 3GS on June 19, 2009 — adding a faster processor, video recording, and voice control.",
+      "about": "The 3GS refined the [iPhone] platform with substantially better performance and a 3-megapixel video camera. Developers gained headroom for richer games and media apps while mobile [Safari] improved with better JavaScript performance.",
       "narrative": {
         "whyChosen": "The 3GS proved Apple's 'S' year could deliver meaningful speed and camera upgrades without a redesign.",
-        "whyImportant": "Faster hardware made native iOS apps feel responsive enough for console-style games and video workflows.",
+        "whyImportant": "Faster hardware made native [iOS] apps feel responsive enough for console-style games and video workflows.",
         "problemSolved": "Early iPhones struggled with sluggish [UI] and limited multimedia capture for mainstream users."
       },
       "category": "hardware",
@@ -120,11 +120,11 @@
       "datePrecision": "day",
       "title": "Nokia N97 released",
       "summary": "Nokia released the Nokia N97 — touchscreen [Symbian] with slide-out keyboard — late [Symbian] flagship.",
-      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. Touchscreen symbian with slide-out keyboard — late symbian flagship.",
+      "about": "Nokia hardware shaped pre-[iPhone] smartphones and later [Microsoft]'s mobile platform bet. Touchscreen symbian with slide-out keyboard — late symbian flagship.",
       "narrative": {
         "whyChosen": "The Nokia N97 was a flagship Nokia smartphone milestone.",
         "whyImportant": "Nokia devices defined mobile platforms from [Symbian] through Windows Phone.",
-        "problemSolved": "Mobile users needed capable smartphones before the iPhone/[Android] era matured."
+        "problemSolved": "Mobile users needed capable smartphones before the [iPhone]/[Android] era matured."
       },
       "category": "hardware",
       "tags": [
@@ -172,7 +172,7 @@
       "datePrecision": "day",
       "title": "PHP 5.3 released",
       "summary": "PHP 5.3 shipped on June 30, 2009 with namespaces, closures, and late static binding — modernizing the language for frameworks.",
-      "about": "Namespaces (`namespace App\\Model`) let Symfony, Laravel, and Composer coexist without class name collisions. Closures and `use` imports enabled functional patterns in PHP. PHP 5.3 was the foundation for the framework renaissance of the 2010s.",
+      "about": "Namespaces (`namespace App\\Model`) let [Symfony], Laravel, and Composer coexist without class name collisions. Closures and `use` imports enabled functional patterns in PHP. PHP 5.3 was the foundation for the framework renaissance of the 2010s.",
       "narrative": {
         "whyChosen": "PHP 5.3 added the language features enterprise PHP frameworks required.",
         "whyImportant": "Namespaces unlocked PSR standards and Composer's package ecosystem.",

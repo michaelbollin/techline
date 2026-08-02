@@ -6,11 +6,11 @@
       "date": "2013-04-03",
       "datePrecision": "day",
       "title": "Google announced Blink rendering engine",
-      "summary": "On April 3, 2013, Google announced [Blink] — a fork of [WebKit] that would power Chrome and Opera, splitting the open-source browser engine landscape.",
-      "about": "[Blink] let Google iterate faster than [WebKit]'s multi-vendor governance — dropping vendor prefixes, changing architecture, and eventually dominating [Chromium]-based browsers. Safari kept [WebKit]; Chrome, Edge, Opera, and most mobile browsers adopted [Blink].",
+      "summary": "On April 3, 2013, Google announced [Blink] — a fork of [WebKit] that would power [Chrome] and Opera, splitting the open-source browser engine landscape.",
+      "about": "[Blink] let Google iterate faster than [WebKit]'s multi-vendor governance — dropping vendor prefixes, changing architecture, and eventually dominating [Chromium]-based browsers. [Safari] kept [WebKit]; [Chrome], [Edge], Opera, and most mobile browsers adopted [Blink].",
       "narrative": {
         "whyChosen": "[Blink] fork was the inflection point toward [Chromium] engine monoculture.",
-        "whyImportant": "It ended the [WebKit]-only era outside Firefox and defined modern browser internals.",
+        "whyImportant": "It ended the [WebKit]-only era outside [Firefox] and defined modern browser internals.",
         "problemSolved": "Google needed engine freedom to ship multi-process architecture and rapid web platform changes."
       },
       "category": "software",
@@ -63,7 +63,7 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S4 released",
       "summary": "Samsung began selling the Samsung Galaxy S4 — 1080p five-inch display and eye-tracking features — peak TouchWiz era dominance.",
-      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. 1080p five-inch display and eye-tracking features — peak touchwiz era dominance. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to [iPhone]. 1080p five-inch display and eye-tracking features — peak touchwiz era dominance. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy S4 continued Samsung's annual [Android] flagship cadence.",
         "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",

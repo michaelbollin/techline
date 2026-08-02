@@ -118,12 +118,12 @@
       "date": "1999-12-01",
       "datePrecision": "day",
       "title": "OpenBSD team releases OpenSSH",
-      "summary": "The OpenBSD team led by Theo de Raadt shipped OpenSSH 1.2.2 on December 1, 1999 — a free replacement for proprietary SSH.",
-      "about": "OpenSSH secured remote server administration for the entire internet — `ssh` on every Linux and macOS machine traces to this fork. It replaced a commercial SSH license with audited [BSD]-licensed code bundled with OpenBSD 2.6.",
+      "summary": "The OpenBSD team led by Theo de Raadt shipped OpenSSH 1.2.2 on December 1, 1999 — a free replacement for proprietary [SSH].",
+      "about": "OpenSSH secured remote server administration for the entire internet — `ssh` on every Linux and [macOS] machine traces to this fork. It replaced a commercial [SSH] license with audited [BSD]-licensed code bundled with OpenBSD 2.6.",
       "narrative": {
         "whyChosen": "OpenSSH became the universal secure shell implementation.",
-        "whyImportant": "It kept encrypted remote access free and auditable after SSH went proprietary.",
-        "problemSolved": "Proprietary SSH licensing threatened to tax every Unix administrator and vendor."
+        "whyImportant": "It kept encrypted remote access free and auditable after [SSH] went proprietary.",
+        "problemSolved": "Proprietary [SSH] licensing threatened to tax every [Unix] administrator and vendor."
       },
       "category": "software",
       "tags": [

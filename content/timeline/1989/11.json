@@ -5,11 +5,11 @@
       "date": "1989-11",
       "datePrecision": "month",
       "title": "The World: first commercial dial-up ISP",
-      "summary": "Software Tool & Die's The World began offering dial-up internet access to the public in November 1989 — the first commercial ISP with a direct connection to the internet backbone.",
-      "about": "Unlike CompuServe or AOL, The World sold shell accounts that reached the real internet — email, Usenet, FTP, and Telnet over local phone lines. Barry Shein's Boston ISP showed that individuals and small businesses could get the same TCP/IP reach researchers had on campus, for about $20 a month.",
+      "summary": "Software Tool & Die's The World began offering dial-up internet access to the public in November 1989 — the first commercial [ISP] with a direct connection to the internet backbone.",
+      "about": "Unlike CompuServe or AOL, The World sold shell accounts that reached the real internet — email, Usenet, [FTP], and Telnet over local phone lines. Barry Shein's Boston [ISP] showed that individuals and small businesses could get the same [TCP]/[IP] reach researchers had on campus, for about $20 a month.",
       "narrative": {
         "whyChosen": "The World opened the internet to paying consumers outside academia and defense contractors.",
-        "whyImportant": "It established the commercial dial-up ISP model that AOL and regional providers scaled in the 1990s.",
+        "whyImportant": "It established the commercial dial-up [ISP] model that AOL and regional providers scaled in the 1990s.",
         "problemSolved": "Former students and consultants lost campus internet access and had no consumer path back onto the network."
       },
       "category": "software",

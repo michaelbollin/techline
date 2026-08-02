@@ -55,12 +55,12 @@
       "date": "2015-06-08",
       "datePrecision": "day",
       "title": "Swift 2 announced at WWDC",
-      "summary": "Apple announced Swift 2 at WWDC on June 8, 2015 with error handling (`try`/`catch`), protocol extensions, and availability checks.",
-      "about": "Swift 2 made the language feel production-ready: `guard`, improved error propagation, and `@available` for [API] versioning. Apple also previewed open-sourcing Swift — setting up the December 2015 release that expanded beyond iOS.",
+      "summary": "Apple announced [Swift] 2 at [WWDC] on June 8, 2015 with error handling (`try`/`catch`), protocol extensions, and availability checks.",
+      "about": "[Swift] 2 made the language feel production-ready: `guard`, improved error propagation, and `@available` for [API] versioning. Apple also previewed open-sourcing [Swift] — setting up the December 2015 release that expanded beyond [iOS].",
       "narrative": {
-        "whyChosen": "Swift 2 added the error-handling and [API] patterns iOS developers needed daily.",
-        "whyImportant": "It bridged Swift 1 experiments to the open-source Swift 2.x line.",
-        "problemSolved": "Swift 1 lacked robust error handling and protocol-oriented patterns for large apps."
+        "whyChosen": "[Swift] 2 added the error-handling and [API] patterns [iOS] developers needed daily.",
+        "whyImportant": "It bridged [Swift] 1 experiments to the open-source [Swift] 2.x line.",
+        "problemSolved": "[Swift] 1 lacked robust error handling and protocol-oriented patterns for large apps."
       },
       "category": "software",
       "tags": [
@@ -109,12 +109,12 @@
       "date": "2015-06-22",
       "datePrecision": "day",
       "title": "Open Container Initiative launched",
-      "summary": "Docker, CoreOS, and others launched the OCI on June 22, 2015 — an [open standard] for container image formats and runtimes, donating runc as the reference implementation.",
-      "about": "OCI specs define how container images are built, stored, and executed — image manifest, runtime bundle, and registry distribution. runc implements the runtime spec; containerd, CRI-O, and Podman build on it. Example: a `docker pull` image conforms to OCI Image Format; `runc run` starts it per OCI Runtime Spec.",
+      "summary": "[Docker], CoreOS, and others launched the OCI on June 22, 2015 — an [open standard] for [container] image formats and runtimes, donating runc as the reference implementation.",
+      "about": "OCI specs define how [container] images are built, stored, and executed — image manifest, runtime bundle, and registry distribution. runc implements the runtime spec; containerd, CRI-O, and Podman build on it. Example: a `docker pull` image conforms to OCI Image Format; `runc run` starts it per OCI Runtime Spec.",
       "narrative": {
-        "whyChosen": "OCI prevented container formats from fragmenting into incompatible vendor silos.",
-        "whyImportant": "It let Kubernetes, Podman, and Docker share images and runtime semantics.",
-        "problemSolved": "The container ecosystem needed vendor-neutral standards before proprietary formats locked in users."
+        "whyChosen": "OCI prevented [container] formats from fragmenting into incompatible vendor silos.",
+        "whyImportant": "It let [Kubernetes], Podman, and [Docker] share images and runtime semantics.",
+        "problemSolved": "The [container] ecosystem needed vendor-neutral standards before proprietary formats locked in users."
       },
       "category": "protocol",
       "tags": [
@@ -164,12 +164,12 @@
       "date": "2015-06-04",
       "datePrecision": "day",
       "title": "CockroachDB open sourced",
-      "summary": "Cockroach Labs launched CockroachDB as open source on June 4, 2015 — a distributed [SQL] database inspired by Google Spanner.",
+      "summary": "Cockroach Labs launched CockroachDB as [open source] on June 4, 2015 — a distributed [SQL] database inspired by Google Spanner.",
       "about": "CockroachDB spreads PostgreSQL-compatible tables across nodes with serializable transactions and automatic failover — survive zone or region outages without manual failover scripts. Ex-Googlers Spencer Kimball, Peter Mattis, and Ben Darnell built it after leaving Viewfinder. It targets cloud-native apps that need [SQL] semantics with horizontal scale beyond single-node Postgres.",
       "narrative": {
         "whyChosen": "CockroachDB brought Spanner-style distributed [SQL] to the open-source world.",
-        "whyImportant": "It proved strongly consistent [SQL] could scale across datacenters without giving up ACID transactions.",
-        "problemSolved": "Teams outgrew single-node Postgres but needed [SQL], not the tradeoffs of eventual-consistency NoSQL."
+        "whyImportant": "It proved strongly consistent [SQL] could scale across datacenters without giving up [ACID] transactions.",
+        "problemSolved": "[Teams] outgrew single-node Postgres but needed [SQL], not the tradeoffs of eventual-consistency [NoSQL]."
       },
       "category": "software",
       "tags": [

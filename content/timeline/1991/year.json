@@ -10,7 +10,7 @@
       "about": "[HTML] wraps text in elements like `<a href>`, `<p>`, and `<h1>` so browsers know structure and hyperlinks. Berners-Lee paired it with [HTTP] and URLs; every web page, email template, and SPA still renders [HTML] (or generates it). Example: `<a href=\"/docs\">Read more</a>` turns text into a clickable navigation link.",
       "narrative": {
         "whyChosen": "[HTML] was the document format that made the web browsable, not just transferable files.",
-        "whyImportant": "It became the universal presentation layer of the internet — later extended by CSS and JavaScript.",
+        "whyImportant": "It became the universal presentation layer of the internet — later extended by [CSS] and JavaScript.",
         "problemSolved": "Scientists at CERN needed a simple way to write and link research documents across machines."
       },
       "category": "protocol",

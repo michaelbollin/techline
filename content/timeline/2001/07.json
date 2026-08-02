@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "Miguel de Icaza announces Mono",
       "summary": "Ximian unveiled the [Mono] Project on July 9, 2001 — Miguel de Icaza's open-source .NET implementation, with details presented at O'Reilly OSCON later that month.",
-      "about": "[Mono] enabled Xamarin mobile development and Unity's C# scripting on macOS and Linux. de Icaza also co-founded GNOME and Ximian — shaping open desktop and cross-platform .NET.",
+      "about": "[Mono] enabled Xamarin mobile development and Unity's C# scripting on [macOS] and Linux. de Icaza also co-founded GNOME and Ximian — shaping open desktop and cross-platform .NET.",
       "narrative": {
-        "whyChosen": "[Mono] made Microsoft's managed runtime portable before .NET Core existed.",
+        "whyChosen": "[Mono] made [Microsoft]'s managed runtime portable before .NET Core existed.",
         "whyImportant": "It kept C# viable for cross-platform mobile and game development.",
         "problemSolved": ".NET was Windows-only, blocking open-source and mobile adoption."
       },
@@ -114,7 +114,7 @@
       "date": "2001-07-19",
       "datePrecision": "day",
       "title": "Code Red worm targets IIS web servers",
-      "summary": "The Code Red worm peaked on July 19, 2001 — exploiting a buffer overflow in Microsoft IIS to deface websites and launch DDoS attacks against the White House.",
+      "summary": "The Code Red [worm] peaked on July 19, 2001 — exploiting a buffer overflow in [Microsoft] IIS to deface websites and launch DDoS attacks against the White House.",
       "about": "Code Red scanned the entire [IPv4] space for vulnerable IIS installs — hundreds of thousands of servers compromised in hours. It was named after Mountain Dew flavor at eEye Digital Security and forced emergency patching of Windows NT and 2000 web farms. Developers learned that internet-facing services could be weaponized into botnets overnight.",
       "narrative": {
         "whyChosen": "Code Red showed how one IIS bug could infect the public web in a single day.",

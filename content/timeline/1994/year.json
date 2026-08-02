@@ -50,7 +50,7 @@
       "datePrecision": "year",
       "title": "Alexander Stepanov publishes the STL",
       "summary": "Alexander Stepanov and Meng Lee published the Standard Template Library in 1994 — generic algorithms that became core C++.",
-      "about": "The STL introduced iterators, containers, and algorithms as reusable abstractions — influencing Java collections, C# LINQ, and Rust iterators. Stepanov's generic programming philosophy shaped modern systems languages.",
+      "about": "The STL introduced iterators, containers, and algorithms as reusable abstractions — influencing [Java] collections, C# [LINQ], and [Rust] iterators. Stepanov's generic programming philosophy shaped modern systems languages.",
       "narrative": {
         "whyChosen": "The STL defined generic programming for industrial C++.",
         "whyImportant": "It separated algorithms from data structures via iterators.",

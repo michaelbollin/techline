@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "Flash 4 ships with a real scripting language",
       "summary": "Macromedia [Flash] 4 added variables, loops, and conditions — the precursor to ActionScript.",
-      "about": "[Flash] filled browsers with animated, interactive content before HTML5 — cartoon intros, simple games, product demos, and clickable banners. [Flash] 4 added real scripting (if/else, variables) so designers could build menus and quizzes, not just timeline animations.",
+      "about": "[Flash] filled browsers with animated, interactive content before [HTML5] — cartoon intros, simple games, product demos, and clickable banners. [Flash] 4 added real scripting (if/else, variables) so designers could build menus and quizzes, not just timeline animations.",
       "narrative": {
-        "whyChosen": "[Flash] turned the web from static pages into animated, interactive experiences before HTML5.",
+        "whyChosen": "[Flash] turned the web from static pages into animated, interactive experiences before [HTML5].",
         "whyImportant": "Developers could build games and apps in the browser without a full plugin stack beyond [Flash].",
         "problemSolved": "Earlier [Flash] versions only supported simple timeline actions, not real programmatic control."
       },
@@ -63,12 +63,12 @@
       "date": "1999-06",
       "datePrecision": "month",
       "title": "Apache Tomcat released",
-      "summary": "Sun donated Tomcat to the Apache Software Foundation in June 1999 — the first open-source Java servlet [container] as Apache Tomcat 3.0.",
-      "about": "Tomcat runs Java servlets and JSPs — the reference implementation James Duncan Davidson built at Sun before open-sourcing it at JavaOne. It powered early enterprise Java, JSP websites, and the Jakarta ecosystem. Ant was born as Tomcat's build tool. Example: deploy a `.war` file and Tomcat serves your servlet at `http://localhost:8080/myapp`.",
+      "summary": "[Sun] donated Tomcat to the Apache Software Foundation in June 1999 — the first open-source [Java] servlet [container] as Apache Tomcat 3.0.",
+      "about": "Tomcat runs [Java] servlets and JSPs — the reference implementation James Duncan Davidson built at [Sun] before open-sourcing it at JavaOne. It powered early enterprise [Java], JSP websites, and the Jakarta ecosystem. Ant was born as Tomcat's build tool. Example: deploy a `.war` file and Tomcat serves your servlet at `http://localhost:8080/myapp`.",
       "narrative": {
-        "whyChosen": "Tomcat made Java servlet hosting open source and embeddable outside proprietary app servers.",
-        "whyImportant": "It became the default servlet [container] and launched the Apache Jakarta/Java open-source wave.",
-        "problemSolved": "Java web developers needed a free, portable runtime for servlets without buying WebLogic or WebSphere."
+        "whyChosen": "Tomcat made [Java] servlet hosting [open source] and embeddable outside proprietary app servers.",
+        "whyImportant": "It became the default servlet [container] and launched the Apache Jakarta/[Java] open-source wave.",
+        "problemSolved": "[Java] web developers needed a free, portable runtime for servlets without buying WebLogic or WebSphere."
       },
       "category": "software",
       "tags": [
@@ -126,7 +126,7 @@
       "datePrecision": "day",
       "title": "Napster peer-to-peer music sharing launches",
       "summary": "Shawn Fanning's Napster went live on June 1, 1999 — a centralized [peer-to-peer] service that let users trade MP3 files and brought music piracy to mainstream college campuses.",
-      "about": "Napster indexed filenames on users' hard drives and matched seekers to hosts — no warez topsites or crack intros required. The RIAA lawsuit, Metallica testimony, and eventual shutdown defined the copyright wars that produced iTunes, Spotify, and today's DMCA takedown infrastructure. It proved P2P could scale faster than any FTP ring.",
+      "about": "Napster indexed filenames on users' hard drives and matched seekers to hosts — no warez topsites or crack intros required. The RIAA lawsuit, Metallica testimony, and eventual shutdown defined the copyright wars that produced [iTunes], Spotify, and today's [DMCA] takedown infrastructure. It proved P2P could scale faster than any [FTP] ring.",
       "narrative": {
         "whyChosen": "Napster was the consumer face of P2P piracy before BitTorrent.",
         "whyImportant": "It forced the music industry and courts to confront digital copying at internet scale.",
@@ -180,7 +180,7 @@
       "narrative": {
         "whyChosen": "G.992.1 standardized the DSL technology that brought broadband to millions of phone-line-only homes.",
         "whyImportant": "It gave developers a second mass-market always-on access path beside cable DOCSIS.",
-        "problemSolved": "Telephone incumbents needed a standards-based way to offer internet without replacing every copper loop."
+        "problemSolved": "[telephone] incumbents needed a standards-based way to offer internet without replacing every copper loop."
       },
       "category": "protocol",
       "tags": [

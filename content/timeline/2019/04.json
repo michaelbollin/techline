@@ -6,12 +6,12 @@
       "date": "2019-04-23",
       "datePrecision": "day",
       "title": "Node.js 12 released",
-      "summary": "Node.js 12.0.0 shipped on April 23, 2019 with V8 7.4, improved startup performance, and stable [HTTP]/2.",
-      "about": "Node 12 became LTS in October 2019 — powering serverless functions, Next.js apps, and npm's largest package era. Faster startup helped cold-start latency on AWS Lambda and Vercel; diagnostic reports improved production debugging.",
+      "summary": "[Node.js] 12.0.0 shipped on April 23, 2019 with [V8] 7.4, improved startup performance, and stable [HTTP]/2.",
+      "about": "[Node] 12 became [LTS] in October 2019 — powering serverless functions, Next.js apps, and [npm]'s largest package era. Faster startup helped cold-start latency on [AWS Lambda] and [Vercel]; diagnostic reports improved production debugging.",
       "narrative": {
-        "whyChosen": "Node 12 LTS was the default runtime for serverless and JAMstack deployments.",
-        "whyImportant": "Startup speed and [HTTP]/2 maturity made Node competitive for edge and cloud functions.",
-        "problemSolved": "Cold starts and slow [HTTP]/1.1 limited Node in serverless and high-throughput APIs."
+        "whyChosen": "[Node] 12 [LTS] was the default runtime for serverless and JAMstack deployments.",
+        "whyImportant": "Startup speed and [HTTP]/2 maturity made [Node] competitive for edge and cloud functions.",
+        "problemSolved": "Cold starts and slow [HTTP]/1.1 limited [Node] in serverless and high-throughput APIs."
       },
       "category": "software",
       "tags": [
@@ -55,11 +55,11 @@
       "datePrecision": "day",
       "title": "South Korea launches commercial 5G NR",
       "summary": "South Korean carriers opened commercial 5G NR service nationwide on April 5, 2019 — the first large-scale rollout of fifth-generation cellular data.",
-      "about": "5G NR targets gigabit-class peak speeds, lower latency, and denser small-cell deployment — assumptions behind cloud gaming on phones, AR prototypes, and edge compute experiments. SK Telecom, KT, and LG Uplus beat rival launch clocks by days, but the lasting impact is a new radio generation developers benchmark against for real-time mobile apps.",
+      "about": "5G NR targets gigabit-class peak speeds, lower latency, and denser small-cell deployment — assumptions behind cloud gaming on phones, [AR] prototypes, and edge compute experiments. SK Telecom, KT, and LG Uplus beat rival launch clocks by days, but the lasting impact is a new radio generation developers [benchmark] against for real-time mobile apps.",
       "narrative": {
         "whyChosen": "South Korea's April 2019 launch was the first nationwide commercial 5G NR deployment.",
         "whyImportant": "It marked the cellular generation built for machine-to-machine and high-bandwidth mobile workloads.",
-        "problemSolved": "LTE alone could not meet projected demand for ultra-low latency and multi-gigabit mobile traffic."
+        "problemSolved": "[LTE] alone could not meet projected demand for ultra-low latency and multi-gigabit mobile traffic."
       },
       "category": "protocol",
       "tags": [

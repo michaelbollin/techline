@@ -6,12 +6,12 @@
       "date": "2010-06-07",
       "datePrecision": "day",
       "title": "Safari 5 released",
-      "summary": "Apple released Safari 5 on June 7, 2010 at WWDC with Safari Reader, improved HTML5 support, and the Nitro JavaScript engine.",
-      "about": "Safari 5 added Reader for distraction-free articles, extensions, and Bing as a search option. Nitro made JavaScript faster on Mac and Windows — keeping Safari relevant as Chrome gained share and developers tested HTML5 features.",
+      "summary": "Apple released [Safari] 5 on June 7, 2010 at [WWDC] with [Safari] Reader, improved [HTML5] support, and the Nitro JavaScript engine.",
+      "about": "[Safari] 5 added Reader for distraction-free articles, extensions, and Bing as a search option. Nitro made JavaScript faster on Mac and Windows — keeping [Safari] relevant as [Chrome] gained share and developers tested [HTML5] features.",
       "narrative": {
-        "whyChosen": "Safari 5 bundled the HTML5 and Reader features that defined Apple's desktop browser era.",
+        "whyChosen": "[Safari] 5 bundled the [HTML5] and Reader features that defined Apple's desktop browser era.",
         "whyImportant": "Extensions and Nitro JS kept [WebKit] competitive during the browser wars.",
-        "problemSolved": "Safari 4 lacked extensions and felt behind Chrome's rapid feature releases."
+        "problemSolved": "[Safari] 4 lacked extensions and felt behind [Chrome]'s rapid feature releases."
       },
       "category": "software",
       "tags": [
@@ -61,10 +61,10 @@
       "date": "2010-06-24",
       "datePrecision": "day",
       "title": "iPhone 4 released",
-      "summary": "Apple began selling the iPhone 4 on June 24, 2010 — with a Retina display, front-facing camera, and stainless-steel antenna band.",
-      "about": "The Retina screen doubled pixel density to 326 ppi — designers and web developers started shipping @2x assets and `-webkit-device-pixel-ratio` media queries. FaceTime and the gyroscope expanded mobile app possibilities. The iPhone 4 cemented Apple's hardware lead and pushed mobile web design toward high-DPI layouts.",
+      "summary": "Apple began selling the [iPhone] 4 on June 24, 2010 — with a Retina display, front-facing camera, and stainless-steel antenna band.",
+      "about": "The Retina screen doubled pixel density to 326 ppi — designers and web developers started shipping @2x assets and `-webkit-device-pixel-ratio` media queries. FaceTime and the gyroscope expanded mobile app possibilities. The [iPhone] 4 cemented Apple's hardware lead and pushed mobile web design toward high-DPI layouts.",
       "narrative": {
-        "whyChosen": "The iPhone 4's Retina display forced the mobile web and app ecosystems to adopt high-DPI assets.",
+        "whyChosen": "The [iPhone] 4's Retina display forced the mobile web and app ecosystems to adopt high-DPI assets.",
         "whyImportant": "It set the pixel-density bar every smartphone and responsive [CSS] workflow followed.",
         "problemSolved": "Mobile screens looked pixelated next to print; users expected sharper text and images on phones."
       },
@@ -124,8 +124,8 @@
       "summary": "Samsung put the Galaxy S on sale on June 4, 2010 in Singapore — the first flagship [Android] phone in a line that would dominate smartphone shipments.",
       "about": "The Galaxy S ran [Android] 2.1 with Samsung's TouchWiz skin and a 4-inch Super AMOLED display — establishing Samsung as Apple's primary [Android] hardware rival. Developers targeting [Android] tested on Galaxy devices as the default non-[Nexus] reference hardware for years.",
       "narrative": {
-        "whyChosen": "The Galaxy S launched Samsung's flagship [Android] line that defined the iOS alternative.",
-        "whyImportant": "It proved [Android] OEMs could ship premium hardware that competed with the iPhone at scale.",
+        "whyChosen": "The Galaxy S launched Samsung's flagship [Android] line that defined the [iOS] alternative.",
+        "whyImportant": "It proved [Android] OEMs could ship premium hardware that competed with the [iPhone] at scale.",
         "problemSolved": "[Android] needed a flagship reference device beyond the G1 for mainstream consumers."
       },
       "category": "hardware",
@@ -182,12 +182,12 @@
       "date": "2010-06-17",
       "datePrecision": "day",
       "title": "WordPress 3.0 released",
-      "summary": "WordPress 3.0 \"Thelonious\" shipped on June 17, 2010 — merging WordPress MU into core and adding custom post types.",
-      "about": "WordPress 3.0 turned blogging software into a general [CMS] — custom post types, nav menus, and Multisite for running many sites from one install. The Twenty Ten default theme launched the annual theme tradition; agencies could finally build portfolios and directories without fighting the post-only model.",
+      "summary": "[WordPress] 3.0 \"Thelonious\" shipped on June 17, 2010 — merging [WordPress] MU into core and adding custom post types.",
+      "about": "[WordPress] 3.0 turned blogging software into a general [CMS] — custom post types, nav menus, and Multisite for running many sites from one install. The Twenty Ten default theme launched the annual theme tradition; agencies could finally build portfolios and directories without fighting the post-only model.",
       "narrative": {
-        "whyChosen": "WordPress 3.0 was the release that made WordPress a true [CMS], not just a blog.",
+        "whyChosen": "[WordPress] 3.0 was the release that made [WordPress] a true [CMS], not just a blog.",
         "whyImportant": "Custom post types and Multisite unlocked enterprise and agency use cases at massive scale.",
-        "problemSolved": "Separate WordPress MU installs were awkward; publishers needed structured content beyond posts and pages."
+        "problemSolved": "Separate [WordPress] MU installs were awkward; publishers needed structured content beyond posts and pages."
       },
       "category": "software",
       "tags": [
@@ -229,10 +229,10 @@
       "date": "2010-06-17",
       "datePrecision": "day",
       "title": "Stuxnet worm discovered targeting industrial systems",
-      "summary": "Belarusian security firm VirusBlokAda identified the Stuxnet worm on June 17, 2010 — malware that exploited multiple Windows zero-days to sabotage Iranian nuclear centrifuges via Siemens PLCs.",
-      "about": "Stuxnet was the first known cyberweapon to cause physical destruction — [USB] propagation, stolen code-signing certificates, and PLC ladder-logic manipulation in one package. It launched the era of nation-state APT research, ICS security teams, and air-gapped network paranoia. Developers securing SCADA and IoT still reference Stuxnet as the proof point.",
+      "summary": "Belarusian security firm VirusBlokAda identified the Stuxnet [worm] on June 17, 2010 — [malware] that exploited multiple Windows zero-days to sabotage Iranian nuclear centrifuges via Siemens PLCs.",
+      "about": "Stuxnet was the first known cyberweapon to cause physical destruction — [USB] propagation, stolen code-signing certificates, and PLC ladder-logic manipulation in one package. It launched the era of nation-state APT research, ICS security teams, and air-gapped network paranoia. Developers securing SCADA and [IoT] still reference Stuxnet as the proof point.",
       "narrative": {
-        "whyChosen": "Stuxnet was the first malware proven to cross from [IT] networks into physical plant damage.",
+        "whyChosen": "Stuxnet was the first [malware] proven to cross from [IT] networks into physical plant damage.",
         "whyImportant": "It created the ICS/OT security industry and nation-state cyber doctrine.",
         "problemSolved": "Nothing for defenders initially — it showed industrial control systems were as vulnerable as office PCs."
       },

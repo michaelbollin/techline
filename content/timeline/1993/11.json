@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "CGI specified",
       "summary": "Rob McCool posted the Common Gateway Interface specification on November 14, 1993 — a standard for web servers to run external programs and return dynamic [HTML].",
-      "about": "CGI turned [HTTP] requests into environment variables and stdin for Perl, C, or shell scripts — the original way to build login forms, search pages, and counters before PHP and app servers. NCSA httpd and Apache adopted it; `#!/usr/bin/perl` in `/cgi-bin/` powered the early commercial web. Every modern WSGI, Rack, and PSGI interface is a descendant of this pattern.",
+      "about": "CGI turned [HTTP] requests into environment variables and stdin for [Perl], C, or shell scripts — the original way to build login forms, search pages, and counters before PHP and app servers. NCSA httpd and Apache adopted it; `#!/usr/bin/perl` in `/cgi-bin/` powered the early commercial web. Every modern WSGI, Rack, and PSGI interface is a descendant of this pattern.",
       "narrative": {
         "whyChosen": "CGI was the first standard bridge between static web servers and executable backend logic.",
         "whyImportant": "It made dynamic web pages possible before embedded language runtimes and application servers.",

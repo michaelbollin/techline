@@ -9,7 +9,7 @@
       "summary": "David MacKenzie wrote the first Autoconf `configure` script in June 1991 — automating portability checks for GNU software builds.",
       "about": "Autoconf generates shell scripts that probe the host system for compilers, headers, and libraries — producing a `config.h` and Makefiles that build on Linux, [BSD], and Solaris alike. It paired with Automake and Libtool as the GNU build triad for decades. Example: `./configure --prefix=/usr/local && make && make install` adapts to whatever the machine provides.",
       "narrative": {
-        "whyChosen": "Autoconf ended hand-editing dozens of `-D` compiler flags for every Unix variant.",
+        "whyChosen": "Autoconf ended hand-editing dozens of `-D` compiler flags for every [Unix] variant.",
         "whyImportant": "It became the standard way open-source C projects achieved portable builds before CMake dominated.",
         "problemSolved": "Maintainers could not test every platform; build scripts needed to discover capabilities at install time."
       },

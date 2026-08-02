@@ -6,12 +6,12 @@
       "date": "1960-05-01",
       "datePrecision": "day",
       "title": "ALGOL 60 language defined",
-      "summary": "The ALGOL 60 report appeared in May 1960 — a refined international language that became the template for how programming languages are taught and specified.",
-      "about": "ALGOL 60 added nested blocks, clearer structure, and a precise written definition of the language. It shaped [Simula], Pascal, and C, and for decades most computer science textbooks taught algorithm design using ALGOL-style pseudocode.",
+      "summary": "The [ALGOL] 60 report appeared in May 1960 — a refined international language that became the template for how programming languages are taught and specified.",
+      "about": "[ALGOL] 60 added nested blocks, clearer structure, and a precise written definition of the language. It shaped [Simula], Pascal, and C, and for decades most computer science textbooks taught algorithm design using [ALGOL]-style pseudocode.",
       "narrative": {
-        "whyChosen": "ALGOL 60 became the reference design for structured programming — the blueprint later languages copied.",
+        "whyChosen": "[ALGOL] 60 became the reference design for structured programming — the blueprint later languages copied.",
         "whyImportant": "It established a rigorous way to define a language on paper so different teams could build compatible versions, and it influenced how programming is taught worldwide.",
-        "problemSolved": "ALGOL 58 was still a rough draft; implementers needed a clearer, more consistent design they could actually build and trust."
+        "problemSolved": "[ALGOL] 58 was still a rough draft; implementers needed a clearer, more consistent design they could actually build and trust."
       },
       "category": "software",
       "tags": [

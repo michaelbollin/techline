@@ -57,11 +57,11 @@
       "date": "2013-03-11",
       "datePrecision": "day",
       "title": "Node.js 0.10 released",
-      "summary": "Node.js 0.10 shipped on March 11, 2013 with stable streams, domains for error handling, and the foundation for npm's explosive growth.",
-      "about": "Node 0.10 was the first long-lived stable line for production: the streams2 [API] made piping data reliable; domains helped catch async errors. It powered the early npm ecosystem — Express, Socket.io, and Grunt all targeted 0.10.",
+      "summary": "[Node.js] 0.10 shipped on March 11, 2013 with stable streams, domains for error handling, and the foundation for [npm]'s explosive growth.",
+      "about": "[Node] 0.10 was the first long-lived stable line for production: the streams2 [API] made piping data reliable; domains helped catch async errors. It powered the early [npm] ecosystem — Express, Socket.io, and Grunt all targeted 0.10.",
       "narrative": {
-        "whyChosen": "Node 0.10 was the version that made Node.js credible for production servers.",
-        "whyImportant": "Stable streams and a predictable release line accelerated npm package adoption.",
+        "whyChosen": "[Node] 0.10 was the version that made [Node.js] credible for production servers.",
+        "whyImportant": "Stable streams and a predictable release line accelerated [npm] package adoption.",
         "problemSolved": "Earlier 0.x releases broke APIs too often for enterprises to commit."
       },
       "category": "software",
@@ -159,11 +159,11 @@
       "date": "2013-03-20",
       "datePrecision": "day",
       "title": "Docker open-sourced",
-      "summary": "dotCloud open-sourced Docker on March 20, 2013 — packaging apps as portable containers (Solomon Hykes had publicly demoed it at PyCon on March 15).",
-      "about": "Docker images bundle an app and its dependencies; `docker run` starts containers identically on laptops, CI, and cloud VMs. It standardized 'build once, run anywhere' for microservices and dev environments. Kubernetes later orchestrated Docker containers at fleet scale.",
+      "summary": "dotCloud open-sourced [Docker] on March 20, 2013 — packaging apps as portable containers (Solomon Hykes had publicly demoed it at PyCon on March 15).",
+      "about": "[Docker] images bundle an app and its dependencies; `docker run` starts containers identically on laptops, CI, and cloud VMs. It standardized 'build once, run anywhere' for [microservices] and dev environments. [Kubernetes] later orchestrated [Docker] containers at fleet scale.",
       "narrative": {
-        "whyChosen": "Docker made Linux containers usable for everyday developers, not just [kernel] experts.",
-        "whyImportant": "It launched the cloud-native era — images, registries, and compose files became universal DevOps vocabulary.",
+        "whyChosen": "[Docker] made Linux containers usable for everyday developers, not just [kernel] experts.",
+        "whyImportant": "It launched the cloud-native era — images, registries, and compose files became universal [DevOps] vocabulary.",
         "problemSolved": "Deploying apps meant fragile snowflake servers; teams needed reproducible, isolated runtime environments."
       },
       "category": "software",

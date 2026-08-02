@@ -6,12 +6,12 @@
       "date": "2009-02-24",
       "datePrecision": "day",
       "title": "Safari 4 beta released",
-      "summary": "Apple released Safari 4 beta on February 24, 2009 with Top Sites, Cover Flow tabs, and improved HTML5 and CSS support.",
-      "about": "Safari 4 previewed features that defined Apple's browser for years: a new tab bar, developer tools, and Nitro JavaScript engine improvements. It kept Safari competitive with Chrome and Firefox during the browser performance wars.",
+      "summary": "Apple released [Safari] 4 beta on February 24, 2009 with Top Sites, Cover Flow tabs, and improved [HTML5] and [CSS] support.",
+      "about": "[Safari] 4 previewed features that defined Apple's browser for years: a new tab bar, developer tools, and Nitro JavaScript engine improvements. It kept [Safari] competitive with [Chrome] and [Firefox] during the browser performance wars.",
       "narrative": {
-        "whyChosen": "Safari 4 set the template for Apple's browser UX before the mobile-first era.",
-        "whyImportant": "Nitro JS and HTML5 push made WebKit a [benchmark] for speed on Mac.",
-        "problemSolved": "Safari 3 felt dated against Chrome's fast release cycle and developer tools."
+        "whyChosen": "[Safari] 4 set the template for Apple's browser UX before the mobile-first era.",
+        "whyImportant": "Nitro JS and [HTML5] push made [WebKit] a [benchmark] for speed on Mac.",
+        "problemSolved": "[Safari] 3 felt dated against [Chrome]'s fast release cycle and developer tools."
       },
       "category": "software",
       "tags": [
@@ -61,10 +61,10 @@
       "date": "2009-02-26",
       "datePrecision": "day",
       "title": "Redis first released",
-      "summary": "Salvatore Sanfilippo open-sourced Redis on February 26, 2009 — an in-memory data structure store used as cache, queue, and lightweight database.",
-      "about": "Redis holds strings, lists, sets, and sorted sets in [RAM] with optional persistence — `GET`/`SET` for sessions, pub/sub for chat, sorted sets for leaderboards. GitHub, Instagram, and Sidekiq queues ran on it. Typical pattern: Postgres for truth, Redis for hot keys and rate limits.",
+      "summary": "Salvatore Sanfilippo open-sourced [Redis] on February 26, 2009 — an in-memory data structure store used as cache, queue, and lightweight database.",
+      "about": "[Redis] holds strings, lists, sets, and sorted sets in [RAM] with optional persistence — `GET`/`SET` for sessions, pub/sub for chat, sorted sets for leaderboards. [GitHub], Instagram, and Sidekiq queues ran on it. Typical pattern: Postgres for truth, [Redis] for hot keys and rate limits.",
       "narrative": {
-        "whyChosen": "Redis made in-memory data structures a standard layer in web architecture.",
+        "whyChosen": "[Redis] made in-memory data structures a standard layer in web architecture.",
         "whyImportant": "It proved a single-threaded event loop plus clever structures could scale caching and messaging.",
         "problemSolved": "[Relational database]s were too slow for session stores, counters, and real-time feeds at web scale."
       },
@@ -118,12 +118,12 @@
       "date": "2009-02-11",
       "datePrecision": "day",
       "title": "MongoDB first released",
-      "summary": "10gen released MongoDB on February 11, 2009 — a document database storing JSON-like BSON with flexible schemas.",
-      "about": "MongoDB stores documents in collections instead of fixed [SQL] tables — good for evolving product schemas, content catalogs, and mobile sync. Teams use it with Mongoose in Node or the native driver in Python. Example: user profiles with nested addresses without ALTER TABLE migrations.",
+      "summary": "10gen released [MongoDB] on February 11, 2009 — a document database storing [JSON]-like BSON with flexible schemas.",
+      "about": "[MongoDB] stores documents in collections instead of fixed [SQL] tables — good for evolving product schemas, content catalogs, and mobile sync. [Teams] use it with Mongoose in [Node] or the native driver in [Python]. Example: user profiles with nested addresses without ALTER TABLE migrations.",
       "narrative": {
-        "whyChosen": "MongoDB led the NoSQL wave for developers who wanted schema flexibility and horizontal scaling.",
+        "whyChosen": "[MongoDB] led the [NoSQL] wave for developers who wanted schema flexibility and horizontal scaling.",
         "whyImportant": "It made document stores mainstream alongside relational [SQL] for web backends.",
-        "problemSolved": "Rigid [SQL] schemas and vertical scaling hurt fast-moving product teams building JSON-heavy apps."
+        "problemSolved": "Rigid [SQL] schemas and vertical scaling hurt fast-moving product teams building [JSON]-heavy apps."
       },
       "category": "software",
       "tags": [

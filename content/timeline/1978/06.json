@@ -6,10 +6,10 @@
       "date": "1978-06",
       "datePrecision": "month",
       "title": "Intel 8086 introduced",
-      "summary": "Intel introduced the 8086 [microprocessor] in June 1978 — a 16-bit [CPU] that became the foundation of the x86 architecture.",
-      "about": "The 8086 and its cost-reduced 8088 variant powered the [IBM] [PC] and every compatible clone — the ISA developers still target today in compatibility mode. Segmented addressing and the instruction set defined [PC] software for decades. From [DOS] to Windows to Linux on x86 servers, the lineage starts here.",
+      "summary": "Intel introduced the 8086 [microprocessor] in June 1978 — a 16-bit [CPU] that became the foundation of the [x86] architecture.",
+      "about": "The 8086 and its cost-reduced 8088 variant powered the [IBM] [PC] and every compatible clone — the ISA developers still target today in compatibility mode. Segmented addressing and the instruction set defined [PC] software for decades. From [DOS] to Windows to Linux on [x86] servers, the lineage starts here.",
       "narrative": {
-        "whyChosen": "The 8086 established the x86 instruction set that still underpins most desktop and server CPUs.",
+        "whyChosen": "The 8086 established the [x86] instruction set that still underpins most desktop and server CPUs.",
         "whyImportant": "[IBM] chose the 8088 for the [PC], making Intel's architecture the industry standard.",
         "problemSolved": "8-bit CPUs could not address enough memory for growing business applications."
       },

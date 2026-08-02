@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Borland Delphi 1.0 launched",
       "summary": "On February 14, 1995, Borland launched Delphi 1.0 — a drag-and-drop Windows app builder that compiled to fast native programs.",
-      "about": "Delphi combined Pascal with a visual form designer: drag buttons and grids onto a window, double-click to write code, compile to a fast Windows .exe. Thousands of business apps — database screens, reporting tools, inventory systems — were built with it in the 1990s. Anders Hejlsberg's team later moved to Microsoft and shaped C#.",
+      "about": "Delphi combined Pascal with a visual form designer: drag buttons and grids onto a window, double-click to write code, compile to a fast Windows .exe. Thousands of business apps — database screens, reporting tools, inventory systems — were built with it in the 1990s. Anders Hejlsberg's team later moved to [Microsoft] and shaped C#.",
       "narrative": {
         "whyChosen": "Delphi proved you could build Windows apps as quickly as Visual Basic but get C++-class speed in the finished program.",
         "whyImportant": "It kept Pascal alive for a decade of [GUI] development and influenced later rapid-development tools and C#.",
@@ -61,7 +61,7 @@
       "date": "1995-02",
       "datePrecision": "month",
       "title": "Ada 95 standardized",
-      "summary": "ISO published [Ada] 95 on February 15, 1995 (ISO/IEC 8652:1995) — the first major revision of [Ada] with object-oriented programming, protected types, and child units.",
+      "summary": "[ISO] published [Ada] 95 on February 15, 1995 ([ISO]/IEC 8652:1995) — the first major revision of [Ada] with object-oriented programming, protected types, and child units.",
       "about": "[Ada] 95 modernized the DoD systems language for avionics, rail, and safety-critical software: tagged types, hierarchical libraries, and improved real-time support. It remained the default where compilers must prove absence of runtime surprises — Boeing, Airbus, and nuclear systems.",
       "narrative": {
         "whyChosen": "[Ada] 95 brought [OOP] to the safety-critical language mandated for US defense projects.",

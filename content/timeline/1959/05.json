@@ -7,11 +7,11 @@
       "datePrecision": "month",
       "title": "First working Lisp interpreter",
       "summary": "By May 1959, John McCarthy's Lisp interpreter at [MIT] was working well enough for real research on the [IBM] 704.",
-      "about": "Lisp treated programs as data you could manipulate — built for AI and symbolic work like theorem proving and language experiments. It later influenced Emacs, CAD tools, and languages from Python to Clojure.",
+      "about": "Lisp treated programs as data you could manipulate — built for AI and symbolic work like theorem proving and language experiments. It later influenced Emacs, CAD tools, and languages from [Python] to Clojure.",
       "narrative": {
         "whyChosen": "Lisp introduced a new way to write programs as nested lists — ideas that later shaped AI tools, text editors, and [functional programming].",
         "whyImportant": "It proved that treating code like data could power real research tools, not just theory.",
-        "problemSolved": "Researchers working on reasoning and AI needed a language for symbols and logic, not just the number-crunching style of FORTRAN."
+        "problemSolved": "Researchers working on [reasoning] and AI needed a language for symbols and logic, not just the number-crunching style of FORTRAN."
       },
       "category": "software",
       "tags": [

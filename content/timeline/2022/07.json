@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "GraphCMS rebranded as Hygraph",
       "summary": "GraphCMS rebranded to Hygraph on July 12, 2022 — launching a federated content platform that unifies content from multiple APIs via GraphQL.",
-      "about": "Hygraph expanded beyond pure CMS into content federation — stitching siloed backends into one GraphQL [API]. The rebrand reflected ambitions beyond headless CMS toward composable enterprise content infrastructure.",
+      "about": "Hygraph expanded beyond pure [CMS] into content federation — stitching siloed backends into one GraphQL [API]. The rebrand reflected ambitions beyond headless [CMS] toward composable enterprise content infrastructure.",
       "narrative": {
-        "whyChosen": "Hygraph pushed headless CMS toward federated, composable content layers.",
+        "whyChosen": "Hygraph pushed headless [CMS] toward federated, composable content layers.",
         "whyImportant": "Content federation addressed enterprise data silos without custom [middleware].",
         "problemSolved": "Enterprises stored content across dozens of systems with no unified query layer."
       },

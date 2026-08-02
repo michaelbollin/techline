@@ -6,8 +6,8 @@
       "date": "1977-10",
       "datePrecision": "month",
       "title": "DEC VAX-11/780 announced",
-      "summary": "Digital Equipment Corporation announced the VAX-11/780 on October 25, 1977 — a 32-bit [minicomputer] that became the benchmark for virtual-memory Unix systems, with first revenue shipments in January 1978.",
-      "about": "VAX machines ran VMS and hosted Unix — universities, labs, and enterprises used them for email, compilers, and [time-sharing]. The VAX architecture's virtual memory model influenced how operating systems managed address spaces. DEC's install base was where many developers first logged into a multi-user system before PCs and the web.",
+      "summary": "Digital Equipment Corporation announced the VAX-11/780 on October 25, 1977 — a 32-bit [minicomputer] that became the [benchmark] for virtual-memory [Unix] systems, with first revenue shipments in January 1978.",
+      "about": "VAX machines ran VMS and hosted [Unix] — universities, labs, and enterprises used them for email, compilers, and [time-sharing]. The VAX architecture's virtual memory model influenced how operating systems managed address spaces. DEC's install base was where many developers first logged into a multi-user system before PCs and the web.",
       "narrative": {
         "whyChosen": "The VAX-11/780 defined the 32-bit [minicomputer] era and DEC's dominance in technical computing.",
         "whyImportant": "It brought affordable virtual memory and [timesharing] to departments that outgrew PDP-11s.",

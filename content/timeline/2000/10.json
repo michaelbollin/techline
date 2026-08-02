@@ -6,12 +6,12 @@
       "date": "2000-10-16",
       "datePrecision": "day",
       "title": "Python 2.0 released",
-      "summary": "Guido van Rossum released Python 2.0 on October 16, 2000 with list comprehensions, [garbage collection], and Unicode support — defining Python for the next decade.",
-      "about": "Python 2.0 added list comprehensions, `//` floor division, and a cycle-detecting GC — the dialect that powered YouTube's early stack, scientific computing, and countless scripts. Its long life eventually forced the painful Python 3 migration.",
+      "summary": "Guido van Rossum released [Python] 2.0 on October 16, 2000 with list comprehensions, [garbage collection], and [Unicode] support — defining [Python] for the next decade.",
+      "about": "[Python] 2.0 added list comprehensions, `//` floor division, and a cycle-detecting GC — the dialect that powered YouTube's early stack, scientific computing, and countless scripts. Its long life eventually forced the painful [Python] 3 migration.",
       "narrative": {
-        "whyChosen": "Python 2 defined the language for fifteen years before the Python 3 break.",
-        "whyImportant": "List comprehensions and Unicode groundwork shaped how millions wrote Python.",
-        "problemSolved": "Python 1.x lacked modern collection syntax and consistent text handling for a growing web."
+        "whyChosen": "[Python] 2 defined the language for fifteen years before the [Python] 3 break.",
+        "whyImportant": "List comprehensions and [Unicode] groundwork shaped how millions wrote [Python].",
+        "problemSolved": "[Python] 1.x lacked modern collection syntax and consistent text handling for a growing web."
       },
       "category": "software",
       "tags": [
@@ -51,11 +51,11 @@
       "date": "2000-10-23",
       "datePrecision": "day",
       "title": "Konqueror and KHTML shipped with KDE 2",
-      "summary": "KDE 2.0 debuted Konqueror with the KHTML rendering engine on October 23, 2000 — a browser and file manager that later influenced WebKit and Safari.",
-      "about": "KHTML became one of the most influential browser engines ever: Apple forked it into WebKit for Safari, which later powered Chrome via Blink. Konqueror itself was the default browser on Linux desktops and proved a small open-source team could ship a competitive engine.",
+      "summary": "KDE 2.0 debuted Konqueror with the KHTML rendering engine on October 23, 2000 — a browser and file manager that later influenced [WebKit] and [Safari].",
+      "about": "KHTML became one of the most influential browser engines ever: Apple forked it into [WebKit] for [Safari], which later powered [Chrome] via [Blink]. Konqueror itself was the default browser on Linux desktops and proved a small open-source team could ship a competitive engine.",
       "narrative": {
-        "whyChosen": "KHTML is the ancestor of WebKit and Blink — engines that power most browsers today.",
-        "whyImportant": "It broke the IE–[Netscape] duopoly at the engine level and gave Apple and Google a head start.",
+        "whyChosen": "KHTML is the ancestor of [WebKit] and [Blink] — engines that power most browsers today.",
+        "whyImportant": "It broke the [IE]–[Netscape] duopoly at the engine level and gave Apple and Google a head start.",
         "problemSolved": "The Linux desktop needed an integrated browser and file manager that did not depend on proprietary code."
       },
       "category": "software",

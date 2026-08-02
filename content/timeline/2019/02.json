@@ -6,12 +6,12 @@
       "date": "2019-02-04",
       "datePrecision": "day",
       "title": "Vue 2.6 released",
-      "summary": "Evan You released Vue.js 2.6 on February 4, 2019 — adding scoped slots APIs and improved TypeScript support before Vue 3.",
+      "summary": "Evan You released Vue.js 2.6 on February 4, 2019 — adding scoped slots APIs and improved [TypeScript] support before Vue 3.",
       "about": "Vue 2.6 refined the composition patterns teams used in production — slot syntax and `v-slot` cleaned up component APIs. It was the stable baseline millions of apps ran on while Vue 3 was developed.",
       "narrative": {
         "whyChosen": "Vue 2.6 was the last major Vue 2 release before the Vue 3 migration.",
         "whyImportant": "It matured the component [API] surface used across the Vue ecosystem.",
-        "problemSolved": "Teams needed clearer slot APIs and better TypeScript ergonomics on Vue 2."
+        "problemSolved": "[Teams] needed clearer slot APIs and better [TypeScript] ergonomics on Vue 2."
       },
       "category": "software",
       "tags": [

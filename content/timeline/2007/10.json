@@ -6,7 +6,7 @@
       "date": "2007-10",
       "datePrecision": "month",
       "title": "Amazon Dynamo paper published",
-      "summary": "Amazon published the Dynamo paper at SOSP in October 2007 — describing a highly available key-value store that influenced NoSQL databases.",
+      "summary": "Amazon published the Dynamo paper at SOSP in October 2007 — describing a highly available key-value store that influenced [NoSQL] databases.",
       "about": "Dynamo's consistent hashing, vector clocks, and quorum reads inspired Cassandra, Riak, and DynamoDB — the blueprint for eventually consistent systems at scale. Every 'AP over CP' debate in distributed systems classes cites this paper.",
       "narrative": {
         "whyChosen": "The Dynamo paper defined the architectural pattern for hyperscale key-value stores.",
@@ -61,12 +61,12 @@
       "date": "2007-10-16",
       "datePrecision": "day",
       "title": "Rich Hickey releases Clojure",
-      "summary": "Rich Hickey publicly released Clojure on October 16, 2007 — a Lisp on the JVM with immutable data and software transactional memory.",
-      "about": "Clojure brought [functional programming] to Java shops without giving up the JVM ecosystem. Hickey's 'Simple Made Easy' talks influenced how developers think about state, complexity, and design.",
+      "summary": "Rich Hickey publicly released Clojure on October 16, 2007 — a Lisp on the [JVM] with immutable data and software transactional memory.",
+      "about": "Clojure brought [functional programming] to [Java] shops without giving up the [JVM] ecosystem. Hickey's 'Simple Made Easy' talks influenced how developers think about state, complexity, and design.",
       "narrative": {
-        "whyChosen": "Clojure proved Lisp could thrive on the JVM for production services.",
+        "whyChosen": "Clojure proved Lisp could thrive on the [JVM] for production services.",
         "whyImportant": "Immutable data and STM offered a distinct concurrency model from mainstream [OOP].",
-        "problemSolved": "Java developers wanted functional tools without leaving existing libraries and deployment."
+        "problemSolved": "[Java] developers wanted functional tools without leaving existing libraries and deployment."
       },
       "category": "software",
       "tags": [
@@ -118,10 +118,10 @@
       "date": "2007-10-24",
       "datePrecision": "day",
       "title": "OAuth 1.0 published",
-      "summary": "The OAuth community finalized OAuth Core 1.0 on October 24, 2007 — a protocol for delegated [API] access without sharing passwords.",
-      "about": "OAuth 1.0 let users grant third-party apps limited access to services like photos or tweets using signed requests instead of handing over credentials. Twitter, Flickr, and early social APIs adopted it. The three-legged dance (request token, authorize, access token) was clunky but proved delegated authorization could work at web scale — setting the stage for OAuth 2.0 and OpenID Connect.",
+      "summary": "The [OAuth] community finalized [OAuth] Core 1.0 on October 24, 2007 — a protocol for delegated [API] access without sharing passwords.",
+      "about": "[OAuth] 1.0 let users grant third-party apps limited access to services like photos or tweets using signed requests instead of handing over credentials. Twitter, Flickr, and early social APIs adopted it. The three-legged dance (request token, authorize, access token) was clunky but proved delegated authorization could work at web scale — setting the stage for [OAuth] 2.0 and [OpenID Connect].",
       "narrative": {
-        "whyChosen": "OAuth 1.0 was the first grassroots standard for [API] delegation across competing web platforms.",
+        "whyChosen": "[OAuth] 1.0 was the first grassroots standard for [API] delegation across competing web platforms.",
         "whyImportant": "It established the consent-and-token model that modern identity federation still builds on.",
         "problemSolved": "Apps needed user data from other services without storing passwords or getting full account control."
       },

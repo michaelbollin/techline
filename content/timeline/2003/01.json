@@ -6,12 +6,12 @@
       "date": "2003-01-07",
       "datePrecision": "day",
       "title": "Safari announced at Macworld",
-      "summary": "Steve Jobs unveiled Safari at Macworld San Francisco on January 7, 2003 — Apple's own browser built on the KHTML engine, replacing Internet Explorer as the Mac default.",
-      "about": "Safari brought fast rendering and tight macOS integration, then spread to iPhone and iPad as the engine behind mobile web apps. Apple open-sourced its fork as WebKit, which Google later used to build Chrome — making Safari's engine lineage central to modern browsing.",
+      "summary": "Steve Jobs unveiled [Safari] at Macworld San Francisco on January 7, 2003 — Apple's own browser built on the KHTML engine, replacing [Internet Explorer] as the Mac default.",
+      "about": "[Safari] brought fast rendering and tight [macOS] integration, then spread to [iPhone] and [iPad] as the engine behind mobile web apps. Apple open-sourced its fork as [WebKit], which Google later used to build [Chrome] — making [Safari]'s engine lineage central to modern browsing.",
       "narrative": {
-        "whyChosen": "Safari ended Microsoft's Mac browser monopoly and launched the WebKit engine era.",
-        "whyImportant": "WebKit became the foundation for mobile browsing and eventually Chrome.",
-        "problemSolved": "Mac users depended on a slow, outdated IE port; Apple needed a fast native browser for [OS] X."
+        "whyChosen": "[Safari] ended [Microsoft]'s Mac browser monopoly and launched the [WebKit] engine era.",
+        "whyImportant": "[WebKit] became the foundation for mobile browsing and eventually [Chrome].",
+        "problemSolved": "Mac users depended on a slow, outdated [IE] port; Apple needed a fast native browser for [OS] X."
       },
       "category": "software",
       "tags": [
@@ -61,10 +61,10 @@
       "date": "2003-01-25",
       "datePrecision": "day",
       "title": "SQL Slammer worm doubles internet traffic",
-      "summary": "The [SQL] Slammer worm spread on January 25, 2003 — exploiting an unpatched buffer overflow in Microsoft [SQL] Server and doubling global internet traffic within minutes.",
-      "about": "Slammer was only 376 bytes — pure propagation with no payload beyond replication. It knocked out 911 dispatch systems, ATM networks, and South Korean broadband. DBAs learned that exposing [SQL] Server to the internet without patches was catastrophic; the worm also popularized egress filtering and segmented database networks.",
+      "summary": "The [SQL] Slammer [worm] spread on January 25, 2003 — exploiting an unpatched buffer overflow in [Microsoft] [SQL] Server and doubling global internet traffic within minutes.",
+      "about": "Slammer was only 376 bytes — pure propagation with no payload beyond replication. It knocked out 911 dispatch systems, ATM networks, and South Korean broadband. DBAs learned that exposing [SQL] Server to the internet without patches was catastrophic; the [worm] also popularized egress filtering and segmented database networks.",
       "narrative": {
-        "whyChosen": "[SQL] Slammer was the fastest-spreading worm in history at the time of its release.",
+        "whyChosen": "[SQL] Slammer was the fastest-spreading [worm] in history at the time of its release.",
         "whyImportant": "It proved database servers on public IPs were critical infrastructure vulnerabilities.",
         "problemSolved": "Nothing initially — a single UDP packet could compromise unpatched [SQL] Server instances worldwide."
       },

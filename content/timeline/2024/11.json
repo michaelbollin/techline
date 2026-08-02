@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "PHP 8.4 released",
       "summary": "PHP 8.4 shipped on November 21, 2024 with property hooks, asymmetric visibility, and `#[\\Deprecated]` attributes.",
-      "about": "Property hooks let Laravel and Symfony models define get/set logic inline without boilerplate accessors. Asymmetric visibility (public read, private write) cleaned up DTOs and value objects — keeping PHP competitive for web APIs and CMS plugins as hosts pushed 8.x adoption.",
+      "about": "Property hooks let Laravel and [Symfony] models define get/set logic inline without boilerplate accessors. Asymmetric visibility (public read, private write) cleaned up DTOs and value objects — keeping PHP competitive for web APIs and [CMS] plugins as hosts pushed 8.x adoption.",
       "narrative": {
-        "whyChosen": "PHP 8.4 added OOP ergonomics that Java and C# users take for granted.",
+        "whyChosen": "PHP 8.4 added [OOP] ergonomics that [Java] and C# users take for granted.",
         "whyImportant": "Property hooks reduce magic-method hacks in frameworks and ORMs.",
         "problemSolved": "PHP classes needed verbose getter/setter pairs or `__get` magic for computed properties."
       },
@@ -51,12 +51,12 @@
       "date": "2024-11-12",
       "datePrecision": "day",
       "title": ".NET 9 released",
-      "summary": "Microsoft shipped .NET 9 on November 12, 2024 with performance tuning, AI building blocks, and C# 13 language features.",
-      "about": ".NET 9 continued the annual release cadence after .NET 8 LTS: faster [JIT] and GC, improved ASP.NET Core, and Tensor primitives for ML workloads. Teams use it for greenfield apps while .NET 8 remains the supported LTS choice through 2026.",
+      "summary": "[Microsoft] shipped .NET 9 on November 12, 2024 with performance tuning, AI building blocks, and C# 13 language features.",
+      "about": ".NET 9 continued the annual release cadence after .NET 8 [LTS]: faster [JIT] and GC, improved [ASP.NET] Core, and Tensor primitives for ML workloads. [Teams] use it for greenfield apps while .NET 8 remains the supported [LTS] choice through 2026.",
       "narrative": {
-        "whyChosen": ".NET 9 kept the platform current between LTS releases with AI and cloud focus.",
-        "whyImportant": "Built-in tensor types signaled .NET's push into on-device and server AI inference.",
-        "problemSolved": "Developers on .NET 8 LTS needed a path to newer APIs without waiting two years."
+        "whyChosen": ".NET 9 kept the platform current between [LTS] releases with AI and cloud focus.",
+        "whyImportant": "Built-in tensor types signaled .NET's push into on-device and server AI [inference].",
+        "problemSolved": "Developers on .NET 8 [LTS] needed a path to newer APIs without waiting two years."
       },
       "category": "software",
       "tags": [
@@ -158,11 +158,11 @@
       "date": "2024-11-25",
       "datePrecision": "day",
       "title": "Model Context Protocol announced",
-      "summary": "Anthropic announced the Model Context Protocol on November 25, 2024 — an [open standard] for connecting AI assistants to tools, databases, and external data.",
-      "about": "MCP defined a [client-server] wire format so one integration works across Claude, ChatGPT, Cursor, and Copilot — replacing ad-hoc function-calling plugins. Within a year it became the de facto standard for agent tooling before Anthropic donated it to the Linux Foundation.",
+      "summary": "[Anthropic] announced the Model Context Protocol on November 25, 2024 — an [open standard] for connecting AI assistants to tools, databases, and external data.",
+      "about": "MCP defined a [client-server] wire format so one integration works across Claude, [ChatGPT], Cursor, and [Copilot] — replacing ad-hoc function-calling plugins. Within a year it became the de facto standard for agent tooling before [Anthropic] donated it to the Linux Foundation.",
       "narrative": {
         "whyChosen": "MCP unified how LLMs call external tools instead of every vendor inventing its own [API].",
-        "whyImportant": "A shared protocol let IDEs and SaaS products ship AI integrations once.",
+        "whyImportant": "A shared protocol let IDEs and [SaaS] products ship AI integrations once.",
         "problemSolved": "Each AI product built incompatible tool-calling layers for the same databases and APIs."
       },
       "category": "software",

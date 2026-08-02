@@ -6,12 +6,12 @@
       "date": "2023-12-06",
       "datePrecision": "day",
       "title": "Google Gemini announced",
-      "summary": "Google announced the [Gemini] multimodal model family on December 6, 2023 — native text, image, audio, and video understanding across Ultra, Pro, and Nano sizes.",
-      "about": "[Gemini] was Google's answer to GPT-4 and Claude: integrated into Bard (later [Gemini] chat), [Pixel] devices, and Vertex AI. Multimodal from the ground up, it reshaped Google Search, [Android] assistants, and enterprise AI offerings.",
+      "summary": "Google announced the [Gemini] [multimodal] model family on December 6, 2023 — native text, image, audio, and video understanding across Ultra, Pro, and Nano sizes.",
+      "about": "[Gemini] was Google's answer to [GPT]-4 and Claude: integrated into Bard (later [Gemini] chat), [Pixel] devices, and Vertex AI. [multimodal] from the ground up, it reshaped Google Search, [Android] assistants, and enterprise AI offerings.",
       "narrative": {
         "whyChosen": "[Gemini] was Google's flagship re-entry into frontier model competition.",
-        "whyImportant": "Multimodal models at scale changed how search and mobile OSes embed AI.",
-        "problemSolved": "Google needed a unified model family to compete with OpenAI and [Anthropic] across products."
+        "whyImportant": "[multimodal] models at scale changed how search and mobile OSes embed AI.",
+        "problemSolved": "Google needed a unified model family to compete with [OpenAI] and [Anthropic] across products."
       },
       "category": "software",
       "tags": [

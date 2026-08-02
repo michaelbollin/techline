@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "This thesis is often called the most important master's thesis of the 20th century.",
         "whyImportant": "It turned circuit design from craft into symbolic manipulation — the ancestor of hardware description languages.",
-        "problemSolved": "Engineers designed relay networks by trial and error with no unified mathematical method."
+        "problemSolved": "Engineers designed [relay] networks by trial and error with no unified mathematical method."
       },
       "category": "invention",
       "tags": [

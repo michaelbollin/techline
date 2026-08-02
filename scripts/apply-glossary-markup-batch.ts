@@ -11,11 +11,12 @@ import { GLOSSARY_ENTRIES } from "../lib/glossary";
 
 const CONTENT_DIR = path.join(process.cwd(), "content/timeline");
 const NARRATIVE_KEYS = ["whyChosen", "whyImportant", "problemSolved"] as const;
-const TEXT_KEYS = ["summary", "about"] as const;
+const TEXT_KEYS = ["summary", "about", "quoteText"] as const;
 
 type Event = {
   summary?: string;
   about?: string;
+  quoteText?: string;
   narrative?: Record<string, string>;
 };
 
@@ -63,7 +64,7 @@ function splitOutsideBrackets(text: string): { plain: boolean; value: string }[]
 }
 
 function wrapPlainSegment(segment: string): string {
-  const selected: { start: number; end: number; text: string }[] = [];
+  const selected: { start: number; end: number; key: string }[] = [];
 
   for (const key of sortedKeys) {
     const flags = isCaseSensitiveKey(key) ? "g" : "gi";
@@ -75,7 +76,7 @@ function wrapPlainSegment(segment: string): string {
       const overlaps = selected.some((entry) => start < entry.end && end > entry.start);
 
       if (!overlaps) {
-        selected.push({ start, end, text: match[0] });
+        selected.push({ start, end, key });
       }
     }
   }
@@ -86,7 +87,7 @@ function wrapPlainSegment(segment: string): string {
   let last = 0;
 
   for (const match of selected) {
-    result += segment.slice(last, match.start) + `[${match.text}]`;
+    result += segment.slice(last, match.start) + `[${match.key}]`;
     last = match.end;
   }
 
@@ -103,33 +104,33 @@ function applyMarkupToText(text: string): string {
     .join("");
 }
 
-function fieldNeedsMarkup(text: string | undefined): boolean {
-  return Boolean(text && !text.includes("["));
-}
-
 function applyToEvent(event: Event): boolean {
   let changed = false;
 
   for (const key of TEXT_KEYS) {
     const value = event[key];
-    if (fieldNeedsMarkup(value)) {
-      const next = applyMarkupToText(value!);
-      if (next !== value) {
-        event[key] = next;
-        changed = true;
-      }
+    if (!value) {
+      continue;
+    }
+
+    const next = applyMarkupToText(value);
+    if (next !== value) {
+      event[key] = next;
+      changed = true;
     }
   }
 
   if (event.narrative) {
     for (const key of NARRATIVE_KEYS) {
       const value = event.narrative[key];
-      if (fieldNeedsMarkup(value)) {
-        const next = applyMarkupToText(value!);
-        if (next !== value) {
-          event.narrative[key] = next;
-          changed = true;
-        }
+      if (!value) {
+        continue;
+      }
+
+      const next = applyMarkupToText(value);
+      if (next !== value) {
+        event.narrative[key] = next;
+        changed = true;
       }
     }
   }
@@ -151,7 +152,6 @@ function walkJsonFiles(dir: string, out: string[] = []): string[] {
 }
 
 const limit = Number(process.argv[2] ?? 50);
-let scanned = 0;
 let updated = 0;
 const updatedSlugs: string[] = [];
 
@@ -169,22 +169,6 @@ for (const file of walkJsonFiles(CONTENT_DIR)) {
       break;
     }
 
-    const texts = [
-      event.summary,
-      event.about,
-      event.narrative?.whyChosen,
-      event.narrative?.whyImportant,
-      event.narrative?.problemSolved,
-    ].filter(Boolean);
-
-    const alreadyMarked = texts.some((text) => text!.includes("["));
-
-    if (alreadyMarked) {
-      continue;
-    }
-
-    scanned += 1;
-
     if (applyToEvent(event)) {
       fileChanged = true;
       updated += 1;
@@ -197,7 +181,7 @@ for (const file of walkJsonFiles(CONTENT_DIR)) {
   }
 }
 
-console.log(`Scanned ${scanned} unmarked events, updated ${updated} with glossary markup.`);
+console.log(`Updated ${updated} events with glossary markup.`);
 for (const slug of updatedSlugs) {
   console.log(`  ${slug}`);
 }

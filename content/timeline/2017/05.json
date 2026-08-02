@@ -6,12 +6,12 @@
       "date": "2017-05-17",
       "datePrecision": "day",
       "title": "Kotlin made official for Android",
-      "summary": "At Google I/O on May 17, 2017, Google announced Kotlin as an officially supported language for Android development alongside Java.",
-      "about": "Google's endorsement turned Kotlin from a JetBrains side project into the default choice for new Android apps. Null safety, coroutines, and Java interop let teams migrate gradually off verbose Android Java without rewriting entire codebases overnight.",
+      "summary": "At [Google I/O] on May 17, 2017, Google announced [Kotlin] as an officially supported language for [Android] development alongside [Java].",
+      "about": "Google's endorsement turned [Kotlin] from a JetBrains side project into the default choice for new [Android] apps. Null safety, coroutines, and [Java] interop let teams migrate gradually off verbose [Android] [Java] without rewriting entire codebases overnight.",
       "narrative": {
-        "whyChosen": "Google's backing made Kotlin the successor to Java on the world's largest mobile platform.",
-        "whyImportant": "Millions of Android developers gained a modern language with first-class [IDE] and docs support.",
-        "problemSolved": "Android Java was verbose and null-prone; Google needed an official modern alternative developers would adopt."
+        "whyChosen": "Google's backing made [Kotlin] the successor to [Java] on the world's largest mobile platform.",
+        "whyImportant": "Millions of [Android] developers gained a modern language with first-class [IDE] and docs support.",
+        "problemSolved": "[Android] [Java] was verbose and null-prone; Google needed an official modern alternative developers would adopt."
       },
       "category": "software",
       "tags": [
@@ -67,12 +67,12 @@
       "date": "2017-05-30",
       "datePrecision": "day",
       "title": "Node.js 8 released",
-      "summary": "Node.js 8.0.0 shipped on May 30, 2017 with V8 5.8 and npm 5; native async/await had already been enabled by default in Node 7.6, and Node 8 became Active [LTS] in October 2017.",
-      "about": "Node 8 became [LTS] in October 2017 — bringing native `async`/`await` to server JavaScript without transpilers. npm 5 added package-lock.json by default, stabilizing dependency trees for millions of projects.",
+      "summary": "[Node.js] 8.0.0 shipped on May 30, 2017 with [V8] 5.8 and [npm] 5; native async/await had already been enabled by default in [Node] 7.6, and [Node] 8 became Active [LTS] in October 2017.",
+      "about": "[Node] 8 became [LTS] in October 2017 — bringing native `async`/`await` to server JavaScript without transpilers. [npm] 5 added package-lock.json by default, stabilizing dependency trees for millions of projects.",
       "narrative": {
-        "whyChosen": "Node 8 made async/await the standard pattern for Node.js servers.",
+        "whyChosen": "[Node] 8 made async/await the standard pattern for [Node.js] servers.",
         "whyImportant": "Native async syntax eliminated callback pyramids in production codebases.",
-        "problemSolved": "Teams transpiled async/await or chained Promises manually before Node 8."
+        "problemSolved": "[Teams] transpiled async/await or chained Promises manually before [Node] 8."
       },
       "category": "software",
       "tags": [
@@ -116,7 +116,7 @@
       "date": "2017-05-12",
       "datePrecision": "day",
       "title": "WannaCry ransomware spreads worldwide",
-      "summary": "The WannaCry [ransomware] attack began on May 12, 2017 — encrypting Windows systems worldwide using an NSA-leaked EternalBlue exploit and demanding Bitcoin payments.",
+      "summary": "The WannaCry [ransomware] attack began on May 12, 2017 — encrypting Windows systems worldwide using an NSA-leaked EternalBlue exploit and demanding [Bitcoin] payments.",
       "about": "WannaCry hit Britain's NHS hospitals, FedEx, and hundreds of thousands of PCs in 150 countries — many still on unpatched Windows 7. Marcus Hutchins' kill-switch domain slowed the spread. It linked nation-state exploit hoarding to criminal [ransomware] and made MS17-010 patching an emergency global priority.",
       "narrative": {
         "whyChosen": "WannaCry was the first [ransomware] [worm] to paralyze national healthcare systems.",

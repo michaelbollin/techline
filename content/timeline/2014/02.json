@@ -104,12 +104,12 @@
       "date": "2014-02-04",
       "datePrecision": "day",
       "title": "Satya Nadella named Microsoft CEO",
-      "summary": "Microsoft's board appointed Satya Nadella CEO on February 4, 2014 — starting the cloud-first, open-source era.",
-      "about": "Nadella accelerated Azure, open-sourced .NET, acquired GitHub, and championed VS Code and [TypeScript]. For developers, Microsoft transformed from Windows-only vendor to cross-platform tools company.",
+      "summary": "[Microsoft]'s board appointed Satya Nadella CEO on February 4, 2014 — starting the cloud-first, open-source era.",
+      "about": "Nadella accelerated [Azure], open-sourced .NET, acquired [GitHub], and championed VS Code and [TypeScript]. For developers, [Microsoft] transformed from Windows-only vendor to cross-platform tools company.",
       "narrative": {
-        "whyChosen": "Nadella's appointment reversed Microsoft's developer reputation.",
-        "whyImportant": "It legitimized open source inside the company that once fought Linux.",
-        "problemSolved": "Microsoft was losing cloud and mobile developers to open, cross-platform stacks."
+        "whyChosen": "Nadella's appointment reversed [Microsoft]'s developer reputation.",
+        "whyImportant": "It legitimized [open source] inside the company that once fought Linux.",
+        "problemSolved": "[Microsoft] was losing cloud and mobile developers to open, cross-platform stacks."
       },
       "category": "culture",
       "tags": [
@@ -165,10 +165,10 @@
       "datePrecision": "day",
       "title": "Shopify Plus launched",
       "summary": "Shopify announced Shopify Plus on February 4, 2014 — an enterprise e-commerce tier with dedicated support, higher [API] limits, and white-glove onboarding.",
-      "about": "Shopify Plus extended the platform to high-volume merchants like Tesla, Budweiser, and the LA Lakers — competing with Magento Enterprise and Salesforce Commerce Cloud. It became Shopify's fastest-growing revenue segment.",
+      "about": "Shopify Plus extended the platform to high-volume merchants like Tesla, Budweiser, and the LA Lakers — competing with [Magento] Enterprise and Salesforce Commerce Cloud. It became Shopify's fastest-growing revenue segment.",
       "narrative": {
         "whyChosen": "Shopify Plus moved Shopify from SMB into enterprise e-commerce.",
-        "whyImportant": "It proved hosted SaaS could serve high-traffic enterprise storefronts.",
+        "whyImportant": "It proved hosted [SaaS] could serve high-traffic enterprise storefronts.",
         "problemSolved": "Fast-growing Shopify merchants outgrew standard plans but wanted to stay on the platform."
       },
       "category": "software",
@@ -214,12 +214,12 @@
       "date": "2014-02-26",
       "datePrecision": "day",
       "title": "GitHub Atom editor released",
-      "summary": "GitHub released the Atom text editor preview on February 26, 2014 — a hackable editor built on the Electron framework.",
-      "about": "Atom brought web technologies to desktop editing: [HTML], CSS, and JavaScript for themes and packages, plus built-in Git integration. It powered GitHub's own hackable-editor pitch before VS Code won the category — and Electron became the stack for Slack, Discord, and VS Code itself.",
+      "summary": "[GitHub] released the Atom text editor preview on February 26, 2014 — a hackable editor built on the Electron framework.",
+      "about": "Atom brought web technologies to desktop editing: [HTML], [CSS], and JavaScript for themes and packages, plus built-in [Git] integration. It powered [GitHub]'s own hackable-editor pitch before VS Code won the category — and Electron became the stack for [Slack], Discord, and VS Code itself.",
       "narrative": {
         "whyChosen": "Atom proved Electron could ship polished developer tools, not just chat apps.",
-        "whyImportant": "It pushed the 'hackable editor' idea into mainstream open source before Microsoft's response.",
-        "problemSolved": "Developers wanted a modern, extensible editor tied to Git workflows without proprietary lock-in."
+        "whyImportant": "It pushed the 'hackable editor' idea into mainstream [open source] before [Microsoft]'s response.",
+        "problemSolved": "Developers wanted a modern, extensible editor tied to [Git] workflows without proprietary lock-in."
       },
       "category": "software",
       "tags": [
@@ -271,7 +271,7 @@
       "datePrecision": "day",
       "title": "Slack team messaging launches",
       "summary": "Stewart Butterfield's [Slack] launched publicly on February 12, 2014 — a channel-based chat app born from a failed game startup that replaced email for engineering teams.",
-      "about": "[Slack] integrated GitHub commits, [Jira] tickets, PagerDuty alerts, and `/giphy` into searchable channels — IRC for enterprises with OAuth bots and threads. It normalized async work chat alongside Zoom standups; Salesforce acquired it for $27.7B in 2021. Developers still joke about notification overload, but [Slack] became the town square of modern software orgs.",
+      "about": "[Slack] integrated [GitHub] commits, [Jira] tickets, PagerDuty alerts, and `/giphy` into searchable channels — IRC for enterprises with [OAuth] bots and threads. It normalized async work chat alongside Zoom standups; Salesforce acquired it for $27.7B in 2021. Developers still joke about notification overload, but [Slack] became the town square of modern software orgs.",
       "narrative": {
         "whyChosen": "[Slack] replaced internal email and IRC for millions of software teams.",
         "whyImportant": "Integrations turned chat into the notification hub for CI, deploys, and incidents.",

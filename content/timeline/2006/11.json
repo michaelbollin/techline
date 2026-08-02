@@ -6,11 +6,11 @@
       "date": "2006-11-14",
       "datePrecision": "day",
       "title": "Windows PowerShell 1.0 released",
-      "summary": "Microsoft released Windows PowerShell 1.0 on November 14, 2006 at ITForum — a .NET-based shell and scripting language for Windows administration.",
-      "about": "PowerShell pipes objects, not just text — `Get-Process`, `Where-Object`, and modules automate Active Directory, Azure, and Exchange at scale. Admins and [DevOps] teams script deployments, audit configs, and manage cloud resources. It later became cross-platform as PowerShell Core.",
+      "summary": "[Microsoft] released Windows PowerShell 1.0 on November 14, 2006 at ITForum — a .NET-based shell and scripting language for Windows administration.",
+      "about": "PowerShell pipes objects, not just text — `Get-Process`, `Where-Object`, and modules automate Active Directory, [Azure], and Exchange at scale. Admins and [DevOps] teams script deployments, audit configs, and manage cloud resources. It later became cross-platform as PowerShell Core.",
       "narrative": {
         "whyChosen": "PowerShell replaced fragile CMD/batch scripting with a consistent object pipeline on Windows.",
-        "whyImportant": "It made .NET APIs directly scriptable and became the backbone of Microsoft server [automation].",
+        "whyImportant": "It made .NET APIs directly scriptable and became the backbone of [Microsoft] server [automation].",
         "problemSolved": "Windows lacked a modern composable shell; admins glued together VBScript, WMI, and one-off binaries."
       },
       "category": "software",
@@ -61,10 +61,10 @@
       "date": "2006-11-08",
       "datePrecision": "day",
       "title": "Jensen Huang announces CUDA",
-      "summary": "NVIDIA CEO Jensen Huang announced CUDA on November 8, 2006 — opening GPUs to general-purpose parallel computing.",
-      "about": "CUDA let researchers run matrix math on graphics cards — enabling the [deep learning] boom years before AlexNet. It turned NVIDIA from a gaming [GPU] vendor into an AI infrastructure company.",
+      "summary": "NVIDIA CEO Jensen Huang announced [CUDA] on November 8, 2006 — opening GPUs to general-purpose parallel computing.",
+      "about": "[CUDA] let researchers run matrix math on graphics cards — enabling the [deep learning] boom years before AlexNet. It turned NVIDIA from a gaming [GPU] vendor into an AI infrastructure company.",
       "narrative": {
-        "whyChosen": "CUDA unlocked [GPU] computing for science and [machine learning].",
+        "whyChosen": "[CUDA] unlocked [GPU] computing for science and [machine learning].",
         "whyImportant": "It made massively parallel hardware accessible through C extensions developers could adopt.",
         "problemSolved": "GPUs were locked to graphics APIs unsuitable for numerical computing."
       },
@@ -121,12 +121,12 @@
       "date": "2006-11-28",
       "datePrecision": "day",
       "title": "Sass released",
-      "summary": "Hampton Catlin committed the first public [Sass] code on November 28, 2006 — a CSS preprocessor adding variables, nesting, and mixins (some sources also cite an October 5, 2006 0.1.0 milestone).",
-      "about": "[Sass] (Syntactically Awesome Style Sheets) compiled to plain CSS — letting teams define `$primary-color` variables, nest selectors, and share mixins across large stylesheets. Natalie Weizenbaum became lead maintainer and grew [Sass] into the dominant preprocessor of the 2010s, influencing Less, Stylus, and eventually native CSS features.",
+      "summary": "Hampton Catlin committed the first public [Sass] code on November 28, 2006 — a [CSS] preprocessor adding variables, nesting, and mixins (some sources also cite an October 5, 2006 0.1.0 milestone).",
+      "about": "[Sass] (Syntactically Awesome Style Sheets) compiled to plain [CSS] — letting teams define `$primary-color` variables, nest selectors, and share mixins across large stylesheets. Natalie Weizenbaum became lead maintainer and grew [Sass] into the dominant preprocessor of the 2010s, influencing Less, Stylus, and eventually native [CSS] features.",
       "narrative": {
-        "whyChosen": "[Sass] pioneered the CSS preprocessor pattern that defined front-end build pipelines for a decade.",
-        "whyImportant": "It proved developers wanted programming-language features on top of declarative CSS.",
-        "problemSolved": "Large CSS codebases repeated values and selectors with no variables, functions, or imports."
+        "whyChosen": "[Sass] pioneered the [CSS] preprocessor pattern that defined front-end build pipelines for a decade.",
+        "whyImportant": "It proved developers wanted programming-language features on top of declarative [CSS].",
+        "problemSolved": "Large [CSS] codebases repeated values and selectors with no variables, functions, or imports."
       },
       "category": "software",
       "tags": [

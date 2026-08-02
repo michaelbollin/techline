@@ -6,11 +6,11 @@
       "date": "1987-06",
       "datePrecision": "month",
       "title": "Acorn Archimedes released",
-      "summary": "Acorn Computers began shipping the Archimedes in June 1987 — the first [home computer] powered by the ARM processor Acorn designed in-house.",
-      "about": "The Archimedes ran [RISC] [OS] on the ARM1/ARM2 [CPU] Acorn created when 68000 and x86 chips seemed too power-hungry. ARM went on to power every smartphone and Apple silicon Mac — but it started here in a British school computer. Developers wrote in BBC [BASIC] and C on a architecture that now ships billions of chips a year.",
+      "summary": "Acorn Computers began shipping the Archimedes in June 1987 — the first [home computer] powered by the [ARM] processor Acorn designed in-house.",
+      "about": "The Archimedes ran [RISC] [OS] on the ARM1/ARM2 [CPU] Acorn created when 68000 and [x86] chips seemed too power-hungry. [ARM] went on to power every smartphone and Apple silicon Mac — but it started here in a British school computer. Developers wrote in BBC [BASIC] and C on a architecture that now ships billions of chips a year.",
       "narrative": {
         "whyChosen": "The Archimedes was the first commercial product using the [ARM architecture].",
-        "whyImportant": "ARM processors in every phone and Apple M-series chip trace their lineage to this machine.",
+        "whyImportant": "[ARM] processors in every phone and Apple M-series chip trace their lineage to this machine.",
         "problemSolved": "Acorn needed a faster, cooler [CPU] than off-the-shelf chips for education and home markets."
       },
       "category": "hardware",

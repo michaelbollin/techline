@@ -6,11 +6,11 @@
       "date": "2014-04-01",
       "datePrecision": "day",
       "title": "Spring Boot 1.0 released",
-      "summary": "Pivotal released Spring Boot 1.0 on April 1, 2014 — opinionated auto-configuration for Spring apps with embedded servers and starter dependencies.",
-      "about": "Spring Boot (`java -jar app.jar`) eliminated [XML] boilerplate: starters bundle dependencies, auto-config wires beans, and Actuator exposes health checks. Microservices teams ship REST APIs and batch jobs without application servers; it became the default way new Java backends start in the 2010s.",
+      "summary": "Pivotal released [Spring Boot] 1.0 on April 1, 2014 — opinionated auto-configuration for Spring apps with embedded servers and starter dependencies.",
+      "about": "[Spring Boot] (`java -jar app.jar`) eliminated [XML] boilerplate: starters bundle dependencies, auto-config wires beans, and Actuator exposes health checks. [microservices] teams ship [REST] APIs and batch jobs without application servers; it became the default way new [Java] backends start in the 2010s.",
       "narrative": {
-        "whyChosen": "Spring Boot made Spring as fast to start as Ruby or Node microframeworks.",
-        "whyImportant": "Embedded Tomcat/Jetty and starter POMs defined the containerless Java deployment model.",
+        "whyChosen": "[Spring Boot] made Spring as fast to start as [Ruby] or [Node] microframeworks.",
+        "whyImportant": "Embedded Tomcat/Jetty and starter POMs defined the containerless [Java] deployment model.",
         "problemSolved": "Spring apps required heavy WAR deployments and pages of [XML] before writing business logic."
       },
       "category": "software",
@@ -61,7 +61,7 @@
       "date": "2014-04-02",
       "datePrecision": "day",
       "title": "TypeScript 1.0 released",
-      "summary": "Microsoft released [TypeScript] 1.0 on April 2, 2014 — the first stable version of Anders Hejlsberg's typed JavaScript superset.",
+      "summary": "[Microsoft] released [TypeScript] 1.0 on April 2, 2014 — the first stable version of Anders Hejlsberg's typed JavaScript superset.",
       "about": "[TypeScript] 1.0 gave teams optional types, classes, and modules that compiled to ES5 JavaScript for any browser. It laid the groundwork for Angular 2+, VS Code, and the gradual typing approach that now dominates large front-end codebases.",
       "narrative": {
         "whyChosen": "[TypeScript] 1.0 proved typed JavaScript could ship in production without a new runtime.",
@@ -173,11 +173,11 @@
       "date": "2014-04-09",
       "datePrecision": "day",
       "title": "Express 4.0 released",
-      "summary": "Express 4.0 shipped on April 9, 2014 — removing Connect [middleware] bundling and stabilizing the router for production Node APIs.",
-      "about": "Express 4 split built-in [middleware] into separate packages and fixed the router — the version that powered the MEAN stack and early REST microservices. Most Node tutorials and boilerplates still trace back to Express 4's [API] surface.",
+      "summary": "Express 4.0 shipped on April 9, 2014 — removing Connect [middleware] bundling and stabilizing the router for production [Node] APIs.",
+      "about": "Express 4 split built-in [middleware] into separate packages and fixed the router — the version that powered the MEAN stack and early [REST] [microservices]. Most [Node] tutorials and boilerplates still trace back to Express 4's [API] surface.",
       "narrative": {
-        "whyChosen": "Express 4 was the stable baseline for Node web APIs through the 2010s.",
-        "whyImportant": "A cleaner router and [middleware] model defined how Node handles [HTTP].",
+        "whyChosen": "Express 4 was the stable baseline for [Node] web APIs through the 2010s.",
+        "whyImportant": "A cleaner router and [middleware] model defined how [Node] handles [HTTP].",
         "problemSolved": "Express 3 bundled deprecated Connect [middleware] and had router edge cases in production."
       },
       "category": "software",
@@ -223,7 +223,7 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S5 released",
       "summary": "Samsung began selling the Samsung Galaxy S5 — water resistance and a fingerprint sensor in a plastic flagship body.",
-      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Water resistance and a fingerprint sensor in a plastic flagship body. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to [iPhone]. Water resistance and a fingerprint sensor in a plastic flagship body. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy S5 continued Samsung's annual [Android] flagship cadence.",
         "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
@@ -452,8 +452,8 @@
       "date": "2014-04-07",
       "datePrecision": "day",
       "title": "Heartbleed OpenSSL vulnerability disclosed",
-      "summary": "Researchers disclosed CVE-2014-0160 on April 7, 2014 — the Heartbleed bug in OpenSSL's [TLS] heartbeat extension that leaked server memory including [private key]s and passwords.",
-      "about": "Heartbleed forced mass certificate rotation, OpenSSL governance reform, and the creation of LibreSSL and BoringSSL forks. Any site using OpenSSL 1.0.1 needed emergency patching — a reminder that a single C bug in ubiquitous crypto libraries compromises the entire web trust model.",
+      "summary": "Researchers disclosed [CVE]-2014-0160 on April 7, 2014 — the Heartbleed bug in [OpenSSL]'s [TLS] heartbeat extension that leaked server memory including [private key]s and passwords.",
+      "about": "Heartbleed forced mass certificate rotation, [OpenSSL] governance reform, and the creation of LibreSSL and BoringSSL forks. Any site using [OpenSSL] 1.0.1 needed emergency patching — a reminder that a single C bug in ubiquitous crypto libraries compromises the entire web trust model.",
       "narrative": {
         "whyChosen": "Heartbleed was the biggest [TLS] library vulnerability since SSL's commercialization.",
         "whyImportant": "It triggered global cert reissues and scrutiny of underfunded crypto infrastructure.",

@@ -6,12 +6,12 @@
       "date": "2005-06-07",
       "datePrecision": "day",
       "title": "WebKit open-sourced by Apple",
-      "summary": "Apple open-sourced [WebKit] on June 7, 2005 at WWDC — releasing the Safari rendering engine that began as a KHTML fork.",
-      "about": "Open [WebKit] let other projects embed Apple's engine without starting from scratch. Nokia used it in mobile browsers; Google chose it for Chrome in 2008. Today [Blink] (Chrome's fork) and [WebKit] (Safari) together power most of the world's browsing.",
+      "summary": "Apple open-sourced [WebKit] on June 7, 2005 at [WWDC] — releasing the [Safari] rendering engine that began as a KHTML fork.",
+      "about": "Open [WebKit] let other projects embed Apple's engine without starting from scratch. Nokia used it in mobile browsers; Google chose it for [Chrome] in 2008. Today [Blink] ([Chrome]'s fork) and [WebKit] ([Safari]) together power most of the world's browsing.",
       "narrative": {
-        "whyChosen": "Open-sourcing [WebKit] was the decision that enabled Chrome and modern mobile browsers.",
+        "whyChosen": "Open-sourcing [WebKit] was the decision that enabled [Chrome] and modern mobile browsers.",
         "whyImportant": "It turned Apple's engine into shared infrastructure for the entire industry.",
-        "problemSolved": "Developers building browsers or embedded web views needed a modern, licensable engine beyond IE and Gecko."
+        "problemSolved": "Developers building browsers or embedded web views needed a modern, licensable engine beyond [IE] and Gecko."
       },
       "category": "software",
       "tags": [

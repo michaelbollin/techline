@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Fortran 2003 standardized",
       "summary": "On November 18, 2004, the [Fortran] 2003 standard was published — adding object-oriented features and direct calls to C libraries.",
-      "about": "[Fortran] 2003 let scientific code use objects (like classes in other languages) and call C libraries directly — critical for linking with modern GPU tools and numerical packages without awkward glue code. Mixed [Fortran]/C/C++ supercomputing projects became much simpler.",
+      "about": "[Fortran] 2003 let scientific code use objects (like classes in other languages) and call C libraries directly — critical for linking with modern [GPU] tools and numerical packages without awkward glue code. Mixed [Fortran]/C/C++ supercomputing projects became much simpler.",
       "narrative": {
         "whyChosen": "[Fortran] 2003 brought object-oriented design and C interoperability — what HPC teams needed to integrate with the rest of the software world.",
         "whyImportant": "Direct C linking and improved memory handling made [Fortran] viable alongside C and C++ in large supercomputing projects.",

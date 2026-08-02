@@ -6,7 +6,7 @@
       "date": "2017-12",
       "datePrecision": "month",
       "title": "C++17 standardized",
-      "summary": "ISO published [C++]17 in December 2017 — adding `std::optional`, `std::variant`, structured bindings, and parallel algorithms.",
+      "summary": "[ISO] published [C++]17 in December 2017 — adding `std::optional`, `std::variant`, structured bindings, and parallel algorithms.",
       "about": "[C++]17 brought everyday ergonomics game engines and finance code needed: optional values without pointer sentinels, `if (auto x = map.find(key))` bindings, and filesystem library in the standard. It bridged the gap between [C++]11's foundation and [C++]20's larger features.",
       "narrative": {
         "whyChosen": "[C++]17 delivered practical quality-of-life features used across industry codebases.",
@@ -53,11 +53,11 @@
       "date": "2017-12-18",
       "datePrecision": "day",
       "title": "MakerDAO launches DAI stablecoin",
-      "summary": "MakerDAO launched the DAI stablecoin on December 18, 2017 — a dollar-pegged asset backed by overcollateralized ether locked in [smart contract]s.",
-      "about": "Users deposited ETH into Maker vaults and minted DAI against it — no bank account required. DAI became DeFi's unit of account for lending, trading, and payroll before centralized stablecoins dominated volume. It showed algorithmic collateral could hold a peg — until black swans tested the design.",
+      "summary": "MakerDAO launched the DAI [stablecoin] on December 18, 2017 — a dollar-pegged asset backed by overcollateralized ether locked in [smart contract]s.",
+      "about": "Users deposited ETH into Maker vaults and minted DAI against it — no bank account required. DAI became [DeFi]'s unit of account for lending, trading, and payroll before centralized stablecoins dominated volume. It showed algorithmic collateral could hold a peg — until black swans tested the design.",
       "narrative": {
-        "whyChosen": "DAI was the first widely used decentralized stablecoin on Ethereum.",
-        "whyImportant": "It gave DeFi protocols a trust-minimized dollar substitute.",
+        "whyChosen": "DAI was the first widely used decentralized [stablecoin] on Ethereum.",
+        "whyImportant": "It gave [DeFi] protocols a trust-minimized dollar substitute.",
         "problemSolved": "Traders needed stable value on-chain without off-ramping to banks for every trade."
       },
       "category": "protocol",
@@ -104,11 +104,11 @@
       "date": "2017-12-14",
       "datePrecision": "day",
       "title": "FCC votes to repeal net neutrality rules",
-      "summary": "The FCC voted 3–2 on December 14, 2017 to repeal the 2015 Open Internet Order — ending Title II classification of broadband and returning ISPs to lighter-touch regulation.",
+      "summary": "The FCC voted 3–2 on December 14, 2017 to repeal the 2015 Open Internet Order — ending Title II classification of broadband and returning ISPs to lighter-touch [regulation].",
       "about": "Chairman Ajit Pai's Restoring Internet Freedom Order let ISPs theoretically block, throttle, or prioritize traffic again — though major providers largely pledged not to. States like California passed their own net neutrality laws; startups worried about paid peering deals affecting latency-sensitive apps. The repeal remained politically contested through subsequent FCC administrations.",
       "narrative": {
         "whyChosen": "The 2017 repeal reversed the strongest federal net neutrality protections U.S. developers had.",
-        "whyImportant": "It shifted broadband regulation to state-by-state patchwork and renewed [ISP] lobbying battles.",
+        "whyImportant": "It shifted broadband [regulation] to state-by-state patchwork and renewed [ISP] lobbying battles.",
         "problemSolved": "ISPs argued Title II rules discouraged infrastructure investment; advocates feared fast-lane discrimination."
       },
       "category": "culture",

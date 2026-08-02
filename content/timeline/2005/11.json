@@ -6,8 +6,8 @@
       "date": "2005-11-07",
       "datePrecision": "day",
       "title": ".NET Framework 2.0 and C# 2.0 released",
-      "summary": "Microsoft shipped [.NET Framework] 2.0 on November 7, 2005 with C# 2.0 [generics], nullable types, partial classes, and iterators.",
-      "about": "C# 2.0 [generics] brought `List<T>` and type-safe collections to the [CLR] — matching [Java] 5's headline feature on Microsoft's stack. Nullable value types, `yield return`, and anonymous methods paved the way for [LINQ] in C# 3. WinForms and ASP.NET 2.0 shipped alongside for enterprise Windows development.",
+      "summary": "[Microsoft] shipped [.NET Framework] 2.0 on November 7, 2005 with C# 2.0 [generics], nullable types, partial classes, and iterators.",
+      "about": "C# 2.0 [generics] brought `List<T>` and type-safe collections to the [CLR] — matching [Java] 5's headline feature on [Microsoft]'s stack. Nullable value types, `yield return`, and anonymous methods paved the way for [LINQ] in C# 3. WinForms and [ASP.NET] 2.0 shipped alongside for enterprise Windows development.",
       "narrative": {
         "whyChosen": "C# 2.0 [generics] made .NET a credible enterprise language alongside [Java].",
         "whyImportant": "[Generics] and iterators were prerequisites for [LINQ] and modern C# frameworks.",
@@ -61,12 +61,12 @@
       "date": "2005-11-29",
       "datePrecision": "day",
       "title": "Firefox 1.5 released",
-      "summary": "Mozilla shipped Firefox 1.5 on November 29, 2005 with faster back/forward navigation, drag-and-drop tabs, and live bookmarks.",
-      "about": "Firefox 1.5 refined the browser that had broken IE's monopoly: incremental speed gains, better [RSS] integration, and smoother tab dragging kept users from returning to Internet Explorer. It maintained Mozilla's momentum through the mid-2000s browser wars.",
+      "summary": "[Mozilla] shipped [Firefox] 1.5 on November 29, 2005 with faster back/forward navigation, drag-and-drop tabs, and live bookmarks.",
+      "about": "[Firefox] 1.5 refined the browser that had broken [IE]'s monopoly: incremental speed gains, better [RSS] integration, and smoother tab dragging kept users from returning to [Internet Explorer]. It maintained [Mozilla]'s momentum through the mid-2000s browser wars.",
       "narrative": {
-        "whyChosen": "Firefox 1.5 sustained the post-1.0 growth that made Mozilla a permanent browser player.",
-        "whyImportant": "Performance and UX polish proved Firefox was not a one-release wonder.",
-        "problemSolved": "Early Firefox needed faster navigation and tab management to match user expectations set by IE."
+        "whyChosen": "[Firefox] 1.5 sustained the post-1.0 growth that made [Mozilla] a permanent browser player.",
+        "whyImportant": "Performance and UX polish proved [Firefox] was not a one-release wonder.",
+        "problemSolved": "Early [Firefox] needed faster navigation and tab management to match user expectations set by [IE]."
       },
       "category": "software",
       "tags": [

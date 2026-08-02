@@ -7,9 +7,9 @@
       "datePrecision": "day",
       "title": "Ansible first released",
       "summary": "Michael DeHaan open-sourced Ansible on February 20, 2012 — an agentless configuration management and [automation] tool using YAML playbooks.",
-      "about": "Ansible SSHs into servers (or talks WinRM on Windows) and applies idempotent tasks — install packages, copy configs, restart services. No agent daemon required. Example: a playbook that installs nginx, templates `/etc/nginx/nginx.conf`, and ensures the service is running on ten hosts in parallel.",
+      "about": "Ansible SSHs into servers (or talks WinRM on Windows) and applies idempotent tasks — install packages, copy configs, restart services. No agent daemon required. Example: a playbook that installs [nginx], templates `/etc/[nginx]/[nginx].conf`, and ensures the service is running on ten hosts in parallel.",
       "narrative": {
-        "whyChosen": "Ansible made infrastructure [automation] approachable with plain YAML and SSH.",
+        "whyChosen": "Ansible made infrastructure [automation] approachable with plain YAML and [SSH].",
         "whyImportant": "It competed with Puppet and Chef and became Red Hat's default ops [automation] stack.",
         "problemSolved": "Complex agent-based config management was heavy; teams wanted simple, readable [automation]."
       },
@@ -57,7 +57,7 @@
       "datePrecision": "day",
       "title": "Raspberry Pi Model B released",
       "summary": "The Raspberry Pi Foundation opened Model B orders on February 29, 2012 — a $35 credit-card-sized Linux computer; first production units shipped in mid-April 2012.",
-      "about": "Raspberry Pi runs Debian on ARM with GPIO pins for [robotics], home [automation], and retro gaming. Schools taught Python on Pis; makers built NAS boxes and media centers. It brought full Linux userspace to the same audience Arduino served at the microcontroller layer — and sold tens of millions of units.",
+      "about": "Raspberry Pi runs Debian on [ARM] with GPIO pins for [robotics], home [automation], and retro gaming. Schools taught [Python] on Pis; makers built NAS boxes and media centers. It brought full Linux userspace to the same audience Arduino served at the microcontroller layer — and sold tens of millions of units.",
       "narrative": {
         "whyChosen": "The Model B made a complete Linux computer affordable for education and hobbyists.",
         "whyImportant": "It revived computer literacy in schools and powered countless [IoT] and maker projects.",

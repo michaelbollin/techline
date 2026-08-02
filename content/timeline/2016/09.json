@@ -6,11 +6,11 @@
       "date": "2016-09-14",
       "datePrecision": "day",
       "title": "Angular 2.0 final released",
-      "summary": "Google shipped Angular 2.0 on September 14, 2016 — a TypeScript rewrite with components, ahead-of-time compilation, and mobile support.",
-      "about": "Angular (2+) replaced AngularJS with TypeScript, RxJS, and a [CLI] for enterprise SPAs. Used for large banking portals, admin dashboards, and Ionic mobile apps. Breaking from 1.x was painful, but AOT compilation, lazy loading, and structured modules suited big teams.",
+      "summary": "Google shipped Angular 2.0 on September 14, 2016 — a [TypeScript] rewrite with components, ahead-of-time compilation, and mobile support.",
+      "about": "Angular (2+) replaced AngularJS with [TypeScript], RxJS, and a [CLI] for enterprise SPAs. Used for large banking portals, admin dashboards, and Ionic mobile apps. Breaking from 1.x was painful, but AOT compilation, lazy loading, and structured modules suited big teams.",
       "narrative": {
-        "whyChosen": "Angular 2 reset the framework for TypeScript, performance, and long-term enterprise maintenance.",
-        "whyImportant": "It kept Google in the enterprise SPA race alongside React and showed when a full rewrite can be justified.",
+        "whyChosen": "Angular 2 reset the framework for [TypeScript], performance, and long-term enterprise maintenance.",
+        "whyImportant": "It kept Google in the enterprise SPA race alongside [React] and showed when a full rewrite can be justified.",
         "problemSolved": "AngularJS could not meet mobile performance and tooling needs; the digest cycle and JS-only codebase hit limits."
       },
       "category": "software",
@@ -64,10 +64,10 @@
       "date": "2016-09-16",
       "datePrecision": "day",
       "title": "iPhone 7 released",
-      "summary": "Apple released the iPhone 7 on September 16, 2016 — removing the headphone jack and adding water resistance and stereo speakers.",
+      "summary": "Apple released the [iPhone] 7 on September 16, 2016 — removing the headphone jack and adding water resistance and stereo speakers.",
       "about": "Dropping the 3.5 mm jack pushed developers and accessory makers toward Bluetooth audio and [Lightning] adapters — a controversial port transition that foreshadowed wireless-first mobile design.",
       "narrative": {
-        "whyChosen": "The iPhone 7 forced the mobile ecosystem toward wireless audio.",
+        "whyChosen": "The [iPhone] 7 forced the mobile ecosystem toward wireless audio.",
         "whyImportant": "Removing the headphone jack changed how apps and hardware handled audio routing.",
         "problemSolved": "Wired headphones were universal; phones needed better water resistance without port compromises."
       },
@@ -122,10 +122,10 @@
       "date": "2016-09-20",
       "datePrecision": "day",
       "title": "Safari 10 released",
-      "summary": "Apple released Safari 10 on September 20, 2016 with macOS Sierra — adding Picture in Picture, [Apple Pay] on the web, and autoplay blocking.",
-      "about": "Safari 10 brought [Apple Pay] to e-commerce sites and blocked intrusive media autoplay — improving battery life and UX. Picture in Picture for web video matched features iOS users already had on iPad.",
+      "summary": "Apple released [Safari] 10 on September 20, 2016 with [macOS] Sierra — adding Picture in Picture, [Apple Pay] on the web, and autoplay blocking.",
+      "about": "[Safari] 10 brought [Apple Pay] to e-commerce sites and blocked intrusive media autoplay — improving battery life and UX. Picture in Picture for web video matched features [iOS] users already had on [iPad].",
       "narrative": {
-        "whyChosen": "Safari 10 integrated payments and media controls into the desktop web platform.",
+        "whyChosen": "[Safari] 10 integrated payments and media controls into the desktop web platform.",
         "whyImportant": "[Apple Pay] on the web expanded Apple's payment ecosystem beyond apps.",
         "problemSolved": "Autoplaying video ads and audio drained batteries and annoyed users."
       },
@@ -178,12 +178,12 @@
       "date": "2016-09-21",
       "datePrecision": "day",
       "title": "Netlify CMS released",
-      "summary": "Netlify published Netlify CMS on September 21, 2016 — an open-source, Git-based content editor for static sites and the Jamstack.",
-      "about": "Netlify CMS wraps the GitHub [API] in a React admin [UI] — content editors write Markdown while developers keep static site generators. It later rebranded as Decap CMS in 2023 but defined Git-based CMS for the Jamstack era.",
+      "summary": "[Netlify] published [Netlify] [CMS] on September 21, 2016 — an open-source, [Git]-based content editor for static sites and the [Jamstack].",
+      "about": "[Netlify] [CMS] wraps the [GitHub] [API] in a [React] admin [UI] — content editors write Markdown while developers keep static site generators. It later rebranded as Decap [CMS] in 2023 but defined [Git]-based [CMS] for the [Jamstack] era.",
       "narrative": {
-        "whyChosen": "Netlify CMS brought WordPress-like editing to static site workflows.",
-        "whyImportant": "Git-based CMS became the standard content layer for Jamstack sites.",
-        "problemSolved": "Static sites had no editor-friendly way to manage content without touching Git."
+        "whyChosen": "[Netlify] [CMS] brought [WordPress]-like editing to static site workflows.",
+        "whyImportant": "[Git]-based [CMS] became the standard content layer for [Jamstack] sites.",
+        "problemSolved": "Static sites had no editor-friendly way to manage content without touching [Git]."
       },
       "category": "software",
       "tags": [

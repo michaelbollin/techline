@@ -54,12 +54,12 @@
       "date": "2022-06-15",
       "datePrecision": "day",
       "title": "Internet Explorer 11 retired",
-      "summary": "Microsoft retired the Internet Explorer 11 desktop app on June 15, 2022 — ending 27 years of the browser that once held over 90% market share.",
-      "about": "Opening IE on Windows 10 redirected users to Microsoft Edge; IE mode in Edge kept legacy intranet apps running. The retirement applied to the IE11 desktop app on consumer Windows 10 — Windows 10 LTSC, Windows Server, and Windows 7 ESU editions retained IE11 support. For developers, it was the final break from ActiveX-only sites, `-ms-` hacks, and the IE6–IE11 compatibility matrix.",
+      "summary": "[Microsoft] retired the [Internet Explorer] 11 desktop app on June 15, 2022 — ending 27 years of the browser that once held over 90% market share.",
+      "about": "Opening [IE] on Windows 10 redirected users to [Microsoft] [Edge]; [IE] mode in [Edge] kept legacy intranet apps running. The retirement applied to the IE11 desktop app on consumer Windows 10 — Windows 10 LTSC, Windows Server, and Windows 7 ESU editions retained IE11 support. For developers, it was the final break from ActiveX-only sites, `-ms-` hacks, and the IE6–IE11 compatibility matrix.",
       "narrative": {
-        "whyChosen": "IE's retirement closed the longest chapter in browser history and the era of building for one dominant engine.",
+        "whyChosen": "[IE]'s retirement closed the longest chapter in browser history and the era of building for one dominant engine.",
         "whyImportant": "It forced the last holdouts off a browser with no security updates and shrinking web compatibility.",
-        "problemSolved": "Microsoft could not maintain a separate legacy browser alongside [Chromium]-based Edge indefinitely."
+        "problemSolved": "[Microsoft] could not maintain a separate legacy browser alongside [Chromium]-based [Edge] indefinitely."
       },
       "category": "software",
       "tags": [
@@ -166,7 +166,7 @@
       "datePrecision": "day",
       "title": "GitHub Copilot generally available",
       "summary": "[GitHub] made [Copilot] generally available on June 21, 2022 — an AI pair programmer in VS Code and JetBrains IDEs for $10/month.",
-      "about": "[Copilot] turned OpenAI Codex into the first mass-market in-editor autocomplete product — tab-to-accept whole functions from natural language comments. It launched the AI-coding era that Cursor, Codeium, and [Copilot] Workspace extended, and made [GitHub] the default distribution channel for developer LLMs.",
+      "about": "[Copilot] turned [OpenAI] Codex into the first mass-market in-editor autocomplete product — tab-to-accept whole functions from natural language comments. It launched the AI-coding era that Cursor, Codeium, and [Copilot] Workspace extended, and made [GitHub] the default distribution channel for developer LLMs.",
       "narrative": {
         "whyChosen": "[Copilot] was the first widely sold AI pair programmer inside mainstream IDEs.",
         "whyImportant": "Inline code generation became a paid developer tool category overnight.",

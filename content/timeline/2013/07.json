@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Opera 15 on Chromium released",
       "summary": "Opera shipped version 15 on July 2, 2013 built on [Chromium] and [Blink] — completing the switch from the in-house Presto engine (a beta had shipped May 28, 2013).",
-      "about": "Opera abandoned its own rendering engine to focus on features like Turbo compression and cross-device sync while riding [Chromium]'s compatibility. The move mirrored the industry's consolidation: maintaining a unique engine was too expensive when sites targeted Chrome first.",
+      "about": "Opera abandoned its own rendering engine to focus on features like Turbo compression and cross-device sync while riding [Chromium]'s compatibility. The move mirrored the industry's consolidation: maintaining a unique engine was too expensive when sites targeted [Chrome] first.",
       "narrative": {
-        "whyChosen": "Opera's engine switch left Firefox's Gecko as the last major independent lineage outside [WebKit]/[Blink].",
+        "whyChosen": "Opera's engine switch left [Firefox]'s Gecko as the last major independent lineage outside [WebKit]/[Blink].",
         "whyImportant": "It signaled that even innovative browser vendors could not sustain proprietary engines alone.",
-        "problemSolved": "Presto could not keep up with Chrome's pace; Opera needed Chrome-compatible rendering without rebuilding from scratch."
+        "problemSolved": "Presto could not keep up with [Chrome]'s pace; Opera needed [Chrome]-compatible rendering without rebuilding from scratch."
       },
       "category": "software",
       "tags": [
@@ -65,11 +65,11 @@
       "datePrecision": "day",
       "title": "ESLint first released",
       "summary": "Nicholas Zakas introduced ESLint on July 16, 2013 — a pluggable JavaScript linter with every rule configurable at runtime.",
-      "about": "ESLint parses code into an AST and runs shareable rules — catch unused variables, enforce style, or ban dangerous patterns. Plugins extend it for React, [TypeScript], and Node. Teams ship `.eslintrc` configs in open source and CI. It replaced JSHint as the default linter for modern JavaScript projects.",
+      "about": "ESLint parses code into an AST and runs shareable rules — catch unused variables, enforce style, or ban dangerous patterns. Plugins extend it for [React], [TypeScript], and [Node]. [Teams] ship `.eslintrc` configs in [open source] and CI. It replaced JSHint as the default linter for modern JavaScript projects.",
       "narrative": {
         "whyChosen": "ESLint made lint rules pluggable when JSHint could not be extended for project needs.",
         "whyImportant": "It became the standard gatekeeper for JavaScript quality in editors and CI pipelines.",
-        "problemSolved": "Teams needed custom static analysis rules that existing linters could not add."
+        "problemSolved": "[Teams] needed custom static analysis rules that existing linters could not add."
       },
       "category": "software",
       "tags": [
@@ -115,11 +115,11 @@
       "datePrecision": "day",
       "title": "Nokia Lumia 1020 released",
       "summary": "Nokia released the Nokia Lumia 1020 — 41 MP PureView camera — photography-focused Windows Phone.",
-      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. 41 mp pureview camera — photography-focused windows phone.",
+      "about": "Nokia hardware shaped pre-[iPhone] smartphones and later [Microsoft]'s mobile platform bet. 41 mp pureview camera — photography-focused windows phone.",
       "narrative": {
         "whyChosen": "The Nokia Lumia 1020 was a flagship Nokia smartphone milestone.",
         "whyImportant": "Nokia devices defined mobile platforms from [Symbian] through Windows Phone.",
-        "problemSolved": "Mobile users needed capable smartphones before the iPhone/[Android] era matured."
+        "problemSolved": "Mobile users needed capable smartphones before the [iPhone]/[Android] era matured."
       },
       "category": "hardware",
       "tags": [

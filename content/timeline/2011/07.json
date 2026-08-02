@@ -6,11 +6,11 @@
       "date": "2011-07-28",
       "datePrecision": "day",
       "title": "Google open-sources LevelDB",
-      "summary": "Google open-sourced LevelDB on July 28, 2011 — a fast key-value storage library written by Jeff Dean and Sanjay Ghemawat that underpinned early Bitcoin and Chrome indexing.",
-      "about": "LevelDB offered ordered key-value storage with LSM-tree performance on a single machine — simpler than Berkeley DB, faster than SQLite for append-heavy workloads. Bitcoin Core adopted it for chain state; [Node] ecosystems wrapped it in `level` and `rocksdb` inspired its design. It became a building block for embedded databases in distributed systems courses.",
+      "summary": "Google open-sourced LevelDB on July 28, 2011 — a fast key-value storage library written by Jeff Dean and Sanjay Ghemawat that underpinned early [Bitcoin] and [Chrome] indexing.",
+      "about": "LevelDB offered ordered key-value storage with LSM-tree performance on a single machine — simpler than Berkeley DB, faster than SQLite for append-heavy workloads. [Bitcoin] Core adopted it for chain state; [Node] ecosystems wrapped it in `level` and `rocksdb` inspired its design. It became a building block for embedded databases in distributed systems courses.",
       "narrative": {
-        "whyChosen": "LevelDB was Google's gift of production-grade embedded storage to open source.",
-        "whyImportant": "It powered Bitcoin's UTXO set and influenced RocksDB and modern LSM stores.",
+        "whyChosen": "LevelDB was Google's gift of production-grade embedded storage to [open source].",
+        "whyImportant": "It powered [Bitcoin]'s UTXO set and influenced RocksDB and modern LSM stores.",
         "problemSolved": "Applications needed fast local ordered storage without running a full database server."
       },
       "category": "software",
@@ -61,12 +61,12 @@
       "date": "2011-07-19",
       "datePrecision": "day",
       "title": "Kotlin programming language announced",
-      "summary": "JetBrains unveiled [Kotlin] on July 19, 2011 at the JVM Language Summit — a pragmatic JVM language designed to interoperate with Java.",
-      "about": "[Kotlin] aimed to fix Java's verbosity and null-safety gaps while keeping 100% Java interop — years before Google made it the preferred [Android] language. JetBrains dogfooded it in IntelliJ plugins before [Kotlin] 1.0 shipped in 2016.",
+      "summary": "JetBrains unveiled [Kotlin] on July 19, 2011 at the [JVM] Language Summit — a pragmatic [JVM] language designed to interoperate with [Java].",
+      "about": "[Kotlin] aimed to fix [Java]'s verbosity and null-safety gaps while keeping 100% [Java] interop — years before Google made it the preferred [Android] language. JetBrains dogfooded it in IntelliJ plugins before [Kotlin] 1.0 shipped in 2016.",
       "narrative": {
-        "whyChosen": "[Kotlin] was JetBrains' answer to Java's stagnation on the JVM.",
-        "whyImportant": "It later became [Android]'s recommended language and a server-side alternative to Java.",
-        "problemSolved": "JVM developers wanted modern syntax without abandoning existing Java libraries."
+        "whyChosen": "[Kotlin] was JetBrains' answer to [Java]'s stagnation on the [JVM].",
+        "whyImportant": "It later became [Android]'s recommended language and a server-side alternative to [Java].",
+        "problemSolved": "[JVM] developers wanted modern syntax without abandoning existing [Java] libraries."
       },
       "category": "software",
       "tags": [

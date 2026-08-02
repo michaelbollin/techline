@@ -6,11 +6,11 @@
       "date": "2000-08-24",
       "datePrecision": "day",
       "title": "ActionScript 1.0 debuts with Flash 5",
-      "summary": "Macromedia [Flash] 5 launched with ActionScript 1.0 — a JavaScript-like ECMAScript-based language for rich web media.",
+      "summary": "Macromedia [Flash] 5 launched with ActionScript 1.0 — a JavaScript-like [ECMAScript]-based language for rich web media.",
       "about": "ActionScript was the programming language inside [Flash] — build browser games, video players, interactive ads, and animated sites. Famous era: Newgrounds flash games, early YouTube-era players, and corporate sites with splash intros. Syntax resembled JavaScript; code lived inside `.fla` authoring files.",
       "narrative": {
-        "whyChosen": "ActionScript powered a decade of browser games, video players, and interactive sites before HTML5.",
-        "whyImportant": "It was the first fully implemented, ECMAScript-based scripting layer in a mass-market authoring tool.",
+        "whyChosen": "ActionScript powered a decade of browser games, video players, and interactive sites before [HTML5].",
+        "whyImportant": "It was the first fully implemented, [ECMAScript]-based scripting layer in a mass-market authoring tool.",
         "problemSolved": "[Flash] 4 scripting was limited; [Flash] 5 needed a real language for complex client-side logic."
       },
       "category": "software",
@@ -60,7 +60,7 @@
       "datePrecision": "day",
       "title": "SQLite 1.0 released",
       "summary": "Richard Hipp released SQLite 1.0 on August 17, 2000 — a self-contained, serverless [SQL] database engine in a single C library.",
-      "about": "SQLite embeds in apps, browsers, and phones — no separate server process. iOS, Android, Firefox, and countless desktop apps store data in `.sqlite` files. Teams use it for local caches, mobile offline sync, and tests. Example: a mobile app persisting user settings with `SELECT` and transactions without running Postgres.",
+      "about": "SQLite embeds in apps, browsers, and phones — no separate server process. [iOS], [Android], [Firefox], and countless desktop apps store data in `.sqlite` files. [Teams] use it for local caches, mobile offline sync, and tests. Example: a mobile app persisting user settings with `SELECT` and transactions without running Postgres.",
       "narrative": {
         "whyChosen": "SQLite made [SQL] available everywhere a C library could link — not just on database servers.",
         "whyImportant": "It is likely the most widely deployed database engine on earth, hidden inside applications.",
@@ -110,9 +110,9 @@
       "datePrecision": "day",
       "title": "CMake released",
       "summary": "Kitware introduced CMake on August 31, 2000 — a cross-platform build system generator for C and C++ projects.",
-      "about": "CMake reads `CMakeLists.txt` files and emits Makefiles, Ninja files, or IDE projects — one build description for Linux, macOS, and Windows. It powers LLVM, KDE, OpenCV, and countless native libraries. Example: `cmake -B build && cmake --build build` configures and compiles without hand-writing platform-specific make rules.",
+      "about": "CMake reads `CMakeLists.txt` files and emits Makefiles, Ninja files, or [IDE] projects — one build description for Linux, [macOS], and Windows. It powers [LLVM], KDE, OpenCV, and countless native libraries. Example: `cmake -B build && cmake --build build` configures and compiles without hand-writing platform-specific make rules.",
       "narrative": {
-        "whyChosen": "CMake solved cross-platform native builds when autotools and Visual Studio projects diverged.",
+        "whyChosen": "CMake solved cross-platform native builds when autotools and [Visual Studio] projects diverged.",
         "whyImportant": "It became the de facto build meta-system for open-source C/C++ and influenced Conan and vcpkg workflows.",
         "problemSolved": "Maintaining separate build files per [OS] was unmaintainable for large C++ codebases like medical imaging toolkits."
       },

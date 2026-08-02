@@ -6,10 +6,10 @@
       "date": "1984-08",
       "datePrecision": "month",
       "title": "NFS first implemented",
-      "summary": "Sun Microsystems implemented the first Network File System [kernel] code in August 1984 — remote file access over [TCP]/[IP]; customer products shipped in spring 1985.",
-      "about": "NFS let workstations mount directories from a server as if they were local drives — bootless Sun workstations, shared home directories, and centralized `/usr` trees. Built on ONC RPC and XDR, it became the default way Unix machines shared files before SMB dominated Windows shops. Every `mount server:/export/home` traces back to Bill Joy's team at Sun.",
+      "summary": "[Sun] Microsystems implemented the first Network File System [kernel] code in August 1984 — remote file access over [TCP]/[IP]; customer products shipped in spring 1985.",
+      "about": "NFS let workstations mount directories from a server as if they were local drives — bootless [Sun] workstations, shared home directories, and centralized `/usr` trees. Built on ONC RPC and XDR, it became the default way [Unix] machines shared files before SMB dominated Windows shops. Every `mount server:/export/home` traces back to Bill Joy's team at [Sun].",
       "narrative": {
-        "whyChosen": "NFS was the first widely deployed network filesystem for Unix workstations.",
+        "whyChosen": "NFS was the first widely deployed network filesystem for [Unix] workstations.",
         "whyImportant": "It proved transparent remote file access could work at [LAN] scale and influenced later distributed storage designs.",
         "problemSolved": "Diskless workstations and multi-user labs needed shared files without copying data to every machine."
       },

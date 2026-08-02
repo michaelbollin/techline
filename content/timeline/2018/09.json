@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Phoenix LiveView announced",
       "summary": "José Valim announced Phoenix LiveView on September 4, 2018 at ElixirConf US — real-time server-rendered [UI] over WebSockets without writing JavaScript.",
-      "about": "LiveView let Elixir developers build interactive dashboards, forms, and chats with server-side state — sending [HTML] diffs over the wire. It influenced Rails Hotwire and HTMX by showing that SPAs were not the only path to rich UIs.",
+      "about": "LiveView let [Elixir] developers build interactive dashboards, forms, and chats with server-side state — sending [HTML] diffs over the wire. It influenced Rails Hotwire and HTMX by showing that SPAs were not the only path to rich UIs.",
       "narrative": {
         "whyChosen": "LiveView pioneered server-driven reactive UIs in a mainstream web framework.",
-        "whyImportant": "It reduced frontend complexity for teams that wanted interactivity without React.",
+        "whyImportant": "It reduced frontend complexity for teams that wanted interactivity without [React].",
         "problemSolved": "Real-time UIs seemed to require JavaScript SPAs and duplicated state on client and server."
       },
       "category": "software",
@@ -56,7 +56,7 @@
       "date": "2018-09-20",
       "datePrecision": "day",
       "title": "Cypress leaves beta",
-      "summary": "[Cypress] officially left beta on September 20, 2018 — marking 1.0 stability after years of development and millions of npm downloads.",
+      "summary": "[Cypress] officially left beta on September 20, 2018 — marking 1.0 stability after years of development and millions of [npm] downloads.",
       "about": "The GA release signaled [Cypress] was production-ready for front-end E2E testing — time-travel debugging, automatic waiting, and real browser execution. [Teams] migrated from flaky Selenium suites to `cy.visit` and `cy.get` for [React] and Vue apps.",
       "narrative": {
         "whyChosen": "[Cypress] GA validated in-browser E2E testing as an enterprise-ready practice.",
@@ -104,10 +104,10 @@
       "date": "2018-09-21",
       "datePrecision": "day",
       "title": "iPhone XS released",
-      "summary": "Apple began selling the iPhone XS on September 21, 2018 — refining the iPhone X with the A12 Bionic and improved cameras.",
+      "summary": "Apple began selling the [iPhone] XS on September 21, 2018 — refining the [iPhone] X with the A12 Bionic and improved cameras.",
       "about": "The XS established the annual 'pro' tier cadence with better neural engine performance for Core ML and [computational photography] APIs developers could leverage in camera and [AR] apps.",
       "narrative": {
-        "whyChosen": "The XS iterated the premium iPhone template with a much faster neural engine.",
+        "whyChosen": "The XS iterated the premium [iPhone] template with a much faster neural engine.",
         "whyImportant": "On-device ML performance became a realistic baseline for [iOS] camera and [AR] apps.",
         "problemSolved": "Premium iPhones needed better ML silicon for real-time vision workloads."
       },
@@ -162,12 +162,12 @@
       "date": "2018-09-25",
       "datePrecision": "day",
       "title": "Java 11 LTS released",
-      "summary": "Oracle and the OpenJDK community shipped Java 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in [HTTP] client and removed Java EE modules.",
-      "about": "Java 11 became the migration target after Java 8 for teams that needed LTS without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in Java 10), added a built-in [HTTP] client, and single-file `java` launch scripts modernized everyday Java development.",
+      "summary": "Oracle and the OpenJDK community shipped [Java] 11 on September 25, 2018 — the first long-term support release in the new six-month cadence, with a built-in [HTTP] client and removed [Java] EE modules.",
+      "about": "[Java] 11 became the migration target after [Java] 8 for teams that needed [LTS] without Oracle's paid support trap. It extended `var` to lambda parameters (introduced in [Java] 10), added a built-in [HTTP] client, and single-file `java` launch scripts modernized everyday [Java] development.",
       "narrative": {
-        "whyChosen": "Java 11 was the bridge LTS between the Java 8 era and modern 17/21 releases.",
-        "whyImportant": "It established the six-month feature release + LTS every three years model.",
-        "problemSolved": "After Java 9/10's rapid releases, enterprises needed a stable LTS with modern features."
+        "whyChosen": "[Java] 11 was the bridge [LTS] between the [Java] 8 era and modern 17/21 releases.",
+        "whyImportant": "It established the six-month feature release + [LTS] every three years model.",
+        "problemSolved": "After [Java] 9/10's rapid releases, enterprises needed a stable [LTS] with modern features."
       },
       "category": "software",
       "tags": [

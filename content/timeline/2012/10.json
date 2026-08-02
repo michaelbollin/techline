@@ -6,11 +6,11 @@
       "date": "2012-10-01",
       "datePrecision": "day",
       "title": "TypeScript preview released",
-      "summary": "Microsoft released the TypeScript preview on October 1, 2012 — a typed superset of JavaScript by Anders Hejlsberg.",
-      "about": "TypeScript adds optional static types, interfaces, and generics to JavaScript, then compiles to plain JS. It powers large frontends (Angular, VS Code itself) and Node backends where teams want compile-time checks without leaving the JS ecosystem. `.ts` files catch typos before runtime and enable [IDE] autocomplete at scale.",
+      "summary": "[Microsoft] released the [TypeScript] preview on October 1, 2012 — a typed superset of JavaScript by Anders Hejlsberg.",
+      "about": "[TypeScript] adds optional static types, interfaces, and [generics] to JavaScript, then compiles to plain JS. It powers large frontends (Angular, VS Code itself) and [Node] backends where teams want compile-time checks without leaving the JS ecosystem. `.ts` files catch typos before runtime and enable [IDE] autocomplete at scale.",
       "narrative": {
-        "whyChosen": "TypeScript became the default for large-scale JavaScript applications and framework tooling.",
-        "whyImportant": "It bridged JavaScript's flexibility with [IDE] support and refactoring safety enterprise teams expected.",
+        "whyChosen": "[TypeScript] became the default for large-scale JavaScript applications and framework tooling.",
+        "whyImportant": "It bridged JavaScript's flexibility with [IDE] support and [refactoring] safety enterprise teams expected.",
         "problemSolved": "Plain JavaScript lacked types for million-line codebases; teams needed safety without abandoning the web platform."
       },
       "category": "software",
@@ -63,11 +63,11 @@
       "date": "2012-10-26",
       "datePrecision": "day",
       "title": "Internet Explorer 10 released",
-      "summary": "Microsoft released Internet Explorer 10 on October 26, 2012 with Windows 8 — featuring a touch-first [UI], improved HTML5/CSS3, and do-not-track by default.",
-      "about": "IE 10 shipped in two modes: the modern Metro-style browser on Windows 8 and the desktop version for legacy sites. It advanced pointer events, flexbox, and GPU compositing — Microsoft's last major IE push before Edge.",
+      "summary": "[Microsoft] released [Internet Explorer] 10 on October 26, 2012 with Windows 8 — featuring a touch-first [UI], improved [HTML5]/CSS3, and do-not-track by default.",
+      "about": "[IE] 10 shipped in two modes: the modern Metro-style browser on Windows 8 and the desktop version for legacy sites. It advanced pointer events, flexbox, and [GPU] compositing — [Microsoft]'s last major [IE] push before [Edge].",
       "narrative": {
-        "whyChosen": "IE 10 was the touch-era Internet Explorer tied to Windows 8's launch.",
-        "whyImportant": "Pointer events and modern CSS support influenced cross-device web standards.",
+        "whyChosen": "[IE] 10 was the touch-era [Internet Explorer] tied to Windows 8's launch.",
+        "whyImportant": "Pointer events and modern [CSS] support influenced cross-device web standards.",
         "problemSolved": "Windows 8 needed a browser built for touch tablets and hybrid laptops."
       },
       "category": "software",
@@ -118,11 +118,11 @@
       "date": "2012-10",
       "datePrecision": "month",
       "title": "OAuth 2.0 standardized",
-      "summary": "RFC 6749 defined the OAuth 2.0 authorization framework in October 2012 — letting apps request limited access to user accounts without sharing passwords.",
-      "about": "OAuth 2.0 is how you 'Sign in with Google/GitHub' and how APIs delegate access with bearer tokens. Authorization servers issue tokens after user consent; resource servers validate them. Every SaaS integration, mobile login, and third-party [API] permission screen builds on these flows — authorization code, client credentials, and more.",
+      "summary": "RFC 6749 defined the [OAuth] 2.0 authorization framework in October 2012 — letting apps request limited access to user accounts without sharing passwords.",
+      "about": "[OAuth] 2.0 is how you 'Sign in with Google/[GitHub]' and how APIs delegate access with bearer tokens. Authorization servers issue tokens after user consent; resource servers validate them. Every [SaaS] integration, mobile login, and third-party [API] permission screen builds on these flows — authorization code, client credentials, and more.",
       "narrative": {
-        "whyChosen": "OAuth 2.0 replaced ad-hoc [API] keys and password sharing with a standard consent model.",
-        "whyImportant": "It became the foundation for modern identity federation, [API] security, and OpenID Connect.",
+        "whyChosen": "[OAuth] 2.0 replaced ad-hoc [API] keys and password sharing with a standard consent model.",
+        "whyImportant": "It became the foundation for modern identity federation, [API] security, and [OpenID Connect].",
         "problemSolved": "Apps needed user data from other services without storing credentials or getting full account access."
       },
       "category": "protocol",
@@ -177,8 +177,8 @@
       "date": "2012-10",
       "datePrecision": "month",
       "title": "Postman API client launched",
-      "summary": "Abhinav Asthana released Postman in October 2012 — first as a Chrome extension for sending and organizing [HTTP] [API] requests.",
-      "about": "Postman turned curl one-liners into shareable collections, environments, and mock servers — the default toolbox for backend and frontend devs testing REST and GraphQL APIs. Teams synced request folders in version control; Newman ran collections in CI. It became essential infrastructure alongside Swagger/OpenAPI specs.",
+      "summary": "Abhinav Asthana released Postman in October 2012 — first as a [Chrome] extension for sending and organizing [HTTP] [API] requests.",
+      "about": "Postman turned curl one-liners into shareable collections, environments, and mock servers — the default toolbox for backend and frontend devs testing [REST] and GraphQL APIs. [Teams] synced request folders in version control; Newman ran collections in CI. It became essential infrastructure alongside Swagger/OpenAPI specs.",
       "narrative": {
         "whyChosen": "Postman became the standard [GUI] for exploring and sharing [HTTP] APIs.",
         "whyImportant": "Collections and environments made [API] testing repeatable across teams.",

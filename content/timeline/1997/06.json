@@ -6,8 +6,8 @@
       "date": "1997-06",
       "datePrecision": "month",
       "title": "JavaScript standardized",
-      "summary": "In June 1997, Ecma adopted the first official standard for JavaScript — giving [Netscape] JavaScript and Microsoft JScript one shared rulebook.",
-      "about": "ECMAScript is the official name for the language inside every browser. This first standard meant web developers could write scripts expecting the same syntax in [Netscape] and Internet Explorer — the foundation for every modern web app, from form validation to single-page applications.",
+      "summary": "In June 1997, Ecma adopted the first official standard for JavaScript — giving [Netscape] JavaScript and [Microsoft] JScript one shared rulebook.",
+      "about": "[ECMAScript] is the official name for the language inside every browser. This first standard meant web developers could write scripts expecting the same syntax in [Netscape] and [Internet Explorer] — the foundation for every modern web app, from form validation to single-page applications.",
       "narrative": {
         "whyChosen": "Standardization turned a browser-company invention into a written contract that any browser maker could implement.",
         "whyImportant": "It let JavaScript survive beyond [Netscape] and become the open web's programming language.",
@@ -60,9 +60,9 @@
       "datePrecision": "day",
       "title": "Netscape Communicator 4.0 released",
       "summary": "[Netscape] shipped Communicator 4.0 on June 11, 1997 — a full internet suite with browser, email, news, and [HTML] editor bundled together.",
-      "about": "Communicator tried to own the whole desktop internet experience, not just browsing. It pushed Dynamic [HTML], improved JavaScript, and Netcaster push channels — but its bloated suite model struggled against Microsoft's tighter IE integration in Windows.",
+      "about": "Communicator tried to own the whole desktop internet experience, not just browsing. It pushed Dynamic [HTML], improved JavaScript, and Netcaster push channels — but its bloated suite model struggled against [Microsoft]'s tighter [IE] integration in Windows.",
       "narrative": {
-        "whyChosen": "Communicator 4 was [Netscape]'s flagship before the open-source Mozilla pivot.",
+        "whyChosen": "Communicator 4 was [Netscape]'s flagship before the open-source [Mozilla] pivot.",
         "whyImportant": "It pushed DHTML and richer client-side pages while showing the limits of monolithic browser suites.",
         "problemSolved": "Users wanted one program for web, mail, and authoring — [Netscape] packaged the entire workflow."
       },
@@ -112,12 +112,12 @@
       "date": "1997-06-26",
       "datePrecision": "day",
       "title": "IEEE 802.11 Wi-Fi standard approved",
-      "summary": "The IEEE Standards Board approved IEEE 802.11-1997 on June 26, 1997 — the first wireless LAN MAC and PHY standard for 2.4 GHz radio LANs.",
-      "about": "802.11 defined how laptops, phones, and access points share airtime without cables — CSMA/CA, association, and wired-equivalent privacy hooks. Wi-Fi Alliance certification followed, and developers built mobile web, home IoT, and coffee-shop coding on cheap radio chips. Office Ethernet remained wired, but Wi-Fi became the default client access layer.",
+      "summary": "The [IEEE] Standards Board approved [IEEE] 802.11-1997 on June 26, 1997 — the first wireless [LAN] MAC and PHY standard for 2.4 GHz radio LANs.",
+      "about": "802.11 defined how laptops, phones, and access points share airtime without cables — CSMA/CA, association, and wired-equivalent privacy hooks. Wi-Fi Alliance certification followed, and developers built mobile web, home [IoT], and coffee-shop coding on cheap radio chips. Office [ethernet] remained wired, but Wi-Fi became the default client access layer.",
       "narrative": {
-        "whyChosen": "802.11 created the interoperable wireless LAN market that every laptop and phone depends on.",
-        "whyImportant": "It untethered computing from desk Ethernet — essential for mobile development and IoT.",
-        "problemSolved": "Portable computers needed LAN speeds without pulling new cable through every wall and ceiling."
+        "whyChosen": "802.11 created the interoperable wireless [LAN] market that every laptop and phone depends on.",
+        "whyImportant": "It untethered computing from desk [ethernet] — essential for mobile development and [IoT].",
+        "problemSolved": "[portable computer]s needed [LAN] speeds without pulling new cable through every wall and ceiling."
       },
       "category": "protocol",
       "tags": [

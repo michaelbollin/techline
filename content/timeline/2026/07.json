@@ -6,12 +6,12 @@
       "date": "2026-07-01",
       "datePrecision": "day",
       "title": "Claude Fable 5 and Mythos 5 access restored",
-      "summary": "Anthropic redeployed Claude Fable 5 and Mythos 5 on July 1, 2026 — nineteen days after a U.S. export-control order forced a global shutdown.",
-      "about": "Washington lifted the foreign-national access restriction that had pulled Fable and Mythos offline for all users on June 12. Anthropic restored [API] and product access with updated compliance controls — closing the first export-control recall arc for a deployed frontier model.",
+      "summary": "[Anthropic] redeployed Claude Fable 5 and Mythos 5 on July 1, 2026 — nineteen days after a U.S. export-control order forced a global shutdown.",
+      "about": "Washington lifted the foreign-national access restriction that had pulled Fable and Mythos offline for all users on June 12. [Anthropic] restored [API] and product access with updated [compliance] controls — closing the first export-control recall arc for a deployed frontier model.",
       "narrative": {
         "whyChosen": "Fable's redeployment completed the first government-ordered frontier model recall and restore cycle.",
         "whyImportant": "It showed export controls could block then unblock commercial AI within weeks, not years.",
-        "problemSolved": "Vetted U.S. and allied customers regained access to models paused over nationality compliance gaps."
+        "problemSolved": "Vetted U.S. and allied customers regained access to models paused over nationality [compliance] gaps."
       },
       "category": "culture",
       "tags": [
@@ -118,11 +118,11 @@
       "date": "2026-07-23",
       "datePrecision": "day",
       "title": "AMD MI400 and Helios announced",
-      "summary": "AMD launched Helios rack-scale AI systems, Instinct MI400 GPUs, and EPYC Venice CPUs at Advancing AI 2026 on July 23 — with OpenAI, Anthropic, and Microsoft as customers.",
-      "about": "Helios packs 72 MI455X GPUs and Venice CPUs in a $5M+ rack competing with NVIDIA NVL72 — AMD's biggest AI infrastructure bet. Anthropic committed to up to 2 gigawatts of MI450 GPUs; OpenAI said it had run GPT workloads on Helios for three months — shifting the AI hardware story beyond NVIDIA Blackwell.",
+      "summary": "AMD launched Helios rack-scale AI systems, Instinct MI400 GPUs, and EPYC Venice CPUs at Advancing AI 2026 on July 23 — with [OpenAI], [Anthropic], and [Microsoft] as customers.",
+      "about": "Helios packs 72 MI455X GPUs and Venice CPUs in a $5M+ rack competing with NVIDIA NVL72 — AMD's biggest AI infrastructure bet. [Anthropic] committed to up to 2 gigawatts of MI450 GPUs; [OpenAI] said it had run [GPT] workloads on Helios for three months — shifting the AI hardware story beyond NVIDIA Blackwell.",
       "narrative": {
         "whyChosen": "Helios gave frontier labs a shipping alternative to NVIDIA rack-scale AI systems.",
-        "whyImportant": "Multi-gigawatt AMD deals diversified who could supply training and inference at scale.",
+        "whyImportant": "Multi-gigawatt AMD deals diversified who could supply training and [inference] at scale.",
         "problemSolved": "AI labs faced single-vendor dependence on NVIDIA for rack-scale [GPU] deployments."
       },
       "category": "hardware",
@@ -173,12 +173,12 @@
       "date": "2026-07-24",
       "datePrecision": "day",
       "title": "Anthropic Claude Opus 5 released",
-      "summary": "Anthropic released Claude Opus 5 on July 24, 2026 — a step-change in deep reasoning and long-horizon agentic tasks at half the price of Claude Fable 5.",
-      "about": "Opus 5 shipped with thinking on by default, 1M-token context, and stronger test-time compute scaling for enterprise agents. It narrowed the gap to Anthropic's top Fable tier while keeping [API] pricing at $5/$25 per million tokens — continuing the rapid Opus cadence that started with Claude 4.",
+      "summary": "[Anthropic] released Claude Opus 5 on July 24, 2026 — a step-change in deep [reasoning] and long-horizon [agentic] tasks at half the price of Claude Fable 5.",
+      "about": "Opus 5 shipped with thinking on by default, 1M-token context, and stronger test-time compute scaling for enterprise agents. It narrowed the gap to [Anthropic]'s top Fable tier while keeping [API] pricing at $5/$25 per million tokens — continuing the rapid Opus cadence that started with Claude 4.",
       "narrative": {
-        "whyChosen": "Opus 5 brought near-Fable intelligence to Anthropic's standard Opus pricing tier.",
+        "whyChosen": "Opus 5 brought near-Fable intelligence to [Anthropic]'s standard Opus pricing tier.",
         "whyImportant": "Default extended thinking and agent scaling raised the bar for production coding agents.",
-        "problemSolved": "Teams needed frontier agent reliability without paying for Anthropic's highest experimental tier."
+        "problemSolved": "[Teams] needed frontier agent reliability without paying for [Anthropic]'s highest experimental tier."
       },
       "category": "software",
       "tags": [

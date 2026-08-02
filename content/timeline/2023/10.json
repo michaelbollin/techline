@@ -50,12 +50,12 @@
       "date": "2023-10-12",
       "datePrecision": "day",
       "title": "Google Pixel 8 released",
-      "summary": "Google began selling the Google Pixel 8 — Tensor G3 with seven years of [OS] updates promised.",
-      "about": "Nexus and Pixel phones were Google's pure-Android reference hardware for developers. Tensor g3 with seven years of os updates promised. AOSP builds and CTS testing often used Pixel devices as the baseline.",
+      "summary": "Google began selling the Google [Pixel] 8 — Tensor G3 with seven years of [OS] updates promised.",
+      "about": "[Nexus] and [Pixel] phones were Google's pure-[Android] reference hardware for developers. Tensor g3 with seven years of os updates promised. [AOSP] builds and CTS testing often used [Pixel] devices as the baseline.",
       "narrative": {
-        "whyChosen": "The Google Pixel 8 was a flagship Google Android reference device.",
-        "whyImportant": "Pixel/Nexus hardware defines the reference Android experience for developers.",
-        "problemSolved": "Android needed first-party reference phones without OEM skin fragmentation."
+        "whyChosen": "The Google [Pixel] 8 was a flagship Google [Android] reference device.",
+        "whyImportant": "[Pixel]/[Nexus] hardware defines the reference [Android] experience for developers.",
+        "problemSolved": "[Android] needed first-party reference phones without [OEM] skin fragmentation."
       },
       "category": "hardware",
       "tags": [

@@ -6,10 +6,10 @@
       "date": "1990-05-22",
       "datePrecision": "day",
       "title": "Windows 3.0 released",
-      "summary": "Microsoft shipped Windows 3.0 on May 22, 1990 — the first widely successful version with protected mode, Program Manager, and Solitaire.",
+      "summary": "[Microsoft] shipped Windows 3.0 on May 22, 1990 — the first widely successful version with protected mode, Program Manager, and Solitaire.",
       "about": "Windows 3.0 sold 10 million copies in two years and made GUIs standard on PCs — Visual Basic, Excel, and early Delphi apps targeted it. Protected mode finally used the 386 properly; developers wrote for one [API] instead of bare [DOS].",
       "narrative": {
-        "whyChosen": "Windows 3.0 was the breakthrough that made Microsoft Windows a mass-market platform.",
+        "whyChosen": "Windows 3.0 was the breakthrough that made [Microsoft] Windows a mass-market platform.",
         "whyImportant": "It shifted [PC] software from [DOS] text mode to graphical applications.",
         "problemSolved": "Earlier Windows versions were too limited; users and developers needed a credible [GUI] [OS]."
       },

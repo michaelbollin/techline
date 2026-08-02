@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "AngularJS 0.9.0 open-sourced",
       "summary": "Miško Hevery open-sourced AngularJS 0.9.0 on October 20, 2010 — two-way data binding and MVC for single-page web apps.",
-      "about": "AngularJS let [HTML] drive the [UI] with directives and `ng-model` two-way binding — no manual DOM updates for forms and lists. It powered early Google products and enterprise SPAs before React and Vue. Developers learned `$scope`, dependency injection, and the digest cycle on countless internal dashboards.",
+      "about": "AngularJS let [HTML] drive the [UI] with directives and `ng-model` two-way binding — no manual DOM updates for forms and lists. It powered early Google products and enterprise SPAs before [React] and Vue. Developers learned `$scope`, dependency injection, and the digest cycle on countless internal dashboards.",
       "narrative": {
         "whyChosen": "AngularJS popularized declarative SPAs and two-way binding in mainstream web development.",
         "whyImportant": "It influenced every later frontend framework's component and data-binding models.",
@@ -59,11 +59,11 @@
       "date": "2010-10-05",
       "datePrecision": "day",
       "title": "NuGet released",
-      "summary": "Microsoft released NuGet 1.0 on October 5, 2010 — a package manager for .NET libraries, originally named NuPack.",
-      "about": "NuGet brought `Install-Package Newtonsoft.Json` to Visual Studio and `dotnet add package` to the [CLI] — centralizing .NET dependencies the way npm did for Node. The nuget.org gallery hosts millions of packages; [SDK]-style projects and CI pipelines assume NuGet restore. It completed the .NET ecosystem's shift from copying DLLs into `lib/` folders.",
+      "summary": "[Microsoft] released NuGet 1.0 on October 5, 2010 — a package manager for .NET libraries, originally named NuPack.",
+      "about": "NuGet brought `Install-Package Newtonsoft.Json` to [Visual Studio] and `dotnet add package` to the [CLI] — centralizing .NET dependencies the way [npm] did for [Node]. The nuget.org gallery hosts millions of packages; [SDK]-style projects and CI pipelines assume NuGet restore. It completed the .NET ecosystem's shift from copying DLLs into `lib/` folders.",
       "narrative": {
         "whyChosen": "NuGet standardized dependency management for the .NET platform.",
-        "whyImportant": "It enabled reusable open-source libraries and reproducible builds across the Microsoft stack.",
+        "whyImportant": "It enabled reusable open-source libraries and reproducible builds across the [Microsoft] stack.",
         "problemSolved": ".NET teams manually vendored binaries with no shared registry or version resolution."
       },
       "category": "software",
@@ -156,12 +156,12 @@
       "date": "2010-10-13",
       "datePrecision": "day",
       "title": "JetBrains PyCharm 1.0 released",
-      "summary": "JetBrains released PyCharm 1.0 on October 13, 2010 — a Python and Django [IDE] with smart completion, refactorings, and test runners.",
-      "about": "PyCharm brought IntelliJ's code intelligence to Python — virtualenv support, Django templates, and [debugger] integration that data scientists and web developers adopted alongside scientific stacks. It joined PhpStorm and WebStorm in JetBrains' language-specific [IDE] family.",
+      "summary": "JetBrains released PyCharm 1.0 on October 13, 2010 — a [Python] and Django [IDE] with smart completion, refactorings, and test runners.",
+      "about": "PyCharm brought IntelliJ's code intelligence to [Python] — virtualenv support, Django templates, and [debugger] integration that data scientists and web developers adopted alongside scientific stacks. It joined PhpStorm and WebStorm in JetBrains' language-specific [IDE] family.",
       "narrative": {
-        "whyChosen": "PyCharm became the reference Python [IDE] for professional teams before VS Code's rise.",
-        "whyImportant": "It showed JetBrains could productize deep language support beyond Java and PHP.",
-        "problemSolved": "Python developers used generic editors or Eclipse PyDev without strong refactoring and Django tooling."
+        "whyChosen": "PyCharm became the reference [Python] [IDE] for professional teams before VS Code's rise.",
+        "whyImportant": "It showed JetBrains could productize deep language support beyond [Java] and PHP.",
+        "problemSolved": "[Python] developers used generic editors or Eclipse PyDev without strong [refactoring] and Django tooling."
       },
       "category": "software",
       "tags": [

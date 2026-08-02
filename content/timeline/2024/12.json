@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "DeepSeek V3 released",
       "summary": "DeepSeek released V3 on December 26, 2024 — a 671B-parameter MoE model with open weights, strong coding results, and training costs far below Western frontier labs.",
-      "about": "DeepSeek V3 preceded R1 and proved Chinese labs could ship competitive open-weight MoE models at scale. Its [MIT]-licensed weights and transparent training details made it a default choice for self-hosted inference — and a wake-up call on AI compute economics before the R1 reasoning shock in January.",
+      "about": "DeepSeek V3 preceded R1 and proved Chinese labs could ship competitive open-weight MoE models at scale. Its [MIT]-licensed weights and transparent training details made it a default choice for self-hosted [inference] — and a wake-up call on AI compute economics before the R1 [reasoning] shock in January.",
       "narrative": {
-        "whyChosen": "DeepSeek V3 showed open MoE models could rival closed APIs before the R1 reasoning wave.",
+        "whyChosen": "DeepSeek V3 showed open MoE models could rival closed APIs before the R1 [reasoning] wave.",
         "whyImportant": "It shifted assumptions about who could afford frontier-scale training and release open weights.",
-        "problemSolved": "Teams wanted strong coding and general models without proprietary [API] lock-in or Western-only vendors."
+        "problemSolved": "[Teams] wanted strong coding and general models without proprietary [API] lock-in or Western-only vendors."
       },
       "category": "software",
       "tags": [
@@ -62,11 +62,11 @@
       "date": "2024-12-11",
       "datePrecision": "day",
       "title": "Google Gemini 2.0 Flash released",
-      "summary": "Google released [Gemini] 2.0 [Flash] on December 11, 2024 — a multimodal agentic model with native image and audio output, tool use, and twice the speed of 1.5 Pro.",
-      "about": "[Gemini] 2.0 [Flash] launched Google's agentic era: multimodal live APIs, Deep Research in [Gemini] Advanced, and native tool calling for Search and code execution. It outperformed 1.5 Pro on key benchmarks at [Flash]-tier latency — keeping Google competitive in the year-end race with OpenAI's o1 and Sora releases.",
+      "summary": "Google released [Gemini] 2.0 [Flash] on December 11, 2024 — a [multimodal] [agentic] model with native image and audio output, tool use, and twice the speed of 1.5 Pro.",
+      "about": "[Gemini] 2.0 [Flash] launched Google's [agentic] era: [multimodal] live APIs, Deep Research in [Gemini] Advanced, and native tool calling for Search and code execution. It outperformed 1.5 Pro on key benchmarks at [Flash]-tier latency — keeping Google competitive in the year-end race with [OpenAI]'s o1 and [Sora] releases.",
       "narrative": {
-        "whyChosen": "[Gemini] 2.0 reframed Google's models around agents, multimodal output, and low latency.",
-        "whyImportant": "Native multimodal generation and tool use became baseline expectations for frontier models.",
+        "whyChosen": "[Gemini] 2.0 reframed Google's models around agents, [multimodal] output, and low latency.",
+        "whyImportant": "Native [multimodal] generation and tool use became baseline expectations for frontier models.",
         "problemSolved": "Developers needed faster [Gemini] models that could act, not just answer, across modalities."
       },
       "category": "software",
@@ -118,12 +118,12 @@
       "date": "2024-12-20",
       "datePrecision": "day",
       "title": "OpenAI o3 reasoning models announced",
-      "summary": "OpenAI announced o3 and o3-mini on December 20, 2024 — successors to o1 with stronger math, coding, and science reasoning, offered first to safety researchers.",
-      "about": "The o3 reveal closed OpenAI's '12 Days of OpenAI' with a direct answer to Google's Gemini 2.0 Flash Thinking. Sam Altman said o3-mini would ship by late January and full o3 shortly after — escalating the [inference]-time reasoning arms race that DeepSeek R1 would later join with open weights.",
+      "summary": "[OpenAI] announced o3 and o3-mini on December 20, 2024 — successors to o1 with stronger math, coding, and science [reasoning], offered first to safety researchers.",
+      "about": "The o3 reveal closed [OpenAI]'s '12 Days of [OpenAI]' with a direct answer to Google's [Gemini] 2.0 [Flash] Thinking. Sam Altman said o3-mini would ship by late January and full o3 shortly after — escalating the [inference]-time [reasoning] arms race that DeepSeek R1 would later join with open weights.",
       "narrative": {
-        "whyChosen": "o3 signaled the next generation of OpenAI reasoning models before public release.",
+        "whyChosen": "o3 signaled the next generation of [OpenAI] [reasoning] models before public release.",
         "whyImportant": "It kept frontier labs competing on test-time compute, not just parameter count.",
-        "problemSolved": "o1-class reasoning needed a successor for harder STEM, coding, and agent benchmarks."
+        "problemSolved": "o1-class [reasoning] needed a successor for harder STEM, coding, and agent benchmarks."
       },
       "category": "software",
       "tags": [
@@ -175,12 +175,12 @@
       "date": "2024-12-05",
       "datePrecision": "day",
       "title": "React 19 released",
-      "summary": "Meta released React 19 on December 5, 2024 — stable Actions, the `use` [API], ref-as-prop, and server components in the mainline library.",
-      "about": "React 19 made async transitions and server actions first-class — simplifying forms, mutations, and streaming without third-party frameworks owning the pattern. It completed years of concurrent features and set the baseline Next.js, Remix, and Expo adopted through 2025.",
+      "summary": "Meta released [React] 19 on December 5, 2024 — stable Actions, the `use` [API], ref-as-prop, and server components in the mainline library.",
+      "about": "[React] 19 made async transitions and server actions first-class — simplifying forms, mutations, and streaming without third-party frameworks owning the pattern. It completed years of concurrent features and set the baseline Next.js, Remix, and Expo adopted through 2025.",
       "narrative": {
-        "whyChosen": "React 19 shipped Actions and server components as stable platform primitives.",
+        "whyChosen": "[React] 19 shipped Actions and server components as stable platform primitives.",
         "whyImportant": "Built-in async state handling reduced framework-specific form and mutation boilerplate.",
-        "problemSolved": "Teams patched around React 18 with libraries for pending states, errors, and optimistic [UI]."
+        "problemSolved": "[Teams] patched around [React] 18 with libraries for pending states, errors, and optimistic [UI]."
       },
       "category": "software",
       "tags": [
@@ -228,8 +228,8 @@
       "date": "2024-12-09",
       "datePrecision": "day",
       "title": "OpenAI Sora released to ChatGPT users",
-      "summary": "OpenAI released [Sora] Turbo to ChatGPT Plus and Pro users on December 9, 2024 — the first public access to its text-to-video model at sora.com.",
-      "about": "[Sora] moved from research preview to a consumer product with a faster Turbo variant — generating short clips from text prompts inside ChatGPT subscriptions. It previewed the video generation race that [Sora] 2 and social features would escalate in 2025.",
+      "summary": "[OpenAI] released [Sora] Turbo to [ChatGPT] Plus and Pro users on December 9, 2024 — the first public access to its text-to-video model at sora.com.",
+      "about": "[Sora] moved from research preview to a consumer product with a faster Turbo variant — generating short clips from text prompts inside [ChatGPT] subscriptions. It previewed the video generation race that [Sora] 2 and social features would escalate in 2025.",
       "narrative": {
         "whyChosen": "[Sora]'s public launch made generative video a paid consumer feature, not a lab demo.",
         "whyImportant": "Text-to-video entered the same subscription bundle as chat and image models.",

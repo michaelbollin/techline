@@ -24,10 +24,10 @@
       "date": "2006-07",
       "datePrecision": "month",
       "title": "Graydon Hoare begins Rust",
-      "summary": "Graydon Hoare began Rust as a personal project in July 2006 (initial commit July 23) — Mozilla sponsorship followed in 2009, turning it into a research language for safe systems programming.",
-      "about": "Hoare designed Rust's ownership model to eliminate memory bugs without [garbage collection]. Mozilla sponsored Rust until community foundations took over — now used in Linux, browsers, and infrastructure.",
+      "summary": "Graydon Hoare began [Rust] as a personal project in July 2006 (initial commit July 23) — [Mozilla] sponsorship followed in 2009, turning it into a research language for safe systems programming.",
+      "about": "Hoare designed [Rust]'s ownership model to eliminate memory bugs without [garbage collection]. [Mozilla] sponsored [Rust] until community foundations took over — now used in Linux, browsers, and infrastructure.",
       "narrative": {
-        "whyChosen": "Rust's ownership model is the most influential memory-safety idea since [garbage collection].",
+        "whyChosen": "[Rust]'s ownership model is the most influential memory-safety idea since [garbage collection].",
         "whyImportant": "It offered a third path between manual C and GC languages.",
         "problemSolved": "Systems programmers needed safety without runtime overhead or GC pauses."
       },

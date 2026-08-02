@@ -6,10 +6,10 @@
       "date": "2007-11-19",
       "datePrecision": "day",
       "title": ".NET 3.5 and C# 3.0 with LINQ released",
-      "summary": "Microsoft shipped .NET Framework 3.5 on November 19, 2007 with C# 3.0 LINQ, lambda expressions, and extension methods.",
-      "about": "LINQ let C# developers query databases, [XML], and in-memory collections with the same syntax: `from x in list where x.Age > 18 select x.Name`. It changed how .NET teams wrote data access — influencing Entity Framework, ORMs, and reactive patterns for a decade.",
+      "summary": "[Microsoft] shipped [.NET Framework] 3.5 on November 19, 2007 with C# 3.0 [LINQ], lambda expressions, and extension methods.",
+      "about": "[LINQ] let C# developers query databases, [XML], and in-memory collections with the same syntax: `from x in list where x.Age > 18 select x.Name`. It changed how .NET teams wrote data access — influencing Entity Framework, ORMs, and reactive patterns for a decade.",
       "narrative": {
-        "whyChosen": "LINQ was the defining language feature of the C# 3 era.",
+        "whyChosen": "[LINQ] was the defining language feature of the C# 3 era.",
         "whyImportant": "Unified query syntax across [SQL], objects, and [XML] was a paradigm shift for .NET.",
         "problemSolved": "C# lacked expressive, composable data queries without verbose loops or stringly-typed [SQL]."
       },
@@ -61,12 +61,12 @@
       "date": "2007-11-16",
       "datePrecision": "day",
       "title": "CouchDB 0.7.0 released",
-      "summary": "Damien Katz released CouchDB 0.7.0 on November 16, 2007 — the first version intended for widespread use with a JSON REST [API].",
-      "about": "CouchDB stores documents as JSON with MapReduce views and multi-master replication — offline-first mobile sync (via PouchDB) and eventual consistency without a rigid schema. Example: a field worker saves `{_id: 'job-42', status: 'done'}` offline; CouchDB syncs when connectivity returns.",
+      "summary": "Damien Katz released CouchDB 0.7.0 on November 16, 2007 — the first version intended for widespread use with a [JSON] [REST] [API].",
+      "about": "CouchDB stores documents as [JSON] with MapReduce views and multi-master replication — offline-first mobile sync (via PouchDB) and eventual consistency without a rigid schema. Example: a field worker saves `{_id: 'job-42', status: 'done'}` offline; CouchDB syncs when connectivity returns.",
       "narrative": {
-        "whyChosen": "CouchDB 0.7.0 stabilized the JSON REST [API] that defined document-database ergonomics.",
+        "whyChosen": "CouchDB 0.7.0 stabilized the [JSON] [REST] [API] that defined document-database ergonomics.",
         "whyImportant": "It proved document stores with [HTTP] interfaces and replication could work in production.",
-        "problemSolved": "Relational schemas were awkward for evolving JSON documents and offline mobile sync."
+        "problemSolved": "Relational schemas were awkward for evolving [JSON] documents and offline mobile sync."
       },
       "category": "software",
       "tags": [
@@ -113,12 +113,12 @@
       "date": "2007-11-05",
       "datePrecision": "day",
       "title": "Android announced",
-      "summary": "Google and the Open Handset Alliance announced Android on November 5, 2007 — an open mobile operating system built on the Linux [kernel].",
-      "about": "Android brought Java/Kotlin apps, Google Play distribution, and OEM fragmentation to billions of phones. Developers learned Activities, Gradle builds, and Material Design; mobile web gave way to native Android SDKs alongside iOS. It became the world's dominant smartphone [OS] within a few years of the first G1.",
+      "summary": "Google and the Open Handset Alliance announced [Android] on November 5, 2007 — an open mobile operating system built on the Linux [kernel].",
+      "about": "[Android] brought [Java]/[Kotlin] apps, Google Play distribution, and [OEM] fragmentation to billions of phones. Developers learned Activities, [Gradle] builds, and Material Design; mobile web gave way to native [Android] SDKs alongside [iOS]. It became the world's dominant smartphone [OS] within a few years of the first G1.",
       "narrative": {
-        "whyChosen": "Android's announcement defined the open alternative to Apple's closed iPhone platform.",
+        "whyChosen": "[Android]'s announcement defined the open alternative to Apple's closed [iPhone] platform.",
         "whyImportant": "It created the second major mobile app ecosystem and shaped how most of the world accesses the internet.",
-        "problemSolved": "Carriers and handset makers lacked a modern, open smartphone [OS] to compete with the iPhone."
+        "problemSolved": "Carriers and handset makers lacked a modern, open smartphone [OS] to compete with the [iPhone]."
       },
       "category": "hardware",
       "tags": [
@@ -177,7 +177,7 @@
       "datePrecision": "month",
       "title": "OLPC Give One Get One program launched",
       "summary": "The One Laptop Per Child Give One Get One program launched on November 12, 2007 — consumer XO-1 units began shipping on December 10, 2007.",
-      "about": "The XO-1 ran Sugar on Linux with a dual-mode display readable in sunlight — designed for mesh networking and classroom use. Developers contributed to open [firmware], Sugar activities, and the Bitfrost security model. Though the million-laptop vision scaled back, OLPC influenced netbooks, ARM education boards, and the Raspberry Pi mission.",
+      "about": "The XO-1 ran Sugar on Linux with a dual-mode display readable in sunlight — designed for mesh networking and classroom use. Developers contributed to open [firmware], Sugar activities, and the Bitfrost security model. Though the million-laptop vision scaled back, [OLPC] influenced netbooks, [ARM] education boards, and the Raspberry Pi mission.",
       "narrative": {
         "whyChosen": "The XO-1 was the flagship $100-laptop project that pushed low-cost computing for education.",
         "whyImportant": "It proved rugged, low-power laptops could be designed for mass deployment outside Western markets.",

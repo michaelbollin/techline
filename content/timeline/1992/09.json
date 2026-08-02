@@ -29,12 +29,12 @@
       "date": "1992-09",
       "datePrecision": "month",
       "title": "Rob Pike and Ken Thompson design UTF-8",
-      "summary": "Rob Pike and Ken Thompson designed UTF-8 in September 1992 at Bell Labs — the variable-width encoding underlying the modern web; Plan 9 converted within days and a formal paper followed later.",
-      "about": "UTF-8 let [ASCII]-compatible systems handle Unicode without breaking existing software. Every [API], database, and browser today assumes UTF-8 as the default string encoding.",
+      "summary": "Rob Pike and Ken Thompson designed [UTF-8] in September 1992 at Bell Labs — the variable-width encoding underlying the modern web; Plan 9 converted within days and a formal paper followed later.",
+      "about": "[UTF-8] let [ASCII]-compatible systems handle [Unicode] without breaking existing software. Every [API], database, and browser today assumes [UTF-8] as the default string encoding.",
       "narrative": {
-        "whyChosen": "UTF-8 is the universal text encoding of the internet.",
+        "whyChosen": "[UTF-8] is the universal text encoding of the internet.",
         "whyImportant": "It enabled global software without abandoning [ASCII] infrastructure.",
-        "problemSolved": "Fixed-width Unicode encodings wasted space and broke Unix text tools."
+        "problemSolved": "Fixed-width [Unicode] encodings wasted space and broke [Unix] text tools."
       },
       "category": "protocol",
       "tags": [
@@ -63,8 +63,8 @@
       "date": "1992-09",
       "datePrecision": "month",
       "title": "ODBC 1.0 released",
-      "summary": "Microsoft and partners shipped the Open Database Connectivity (ODBC) [SDK] in September 1992 — a standard C [API] for talking to [SQL] databases.",
-      "about": "ODBC let one Windows app query Oracle, [SQL] Server, and Access through the same driver interface — the pattern JDBC followed for Java and every ORM still abstracts today. It made client/server database apps portable across vendors.",
+      "summary": "[Microsoft] and partners shipped the [open data]base Connectivity (ODBC) [SDK] in September 1992 — a standard C [API] for talking to [SQL] databases.",
+      "about": "ODBC let one Windows app query Oracle, [SQL] Server, and Access through the same driver interface — the pattern JDBC followed for [Java] and every ORM still abstracts today. It made client/server database apps portable across vendors.",
       "narrative": {
         "whyChosen": "ODBC standardized how applications connect to [relational database]s.",
         "whyImportant": "Driver-based database access became the default integration model for decades.",

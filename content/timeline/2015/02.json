@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "Raspberry Pi 2 released",
       "summary": "The Raspberry Pi Foundation released the Pi 2 in February 2015 — a quad-core ARMv7 board with 1 GB [RAM] for $35.",
-      "about": "The Pi 2 ran Windows 10 IoT Core and full Ubuntu — six times faster than the Model B+ for home servers, retro gaming, and IoT gateways. Makers upgraded Python and Node projects without rewriting GPIO code. It bridged the gap between the original Pi and the Pi 3's built-in Wi-Fi.",
+      "about": "The Pi 2 ran Windows 10 [IoT] Core and full Ubuntu — six times faster than the Model B+ for home servers, retro gaming, and [IoT] gateways. Makers upgraded [Python] and [Node] projects without rewriting GPIO code. It bridged the gap between the original Pi and the Pi 3's built-in Wi-Fi.",
       "narrative": {
         "whyChosen": "The Pi 2 was the first quad-core Raspberry Pi, making it viable as a lightweight server.",
         "whyImportant": "It kept the $35 price while delivering enough [CPU] for multi-threaded maker projects.",
@@ -50,11 +50,11 @@
       "datePrecision": "day",
       "title": "gRPC open-sourced",
       "summary": "Google open-sourced gRPC on February 26, 2015 — a high-performance RPC framework using [HTTP]/2 and Protocol Buffers.",
-      "about": "gRPC generates client and server stubs from `.proto` files — microservices call each other with typed contracts, streaming, and load balancing built in. Kubernetes, etcd, and cloud APIs adopted it beside REST and GraphQL. Example: a Go service exposes `GetUser` over [HTTP]/2; a Python client calls it with generated stubs.",
+      "about": "gRPC generates client and server stubs from `.proto` files — [microservices] call each other with typed contracts, streaming, and load balancing built in. [Kubernetes], etcd, and cloud APIs adopted it beside [REST] and GraphQL. Example: a [Go] service exposes `GetUser` over [HTTP]/2; a [Python] client calls it with generated stubs.",
       "narrative": {
-        "whyChosen": "gRPC became the default RPC layer for cloud-native microservices after Google's release.",
+        "whyChosen": "gRPC became the default RPC layer for cloud-native [microservices] after Google's release.",
         "whyImportant": "It standardized efficient service-to-service communication with schema-first contracts.",
-        "problemSolved": "REST JSON over [HTTP]/1.1 was verbose and slow for internal microservice meshes."
+        "problemSolved": "[REST] [JSON] over [HTTP]/1.1 was verbose and slow for internal microservice meshes."
       },
       "category": "software",
       "tags": [

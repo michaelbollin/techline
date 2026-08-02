@@ -72,8 +72,8 @@
       "date": "1984-01",
       "datePrecision": "month",
       "title": "2600: The Hacker Quarterly first published",
-      "summary": "Emmanuel Goldstein launched 2600: The Hacker Quarterly in January 1984 — a magazine documenting phone phreaking, BBS culture, and early computer intrusion techniques.",
-      "about": "2600 became the longest-running print voice of the hacker underground — meetups, HOPE conferences, and legal advocacy alongside exploit write-ups. It bridged phone phreaks and [PC] crackers, preserving techniques that would later surface in Phrack, DEF CON, and modern bug-bounty culture.",
+      "summary": "Emmanuel Goldstein launched 2600: The Hacker Quarterly in January 1984 — a magazine documenting phone [phreaking], BBS culture, and early computer intrusion techniques.",
+      "about": "2600 became the longest-running print voice of the hacker underground — meetups, HOPE conferences, and legal advocacy alongside exploit write-ups. It bridged phone phreaks and [PC] crackers, preserving techniques that would later surface in Phrack, [DEF CON], and modern bug-bounty culture.",
       "narrative": {
         "whyChosen": "2600 is the enduring print institution of American hacker culture.",
         "whyImportant": "It legitimized security research as a community practice outside vendor silos.",

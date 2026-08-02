@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Joomla 1.0 released",
       "summary": "The [Joomla] project released [Joomla] 1.0 on September 17, 2005 — a community fork of Mambo after a governance dispute with Miro International.",
-      "about": "[Joomla] is a PHP [CMS] for community sites, intranets, and small business portals — articles, menus, modules, and ACL roles out of the box. Born from the Mambo fork, it competed with WordPress and [Drupal] for the mid-market [CMS] space and won Packt's best open-source [CMS] award in 2006 and 2007.",
+      "about": "[Joomla] is a PHP [CMS] for community sites, intranets, and small business portals — articles, menus, modules, and ACL roles out of the box. Born from the Mambo fork, it competed with [WordPress] and [Drupal] for the mid-market [CMS] space and won Packt's best open-source [CMS] award in 2006 and 2007.",
       "narrative": {
         "whyChosen": "[Joomla] showed how open-source governance fights could spawn enduring alternatives.",
         "whyImportant": "It kept a large PHP [CMS] ecosystem alive when Mambo's foundation structure alienated core developers.",
@@ -55,10 +55,10 @@
       "datePrecision": "day",
       "title": "Salesforce AppExchange unveiled",
       "summary": "Salesforce unveiled AppExchange in preview at Dreamforce in September 2005 — a marketplace for third-party apps; press coverage peaked around September 19 with Winter '06 general availability.",
-      "about": "AppExchange let ISVs publish Salesforce integrations — billing, marketing [automation], industry verticals — that customers install with clicks instead of custom code. It pioneered the [SaaS] app marketplace model later copied by AWS, Shopify, and Slack.",
+      "about": "AppExchange let ISVs publish Salesforce integrations — billing, marketing [automation], industry verticals — that customers install with clicks instead of custom code. It pioneered the [SaaS] app marketplace model later copied by [AWS], Shopify, and [Slack].",
       "narrative": {
         "whyChosen": "AppExchange turned Salesforce from a single product into a platform ecosystem.",
-        "whyImportant": "It proved enterprise [SaaS] could support third-party marketplaces like consumer app stores.",
+        "whyImportant": "It proved enterprise [SaaS] could support third-party marketplaces like consumer [App Store]s.",
         "problemSolved": "CRM customers needed specialized features Salesforce would never build in-house."
       },
       "category": "software",
@@ -108,10 +108,10 @@
       "datePrecision": "month",
       "title": "Arduino boards first shipped",
       "summary": "The Arduino team began shipping the first production run of 200 boards in September 2005 — an open-source microcontroller platform for hobbyists and makers.",
-      "about": "Arduino boards run sketches in C-like Wiring on AVR microcontrollers — blink LEDs, read sensors, drive motors with a [USB] cable and no [OS]. Makers, educators, and IoT prototypes used it before Raspberry Pi brought full Linux to the same audience. The IDE and shield ecosystem made embedded programming accessible without a EE degree.",
+      "about": "Arduino boards run sketches in C-like Wiring on AVR microcontrollers — blink LEDs, read sensors, drive motors with a [USB] cable and no [OS]. Makers, educators, and [IoT] prototypes used it before Raspberry Pi brought full Linux to the same audience. The [IDE] and shield ecosystem made embedded programming accessible without a EE degree.",
       "narrative": {
         "whyChosen": "Arduino democratized microcontroller programming for non-specialists.",
-        "whyImportant": "It launched the modern maker movement and influenced IoT prototyping worldwide.",
+        "whyImportant": "It launched the modern maker movement and influenced [IoT] prototyping worldwide.",
         "problemSolved": "Embedded development required expensive tools and proprietary toolchains out of reach for hobbyists."
       },
       "category": "hardware",

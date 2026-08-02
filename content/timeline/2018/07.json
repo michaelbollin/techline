@@ -60,7 +60,7 @@
       "datePrecision": "day",
       "title": "BlackBerry Key2 released",
       "summary": "BlackBerry released the BlackBerry Key2 — [Android]-powered QWERTY phone from TCL — final BB keyboard flagship.",
-      "about": "BlackBerry dominated enterprise mobile before iPhone and [Android]. [Android]-powered qwerty phone from tcl — final bb keyboard flagship. BES-connected apps and push email defined mobile workflows for years.",
+      "about": "BlackBerry dominated enterprise mobile before [iPhone] and [Android]. [Android]-powered qwerty phone from tcl — final bb keyboard flagship. BES-connected apps and push email defined mobile workflows for years.",
       "narrative": {
         "whyChosen": "The BlackBerry Key2 was a key BlackBerry hardware milestone.",
         "whyImportant": "BlackBerry hardware set expectations for mobile email and messaging security.",
@@ -109,12 +109,12 @@
       "date": "2018-07-28",
       "datePrecision": "day",
       "title": "Apache Kafka 2.0 released",
-      "summary": "The Apache Kafka project released version 2.0 on July 28, 2018 — adding OAuth2 authentication, prefixed ACLs, and improved Kafka Streams windowed aggregations.",
-      "about": "Kafka 2.0 matured the event-streaming platform [microservices] rely on — producers, consumers, and Kafka Streams for real-time pipelines. It cemented Kafka as the default log backbone between services.",
+      "summary": "The Apache [Kafka] project released version 2.0 on July 28, 2018 — adding OAuth2 authentication, prefixed ACLs, and improved [Kafka] Streams windowed aggregations.",
+      "about": "[Kafka] 2.0 matured the event-streaming platform [microservices] rely on — producers, consumers, and [Kafka] Streams for real-time pipelines. It cemented [Kafka] as the default log backbone between services.",
       "narrative": {
-        "whyChosen": "Kafka 2.0 marked the platform's transition to enterprise-grade streaming infrastructure.",
-        "whyImportant": "It expanded Kafka beyond a message queue into a full event streaming system.",
-        "problemSolved": "Teams needed durable, replayable event logs between distributed services."
+        "whyChosen": "[Kafka] 2.0 marked the platform's transition to enterprise-grade streaming infrastructure.",
+        "whyImportant": "It expanded [Kafka] beyond a message queue into a full event streaming system.",
+        "problemSolved": "[Teams] needed durable, replayable event logs between distributed services."
       },
       "category": "software",
       "tags": [

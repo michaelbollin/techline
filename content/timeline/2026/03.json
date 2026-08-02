@@ -6,10 +6,10 @@
       "date": "2026-03-05",
       "datePrecision": "day",
       "title": "OpenAI GPT-5.4 released",
-      "summary": "OpenAI released GPT-5.4 on March 5, 2026 — a frontier reasoning model with native coding, computer use, and GPT-5.3-Codex capabilities in the mainline stack.",
-      "about": "GPT-5.4 unified OpenAI's coding and reasoning lines under one model name in ChatGPT and Codex. It led benchmarks on OSWorld, BrowseComp, and GPQA Diamond while simplifying the model picker for developers who had juggled GPT-5.x, o-series, and Codex variants.",
+      "summary": "[OpenAI] released [GPT]-5.4 on March 5, 2026 — a frontier [reasoning] model with native coding, computer use, and [GPT]-5.3-Codex capabilities in the mainline stack.",
+      "about": "[GPT]-5.4 unified [OpenAI]'s coding and [reasoning] lines under one model name in [ChatGPT] and Codex. It led benchmarks on OSWorld, BrowseComp, and GPQA Diamond while simplifying the model picker for developers who had juggled [GPT]-5.x, o-series, and Codex variants.",
       "narrative": {
-        "whyChosen": "GPT-5.4 merged Codex-grade coding into OpenAI's default reasoning model.",
+        "whyChosen": "[GPT]-5.4 merged Codex-grade coding into [OpenAI]'s default [reasoning] model.",
         "whyImportant": "One mainline model reduced fragmentation between chat, agents, and [IDE] tooling.",
         "problemSolved": "Developers needed a single frontier model for coding agents without picking separate SKUs."
       },
@@ -63,12 +63,12 @@
       "date": "2026-03-11",
       "datePrecision": "day",
       "title": "iPhone 17e released",
-      "summary": "Apple began selling the iPhone 17e on March 11, 2026 — a $599 budget iPhone with A19, [MagSafe], and 256GB base storage.",
-      "about": "The 17e added [MagSafe] and the C1X modem to Apple's affordable tier while doubling base storage at the same $599 price as iPhone 16e. It gave developers a new mid-cycle hardware baseline with Apple Intelligence on the A19 chip — between annual fall flagships.",
+      "summary": "Apple began selling the [iPhone] 17e on March 11, 2026 — a $599 budget [iPhone] with A19, [MagSafe], and 256GB base storage.",
+      "about": "The 17e added [MagSafe] and the C1X modem to Apple's affordable tier while doubling base storage at the same $599 price as [iPhone] 16e. It gave developers a new mid-cycle hardware baseline with Apple Intelligence on the A19 chip — between annual fall flagships.",
       "narrative": {
-        "whyChosen": "iPhone 17e brought [MagSafe] and doubled storage to Apple's budget line.",
-        "whyImportant": "Mid-cycle e-models set the floor for iOS feature assumptions between fall launches.",
-        "problemSolved": "Budget iPhone buyers lacked [MagSafe] and enough storage for on-device AI workloads."
+        "whyChosen": "[iPhone] 17e brought [MagSafe] and doubled storage to Apple's budget line.",
+        "whyImportant": "Mid-cycle e-models set the floor for [iOS] feature assumptions between fall launches.",
+        "problemSolved": "Budget [iPhone] buyers lacked [MagSafe] and enough storage for on-device AI workloads."
       },
       "category": "hardware",
       "tags": [

@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Django open-sourced",
       "summary": "Jacob Kaplan-Moss made the first public commit to the Django repository on July 13, 2005 — open-sourcing the Lawrence Journal-World web framework.",
-      "about": "Django is Python's batteries-included web framework — ORM, admin panel, [URL] routing, templates, and auth out of the box. Powers Instagram's early stack, Pinterest, Mozilla sites, and countless startups. The admin interface alone let internal tools ship in hours instead of weeks.",
+      "about": "Django is [Python]'s batteries-included web framework — ORM, admin panel, [URL] routing, templates, and auth out of the box. Powers Instagram's early stack, Pinterest, [Mozilla] sites, and countless startups. The admin interface alone let internal tools ship in hours instead of weeks.",
       "narrative": {
-        "whyChosen": "Django became the reference Python web framework and proved \"framework included\" could match Rails for productivity.",
-        "whyImportant": "It spread MTV architecture, reusable apps, and DRY principles across the Python ecosystem.",
-        "problemSolved": "Newsroom developers rebuilt the same CMS patterns for every site; they needed one framework to extract from Lawrence.com."
+        "whyChosen": "Django became the reference [Python] web framework and proved \"framework included\" could match Rails for productivity.",
+        "whyImportant": "It spread MTV architecture, reusable apps, and [DRY] principles across the [Python] ecosystem.",
+        "problemSolved": "Newsroom developers rebuilt the same [CMS] patterns for every site; they needed one framework to extract from Lawrence.com."
       },
       "category": "software",
       "tags": [

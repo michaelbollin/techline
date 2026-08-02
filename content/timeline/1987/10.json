@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Andy Grove named Intel CEO",
       "summary": "Andy Grove became Intel CEO on October 18, 1987 when Gordon Moore stepped down — leading Intel through the [PC] boom.",
-      "about": "Grove's 'Only the Paranoid Survive' culture pushed Intel's x86 dominance and manufacturing discipline. He turned Intel into the world's largest chipmaker during the Windows/[PC] era.",
+      "about": "Grove's 'Only the Paranoid Survive' culture pushed Intel's [x86] dominance and manufacturing discipline. He turned Intel into the world's largest chipmaker during the Windows/[PC] era.",
       "narrative": {
         "whyChosen": "Grove defined Intel's operational excellence during the [microprocessor] wars.",
-        "whyImportant": "His leadership secured x86 as the standard [PC] and server architecture.",
+        "whyImportant": "His leadership secured [x86] as the standard [PC] and server architecture.",
         "problemSolved": "Intel needed aggressive execution to win the 386/486 battles against AMD and Cyrix."
       },
       "category": "company",

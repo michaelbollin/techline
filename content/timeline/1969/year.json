@@ -6,11 +6,11 @@
       "date": "1969",
       "datePrecision": "year",
       "title": "Unix operating system created",
-      "summary": "Ken Thompson and Dennis Ritchie began developing Unix at Bell Labs in 1969 — a small, multi-user operating system on a spare PDP-7 after AT&T withdrew from the [Multics] project.",
-      "about": "Unix combined a simple [kernel], hierarchical file system, and pipe-based tools into an environment designed for programmers. Thompson and Ritchie rewrote it in C on the PDP-11, then AT&T licensed it to universities — spawning [BSD], Linux, macOS, and Android across every server and smartphone today.",
+      "summary": "Ken Thompson and Dennis Ritchie began developing [Unix] at Bell Labs in 1969 — a small, multi-user operating system on a spare PDP-7 after AT&T withdrew from the [Multics] project.",
+      "about": "[Unix] combined a simple [kernel], hierarchical file system, and pipe-based tools into an environment designed for programmers. Thompson and Ritchie rewrote it in C on the PDP-11, then AT&T licensed it to universities — spawning [BSD], Linux, [macOS], and [Android] across every server and smartphone today.",
       "narrative": {
-        "whyChosen": "Unix defined the portable, multi-user [OS] model that still runs most of the internet.",
-        "whyImportant": "Files, pipes, and C on Unix became the blueprint for modern operating systems.",
+        "whyChosen": "[Unix] defined the portable, multi-user [OS] model that still runs most of the internet.",
+        "whyImportant": "Files, pipes, and C on [Unix] became the blueprint for modern operating systems.",
         "problemSolved": "[Multics] was too complex; Bell Labs needed a small, flexible [OS] for daily programming work."
       },
       "category": "software",
@@ -61,12 +61,12 @@
       "date": "1969",
       "datePrecision": "year",
       "title": "Unix language before C created",
-      "summary": "Around 1969, Ken Thompson created the B language at Bell Labs — a minimal stepping stone between BCPL and C for early Unix development.",
-      "about": "B was a small language for writing Unix [kernel] code and utilities on memory-limited minicomputers. Thompson built its compiler after finding FORTRAN too bulky for the hardware. Dennis Ritchie then added data types and turned B into C — the language that still underpins operating systems worldwide.",
+      "summary": "Around 1969, Ken Thompson created the B language at Bell Labs — a minimal stepping stone between BCPL and C for early [Unix] development.",
+      "about": "B was a small language for writing [Unix] [kernel] code and utilities on memory-limited minicomputers. Thompson built its compiler after finding FORTRAN too bulky for the hardware. Dennis Ritchie then added data types and turned B into C — the language that still underpins operating systems worldwide.",
       "narrative": {
-        "whyChosen": "Unix needed a lightweight language for systems work; B was the experiment that proved the approach before C added proper types.",
+        "whyChosen": "[Unix] needed a lightweight language for systems work; B was the experiment that proved the approach before C added proper types.",
         "whyImportant": "B established the BCPL → B → C lineage that defines how operating systems and device drivers are still written.",
-        "problemSolved": "The PDP-7 had very little memory, and existing languages were too large to compile or run on the new Unix hardware."
+        "problemSolved": "The PDP-7 had very little memory, and existing languages were too large to compile or run on the new [Unix] hardware."
       },
       "category": "software",
       "tags": [

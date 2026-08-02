@@ -6,7 +6,7 @@
       "date": "1999-03-18",
       "datePrecision": "day",
       "title": "XMLHttpRequest introduced in IE5",
-      "summary": "Microsoft shipped [XMLHttpRequest] with [Internet Explorer] 5 on March 18, 1999 — enabling JavaScript to fetch data without reloading the page.",
+      "summary": "[Microsoft] shipped [XMLHttpRequest] with [Internet Explorer] 5 on March 18, 1999 — enabling JavaScript to fetch data without reloading the page.",
       "about": "XHR powered Gmail, Google Maps, and the AJAX revolution — `fetch()` and axios still solve the same problem. It turned browsers from document viewers into application runtimes that could talk to APIs asynchronously.",
       "narrative": {
         "whyChosen": "[XMLHttpRequest] enabled the first wave of rich web applications.",
@@ -62,7 +62,7 @@
       "datePrecision": "day",
       "title": "MQTT invented",
       "summary": "Andy Stanford-Clark and Arlen Nipper created MQTT v1 on March 26, 1999 — a lightweight publish/subscribe protocol for unreliable satellite links.",
-      "about": "MQTT sends small messages between devices with minimal overhead — ideal for [IoT] sensors, industrial SCADA, and mobile networks. Brokers route topics like `factory/line1/temperature`; clients subscribe and publish with at-most-once or guaranteed delivery. AWS [IoT] Core, HiveMQ, and millions of embedded devices use it today.",
+      "about": "MQTT sends small messages between devices with minimal overhead — ideal for [IoT] sensors, industrial SCADA, and mobile networks. Brokers route topics like `factory/line1/temperature`; clients subscribe and publish with at-most-once or guaranteed delivery. [AWS] [IoT] Core, HiveMQ, and millions of embedded devices use it today.",
       "narrative": {
         "whyChosen": "MQTT solved messaging over expensive, high-latency satellite links for oil-pipeline monitoring.",
         "whyImportant": "It became the dominant wire protocol for [IoT] and constrained devices worldwide.",
@@ -111,12 +111,12 @@
       "date": "1999-03-26",
       "datePrecision": "day",
       "title": "Melissa macro virus spreads via email",
-      "summary": "The Melissa virus began spreading on March 26, 1999 — a Word macro worm that emailed itself to the first 50 contacts in Microsoft Outlook address books.",
-      "about": "Melissa overloaded corporate Exchange servers worldwide within days — the first mass-mailer worm to exploit email as its primary vector. It forced [IT] departments to disable Office macros by default and preview the phishing era: social engineering plus automation beats exotic exploits.",
+      "summary": "The Melissa virus began spreading on March 26, 1999 — a Word macro [worm] that emailed itself to the first 50 contacts in [Microsoft] Outlook address books.",
+      "about": "Melissa overloaded corporate Exchange servers worldwide within days — the first mass-mailer [worm] to exploit email as its primary vector. It forced [IT] departments to disable Office macros by default and preview the [phishing] era: social engineering plus [automation] beats exotic exploits.",
       "narrative": {
         "whyChosen": "Melissa was the wake-up call that email could weaponize address books at scale.",
         "whyImportant": "It made macro security and mail filtering mandatory in enterprise [IT].",
-        "problemSolved": "Nothing was solved initially — it showed Office macros plus Outlook were a self-propagating malware platform."
+        "problemSolved": "Nothing was solved initially — it showed Office macros plus Outlook were a self-propagating [malware] platform."
       },
       "category": "culture",
       "tags": [

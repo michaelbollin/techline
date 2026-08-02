@@ -6,10 +6,10 @@
       "date": "1999-05-15",
       "datePrecision": "day",
       "title": "VMware 1.0 released",
-      "summary": "VMware shipped version 1.0 on May 15, 1999 for Linux — desktop software that ran multiple x86 operating systems in [virtual machine]s (the Windows port followed in November 1999).",
-      "about": "VMware let developers test on Linux, Windows, and [BSD] simultaneously on one [PC] — no rebooting, no spare hardware. It pioneered x86 binary translation and later hardware-assisted virtualization. DevOps teams later built on the same [hypervisor] lineage for ESXi and cloud VMs; Docker containers addressed a different layer, but VMware defined how backend devs thought about isolation.",
+      "summary": "VMware shipped version 1.0 on May 15, 1999 for Linux — desktop software that ran multiple [x86] operating systems in [virtual machine]s (the Windows port followed in November 1999).",
+      "about": "VMware let developers test on Linux, Windows, and [BSD] simultaneously on one [PC] — no rebooting, no spare hardware. It pioneered [x86] binary translation and later hardware-assisted virtualization. [DevOps] teams later built on the same [hypervisor] lineage for ESXi and cloud VMs; [Docker] containers addressed a different layer, but VMware defined how backend devs thought about isolation.",
       "narrative": {
-        "whyChosen": "VMware [Workstation] brought practical x86 virtualization to developer desktops.",
+        "whyChosen": "VMware [Workstation] brought practical [x86] virtualization to developer desktops.",
         "whyImportant": "It made cross-platform testing and server simulation routine before cloud VMs were ubiquitous.",
         "problemSolved": "Developers needed to run multiple [OS] environments without maintaining separate physical machines."
       },
@@ -55,7 +55,7 @@
       "datePrecision": "day",
       "title": "OpenCart first released",
       "summary": "Christopher G. Mann published the first public OpenCart release on May 11, 1999 — a [Perl]-based open-source shopping cart.",
-      "about": "OpenCart later moved to PHP and became a popular self-hosted e-commerce platform — lightweight compared to Magento, with extensions for payments and shipping. It competes with WooCommerce and PrestaShop for small-to-mid merchants who want to own their store code.",
+      "about": "OpenCart later moved to PHP and became a popular self-hosted e-commerce platform — lightweight compared to [Magento], with extensions for payments and shipping. It competes with WooCommerce and [PrestaShop] for small-to-mid merchants who want to own their store code.",
       "narrative": {
         "whyChosen": "OpenCart is one of the longest-running open-source e-commerce projects.",
         "whyImportant": "It gave merchants a free alternative to hosted storefronts before Shopify dominated SMB retail.",

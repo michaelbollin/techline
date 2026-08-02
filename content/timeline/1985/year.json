@@ -7,7 +7,7 @@
       "datePrecision": "year",
       "title": "MIPS architecture launched",
       "summary": "MIPS Computer Systems launched the MIPS I architecture in 1985 — one of the first commercial [RISC] designs; the R2000 chipset followed in May 1986.",
-      "about": "The R2000 powered early MIPS workstations and [embedded system]s with a clean load-store [RISC] design — influencing academic computer architecture and commercial Unix boxes from DEC and SGI. MIPS variants later appeared in PlayStation, routers, and embedded devices. [RISC] principles from MIPS shaped ARM and every modern mobile [CPU].",
+      "about": "The R2000 powered early MIPS workstations and [embedded system]s with a clean load-store [RISC] design — influencing academic computer architecture and commercial [Unix] boxes from DEC and SGI. MIPS variants later appeared in PlayStation, routers, and embedded devices. [RISC] principles from MIPS shaped [ARM] and every modern mobile [CPU].",
       "narrative": {
         "whyChosen": "The MIPS R2000 was a landmark commercial [RISC] processor from Stanford research lineage.",
         "whyImportant": "It proved [RISC] designs could outperform complex [CISC] chips in workstations and embedded markets.",
@@ -80,7 +80,7 @@
       "datePrecision": "year",
       "title": "Zero-knowledge proofs published",
       "summary": "Shafi Goldwasser and Silvio Micali published zero-knowledge interactive proof systems in 1985 — foundational work for modern cryptographic protocols.",
-      "about": "Zero-knowledge proofs let one party prove a statement is true without revealing why — underpinning zk-SNARKs, [blockchain] privacy, and authentication protocols. Goldwasser and Micali won the Turing Award partly for this line of research.",
+      "about": "Zero-knowledge proofs let one party prove a statement is true without revealing why — underpinning zk-SNARKs, [blockchain] privacy, and authentication protocols. Goldwasser and Micali won the [Turing Award] partly for this line of research.",
       "narrative": {
         "whyChosen": "Zero-knowledge proofs became a core primitive in modern cryptography and blockchains.",
         "whyImportant": "They formalized how to prove knowledge without leaking secrets.",

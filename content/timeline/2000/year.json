@@ -6,10 +6,10 @@
       "date": "2000",
       "datePrecision": "year",
       "title": "REST architectural style defined",
-      "summary": "Roy Fielding's 2000 doctoral dissertation defined Representational State Transfer (REST) — an architectural style for scalable network APIs using [HTTP] resources and hypermedia.",
-      "about": "REST is not a library — it is a design approach: expose resources as URLs, use [HTTP] verbs (GET, POST, PUT, DELETE), keep servers stateless, and cache responses. Most 'REST APIs' today are [HTTP]+JSON without hypermedia, but the dissertation still names the constraints teams aim for. Fielding co-authored [HTTP]/1.1 while writing it.",
+      "summary": "Roy Fielding's 2000 doctoral dissertation defined Representational State Transfer ([REST]) — an architectural style for scalable network APIs using [HTTP] resources and hypermedia.",
+      "about": "[REST] is not a library — it is a design approach: expose resources as URLs, use [HTTP] verbs (GET, POST, PUT, DELETE), keep servers stateless, and cache responses. Most '[REST] APIs' today are [HTTP]+[JSON] without hypermedia, but the dissertation still names the constraints teams aim for. Fielding co-authored [HTTP]/1.1 while writing it.",
       "narrative": {
-        "whyChosen": "REST gave a vocabulary for why the web's architecture scales — and influenced every public [HTTP] [API] since.",
+        "whyChosen": "[REST] gave a vocabulary for why the web's architecture scales — and influenced every public [HTTP] [API] since.",
         "whyImportant": "It separated resource design from RPC-style endpoints and became the default mental model for web services.",
         "problemSolved": "Ad-hoc [HTTP] APIs lacked shared constraints; developers needed principles for cacheable, layered, scalable systems."
       },
@@ -110,11 +110,11 @@
       "datePrecision": "year",
       "title": "JetBrains founded",
       "summary": "JetBrains was founded in 2000 in Prague — starting as IntelliJ s.r.o. before shipping IntelliJ IDEA and growing into a family of language-specific IDEs.",
-      "about": "JetBrains built the [IDE] stack many developers live in: IntelliJ IDEA for Java, then RubyMine, PhpStorm, WebStorm, PyCharm, Rider, and the Kotlin language itself. Its IntelliJ Platform also powers Android Studio and Google's language tooling partnerships.",
+      "about": "JetBrains built the [IDE] stack many developers live in: IntelliJ IDEA for [Java], then RubyMine, PhpStorm, WebStorm, PyCharm, Rider, and the [Kotlin] language itself. Its IntelliJ Platform also powers [Android] Studio and Google's language tooling partnerships.",
       "narrative": {
-        "whyChosen": "JetBrains became the dominant independent [IDE] vendor outside Microsoft and Apple.",
-        "whyImportant": "It proved deep static analysis and refactoring could be a sustainable product business.",
-        "problemSolved": "Java and polyglot teams needed smarter tooling than free Eclipse plugins could deliver."
+        "whyChosen": "JetBrains became the dominant independent [IDE] vendor outside [Microsoft] and Apple.",
+        "whyImportant": "It proved deep static analysis and [refactoring] could be a sustainable product business.",
+        "problemSolved": "[Java] and polyglot teams needed smarter tooling than free Eclipse plugins could deliver."
       },
       "category": "software",
       "tags": [

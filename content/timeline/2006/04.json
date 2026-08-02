@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Google Calendar launched",
       "summary": "Google launched Google Calendar on April 13, 2006 — a web calendar with sharing, invitations, and iCal feeds.",
-      "about": "Google Calendar showed AJAX calendars could replace desktop Outlook for many teams — and its [API] later enabled scheduling bots and SaaS integrations. It was part of Google's 2006 push to put office workflows in the browser.",
+      "about": "Google Calendar showed AJAX calendars could replace desktop Outlook for many teams — and its [API] later enabled scheduling bots and [SaaS] integrations. It was part of Google's 2006 push to put office workflows in the browser.",
       "narrative": {
         "whyChosen": "Google Calendar brought shared scheduling to the web at scale.",
         "whyImportant": "It proved calendaring APIs and feeds belonged in cloud platforms.",
-        "problemSolved": "Teams juggled desktop calendar files without easy web sharing."
+        "problemSolved": "[Teams] juggled desktop calendar files without easy web sharing."
       },
       "category": "software",
       "tags": [

@@ -6,12 +6,12 @@
       "date": "2018-10-26",
       "datePrecision": "day",
       "title": "iPhone XR released",
-      "summary": "Apple released the iPhone XR on October 26, 2018 — a lower-cost LCD model with [Face ID] and the A12 chip.",
-      "about": "The XR brought notch-era design to a mass price point with a single camera and LCD display. Developers treated it as the volume iPhone for testing [Face ID] layouts without assuming [OLED] or telephoto hardware.",
+      "summary": "Apple released the [iPhone] XR on October 26, 2018 — a lower-cost LCD model with [Face ID] and the A12 chip.",
+      "about": "The XR brought notch-era design to a mass price point with a single camera and LCD display. Developers treated it as the volume [iPhone] for testing [Face ID] layouts without assuming [OLED] or telephoto hardware.",
       "narrative": {
         "whyChosen": "The XR spread [Face ID] and notch layouts to Apple's best-selling price tier.",
-        "whyImportant": "A single affordable [Face ID] phone simplified the mainstream iOS test matrix.",
-        "problemSolved": "Notch-era iOS design was limited to expensive [OLED] models."
+        "whyImportant": "A single affordable [Face ID] phone simplified the mainstream [iOS] test matrix.",
+        "problemSolved": "Notch-era [iOS] design was limited to expensive [OLED] models."
       },
       "category": "hardware",
       "tags": [

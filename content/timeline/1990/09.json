@@ -7,10 +7,10 @@
       "datePrecision": "month",
       "title": "NeXTstation released",
       "summary": "NeXT began shipping the NeXTstation in September 1990 — a more affordable Motorola 68040 [workstation] running NeXTSTEP.",
-      "about": "The NeXTstation dropped the cube's magneto-optical drive for a conventional SCSI [hard disk] and color display — putting NeXTSTEP in more university labs and startups. Developers still used [Objective-C] and Interface Builder; Tim Berners-Lee's [WWW] work continued on NeXT hardware. Apple later acquired NeXT and ported NeXTSTEP to become macOS.",
+      "about": "The NeXTstation dropped the cube's magneto-optical drive for a conventional SCSI [hard disk] and color display — putting NeXTSTEP in more university labs and startups. Developers still used [Objective-C] and Interface Builder; Tim Berners-Lee's [WWW] work continued on NeXT hardware. Apple later acquired NeXT and ported NeXTSTEP to become [macOS].",
       "narrative": {
         "whyChosen": "The NeXTstation made NeXTSTEP workstations accessible beyond the original cube's price point.",
-        "whyImportant": "It spread the development environment that became the foundation of modern macOS and iOS tooling.",
+        "whyImportant": "It spread the development environment that became the foundation of modern [macOS] and [iOS] tooling.",
         "problemSolved": "The original NeXT Computer was too expensive for many research groups that wanted NeXTSTEP."
       },
       "category": "hardware",

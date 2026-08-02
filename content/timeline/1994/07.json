@@ -6,12 +6,12 @@
       "date": "1994-07-08",
       "datePrecision": "day",
       "title": "Lua 1.1 first public release",
-      "summary": "Luiz Henrique de Figueiredo announced the first public Lua release on Usenet on July 8, 1994 — an embeddable extension language from PUC-Rio.",
-      "about": "Lua is a tiny embeddable scripting language — game engines (World of Warcraft, Roblox, Love2D), Redis scripting, nginx/OpenResty, and hardware [firmware] use it for configuration and logic without restarting the host app. Lightweight tables replace arrays and objects; one Lua state fits in kilobytes of [RAM].",
+      "summary": "Luiz Henrique de Figueiredo announced the first public [Lua] release on Usenet on July 8, 1994 — an embeddable extension language from PUC-Rio.",
+      "about": "[Lua] is a tiny embeddable scripting language — game engines (World of Warcraft, Roblox, Love2D), [Redis] scripting, [nginx]/OpenResty, and hardware [firmware] use it for configuration and logic without restarting the host app. Lightweight tables replace arrays and objects; one [Lua] state fits in kilobytes of [RAM].",
       "narrative": {
-        "whyChosen": "Lua became the default embeddable language when apps needed scripting without shipping Python or JavaScript.",
+        "whyChosen": "[Lua] became the default embeddable language when apps needed scripting without shipping [Python] or JavaScript.",
         "whyImportant": "Its minimal design and C [API] influenced how game engines and infrastructure tools expose scriptable behavior.",
-        "problemSolved": "Brazilian Petrobras projects needed a common configuration language smaller and simpler than Tcl or Perl."
+        "problemSolved": "Brazilian Petrobras projects needed a common configuration language smaller and simpler than Tcl or [Perl]."
       },
       "category": "software",
       "tags": [

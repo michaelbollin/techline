@@ -6,8 +6,8 @@
       "date": "2010-02-08",
       "datePrecision": "day",
       "title": "Elasticsearch released",
-      "summary": "Shay Banon open-sourced Elasticsearch on February 8, 2010 — a distributed search and analytics engine with a JSON [HTTP] [API].",
-      "about": "Elasticsearch indexes documents in near real time and queries them with full-text search, filters, and aggregations. The ELK stack (Elasticsearch, Logstash, Kibana) became the default for log analytics and observability. Example: index millions of JSON log lines and search by `@timestamp`, status code, and free text in milliseconds.",
+      "summary": "Shay Banon open-sourced Elasticsearch on February 8, 2010 — a distributed search and analytics engine with a [JSON] [HTTP] [API].",
+      "about": "Elasticsearch indexes documents in near real time and queries them with full-text search, filters, and aggregations. The ELK stack (Elasticsearch, Logstash, Kibana) became the default for log analytics and observability. Example: index millions of [JSON] log lines and search by `@timestamp`, status code, and free text in milliseconds.",
       "narrative": {
         "whyChosen": "Elasticsearch made Lucene-scale search accessible over [HTTP] with horizontal sharding.",
         "whyImportant": "It powered log analytics, site search, and security SIEM pipelines across the industry.",

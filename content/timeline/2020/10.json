@@ -113,10 +113,10 @@
       "date": "2020-10-23",
       "datePrecision": "day",
       "title": "iPhone 12 released",
-      "summary": "Apple began selling the iPhone 12 on October 23, 2020 — 5G, flat-edge design, and MagSafe accessories.",
-      "about": "5G connectivity changed how developers thought about mobile bandwidth; MagSafe created a new accessory and charging [API] ecosystem. The flat design returned to a form factor reminiscent of iPhone 4/5 industrial design.",
+      "summary": "Apple began selling the [iPhone] 12 on October 23, 2020 — 5G, flat-edge design, and [MagSafe] accessories.",
+      "about": "5G connectivity changed how developers thought about mobile bandwidth; [MagSafe] created a new accessory and charging [API] ecosystem. The flat design returned to a form factor reminiscent of [iPhone] 4/5 industrial design.",
       "narrative": {
-        "whyChosen": "The iPhone 12 brought 5G and MagSafe to the mainstream iPhone line.",
+        "whyChosen": "The [iPhone] 12 brought 5G and [MagSafe] to the mainstream [iPhone] line.",
         "whyImportant": "5G and magnetic accessory attachment opened new mobile hardware interaction patterns.",
         "problemSolved": "iPhones lacked 5G radios; wireless charging alignment was finicky without magnets."
       },
@@ -171,7 +171,7 @@
       "datePrecision": "day",
       "title": "Starlink opens public beta",
       "summary": "SpaceX invited early subscribers to its \"Better Than Nothing Beta\" on October 26, 2020 — the first public consumer satellite broadband service using a LEO constellation.",
-      "about": "Starlink ships a user terminal and Wi-Fi router that talks to hundreds of low-Earth-orbit satellites — targeting rural and mobile users where fiber and LTE are weak. Developers testing offline-tolerant apps, high-latency links, and global field deployments gained a new real-world network profile beyond terrestrial ISPs.",
+      "about": "Starlink ships a user terminal and Wi-Fi router that talks to hundreds of low-Earth-orbit satellites — targeting rural and mobile users where fiber and [LTE] are weak. Developers testing offline-tolerant apps, high-latency links, and global field deployments gained a new real-world network profile beyond terrestrial ISPs.",
       "narrative": {
         "whyChosen": "Starlink's public beta made consumer satellite internet a shipping product, not a defense-only niche.",
         "whyImportant": "It added a third access architecture (LEO satellite) beside cable, DSL, and terrestrial cellular.",

@@ -6,11 +6,11 @@
       "date": "2025-09-19",
       "datePrecision": "day",
       "title": "iPhone 17 released",
-      "summary": "Apple began selling the iPhone 17, iPhone Air, and iPhone 17 Pro line on September 19, 2025 — 120Hz [ProMotion] on the base model, iOS 26, and doubled base storage.",
-      "about": "The iPhone 17 dropped the Plus size for an ultra-thin iPhone Air and brought [ProMotion] to the standard tier. iOS 26's Liquid Glass design and Apple Intelligence updates gave developers new system APIs — continuing the annual hardware cadence that sets the mobile baseline after iPhone 16.",
+      "summary": "Apple began selling the [iPhone] 17, [iPhone] Air, and [iPhone] 17 Pro line on September 19, 2025 — 120Hz [ProMotion] on the base model, [iOS] 26, and doubled base storage.",
+      "about": "The [iPhone] 17 dropped the Plus size for an ultra-thin [iPhone] Air and brought [ProMotion] to the standard tier. [iOS] 26's Liquid Glass design and Apple Intelligence updates gave developers new system APIs — continuing the annual hardware cadence that sets the mobile baseline after [iPhone] 16.",
       "narrative": {
-        "whyChosen": "The iPhone 17 made high-refresh displays and 256GB base storage the new mainstream iOS floor.",
-        "whyImportant": "iOS 26 and the Air form factor reshaped what apps can assume about screen size and AI integration.",
+        "whyChosen": "The [iPhone] 17 made high-refresh displays and 256GB base storage the new mainstream [iOS] floor.",
+        "whyImportant": "[iOS] 26 and the Air form factor reshaped what apps can assume about screen size and AI integration.",
         "problemSolved": "Base iPhones lagged Pro displays and storage while Apple pushed on-device AI features."
       },
       "category": "hardware",
@@ -62,10 +62,10 @@
       "date": "2025-09-30",
       "datePrecision": "day",
       "title": "OpenAI Sora 2 released",
-      "summary": "OpenAI released [Sora] 2 on September 30, 2025 — a flagship video and audio generation model with a social iOS app and synced-audio clips.",
-      "about": "[Sora] 2 added realistic physics, character cameos, and remix features in a TikTok-style feed — OpenAI's push to make generative video a consumer product, not just a research demo. It arrived months after Google's Veo competition and set up the [Sora] app's short-lived run before shutdown in 2026.",
+      "summary": "[OpenAI] released [Sora] 2 on September 30, 2025 — a flagship video and audio generation model with a social [iOS] app and synced-audio clips.",
+      "about": "[Sora] 2 added realistic physics, character cameos, and remix features in a TikTok-style feed — [OpenAI]'s push to make generative video a consumer product, not just a research demo. It arrived months after Google's Veo competition and set up the [Sora] app's short-lived run before shutdown in 2026.",
       "narrative": {
-        "whyChosen": "[Sora] 2 turned OpenAI's video research into a consumer social product.",
+        "whyChosen": "[Sora] 2 turned [OpenAI]'s video research into a consumer social product.",
         "whyImportant": "Synced audio and character features made AI video shareable at phone scale.",
         "problemSolved": "Text-to-video tools lacked social discovery and consistent physics for mainstream use."
       },

@@ -57,10 +57,10 @@
       "datePrecision": "day",
       "title": "T-Mobile G1 released",
       "summary": "T-Mobile began selling the HTC Dream (T-Mobile G1) on October 22, 2008 — the first commercially available [Android] smartphone.",
-      "about": "The G1 shipped with [Android] 1.0, a slide-out keyboard, and the [Android] Market for apps. It proved Google's open handset strategy could reach retail shelves — paving the way for Samsung, [Pixel], and billions of [Android] devices. Developers got a second native mobile platform beside iOS.",
+      "about": "The G1 shipped with [Android] 1.0, a slide-out keyboard, and the [Android] Market for apps. It proved Google's open handset strategy could reach retail shelves — paving the way for Samsung, [Pixel], and billions of [Android] devices. Developers got a second native mobile platform beside [iOS].",
       "narrative": {
         "whyChosen": "The G1 was the first phone to bring [Android] from announcement to consumers.",
-        "whyImportant": "It validated [Android] as a real competitor to the iPhone and launched the dual-platform mobile era.",
+        "whyImportant": "It validated [Android] as a real competitor to the [iPhone] and launched the dual-platform mobile era.",
         "problemSolved": "[Android] needed a shipping reference device to attract developers and carrier partners."
       },
       "category": "hardware",
@@ -114,11 +114,11 @@
       "date": "2008-10-31",
       "datePrecision": "day",
       "title": "Bitcoin whitepaper published",
-      "summary": "Satoshi Nakamoto published \"Bitcoin: A [Peer-to-Peer] Electronic Cash System\" on October 31, 2008 — proposing a decentralized ledger secured by proof-of-work.",
-      "about": "The paper described blocks chained by hashes, a difficulty-adjusted mining race, and incentives for honest nodes — without a central bank. Bitcoin launched open-source software in January 2009 and spawned blockchains, smart contracts, and a decade of debate about energy, regulation, and trustless systems.",
+      "summary": "Satoshi Nakamoto published \"[Bitcoin]: A [Peer-to-Peer] Electronic Cash System\" on October 31, 2008 — proposing a decentralized ledger secured by [proof-of-work].",
+      "about": "The paper described blocks chained by hashes, a difficulty-adjusted mining race, and incentives for honest nodes — without a central bank. [Bitcoin] launched open-source software in January 2009 and spawned blockchains, [smart contract]s, and a decade of debate about energy, [regulation], and trustless systems.",
       "narrative": {
-        "whyChosen": "The Bitcoin whitepaper introduced blockchain consensus to mainstream technical discourse.",
-        "whyImportant": "It inspired cryptocurrencies, DeFi experiments, and new models of distributed trust.",
+        "whyChosen": "The [Bitcoin] whitepaper introduced [blockchain] consensus to mainstream technical discourse.",
+        "whyImportant": "It inspired cryptocurrencies, [DeFi] experiments, and new models of distributed trust.",
         "problemSolved": "Digital cash needed a way to prevent double-spending without a trusted intermediary."
       },
       "category": "protocol",

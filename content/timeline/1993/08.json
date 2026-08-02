@@ -51,10 +51,10 @@
       "date": "1993-08",
       "datePrecision": "month",
       "title": "Apple Newton MessagePad released",
-      "summary": "Apple began selling the Newton MessagePad in August 1993 — a PDA with handwriting recognition and an ARM610 processor.",
-      "about": "The Newton was Apple's first ARM-based product — the ARM6 core in the MessagePad predated the Archimedes' success in phones and Macs by decades. Developers wrote NewtonScript apps; the handwriting [UI] inspired ridicule and admiration. Though commercially mixed, it proved Apple would bet on ARM and mobile form factors long before the iPhone.",
+      "summary": "Apple began selling the Newton MessagePad in August 1993 — a [PDA] with handwriting recognition and an ARM610 processor.",
+      "about": "The Newton was Apple's first [ARM]-based product — the ARM6 core in the MessagePad predated the Archimedes' success in phones and Macs by decades. Developers wrote NewtonScript apps; the handwriting [UI] inspired ridicule and admiration. Though commercially mixed, it proved Apple would bet on [ARM] and mobile form factors long before the [iPhone].",
       "narrative": {
-        "whyChosen": "The Newton was Apple's first PDA and among the first products using ARM processors.",
+        "whyChosen": "The Newton was Apple's first [PDA] and among the first products using [ARM] processors.",
         "whyImportant": "It connected Apple's mobile ambitions to the [ARM architecture] that powers iPhones and M-series Macs today.",
         "problemSolved": "Mobile professionals needed a pocket computer for notes, contacts, and scheduling beyond paper planners."
       },

@@ -75,12 +75,12 @@
       "date": "2011-01-11",
       "datePrecision": "day",
       "title": "Kohsuke Kawaguchi renames Hudson to Jenkins",
-      "summary": "Kohsuke Kawaguchi led the Hudson community to rename the project Jenkins on January 11, 2011 — breaking from Oracle's trademark control after the Sun acquisition.",
-      "about": "The Hudson→Jenkins fork preserved the world's most widely used CI server as community-governed software. Jenkins became the default build [automation] tool in Java shops and later across polyglot pipelines.",
+      "summary": "Kohsuke Kawaguchi led the [Hudson] community to rename the project Jenkins on January 11, 2011 — breaking from Oracle's trademark control after the [Sun] [acquisition].",
+      "about": "The [Hudson]→Jenkins fork preserved the world's most widely used CI server as community-governed software. Jenkins became the default build [automation] tool in [Java] shops and later across polyglot pipelines.",
       "narrative": {
         "whyChosen": "The Jenkins rename was a landmark open-source governance fight with Oracle.",
         "whyImportant": "It kept continuous integration tooling under community control when trademark disputes threatened the project.",
-        "problemSolved": "Oracle's Hudson trademark claims put the project's name and infrastructure at corporate risk."
+        "problemSolved": "Oracle's [Hudson] trademark claims put the project's name and infrastructure at corporate risk."
       },
       "category": "culture",
       "tags": [
@@ -110,12 +110,12 @@
       "date": "2011-01-05",
       "datePrecision": "day",
       "title": "Drupal 7 released",
-      "summary": "Drupal 7.0 shipped on January 5, 2011 — a major usability and fields overhaul that powered government and enterprise sites for a decade.",
-      "about": "Drupal 7 added Fields in core, better image handling, and a refined admin [UI] — the version most large Drupal shops ran until Drupal 8/9 migrations. It paired with Views, Pathauto, and Commerce modules for complex content architectures.",
+      "summary": "[Drupal] 7.0 shipped on January 5, 2011 — a major usability and fields overhaul that powered government and enterprise sites for a decade.",
+      "about": "[Drupal] 7 added Fields in core, better image handling, and a refined admin [UI] — the version most large [Drupal] shops ran until [Drupal] 8/9 migrations. It paired with Views, Pathauto, and Commerce modules for complex content architectures.",
       "narrative": {
-        "whyChosen": "Drupal 7 was the stable peak of classic Drupal before the Symfony rewrite.",
-        "whyImportant": "Fields [API] and UX improvements made Drupal viable for large institutional deployments.",
-        "problemSolved": "Drupal 6 required contrib modules for basic content modeling that sites expected in core."
+        "whyChosen": "[Drupal] 7 was the stable peak of classic [Drupal] before the [Symfony] rewrite.",
+        "whyImportant": "Fields [API] and UX improvements made [Drupal] viable for large institutional deployments.",
+        "problemSolved": "[Drupal] 6 required contrib modules for basic content modeling that sites expected in core."
       },
       "category": "software",
       "tags": [

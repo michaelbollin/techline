@@ -68,10 +68,10 @@
       "date": "2017-09-19",
       "datePrecision": "day",
       "title": "Safari 11 released",
-      "summary": "Apple released Safari 11 on September 19, 2017 with macOS High Sierra — adding Intelligent Tracking Prevention, autoplay blocking, and [WebRTC] improvements.",
-      "about": "Safari 11's Intelligent Tracking Prevention (ITP) limited cross-site cookies — reshaping ad tech and analytics. Autoplay blocking and reader mode refinements kept Safari focused on privacy and battery life as Chrome grew on desktop.",
+      "summary": "Apple released [Safari] 11 on September 19, 2017 with [macOS] High Sierra — adding Intelligent Tracking Prevention, autoplay blocking, and [WebRTC] improvements.",
+      "about": "[Safari] 11's Intelligent Tracking Prevention (ITP) limited cross-site cookies — reshaping ad tech and analytics. Autoplay blocking and reader mode refinements kept [Safari] focused on privacy and battery life as [Chrome] grew on desktop.",
       "narrative": {
-        "whyChosen": "Safari 11's ITP was a watershed moment for web privacy and ad tracking.",
+        "whyChosen": "[Safari] 11's ITP was a watershed moment for web privacy and ad tracking.",
         "whyImportant": "Browser-level tracking prevention forced the ad industry to adapt measurement strategies.",
         "problemSolved": "Third-party cookies enabled pervasive cross-site tracking without user awareness."
       },
@@ -124,10 +124,10 @@
       "date": "2017-09-22",
       "datePrecision": "day",
       "title": "iPhone 8 released",
-      "summary": "Apple began selling the iPhone 8 on September 22, 2017 — adding wireless charging and the A11 Bionic chip in a familiar design.",
-      "about": "The iPhone 8 refined the classic home-button iPhone while Apple bet the design future on iPhone X. Developers still targeted iPhone 8 class hardware as the conservative baseline through 2018.",
+      "summary": "Apple began selling the [iPhone] 8 on September 22, 2017 — adding wireless charging and the A11 Bionic chip in a familiar design.",
+      "about": "The [iPhone] 8 refined the classic home-button [iPhone] while Apple bet the design future on [iPhone] X. Developers still targeted [iPhone] 8 class hardware as the conservative baseline through 2018.",
       "narrative": {
-        "whyChosen": "The iPhone 8 was the last iteration of the classic Touch ID iPhone form.",
+        "whyChosen": "The [iPhone] 8 was the last iteration of the classic Touch ID [iPhone] form.",
         "whyImportant": "Wireless charging and A11 performance kept a familiar target for [iOS] developers during the X transition.",
         "problemSolved": "Users wanted wireless charging without giving up the established home-button UX."
       },
@@ -183,11 +183,11 @@
       "datePrecision": "day",
       "title": "Equifax discloses massive data breach",
       "summary": "Equifax announced on September 7, 2017 that attackers had stolen personal data on 147 million Americans — names, Social Security numbers, and birth dates — via an unpatched Apache Struts flaw.",
-      "about": "The breach exposed credit-bureau data that cannot be rotated like passwords — fueling identity-theft monitoring services and [GDPR]-style breach-notification debates in the U.S. Developers learned that unpatched Java web frameworks on internet-facing apps could leak half the country's PII; Equifax's CISO and CEO resigned amid congressional hearings.",
+      "about": "The breach exposed credit-bureau data that cannot be rotated like passwords — fueling identity-theft monitoring services and [GDPR]-style breach-notification debates in the U.S. Developers learned that unpatched [Java] web frameworks on internet-facing apps could leak half the country's PII; Equifax's CISO and CEO resigned amid congressional hearings.",
       "narrative": {
         "whyChosen": "Equifax was the breach that put 147 million SSNs on the dark web.",
         "whyImportant": "It made framework patching and breach disclosure timelines board-level issues.",
-        "problemSolved": "Nothing for consumers — attackers exploited a known Struts CVE Equifax had failed to patch."
+        "problemSolved": "Nothing for consumers — attackers exploited a known Struts [CVE] Equifax had failed to patch."
       },
       "category": "culture",
       "tags": [

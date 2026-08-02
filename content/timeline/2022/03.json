@@ -6,12 +6,12 @@
       "date": "2022-03-15",
       "datePrecision": "day",
       "title": "Go 1.18 added generics",
-      "summary": "Go 1.18 released on March 15, 2022 with type parameters — the language's most requested feature after a decade of interfaces-only abstraction.",
-      "about": "Generics let Go developers write `func Map[T any](s []T, f func(T) T)` without code generation hacks. Kubernetes controllers, observability tools, and cloud SDKs adopted generic containers and result types while keeping Go's simple syntax.",
+      "summary": "[Go] 1.18 released on March 15, 2022 with type parameters — the language's most requested feature after a decade of interfaces-only abstraction.",
+      "about": "[generics] let [Go] developers write `func Map[T any](s []T, f func(T) T)` without code generation hacks. [Kubernetes] controllers, observability tools, and cloud SDKs adopted generic containers and result types while keeping [Go]'s simple syntax.",
       "narrative": {
-        "whyChosen": "Generics closed the biggest gap between Go and other statically typed languages.",
+        "whyChosen": "[generics] closed the biggest gap between [Go] and other statically typed languages.",
         "whyImportant": "Libraries could share algorithms without `interface{}` casts or external code generators.",
-        "problemSolved": "Teams duplicated slice/map helpers or used unsafe reflection because Go lacked parametric polymorphism."
+        "problemSolved": "[Teams] duplicated slice/map helpers or used unsafe reflection because [Go] lacked parametric polymorphism."
       },
       "category": "software",
       "tags": [

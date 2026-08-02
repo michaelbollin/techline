@@ -25,11 +25,11 @@
       "datePrecision": "day",
       "title": "Linus Torvalds announces Linux",
       "summary": "Linus Torvalds posted to comp.os.minix on August 25, 1991 announcing a free operating system [kernel] — the birth of Linux.",
-      "about": "Linux started as a hobby [kernel] for 386 PCs and grew into the [OS] behind Android, cloud servers, and supercomputers. Torvalds' open development model on Usenet and later Git became the template for community-driven systems software.",
+      "about": "Linux started as a hobby [kernel] for 386 PCs and grew into the [OS] behind [Android], cloud servers, and supercomputers. Torvalds' open development model on Usenet and later [Git] became the template for community-driven systems software.",
       "narrative": {
         "whyChosen": "Linux is the most widely deployed operating system [kernel] in history.",
-        "whyImportant": "It proved open-source [OS] development could outpace proprietary Unix.",
-        "problemSolved": "MINIX and commercial Unix were limited for hackers who wanted a freely modifiable [OS]."
+        "whyImportant": "It proved open-source [OS] development could outpace proprietary [Unix].",
+        "problemSolved": "MINIX and commercial [Unix] were limited for hackers who wanted a freely modifiable [OS]."
       },
       "category": "software",
       "tags": [

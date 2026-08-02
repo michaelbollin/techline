@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Memcached released",
       "summary": "Brad Fitzpatrick added Memcached to LiveJournal on May 22, 2003 — a distributed in-memory cache that offloads hot reads from databases.",
-      "about": "Memcached stores key-value blobs in [RAM] across a pool of servers — Facebook, Wikipedia, and early web giants used it to survive traffic spikes. Teams cache [SQL] query results, session data, and [HTML] fragments with `get`/`set` and TTL expiry. Redis later added richer data types; Memcached stayed the simple, fast cache layer.",
+      "about": "Memcached stores key-value blobs in [RAM] across a pool of servers — [Facebook], [Wikipedia], and early web giants used it to survive traffic spikes. [Teams] cache [SQL] query results, session data, and [HTML] fragments with `get`/`set` and TTL expiry. [Redis] later added richer data types; Memcached stayed the simple, fast cache layer.",
       "narrative": {
         "whyChosen": "Memcached pioneered the 'cache in front of the database' pattern for high-traffic web apps.",
         "whyImportant": "It made horizontal scaling of read-heavy sites practical before cloud managed caches existed.",
@@ -56,10 +56,10 @@
       "date": "2003-05-27",
       "datePrecision": "day",
       "title": "WordPress released",
-      "summary": "Matt Mullenweg and Mike Little released WordPress 0.7 on May 27, 2003 — a fork of b2/cafelog that became the world's most-used CMS.",
-      "about": "WordPress powers blogs, marketing sites, WooCommerce stores, and headless CMS backends — themes, plugins, and a familiar admin [UI] on any PHP host. It democratized publishing for non-developers while staying hackable for agencies. Today it runs a large share of the public web.",
+      "summary": "Matt Mullenweg and Mike Little released [WordPress] 0.7 on May 27, 2003 — a fork of b2/cafelog that became the world's most-used [CMS].",
+      "about": "[WordPress] powers blogs, marketing sites, WooCommerce stores, and headless [CMS] backends — themes, plugins, and a familiar admin [UI] on any PHP host. It democratized publishing for non-developers while staying hackable for agencies. Today it runs a large share of the public web.",
       "narrative": {
-        "whyChosen": "WordPress became the default way to publish on the web without building a CMS from scratch.",
+        "whyChosen": "[WordPress] became the default way to publish on the web without building a [CMS] from scratch.",
         "whyImportant": "It proved open-source PHP could dominate consumer publishing and plugin ecosystems at global scale.",
         "problemSolved": "Blogging tools like b2 were stagnating; developers needed a maintained, extensible fork with a modern admin."
       },
@@ -117,12 +117,12 @@
       "date": "2003-05",
       "datePrecision": "month",
       "title": "CSS Zen Garden launched",
-      "summary": "Dave Shea launched the CSS Zen Garden in May 2003 — a collaborative gallery where designers restyle one [HTML] page using only CSS.",
-      "about": "The Zen Garden answered skeptics who still treated CSS as a novelty: hundreds of designers submitted radically different skins of the same markup, proving presentation could be fully separated from structure. It became a teaching reference and helped convince agencies to abandon table-based layouts.",
+      "summary": "Dave Shea launched the [CSS] Zen Garden in May 2003 — a collaborative gallery where designers restyle one [HTML] page using only [CSS].",
+      "about": "The Zen Garden answered skeptics who still treated [CSS] as a novelty: hundreds of designers submitted radically different skins of the same markup, proving presentation could be fully separated from structure. It became a teaching reference and helped convince agencies to abandon table-based layouts.",
       "narrative": {
-        "whyChosen": "The Zen Garden showed what CSS could do better than any specification document.",
+        "whyChosen": "The Zen Garden showed what [CSS] could do better than any specification document.",
         "whyImportant": "It accelerated the shift from table layouts and font tags to standards-based design.",
-        "problemSolved": "Many teams still doubted CSS could match the visual richness of table hacks and spacer GIFs."
+        "problemSolved": "Many teams still doubted [CSS] could match the visual richness of table hacks and spacer GIFs."
       },
       "category": "culture",
       "tags": [

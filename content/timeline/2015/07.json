@@ -6,12 +6,12 @@
       "date": "2015-07-01",
       "datePrecision": "day",
       "title": "GraphQL technical preview open-sourced",
-      "summary": "Facebook open-sourced GraphQL on July 1, 2015 — a query language for APIs with a draft spec and GraphQL.js reference implementation.",
-      "about": "GraphQL lets clients request exactly the fields they need in one round trip — no over-fetching from REST endpoints. Used with React ([Relay], Apollo), mobile apps, and microservice gateways. Example: fetch a user's name and last three posts in one typed query instead of chaining REST calls.",
+      "summary": "[Facebook] open-sourced GraphQL on July 1, 2015 — a query language for APIs with a draft spec and GraphQL.js reference implementation.",
+      "about": "GraphQL lets clients request exactly the fields they need in one round trip — no over-fetching from [REST] endpoints. Used with [React] ([Relay], Apollo), mobile apps, and microservice gateways. Example: fetch a user's name and last three posts in one typed query instead of chaining [REST] calls.",
       "narrative": {
         "whyChosen": "GraphQL changed how frontends fetch data and influenced [API] design across the industry.",
-        "whyImportant": "It decoupled client data needs from fixed REST resource shapes — critical for mobile and varied clients.",
-        "problemSolved": "Facebook's mobile apps needed flexible, efficient data loading; rigid REST endpoints caused over-fetching and version churn."
+        "whyImportant": "It decoupled client data needs from fixed [REST] resource shapes — critical for mobile and varied clients.",
+        "problemSolved": "[Facebook]'s mobile apps needed flexible, efficient data loading; rigid [REST] endpoints caused over-fetching and version churn."
       },
       "category": "software",
       "tags": [
@@ -61,12 +61,12 @@
       "date": "2015-07-29",
       "datePrecision": "day",
       "title": "Microsoft Edge released with Windows 10",
-      "summary": "Microsoft shipped the Edge browser on July 29, 2015 with Windows 10 — replacing Internet Explorer as the default with a new rendering engine (EdgeHTML).",
-      "about": "Edge was Microsoft's clean break from IE's legacy: faster updates, modern standards, and integration with Cortana and Windows 10. It never fully displaced Chrome, but it ended the era of IE as default and set up Microsoft's later move to Chromium.",
+      "summary": "[Microsoft] shipped the [Edge] browser on July 29, 2015 with Windows 10 — replacing [Internet Explorer] as the default with a new rendering engine (EdgeHTML).",
+      "about": "[Edge] was [Microsoft]'s clean break from [IE]'s legacy: faster updates, modern standards, and integration with Cortana and Windows 10. It never fully displaced [Chrome], but it ended the era of [IE] as default and set up [Microsoft]'s later move to [Chromium].",
       "narrative": {
-        "whyChosen": "Edge marked Microsoft's attempt to leave Trident and IE compatibility baggage behind.",
+        "whyChosen": "[Edge] marked [Microsoft]'s attempt to leave Trident and [IE] compatibility baggage behind.",
         "whyImportant": "It showed even the Windows default browser could be rebuilt from scratch for the modern web.",
-        "problemSolved": "IE's reputation and [technical debt] made it untenable as the face of Windows browsing."
+        "problemSolved": "[IE]'s reputation and [technical debt] made it untenable as the face of Windows browsing."
       },
       "category": "software",
       "tags": [
@@ -115,12 +115,12 @@
       "date": "2015-07-20",
       "datePrecision": "day",
       "title": "C# 6 and Roslyn compiler released",
-      "summary": "Visual Studio 2015 shipped on July 20, 2015 with C# 6 and the open-source Roslyn compiler platform — bringing string interpolation, null-conditional operators, and analyzers.",
+      "summary": "[Visual Studio] 2015 shipped on July 20, 2015 with C# 6 and the open-source Roslyn compiler platform — bringing string interpolation, null-conditional operators, and analyzers.",
       "about": "Roslyn exposed C# as an [API]: IDEs, linters, and code generators could parse and rewrite syntax trees. C# 6's `$\"Hello {name}\"` and `obj?.Method()` reduced boilerplate. The compiler-as-a-library model influenced .NET tooling for a decade.",
       "narrative": {
         "whyChosen": "Roslyn turned the C# compiler into extensible infrastructure for the whole .NET ecosystem.",
         "whyImportant": "Open-sourcing the compiler enabled analyzers, source generators, and cross-platform builds.",
-        "problemSolved": "Closed compilers blocked third-party refactoring tools and language experimentation."
+        "problemSolved": "Closed compilers blocked third-party [refactoring] tools and language experimentation."
       },
       "category": "software",
       "tags": [
@@ -170,11 +170,11 @@
       "date": "2015-07-30",
       "datePrecision": "day",
       "title": "Ethereum mainnet launches",
-      "summary": "Ethereum's Frontier mainnet went live on July 30, 2015 — opening a public blockchain where anyone could deploy smart contracts with ether gas.",
-      "about": "Developers compiled Solidity to EVM [bytecode] and deployed with `geth` or Mist wallets. The ICO boom, Uniswap, and NFT standards all ran on this chain. Proof-of-work mining secured the network until the 2022 Merge moved consensus to proof-of-stake.",
+      "summary": "Ethereum's Frontier mainnet went live on July 30, 2015 — opening a public [blockchain] where anyone could deploy [smart contract]s with ether gas.",
+      "about": "Developers compiled Solidity to EVM [bytecode] and deployed with `geth` or Mist wallets. The ICO boom, [Uniswap], and [NFT] standards all ran on this chain. [proof-of-work] mining secured the network until the 2022 Merge moved consensus to proof-of-stake.",
       "narrative": {
         "whyChosen": "Frontier turned Ethereum from a crowdsale promise into a live smart-contract platform.",
-        "whyImportant": "It launched the dominant programmable blockchain for DeFi and Web3 apps.",
+        "whyImportant": "It launched the dominant programmable [blockchain] for [DeFi] and Web3 apps.",
         "problemSolved": "Builders needed a production network to test unstoppable programs with real economic stakes."
       },
       "category": "protocol",

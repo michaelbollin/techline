@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Shopify launched",
       "summary": "Tobi Lütke launched Shopify on June 2, 2006 — moving the Snowdevil snowboard store platform out of beta as a hosted e-commerce product.",
-      "about": "Shopify lets merchants sell online without building checkout, inventory, and payments from scratch — themes, apps, and Liquid templates on a hosted Rails stack. It grew from a snowboard shop side project into the default SMB e-commerce platform, powering DTC brands and competing with Magento.",
+      "about": "Shopify lets merchants sell online without building checkout, inventory, and payments from scratch — themes, apps, and Liquid templates on a hosted Rails stack. It grew from a snowboard shop side project into the default SMB e-commerce platform, powering DTC brands and competing with [Magento].",
       "narrative": {
         "whyChosen": "Shopify made launching an online store as easy as signing up for [SaaS] instead of hiring an agency.",
-        "whyImportant": "It proved Ruby on Rails could scale hosted commerce and inspired the app-store model for merchant extensions.",
+        "whyImportant": "It proved [Ruby] on Rails could scale hosted commerce and inspired the app-store model for merchant extensions.",
         "problemSolved": "Small retailers hated brittle custom stores and expensive enterprise e-commerce suites."
       },
       "category": "software",

@@ -6,8 +6,8 @@
       "date": "2017-01-21",
       "datePrecision": "day",
       "title": "PyTorch public beta released",
-      "summary": "Facebook AI Research released PyTorch public beta (v0.1.6) on January 21, 2017 — a Python-first [deep learning] framework with dynamic computation graphs.",
-      "about": "PyTorch's eager execution (`tensor.backward()`) felt like NumPy with [GPU] acceleration — researchers debugged models interactively instead of rebuilding static graphs. It overtook TensorFlow in academic papers and powered transformers, diffusion models, and Meta's Llama training stack.",
+      "summary": "[Facebook] AI Research released PyTorch public beta (v0.1.6) on January 21, 2017 — a [Python]-first [deep learning] framework with dynamic computation graphs.",
+      "about": "PyTorch's eager execution (`tensor.backward()`) felt like NumPy with [GPU] acceleration — researchers debugged models interactively instead of rebuilding static graphs. It overtook TensorFlow in academic papers and powered transformers, [diffusion model]s, and Meta's [Llama] training stack.",
       "narrative": {
         "whyChosen": "PyTorch made dynamic [neural network]s the default for AI research.",
         "whyImportant": "Pythonic APIs and autograd lowered the barrier for [deep learning] experimentation.",

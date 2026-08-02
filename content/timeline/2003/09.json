@@ -56,11 +56,11 @@
       "date": "2003-09-28",
       "datePrecision": "day",
       "title": "Xcode 1.0 released",
-      "summary": "Apple shipped Xcode 1.0 on September 28, 2003 — integrating Project Builder into a modern Mac IDE ahead of Mac [OS] X Panther.",
-      "about": "Xcode became the mandatory toolchain for iOS and macOS development — Interface Builder, Instruments, lldb, and Swift support all live here. Every App Store binary is built with Xcode's compiler and signing pipeline.",
+      "summary": "Apple shipped [Xcode] 1.0 on September 28, 2003 — integrating Project Builder into a modern Mac [IDE] ahead of Mac [OS] X Panther.",
+      "about": "[Xcode] became the mandatory toolchain for [iOS] and [macOS] development — Interface Builder, Instruments, lldb, and [Swift] support all live here. Every [App Store] binary is built with [Xcode]'s compiler and signing pipeline.",
       "narrative": {
-        "whyChosen": "Xcode is Apple's primary IDE for native platform development.",
-        "whyImportant": "It unified Mac (and later iPhone) tooling under one environment.",
+        "whyChosen": "[Xcode] is Apple's primary [IDE] for native platform development.",
+        "whyImportant": "It unified Mac (and later [iPhone]) tooling under one environment.",
         "problemSolved": "Mac developers used fragmented Project Builder and external debuggers."
       },
       "category": "software",

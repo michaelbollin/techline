@@ -25,10 +25,10 @@
       "datePrecision": "month",
       "title": "g0v civic hacking movement begins",
       "summary": "Taiwan's g0v (gov-zero) [civic hacking] movement began in late 2012 after a gov.tw domain hack and budget visualization projects; Audrey Tang joined g0v efforts in early 2013.",
-      "about": "g0v produced open data dashboards, petition systems, and disaster-response apps — a model for civic tech worldwide. Tang's work bridged hacker culture and public-sector reform in Taiwan.",
+      "about": "g0v produced [open data] dashboards, petition systems, and disaster-response apps — a model for civic tech worldwide. Tang's work bridged hacker culture and public-sector reform in Taiwan.",
       "narrative": {
         "whyChosen": "g0v became one of the most influential [civic hacking] communities globally.",
-        "whyImportant": "It showed how volunteer developers could improve democratic institutions with open data.",
+        "whyImportant": "It showed how volunteer developers could improve democratic institutions with [open data].",
         "problemSolved": "Government data and services were opaque and hard for citizens to reuse."
       },
       "category": "culture",

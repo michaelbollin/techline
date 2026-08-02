@@ -54,12 +54,12 @@
       "date": "2014-09-19",
       "datePrecision": "day",
       "title": "iPhone 6 Plus released",
-      "summary": "Apple launched the iPhone 6 Plus on September 19, 2014 — a 5.5-inch phablet with optical image stabilization.",
-      "about": "The Plus legitimized phablets for Western markets and gave developers a 'regular' vs 'plus' size class split that persists in iOS layout APIs. Landscape apps and split views became viable on a phone form factor.",
+      "summary": "Apple launched the [iPhone] 6 Plus on September 19, 2014 — a 5.5-inch phablet with optical image stabilization.",
+      "about": "The Plus legitimized phablets for Western markets and gave developers a 'regular' vs 'plus' size class split that persists in [iOS] layout APIs. Landscape apps and split views became viable on a phone form factor.",
       "narrative": {
-        "whyChosen": "The 6 Plus made phablets a first-class iOS form factor, not an Android oddity.",
-        "whyImportant": "Two iPhone size classes became a permanent constraint for iOS [UI] design.",
-        "problemSolved": "Large-screen power users chose Android phablets because Apple offered no equivalent."
+        "whyChosen": "The 6 Plus made phablets a first-class [iOS] form factor, not an [Android] oddity.",
+        "whyImportant": "Two [iPhone] size classes became a permanent constraint for [iOS] [UI] design.",
+        "problemSolved": "Large-screen power users chose [Android] phablets because Apple offered no equivalent."
       },
       "category": "hardware",
       "tags": [
@@ -112,12 +112,12 @@
       "date": "2014-09-19",
       "datePrecision": "day",
       "title": "iPhone 6 released",
-      "summary": "Apple began selling the iPhone 6 on September 19, 2014 — jumping to 4.7-inch and 5.5-inch screens after years of 4-inch phones.",
-      "about": "Larger iPhones forced responsive layouts and adaptive [UI] across iOS apps. Reachability, size classes, and split-screen iPad multitasking later built on the bigger canvas the iPhone 6 normalized for mainstream users.",
+      "summary": "Apple began selling the [iPhone] 6 on September 19, 2014 — jumping to 4.7-inch and 5.5-inch screens after years of 4-inch phones.",
+      "about": "Larger iPhones forced responsive layouts and adaptive [UI] across [iOS] apps. Reachability, size classes, and split-screen [iPad] multitasking later built on the bigger canvas the [iPhone] 6 normalized for mainstream users.",
       "narrative": {
-        "whyChosen": "The iPhone 6 ended Apple's small-phone era and mainstreamed large-screen mobile design.",
-        "whyImportant": "Bigger screens changed touch targets, typography, and how developers layout iOS interfaces.",
-        "problemSolved": "Four-inch phones cramped content apps; Android phablets were pulling users away."
+        "whyChosen": "The [iPhone] 6 ended Apple's small-phone era and mainstreamed large-screen mobile design.",
+        "whyImportant": "Bigger screens changed touch targets, typography, and how developers layout [iOS] interfaces.",
+        "problemSolved": "Four-inch phones cramped content apps; [Android] phablets were pulling users away."
       },
       "category": "hardware",
       "tags": [

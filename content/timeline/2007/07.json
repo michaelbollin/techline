@@ -6,12 +6,12 @@
       "date": "2007-07-11",
       "datePrecision": "day",
       "title": "Clang open-sourced",
-      "summary": "Apple open-sourced Clang on July 11, 2007 — a C, C++, and [Objective-C] front end built on LLVM with fast diagnostics.",
-      "about": "Clang compiles to LLVM IR with clearer error messages than GCC and powers Xcode, Swift, and many static analyzers. Its library design lets tools share the same parser — IDEs, linters, and formatters all ride one AST. Example: a typo in C++ template code gets a pinpoint note instead of pages of cascade errors.",
+      "summary": "Apple open-sourced [Clang] on July 11, 2007 — a C, C++, and [Objective-C] front end built on [LLVM] with fast diagnostics.",
+      "about": "[Clang] compiles to [LLVM] IR with clearer error messages than [GCC] and powers [Xcode], [Swift], and many static analyzers. Its library design lets tools share the same parser — IDEs, linters, and formatters all ride one AST. Example: a typo in C++ template code gets a pinpoint note instead of pages of cascade errors.",
       "narrative": {
-        "whyChosen": "Clang gave the LLVM ecosystem a modern, embeddable C-family compiler front end.",
-        "whyImportant": "It became the default toolchain on macOS and influenced language tooling everywhere.",
-        "problemSolved": "GCC's monolithic design made fast, friendly diagnostics and IDE integration difficult."
+        "whyChosen": "[Clang] gave the [LLVM] ecosystem a modern, embeddable C-family compiler front end.",
+        "whyImportant": "It became the default toolchain on [macOS] and influenced language tooling everywhere.",
+        "problemSolved": "[GCC]'s monolithic design made fast, friendly diagnostics and [IDE] integration difficult."
       },
       "category": "software",
       "tags": [

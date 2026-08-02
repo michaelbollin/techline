@@ -29,12 +29,12 @@
       "date": "1956-08",
       "datePrecision": "month",
       "title": "Marvin Minsky co-organizes Dartmouth AI workshop",
-      "summary": "Marvin Minsky, John McCarthy, and others organized the Dartmouth Summer Research Project on Artificial Intelligence in August 1956 — coining the field's name.",
+      "summary": "Marvin Minsky, John McCarthy, and others organized the Dartmouth Summer Research Project on [artificial intelligence] in August 1956 — coining the field's name.",
       "about": "The six-week workshop proposed that learning and intelligence could be precisely described and simulated — launching AI as an academic discipline. Minsky later co-founded the [MIT] AI Lab.",
       "narrative": {
-        "whyChosen": "Dartmouth 1956 named and launched artificial intelligence as a field.",
+        "whyChosen": "Dartmouth 1956 named and launched [artificial intelligence] as a field.",
         "whyImportant": "It framed intelligence as a engineering problem solvable by programs.",
-        "problemSolved": "There was no shared research agenda connecting logic, learning, and robotics."
+        "problemSolved": "There was no shared research agenda connecting logic, learning, and [robotics]."
       },
       "category": "ai",
       "tags": [

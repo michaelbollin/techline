@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Notion unified docs, tasks, and lightweight databases for modern teams.",
         "whyImportant": "Block-based pages made internal wikis approachable for non-engineers.",
-        "problemSolved": "Teams juggled separate tools for notes, specs, and project tracking."
+        "problemSolved": "[Teams] juggled separate tools for notes, specs, and project tracking."
       },
       "category": "software",
       "tags": [
@@ -56,8 +56,8 @@
       "date": "2016-08-02",
       "datePrecision": "day",
       "title": "Windows Subsystem for Linux released",
-      "summary": "Microsoft shipped Windows Subsystem for Linux (WSL) in the Windows 10 Anniversary Update on August 2, 2016 — running Linux ELF binaries on Windows without a VM.",
-      "about": "WSL let developers run bash, apt, and Node tooling on Windows laptops — `wsl` became standard in full-stack setup guides. WSL 2 later added a real Linux [kernel], blurring the line between Windows and Linux dev environments.",
+      "summary": "[Microsoft] shipped Windows Subsystem for Linux (WSL) in the Windows 10 Anniversary Update on August 2, 2016 — running Linux ELF binaries on Windows without a VM.",
+      "about": "WSL let developers run bash, apt, and [Node] tooling on Windows laptops — `wsl` became standard in full-stack setup guides. WSL 2 later added a real Linux [kernel], blurring the line between Windows and Linux dev environments.",
       "narrative": {
         "whyChosen": "WSL brought native Linux tooling to Windows developers.",
         "whyImportant": "It reduced friction for cross-platform and open-source workflows on Windows.",
@@ -111,12 +111,12 @@
       "date": "2016-08-18",
       "datePrecision": "day",
       "title": "PowerShell open-sourced on GitHub",
-      "summary": "Microsoft open-sourced PowerShell on August 18, 2016 and announced PowerShell on Linux and macOS — porting the Windows shell to cross-platform infrastructure automation.",
-      "about": "PowerShell Core replaced Windows-only shell scripting for DevOps teams running heterogeneous clouds: same cmdlets for Azure, AWS, and on-prem Windows/Linux. It became the backbone of modern Windows automation alongside Bash on Linux servers.",
+      "summary": "[Microsoft] open-sourced PowerShell on August 18, 2016 and announced PowerShell on Linux and [macOS] — porting the Windows shell to cross-platform infrastructure [automation].",
+      "about": "PowerShell Core replaced Windows-only shell scripting for [DevOps] teams running heterogeneous clouds: same cmdlets for [Azure], [AWS], and on-prem Windows/Linux. It became the backbone of modern Windows [automation] alongside Bash on Linux servers.",
       "narrative": {
-        "whyChosen": "Open PowerShell was Microsoft's bid to own cross-platform automation, not just Windows admin.",
+        "whyChosen": "Open PowerShell was [Microsoft]'s bid to own cross-platform [automation], not just Windows admin.",
         "whyImportant": "It let operators use one object pipeline language across [OS] boundaries.",
-        "problemSolved": "Cloud-era teams managed Linux and Windows hosts but lacked a unified automation shell."
+        "problemSolved": "Cloud-era teams managed Linux and Windows hosts but lacked a unified [automation] shell."
       },
       "category": "software",
       "tags": [

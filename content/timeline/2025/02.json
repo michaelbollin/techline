@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S25 released",
       "summary": "Samsung began selling the Samsung Galaxy S25 — Snapdragon 8 Elite and expanded Galaxy AI — annual flagship refresh.",
-      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Snapdragon 8 elite and expanded galaxy ai — annual flagship refresh. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to [iPhone]. Snapdragon 8 elite and expanded galaxy ai — annual flagship refresh. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy S25 continued Samsung's annual [Android] flagship cadence.",
         "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
@@ -68,12 +68,12 @@
       "date": "2025-02-20",
       "datePrecision": "day",
       "title": "Rust 2024 edition released",
-      "summary": "Rust 1.85 shipped the 2024 edition on February 20, 2025 — refining unsafe semantics, async closures, and match ergonomics.",
-      "about": "The 2024 edition polishes Rust for systems programmers adopting async and embedded targets: clearer unsafe rules, async closures, and smoother `cargo fix --edition` migrations. Rust continues expanding in Linux, [WebAssembly], and infrastructure as memory-safe languages gain regulatory momentum.",
+      "summary": "[Rust] 1.85 shipped the 2024 edition on February 20, 2025 — refining unsafe semantics, async closures, and match ergonomics.",
+      "about": "The 2024 edition polishes [Rust] for systems programmers adopting async and embedded targets: clearer unsafe rules, async closures, and smoother `cargo fix --edition` migrations. [Rust] continues expanding in Linux, [WebAssembly], and infrastructure as memory-safe languages gain regulatory momentum.",
       "narrative": {
-        "whyChosen": "The 2024 edition keeps Rust evolving without the breakage trauma of other languages.",
-        "whyImportant": "Safer unsafe and async ergonomics matter as Rust moves into kernels and [firmware].",
-        "problemSolved": "Growing Rust codebases needed clearer rules around unsafe and edition migrations."
+        "whyChosen": "The 2024 edition keeps [Rust] evolving without the breakage trauma of other languages.",
+        "whyImportant": "Safer unsafe and async ergonomics matter as [Rust] moves into kernels and [firmware].",
+        "problemSolved": "Growing [Rust] codebases needed clearer rules around unsafe and edition migrations."
       },
       "category": "software",
       "tags": [
@@ -114,12 +114,12 @@
       "date": "2025-02-24",
       "datePrecision": "day",
       "title": "Anthropic Claude 3.7 Sonnet released",
-      "summary": "[Anthropic] released Claude 3.7 Sonnet on February 24, 2025 with extended thinking mode and improved coding and agentic capabilities.",
-      "about": "Claude 3.7 Sonnet introduced visible extended thinking — showing reasoning steps before answers — and stronger tool-use for coding agents. It competed with OpenAI o3 and GPT-4.1 for developer copilots and autonomous workflows.",
+      "summary": "[Anthropic] released Claude 3.7 Sonnet on February 24, 2025 with extended thinking mode and improved coding and [agentic] capabilities.",
+      "about": "Claude 3.7 Sonnet introduced visible extended thinking — showing [reasoning] steps before answers — and stronger tool-use for coding agents. It competed with [OpenAI] o3 and [GPT]-4.1 for developer copilots and autonomous workflows.",
       "narrative": {
-        "whyChosen": "Claude 3.7 made extended reasoning a first-class product feature.",
-        "whyImportant": "Visible thinking and tool use advanced agentic coding assistants.",
-        "problemSolved": "Users could not see or trust multi-step reasoning in standard chat models."
+        "whyChosen": "Claude 3.7 made extended [reasoning] a first-class product feature.",
+        "whyImportant": "Visible thinking and tool use advanced [agentic] coding assistants.",
+        "problemSolved": "Users could not see or trust multi-step [reasoning] in standard chat models."
       },
       "category": "software",
       "tags": [
@@ -225,11 +225,11 @@
       "date": "2025-02-17",
       "datePrecision": "day",
       "title": "xAI Grok 3 released",
-      "summary": "xAI released Grok 3 on February 17, 2025 — Elon Musk's flagship model with DeepSearch, reasoning modes, and SuperGrok subscriptions on X and grok.com.",
-      "about": "Grok 3 trained on roughly 10x the compute of Grok 2 and launched days after DeepSeek R1 shook the market. Think and Big Brain modes, DeepSearch over X and the web, and a separate SuperGrok tier made xAI a visible third pole beside OpenAI and [Anthropic] in the 2025 model wars.",
+      "summary": "xAI released [Grok] 3 on February 17, 2025 — Elon Musk's flagship model with DeepSearch, [reasoning] modes, and SuperGrok subscriptions on X and grok.com.",
+      "about": "[Grok] 3 trained on roughly 10x the compute of [Grok] 2 and launched days after DeepSeek R1 shook the market. Think and Big Brain modes, DeepSearch over X and the web, and a separate SuperGrok tier made xAI a visible third pole beside [OpenAI] and [Anthropic] in the 2025 model wars.",
       "narrative": {
-        "whyChosen": "Grok 3 put xAI on the frontier model map with X distribution built in.",
-        "whyImportant": "Social-native search and edgy positioning differentiated Grok from corporate chatbots.",
+        "whyChosen": "[Grok] 3 put xAI on the frontier model map with X distribution built in.",
+        "whyImportant": "Social-native search and edgy positioning differentiated [Grok] from corporate chatbots.",
         "problemSolved": "X needed a competitive in-house AI model tied to its social graph and subscriber base."
       },
       "category": "software",

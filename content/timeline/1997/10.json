@@ -6,7 +6,7 @@
       "date": "1997-10",
       "datePrecision": "month",
       "title": "JUnit released",
-      "summary": "Kent Beck and Erich Gamma released JUnit in October 1997 — a unit testing framework that popularized automated test methods in Java.",
+      "summary": "Kent Beck and Erich Gamma released JUnit in October 1997 — a unit testing framework that popularized automated test methods in [Java].",
       "about": "JUnit's `@Test` annotations and assertion methods spawned xUnit ports in every language — pytest, RSpec, NUnit, [Go] testing. Test-driven development and CI pipelines assume the patterns JUnit established.",
       "narrative": {
         "whyChosen": "JUnit defined the xUnit family of testing frameworks.",

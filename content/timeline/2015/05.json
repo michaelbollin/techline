@@ -6,10 +6,10 @@
       "date": "2015-05-15",
       "datePrecision": "day",
       "title": "Rust 1.0 released",
-      "summary": "The Rust core team shipped Rust 1.0 on May 15, 2015 — a systems language with ownership-based memory safety.",
-      "about": "Rust gives C/C++ performance without [garbage collection] — the borrow checker prevents use-after-free and data races at compile time. Used in Firefox's Servo engine, Linux [kernel] modules, Cloudflare, Discord, and WASM runtimes. Teams pick Rust when safety and speed both matter and GC is unacceptable.",
+      "summary": "The [Rust] core team shipped [Rust] 1.0 on May 15, 2015 — a systems language with ownership-based memory safety.",
+      "about": "[Rust] gives C/C++ performance without [garbage collection] — the borrow checker prevents use-after-free and data races at compile time. Used in [Firefox]'s Servo engine, Linux [kernel] modules, Cloudflare, Discord, and WASM runtimes. [Teams] pick [Rust] when safety and speed both matter and GC is unacceptable.",
       "narrative": {
-        "whyChosen": "Rust 1.0 promised stability after years of public iteration — a new option for memory-safe systems code.",
+        "whyChosen": "[Rust] 1.0 promised stability after years of public iteration — a new option for memory-safe systems code.",
         "whyImportant": "Ownership and borrowing influenced how the industry thinks about safe concurrency without a runtime.",
         "problemSolved": "Systems programmers faced a false choice between C++ speed with manual memory bugs and GC languages with runtime cost."
       },
@@ -57,7 +57,7 @@
       "about": "Cargo builds projects, resolves dependencies from crates.io, and publishes semver-versioned crates — `cargo new`, `cargo build`, `cargo test`, and `cargo publish` are the [Rust] workflow. Lockfiles ensure reproducible builds. Example: add `serde = \"1.0\"` to `Cargo.toml` and Cargo fetches compatible releases automatically.",
       "narrative": {
         "whyChosen": "Stable Cargo arrived with [Rust] 1.0, making the language production-ready end-to-end.",
-        "whyImportant": "It gave [Rust] a first-class package ecosystem modeled on npm and Bundler but with stronger build integration.",
+        "whyImportant": "It gave [Rust] a first-class package ecosystem modeled on [npm] and Bundler but with stronger build integration.",
         "problemSolved": "[Rust] needed a unified tool for dependencies, builds, tests, and publishing — not ad-hoc makefiles."
       },
       "category": "software",
@@ -153,10 +153,10 @@
       "date": "2015-05",
       "datePrecision": "month",
       "title": "JWT standardized",
-      "summary": "RFC 7519 defined JSON Web Tokens in May 2015 — a compact, [URL]-safe format for signed claims between services.",
-      "about": "JWTs encode JSON claims in a three-part base64 string: header, payload, signature. APIs issue them after login; clients send `Authorization: Bearer <token>` on later requests. Used with OAuth 2.0, OpenID Connect, and microservice auth — though teams must validate signatures, expiry, and audience carefully.",
+      "summary": "RFC 7519 defined [JSON] Web Tokens in May 2015 — a compact, [URL]-safe format for signed claims between services.",
+      "about": "JWTs encode [JSON] claims in a three-part base64 string: header, payload, signature. APIs issue them after login; clients send `Authorization: Bearer <token>` on later requests. Used with [OAuth] 2.0, [OpenID Connect], and microservice auth — though teams must validate signatures, expiry, and audience carefully.",
       "narrative": {
-        "whyChosen": "JWT became the default wire format for stateless [API] authentication after OAuth took off.",
+        "whyChosen": "JWT became the default wire format for stateless [API] authentication after [OAuth] took off.",
         "whyImportant": "It standardized how services pass identity and permissions without server-side sessions.",
         "problemSolved": "Every [API] invented its own opaque token format; clients and gateways needed a portable standard."
       },
@@ -211,7 +211,7 @@
       "datePrecision": "day",
       "title": "Rollup first released",
       "summary": "Rich Harris published [Rollup] 0.3.0 on May 21, 2015 — the first meaningful public ES module bundler release with tree-shaking (earlier 0.1.x tags were experiments).",
-      "about": "[Rollup] analyzes static `import`/`export` graphs and eliminates dead code — producing smaller bundles than Browserify or early webpack for library authors. It powers Vue, [React] tooling, and many npm packages shipped as ES modules. Example: importing one function from lodash-es ships only that function, not the entire library.",
+      "about": "[Rollup] analyzes static `import`/`export` graphs and eliminates dead code — producing smaller bundles than Browserify or early webpack for library authors. It powers Vue, [React] tooling, and many [npm] packages shipped as ES modules. Example: importing one function from lodash-es ships only that function, not the entire library.",
       "narrative": {
         "whyChosen": "[Rollup] pioneered tree-shaking for ES modules at a time when webpack optimized CommonJS bundles.",
         "whyImportant": "It influenced webpack 2+ and proved ES module semantics enable smaller production builds.",
@@ -311,7 +311,7 @@
       "date": "2015-05-21",
       "datePrecision": "day",
       "title": "Gatsby open sourced",
-      "summary": "Kyle Mathews open sourced Gatsby on May 21, 2015 — a [React]-based static site generator with GraphQL data layer.",
+      "summary": "Kyle Mathews [open source]d Gatsby on May 21, 2015 — a [React]-based static site generator with GraphQL data layer.",
       "about": "Gatsby pre-renders [React] pages at build time and pulls data via GraphQL from Markdown, CMSs, and APIs — blazing fast sites with component ergonomics. It powered the [Jamstack] movement alongside [Netlify] before Next.js static generation absorbed much of the market.",
       "narrative": {
         "whyChosen": "Gatsby made [React] static sites production-ready with a unified data layer.",
@@ -361,11 +361,11 @@
       "datePrecision": "day",
       "title": "Discord chat for gamers launches",
       "summary": "Discord launched publicly on May 13, 2015 — voice, video, and text chat built for gaming communities that developers adopted for open-source projects and team hangouts.",
-      "about": "Discord servers replaced IRC and TeamSpeak for millions of users — bots, webhooks, and stage channels extended it beyond gaming into study groups, crypto communities, and eng-team social rooms. Its Electron client and low-latency voice made it the informal complement to Slack's workplace formality.",
+      "about": "Discord servers replaced IRC and TeamSpeak for millions of users — bots, webhooks, and stage channels extended it beyond gaming into study groups, crypto communities, and eng-team social rooms. Its Electron client and low-latency voice made it the informal complement to [Slack]'s workplace formality.",
       "narrative": {
         "whyChosen": "Discord became the default community chat layer for developers and gamers alike.",
         "whyImportant": "Free servers and voice channels scaled grassroots communities without corporate [IT].",
-        "problemSolved": "Open-source projects and friend groups needed persistent chat without enterprise Slack pricing."
+        "problemSolved": "Open-source projects and friend groups needed persistent chat without enterprise [Slack] pricing."
       },
       "category": "software",
       "tags": [

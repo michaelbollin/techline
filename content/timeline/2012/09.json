@@ -7,7 +7,7 @@
       "datePrecision": "month",
       "title": "AlexNet wins ImageNet",
       "summary": "Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton submitted AlexNet to ILSVRC 2012 on September 30, 2012 — winning with 15.3% top-5 error and triggering the [deep learning] revolution.",
-      "about": "AlexNet's [GPU]-trained convolutional network crushed traditional [computer vision] pipelines — convincing Google, Facebook, and industry to bet on [neural network]s. Hinton had pursued backprop for decades before this breakthrough.",
+      "about": "AlexNet's [GPU]-trained convolutional network crushed traditional [computer vision] pipelines — convincing Google, [Facebook], and industry to bet on [neural network]s. Hinton had pursued backprop for decades before this breakthrough.",
       "narrative": {
         "whyChosen": "AlexNet was the inflection point for modern [deep learning] adoption.",
         "whyImportant": "It proved [neural network]s could beat hand-engineered vision features at scale.",
@@ -59,10 +59,10 @@
       "date": "2012-09-21",
       "datePrecision": "day",
       "title": "iPhone 5 released",
-      "summary": "Apple began selling the iPhone 5 on September 21, 2012 — taller 4-inch display, [LTE], and the [Lightning] connector.",
-      "about": "[Lightning] replaced the 30-pin dock connector — forcing accessory and hardware accessory developers to redesign. The taller screen broke the fixed 320×480 pt layout assumptions early iOS apps relied on, pushing Auto Layout adoption.",
+      "summary": "Apple began selling the [iPhone] 5 on September 21, 2012 — taller 4-inch display, [LTE], and the [Lightning] connector.",
+      "about": "[Lightning] replaced the 30-pin dock connector — forcing accessory and hardware accessory developers to redesign. The taller screen broke the fixed 320×480 pt layout assumptions early [iOS] apps relied on, pushing Auto Layout adoption.",
       "narrative": {
-        "whyChosen": "The iPhone 5 changed the iOS screen shape and connector standard overnight.",
+        "whyChosen": "The [iPhone] 5 changed the [iOS] screen shape and connector standard overnight.",
         "whyImportant": "[LTE] and a new aspect ratio reshaped mobile layout and peripheral ecosystems.",
         "problemSolved": "Developers designed for a square-ish 3.5-inch canvas and a decade-old dock standard."
       },
@@ -179,12 +179,12 @@
       "date": "2012-09-27",
       "datePrecision": "day",
       "title": "Joomla 3.0 released",
-      "summary": "The Joomla project shipped Joomla 3.0 on September 27, 2012 — a Bootstrap-based admin [UI] and mobile-ready front-end templates.",
-      "about": "Joomla 3 brought responsive templates, a modernized media manager, and improved ACL — aligning the CMS with mobile-first expectations. It followed the short-term release strategy before Joomla settled on longer support cycles in the 3.x era.",
+      "summary": "The [Joomla] project shipped [Joomla] 3.0 on September 27, 2012 — a Bootstrap-based admin [UI] and mobile-ready front-end templates.",
+      "about": "[Joomla] 3 brought responsive templates, a modernized media manager, and improved ACL — aligning the [CMS] with mobile-first expectations. It followed the short-term release strategy before [Joomla] settled on longer support cycles in the 3.x era.",
       "narrative": {
-        "whyChosen": "Joomla 3 modernized the admin experience with Bootstrap and responsive design.",
-        "whyImportant": "It kept Joomla competitive as mobile traffic overtook desktop browsing.",
-        "problemSolved": "Joomla 2.5's admin and default templates felt dated on phones and tablets."
+        "whyChosen": "[Joomla] 3 modernized the admin experience with Bootstrap and responsive design.",
+        "whyImportant": "It kept [Joomla] competitive as mobile traffic overtook desktop browsing.",
+        "problemSolved": "[Joomla] 2.5's admin and default templates felt dated on phones and tablets."
       },
       "category": "software",
       "tags": [

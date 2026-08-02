@@ -61,10 +61,10 @@
       "date": "1983-11",
       "datePrecision": "month",
       "title": "Ritchie and Thompson receive Turing Award",
-      "summary": "Dennis Ritchie and Ken Thompson received the 1983 ACM Turing Award for developing [Unix] and the C language.",
+      "summary": "Dennis Ritchie and Ken Thompson received the 1983 ACM [Turing Award] for developing [Unix] and the C language.",
       "about": "Their Bell Labs work underpins every smartphone, server, and embedded device: [Unix] ideas (pipes, files, processes) and C's portability. The award recognized that systems software deserved the same academic honor as theory.",
       "narrative": {
-        "whyChosen": "The Turing Award formalized [Unix] and C as CS's most influential systems work.",
+        "whyChosen": "The [Turing Award] formalized [Unix] and C as CS's most influential systems work.",
         "whyImportant": "It validated operating systems and languages as first-class computer science.",
         "problemSolved": "Industry systems breakthroughs often went unrecognized by academic CS awards."
       },
@@ -118,9 +118,9 @@
       "datePrecision": "month",
       "title": "Anders Hejlsberg ships Turbo Pascal",
       "summary": "Anders Hejlsberg's [Turbo Pascal] shipped in November 1983 — a fast, cheap Pascal compiler that sold millions of copies.",
-      "about": "Hejlsberg later created Delphi, C#, and TypeScript — one of the most impactful language designer careers in computing. [Turbo Pascal] proved developer tools could be products, not just language specs.",
+      "about": "Hejlsberg later created Delphi, C#, and [TypeScript] — one of the most impactful language designer careers in computing. [Turbo Pascal] proved developer tools could be products, not just language specs.",
       "narrative": {
-        "whyChosen": "Hejlsberg's career spans Pascal, Delphi, C#, and TypeScript.",
+        "whyChosen": "Hejlsberg's career spans Pascal, Delphi, C#, and [TypeScript].",
         "whyImportant": "[Turbo Pascal] was many programmers' first compiled language experience.",
         "problemSolved": "Pascal compilers were slow and expensive for hobbyists and students."
       },

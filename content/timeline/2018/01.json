@@ -6,10 +6,10 @@
       "date": "2018-01-23",
       "datePrecision": "day",
       "title": "Yann LeCun named Facebook chief AI scientist",
-      "summary": "Yann LeCun stepped down as FAIR director on January 23, 2018 to become Facebook's chief AI scientist — focusing on long-range research while Jérôme Pesenti took operational oversight.",
-      "about": "LeCun kept shaping convolutional networks and self-supervised learning at industrial scale. The role let him advocate publicly for open research while Facebook integrated AI across News Feed, moderation, and AR products.",
+      "summary": "Yann LeCun stepped down as FAIR director on January 23, 2018 to become [Facebook]'s chief AI scientist — focusing on long-range research while Jérôme Pesenti took operational oversight.",
+      "about": "LeCun kept shaping convolutional networks and self-supervised learning at industrial scale. The role let him advocate publicly for open research while [Facebook] integrated AI across News Feed, moderation, and [AR] products.",
       "narrative": {
-        "whyChosen": "LeCun defined how a Turing laureate could steer corporate AI research strategy.",
+        "whyChosen": "LeCun defined how a [Turing] laureate could steer corporate AI research strategy.",
         "whyImportant": "It separated FAIR's exploratory research from product-integrated [machine learning].",
         "problemSolved": "Fast-growing social platforms needed both product ML leadership and fundamental research."
       },
@@ -66,7 +66,7 @@
       "datePrecision": "day",
       "title": "Bootstrap 4 released",
       "summary": "Bootstrap 4.0 shipped on January 18, 2018 — rebuilding the grid on flexbox and dropping Glyphicons for a modern component set.",
-      "about": "Bootstrap 4 replaced floats with flexbox utilities, simplified cards and navbars, and removed jQuery as a hard dependency path toward v5. It was the last major version many Bootstrap 3 sites migrated to before Tailwind gained share.",
+      "about": "Bootstrap 4 replaced floats with flexbox utilities, simplified cards and navbars, and removed jQuery as a hard dependency path toward v5. It was the last major version many Bootstrap 3 sites migrated to before [Tailwind] gained share.",
       "narrative": {
         "whyChosen": "Bootstrap 4 modernized the framework for flexbox-era layouts.",
         "whyImportant": "Flexbox grids and rebuilt components kept Bootstrap the default admin [UI] kit.",

@@ -68,7 +68,7 @@
       "datePrecision": "day",
       "title": "Tim Berners-Lee founds the W3C",
       "summary": "Tim Berners-Lee founded the World Wide Web Consortium on October 1, 1994 at [MIT] — stewarding web standards globally.",
-      "about": "[W3C] standardized [HTML], CSS, [HTTP], and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
+      "about": "[W3C] standardized [HTML], [CSS], [HTTP], and accessibility guidelines — keeping the web interoperable across browsers and devices. Berners-Lee led it without commercializing his invention.",
       "narrative": {
         "whyChosen": "[W3C] became the neutral forum for web standardization.",
         "whyImportant": "It prevented proprietary fragmentation of the open web.",
@@ -127,9 +127,9 @@
       "datePrecision": "day",
       "title": "Håkon Wium Lie proposes CSS",
       "summary": "Håkon Wium Lie published Cascading [HTML] Style Sheets — a proposal on October 10, 1994 while at CERN.",
-      "about": "CSS separated presentation from [HTML] structure — letting authors suggest fonts and layout while users could override styles. Every modern website still depends on the cascading model Lie proposed at CERN.",
+      "about": "[CSS] separated presentation from [HTML] structure — letting authors suggest fonts and layout while users could override styles. Every modern website still depends on the cascading model Lie proposed at CERN.",
       "narrative": {
-        "whyChosen": "CSS is the presentation layer of the open web.",
+        "whyChosen": "[CSS] is the presentation layer of the open web.",
         "whyImportant": "It ended the era of presentational [HTML] tags and font tags in markup.",
         "problemSolved": "Authors could not style pages consistently without polluting [HTML] with layout tags."
       },
@@ -185,12 +185,12 @@
       "date": "1994-10-17",
       "datePrecision": "day",
       "title": "Perl 5.0 released",
-      "summary": "Larry Wall released Perl 5.0 on October 17, 1994 — a complete rewrite adding objects, references, modules, and the CPAN ecosystem foundation.",
-      "about": "Perl 5 became the duct tape of the early web: CGI scripts, system administration, bioinformatics, and text munging. The module system and CPAN let developers share libraries decades before npm or PyPI — powering everything from Slashdot to early Amazon glue code.",
+      "summary": "Larry Wall released [Perl] 5.0 on October 17, 1994 — a complete rewrite adding objects, references, modules, and the CPAN ecosystem foundation.",
+      "about": "[Perl] 5 became the duct tape of the early web: CGI scripts, system administration, bioinformatics, and text munging. The module system and CPAN let developers share libraries decades before [npm] or PyPI — powering everything from Slashdot to early Amazon glue code.",
       "narrative": {
-        "whyChosen": "Perl 5 defined scripting culture for the 1990s web and [Unix] [automation].",
-        "whyImportant": "Objects, references, and CPAN made Perl a platform, not just a language.",
-        "problemSolved": "Perl 4 could not scale to complex programs; the web needed a richer scripting language with reusable libraries."
+        "whyChosen": "[Perl] 5 defined scripting culture for the 1990s web and [Unix] [automation].",
+        "whyImportant": "Objects, references, and CPAN made [Perl] a platform, not just a language.",
+        "problemSolved": "[Perl] 4 could not scale to complex programs; the web needed a richer scripting language with reusable libraries."
       },
       "category": "software",
       "tags": [

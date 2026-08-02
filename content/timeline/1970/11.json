@@ -6,11 +6,11 @@
       "date": "1970-11-01",
       "datePrecision": "day",
       "title": "Pascal language report published",
-      "summary": "Niklaus Wirth published The Programming Language Pascal at ETH Zurich — a structured teaching language built on ALGOL 60.",
-      "about": "Pascal was designed for teaching programming and writing clear, structured code on small machines. It introduced records, sets, and strong typing in a compact language. [Turbo Pascal] on the [IBM] [PC], UCSD Pascal on Apple II, and decades of CS101 courses made it the default intro language before Java and Python.",
+      "summary": "Niklaus Wirth published The Programming Language Pascal at ETH Zurich — a structured teaching language built on [ALGOL] 60.",
+      "about": "Pascal was designed for teaching programming and writing clear, structured code on small machines. It introduced records, sets, and strong typing in a compact language. [Turbo Pascal] on the [IBM] [PC], UCSD Pascal on Apple II, and decades of CS101 courses made it the default intro language before [Java] and [Python].",
       "narrative": {
         "whyChosen": "Wirth wanted a small language students could learn quickly but still use for real programs — simpler than giant languages like PL/I, more structured than [BASIC].",
-        "whyImportant": "Pascal trained a generation of programmers in clear, structured code and became the default intro language on Apple II and [IBM] [PC] before Java and Python.",
+        "whyImportant": "Pascal trained a generation of programmers in clear, structured code and became the default intro language on Apple II and [IBM] [PC] before [Java] and [Python].",
         "problemSolved": "Teaching languages were either too academic to implement easily or too bloated for classroom use; Pascal hit a practical middle ground."
       },
       "category": "software",

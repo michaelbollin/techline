@@ -63,10 +63,10 @@
       "datePrecision": "month",
       "title": "Ward Cunningham creates the wiki",
       "summary": "Ward Cunningham launched the first [wiki] in March 1995 — quick collaborative editing that inspired [Wikipedia] and countless internal dev docs.",
-      "about": "[Wiki] syntax and culture ('edit this page') shaped how engineering teams document runbooks, RFCs, and postmortems. Cunningham's pattern language work also influenced agile and software design thinking.",
+      "about": "[Wiki] syntax and culture ('edit this page') shaped how engineering teams document runbooks, RFCs, and postmortems. Cunningham's pattern language work also influenced [agile] and software design thinking.",
       "narrative": {
         "whyChosen": "The [wiki] invented lightweight collaborative documentation.",
-        "whyImportant": "It lowered the barrier to contributing knowledge compared to formal CMS tools.",
+        "whyImportant": "It lowered the barrier to contributing knowledge compared to formal [CMS] tools.",
         "problemSolved": "Team knowledge was trapped in email and individual files without shared editing."
       },
       "category": "invention",

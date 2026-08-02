@@ -6,11 +6,11 @@
       "date": "2008-11",
       "datePrecision": "month",
       "title": "Asana founded",
-      "summary": "Dustin Moskovitz and Justin Rosenstein founded Asana in November 2008 — later shipping a task and project tool built after their experience scaling Facebook's internal coordination.",
-      "about": "Asana brought lists, timelines, and workload views to teams outgrowing email — competing with Basecamp and later Monday.com. Its [API] and integrations made it popular with product and engineering managers who wanted Jira alternatives without enterprise bloat.",
+      "summary": "Dustin Moskovitz and Justin Rosenstein founded Asana in November 2008 — later shipping a task and project tool built after their experience scaling [Facebook]'s internal coordination.",
+      "about": "Asana brought lists, timelines, and workload views to teams outgrowing email — competing with Basecamp and later Monday.com. Its [API] and integrations made it popular with product and engineering managers who wanted [Jira] alternatives without enterprise bloat.",
       "narrative": {
-        "whyChosen": "Asana brought Facebook-grade internal task tooling to the broader market.",
-        "whyImportant": "It kept PM accessible for teams that found Jira too heavy.",
+        "whyChosen": "Asana brought [Facebook]-grade internal task tooling to the broader market.",
+        "whyImportant": "It kept PM accessible for teams that found [Jira] too heavy.",
         "problemSolved": "Growing startups needed structured task tracking beyond shared inboxes."
       },
       "category": "software",

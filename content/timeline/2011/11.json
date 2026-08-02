@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Nokia Lumia 800 released",
       "summary": "Nokia released the Nokia Lumia 800 — first Nokia Windows Phone — Mango-era Metro [UI] hardware.",
-      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. First nokia windows phone — mango-era metro ui hardware.",
+      "about": "Nokia hardware shaped pre-[iPhone] smartphones and later [Microsoft]'s mobile platform bet. First nokia windows phone — mango-era metro ui hardware.",
       "narrative": {
         "whyChosen": "The Nokia Lumia 800 was a flagship Nokia smartphone milestone.",
-        "whyImportant": "Nokia devices defined mobile platforms from Symbian through Windows Phone.",
-        "problemSolved": "Mobile users needed capable smartphones before the iPhone/Android era matured."
+        "whyImportant": "Nokia devices defined mobile platforms from [Symbian] through Windows Phone.",
+        "problemSolved": "Mobile users needed capable smartphones before the [iPhone]/[Android] era matured."
       },
       "category": "hardware",
       "tags": [

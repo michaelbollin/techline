@@ -6,11 +6,11 @@
       "date": "1996-01-23",
       "datePrecision": "day",
       "title": "Java 1.0 shipped",
-      "summary": "JavaSoft made JDK 1.0 available for download — the first production Java development kit.",
-      "about": "JDK 1.0 shipped the compiler, JVM, and libraries developers needed to build and run Java programs — applets in browsers, standalone tools, and early server apps. You wrote `.java` files, compiled to [bytecode], and ran them anywhere with a Java runtime installed.",
+      "summary": "JavaSoft made JDK 1.0 available for download — the first production [Java] development kit.",
+      "about": "JDK 1.0 shipped the compiler, [JVM], and libraries developers needed to build and run [Java] programs — applets in browsers, standalone tools, and early server apps. You wrote `.java` files, compiled to [bytecode], and ran them anywhere with a [Java] runtime installed.",
       "narrative": {
-        "whyChosen": "The May 1995 announcement created hype; JDK 1.0 was when developers could actually build with Java.",
-        "whyImportant": "It shipped the compiler, JVM, applet viewer, and class libraries as a cohesive platform.",
+        "whyChosen": "The May 1995 announcement created hype; JDK 1.0 was when developers could actually build with [Java].",
+        "whyImportant": "It shipped the compiler, [JVM], applet viewer, and class libraries as a cohesive platform.",
         "problemSolved": "Early adopters needed stable tooling beyond alpha builds to write deployable applets and applications."
       },
       "category": "software",

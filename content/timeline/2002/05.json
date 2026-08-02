@@ -6,10 +6,10 @@
       "date": "2002-05-01",
       "datePrecision": "day",
       "title": "OpenOffice.org 1.0 released",
-      "summary": "[OpenOffice].org 1.0 shipped on May 1, 2002 — Sun's open-source office suite forked from StarOffice.",
-      "about": "[OpenOffice] brought free word processors and spreadsheets to Linux desktops and challenged Microsoft Office lock-in. Its OpenDocument format influenced ISO standards and later LibreOffice — proving open-source could ship full productivity suites.",
+      "summary": "[OpenOffice].org 1.0 shipped on May 1, 2002 — [Sun]'s open-source office suite forked from StarOffice.",
+      "about": "[OpenOffice] brought free word processors and spreadsheets to Linux desktops and challenged [Microsoft] Office lock-in. Its OpenDocument format influenced [ISO] standards and later LibreOffice — proving open-source could ship full productivity suites.",
       "narrative": {
-        "whyChosen": "[OpenOffice] was the flagship open-source alternative to Microsoft Office.",
+        "whyChosen": "[OpenOffice] was the flagship open-source alternative to [Microsoft] Office.",
         "whyImportant": "It advanced open document formats and desktop software freedom.",
         "problemSolved": "Linux users lacked a credible free office suite compatible with common file formats."
       },

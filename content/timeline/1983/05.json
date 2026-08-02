@@ -7,10 +7,10 @@
       "datePrecision": "month",
       "title": "Telnet standardized",
       "summary": "RFC 854 defined the Telnet protocol in May 1983 — a virtual terminal over [TCP] that let users log into remote hosts across the early Internet.",
-      "about": "Telnet turned a network connection into an interactive terminal session: keystrokes travel to a remote shell, output streams back. It powered remote administration, library catalogs, and BBS access before SSH. The protocol's option negotiation (echo, linemode, terminal type) became a template for layered network services.",
+      "about": "Telnet turned a network connection into an interactive terminal session: keystrokes travel to a remote shell, output streams back. It powered remote administration, library catalogs, and BBS access before [SSH]. The protocol's option negotiation (echo, linemode, terminal type) became a template for layered network services.",
       "narrative": {
         "whyChosen": "Telnet was the first widely deployed remote-login standard on [TCP]/[IP] networks.",
-        "whyImportant": "It proved interactive terminal sessions could ride on packet networks — paving the way for SSH and remote ops culture.",
+        "whyImportant": "It proved interactive terminal sessions could ride on packet networks — paving the way for [SSH] and remote ops culture.",
         "problemSolved": "Operators needed to manage distant computers without physical terminals attached to every machine."
       },
       "category": "protocol",

@@ -6,7 +6,7 @@
       "date": "1991-05",
       "datePrecision": "month",
       "title": "Visual Basic 1.0 released",
-      "summary": "Microsoft launched Visual Basic at Comdex, bringing drag-and-drop [GUI] development to Windows with a Basic dialect.",
+      "summary": "[Microsoft] launched Visual Basic at Comdex, bringing drag-and-drop [GUI] development to Windows with a Basic dialect.",
       "about": "Visual Basic let non-specialists build Windows desktop apps: drag buttons and text boxes onto a form, double-click to write event code. Typical apps: in-house inventory tools, small-business accounting front-ends, data-entry screens, and line-of-business CRUD programs — without learning Win32 C [API].",
       "narrative": {
         "whyChosen": "VB democratized Windows app development for a generation of business programmers.",

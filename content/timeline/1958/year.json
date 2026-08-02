@@ -23,7 +23,7 @@
       "datePrecision": "year",
       "title": "John McCarthy invents Lisp",
       "summary": "John McCarthy invented Lisp in 1958 at [MIT] — the second-oldest high-level programming language still in use.",
-      "about": "Lisp introduced [garbage collection], symbolic expressions, and macros — ideas that influenced Python, JavaScript, and Clojure. McCarthy also coined the term 'artificial intelligence' and organized the Dartmouth workshop.",
+      "about": "Lisp introduced [garbage collection], symbolic expressions, and macros — ideas that influenced [Python], JavaScript, and Clojure. McCarthy also coined the term '[artificial intelligence]' and organized the Dartmouth workshop.",
       "narrative": {
         "whyChosen": "Lisp is the ancestor of [functional programming] and AI research languages.",
         "whyImportant": "It treated code as data — enabling macros and metaprogramming decades early.",

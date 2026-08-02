@@ -11,7 +11,7 @@
       "narrative": {
         "whyChosen": "Announcement at a conference is one moment; delivery is when the language became usable in the wild.",
         "whyImportant": "It moved FORTRAN from research demo to production tool for engineering workloads.",
-        "problemSolved": "Teams needed a working compiler on real hardware, not just a paper specification."
+        "problemSolved": "[Teams] needed a working compiler on real hardware, not just a paper specification."
       },
       "category": "software",
       "tags": [

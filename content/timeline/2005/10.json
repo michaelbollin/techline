@@ -6,11 +6,11 @@
       "date": "2005-10-22",
       "datePrecision": "day",
       "title": "Symfony framework released",
-      "summary": "Fabien Potencier open sourced Symfony — a PHP web framework that later split into reusable components.",
-      "about": "Symfony is a PHP framework for full web applications — routing, forms, security, ORM. Its bigger legacy: standalone components ([HTTP], console, DI) reused by Laravel, Drupal 8+, and others. Typical Symfony apps: enterprise portals, APIs, and multi-module business software in PHP.",
+      "summary": "Fabien Potencier [open source]d [Symfony] — a PHP web framework that later split into reusable components.",
+      "about": "[Symfony] is a PHP framework for full web applications — routing, forms, security, ORM. Its bigger legacy: standalone components ([HTTP], console, DI) reused by Laravel, [Drupal] 8+, and others. Typical [Symfony] apps: enterprise portals, APIs, and multi-module business software in PHP.",
       "narrative": {
-        "whyChosen": "Symfony's component strategy reshaped PHP: frameworks could share HttpFoundation, Console, and DI instead of reinventing them.",
-        "whyImportant": "Laravel, Drupal, and others built on Symfony components, creating a shared PHP infrastructure layer.",
+        "whyChosen": "[Symfony]'s component strategy reshaped PHP: frameworks could share HttpFoundation, Console, and DI instead of reinventing them.",
+        "whyImportant": "Laravel, [Drupal], and others built on [Symfony] components, creating a shared PHP infrastructure layer.",
         "problemSolved": "PHP projects duplicated request handling, routing, and bootstrapping code across every framework."
       },
       "category": "software",
@@ -52,11 +52,11 @@
       "datePrecision": "day",
       "title": "Sony BMG rootkit DRM exposed",
       "summary": "On October 31, 2005, Sysinternals researcher Mark Russinovich revealed that Sony BMG music CDs installed a hidden rootkit — XCP — that opened security holes on Windows PCs.",
-      "about": "Sony's copy protection phoned home, hid files from the [OS], and was trivially exploited by other malware. The scandal united security researchers and civil-liberties advocates against DRM that compromised user machines — leading to recalls, lawsuits, and lasting skepticism of anti-piracy software shipping with entertainment products.",
+      "about": "Sony's copy protection phoned home, hid files from the [OS], and was trivially exploited by other [malware]. The scandal united security researchers and civil-liberties advocates against [DRM] that compromised user machines — leading to recalls, lawsuits, and lasting skepticism of anti-piracy software shipping with entertainment products.",
       "narrative": {
-        "whyChosen": "The Sony rootkit proved anti-piracy DRM could be worse than the piracy it fought.",
+        "whyChosen": "The Sony rootkit proved anti-piracy [DRM] could be worse than the piracy it fought.",
         "whyImportant": "It made [kernel]-level copy protection politically toxic for a decade.",
-        "problemSolved": "Nothing for users — it showed entertainment DRM could install undeletable rootkits on PCs."
+        "problemSolved": "Nothing for users — it showed entertainment [DRM] could install undeletable rootkits on PCs."
       },
       "category": "culture",
       "tags": [

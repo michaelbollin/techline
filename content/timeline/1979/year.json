@@ -7,10 +7,10 @@
       "datePrecision": "year",
       "title": "Oracle Database 2 shipped",
       "summary": "Relational Software Inc. released Oracle Version 2 in 1979 — the first commercially available [SQL] [relational database].",
-      "about": "Oracle brought [SQL] to the commercial market before [IBM]'s DB2 — banks, governments, and enterprises ran it on minicomputers for OLTP and reporting. It grew into the dominant enterprise RDBMS with PL/[SQL], RAC clustering, and cloud Autonomous Database. Example: a billing system storing customers, invoices, and payments with ACID transactions and indexed lookups.",
+      "about": "Oracle brought [SQL] to the commercial market before [IBM]'s DB2 — banks, governments, and enterprises ran it on minicomputers for OLTP and reporting. It grew into the dominant enterprise RDBMS with PL/[SQL], RAC clustering, and cloud Autonomous Database. Example: a billing system storing customers, invoices, and payments with [ACID] transactions and indexed lookups.",
       "narrative": {
         "whyChosen": "Oracle 2 proved [SQL] databases could be sold as products, not just research demos.",
-        "whyImportant": "It launched the commercial [relational database] industry alongside [IBM] and later Microsoft [SQL] Server.",
+        "whyImportant": "It launched the commercial [relational database] industry alongside [IBM] and later [Microsoft] [SQL] Server.",
         "problemSolved": "Organizations needed a proven [SQL] engine they could buy, deploy, and bet their business on."
       },
       "category": "software",
@@ -115,7 +115,7 @@
       "narrative": {
         "whyChosen": "The funniest accurate model of software project timelines.",
         "whyImportant": "It named the optimism bias that planning tools rarely fix.",
-        "problemSolved": "Teams kept underestimating complex work despite prior experience."
+        "problemSolved": "[Teams] kept underestimating complex work despite prior experience."
       },
       "tags": [
         "quote",

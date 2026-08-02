@@ -6,12 +6,12 @@
       "date": "1988-09",
       "datePrecision": "month",
       "title": "POSIX.1 standardized",
-      "summary": "[IEEE] published [POSIX].1 in September 1988 — standardizing Unix system call and C [API] interfaces for portable operating systems.",
-      "about": "[POSIX] let developers write code that compiled on Solaris, AIX, Linux, and macOS without rewriting syscalls. It formalized what 'Unix-like' meant — shells, threads, and file I/O semantics that WSL and containers still emulate today.",
+      "summary": "[IEEE] published [POSIX].1 in September 1988 — standardizing [Unix] system call and C [API] interfaces for portable operating systems.",
+      "about": "[POSIX] let developers write code that compiled on Solaris, AIX, Linux, and [macOS] without rewriting syscalls. It formalized what '[Unix]-like' meant — shells, threads, and file I/O semantics that WSL and containers still emulate today.",
       "narrative": {
-        "whyChosen": "[POSIX] unified the fragmented Unix vendor landscape under one portable [API].",
-        "whyImportant": "It made cross-platform systems programming possible across commercial Unix and Linux.",
-        "problemSolved": "Every Unix vendor shipped incompatible libc and syscall variants."
+        "whyChosen": "[POSIX] unified the fragmented [Unix] vendor landscape under one portable [API].",
+        "whyImportant": "It made cross-platform systems programming possible across commercial [Unix] and Linux.",
+        "problemSolved": "Every [Unix] vendor shipped incompatible libc and syscall variants."
       },
       "category": "protocol",
       "tags": [

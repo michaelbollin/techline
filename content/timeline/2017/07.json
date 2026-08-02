@@ -6,12 +6,12 @@
       "date": "2017-07",
       "datePrecision": "month",
       "title": "Windows Phone 8.1 support ended",
-      "summary": "Microsoft ended Windows Phone 8.1 support on July 11, 2017 — closing the chapter on the third major smartphone platform for developers.",
-      "about": "Windows Phone 8.1 stopped receiving security updates and store submissions wound down. Teams that built C#/XAML apps for Lumia devices migrated to iOS and Android or abandoned mobile clients. Windows 10 Mobile continued receiving updates until January 14, 2020, when Microsoft ended support for its last phone [OS] entirely.",
+      "summary": "[Microsoft] ended Windows Phone 8.1 support on July 11, 2017 — closing the chapter on the third major smartphone platform for developers.",
+      "about": "Windows Phone 8.1 stopped receiving security updates and store submissions wound down. [Teams] that built C#/XAML apps for Lumia devices migrated to [iOS] and [Android] or abandoned mobile clients. Windows 10 Mobile continued receiving updates until January 14, 2020, when [Microsoft] ended support for its last phone [OS] entirely.",
       "narrative": {
-        "whyChosen": "Windows Phone's end shut down a native mobile platform outside the iOS–Android duopoly.",
+        "whyChosen": "Windows Phone's end shut down a native mobile platform outside the [iOS]–[Android] duopoly.",
         "whyImportant": "It consolidated mobile development into two ecosystems for most of the 2010s.",
-        "problemSolved": "Microsoft exited a market it could not sustain against entrenched app stores and developer mindshare."
+        "problemSolved": "[Microsoft] exited a market it could not sustain against entrenched [App Store]s and developer mindshare."
       },
       "category": "hardware",
       "tags": [
@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "Mila AI institute incorporated",
       "summary": "Mila — Quebec's [Artificial Intelligence] Institute — incorporated as a nonprofit on July 19, 2017 under Yoshua Bengio's leadership, expanding a research lab dating to 1993.",
-      "about": "Mila consolidated Montreal's AI ecosystem under Bengio's scientific direction — attracting Element AI, corporate labs, and hundreds of researchers. It became the institutional anchor behind Bengio's Turing Award recognition.",
+      "about": "Mila consolidated Montreal's AI ecosystem under Bengio's scientific direction — attracting Element AI, corporate labs, and hundreds of researchers. It became the institutional anchor behind Bengio's [Turing Award] recognition.",
       "narrative": {
         "whyChosen": "Mila turned Montreal into a global deep-learning hub rivaling Silicon Valley labs.",
         "whyImportant": "It proved regional AI clusters could scale through nonprofit academic institutes.",

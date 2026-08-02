@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "Netscape browser discontinued",
       "summary": "AOL ended development of the [Netscape] browser on March 1, 2008 — closing the chapter on the company that once dominated the web.",
-      "about": "[Netscape]'s demise marked the end of the browser that launched the commercial web and the browser wars. Mozilla Firefox carried its codebase forward, but the [Netscape] brand — once synonymous with the internet — faded as IE and later Chrome took over.",
+      "about": "[Netscape]'s demise marked the end of the browser that launched the commercial web and the browser wars. [Mozilla] [Firefox] carried its codebase forward, but the [Netscape] brand — once synonymous with the internet — faded as [IE] and later [Chrome] took over.",
       "narrative": {
         "whyChosen": "[Netscape]'s shutdown bookended the first era of the browser wars.",
-        "whyImportant": "It cemented Firefox/Mozilla as the heir to [Netscape]'s open-web mission.",
+        "whyImportant": "It cemented [Firefox]/[Mozilla] as the heir to [Netscape]'s open-web mission.",
         "problemSolved": "AOL could not sustain a competing browser; users needed a clear migration path to supported software."
       },
       "category": "software",
@@ -116,11 +116,11 @@
       "datePrecision": "day",
       "title": "Ballmer: \"Web developers!\" chant",
       "summary": "At MIX08 in Las Vegas, Ballmer reprised his famous developers chant after an audience member asked for love for the web dev community.",
-      "about": "Ballmer was interviewing with Guy Kawasaki when a developer in the crowd requested the ritual. The moment tied Microsoft's Silverlight and web platform push to the same sweaty enthusiasm as the 2000 original.",
+      "about": "Ballmer was interviewing with Guy Kawasaki when a developer in the crowd requested the ritual. The moment tied [Microsoft]'s Silverlight and web platform push to the same sweaty enthusiasm as the 2000 original.",
       "narrative": {
         "whyChosen": "The sequel meme — developers chant updated for the web era.",
-        "whyImportant": "It signaled Microsoft's courtship of web developers during the [Flash]/Silverlight wars.",
-        "problemSolved": "MIX needed a viral moment to rally the web community around Microsoft's stack."
+        "whyImportant": "It signaled [Microsoft]'s courtship of web developers during the [Flash]/Silverlight wars.",
+        "problemSolved": "MIX needed a viral moment to rally the web community around [Microsoft]'s stack."
       },
       "category": "quote",
       "tags": [

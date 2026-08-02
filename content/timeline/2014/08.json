@@ -7,10 +7,10 @@
       "datePrecision": "month",
       "title": "ESP8266 Wi-Fi module popularized",
       "summary": "The ESP8266 Wi-Fi microcontroller module gained widespread developer adoption in August 2014 — cheap [TCP]/[IP] on a breadboard-friendly chip.",
-      "about": "Espressif's ESP8266 combined a Tensilica core with Wi-Fi for a few dollars — makers flashed NodeMCU and Arduino sketches to build IoT sensors, smart plugs, and MQTT clients. It democratized connected embedded projects before ESP32 added Bluetooth and more GPIO. Home automation and hobby IoT exploded on this module.",
+      "about": "Espressif's ESP8266 combined a Tensilica core with Wi-Fi for a few dollars — makers flashed NodeMCU and Arduino sketches to build [IoT] sensors, smart plugs, and MQTT clients. It democratized connected embedded projects before ESP32 added Bluetooth and more GPIO. Home [automation] and hobby [IoT] exploded on this module.",
       "narrative": {
         "whyChosen": "The ESP8266 made Wi-Fi-enabled microcontrollers affordable for hobbyists and startups.",
-        "whyImportant": "It sparked the consumer IoT maker wave alongside Arduino and Raspberry Pi.",
+        "whyImportant": "It sparked the consumer [IoT] maker wave alongside Arduino and Raspberry Pi.",
         "problemSolved": "Adding Wi-Fi to embedded projects previously required expensive modules and complex stacks."
       },
       "category": "hardware",

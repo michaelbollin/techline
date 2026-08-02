@@ -6,12 +6,12 @@
       "date": "2015-11-30",
       "datePrecision": "day",
       "title": "Symfony 3.0 released",
-      "summary": "Symfony 3.0 shipped on November 30, 2015 — simplifying the framework with fewer core bundles and a cleaner directory structure.",
-      "about": "Symfony 3 trimmed legacy bundles into standalone components and tightened the full-stack framework for PHP 5.5+. It powered Laravel's HttpFoundation, Drupal 8+, and enterprise APIs — setting patterns for dependency injection and [HTTP] abstractions across PHP.",
+      "summary": "[Symfony] 3.0 shipped on November 30, 2015 — simplifying the framework with fewer core bundles and a cleaner directory structure.",
+      "about": "[Symfony] 3 trimmed legacy bundles into standalone components and tightened the full-stack framework for PHP 5.5+. It powered Laravel's HttpFoundation, [Drupal] 8+, and enterprise APIs — setting patterns for dependency injection and [HTTP] abstractions across PHP.",
       "narrative": {
-        "whyChosen": "Symfony 3 modernized the framework that shaped PHP's component ecosystem.",
-        "whyImportant": "Standalone components let teams adopt Symfony pieces without the full stack.",
-        "problemSolved": "Symfony 2 carried bundle sprawl and legacy paths that confused new adopters."
+        "whyChosen": "[Symfony] 3 modernized the framework that shaped PHP's component ecosystem.",
+        "whyImportant": "Standalone components let teams adopt [Symfony] pieces without the full stack.",
+        "problemSolved": "[Symfony] 2 carried bundle sprawl and legacy paths that confused new adopters."
       },
       "category": "software",
       "tags": [
@@ -53,7 +53,7 @@
       "datePrecision": "day",
       "title": "Raspberry Pi Zero released",
       "summary": "The Raspberry Pi Foundation released the Pi Zero on November 26, 2015 — a $5 [single-board computer] the size of a stick of gum.",
-      "about": "The Zero trimmed GPIO and ports to hit a five-dollar price — makers embedded it in drones, wearables, and IoT prototypes where a full Pi was overkill. It ran the same Linux userspace as the Model B, so Python and GPIO code ported easily. The Zero W later added Wi-Fi for headless projects.",
+      "about": "The Zero trimmed GPIO and ports to hit a five-dollar price — makers embedded it in drones, wearables, and [IoT] prototypes where a full Pi was overkill. It ran the same Linux userspace as the Model B, so [Python] and GPIO code ported easily. The Zero W later added Wi-Fi for headless projects.",
       "narrative": {
         "whyChosen": "The Pi Zero made embedded Linux almost disposable-cheap for hobby and production prototypes.",
         "whyImportant": "It extended the Raspberry Pi ecosystem into ultra-compact and cost-sensitive projects.",
@@ -101,7 +101,7 @@
       "date": "2015-11-09",
       "datePrecision": "day",
       "title": "TensorFlow open sourced",
-      "summary": "Google open sourced TensorFlow on November 9, 2015 — a [machine learning] framework for training and deploying [neural network]s at scale.",
+      "summary": "Google [open source]d TensorFlow on November 9, 2015 — a [machine learning] framework for training and deploying [neural network]s at scale.",
       "about": "TensorFlow (`tf.keras`, computational graphs, TPU support) replaced Google's internal DistBelief stack and became the default ML toolkit for researchers and production teams. It powers recommendation, vision, and [NLP] systems — though PyTorch later challenged it in research.",
       "narrative": {
         "whyChosen": "TensorFlow democratized Google's production ML infrastructure for the wider community.",
@@ -154,12 +154,12 @@
       "date": "2015-11-19",
       "datePrecision": "day",
       "title": "Drupal 8 released",
-      "summary": "Drupal 8.0 shipped on November 19, 2015 — rebuilding core on Symfony components with REST APIs and configuration management.",
-      "about": "Drupal 8 replaced procedural hooks with [OOP] services, Twig templates, and Symfony's [HTTP] [kernel] — a five-year rewrite that aligned Drupal with modern PHP. It added JSON APIs and CMI for deploying config between environments, setting the foundation for Drupal 9/10.",
+      "summary": "[Drupal] 8.0 shipped on November 19, 2015 — rebuilding core on [Symfony] components with [REST] APIs and configuration management.",
+      "about": "[Drupal] 8 replaced procedural hooks with [OOP] services, Twig templates, and [Symfony]'s [HTTP] [kernel] — a five-year rewrite that aligned [Drupal] with modern PHP. It added [JSON] APIs and CMI for deploying config between environments, setting the foundation for [Drupal] 9/10.",
       "narrative": {
-        "whyChosen": "Drupal 8 was the Symfony modernization that kept Drupal relevant in enterprise PHP.",
-        "whyImportant": "It brought REST-first architecture and composer-based workflows to a major CMS.",
-        "problemSolved": "Drupal 7's legacy architecture could not match modern PHP frameworks and [API] expectations."
+        "whyChosen": "[Drupal] 8 was the [Symfony] modernization that kept [Drupal] relevant in enterprise PHP.",
+        "whyImportant": "It brought [REST]-first architecture and composer-based workflows to a major [CMS].",
+        "problemSolved": "[Drupal] 7's legacy architecture could not match modern PHP frameworks and [API] expectations."
       },
       "category": "software",
       "tags": [
@@ -210,12 +210,12 @@
       "date": "2015-11-17",
       "datePrecision": "day",
       "title": "Magento 2.0 released",
-      "summary": "Magento Commerce released Magento 2.0 on November 17, 2015 — a full re-architecture with dependency injection, Composer, and a new admin [UI].",
-      "about": "Magento 2 replaced the 1.x codebase with modular PHP, DI containers, and improved caching — a painful but necessary migration for enterprise e-commerce. It introduced new checkout flows, Page Builder (later), and the path to Adobe Commerce after Adobe's acquisition.",
+      "summary": "[Magento] Commerce released [Magento] 2.0 on November 17, 2015 — a full re-architecture with dependency injection, Composer, and a new admin [UI].",
+      "about": "[Magento] 2 replaced the 1.x codebase with modular PHP, DI containers, and improved caching — a painful but necessary migration for enterprise e-commerce. It introduced new checkout flows, Page Builder (later), and the path to Adobe Commerce after Adobe's [acquisition].",
       "narrative": {
-        "whyChosen": "Magento 2 was the platform rewrite merchants needed for modern PHP commerce.",
-        "whyImportant": "Dependency injection and Composer aligned Magento with enterprise PHP practices.",
-        "problemSolved": "Magento 1's legacy architecture could not meet performance and extensibility demands at scale."
+        "whyChosen": "[Magento] 2 was the platform rewrite merchants needed for modern PHP commerce.",
+        "whyImportant": "Dependency injection and Composer aligned [Magento] with enterprise PHP practices.",
+        "problemSolved": "[Magento] 1's legacy architecture could not meet performance and extensibility demands at scale."
       },
       "category": "software",
       "tags": [
@@ -258,7 +258,7 @@
       "datePrecision": "day",
       "title": "Jamstack term coined",
       "summary": "Matt Biilmann published \"What is the JAMstack?\" on November 16, 2015 — naming the JavaScript, APIs, and Markup architecture [Netlify] had been enabling.",
-      "about": "[Jamstack] described pre-rendered sites served from CDNs with serverless APIs — decoupling the frontend from monolithic backends. The term gave a vocabulary to static site generators, headless CMSs, and Git-based deploy workflows that defined modern web development.",
+      "about": "[Jamstack] described pre-rendered sites served from CDNs with serverless APIs — decoupling the frontend from monolithic backends. The term gave a vocabulary to static site generators, headless CMSs, and [Git]-based deploy workflows that defined modern web development.",
       "narrative": {
         "whyChosen": "[Jamstack] named the architectural shift from LAMP monoliths to composable frontends.",
         "whyImportant": "It unified static generators, headless CMSs, and CDN deploys under one movement.",
@@ -306,7 +306,7 @@
       "datePrecision": "day",
       "title": "ERC-20 token standard finalized",
       "summary": "EIP-20 finalized the ERC-20 fungible token interface on November 19, 2015 — standardizing `transfer`, `approve`, and `balanceOf` for Ethereum tokens.",
-      "about": "ERC-20 let exchanges, wallets, and [DeFi] protocols integrate any compliant token without custom code. The 2017 ICO wave minted thousands of ERC-20 assets; Uniswap pools and MetaMask balances all assume this ABI. It became the template every EVM chain copied.",
+      "about": "ERC-20 let exchanges, wallets, and [DeFi] protocols integrate any compliant token without custom code. The 2017 ICO wave minted thousands of ERC-20 assets; [Uniswap] pools and MetaMask balances all assume this ABI. It became the template every EVM chain copied.",
       "narrative": {
         "whyChosen": "ERC-20 standardized how fungible assets work on Ethereum.",
         "whyImportant": "A common interface unlocked composable [DeFi] and exchange integrations.",

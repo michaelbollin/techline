@@ -6,10 +6,10 @@
       "date": "2015-09-08",
       "datePrecision": "day",
       "title": "Node.js 4.0 released",
-      "summary": "Node.js 4.0.0 shipped on September 8, 2015, merging the io.js fork back into Node with V8 4.5 and native ES6 support; the first official [LTS] line began with 4.2.0 'Argon' in October 2015.",
-      "about": "Node 4 ended the io.js schism and established even-numbered [LTS] releases. Arrow functions, classes, and template literals worked natively; npm 2 shipped bundled. It became the baseline for Express, Koa, and the MEAN/MERN stacks of the mid-2010s.",
+      "summary": "[Node.js] 4.0.0 shipped on September 8, 2015, merging the io.js fork back into [Node] with [V8] 4.5 and native ES6 support; the first official [LTS] line began with 4.2.0 'Argon' in October 2015.",
+      "about": "[Node] 4 ended the io.js schism and established even-numbered [LTS] releases. Arrow functions, classes, and template literals worked natively; [npm] 2 shipped bundled. It became the baseline for Express, Koa, and the MEAN/MERN stacks of the mid-2010s.",
       "narrative": {
-        "whyChosen": "Node 4 reunited the community after the io.js fork and defined modern Node [LTS].",
+        "whyChosen": "[Node] 4 reunited the community after the io.js fork and defined modern [Node] [LTS].",
         "whyImportant": "The [LTS] policy gave enterprises a stable line while odd versions experimented.",
         "problemSolved": "The io.js fork split contributors and left production teams unsure which runtime to ship."
       },
@@ -54,10 +54,10 @@
       "date": "2015-09-25",
       "datePrecision": "day",
       "title": "iPhone 6S released",
-      "summary": "Apple released the iPhone 6S on September 25, 2015 — adding 3D Touch pressure sensitivity and Live Photos.",
+      "summary": "Apple released the [iPhone] 6S on September 25, 2015 — adding 3D Touch pressure sensitivity and Live Photos.",
       "about": "3D Touch introduced peek-and-pop interactions and quick actions — a short-lived but influential pressure [UI] layer. Developers experimented with context menus before long-press and haptics replaced most use cases.",
       "narrative": {
-        "whyChosen": "The 6S introduced pressure-sensitive input as an iOS developer surface.",
+        "whyChosen": "The 6S introduced pressure-sensitive input as an [iOS] developer surface.",
         "whyImportant": "3D Touch APIs let apps expose preview and shortcut interactions from the home screen and in-app.",
         "problemSolved": "Touch UIs lacked a middle ground between tap and long-press for previews."
       },
@@ -169,12 +169,12 @@
       "date": "2015-09-30",
       "datePrecision": "day",
       "title": "Safari 9 released",
-      "summary": "Apple released Safari 9 on September 30, 2015 with [OS] X El Capitan — adding pinned tabs, AirPlay support, and improved JavaScript performance.",
-      "about": "Safari 9 refined the El Capitan experience with muteable tabs, content blocking extensions, and CSS scroll snapping. It kept WebKit competitive as mobile browsing overtook desktop for many sites.",
+      "summary": "Apple released [Safari] 9 on September 30, 2015 with [OS] X El Capitan — adding pinned tabs, AirPlay support, and improved JavaScript performance.",
+      "about": "[Safari] 9 refined the El Capitan experience with muteable tabs, content blocking extensions, and [CSS] scroll snapping. It kept [WebKit] competitive as mobile browsing overtook desktop for many sites.",
       "narrative": {
-        "whyChosen": "Safari 9 added content blockers and pinned tabs that shaped desktop browsing habits.",
+        "whyChosen": "[Safari] 9 added content blockers and pinned tabs that shaped desktop browsing habits.",
         "whyImportant": "Content blocking extensions changed the ad and privacy landscape on Mac.",
-        "problemSolved": "Users wanted Safari-native ad blocking without third-party plugins like Flash."
+        "problemSolved": "Users wanted [Safari]-native ad blocking without third-party plugins like [Flash]."
       },
       "category": "software",
       "tags": [

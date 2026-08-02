@@ -6,12 +6,12 @@
       "date": "2011-10-08",
       "datePrecision": "day",
       "title": "GitLab first released",
-      "summary": "Dmitriy Zaporozhets created GitLab on October 8, 2011 — an open-source Git forge with issues, merge requests, and CI built in.",
-      "about": "GitLab bundles Git hosting, code review, issue tracking, and DevOps pipelines in one Rails application — self-hosted or on GitLab.com. It became the main open-source alternative to GitHub, especially for enterprises wanting on-prem control. Example: push to a protected branch, open a merge request, and run CI jobs before merge.",
+      "summary": "Dmitriy Zaporozhets created GitLab on October 8, 2011 — an open-source [Git] forge with issues, merge requests, and CI built in.",
+      "about": "GitLab bundles [Git] hosting, code review, issue tracking, and [DevOps] pipelines in one Rails application — self-hosted or on GitLab.com. It became the main open-source alternative to [GitHub], especially for enterprises wanting on-prem control. Example: push to a protected branch, open a merge request, and run CI jobs before merge.",
       "narrative": {
-        "whyChosen": "GitLab proved a full DevOps platform could ship as open-source, not just Git hosting.",
-        "whyImportant": "It gave teams a GitHub alternative with built-in CI/[CD] and self-hosting from day one.",
-        "problemSolved": "Teams wanted Git collaboration without depending on a single proprietary SaaS forge."
+        "whyChosen": "GitLab proved a full [DevOps] platform could ship as open-source, not just [Git] hosting.",
+        "whyImportant": "It gave teams a [GitHub] alternative with built-in CI/[CD] and self-hosting from day one.",
+        "problemSolved": "[Teams] wanted [Git] collaboration without depending on a single proprietary [SaaS] forge."
       },
       "category": "software",
       "tags": [
@@ -60,7 +60,7 @@
       "datePrecision": "day",
       "title": "Andrew Ng's Stanford ML course goes online",
       "summary": "Andrew Ng's free online [Machine Learning] course ran from October 10 to December 16, 2011 with over 100,000 enrollees — predating Coursera (which launched in 2012).",
-      "about": "Ng's MOOCs democratized ML education before ChatGPT — training practitioners who later built recommendation, vision, and [NLP] products. He also led Google Brain and Baidu AI Lab.",
+      "about": "Ng's MOOCs democratized ML education before [ChatGPT] — training practitioners who later built recommendation, vision, and [NLP] products. He also led Google Brain and Baidu AI Lab.",
       "narrative": {
         "whyChosen": "Ng's courses created the first mass audience of practicing ML engineers.",
         "whyImportant": "MOOCs bridged academia and industry hiring pipelines for data science.",
@@ -112,7 +112,7 @@
       "summary": "Google unveiled Dart on October 10, 2011 at GOTO Aarhus — a structured web language compiling to JavaScript or a VM.",
       "about": "Dart targets Flutter mobile/desktop apps, web via dart2js, and server-side tooling. Optional typing, sound null safety (2.0), and async/await made it Google's answer to large-scale client code. Flutter's widget framework made Dart the language behind many cross-platform apps.",
       "narrative": {
-        "whyChosen": "Dart + Flutter became Google's cross-platform [UI] stack rivaling React Native.",
+        "whyChosen": "Dart + Flutter became Google's cross-platform [UI] stack rivaling [React] Native.",
         "whyImportant": "It showed a language could target both JS engines and a native VM for structured large web apps.",
         "problemSolved": "JavaScript lacked optional types and tooling for million-line web clients; Google wanted a structured alternative."
       },
@@ -164,8 +164,8 @@
       "date": "2011-10-14",
       "datePrecision": "day",
       "title": "iPhone 4S released",
-      "summary": "Apple released the iPhone 4S on October 14, 2011 — introducing Siri and the A5 chip in the iPhone 4 body.",
-      "about": "Siri brought voice-driven assistants to mainstream smartphones and gave developers a speech [API] path through iOS integration. The 4S also shipped an 8 MP camera that raised mobile photography expectations for app developers building camera workflows.",
+      "summary": "Apple released the [iPhone] 4S on October 14, 2011 — introducing Siri and the A5 chip in the [iPhone] 4 body.",
+      "about": "Siri brought voice-driven assistants to mainstream smartphones and gave developers a speech [API] path through [iOS] integration. The 4S also shipped an 8 MP camera that raised mobile photography expectations for app developers building camera workflows.",
       "narrative": {
         "whyChosen": "The 4S launched Siri — the assistant that pushed every platform to add voice interfaces.",
         "whyImportant": "Voice control and better cameras expanded what mobile apps could assume about device capabilities.",

@@ -6,12 +6,12 @@
       "date": "2025-07-11",
       "datePrecision": "day",
       "title": "Moonshot Kimi K2 released",
-      "summary": "Moonshot AI open-sourced Kimi K2 on July 11, 2025 — a 1T-parameter MoE model with 32B active parameters, optimized for agentic coding and tool use.",
-      "about": "Kimi K2 brought Chinese open-weight models to the agentic frontier: strong SWE-bench scores, Modified [MIT] license, and reflex-grade tool calling without long thinking chains. It proved Moonshot could ship trillion-parameter open models competitive with Western closed APIs — right as DeepSeek R1 had already shaken inference economics.",
+      "summary": "Moonshot AI open-sourced Kimi K2 on July 11, 2025 — a 1T-parameter MoE model with 32B active parameters, optimized for [agentic] coding and tool use.",
+      "about": "Kimi K2 brought Chinese open-weight models to the [agentic] frontier: strong SWE-bench scores, Modified [MIT] license, and reflex-grade tool calling without long thinking chains. It proved Moonshot could ship trillion-parameter open models competitive with Western closed APIs — right as DeepSeek R1 had already shaken [inference] economics.",
       "narrative": {
-        "whyChosen": "Kimi K2 made open agentic intelligence a credible alternative to closed coding models.",
-        "whyImportant": "Chinese labs expanded from reasoning shocks to open trillion-parameter agent platforms.",
-        "problemSolved": "Teams wanted o3-class agentic coding with weights they could self-host and fine-tune."
+        "whyChosen": "Kimi K2 made open [agentic] intelligence a credible alternative to closed coding models.",
+        "whyImportant": "Chinese labs expanded from [reasoning] shocks to open trillion-parameter agent platforms.",
+        "problemSolved": "[Teams] wanted o3-class [agentic] coding with weights they could self-host and fine-tune."
       },
       "category": "software",
       "tags": [

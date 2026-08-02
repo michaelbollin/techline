@@ -6,12 +6,12 @@
       "date": "2007-01-05",
       "datePrecision": "day",
       "title": "Groovy 1.0 released",
-      "summary": "The Groovy team shipped Groovy 1.0 on January 5, 2007 — a dynamic JVM language with Ruby/Python-style syntax and Java interoperability.",
-      "about": "Groovy scripts Gradle build files, Jenkins pipelines, and Grails web apps — you call Java libraries directly while writing less boilerplate. Closures, builders, and optional typing made it popular for testing (Spock) and DSLs before Kotlin rose on Android.",
+      "summary": "The Groovy team shipped Groovy 1.0 on January 5, 2007 — a dynamic [JVM] language with [Ruby]/[Python]-style syntax and [Java] interoperability.",
+      "about": "Groovy scripts [Gradle] build files, Jenkins pipelines, and Grails web apps — you call [Java] libraries directly while writing less boilerplate. Closures, builders, and optional typing made it popular for testing (Spock) and DSLs before [Kotlin] rose on [Android].",
       "narrative": {
-        "whyChosen": "Groovy 1.0 was the first stable dynamic language designed to run on the JVM beside Java.",
-        "whyImportant": "It proved JVM [bytecode] could host scripting languages and later powered Gradle, the default Android/Java build tool.",
-        "problemSolved": "Java was verbose for scripting and DSLs; developers wanted Ruby-like ergonomics without leaving the Java ecosystem."
+        "whyChosen": "Groovy 1.0 was the first stable dynamic language designed to run on the [JVM] beside [Java].",
+        "whyImportant": "It proved [JVM] [bytecode] could host scripting languages and later powered [Gradle], the default [Android]/[Java] build tool.",
+        "problemSolved": "[Java] was verbose for scripting and DSLs; developers wanted [Ruby]-like ergonomics without leaving the [Java] ecosystem."
       },
       "category": "software",
       "tags": [
@@ -60,10 +60,10 @@
       "date": "2007-01-09",
       "datePrecision": "day",
       "title": "Steve Jobs introduces the iPhone",
-      "summary": "Steve Jobs unveiled the iPhone at Macworld on January 9, 2007 — combining a phone, iPod, and internet communicator.",
-      "about": "The iPhone shifted mobile computing from feature phones and BlackBerry keyboards to touch-first smartphones — spawning the App Store economy and mobile-first web development.",
+      "summary": "Steve Jobs unveiled the [iPhone] at Macworld on January 9, 2007 — combining a phone, iPod, and internet communicator.",
+      "about": "The [iPhone] shifted mobile computing from feature phones and BlackBerry keyboards to touch-first smartphones — spawning the [App Store] economy and mobile-first web development.",
       "narrative": {
-        "whyChosen": "The iPhone redefined personal computing around mobile apps and touch [UI].",
+        "whyChosen": "The [iPhone] redefined personal computing around mobile apps and touch [UI].",
         "whyImportant": "It made mobile web and native apps central to how software is built and consumed.",
         "problemSolved": "Phones were clumsy for browsing and lacked a unified pocket computer experience."
       },

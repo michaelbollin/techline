@@ -6,10 +6,10 @@
       "date": "1996",
       "datePrecision": "year",
       "title": "Sun Enterprise 10000 released",
-      "summary": "Sun Microsystems shipped the Enterprise 10000 (\"Starfire\") in 1996 — a massively scalable [Unix] server for datacenter workloads.",
-      "about": "The E10K packed dozens of UltraSPARC CPUs in a single cabinet — banks, telcos, and dot-coms ran Oracle, SAP, and custom Java services on it. For backend developers, Starfire represented the high end of the Solaris ecosystem before Linux on commodity [x86] took over datacenters. Hot-swappable boards and partitioning foreshadowed cloud instance sizing.",
+      "summary": "[Sun] Microsystems shipped the Enterprise 10000 (\"Starfire\") in 1996 — a massively scalable [Unix] server for datacenter workloads.",
+      "about": "The E10K packed dozens of UltraSPARC CPUs in a single cabinet — banks, telcos, and dot-coms ran Oracle, SAP, and custom [Java] services on it. For backend developers, Starfire represented the high end of the Solaris ecosystem before Linux on commodity [x86] took over datacenters. Hot-swappable boards and partitioning foreshadowed cloud instance sizing.",
       "narrative": {
-        "whyChosen": "The Enterprise 10000 was Sun's flagship datacenter [Unix] server of the dot-com era.",
+        "whyChosen": "The Enterprise 10000 was [Sun]'s flagship datacenter [Unix] server of the dot-com era.",
         "whyImportant": "It showed how [Unix] servers scaled vertically before horizontal Linux clusters dominated.",
         "problemSolved": "Enterprises needed single-system image [Unix] servers with 64+ processors for massive databases and transaction processing."
       },

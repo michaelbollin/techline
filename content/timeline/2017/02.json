@@ -6,12 +6,12 @@
       "date": "2017-02-26",
       "datePrecision": "day",
       "title": "NestJS introduced",
-      "summary": "Kamil Myśliwiec started NestJS — a TypeScript-first Node.js framework inspired by Angular's module/DI architecture.",
-      "about": "NestJS structures Node.js backends like Spring or Angular — modules, controllers, dependency injection, decorators. Used for REST and GraphQL APIs, microservices, and enterprise TypeScript servers. Example: a typed [API] with auth guards, Swagger docs, and PostgreSQL via TypeORM — without Express spaghetti.",
+      "summary": "Kamil Myśliwiec started NestJS — a [TypeScript]-first [Node.js] framework inspired by Angular's module/DI architecture.",
+      "about": "NestJS structures [Node.js] backends like Spring or Angular — modules, controllers, dependency injection, decorators. Used for [REST] and GraphQL APIs, [microservices], and enterprise [TypeScript] servers. Example: a typed [API] with auth guards, Swagger docs, and PostgreSQL via TypeORM — without Express spaghetti.",
       "narrative": {
-        "whyChosen": "NestJS brought structure to Node backends when Express-only codebases became hard to maintain at scale.",
-        "whyImportant": "Decorators, dependency injection, and modules made enterprise patterns normal in TypeScript APIs.",
-        "problemSolved": "Node.js lacked a batteries-included, opinionated framework comparable to Spring or Angular."
+        "whyChosen": "NestJS brought structure to [Node] backends when Express-only codebases became hard to maintain at scale.",
+        "whyImportant": "Decorators, dependency injection, and modules made enterprise patterns normal in [TypeScript] APIs.",
+        "problemSolved": "[Node.js] lacked a batteries-included, opinionated framework comparable to Spring or Angular."
       },
       "category": "software",
       "tags": [
@@ -60,10 +60,10 @@
       "date": "2017-02-28",
       "datePrecision": "day",
       "title": "WebAssembly MVP design finished",
-      "summary": "Browser vendors reached [WebAssembly] MVP design consensus on February 28, 2017 — portable binary code for browsers; Firefox 52 began shipping Wasm in early March 2017.",
-      "about": "[WebAssembly] (Wasm) runs C, C++, Rust, and other languages in the browser at near-native speed — games, video editors, and Figma-class apps in the tab. Also runs on servers (Wasmtime, Wasmer) and as a portable sandbox. Compiles from LLVM and ships as a compact `.wasm` binary.",
+      "summary": "Browser vendors reached [WebAssembly] MVP design consensus on February 28, 2017 — portable binary code for browsers; [Firefox] 52 began shipping Wasm in early March 2017.",
+      "about": "[WebAssembly] (Wasm) runs C, C++, [Rust], and other languages in the browser at near-native speed — games, video editors, and Figma-class apps in the tab. Also runs on servers (Wasmtime, Wasmer) and as a portable sandbox. Compiles from [LLVM] and ships as a compact `.wasm` binary.",
       "narrative": {
-        "whyChosen": "[WebAssembly] became the fourth web platform language alongside [HTML], CSS, and JavaScript.",
+        "whyChosen": "[WebAssembly] became the fourth web platform language alongside [HTML], [CSS], and JavaScript.",
         "whyImportant": "It let existing native codebases run in browsers without rewriting everything in JS.",
         "problemSolved": "JavaScript could not match native performance for heavy compute; asm.js proved the concept but needed a standard binary format."
       },

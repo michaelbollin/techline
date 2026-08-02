@@ -7,7 +7,7 @@
       "datePrecision": "day",
       "title": "PostCSS released",
       "summary": "Andrey Sitnik released PostCSS 0.1.0 on November 4, 2013 — a framework for transforming [CSS] with JavaScript plugins.",
-      "about": "PostCSS parses [CSS] into an AST, runs plugins ([Autoprefixer], cssnano, [Tailwind]), and outputs transformed styles — a postprocessor pipeline that works with any preprocessor or plain [CSS]. It became the backbone of modern front-end builds, powering millions of weekly npm downloads through webpack, [Vite], and Create [React] App.",
+      "about": "PostCSS parses [CSS] into an AST, runs plugins ([Autoprefixer], cssnano, [Tailwind]), and outputs transformed styles — a postprocessor pipeline that works with any preprocessor or plain [CSS]. It became the backbone of modern front-end builds, powering millions of weekly [npm] downloads through webpack, [Vite], and Create [React] App.",
       "narrative": {
         "whyChosen": "PostCSS created an extensible plugin ecosystem for [CSS] transformation.",
         "whyImportant": "It separated [CSS] authoring from build-time transforms like prefixing, minification, and future syntax.",
@@ -63,9 +63,9 @@
       "datePrecision": "day",
       "title": "Wix IPO",
       "summary": "Wix began trading on NASDAQ on November 6, 2013 under ticker WIX — raising $127 million at $16.50 per share.",
-      "about": "The IPO validated freemium website builders as a public-market category alongside Twitter's debut that same week. Wix had grown to 40 million registered users with a drag-and-drop editor that let small businesses publish without developers.",
+      "about": "The [IPO] validated freemium website builders as a public-market category alongside Twitter's debut that same week. Wix had grown to 40 million registered users with a drag-and-drop editor that let small businesses publish without developers.",
       "narrative": {
-        "whyChosen": "Wix's IPO marked website builders as a scalable public [SaaS] business.",
+        "whyChosen": "Wix's [IPO] marked website builders as a scalable public [SaaS] business.",
         "whyImportant": "Public capital funded international expansion and product development for no-code publishing.",
         "problemSolved": "Freemium builders needed growth capital beyond venture rounds to compete at scale."
       },
@@ -113,11 +113,11 @@
       "datePrecision": "day",
       "title": "Nokia Lumia 1520 released",
       "summary": "Nokia released the Nokia Lumia 1520 — 6-inch phablet Windows Phone with 1080p display.",
-      "about": "Nokia hardware shaped pre-iPhone smartphones and later Microsoft's mobile platform bet. 6-inch phablet windows phone with 1080p display.",
+      "about": "Nokia hardware shaped pre-[iPhone] smartphones and later [Microsoft]'s mobile platform bet. 6-inch phablet windows phone with 1080p display.",
       "narrative": {
         "whyChosen": "The Nokia Lumia 1520 was a flagship Nokia smartphone milestone.",
         "whyImportant": "Nokia devices defined mobile platforms from [Symbian] through Windows Phone.",
-        "problemSolved": "Mobile users needed capable smartphones before the iPhone/[Android] era matured."
+        "problemSolved": "Mobile users needed capable smartphones before the [iPhone]/[Android] era matured."
       },
       "category": "hardware",
       "tags": [
@@ -163,12 +163,12 @@
       "date": "2013-11-27",
       "datePrecision": "day",
       "title": "Ethereum whitepaper published",
-      "summary": "Vitalik Buterin published the Ethereum whitepaper on November 27, 2013 — proposing a blockchain with a built-in Turing-complete programming language for smart contracts.",
-      "about": "Ethereum extended Bitcoin's ledger with accounts, gas, and [bytecode] execution — letting developers deploy unstoppable programs instead of just moving coins. ICOs, DeFi, NFTs, and DAOs all trace to this design: one shared state machine anyone can call.",
+      "summary": "Vitalik Buterin published the Ethereum whitepaper on November 27, 2013 — proposing a [blockchain] with a built-in [Turing]-complete programming language for [smart contract]s.",
+      "about": "Ethereum extended [Bitcoin]'s ledger with accounts, gas, and [bytecode] execution — letting developers deploy unstoppable programs instead of just moving coins. ICOs, [DeFi], NFTs, and DAOs all trace to this design: one shared state machine anyone can call.",
       "narrative": {
         "whyChosen": "Ethereum introduced programmable blockchains to mainstream developer discourse.",
-        "whyImportant": "Smart contracts turned blockchains from ledgers into general-purpose distributed runtimes.",
-        "problemSolved": "Bitcoin's script was intentionally limited; builders wanted arbitrary on-chain logic."
+        "whyImportant": "[smart contract]s turned blockchains from ledgers into general-purpose distributed runtimes.",
+        "problemSolved": "[Bitcoin]'s script was intentionally limited; builders wanted arbitrary on-chain logic."
       },
       "category": "protocol",
       "tags": [

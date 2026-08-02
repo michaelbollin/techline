@@ -6,12 +6,12 @@
       "date": "2008-04-10",
       "datePrecision": "day",
       "title": "GitHub launched",
-      "summary": "Tom Preston-Werner, Chris Wanstrath, and PJ Hyett launched GitHub on April 10, 2008 — hosted Git repositories with a web [UI] and social coding features.",
-      "about": "GitHub hosts repos, pull requests, issues, and Actions CI — the default home for open source and many companies' private code. Rails, Node, and millions of libraries live there. It turned Git from a command-line tool into a collaboration platform with forks, stars, and code review in the browser.",
+      "summary": "Tom Preston-Werner, Chris Wanstrath, and PJ Hyett launched [GitHub] on April 10, 2008 — hosted [Git] repositories with a web [UI] and social coding features.",
+      "about": "[GitHub] hosts repos, pull requests, issues, and Actions CI — the default home for [open source] and many companies' private code. Rails, [Node], and millions of libraries live there. It turned [Git] from a command-line tool into a collaboration platform with forks, stars, and code review in the browser.",
       "narrative": {
-        "whyChosen": "GitHub made Git social and became the center of gravity for open-source development.",
+        "whyChosen": "[GitHub] made [Git] social and became the center of gravity for open-source development.",
         "whyImportant": "Pull requests, public profiles, and free public repos accelerated OSS adoption worldwide.",
-        "problemSolved": "Git was powerful locally but lacked a standard place to host, discover, and review shared code."
+        "problemSolved": "[Git] was powerful locally but lacked a standard place to host, discover, and review shared code."
       },
       "category": "software",
       "tags": [
@@ -67,12 +67,12 @@
       "date": "2008-04-21",
       "datePrecision": "day",
       "title": "Gradle first released",
-      "summary": "Hans Dockter released Gradle 0.1 on April 21, 2008 — a JVM build tool with Groovy DSL scripts and incremental compilation.",
-      "about": "Gradle replaced [XML]-heavy Ant and Maven configs with readable `build.gradle` files — and became Android's official build system. It supports multi-project builds, dependency caching, and Kotlin DSL. Example: `dependencies { implementation 'com.squareup.okhttp3:okhttp:4.12.0' }` resolves from Maven Central and compiles only what changed.",
+      "summary": "Hans Dockter released [Gradle] 0.1 on April 21, 2008 — a [JVM] build tool with Groovy DSL scripts and incremental compilation.",
+      "about": "[Gradle] replaced [XML]-heavy Ant and [Maven] configs with readable `build.gradle` files — and became [Android]'s official build system. It supports multi-project builds, dependency caching, and [Kotlin] DSL. Example: `dependencies { implementation 'com.squareup.okhttp3:okhttp:4.12.0' }` resolves from [Maven] Central and compiles only what changed.",
       "narrative": {
-        "whyChosen": "Gradle modernized JVM builds with a programmable DSL when [XML] configs hit their limits.",
-        "whyImportant": "Android Studio's adoption made Gradle the default build tool for millions of mobile developers.",
-        "problemSolved": "Ant and Maven were rigid; large polyglot projects needed a flexible, incremental build language."
+        "whyChosen": "[Gradle] modernized [JVM] builds with a programmable DSL when [XML] configs hit their limits.",
+        "whyImportant": "[Android] Studio's adoption made [Gradle] the default build tool for millions of mobile developers.",
+        "problemSolved": "Ant and [Maven] were rigid; large polyglot projects needed a flexible, incremental build language."
       },
       "category": "software",
       "tags": [
@@ -131,7 +131,7 @@
       "datePrecision": "day",
       "title": "Phusion Passenger released",
       "summary": "Phusion released Passenger (mod_rails) on April 11, 2008 — an Apache module that runs [Ruby] on Rails apps with PHP-like deployment simplicity.",
-      "about": "Passenger embeds [Ruby] workers inside Apache or nginx — drop files in a vhost, touch `tmp/restart.txt` to reload. No manual Mongrel clusters or reverse-proxy wiring. DHH called it the preferred Rails deployment story; it later added Rack, [Python] WSGI, and Node.js. Example: point Apache's `DocumentRoot` at `myapp/public` and Passenger boots Rails automatically.",
+      "about": "Passenger embeds [Ruby] workers inside Apache or [nginx] — drop files in a vhost, touch `tmp/restart.txt` to reload. No manual Mongrel clusters or reverse-proxy wiring. DHH called it the preferred Rails deployment story; it later added Rack, [Python] WSGI, and [Node.js]. Example: point Apache's `DocumentRoot` at `myapp/public` and Passenger boots Rails automatically.",
       "narrative": {
         "whyChosen": "Passenger made Rails deployment as simple as dropping PHP files on a shared host.",
         "whyImportant": "It lowered the ops bar for [Ruby] web apps and influenced how PaaS platforms thought about app servers.",
@@ -189,7 +189,7 @@
       "datePrecision": "month",
       "title": "Intel Atom announced",
       "summary": "Intel announced the Atom processor family in April 2008 — low-power [x86] chips aimed at netbooks and mobile internet devices.",
-      "about": "Atom powered the netbook boom — cheap laptops that ran Windows or Linux and browsed the web on the go. Developers built lightweight clients and embedded apps on [x86] at watt counts previously reserved for ARM. The line later moved into servers (Avoton) and [IoT] gateways before smartphones shifted the market to ARM SoCs.",
+      "about": "Atom powered the netbook boom — cheap laptops that ran Windows or Linux and browsed the web on the go. Developers built lightweight clients and embedded apps on [x86] at watt counts previously reserved for [ARM]. The line later moved into servers (Avoton) and [IoT] gateways before smartphones shifted the market to [ARM] SoCs.",
       "narrative": {
         "whyChosen": "Atom created the netbook category and brought [x86] to ultra-low-power devices.",
         "whyImportant": "It expanded the addressable market for [x86] software into cheap portables and embedded boards.",
@@ -245,12 +245,12 @@
       "date": "2008-04-07",
       "datePrecision": "day",
       "title": "Google App Engine preview released",
-      "summary": "Google launched a preview of App Engine on April 7, 2008 at Campfire One — a platform for running Python web apps on Google's infrastructure.",
-      "about": "App Engine (`app.yaml`, Bigtable, automatic scaling) was Google's first major PaaS — deploy without managing servers and scale to millions of page views. It influenced Heroku, AWS Elastic Beanstalk, and how startups thought about cloud-native deployment before containers dominated.",
+      "summary": "Google launched a preview of [App Engine] on April 7, 2008 at Campfire One — a platform for running [Python] web apps on Google's infrastructure.",
+      "about": "[App Engine] (`app.yaml`, Bigtable, automatic scaling) was Google's first major PaaS — deploy without managing servers and scale to millions of page views. It influenced [Heroku], [AWS] Elastic Beanstalk, and how startups thought about cloud-native deployment before containers dominated.",
       "narrative": {
-        "whyChosen": "App Engine pioneered managed platform hosting for web developers at hyperscale.",
+        "whyChosen": "[App Engine] pioneered managed platform hosting for web developers at hyperscale.",
         "whyImportant": "It showed PaaS could abstract servers, databases, and scaling behind a simple [SDK].",
-        "problemSolved": "Teams spent more time on ops and capacity planning than writing application code."
+        "problemSolved": "[Teams] spent more time on ops and capacity planning than writing application code."
       },
       "category": "software",
       "tags": [

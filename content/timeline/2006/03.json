@@ -6,12 +6,12 @@
       "date": "2006-03-06",
       "datePrecision": "day",
       "title": "Capistrano released",
-      "summary": "Jamis Buck released Capistrano 1.1 on March 6, 2006 — a Ruby DSL for automating multi-server application deploys over SSH.",
-      "about": "Capistrano (renamed from SwitchTower) codified `cap deploy`: git pull, bundle install, migrate database, restart Unicorn — across a fleet of servers with roles and stages. It taught a generation of Rails teams that deployment should be scripted, repeatable, and boring. Chef, Ansible, and later container rollouts extended the same idea at larger scale.",
+      "summary": "Jamis Buck released Capistrano 1.1 on March 6, 2006 — a [Ruby] DSL for automating multi-server application deploys over [SSH].",
+      "about": "Capistrano (renamed from SwitchTower) codified `cap deploy`: git pull, bundle install, migrate database, restart Unicorn — across a fleet of servers with roles and stages. It taught a generation of Rails teams that deployment should be scripted, repeatable, and boring. Chef, Ansible, and later [container] rollouts extended the same idea at larger scale.",
       "narrative": {
-        "whyChosen": "Capistrano made scripted multi-server deploys mainstream in the Ruby web ecosystem.",
-        "whyImportant": "It shifted deploys from manual SSH sessions to version-controlled [automation] recipes.",
-        "problemSolved": "Teams running Rails on several boxes needed consistent, auditable release steps without hand-typing commands on each host."
+        "whyChosen": "Capistrano made scripted multi-server deploys mainstream in the [Ruby] web ecosystem.",
+        "whyImportant": "It shifted deploys from manual [SSH] sessions to version-controlled [automation] recipes.",
+        "problemSolved": "[Teams] running Rails on several boxes needed consistent, auditable release steps without hand-typing commands on each host."
       },
       "category": "software",
       "tags": [
@@ -63,7 +63,7 @@
       "narrative": {
         "whyChosen": "S3 pioneered commodity object storage as a cloud [API].",
         "whyImportant": "It removed the need to operate file servers for static assets and archives.",
-        "problemSolved": "Teams provisioned NAS and FTP servers for files that needed global, durable storage."
+        "problemSolved": "[Teams] provisioned NAS and [FTP] servers for files that needed global, durable storage."
       },
       "category": "software",
       "tags": [
@@ -113,7 +113,7 @@
       "date": "2006-03-21",
       "datePrecision": "day",
       "title": "Twitter launches",
-      "summary": "Jack Dorsey sent the first tweet on March 21, 2006 — launching Twitter as a microblogging service built in Ruby on Rails.",
+      "summary": "Jack Dorsey sent the first tweet on March 21, 2006 — launching Twitter as a microblogging service built in [Ruby] on Rails.",
       "about": "Twitter's 140-character posts and public [API] shaped real-time web culture — hashtags, @mentions, and firehoses influenced every social feed and many developer tools. Its Rails origin story became legendary in startup engineering circles.",
       "narrative": {
         "whyChosen": "Twitter defined microblogging and real-time public messaging.",

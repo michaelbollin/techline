@@ -7,11 +7,11 @@
       "datePrecision": "day",
       "title": "Bootstrap 3 released",
       "summary": "Bootstrap 3.0 shipped on August 19, 2013 — a flat, mobile-first redesign that defined responsive web [UI] for the mid-2010s.",
-      "about": "Bootstrap 3 dropped gradients for flat design and made mobile breakpoints the default — `col-xs-12`, responsive navbars, and glyphicons in every tutorial. It shipped in Laravel, WordPress admin themes, and internal dashboards until Bootstrap 4's flexbox rewrite.",
+      "about": "Bootstrap 3 dropped gradients for flat design and made mobile breakpoints the default — `col-xs-12`, responsive navbars, and glyphicons in every tutorial. It shipped in Laravel, [WordPress] admin themes, and internal dashboards until Bootstrap 4's flexbox rewrite.",
       "narrative": {
         "whyChosen": "Bootstrap 3 codified mobile-first responsive design for mainstream developers.",
         "whyImportant": "Its grid and components became the visual language of the responsive web era.",
-        "problemSolved": "Teams rebuilt the same responsive layouts and media queries for every new project."
+        "problemSolved": "[Teams] rebuilt the same responsive layouts and media queries for every new project."
       },
       "category": "software",
       "tags": [
@@ -56,12 +56,12 @@
       "date": "2013-08-05",
       "datePrecision": "day",
       "title": "Webflow launched",
-      "summary": "Vlad Magdalin, Sergie Magdalin, and Bryant Chou launched Webflow on August 5, 2013 — a visual editor for designing and publishing responsive websites without hand-coding CSS.",
-      "about": "Webflow generates clean [HTML] and CSS from a drag-and-drop canvas — designers ship production sites without handing off to developers. It became the leading no-code visual development platform for agencies and marketing teams building on the modern web stack.",
+      "summary": "Vlad Magdalin, Sergie Magdalin, and Bryant Chou launched Webflow on August 5, 2013 — a visual editor for designing and publishing responsive websites without hand-coding [CSS].",
+      "about": "Webflow generates clean [HTML] and [CSS] from a drag-and-drop canvas — designers ship production sites without handing off to developers. It became the leading no-code visual development platform for agencies and marketing teams building on the modern web stack.",
       "narrative": {
         "whyChosen": "Webflow proved visual design tools could output production-grade responsive code.",
         "whyImportant": "It bridged designer workflows and deployable web apps before no-code went mainstream.",
-        "problemSolved": "Designers exported mockups to developers who rebuilt every layout by hand in [HTML] and CSS."
+        "problemSolved": "Designers exported mockups to developers who rebuilt every layout by hand in [HTML] and [CSS]."
       },
       "category": "software",
       "tags": [

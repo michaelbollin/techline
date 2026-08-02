@@ -7,10 +7,10 @@
       "datePrecision": "day",
       "title": "OCaml language released",
       "summary": "On May 9, 1996, Xavier Leroy released OCaml 1.00 — a fast, type-safe language combining [functional programming] with objects and modules.",
-      "about": "OCaml catches many bugs at compile time through strong types and pattern matching, while staying practical for systems work. Jane Street uses it for trading systems; it powers parts of the Coq proof assistant ecosystem and lightweight operating systems. It influenced F#, Rust's safety ideas, and verified software research.",
+      "about": "OCaml catches many bugs at compile time through strong types and pattern matching, while staying practical for systems work. Jane Street uses it for trading systems; it powers parts of the Coq proof assistant ecosystem and lightweight operating systems. It influenced F#, [Rust]'s safety ideas, and verified software research.",
       "narrative": {
         "whyChosen": "OCaml 1.00 was the first public release to combine objects with ML-style type safety and a production-speed native compiler.",
-        "whyImportant": "It became the go-to industrial ML-family language — influencing F#, Rust, and formally verified software.",
+        "whyImportant": "It became the go-to industrial ML-family language — influencing F#, [Rust], and formally verified software.",
         "problemSolved": "The previous Caml dialect needed objects without giving up the static safety and module system researchers relied on."
       },
       "category": "software",

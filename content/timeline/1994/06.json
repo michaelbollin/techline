@@ -7,9 +7,9 @@
       "datePrecision": "month",
       "title": "URI syntax standardized",
       "summary": "RFC 1630 defined Universal Resource Identifier syntax in June 1994 — a unifying scheme for naming and addressing objects on the web.",
-      "about": "URIs label resources with a scheme (`http:`, `ftp:`, `mailto:`) and a path — the foundation of every link, [API] endpoint, and redirect. URLs and URNs are subsets of URI; browsers resolve `https://example.com/docs` because this document formalized the grammar. REST, OpenAPI, and CDN routing all assume URI-shaped identifiers.",
+      "about": "URIs label resources with a scheme (`http:`, `ftp:`, `mailto:`) and a path — the foundation of every link, [API] endpoint, and redirect. URLs and URNs are subsets of URI; browsers resolve `https://example.com/docs` because this document formalized the grammar. [REST], OpenAPI, and CDN routing all assume URI-shaped identifiers.",
       "narrative": {
-        "whyChosen": "RFC 1630 was Tim Berners-Lee's first IETF document unifying how the web names resources.",
+        "whyChosen": "RFC 1630 was Tim Berners-Lee's first [IETF] document unifying how the web names resources.",
         "whyImportant": "It gave [HTTP], [HTML], and [DNS] a shared addressing vocabulary that still underpins the web.",
         "problemSolved": "Early web software mixed incompatible naming schemes; hyperlinks needed one portable syntax."
       },

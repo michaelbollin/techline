@@ -6,10 +6,10 @@
       "date": "2010-04-01",
       "datePrecision": "day",
       "title": "Flask web framework released",
-      "summary": "Armin Ronacher released Flask on April 1, 2010 — a microframework for Python web apps built on Werkzeug and Jinja2.",
-      "about": "Flask gives you routing, templates, and sessions without Django's batteries — you pick your own ORM and auth. Used for microservices, internal tools, ML model APIs, and prototypes. Example: a 50-line app that serves JSON from a SQLite DB and renders [HTML] with Jinja templates.",
+      "summary": "Armin Ronacher released Flask on April 1, 2010 — a microframework for [Python] web apps built on Werkzeug and Jinja2.",
+      "about": "Flask gives you routing, templates, and sessions without Django's batteries — you pick your own ORM and auth. Used for [microservices], internal tools, ML model APIs, and prototypes. Example: a 50-line app that serves [JSON] from a SQLite DB and renders [HTML] with Jinja templates.",
       "narrative": {
-        "whyChosen": "Flask became Python's lightweight alternative to Django for APIs and small services.",
+        "whyChosen": "Flask became [Python]'s lightweight alternative to Django for APIs and small services.",
         "whyImportant": "It proved a microframework could stay minimal while powering serious production apps via extensions.",
         "problemSolved": "Django was heavy for tiny APIs; developers wanted WSGI routing and templates without full MVC ceremony."
       },
@@ -56,12 +56,12 @@
       "date": "2010-04-12",
       "datePrecision": "day",
       "title": "F# 2.0 shipped with Visual Studio 2010",
-      "summary": "On April 12, 2010, Microsoft shipped F# 2.0 with Visual Studio 2010 — a functional-first language for .NET, ready for production teams.",
-      "about": "F# combines [functional programming] (immutable data, pattern matching) with full access to .NET libraries. Used in quantitative finance, data science, and Azure services. Several features Don Syme pioneered in F# later appeared in C#, including LINQ-style data queries and async/await.",
+      "summary": "On April 12, 2010, [Microsoft] shipped F# 2.0 with [Visual Studio] 2010 — a functional-first language for .NET, ready for production teams.",
+      "about": "F# combines [functional programming] (immutable data, pattern matching) with full access to .NET libraries. Used in quantitative finance, data science, and [Azure] services. Several features Don Syme pioneered in F# later appeared in C#, including [LINQ]-style data queries and async/await.",
       "narrative": {
-        "whyChosen": "F# brought industrial-strength [functional programming] into Visual Studio alongside C# and VB.",
+        "whyChosen": "F# brought industrial-strength [functional programming] into [Visual Studio] alongside C# and VB.",
         "whyImportant": "It proved [functional programming] could ship in enterprise tooling, not just research prototypes.",
-        "problemSolved": "Functional languages lacked .NET libraries and enterprise IDE support; researchers needed a practical FP on Microsoft's platform."
+        "problemSolved": "Functional languages lacked .NET libraries and enterprise [IDE] support; researchers needed a practical FP on [Microsoft]'s platform."
       },
       "category": "software",
       "tags": [
@@ -110,7 +110,7 @@
       "date": "2010-04-12",
       "datePrecision": "day",
       "title": ".NET 4.0 and C# 4.0 released",
-      "summary": "Microsoft shipped .NET Framework 4.0 on April 12, 2010 with C# 4.0 dynamic typing, optional parameters, and `async` preparation via the Task Parallel Library.",
+      "summary": "[Microsoft] shipped [.NET Framework] 4.0 on April 12, 2010 with C# 4.0 dynamic typing, optional parameters, and `async` preparation via the Task Parallel Library.",
       "about": "C# 4's `dynamic` keyword made COM and Office [automation] less painful; optional and named arguments cleaned up APIs. The Task Parallel Library laid groundwork for `async`/`await in C# 5 — keeping .NET competitive for Windows desktop and server through the 2010s.",
       "narrative": {
         "whyChosen": "C# 4 added dynamic interop and TPL — stepping stones to modern async .NET.",
@@ -163,12 +163,12 @@
       "date": "2010-04-02",
       "datePrecision": "day",
       "title": "James Gosling leaves Oracle",
-      "summary": "James Gosling left Oracle on April 2, 2010 — months after Oracle acquired Sun — symbolizing unease over Java's new stewardship.",
-      "about": "Gosling created Java at Sun in 1995 and the JVM that powers Android, Hadoop, and enterprise backends. His exit foreshadowed years of community tension over Oracle's Java governance and OpenJDK.",
+      "summary": "James Gosling left Oracle on April 2, 2010 — months after Oracle acquired [Sun] — symbolizing unease over [Java]'s new stewardship.",
+      "about": "Gosling created [Java] at [Sun] in 1995 and the [JVM] that powers [Android], Hadoop, and enterprise backends. His exit foreshadowed years of community tension over Oracle's [Java] governance and OpenJDK.",
       "narrative": {
-        "whyChosen": "Gosling's departure marked a turning point for Java under corporate ownership.",
+        "whyChosen": "Gosling's departure marked a turning point for [Java] under corporate ownership.",
         "whyImportant": "It signaled maintainer-founder distrust after a major [acquisition].",
-        "problemSolved": "Java community needed clarity on stewardship after Sun's sale to Oracle."
+        "problemSolved": "[Java] community needed clarity on stewardship after [Sun]'s sale to Oracle."
       },
       "category": "culture",
       "tags": [
@@ -224,11 +224,11 @@
       "date": "2010-04-29",
       "datePrecision": "day",
       "title": "Steve Jobs: \"Flash is a closed system\"",
-      "summary": "In his open letter Thoughts on [Flash], Steve Jobs explains why iPhone and iPad would never ship Adobe [Flash] — citing openness, battery life, touch, and security.",
-      "about": "Jobs argued [Flash] was built for mice and PCs, not touch mobile. The letter accelerated HTML5 video adoption and became the epitaph for [Flash] on phones — even as critics called Apple hypocritical about its own walled garden.",
+      "summary": "In his open letter Thoughts on [Flash], Steve Jobs explains why [iPhone] and [iPad] would never ship Adobe [Flash] — citing openness, battery life, touch, and security.",
+      "about": "Jobs argued [Flash] was built for mice and PCs, not touch mobile. The letter accelerated [HTML5] video adoption and became the epitaph for [Flash] on phones — even as critics called Apple hypocritical about its own walled garden.",
       "narrative": {
         "whyChosen": "The manifesto that helped kill [Flash] on mobile.",
-        "whyImportant": "It pushed the web toward H.264, HTML5, and native apps on iOS.",
+        "whyImportant": "It pushed the web toward H.264, [HTML5], and native apps on [iOS].",
         "problemSolved": "Mobile devices needed a stance on plugin-heavy desktop web content."
       },
       "category": "quote",
@@ -257,7 +257,7 @@
           "name": "Apple"
         }
       ],
-      "quoteText": "By almost any definition, Flash is a closed system.",
+      "quoteText": "By almost any definition, [Flash] is a closed system.",
       "importance": 3,
       "media": [
         {

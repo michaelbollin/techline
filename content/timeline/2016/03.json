@@ -6,10 +6,10 @@
       "date": "2016-03-02",
       "datePrecision": "day",
       "title": "CSS custom properties ship in Chrome 49",
-      "summary": "Google shipped CSS custom properties in Chrome 49 on March 2, 2016 — native `--variable` syntax with the `var()` function for runtime theming.",
-      "about": "CSS custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike [Sass] variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. Chrome 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
+      "summary": "Google shipped [CSS] custom properties in [Chrome] 49 on March 2, 2016 — native `--variable` syntax with the `var()` function for runtime theming.",
+      "about": "[CSS] custom properties let authors define `--main-color: #06c` and reference it with `color: var(--main-color)` — unlike [Sass] variables, they cascade, inherit, and update at runtime via JavaScript `setProperty()`. [Chrome] 49 brought them to mainstream browsers, enabling dynamic themes without preprocessor rebuilds.",
       "narrative": {
-        "whyChosen": "Native CSS variables closed the biggest gap between preprocessors and the platform.",
+        "whyChosen": "Native [CSS] variables closed the biggest gap between preprocessors and the platform.",
         "whyImportant": "Runtime-updatable variables enabled theming, design tokens, and responsive design without JavaScript frameworks.",
         "problemSolved": "Preprocessor variables were static — changing a theme required recompiling the entire stylesheet."
       },
@@ -56,7 +56,7 @@
       "datePrecision": "day",
       "title": "Samsung Galaxy S7 released",
       "summary": "Samsung began selling the Samsung Galaxy S7 — refined waterproof design and microSD return — solid iterative flagship.",
-      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to iPhone. Refined waterproof design and microsd return — solid iterative flagship. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
+      "about": "The Galaxy S series remained [Android]'s volume flagship counterweight to [iPhone]. Refined waterproof design and microsd return — solid iterative flagship. Developers testing [Android] builds routinely validated on Galaxy S hardware as the default non-[Pixel] reference.",
       "narrative": {
         "whyChosen": "The Samsung Galaxy S7 continued Samsung's annual [Android] flagship cadence.",
         "whyImportant": "Galaxy S devices set the hardware bar millions of [Android] users and developers encounter.",
@@ -118,12 +118,12 @@
       "date": "2016-03-15",
       "datePrecision": "day",
       "title": "Demis Hassabis's AlphaGo defeats Lee Sedol 4–1",
-      "summary": "DeepMind's AlphaGo beat Go champion Lee Sedol four games to one in Seoul on March 15, 2016 — a watershed moment for reinforcement learning watched by 200 million people.",
+      "summary": "DeepMind's AlphaGo beat [Go] champion Lee Sedol four games to one in Seoul on March 15, 2016 — a watershed moment for [reinforcement learning] watched by 200 million people.",
       "about": "Hassabis's team proved [neural network]s plus Monte Carlo tree search could master a game experts thought was a decade away from machine mastery. The victory reframed AI ambition from chess-scale search to intuition-like pattern recognition.",
       "narrative": {
         "whyChosen": "AlphaGo was the first AI victory that shocked both experts and the general public.",
         "whyImportant": "It proved deep RL could exceed human intuition in complex domains.",
-        "problemSolved": "Go's combinatorial explosion had resisted brute-force and handcrafted AI for decades."
+        "problemSolved": "[Go]'s combinatorial explosion had resisted brute-force and handcrafted AI for decades."
       },
       "category": "ai",
       "tags": [
@@ -176,10 +176,10 @@
       "date": "2016-03-31",
       "datePrecision": "day",
       "title": "iPhone SE (1st gen) released",
-      "summary": "Apple began selling the first iPhone SE on March 31, 2016 — packing iPhone 6S internals into the compact iPhone 5 body.",
+      "summary": "Apple began selling the first [iPhone] SE on March 31, 2016 — packing [iPhone] 6S internals into the compact [iPhone] 5 body.",
       "about": "The SE kept a 4-inch screen alive for developers who still tested small-size-class layouts. It also offered a lower entry price for markets and users who wanted modern [iOS] without phablet dimensions.",
       "narrative": {
-        "whyChosen": "The SE proved Apple would ship a modern small iPhone for holdouts and budget buyers.",
+        "whyChosen": "The SE proved Apple would ship a modern small [iPhone] for holdouts and budget buyers.",
         "whyImportant": "A compact [iOS] device kept small-screen layout testing relevant for developers.",
         "problemSolved": "Users who wanted a small phone had to buy aging hardware or switch platforms."
       },
