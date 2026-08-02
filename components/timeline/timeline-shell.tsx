@@ -8,6 +8,7 @@ import { EventModal } from "@/components/timeline/event-modal";
 import { EventPageContent } from "@/components/timeline/event-page-content";
 import { TimelineHoverEffectProvider } from "@/components/timeline/hover-effects/timeline-hover-effect-context";
 import { TimelineChartSkeleton } from "@/components/timeline/timeline-loading-shell";
+import { TimelineChromeProvider } from "@/components/timeline/timeline-chrome-context";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { getAnimationIdForEvent } from "@/lib/animations/registry";
 import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
@@ -56,37 +57,40 @@ export function TimelineShell({ events }: TimelineShellProps) {
 
   return (
     <TimelineHoverEffectProvider modalEventId={event?.id ?? null}>
-      <div
-        className="relative z-10 flex h-[100dvh] flex-col overflow-hidden"
-        inert={event ? true : undefined}
-        style={
-          {
-            "--site-footer-reserved-height": `${SITE_FOOTER_RESERVED_HEIGHT}px`,
-          } as CSSProperties
-        }
-      >
-        <div className="min-h-0 flex-1 md:pb-[var(--site-footer-reserved-height)]">
-          <ResponsiveTimeline
-            events={events}
-            filterPathKey={route.filterPathKey}
-            keyboardNavEnabled={!route.eventSlug}
-          />
+      <TimelineChromeProvider>
+        <div
+          className="relative z-10 flex h-[100dvh] flex-col overflow-hidden"
+          inert={event ? true : undefined}
+          style={
+            {
+              "--site-footer-reserved-height": `${SITE_FOOTER_RESERVED_HEIGHT}px`,
+              "--filter-sidebar-width": "min(22rem, 40vw)",
+            } as CSSProperties
+          }
+        >
+          <div className="min-h-0 flex-1 md:pb-[var(--site-footer-reserved-height)]">
+            <ResponsiveTimeline
+              events={events}
+              filterPathKey={route.filterPathKey}
+              keyboardNavEnabled={!route.eventSlug}
+            />
+          </div>
+          <SiteFooter fixed />
         </div>
-        <SiteFooter fixed />
-      </div>
 
-      {event && (
-        <EventModal returnHref={returnHref} animationId={modalAnimationId} titleId={modalTitleId}>
-          <EventPageContent
-            event={event}
-            related={related}
-            filterPathKey={route.filterPathKey}
-            showBackLink={false}
-            variant="modal"
-            headingId={modalTitleId}
-          />
-        </EventModal>
-      )}
+        {event && (
+          <EventModal returnHref={returnHref} animationId={modalAnimationId} titleId={modalTitleId}>
+            <EventPageContent
+              event={event}
+              related={related}
+              filterPathKey={route.filterPathKey}
+              showBackLink={false}
+              variant="modal"
+              headingId={modalTitleId}
+            />
+          </EventModal>
+        )}
+      </TimelineChromeProvider>
     </TimelineHoverEffectProvider>
   );
 }

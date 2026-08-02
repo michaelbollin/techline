@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -9,15 +9,43 @@ import {
   FilterSidebarFooter,
   FilterSidebarHeader,
   FilterSidebarTitle,
+  FILTER_SIDEBAR_TRANSITION_MS,
+  FILTER_SIDEBAR_WIDTH_CSS,
 } from "@/components/ui/filter/filter-sidebar";
 import { useTimelineFilterOptions } from "@/hooks/use-timeline-filter-options";
 import type { FilterUpdater } from "@/hooks/use-timeline-filters";
+import { cn } from "@/lib/cn";
 import { toggleFilterId } from "@/lib/timeline/filters";
 import type { TimelineEvent } from "@/lib/timeline/schema";
 
 import { FilterCheckboxList } from "./filter-checkbox-list";
 import { FilterToggleIcon } from "./filter-toggle-icon";
 import { TimelineSearchFilter } from "./timeline-search-filter";
+
+const filterPanelTransitionClassName =
+  "transition-[transform,width,opacity] duration-[220ms] ease-[cubic-bezier(0.22,1,0.36,1)]";
+
+function useFilterPanelMotion(isOpen: boolean) {
+  const [mounted, setMounted] = useState(isOpen);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setMounted(true);
+      const frame = requestAnimationFrame(() => {
+        requestAnimationFrame(() => setVisible(true));
+      });
+
+      return () => cancelAnimationFrame(frame);
+    }
+
+    setVisible(false);
+    const timeout = window.setTimeout(() => setMounted(false), FILTER_SIDEBAR_TRANSITION_MS);
+    return () => clearTimeout(timeout);
+  }, [isOpen]);
+
+  return { mounted, visible };
+}
 
 type TimelineFilterTriggerProps = {
   isOpen: boolean;
@@ -79,6 +107,7 @@ export function TimelineFilterSidebar({
   onOpenChange,
 }: TimelineFilterSidebarProps) {
   const { themeOptions } = useTimelineFilterOptions(events);
+  const { mounted, visible } = useFilterPanelMotion(isOpen);
 
   const selectedThemeIds = useMemo(
     () => new Set([...activeFilterIds].filter((id) => themeOptions.some((option) => option.id === id))),
@@ -112,16 +141,28 @@ export function TimelineFilterSidebar({
     onChange((prev) => toggleFilterId(prev, id));
   };
 
-  if (!isOpen) {
+  if (!mounted) {
     return null;
   }
 
   return (
     <>
+      {variant === "dock" && (
+        <div
+          aria-hidden
+          className={cn("shrink-0", filterPanelTransitionClassName)}
+          style={{ width: visible ? FILTER_SIDEBAR_WIDTH_CSS : 0 }}
+        />
+      )}
+
       {variant === "overlay" && (
         <button
           type="button"
-          className="fixed inset-x-0 top-14 bottom-0 z-30 bg-black/20"
+          className={cn(
+            "fixed inset-x-0 top-14 bottom-0 z-30 bg-black/20",
+            filterPanelTransitionClassName,
+            visible ? "opacity-100" : "opacity-0",
+          )}
           aria-label="Close filters"
           onClick={onClose}
         />
@@ -129,39 +170,42 @@ export function TimelineFilterSidebar({
 
       <FilterSidebar
         id="timeline-filter-sidebar"
-        className={
+        className={cn(
           variant === "overlay"
             ? "fixed inset-x-0 top-14 bottom-0 z-40 w-full border-l-0"
-            : undefined
-        }
+            : "fixed inset-y-0 right-0 z-40 h-auto",
+          filterPanelTransitionClassName,
+          variant === "dock" && (visible ? "translate-x-0" : "translate-x-full"),
+          variant === "overlay" && (visible ? "opacity-100" : "opacity-0"),
+        )}
       >
-      <FilterSidebarHeader inset={variant === "overlay" ? "overlay" : "dock"}>
-        <FilterSidebarTitle className={variant === "overlay" ? "pt-0" : undefined}>
-          Filters
-        </FilterSidebarTitle>
-        <TimelineSearchFilter
-          className="mt-6"
-          value={fulltextQuery}
-          onChange={onFulltextChange}
-        />
-      </FilterSidebarHeader>
+        <FilterSidebarHeader inset={variant === "overlay" ? "overlay" : "dock"}>
+          <FilterSidebarTitle className={variant === "overlay" ? "pt-0" : undefined}>
+            Filters
+          </FilterSidebarTitle>
+          <TimelineSearchFilter
+            className="mt-6"
+            value={fulltextQuery}
+            onChange={onFulltextChange}
+          />
+        </FilterSidebarHeader>
 
-      <FilterSidebarBody inset={variant === "overlay" ? "overlay" : "dock"}>
-        <FilterCheckboxList
-          className="mt-6"
-          label="Theme"
-          options={themeOptions}
-          selectedIds={selectedThemeIds}
-          onToggle={toggle}
-        />
-      </FilterSidebarBody>
+        <FilterSidebarBody inset={variant === "overlay" ? "overlay" : "dock"}>
+          <FilterCheckboxList
+            className="mt-6"
+            label="Theme"
+            options={themeOptions}
+            selectedIds={selectedThemeIds}
+            onToggle={toggle}
+          />
+        </FilterSidebarBody>
 
-      <FilterSidebarFooter inset={variant === "overlay" ? "overlay" : "dock"}>
-        <Button variant="text" onClick={onReset}>
-          Reset all
-        </Button>
-      </FilterSidebarFooter>
-    </FilterSidebar>
+        <FilterSidebarFooter inset={variant === "overlay" ? "overlay" : "dock"}>
+          <Button variant="text" onClick={onReset}>
+            Reset all
+          </Button>
+        </FilterSidebarFooter>
+      </FilterSidebar>
     </>
   );
 }

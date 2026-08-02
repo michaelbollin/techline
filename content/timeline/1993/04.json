@@ -148,6 +148,11 @@
       "importance": 1,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=TgwLzUK136M",
+          "title": "NCSA Mosaic 1.0 browser demo (1993)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/mosaic-1-0-released.png",
           "title": "NCSA Mosaic",

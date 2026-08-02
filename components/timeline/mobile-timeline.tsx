@@ -22,6 +22,7 @@ import { MobileTimelineNodeLabel } from "./mobile/mobile-timeline-node-label";
 import { MobileTimelineNodeStem } from "./mobile/mobile-timeline-node-stem";
 import { MobileTimelinePinchHint } from "./mobile/mobile-timeline-pinch-hint";
 import { TimelineFilterSidebar } from "./timeline-filters";
+import { useTimelineChrome } from "./timeline-chrome-context";
 import { TimelineHeader } from "./timeline-header";
 
 type MobileTimelineProps = {
@@ -39,7 +40,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const { fulltextQuery, setFulltextQuery, clearFulltext } = useTimelineFulltext();
-  const [filtersOpen, setFiltersOpen] = useState(false);
+  const { filtersOpen, setFiltersOpen } = useTimelineChrome();
   const [chartReady, setChartReady] = useState(false);
 
   useEffect(() => {
@@ -113,7 +114,7 @@ export function MobileTimeline({ events, filterPathKey = "" }: MobileTimelinePro
       <TimelineHeader
         isOpen={filtersOpen}
         activeCount={activeFilterCount}
-        onToggle={() => setFiltersOpen((open) => !open)}
+        onToggle={() => setFiltersOpen(!filtersOpen)}
         onLogoClick={handleLogoClick}
       />
 

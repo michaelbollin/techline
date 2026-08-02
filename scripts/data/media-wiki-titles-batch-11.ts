@@ -20,7 +20,6 @@ export const BATCH_11_WIKI_TITLES: Record<string, string> = {
   "nokia-n97-released": "Nokia N97",
   "php-5-3-released": "PHP",
   "uwsgi-released": "uWSGI",
-  "bigcommerce-launched": "BigCommerce",
   "mariadb-released": "MariaDB",
   "motorola-droid-released": "Droid (smartphone)",
   "go-open-sourced": "Go (programming language)",
@@ -53,7 +52,6 @@ export const BATCH_11_WIKI_TITLES: Record<string, string> = {
 };
 
 export const BATCH_11_OPENVERSE_QUERIES: Record<string, string> = {
-  "bigcommerce-launched": "bigcommerce",
   "uwsgi-released": "uwsgi",
   "stuxnet-discovered": "stuxnet worm",
 };

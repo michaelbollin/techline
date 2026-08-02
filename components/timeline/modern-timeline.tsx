@@ -23,7 +23,9 @@ import { SiteBrand } from "@/components/layout/site-brand";
 import { SITE_FOOTER_RESERVED_HEIGHT } from "@/lib/site";
 
 import { useTimelineHoverEvent } from "./hover-effects/timeline-hover-effect-context";
+import { useTimelineChrome } from "./timeline-chrome-context";
 import { TimelineFilterSidebar, TimelineFilterTrigger } from "./timeline-filters";
+import { TimelineHelpTrigger } from "./timeline-help-trigger";
 import { TimelineAxisGrid } from "./timeline-axis-grid";
 import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelinePanArrows } from "./timeline-pan-arrows";
@@ -52,9 +54,9 @@ export function ModernTimeline({
 
   const { activeFilterIds, updateFilters, setDeferUrlSync } = useTimelineFilters(filterPathKey);
   const { fulltextQuery, setFulltextQuery, clearFulltext } = useTimelineFulltext();
+  const { filtersOpen, setFiltersOpen } = useTimelineChrome();
   const [hovered, setHovered] = useState<PlottedEvent | null>(null);
   const [detailFits, setDetailFits] = useState<boolean | null>(null);
-  const [filtersOpen, setFiltersOpen] = useState(false);
   const [chartReady, setChartReady] = useState(false);
 
   useEffect(() => {
@@ -364,12 +366,17 @@ export function ModernTimeline({
         />
       </div>
 
-      <div className="absolute top-5 right-6 z-30 flex h-10 items-center overflow-visible sm:right-8">
-        <TimelineFilterTrigger
-          isOpen={filtersOpen}
-          activeCount={activeFilterCount}
-          onToggle={() => setFiltersOpen((open) => !open)}
-        />
+      <div className="absolute top-5 right-6 flex h-10 items-center gap-0.5 overflow-visible sm:right-8">
+        <div className={filtersOpen ? "relative z-30" : "relative z-40"}>
+          <TimelineHelpTrigger suppressed={filtersOpen} />
+        </div>
+        <div className="relative z-50">
+          <TimelineFilterTrigger
+            isOpen={filtersOpen}
+            activeCount={activeFilterCount}
+            onToggle={() => setFiltersOpen(!filtersOpen)}
+          />
+        </div>
       </div>
     </section>
   );

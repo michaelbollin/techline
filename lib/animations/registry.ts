@@ -15,11 +15,16 @@ export const EVENT_ANIMATION_IDS = {
   "linux-kernel-announced": "linux-kernel",
   "ibm-pc-5150-released": "ibm-pc-5150",
   "jack-kilby-integrated-circuit": "integrated-circuit",
-  "gpt-3-api-released": "gpt-3-api",
+  "chatgpt-released": "chatgpt",
   "arpanet-first-message": "arpanet",
   "tcp-ip-flag-day": "tcp-ip",
   "altman-ai-goes-wrong": "altman-senate",
   "jobs-flash-closed-system": "jobs-flash",
+  "steve-jobs-iphone-introduced": "iphone-intro",
+  "macintosh-128k-released": "macintosh-intro",
+  "mosaic-1-0-released": "mosaic-demo",
+  "android-announced": "android-intro",
+  "windows-95-released": "windows-95-welcome",
 } as const;
 
 type BuiltInAnimationId = (typeof EVENT_ANIMATION_IDS)[keyof typeof EVENT_ANIMATION_IDS];

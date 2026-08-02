@@ -4,6 +4,7 @@ import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
 
 import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
+import { TimelineChromeProvider } from "./timeline-chrome-context";
 import { MobileTimeline } from "./mobile-timeline";
 
 vi.mock("@/hooks/use-container-size", () => ({
@@ -30,7 +31,11 @@ describe("MobileTimeline", () => {
       makeTimelineEvent({ id: "mobile-1", slug: "mobile-event", title: "Mobile event", importance: 0 }),
     ];
 
-    render(<MobileTimeline events={events} />);
+    render(
+      <TimelineChromeProvider>
+        <MobileTimeline events={events} />
+      </TimelineChromeProvider>,
+    );
 
     expect(screen.getByRole("region", { name: "Interactive timeline" })).toBeInTheDocument();
     expect(
@@ -44,7 +49,11 @@ describe("MobileTimeline", () => {
   it("shows empty state when filters exclude all events", () => {
     const events = [makeTimelineEvent({ tags: ["ai"] })];
 
-    render(<MobileTimeline events={events} filterPathKey="web" />);
+    render(
+      <TimelineChromeProvider>
+        <MobileTimeline events={events} filterPathKey="web" />
+      </TimelineChromeProvider>,
+    );
 
     expect(screen.getByText("No events match the selected filters.")).toBeInTheDocument();
   });

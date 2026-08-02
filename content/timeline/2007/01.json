@@ -90,6 +90,11 @@
       "importance": 1,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=MnrJzXM7a6o",
+          "title": "Steve Jobs introduces the iPhone (Macworld 2007 keynote)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/steve-jobs-iphone-introduced.jpg",
           "title": "Steve Jobs",

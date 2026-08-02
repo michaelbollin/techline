@@ -4,6 +4,7 @@ import { SiteBrand } from "@/components/layout/site-brand";
 import { cn } from "@/lib/cn";
 
 import { TimelineFilterTrigger } from "./timeline-filters";
+import { TimelineHelpTrigger } from "./timeline-help-trigger";
 
 type TimelineHeaderProps = {
   isOpen: boolean;
@@ -21,7 +22,10 @@ export function TimelineHeader({ isOpen, activeCount, onToggle, onLogoClick }: T
       )}
     >
       <SiteBrand className="min-w-0 shrink" onClick={onLogoClick} />
-      <TimelineFilterTrigger isOpen={isOpen} activeCount={activeCount} onToggle={onToggle} />
+      <div className="flex items-center gap-0.5">
+        <TimelineHelpTrigger />
+        <TimelineFilterTrigger isOpen={isOpen} activeCount={activeCount} onToggle={onToggle} />
+      </div>
     </header>
   );
 }

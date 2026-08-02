@@ -13,17 +13,16 @@ export type Gpt3ApiScene = {
 
 export const GPT3_API_SCENES: readonly Gpt3ApiScene[] = [
   {
-    prompt: "What is GPT-3?",
-    completion:
-      "GPT-3 is a large language model that generates human-like text from a short prompt — 175 billion parameters, released by OpenAI in 2020.",
+    prompt: "Explain recursion to a beginner.",
+    completion: " A function that calls itself with a smaller problem until it hits a base case.",
   },
   {
-    prompt: "Write a tagline for AI APIs.",
-    completion: "Ship intelligence with a single request.",
+    prompt: "Write a haiku about debugging.",
+    completion: "\nIt worked yesterday.\nOne semicolon was missing.\nNow I question everything.",
   },
   {
-    prompt: "The future of software is",
-    completion: " conversational — you describe what you want and the model writes the code.",
+    prompt: "What can you help me with?",
+    completion: " Writing, coding, brainstorming, tutoring — just ask in plain language.",
   },
 ] as const;
 

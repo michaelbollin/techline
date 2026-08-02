@@ -23,7 +23,6 @@ export const BATCH_18_WIKI_TITLES: Record<string, string> = {
   "sanfilippo-redis-maintainer-steps-down": "Salvatore Sanfilippo",
   "twitter-2020-hack": "Twitter",
   "schrems-ii-privacy-shield-invalidated": "Schrems II",
-  "bigcommerce-ipo": "BigCommerce",
   "samsung-galaxy-note-20-released": "Samsung Galaxy Note 20",
   "laravel-8-released": "Laravel",
   "samsung-galaxy-z-fold-2-released": "Samsung Galaxy Z Fold 2",
@@ -55,7 +54,6 @@ export const BATCH_18_WIKI_TITLES: Record<string, string> = {
 export const BATCH_18_OPENVERSE_QUERIES: Record<string, string> = {
   "covid-19-pandemic-declared": "covid-19 pandemic",
   "solarwinds-hack-disclosed": "solarwinds",
-  "bigcommerce-ipo": "bigcommerce",
 };
 
 export const BATCH_18_COMMONS_OVERRIDES: Record<string, string> = {

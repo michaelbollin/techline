@@ -21,6 +21,26 @@ export const QUOTE_CLIP_CONFIGS = {
     videoSrc: "/media/timeline/ballmer-linux-cancer.mp4",
     posterSrc: "/media/timeline/ballmer-linux-cancer.jpg",
   },
+  "iphone-intro": {
+    videoSrc: "/media/timeline/steve-jobs-iphone-introduced.mp4",
+    posterSrc: "/media/timeline/steve-jobs-iphone-introduced.jpg",
+  },
+  "macintosh-intro": {
+    videoSrc: "/media/timeline/macintosh-128k-released.mp4",
+    posterSrc: "/media/timeline/macintosh-128k-released.jpg",
+  },
+  "mosaic-demo": {
+    videoSrc: "/media/timeline/mosaic-1-0-released.mp4",
+    posterSrc: "/media/timeline/mosaic-1-0-released.png",
+  },
+  "android-intro": {
+    videoSrc: "/media/timeline/android-announced.mp4",
+    posterSrc: "/media/timeline/android-announced.jpg",
+  },
+  "windows-95-welcome": {
+    videoSrc: "/media/timeline/windows-95-released.mp4",
+    posterSrc: "/media/timeline/windows-95-released.jpg",
+  },
 } as const satisfies Record<string, QuoteClipConfig>;
 
 export type QuoteClipAnimationId = keyof typeof QUOTE_CLIP_CONFIGS;

@@ -47,8 +47,8 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("jack-kilby-integrated-circuit")).toBe("integrated-circuit");
   });
 
-  it("returns the GPT-3 API animation for the first GPT API release", () => {
-    expect(getAnimationIdForEvent("gpt-3-api-released")).toBe("gpt-3-api");
+  it("returns the ChatGPT animation for the ChatGPT launch", () => {
+    expect(getAnimationIdForEvent("chatgpt-released")).toBe("chatgpt");
   });
 
   it("returns packet-network animations for ARPANET and TCP/IP milestones", () => {
@@ -61,6 +61,14 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("altman-ai-goes-wrong")).toBe("altman-senate");
     expect(getAnimationIdForEvent("jobs-flash-closed-system")).toBe("jobs-flash");
     expect(getAnimationIdForEvent("ballmer-linux-cancer")).toBe("ballmer-linux-cancer");
+  });
+
+  it("returns quote clip animations for landmark events with video backgrounds", () => {
+    expect(getAnimationIdForEvent("steve-jobs-iphone-introduced")).toBe("iphone-intro");
+    expect(getAnimationIdForEvent("macintosh-128k-released")).toBe("macintosh-intro");
+    expect(getAnimationIdForEvent("mosaic-1-0-released")).toBe("mosaic-demo");
+    expect(getAnimationIdForEvent("android-announced")).toBe("android-intro");
+    expect(getAnimationIdForEvent("windows-95-released")).toBe("windows-95-welcome");
   });
 
   it("returns null for events without an animation", () => {

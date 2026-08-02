@@ -131,6 +131,11 @@
       "importance": 3,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=Gx7oHmp9Cxg",
+          "title": "BBC Newsnight — Windows 95 launch coverage (August 1995)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/windows-95-released.svg",
           "title": "Windows 95",

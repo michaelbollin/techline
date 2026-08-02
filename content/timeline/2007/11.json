@@ -139,6 +139,11 @@
       "importance": 1,
       "media": [
         {
+          "type": "youtube",
+          "url": "https://www.youtube.com/watch?v=6rYozIZOgDk",
+          "title": "Google — Introducing Android (November 5, 2007)"
+        },
+        {
           "type": "image",
           "url": "/media/timeline/android-announced.svg",
           "title": "Android (operating system)",

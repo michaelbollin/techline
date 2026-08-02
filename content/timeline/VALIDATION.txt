@@ -1,5 +1,5 @@
 # Techline factual validation log
-# All 1044 timeline events checked against JSON sources + one additional reference each.
+# All 1042 timeline events checked against JSON sources + one additional reference each.
 # Legend: [x] verified  [~] minor wording/date nuance  [-] material issue
 #
 # Generated: 2026-07-28 | Last full pass: 2026-08-02
@@ -3449,12 +3449,9 @@ google-app-engine-open-signups - Google App Engine opens to all developers [x]
   Extra source: Google App Engine blog May 2008; Google press May 27 2008
   Verified: Google opened App Engine sign-ups to all developers on May 28, 2008 at Google I/O.
 
-bigcommerce-launched - BigCommerce launched [x]
-  Extra source: PR Newswire Mar 2010 citing Aug 2009 launch; Shero BigCommerce history
-  Verified: Eddie Machaalani and Mitchell Harper launched BigCommerce in August 2009.
 
 # Summary (batch 28 — CMS, e-commerce & web platforms)
-# [x] verified: 19
+# [x] verified: 18
 # [x] minor nuance: 1  (salesforce-appexchange-launched)
 # [-] issues: 0
 
@@ -3687,9 +3684,6 @@ drupal-9-released - Drupal 9 released [x]
   Extra source: drupal.org/project/drupal/releases/9.0.0; drupalize.me/blog/drupal-9-launches
   Verified: Drupal 9.0.0 released June 3, 2020 with updated Symfony/Twig dependencies and deprecated code removed.
 
-bigcommerce-ipo - BigCommerce IPO [x]
-  Extra source: investors.bigcommerce.com Aug 4 2020; SEC 424B4 prospectus
-  Verified: BigCommerce began trading on NASDAQ as BIGC on August 5, 2020 at $24 per share.
 
 payload-cms-released - Payload CMS released [x]
   Extra source: medium.com/payload-cms Jan 13 2021; PRNewswire Jan 2021

@@ -488,7 +488,6 @@ iPhone 3GS released
 Nokia N97 released
 PHP 5.3 released
 uWSGI released
-BigCommerce launched
 MariaDB first released
 Motorola Droid released
 Go programming language open-sourced
@@ -841,7 +840,6 @@ Compound launches COMP governance token
 Sanfilippo steps down from Redis
 Twitter internal tools hijacked in Bitcoin scam
 EU Court invalidates EU–U.S. Privacy Shield
-BigCommerce IPO
 Samsung Galaxy Note 20 released
 Laravel 8.0 released
 Samsung Galaxy Z Fold 2 released

@@ -8,6 +8,13 @@ export const filterSidebarInsetClassName = "px-6 pr-16 sm:pr-[4.25rem]";
 /** Symmetric inset for full-width mobile overlay (close control lives in the header). */
 export const filterSidebarOverlayInsetClassName = "px-6";
 
+/** Docked sidebar width — keep in sync with --filter-sidebar-width on the timeline shell. */
+export const FILTER_SIDEBAR_WIDTH_CSS = "min(22rem, 40vw)";
+
+export const filterSidebarWidthClassName = "w-[min(22rem,40vw)]";
+
+export const FILTER_SIDEBAR_TRANSITION_MS = 220;
+
 type FilterSidebarInset = "dock" | "overlay";
 
 function insetClassName(inset: FilterSidebarInset) {
@@ -22,7 +29,8 @@ export function FilterSidebar({ className, children, ...props }: FilterSidebarPr
   return (
     <aside
       className={cn(
-        "flex h-full w-[min(22rem,40vw)] shrink-0 flex-col border-l border-black bg-white",
+        "flex h-full shrink-0 flex-col border-l border-black bg-white",
+        filterSidebarWidthClassName,
         className,
       )}
       role="region"

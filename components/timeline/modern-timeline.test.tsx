@@ -5,12 +5,15 @@ import { describe, expect, it, vi } from "vitest";
 
 import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
 import { TimelineHoverEffectProvider } from "./hover-effects/timeline-hover-effect-context";
+import { TimelineChromeProvider } from "./timeline-chrome-context";
 import { ModernTimeline } from "./modern-timeline";
 
 function renderModernTimeline(events: Parameters<typeof ModernTimeline>[0]["events"], filterPathKey = "") {
   return render(
     <TimelineHoverEffectProvider>
-      <ModernTimeline events={events} filterPathKey={filterPathKey} />
+      <TimelineChromeProvider>
+        <ModernTimeline events={events} filterPathKey={filterPathKey} />
+      </TimelineChromeProvider>
     </TimelineHoverEffectProvider>,
   );
 }

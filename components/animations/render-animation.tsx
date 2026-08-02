@@ -60,7 +60,7 @@ export function RenderAnimation({ animationId, className }: RenderAnimationProps
       return <IbmPc5150Animation className={className} />;
     case "integrated-circuit":
       return <IntegratedCircuitAnimation className={className} />;
-    case "gpt-3-api":
+    case "chatgpt":
       return <Gpt3ApiAnimation className={className} />;
     case "arpanet":
       return <ArpanetAnimation className={className} />;
