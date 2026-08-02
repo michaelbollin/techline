@@ -7,6 +7,10 @@ describe("getAnimationIdForEvent", () => {
     expect(getAnimationIdForEvent("cd-rom-introduced")).toBe("cd-rom");
   });
 
+  it("returns the C language animation for C created", () => {
+    expect(getAnimationIdForEvent("c-language-created")).toBe("c-language");
+  });
+
   it("returns the Quicksort animation for the Quicksort event", () => {
     expect(getAnimationIdForEvent("tony-hoare-quicksort-published")).toBe("quicksort");
   });

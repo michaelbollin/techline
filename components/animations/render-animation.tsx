@@ -9,6 +9,7 @@ import type { AnimationId } from "@/lib/animations/registry";
 import { ArpanetAnimation } from "./arpanet";
 import { BallmerDevelopersAnimation } from "./ballmer-developers";
 import { CdRomAnimation } from "./cd-rom";
+import { CLanguageAnimation } from "./c-language";
 import { Gpt3ApiAnimation } from "./gpt-3-api";
 import { GitBranchesAnimation } from "./git-branches";
 import { IntegratedCircuitAnimation } from "./integrated-circuit";
@@ -40,6 +41,8 @@ export function RenderAnimation({ animationId, className }: RenderAnimationProps
   switch (animationId) {
     case "cd-rom":
       return <CdRomAnimation className={className} />;
+    case "c-language":
+      return <CLanguageAnimation className={className} />;
     case "quicksort":
       return <QuicksortAnimation className={className} />;
     case "git-branches":

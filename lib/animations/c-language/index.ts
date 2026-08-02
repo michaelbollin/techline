@@ -1,0 +1,18 @@
+export {
+  C_TOKEN_SPECS,
+  createCLanguageCanvasState,
+  layoutMemoryCells,
+  layoutQueuePosition,
+  machineCenter,
+  machineMouth,
+  MEMORY_VALUES,
+  PHASE_MS,
+  renderCLanguageCanvas,
+  stepCLanguageCanvasState,
+  type BitParticle,
+  type CLanguageCanvasState,
+  type CLanguagePhase,
+  type CTokenSpec,
+  type MemoryCell,
+  type TokenVisual,
+} from "./canvas";

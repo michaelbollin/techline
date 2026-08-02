@@ -25,6 +25,7 @@ export const EVENT_ANIMATION_IDS = {
   "mosaic-1-0-released": "mosaic-demo",
   "android-announced": "android-intro",
   "windows-95-released": "windows-95-welcome",
+  "c-language-created": "c-language",
 } as const;
 
 type BuiltInAnimationId = (typeof EVENT_ANIMATION_IDS)[keyof typeof EVENT_ANIMATION_IDS];
