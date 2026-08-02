@@ -41,6 +41,20 @@ export function eventToTimestamp(date: string, precision: TimelineEvent["datePre
   return Date.parse(`${eventToIsoDate(date, precision)}T12:00:00Z`);
 }
 
+export function timestampToFractionalYear(timestamp: number): number {
+  const year = new Date(timestamp).getUTCFullYear();
+  const start = Date.UTC(year, 0, 1);
+  const end = Date.UTC(year + 1, 0, 1);
+  return year + (timestamp - start) / (end - start);
+}
+
+export function eventToFractionalYear(
+  date: string,
+  precision: TimelineEvent["datePrecision"],
+): number {
+  return timestampToFractionalYear(eventToTimestamp(date, precision));
+}
+
 export function toPlottedEvents(events: TimelineEvent[]): PlottedEvent[] {
   return events
     .map((event) => ({

@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import { makeTimelineEvent } from "@/test/fixtures/timeline-event";
 import {
+  eventToFractionalYear,
   eventToTimestamp,
   filterEventsInTimelineRange,
   getTimelineExtent,
@@ -15,6 +16,12 @@ describe("eventToTimestamp", () => {
     expect(eventToTimestamp("2000-01", "month")).toBe(Date.parse("2000-01-15T12:00:00Z"));
     expect(eventToTimestamp("2000-01-15", "day")).toBe(Date.parse("2000-01-15T12:00:00Z"));
     expect(eventToTimestamp("1990", "decade")).toBe(Date.parse("1995-01-01T12:00:00Z"));
+  });
+
+  it("maps timestamps to fractional years", () => {
+    expect(eventToFractionalYear("2000", "year")).toBeCloseTo(2000.5, 2);
+    expect(eventToFractionalYear("2000-01-15", "day")).toBeCloseTo(2000.04, 2);
+    expect(eventToFractionalYear("1990", "decade")).toBeCloseTo(1995, 2);
   });
 });
 

@@ -52,6 +52,20 @@ function decadeStartsInOgRange(): number[] {
   return decades;
 }
 
+export type OgTimelineGraphicOptions = {
+  /** Fractional calendar year for a highlighted event dot on the axis. */
+  highlightYear?: number;
+};
+
+function highlightDotMarkup(highlightYear: number, width: number, baseAxisY: number): string {
+  const clampedYear = Math.max(OG_YEAR_MIN, Math.min(OG_YEAR_MAX, highlightYear));
+  const x = yearToX(clampedYear, width);
+  const y = axisYAt(x, baseAxisY);
+  const radius = 10;
+
+  return `<circle cx="${x}" cy="${y}" r="${radius}" fill="${TIMELINE_INK}" stroke="#ffffff" stroke-width="3"/>`;
+}
+
 function dotMarkup(dots: OgDot[], width: number, baseAxisY: number): string {
   return dots
     .map((dot) => {
@@ -74,7 +88,11 @@ function dotMarkup(dots: OgDot[], width: number, baseAxisY: number): string {
 /**
  * SVG markup for the wavy axis, decade bands, and event dots — sized for OG / social cards.
  */
-export function buildOgTimelineSvg(width: number, height: number): string {
+export function buildOgTimelineSvg(
+  width: number,
+  height: number,
+  options: OgTimelineGraphicOptions = {},
+): string {
   const baseAxisY = Math.round(height * 0.38);
   const bandBottom = baseAxisY + OG_DECADE_BAND_DEPTH;
   const axisPath = buildAxisPath(width, baseAxisY);
@@ -109,10 +127,15 @@ export function buildOgTimelineSvg(width: number, height: number): string {
   ${bandPaths.map((path) => `<path d="${path}" fill="url(#og-decade-band)"/>`).join("")}
   <path d="${axisPath}" fill="none" stroke="${TIMELINE_INK}" stroke-width="${TIMELINE_AXIS_STROKE_WIDTH}"/>
   ${dotMarkup(OG_DOTS, width, baseAxisY)}
+  ${options.highlightYear === undefined ? "" : highlightDotMarkup(options.highlightYear, width, baseAxisY)}
   ${decadeLabels}
 </svg>`;
 }
 
-export function ogTimelineGraphicDataUri(width: number, height: number): string {
-  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(buildOgTimelineSvg(width, height))}`;
+export function ogTimelineGraphicDataUri(
+  width: number,
+  height: number,
+  options: OgTimelineGraphicOptions = {},
+): string {
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(buildOgTimelineSvg(width, height, options))}`;
 }
