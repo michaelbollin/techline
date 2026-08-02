@@ -43,6 +43,9 @@ export function timelineAxisYRatio(viewportHeight: number): number {
 /** Animated zoom/pan duration in ms. */
 export const TIMELINE_TRANSITION_MS = 400;
 
+/** Grace period before clearing hover when pointer leaves dot/label (bridge gap to bubble). */
+export const TIMELINE_HOVER_CLEAR_DELAY_MS = 160;
+
 /** Distance from axis to year labels. */
 export const TIMELINE_YEAR_LABEL_OFFSET = 80;
 

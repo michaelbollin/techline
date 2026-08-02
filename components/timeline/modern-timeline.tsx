@@ -11,8 +11,11 @@ import { useTimelineFilterZoom } from "@/hooks/use-timeline-filter-zoom";
 import { useTimelinePlot } from "@/hooks/use-timeline-plot";
 import { useTimelineViewActions } from "@/hooks/use-timeline-view-actions";
 import { useTimelineZoom } from "@/hooks/use-timeline-zoom";
-import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_INK } from "@/lib/timeline/constants";
-import { timelineEventDetailLayout } from "@/lib/timeline/event-detail-layout";
+import { TIMELINE_AXIS_STROKE_WIDTH, TIMELINE_HOVER_CLEAR_DELAY_MS, TIMELINE_INK } from "@/lib/timeline/constants";
+import {
+  TIMELINE_USE_HOVER_DETAIL_PANEL,
+  timelineEventDetailLayout,
+} from "@/lib/timeline/event-detail-layout";
 import { buildAxisPath } from "@/lib/timeline/axis-path";
 import { eventPath } from "@/lib/timeline/format";
 import { measureTimelineLabelWidth } from "@/lib/timeline/measure-label";
@@ -31,6 +34,7 @@ import { TimelineEventDetail } from "./timeline-event-detail";
 import { TimelinePanArrows } from "./timeline-pan-arrows";
 import { TimelineNodeDot } from "./timeline-node-dot";
 import { TimelineNodeLabel } from "./timeline-node-label";
+import { TimelineNodeStemHit } from "./timeline-node-stem-hit";
 import { TimelineNodeStem } from "./timeline-node-stem";
 
 type ModernTimelineProps = {
@@ -151,19 +155,62 @@ export function ModernTimeline({
   }, [filteredEvents, hovered]);
 
   const shouldMeasureDetail = Boolean(displayedHovered && detailLayout.show);
-  const showDetailPanel = shouldMeasureDetail && detailFits !== false;
+  const showDetailPanel =
+    TIMELINE_USE_HOVER_DETAIL_PANEL && shouldMeasureDetail && detailFits !== false;
   const useExpandedLabel = Boolean(displayedHovered && !showDetailPanel);
 
   const hoveredIdRef = useRef<string | null>(null);
+  const clearHoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const handleHover = useCallback((event: PlottedEvent | null) => {
-    const nextId = event?.id ?? null;
-    if (hoveredIdRef.current !== nextId) {
-      hoveredIdRef.current = nextId;
-      setDetailFits(null);
+  const cancelScheduledHoverClear = useCallback(() => {
+    if (clearHoverTimeoutRef.current !== null) {
+      clearTimeout(clearHoverTimeoutRef.current);
+      clearHoverTimeoutRef.current = null;
     }
-    setHovered(event);
   }, []);
+
+  const clearHoverImmediate = useCallback(() => {
+    cancelScheduledHoverClear();
+    if (hoveredIdRef.current !== null) {
+      hoveredIdRef.current = null;
+      if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
+        setDetailFits(null);
+      }
+    }
+    setHovered(null);
+  }, [cancelScheduledHoverClear]);
+
+  const handleHover = useCallback(
+    (event: PlottedEvent | null) => {
+      cancelScheduledHoverClear();
+
+      if (event) {
+        const nextId = event.id;
+        if (hoveredIdRef.current !== nextId) {
+          hoveredIdRef.current = nextId;
+          if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
+            setDetailFits(null);
+          }
+        }
+        setHovered(event);
+        return;
+      }
+
+      clearHoverTimeoutRef.current = setTimeout(() => {
+        clearHoverTimeoutRef.current = null;
+        hoveredIdRef.current = null;
+        if (TIMELINE_USE_HOVER_DETAIL_PANEL) {
+          setDetailFits(null);
+        }
+        setHovered(null);
+      }, TIMELINE_HOVER_CLEAR_DELAY_MS);
+    },
+    [cancelScheduledHoverClear],
+  );
+
+  useEffect(() => {
+    return () => cancelScheduledHoverClear();
+  }, [cancelScheduledHoverClear]);
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => setDetailFits(null));
@@ -186,6 +233,23 @@ export function ModernTimeline({
     return displayedHovered;
   }, [displayedHovered, dotLayout, labelLayout, useExpandedLabel]);
 
+  const hoveredStemLayout = useMemo(() => {
+    if (!displayedHovered || !useExpandedLabel) {
+      return null;
+    }
+
+    const layout = labelLayout.get(displayedHovered.id);
+    if (layout) {
+      return layout;
+    }
+
+    return {
+      showLabel: true,
+      lane: 0,
+      width: measureTimelineLabelWidth(displayedHovered.bubbleTitle),
+    };
+  }, [displayedHovered, labelLayout, useExpandedLabel]);
+
   useEffect(() => {
     setHoveredEventId(displayedHovered?.id ?? null);
   }, [displayedHovered?.id, setHoveredEventId]);
@@ -204,12 +268,12 @@ export function ModernTimeline({
     (event: MouseEvent<HTMLAnchorElement>) => {
       event.preventDefault();
       resetView();
-      handleHover(null);
+      clearHoverImmediate();
       if (pathname !== "/") {
         router.push("/", { scroll: false });
       }
     },
-    [pathname, resetView, router, handleHover],
+    [pathname, resetView, router, clearHoverImmediate],
   );
 
   return (
@@ -235,7 +299,7 @@ export function ModernTimeline({
                 width={width}
                 height={height}
                 className="block touch-none select-none"
-                onPointerLeave={() => handleHover(null)}
+                onPointerLeave={() => clearHoverImmediate()}
               >
                 <g>
                   <TimelineAxisGrid
@@ -271,6 +335,18 @@ export function ModernTimeline({
                       );
                     })}
                   </g>
+
+                  {displayedHovered && hoveredStemLayout && (
+                    <TimelineNodeStemHit
+                      event={displayedHovered}
+                      xScale={xScale}
+                      axisOffset={dotLayout.get(displayedHovered.id)?.axisOffset ?? 0}
+                      getAxisY={getAxisY}
+                      layout={hoveredStemLayout}
+                      stemStartY={stemStartY.get(displayedHovered.id) ?? 0}
+                      onHover={handleHover}
+                    />
+                  )}
 
                   <g className="timeline-dots">
                     {plotted.map((event) => {
@@ -334,7 +410,7 @@ export function ModernTimeline({
               </svg>
             )}
 
-            {shouldMeasureDetail && displayedHovered && (
+            {TIMELINE_USE_HOVER_DETAIL_PANEL && shouldMeasureDetail && displayedHovered && (
               <TimelineEventDetail
                 key={`${displayedHovered.id}:${detailLayout.maxHeight}`}
                 event={displayedHovered}

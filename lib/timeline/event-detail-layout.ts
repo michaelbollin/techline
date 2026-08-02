@@ -1,5 +1,12 @@
 import { decadeBandBottomY } from "./axis-decades";
 
+/**
+ * Hover detail mode: expanded label bubble (default) vs axis-band detail panel (legacy).
+ * When false, hover shows the growing black bubble on the label stem instead of
+ * `TimelineEventDetail` above/below the decade band.
+ */
+export const TIMELINE_USE_HOVER_DETAIL_PANEL = false;
+
 /** Gap between the decade/year label band and hover detail content (px). */
 export const TIMELINE_EVENT_DETAIL_TOP_GAP = 16;
 

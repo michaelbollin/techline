@@ -108,7 +108,15 @@ function useAnimatedBubbleSize(
   return size;
 }
 
-function ExpandedBubbleBody({ event, scrollable = false }: { event: PlottedEvent; scrollable?: boolean }) {
+function ExpandedBubbleBody({
+  event,
+  scrollable = false,
+  onReadMore,
+}: {
+  event: PlottedEvent;
+  scrollable?: boolean;
+  onReadMore: () => void;
+}) {
   return (
     <div
       className={cn(
@@ -138,6 +146,16 @@ function ExpandedBubbleBody({ event, scrollable = false }: { event: PlottedEvent
         <p className="mt-2.5 text-sm leading-relaxed text-white/90">
           <TextWithAbbreviationTooltips text={event.summary} interactive />
         </p>
+        <button
+          type="button"
+          className="mt-3 inline-block bg-transparent p-0 text-left text-sm font-medium text-white underline decoration-white/35 underline-offset-4 hover:decoration-white"
+          onClick={(pointerEvent) => {
+            pointerEvent.stopPropagation();
+            onReadMore();
+          }}
+        >
+          Read more
+        </button>
       </div>
     </div>
   );
@@ -196,7 +214,8 @@ export function TimelineNodeLabel({
         className="cursor-pointer outline-none"
         transform={`translate(${boxLeft}, ${collapsedTop})`}
         onClick={onClick}
-        onMouseEnter={() => onHover(event)}
+        onPointerEnter={() => onHover(event)}
+        onPointerLeave={() => onHover(null)}
         onFocus={() => onHover(event)}
         tabIndex={0}
         role="button"
@@ -254,7 +273,8 @@ export function TimelineNodeLabel({
       className="cursor-pointer outline-none"
       transform={`translate(${anchorX}, ${anchorBottom})`}
       onClick={onClick}
-      onMouseEnter={() => onHover(event)}
+      onPointerEnter={() => onHover(event)}
+      onPointerLeave={() => onHover(null)}
       onFocus={() => onHover(event)}
       tabIndex={0}
       role="button"
@@ -270,7 +290,11 @@ export function TimelineNodeLabel({
           aria-hidden
         >
           <div ref={measureRef} style={{ width: targetWidth }}>
-            <ExpandedBubbleBody event={event} scrollable={isHeightClamped} />
+            <ExpandedBubbleBody
+              event={event}
+              scrollable={isHeightClamped}
+              onReadMore={onClick}
+            />
           </div>
         </foreignObject>
       )}
@@ -292,7 +316,11 @@ export function TimelineNodeLabel({
           className={cn(!showDetail && "pointer-events-none opacity-0")}
           style={{ opacity: reveal }}
         >
-          <ExpandedBubbleBody event={event} scrollable={isHeightClamped} />
+          <ExpandedBubbleBody
+            event={event}
+            scrollable={isHeightClamped}
+            onReadMore={onClick}
+          />
         </foreignObject>
 
         {showCollapsedTitle && (

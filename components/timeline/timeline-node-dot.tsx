@@ -43,7 +43,8 @@ export function TimelineNodeDot({
         r={hitR}
         fill="transparent"
         onClick={onClick}
-        onMouseEnter={() => onHover(event)}
+        onPointerEnter={() => onHover(event)}
+        onPointerLeave={() => onHover(null)}
         onFocus={() => onHover(event)}
         tabIndex={0}
         role="button"

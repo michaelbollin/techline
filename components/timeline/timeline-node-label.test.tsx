@@ -74,5 +74,58 @@ describe("TimelineNodeLabel", () => {
 
     expect(container.querySelector("foreignObject")).toBeTruthy();
     expect(container.querySelector("line")).toBeNull();
+    expect(screen.getByRole("button", { name: "Read more" })).toBeInTheDocument();
+  });
+
+  it("opens the event when Read more is clicked", async () => {
+    const user = userEvent.setup();
+    const onClick = vi.fn();
+
+    render(
+      <svg>
+        <TimelineNodeLabel
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          layout={layout}
+          viewportWidth={1200}
+          isHovered
+          expanded
+          onHover={() => {}}
+          onClick={onClick}
+        />
+      </svg>,
+    );
+
+    await user.click(screen.getByRole("button", { name: "Read more" }));
+    expect(onClick).toHaveBeenCalledTimes(1);
+  });
+
+  it("clears hover when pointer leaves expanded bubble", async () => {
+    const user = userEvent.setup();
+    const onHover = vi.fn();
+
+    render(
+      <svg>
+        <TimelineNodeLabel
+          event={event}
+          xScale={xScale}
+          getAxisY={getAxisY}
+          layout={layout}
+          viewportWidth={1200}
+          isHovered
+          expanded
+          onHover={onHover}
+          onClick={() => {}}
+        />
+      </svg>,
+    );
+
+    const label = screen.getByRole("button", { name: "Python 2.0, October 16, 2000" });
+    await user.hover(label);
+    expect(onHover).toHaveBeenCalledWith(event);
+
+    await user.unhover(label);
+    expect(onHover).toHaveBeenCalledWith(null);
   });
 });

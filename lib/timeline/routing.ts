@@ -1,7 +1,7 @@
 import type { TimelineEvent } from "./schema";
 
 export function isEventSlug(segment: string, events: readonly TimelineEvent[]): boolean {
-  if (segment.includes(",")) {
+  if (!segment || segment.includes(",")) {
     return false;
   }
 

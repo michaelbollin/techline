@@ -11,6 +11,8 @@ type BuildPageMetadataOptions = {
   path?: string;
   /** Absolute or site-relative image URL for Open Graph / Twitter. */
   image?: string;
+  /** When false, omit OG/Twitter images so route `opengraph-image` files apply. */
+  omitImage?: boolean;
   type?: "website" | "article";
   noIndex?: boolean;
 };
@@ -25,8 +27,13 @@ export function buildPageMetadata(options: BuildPageMetadataOptions = {}): Metad
   const description = options.description ?? SITE_DESCRIPTION;
   const path = options.path ?? "/";
   const url = absoluteSiteUrl(path);
-  const imagePath = options.image ?? DEFAULT_OG_IMAGE_PATH;
-  const imageUrl = imagePath.startsWith("http") ? imagePath : absoluteSiteUrl(imagePath);
+  const imagePath = options.image ?? (options.omitImage ? undefined : DEFAULT_OG_IMAGE_PATH);
+  const imageUrl =
+    imagePath === undefined
+      ? undefined
+      : imagePath.startsWith("http")
+        ? imagePath
+        : absoluteSiteUrl(imagePath);
 
   const metadata: Metadata = {
     title,
@@ -41,20 +48,24 @@ export function buildPageMetadata(options: BuildPageMetadataOptions = {}): Metad
       siteName: SITE_NAME,
       type: options.type ?? "website",
       locale: "en_US",
-      images: [
-        {
-          url: imageUrl,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
+      ...(imageUrl
+        ? {
+            images: [
+              {
+                url: imageUrl,
+                width: 1200,
+                height: 630,
+                alt: title,
+              },
+            ],
+          }
+        : {}),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [imageUrl],
+      ...(imageUrl ? { images: [imageUrl] } : {}),
     },
   };
 

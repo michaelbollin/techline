@@ -2,10 +2,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { filterLabels, parseFilterSegment } from "@/lib/timeline/filter-url";
-import { getEventCoverImageUrl } from "@/lib/timeline/event-image";
 import { getTimeline } from "@/lib/timeline/get-timeline";
 import { getEventBySlug, isEventSlug } from "@/lib/timeline/routing";
-import { absoluteSiteUrl, buildPageMetadata } from "@/lib/site-metadata";
+import { buildPageMetadata } from "@/lib/site-metadata";
 import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/site";
 
 type SegmentPageProps = {
@@ -23,14 +22,13 @@ export async function generateMetadata({ params }: SegmentPageProps): Promise<Me
 
   if (isEventSlug(segment, events)) {
     const event = getEventBySlug(events, segment)!;
-    const coverUrl = getEventCoverImageUrl(event.media);
 
     return buildPageMetadata({
       title: event.title,
       description: event.summary,
       path: `/${segment}`,
       type: "article",
-      image: coverUrl ? absoluteSiteUrl(coverUrl) : undefined,
+      omitImage: true,
     });
   }
 
