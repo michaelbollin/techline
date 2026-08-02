@@ -1,6 +1,7 @@
-import { TIMELINE_INK } from "@/lib/timeline/constants";
+import { TIMELINE_INK, TIMELINE_STEM_HOVER_STROKE_WIDTH, TIMELINE_STEM_STROKE_WIDTH } from "@/lib/timeline/constants";
 import { labelBottomLocalY, type LabelLayout } from "@/lib/timeline/label-layout";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
+import { cn } from "@/lib/cn";
 
 type TimelineNodeStemProps = {
   event: PlottedEvent;
@@ -9,6 +10,7 @@ type TimelineNodeStemProps = {
   getAxisY: (x: number) => number;
   layout: LabelLayout;
   stemStartY: number;
+  isHovered?: boolean;
 };
 
 export function TimelineNodeStem({
@@ -18,6 +20,7 @@ export function TimelineNodeStem({
   getAxisY,
   layout,
   stemStartY,
+  isHovered = false,
 }: TimelineNodeStemProps) {
   const x = xScale(event.timestamp) + axisOffset;
   const axisY = getAxisY(x);
@@ -30,7 +33,10 @@ export function TimelineNodeStem({
       y1={axisY + stemStartY}
       y2={axisY + stemEndY}
       stroke={TIMELINE_INK}
-      strokeWidth={1}
+      strokeWidth={isHovered ? TIMELINE_STEM_HOVER_STROKE_WIDTH : TIMELINE_STEM_STROKE_WIDTH}
+      className={cn(
+        "transition-[stroke-width] duration-[220ms] ease-[cubic-bezier(0.22,1,0.36,1)]",
+      )}
     />
   );
 }

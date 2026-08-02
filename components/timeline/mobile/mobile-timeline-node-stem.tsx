@@ -1,4 +1,4 @@
-import { TIMELINE_INK } from "@/lib/timeline/constants";
+import { TIMELINE_INK, TIMELINE_STEM_STROKE_WIDTH } from "@/lib/timeline/constants";
 import { labelLeftLocalX, type VerticalLabelLayout } from "@/lib/timeline/vertical/label-layout";
 import type { PlottedEvent } from "@/lib/timeline/plot-data";
 
@@ -30,7 +30,7 @@ export function MobileTimelineNodeStem({
       y1={y}
       y2={y}
       stroke={TIMELINE_INK}
-      strokeWidth={1}
+      strokeWidth={TIMELINE_STEM_STROKE_WIDTH}
     />
   );
 }

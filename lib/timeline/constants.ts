@@ -16,6 +16,10 @@ export const TIMELINE_PAPER = "#ffffff";
 /** Main timeline axis stroke width (px). */
 export const TIMELINE_AXIS_STROKE_WIDTH = 2.5;
 
+/** Label stem from axis to pill (px). */
+export const TIMELINE_STEM_STROKE_WIDTH = 1.5;
+export const TIMELINE_STEM_HOVER_STROKE_WIDTH = 2.5;
+
 /** Vertical position of the axis as a fraction of viewport height. */
 export const TIMELINE_AXIS_Y_RATIO = 0.3;
 

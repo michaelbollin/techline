@@ -266,6 +266,7 @@ export function ModernTimeline({
                           getAxisY={getAxisY}
                           layout={layout}
                           stemStartY={stemStartY.get(event.id) ?? 0}
+                          isHovered={hovered?.id === event.id}
                         />
                       );
                     })}
